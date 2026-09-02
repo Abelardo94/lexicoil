@@ -83,6 +83,13 @@ const ListeningScript = (() => {
       if (inline?.length > 1) return inline;
     }
 
+    // One labelled turn ("Man: It's freezing…") parses fine — keep it. Falling
+    // through to the Narrator branch below would hand the raw line to TTS, which
+    // then reads the label out loud.
+    if (segments.length === 1 && segments[0].speaker !== 'Narrator') {
+      return segments;
+    }
+
     if (segments.length <= 1 && text) {
       return [{ speaker: 'Narrator', text: String(text).trim() }];
     }
@@ -111,11 +118,26 @@ const ListeningScript = (() => {
     );
   }
 
+  /** Text handed to a single-voice TTS job. When the whole transcript is one
+   *  labelled turn ("Man: It's freezing outside today!"), the label must not reach
+   *  the synthesizer — it gets read out loud. Unlabelled transcripts (Teil 3/4
+   *  announcements) pass through untouched. Callers that resolve TTS text outside
+   *  prepare() must use this so the cache key matches what was pregenerated. */
+  function singleVoiceText(text, segments) {
+    const segs = segments || parseSegments(text);
+    if (segs.length === 1) return String(segs[0].text || '').trim();
+    return String(text || '').trim();
+  }
+
   function prepare(text, lang) {
     const segments = parseSegments(text);
     if (segments.length <= 1 && text) {
       const voices = defaultVoices(lang);
-      return [{ speaker: 'Narrator', text: String(text).trim(), voice: voices[0] }];
+      return [{
+        speaker: segments[0]?.speaker || 'Narrator',
+        text: singleVoiceText(text, segments),
+        voice: voices[0],
+      }];
     }
     const assigned = assignVoices(segments, lang);
     if (segmentsLookBroken(assigned) || assigned.length > 24) {
@@ -129,7 +151,7 @@ const ListeningScript = (() => {
     return prepare(text, lang).length > 1;
   }
 
-  return { parseSegments, assignVoices, prepare, isMultiVoice, defaultVoices };
+  return { parseSegments, assignVoices, prepare, isMultiVoice, defaultVoices, singleVoiceText };
 })();
 
 if (typeof window !== 'undefined') window.ListeningScript = ListeningScript;

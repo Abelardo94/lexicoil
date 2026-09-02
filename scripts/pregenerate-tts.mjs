@@ -111,7 +111,7 @@ function collectExamTtsJobs(exam, lang) {
       }
       return;
     }
-    pushSingle(src, baseVoice, meta);
+    pushSingle(ListeningScript.singleVoiceText(src), baseVoice, meta);
   }
 
   function pushSingle(text, voice, meta) {
