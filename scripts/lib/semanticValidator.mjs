@@ -213,6 +213,34 @@ function formatCorrectKeyLine(correctLetter, opts) {
  * must not be applied to another board's tasks — the same Teil number means a
  * different task in Cambridge (CLAUDE.md trap #3).
  */
+/**
+ * Issue kinds SEM-1 may raise per language.
+ *
+ * "distractor" and "template" are calibrated for Goethe and misfire on
+ * Cambridge: measured on the en/B1 seed (docs/audit/pilot-sem1-en-B1.json),
+ * 16 of 21 findings came from these two and none was a real defect. "template"
+ * flagged the prescribed task format itself ("diálogos cortos e independientes"
+ * — that *is* Listening Part 1), and "distractor" flagged an option for
+ * contradicting the passage, which is what a working distractor does.
+ *
+ * The prompt already omits them for non-de; this is the deterministic backstop,
+ * because a prompt is not a contract. Cross-part repetition is still caught by
+ * the in-process themeTags registry, which compares real parts against each
+ * other instead of judging one in isolation.
+ *
+ * Write the Cambridge variants and add them back here (see CLAUDE.md trap #5).
+ */
+const ISSUE_KINDS_BY_LANG = Object.freeze({
+  de: null, // null → no filtering, every kind allowed
+  en: Object.freeze(new Set(['correctness', 'ambiguity', 'llm_error'])),
+  es: Object.freeze(new Set(['correctness', 'ambiguity', 'llm_error'])),
+});
+
+function allowedIssueKinds(lang) {
+  const l = String(lang || 'de').slice(0, 2).toLowerCase();
+  return l in ISSUE_KINDS_BY_LANG ? ISSUE_KINDS_BY_LANG[l] : null;
+}
+
 const EXAM_BOARDS = Object.freeze({
   de: { language: 'alemán', board: 'Goethe B1', part: 'Teil' },
   en: { language: 'inglés', board: 'Cambridge B1 Preliminary', part: 'Part' },
@@ -332,19 +360,23 @@ Checks a realizar:
    que puedes defender textualmente (no en abstracto).
    Formato del detail: "Opción X también defendible: '<cita literal del texto>'."
 
-3. "distractor" (IMPORTANT) — ¿Alguna opción incorrecta es absurda o imposible?
+${isDe ? `3. "distractor" (IMPORTANT) — ¿Alguna opción incorrecta es absurda o imposible?
    Solo distractores claramente defectuosos (afirmación imposible, tema ajeno, trampa
    obvia que nadie elegiría). No marques si es simplemente incorrecto pero plausible.
 
 4. "template" (IMPORTANT) — ¿El pasaje sigue un molde narrativo genérico/repetitivo?
-   Devuelve también "themeTags": array de 3-5 palabras clave temáticas del pasaje.
+   Devuelve también "themeTags": array de 3-5 palabras clave temáticas del pasaje.` : `3. "themeTags" — devuelve 3-5 palabras clave temáticas del pasaje.
+   NO es un check y no genera issues: sirve para detectar repetición ENTRE partes,
+   que se compara fuera de este prompt.
+   NO generes issues de tipo "distractor" ni "template". El formato de esta tarea lo
+   fija el examen, así que un pasaje "repetitivo" es lo esperado, no un defecto.`}
 
 Formato de respuesta EXACTO (devuelve SOLO este JSON, sin markdown):
 {
   "themeTags": ["palabra1", "palabra2", "palabra3"],
   "issues": [
     {
-      "kind": "correctness"|"ambiguity"|"distractor"|"template",
+      "kind": ${isDe ? '"correctness"|"ambiguity"|"distractor"|"template"' : '"correctness"|"ambiguity"'},
       "itemId": "<id de la pregunta, o 'passage'>",
       "detail": "explicación breve en español (≤50 palabras)",
       "confidence": <0.0–1.0 — tu certeza de que esto es un error real, NO una duda>
@@ -580,9 +612,16 @@ export async function validatePartSemantics(part, { skipTemplate = false } = {})
     registerTemplate(themeTags, part.id || hash.slice(0, 12));
   }
 
+  // Drop issue kinds this language has no calibrated check for. Runs last so it
+  // also covers the in-process template finding above, not just the LLM's.
+  const allowed = allowedIssueKinds(ctx.lang);
+  const kept = allowed
+    ? issues.filter((i) => allowed.has(String(i.kind || '').toLowerCase()))
+    : issues;
+
   // Token usage rides along so callers can cost a run; it is not part of the
   // verdict, so the disk cache stores the result without it.
-  const result = { ok: issues.length === 0, issues };
+  const result = { ok: kept.length === 0, issues: kept };
   _resultCache.set(hash, result);
   diskCacheWrite(hash, result);
   return raw?.usage ? { ...result, _usage: raw.usage } : result;
