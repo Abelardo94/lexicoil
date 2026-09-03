@@ -110,6 +110,8 @@ async function loadGeneratedPick(cell, pick) {
     skipDedup: true,
     module,
     teil,
+    lang: 'de',
+    level: 'B1',
   });
   const record = batchToRecord(batch, pick.file, module, teil);
   const poolGate = await isPartPoolReady(record, { semantic: false, skipSem2: true });

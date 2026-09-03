@@ -66,11 +66,59 @@ const LESEN_DEFAULT_COUNTS = Object.freeze({ 1: 6, 2: 6, 3: 7, 4: 7, 5: 4 });
 
 const HOREN_DEFAULT_COUNTS = Object.freeze({ 1: 10, 2: 5, 3: 7, 4: 8 });
 
-/** Hören T1/T4 — always served from pool (cost + reliability). */
-const HOREN_POOL_FIRST_TEILS = Object.freeze([1, 4]);
+/**
+ * Pool-first Teile per language. A Teil listed here is served from the reusable
+ * pool instead of being generated, which is what makes it free.
+ *
+ * de (Goethe): Hören T1/T4 for cost + reliability; Lesen T2 because the
+ * dual-passage split is flaky.
+ * en (Cambridge): every Reading and Listening Part — each is self-contained, so
+ * there is no structural reason to keep any of them on the AI path.
+ *
+ * A Teil listed here is only *skipped* by the AI planner once the pool has
+ * actually served it (see filterPersonalAiChunks); a pool miss falls back to
+ * generation rather than leaving a hole in the exam.
+ */
+const POOL_FIRST_TEILS_BY_LANG = Object.freeze({
+  de: Object.freeze({ horen: Object.freeze([1, 4]), lesen: Object.freeze([2]) }),
+  en: Object.freeze({
+    horen: Object.freeze([1, 2, 3, 4]),
+    lesen: Object.freeze([1, 2, 3, 4, 5, 6]),
+  }),
+});
 
-/** Lesen T2 — dual-passage split is flaky; serve from pool when available. */
-const LESEN_POOL_FIRST_TEILS = Object.freeze([2]);
+const NO_POOL_FIRST_TEILS = Object.freeze([]);
+
+/** spec.language carries names ('german'), subject codes carry 'de'. Accept both. */
+const LANG_ALIASES = Object.freeze({
+  de: 'de', german: 'de', deutsch: 'de',
+  en: 'en', english: 'en',
+  es: 'es', spanish: 'es',
+});
+
+function normalizePoolLang(lang) {
+  return LANG_ALIASES[String(lang || '').toLowerCase()] || null;
+}
+
+/** Unknown lang → no pool-first Teile, never the Goethe map. */
+function poolFirstTeils(lang, module) {
+  const l = normalizePoolLang(lang);
+  if (!l) return NO_POOL_FIRST_TEILS;
+  const m = /horen|listening/i.test(String(module || '')) ? 'horen' : 'lesen';
+  return POOL_FIRST_TEILS_BY_LANG[l]?.[m] || NO_POOL_FIRST_TEILS;
+}
+
+function horenPoolFirstTeils(lang) {
+  return poolFirstTeils(lang, 'horen');
+}
+
+function lesenPoolFirstTeils(lang) {
+  return poolFirstTeils(lang, 'lesen');
+}
+
+/** Legacy flat exports — the Goethe lists, kept for callers that predate the lang axis. */
+const HOREN_POOL_FIRST_TEILS = POOL_FIRST_TEILS_BY_LANG.de.horen;
+const LESEN_POOL_FIRST_TEILS = POOL_FIRST_TEILS_BY_LANG.de.lesen;
 
 
 
@@ -282,23 +330,30 @@ function partMeetsItemCount(part, module, teil, blueprint) {
 
 
 
-function isHorenPoolFirstTeil(teil) {
+function isHorenPoolFirstTeil(teil, lang = 'de') {
 
-  return HOREN_POOL_FIRST_TEILS.includes(Number(teil));
-
-}
-
-
-
-function isLesenPoolFirstTeil(teil) {
-
-  return LESEN_POOL_FIRST_TEILS.includes(Number(teil));
+  return horenPoolFirstTeils(lang).includes(Number(teil));
 
 }
 
 
 
-/** Remove Hören T1/T4 and Lesen T2 from AI chunk plan — those Teile come from pool. */
+function isLesenPoolFirstTeil(teil, lang = 'de') {
+
+  return lesenPoolFirstTeils(lang).includes(Number(teil));
+
+}
+
+
+
+/**
+ * Remove pool-first Teile from the AI chunk plan — those come from the pool.
+ *
+ * When `spec.poolServedTeils` is present it is authoritative: only Teile the
+ * pool actually served are dropped, so a pool miss falls back to generation
+ * instead of leaving the Teil missing from the exam. Without it (legacy
+ * callers) the static per-language list decides, as before.
+ */
 
 function filterPersonalAiChunks(chunks, spec) {
 
@@ -309,6 +364,14 @@ function filterPersonalAiChunks(chunks, spec) {
   const lesenSelected = skills.some((s) => s === 'lesen' || s === 'reading');
 
   if (!horenSelected && !lesenSelected) return chunks;
+
+  const lang = spec?.language || spec?.lang || 'de';
+
+  const served = spec?.poolServedTeils || null;
+
+  const servedHoren = served ? (served.horen || []).map(Number) : null;
+
+  const servedLesen = served ? (served.lesen || []).map(Number) : null;
 
   const filter = spec?.personalTeilFilter;
 
@@ -326,9 +389,11 @@ function filterPersonalAiChunks(chunks, spec) {
 
     const isHoren = /horen|listening/i.test(expectKey);
 
-    if (horenSelected && isHoren && isHorenPoolFirstTeil(teil)) {
+    if (horenSelected && isHoren && isHorenPoolFirstTeil(teil, lang)) {
 
       if (filterNums?.length === 1 && filterNums[0] === teil) return true;
+
+      if (servedHoren && !servedHoren.includes(teil)) return true;
 
       return false;
 
@@ -336,9 +401,11 @@ function filterPersonalAiChunks(chunks, spec) {
 
     const isLesen = /lesen|reading/i.test(expectKey);
 
-    if (lesenSelected && isLesen && isLesenPoolFirstTeil(teil)) {
+    if (lesenSelected && isLesen && isLesenPoolFirstTeil(teil, lang)) {
 
       if (filterNums?.length === 1 && filterNums[0] === teil) return true;
+
+      if (servedLesen && !servedLesen.includes(teil)) return true;
 
       return false;
 
@@ -1236,6 +1303,12 @@ const PersonalLesenPoolFallback = Object.freeze({
   HOREN_POOL_FIRST_TEILS,
 
   LESEN_POOL_FIRST_TEILS,
+
+  POOL_FIRST_TEILS_BY_LANG,
+
+  horenPoolFirstTeils,
+
+  lesenPoolFirstTeils,
 
   isHorenPoolFirstTeil,
 

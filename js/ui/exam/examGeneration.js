@@ -536,8 +536,9 @@ async function retryMissingModulePartBeforePrune(exam,module,teil,configWords,co
   const teilN=Number(teil);
   if(!Number.isFinite(teilN))return exam;
   const PF=getPoolFallbackHelpers();
-  if(mod==='horen'&&PF?.HOREN_POOL_FIRST_TEILS?.includes(teilN))return exam;
-  if(mod==='lesen'&&PF?.LESEN_POOL_FIRST_TEILS?.includes(teilN))return exam;
+  // Only skip the AI retry for Teile the pool actually served; a pool-first Teil
+  // the pool missed is generated like any other and deserves the retry.
+  if(poolServedTeilsFor(exam,mod).includes(teilN))return exam;
   const skills=orderedPersonalSkills(configSkills||exam?.vocabSkills||[]);
   const skillOk=skills.includes(mod)||(mod==='horen'&&skills.includes('listening'));
   if(!skillOk)return exam;
@@ -1147,10 +1148,24 @@ async function fillMissingModuleTeileFromPool(exam,lang,level,blueprint,configSk
   exam=await fillMissingSprechenTeileFromPool(exam,lang,level,blueprint,configSkills);
   return exam;
 }
+/** Teile the pool actually served for `module`, read back from the generation report. */
+function poolServedTeilsFor(exam,module){
+  const mod=String(module||'').toLowerCase()==='horen'||String(module||'').toLowerCase()==='listening'?'horen':'lesen';
+  const entries=exam?._genReport?.poolFallback;
+  if(!Array.isArray(entries))return[];
+  return[...new Set(entries
+    .filter(e=>String(e?.module||'').toLowerCase()===mod)
+    .map(e=>Number(e?.teil))
+    .filter(Number.isFinite))];
+}
+/** Shape filterPersonalAiChunks expects: which Teile are already covered by the pool. */
+function poolServedTeilsSpec(exam){
+  return{horen:poolServedTeilsFor(exam,'horen'),lesen:poolServedTeilsFor(exam,'lesen')};
+}
 async function preloadHorenPoolFirstTeils(exam,lang,level,blueprint){
   const PF=getPoolFallbackHelpers();
   if(!PF||typeof fetchExamPart!=='function')return exam;
-  const poolTeils=PF.HOREN_POOL_FIRST_TEILS||[1,4];
+  const poolTeils=PF.horenPoolFirstTeils?PF.horenPoolFirstTeils(lang):(PF.HOREN_POOL_FIRST_TEILS||[1,4]);
   let out=exam||{lang,level,goetheFormat:true,horenParts:[]};
   out._teilFromPool=Array.isArray(out._teilFromPool)?[...out._teilFromPool]:[];
   out._genReport=out._genReport&&typeof out._genReport==='object'?out._genReport:{};
@@ -1191,7 +1206,7 @@ async function preloadHorenPoolFirstTeils(exam,lang,level,blueprint){
 async function preloadLesenPoolFirstTeils(exam,lang,level,blueprint){
   const PF=getPoolFallbackHelpers();
   if(!PF||typeof fetchExamPart!=='function')return exam;
-  const poolTeils=PF.LESEN_POOL_FIRST_TEILS||[2];
+  const poolTeils=PF.lesenPoolFirstTeils?PF.lesenPoolFirstTeils(lang):(PF.LESEN_POOL_FIRST_TEILS||[2]);
   let out=exam||{lang,level,goetheFormat:true,lesenParts:[]};
   out._teilFromPool=Array.isArray(out._teilFromPool)?[...out._teilFromPool]:[];
   out._genReport=out._genReport&&typeof out._genReport==='object'?out._genReport:{};
@@ -2614,7 +2629,8 @@ async function generatePersonalExamAiSerial(configWords,configSkills,configGoalI
         accumulated=await preloadLesenPoolFirstTeils(accumulated,S.subject,S.level,blueprint);
       }
       const exam=await LexiCoilEngine.generatePersonalExam(
-        S.subject,S.level,configWords,[skill],hooks,{...personalGenOpts,blueprint}
+        S.subject,S.level,configWords,[skill],hooks,
+        {...personalGenOpts,blueprint,poolServedTeils:poolServedTeilsSpec(accumulated)}
       );
       report.modules.push({skill,ok:true});
       const topic=accumulated?.topic||exam.topic||'Personal vocabulary review';
@@ -3455,6 +3471,17 @@ function isExamPoolOnly(){
 const PERSONAL_POOL_FIRST_SKILLS=new Set(['lesen','reading','horen','listening']);
 /** Goethe de levels with Lesen/Hören pool-first (A2 parity with B1). */
 const PERSONAL_POOL_FIRST_LEVELS=new Set(['A2','B1']);
+/**
+ * Languages billed as pool-first (0 credits) rather than personal_exam (4).
+ *
+ * Serving from the pool is already enabled per-language in
+ * personalLesenPoolFallback.POOL_FIRST_TEILS_BY_LANG; this set is the *billing*
+ * decision, which is stricter: charging 0 is only honest once the pool can
+ * cover a whole module on its own. en/B1 stock is ~3 variants per slot, so its
+ * misses still fall back to paid generation — add 'en' here when the pool
+ * reaches the 30-per-slot target.
+ */
+const PERSONAL_POOL_FIRST_BILLING_LANGS=new Set(['de']);
 /** Credit action for a personal module when live generation is required. */
 function personalGenCreditAction(skills){
   const ordered=orderedPersonalSkills(skills||['lesen']);
@@ -3482,7 +3509,7 @@ if(typeof window!=='undefined'){
   window.canUsePersonalModuleGen=canUsePersonalModuleGen;
 }
 function isPersonalModulePoolFirst(skills,lang,level){
-  if(String(lang||'').toLowerCase()!=='de')return false;
+  if(!PERSONAL_POOL_FIRST_BILLING_LANGS.has(String(lang||'').slice(0,2).toLowerCase()))return false;
   if(!PERSONAL_POOL_FIRST_LEVELS.has(String(level||'').toUpperCase()))return false;
   const ordered=orderedPersonalSkills(skills||['lesen']);
   if(ordered.length!==1)return false;

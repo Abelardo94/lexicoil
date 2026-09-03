@@ -46,6 +46,8 @@ export async function discoverPool2ReadyLesen(generatedDir = GENERATED_DIR) {
       skipDedup: true,
       module: 'lesen',
       teil,
+      lang: 'de',
+      level: 'B1',
       structuralCorpusDir: generatedDir,
     });
     if (vGate.ok) byTeil[teil].push(file);
@@ -65,6 +67,8 @@ export async function auditLesenPart(file, teil, generatedDir = GENERATED_DIR) {
     skipDedup: true,
     module: 'lesen',
     teil,
+    lang: 'de',
+    level: 'B1',
     structuralCorpusDir: null,
   });
   const record = buildLesenSeedRecordFromBatch(batch, { lang: 'de', level: 'B1', teil, idPrefix: 'audit' });
