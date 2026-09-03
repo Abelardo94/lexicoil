@@ -21,7 +21,13 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { validatePartSemantics, clearSemanticCache } from './lib/semanticValidator.mjs';
+import { createRequire } from 'node:module';
 import { loadEnvFile, ROOT } from './lib/loadEnv.mjs';
+
+const require = createRequire(import.meta.url);
+const { partPassesPublishGate } = require(
+  path.join(ROOT, 'netlify/functions/lib/partPublishGate.js'),
+);
 
 loadEnvFile();
 
@@ -81,9 +87,13 @@ function stratify(pool, n) {
   return out;
 }
 
-// Sampling audits what is already stamped; the backlog mode takes what is not.
+// Sampling audits what the pool actually serves — a record that fails the
+// publish gate is already excluded, so auditing it measures the quarantine pile
+// and not the product. (First de/B1 run without this filter reported 11 of 18
+// failing; restricted to served records it was 1 of 13.)
+// Backlog mode is the opposite: it takes exactly what has no verdict yet.
 const pool = sample
-  ? records.filter((r) => !r.sem1Skipped)
+  ? records.filter((r) => !r.sem1Skipped && partPassesPublishGate(r))
   : records.filter((r) => !r.sem1Skipped && !r.sem1VerifiedAt && !r.sem1Failed);
 
 console.log(
