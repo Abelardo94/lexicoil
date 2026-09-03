@@ -50,7 +50,16 @@ async function callSemanticLlm(prompt) {
   }
 
   const { generateContent } = await import('./geminiClient.mjs');
-  return generateContent({ prompt, jsonMode: true, maxRetries: 2, maxTokens: 1024, temperature: 0.1 });
+  // gemini-2.5-flash spends reasoning tokens out of the same output budget
+  // (thoughtsTokenCount ~1000 on these prompts). At maxTokens 1024 the JSON
+  // was cut off mid-`themeTags` every time and never reached `issues`.
+  return generateContent({
+    prompt,
+    jsonMode: true,
+    maxRetries: 2,
+    maxTokens: Number(process.env.SEMANTIC_MAX_TOKENS || 4096),
+    temperature: 0.1,
+  });
 }
 
 export function _setLlmFn(fn) {
@@ -376,7 +385,15 @@ function parseSemanticResponse(raw) {
   }
 
   if (!parsed || typeof parsed !== 'object') {
-    return { themeTags: [], issues: [] }; // fail-open: if we can't parse, don't block
+    // Fail-closed. This used to return no issues, which made an unreadable
+    // answer indistinguishable from a clean part — a truncated response
+    // published unverified content. The caller turns this into a blocking
+    // finding instead.
+    return {
+      themeTags: [],
+      issues: [],
+      parseError: `respuesta no parseable (${text.length} chars): ${text.slice(0, 120)}`,
+    };
   }
 
   const issues = Array.isArray(parsed.issues)
@@ -526,7 +543,22 @@ export async function validatePartSemantics(part, { skipTemplate = false } = {})
     return result;
   }
 
-  const { themeTags, issues: rawIssues } = parseSemanticResponse(raw);
+  const { themeTags, issues: rawIssues, parseError } = parseSemanticResponse(raw);
+
+  if (parseError) {
+    const result = {
+      ok: false,
+      issues: [{
+        kind: 'llm_error',
+        itemId: 'part',
+        detail: `SEM-1 sin veredicto legible: ${parseError}`,
+        confidence: 1.0,
+      }],
+      _llmError: parseError,
+    };
+    _resultCache.set(hash, result);
+    return raw?.usage ? { ...result, _usage: raw.usage } : result;
+  }
 
   // Apply confidence threshold — discard low-confidence noise before acting on issues.
   // Template issues injected in-process always pass (they have no LLM confidence field).
