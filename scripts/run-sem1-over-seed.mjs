@@ -1,33 +1,54 @@
 #!/usr/bin/env node
 /**
- * Etapa 1 pilot — run SEM-1 over the en/B1 reusable seed and measure what it costs.
+ * Run SEM-1 over a reusable-seed pool and measure what it costs.
  *
- * Two jobs at once: it stamps sem1VerifiedAt on the records that pass (which is
- * what unblocks the pool — partPassesPublishGate needs it), and it records real
- * token usage per part so the Fase 1 budget stops being an estimate.
+ * Two jobs at once: with --apply it stamps sem1VerifiedAt on the records that
+ * pass (which is what unblocks the pool — partPassesPublishGate needs it), and
+ * it always records real token usage per part, so budget figures come from
+ * measurement rather than estimate.
  *
- *   node scripts/pilot-sem1-en-b1.mjs --dry-run       # no writes, still calls the LLM
- *   node scripts/pilot-sem1-en-b1.mjs --apply         # stamp passing records
- *   node scripts/pilot-sem1-en-b1.mjs --apply --limit 5
+ *   node scripts/run-sem1-over-seed.mjs --lang en --level B1 --apply
+ *   node scripts/run-sem1-over-seed.mjs --lang de --level B1 --sample 30
+ *   node scripts/run-sem1-over-seed.mjs --lang en --level B1 --dry-run --limit 5
+ *
+ * --sample N takes a stratified sample (evenly across module/Teil) instead of
+ * the first N, which is what you want when auditing an existing pool rather
+ * than working through a backlog. Sampling implies read-only.
  *
  * Records that fail go to quarantine (sem1Failed + the findings) rather than
  * being stamped — an unverified part must never reach the served pool.
  */
 import fs from 'node:fs';
 import path from 'node:path';
-import { fileURLToPath } from 'node:url';
 import { validatePartSemantics, clearSemanticCache } from './lib/semanticValidator.mjs';
 import { loadEnvFile, ROOT } from './lib/loadEnv.mjs';
 
 loadEnvFile();
 
 const argv = process.argv.slice(2);
-const apply = argv.includes('--apply');
-const limitArg = argv.indexOf('--limit');
-const limit = limitArg >= 0 ? Number(argv[limitArg + 1]) : Infinity;
+const flagValue = (name, fallback) => {
+  const i = argv.indexOf(name);
+  return i >= 0 ? argv[i + 1] : fallback;
+};
 
-const SEED = path.join(ROOT, 'library/reusable-seed/en_B1.json');
-const REPORT = path.join(ROOT, 'docs/audit/pilot-sem1-en-B1.json');
+const lang = String(flagValue('--lang', 'en')).toLowerCase();
+const level = String(flagValue('--level', 'B1')).toUpperCase();
+const sample = Number(flagValue('--sample', 0)) || 0;
+const limit = Number(flagValue('--limit', 0)) || Infinity;
+// Sampling audits a pool we are not repairing in this pass, so it never writes.
+const apply = argv.includes('--apply') && !sample;
+
+if (argv.includes('--apply') && sample) {
+  console.log('--sample es solo lectura; se ignora --apply.\n');
+}
+
+const SEED = path.join(ROOT, `library/reusable-seed/${lang}_${level}.json`);
+const REPORT = path.join(ROOT, `docs/audit/sem1-${lang}_${level}.json`);
+
+if (!fs.existsSync(SEED)) {
+  console.error(`No existe ${path.relative(ROOT, SEED)}`);
+  process.exit(1);
+}
 
 // gemini-2.5-flash paid-tier rates; free tier bills nothing but the token
 // counts are the same, so the figure below is the "if we were paying" number.
@@ -37,18 +58,53 @@ const USD_PER_MTOK_OUT = 2.50;
 const seed = JSON.parse(fs.readFileSync(SEED, 'utf8'));
 const records = seed.records || seed;
 
-const pending = records.filter(
-  (r) => !r.sem1Skipped && !r.sem1VerifiedAt && !r.sem1Failed,
-);
+/** Round-robin across module/Teil so a sample is not all one slot. */
+function stratify(pool, n) {
+  const bySlot = new Map();
+  for (const r of pool) {
+    const k = `${r.module}:${r.teil}`;
+    if (!bySlot.has(k)) bySlot.set(k, []);
+    bySlot.get(k).push(r);
+  }
+  const queues = [...bySlot.keys()].sort().map((k) => bySlot.get(k));
+  const out = [];
+  for (let round = 0; out.length < n; round += 1) {
+    let placed = false;
+    for (const q of queues) {
+      if (round >= q.length) continue;
+      out.push(q[round]);
+      placed = true;
+      if (out.length === n) break;
+    }
+    if (!placed) break; // every queue exhausted
+  }
+  return out;
+}
 
-console.log(`Piscina en/B1: ${records.length} registros · ${pending.length} sin SEM-1`);
-if (!pending.length) {
+// Sampling audits what is already stamped; the backlog mode takes what is not.
+const pool = sample
+  ? records.filter((r) => !r.sem1Skipped)
+  : records.filter((r) => !r.sem1Skipped && !r.sem1VerifiedAt && !r.sem1Failed);
+
+console.log(
+  `Piscina ${lang}/${level}: ${records.length} registros · ${pool.length} ${
+    sample ? 'candidatos a muestreo (sellados incluidos)' : 'sin SEM-1'
+  }`,
+);
+if (!pool.length) {
   console.log('Nada que verificar.');
   process.exit(0);
 }
 
-const todo = pending.slice(0, Number.isFinite(limit) ? limit : pending.length);
-console.log(`Verificando ${todo.length}${apply ? ' (--apply: se sellarán los que pasen)' : ' (dry-run)'}\n`);
+const todo = sample
+  ? stratify(pool, Math.min(sample, pool.length))
+  : pool.slice(0, Number.isFinite(limit) ? limit : pool.length);
+
+console.log(
+  `Verificando ${todo.length}${
+    sample ? ' (muestra estratificada, solo lectura)' : apply ? ' (--apply: se sellarán los que pasen)' : ' (dry-run)'
+  }\n`,
+);
 
 clearSemanticCache(); // measure real calls, not cache hits
 
