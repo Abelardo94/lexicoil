@@ -1,0 +1,564 @@
+{
+  "ranAt": "2026-09-03T23:14:03.924Z",
+  "model": "gemini-2.5-flash",
+  "applied": false,
+  "totals": {
+    "verified": 30,
+    "passed": 22,
+    "failed": 8,
+    "errored": 0,
+    "inTok": 33662,
+    "outTok": 1693,
+    "usdEquivalent": 0.0143311
+  },
+  "results": [
+    {
+      "id": "bank-de-B1-horen-t1-8b1aee069250936a",
+      "module": "horen",
+      "teil": 1,
+      "ok": false,
+      "issues": [
+        {
+          "kind": "template",
+          "itemId": "passage",
+          "detail": "El pasaje sigue un molde narrativo muy genérico y repetitivo para el módulo HOREN, Teil 1, presentando un nuevo hobby, sus detalles, costos, desafíos y una invitación.",
+          "confidence": 0.95
+        }
+      ],
+      "ms": 13033,
+      "usage": {
+        "promptTokenCount": 2318,
+        "candidatesTokenCount": 130,
+        "totalTokenCount": 4790,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2318
+          }
+        ],
+        "thoughtsTokenCount": 2342,
+        "serviceTier": "standard"
+      }
+    },
+    {
+      "id": "bank-de-B1-horen-t2-8ea9e86615f02cff",
+      "module": "horen",
+      "teil": 2,
+      "ok": true,
+      "issues": [],
+      "ms": 11547,
+      "usage": {
+        "promptTokenCount": 2372,
+        "candidatesTokenCount": 52,
+        "totalTokenCount": 4591,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2372
+          }
+        ],
+        "thoughtsTokenCount": 2167,
+        "serviceTier": "standard"
+      }
+    },
+    {
+      "id": "bank-de-B1-horen-t3-3318272abae14715",
+      "module": "horen",
+      "teil": 3,
+      "ok": false,
+      "issues": [
+        {
+          "kind": "template",
+          "itemId": "passage",
+          "detail": "El pasaje sigue un molde narrativo común de conversación entre colegas sobre un evento laboral próximo (mudanza de oficina), donde se aclaran detalles y responsabilidades.",
+          "confidence": 0.95
+        }
+      ],
+      "ms": 14027,
+      "usage": {
+        "promptTokenCount": 1887,
+        "candidatesTokenCount": 130,
+        "totalTokenCount": 4432,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1887
+          }
+        ],
+        "thoughtsTokenCount": 2415,
+        "serviceTier": "standard"
+      }
+    },
+    {
+      "id": "gen-h4-003",
+      "module": "horen",
+      "teil": 4,
+      "ok": true,
+      "issues": [],
+      "ms": 10505,
+      "usage": {
+        "promptTokenCount": 1806,
+        "candidatesTokenCount": 54,
+        "totalTokenCount": 3744,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1806
+          }
+        ],
+        "thoughtsTokenCount": 1884,
+        "serviceTier": "standard"
+      }
+    },
+    {
+      "id": "bank-de-B1-lesen-t1-79149767abb34953",
+      "module": "lesen",
+      "teil": 1,
+      "ok": false,
+      "issues": [
+        {
+          "kind": "template",
+          "itemId": "passage",
+          "detail": "El pasaje sigue un patrón común de presentar un ejemplo específico (el jardín de Colonia) y luego generalizar con consejos o conclusiones más amplias sobre el tema de los jardines comunitarios.",
+          "confidence": 0.9
+        }
+      ],
+      "ms": 9156,
+      "usage": {
+        "promptTokenCount": 1455,
+        "candidatesTokenCount": 133,
+        "totalTokenCount": 3055,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1455
+          }
+        ],
+        "thoughtsTokenCount": 1467,
+        "serviceTier": "standard"
+      }
+    },
+    {
+      "id": "pub-de-B1-lesen-t2-ec847aa773d4",
+      "module": "lesen",
+      "teil": 2,
+      "ok": true,
+      "issues": [],
+      "ms": 12497,
+      "usage": {
+        "promptTokenCount": 1909,
+        "candidatesTokenCount": 51,
+        "totalTokenCount": 4310,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1909
+          }
+        ],
+        "thoughtsTokenCount": 2350,
+        "serviceTier": "standard"
+      }
+    },
+    {
+      "id": "bank-de-B1-lesen-t3-9a9df868acb5d272",
+      "module": "lesen",
+      "teil": 3,
+      "ok": true,
+      "issues": [],
+      "ms": 8139,
+      "usage": {
+        "promptTokenCount": 2074,
+        "candidatesTokenCount": 52,
+        "totalTokenCount": 3587,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2074
+          }
+        ],
+        "thoughtsTokenCount": 1461,
+        "serviceTier": "standard"
+      }
+    },
+    {
+      "id": "pub-de-B1-lesen-t4-fa7bfe8fa9d9",
+      "module": "lesen",
+      "teil": 4,
+      "ok": true,
+      "issues": [],
+      "ms": 9997,
+      "usage": {
+        "promptTokenCount": 1867,
+        "candidatesTokenCount": 54,
+        "totalTokenCount": 3654,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1867
+          }
+        ],
+        "thoughtsTokenCount": 1733,
+        "serviceTier": "standard"
+      }
+    },
+    {
+      "id": "bank-de-B1-lesen-t5-f9d36085d0c13b42",
+      "module": "lesen",
+      "teil": 5,
+      "ok": false,
+      "issues": [
+        {
+          "kind": "template",
+          "itemId": "passage",
+          "detail": "El pasaje sigue un molde narrativo genérico y repetitivo de 'reglamento de uso' para una institución pública, con una introducción y un párrafo final que generaliza sobre la importancia del tema, común en textos de examen B1.",
+          "confidence": 0.95
+        }
+      ],
+      "ms": 10290,
+      "usage": {
+        "promptTokenCount": 1514,
+        "candidatesTokenCount": 145,
+        "totalTokenCount": 3163,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1514
+          }
+        ],
+        "thoughtsTokenCount": 1504,
+        "serviceTier": "standard"
+      }
+    },
+    {
+      "id": "schreiben-gemini-011-t1",
+      "module": "schreiben",
+      "teil": 1,
+      "ok": true,
+      "issues": [],
+      "ms": 0,
+      "usage": {}
+    },
+    {
+      "id": "schreiben-gemini-011-t2",
+      "module": "schreiben",
+      "teil": 2,
+      "ok": true,
+      "issues": [],
+      "ms": 0,
+      "usage": {}
+    },
+    {
+      "id": "schreiben-gemini-011-t3",
+      "module": "schreiben",
+      "teil": 3,
+      "ok": true,
+      "issues": [],
+      "ms": 0,
+      "usage": {}
+    },
+    {
+      "id": "sprechen-gemini-009-t1",
+      "module": "sprechen",
+      "teil": 1,
+      "ok": true,
+      "issues": [],
+      "ms": 0,
+      "usage": {}
+    },
+    {
+      "id": "sprechen-gemini-009-t2",
+      "module": "sprechen",
+      "teil": 2,
+      "ok": true,
+      "issues": [],
+      "ms": 0,
+      "usage": {}
+    },
+    {
+      "id": "sprechen-gemini-009-t3",
+      "module": "sprechen",
+      "teil": 3,
+      "ok": true,
+      "issues": [],
+      "ms": 0,
+      "usage": {}
+    },
+    {
+      "id": "bank-de-B1-horen-t1-bf0cfa337ae06a1c",
+      "module": "horen",
+      "teil": 1,
+      "ok": true,
+      "issues": [],
+      "ms": 13205,
+      "usage": {
+        "promptTokenCount": 2017,
+        "candidatesTokenCount": 52,
+        "totalTokenCount": 4685,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2017
+          }
+        ],
+        "thoughtsTokenCount": 2616,
+        "serviceTier": "standard"
+      }
+    },
+    {
+      "id": "bank-de-B1-horen-t2-76be525ab8d802b5",
+      "module": "horen",
+      "teil": 2,
+      "ok": true,
+      "issues": [],
+      "ms": 13610,
+      "usage": {
+        "promptTokenCount": 2206,
+        "candidatesTokenCount": 56,
+        "totalTokenCount": 4867,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2206
+          }
+        ],
+        "thoughtsTokenCount": 2605,
+        "serviceTier": "standard"
+      }
+    },
+    {
+      "id": "bank-de-B1-horen-t3-e9ab2b5575d9fb02",
+      "module": "horen",
+      "teil": 3,
+      "ok": false,
+      "issues": [
+        {
+          "kind": "template",
+          "itemId": "passage",
+          "detail": "El pasaje sigue un molde narrativo genérico de conversación sobre un evento común (mudanza de oficina), donde se discuten los detalles, problemas y soluciones, típico de los exámenes B1 para evaluar la comprensión de información práctica.",
+          "confidence": 0.95
+        }
+      ],
+      "ms": 15281,
+      "usage": {
+        "promptTokenCount": 1806,
+        "candidatesTokenCount": 150,
+        "totalTokenCount": 4998,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1806
+          }
+        ],
+        "thoughtsTokenCount": 3042,
+        "serviceTier": "standard"
+      }
+    },
+    {
+      "id": "gen-h4-005",
+      "module": "horen",
+      "teil": 4,
+      "ok": false,
+      "issues": [
+        {
+          "kind": "template",
+          "itemId": "passage",
+          "detail": "El pasaje sigue un formato de discusión de radio muy común: moderador, dos expertos con puntos de vista contrastantes, preguntas y respuestas. Es un molde narrativo genérico para este tipo de ejercicio.",
+          "confidence": 0.9
+        }
+      ],
+      "ms": 16500,
+      "usage": {
+        "promptTokenCount": 1878,
+        "candidatesTokenCount": 136,
+        "totalTokenCount": 5243,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1878
+          }
+        ],
+        "thoughtsTokenCount": 3229,
+        "serviceTier": "standard"
+      }
+    },
+    {
+      "id": "bank-de-B1-lesen-t1-7a590e6a040a6b1e",
+      "module": "lesen",
+      "teil": 1,
+      "ok": false,
+      "issues": [
+        {
+          "kind": "template",
+          "itemId": "passage",
+          "detail": "El pasaje sigue un molde narrativo común de cambio de carrera y búsqueda de felicidad personal a través de una nueva actividad, a menudo relacionada con la naturaleza y la comunidad, típico de textos B1.",
+          "confidence": 0.9
+        }
+      ],
+      "ms": 12279,
+      "usage": {
+        "promptTokenCount": 1330,
+        "candidatesTokenCount": 136,
+        "totalTokenCount": 3386,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1330
+          }
+        ],
+        "thoughtsTokenCount": 1920,
+        "serviceTier": "standard"
+      }
+    },
+    {
+      "id": "pub-de-B1-lesen-t2-193c51e71a09",
+      "module": "lesen",
+      "teil": 2,
+      "ok": true,
+      "issues": [],
+      "ms": 12745,
+      "usage": {
+        "promptTokenCount": 2060,
+        "candidatesTokenCount": 52,
+        "totalTokenCount": 4524,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2060
+          }
+        ],
+        "thoughtsTokenCount": 2412,
+        "serviceTier": "standard"
+      }
+    },
+    {
+      "id": "pool3-de-B1-lesen-t3-fa88b9a0d707",
+      "module": "lesen",
+      "teil": 3,
+      "ok": true,
+      "issues": [],
+      "ms": 11398,
+      "usage": {
+        "promptTokenCount": 1848,
+        "candidatesTokenCount": 54,
+        "totalTokenCount": 4021,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1848
+          }
+        ],
+        "thoughtsTokenCount": 2119,
+        "serviceTier": "standard"
+      }
+    },
+    {
+      "id": "pub-de-B1-lesen-t4-65216d74dec6",
+      "module": "lesen",
+      "teil": 4,
+      "ok": true,
+      "issues": [],
+      "ms": 11393,
+      "usage": {
+        "promptTokenCount": 1724,
+        "candidatesTokenCount": 35,
+        "totalTokenCount": 4096,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1724
+          }
+        ],
+        "thoughtsTokenCount": 2337,
+        "serviceTier": "standard"
+      }
+    },
+    {
+      "id": "bank-de-B1-lesen-t5-f78f75b335a557c4",
+      "module": "lesen",
+      "teil": 5,
+      "ok": false,
+      "issues": [
+        {
+          "kind": "template",
+          "itemId": "passage",
+          "detail": "El pasaje sigue un molde narrativo genérico de 'reglamento' o 'normativa de uso', común en exámenes B1 para evaluar la comprensión de instrucciones.",
+          "confidence": 1
+        },
+        {
+          "kind": "distractor",
+          "itemId": "ql_de-b1-l-t5-firmenparkplatz-01-q2",
+          "detail": "La opción b) 'Man bekommt einen neuen Parkausweis' es un distractor absurdo, ya que una infracción no resultaría en un beneficio.",
+          "confidence": 0.9
+        }
+      ],
+      "ms": 12556,
+      "usage": {
+        "promptTokenCount": 1591,
+        "candidatesTokenCount": 221,
+        "totalTokenCount": 3763,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1591
+          }
+        ],
+        "thoughtsTokenCount": 1951,
+        "serviceTier": "standard"
+      }
+    },
+    {
+      "id": "schreiben-gemini-012-t1",
+      "module": "schreiben",
+      "teil": 1,
+      "ok": true,
+      "issues": [],
+      "ms": 0,
+      "usage": {}
+    },
+    {
+      "id": "schreiben-gemini-012-t2",
+      "module": "schreiben",
+      "teil": 2,
+      "ok": true,
+      "issues": [],
+      "ms": 0,
+      "usage": {}
+    },
+    {
+      "id": "schreiben-gemini-012-t3",
+      "module": "schreiben",
+      "teil": 3,
+      "ok": true,
+      "issues": [],
+      "ms": 0,
+      "usage": {}
+    },
+    {
+      "id": "sprechen-gemini-010-t1",
+      "module": "sprechen",
+      "teil": 1,
+      "ok": true,
+      "issues": [],
+      "ms": 0,
+      "usage": {}
+    },
+    {
+      "id": "sprechen-gemini-010-t2",
+      "module": "sprechen",
+      "teil": 2,
+      "ok": true,
+      "issues": [],
+      "ms": 0,
+      "usage": {}
+    },
+    {
+      "id": "sprechen-gemini-010-t3",
+      "module": "sprechen",
+      "teil": 3,
+      "ok": true,
+      "issues": [],
+      "ms": 0,
+      "usage": {}
+    }
+  ]
+}
