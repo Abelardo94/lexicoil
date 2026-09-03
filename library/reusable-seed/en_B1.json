@@ -545,8 +545,7 @@
       ],
       "itemCount": 6,
       "targetCount": 6,
-      "sem1Ok": true,
-      "sem1VerifiedAt": "2026-09-03T22:31:32.756Z"
+      "sem1Skipped": "no-mcq"
     },
     {
       "id": "cur-en-B1-e00-horen-t1-1bc2044ad48fb576",
@@ -1355,8 +1354,7 @@
       ],
       "itemCount": 6,
       "targetCount": 6,
-      "sem1Ok": true,
-      "sem1VerifiedAt": "2026-09-03T22:31:56.884Z"
+      "sem1Skipped": "no-mcq"
     },
     {
       "id": "cur-en-B1-e00-horen-t4-2fab3d9398ebe8cc",
@@ -2212,8 +2210,7 @@
       ],
       "itemCount": 6,
       "targetCount": 6,
-      "sem1Ok": true,
-      "sem1VerifiedAt": "2026-09-03T22:33:29.381Z"
+      "sem1Skipped": "no-mcq"
     },
     {
       "id": "cur-en-B1-e01-horen-t1-7d5084ce0324550a",
@@ -3023,8 +3020,7 @@
       ],
       "itemCount": 6,
       "targetCount": 6,
-      "sem1Ok": true,
-      "sem1VerifiedAt": "2026-09-03T22:33:52.360Z"
+      "sem1Skipped": "no-mcq"
     },
     {
       "id": "cur-en-B1-e01-horen-t4-24c46ee6376ba98e",
@@ -3886,8 +3882,7 @@
       ],
       "itemCount": 6,
       "targetCount": 6,
-      "sem1Ok": true,
-      "sem1VerifiedAt": "2026-09-03T22:35:16.273Z"
+      "sem1Skipped": "no-mcq"
     },
     {
       "id": "cur-en-B1-e02-horen-t1-1daf578f11276332",
@@ -4695,8 +4690,7 @@
       ],
       "itemCount": 6,
       "targetCount": 6,
-      "sem1Ok": true,
-      "sem1VerifiedAt": "2026-09-03T22:35:40.135Z"
+      "sem1Skipped": "no-mcq"
     },
     {
       "id": "cur-en-B1-e02-horen-t4-e69fcb235b70b888",

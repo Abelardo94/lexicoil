@@ -539,8 +539,10 @@ function diskCacheWrite(hash, result) {
 export async function validatePartSemantics(part, { skipTemplate = false } = {}) {
   const ctx = extractPartContext(part);
 
-  // Schreiben / Sprechen / no MCQ → always OK (no semantic check needed)
-  if (!ctx) return { ok: true, issues: [] };
+  // Nothing SEM-1 knows how to inspect (Schreiben/Sprechen, or a gap-fill task
+  // with no options). It passes, but say so: the caller must record this as
+  // skipped, never as verified — a part nobody looked at is not a clean part.
+  if (!ctx) return { ok: true, issues: [], skipped: 'no-mcq' };
 
   const hash = contentHash(part);
 

@@ -148,7 +148,9 @@ for (const [i, rec] of todo.entries()) {
   const ok = res.ok !== false && critical.length === 0;
 
   console.log(
-    `${ok ? 'PASA' : 'FALLA'} · ${(res.issues || []).length} issues (${critical.length} críticos) · ${ms} ms`,
+    res.skipped
+      ? `SIN CHECK (${res.skipped}) · ${ms} ms`
+      : `${ok ? 'PASA' : 'FALLA'} · ${(res.issues || []).length} issues (${critical.length} críticos) · ${ms} ms`,
   );
 
   for (const iss of critical.slice(0, 2)) {
@@ -166,7 +168,14 @@ for (const [i, rec] of todo.entries()) {
   });
 
   if (apply) {
-    if (ok) {
+    if (res.skipped) {
+      // SEM-1 has no check for this task shape. Record it as skipped, not as
+      // verified: stamping sem1VerifiedAt here would claim a review nobody did.
+      rec.sem1Skipped = res.skipped;
+      delete rec.sem1VerifiedAt;
+      delete rec.sem1Ok;
+      delete rec.sem1Failed;
+    } else if (ok) {
       rec.sem1Ok = true;
       rec.sem1VerifiedAt = new Date().toISOString();
       delete rec.sem1Failed;
