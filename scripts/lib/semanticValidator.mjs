@@ -108,7 +108,9 @@ function extractPartContext(part) {
 
   if (!mcqs.length) return null; // nothing to validate semantically
 
-  return { module, teil: part.teil, passageText, questions: mcqs };
+  const lang = String(part.lang || part.language || 'de').slice(0, 2).toLowerCase();
+
+  return { module, teil: part.teil, passageText, questions: mcqs, lang };
 }
 
 function collectPassageText(part) {
@@ -197,8 +199,26 @@ function formatCorrectKeyLine(correctLetter, opts) {
   return `Clave: ${key}`;
 }
 
+/**
+ * Exam board per language. The format rules below are Goethe conventions and
+ * must not be applied to another board's tasks — the same Teil number means a
+ * different task in Cambridge (CLAUDE.md trap #3).
+ */
+const EXAM_BOARDS = Object.freeze({
+  de: { language: 'alemán', board: 'Goethe B1', part: 'Teil' },
+  en: { language: 'inglés', board: 'Cambridge B1 Preliminary', part: 'Part' },
+  es: { language: 'español', board: 'DELE B1', part: 'Parte' },
+});
+
+function examBoardFor(lang) {
+  return EXAM_BOARDS[String(lang || 'de').slice(0, 2).toLowerCase()] || EXAM_BOARDS.de;
+}
+
 function buildPrompt(ctx) {
   const { passageText, questions, module, teil } = ctx;
+  const lang = String(ctx.lang || 'de').slice(0, 2).toLowerCase();
+  const board = examBoardFor(lang);
+  const isDe = lang === 'de';
 
   const qBlocks = questions
     .slice(0, 8) // cap at 8 to keep prompt bounded
@@ -223,16 +243,28 @@ function buildPrompt(ctx) {
   // For L4 (ja_nein opinion format): the "TEXTO" above is the shared intro.
   // Each question has its own "Texto de la persona" (signText) that must be
   // topically relevant to the question and justify the Ja/Nein answer.
-  const isOpinionFormat = questions.some((q) => q.signText);
+  // Goethe task formats — keyed to Goethe Teil numbers, so de only.
+  const isOpinionFormat = isDe && questions.some((q) => q.signText);
   const isT3Matching =
+    isDe &&
     Number(teil) === 3 &&
     questions.some((q) => String(q.type || '').toLowerCase() === 'matching');
   const isL2Mcq =
+    isDe &&
     Number(teil) === 2 &&
     questions.some((q) => String(q.type || '').toLowerCase() === 'multiple_choice');
 
-  return `Eres un evaluador experto de exámenes de alemán nivel Goethe B1.
-Módulo: ${module.toUpperCase()}, Teil ${teil}.${isOpinionFormat ? `
+  // Cambridge matching (Reading P2) has no "ningún anuncio encaja" key: every
+  // prompt matches exactly one option, so a missing key is a real defect here.
+  const isCambridgeMatching =
+    lang === 'en' &&
+    questions.some((q) => String(q.type || '').toLowerCase() === 'matching');
+
+  return `Eres un evaluador experto de exámenes de ${board.language} nivel ${board.board}.
+Módulo: ${module.toUpperCase()}, ${board.part} ${teil}.${isCambridgeMatching ? `
+Formato: MATCHING Cambridge. Cada pregunta empareja a una persona con UNO de los
+textos ofrecidos. No existe la clave "ninguno": toda pregunta tiene exactamente una
+correspondencia válida. Si la clave marcada no corresponde, genera issue de correctness.` : ''}${isOpinionFormat ? `
 Formato: OPINIONES (Ja/Nein). Cada pregunta incluye el texto donde la persona expresa su postura.` : ''}${isL2Mcq ? `
 Formato: L2 MCQ (3 opciones a/b/c por pregunta, pasaje de prensa).
 REGLA ANTI-AUTOCONTRADICCIÓN: si la clave marcada está respaldada por el pasaje y NINGUNA otra
@@ -516,10 +548,12 @@ export async function validatePartSemantics(part, { skipTemplate = false } = {})
     registerTemplate(themeTags, part.id || hash.slice(0, 12));
   }
 
+  // Token usage rides along so callers can cost a run; it is not part of the
+  // verdict, so the disk cache stores the result without it.
   const result = { ok: issues.length === 0, issues };
   _resultCache.set(hash, result);
   diskCacheWrite(hash, result);
-  return result;
+  return raw?.usage ? { ...result, _usage: raw.usage } : result;
 }
 
 /** Build SEM-1 prompt for a part (tests / diagnostics). */
