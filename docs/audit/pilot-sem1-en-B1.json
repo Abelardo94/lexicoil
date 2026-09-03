@@ -1,0 +1,600 @@
+{
+  "ranAt": "2026-09-03T22:35:50.733Z",
+  "model": "gemini-2.5-flash",
+  "applied": true,
+  "totals": {
+    "verified": 30,
+    "passed": 28,
+    "failed": 2,
+    "errored": 0,
+    "inTok": 43203,
+    "outTok": 1600,
+    "usdEquivalent": 0.0169609
+  },
+  "results": [
+    {
+      "id": "cur-en-B1-e00-lesen-t1-dbe624c7b0dd3e6b",
+      "module": "lesen",
+      "teil": 1,
+      "ok": true,
+      "issues": [],
+      "ms": 17152,
+      "usage": {
+        "promptTokenCount": 1332,
+        "candidatesTokenCount": 47,
+        "totalTokenCount": 4510,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1332
+          }
+        ],
+        "thoughtsTokenCount": 3131,
+        "serviceTier": "standard"
+      }
+    },
+    {
+      "id": "cur-en-B1-e00-lesen-t2-e94b1c06c8dd5f9a",
+      "module": "lesen",
+      "teil": 2,
+      "ok": true,
+      "issues": [],
+      "ms": 22809,
+      "usage": {
+        "promptTokenCount": 3126,
+        "candidatesTokenCount": 45,
+        "totalTokenCount": 5083,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 3126
+          }
+        ],
+        "thoughtsTokenCount": 1912,
+        "serviceTier": "standard"
+      }
+    },
+    {
+      "id": "cur-en-B1-e00-lesen-t3-2e8b8deb141a6ecc",
+      "module": "lesen",
+      "teil": 3,
+      "ok": true,
+      "issues": [],
+      "ms": 12771,
+      "usage": {
+        "promptTokenCount": 1604,
+        "candidatesTokenCount": 49,
+        "totalTokenCount": 4202,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1604
+          }
+        ],
+        "thoughtsTokenCount": 2549,
+        "serviceTier": "standard"
+      }
+    },
+    {
+      "id": "cur-en-B1-e00-lesen-t4-8461378a7c25dbfa",
+      "module": "lesen",
+      "teil": 4,
+      "ok": true,
+      "issues": [],
+      "ms": 15183,
+      "usage": {
+        "promptTokenCount": 2008,
+        "candidatesTokenCount": 48,
+        "totalTokenCount": 5183,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2008
+          }
+        ],
+        "thoughtsTokenCount": 3127,
+        "serviceTier": "standard"
+      }
+    },
+    {
+      "id": "cur-en-B1-e00-lesen-t5-0be9c21563d4264a",
+      "module": "lesen",
+      "teil": 5,
+      "ok": true,
+      "issues": [],
+      "ms": 15600,
+      "usage": {
+        "promptTokenCount": 1284,
+        "candidatesTokenCount": 46,
+        "totalTokenCount": 4066,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1284
+          }
+        ],
+        "thoughtsTokenCount": 2736,
+        "serviceTier": "standard"
+      }
+    },
+    {
+      "id": "cur-en-B1-e00-lesen-t6-659ab809e6a01110",
+      "module": "lesen",
+      "teil": 6,
+      "ok": true,
+      "issues": [],
+      "ms": 0,
+      "usage": {}
+    },
+    {
+      "id": "cur-en-B1-e00-horen-t1-1bc2044ad48fb576",
+      "module": "horen",
+      "teil": 1,
+      "ok": true,
+      "issues": [],
+      "ms": 13675,
+      "usage": {
+        "promptTokenCount": 1873,
+        "candidatesTokenCount": 45,
+        "totalTokenCount": 4536,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1873
+          }
+        ],
+        "thoughtsTokenCount": 2618,
+        "serviceTier": "standard"
+      }
+    },
+    {
+      "id": "cur-en-B1-e00-horen-t2-bb1fe6918fbea9e1",
+      "module": "horen",
+      "teil": 2,
+      "ok": true,
+      "issues": [],
+      "ms": 10453,
+      "usage": {
+        "promptTokenCount": 1854,
+        "candidatesTokenCount": 46,
+        "totalTokenCount": 3894,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1854
+          }
+        ],
+        "thoughtsTokenCount": 1994,
+        "serviceTier": "standard"
+      }
+    },
+    {
+      "id": "cur-en-B1-e00-horen-t3-ef9ffefc3d16ba1a",
+      "module": "horen",
+      "teil": 3,
+      "ok": true,
+      "issues": [],
+      "ms": 0,
+      "usage": {}
+    },
+    {
+      "id": "cur-en-B1-e00-horen-t4-2fab3d9398ebe8cc",
+      "module": "horen",
+      "teil": 4,
+      "ok": true,
+      "issues": [],
+      "ms": 16065,
+      "usage": {
+        "promptTokenCount": 1564,
+        "candidatesTokenCount": 47,
+        "totalTokenCount": 4886,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1564
+          }
+        ],
+        "thoughtsTokenCount": 3275,
+        "serviceTier": "standard"
+      }
+    },
+    {
+      "id": "cur-en-B1-e01-lesen-t1-514220075c385d1a",
+      "module": "lesen",
+      "teil": 1,
+      "ok": true,
+      "issues": [],
+      "ms": 13285,
+      "usage": {
+        "promptTokenCount": 1316,
+        "candidatesTokenCount": 33,
+        "totalTokenCount": 3948,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1316
+          }
+        ],
+        "thoughtsTokenCount": 2599,
+        "serviceTier": "standard"
+      }
+    },
+    {
+      "id": "cur-en-B1-e01-lesen-t2-a93fa05b8a8c2955",
+      "module": "lesen",
+      "teil": 2,
+      "ok": true,
+      "issues": [],
+      "ms": 15781,
+      "usage": {
+        "promptTokenCount": 3245,
+        "candidatesTokenCount": 50,
+        "totalTokenCount": 5906,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 3245
+          }
+        ],
+        "thoughtsTokenCount": 2611,
+        "serviceTier": "standard"
+      }
+    },
+    {
+      "id": "cur-en-B1-e01-lesen-t3-76c0523a8b9c4c69",
+      "module": "lesen",
+      "teil": 3,
+      "ok": true,
+      "issues": [],
+      "ms": 12957,
+      "usage": {
+        "promptTokenCount": 1583,
+        "candidatesTokenCount": 46,
+        "totalTokenCount": 4220,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1583
+          }
+        ],
+        "thoughtsTokenCount": 2591,
+        "serviceTier": "standard"
+      }
+    },
+    {
+      "id": "cur-en-B1-e01-lesen-t4-e18a43c3f4a109e2",
+      "module": "lesen",
+      "teil": 4,
+      "ok": true,
+      "issues": [],
+      "ms": 15901,
+      "usage": {
+        "promptTokenCount": 1916,
+        "candidatesTokenCount": 50,
+        "totalTokenCount": 4918,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1916
+          }
+        ],
+        "thoughtsTokenCount": 2952,
+        "serviceTier": "standard"
+      }
+    },
+    {
+      "id": "cur-en-B1-e01-lesen-t5-21704bdc5b4a530e",
+      "module": "lesen",
+      "teil": 5,
+      "ok": false,
+      "issues": [
+        {
+          "kind": "ambiguity",
+          "itemId": "ql_en-b1-r-t5-cloze-cooking-class-01-q3",
+          "detail": "Opción 'b) told' también defendible: 'Marco was very patient and told us exactly what to do.' En un contexto de enseñanza, 'told' (instruir verbalmente) es tan plausible como 'showed' (demostrar).",
+          "confidence": 0.9
+        },
+        {
+          "kind": "ambiguity",
+          "itemId": "ql_en-b1-r-t5-cloze-cooking-class-01-q5",
+          "detail": "Opción 'c) cooked' también defendible: 'By the end of the afternoon, we had all cooked a delicious three-course meal.' 'Cooked a meal' es una expresión muy común y apropiada en el contexto de una clase de cocina, siendo 'prepared' solo ligeramente más amplio.",
+          "confidence": 0.9
+        }
+      ],
+      "ms": 18507,
+      "usage": {
+        "promptTokenCount": 1221,
+        "candidatesTokenCount": 286,
+        "totalTokenCount": 4510,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1221
+          }
+        ],
+        "thoughtsTokenCount": 3003,
+        "serviceTier": "standard"
+      }
+    },
+    {
+      "id": "cur-en-B1-e01-lesen-t6-75857189d592976d",
+      "module": "lesen",
+      "teil": 6,
+      "ok": true,
+      "issues": [],
+      "ms": 0,
+      "usage": {}
+    },
+    {
+      "id": "cur-en-B1-e01-horen-t1-7d5084ce0324550a",
+      "module": "horen",
+      "teil": 1,
+      "ok": true,
+      "issues": [],
+      "ms": 11003,
+      "usage": {
+        "promptTokenCount": 1863,
+        "candidatesTokenCount": 46,
+        "totalTokenCount": 4211,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1863
+          }
+        ],
+        "thoughtsTokenCount": 2302,
+        "serviceTier": "standard"
+      }
+    },
+    {
+      "id": "cur-en-B1-e01-horen-t2-06b87683903060e1",
+      "module": "horen",
+      "teil": 2,
+      "ok": true,
+      "issues": [],
+      "ms": 11976,
+      "usage": {
+        "promptTokenCount": 1857,
+        "candidatesTokenCount": 43,
+        "totalTokenCount": 4210,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1857
+          }
+        ],
+        "thoughtsTokenCount": 2310,
+        "serviceTier": "standard"
+      }
+    },
+    {
+      "id": "cur-en-B1-e01-horen-t3-d79cd1d06f0a5f69",
+      "module": "horen",
+      "teil": 3,
+      "ok": true,
+      "issues": [],
+      "ms": 0,
+      "usage": {}
+    },
+    {
+      "id": "cur-en-B1-e01-horen-t4-24c46ee6376ba98e",
+      "module": "horen",
+      "teil": 4,
+      "ok": true,
+      "issues": [],
+      "ms": 11924,
+      "usage": {
+        "promptTokenCount": 1635,
+        "candidatesTokenCount": 48,
+        "totalTokenCount": 4238,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1635
+          }
+        ],
+        "thoughtsTokenCount": 2555,
+        "serviceTier": "standard"
+      }
+    },
+    {
+      "id": "cur-en-B1-e02-lesen-t1-ddeecab4c9ea13f2",
+      "module": "lesen",
+      "teil": 1,
+      "ok": true,
+      "issues": [],
+      "ms": 11019,
+      "usage": {
+        "promptTokenCount": 1326,
+        "candidatesTokenCount": 49,
+        "totalTokenCount": 3531,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1326
+          }
+        ],
+        "thoughtsTokenCount": 2156,
+        "serviceTier": "standard"
+      }
+    },
+    {
+      "id": "cur-en-B1-e02-lesen-t2-a2eb930339339401",
+      "module": "lesen",
+      "teil": 2,
+      "ok": true,
+      "issues": [],
+      "ms": 14238,
+      "usage": {
+        "promptTokenCount": 2489,
+        "candidatesTokenCount": 45,
+        "totalTokenCount": 5084,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2489
+          }
+        ],
+        "thoughtsTokenCount": 2550,
+        "serviceTier": "standard"
+      }
+    },
+    {
+      "id": "cur-en-B1-e02-lesen-t3-c5f39a93b15d8711",
+      "module": "lesen",
+      "teil": 3,
+      "ok": true,
+      "issues": [],
+      "ms": 12597,
+      "usage": {
+        "promptTokenCount": 1528,
+        "candidatesTokenCount": 49,
+        "totalTokenCount": 3839,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1528
+          }
+        ],
+        "thoughtsTokenCount": 2262,
+        "serviceTier": "standard"
+      }
+    },
+    {
+      "id": "cur-en-B1-e02-lesen-t4-76c85f78070672b6",
+      "module": "lesen",
+      "teil": 4,
+      "ok": true,
+      "issues": [],
+      "ms": 16141,
+      "usage": {
+        "promptTokenCount": 1930,
+        "candidatesTokenCount": 48,
+        "totalTokenCount": 5241,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1930
+          }
+        ],
+        "thoughtsTokenCount": 3263,
+        "serviceTier": "standard"
+      }
+    },
+    {
+      "id": "cur-en-B1-e02-lesen-t5-2737c9e35f86134b",
+      "module": "lesen",
+      "teil": 5,
+      "ok": false,
+      "issues": [
+        {
+          "kind": "ambiguity",
+          "itemId": "ql_en-b1-r-t5-cloze-music-festival-03-q4",
+          "detail": "Opción 'a) carry' también defendible: 'It is also a good idea to carry a waterproof jacket, just in case it rains in the evening.' La frase es una recomendación general para el evento, y 'carry' (llevar consigo) es una acción natural para una chaqueta en un festival, similar a 'pack' (empacar para el viaje).",
+          "confidence": 0.9
+        },
+        {
+          "kind": "ambiguity",
+          "itemId": "ql_en-b1-r-t5-cloze-music-festival-03-q5",
+          "detail": "Opción 'd) variety' también defendible: 'The festival offers a wide variety of food from different countries'. 'Variety' es un sinónimo muy cercano y una colocación igualmente natural y común con 'wide... of food'.",
+          "confidence": 1
+        }
+      ],
+      "ms": 17994,
+      "usage": {
+        "promptTokenCount": 1253,
+        "candidatesTokenCount": 296,
+        "totalTokenCount": 4812,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1253
+          }
+        ],
+        "thoughtsTokenCount": 3263,
+        "serviceTier": "standard"
+      }
+    },
+    {
+      "id": "cur-en-B1-e02-lesen-t6-847ef76b18d922db",
+      "module": "lesen",
+      "teil": 6,
+      "ok": true,
+      "issues": [],
+      "ms": 0,
+      "usage": {}
+    },
+    {
+      "id": "cur-en-B1-e02-horen-t1-1daf578f11276332",
+      "module": "horen",
+      "teil": 1,
+      "ok": true,
+      "issues": [],
+      "ms": 14665,
+      "usage": {
+        "promptTokenCount": 1954,
+        "candidatesTokenCount": 45,
+        "totalTokenCount": 4908,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1954
+          }
+        ],
+        "thoughtsTokenCount": 2909,
+        "serviceTier": "standard"
+      }
+    },
+    {
+      "id": "cur-en-B1-e02-horen-t2-dac3445bb2ec576f",
+      "module": "horen",
+      "teil": 2,
+      "ok": true,
+      "issues": [],
+      "ms": 9197,
+      "usage": {
+        "promptTokenCount": 1855,
+        "candidatesTokenCount": 45,
+        "totalTokenCount": 3613,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1855
+          }
+        ],
+        "thoughtsTokenCount": 1713,
+        "serviceTier": "standard"
+      }
+    },
+    {
+      "id": "cur-en-B1-e02-horen-t3-34b304041945309f",
+      "module": "horen",
+      "teil": 3,
+      "ok": true,
+      "issues": [],
+      "ms": 0,
+      "usage": {}
+    },
+    {
+      "id": "cur-en-B1-e02-horen-t4-e69fcb235b70b888",
+      "module": "horen",
+      "teil": 4,
+      "ok": true,
+      "issues": [],
+      "ms": 10597,
+      "usage": {
+        "promptTokenCount": 1587,
+        "candidatesTokenCount": 48,
+        "totalTokenCount": 3595,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1587
+          }
+        ],
+        "thoughtsTokenCount": 1960,
+        "serviceTier": "standard"
+      }
+    }
+  ]
+}
