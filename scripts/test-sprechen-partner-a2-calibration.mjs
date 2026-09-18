@@ -180,6 +180,21 @@ if (LIVE) {
   console.log('\n⏭  Add --live + ANTHROPIC_API_KEY for real partner E2E probe');
 }
 
-fs.mkdirSync(path.dirname(OUT), { recursive: true });
-fs.writeFileSync(OUT, `${JSON.stringify(report, null, 2)}\n`);
-console.log(`\nReport: ${path.relative(ROOT, OUT)}`);
+// Una pasada sin --live no tiene nada nuevo que registrar, y sobrescribir OUT borraba
+// el bloque "live" del log commiteado (la evidencia de la sonda del 20 jul 2026).
+// Correr la suite dejaba asi contenido trackeado modificado. Ahora solo se escribe
+// cuando hay resultados nuevos, o donde diga --out.
+const outArgIdx = process.argv.indexOf('--out');
+const outFile =
+  outArgIdx !== -1 && process.argv[outArgIdx + 1]
+    ? path.resolve(ROOT, process.argv[outArgIdx + 1])
+    : LIVE
+      ? OUT
+      : null;
+if (outFile) {
+  fs.mkdirSync(path.dirname(outFile), { recursive: true });
+  fs.writeFileSync(outFile, `${JSON.stringify(report, null, 2)}\n`);
+  console.log(`\nReport: ${path.relative(ROOT, outFile)}`);
+} else {
+  console.log('\nReport: no se escribe sin --live (usa --out <fichero> para volcarlo)');
+}
