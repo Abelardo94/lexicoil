@@ -28,7 +28,20 @@ assert('es/B1 exams path', examsFileFor('es', 'B1').endsWith(`${path.sep}data${p
 
 assert('de/B1 exams file exists', fs.existsSync(examsFileFor('de', 'B1')));
 const deExams = JSON.parse(fs.readFileSync(examsFileFor('de', 'B1'), 'utf8'));
-assert('de/B1 has 12 exams', deExams.length === 12);
+// Eran 12 cuando se escribio el test y hoy hay 19: el numero fijo se rompia sola vez que
+// se anadia un examen. Se afirma el invariante, no el censo.
+assert('de/B1 tiene al menos los 12 examenes de base', deExams.length >= 12);
+assert('de/B1 sin ids repetidos', new Set(deExams.map((e) => e.id)).size === deExams.length);
+assert(
+  'todos los examenes de/B1 traen los 4 modulos completos',
+  deExams.every(
+    (e) =>
+      (e.lesenParts || []).length === 5 &&
+      (e.horenParts || []).length === 4 &&
+      (e.schreibenParts || []).length === 3 &&
+      (e.sprechenParts || []).length === 3,
+  ),
+);
 
 const deBp = loadBlueprintForCombo('de', 'B1');
 assert('de/B1 blueprint is goethe', deBp.examType === 'goethe');
