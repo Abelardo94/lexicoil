@@ -216,6 +216,34 @@ for (const [k, v] of Object.entries(byTeil).sort()) {
   console.log(`  ${k.padEnd(12)} pasa ${v.pasa} · falla ${v.falla}`);
 }
 
+// The report is MERGED with whatever was already there, never overwritten.
+// A backlog run verifies only the records with no verdict yet — two, the day this
+// was written — and a plain overwrite dropped the other 28 from a 30-record
+// report. That loses the measurement the run is evidence for, and it silently
+// breaks build-blind-sample.mjs, which reads this file to know which items SEM-1
+// flagged: with only the last run in it, every other item looks never-flagged.
+let previous = null;
+try {
+  previous = JSON.parse(fs.readFileSync(REPORT, 'utf8'));
+} catch { /* first run, or unreadable: start clean */ }
+
+const merged = new Map((previous?.results || []).map((r) => [r.id, r]));
+for (const r of results) merged.set(r.id, r);
+const allResults = [...merged.values()];
+
+const sum = (f) => allResults.reduce((a, r) => a + f(r), 0);
+const allTotals = {
+  verified: allResults.length,
+  passed: allResults.filter((r) => r.ok).length,
+  failed: allResults.filter((r) => r.ok === false).length,
+  errored: allResults.filter((r) => r.error).length,
+  inTok: sum((r) => r.usage?.promptTokenCount || 0),
+  outTok: sum((r) => r.usage?.candidatesTokenCount || 0),
+};
+allTotals.usdEquivalent = Number(
+  ((allTotals.inTok * 0.3 + allTotals.outTok * 2.5) / 1e6).toFixed(7),
+);
+
 fs.mkdirSync(path.dirname(REPORT), { recursive: true });
 fs.writeFileSync(
   REPORT,
@@ -224,14 +252,17 @@ fs.writeFileSync(
       ranAt: new Date().toISOString(),
       model: process.env.GEMINI_MODEL || 'gemini-2.5-flash',
       applied: apply,
-      totals: { verified: results.length, passed, failed, errored, inTok, outTok, usdEquivalent: usd },
-      results,
+      thisRun: { verified: results.length, passed, failed, errored, inTok, outTok, usdEquivalent: usd },
+      totals: allTotals,
+      results: allResults,
     },
     null,
     2,
   ),
 );
-console.log(`\nInforme → ${path.relative(ROOT, REPORT)}`);
+console.log(
+  `\nInforme → ${path.relative(ROOT, REPORT)}  (${results.length} de esta pasada, ${allResults.length} en total)`,
+);
 
 if (apply) {
   if (seed.records) seed.records = records;
