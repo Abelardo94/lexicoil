@@ -10,6 +10,7 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { createRequire } from 'node:module';
 import { extractVocabularyFromText } from './lib/enrichBatchMetadata.mjs';
+import { tagsForQuestion } from './lib/questionVocabTags.mjs';
 
 const ROOT = path.join(path.dirname(fileURLToPath(import.meta.url)), '..');
 const require = createRequire(import.meta.url);
@@ -85,55 +86,18 @@ function collectPassageTexts(exam) {
   return map;
 }
 
-const OPTION_KEY_RE = /^\s*([A-Za-z])\s*[).\-:\]]/;
-
-/** En matching, las opciones son los anuncios del bloque entero; solo la correcta es de esta pregunta. */
-function matchingAnswerText(q) {
-  const key = String(q?.correct ?? q?.correctAnswer ?? '').trim().toUpperCase();
-  if (!key) return null;
-  for (const opt of q?.options || []) {
-    const text = typeof opt === 'string' ? opt : opt?.text;
-    if (!text) continue;
-    const m = OPTION_KEY_RE.exec(text);
-    if (m && m[1].toUpperCase() === key) return text;
-  }
-  return null;
-}
-
-/**
- * `own` es lo que distingue a esta pregunta; `context` (el pasaje) solo desempata.
- * Metido en el mismo blob gana por volumen y todas las preguntas de la parte
- * acaban con los mismos tags.
- */
-function enrichQuestion(q, own, context, lang, lemmaSet) {
-  if ((q.vocabularyTags || []).length >= 3) return false;
-  const tags = extractTags(own, lang, lemmaSet, 6);
-  if (tags.length < 3) {
-    for (const w of extractTags(context, lang, lemmaSet, 6)) {
-      if (tags.length >= 3) break;
-      if (!tags.includes(w)) tags.push(w);
-    }
-  }
-  if (tags.length < 3) return false;
-  q.vocabularyTags = tags.slice(0, 6);
-  return true;
-}
-
 function walkLesenQuestions(exam, lang, lemmaSet) {
   const passages = collectPassageTexts(exam);
   let updated = 0;
   for (const part of exam.lesenParts || []) {
     const partText = [part.text, part.textTitle, part.instruction].filter(Boolean).join(' ');
     const enrich = (q, extra = '') => {
-      const own = [q.question, q.statement, q.signText, q.text];
-      if (String(q?.type || '').toLowerCase().startsWith('match')) {
-        const answer = matchingAnswerText(q);
-        if (answer) own.push(answer);
-      } else {
-        (q.options || []).forEach((o) => own.push(typeof o === 'string' ? o : o?.text));
-      }
+      if ((q.vocabularyTags || []).length >= 3) return;
       const context = [extra, partText].filter(Boolean).join(' ');
-      if (enrichQuestion(q, own.filter(Boolean).join(' '), context, lang, lemmaSet)) updated += 1;
+      const tags = tagsForQuestion(q, context, (text, max) => extractTags(text, lang, lemmaSet, max));
+      if (!tags.length) return;
+      q.vocabularyTags = tags;
+      updated += 1;
     };
     for (const q of part.questions || []) enrich(q, partText);
     for (const pp of part.passages || []) {
