@@ -305,6 +305,11 @@ class ExamValidator {
     (part.items || []).forEach((it) => {
       push(it.signText);
       push(it.text);
+      // Teil 3 (matching): los anuncios son las propias opciones, no un texto aparte.
+      // Solo en matching: en una MCQ normal las opciones son respuestas, no lectura.
+      if (it.type === 'matching') {
+        (it.options || []).forEach((o) => push(typeof o === 'string' ? o : o?.text));
+      }
     });
     (part.ads || []).forEach((a) => push(a.text));
     (part.persons || []).forEach((p) => push(p.text));
