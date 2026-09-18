@@ -112,23 +112,54 @@ function enrichPassages(bank, lang, b1Set) {
   return updated;
 }
 
+const OPTION_KEY_RE = /^\s*([A-Za-z])\s*[).\-:\]]/;
+
+/**
+ * En matching (Teil 3) las opciones son los anuncios del bloque ENTERO: las ocho
+ * o diez son identicas para todas las preguntas del bloque. Solo la correcta
+ * pertenece a esta pregunta; las demas son ruido compartido.
+ */
+function matchingAnswerText(q) {
+  const key = String(q.correct ?? q.correctAnswer ?? '').trim().toUpperCase();
+  if (!key) return null;
+  for (const opt of q.options || []) {
+    const text = typeof opt === 'string' ? opt : opt?.text;
+    if (!text) continue;
+    const m = OPTION_KEY_RE.exec(text);
+    if (m && m[1].toUpperCase() === key) return text;
+  }
+  return null;
+}
+
 function enrichQuestions(bank, lang, b1Set) {
   const passages = passageById(bank);
   let updated = 0;
   for (const q of bank.questions || []) {
     if ((q.vocabularyTags || []).length >= 3) continue;
     const passage = passages.get(q.passageId);
-    const blob = [
-      q.question,
-      q.transcript,
-      q.signText,
-      passage?.text,
-      ...(q.options || []),
-      ...(passage?.passageVocab || []),
-    ]
-      .filter(Boolean)
-      .join(' ');
-    const words = extractFromText(blob, lang, b1Set, 8);
+
+    // Primero, solo lo que distingue a ESTA pregunta de sus hermanas.
+    const own = [q.question, q.transcript, q.signText];
+    if (q.type === 'matching') {
+      const answer = matchingAnswerText(q);
+      if (answer) own.push(answer);
+    } else {
+      (q.options || []).forEach((o) => own.push(typeof o === 'string' ? o : o?.text));
+    }
+    const words = extractFromText(own.filter(Boolean).join(' '), lang, b1Set, 8);
+
+    // El pasaje solo desempata. Metido en el blob principal gana por volumen y
+    // todas las preguntas que cuelgan de el acaban con los mismos tags.
+    if (words.length < 3) {
+      const context = [passage?.text, ...(passage?.passageVocab || [])]
+        .filter(Boolean)
+        .join(' ');
+      for (const w of extractFromText(context, lang, b1Set, 8)) {
+        if (words.length >= 3) break;
+        if (!words.includes(w)) words.push(w);
+      }
+    }
+
     if (words.length < 3) continue;
     q.vocabularyTags = words.slice(0, 6);
     updated++;

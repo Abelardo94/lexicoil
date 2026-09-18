@@ -9,6 +9,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { createRequire } from 'node:module';
+import { extractVocabularyFromText } from './lib/enrichBatchMetadata.mjs';
 
 const ROOT = path.join(path.dirname(fileURLToPath(import.meta.url)), '..');
 const require = createRequire(import.meta.url);
@@ -46,6 +47,13 @@ function tokenize(text) {
 }
 
 function extractTags(text, lang, lemmaSet, max = 6) {
+  // Mismo pipeline DE (v2 lemma/caps) que enrich-bank-vocab-tags.mjs. La ruta
+  // legacy de abajo producia tags que no casaban con los del banco -- minusculas
+  // (`vorschlag` vs `Vorschlag`) y funcionales que su STOP recortada no filtra
+  // (`sich`) -- y la personalizacion cruza ambas fuentes.
+  if (String(lang || 'de').toLowerCase().startsWith('de')) {
+    return extractVocabularyFromText(text, max).map((w) => String(w));
+  }
   const scored = new Map();
   for (const tok of tokenize(text)) {
     const low = tok.toLowerCase();
@@ -77,11 +85,37 @@ function collectPassageTexts(exam) {
   return map;
 }
 
-function enrichQuestion(q, blob, lang, lemmaSet) {
+const OPTION_KEY_RE = /^\s*([A-Za-z])\s*[).\-:\]]/;
+
+/** En matching, las opciones son los anuncios del bloque entero; solo la correcta es de esta pregunta. */
+function matchingAnswerText(q) {
+  const key = String(q?.correct ?? q?.correctAnswer ?? '').trim().toUpperCase();
+  if (!key) return null;
+  for (const opt of q?.options || []) {
+    const text = typeof opt === 'string' ? opt : opt?.text;
+    if (!text) continue;
+    const m = OPTION_KEY_RE.exec(text);
+    if (m && m[1].toUpperCase() === key) return text;
+  }
+  return null;
+}
+
+/**
+ * `own` es lo que distingue a esta pregunta; `context` (el pasaje) solo desempata.
+ * Metido en el mismo blob gana por volumen y todas las preguntas de la parte
+ * acaban con los mismos tags.
+ */
+function enrichQuestion(q, own, context, lang, lemmaSet) {
   if ((q.vocabularyTags || []).length >= 3) return false;
-  const tags = extractTags(blob, lang, lemmaSet, 6);
+  const tags = extractTags(own, lang, lemmaSet, 6);
+  if (tags.length < 3) {
+    for (const w of extractTags(context, lang, lemmaSet, 6)) {
+      if (tags.length >= 3) break;
+      if (!tags.includes(w)) tags.push(w);
+    }
+  }
   if (tags.length < 3) return false;
-  q.vocabularyTags = tags;
+  q.vocabularyTags = tags.slice(0, 6);
   return true;
 }
 
@@ -91,10 +125,15 @@ function walkLesenQuestions(exam, lang, lemmaSet) {
   for (const part of exam.lesenParts || []) {
     const partText = [part.text, part.textTitle, part.instruction].filter(Boolean).join(' ');
     const enrich = (q, extra = '') => {
-      const blob = [q.question, q.statement, q.signText, q.text, extra, partText, ...(q.options || [])]
-        .filter(Boolean)
-        .join(' ');
-      if (enrichQuestion(q, blob, lang, lemmaSet)) updated += 1;
+      const own = [q.question, q.statement, q.signText, q.text];
+      if (String(q?.type || '').toLowerCase().startsWith('match')) {
+        const answer = matchingAnswerText(q);
+        if (answer) own.push(answer);
+      } else {
+        (q.options || []).forEach((o) => own.push(typeof o === 'string' ? o : o?.text));
+      }
+      const context = [extra, partText].filter(Boolean).join(' ');
+      if (enrichQuestion(q, own.filter(Boolean).join(' '), context, lang, lemmaSet)) updated += 1;
     };
     for (const q of part.questions || []) enrich(q, partText);
     for (const pp of part.passages || []) {
