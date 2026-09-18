@@ -276,7 +276,9 @@
     "purge:pool:b1": "node scripts/purge-legacy-pool.mjs --lang de --level B1 --dry-run",
     "audit:placeholders": "node scripts/audit-content-placeholders.mjs --strict",
     "fix:placeholders": "node scripts/audit-content-placeholders.mjs --fix",
-    "test:placeholders-gate": "node scripts/lib/__tests__/contentPlaceholders.test.mjs"
+    "test:placeholders-gate": "node scripts/lib/__tests__/contentPlaceholders.test.mjs",
+    "test:concurrency": "node scripts/lib/__tests__/mapWithConcurrency.test.mjs",
+    "test:blob-strict": "node scripts/lib/__tests__/pushSeedBlobStrict.test.mjs"
   },
   "devDependencies": {
     "ajv": "^8.17.1"

@@ -59,6 +59,10 @@ jobs:
       - name: test:placeholders-gate (el gate se prueba saboteado)
         run: npm run test:placeholders-gate
 
+      # Sin credenciales: los dos usan dobles de la tienda de blobs.
+      - name: test:concurrency + test:blob-strict (fail-closed de las lecturas)
+        run: npm run test:concurrency && npm run test:blob-strict
+
       # Cubre los dos idiomas: el defecto era alemán, pero el pipeline es común.
       - name: audit:placeholders (basura de plantilla en contenido servido)
         run: npm run audit:placeholders

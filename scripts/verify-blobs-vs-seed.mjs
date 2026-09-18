@@ -22,6 +22,15 @@ import path from 'node:path';
 import { createRequire } from 'node:module';
 import { loadEnvFile, ROOT } from './lib/loadEnv.mjs';
 import { buildUpdatedPayload, keySeqForPart } from './lib/mergeSeedBlobPayload.mjs';
+import { progressWriter } from './lib/mapWithConcurrency.mjs';
+
+// One writer per label: progressWriter throttles repaints with its own state, so
+// building a fresh one per tick would repaint on every single item.
+const progressWriters = new Map();
+const progress = (label) => {
+  if (!progressWriters.has(label)) progressWriters.set(label, progressWriter(label));
+  return progressWriters.get(label);
+};
 import {
   BlobStoreReadError,
   loadBlobIndexStrict,
@@ -86,7 +95,10 @@ console.log('Cargando índice de blobs (fail-closed)...');
 let blobIndex;
 let indexStats;
 try {
-  ({ blobIndex, indexStats } = await loadBlobIndexStrict(store, { modules: MODULES }));
+  ({ blobIndex, indexStats } = await loadBlobIndexStrict(store, {
+    modules: MODULES,
+    onProgress: (mod, done, total) => progress(`  ${mod}`)(done, total),
+  }));
 } catch (err) {
   console.error(abortVerifyMessage(err instanceof BlobStoreReadError ? err : new BlobStoreReadError(String(err))));
   process.exit(1);
@@ -115,6 +127,7 @@ try {
     buildPayload: buildUpdatedPayload,
     backupById,
     keySeqForPartFn: keySeqForPart,
+    onProgress: (_phase, done, total) => progress('  payloads')(done, total),
   }));
 } catch (err) {
   console.log(' ABORT\n');
