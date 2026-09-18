@@ -11,107 +11,89 @@
  *   node scripts/audit-en-spelling-variant.mjs --level B1 --strict
  *
  * --strict exits 1 when any American form is found.
+ *
+ * It checks the whole chain, not just the pool: the same strings live in
+ * `library/curated/` and in the served `data/exams/`, and it was the served copy
+ * that users were reading. Matching is whole-word via scripts/lib/britishSpelling.mjs
+ * — a stem-matching gate flags "laboratory" and counts "organizers" twice.
  */
 import fs from 'node:fs';
 import path from 'node:path';
 import { ROOT } from './lib/loadEnv.mjs';
+import { findAmerican, findAmbiguous, mapStrings } from './lib/britishSpelling.mjs';
 
 const argv = process.argv.slice(2);
 const flag = (n, d) => { const i = argv.indexOf(n); return i >= 0 ? argv[i + 1] : d; };
 const level = String(flag('--level', 'B1')).toUpperCase();
 const strict = argv.includes('--strict');
 
-/** [British (correct for Cambridge), American (defect)] */
-const VARIANTS = [
-  ['centre', 'center'], ['theatre', 'theater'],
-  ['colour', 'color'], ['favourite', 'favorite'], ['neighbour', 'neighbor'],
-  ['armour', 'armor'], ['behaviour', 'behavior'], ['flavour', 'flavor'],
-  ['harbour', 'harbor'], ['humour', 'humor'], ['labour', 'labor'],
-  ['practise', 'practice'],
-  ['organise', 'organize'], ['organiser', 'organizer'], ['realise', 'realize'],
-  ['recognise', 'recognize'], ['apologise', 'apologize'], ['specialise', 'specialize'],
-  ['travelling', 'traveling'], ['cancelled', 'canceled'],
-  ['grey', 'gray'], ['jewellery', 'jewelry'],
-  ['pyjamas', 'pajamas'], ['aeroplane', 'airplane'],
+const TARGETS = [
+  `library/reusable-seed/en_${level}.json`,
+  `library/curated/en/${level}`,
+  `library/published-exams/en/${level}`,
+  `data/exams/en_${level}.json`,
 ];
 
-/**
- * Pairs where the "American" form is also correct British English in some
- * sense, so a hit is a prompt to look, never a defect on its own:
- *   tire     — the verb (to tire) is fine; only the car part is tyre
- *   learned  — both learnt and learned are standard British
- *   program  — correct for computer programs; programme for TV and events
- *   meter    — the device; metre is the unit
- * Reported separately and never fails --strict.
- */
-const AMBIGUOUS = [
-  ['tyre', 'tire'], ['learnt', 'learned'], ['programme', 'program'], ['metre', 'meter'],
-];
-
-const seedPath = path.join(ROOT, `library/reusable-seed/en_${level}.json`);
-if (!fs.existsSync(seedPath)) {
-  console.error(`No existe ${path.relative(ROOT, seedPath)}`);
-  process.exit(1);
-}
-const seed = JSON.parse(fs.readFileSync(seedPath, 'utf8'));
-const records = seed.records || seed;
-
-/** Every learner-visible string in a part. */
-function textOf(rec) {
-  const bits = [rec.passage?.text || '', rec.passage?.title || '', rec.instruction || ''];
-  for (const s of rec.segments || []) bits.push(s.transcript || '');
-  for (const a of rec.ads || []) bits.push(typeof a === 'string' ? a : (a?.text || ''));
-  for (const q of rec.questions || []) {
-    bits.push(q.question || '', q.signText || '', q.explanation || '');
-    for (const o of q.options || []) bits.push(typeof o === 'string' ? o : (o?.text || ''));
-  }
-  return bits.join('\n');
+function jsonFiles(target) {
+  const abs = path.join(ROOT, target);
+  if (!fs.existsSync(abs)) return [];
+  if (fs.statSync(abs).isFile()) return abs.endsWith('.json') ? [abs] : [];
+  const out = [];
+  const walk = (p) => {
+    for (const e of fs.readdirSync(p)) {
+      if (e === '_rejected' || e === '.rejected') continue;
+      const full = path.join(p, e);
+      if (fs.statSync(full).isDirectory()) walk(full);
+      else if (full.endsWith('.json')) out.push(full);
+    }
+  };
+  walk(abs);
+  return out;
 }
 
-const totals = { brit: new Map(), amer: new Map() };
+const amer = new Map();
 const ambiguous = new Map();
 const offenders = [];
+let filesSeen = 0;
 
-for (const rec of records) {
-  const text = textOf(rec);
-  const amer = [];
-  const brit = [];
-  for (const [b, a] of VARIANTS) {
-    const mb = text.match(new RegExp(`\\b${b}`, 'gi'));
-    const ma = text.match(new RegExp(`\\b${a}`, 'gi'));
-    if (mb) { totals.brit.set(b, (totals.brit.get(b) || 0) + mb.length); brit.push(`${b}×${mb.length}`); }
-    if (ma) { totals.amer.set(a, (totals.amer.get(a) || 0) + ma.length); amer.push(`${a}×${ma.length}`); }
-  }
-  if (amer.length) offenders.push({ id: rec.id, slot: `${rec.module} T${rec.teil}`, amer, brit });
-
-  for (const [, a] of AMBIGUOUS) {
-    const m = text.match(new RegExp(`\\b${a}`, 'gi'));
-    if (m) ambiguous.set(a, (ambiguous.get(a) || 0) + m.length);
+for (const target of TARGETS) {
+  for (const file of jsonFiles(target)) {
+    filesSeen++;
+    const rel = path.relative(ROOT, file).replace(/\\/g, '/');
+    const data = JSON.parse(fs.readFileSync(file, 'utf8'));
+    const hits = [];
+    mapStrings(data, (value, where) => {
+      for (const w of findAmerican(value)) {
+        amer.set(w.toLowerCase(), (amer.get(w.toLowerCase()) || 0) + 1);
+        hits.push(`${where}: ${w}`);
+      }
+      for (const w of findAmbiguous(value)) {
+        ambiguous.set(w.toLowerCase(), (ambiguous.get(w.toLowerCase()) || 0) + 1);
+      }
+      return null; // look only
+    });
+    if (hits.length) offenders.push({ rel, hits });
   }
 }
 
-const fmt = (m) => [...m.entries()].sort((a, b) => b[1] - a[1]).map(([k, v]) => `${k}×${v}`).join(' · ') || '(ninguna)';
+const fmt = (m) => [...m.entries()].sort((a, b) => b[1] - a[1])
+  .map(([k, v]) => `${k}×${v}`).join(' · ') || '(ninguna)';
 
-console.log(`en/${level} — ${records.length} partes\n`);
-console.log('Formas británicas (correctas):');
-console.log('  ' + fmt(totals.brit) + '\n');
+console.log(`en/${level} — ${filesSeen} ficheros de contenido\n`);
 console.log('Formas americanas (defecto):');
-console.log('  ' + fmt(totals.amer) + '\n');
-
+console.log('  ' + fmt(amer) + '\n');
 console.log('Formas dudosas (correctas en británico según el sentido — mirar, no bloquear):');
 console.log('  ' + fmt(ambiguous) + '\n');
 
 if (offenders.length) {
-  console.log(`Partes afectadas: ${offenders.length} de ${records.length}`);
   for (const o of offenders) {
-    const mixed = o.brit.length ? `   ← mezcla con ${o.brit.join(', ')}` : '';
-    console.log(`  ${o.slot.padEnd(12)} ${o.id.slice(-18)}  ${o.amer.join(', ')}${mixed}`);
+    console.log(`${o.rel}  (${o.hits.length})`);
+    for (const h of o.hits.slice(0, 12)) console.log(`    ${h}`);
+    if (o.hits.length > 12) console.log(`    … y ${o.hits.length - 12} más`);
   }
-} else {
-  console.log('Sin formas americanas.');
 }
 
-const amerTotal = [...totals.amer.values()].reduce((a, b) => a + b, 0);
-console.log(`\n${amerTotal} apariciones americanas en ${offenders.length} partes.`);
+const total = [...amer.values()].reduce((a, b) => a + b, 0);
+console.log(`\n${total} apariciones americanas en ${offenders.length} ficheros.`);
 
-if (strict && amerTotal > 0) process.exit(1);
+if (strict && total > 0) process.exit(1);
