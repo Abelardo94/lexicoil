@@ -278,7 +278,8 @@
     "fix:placeholders": "node scripts/audit-content-placeholders.mjs --fix",
     "test:placeholders-gate": "node scripts/lib/__tests__/contentPlaceholders.test.mjs",
     "test:concurrency": "node scripts/lib/__tests__/mapWithConcurrency.test.mjs",
-    "test:blob-strict": "node scripts/lib/__tests__/pushSeedBlobStrict.test.mjs"
+    "test:blob-strict": "node scripts/lib/__tests__/pushSeedBlobStrict.test.mjs",
+    "test:merge-segments": "node scripts/lib/__tests__/mergeSegments.test.mjs"
   },
   "devDependencies": {
     "ajv": "^8.17.1"

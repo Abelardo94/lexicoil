@@ -144,14 +144,30 @@ export function questionsContentEqual(expectedQs, blobQs) {
   return true;
 }
 
+/**
+ * Match segments by id, falling back to position when ids are absent.
+ *
+ * Matching by id alone reported 35 horen-t1-gemini-* parts as a REAL content
+ * divergence against payloads that were byte-for-byte identical: every one of
+ * their segments has `id: null`, so `filter((s) => s.id)` emptied the map, the
+ * lookup missed and this returned false. The divergence survived every push
+ * because there was nothing to push — the verifier was crying wolf, and 35
+ * permanent false alarms are how a real one goes unnoticed.
+ *
+ * The arrays are already known to be the same length here, which is what makes
+ * comparing by position sound. Same rule as mergeSegments in
+ * mergeSeedBlobPayload.mjs — these two must agree or the verifier and the
+ * pusher disagree about what "equal" means.
+ */
 function segmentsContentEqual(expectedSegs, blobSegs) {
   const es = expectedSegs || [];
   const bs = blobSegs || [];
   if (!es.length && !bs.length) return true;
   if (es.length !== bs.length) return false;
   const bMap = Object.fromEntries(bs.filter((s) => s.id).map((s) => [s.id, s]));
-  for (const seg of es) {
-    const bSeg = bMap[seg.id];
+  for (let i = 0; i < es.length; i++) {
+    const seg = es[i];
+    const bSeg = (seg.id != null && bMap[seg.id]) || bs[i];
     if (!bSeg) return false;
     if (!questionsContentEqual(seg.questions, bSeg.questions)) return false;
   }

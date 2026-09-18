@@ -61,7 +61,7 @@ jobs:
 
       # Sin credenciales: los dos usan dobles de la tienda de blobs.
       - name: test:concurrency + test:blob-strict (fail-closed de las lecturas)
-        run: npm run test:concurrency && npm run test:blob-strict
+        run: npm run test:concurrency && npm run test:blob-strict && npm run test:merge-segments
 
       # Cubre los dos idiomas: el defecto era alemán, pero el pipeline es común.
       - name: audit:placeholders (basura de plantilla en contenido servido)

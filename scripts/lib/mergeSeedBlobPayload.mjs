@@ -302,12 +302,28 @@ function mergePassagesArray(blobArr, seedArr) {
   return blobArr.map((bp) => mergePassageObject(bp, seedById[bp.id] || {}));
 }
 
+/**
+ * Match seed segments to blob segments by id, falling back to position.
+ *
+ * Matching by id alone silently merged nothing for 35 horen-t1-gemini-* parts:
+ * every one of their segments has `id: null`, so `filter((s) => s.id)` dropped
+ * them all, the lookup missed, and each blob segment came back untouched. The
+ * push then wrote the blob over itself and reported "✓ Actualizado" while the
+ * content never converged — a write that says yes and changes nothing.
+ *
+ * The positional fallback only applies when both sides have the same number of
+ * segments, which is what makes it safe: with a different count we cannot know
+ * which segment is which, so the old behaviour (leave the blob alone) is right.
+ */
 function mergeSegments(blobSegs, seedSegs) {
   if (!Array.isArray(blobSegs) || !blobSegs.length) return blobSegs;
   if (!Array.isArray(seedSegs) || !seedSegs.length) return blobSegs;
+
   const seedById = Object.fromEntries(seedSegs.filter((s) => s.id).map((s) => [s.id, s]));
-  return blobSegs.map((bSeg) => {
-    const sSeg = seedById[bSeg.id];
+  const byPosition = blobSegs.length === seedSegs.length;
+
+  return blobSegs.map((bSeg, i) => {
+    const sSeg = (bSeg.id != null && seedById[bSeg.id]) || (byPosition ? seedSegs[i] : null);
     if (!sSeg || !Array.isArray(bSeg.questions) || !Array.isArray(sSeg.questions)) return bSeg;
     return {
       ...bSeg,
