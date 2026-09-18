@@ -273,7 +273,10 @@
     "db:load-parts": "node scripts/load-bank-to-postgres.mjs",
     "db:load-parts:dry": "node scripts/load-bank-to-postgres.mjs --dry-run",
     "purge:pool": "node scripts/purge-legacy-pool.mjs",
-    "purge:pool:b1": "node scripts/purge-legacy-pool.mjs --lang de --level B1 --dry-run"
+    "purge:pool:b1": "node scripts/purge-legacy-pool.mjs --lang de --level B1 --dry-run",
+    "audit:placeholders": "node scripts/audit-content-placeholders.mjs --strict",
+    "fix:placeholders": "node scripts/audit-content-placeholders.mjs --fix",
+    "test:placeholders-gate": "node scripts/lib/__tests__/contentPlaceholders.test.mjs"
   },
   "devDependencies": {
     "ajv": "^8.17.1"

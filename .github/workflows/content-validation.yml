@@ -56,6 +56,13 @@ jobs:
       - name: audit:open-cloze:en (Part 6 solo gapea palabras funcionales)
         run: npm run audit:open-cloze:en
 
+      - name: test:placeholders-gate (el gate se prueba saboteado)
+        run: npm run test:placeholders-gate
+
+      # Cubre los dos idiomas: el defecto era alemán, pero el pipeline es común.
+      - name: audit:placeholders (basura de plantilla en contenido servido)
+        run: npm run audit:placeholders
+
       - name: ci:content (live fidelity + dedupe gate)
         run: npm run ci:content
 
