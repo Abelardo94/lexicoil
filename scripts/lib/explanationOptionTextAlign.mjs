@@ -32,6 +32,33 @@ export const EXPL_OPTION_TEXT_ALIGN_GRADUATION = Object.freeze({
 
 const KEYWORDS_STRICT = ['Überschrift', 'überschrift', 'Option', 'Antwort', 'Alternative'];
 const KEYWORDS_LOOSE = ['Satz'];
+// English explanations trigger on their own words. `Option`/`Alternative` already overlap, which
+// is why English items reached the strict branch at all — and then died on exact equality.
+const KEYWORDS_STRICT_EN = ['Option', 'option', 'Answer', 'answer', 'Heading', 'heading', 'Choice', 'choice'];
+const KEYWORDS_LOOSE_EN = ['Sentence', 'sentence'];
+
+/**
+ * How a quoted fragment relates to the correct option body.
+ *
+ * German content follows the Goethe convention of quoting the option verbatim, so `de` keeps
+ * strict equality and its findings do not move. Cambridge explanations quote a fragment of the
+ * option ("Most of them" for "Most of them were local farmers who had produced the food
+ * themselves."), which is legitimate, so containment counts as a match there. A difference that
+ * is only casing is reported, but as a warning: that is capitalization drift, not a wrong key.
+ *
+ * @returns {'exact'|'partial'|'case'|'no'}
+ */
+function quoteBodyRelation(quote, body) {
+  const q = normalizeAlignText(quote);
+  const b = normalizeAlignText(body);
+  if (!q || !b) return 'no';
+  if (q === b) return 'exact';
+  if (b.includes(q) || q.includes(b)) return 'partial';
+  const ql = q.toLowerCase();
+  const bl = b.toLowerCase();
+  if (ql === bl || bl.includes(ql) || ql.includes(bl)) return 'case';
+  return 'no';
+}
 const QUOTE_RE = /['\u201e\u201c]([^'\u201d\u201c]{3,220})['\u201d\u201c]/g;
 const PROXIMITY_CHARS = 120;
 
@@ -94,11 +121,12 @@ function isProximate(quoteStart, quoteEnd, keyIndices) {
  * Quoted spans near strict keywords (Überschrift/Option/Antwort) or loose (Satz).
  * @returns {{ text: string, index: number, mode: 'strict'|'loose'|'both' }[]}
  */
-export function extractKeywordProximateQuotes(explanation) {
+export function extractKeywordProximateQuotes(explanation, lang = 'de') {
   const expl = String(explanation || '');
   if (!expl.trim()) return [];
-  const strictKeys = keywordIndices(expl, KEYWORDS_STRICT);
-  const looseKeys = keywordIndices(expl, KEYWORDS_LOOSE);
+  const isEn = String(lang || 'de').trim().toLowerCase() === 'en';
+  const strictKeys = keywordIndices(expl, isEn ? KEYWORDS_STRICT_EN : KEYWORDS_STRICT);
+  const looseKeys = keywordIndices(expl, isEn ? KEYWORDS_LOOSE_EN : KEYWORDS_LOOSE);
   if (!strictKeys.length && !looseKeys.length) return [];
 
   const out = [];
@@ -153,8 +181,11 @@ export function checkExplanationOptionTextAlignQuestion(q) {
   if (!correctL || !bodies.has(correctL)) return { blocking, warnings };
 
   const correctBody = bodies.get(correctL);
-  const proxQuotes = extractKeywordProximateQuotes(expl);
-  const hasStrictKeywords = keywordIndices(expl, KEYWORDS_STRICT).length > 0;
+  const lang = String(q.lang || q.language || 'de').trim().toLowerCase();
+  const strictConvention = lang === 'de'; // Goethe quotes the option verbatim; Cambridge does not
+  const proxQuotes = extractKeywordProximateQuotes(expl, lang);
+  const hasStrictKeywords =
+    keywordIndices(expl, lang === 'en' ? KEYWORDS_STRICT_EN : KEYWORDS_STRICT).length > 0;
 
   const strictQuotes = proxQuotes.filter((q) => q.mode === 'strict' || q.mode === 'both');
   const looseQuotes = proxQuotes.filter((q) => q.mode === 'loose' || q.mode === 'both');
@@ -192,9 +223,29 @@ export function checkExplanationOptionTextAlignQuestion(q) {
 
   let matchedCorrect = false;
   for (const { text } of strictQuotes) {
-    if (text === correctBody) {
-      matchedCorrect = true;
-      continue;
+    if (strictConvention) {
+      if (text === correctBody) {
+        matchedCorrect = true;
+        continue;
+      }
+    } else {
+      const rel = quoteBodyRelation(text, correctBody);
+      if (rel === 'exact' || rel === 'partial') {
+        matchedCorrect = true;
+        continue;
+      }
+      if (rel === 'case') {
+        // The quote is the right option, spelled with different casing — capitalization drift,
+        // not a wrong answer key. Worth reporting, not worth blocking.
+        matchedCorrect = true;
+        warnings.push({
+          kind: 'quote_case_drift',
+          itemId: q.id,
+          message:
+            `${q.id || 'question'}: CHK-34 — la cita «${text}» coincide con la opción correcta ${correctL}) «${correctBody}» salvo en mayúsculas.`,
+        });
+        continue;
+      }
     }
     const asLetter = letterForBody(bodies, text);
     if (asLetter && asLetter !== correctL) {
