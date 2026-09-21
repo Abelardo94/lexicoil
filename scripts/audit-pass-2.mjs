@@ -104,18 +104,26 @@ const BLUEPRINT_A2 = {
   'sprechen':  { count: null, types: ['personal_questions', 'about_self', 'plan_together', 'short_answer'] },
 };
 
-/** Cambridge B1 Preliminary: expected item count per (module, teil). Used when exam lang is 'en'. */
+/** Cambridge B1 Preliminary: expected item count per (module, teil). Used when exam lang is 'en'.
+ *  `options` = options per item. Goethe B1 is 3 everywhere, Cambridge is not: Reading P3/P5 use
+ *  four (A–D) and the matching parts offer a bank of eight. Measured on the three published
+ *  en/B1 exams (all passing `validate:fidelity`), and matching the real B1 Preliminary paper.
+ *  null = the task has no options (open cloze, gap fill). */
 const CAMBRIDGE_B1_BLUEPRINT = {
-  'lesen-1':   { count: 5 },
-  'lesen-2':   { count: 5 },
-  'lesen-3':   { count: 5 },
-  'lesen-4':   { count: 5 },
-  'lesen-5':   { count: 6 },
-  'lesen-6':   { count: 6 },
-  'horen-1':   { count: 7 },
-  'horen-2':   { count: 6 },
-  'horen-3':   { count: 6 },
-  'horen-4':   { count: 6 },
+  //  `words` mirrors `wordsPerPassage` in library/blueprints/cambridge_B1.json. Reading P1/P2
+  //  carry passageLengthExempt there (signs and notices run ~30 words by design), and the
+  //  paper declares no length for Listening — so both are null and simply not checked, rather
+  //  than borrowing the Goethe numbers, which is what flagged English transcripts as "too short".
+  'lesen-1':   { count: 5, options: 3,    words: null },
+  'lesen-2':   { count: 5, options: 8,    words: null },
+  'lesen-3':   { count: 5, options: 4,    words: { min: 150, max: 800 } },
+  'lesen-4':   { count: 5, options: 8,    words: { min: 150, max: 800 } },
+  'lesen-5':   { count: 6, options: 4,    words: { min: 150, max: 800 } },
+  'lesen-6':   { count: 6, options: null, words: { min: 150, max: 800 } },
+  'horen-1':   { count: 7, options: 3,    words: null },
+  'horen-2':   { count: 6, options: 3,    words: null },
+  'horen-3':   { count: 6, options: null, words: null },
+  'horen-4':   { count: 6, options: 3,    words: null },
   'schreiben': { count: null },
   'sprechen':  { count: null },
 };
@@ -291,17 +299,21 @@ function chk2(batch, file) {
         });
       }
     }
-    // MCQ → exactly 3 options; Lesen T2 malformed if ≠3 (type multiple or multiple_choice)
+    // MCQ option count. Goethe B1 is 3 everywhere; Cambridge varies by part (Reading P3/P5
+    // use four), so take the expected number from the blueprint of the batch's own (lang,
+    // level) when it declares one. Lesen T2 malformed is CRITICAL (Goethe).
     if (isMcqQuestionType(q.type)) {
       const opts = q.options || [];
       const mod = String(q.module || batch.module || '').toLowerCase();
       const teil = Number(q.teil ?? batch.teil);
       const isLesenT2 = mod === 'lesen' && teil === 2;
-      if (opts.length !== 3) {
+      const bpPart = blueprintForLevel(inferAuditLevel(batch), inferAuditLang(batch))[`${mod}-${teil}`];
+      const expected = bpPart && bpPart.options !== undefined ? bpPart.options : 3;
+      if (expected != null && opts.length !== expected) {
         const sev = isLesenT2 ? 'CRITICAL' : 'IMPORTANT';
         const scope = isLesenT2 ? 'lesen-2' : `${mod}-t${teil}`;
         findings.push(finding('CHK-2', sev, file, q.id,
-          `${scope}: MCQ requiere exactamente 3 options (a/b/c), tiene ${opts.length} (type="${q.type}")`));
+          `${scope}: MCQ requiere exactamente ${expected} options, tiene ${opts.length} (type="${q.type}")`));
       }
     }
   }
@@ -1163,7 +1175,13 @@ const WORD_COUNT_SPEC_B2 = {
   'horen-4':  { min: 300, max: 450, scope: 'B2 Vortrag (passages[0].text)' },
 };
 
-function resolveWordCountSpec(key, level) {
+function resolveWordCountSpec(key, level, lang = 'de') {
+  // Cambridge declares its own passage lengths and exempts several parts; falling through to
+  // the Goethe table measured English transcripts against German minimums.
+  if (String(lang || 'de').trim().toLowerCase() === 'en') {
+    const part = CAMBRIDGE_B1_BLUEPRINT[key];
+    return part && part.words ? { ...part.words, scope: 'cambridge blueprint' } : null;
+  }
   const lv = String(level || '').toUpperCase();
   if (lv === 'A2' && WORD_COUNT_SPEC_A2[key]) {
     return WORD_COUNT_SPEC_A2[key];
@@ -1189,6 +1207,7 @@ function wordCountSpecKey(refQ) {
 function chk15(batch, file) {
   const findings = [];
   const level = inferAuditLevel(batch);
+  const lang = inferAuditLang(batch);
 
   // Check passages (lesen)
   for (const p of batch.passages || []) {
@@ -1199,7 +1218,7 @@ function chk15(batch, file) {
     const refQ = (batch.questions || []).find(q => q.passageId === p.id);
     if (!refQ) continue;
     const key = wordCountSpecKey(refQ);
-    const spec = resolveWordCountSpec(key, level);
+    const spec = resolveWordCountSpec(key, level, lang);
     if (!spec) continue;
 
     const wc = countWords(text);
@@ -1215,8 +1234,8 @@ function chk15(batch, file) {
   // Check L4 signTexts (they are in questions, not passages)
   const l4qs = (batch.questions || []).filter(q =>
     String(q.module||'').toLowerCase() === 'lesen' && Number(q.teil) === 4 && q.signText);
-  const l4spec = resolveWordCountSpec('lesen-4', level);
-  for (const q of l4qs) {
+  const l4spec = resolveWordCountSpec('lesen-4', level, lang);
+  for (const q of (l4spec ? l4qs : [])) {
     const wc = countWords(q.signText);
     if (wc < l4spec.min) {
       findings.push(finding('CHK-15', 'IMPORTANT', file, q.id,
@@ -1529,11 +1548,17 @@ function chk17(batch, file) {
 // German function words — presence of any 1 confirms text is German.
 const GERMAN_MARKER_RE = /\b(der|die|das|den|dem|ein|eine|und|ist|sind|war|haben|wird|nicht|auch|aber|weil|wenn|dass|für|von|zu|auf|aus|mit|an|im|am|ins|zum|zur|kein|keine|dieser|welche|geht|macht|hat|trifft|fahrt|fährt|kocht|lernt|einkaufen|bietet|lehrt|hilft|repariert|zeigt|erklärt|sagt|nennt|gibt|wechselt|verkauft|vermietet|organisiert|vermittelt|reinigt|begleitet|unterrichtet|pflegt)\b/i;
 const TRIVIAL_EXPL_RE = /^(richtig|falsch|ja|nein|korrekt|genau|das stimmt|das ist richtig|das ist korrekt|das ist falsch)\.?$/i;
+// English counterparts (docs/audit/gates-en-applicability.md — CHK-18 "invertir: detectar
+// indicadores de inglés"). Only words with no German homograph, so a German explanation
+// never matches by accident: "in/am/an/war/was/also" are deliberately absent.
+const ENGLISH_MARKER_RE = /\b(the|is|are|were|because|that|this|these|those|they|their|them|she|he|her|his|its|we|you|your|with|from|have|has|had|does|did|will|would|should|could|can|there|about|when|what|why|how|of|to|for|but|not|and|says|means|mentions|explains|shows|prefers|wants|needs|agrees|suggests)\b/i;
+const TRIVIAL_EXPL_EN_RE = /^(correct|incorrect|right|wrong|yes|no|true|false|that's right|that is right|that's correct|that is correct|this is correct)\.?$/i;
 
 function chk18(batch, file) {
   const findings = [];
   const seen = new Set();
   const level = inferAuditLevel(batch);
+  const lang = inferAuditLang(batch);
 
   for (const q of batch.questions || []) {
     // Skip schreiben/sprechen (rubric answers)
@@ -1561,19 +1586,27 @@ function chk18(batch, file) {
       continue;
     }
 
-    // Trivial explanation (just "Richtig" or "Das ist korrekt")
-    if (TRIVIAL_EXPL_RE.test(expl)) {
+    // Trivial explanation (just "Richtig" / "Das ist korrekt", or "Correct" / "That's right")
+    if (TRIVIAL_EXPL_RE.test(expl) || (lang === 'en' && TRIVIAL_EXPL_EN_RE.test(expl))) {
       findings.push(finding('CHK-18', 'IMPORTANT', file, q.id,
         `Explanation trivial: "${expl}". Debe explicar el razonamiento, no solo confirmar la respuesta.`));
       continue;
     }
 
-    // Not in German: flag if no German indicators (umlauts, ß, or common function words).
-    // Umlauts (ä/ö/ü/ß) alone are strong evidence of German — only flag if none present.
-    const hasUmlauts = /[äöüß]/i.test(expl);
-    if (!hasUmlauts && !GERMAN_MARKER_RE.test(expl)) {
+    // Wrong language: flag when the explanation shows no marker of the batch's own language.
+    // German: umlauts (ä/ö/ü/ß) alone are strong evidence — only flag if none present.
+    // English: function-word markers. Other languages have no marker list yet, so they are
+    // left alone rather than flagged by German rules (that was the bug: every English
+    // explanation came out as "posiblemente no está en alemán").
+    if (lang === 'de') {
+      const hasUmlauts = /[äöüß]/i.test(expl);
+      if (!hasUmlauts && !GERMAN_MARKER_RE.test(expl)) {
+        findings.push(finding('CHK-18', 'IMPORTANT', file, q.id,
+          `Explanation posiblemente no está en alemán: "${expl.slice(0,80)}..."`));
+      }
+    } else if (lang === 'en' && !ENGLISH_MARKER_RE.test(expl)) {
       findings.push(finding('CHK-18', 'IMPORTANT', file, q.id,
-        `Explanation posiblemente no está en alemán: "${expl.slice(0,80)}..."`));
+        `Explanation posiblemente no está en inglés: "${expl.slice(0,80)}..."`));
     }
 
     // Circular: explanation too similar to question (Jaccard > 0.75)
