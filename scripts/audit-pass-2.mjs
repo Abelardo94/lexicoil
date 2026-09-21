@@ -3695,25 +3695,29 @@ async function main() {
   const allFindings = [];
 
   for (const { batch, file } of allBatches) {
+    // Same lang gate as auditExam (docs/audit/gates-en-applicability.md): CHK-6/6c/7/11/
+    // 16/17/20/21 and chkQ5GermanContent validate GOETHE task formats. Without this the
+    // CLI judged English batches by German rules — "use Radfahren instead of cycling".
+    const isDe = inferAuditLang(batch) === 'de';
     allFindings.push(...chk1(batch, file));
     allFindings.push(...chk2(batch, file));
     allFindings.push(...chk3(batch, file));
     if (batch._isFullExam) allFindings.push(...chk3Absent(batch, file));
     allFindings.push(...chk4(batch, file));
-    allFindings.push(...chk6(batch, file));
-    allFindings.push(...chk6c(batch, file));
+    if (isDe) allFindings.push(...chk6(batch, file));
+    if (isDe) allFindings.push(...chk6c(batch, file));
     allFindings.push(...chk26(batch, file));
     allFindings.push(...chk27(batch, file));
-    allFindings.push(...chk7(batch, file));
+    if (isDe) allFindings.push(...chk7(batch, file));
     allFindings.push(...chk8(batch, file, globalIds));
     allFindings.push(...chk9(batch, file));
     allFindings.push(...chk10(batch, file));
-    allFindings.push(...chk11(batch, file));
+    if (isDe) allFindings.push(...chk11(batch, file));
     allFindings.push(...chk29(batch, file));
     allFindings.push(...chk35HorenT3RfChrono(batch, file));
     allFindings.push(...chk30PoolMeta(batch, file));
     allFindings.push(...chk30bLesenT4Title(batch, file));
-    allFindings.push(...chkQ5GermanContent(batch, file));
+    if (isDe) allFindings.push(...chkQ5GermanContent(batch, file));
     allFindings.push(...chk31VocabLemma(batch, file));
     allFindings.push(...chk33McqLengthBias(batch, file));
     allFindings.push(...chk12(batch, file));
@@ -3722,15 +3726,15 @@ async function main() {
     allFindings.push(...chk14b(batch, file));
     allFindings.push(...chk14c(batch, file));
     allFindings.push(...chk15(batch, file));
-    allFindings.push(...chk16(batch, file));
+    if (isDe) allFindings.push(...chk16(batch, file));
     allFindings.push(...chkH2Align(batch, file));
-    allFindings.push(...chk17(batch, file));
+    if (isDe) allFindings.push(...chk17(batch, file));
     allFindings.push(...chk18(batch, file));
     allFindings.push(...chk18b(batch, file));
     allFindings.push(...chk34(batch, file));
     allFindings.push(...chk19(batch, file));
-    allFindings.push(...chk20(batch, file));
-    allFindings.push(...chk21(batch, file));
+    if (isDe) allFindings.push(...chk20(batch, file));
+    if (isDe) allFindings.push(...chk21(batch, file));
     allFindings.push(...chk22(batch, file));
     allFindings.push(...chk24(batch, file));
     allFindings.push(...chk28(batch, file));
