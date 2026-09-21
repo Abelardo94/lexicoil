@@ -614,8 +614,10 @@ export function normalizeBatch(batch, ctx) {
     });
   }
 
-  // Post-gen caps normalization (decap adj/adv → cap nouns → MCQ option caps)
-  let { batch: withMcqCaps, stats: capsStats } = applyGermanCapsNormalize(normalized);
+  // Post-gen caps normalization (decap adj/adv → cap nouns → MCQ option caps).
+  // `lang` gates the two German-orthography steps; without it English text came out with
+  // German noun capitalization. See risk #1 in docs/audit/gates-en-applicability.md.
+  let { batch: withMcqCaps, stats: capsStats } = applyGermanCapsNormalize(normalized, { lang: ctx?.lang });
   if (capsStats.decapFixed > 0) {
     console.log(`  [normalizeNouns] ${capsStats.decapFixed} adjetivo(s)/adverbio(s) en mayúscula errónea corregido(s)`);
   }

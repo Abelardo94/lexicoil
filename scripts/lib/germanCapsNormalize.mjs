@@ -119,11 +119,21 @@ export function applyGermanCapsNormalize(batch, opts = {}) {
   walkBatchStrings(batch, (path, value) => beforeMap.set(path, value));
   const documentProperNames = collectDocumentProperNames(batch);
 
+  // Steps 1 and 2 encode GERMAN orthography (mid-sentence decap + noun capitalization) and
+  // this module has no language awareness of its own — it works off a fixed German noun list.
+  // Running them on English silently capitalizes common nouns ("the Bus back to school").
+  // Risk #1 in docs/audit/gates-en-applicability.md. Absent lang still means German, which is
+  // the historical default asserted by normalizeBatch.lang-guard.test.mjs. The
+  // language-neutral steps (markdown strip, MCQ prefix dedupe) run for every language.
+  const germanCaps = String(opts.lang || 'de').trim().toLowerCase() === 'de';
+
   const { batch: stripped, totalFixed: markdownFixed } = stripMarkdownLeakInBatch(batch);
-  const { batch: decapped, totalFixed: decapFixed } = decapitalizeBatchMidSentence(stripped);
+  const { batch: decapped, totalFixed: decapFixed } = germanCaps
+    ? decapitalizeBatchMidSentence(stripped)
+    : { batch: stripped, totalFixed: 0 };
   let current = decapped;
   let capFixed = 0;
-  if (!opts.decapOnly) {
+  if (germanCaps && !opts.decapOnly) {
     const capped = capitalizeBatchNouns(current);
     current = capped.batch;
     capFixed = capped.totalFixed;
