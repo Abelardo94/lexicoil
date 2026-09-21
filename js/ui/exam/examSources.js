@@ -159,14 +159,6 @@
    * Run non-AI sources in fixed order. Returns { status: 'hit', ... } or { status: 'continue' }
    * or { status: 'blocked', message } for Strategy B with genuinely no library.
    */
-  function isCuratedOnly(ctx) {
-    return (
-      typeof LevelAvailability !== 'undefined' &&
-      typeof LevelAvailability.isCuratedOnlyLevel === 'function' &&
-      LevelAvailability.isCuratedOnlyLevel(ctx.subject, ctx.level)
-    );
-  }
-
   async function runExamSourceCascade(ctx, deps) {
     deps = deps || defaultDeps();
 
@@ -185,21 +177,16 @@
       };
     }
 
-    if (!isCuratedOnly(ctx)) {
-      var poolHit = await fromPool(ctx, deps);
-      if (poolHit) return { status: 'hit', result: poolHit };
-    }
+    var poolHit = await fromPool(ctx, deps);
+    if (poolHit) return { status: 'hit', result: poolHit };
 
     var hadLibrary =
-      !isCuratedOnly(ctx) &&
       deps.QuestionLibrary &&
       typeof deps.QuestionLibrary.hasLibrary === 'function' &&
       deps.QuestionLibrary.hasLibrary(ctx.subject, ctx.level);
 
-    if (!isCuratedOnly(ctx)) {
-      var qlHit = await fromQuestionLibrary(ctx, deps);
-      if (qlHit) return { status: 'hit', result: qlHit };
-    }
+    var qlHit = await fromQuestionLibrary(ctx, deps);
+    if (qlHit) return { status: 'hit', result: qlHit };
 
     var libHit = await fromExamLibrary(ctx, deps);
     if (libHit) return { status: 'hit', result: libHit };

@@ -76,7 +76,7 @@ assert.equal(LevelAvailability.isPersonalizedAllowed('de', 'B1'), true, 'de B1 p
 assert.equal(LevelAvailability.isPersonalizedAllowed('de', 'A2'), true, 'de A2 personalized allowed');
 assert.equal(LevelAvailability.isQuickModuleAllowed('de', 'A2'), true, 'de A2 quick modules allowed');
 assert.equal(LevelAvailability.isAiFeatureAllowed('de', 'A2'), true, 'de A2 AI features allowed');
-assert.equal(LevelAvailability.isCuratedOnlyLevel('de', 'A2'), false, 'de A2 not curated-only');
+assert.equal(LevelAvailability.isCuratedOnlyLevel, undefined, 'curatedOnly concept retired');
 assert.equal(LevelAvailability.poolPreviewLimitFor('de', 'A2'), null, 'de A2 no pool preview cap');
 assert.equal(LevelAvailability.isQuickModuleAllowed('de', 'B1'), true, 'de B1 quick modules allowed');
 for (const betaLevel of ['A1', 'B2', 'C1', 'C2']) {

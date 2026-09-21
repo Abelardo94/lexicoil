@@ -282,37 +282,8 @@
     }).length;
   };
 
-  window.curatedStandardExamsThisMonth = function (lang, level) {
-    const month = getMonthKey();
-    return (S.history || []).filter((h) => {
-      if (h.lang !== lang || h.level !== level) return false;
-      if (h.demo || h.guidedDemo) return false;
-      const d = h.date ? new Date(h.date) : null;
-      if (d && !Number.isNaN(d.getTime())) {
-        const hm = `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}`;
-        if (hm !== month) return false;
-      }
-      return h.examSource === 'library' || (!h.poolId && !h.vocabPersonal);
-    }).length;
-  };
-
+  // Signature kept for callers; the level no longer changes the answer.
   window.canStartStandardExam = function (lang, level) {
-    if (isPaidPlan()) return getQuotaUsed() < getQuotaMax();
-    const subject = lang ?? S.subject;
-    const lv = level ?? S.level;
-    if (
-      subject &&
-      lv &&
-      typeof LevelAvailability !== 'undefined' &&
-      typeof LevelAvailability.isCuratedOnlyLevel === 'function' &&
-      LevelAvailability.isCuratedOnlyLevel(subject, lv)
-    ) {
-      const limit = LevelAvailability.poolPreviewLimitFor(subject, lv);
-      if (limit != null) {
-        return curatedStandardExamsThisMonth(subject, lv) < limit;
-      }
-      return true;
-    }
     return getQuotaUsed() < getQuotaMax();
   };
 

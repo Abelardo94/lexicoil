@@ -97,13 +97,6 @@
 
   function canAccessCombo(lang, level) {
     if (!isFreeAccount()) return true;
-    if (
-      typeof LevelAvailability !== 'undefined' &&
-      typeof LevelAvailability.isCuratedOnlyLevel === 'function' &&
-      LevelAvailability.isCuratedOnlyLevel(lang, level)
-    ) {
-      return true;
-    }
     const fc = getFreeCombo() || DEFAULT;
     return fc.lang === lang && fc.level === level;
   }

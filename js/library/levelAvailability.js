@@ -93,10 +93,6 @@ const LevelAvailability = (() => {
     return levelFeatureFlag(lang, level, 'aiFeatures', true) !== false;
   }
 
-  function isCuratedOnlyLevel(lang, level) {
-    return levelFeatureFlag(lang, level, 'curatedOnly', false) === true;
-  }
-
   function poolPreviewLimitFor(lang, level) {
     const entry = getExamAvailabilityEntry(lang, level);
     if (entry?.poolPreview == null) return null;
@@ -268,7 +264,6 @@ const LevelAvailability = (() => {
     personalizedUnavailableMessage,
     isQuickModuleAllowed,
     isAiFeatureAllowed,
-    isCuratedOnlyLevel,
     poolPreviewLimitFor,
     quickModulesUnavailableMessage,
     isExamLevelOffered,
