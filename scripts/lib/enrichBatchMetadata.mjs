@@ -82,16 +82,21 @@ const LEMMA_GROUND_TRUTH = {
   unternehm: 'unternehmen',
 };
 
-const VALID_GRAMMAR_TAG_RE = /^g-de-(b1|b2|a2)-[a-z0-9-]+$/;
+// Shape check, not a taxonomy check: `g-<lang>-<level>-<slug>`. The language segment used to
+// be hardcoded to `de`, so every English tag (`g-en-b1-modals`) was reported as "categoría
+// gramatical no reconocida" — 97 findings on a single English batch set. There is no curated
+// English taxonomy yet (docs/ has only A2/B2 German ones), so English tags are validated by
+// shape alone; `sanitizeGrammarTags` still filters German tags against their id list.
+const VALID_GRAMMAR_TAG_RE = /^g-(de|en)-(b1|b2|a2)-[a-z0-9-]+$/;
 
 /** @param {string} tag @param {string} [level] B1|B2|A2 — when set, tag prefix must match level */
 export function isValidGrammarTag(tag, level = null) {
   const s = String(tag || '').trim();
-  if (!VALID_GRAMMAR_TAG_RE.test(s)) return false;
+  const m = VALID_GRAMMAR_TAG_RE.exec(s);
+  if (!m) return false;
   if (!level) return true;
   const lv = String(level).trim().toUpperCase();
-  const prefix = `g-de-${lv.toLowerCase()}-`;
-  return s.startsWith(prefix);
+  return s.startsWith(`g-${m[1]}-${lv.toLowerCase()}-`);
 }
 
 export function sanitizeGrammarTags(tags, level = null) {
