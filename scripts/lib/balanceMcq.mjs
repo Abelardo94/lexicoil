@@ -30,6 +30,14 @@ export { alignExplanationOptionLetters, findExplanationOptionLetters };
 export const BALANCE_MCQ_VERSION = 'v1.2-no-rf-chrono-shuffle-2026-07-11';
 
 const LETTERS = ['a', 'b', 'c'];
+// Goethe B1 is three options everywhere, which is why this file was written around `LETTERS`.
+// Cambridge B1 Reading P3/P5 use four, and those items were silently skipped by the balancer
+// (`options.length === 3`), which is how en/B1 parts ended up with the key on "b" 80% of the
+// time. Anything from 2 to 8 options is balanced now, each option-count group in its own
+// letter space.
+const ALL_LETTERS = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h'];
+const lettersFor = (k) => ALL_LETTERS.slice(0, k);
+const isBalanceableOptionCount = (k) => Number.isInteger(k) && k >= 2 && k <= ALL_LETTERS.length;
 /**
  * Only ja_nein may be reordered for key entropy (Lesen T4 forum opinions).
  * richtig_falsch must keep chronological evidence order — Goethe Hören T3
@@ -92,11 +100,12 @@ export function seededShuffle(items, seed) {
  * v1.1: rotate the tie-break order from `seed` so remainder cycles a→b→c across
  * parts while each individual part stays as balanced as N allows.
  */
-export function buildBalancedLetterTargets(n, seed) {
+export function buildBalancedLetterTargets(n, seed, optionCount = LETTERS.length) {
   if (n <= 0) return [];
-  const start = seedToInt(`${seed || '0'}:remainder`) % LETTERS.length;
-  const order = [...LETTERS.slice(start), ...LETTERS.slice(0, start)];
-  const counts = { a: 0, b: 0, c: 0 };
+  const letters = lettersFor(isBalanceableOptionCount(optionCount) ? optionCount : LETTERS.length);
+  const start = seedToInt(`${seed || '0'}:remainder`) % letters.length;
+  const order = [...letters.slice(start), ...letters.slice(0, start)];
+  const counts = Object.fromEntries(letters.map((l) => [l, 0]));
   const targets = [];
   for (let i = 0; i < n; i++) {
     let best = order[0];
@@ -139,12 +148,16 @@ export function answerKeySequence(questions, typeFilter) {
  * Strip leading "a) " / "A) " label from an option string for body comparison.
  */
 export function stripMcqOptionLabel(text) {
-  return String(text || '').replace(/^[a-cA-C]\)\s*/, '').trim();
+  // Was [a-cA-C]: a `d) ` label survived into the option body, so after rotating a four-option
+  // item the before/after body multisets no longer matched and the writer contract rejected it.
+  return String(text || '').replace(/^[a-hA-H]\)\s*/, '').trim();
 }
 
 function mcqCorrectLetter(q) {
   const raw = String(q?.correct ?? q?.correctAnswer ?? '').toLowerCase().trim();
-  return raw.replace(/[^a-c]/g, '').slice(0, 1) || '';
+  // Was [^a-c]: a correct answer of "d" was stripped to empty, so four-option items had no
+  // resolvable key at all. Callers bound the letter against the item's own option count.
+  return raw.replace(/[^a-h]/g, '').slice(0, 1) || '';
 }
 
 function optionBodies(q) {
@@ -153,8 +166,13 @@ function optionBodies(q) {
 
 function correctOptionBody(q) {
   const letter = mcqCorrectLetter(q);
-  if (!letter || !Array.isArray(q.options) || q.options.length !== 3) return null;
+  if (!letter || !Array.isArray(q.options) || !isBalanceableOptionCount(q.options.length)) {
+    return null;
+  }
   const idx = letter.charCodeAt(0) - 97;
+  // The letter has to point inside this item's own options — "d" on a three-option item is
+  // malformed data, not a body to compare.
+  if (idx < 0 || idx >= q.options.length) return null;
   return stripMcqOptionLabel(q.options[idx]);
 }
 
@@ -177,10 +195,16 @@ export function assertBalanceMcqWriterContract(beforeQuestions, afterQuestions, 
   for (let i = 0; i < before.length; i++) {
     const b = before[i];
     const a = after[i];
-    if (b?.type !== 'multiple_choice' || !Array.isArray(b.options) || b.options.length !== 3) {
+    if (
+      b?.type !== 'multiple_choice' ||
+      !Array.isArray(b.options) ||
+      !isBalanceableOptionCount(b.options.length)
+    ) {
       continue;
     }
-    if (!Array.isArray(a?.options) || a.options.length !== 3) {
+    // Was `!== 3`, so four-option items escaped the contract entirely — exactly the items
+    // the balancer had also been skipping. The count must survive the rotation whatever it is.
+    if (!Array.isArray(a?.options) || a.options.length !== b.options.length) {
       throw new Error(`[${label}:contract:a] q[${i}] options length changed`);
     }
 
@@ -231,25 +255,30 @@ export function assertBalanceMcqWriterContract(beforeQuestions, afterQuestions, 
  */
 function rotateToTarget(question, targetLetter) {
   const opts = question.options;
-  if (!Array.isArray(opts) || opts.length !== 3) return question;
+  if (!Array.isArray(opts) || !isBalanceableOptionCount(opts.length)) return question;
+
+  const k = opts.length;
+  const lastLetter = ALL_LETTERS[k - 1];
+  const outside = new RegExp(`[^a-${lastLetter}]`, 'g');
+  const prefix = new RegExp(`^[a-${lastLetter}A-${lastLetter.toUpperCase()}]\\)\\s*`);
 
   const correctRaw = String(question.correct || '').toLowerCase().trim();
-  const correctLetter = correctRaw.replace(/[^a-c]/g, '').slice(0, 1);
+  const correctLetter = correctRaw.replace(outside, '').slice(0, 1);
   const correctIdx = correctLetter ? correctLetter.charCodeAt(0) - 97 : -1;
   const targetIdx = targetLetter.charCodeAt(0) - 97;
 
-  if (correctIdx < 0 || correctIdx >= 3 || targetIdx < 0 || targetIdx >= 3) {
+  if (correctIdx < 0 || correctIdx >= k || targetIdx < 0 || targetIdx >= k) {
     return question;
   }
   if (correctIdx === targetIdx) return question;
 
-  const shift = ((correctIdx - targetIdx) + 3) % 3;
+  const shift = ((correctIdx - targetIdx) + k) % k;
   const arr = opts.map((o, i) => ({ text: String(o), origIdx: i }));
   const rotated = [...arr.slice(shift), ...arr.slice(0, shift)];
 
   const newOptions = rotated.map(({ text }, i) => {
-    const letter = String.fromCharCode(97 + i);
-    return text.replace(/^[a-cA-C]\)\s*/, `${letter}) `);
+    const letter = ALL_LETTERS[i];
+    return text.replace(prefix, `${letter}) `);
   });
 
   const explanation = resyncExplanationOptionLetter(
@@ -285,26 +314,34 @@ export function balanceMcqGroup(questions, opts = {}) {
     options: Array.isArray(q.options) ? [...q.options] : q.options,
   }));
   const result = questions.map((q) => ({ ...q }));
-  const mcqIndices = [];
+  // Grouped by option count so a 3-option and a 4-option item never share a letter budget.
+  const byOptionCount = new Map();
   for (let i = 0; i < result.length; i++) {
     const q = result[i];
     if (
       q.type === 'multiple_choice' &&
       Array.isArray(q.options) &&
-      q.options.length === 3
+      isBalanceableOptionCount(q.options.length)
     ) {
-      mcqIndices.push(i);
+      const k = q.options.length;
+      if (!byOptionCount.has(k)) byOptionCount.set(k, []);
+      byOptionCount.get(k).push(i);
     }
   }
 
-  if (mcqIndices.length === 0) return result;
+  if (byOptionCount.size === 0) return result;
 
   const seed = opts.seed ?? derivePartShuffleSeed(questions);
-  const targets = buildBalancedLetterTargets(mcqIndices.length, `${seed}:mcq`);
 
-  mcqIndices.forEach((qIdx, rank) => {
-    result[qIdx] = rotateToTarget(result[qIdx], targets[rank]);
-  });
+  for (const [k, mcqIndices] of byOptionCount) {
+    // The three-option seed string stays exactly `${seed}:mcq` — changing it would reshuffle
+    // every German part ever balanced. Other option counts get their own namespace.
+    const seedKey = k === LETTERS.length ? `${seed}:mcq` : `${seed}:mcq:${k}`;
+    const targets = buildBalancedLetterTargets(mcqIndices.length, seedKey, k);
+    mcqIndices.forEach((qIdx, rank) => {
+      result[qIdx] = rotateToTarget(result[qIdx], targets[rank]);
+    });
+  }
 
   if (!opts.skipContract) {
     assertBalanceMcqWriterContract(before, result, { label: 'balanceMcqGroup' });
@@ -379,7 +416,11 @@ export function antiRuns(questions, runThreshold = 4, opts = {}) {
     if (runLen >= runThreshold) {
       const midRank = Math.floor((start + end) / 2);
       const midQIdx = mcqIndices[midRank];
-      const alternatives = LETTERS.filter((l) => l !== letter);
+      const midOptionCount = result[midQIdx]?.options?.length;
+      const midLetters = isBalanceableOptionCount(midOptionCount)
+        ? lettersFor(midOptionCount)
+        : LETTERS;
+      const alternatives = midLetters.filter((l) => l !== letter);
       const newLetter = alternatives[midRank % alternatives.length];
       result[midQIdx] = rotateToTarget(result[midQIdx], newLetter);
     }
