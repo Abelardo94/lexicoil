@@ -386,10 +386,18 @@ function chk4(batch, file) {
     }
 
     if (type === 'multiple_choice' || (type === 'matching' && key.startsWith('horen-4'))) {
-      // All 3 letters must appear at least once (enforced for ≥5 MC items — V-18 fix:
-      // was n≥6, but n=5 with one missing letter still indicates answer-key bias).
-      if (n >= 5) {
-        const letters = ['a','b','c'];
+      // Every answer letter must appear at least once. Goethe B1 has three everywhere, so
+      // this was ['a','b','c'] with a floor of n≥5 (V-18 fix: was n≥6, but n=5 with one
+      // missing letter still indicates answer-key bias). Cambridge Reading P3/P5 have four,
+      // so the set comes from the blueprint and the floor keeps the same ratio, letters+2 —
+      // for German that is 3+2=5, exactly as before.
+      // key is `${bpKey}:${type}` — the blueprint is indexed by the bpKey half.
+      const bpPart = blueprintForLevel(inferAuditLevel(batch), inferAuditLang(batch))[key.split(':')[0]];
+      const optionCount = bpPart && bpPart.options != null ? bpPart.options : 3;
+      const letters = optionCount <= 4
+        ? ['a','b','c','d'].slice(0, optionCount)
+        : null; // matching banks (8 options) are not answer-key balanced this way
+      if (letters && n >= letters.length + 2) {
         for (const letter of letters) {
           if (!dist[letter]) {
             findings.push(finding('CHK-4', 'IMPORTANT', file, key,
