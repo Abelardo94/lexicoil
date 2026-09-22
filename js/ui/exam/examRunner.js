@@ -754,7 +754,9 @@ async function playListeningPassage(id,ui,opts={}){
   const btn=document.getElementById(btnId);
   const info=document.getElementById(infoId);
   const speechLang=ui?.speechLang||(examLang==='de'?'de-DE':examLang==='es'?'es-ES':'en-GB');
-  const voice=ttsVoice||(typeof ttsVoiceForLang==='function'?ttsVoiceForLang(examLang):examLang);
+  const localeVoice=ttsVoice||(typeof ttsVoiceForLang==='function'?ttsVoiceForLang(examLang):examLang);
+  // Un turno único con hablante ("Man: …") lleva voz de su género; mismo cálculo que pregenerate-tts.
+  const voice=typeof ListeningScript!=='undefined'&&ListeningScript.singleVoiceFor?ListeningScript.singleVoiceFor(rawText,examLang,localeVoice):localeVoice;
   const startWave=()=>{if(wave)wave.querySelectorAll('.wb').forEach(b=>b.classList.remove('paused'));};
   const stopWave=()=>{if(wave)wave.querySelectorAll('.wb').forEach(b=>b.classList.add('paused'));};
   const updateControls=(playing)=>{

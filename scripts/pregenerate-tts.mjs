@@ -14,6 +14,7 @@
  *   node scripts/pregenerate-tts.mjs --lang de --level B1
  *   node scripts/pregenerate-tts.mjs --lang de --level A2
  *   node scripts/pregenerate-tts.mjs --all-served
+ *   node scripts/pregenerate-tts.mjs --lang de --level B1 --pool   # + Hören parts of library/reusable-seed
  *   node scripts/pregenerate-tts.mjs --lang de --level B1 --dry-run
  *   node scripts/pregenerate-tts.mjs --lang de --level B1 --verify
  *   node scripts/pregenerate-tts.mjs --lang de --level B1 --source legacy   # override
@@ -65,6 +66,7 @@ function parseArgs(argv) {
     force: false,
     verify: false,
     source: 'auto',
+    pool: false,
   };
   for (let i = 0; i < argv.length; i++) {
     const a = argv[i];
@@ -74,6 +76,7 @@ function parseArgs(argv) {
     else if (a === '--dry-run') out.dryRun = true;
     else if (a === '--force') out.force = true;
     else if (a === '--verify') out.verify = true;
+    else if (a === '--pool') out.pool = true;
     else if (a === '--source') out.source = String(argv[++i] || 'auto').toLowerCase();
     else if (a === '--help' || a === '-h') out.help = true;
   }
@@ -88,6 +91,24 @@ function usage() {
 
 Source defaults to whatever the app serves (published for de/*, legacy otherwise).
 Re-run after editing Hören transcripts in the source the level is served from.`);
+}
+
+/** Hören parts of the reusable pool (personal exams), converted exactly as the runtime does
+ *  (personalLesenPoolFallback.reusablePartToHorenPart), so the transcripts — and with them
+ *  the cache keys — are the ones the app will request. */
+function poolHorenExams(lang, level) {
+  const seedFile = path.join(ROOT, 'library/reusable-seed', `${lang}_${level}.json`);
+  if (!fs.existsSync(seedFile)) return [];
+  const PF = require(path.join(ROOT, 'js/engine/personalLesenPoolFallback.js'));
+  const { loadBlueprintFile } = require(path.join(ROOT, 'netlify/functions/lib/hybridExamChunkPrompt.js'));
+  const blueprint = loadBlueprintFile(lang, level);
+  const seed = JSON.parse(fs.readFileSync(seedFile, 'utf8'));
+  const out = [];
+  for (const rec of (seed.records || seed).filter((r) => r.module === 'horen')) {
+    const part = PF.reusablePartToHorenPart(rec, blueprint);
+    if (part) out.push({ id: `pool:${rec.id}`, topic: `pool:${rec.id}`, horenParts: [part] });
+  }
+  return out;
 }
 
 function sanitizeTtsText(text) {
@@ -111,7 +132,8 @@ function collectExamTtsJobs(exam, lang) {
       }
       return;
     }
-    pushSingle(ListeningScript.singleVoiceText(src), baseVoice, meta);
+    // Same voice examRunner asks for: a single labelled turn is cast by gender.
+    pushSingle(ListeningScript.singleVoiceText(src), ListeningScript.singleVoiceFor(src, lang, baseVoice), meta);
   }
 
   function pushSingle(text, voice, meta) {
@@ -185,7 +207,8 @@ async function synthJob(job, stats) {
 
 async function pregenerateLevel(lang, level, opts) {
   const served = await resolveServedExams(lang, level, { source: opts.source });
-  const exams = served.exams;
+  const exams = [...served.exams];
+  if (opts.pool) exams.push(...poolHorenExams(lang, level));
   const stats = {
     generated: 0,
     skipped: 0,
@@ -207,8 +230,15 @@ async function pregenerateLevel(lang, level, opts) {
     exams: [],
   };
 
+  const processed = new Set();
   for (const exam of exams) {
-    const jobs = collectExamTtsJobs(exam, lang);
+    // Catalog and pool share many transcripts: generate and count each clip once.
+    const jobs = collectExamTtsJobs(exam, lang).filter((j) => {
+      const k = `${j.voice}:${ttsTextHash(j.text)}`;
+      if (processed.has(k)) return false;
+      processed.add(k);
+      return true;
+    });
     stats.jobs += jobs.length;
     const entry = {
       topic: exam.topic || exam.id || 'exam',
@@ -238,8 +268,12 @@ async function pregenerateLevel(lang, level, opts) {
 
   if (opts.verify) {
     const missing = [];
+    const checked = new Set();
     for (const exam of exams) {
       for (const job of collectExamTtsJobs(exam, lang)) {
+        const k = `${job.voice}:${ttsTextHash(job.text)}`;
+        if (checked.has(k)) continue;
+        checked.add(k);
         if (!readCache(job.voice, job.text, lang)) {
           missing.push(job);
         }

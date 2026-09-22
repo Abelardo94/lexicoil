@@ -5,6 +5,7 @@ const path = require('path');
 const crypto = require('crypto');
 
 const AUDIO_MAX_BYTES = 2 * 1024 * 1024;
+const MIN_REAL_AUDIO_BYTES = 1024;
 
 /** Whitespace/symbol cleanup shared with front (normalizeTtsQueryText) and pregenerate scripts. */
 function normalizeTtsInput(text) {
@@ -78,7 +79,10 @@ function readBundledAudioBuffer(voice, text, lang, resolveVoiceId, fromDir = __d
     if (!file) continue;
     try {
       const buf = fs.readFileSync(file);
-      if (buf.length && buf.length <= AUDIO_MAX_BYTES) return buf;
+      // The stub provider writes a 296-byte silent MP3. All 114 clips committed under
+      // library/tts-cache/ were such stubs, so a cache hit served silence instead of
+      // falling through to the browser voice. A real one-word clip is ~6 KB at 64 kbps.
+      if (buf.length >= MIN_REAL_AUDIO_BYTES && buf.length <= AUDIO_MAX_BYTES) return buf;
     } catch (_) {
       /* try next */
     }
@@ -88,6 +92,7 @@ function readBundledAudioBuffer(voice, text, lang, resolveVoiceId, fromDir = __d
 
 module.exports = {
   AUDIO_MAX_BYTES,
+  MIN_REAL_AUDIO_BYTES,
   normalizeTtsInput,
   normalizeText,
   textHash,
