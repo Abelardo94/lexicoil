@@ -48,14 +48,14 @@ export function countTopicStock(records, module, teil, level = 'B1', opts = {}) 
   const mod = String(module).toLowerCase();
   const tN = Number(teil);
   const scope = topicScopeForGap(level, opts);
-  const topicList = topicsForLevel(level, { scope });
+  const topicList = topicsForLevel(level, { scope, lang: opts.lang });
   const counts = Object.fromEntries(topicList.map((t) => [t, 0]));
   let untagged = 0;
 
   for (const r of records) {
     if (String(r.module).toLowerCase() !== mod) continue;
     if (Number(r.teil) !== tN) continue;
-    const topic = normalizeTopicForLevel(level, r.topicTag);
+    const topic = normalizeTopicForLevel(level, r.topicTag, opts.lang);
     if (topic && counts[topic] !== undefined) counts[topic]++;
     else untagged++;
   }
@@ -67,7 +67,7 @@ export function countTopicStock(records, module, teil, level = 'B1', opts = {}) 
 export function rankTopicGaps(records, module, teil, targetPerCell = 3, level = 'B1', opts = {}) {
   const { counts } = countTopicStock(records, module, teil, level, opts);
   const scope = topicScopeForGap(level, opts);
-  const topicList = topicsForLevel(level, { scope });
+  const topicList = topicsForLevel(level, { scope, lang: opts.lang });
   return topicList.map((topic) => {
     const count = counts[topic] || 0;
     const deficit = Math.max(0, targetPerCell - count);
@@ -82,10 +82,10 @@ export function pickScarcestTopic(records, module, teil, opts = {}) {
     excludeSet = null,
     level = 'B1',
   } = opts;
-  const gapOpts = { topicScope: topicScopeForGap(level, opts) };
-  const topicList = topicsForLevel(level, { scope: gapOpts.topicScope });
+  const gapOpts = { topicScope: topicScopeForGap(level, opts), lang: opts.lang };
+  const topicList = topicsForLevel(level, { scope: gapOpts.topicScope, lang: opts.lang });
   const exclude = excludeSet || new Set(
-    (excludeTopics || []).map((t) => normalizeTopicForLevel(level, t)).filter(Boolean),
+    (excludeTopics || []).map((t) => normalizeTopicForLevel(level, t, opts.lang)).filter(Boolean),
   );
   const ranked = rankTopicGaps(records, module, teil, targetPerCell, level, gapOpts);
   const candidates = ranked.filter((r) => !exclude.has(r.topic));
@@ -151,7 +151,7 @@ export function pickRotatingWords(lang, level, opts = {}) {
 
 export function buildCellGapReport(lang, level, module, teil, targetPerCell = 3) {
   const records = loadPoolRecords(lang, level);
-  const gapOpts = { topicScope: topicScopeForGap(level) };
+  const gapOpts = { topicScope: topicScopeForGap(level), lang };
   const ranked = rankTopicGaps(records, module, teil, targetPerCell, level, gapOpts);
   const { untagged, total } = countTopicStock(records, module, teil, level, gapOpts);
   const missing = ranked.filter((r) => r.deficit > 0);

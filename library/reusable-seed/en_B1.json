@@ -86,7 +86,10 @@
       "itemCount": 5,
       "targetCount": 5,
       "sem1Ok": true,
-      "sem1VerifiedAt": "2026-09-03T22:30:26.392Z"
+      "sem1VerifiedAt": "2026-09-03T22:30:26.392Z",
+      "topicTag": "Health",
+      "topicTagSource": "backfill-en-topic-tags",
+      "topicTaggedAt": "2026-09-22T19:11:52.782Z"
     },
     {
       "id": "cur-en-B1-e00-lesen-t2-e94b1c06c8dd5f9a",
@@ -192,7 +195,10 @@
       "itemCount": 5,
       "targetCount": 5,
       "sem1Ok": true,
-      "sem1VerifiedAt": "2026-09-03T22:30:49.201Z"
+      "sem1VerifiedAt": "2026-09-03T22:30:49.201Z",
+      "topicTag": "City life",
+      "topicTagSource": "backfill-en-topic-tags",
+      "topicTaggedAt": "2026-09-22T19:11:52.824Z"
     },
     {
       "id": "cur-en-B1-e00-lesen-t3-2e8b8deb141a6ecc",
@@ -278,7 +284,10 @@
       "itemCount": 5,
       "targetCount": 5,
       "sem1Ok": true,
-      "sem1VerifiedAt": "2026-09-03T22:31:01.973Z"
+      "sem1VerifiedAt": "2026-09-03T22:31:01.973Z",
+      "topicTag": "Sport",
+      "topicTagSource": "backfill-en-topic-tags",
+      "topicTaggedAt": "2026-09-22T19:11:52.825Z"
     },
     {
       "id": "cur-en-B1-e00-lesen-t4-8461378a7c25dbfa",
@@ -384,7 +393,10 @@
       "itemCount": 5,
       "targetCount": 5,
       "sem1Ok": true,
-      "sem1VerifiedAt": "2026-09-03T22:31:17.156Z"
+      "sem1VerifiedAt": "2026-09-03T22:31:17.156Z",
+      "topicTag": "Food",
+      "topicTagSource": "backfill-en-topic-tags",
+      "topicTaggedAt": "2026-09-22T19:11:52.826Z"
     },
     {
       "id": "cur-en-B1-e00-lesen-t5-0be9c21563d4264a",
@@ -483,7 +495,10 @@
       "itemCount": 6,
       "targetCount": 6,
       "sem1Ok": true,
-      "sem1VerifiedAt": "2026-09-03T22:31:32.756Z"
+      "sem1VerifiedAt": "2026-09-03T22:31:32.756Z",
+      "topicTag": "Culture",
+      "topicTagSource": "backfill-en-topic-tags",
+      "topicTaggedAt": "2026-09-22T19:11:52.826Z"
     },
     {
       "id": "cur-en-B1-e00-lesen-t6-659ab809e6a01110",
@@ -545,7 +560,10 @@
       ],
       "itemCount": 6,
       "targetCount": 6,
-      "sem1Skipped": "no-mcq"
+      "sem1Skipped": "no-mcq",
+      "topicTag": "Family",
+      "topicTagSource": "backfill-en-topic-tags",
+      "topicTaggedAt": "2026-09-22T19:11:52.826Z"
     },
     {
       "id": "cur-en-B1-e00-horen-t1-1bc2044ad48fb576",
@@ -877,7 +895,10 @@
       "itemCount": 7,
       "targetCount": 7,
       "sem1Ok": true,
-      "sem1VerifiedAt": "2026-09-03T22:31:46.431Z"
+      "sem1VerifiedAt": "2026-09-03T22:31:46.431Z",
+      "topicTag": "Free time",
+      "topicTagSource": "backfill-en-topic-tags",
+      "topicTaggedAt": "2026-09-22T19:11:52.827Z"
     },
     {
       "id": "cur-en-B1-e00-horen-t2-bb1fe6918fbea9e1",
@@ -1167,7 +1188,10 @@
       "itemCount": 6,
       "targetCount": 6,
       "sem1Ok": true,
-      "sem1VerifiedAt": "2026-09-03T22:31:56.884Z"
+      "sem1VerifiedAt": "2026-09-03T22:31:56.884Z",
+      "topicTag": "Culture",
+      "topicTagSource": "backfill-en-topic-tags",
+      "topicTaggedAt": "2026-09-22T19:11:52.828Z"
     },
     {
       "id": "cur-en-B1-e00-horen-t3-ef9ffefc3d16ba1a",
@@ -1354,7 +1378,10 @@
       ],
       "itemCount": 6,
       "targetCount": 6,
-      "sem1Skipped": "no-mcq"
+      "sem1Skipped": "no-mcq",
+      "topicTag": "Education",
+      "topicTagSource": "backfill-en-topic-tags",
+      "topicTaggedAt": "2026-09-22T19:11:52.828Z"
     },
     {
       "id": "cur-en-B1-e00-horen-t4-2fab3d9398ebe8cc",
@@ -1602,7 +1629,10 @@
       "itemCount": 6,
       "targetCount": 6,
       "sem1Ok": true,
-      "sem1VerifiedAt": "2026-09-03T22:32:12.949Z"
+      "sem1VerifiedAt": "2026-09-03T22:32:12.949Z",
+      "topicTag": "Food",
+      "topicTagSource": "backfill-en-topic-tags",
+      "topicTaggedAt": "2026-09-22T19:11:52.829Z"
     },
     {
       "id": "cur-en-B1-e00-schreiben-t1-c72fb9a2a10a72b5",
@@ -1632,7 +1662,10 @@
       ],
       "itemCount": 1,
       "targetCount": 1,
-      "sem1Skipped": "no-mcq"
+      "sem1Skipped": "no-mcq",
+      "topicTag": "Education",
+      "topicTagSource": "backfill-en-topic-tags",
+      "topicTaggedAt": "2026-09-22T19:11:52.829Z"
     },
     {
       "id": "cur-en-B1-e00-schreiben-t2-fb7d62b533cee885",
@@ -1662,7 +1695,10 @@
       ],
       "itemCount": 1,
       "targetCount": 1,
-      "sem1Skipped": "no-mcq"
+      "sem1Skipped": "no-mcq",
+      "topicTag": "Education",
+      "topicTagSource": "backfill-en-topic-tags",
+      "topicTaggedAt": "2026-09-22T19:11:52.830Z"
     },
     {
       "id": "cur-en-B1-e01-lesen-t1-514220075c385d1a",
@@ -1748,7 +1784,10 @@
       "itemCount": 5,
       "targetCount": 5,
       "sem1Ok": true,
-      "sem1VerifiedAt": "2026-09-03T22:32:26.234Z"
+      "sem1VerifiedAt": "2026-09-03T22:32:26.234Z",
+      "topicTag": "Transport",
+      "topicTagSource": "backfill-en-topic-tags",
+      "topicTaggedAt": "2026-09-22T19:11:52.830Z"
     },
     {
       "id": "cur-en-B1-e01-lesen-t2-a93fa05b8a8c2955",
@@ -1854,7 +1893,10 @@
       "itemCount": 5,
       "targetCount": 5,
       "sem1Ok": true,
-      "sem1VerifiedAt": "2026-09-03T22:32:42.016Z"
+      "sem1VerifiedAt": "2026-09-03T22:32:42.016Z",
+      "topicTag": "City life",
+      "topicTagSource": "backfill-en-topic-tags",
+      "topicTaggedAt": "2026-09-22T19:11:52.832Z"
     },
     {
       "id": "cur-en-B1-e01-lesen-t3-76c0523a8b9c4c69",
@@ -1940,7 +1982,10 @@
       "itemCount": 5,
       "targetCount": 5,
       "sem1Ok": true,
-      "sem1VerifiedAt": "2026-09-03T22:32:54.973Z"
+      "sem1VerifiedAt": "2026-09-03T22:32:54.973Z",
+      "topicTag": "City life",
+      "topicTagSource": "backfill-en-topic-tags",
+      "topicTaggedAt": "2026-09-22T19:11:52.832Z"
     },
     {
       "id": "cur-en-B1-e01-lesen-t4-e18a43c3f4a109e2",
@@ -2046,7 +2091,10 @@
       "itemCount": 5,
       "targetCount": 5,
       "sem1Ok": true,
-      "sem1VerifiedAt": "2026-09-03T22:33:10.874Z"
+      "sem1VerifiedAt": "2026-09-03T22:33:10.874Z",
+      "topicTag": "Food",
+      "topicTagSource": "backfill-en-topic-tags",
+      "topicTaggedAt": "2026-09-22T19:11:52.833Z"
     },
     {
       "id": "cur-en-B1-e01-lesen-t5-21704bdc5b4a530e",
@@ -2145,7 +2193,10 @@
       "itemCount": 6,
       "targetCount": 6,
       "sem1Ok": true,
-      "sem1VerifiedAt": "2026-09-17T21:56:16.983Z"
+      "sem1VerifiedAt": "2026-09-17T21:56:16.983Z",
+      "topicTag": "Food",
+      "topicTagSource": "backfill-en-topic-tags",
+      "topicTaggedAt": "2026-09-22T19:11:52.833Z"
     },
     {
       "id": "cur-en-B1-e01-lesen-t6-75857189d592976d",
@@ -2207,7 +2258,10 @@
       ],
       "itemCount": 6,
       "targetCount": 6,
-      "sem1Skipped": "no-mcq"
+      "sem1Skipped": "no-mcq",
+      "topicTag": "Work",
+      "topicTagSource": "backfill-en-topic-tags",
+      "topicTaggedAt": "2026-09-22T19:11:52.834Z"
     },
     {
       "id": "cur-en-B1-e01-horen-t1-7d5084ce0324550a",
@@ -2539,7 +2593,10 @@
       "itemCount": 7,
       "targetCount": 7,
       "sem1Ok": true,
-      "sem1VerifiedAt": "2026-09-03T22:33:40.384Z"
+      "sem1VerifiedAt": "2026-09-03T22:33:40.384Z",
+      "topicTag": "Travel",
+      "topicTagSource": "backfill-en-topic-tags",
+      "topicTaggedAt": "2026-09-22T19:11:52.834Z"
     },
     {
       "id": "cur-en-B1-e01-horen-t2-06b87683903060e1",
@@ -2830,7 +2887,10 @@
       "itemCount": 6,
       "targetCount": 6,
       "sem1Ok": true,
-      "sem1VerifiedAt": "2026-09-03T22:33:52.360Z"
+      "sem1VerifiedAt": "2026-09-03T22:33:52.360Z",
+      "topicTag": "Family",
+      "topicTagSource": "backfill-en-topic-tags",
+      "topicTaggedAt": "2026-09-22T19:11:52.835Z"
     },
     {
       "id": "cur-en-B1-e01-horen-t3-d79cd1d06f0a5f69",
@@ -3017,7 +3077,10 @@
       ],
       "itemCount": 6,
       "targetCount": 6,
-      "sem1Skipped": "no-mcq"
+      "sem1Skipped": "no-mcq",
+      "topicTag": "Sport",
+      "topicTagSource": "backfill-en-topic-tags",
+      "topicTaggedAt": "2026-09-22T19:11:52.836Z"
     },
     {
       "id": "cur-en-B1-e01-horen-t4-24c46ee6376ba98e",
@@ -3271,7 +3334,10 @@
       "itemCount": 6,
       "targetCount": 6,
       "sem1Ok": true,
-      "sem1VerifiedAt": "2026-09-03T22:34:04.284Z"
+      "sem1VerifiedAt": "2026-09-03T22:34:04.284Z",
+      "topicTag": "Work",
+      "topicTagSource": "backfill-en-topic-tags",
+      "topicTaggedAt": "2026-09-22T19:11:52.836Z"
     },
     {
       "id": "cur-en-B1-e01-schreiben-t1-86a2ec3364b7da94",
@@ -3301,7 +3367,10 @@
       ],
       "itemCount": 1,
       "targetCount": 1,
-      "sem1Skipped": "no-mcq"
+      "sem1Skipped": "no-mcq",
+      "topicTag": "City life",
+      "topicTagSource": "backfill-en-topic-tags",
+      "topicTaggedAt": "2026-09-22T19:11:52.836Z"
     },
     {
       "id": "cur-en-B1-e01-schreiben-t2-6e2cf6a9b2559c3d",
@@ -3331,7 +3400,10 @@
       ],
       "itemCount": 1,
       "targetCount": 1,
-      "sem1Skipped": "no-mcq"
+      "sem1Skipped": "no-mcq",
+      "topicTag": "Transport",
+      "topicTagSource": "backfill-en-topic-tags",
+      "topicTaggedAt": "2026-09-22T19:11:52.837Z"
     },
     {
       "id": "cur-en-B1-e02-lesen-t1-ddeecab4c9ea13f2",
@@ -3417,7 +3489,10 @@
       "itemCount": 5,
       "targetCount": 5,
       "sem1Ok": true,
-      "sem1VerifiedAt": "2026-09-03T22:34:15.303Z"
+      "sem1VerifiedAt": "2026-09-03T22:34:15.303Z",
+      "topicTag": "Transport",
+      "topicTagSource": "backfill-en-topic-tags",
+      "topicTaggedAt": "2026-09-22T19:11:52.837Z"
     },
     {
       "id": "cur-en-B1-e02-lesen-t2-a2eb930339339401",
@@ -3523,7 +3598,10 @@
       "itemCount": 5,
       "targetCount": 5,
       "sem1Ok": true,
-      "sem1VerifiedAt": "2026-09-03T22:34:29.541Z"
+      "sem1VerifiedAt": "2026-09-03T22:34:29.541Z",
+      "topicTag": "Free time",
+      "topicTagSource": "backfill-en-topic-tags",
+      "topicTaggedAt": "2026-09-22T19:11:52.838Z"
     },
     {
       "id": "cur-en-B1-e02-lesen-t3-c5f39a93b15d8711",
@@ -3609,7 +3687,10 @@
       "itemCount": 5,
       "targetCount": 5,
       "sem1Ok": true,
-      "sem1VerifiedAt": "2026-09-03T22:34:42.138Z"
+      "sem1VerifiedAt": "2026-09-03T22:34:42.138Z",
+      "topicTag": "Education",
+      "topicTagSource": "backfill-en-topic-tags",
+      "topicTaggedAt": "2026-09-22T19:11:52.839Z"
     },
     {
       "id": "cur-en-B1-e02-lesen-t4-76c85f78070672b6",
@@ -3715,7 +3796,10 @@
       "itemCount": 5,
       "targetCount": 5,
       "sem1Ok": true,
-      "sem1VerifiedAt": "2026-09-03T22:34:58.279Z"
+      "sem1VerifiedAt": "2026-09-03T22:34:58.279Z",
+      "topicTag": "City life",
+      "topicTagSource": "backfill-en-topic-tags",
+      "topicTaggedAt": "2026-09-22T19:11:52.840Z"
     },
     {
       "id": "cur-en-B1-e02-lesen-t5-2737c9e35f86134b",
@@ -3814,7 +3898,10 @@
       "itemCount": 6,
       "targetCount": 6,
       "sem1Ok": true,
-      "sem1VerifiedAt": "2026-09-17T21:56:29.014Z"
+      "sem1VerifiedAt": "2026-09-17T21:56:29.014Z",
+      "topicTag": "Culture",
+      "topicTagSource": "backfill-en-topic-tags",
+      "topicTaggedAt": "2026-09-22T19:11:52.840Z"
     },
     {
       "id": "cur-en-B1-e02-lesen-t6-847ef76b18d922db",
@@ -3876,7 +3963,10 @@
       ],
       "itemCount": 6,
       "targetCount": 6,
-      "sem1Skipped": "no-mcq"
+      "sem1Skipped": "no-mcq",
+      "topicTag": "Family",
+      "topicTagSource": "backfill-en-topic-tags",
+      "topicTaggedAt": "2026-09-22T19:11:52.840Z"
     },
     {
       "id": "cur-en-B1-e02-horen-t1-1daf578f11276332",
@@ -4208,7 +4298,10 @@
       "itemCount": 7,
       "targetCount": 7,
       "sem1Ok": true,
-      "sem1VerifiedAt": "2026-09-03T22:35:30.938Z"
+      "sem1VerifiedAt": "2026-09-03T22:35:30.938Z",
+      "topicTag": "Culture",
+      "topicTagSource": "backfill-en-topic-tags",
+      "topicTaggedAt": "2026-09-22T19:11:52.841Z"
     },
     {
       "id": "cur-en-B1-e02-horen-t2-dac3445bb2ec576f",
@@ -4497,7 +4590,10 @@
       "itemCount": 6,
       "targetCount": 6,
       "sem1Ok": true,
-      "sem1VerifiedAt": "2026-09-03T22:35:40.135Z"
+      "sem1VerifiedAt": "2026-09-03T22:35:40.135Z",
+      "topicTag": "City life",
+      "topicTagSource": "backfill-en-topic-tags",
+      "topicTaggedAt": "2026-09-22T19:11:52.842Z"
     },
     {
       "id": "cur-en-B1-e02-horen-t3-34b304041945309f",
@@ -4684,7 +4780,10 @@
       ],
       "itemCount": 6,
       "targetCount": 6,
-      "sem1Skipped": "no-mcq"
+      "sem1Skipped": "no-mcq",
+      "topicTag": "Education",
+      "topicTagSource": "backfill-en-topic-tags",
+      "topicTaggedAt": "2026-09-22T19:11:52.842Z"
     },
     {
       "id": "cur-en-B1-e02-horen-t4-e69fcb235b70b888",
@@ -4932,7 +5031,10 @@
       "itemCount": 6,
       "targetCount": 6,
       "sem1Ok": true,
-      "sem1VerifiedAt": "2026-09-03T22:35:50.732Z"
+      "sem1VerifiedAt": "2026-09-03T22:35:50.732Z",
+      "topicTag": "Work",
+      "topicTagSource": "backfill-en-topic-tags",
+      "topicTaggedAt": "2026-09-22T19:11:52.843Z"
     },
     {
       "id": "cur-en-B1-e02-schreiben-t1-2299725c8fe9a2e7",
@@ -4962,7 +5064,10 @@
       ],
       "itemCount": 1,
       "targetCount": 1,
-      "sem1Skipped": "no-mcq"
+      "sem1Skipped": "no-mcq",
+      "topicTag": "Travel",
+      "topicTagSource": "backfill-en-topic-tags",
+      "topicTaggedAt": "2026-09-22T19:11:52.843Z"
     },
     {
       "id": "cur-en-B1-e02-schreiben-t2-530efc35074e4608",
@@ -4992,7 +5097,10 @@
       ],
       "itemCount": 1,
       "targetCount": 1,
-      "sem1Skipped": "no-mcq"
+      "sem1Skipped": "no-mcq",
+      "topicTag": "Sport",
+      "topicTagSource": "backfill-en-topic-tags",
+      "topicTaggedAt": "2026-09-22T19:11:52.843Z"
     },
     {
       "id": "cur-en-B1-e03-lesen-t1-7d902cdf153a9d95",
@@ -5076,7 +5184,10 @@
         }
       ],
       "itemCount": 5,
-      "targetCount": 5
+      "targetCount": 5,
+      "topicTag": "Education",
+      "topicTagSource": "backfill-en-topic-tags",
+      "topicTaggedAt": "2026-09-22T19:11:52.844Z"
     },
     {
       "id": "cur-en-B1-e03-lesen-t2-e029da0babddb180",
@@ -5175,7 +5286,10 @@
         }
       ],
       "itemCount": 5,
-      "targetCount": 5
+      "targetCount": 5,
+      "topicTag": "Food",
+      "topicTagSource": "backfill-en-topic-tags",
+      "topicTaggedAt": "2026-09-22T19:11:52.844Z"
     },
     {
       "id": "cur-en-B1-e03-lesen-t3-b917bba3ae4cbbaf",
@@ -5259,7 +5373,10 @@
         }
       ],
       "itemCount": 5,
-      "targetCount": 5
+      "targetCount": 5,
+      "topicTag": "Sport",
+      "topicTagSource": "backfill-en-topic-tags",
+      "topicTaggedAt": "2026-09-22T19:11:52.844Z"
     },
     {
       "id": "cur-en-B1-e03-lesen-t4-fa5168e3ff89992b",
@@ -5363,7 +5480,10 @@
         }
       ],
       "itemCount": 5,
-      "targetCount": 5
+      "targetCount": 5,
+      "topicTag": "Food",
+      "topicTagSource": "backfill-en-topic-tags",
+      "topicTaggedAt": "2026-09-22T19:11:52.845Z"
     },
     {
       "id": "cur-en-B1-e03-lesen-t5-68d81183094371de",
@@ -5460,7 +5580,10 @@
         }
       ],
       "itemCount": 6,
-      "targetCount": 6
+      "targetCount": 6,
+      "topicTag": "Culture",
+      "topicTagSource": "backfill-en-topic-tags",
+      "topicTaggedAt": "2026-09-22T19:11:52.845Z"
     },
     {
       "id": "cur-en-B1-e03-lesen-t6-7f27ed853e9c5f91",
@@ -5521,7 +5644,10 @@
         }
       ],
       "itemCount": 6,
-      "targetCount": 6
+      "targetCount": 6,
+      "topicTag": "Travel",
+      "topicTagSource": "backfill-en-topic-tags",
+      "topicTaggedAt": "2026-09-22T19:11:52.846Z"
     },
     {
       "id": "cur-en-B1-e03-horen-t1-e90f87b407d57eaf",
@@ -5858,7 +5984,10 @@
         }
       ],
       "itemCount": 7,
-      "targetCount": 7
+      "targetCount": 7,
+      "topicTag": "Family",
+      "topicTagSource": "backfill-en-topic-tags",
+      "topicTaggedAt": "2026-09-22T19:11:52.847Z"
     },
     {
       "id": "cur-en-B1-e03-horen-t2-fb8641cc9099a4a6",
@@ -6154,7 +6283,10 @@
         }
       ],
       "itemCount": 6,
-      "targetCount": 6
+      "targetCount": 6,
+      "topicTag": "Education",
+      "topicTagSource": "backfill-en-topic-tags",
+      "topicTaggedAt": "2026-09-22T19:11:52.849Z"
     },
     {
       "id": "cur-en-B1-e03-horen-t3-14645c29c5335d3f",
@@ -6346,7 +6478,10 @@
         }
       ],
       "itemCount": 6,
-      "targetCount": 6
+      "targetCount": 6,
+      "topicTag": "Culture",
+      "topicTagSource": "backfill-en-topic-tags",
+      "topicTaggedAt": "2026-09-22T19:11:52.849Z"
     },
     {
       "id": "cur-en-B1-e03-horen-t4-42bda7c4ef0354a2",
@@ -6598,7 +6733,10 @@
         }
       ],
       "itemCount": 6,
-      "targetCount": 6
+      "targetCount": 6,
+      "topicTag": "Travel",
+      "topicTagSource": "backfill-en-topic-tags",
+      "topicTaggedAt": "2026-09-22T19:11:52.851Z"
     },
     {
       "id": "cur-en-B1-e03-schreiben-t1-2268536aad399800",
@@ -6627,7 +6765,10 @@
         }
       ],
       "itemCount": 1,
-      "targetCount": 1
+      "targetCount": 1,
+      "topicTag": "Education",
+      "topicTagSource": "backfill-en-topic-tags",
+      "topicTaggedAt": "2026-09-22T19:11:52.851Z"
     },
     {
       "id": "cur-en-B1-e03-schreiben-t2-acdf05833c354bfc",
@@ -6656,7 +6797,10 @@
         }
       ],
       "itemCount": 1,
-      "targetCount": 1
+      "targetCount": 1,
+      "topicTag": "Education",
+      "topicTagSource": "backfill-en-topic-tags",
+      "topicTaggedAt": "2026-09-22T19:11:52.853Z"
     }
   ],
   "_sem1SkipBackfillAt": "2026-09-03T22:04:34.969Z",
