@@ -37,13 +37,14 @@ const { MIN_REAL_AUDIO_BYTES } = require(path.join(ROOT, 'netlify/functions/lib/
 const STORE_NAME = 'lexicoil-data';
 
 function parseArgs(argv) {
-  const out = { lang: null, level: null, all: false, apply: false, limit: 0, concurrency: 4 };
+  const out = { lang: null, level: null, all: false, apply: false, limit: 0, concurrency: 4, overwrite: false };
   for (let i = 0; i < argv.length; i++) {
     const a = argv[i];
     if (a === '--lang') out.lang = String(argv[++i] || '').toLowerCase();
     else if (a === '--level') out.level = String(argv[++i] || '').toUpperCase();
     else if (a === '--all') out.all = true;
     else if (a === '--apply') out.apply = true;
+    else if (a === '--overwrite') out.overwrite = true;
     else if (a === '--limit') out.limit = Math.max(0, Number(argv[++i]) || 0);
     else if (a === '--concurrency') out.concurrency = Math.min(8, Math.max(1, Number(argv[++i]) || 4));
   }
@@ -139,8 +140,11 @@ try {
   console.error('Si es un 401, el token del .env no tiene acceso al store.');
   process.exit(1);
 }
-const pending = planned.filter((p) => !existing.has(p.key));
-console.log(`Ya en producción: ${existing.size} · por subir: ${pending.length}`);
+// Con --overwrite se reescribe lo que ya esta: al cambiar la tabla de voces, las
+// claves con locale ('tts:de-DE:...') SOBREVIVEN pero su audio es el de la voz vieja,
+// asi que saltarlas las dejaria rancias para siempre.
+const pending = args.overwrite ? planned : planned.filter((p) => !existing.has(p.key));
+console.log(`Ya en producción: ${existing.size} · por subir: ${pending.length}${args.overwrite ? ' (sobrescribiendo)' : ''}`);
 
 const work = args.limit ? pending.slice(0, args.limit) : pending;
 
