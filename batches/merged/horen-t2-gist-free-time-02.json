@@ -4,7 +4,7 @@
       "id": "en-b1-p-horen-t2-gist-free-time-02-01",
       "module": "horen",
       "title": "Photography Talk",
-      "text": "Boy: Did you see the photos I took at the park yesterday?\nGirl: Yes, they're really good! The lighting on the lake was perfect. But why didn't you get closer to the birds? They look a bit small.\nBoy: I know, but I didn't want to scare them away. Next time I'll use a better zoom lens.\nGirl: Good idea. Still, you've got a real Talent for finding great angles.",
+      "text": "Boy: Did you see the photos I took at the park yesterday?\nGirl: Yes, they're really good! The lighting on the lake was perfect. But why didn't you get closer to the birds? They look a bit small.\nBoy: I know, but I didn't want to scare them away. Next time I'll use a better zoom lens.\nGirl: Good idea. Still, you've got a real talent for finding great angles.",
       "passageVocab": [
         "lighting",
         "zoom lens",
@@ -52,7 +52,7 @@
       "id": "en-b1-p-horen-t2-gist-free-time-02-05",
       "module": "horen",
       "title": "Italian Cooking Class",
-      "text": "Girl: How was the Italian cooking class yesterday?\nBoy: Great! We made fresh pasta from scratch. It was much easier than I thought it would be.\nGirl: Really? I always thought you needed special machines for that.\nBoy: We just used a rolling pin and a knife. The Chef was brilliant at explaining each step. I can't wait to try making it at Home for my family.",
+      "text": "Girl: How was the Italian cooking class yesterday?\nBoy: Great! We made fresh pasta from scratch. It was much easier than I thought it would be.\nGirl: Really? I always thought you needed special machines for that.\nBoy: We just used a rolling pin and a knife. The chef was brilliant at explaining each step. I can't wait to try making it at home for my family.",
       "passageVocab": [
         "from scratch",
         "rolling pin",
@@ -64,7 +64,7 @@
       "id": "en-b1-p-horen-t2-gist-free-time-02-06",
       "module": "horen",
       "title": "Watching a Sci-Fi Film",
-      "text": "Boy: Did you watch that new sci-fi Film last night?\nGirl: Yes, I did. The special effects were absolutely amazing, especially the space battles.\nBoy: Definitely. But I felt the story was a bit weak. It was just like every other space movie.\nGirl: I agree. You could guess the ending after the first twenty minutes. But it was still highly entertaining.",
+      "text": "Boy: Did you watch that new sci-fi film last night?\nGirl: Yes, I did. The special effects were absolutely amazing, especially the space battles.\nBoy: Definitely. But I felt the story was a bit weak. It was just like every other space movie.\nGirl: I agree. You could guess the ending after the first twenty minutes. But it was still highly entertaining.",
       "passageVocab": [
         "special effects",
         "weak",
@@ -80,13 +80,13 @@
       "teil": 2,
       "type": "multiple_choice",
       "question": "You hear two friends talking about photography. What does the girl think the boy should improve?",
-      "correct": "b",
-      "correctAnswer": "b",
+      "correct": "c",
+      "correctAnswer": "c",
       "explanation": "The girl points out that the birds in the photos look a bit small and asks why he didn't get closer, which refers to the size of the subjects in his shots.",
       "options": [
-        "a) the lighting in his photos",
-        "b) the size of the subjects in his shots",
-        "c) the angles he chooses to shoot from"
+        "a) The angles he chooses to shoot from",
+        "b) The lighting in his photos",
+        "c) The size of the subjects in his shots"
       ],
       "grammarTags": [
         "g-en-b1-comparatives"
@@ -148,9 +148,9 @@
       "correctAnswer": "a",
       "explanation": "The girl says the game was 'so complicated' and that she spent 'half the time trying to figure out what my cards meant', showing she was frustrated by its difficulty.",
       "options": [
-        "a) frustrated by its difficulty",
-        "b) bored by how long it took",
-        "c) pleased with her performance"
+        "a) Frustrated by its difficulty",
+        "b) Bored by how long it took",
+        "c) Pleased with her performance"
       ],
       "grammarTags": [
         "g-en-b1-adjectives-ed-ing"
@@ -176,13 +176,13 @@
       "teil": 2,
       "type": "multiple_choice",
       "question": "You hear a girl talking about learning the guitar. What does she admit about her classical music practice?",
-      "correct": "c",
-      "correctAnswer": "c",
+      "correct": "b",
+      "correctAnswer": "b",
       "explanation": "She agrees that classical music is good for her technique and says she 'can feel the difference already' in her finger strength, admitting it is helping her improve.",
       "options": [
-        "a) It is too difficult for her level.",
-        "b) It is more fun than she expected.",
-        "c) It is helping her improve her skills."
+        "a) It is more fun than she expected.",
+        "b) It is helping her improve her skills.",
+        "c) It is too difficult for her level."
       ],
       "grammarTags": [
         "g-en-b1-conjunctions"
@@ -208,13 +208,13 @@
       "teil": 2,
       "type": "multiple_choice",
       "question": "You hear two friends talking about a cooking class. What surprised the boy?",
-      "correct": "a",
-      "correctAnswer": "a",
+      "correct": "c",
+      "correctAnswer": "c",
       "explanation": "The boy states that making fresh pasta from scratch was 'much easier than I thought it would be', indicating he was surprised by how simple the process was.",
       "options": [
-        "a) how simple the process was",
-        "b) how expensive the ingredients were",
-        "c) how many tools they needed to use"
+        "a) How expensive the ingredients were",
+        "b) How many tools they needed to use",
+        "c) How simple the process was"
       ],
       "grammarTags": [
         "g-en-b1-comparatives"
@@ -239,14 +239,14 @@
       "module": "horen",
       "teil": 2,
       "type": "multiple_choice",
-      "question": "You hear two friends talking about a Film. What do they agree about?",
-      "correct": "c",
-      "correctAnswer": "c",
+      "question": "You hear two friends talking about a film. What do they agree about?",
+      "correct": "a",
+      "correctAnswer": "a",
       "explanation": "The boy says the story was weak and like every other space movie, and the girl agrees, saying you could guess the ending after twenty minutes, meaning they both found it predictable.",
       "options": [
-        "a) The acting was excellent.",
-        "b) The special effects were disappointing.",
-        "c) The plot was very predictable."
+        "a) The plot was very predictable.",
+        "b) The acting was excellent.",
+        "c) The special effects were disappointing."
       ],
       "grammarTags": [
         "g-en-b1-modals-past"
@@ -266,5 +266,9 @@
       "examType": "cambridge",
       "passageId": "en-b1-p-horen-t2-gist-free-time-02-06"
     }
-  ]
+  ],
+  "_germanCapsNormalizeVersion": "v3.23-lesen-t2-angebote-corpus-2026-07-28",
+  "_germanCapsNormalizedAt": "2026-09-22T01:57:15.652Z",
+  "_balanceMcqVersion": "v1.2-no-rf-chrono-shuffle-2026-07-11",
+  "_balanceMcqNormalizedAt": "2026-09-22T01:57:15.652Z"
 }

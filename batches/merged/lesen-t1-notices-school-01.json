@@ -127,13 +127,13 @@
       "teil": 1,
       "type": "multiple_choice",
       "question": "Mr. Davis is telling Class 9 that...",
-      "correct": "a",
-      "correctAnswer": "a",
+      "correct": "c",
+      "correctAnswer": "c",
       "explanation": "Mr. Davis says 'or you won't be allowed to do the experiment' if they do not bring their lab coats, meaning correct clothing is required to participate.",
       "options": [
-        "a) they cannot participate in the experiment without correct clothing.",
-        "b) their science lesson tomorrow has been cancelled.",
-        "c) they must buy a lab coat before tomorrow's lesson."
+        "a) Their science lesson tomorrow has been cancelled.",
+        "b) They must buy a lab coat before tomorrow's lesson.",
+        "c) They cannot participate in the experiment without correct clothing."
       ],
       "grammarTags": [
         "g-en-b1-modals"
@@ -159,13 +159,13 @@
       "teil": 1,
       "type": "multiple_choice",
       "question": "How should library users return books?",
-      "correct": "b",
-      "correctAnswer": "b",
+      "correct": "a",
+      "correctAnswer": "a",
       "explanation": "The notice asks users to use the automatic machine, but if it is out of order (not working), they should leave books at the reception desk.",
       "options": [
-        "a) Only use the automatic machine if the reception desk is closed.",
-        "b) Use the machine unless it is not working.",
-        "c) Always hand them to the librarian at the reception desk."
+        "a) Use the machine unless it is not working.",
+        "b) Always hand them to the librarian at the reception desk.",
+        "c) Only use the automatic machine if the reception desk is closed."
       ],
       "grammarTags": [
         "g-en-b1-conditionals"
@@ -190,14 +190,14 @@
       "module": "lesen",
       "teil": 1,
       "type": "multiple_choice",
-      "question": "Students using the Computer lab at lunchtime...",
-      "correct": "c",
-      "correctAnswer": "c",
+      "question": "Students using the computer lab at lunchtime...",
+      "correct": "b",
+      "correctAnswer": "b",
       "explanation": "The notice says playing games is forbidden 'unless authorized by a teacher', which means it is allowed if they have a teacher's permission.",
       "options": [
-        "a) are allowed to watch any videos they like.",
-        "b) must only use the computers for playing educational games.",
-        "c) can play games if they have a teacher's permission."
+        "a) Must only use the computers for playing educational games.",
+        "b) Can play games if they have a teacher's permission.",
+        "c) Are allowed to watch any videos they like."
       ],
       "grammarTags": [
         "g-en-b1-modals"
@@ -217,5 +217,9 @@
       "examType": "cambridge",
       "passageId": "en-b1-p-lesen-t1-notices-school-01-05"
     }
-  ]
+  ],
+  "_germanCapsNormalizeVersion": "v3.23-lesen-t2-angebote-corpus-2026-07-28",
+  "_germanCapsNormalizedAt": "2026-09-22T01:57:15.674Z",
+  "_balanceMcqVersion": "v1.2-no-rf-chrono-shuffle-2026-07-11",
+  "_balanceMcqNormalizedAt": "2026-09-22T01:57:15.674Z"
 }

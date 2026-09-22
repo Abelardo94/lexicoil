@@ -4,7 +4,7 @@
       "id": "en-b1-p-lesen-t4-gapped-food-market-01-01",
       "module": "lesen",
       "title": "A Weekend at the Local Food Market",
-      "text": "Last Saturday, I decided to visit the local food market in the town centre. I had heard a lot about it from my neighbours, but I had never found the time to go before. [1] As soon as I arrived, I realized I should have come much sooner. The atmosphere was incredibly lively and full of energy.\n\nThere were dozens of colourful stalls selling everything from fresh fruit to homemade cakes. [2] The smell of freshly baked bread was particularly amazing, drawing a huge crowd to one corner. I spent about an hour just walking around and looking at all the delicious options.\n\nWhat I liked most was talking to the people who worked there. [3] They were happy to explain how they made their cheese or where their vegetables were grown. This made the shopping experience feel much more personal than going to a normal supermarket.\n\nBy lunchtime, I was starting to feel quite hungry because of all the wonderful smells. [4] I chose a small stall selling traditional Spanish empanadas and sat on a wooden bench to eat them. They were absolutely delicious and very filling.\n\nBefore leaving, I bought some fresh pasta and a jar of local honey to take Home. [5] I am already planning my next visit and cannot wait to try some of the other stalls.",
+      "text": "Last Saturday, I decided to visit the local food market in the town centre. I had heard a lot about it from my neighbours, but I had never found the time to go before. [1] As soon as I arrived, I realized I should have come much sooner. The atmosphere was incredibly lively and full of energy.\n\nThere were dozens of colourful stalls selling everything from fresh fruit to homemade cakes. [2] The smell of freshly baked bread was particularly amazing, drawing a huge crowd to one corner. I spent about an hour just walking around and looking at all the delicious options.\n\nWhat I liked most was talking to the people who worked there. [3] They were happy to explain how they made their cheese or where their vegetables were grown. This made the shopping experience feel much more personal than going to a normal supermarket.\n\nBy lunchtime, I was starting to feel quite hungry because of all the wonderful smells. [4] I chose a small stall selling traditional Spanish empanadas and sat on a wooden bench to eat them. They were absolutely delicious and very filling.\n\nBefore leaving, I bought some fresh pasta and a jar of local honey to take home. [5] I am already planning my next visit and cannot wait to try some of the other stalls.",
       "passageVocab": [
         {
           "word": "lively",
@@ -82,7 +82,7 @@
       ],
       "correct": "B",
       "correctAnswer": "B",
-      "explanation": "Option B fits well here. The previous sentence introduces the 'dozens of colourful stalls selling everything', and Option B continues this description by focusing on the sellers showing off their goods.",
+      "explanation": "Option B fits well here. The previous sentence introduces the 'dozens of colourful stalls selling everything', and option B continues this description by focusing on the sellers showing off their goods.",
       "grammarTags": [
         "g-en-b1-pronouns-each"
       ],
@@ -119,7 +119,7 @@
       ],
       "correct": "G",
       "correctAnswer": "G",
-      "explanation": "Option G is the correct choice because 'Most of them' refers back to 'the people who worked there' in the previous sentence. The following sentence also uses 'They' to refer back to These local farmers.",
+      "explanation": "Option G is the correct choice because 'Most of them' refers back to 'the people who worked there' in the previous sentence. The following sentence also uses 'They' to refer back to these local farmers.",
       "grammarTags": [
         "g-en-b1-pronouns-relative"
       ],
@@ -193,7 +193,7 @@
       ],
       "correct": "D",
       "correctAnswer": "D",
-      "explanation": "Option D is correct because the pronoun 'These' refers back to the 'fresh pasta and a jar of local honey' purchased to take Home in the previous sentence.",
+      "explanation": "Option D is correct because the pronoun 'These' refers back to the 'fresh pasta and a jar of local honey' purchased to take home in the previous sentence.",
       "grammarTags": [
         "g-en-b1-demonstratives"
       ],
@@ -211,5 +211,9 @@
       "level": "B1",
       "examType": "cambridge"
     }
-  ]
+  ],
+  "_germanCapsNormalizeVersion": "v3.23-lesen-t2-angebote-corpus-2026-07-28",
+  "_germanCapsNormalizedAt": "2026-09-22T01:57:15.690Z",
+  "_balanceMcqVersion": "v1.2-no-rf-chrono-shuffle-2026-07-11",
+  "_balanceMcqNormalizedAt": "2026-09-22T01:57:15.690Z"
 }

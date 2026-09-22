@@ -4,7 +4,7 @@
       "id": "en-b1-p-lesen-t6-open-cloze-family-trip-02-01",
       "module": "lesen",
       "title": "A Family Trip to the Mountains",
-      "text": "Last weekend, my family and I went on a trip to the mountains. We decided to go [1] car because it was easier to carry all our bags. The journey took about three hours, and [2] the weather was a bit cloudy at first, it soon became sunny.\n\nWhen we arrived, we stayed in a lovely wooden cabin [3] was located next to a beautiful lake. My father immediately suggested going for a walk. We walked [4] hours along the forest paths. We even saw some wild deer!\n\nIn the evening, we cooked a delicious meal together. It was [5] a wonderful experience that we have already decided to return next year. I am really looking forward [6] our next adventure in the mountains.",
+      "text": "Last weekend, my family and I went on a trip to the mountains. We decided to go [1] car because it was easier to carry all our bags. The journey took about three hours, and [2] the weather was a bit cloudy at first, it soon became sunny.\n\nWhen we arrived, we stayed in a lovely wooden cabin [3] was located next to a beautiful lake. My father immediately suggested going for a walk. We walked [4] hours along the forest paths. We even saw some wild deer! Later, my younger brother and I spent the afternoon swimming in the cold, clear water of the lake.\n\nIn the evening, we cooked a delicious meal together. Then we all sat outside and looked at the thousands of bright stars above the quiet valley. It was [5] a wonderful experience that we have already decided to return next year. I am really looking forward [6] our next adventure in the mountains.",
       "passageVocab": [
         {
           "lemma": "cabin",
@@ -30,7 +30,7 @@
       "question": "Identify the missing word for gap [1].",
       "correct": "by",
       "correctAnswer": "by",
-      "explanation": "We use the preposition 'by' to talk about means of transport (by car, by train, by Bus).",
+      "explanation": "We use the preposition 'by' to talk about means of transport (by car, by train, by bus).",
       "options": [],
       "grammarTags": [
         "g-en-b1-prepositions"
@@ -190,5 +190,9 @@
       "examType": "cambridge",
       "passageId": "en-b1-p-lesen-t6-open-cloze-family-trip-02-01"
     }
-  ]
+  ],
+  "_germanCapsNormalizeVersion": "v3.23-lesen-t2-angebote-corpus-2026-07-28",
+  "_germanCapsNormalizedAt": "2026-09-22T01:57:15.695Z",
+  "_balanceMcqVersion": "v1.2-no-rf-chrono-shuffle-2026-07-11",
+  "_balanceMcqNormalizedAt": "2026-09-22T01:57:15.695Z"
 }

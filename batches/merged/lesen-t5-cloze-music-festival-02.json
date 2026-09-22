@@ -4,7 +4,7 @@
       "id": "en-b1-p-lesen-t5-cloze-music-festival-02-01",
       "module": "lesen",
       "title": "The Green Valley Music Festival",
-      "text": "Last July, my friends and I decided to (1) ______ the Green Valley Music Festival. It is one of the most popular outdoor events in the country, and it (2) ______ place every summer in a beautiful forest. We arrived early on Friday morning to set up our tent in the camping area. As soon as the music started, the atmosphere became absolutely (3) ______. There were several stages with different types of music, so there was always something great to listen to. We spent most of our time dancing and eating delicious local food from the stalls. Although it (4) ______ with rain on Saturday night, nobody seemed to mind. We just put on our raincoats and kept on singing. It was an unforgettable weekend, and we have already (5) ______ to buy our tickets for next year. I would highly (6) ______ this Festival to anyone who loves live music and nature.",
+      "text": "Last July, my friends and I decided to (1) ______ the Green Valley Music Festival. It is one of the most popular outdoor events in the country, and it (2) ______ place every summer in a beautiful forest. We arrived early on Friday morning to set up our tent in the camping area. As soon as the music started, the atmosphere became absolutely (3) ______. There were several stages with different types of music, so there was always something great to listen to. We spent most of our time dancing and eating delicious local food from the stalls. Although it (4) ______ with rain on Saturday night, nobody seemed to mind. We just put on our raincoats and kept on singing. The organisers also handed out free hot drinks to everyone. It was an unforgettable weekend, and we have already (5) ______ to buy our tickets for next year. I would highly (6) ______ this festival to anyone who loves live music and nature.",
       "passageVocab": [
         "atmosphere",
         "outdoor",
@@ -20,14 +20,14 @@
       "teil": 5,
       "type": "multiple_choice",
       "question": "Choose the correct word for gap (1).",
-      "correct": "a",
-      "correctAnswer": "a",
-      "explanation": "'Attend' is the correct verb to use when you go to an Event like a Festival, concert, or Meeting. 'Assist' means to help, which does not fit the context.",
+      "correct": "b",
+      "correctAnswer": "b",
+      "explanation": "'Attend' is the correct verb to use when you go to an event like a festival, concert, or meeting. 'Assist' means to help, which does not fit the context.",
       "options": [
-        "a) attend",
-        "b) assist",
-        "c) present",
-        "d) invite"
+        "a) invite",
+        "b) attend",
+        "c) assist",
+        "d) present"
       ],
       "grammarTags": [
         "g-en-b1-verbs"
@@ -53,14 +53,14 @@
       "teil": 5,
       "type": "multiple_choice",
       "question": "Choose the correct word for gap (2).",
-      "correct": "b",
-      "correctAnswer": "b",
+      "correct": "c",
+      "correctAnswer": "c",
       "explanation": "'Takes place' is a common collocation meaning to happen or occur in a particular place.",
       "options": [
-        "a) holds",
-        "b) takes",
-        "c) makes",
-        "d) gives"
+        "a) gives",
+        "b) holds",
+        "c) takes",
+        "d) makes"
       ],
       "grammarTags": [
         "g-en-b1-collocations"
@@ -119,14 +119,14 @@
       "teil": 5,
       "type": "multiple_choice",
       "question": "Choose the correct word for gap (4).",
-      "correct": "b",
-      "correctAnswer": "b",
+      "correct": "a",
+      "correctAnswer": "a",
       "explanation": "The expression 'poured with rain' means it rained heavily. The other verbs do not collocate with 'with rain' in this way.",
       "options": [
-        "a) dropped",
-        "b) poured",
-        "c) fell",
-        "d) filled"
+        "a) poured",
+        "b) fell",
+        "c) filled",
+        "d) dropped"
       ],
       "grammarTags": [
         "g-en-b1-collocations"
@@ -152,14 +152,14 @@
       "teil": 5,
       "type": "multiple_choice",
       "question": "Choose the correct word for gap (5).",
-      "correct": "b",
-      "correctAnswer": "b",
+      "correct": "a",
+      "correctAnswer": "a",
       "explanation": "'Agreed' is followed by the infinitive 'to buy' and fits the context of friends making a joint decision. 'Suggested' would require a gerund (suggested buying) or a 'that' clause.",
       "options": [
-        "a) prepared",
-        "b) agreed",
-        "c) thought",
-        "d) offered"
+        "a) agreed",
+        "b) thought",
+        "c) offered",
+        "d) prepared"
       ],
       "grammarTags": [
         "g-en-b1-verb-patterns"
@@ -185,14 +185,14 @@
       "teil": 5,
       "type": "multiple_choice",
       "question": "Choose the correct word for gap (6).",
-      "correct": "b",
-      "correctAnswer": "b",
+      "correct": "d",
+      "correctAnswer": "d",
       "explanation": "'Highly recommend' is a very common collocation used to strongly suggest something to someone because it is good.",
       "options": [
-        "a) advise",
-        "b) recommend",
-        "c) encourage",
-        "d) propose"
+        "a) encourage",
+        "b) propose",
+        "c) advise",
+        "d) recommend"
       ],
       "grammarTags": [
         "g-en-b1-collocations"
@@ -212,5 +212,9 @@
       "examType": "cambridge",
       "passageId": "en-b1-p-lesen-t5-cloze-music-festival-02-01"
     }
-  ]
+  ],
+  "_germanCapsNormalizeVersion": "v3.23-lesen-t2-angebote-corpus-2026-07-28",
+  "_germanCapsNormalizedAt": "2026-09-22T01:57:15.693Z",
+  "_balanceMcqVersion": "v1.2-no-rf-chrono-shuffle-2026-07-11",
+  "_balanceMcqNormalizedAt": "2026-09-22T01:57:15.693Z"
 }

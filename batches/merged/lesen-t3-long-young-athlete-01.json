@@ -4,7 +4,7 @@
       "id": "en-b1-p-lesen-t3-long-young-athlete-01-01",
       "module": "lesen",
       "title": "An Interview with Maya Lin",
-      "text": "We talked to sixteen-year-old runner Maya Lin about her life on and off the track. Maya recently won the national junior 800-metre championship, but she remains surprisingly down-to-earth.\n\nInterviewer: Maya, congratulations on your gold medal! How did you first get into running?\nMaya: Thanks! Actually, it was by accident. When I was eleven, my school's running Team was short of one Person for a relay race. The coach saw me running to catch the school Bus and asked me to fill in. I didn't even have proper running shoes! I ended up running really fast, and the coach suggested I join the club. Before that, I preferred playing video games and reading. I never imagined I would become an athlete.\n\nInterviewer: How do you manage to balance your training with your schoolwork?\nMaya: It isn't easy. I train for about two hours every day after school, and more on weekends. I have to be very organized. I do my homework on the Bus or during lunch breaks. My friends are very understanding, though they sometimes complain that I can't hang out with them on Friday nights because I have to sleep early for Saturday morning practice. But they always come to support me at my races, which means a lot.\n\nInterviewer: Do you ever feel too much pressure before a big race?\nMaya: Definitely. Before a race, my hands shake and I feel sick. But my coach taught me to view that nervous energy as a positive thing. She says it shows my body is preparing to run fast. Once the race starts, all the worry disappears and I just focus on my breathing and my steps. I don't think about winning; I just try to beat my own personal best time.\n\nInterviewer: What are your goals for the future?\nMaya: Of course, the Olympics is the ultimate dream, but that is a long way off. For now, I want to focus on my next race and keep improving. I also want to finish my school exams with good grades because education is important to me. If I have one piece of advice for other young people, it's to try new things. You might discover a Talent you never knew you had!",
+      "text": "We talked to sixteen-year-old runner Maya Lin about her life on and off the track. Maya recently won the national junior 800-metre championship, but she remains surprisingly down-to-earth.\n\nInterviewer: Maya, congratulations on your gold medal! How did you first get into running?\nMaya: Thanks! Actually, it was by accident. When I was eleven, my school's running team was short of one person for a relay race. The coach saw me running to catch the school bus and asked me to fill in. I didn't even have proper running shoes! I ended up running really fast, and the coach suggested I join the club. Before that, I preferred playing video games and reading. I never imagined I would become an athlete.\n\nInterviewer: How do you manage to balance your training with your schoolwork?\nMaya: It isn't easy. I train for about two hours every day after school, and more on weekends. I have to be very organized. I do my homework on the bus or during lunch breaks. My friends are very understanding, though they sometimes complain that I can't hang out with them on Friday nights because I have to sleep early for Saturday morning practice. But they always come to support me at my races, which means a lot.\n\nInterviewer: Do you ever feel too much pressure before a big race?\nMaya: Definitely. Before a race, my hands shake and I feel sick. But my coach taught me to view that nervous energy as a positive thing. She says it shows my body is preparing to run fast. Once the race starts, all the worry disappears and I just focus on my breathing and my steps. I don't think about winning; I just try to beat my own personal best time.\n\nInterviewer: What are your goals for the future?\nMaya: Of course, the Olympics is the ultimate dream, but that is a long way off. For now, I want to focus on my next race and keep improving. I also want to finish my school exams with good grades because education is important to me. If I have one piece of advice for other young people, it's to try new things. You might discover a talent you never knew you had!",
       "passageVocab": [
         "championship",
         "relay race",
@@ -24,13 +24,13 @@
       "question": "Why did Maya first start running?",
       "options": [
         "a) She wanted to get fit instead of playing video games.",
-        "b) Her school coach noticed her running for a Bus.",
+        "b) Her school coach noticed her running for a bus.",
         "c) She wanted to win a relay race for her school.",
         "d) Her parents encouraged her to join a running club."
       ],
       "correct": "b",
       "correctAnswer": "b",
-      "explanation": "Maya explains that her coach saw her running to catch the school Bus and asked her to fill in for a relay race because they were short of one Person.",
+      "explanation": "Maya explains that her coach saw her running to catch the school bus and asked her to fill in for a relay race because they were short of one person.",
       "grammarTags": [
         "g-en-b1-past-simple"
       ],
@@ -58,13 +58,13 @@
       "passageId": "en-b1-p-lesen-t3-long-young-athlete-01-01",
       "question": "How does Maya feel about her social life?",
       "options": [
-        "a) She regrets not having time to do homework with her friends.",
-        "b) She is grateful that her friends support her despite her busy schedule.",
-        "c) She wishes she could train less on weekends to hang out more.",
-        "d) She finds it difficult to talk to her friends about her Sport."
+        "a) She wishes she could train less on weekends to hang out more.",
+        "b) She finds it difficult to talk to her friends about her sport.",
+        "c) She regrets not having time to do homework with her friends.",
+        "d) She is grateful that her friends support her despite her busy schedule."
       ],
-      "correct": "b",
-      "correctAnswer": "b",
+      "correct": "d",
+      "correctAnswer": "d",
       "explanation": "Maya mentions that her friends are very understanding and always come to support her at her races, which means a lot to her.",
       "grammarTags": [
         "g-en-b1-conjunctions"
@@ -128,13 +128,13 @@
       "passageId": "en-b1-p-lesen-t3-long-young-athlete-01-01",
       "question": "What is Maya's main priority for the near future?",
       "options": [
-        "a) qualifying for the next Olympic Games",
-        "b) encouraging other teenagers to take up running",
-        "c) making sure she does well in both her Sport and her studies",
-        "d) finding a new coach to help her improve her times"
+        "a) Making sure she does well in both her sport and her studies",
+        "b) Finding a new coach to help her improve her times",
+        "c) Qualifying for the next Olympic Games",
+        "d) Encouraging other teenagers to take up running"
       ],
-      "correct": "c",
-      "correctAnswer": "c",
+      "correct": "a",
+      "correctAnswer": "a",
       "explanation": "Maya states that she wants to focus on her next race and keep improving, but also finish her school exams with good grades because education is important to her.",
       "grammarTags": [
         "g-en-b1-future-plans"
@@ -161,16 +161,16 @@
       "teil": 3,
       "type": "multiple_choice",
       "passageId": "en-b1-p-lesen-t3-long-young-athlete-01-01",
-      "question": "What would Maya write in a social media Post to her followers?",
+      "question": "What would Maya write in a social media post to her followers?",
       "options": [
-        "a) \"It's tough when you have to give up all your hobbies and friends for a gold medal, but it's worth it in the end!\"",
-        "b) \"Never be afraid to step out of your comfort Zone. You might find a passion you didn't know existed, just like I did!\"",
-        "c) \"If you want to be a champion, you must ignore the pressure and only focus on beating the other runners.\"",
-        "d) \"I'm so lucky my school coach forced me to run. Without her, I would still be playing video games all day.\""
+        "a) \"I'm so lucky my school coach forced me to run. Without her, I would still be playing video games all day.\"",
+        "b) \"It's tough when you have to give up all your hobbies and friends for a gold medal, but it's worth it in the end!\"",
+        "c) \"Never be afraid to step out of your comfort zone. You might find a passion you didn't know existed, just like I did!\"",
+        "d) \"If you want to be a champion, you must ignore the pressure and only focus on beating the other runners.\""
       ],
-      "correct": "b",
-      "correctAnswer": "b",
-      "explanation": "At the end of the Text, Maya advises other young people to try new things because they might discover a Talent they never knew they had, which matches Option b.",
+      "correct": "c",
+      "correctAnswer": "c",
+      "explanation": "At the end of the text, Maya advises other young people to try new things because they might discover a talent they never knew they had, which matches option c.",
       "grammarTags": [
         "g-en-b1-modals"
       ],
@@ -190,5 +190,9 @@
       "level": "B1",
       "examType": "cambridge"
     }
-  ]
+  ],
+  "_germanCapsNormalizeVersion": "v3.23-lesen-t2-angebote-corpus-2026-07-28",
+  "_germanCapsNormalizedAt": "2026-09-22T01:57:15.686Z",
+  "_balanceMcqVersion": "v1.2-no-rf-chrono-shuffle-2026-07-11",
+  "_balanceMcqNormalizedAt": "2026-09-22T01:57:15.686Z"
 }
