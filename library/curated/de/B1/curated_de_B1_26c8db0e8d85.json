@@ -547,7 +547,7 @@
             "id": "ql_gen-q-3-bp-audio-foto-2xtd-7",
             "type": "matching",
             "signText": "",
-            "question": "Herr Ott sucht einen günstigen Unterkunft für den Sommer.",
+            "question": "Herr Ott sucht eine günstige Unterkunft für den Sommer.",
             "options": [
               "A) BildScharf — Wir reparieren Fotokameras und wechseln Objektive, Abgabe Di–Sa bis 17 Uhr.",
               "B) StimmRaum — Anfängerkurs Gesang für Erwachsene, Mo 18–19 Uhr, kleine Gruppen.",
@@ -590,7 +590,66 @@
             "explanation": "BildScharf repariert Kameras."
           }
         ],
-        "text": "A) BildScharf — Wir reparieren Fotokameras und wechseln Objektive, Abgabe Di–Sa bis 17 Uhr.\nB) StimmRaum — Anfängerkurs Gesang für Erwachsene, Mo 18–19 Uhr, kleine Gruppen.\nC) Pfotenglück — Pflege Ihres Hundes im Urlaub, großer Garten, 18 Euro pro Tag.\nD) BühnenLuft — Anfängerkurs Theaterspielen, Mi 18–20 Uhr, ohne Vorkenntnisse, Anmeldung nötig.\nE) TonWerk — Wir reparieren Kopfhörer und kleine Lautsprecher, Werkstatt zentral, Mo–Fr.\nF) ErdReich — Anfängerkurs Töpfern für Erwachsene, Sa 10–13 Uhr, Material inklusive.\nG) WohnVermitt — Wir vermitteln Zwei- und Dreizimmerwohnungen, faire Provision, kurzfristig.\nH) Glanzweg — Pflege und Reinigung von Fenstern und Büro, Sa 10–14 Uhr nach Absprache.\nI) KlangFix — Wir reparieren defekte Boxen und Verstärker aller Marken, Hausbesuch möglich.\nJ) TragHilfe — Wir packen bei Ihrem Umzug an, auch sonntags, ab 40 Euro pro Stunde."
+        "text": "A) BildScharf — Wir reparieren Fotokameras und wechseln Objektive, Abgabe Di–Sa bis 17 Uhr.\nB) StimmRaum — Anfängerkurs Gesang für Erwachsene, Mo 18–19 Uhr, kleine Gruppen.\nC) Pfotenglück — Pflege Ihres Hundes im Urlaub, großer Garten, 18 Euro pro Tag.\nD) BühnenLuft — Anfängerkurs Theaterspielen, Mi 18–20 Uhr, ohne Vorkenntnisse, Anmeldung nötig.\nE) TonWerk — Wir reparieren Kopfhörer und kleine Lautsprecher, Werkstatt zentral, Mo–Fr.\nF) ErdReich — Anfängerkurs Töpfern für Erwachsene, Sa 10–13 Uhr, Material inklusive.\nG) WohnVermitt — Wir vermitteln Zwei- und Dreizimmerwohnungen, faire Provision, kurzfristig.\nH) Glanzweg — Pflege und Reinigung von Fenstern und Büro, Sa 10–14 Uhr nach Absprache.\nI) KlangFix — Wir reparieren defekte Boxen und Verstärker aller Marken, Hausbesuch möglich.\nJ) TragHilfe — Wir packen bei Ihrem Umzug an, auch sonntags, ab 40 Euro pro Stunde.",
+        "slotType": "ads_matching",
+        "ads": [
+          {
+            "key": "A",
+            "title": "BildScharf",
+            "text": "Wir reparieren Fotokameras und wechseln Objektive, Abgabe Di–Sa bis 17 Uhr."
+          },
+          {
+            "key": "B",
+            "title": "StimmRaum",
+            "text": "Anfängerkurs Gesang für Erwachsene, Mo 18–19 Uhr, kleine Gruppen."
+          },
+          {
+            "key": "C",
+            "title": "Pfotenglück",
+            "text": "Pflege Ihres Hundes im Urlaub, großer Garten, 18 Euro pro Tag."
+          },
+          {
+            "key": "D",
+            "title": "BühnenLuft",
+            "text": "Anfängerkurs Theaterspielen, Mi 18–20 Uhr, ohne Vorkenntnisse, Anmeldung nötig."
+          },
+          {
+            "key": "E",
+            "title": "TonWerk",
+            "text": "Wir reparieren Kopfhörer und kleine Lautsprecher, Werkstatt zentral, Mo–Fr."
+          },
+          {
+            "key": "F",
+            "title": "ErdReich",
+            "text": "Anfängerkurs Töpfern für Erwachsene, Sa 10–13 Uhr, Material inklusive."
+          },
+          {
+            "key": "G",
+            "title": "WohnVermitt",
+            "text": "Wir vermitteln Zwei- und Dreizimmerwohnungen, faire Provision, kurzfristig."
+          },
+          {
+            "key": "H",
+            "title": "Glanzweg",
+            "text": "Pflege und Reinigung von Fenstern und Büro, Sa 10–14 Uhr nach Absprache."
+          },
+          {
+            "key": "I",
+            "title": "KlangFix",
+            "text": "Wir reparieren defekte Boxen und Verstärker aller Marken, Hausbesuch möglich."
+          },
+          {
+            "key": "J",
+            "title": "TragHilfe",
+            "text": "Wir packen bei Ihrem Umzug an, auch sonntags, ab 40 Euro pro Stunde."
+          }
+        ],
+        "example": {
+          "number": 0,
+          "label": "Beispiel",
+          "situation": "Sie möchten einen Sprachkurs für Ihre Oma buchen. Ihre Oma ist 78 Jahre alt und spricht kein Deutsch. Sie sucht einen Kurs, der speziell für ältere Menschen ist.",
+          "correct": "0"
+        }
       },
       {
         "teil": 4,
