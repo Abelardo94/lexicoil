@@ -235,6 +235,10 @@ export function checkExplanationOptionTextAlignQuestion(q, ctx = {}) {
   }
 
   if (!strictQuotes.length) {
+    // "Mentions the option, so it must quote it" is the Goethe convention. In English the
+    // keyword is ordinary prose ("her only option since her boots are worn out", "which
+    // matches option c") and an unquoted explanation leaves nothing to compare.
+    if (!strictConvention) return { blocking, warnings };
     if (hasStrictKeywords && missingQuoteSeverity() === 'block') {
       blocking.push({
         kind: 'missing_correct_quote',
