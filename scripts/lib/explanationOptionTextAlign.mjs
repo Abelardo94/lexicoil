@@ -213,7 +213,7 @@ export function checkExplanationOptionTextAlignQuestion(q, ctx = {}) {
   if (!correctL || !bodies.has(correctL)) return { blocking, warnings };
 
   const correctBody = bodies.get(correctL);
-  const lang = String(q.lang || q.language || 'de').trim().toLowerCase();
+  const lang = String(q.lang || q.language || ctx.lang || 'de').trim().toLowerCase();
   const strictConvention = lang === 'de'; // Goethe quotes the option verbatim; Cambridge does not
   const proxQuotes = extractKeywordProximateQuotes(expl, lang);
   const hasStrictKeywords =
@@ -365,7 +365,9 @@ export function collectExplanationOptionTextAlign(batch) {
 
   for (const q of batch?.questions || []) {
     const passageText = (q?.passageId && byId.get(String(q.passageId))) || allText;
-    const r = checkExplanationOptionTextAlignQuestion(q, { passageText });
+    // flattenExam carries lang at batch level only; library-built exam questions have none,
+    // so without this fallback every assembled English exam was held to the Goethe convention.
+    const r = checkExplanationOptionTextAlignQuestion(q, { passageText, lang: batch?.lang || batch?.language });
     blocking.push(...r.blocking);
     warnings.push(...r.warnings);
   }

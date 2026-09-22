@@ -387,11 +387,24 @@ const ExamBlueprint = (() => {
     return byId ? Number(byId[1]) : null;
   }
 
+  // Cambridge tasks that follow one text or recording in order without saying "gap": the
+  // long-text questions track the paragraphs, sentence completion and the interview track
+  // the audio. They were served as 1,5,3,4,2 / 6,5,1,3,2,4. Exact slotType on purpose —
+  // Goethe interview_twice and DELE long_article are left as they are.
+  const SEQUENTIAL_SLOTS = new Set(['long_text', 'sentence_completion', 'interview_mcq']);
+
+  function sequenceNumberOf(q) {
+    // Id only: a long-text question may quote "(2)" without it being a gap number.
+    const byId = String(q?.id || '').match(/-q(\d+)$/i);
+    return byId ? Number(byId[1]) : null;
+  }
+
   function orderGapQuestions(questions, partSpec) {
     if (!Array.isArray(questions) || questions.length < 2) return questions;
     const slot = `${partSpec?.slotType || ''} ${partSpec?.taskFormat || ''}`.toLowerCase();
-    if (!/gap|cloze/.test(slot)) return questions;
-    const numbered = questions.map((q) => ({ q, n: gapNumberOf(q) }));
+    const sequential = SEQUENTIAL_SLOTS.has(String(partSpec?.slotType || '').toLowerCase());
+    if (!/gap|cloze/.test(slot) && !sequential) return questions;
+    const numbered = questions.map((q) => ({ q, n: sequential ? sequenceNumberOf(q) : gapNumberOf(q) }));
     if (numbered.some((x) => x.n == null)) return questions;
     if (new Set(numbered.map((x) => x.n)).size !== numbered.length) return questions;
     return numbered.sort((a, b) => a.n - b.n).map((x) => x.q);
@@ -449,6 +462,8 @@ const ExamBlueprint = (() => {
     };
     if (q.options?.length) out.options = [...q.options];
     if (q.signText) out.signText = q.signText;
+    // Same as ExamBuilder.toExamQuestion: CHK-LEVEL gates publishing on per-question level.
+    if (q.level) out.level = q.level;
     if (q.origin) out.origin = q.origin;
     return out;
   }

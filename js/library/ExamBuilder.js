@@ -173,6 +173,9 @@ const ExamBuilder = (() => {
       topicTags: q.topicTags || [],
       difficulty: q.difficulty,
     };
+    // audit-pass-2 CHK-LEVEL (a publish gate) requires level on every question; dropping it
+    // here made every library-built exam unpublishable.
+    if (q.level) out.level = q.level;
     if (q.origin) out.origin = q.origin;
     if (q.options?.length) out.options = [...q.options];
     const pid =

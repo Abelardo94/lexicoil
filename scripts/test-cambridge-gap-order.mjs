@@ -82,4 +82,38 @@ assert(
   !longText || (longText.questions || []).length > 0,
 );
 
+// Sequential tasks without a gap marker follow their one text or recording: Reading P3 tracks
+// the paragraphs, Listening P3 (sentence completion) and P4 (interview) track the audio. They
+// were served as 1,5,3,4,2 and 6,5,1,3,2,4. Order is read from the bank id suffix (-qN).
+const SEQ_SLOTS = new Set(['long_text', 'sentence_completion', 'interview_mcq']);
+const idNumber = (q) => {
+  const m = String(q?.id || '').match(/-q(\d+)$/i);
+  return m ? Number(m[1]) : null;
+};
+let seqChecked = 0;
+const seqOffenders = [];
+for (let r = 0; r < ROUNDS; r++) {
+  const exam = ExamBuilder.buildFromBlueprint('en', 'B1', bank, blueprint, {
+    mode: 'standard',
+    skills: ['lesen', 'horen'],
+  });
+  for (const part of [...(exam.lesenParts || []), ...(exam.horenParts || [])]) {
+    const slot = String(part.blueprintSlot || part.slotType || '');
+    if (!SEQ_SLOTS.has(slot)) continue;
+    const qs = [...(part.questions || []), ...(part.segments || []).flatMap((s) => s.questions || [])];
+    const nums = qs.map(idNumber).filter((n) => n != null);
+    if (nums.length < 2) continue;
+    seqChecked += 1;
+    if (nums.join(',') !== [...nums].sort((a, b) => a - b).join(',')) {
+      seqOffenders.push(`teil ${part.teil} (${slot}): ${nums.join(',')}`);
+    }
+  }
+}
+assert(`sequential parts were actually exercised (${seqChecked} across ${ROUNDS} builds)`, seqChecked > 0);
+if (seqOffenders.length) {
+  console.error('Sequential parts served out of order:');
+  for (const o of [...new Set(seqOffenders)].slice(0, 10)) console.error('   ' + o);
+}
+assert('every sequential part follows its text or recording', seqOffenders.length === 0);
+
 console.log('\nCambridge gap-order tests passed.');

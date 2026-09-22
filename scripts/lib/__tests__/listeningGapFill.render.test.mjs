@@ -107,7 +107,11 @@ const p3Items = exams.flatMap((e) =>
     .filter((p) => Number(p.teil) === 3)
     .flatMap((p) => [...(p.questions || []), ...((p.segments || []).flatMap((s) => s.questions || []))]),
 );
-assert(`en/B1 Listening Part 3 still ships sentence completion (${p3Items.length} items)`, p3Items.length === 18);
+// Six gaps per exam; the count was hard-coded to 18 (three exams) and broke on the fourth.
+assert(
+  `en/B1 Listening Part 3 still ships sentence completion (${p3Items.length} items, ${exams.length} exams)`,
+  p3Items.length === exams.length * 6,
+);
 assert('every one of them is gap_fill with an empty pool', p3Items.every((q) => q.type === 'gap_fill' && !(q.options || []).length));
 assert('all of them render an input', p3Items.every((q) => /class="gap-input"/.test(en.renderQ(q, q.number, 'horen_2_0', 'True', 'False', 'R', true, {}))));
 
