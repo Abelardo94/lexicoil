@@ -52,5 +52,10 @@ ${fs.readFileSync(demoAppPath, 'utf8')}
 `;
 
 fs.writeFileSync(path.join(ROOT, 'demo.html'), html, 'utf8');
+// dist/ lo crea assemble-dist.mjs, que corre DESPUES de este script: en un checkout
+// limpio todavia no existe y el copyFileSync moria con ENOENT. En local no se veia
+// porque dist/ quedaba de builds anteriores, y en Netlify tampoco mientras la cache
+// de build lo conservara.
+fs.mkdirSync(path.join(ROOT, 'dist'), { recursive: true });
 fs.copyFileSync(path.join(ROOT, 'demo.html'), path.join(ROOT, 'dist/demo.html'));
 console.log('Wrote demo.html (+ dist/demo.html)');
