@@ -140,7 +140,11 @@ export function applyGermanCapsNormalize(batch, opts = {}) {
   }
   const normalized = opts.decapOnly ? current : normalizeBatchMcqOptionCapitalization(current);
   const { batch: dedupedRaw, fixed: dedupeFixed } = dedupeBatchMcqOptionLetterPrefixes(normalized);
-  const deduped = restoreProperNamesInBatch(dedupedRaw, documentProperNames);
+  // The restore undoes the German decap heuristics above, so it only applies when they ran.
+  // It treats passages[0].title as a proper name and forces its casing case-insensitively
+  // across the batch; an English headline ("The Green Valley Music Festival") then turned
+  // "decided to (1) ______ the Green Valley" into "…______ The Green Valley".
+  const deduped = germanCaps ? restoreProperNamesInBatch(dedupedRaw, documentProperNames) : dedupedRaw;
 
   const changes = [];
   walkBatchStrings(deduped, (path, after) => {

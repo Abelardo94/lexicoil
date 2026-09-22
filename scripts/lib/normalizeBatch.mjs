@@ -150,7 +150,9 @@ export function stripPoolLegacyQuestionFields(q, ctx = {}) {
   delete out.skills;
   delete out.examType;
   delete out.topicTags;
-  if (!out.language || out.language === lang) delete out.language;
+  // Redundant only for German, the implied default. For any other language this is the batch's
+  // sole language marker: without it inferAuditLang and build-level treat the batch as German.
+  if (!out.language || (out.language === lang && lang === 'de')) delete out.language;
   if (out.topicTag && rootTopicTag && out.topicTag === rootTopicTag) delete out.topicTag;
 
   return out;
@@ -245,8 +247,10 @@ function normalizeQuestion(q, ctx = {}) {
       out.type = 'short_answer';
     }
   }
-  // Sprechen: canonical types by Teil (B1 SP-2 / A2 official).
-  if (out.module === 'sprechen') {
+  // Sprechen: canonical types by Teil (B1 SP-2 / A2 official). Goethe taxonomy and German
+  // rubric text: on Cambridge it retyped short_answer as planungsaufgabe/praesentation and
+  // replaced the English part guidance with "In diesem Teil des Sprechens…".
+  if (out.module === 'sprechen' && lang === 'de') {
     const level = String(ctx.level || out.level || 'B1').trim().toUpperCase();
     out.type = canonicalSprechenType(out.type, out.teil, level);
     const canonExpl = canonicalSprechenExplanation(out.teil, level);
@@ -261,7 +265,8 @@ function normalizeQuestion(q, ctx = {}) {
       if (normalizedRubric) out.rubric = normalizedRubric;
       else delete out.rubric;
     }
-    const canonExpl = canonicalSchreibenExplanation(out.teil, ctx.level || out.level || 'B1');
+    // German Goethe rubric ("Bewertung (Goethe-offiziell)…"); Cambridge keeps its own guidance.
+    const canonExpl = lang === 'de' ? canonicalSchreibenExplanation(out.teil, ctx.level || out.level || 'B1') : null;
     if (canonExpl) out.explanation = canonExpl;
   }
   if (poolStripLegacy) {
@@ -270,7 +275,7 @@ function normalizeQuestion(q, ctx = {}) {
     delete out.skills;
     delete out.examType;
     delete out.topicTags;
-    if (out.language === lang || !out.language) delete out.language;
+    if (!out.language || (out.language === lang && lang === 'de')) delete out.language;
     if (out.topicTag && rootTopicTag && out.topicTag === rootTopicTag) delete out.topicTag;
   } else {
     const qLevel = ctx.level || out.level || 'B1';
@@ -281,7 +286,9 @@ function normalizeQuestion(q, ctx = {}) {
           : 5
         : normalizeDifficulty(out.difficulty, out.module, qLevel);
     out.skills = normalizeSkills(out.skills, out.module);
-    if (out.module === 'sprechen') {
+    // Goethe B1 topic taxonomy with a German fallback: English Speaking tags such as
+    // t-en-b1-socializing-and-relationships came out as 'Medien' / 'Freizeit'.
+    if (out.module === 'sprechen' && lang === 'de') {
       const mapped = normalizeSprechenTopicTags(out.topicTags, rootTopicTag);
       out.topicTags = mapped || (rootTopicTag ? [rootTopicTag] : ['Freizeit']);
     } else {
@@ -316,11 +323,20 @@ export function inferTeilFromQuestionId(id) {
 /**
  * Sprechen/Schreiben batches ship 3 questions (Teile 1–3) in one JSON.
  * Never inherit the CLI cell teil (sprechen-t2) onto every question.
+ * Cambridge B1 has 4 Speaking parts and 2 Writing parts, so the Goethe cap of 3 folded
+ * Speaking Part 4 into Part 3.
  */
-export function assignMultiTeilQuestions(questions, module) {
+const MULTI_TEIL_MAX_BY_LANG = { en: { sprechen: 4, schreiben: 2 } };
+
+// Stamped when absent. Every question in library/en/B1/questions.json says 'cambridge';
+// the hard-coded 'goethe' labelled Cambridge Listening/Writing/Speaking as Goethe.
+const EXAM_TYPE_BY_LANG = { de: 'goethe', en: 'cambridge', es: 'dele' };
+
+export function assignMultiTeilQuestions(questions, module, lang = 'de') {
   const mod = String(module || '').toLowerCase();
   if (mod !== 'sprechen' && mod !== 'schreiben') return questions;
   if (!Array.isArray(questions) || !questions.length) return questions;
+  const maxTeil = MULTI_TEIL_MAX_BY_LANG[String(lang || 'de').toLowerCase()]?.[mod] ?? 3;
 
   const tagged = questions.map((q, origIdx) => {
     let teil = q.teil != null && q.teil !== '' ? Number(q.teil) : null;
@@ -329,7 +345,7 @@ export function assignMultiTeilQuestions(questions, module) {
     return { q, origIdx, teil, fromId };
   });
 
-  const validTeils = tagged.map((x) => x.teil).filter((t) => t >= 1 && t <= 3);
+  const validTeils = tagged.map((x) => x.teil).filter((t) => t >= 1 && t <= maxTeil);
   if (
     validTeils.length === questions.length &&
     new Set(validTeils).size === questions.length
@@ -346,7 +362,7 @@ export function assignMultiTeilQuestions(questions, module) {
 
   return sorted.map((item, idx) => ({
     ...item.q,
-    teil: Math.min(idx + 1, 3),
+    teil: Math.min(idx + 1, maxTeil),
   }));
 }
 
@@ -385,7 +401,11 @@ export function enrichBatchMetadata(batch, ctx = {}) {
     if (!out.level) out.level = level;
     if (!isLesenPoolNormalize(ctx)) {
       if (!out.language) out.language = lang;
-      if (!out.examType) out.examType = 'goethe';
+      if (!out.examType) out.examType = EXAM_TYPE_BY_LANG[lang] || 'goethe';
+    } else if (lang !== 'de' && !out.language) {
+      // Lesen pool records drop language as redundant — true only for German. Every English
+      // bank question carries language 'en'; without it the batch reads as German downstream.
+      out.language = lang;
     }
     // `correct` is canonical; backfill only when correct is absent.
     if (out.correct == null && out.correctAnswer != null) out.correct = out.correctAnswer;
@@ -554,7 +574,7 @@ export function normalizeBatch(batch, ctx) {
       : mod === 'sprechen' || mod === 'schreiben'
         ? {
             ...baseRaw,
-            questions: assignMultiTeilQuestions(baseRaw.questions || [], mod),
+            questions: assignMultiTeilQuestions(baseRaw.questions || [], mod, ctx?.lang),
           }
         : baseRaw;
 
