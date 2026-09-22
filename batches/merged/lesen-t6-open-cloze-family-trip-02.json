@@ -1,0 +1,198 @@
+{
+  "passages": [
+    {
+      "id": "en-b1-p-lesen-t6-open-cloze-family-trip-02-01",
+      "module": "lesen",
+      "title": "A Family Trip to the Mountains",
+      "text": "Last weekend, my family and I went on a trip to the mountains. We decided to go [1] car because it was easier to carry all our bags. The journey took about three hours, and [2] the weather was a bit cloudy at first, it soon became sunny.\n\nWhen we arrived, we stayed in a lovely wooden cabin [3] was located next to a beautiful lake. My father immediately suggested going for a walk. We walked [4] hours along the forest paths. We even saw some wild deer! Later, my younger brother and I spent the afternoon swimming in the cold, clear water of the lake.\n\nIn the evening, we cooked a delicious meal together. Then we all sat outside and looked at the thousands of bright stars above the quiet valley. It was [5] a wonderful experience that we have already decided to return next year. I am really looking forward [6] our next adventure in the mountains.",
+      "passageVocab": [
+        {
+          "lemma": "cabin",
+          "definition": "a small wooden house, especially one in an area of natural beauty"
+        },
+        {
+          "lemma": "journey",
+          "definition": "an act of traveling from one place to another"
+        },
+        {
+          "lemma": "adventure",
+          "definition": "an unusual and exciting, typically hazardous, experience or activity"
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "en-b1-r-t6-open-cloze-family-trip-02-q1",
+      "module": "lesen",
+      "teil": 6,
+      "type": "gap_fill",
+      "question": "Identify the missing word for gap [1].",
+      "correct": "by",
+      "correctAnswer": "by",
+      "explanation": "We use the preposition 'by' to talk about means of transport (by car, by train, by bus).",
+      "options": [],
+      "grammarTags": [
+        "g-en-b1-prepositions"
+      ],
+      "topicTags": [
+        "travel"
+      ],
+      "vocabularyTags": [
+        "transport"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge",
+      "passageId": "en-b1-p-lesen-t6-open-cloze-family-trip-02-01"
+    },
+    {
+      "id": "en-b1-r-t6-open-cloze-family-trip-02-q2",
+      "module": "lesen",
+      "teil": 6,
+      "type": "gap_fill",
+      "question": "Identify the missing word for gap [2].",
+      "correct": "although",
+      "correctAnswer": "although",
+      "explanation": "The conjunction 'although' (or 'though') is used to introduce a contrast between the cloudy weather and it becoming sunny.",
+      "options": [],
+      "grammarTags": [
+        "g-en-b1-conjunctions"
+      ],
+      "topicTags": [
+        "weather"
+      ],
+      "vocabularyTags": [
+        "linking-words"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge",
+      "passageId": "en-b1-p-lesen-t6-open-cloze-family-trip-02-01"
+    },
+    {
+      "id": "en-b1-r-t6-open-cloze-family-trip-02-q3",
+      "module": "lesen",
+      "teil": 6,
+      "type": "gap_fill",
+      "question": "Identify the missing word for gap [3].",
+      "correct": "which",
+      "correctAnswer": "which",
+      "explanation": "We use the relative pronoun 'which' (or 'that') to refer back to a thing (the wooden cabin) in a relative clause.",
+      "options": [],
+      "grammarTags": [
+        "g-en-b1-relative-clauses"
+      ],
+      "topicTags": [
+        "accommodation"
+      ],
+      "vocabularyTags": [
+        "pronouns"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge",
+      "passageId": "en-b1-p-lesen-t6-open-cloze-family-trip-02-01"
+    },
+    {
+      "id": "en-b1-r-t6-open-cloze-family-trip-02-q4",
+      "module": "lesen",
+      "teil": 6,
+      "type": "gap_fill",
+      "question": "Identify the missing word for gap [4].",
+      "correct": "for",
+      "correctAnswer": "for",
+      "explanation": "The preposition 'for' is used to show a period of time (for hours).",
+      "options": [],
+      "grammarTags": [
+        "g-en-b1-prepositions"
+      ],
+      "topicTags": [
+        "free-time"
+      ],
+      "vocabularyTags": [
+        "time-expressions"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge",
+      "passageId": "en-b1-p-lesen-t6-open-cloze-family-trip-02-01"
+    },
+    {
+      "id": "en-b1-r-t6-open-cloze-family-trip-02-q5",
+      "module": "lesen",
+      "teil": 6,
+      "type": "gap_fill",
+      "question": "Identify the missing word for gap [5].",
+      "correct": "such",
+      "correctAnswer": "such",
+      "explanation": "We use 'such' before 'a/an + adjective + singular noun' to add emphasis to the statement.",
+      "options": [],
+      "grammarTags": [
+        "g-en-b1-intensifiers"
+      ],
+      "topicTags": [
+        "feelings"
+      ],
+      "vocabularyTags": [
+        "modifiers"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge",
+      "passageId": "en-b1-p-lesen-t6-open-cloze-family-trip-02-01"
+    },
+    {
+      "id": "en-b1-r-t6-open-cloze-family-trip-02-q6",
+      "module": "lesen",
+      "teil": 6,
+      "type": "gap_fill",
+      "question": "Identify the missing word for gap [6].",
+      "correct": "to",
+      "correctAnswer": "to",
+      "explanation": "The phrasal verb 'look forward to' always takes the preposition 'to' followed by a noun, pronoun, or gerund.",
+      "options": [],
+      "grammarTags": [
+        "g-en-b1-phrasal-verbs"
+      ],
+      "topicTags": [
+        "future-plans"
+      ],
+      "vocabularyTags": [
+        "verbs"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge",
+      "passageId": "en-b1-p-lesen-t6-open-cloze-family-trip-02-01"
+    }
+  ],
+  "_germanCapsNormalizeVersion": "v3.23-lesen-t2-angebote-corpus-2026-07-28",
+  "_germanCapsNormalizedAt": "2026-09-22T01:57:15.695Z",
+  "_balanceMcqVersion": "v1.2-no-rf-chrono-shuffle-2026-07-11",
+  "_balanceMcqNormalizedAt": "2026-09-22T01:57:15.695Z"
+}

@@ -1,0 +1,2122 @@
+{
+  "id": "curated_en_B1_f946fa2f9efe",
+  "lang": "en",
+  "level": "B1",
+  "topic": "school_life",
+  "curated": true,
+  "exam": {
+    "topic": "school_life",
+    "level": "B1",
+    "lang": "en",
+    "goetheFormat": true,
+    "libraryBuilt": true,
+    "blueprintId": "cambridge-b1",
+    "blueprintCoverage": [
+      {
+        "module": "lesen",
+        "teil": 1,
+        "slotType": "signs_notices_mcq",
+        "taskFormat": "short_text_mcq",
+        "target": 5,
+        "filled": 5,
+        "complete": true,
+        "wordsPerPassage": {
+          "min": 150,
+          "max": 800
+        }
+      },
+      {
+        "module": "lesen",
+        "teil": 2,
+        "slotType": "person_text_matching",
+        "taskFormat": "multiple_matching",
+        "target": 5,
+        "filled": 5,
+        "complete": true,
+        "wordsPerPassage": {
+          "min": 150,
+          "max": 800
+        }
+      },
+      {
+        "module": "lesen",
+        "teil": 3,
+        "slotType": "long_text",
+        "taskFormat": "long_text_mcq",
+        "target": 5,
+        "filled": 5,
+        "complete": true,
+        "wordsPerPassage": {
+          "min": 150,
+          "max": 800
+        }
+      },
+      {
+        "module": "lesen",
+        "teil": 4,
+        "slotType": "gapped_text",
+        "taskFormat": "gapped_text",
+        "target": 5,
+        "filled": 5,
+        "complete": true,
+        "wordsPerPassage": {
+          "min": 150,
+          "max": 800
+        }
+      },
+      {
+        "module": "lesen",
+        "teil": 5,
+        "slotType": "mcq_gap_fill",
+        "taskFormat": "multiple_choice_cloze",
+        "target": 6,
+        "filled": 6,
+        "complete": true,
+        "wordsPerPassage": {
+          "min": 150,
+          "max": 800
+        }
+      },
+      {
+        "module": "lesen",
+        "teil": 6,
+        "slotType": "open_cloze",
+        "taskFormat": "open_cloze",
+        "target": 6,
+        "filled": 6,
+        "complete": true,
+        "wordsPerPassage": {
+          "min": 150,
+          "max": 800
+        }
+      },
+      {
+        "module": "horen",
+        "teil": 1,
+        "slotType": "picture_mcq",
+        "taskFormat": "picture_multiple_choice",
+        "target": 7,
+        "filled": 7,
+        "complete": true,
+        "wordsPerPassage": null
+      },
+      {
+        "module": "horen",
+        "teil": 2,
+        "slotType": "short_dialogue_mcq",
+        "taskFormat": "short_dialogue_mcq",
+        "target": 6,
+        "filled": 6,
+        "complete": true,
+        "wordsPerPassage": null
+      },
+      {
+        "module": "horen",
+        "teil": 3,
+        "slotType": "sentence_completion",
+        "taskFormat": "sentence_completion",
+        "target": 6,
+        "filled": 6,
+        "complete": true,
+        "wordsPerPassage": null
+      },
+      {
+        "module": "horen",
+        "teil": 4,
+        "slotType": "interview_mcq",
+        "taskFormat": "interview_mcq",
+        "target": 6,
+        "filled": 6,
+        "complete": true,
+        "wordsPerPassage": null
+      },
+      {
+        "module": "schreiben",
+        "teil": 1,
+        "slotType": "email",
+        "taskFormat": "email",
+        "target": 1,
+        "filled": 1,
+        "complete": true,
+        "wordsPerPassage": {
+          "min": 100,
+          "max": 120
+        }
+      },
+      {
+        "module": "schreiben",
+        "teil": 2,
+        "slotType": "choice_writing",
+        "taskFormat": "choice_writing",
+        "target": 1,
+        "filled": 1,
+        "complete": true,
+        "wordsPerPassage": {
+          "min": 100,
+          "max": 120
+        }
+      },
+      {
+        "module": "sprechen",
+        "teil": 1,
+        "slotType": "speaking_task",
+        "taskFormat": "speaking_prompt",
+        "target": 1,
+        "filled": 1,
+        "complete": true,
+        "wordsPerPassage": null
+      },
+      {
+        "module": "sprechen",
+        "teil": 2,
+        "slotType": "speaking_task",
+        "taskFormat": "speaking_prompt",
+        "target": 1,
+        "filled": 1,
+        "complete": true,
+        "wordsPerPassage": null
+      },
+      {
+        "module": "sprechen",
+        "teil": 3,
+        "slotType": "speaking_task",
+        "taskFormat": "speaking_prompt",
+        "target": 1,
+        "filled": 1,
+        "complete": true,
+        "wordsPerPassage": null
+      },
+      {
+        "module": "sprechen",
+        "teil": 4,
+        "slotType": "speaking_task",
+        "taskFormat": "speaking_prompt",
+        "target": 1,
+        "filled": 1,
+        "complete": true,
+        "wordsPerPassage": null
+      }
+    ],
+    "blueprintComplete": true,
+    "libraryVersion": 3,
+    "topicTags": [
+      "school_life",
+      "travel",
+      "food",
+      "sports",
+      "festivals",
+      "weather",
+      "accommodation",
+      "free-time",
+      "feelings",
+      "future-plans",
+      "shopping",
+      "daily-life",
+      "eating-out",
+      "hobbies-and-free-time",
+      "t-en-free-time",
+      "museums",
+      "education",
+      "t-en-b1-free-time-and-hobbies",
+      "t-en-b1-nature-and-environment",
+      "t-en-b1-socializing-and-relationships"
+    ],
+    "difficulty": 5,
+    "official": {
+      "board": "Cambridge Assessment English",
+      "certificate": "B1 Preliminary (PET)",
+      "note": "Assembled from question library using official exam blueprint (no runtime AI)."
+    },
+    "modules": {
+      "lesen": {
+        "title": "Reading",
+        "time": "75 minutes"
+      },
+      "horen": {
+        "title": "Listening",
+        "time": "40 minutes"
+      },
+      "schreiben": {
+        "title": "Writing",
+        "time": "80 minutes"
+      },
+      "sprechen": {
+        "title": "Speaking",
+        "time": "15 minutes"
+      }
+    },
+    "lesenParts": [
+      {
+        "teil": 1,
+        "instruction": "Read the text(s) and answer the questions in Part 1.",
+        "blueprintSlot": "signs_notices_mcq",
+        "items": [
+          {
+            "id": "ql_en-b1-r-t1-notices-school-01-q2",
+            "type": "multiple_choice",
+            "signText": "Lost Property. Any items left in the changing rooms after Friday's sports matches will be donated to charity if they are not collected by Wednesday afternoon.",
+            "passageId": "en-b1-p-lesen-t1-notices-school-01-02",
+            "question": "What should students do?",
+            "options": [
+              "a) Collect their lost items before Wednesday afternoon.",
+              "b) Donate their unwanted sports clothes by Friday.",
+              "c) Go to the changing rooms on Wednesday to find new clothes."
+            ],
+            "correct": "a",
+            "grammarTags": [
+              "g-en-b1-conditionals"
+            ],
+            "topicTags": [
+              "school_life"
+            ],
+            "vocabularyTags": [
+              "school_vocabulary"
+            ],
+            "difficulty": 4,
+            "explanation": "Students must collect their items by Wednesday afternoon, otherwise the items will be given away to charity."
+          },
+          {
+            "id": "ql_en-b1-r-t1-notices-station-02-q2",
+            "type": "multiple_choice",
+            "signText": "Liquids, gels, and aerosols must be in containers of 100ml or less. All items must fit into a single, transparent, resealable plastic bag. Please remove this bag from your hand luggage before reaching the security scanner.",
+            "passageId": "en-b1-p-lesen-t1-notices-station-02-02",
+            "question": "What must passengers do with their liquids at security?",
+            "options": [
+              "a) Use containers larger than 100ml.",
+              "b) Take them out of their bag for inspection.",
+              "c) Keep them inside their hand luggage."
+            ],
+            "correct": "b",
+            "grammarTags": [
+              "g-en-b1-modals-necessity"
+            ],
+            "topicTags": [
+              "travel"
+            ],
+            "vocabularyTags": [
+              "security"
+            ],
+            "difficulty": 3,
+            "explanation": "The text requires passengers to take the bag out of their luggage for scanning."
+          },
+          {
+            "id": "ql_en-b1-r-t1-notices-school-01-q5",
+            "type": "multiple_choice",
+            "signText": "Computer Lab. Students may use the computers during lunch break for schoolwork only. Playing games or watching videos is strictly forbidden unless authorized by a teacher.",
+            "passageId": "en-b1-p-lesen-t1-notices-school-01-05",
+            "question": "Students using the computer lab at lunchtime...",
+            "options": [
+              "a) Must only use the computers for playing educational games.",
+              "b) Can play games if they have a teacher's permission.",
+              "c) Are allowed to watch any videos they like."
+            ],
+            "correct": "b",
+            "grammarTags": [
+              "g-en-b1-modals"
+            ],
+            "topicTags": [
+              "school_life"
+            ],
+            "vocabularyTags": [
+              "school_vocabulary"
+            ],
+            "difficulty": 4,
+            "explanation": "The notice says playing games is forbidden 'unless authorized by a teacher', which means it is allowed if they have a teacher's permission."
+          },
+          {
+            "id": "ql_en-b1-r-t1-notices-station-01-q2",
+            "type": "multiple_choice",
+            "signText": "Unattended luggage left in the terminal building will be removed and destroyed by security. Please keep your bags with you at all times. If you see anything suspicious, report it immediately to airport police.",
+            "passageId": "en-b1-p-lesen-t1-notices-station-01-02",
+            "question": "What is the warning about luggage?",
+            "options": [
+              "a) Bags left alone will be removed by security.",
+              "b) You must pay a fee to leave bags unattended.",
+              "c) You should report lost bags to the police."
+            ],
+            "correct": "a",
+            "grammarTags": [
+              "g-en-b1-passive"
+            ],
+            "topicTags": [
+              "travel"
+            ],
+            "vocabularyTags": [
+              "security"
+            ],
+            "difficulty": 4,
+            "explanation": "The sign states that unattended bags will be destroyed by security."
+          },
+          {
+            "id": "ql_en-b1-r-t1-notices-school-01-q3",
+            "type": "multiple_choice",
+            "signText": "Hi Class 9, please remember that tomorrow's science lesson will be in Lab 3, not our usual classroom. Don't forget to bring your lab coats, or you won't be allowed to do the experiment. - Mr. Davis",
+            "passageId": "en-b1-p-lesen-t1-notices-school-01-03",
+            "question": "Mr. Davis is telling Class 9 that...",
+            "options": [
+              "a) Their science lesson tomorrow has been cancelled.",
+              "b) They must buy a lab coat before tomorrow's lesson.",
+              "c) They cannot participate in the experiment without correct clothing."
+            ],
+            "correct": "c",
+            "grammarTags": [
+              "g-en-b1-modals"
+            ],
+            "topicTags": [
+              "school_life"
+            ],
+            "vocabularyTags": [
+              "school_vocabulary"
+            ],
+            "difficulty": 4,
+            "explanation": "Mr. Davis says 'or you won't be allowed to do the experiment' if they do not bring their lab coats, meaning correct clothing is required to participate."
+          }
+        ],
+        "text": "Lost Property. Any items left in the changing rooms after Friday's sports matches will be donated to charity if they are not collected by Wednesday afternoon.",
+        "textTitle": "School Lost Property Notice",
+        "passageId": "en-b1-p-lesen-t1-notices-school-01-02"
+      },
+      {
+        "teil": 2,
+        "instruction": "Read the text(s) and answer the questions in Part 2.",
+        "blueprintSlot": "person_text_matching",
+        "ads": [
+          {
+            "key": "A",
+            "title": "The Green Leaf",
+            "text": "A perfect spot for vegans, offering a wide range of plant-based dishes. It is open for breakfast and lunch."
+          },
+          {
+            "key": "B",
+            "title": "Pasta Palace",
+            "text": "Famous for its homemade Italian noodles. It is open late every night and is very popular with students."
+          },
+          {
+            "key": "C",
+            "title": "Burger Haven",
+            "text": "A casual place known for its quick service and large portions. Great for people who want a fast meal before a movie."
+          },
+          {
+            "key": "D",
+            "title": "Sushi Station",
+            "text": "A quiet, high-end restaurant that serves fresh fish. It requires a reservation and is quite expensive."
+          },
+          {
+            "key": "E",
+            "title": "Spice Garden",
+            "text": "Offers a variety of spicy curries from around the world. It has a large outdoor area which is great for warm evenings."
+          },
+          {
+            "key": "F",
+            "title": "The Daily Bread",
+            "text": "A cozy bakery and cafe that serves fresh sandwiches and coffee all day. It is very affordable."
+          },
+          {
+            "key": "G",
+            "title": "Ocean View",
+            "text": "Located right on the beach, this place is famous for its seafood and beautiful sunset views."
+          },
+          {
+            "key": "H",
+            "title": "Taco Time",
+            "text": "A lively, colourful restaurant that serves authentic street food. It is perfect for large groups of friends."
+          }
+        ],
+        "questions": [
+          {
+            "id": "ql_en-b1-r-t2-match-restaurants-01-q1",
+            "type": "matching",
+            "question": "Sarah wants to eat somewhere cheap where she can grab a quick sandwich and a coffee during the day.",
+            "correct": "F",
+            "correctAnswer": "F",
+            "explanation": "The Daily Bread is described as a cozy bakery and cafe serving sandwiches and coffee, and it is affordable.",
+            "grammarTags": [
+              "g-en-b1-adjectives"
+            ],
+            "topicTags": [
+              "food"
+            ],
+            "vocabularyTags": [
+              "eating out"
+            ],
+            "difficulty": 3,
+            "options": [
+              "A",
+              "B",
+              "C",
+              "D",
+              "E",
+              "F",
+              "G",
+              "H"
+            ],
+            "level": "B1"
+          },
+          {
+            "id": "ql_en-b1-r-t2-match-restaurants-01-q2",
+            "type": "matching",
+            "question": "Mark is a vegan and is looking for a place that serves breakfast.",
+            "correct": "A",
+            "correctAnswer": "A",
+            "explanation": "The Green Leaf is specifically mentioned as a perfect spot for vegans and is open for breakfast.",
+            "grammarTags": [
+              "g-en-b1-nouns"
+            ],
+            "topicTags": [
+              "food"
+            ],
+            "vocabularyTags": [
+              "diet"
+            ],
+            "difficulty": 3,
+            "options": [
+              "A",
+              "B",
+              "C",
+              "D",
+              "E",
+              "F",
+              "G",
+              "H"
+            ],
+            "level": "B1"
+          },
+          {
+            "id": "ql_en-b1-r-t2-match-restaurants-01-q3",
+            "type": "matching",
+            "question": "Elena is celebrating her birthday with ten friends and wants a fun, lively atmosphere.",
+            "correct": "H",
+            "correctAnswer": "H",
+            "explanation": "Taco Time is described as a lively, colourful restaurant perfect for large groups of friends.",
+            "grammarTags": [
+              "g-en-b1-adjectives"
+            ],
+            "topicTags": [
+              "food"
+            ],
+            "vocabularyTags": [
+              "socializing"
+            ],
+            "difficulty": 4,
+            "options": [
+              "A",
+              "B",
+              "C",
+              "D",
+              "E",
+              "F",
+              "G",
+              "H"
+            ],
+            "level": "B1"
+          },
+          {
+            "id": "ql_en-b1-r-t2-match-restaurants-01-q4",
+            "type": "matching",
+            "question": "David wants to eat a nice meal outside while the weather is warm.",
+            "correct": "E",
+            "correctAnswer": "E",
+            "explanation": "Spice Garden has a large outdoor area which is specifically recommended for warm evenings.",
+            "grammarTags": [
+              "g-en-b1-prepositions"
+            ],
+            "topicTags": [
+              "food"
+            ],
+            "vocabularyTags": [
+              "environment"
+            ],
+            "difficulty": 4,
+            "options": [
+              "A",
+              "B",
+              "C",
+              "D",
+              "E",
+              "F",
+              "G",
+              "H"
+            ],
+            "level": "B1"
+          },
+          {
+            "id": "ql_en-b1-r-t2-match-restaurants-01-q5",
+            "type": "matching",
+            "question": "Tom is a student who finishes his classes late and needs a place to eat dinner.",
+            "correct": "B",
+            "correctAnswer": "B",
+            "explanation": "Pasta Palace is open late every night and is popular with students.",
+            "grammarTags": [
+              "g-en-b1-time-expressions"
+            ],
+            "topicTags": [
+              "food"
+            ],
+            "vocabularyTags": [
+              "lifestyle"
+            ],
+            "difficulty": 3,
+            "options": [
+              "A",
+              "B",
+              "C",
+              "D",
+              "E",
+              "F",
+              "G",
+              "H"
+            ],
+            "level": "B1"
+          }
+        ]
+      },
+      {
+        "teil": 3,
+        "instruction": "Read the text(s) and answer the questions in Part 3.",
+        "blueprintSlot": "long_text",
+        "textTitle": "An Interview with Maya Lin",
+        "text": "We talked to sixteen-year-old runner Maya Lin about her life on and off the track. Maya recently won the national junior 800-metre championship, but she remains surprisingly down-to-earth.\n\nInterviewer: Maya, congratulations on your gold medal! How did you first get into running?\nMaya: Thanks! Actually, it was by accident. When I was eleven, my school's running team was short of one person for a relay race. The coach saw me running to catch the school bus and asked me to fill in. I didn't even have proper running shoes! I ended up running really fast, and the coach suggested I join the club. Before that, I preferred playing video games and reading. I never imagined I would become an athlete.\n\nInterviewer: How do you manage to balance your training with your schoolwork?\nMaya: It isn't easy. I train for about two hours every day after school, and more on weekends. I have to be very organised. I do my homework on the bus or during lunch breaks. My friends are very understanding, though they sometimes complain that I can't hang out with them on Friday nights because I have to sleep early for Saturday morning practice. But they always come to support me at my races, which means a lot.\n\nInterviewer: Do you ever feel too much pressure before a big race?\nMaya: Definitely. Before a race, my hands shake and I feel sick. But my coach taught me to view that nervous energy as a positive thing. She says it shows my body is preparing to run fast. Once the race starts, all the worry disappears and I just focus on my breathing and my steps. I don't think about winning; I just try to beat my own personal best time.\n\nInterviewer: What are your goals for the future?\nMaya: Of course, the Olympics is the ultimate dream, but that is a long way off. For now, I want to focus on my next race and keep improving. I also want to finish my school exams with good grades because education is important to me. If I have one piece of advice for other young people, it's to try new things. You might discover a talent you never knew you had!",
+        "passageId": "en-b1-p-lesen-t3-long-young-athlete-01-01",
+        "questions": [
+          {
+            "id": "ql_en-b1-r-t3-long-young-athlete-01-q1",
+            "type": "multiple_choice",
+            "question": "Why did Maya first start running?",
+            "correct": "b",
+            "correctAnswer": "b",
+            "explanation": "Maya explains that her coach saw her running to catch the school bus and asked her to fill in for a relay race because they were short of one person.",
+            "grammarTags": [
+              "g-en-b1-past-simple"
+            ],
+            "topicTags": [
+              "sports"
+            ],
+            "vocabularyTags": [
+              "coach",
+              "athlete",
+              "relay"
+            ],
+            "difficulty": 4,
+            "options": [
+              "a) She wanted to get fit instead of playing video games.",
+              "b) Her school coach noticed her running for a bus.",
+              "c) She wanted to win a relay race for her school.",
+              "d) Her parents encouraged her to join a running club."
+            ],
+            "level": "B1",
+            "passageId": "en-b1-p-lesen-t3-long-young-athlete-01-01"
+          },
+          {
+            "id": "ql_en-b1-r-t3-long-young-athlete-01-q2",
+            "type": "multiple_choice",
+            "question": "How does Maya feel about her social life?",
+            "correct": "d",
+            "correctAnswer": "d",
+            "explanation": "Maya mentions that her friends are very understanding and always come to support her at her races, which means a lot to her.",
+            "grammarTags": [
+              "g-en-b1-conjunctions"
+            ],
+            "topicTags": [
+              "sports"
+            ],
+            "vocabularyTags": [
+              "support",
+              "hang out",
+              "understanding"
+            ],
+            "difficulty": 4,
+            "options": [
+              "a) She wishes she could train less on weekends to hang out more.",
+              "b) She finds it difficult to talk to her friends about her sport.",
+              "c) She regrets not having time to do homework with her friends.",
+              "d) She is grateful that her friends support her despite her busy schedule."
+            ],
+            "level": "B1",
+            "passageId": "en-b1-p-lesen-t3-long-young-athlete-01-01"
+          },
+          {
+            "id": "ql_en-b1-r-t3-long-young-athlete-01-q3",
+            "type": "multiple_choice",
+            "question": "What does Maya say about feeling nervous before a race?",
+            "correct": "b",
+            "correctAnswer": "b",
+            "explanation": "Maya says her coach taught her to view nervous energy as a positive thing, showing that her body is preparing to run fast.",
+            "grammarTags": [
+              "g-en-b1-gerund-infinitive"
+            ],
+            "topicTags": [
+              "sports"
+            ],
+            "vocabularyTags": [
+              "nervous",
+              "energy",
+              "focus"
+            ],
+            "difficulty": 4,
+            "options": [
+              "a) It makes her perform worse than she should.",
+              "b) She has learned to use the feeling to help her run.",
+              "c) She tries to ignore it by thinking about winning.",
+              "d) It is something she only felt when she was younger."
+            ],
+            "level": "B1",
+            "passageId": "en-b1-p-lesen-t3-long-young-athlete-01-01"
+          },
+          {
+            "id": "ql_en-b1-r-t3-long-young-athlete-01-q4",
+            "type": "multiple_choice",
+            "question": "What is Maya's main priority for the near future?",
+            "correct": "a",
+            "correctAnswer": "a",
+            "explanation": "Maya states that she wants to focus on her next race and keep improving, but also finish her school exams with good grades because education is important to her.",
+            "grammarTags": [
+              "g-en-b1-future-plans"
+            ],
+            "topicTags": [
+              "sports"
+            ],
+            "vocabularyTags": [
+              "improve",
+              "exams",
+              "grades"
+            ],
+            "difficulty": 4,
+            "options": [
+              "a) Making sure she does well in both her sport and her studies",
+              "b) Finding a new coach to help her improve her times",
+              "c) Qualifying for the next Olympic Games",
+              "d) Encouraging other teenagers to take up running"
+            ],
+            "level": "B1",
+            "passageId": "en-b1-p-lesen-t3-long-young-athlete-01-01"
+          },
+          {
+            "id": "ql_en-b1-r-t3-long-young-athlete-01-q5",
+            "type": "multiple_choice",
+            "question": "What would Maya write in a social media post to her followers?",
+            "correct": "c",
+            "correctAnswer": "c",
+            "explanation": "At the end of the text, Maya advises other young people to try new things because they might discover a talent they never knew they had, which matches option c.",
+            "grammarTags": [
+              "g-en-b1-modals"
+            ],
+            "topicTags": [
+              "sports"
+            ],
+            "vocabularyTags": [
+              "passion",
+              "talent",
+              "advice"
+            ],
+            "difficulty": 4,
+            "options": [
+              "a) \"I'm so lucky my school coach forced me to run. Without her, I would still be playing video games all day.\"",
+              "b) \"It's tough when you have to give up all your hobbies and friends for a gold medal, but it's worth it in the end!\"",
+              "c) \"Never be afraid to step out of your comfort zone. You might find a passion you didn't know existed, just like I did!\"",
+              "d) \"If you want to be a champion, you must ignore the pressure and only focus on beating the other runners.\""
+            ],
+            "level": "B1",
+            "passageId": "en-b1-p-lesen-t3-long-young-athlete-01-01"
+          }
+        ]
+      },
+      {
+        "teil": 4,
+        "instruction": "Read the text(s) and answer the questions in Part 4.",
+        "blueprintSlot": "gapped_text",
+        "textTitle": "A Weekend at the Local Food Market",
+        "text": "Last Saturday, I decided to visit the local food market in the town centre. I had heard a lot about it from my neighbours, but I had never found the time to go before. [1] As soon as I arrived, I realised I should have come much sooner. The atmosphere was incredibly lively and full of energy.\n\nThere were dozens of colourful stalls selling everything from fresh fruit to homemade cakes. [2] The smell of freshly baked bread was particularly amazing, drawing a huge crowd to one corner. I spent about an hour just walking around and looking at all the delicious options.\n\nWhat I liked most was talking to the people who worked there. [3] They were happy to explain how they made their cheese or where their vegetables were grown. This made the shopping experience feel much more personal than going to a normal supermarket.\n\nBy lunchtime, I was starting to feel quite hungry because of all the wonderful smells. [4] I chose a small stall selling traditional Spanish empanadas and sat on a wooden bench to eat them. They were absolutely delicious and very filling.\n\nBefore leaving, I bought some fresh pasta and a jar of local honey to take home. [5] I am already planning my next visit and cannot wait to try some of the other stalls.",
+        "passageId": "en-b1-p-lesen-t4-gapped-food-market-01-01",
+        "questions": [
+          {
+            "id": "ql_en-b1-r-t4-gapped-food-market-01-q1",
+            "type": "matching",
+            "question": "Choose the correct sentence to fill gap [1].",
+            "correct": "E",
+            "correctAnswer": "E",
+            "explanation": "Option E fits perfectly because the writer mentions they 'had never found the time to go before'. Explaining that they usually sleep late on Saturdays provides the reason why they hadn't visited the Saturday market previously.",
+            "grammarTags": [
+              "g-en-b1-past-perfect"
+            ],
+            "topicTags": [
+              "food"
+            ],
+            "vocabularyTags": [
+              "v-en-b1-market"
+            ],
+            "difficulty": 4,
+            "options": [
+              "A) Fortunately, there were plenty of hot food stalls to choose from.",
+              "B) Each seller was proudly showing off their best products.",
+              "C) However, the prices were much higher than I had expected.",
+              "D) These will make a perfect Sunday dinner for my family.",
+              "E) It takes place every weekend, but I usually sleep late on Saturdays.",
+              "F) I had forgotten to bring enough cash with me.",
+              "G) Most of them were local farmers who had produced the food themselves.",
+              "H) My friends had promised to meet me there at noon."
+            ],
+            "level": "B1",
+            "passageId": "en-b1-p-lesen-t4-gapped-food-market-01-01"
+          },
+          {
+            "id": "ql_en-b1-r-t4-gapped-food-market-01-q2",
+            "type": "matching",
+            "question": "Choose the correct sentence to fill gap [2].",
+            "correct": "B",
+            "correctAnswer": "B",
+            "explanation": "Option B fits well here. The previous sentence introduces the 'dozens of colourful stalls selling everything', and option B continues this description by focusing on the sellers showing off their goods.",
+            "grammarTags": [
+              "g-en-b1-pronouns-each"
+            ],
+            "topicTags": [
+              "food"
+            ],
+            "vocabularyTags": [
+              "v-en-b1-seller"
+            ],
+            "difficulty": 4,
+            "options": [
+              "A) Fortunately, there were plenty of hot food stalls to choose from.",
+              "B) Each seller was proudly showing off their best products.",
+              "C) However, the prices were much higher than I had expected.",
+              "D) These will make a perfect Sunday dinner for my family.",
+              "E) It takes place every weekend, but I usually sleep late on Saturdays.",
+              "F) I had forgotten to bring enough cash with me.",
+              "G) Most of them were local farmers who had produced the food themselves.",
+              "H) My friends had promised to meet me there at noon."
+            ],
+            "level": "B1",
+            "passageId": "en-b1-p-lesen-t4-gapped-food-market-01-01"
+          },
+          {
+            "id": "ql_en-b1-r-t4-gapped-food-market-01-q3",
+            "type": "matching",
+            "question": "Choose the correct sentence to fill gap [3].",
+            "correct": "G",
+            "correctAnswer": "G",
+            "explanation": "Option G is the correct choice because 'Most of them' refers back to 'the people who worked there' in the previous sentence. The following sentence also uses 'They' to refer back to these local farmers.",
+            "grammarTags": [
+              "g-en-b1-pronouns-relative"
+            ],
+            "topicTags": [
+              "food"
+            ],
+            "vocabularyTags": [
+              "v-en-b1-farmer"
+            ],
+            "difficulty": 4,
+            "options": [
+              "A) Fortunately, there were plenty of hot food stalls to choose from.",
+              "B) Each seller was proudly showing off their best products.",
+              "C) However, the prices were much higher than I had expected.",
+              "D) These will make a perfect Sunday dinner for my family.",
+              "E) It takes place every weekend, but I usually sleep late on Saturdays.",
+              "F) I had forgotten to bring enough cash with me.",
+              "G) Most of them were local farmers who had produced the food themselves.",
+              "H) My friends had promised to meet me there at noon."
+            ],
+            "level": "B1",
+            "passageId": "en-b1-p-lesen-t4-gapped-food-market-01-01"
+          },
+          {
+            "id": "ql_en-b1-r-t4-gapped-food-market-01-q4",
+            "type": "matching",
+            "question": "Choose the correct sentence to fill gap [4].",
+            "correct": "A",
+            "correctAnswer": "A",
+            "explanation": "Option A connects the writer's hunger ('quite hungry') to the solution: finding hot food stalls, leading directly to the next sentence where they choose a stall selling empanadas.",
+            "grammarTags": [
+              "g-en-b1-there-was-were"
+            ],
+            "topicTags": [
+              "food"
+            ],
+            "vocabularyTags": [
+              "v-en-b1-stall"
+            ],
+            "difficulty": 4,
+            "options": [
+              "A) Fortunately, there were plenty of hot food stalls to choose from.",
+              "B) Each seller was proudly showing off their best products.",
+              "C) However, the prices were much higher than I had expected.",
+              "D) These will make a perfect Sunday dinner for my family.",
+              "E) It takes place every weekend, but I usually sleep late on Saturdays.",
+              "F) I had forgotten to bring enough cash with me.",
+              "G) Most of them were local farmers who had produced the food themselves.",
+              "H) My friends had promised to meet me there at noon."
+            ],
+            "level": "B1",
+            "passageId": "en-b1-p-lesen-t4-gapped-food-market-01-01"
+          },
+          {
+            "id": "ql_en-b1-r-t4-gapped-food-market-01-q5",
+            "type": "matching",
+            "question": "Choose the correct sentence to fill gap [5].",
+            "correct": "D",
+            "correctAnswer": "D",
+            "explanation": "Option D is correct because the pronoun 'These' refers back to the 'fresh pasta and a jar of local honey' purchased to take home in the previous sentence.",
+            "grammarTags": [
+              "g-en-b1-demonstratives"
+            ],
+            "topicTags": [
+              "food"
+            ],
+            "vocabularyTags": [
+              "v-en-b1-dinner"
+            ],
+            "difficulty": 4,
+            "options": [
+              "A) Fortunately, there were plenty of hot food stalls to choose from.",
+              "B) Each seller was proudly showing off their best products.",
+              "C) However, the prices were much higher than I had expected.",
+              "D) These will make a perfect Sunday dinner for my family.",
+              "E) It takes place every weekend, but I usually sleep late on Saturdays.",
+              "F) I had forgotten to bring enough cash with me.",
+              "G) Most of them were local farmers who had produced the food themselves.",
+              "H) My friends had promised to meet me there at noon."
+            ],
+            "level": "B1",
+            "passageId": "en-b1-p-lesen-t4-gapped-food-market-01-01"
+          }
+        ]
+      },
+      {
+        "teil": 5,
+        "instruction": "Read the text(s) and answer the questions in Part 5.",
+        "blueprintSlot": "mcq_gap_fill",
+        "textTitle": "The Green Valley Music Festival",
+        "text": "Last July, my friends and I decided to (1) ______ the Green Valley Music Festival. It is one of the most popular outdoor events in the country, and it (2) ______ place every summer in a beautiful forest. We arrived early on Friday morning to set up our tent in the camping area. As soon as the music started, the atmosphere became absolutely (3) ______. There were several stages with different types of music, so there was always something great to listen to. We spent most of our time dancing and eating delicious local food from the stalls. Although it (4) ______ with rain on Saturday night, nobody seemed to mind. We just put on our raincoats and kept on singing. The organisers also handed out free hot drinks to everyone. It was an unforgettable weekend, and we have already (5) ______ to buy our tickets for next year. I would highly (6) ______ this festival to anyone who loves live music and nature.",
+        "passageId": "en-b1-p-lesen-t5-cloze-music-festival-02-01",
+        "questions": [
+          {
+            "id": "ql_en-b1-r-t5-cloze-music-festival-02-q1",
+            "type": "multiple_choice",
+            "question": "Choose the correct word for gap (1).",
+            "correct": "b",
+            "correctAnswer": "b",
+            "explanation": "'Attend' is the correct verb to use when you go to an event like a festival, concert, or meeting. 'Assist' means to help, which does not fit the context.",
+            "grammarTags": [
+              "g-en-b1-verbs"
+            ],
+            "topicTags": [
+              "festivals"
+            ],
+            "vocabularyTags": [
+              "v-en-b1-entertainment"
+            ],
+            "difficulty": 4,
+            "options": [
+              "a) invite",
+              "b) attend",
+              "c) assist",
+              "d) present"
+            ],
+            "level": "B1",
+            "passageId": "en-b1-p-lesen-t5-cloze-music-festival-02-01"
+          },
+          {
+            "id": "ql_en-b1-r-t5-cloze-music-festival-02-q2",
+            "type": "multiple_choice",
+            "question": "Choose the correct word for gap (2).",
+            "correct": "c",
+            "correctAnswer": "c",
+            "explanation": "'Takes place' is a common collocation meaning to happen or occur in a particular place.",
+            "grammarTags": [
+              "g-en-b1-collocations"
+            ],
+            "topicTags": [
+              "festivals"
+            ],
+            "vocabularyTags": [
+              "v-en-b1-phrasal-verbs"
+            ],
+            "difficulty": 4,
+            "options": [
+              "a) gives",
+              "b) holds",
+              "c) takes",
+              "d) makes"
+            ],
+            "level": "B1",
+            "passageId": "en-b1-p-lesen-t5-cloze-music-festival-02-01"
+          },
+          {
+            "id": "ql_en-b1-r-t5-cloze-music-festival-02-q3",
+            "type": "multiple_choice",
+            "question": "Choose the correct word for gap (3).",
+            "correct": "b",
+            "correctAnswer": "b",
+            "explanation": "'Amazing' fits perfectly to describe an exciting and positive atmosphere. 'Pleased' and 'satisfied' describe how people feel, not the atmosphere itself.",
+            "grammarTags": [
+              "g-en-b1-adjectives"
+            ],
+            "topicTags": [
+              "festivals"
+            ],
+            "vocabularyTags": [
+              "v-en-b1-feelings"
+            ],
+            "difficulty": 4,
+            "options": [
+              "a) pleased",
+              "b) amazing",
+              "c) satisfied",
+              "d) comfortable"
+            ],
+            "level": "B1",
+            "passageId": "en-b1-p-lesen-t5-cloze-music-festival-02-01"
+          },
+          {
+            "id": "ql_en-b1-r-t5-cloze-music-festival-02-q4",
+            "type": "multiple_choice",
+            "question": "Choose the correct word for gap (4).",
+            "correct": "a",
+            "correctAnswer": "a",
+            "explanation": "The expression 'poured with rain' means it rained heavily. The other verbs do not collocate with 'with rain' in this way.",
+            "grammarTags": [
+              "g-en-b1-collocations"
+            ],
+            "topicTags": [
+              "weather"
+            ],
+            "vocabularyTags": [
+              "v-en-b1-weather"
+            ],
+            "difficulty": 4,
+            "options": [
+              "a) poured",
+              "b) fell",
+              "c) filled",
+              "d) dropped"
+            ],
+            "level": "B1",
+            "passageId": "en-b1-p-lesen-t5-cloze-music-festival-02-01"
+          },
+          {
+            "id": "ql_en-b1-r-t5-cloze-music-festival-02-q5",
+            "type": "multiple_choice",
+            "question": "Choose the correct word for gap (5).",
+            "correct": "a",
+            "correctAnswer": "a",
+            "explanation": "'Agreed' is followed by the infinitive 'to buy' and fits the context of friends making a joint decision. 'Suggested' would require a gerund (suggested buying) or a 'that' clause.",
+            "grammarTags": [
+              "g-en-b1-verb-patterns"
+            ],
+            "topicTags": [
+              "festivals"
+            ],
+            "vocabularyTags": [
+              "v-en-b1-verbs"
+            ],
+            "difficulty": 4,
+            "options": [
+              "a) agreed",
+              "b) thought",
+              "c) offered",
+              "d) prepared"
+            ],
+            "level": "B1",
+            "passageId": "en-b1-p-lesen-t5-cloze-music-festival-02-01"
+          },
+          {
+            "id": "ql_en-b1-r-t5-cloze-music-festival-02-q6",
+            "type": "multiple_choice",
+            "question": "Choose the correct word for gap (6).",
+            "correct": "d",
+            "correctAnswer": "d",
+            "explanation": "'Highly recommend' is a very common collocation used to strongly suggest something to someone because it is good.",
+            "grammarTags": [
+              "g-en-b1-collocations"
+            ],
+            "topicTags": [
+              "festivals"
+            ],
+            "vocabularyTags": [
+              "v-en-b1-verbs"
+            ],
+            "difficulty": 4,
+            "options": [
+              "a) encourage",
+              "b) propose",
+              "c) advise",
+              "d) recommend"
+            ],
+            "level": "B1",
+            "passageId": "en-b1-p-lesen-t5-cloze-music-festival-02-01"
+          }
+        ]
+      },
+      {
+        "teil": 6,
+        "instruction": "Read the text(s) and answer the questions in Part 6.",
+        "blueprintSlot": "open_cloze",
+        "textTitle": "A Family Trip to the Mountains",
+        "text": "Last weekend, my family and I went on a trip to the mountains. We decided to go [1] car because it was easier to carry all our bags. The journey took about three hours, and [2] the weather was a bit cloudy at first, it soon became sunny.\n\nWhen we arrived, we stayed in a lovely wooden cabin [3] was located next to a beautiful lake. My father immediately suggested going for a walk. We walked [4] hours along the forest paths. We even saw some wild deer! Later, my younger brother and I spent the afternoon swimming in the cold, clear water of the lake.\n\nIn the evening, we cooked a delicious meal together. Then we all sat outside and looked at the thousands of bright stars above the quiet valley. It was [5] a wonderful experience that we have already decided to return next year. I am really looking forward [6] our next adventure in the mountains.",
+        "passageId": "en-b1-p-lesen-t6-open-cloze-family-trip-02-01",
+        "questions": [
+          {
+            "id": "ql_en-b1-r-t6-open-cloze-family-trip-02-q1",
+            "type": "gap_fill",
+            "question": "Identify the missing word for gap [1].",
+            "correct": "by",
+            "correctAnswer": "by",
+            "explanation": "We use the preposition 'by' to talk about means of transport (by car, by train, by bus).",
+            "grammarTags": [
+              "g-en-b1-prepositions"
+            ],
+            "topicTags": [
+              "travel"
+            ],
+            "vocabularyTags": [
+              "transport"
+            ],
+            "difficulty": 4,
+            "level": "B1",
+            "passageId": "en-b1-p-lesen-t6-open-cloze-family-trip-02-01"
+          },
+          {
+            "id": "ql_en-b1-r-t6-open-cloze-family-trip-02-q2",
+            "type": "gap_fill",
+            "question": "Identify the missing word for gap [2].",
+            "correct": "although",
+            "correctAnswer": "although",
+            "explanation": "The conjunction 'although' (or 'though') is used to introduce a contrast between the cloudy weather and it becoming sunny.",
+            "grammarTags": [
+              "g-en-b1-conjunctions"
+            ],
+            "topicTags": [
+              "weather"
+            ],
+            "vocabularyTags": [
+              "linking-words"
+            ],
+            "difficulty": 4,
+            "level": "B1",
+            "passageId": "en-b1-p-lesen-t6-open-cloze-family-trip-02-01"
+          },
+          {
+            "id": "ql_en-b1-r-t6-open-cloze-family-trip-02-q3",
+            "type": "gap_fill",
+            "question": "Identify the missing word for gap [3].",
+            "correct": "which",
+            "correctAnswer": "which",
+            "explanation": "We use the relative pronoun 'which' (or 'that') to refer back to a thing (the wooden cabin) in a relative clause.",
+            "grammarTags": [
+              "g-en-b1-relative-clauses"
+            ],
+            "topicTags": [
+              "accommodation"
+            ],
+            "vocabularyTags": [
+              "pronouns"
+            ],
+            "difficulty": 4,
+            "level": "B1",
+            "passageId": "en-b1-p-lesen-t6-open-cloze-family-trip-02-01"
+          },
+          {
+            "id": "ql_en-b1-r-t6-open-cloze-family-trip-02-q4",
+            "type": "gap_fill",
+            "question": "Identify the missing word for gap [4].",
+            "correct": "for",
+            "correctAnswer": "for",
+            "explanation": "The preposition 'for' is used to show a period of time (for hours).",
+            "grammarTags": [
+              "g-en-b1-prepositions"
+            ],
+            "topicTags": [
+              "free-time"
+            ],
+            "vocabularyTags": [
+              "time-expressions"
+            ],
+            "difficulty": 4,
+            "level": "B1",
+            "passageId": "en-b1-p-lesen-t6-open-cloze-family-trip-02-01"
+          },
+          {
+            "id": "ql_en-b1-r-t6-open-cloze-family-trip-02-q5",
+            "type": "gap_fill",
+            "question": "Identify the missing word for gap [5].",
+            "correct": "such",
+            "correctAnswer": "such",
+            "explanation": "We use 'such' before 'a/an + adjective + singular noun' to add emphasis to the statement.",
+            "grammarTags": [
+              "g-en-b1-intensifiers"
+            ],
+            "topicTags": [
+              "feelings"
+            ],
+            "vocabularyTags": [
+              "modifiers"
+            ],
+            "difficulty": 4,
+            "level": "B1",
+            "passageId": "en-b1-p-lesen-t6-open-cloze-family-trip-02-01"
+          },
+          {
+            "id": "ql_en-b1-r-t6-open-cloze-family-trip-02-q6",
+            "type": "gap_fill",
+            "question": "Identify the missing word for gap [6].",
+            "correct": "to",
+            "correctAnswer": "to",
+            "explanation": "The phrasal verb 'look forward to' always takes the preposition 'to' followed by a noun, pronoun, or gerund.",
+            "grammarTags": [
+              "g-en-b1-phrasal-verbs"
+            ],
+            "topicTags": [
+              "future-plans"
+            ],
+            "vocabularyTags": [
+              "verbs"
+            ],
+            "difficulty": 4,
+            "level": "B1",
+            "passageId": "en-b1-p-lesen-t6-open-cloze-family-trip-02-01"
+          }
+        ]
+      }
+    ],
+    "horenParts": [
+      {
+        "teil": 1,
+        "instruction": "Listen and answer the questions in Part 1.",
+        "blueprintSlot": "picture_mcq",
+        "transcript": "[Woman]: Did you go to the indoor climbing wall yesterday, Jack?\n[Man]: I wanted to, but it was fully booked. My brother suggested going for a bike ride instead, but then his bicycle had a flat tire. So we ended up playing tennis at the local club.\n[Woman]: At least you did some exercise!\n\n[Man]: I need to get a birthday present for my sister. I was thinking of a silver necklace.\n[Woman]: She doesn't really wear jewellery, does she? What about that book she wanted?\n[Man]: Our parents already bought her that. I think I'll get her a nice wool scarf instead. It's getting cold now.\n[Woman]: That's a lovely idea.\n\n[Man]: I can't find my keys anywhere! I thought I left them on the kitchen table next to my wallet.\n[Woman]: Did you check your coat pocket? You had them when we came inside.\n[Man]: Yes, I checked. Oh, wait, I remember now. I put them down on the shelf by the front door when I was taking off my shoes.\n[Woman]: Ah, yes, there they are!\n\n[Woman]: Look at my new bag! I wanted a small round one, but when I got to the shop, I saw this square leather one and fell in love with it.\n[Man]: It's nice. I thought you were looking for one with long straps to wear over your shoulder?\n[Woman]: I was, but this one has short handles and it's actually much easier to carry.\n\n[Man]: Hi Sarah, are we still meeting at quarter past five?\n[Woman]: Well, my class doesn't finish until five o'clock, and it takes me half an hour to get to the café. Can we make it quarter to six instead?\n[Man]: That's a bit late because the film starts at six. Let's say half past five.\n[Woman]: Okay, see you then.\n\n[Man]: Shall we go to that new Italian restaurant by the river for lunch?\n[Woman]: I'd love to, but it's always so busy. Why don't we just get some sandwiches and sit in the park? It's really sunny today.\n[Man]: Actually, I heard there's a lovely café inside the museum that has outdoor seating. It's quiet too.\n[Woman]: Oh, that sounds perfect. Let's go there.\n\n[Presenter]: Here is the weather forecast for tomorrow. It will be a very wet start to the day, with heavy rain during the morning. However, by lunchtime, the rain will clear up, leaving us with cloudy but dry skies for the rest of the afternoon. We might even see some sunshine by the evening.",
+        "segments": [
+          {
+            "id": "seg_1_0",
+            "label": "Recording 1",
+            "transcript": "[Woman]: Did you go to the indoor climbing wall yesterday, Jack?\n[Man]: I wanted to, but it was fully booked. My brother suggested going for a bike ride instead, but then his bicycle had a flat tire. So we ended up playing tennis at the local club.\n[Woman]: At least you did some exercise!",
+            "passageId": "en-b1-p-horen-t1-pics-daily-choices-01-07",
+            "questions": [
+              {
+                "id": "ql_en-b1-h-t1-pics-daily-choices-01-q7",
+                "type": "multiple_choice",
+                "question": "Which sport did the boy do yesterday?",
+                "correct": "c",
+                "correctAnswer": "c",
+                "explanation": "Climbing was fully booked and the bike ride was cancelled due to a flat tire, so they ended up playing tennis.",
+                "grammarTags": [
+                  "g-en-b1-tenses-past"
+                ],
+                "topicTags": [
+                  "free-time"
+                ],
+                "vocabularyTags": [
+                  "sports"
+                ],
+                "difficulty": 4,
+                "options": [
+                  "a) Indoor climbing",
+                  "b) Cycling",
+                  "c) Tennis"
+                ],
+                "level": "B1",
+                "passageId": "en-b1-p-horen-t1-pics-daily-choices-01-07"
+              }
+            ]
+          },
+          {
+            "id": "seg_1_1",
+            "label": "Recording 2",
+            "transcript": "[Man]: I need to get a birthday present for my sister. I was thinking of a silver necklace.\n[Woman]: She doesn't really wear jewellery, does she? What about that book she wanted?\n[Man]: Our parents already bought her that. I think I'll get her a nice wool scarf instead. It's getting cold now.\n[Woman]: That's a lovely idea.",
+            "passageId": "en-b1-p-horen-t1-pics-daily-choices-01-04",
+            "questions": [
+              {
+                "id": "ql_en-b1-h-t1-pics-daily-choices-01-q4",
+                "type": "multiple_choice",
+                "question": "What is the man going to buy his sister?",
+                "correct": "b",
+                "correctAnswer": "b",
+                "explanation": "He decides against the necklace because she doesn't wear jewellery, and her parents already bought the book. He chooses the wool scarf.",
+                "grammarTags": [
+                  "g-en-b1-future-plans"
+                ],
+                "topicTags": [
+                  "shopping"
+                ],
+                "vocabularyTags": [
+                  "clothes-and-accessories"
+                ],
+                "difficulty": 4,
+                "options": [
+                  "a) A book",
+                  "b) A wool scarf",
+                  "c) A silver necklace"
+                ],
+                "level": "B1",
+                "passageId": "en-b1-p-horen-t1-pics-daily-choices-01-04"
+              }
+            ]
+          },
+          {
+            "id": "seg_1_2",
+            "label": "Recording 3",
+            "transcript": "[Man]: I can't find my keys anywhere! I thought I left them on the kitchen table next to my wallet.\n[Woman]: Did you check your coat pocket? You had them when we came inside.\n[Man]: Yes, I checked. Oh, wait, I remember now. I put them down on the shelf by the front door when I was taking off my shoes.\n[Woman]: Ah, yes, there they are!",
+            "passageId": "en-b1-p-horen-t1-pics-daily-choices-01-05",
+            "questions": [
+              {
+                "id": "ql_en-b1-h-t1-pics-daily-choices-01-q5",
+                "type": "multiple_choice",
+                "question": "Where did the man leave his keys?",
+                "correct": "a",
+                "correctAnswer": "a",
+                "explanation": "He thought they were on the kitchen table and checked his coat pocket, but finally remembered and found them on the shelf by the front door.",
+                "grammarTags": [
+                  "g-en-b1-tenses-past"
+                ],
+                "topicTags": [
+                  "daily-life"
+                ],
+                "vocabularyTags": [
+                  "house-and-home"
+                ],
+                "difficulty": 4,
+                "options": [
+                  "a) On the shelf by the front door",
+                  "b) On the kitchen table",
+                  "c) In his coat pocket"
+                ],
+                "level": "B1",
+                "passageId": "en-b1-p-horen-t1-pics-daily-choices-01-05"
+              }
+            ]
+          },
+          {
+            "id": "seg_1_3",
+            "label": "Recording 4",
+            "transcript": "[Woman]: Look at my new bag! I wanted a small round one, but when I got to the shop, I saw this square leather one and fell in love with it.\n[Man]: It's nice. I thought you were looking for one with long straps to wear over your shoulder?\n[Woman]: I was, but this one has short handles and it's actually much easier to carry.",
+            "passageId": "en-b1-p-horen-t1-pics-daily-choices-01-02",
+            "questions": [
+              {
+                "id": "ql_en-b1-h-t1-pics-daily-choices-01-q2",
+                "type": "multiple_choice",
+                "question": "Which bag did the woman buy?",
+                "correct": "b",
+                "correctAnswer": "b",
+                "explanation": "She wanted a small round one but bought a square leather one instead. Although she originally looked for long shoulder straps, she bought one with short handles because it is easier to carry.",
+                "grammarTags": [
+                  "g-en-b1-tenses-past"
+                ],
+                "topicTags": [
+                  "shopping"
+                ],
+                "vocabularyTags": [
+                  "clothes-and-accessories"
+                ],
+                "difficulty": 4,
+                "options": [
+                  "a) A square bag with long shoulder straps",
+                  "b) A square bag with short handles",
+                  "c) A small round bag"
+                ],
+                "level": "B1",
+                "passageId": "en-b1-p-horen-t1-pics-daily-choices-01-02"
+              }
+            ]
+          },
+          {
+            "id": "seg_1_4",
+            "label": "Recording 5",
+            "transcript": "[Man]: Hi Sarah, are we still meeting at quarter past five?\n[Woman]: Well, my class doesn't finish until five o'clock, and it takes me half an hour to get to the café. Can we make it quarter to six instead?\n[Man]: That's a bit late because the film starts at six. Let's say half past five.\n[Woman]: Okay, see you then.",
+            "passageId": "en-b1-p-horen-t1-pics-daily-choices-01-01",
+            "questions": [
+              {
+                "id": "ql_en-b1-h-t1-pics-daily-choices-01-q1",
+                "type": "multiple_choice",
+                "question": "What time will they meet?",
+                "correct": "c",
+                "correctAnswer": "c",
+                "explanation": "The woman suggests 5:45 (quarter to six) because her class ends at 5:00 and it takes 30 minutes to travel. However, the man suggests 5:30 (half past five) because the film starts at 6:00, and she agrees.",
+                "grammarTags": [
+                  "g-en-b1-modals"
+                ],
+                "topicTags": [
+                  "daily-life"
+                ],
+                "vocabularyTags": [
+                  "time"
+                ],
+                "difficulty": 4,
+                "options": [
+                  "a) 5:45",
+                  "b) 5:15",
+                  "c) 5:30"
+                ],
+                "level": "B1",
+                "passageId": "en-b1-p-horen-t1-pics-daily-choices-01-01"
+              }
+            ]
+          },
+          {
+            "id": "seg_1_5",
+            "label": "Recording 6",
+            "transcript": "[Man]: Shall we go to that new Italian restaurant by the river for lunch?\n[Woman]: I'd love to, but it's always so busy. Why don't we just get some sandwiches and sit in the park? It's really sunny today.\n[Man]: Actually, I heard there's a lovely café inside the museum that has outdoor seating. It's quiet too.\n[Woman]: Oh, that sounds perfect. Let's go there.",
+            "passageId": "en-b1-p-horen-t1-pics-daily-choices-01-03",
+            "questions": [
+              {
+                "id": "ql_en-b1-h-t1-pics-daily-choices-01-q3",
+                "type": "multiple_choice",
+                "question": "Where are they going to have lunch?",
+                "correct": "b",
+                "correctAnswer": "b",
+                "explanation": "They reject the Italian restaurant because it's busy. The woman suggests the park, but they agree on the museum café because it has outdoor seating and is quiet.",
+                "grammarTags": [
+                  "g-en-b1-future-plans"
+                ],
+                "topicTags": [
+                  "eating-out"
+                ],
+                "vocabularyTags": [
+                  "places"
+                ],
+                "difficulty": 4,
+                "options": [
+                  "a) In the park",
+                  "b) In a museum café",
+                  "c) At an Italian restaurant"
+                ],
+                "level": "B1",
+                "passageId": "en-b1-p-horen-t1-pics-daily-choices-01-03"
+              }
+            ]
+          },
+          {
+            "id": "seg_1_6",
+            "label": "Recording 7",
+            "transcript": "[Presenter]: Here is the weather forecast for tomorrow. It will be a very wet start to the day, with heavy rain during the morning. However, by lunchtime, the rain will clear up, leaving us with cloudy but dry skies for the rest of the afternoon. We might even see some sunshine by the evening.",
+            "passageId": "en-b1-p-horen-t1-pics-daily-choices-01-06",
+            "questions": [
+              {
+                "id": "ql_en-b1-h-t1-pics-daily-choices-01-q6",
+                "type": "multiple_choice",
+                "question": "What will the weather be like tomorrow afternoon?",
+                "correct": "a",
+                "correctAnswer": "a",
+                "explanation": "The morning will be rainy, the afternoon will be cloudy but dry, and the evening might bring some sunshine.",
+                "grammarTags": [
+                  "g-en-b1-future-predictions"
+                ],
+                "topicTags": [
+                  "weather"
+                ],
+                "vocabularyTags": [
+                  "weather"
+                ],
+                "difficulty": 4,
+                "options": [
+                  "a) Cloudy and dry",
+                  "b) Sunny",
+                  "c) Rainy"
+                ],
+                "level": "B1",
+                "passageId": "en-b1-p-horen-t1-pics-daily-choices-01-06"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "teil": 2,
+        "instruction": "Listen and answer the questions in Part 2.",
+        "blueprintSlot": "short_dialogue_mcq",
+        "transcript": "Woman: Did you see the photos I posted from my weekend walk?\nMan: Yes, they're amazing! The lighting in the forest was perfect. I didn't know you were so good at photography.\nWoman: Thanks! I've been practicing a lot, but I still struggle with getting the focus right on moving objects, like birds.\nMan: Well, you've definitely got a talent for landscapes.\n\nWoman: Do you want to see the new science-fiction film tonight?\nMan: I've heard the special effects are incredible, but the story is quite weak and predictable.\nWoman: Really? The reviews I read said the acting was brilliant, especially the main character.\nMan: Well, I suppose we should judge for ourselves. Let's get tickets.\n\nMan: How was your first Italian cooking class yesterday?\nWoman: It was great! The chef was really funny and explained everything clearly.\nMan: Did you make pasta from scratch?\nWoman: Yes, though mine turned out a bit too thick. Still, it tasted amazing, and I learned some useful techniques that I can easily try at home.\n\nGirl: Are you coming on the mountain hike this weekend?\nBoy: I'd love to, but my boots are completely worn out. I need to buy a new pair before I do any serious climbing.\nGirl: You could always borrow my brother's. He's got some spares.\nBoy: Thanks, but hiking boots need to fit perfectly, otherwise you get terrible blisters. I'll just go shopping on Saturday instead.\n\nBoy: Did you see the photos I took at the park yesterday?\nGirl: Yes, they're really good! The lighting on the lake was perfect. But why didn't you get closer to the birds? They look a bit small.\nBoy: I know, but I didn't want to scare them away. Next time I'll use a better zoom lens.\nGirl: Good idea. Still, you've got a real talent for finding great angles.\n\nMan: I'm thinking of giving up the guitar. I've been practicing for three months and I still can't play a whole song.\nWoman: Don't be so hard on yourself! It takes time. Are you practicing every day?\nMan: Well, only on weekends, really. I'm too tired after work.\nWoman: That's the problem. Even fifteen minutes a day during the week would make a huge difference.",
+        "segments": [
+          {
+            "id": "seg_2_0",
+            "label": "Recording 1",
+            "transcript": "Woman: Did you see the photos I posted from my weekend walk?\nMan: Yes, they're amazing! The lighting in the forest was perfect. I didn't know you were so good at photography.\nWoman: Thanks! I've been practicing a lot, but I still struggle with getting the focus right on moving objects, like birds.\nMan: Well, you've definitely got a talent for landscapes.",
+            "passageId": "en-b1-p-horen-t2-gist-free-time-01-01",
+            "questions": [
+              {
+                "id": "ql_en-b1-h-t2-gist-free-time-01-q1",
+                "type": "multiple_choice",
+                "question": "You hear two friends talking about photography. What does the woman say about it?",
+                "correct": "c",
+                "correctAnswer": "c",
+                "explanation": "The woman explains that she struggles to get the focus right on moving objects like birds, which means she finds certain subjects difficult to shoot.",
+                "grammarTags": [
+                  "g-en-b1-gerunds"
+                ],
+                "topicTags": [
+                  "hobbies-and-free-time"
+                ],
+                "vocabularyTags": [
+                  "photography",
+                  "focus"
+                ],
+                "difficulty": 4,
+                "options": [
+                  "a) She prefers taking photos of animals.",
+                  "b) She wants to take a professional course.",
+                  "c) She finds some subjects difficult to shoot."
+                ],
+                "level": "B1",
+                "passageId": "en-b1-p-horen-t2-gist-free-time-01-01"
+              }
+            ]
+          },
+          {
+            "id": "seg_2_1",
+            "label": "Recording 2",
+            "transcript": "Woman: Do you want to see the new science-fiction film tonight?\nMan: I've heard the special effects are incredible, but the story is quite weak and predictable.\nWoman: Really? The reviews I read said the acting was brilliant, especially the main character.\nMan: Well, I suppose we should judge for ourselves. Let's get tickets.",
+            "passageId": "en-b1-p-horen-t2-gist-free-time-01-05",
+            "questions": [
+              {
+                "id": "ql_en-b1-h-t2-gist-free-time-01-q5",
+                "type": "multiple_choice",
+                "question": "You hear two friends discussing a film they might see. What convinces the man to go?",
+                "correct": "a",
+                "correctAnswer": "a",
+                "explanation": "The man says, 'I suppose we should judge for ourselves. Let's get tickets,' showing he wants to form his own opinion despite the mixed reviews.",
+                "grammarTags": [
+                  "g-en-b1-modals"
+                ],
+                "topicTags": [
+                  "hobbies-and-free-time"
+                ],
+                "vocabularyTags": [
+                  "cinema",
+                  "opinion"
+                ],
+                "difficulty": 4,
+                "options": [
+                  "a) The desire to form his own opinion",
+                  "b) The impressive special effects",
+                  "c) The positive reviews about the acting"
+                ],
+                "level": "B1",
+                "passageId": "en-b1-p-horen-t2-gist-free-time-01-05"
+              }
+            ]
+          },
+          {
+            "id": "seg_2_2",
+            "label": "Recording 3",
+            "transcript": "Man: How was your first Italian cooking class yesterday?\nWoman: It was great! The chef was really funny and explained everything clearly.\nMan: Did you make pasta from scratch?\nWoman: Yes, though mine turned out a bit too thick. Still, it tasted amazing, and I learned some useful techniques that I can easily try at home.",
+            "passageId": "en-b1-p-horen-t2-gist-free-time-01-04",
+            "questions": [
+              {
+                "id": "ql_en-b1-h-t2-gist-free-time-01-q4",
+                "type": "multiple_choice",
+                "question": "You hear a woman talking about a cooking class she attended. How does she feel about it?",
+                "correct": "a",
+                "correctAnswer": "a",
+                "explanation": "The woman says she learned some useful techniques that she can easily try at home, showing she is pleased with the practical skills she gained.",
+                "grammarTags": [
+                  "g-en-b1-adjectives-ed-ing"
+                ],
+                "topicTags": [
+                  "hobbies-and-free-time"
+                ],
+                "vocabularyTags": [
+                  "cooking",
+                  "techniques"
+                ],
+                "difficulty": 4,
+                "options": [
+                  "a) Pleased with the practical skills she gained",
+                  "b) Annoyed by the teacher's style of instruction",
+                  "c) Disappointed with the quality of the food she made"
+                ],
+                "level": "B1",
+                "passageId": "en-b1-p-horen-t2-gist-free-time-01-04"
+              }
+            ]
+          },
+          {
+            "id": "seg_2_3",
+            "label": "Recording 4",
+            "transcript": "Girl: Are you coming on the mountain hike this weekend?\nBoy: I'd love to, but my boots are completely worn out. I need to buy a new pair before I do any serious climbing.\nGirl: You could always borrow my brother's. He's got some spares.\nBoy: Thanks, but hiking boots need to fit perfectly, otherwise you get terrible blisters. I'll just go shopping on Saturday instead.",
+            "passageId": "en-b1-p-horen-t2-gist-free-time-02-02",
+            "questions": [
+              {
+                "id": "ql_en-b1-h-t2-gist-free-time-02-q2",
+                "type": "multiple_choice",
+                "question": "You hear two friends talking about a weekend hike. Why is the boy unable to go?",
+                "correct": "b",
+                "correctAnswer": "b",
+                "explanation": "The boy says his boots are worn out and he cannot borrow a pair because they must fit perfectly to avoid blisters, meaning he lacks the correct footwear.",
+                "grammarTags": [
+                  "g-en-b1-modals"
+                ],
+                "topicTags": [
+                  "t-en-free-time"
+                ],
+                "vocabularyTags": [
+                  "v-en-sports"
+                ],
+                "difficulty": 4,
+                "options": [
+                  "a) He has to go shopping for clothes.",
+                  "b) He doesn't have the right footwear.",
+                  "c) He has to help his brother."
+                ],
+                "level": "B1",
+                "passageId": "en-b1-p-horen-t2-gist-free-time-02-02"
+              }
+            ]
+          },
+          {
+            "id": "seg_2_4",
+            "label": "Recording 5",
+            "transcript": "Boy: Did you see the photos I took at the park yesterday?\nGirl: Yes, they're really good! The lighting on the lake was perfect. But why didn't you get closer to the birds? They look a bit small.\nBoy: I know, but I didn't want to scare them away. Next time I'll use a better zoom lens.\nGirl: Good idea. Still, you've got a real talent for finding great angles.",
+            "passageId": "en-b1-p-horen-t2-gist-free-time-02-01",
+            "questions": [
+              {
+                "id": "ql_en-b1-h-t2-gist-free-time-02-q1",
+                "type": "multiple_choice",
+                "question": "You hear two friends talking about photography. What does the girl think the boy should improve?",
+                "correct": "c",
+                "correctAnswer": "c",
+                "explanation": "The girl points out that the birds in the photos look a bit small and asks why he didn't get closer, which refers to the size of the subjects in his shots.",
+                "grammarTags": [
+                  "g-en-b1-comparatives"
+                ],
+                "topicTags": [
+                  "t-en-free-time"
+                ],
+                "vocabularyTags": [
+                  "v-en-hobbies"
+                ],
+                "difficulty": 4,
+                "options": [
+                  "a) The angles he chooses to shoot from",
+                  "b) The lighting in his photos",
+                  "c) The size of the subjects in his shots"
+                ],
+                "level": "B1",
+                "passageId": "en-b1-p-horen-t2-gist-free-time-02-01"
+              }
+            ]
+          },
+          {
+            "id": "seg_2_5",
+            "label": "Recording 6",
+            "transcript": "Man: I'm thinking of giving up the guitar. I've been practicing for three months and I still can't play a whole song.\nWoman: Don't be so hard on yourself! It takes time. Are you practicing every day?\nMan: Well, only on weekends, really. I'm too tired after work.\nWoman: That's the problem. Even fifteen minutes a day during the week would make a huge difference.",
+            "passageId": "en-b1-p-horen-t2-gist-free-time-01-06",
+            "questions": [
+              {
+                "id": "ql_en-b1-h-t2-gist-free-time-01-q6",
+                "type": "multiple_choice",
+                "question": "You hear a woman talking to a friend who is learning the guitar. What is she doing?",
+                "correct": "b",
+                "correctAnswer": "b",
+                "explanation": "The woman suggests that practicing for fifteen minutes a day during the week, rather than only on weekends, would make a huge difference, which is proposing a better routine.",
+                "grammarTags": [
+                  "g-en-b1-comparatives"
+                ],
+                "topicTags": [
+                  "hobbies-and-free-time"
+                ],
+                "vocabularyTags": [
+                  "guitar",
+                  "practice"
+                ],
+                "difficulty": 4,
+                "options": [
+                  "a) Agreeing that learning the guitar is too difficult",
+                  "b) Suggesting a more effective practice routine",
+                  "c) Recommending a different instrument to try"
+                ],
+                "level": "B1",
+                "passageId": "en-b1-p-horen-t2-gist-free-time-01-06"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "teil": 3,
+        "instruction": "Listen and answer the questions in Part 3.",
+        "blueprintSlot": "sentence_completion",
+        "transcript": "Hello everyone, and thank you for joining our tour group today. I want to give you some practical information about our visit to the Science Museum tomorrow.\n\nFirst, we will meet outside the main entrance at 8.45 am. Please don't be late as the bus leaves at exactly nine o'clock.\n\nWhen we arrive, we will start our visit in the transport gallery on the ground floor. This is always very popular because of the old steam trains.\n\nAfter that, you will have some free time. I highly recommend visiting the special exhibition on the first floor. It is about robots and how they are used in everyday life.\n\nFor lunch, you can eat your own sandwiches in the picnic area, which is next to the museum shop. Please do not eat inside the exhibition rooms.\n\nIn the afternoon, we have booked a special 3D film in the IMAX cinema. The film is about the history of space exploration. It starts at two-thirty and lasts for forty minutes.\n\nFinally, before we go home, you can visit the gift shop. If you show your group ticket, you can get a discount on books and posters.\n\nAre there any questions?",
+        "segments": [
+          {
+            "id": "seg_3_0",
+            "label": "Recording 1",
+            "transcript": "Hello everyone, and thank you for joining our tour group today. I want to give you some practical information about our visit to the Science Museum tomorrow.\n\nFirst, we will meet outside the main entrance at 8.45 am. Please don't be late as the bus leaves at exactly nine o'clock.\n\nWhen we arrive, we will start our visit in the transport gallery on the ground floor. This is always very popular because of the old steam trains.\n\nAfter that, you will have some free time. I highly recommend visiting the special exhibition on the first floor. It is about robots and how they are used in everyday life.\n\nFor lunch, you can eat your own sandwiches in the picnic area, which is next to the museum shop. Please do not eat inside the exhibition rooms.\n\nIn the afternoon, we have booked a special 3D film in the IMAX cinema. The film is about the history of space exploration. It starts at two-thirty and lasts for forty minutes.\n\nFinally, before we go home, you can visit the gift shop. If you show your group ticket, you can get a discount on books and posters.\n\nAre there any questions?",
+            "passageId": "en-b1-p-horen-t3-gapfill-museum-talk-02-01",
+            "questions": [
+              {
+                "id": "ql_en-b1-h-t3-gapfill-museum-talk-02-q1",
+                "type": "gap_fill",
+                "question": "Meeting time: [gap] am.",
+                "correct": "8.45",
+                "correctAnswer": "8.45",
+                "explanation": "The speaker says: 'First, we will meet outside the main entrance at 8.45 am.'",
+                "grammarTags": [
+                  "g-en-b1-numbers"
+                ],
+                "topicTags": [
+                  "museums"
+                ],
+                "vocabularyTags": [
+                  "v-en-b1-time"
+                ],
+                "difficulty": 4,
+                "level": "B1",
+                "passageId": "en-b1-p-horen-t3-gapfill-museum-talk-02-01"
+              },
+              {
+                "id": "ql_en-b1-h-t3-gapfill-museum-talk-02-q2",
+                "type": "gap_fill",
+                "question": "First gallery to visit: [gap] gallery.",
+                "correct": "transport",
+                "correctAnswer": "transport",
+                "explanation": "The speaker mentions: 'we will start our visit in the transport gallery on the ground floor.'",
+                "grammarTags": [
+                  "g-en-b1-nouns"
+                ],
+                "topicTags": [
+                  "museums"
+                ],
+                "vocabularyTags": [
+                  "v-en-b1-travel"
+                ],
+                "difficulty": 4,
+                "level": "B1",
+                "passageId": "en-b1-p-horen-t3-gapfill-museum-talk-02-01"
+              },
+              {
+                "id": "ql_en-b1-h-t3-gapfill-museum-talk-02-q3",
+                "type": "gap_fill",
+                "question": "Special exhibition topic: [gap].",
+                "correct": "robots",
+                "correctAnswer": "robots",
+                "explanation": "The speaker states: 'It is about robots and how they are used in everyday life.'",
+                "grammarTags": [
+                  "g-en-b1-nouns-plural"
+                ],
+                "topicTags": [
+                  "museums"
+                ],
+                "vocabularyTags": [
+                  "v-en-b1-technology"
+                ],
+                "difficulty": 4,
+                "level": "B1",
+                "passageId": "en-b1-p-horen-t3-gapfill-museum-talk-02-01"
+              },
+              {
+                "id": "ql_en-b1-h-t3-gapfill-museum-talk-02-q4",
+                "type": "gap_fill",
+                "question": "Place to eat lunch: [gap].",
+                "correct": "picnic area",
+                "correctAnswer": "picnic area",
+                "explanation": "The speaker says: 'you can eat your own sandwiches in the picnic area'.",
+                "grammarTags": [
+                  "g-en-b1-nouns-compound"
+                ],
+                "topicTags": [
+                  "museums"
+                ],
+                "vocabularyTags": [
+                  "v-en-b1-food"
+                ],
+                "difficulty": 4,
+                "level": "B1",
+                "passageId": "en-b1-p-horen-t3-gapfill-museum-talk-02-01"
+              },
+              {
+                "id": "ql_en-b1-h-t3-gapfill-museum-talk-02-q5",
+                "type": "gap_fill",
+                "question": "Theme of the 3D film: [gap].",
+                "correct": "space",
+                "correctAnswer": "space",
+                "explanation": "The speaker mentions: 'The film is about the history of space exploration.'",
+                "grammarTags": [
+                  "g-en-b1-nouns"
+                ],
+                "topicTags": [
+                  "museums"
+                ],
+                "vocabularyTags": [
+                  "v-en-b1-science"
+                ],
+                "difficulty": 4,
+                "level": "B1",
+                "passageId": "en-b1-p-horen-t3-gapfill-museum-talk-02-01"
+              },
+              {
+                "id": "ql_en-b1-h-t3-gapfill-museum-talk-02-q6",
+                "type": "gap_fill",
+                "question": "Discount available on: [gap] and posters.",
+                "correct": "books",
+                "correctAnswer": "books",
+                "explanation": "The speaker says: 'you can get a discount on books and posters.'",
+                "grammarTags": [
+                  "g-en-b1-nouns-plural"
+                ],
+                "topicTags": [
+                  "museums"
+                ],
+                "vocabularyTags": [
+                  "v-en-b1-shopping"
+                ],
+                "difficulty": 4,
+                "level": "B1",
+                "passageId": "en-b1-p-horen-t3-gapfill-museum-talk-02-01"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "teil": 4,
+        "instruction": "Listen and answer the questions in Part 4.",
+        "blueprintSlot": "interview_mcq",
+        "transcript": "Interviewer: Today I'm talking to Elena Rossi, a successful travel blogger. Elena, welcome. Why did you first start your blog, 'Elena's Footsteps'?\n\nElena: Well, I didn't plan to make it my job! I actually started it when I went on a gap year to South America. My parents were really worried, so I promised to write regular updates so they'd know I was safe. I didn't think anyone else would read it, but then other travellers started finding my posts and asking for advice.\n\nInterviewer: That's amazing. You've been to so many countries. Which one stands out the most?\n\nElena: People always ask this! I love Japan for its food, and Iceland for the landscapes, but my absolute favourite was Albania. I didn't know much about it before going, but the local people were incredibly welcoming. One family even invited me into their home for dinner when I got lost. That kindness is what I remember most.\n\nInterviewer: Travelling isn't always easy, though. How do you deal with things when they go wrong?\n\nElena: Oh, I've had missed flights, lost luggage, and food poisoning! At first, I used to get really stressed and angry. But I quickly realised that doesn't help. Now, I just accept that problems are part of the adventure. I try to stay calm and look for a solution, often by asking locals. They are usually happy to help a confused tourist.\n\nInterviewer: You usually travel by yourself. Do you prefer that?\n\nElena: I do. When you travel with friends, you tend to stay in your own little bubble. But when you're on your own, you're forced to talk to strangers, which means you make new friends much faster. Of course, it can be lonely occasionally, but the freedom to decide where to go next without arguing is worth it.\n\nInterviewer: What's the most challenging part of being a professional blogger?\n\nElena: People think it's a permanent holiday, but it's hard work. The toughest thing for me is the lack of a routine. I'm constantly moving, which makes it hard to exercise regularly or eat healthily. I don't mind the long hours spent editing photos or writing posts, because I love doing that, but not having a proper home base can be exhausting.\n\nInterviewer: Finally, what tips do you have for someone wanting to start a travel blog?\n\nElena: Don't just write about the famous tourist spots that everyone knows. Try to find a unique angle. Write about your personal feelings and the small details, like the smell of a local market. And most importantly, write because you love it, not because you want to get free hotel rooms. Readers can tell if you aren't being genuine.\n\nInterviewer: Thank you, Elena!",
+        "segments": [
+          {
+            "id": "seg_4_0",
+            "label": "Recording 1",
+            "transcript": "Interviewer: Today I'm talking to Elena Rossi, a successful travel blogger. Elena, welcome. Why did you first start your blog, 'Elena's Footsteps'?\n\nElena: Well, I didn't plan to make it my job! I actually started it when I went on a gap year to South America. My parents were really worried, so I promised to write regular updates so they'd know I was safe. I didn't think anyone else would read it, but then other travellers started finding my posts and asking for advice.\n\nInterviewer: That's amazing. You've been to so many countries. Which one stands out the most?\n\nElena: People always ask this! I love Japan for its food, and Iceland for the landscapes, but my absolute favourite was Albania. I didn't know much about it before going, but the local people were incredibly welcoming. One family even invited me into their home for dinner when I got lost. That kindness is what I remember most.\n\nInterviewer: Travelling isn't always easy, though. How do you deal with things when they go wrong?\n\nElena: Oh, I've had missed flights, lost luggage, and food poisoning! At first, I used to get really stressed and angry. But I quickly realised that doesn't help. Now, I just accept that problems are part of the adventure. I try to stay calm and look for a solution, often by asking locals. They are usually happy to help a confused tourist.\n\nInterviewer: You usually travel by yourself. Do you prefer that?\n\nElena: I do. When you travel with friends, you tend to stay in your own little bubble. But when you're on your own, you're forced to talk to strangers, which means you make new friends much faster. Of course, it can be lonely occasionally, but the freedom to decide where to go next without arguing is worth it.\n\nInterviewer: What's the most challenging part of being a professional blogger?\n\nElena: People think it's a permanent holiday, but it's hard work. The toughest thing for me is the lack of a routine. I'm constantly moving, which makes it hard to exercise regularly or eat healthily. I don't mind the long hours spent editing photos or writing posts, because I love doing that, but not having a proper home base can be exhausting.\n\nInterviewer: Finally, what tips do you have for someone wanting to start a travel blog?\n\nElena: Don't just write about the famous tourist spots that everyone knows. Try to find a unique angle. Write about your personal feelings and the small details, like the smell of a local market. And most importantly, write because you love it, not because you want to get free hotel rooms. Readers can tell if you aren't being genuine.\n\nInterviewer: Thank you, Elena!",
+            "passageId": "en-b1-p-horen-t4-interview-travel-blogger-01-01",
+            "questions": [
+              {
+                "id": "ql_en-b1-h-t4-interview-travel-blogger-01-q1",
+                "type": "multiple_choice",
+                "question": "Why did Elena start her travel blog?",
+                "correct": "a",
+                "correctAnswer": "a",
+                "explanation": "Elena explains that she started the blog because her parents were worried about her gap year, so she promised to write updates to let them know she was safe.",
+                "grammarTags": [
+                  "g-en-b1-conjunctions"
+                ],
+                "topicTags": [
+                  "travel"
+                ],
+                "vocabularyTags": [
+                  "v-en-b1-travel"
+                ],
+                "difficulty": 4,
+                "options": [
+                  "a) To reassure her family that she was safe",
+                  "b) To give advice to other travellers",
+                  "c) To earn some extra money"
+                ],
+                "level": "B1",
+                "passageId": "en-b1-p-horen-t4-interview-travel-blogger-01-01"
+              },
+              {
+                "id": "ql_en-b1-h-t4-interview-travel-blogger-01-q2",
+                "type": "multiple_choice",
+                "question": "What did Elena like most about her visit to Albania?",
+                "correct": "c",
+                "correctAnswer": "c",
+                "explanation": "Elena states that Albania was her favourite because the local people were incredibly welcoming and kind.",
+                "grammarTags": [
+                  "g-en-b1-superlatives"
+                ],
+                "topicTags": [
+                  "travel"
+                ],
+                "vocabularyTags": [
+                  "v-en-b1-personality"
+                ],
+                "difficulty": 4,
+                "options": [
+                  "a) The beautiful landscapes",
+                  "b) The delicious local food",
+                  "c) The friendliness of the people"
+                ],
+                "level": "B1",
+                "passageId": "en-b1-p-horen-t4-interview-travel-blogger-01-01"
+              },
+              {
+                "id": "ql_en-b1-h-t4-interview-travel-blogger-01-q3",
+                "type": "multiple_choice",
+                "question": "How does Elena now react when things go wrong during her travels?",
+                "correct": "c",
+                "correctAnswer": "c",
+                "explanation": "She mentions that she used to get stressed, but now she accepts that problems are part of the adventure and tries to stay calm.",
+                "grammarTags": [
+                  "g-en-b1-used-to"
+                ],
+                "topicTags": [
+                  "travel"
+                ],
+                "vocabularyTags": [
+                  "v-en-b1-feelings"
+                ],
+                "difficulty": 4,
+                "options": [
+                  "a) She gets angry and stressed.",
+                  "b) She contacts her family for support.",
+                  "c) She accepts problems as part of the experience."
+                ],
+                "level": "B1",
+                "passageId": "en-b1-p-horen-t4-interview-travel-blogger-01-01"
+              },
+              {
+                "id": "ql_en-b1-h-t4-interview-travel-blogger-01-q4",
+                "type": "multiple_choice",
+                "question": "What does Elena say about travelling alone?",
+                "correct": "a",
+                "correctAnswer": "a",
+                "explanation": "Elena says that when you are on your own, you are forced to talk to strangers, which helps you make new friends much faster.",
+                "grammarTags": [
+                  "g-en-b1-comparatives"
+                ],
+                "topicTags": [
+                  "travel"
+                ],
+                "vocabularyTags": [
+                  "v-en-b1-socializing"
+                ],
+                "difficulty": 4,
+                "options": [
+                  "a) It encourages her to connect with others.",
+                  "b) It is always better than travelling with friends.",
+                  "c) It can sometimes feel quite boring."
+                ],
+                "level": "B1",
+                "passageId": "en-b1-p-horen-t4-interview-travel-blogger-01-01"
+              },
+              {
+                "id": "ql_en-b1-h-t4-interview-travel-blogger-01-q5",
+                "type": "multiple_choice",
+                "question": "Elena finds it difficult to be a professional blogger because she",
+                "correct": "b",
+                "correctAnswer": "b",
+                "explanation": "Elena states that the toughest thing for her is the lack of routine, which makes it hard to exercise or eat healthily, and not having a proper home base is exhausting.",
+                "grammarTags": [
+                  "g-en-b1-gerunds"
+                ],
+                "topicTags": [
+                  "travel"
+                ],
+                "vocabularyTags": [
+                  "v-en-b1-work"
+                ],
+                "difficulty": 4,
+                "options": [
+                  "a) Has to spend too much time editing photos.",
+                  "b) Misses having a regular daily routine.",
+                  "c) Finds it hard to live without her family."
+                ],
+                "level": "B1",
+                "passageId": "en-b1-p-horen-t4-interview-travel-blogger-01-01"
+              },
+              {
+                "id": "ql_en-b1-h-t4-interview-travel-blogger-01-q6",
+                "type": "multiple_choice",
+                "question": "What advice does Elena give to new travel bloggers?",
+                "correct": "b",
+                "correctAnswer": "b",
+                "explanation": "Elena advises writing because you love it, not for free perks, and emphasizes that readers can tell if you aren't being genuine.",
+                "grammarTags": [
+                  "g-en-b1-imperatives"
+                ],
+                "topicTags": [
+                  "travel"
+                ],
+                "vocabularyTags": [
+                  "v-en-b1-advice"
+                ],
+                "difficulty": 4,
+                "options": [
+                  "a) Try to get free accommodation.",
+                  "b) Write with real passion and honesty.",
+                  "c) Focus on popular tourist destinations."
+                ],
+                "level": "B1",
+                "passageId": "en-b1-p-horen-t4-interview-travel-blogger-01-01"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "schreibenParts": [
+      {
+        "aufgabe": 1,
+        "fieldId": "write_bp_1",
+        "task": "Read this email from your English-speaking friend Alex and the notes you have made.\n\n***\nFrom: Alex\nSubject: Your new course!\n\nHi,\n\nHow are you? I heard you started a new course last week. What kind of course is it? [Tell Alex]\n\nI'd love to know if you are enjoying it. Is the teacher nice? [Great!]\n\nMaybe I can join you next time. When is the next class? [Answer]\n\nLet's meet up this weekend to talk about it. Which day is better for you? [Suggest]\n\nWrite back soon,\nAlex\n***\n\nWrite your email to Alex using all the notes. You should write about 100 words.",
+        "minWords": 80,
+        "maxWords": 80,
+        "targetWords": 80,
+        "mandatory": true,
+        "taskType": "email",
+        "blueprintSlot": "email",
+        "grammarTags": [
+          "g-en-b1-tenses"
+        ],
+        "topicTags": [
+          "education"
+        ],
+        "teil": 1
+      },
+      {
+        "aufgabe": 2,
+        "fieldId": "write_bp_2",
+        "task": "Choose one of the following tasks (article or story). Write about 100 words.\n\nOption 1: Article\nYou see this notice on an international English website for young people:\n\n*Articles wanted!*\nLEARNING SOMETHING NEW\nWhat is a new skill you would like to learn? Why do you want to learn it? Is it easy or difficult for young people to learn new things?\nWrite an article answering these questions.\n\nOR\n\nOption 2: Story\nYour English teacher has asked you to write a story. Your story must begin with this sentence:\n\n*It was my first day at the class.*\nWrite your story.",
+        "minWords": 80,
+        "maxWords": 80,
+        "targetWords": 80,
+        "mandatory": false,
+        "taskType": "article",
+        "blueprintSlot": "choice_writing",
+        "grammarTags": [
+          "g-en-b1-narrative-tenses"
+        ],
+        "topicTags": [
+          "education"
+        ],
+        "teil": 2
+      }
+    ],
+    "sprechenParts": [
+      {
+        "teil": 1,
+        "title": "Part 1 — Speaking",
+        "fieldId": "speak_bp_1",
+        "situation": "Phase 1:\nWhat is your name?\nWhere do you live?\nDo you work or are you a student?\n\nPhase 2 (Topic: Free time and daily routine):\nWhat do you usually do in your free time?\nDo you prefer spending your free time alone or with friends? Why?\nTell us about your daily routine on weekdays.\nWhat is your favourite part of the day? Why?",
+        "points": [
+          "interview"
+        ],
+        "blueprintSlot": "speaking_task",
+        "grammarTags": [
+          "g-en-b1-present-simple",
+          "g-en-b1-adverbs-frequency"
+        ],
+        "topicTags": [
+          "t-en-b1-free-time-and-hobbies"
+        ]
+      },
+      {
+        "teil": 2,
+        "title": "Part 2 — Speaking",
+        "fieldId": "speak_bp_2",
+        "situation": "Describe this photo: A colour photo of people relaxing in a park.\n\nTalk about what you can see in the picture (the people, their clothes, the weather, the activities, and the background) for about 1 minute.",
+        "points": [
+          "photo_description"
+        ],
+        "blueprintSlot": "speaking_task",
+        "grammarTags": [
+          "g-en-b1-present-continuous",
+          "g-en-b1-prepositions-place"
+        ],
+        "topicTags": [
+          "t-en-b1-nature-and-environment"
+        ]
+      },
+      {
+        "teil": 3,
+        "title": "Part 3 — Speaking",
+        "fieldId": "speak_bp_3",
+        "situation": "A group of friends has a free Saturday afternoon together in town. Talk together about the different things they could do, and decide which would be the best option.\n\nHere are some ideas:\nGoing to the cinema\nHaving a picnic in the park\nVisiting a local museum\nGoing shopping\nPlaying board games at a café\n\nDiscuss these options with your partner and agree on the best activity.",
+        "points": [
+          "collaborative_task"
+        ],
+        "blueprintSlot": "speaking_task",
+        "grammarTags": [
+          "g-en-b1-suggestions",
+          "g-en-b1-modals-possibility"
+        ],
+        "topicTags": [
+          "t-en-b1-socializing-and-relationships"
+        ]
+      },
+      {
+        "teil": 4,
+        "title": "Part 4 — Speaking",
+        "fieldId": "speak_bp_4",
+        "situation": "Discuss these questions with your partner:\nDo you prefer active free-time activities (like sports) or relaxing ones (like reading)? Why?\nHow much free time do you think people should have every day?\nIs it important to try new hobbies, or is it better to stick to the ones you know?\nDo you think people spend too much time on their phones during their free time nowadays?",
+        "points": [
+          "general_conversation"
+        ],
+        "blueprintSlot": "speaking_task",
+        "grammarTags": [
+          "g-en-b1-expressing-opinions",
+          "g-en-b1-comparatives-superlatives"
+        ],
+        "topicTags": [
+          "t-en-b1-free-time-and-hobbies"
+        ]
+      }
+    ],
+    "cambridgeFormat": true,
+    "curated": true
+  },
+  "provenance": {
+    "generatedBy": "publish-promote-candidates",
+    "validatedBy": "audit-pass-2+lexicalCheck+CefrGate",
+    "blueprintId": "cambridge-b1",
+    "cefrGate": {
+      "withinRange": true,
+      "metrics": {},
+      "reasons": []
+    },
+    "sourceBankIds": [
+      "en-b1-r-t1-notices-school-01-q2",
+      "en-b1-r-t1-notices-station-02-q2",
+      "en-b1-r-t1-notices-school-01-q5",
+      "en-b1-r-t1-notices-station-01-q2",
+      "en-b1-r-t1-notices-school-01-q3",
+      "en-b1-r-t2-match-restaurants-01-q1",
+      "en-b1-r-t2-match-restaurants-01-q2",
+      "en-b1-r-t2-match-restaurants-01-q3",
+      "en-b1-r-t2-match-restaurants-01-q4",
+      "en-b1-r-t2-match-restaurants-01-q5",
+      "en-b1-r-t3-long-young-athlete-01-q4",
+      "en-b1-r-t3-long-young-athlete-01-q2",
+      "en-b1-r-t3-long-young-athlete-01-q3",
+      "en-b1-r-t3-long-young-athlete-01-q1",
+      "en-b1-r-t3-long-young-athlete-01-q5",
+      "en-b1-r-t4-gapped-food-market-01-q1",
+      "en-b1-r-t4-gapped-food-market-01-q2",
+      "en-b1-r-t4-gapped-food-market-01-q3",
+      "en-b1-r-t4-gapped-food-market-01-q4",
+      "en-b1-r-t4-gapped-food-market-01-q5",
+      "en-b1-r-t5-cloze-music-festival-02-q1",
+      "en-b1-r-t5-cloze-music-festival-02-q2",
+      "en-b1-r-t5-cloze-music-festival-02-q3",
+      "en-b1-r-t5-cloze-music-festival-02-q4",
+      "en-b1-r-t5-cloze-music-festival-02-q5",
+      "en-b1-r-t5-cloze-music-festival-02-q6",
+      "en-b1-r-t6-open-cloze-family-trip-02-q1",
+      "en-b1-r-t6-open-cloze-family-trip-02-q2",
+      "en-b1-r-t6-open-cloze-family-trip-02-q3",
+      "en-b1-r-t6-open-cloze-family-trip-02-q4",
+      "en-b1-r-t6-open-cloze-family-trip-02-q5",
+      "en-b1-r-t6-open-cloze-family-trip-02-q6",
+      "en-b1-h-t1-pics-daily-choices-01-q7",
+      "en-b1-h-t1-pics-daily-choices-01-q4",
+      "en-b1-h-t1-pics-daily-choices-01-q5",
+      "en-b1-h-t1-pics-daily-choices-01-q2",
+      "en-b1-h-t1-pics-daily-choices-01-q1",
+      "en-b1-h-t1-pics-daily-choices-01-q3",
+      "en-b1-h-t1-pics-daily-choices-01-q6",
+      "en-b1-h-t2-gist-free-time-01-q1",
+      "en-b1-h-t2-gist-free-time-01-q5",
+      "en-b1-h-t2-gist-free-time-01-q4",
+      "en-b1-h-t2-gist-free-time-02-q2",
+      "en-b1-h-t2-gist-free-time-02-q1",
+      "en-b1-h-t2-gist-free-time-01-q6",
+      "en-b1-h-t3-gapfill-museum-talk-02-q6",
+      "en-b1-h-t3-gapfill-museum-talk-02-q5",
+      "en-b1-h-t3-gapfill-museum-talk-02-q1",
+      "en-b1-h-t3-gapfill-museum-talk-02-q3",
+      "en-b1-h-t3-gapfill-museum-talk-02-q2",
+      "en-b1-h-t3-gapfill-museum-talk-02-q4",
+      "en-b1-h-t4-interview-travel-blogger-01-q2",
+      "en-b1-h-t4-interview-travel-blogger-01-q3",
+      "en-b1-h-t4-interview-travel-blogger-01-q6",
+      "en-b1-h-t4-interview-travel-blogger-01-q4",
+      "en-b1-h-t4-interview-travel-blogger-01-q5",
+      "en-b1-h-t4-interview-travel-blogger-01-q1",
+      "en-b1-w-t1-email-new-course-01-q1",
+      "en-b1-w-t2-email-new-course-01-q1",
+      "en-b1-s-t1-speaking-free-time-01-q1",
+      "en-b1-s-t2-speaking-free-time-01-q1",
+      "en-b1-s-t3-speaking-free-time-01-q1",
+      "en-b1-s-t4-speaking-free-time-01-q1"
+    ],
+    "validationErrors": [],
+    "createdAt": "2026-09-22T02:07:54.651Z",
+    "strategy": "B"
+  }
+}

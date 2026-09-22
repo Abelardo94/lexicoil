@@ -22,6 +22,7 @@ function parseArgs(argv) {
     level: 'B1',
     usage: null,
     fromAnalytics: null,
+    out: null,
     seedPriors: false,
     dryRun: false,
   };
@@ -33,6 +34,9 @@ function parseArgs(argv) {
     else if (a === '--from-analytics') out.fromAnalytics = argv[++i];
     else if (a === '--seed-priors') out.seedPriors = true;
     else if (a === '--dry-run') out.dryRun = true;
+    // Redirige SOLO la escritura: la base que se fusiona sigue siendo la del repo.
+    // Lo usa test-calibration.mjs para no reescribir el calibration.json del repo.
+    else if (a === '--out') out.out = argv[++i];
   }
   return out;
 }
@@ -132,5 +136,7 @@ if (args.dryRun) {
   process.exit(0);
 }
 
-fs.writeFileSync(calibrationFile(args.lang, args.level), JSON.stringify(calibration, null, 2) + '\n', 'utf8');
-console.log(`Wrote ${path.relative(ROOT, calibrationFile(args.lang, args.level))}`);
+const outFile = args.out ? path.resolve(ROOT, args.out) : calibrationFile(args.lang, args.level);
+fs.mkdirSync(path.dirname(outFile), { recursive: true });
+fs.writeFileSync(outFile, JSON.stringify(calibration, null, 2) + '\n', 'utf8');
+console.log(`Wrote ${path.relative(ROOT, outFile)}`);

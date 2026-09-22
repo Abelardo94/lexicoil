@@ -32,6 +32,64 @@ export const EXPL_OPTION_TEXT_ALIGN_GRADUATION = Object.freeze({
 
 const KEYWORDS_STRICT = ['Überschrift', 'überschrift', 'Option', 'Antwort', 'Alternative'];
 const KEYWORDS_LOOSE = ['Satz'];
+// English explanations trigger on their own words. `Option`/`Alternative` already overlap, which
+// is why English items reached the strict branch at all — and then died on exact equality.
+const KEYWORDS_STRICT_EN = ['Option', 'option', 'Answer', 'answer', 'Heading', 'heading', 'Choice', 'choice'];
+const KEYWORDS_LOOSE_EN = ['Sentence', 'sentence'];
+
+/**
+ * Cambridge gapped text (B1 Preliminary Reading Part 4) does not test content comprehension —
+ * it tests discourse cohesion: anaphoric reference, linkers, lexical chains. The candidate can
+ * already see the option on the page, so repeating it verbatim explains nothing; the teaching
+ * value is the link between the surrounding text and the option ("'Most of them' refers back to
+ * 'the people who worked there'"). Goethe Lesen Teil 3 is the opposite case — matching ads to
+ * people is a content match, so quoting the ad verbatim does explain the answer, which is the
+ * convention this check was built around.
+ *
+ * So for these items the evidence has to come from the PASSAGE, not from the option body.
+ * `library/blueprints/cambridge_B1.json` declares lesen-4 as slotType `gapped_text`.
+ */
+function isPassageEvidenceTask(q, lang) {
+  const slot = String(q.slotType || q.blueprintSlot || '').toLowerCase();
+  if (slot.includes('gapped')) return true;
+  return (
+    lang === 'en' &&
+    String(q.module || '').toLowerCase() === 'lesen' &&
+    Number(q.teil) === 4
+  );
+}
+
+/** Case-insensitive containment: we are asking "is this quote evidence from the text?", and a
+ *  casing difference is capitalization drift, reported elsewhere, not absence of evidence. */
+function quoteIsFromPassage(quote, passageText) {
+  const q = normalizeAlignText(quote).toLowerCase();
+  const p = normalizeAlignText(passageText).toLowerCase();
+  if (!q || !p) return false;
+  return p.includes(q);
+}
+
+/**
+ * How a quoted fragment relates to the correct option body.
+ *
+ * German content follows the Goethe convention of quoting the option verbatim, so `de` keeps
+ * strict equality and its findings do not move. Cambridge explanations quote a fragment of the
+ * option ("Most of them" for "Most of them were local farmers who had produced the food
+ * themselves."), which is legitimate, so containment counts as a match there. A difference that
+ * is only casing is reported, but as a warning: that is capitalization drift, not a wrong key.
+ *
+ * @returns {'exact'|'partial'|'case'|'no'}
+ */
+function quoteBodyRelation(quote, body) {
+  const q = normalizeAlignText(quote);
+  const b = normalizeAlignText(body);
+  if (!q || !b) return 'no';
+  if (q === b) return 'exact';
+  if (b.includes(q) || q.includes(b)) return 'partial';
+  const ql = q.toLowerCase();
+  const bl = b.toLowerCase();
+  if (ql === bl || bl.includes(ql) || ql.includes(bl)) return 'case';
+  return 'no';
+}
 const QUOTE_RE = /['\u201e\u201c]([^'\u201d\u201c]{3,220})['\u201d\u201c]/g;
 const PROXIMITY_CHARS = 120;
 
@@ -94,11 +152,12 @@ function isProximate(quoteStart, quoteEnd, keyIndices) {
  * Quoted spans near strict keywords (Überschrift/Option/Antwort) or loose (Satz).
  * @returns {{ text: string, index: number, mode: 'strict'|'loose'|'both' }[]}
  */
-export function extractKeywordProximateQuotes(explanation) {
+export function extractKeywordProximateQuotes(explanation, lang = 'de') {
   const expl = String(explanation || '');
   if (!expl.trim()) return [];
-  const strictKeys = keywordIndices(expl, KEYWORDS_STRICT);
-  const looseKeys = keywordIndices(expl, KEYWORDS_LOOSE);
+  const isEn = String(lang || 'de').trim().toLowerCase() === 'en';
+  const strictKeys = keywordIndices(expl, isEn ? KEYWORDS_STRICT_EN : KEYWORDS_STRICT);
+  const looseKeys = keywordIndices(expl, isEn ? KEYWORDS_LOOSE_EN : KEYWORDS_LOOSE);
   if (!strictKeys.length && !looseKeys.length) return [];
 
   const out = [];
@@ -135,9 +194,10 @@ function missingQuoteSeverity() {
  * @param {object} q — question with options, correct, explanation
  * @returns {{ blocking: object[], warnings: object[] }}
  */
-export function checkExplanationOptionTextAlignQuestion(q) {
+export function checkExplanationOptionTextAlignQuestion(q, ctx = {}) {
   const blocking = [];
   const warnings = [];
+  const passageText = String(ctx.passageText || '');
   const mod = String(q.module || '').toLowerCase();
   if (['schreiben', 'sprechen'].includes(mod)) {
     return { blocking, warnings };
@@ -153,8 +213,11 @@ export function checkExplanationOptionTextAlignQuestion(q) {
   if (!correctL || !bodies.has(correctL)) return { blocking, warnings };
 
   const correctBody = bodies.get(correctL);
-  const proxQuotes = extractKeywordProximateQuotes(expl);
-  const hasStrictKeywords = keywordIndices(expl, KEYWORDS_STRICT).length > 0;
+  const lang = String(q.lang || q.language || ctx.lang || 'de').trim().toLowerCase();
+  const strictConvention = lang === 'de'; // Goethe quotes the option verbatim; Cambridge does not
+  const proxQuotes = extractKeywordProximateQuotes(expl, lang);
+  const hasStrictKeywords =
+    keywordIndices(expl, lang === 'en' ? KEYWORDS_STRICT_EN : KEYWORDS_STRICT).length > 0;
 
   const strictQuotes = proxQuotes.filter((q) => q.mode === 'strict' || q.mode === 'both');
   const looseQuotes = proxQuotes.filter((q) => q.mode === 'loose' || q.mode === 'both');
@@ -172,6 +235,10 @@ export function checkExplanationOptionTextAlignQuestion(q) {
   }
 
   if (!strictQuotes.length) {
+    // "Mentions the option, so it must quote it" is the Goethe convention. In English the
+    // keyword is ordinary prose ("her only option since her boots are worn out", "which
+    // matches option c") and an unquoted explanation leaves nothing to compare.
+    if (!strictConvention) return { blocking, warnings };
     if (hasStrictKeywords && missingQuoteSeverity() === 'block') {
       blocking.push({
         kind: 'missing_correct_quote',
@@ -190,11 +257,62 @@ export function checkExplanationOptionTextAlignQuestion(q) {
     return { blocking, warnings };
   }
 
+  // Gapped text: the explanation earns its keep by citing the cue in the passage, so that is
+  // what is required here. The "quote matches a DIFFERENT option" alarm below still applies —
+  // citing the wrong option is a real defect whatever the task format.
+  if (isPassageEvidenceTask(q, lang)) {
+    let wrongOption = false;
+    for (const { text } of strictQuotes) {
+      const asLetter = letterForBody(bodies, text);
+      if (asLetter && asLetter !== correctL) {
+        wrongOption = true;
+        blocking.push({
+          kind: 'quote_wrong_option',
+          itemId: q.id,
+          message:
+            `${q.id || 'question'}: CHK-34 — la explicación cita «${text}» (opción ${asLetter}) pero la clave es ${correctL}).`,
+        });
+      }
+    }
+    if (!wrongOption) {
+      const hasPassageEvidence = strictQuotes.some(({ text }) => quoteIsFromPassage(text, passageText));
+      if (!hasPassageEvidence && passageText) {
+        warnings.push({
+          kind: 'missing_passage_evidence',
+          itemId: q.id,
+          message:
+            `${q.id || 'question'}: CHK-34 (aviso) — gapped text: ninguna cita de la explicación aparece en el pasaje; la pista del texto es lo que explica el hueco.`,
+        });
+      }
+    }
+    return { blocking, warnings };
+  }
+
   let matchedCorrect = false;
   for (const { text } of strictQuotes) {
-    if (text === correctBody) {
-      matchedCorrect = true;
-      continue;
+    if (strictConvention) {
+      if (text === correctBody) {
+        matchedCorrect = true;
+        continue;
+      }
+    } else {
+      const rel = quoteBodyRelation(text, correctBody);
+      if (rel === 'exact' || rel === 'partial') {
+        matchedCorrect = true;
+        continue;
+      }
+      if (rel === 'case') {
+        // The quote is the right option, spelled with different casing — capitalization drift,
+        // not a wrong answer key. Worth reporting, not worth blocking.
+        matchedCorrect = true;
+        warnings.push({
+          kind: 'quote_case_drift',
+          itemId: q.id,
+          message:
+            `${q.id || 'question'}: CHK-34 — la cita «${text}» coincide con la opción correcta ${correctL}) «${correctBody}» salvo en mayúsculas.`,
+        });
+        continue;
+      }
     }
     const asLetter = letterForBody(bodies, text);
     if (asLetter && asLetter !== correctL) {
@@ -234,8 +352,22 @@ export function checkExplanationOptionTextAlignQuestion(q) {
 export function collectExplanationOptionTextAlign(batch) {
   const blocking = [];
   const warnings = [];
+  // Passage text by id, so gapped-text items can be checked against the text they belong to.
+  // Falls back to every passage joined: a batch is one part, and an over-broad haystack only
+  // makes the evidence check more permissive, never falsely accusing.
+  const passages = batch?.passages || [];
+  const byId = new Map();
+  for (const p of passages) {
+    const id = p?.id || p?.passageId;
+    if (id) byId.set(String(id), String(p.text || ''));
+  }
+  const allText = passages.map((p) => String(p?.text || '')).join('\n');
+
   for (const q of batch?.questions || []) {
-    const r = checkExplanationOptionTextAlignQuestion(q);
+    const passageText = (q?.passageId && byId.get(String(q.passageId))) || allText;
+    // flattenExam carries lang at batch level only; library-built exam questions have none,
+    // so without this fallback every assembled English exam was held to the Goethe convention.
+    const r = checkExplanationOptionTextAlignQuestion(q, { passageText, lang: batch?.lang || batch?.language });
     blocking.push(...r.blocking);
     warnings.push(...r.warnings);
   }

@@ -18,5 +18,10 @@
     "id": "curated_en_B1_2db2385bdc63",
     "topic": "travel",
     "file": "curated_en_B1_2db2385bdc63.json"
+  },
+  {
+    "id": "curated_en_B1_f946fa2f9efe",
+    "topic": "school_life",
+    "file": "curated_en_B1_f946fa2f9efe.json"
   }
 ]

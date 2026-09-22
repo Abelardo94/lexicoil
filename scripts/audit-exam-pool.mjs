@@ -143,6 +143,8 @@ async function auditPart(input, opts = {}) {
     skipDedup: true,
     module,
     teil,
+    lang: 'de',
+    level: 'B1',
     structuralCorpusDir: GENERATED_DIR,
   });
 

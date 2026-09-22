@@ -1,0 +1,190 @@
+{
+  "passages": [
+    {
+      "id": "en-b1-p-horen-t3-gapfill-museum-talk-01-01",
+      "module": "horen",
+      "title": "Information about a Museum Visit",
+      "text": "Hello everyone, and welcome to our school trip to the Science Museum. Before we go inside, I have some important information for you, so please listen carefully and write down these details on your worksheets.\n\nFirst, we are very lucky because there is a special exhibition on at the moment. It is called 'Robots', and it shows how machines have changed over the last hundred years. This exhibition has been very popular, and it is actually ending next month, on the twelfth of October, so make sure you don't miss it today.\n\nNow, a little bit of history. The museum is quite old. It was first opened to the public in 1925, and it has grown a lot since then.\n\nThere are many amazing things to see, but the most popular object in the whole museum is a large model of a spaceship. You can find it in the transport gallery on the second floor.\n\nAfter your tour, you might want to visit the museum shop. They have some great souvenirs. You can get books and keyrings, but the shop is currently offering a discount on posters, which are very cheap today.\n\nFinally, about our travel arrangements. We need to meet back at the main entrance at four o'clock. The bus back to school will leave at 4.30 exactly. Please do not be late, as the driver cannot wait. Enjoy your visit!",
+      "passageVocab": [
+        "exhibition",
+        "souvenir",
+        "gallery",
+        "discount"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "en-b1-h-t3-gapfill-museum-talk-01-q1",
+      "module": "horen",
+      "teil": 3,
+      "type": "gap_fill",
+      "question": "The special exhibition currently on display is called: (1) ............ .",
+      "correct": "Robots",
+      "correctAnswer": "Robots",
+      "explanation": "The speaker mentions that the special exhibition currently on is called 'Robots'.",
+      "options": [],
+      "grammarTags": [
+        "g-en-b1-nouns"
+      ],
+      "topicTags": [
+        "travel_and_tourism"
+      ],
+      "vocabularyTags": [
+        "museums"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge",
+      "passageId": "en-b1-p-horen-t3-gapfill-museum-talk-01-01"
+    },
+    {
+      "id": "en-b1-h-t3-gapfill-museum-talk-01-q2",
+      "module": "horen",
+      "teil": 3,
+      "type": "gap_fill",
+      "question": "The special exhibition will finish on the 12th of (2) ............ .",
+      "correct": "October",
+      "correctAnswer": "October",
+      "explanation": "The speaker states that the exhibition is ending next month, on the twelfth of October.",
+      "options": [],
+      "grammarTags": [
+        "g-en-b1-nouns"
+      ],
+      "topicTags": [
+        "travel_and_tourism"
+      ],
+      "vocabularyTags": [
+        "dates"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge",
+      "passageId": "en-b1-p-horen-t3-gapfill-museum-talk-01-01"
+    },
+    {
+      "id": "en-b1-h-t3-gapfill-museum-talk-01-q3",
+      "module": "horen",
+      "teil": 3,
+      "type": "gap_fill",
+      "question": "The museum first opened to visitors in the year (3) ............ .",
+      "correct": "1925",
+      "correctAnswer": "1925",
+      "explanation": "The speaker explains that the museum was first opened to the public in 1925.",
+      "options": [],
+      "grammarTags": [
+        "g-en-b1-numbers"
+      ],
+      "topicTags": [
+        "travel_and_tourism"
+      ],
+      "vocabularyTags": [
+        "history"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge",
+      "passageId": "en-b1-p-horen-t3-gapfill-museum-talk-01-01"
+    },
+    {
+      "id": "en-b1-h-t3-gapfill-museum-talk-01-q4",
+      "module": "horen",
+      "teil": 3,
+      "type": "gap_fill",
+      "question": "The museum's most popular exhibit is a model of a (4) ............ .",
+      "correct": "spaceship",
+      "correctAnswer": "spaceship",
+      "explanation": "The speaker says that the most popular object in the whole museum is a large model of a spaceship.",
+      "options": [],
+      "grammarTags": [
+        "g-en-b1-nouns"
+      ],
+      "topicTags": [
+        "travel_and_tourism"
+      ],
+      "vocabularyTags": [
+        "space"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge",
+      "passageId": "en-b1-p-horen-t3-gapfill-museum-talk-01-01"
+    },
+    {
+      "id": "en-b1-h-t3-gapfill-museum-talk-01-q5",
+      "module": "horen",
+      "teil": 3,
+      "type": "gap_fill",
+      "question": "In the museum shop, there is currently a discount on (5) ............ .",
+      "correct": "posters",
+      "correctAnswer": "posters",
+      "explanation": "The speaker mentions that the shop is currently offering a discount on posters.",
+      "options": [],
+      "grammarTags": [
+        "g-en-b1-nouns-plural"
+      ],
+      "topicTags": [
+        "travel_and_tourism"
+      ],
+      "vocabularyTags": [
+        "shopping"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge",
+      "passageId": "en-b1-p-horen-t3-gapfill-museum-talk-01-01"
+    },
+    {
+      "id": "en-b1-h-t3-gapfill-museum-talk-01-q6",
+      "module": "horen",
+      "teil": 3,
+      "type": "gap_fill",
+      "question": "The school bus will depart at (6) ............ .",
+      "correct": "4.30",
+      "correctAnswer": "4.30",
+      "explanation": "The speaker states that the bus back to school will leave at 4.30 exactly.",
+      "options": [],
+      "grammarTags": [
+        "g-en-b1-numbers"
+      ],
+      "topicTags": [
+        "travel_and_tourism"
+      ],
+      "vocabularyTags": [
+        "time"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge",
+      "passageId": "en-b1-p-horen-t3-gapfill-museum-talk-01-01"
+    }
+  ],
+  "_germanCapsNormalizeVersion": "v3.23-lesen-t2-angebote-corpus-2026-07-28",
+  "_germanCapsNormalizedAt": "2026-09-22T01:57:15.661Z",
+  "_balanceMcqVersion": "v1.2-no-rf-chrono-shuffle-2026-07-11",
+  "_balanceMcqNormalizedAt": "2026-09-22T01:57:15.661Z"
+}

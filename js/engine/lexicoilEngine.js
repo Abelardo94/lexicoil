@@ -139,6 +139,9 @@ const LexiCoilEngine = (() => {
     if (options.teilFilter != null) {
       spec.personalTeilFilter = options.teilFilter;
     }
+    if (options.poolServedTeils) {
+      spec.poolServedTeils = options.poolServedTeils;
+    }
     return window.ExamGenerator.generatePersonal(spec, hooks, { ...options, blueprint });
   }
 

@@ -1,0 +1,225 @@
+{
+  "passages": [
+    {
+      "id": "en-b1-p-lesen-t1-notices-school-01-01",
+      "module": "lesen",
+      "title": "Library Study Area Notice",
+      "text": "Quiet Study Area. No group work or discussion allowed here. If you need to talk, please use the group study rooms on the ground floor.",
+      "passageVocab": [
+        "discussion",
+        "allow",
+        "ground floor"
+      ]
+    },
+    {
+      "id": "en-b1-p-lesen-t1-notices-school-01-02",
+      "module": "lesen",
+      "title": "School Lost Property Notice",
+      "text": "Lost Property. Any items left in the changing rooms after Friday's sports matches will be donated to charity if they are not collected by Wednesday afternoon.",
+      "passageVocab": [
+        "property",
+        "donate",
+        "collect"
+      ]
+    },
+    {
+      "id": "en-b1-p-lesen-t1-notices-school-01-03",
+      "module": "lesen",
+      "title": "Science Lab Email",
+      "text": "Hi Class 9, please remember that tomorrow's science lesson will be in Lab 3, not our usual classroom. Don't forget to bring your lab coats, or you won't be allowed to do the experiment. - Mr. Davis",
+      "passageVocab": [
+        "experiment",
+        "usual",
+        "allow"
+      ]
+    },
+    {
+      "id": "en-b1-p-lesen-t1-notices-school-01-04",
+      "module": "lesen",
+      "title": "Library Book Returns Notice",
+      "text": "Library Book Returns. Please use the automatic machine near the entrance to return all books. If the machine is out of order, leave books at the reception desk.",
+      "passageVocab": [
+        "automatic",
+        "entrance",
+        "out of order"
+      ]
+    },
+    {
+      "id": "en-b1-p-lesen-t1-notices-school-01-05",
+      "module": "lesen",
+      "title": "Computer Lab Notice",
+      "text": "Computer Lab. Students may use the computers during lunch break for schoolwork only. Playing games or watching videos is strictly forbidden unless authorized by a teacher.",
+      "passageVocab": [
+        "strictly",
+        "forbidden",
+        "authorize"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "en-b1-r-t1-notices-school-01-q1",
+      "module": "lesen",
+      "teil": 1,
+      "type": "multiple_choice",
+      "question": "What does this notice say?",
+      "correct": "b",
+      "correctAnswer": "b",
+      "explanation": "The notice states that group work is not allowed in this area and that students should use the ground floor rooms for talking.",
+      "options": [
+        "a) You can work in groups if you speak quietly.",
+        "b) Group work must be done on a different floor.",
+        "c) You can book a study room on this floor."
+      ],
+      "grammarTags": [
+        "g-en-b1-passive"
+      ],
+      "topicTags": [
+        "school_life"
+      ],
+      "vocabularyTags": [
+        "library_vocabulary"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge",
+      "passageId": "en-b1-p-lesen-t1-notices-school-01-01"
+    },
+    {
+      "id": "en-b1-r-t1-notices-school-01-q2",
+      "module": "lesen",
+      "teil": 1,
+      "type": "multiple_choice",
+      "question": "What should students do?",
+      "correct": "a",
+      "correctAnswer": "a",
+      "explanation": "Students must collect their items by Wednesday afternoon, otherwise the items will be given away to charity.",
+      "options": [
+        "a) Collect their lost items before Wednesday afternoon.",
+        "b) Donate their unwanted sports clothes by Friday.",
+        "c) Go to the changing rooms on Wednesday to find new clothes."
+      ],
+      "grammarTags": [
+        "g-en-b1-conditionals"
+      ],
+      "topicTags": [
+        "school_life"
+      ],
+      "vocabularyTags": [
+        "school_vocabulary"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge",
+      "passageId": "en-b1-p-lesen-t1-notices-school-01-02"
+    },
+    {
+      "id": "en-b1-r-t1-notices-school-01-q3",
+      "module": "lesen",
+      "teil": 1,
+      "type": "multiple_choice",
+      "question": "Mr. Davis is telling Class 9 that...",
+      "correct": "c",
+      "correctAnswer": "c",
+      "explanation": "Mr. Davis says 'or you won't be allowed to do the experiment' if they do not bring their lab coats, meaning correct clothing is required to participate.",
+      "options": [
+        "a) Their science lesson tomorrow has been cancelled.",
+        "b) They must buy a lab coat before tomorrow's lesson.",
+        "c) They cannot participate in the experiment without correct clothing."
+      ],
+      "grammarTags": [
+        "g-en-b1-modals"
+      ],
+      "topicTags": [
+        "school_life"
+      ],
+      "vocabularyTags": [
+        "school_vocabulary"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge",
+      "passageId": "en-b1-p-lesen-t1-notices-school-01-03"
+    },
+    {
+      "id": "en-b1-r-t1-notices-school-01-q4",
+      "module": "lesen",
+      "teil": 1,
+      "type": "multiple_choice",
+      "question": "How should library users return books?",
+      "correct": "a",
+      "correctAnswer": "a",
+      "explanation": "The notice asks users to use the automatic machine, but if it is out of order (not working), they should leave books at the reception desk.",
+      "options": [
+        "a) Use the machine unless it is not working.",
+        "b) Always hand them to the librarian at the reception desk.",
+        "c) Only use the automatic machine if the reception desk is closed."
+      ],
+      "grammarTags": [
+        "g-en-b1-conditionals"
+      ],
+      "topicTags": [
+        "school_life"
+      ],
+      "vocabularyTags": [
+        "library_vocabulary"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge",
+      "passageId": "en-b1-p-lesen-t1-notices-school-01-04"
+    },
+    {
+      "id": "en-b1-r-t1-notices-school-01-q5",
+      "module": "lesen",
+      "teil": 1,
+      "type": "multiple_choice",
+      "question": "Students using the computer lab at lunchtime...",
+      "correct": "b",
+      "correctAnswer": "b",
+      "explanation": "The notice says playing games is forbidden 'unless authorized by a teacher', which means it is allowed if they have a teacher's permission.",
+      "options": [
+        "a) Must only use the computers for playing educational games.",
+        "b) Can play games if they have a teacher's permission.",
+        "c) Are allowed to watch any videos they like."
+      ],
+      "grammarTags": [
+        "g-en-b1-modals"
+      ],
+      "topicTags": [
+        "school_life"
+      ],
+      "vocabularyTags": [
+        "school_vocabulary"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge",
+      "passageId": "en-b1-p-lesen-t1-notices-school-01-05"
+    }
+  ],
+  "_germanCapsNormalizeVersion": "v3.23-lesen-t2-angebote-corpus-2026-07-28",
+  "_germanCapsNormalizedAt": "2026-09-22T01:57:15.674Z",
+  "_balanceMcqVersion": "v1.2-no-rf-chrono-shuffle-2026-07-11",
+  "_balanceMcqNormalizedAt": "2026-09-22T01:57:15.674Z"
+}

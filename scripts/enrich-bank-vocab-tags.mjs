@@ -8,6 +8,7 @@ import path from 'node:path';
 import { fileURLToPath, pathToFileURL } from 'node:url';
 import { createRequire } from 'node:module';
 import { extractVocabularyFromText } from './lib/enrichBatchMetadata.mjs';
+import { tagsForQuestion } from './lib/questionVocabTags.mjs';
 
 const ROOT = path.join(path.dirname(fileURLToPath(import.meta.url)), '..');
 const require = createRequire(import.meta.url);
@@ -118,19 +119,10 @@ function enrichQuestions(bank, lang, b1Set) {
   for (const q of bank.questions || []) {
     if ((q.vocabularyTags || []).length >= 3) continue;
     const passage = passages.get(q.passageId);
-    const blob = [
-      q.question,
-      q.transcript,
-      q.signText,
-      passage?.text,
-      ...(q.options || []),
-      ...(passage?.passageVocab || []),
-    ]
-      .filter(Boolean)
-      .join(' ');
-    const words = extractFromText(blob, lang, b1Set, 8);
-    if (words.length < 3) continue;
-    q.vocabularyTags = words.slice(0, 6);
+    const context = [passage?.text, ...(passage?.passageVocab || [])].filter(Boolean).join(' ');
+    const words = tagsForQuestion(q, context, (text, max) => extractFromText(text, lang, b1Set, max));
+    if (!words.length) continue;
+    q.vocabularyTags = words;
     updated++;
   }
   return updated;

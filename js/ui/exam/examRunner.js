@@ -738,7 +738,10 @@ async function playListeningPassage(id,ui,opts={}){
   const{key,ttsVoice,examLang}=ctx;
   const rawText=String(ctx.text||'').trim();
   if(!rawText)return;
-  const cacheText=typeof normalizeTtsQueryText==='function'?normalizeTtsQueryText(rawText):rawText;
+  // Lo que se sintetiza, sin la etiqueta de hablante: tiene que coincidir con
+  // pregenerate-tts.mjs o la cache no acierta.
+  const spokenText=typeof ListeningScript!=='undefined'?ListeningScript.singleVoiceText(rawText):rawText;
+  const cacheText=typeof normalizeTtsQueryText==='function'?normalizeTtsQueryText(spokenText):spokenText;
   const playsKey=opts.playsKey||(id==='legacy'?'listenPlays':'listenPlays_'+key);
   if(S[playsKey]===undefined)S[playsKey]=2;
   if(S[playsKey]<=0)return;
@@ -751,7 +754,9 @@ async function playListeningPassage(id,ui,opts={}){
   const btn=document.getElementById(btnId);
   const info=document.getElementById(infoId);
   const speechLang=ui?.speechLang||(examLang==='de'?'de-DE':examLang==='es'?'es-ES':'en-GB');
-  const voice=ttsVoice||(typeof ttsVoiceForLang==='function'?ttsVoiceForLang(examLang):examLang);
+  const localeVoice=ttsVoice||(typeof ttsVoiceForLang==='function'?ttsVoiceForLang(examLang):examLang);
+  // Un turno único con hablante ("Man: …") lleva voz de su género; mismo cálculo que pregenerate-tts.
+  const voice=typeof ListeningScript!=='undefined'&&ListeningScript.singleVoiceFor?ListeningScript.singleVoiceFor(rawText,examLang,localeVoice):localeVoice;
   const startWave=()=>{if(wave)wave.querySelectorAll('.wb').forEach(b=>b.classList.remove('paused'));};
   const stopWave=()=>{if(wave)wave.querySelectorAll('.wb').forEach(b=>b.classList.add('paused'));};
   const updateControls=(playing)=>{
@@ -796,7 +801,7 @@ async function playListeningPassage(id,ui,opts={}){
       }
     };
     if(typeof _speakWithBrowser==='function'){
-      const ok=_speakWithBrowser(rawText,examLang,finishBrowser);
+      const ok=_speakWithBrowser(spokenText,examLang,finishBrowser);
       if(!ok&&typeof notify==='function'){
         notify('Audio unavailable in this browser. Install a German voice or try Chrome/Edge.','warn',7000);
         onDone();

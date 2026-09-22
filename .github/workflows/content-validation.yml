@@ -35,6 +35,38 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      # Before ci:content on purpose. ci:content currently fails on de/* live
+      # fidelity, and `&&` would mean this gate never runs at all — a green from
+      # not executing, which is the failure this gate exists to prevent.
+      - name: test:spelling-gate (el gate se prueba saboteado)
+        run: npm run test:spelling-gate
+
+      - name: audit:spelling:en (Cambridge es examen britanico)
+        run: npm run audit:spelling:en
+
+      - name: test:duplicate-options-gate (el gate se prueba saboteado)
+        run: npm run test:duplicate-options-gate
+
+      - name: audit:duplicate-options (dos opciones iguales = item sin respuesta)
+        run: npm run audit:duplicate-options
+
+      - name: test:open-cloze-gate (el gate se prueba saboteado)
+        run: npm run test:open-cloze-gate
+
+      - name: audit:open-cloze:en (Part 6 solo gapea palabras funcionales)
+        run: npm run audit:open-cloze:en
+
+      - name: test:placeholders-gate (el gate se prueba saboteado)
+        run: npm run test:placeholders-gate
+
+      # Sin credenciales: los dos usan dobles de la tienda de blobs.
+      - name: test:concurrency + test:blob-strict (fail-closed de las lecturas)
+        run: npm run test:concurrency && npm run test:blob-strict && npm run test:merge-segments
+
+      # Cubre los dos idiomas: el defecto era alemán, pero el pipeline es común.
+      - name: audit:placeholders (basura de plantilla en contenido servido)
+        run: npm run audit:placeholders
+
       - name: ci:content (live fidelity + dedupe gate)
         run: npm run ci:content
 

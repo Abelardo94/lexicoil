@@ -1,0 +1,125 @@
+{
+  "passages": [],
+  "questions": [
+    {
+      "id": "en-b1-s-t1-speaking-free-time-01-q1",
+      "module": "sprechen",
+      "teil": 1,
+      "type": "short_answer",
+      "question": "Phase 1:\nWhat is your name?\nWhere do you live?\nDo you work or are you a student?\n\nPhase 2 (Topic: Free time and daily routine):\nWhat do you usually do in your free time?\nDo you prefer spending your free time alone or with friends? Why?\nTell us about your daily routine on weekdays.\nWhat is your favourite part of the day? Why?",
+      "correct": "rubric",
+      "correctAnswer": "rubric",
+      "explanation": "In Part 1, the examiner asks you personal questions about your life, daily routine, and free-time activities. Answer with full sentences, avoid simple 'yes/no' answers, and try to give reasons or examples.",
+      "options": [],
+      "grammarTags": [
+        "g-en-b1-present-simple",
+        "g-en-b1-adverbs-frequency"
+      ],
+      "topicTags": [
+        "t-en-b1-free-time-and-hobbies"
+      ],
+      "vocabularyTags": [
+        "v-en-b1-routine",
+        "v-en-b1-leisure"
+      ],
+      "difficulty": 5,
+      "skills": [
+        "speaking"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-s-t2-speaking-free-time-01-q1",
+      "module": "sprechen",
+      "teil": 2,
+      "type": "short_answer",
+      "question": "Describe this photo: A colour photo of people relaxing in a park.\n\nTalk about what you can see in the picture (the people, their clothes, the weather, the activities, and the background) for about 1 minute.",
+      "correct": "rubric",
+      "correctAnswer": "rubric",
+      "explanation": "In Part 2, you speak on your own for about 1 minute to describe a photo. Talk about the location, people, actions, clothes, and atmosphere using present continuous (e.g., 'They are sitting on the grass') and speculative language (e.g., 'They look happy', 'It seems to be summer').",
+      "options": [],
+      "grammarTags": [
+        "g-en-b1-present-continuous",
+        "g-en-b1-prepositions-place"
+      ],
+      "topicTags": [
+        "t-en-b1-nature-and-environment"
+      ],
+      "vocabularyTags": [
+        "v-en-b1-park",
+        "v-en-b1-relaxing"
+      ],
+      "difficulty": 5,
+      "skills": [
+        "speaking"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-s-t3-speaking-free-time-01-q1",
+      "module": "sprechen",
+      "teil": 3,
+      "type": "short_answer",
+      "question": "A group of friends has a free Saturday afternoon together in town. Talk together about the different things they could do, and decide which would be the best option.\n\nHere are some ideas:\nGoing to the cinema\nHaving a picnic in the park\nVisiting a local museum\nGoing shopping\nPlaying board games at a café\n\nDiscuss these options with your partner and agree on the best activity.",
+      "correct": "rubric",
+      "correctAnswer": "rubric",
+      "explanation": "In Part 3, you interact with your partner. Make suggestions, ask for your partner's opinion, agree or disagree politely, and try to reach a decision together by the end of the 2-3 minutes.",
+      "options": [],
+      "grammarTags": [
+        "g-en-b1-suggestions",
+        "g-en-b1-modals-possibility"
+      ],
+      "topicTags": [
+        "t-en-b1-socializing-and-relationships"
+      ],
+      "vocabularyTags": [
+        "v-en-b1-suggestions",
+        "v-en-b1-leisure-activities"
+      ],
+      "difficulty": 5,
+      "skills": [
+        "speaking"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-s-t4-speaking-free-time-01-q1",
+      "module": "sprechen",
+      "teil": 4,
+      "type": "short_answer",
+      "question": "Discuss these questions with your partner:\nDo you prefer active free-time activities (like sports) or relaxing ones (like reading)? Why?\nHow much free time do you think people should have every day?\nIs it important to try new hobbies, or is it better to stick to the ones you know?\nDo you think people spend too much time on their phones during their free time nowadays?",
+      "correct": "rubric",
+      "correctAnswer": "rubric",
+      "explanation": "In Part 4, you have a conversation with your partner about the topic from Part 3 (free-time activities). Express your likes, dislikes, habits, and opinions, and respond to what your partner says to keep the conversation flowing.",
+      "options": [],
+      "grammarTags": [
+        "g-en-b1-expressing-opinions",
+        "g-en-b1-comparatives-superlatives"
+      ],
+      "topicTags": [
+        "t-en-b1-free-time-and-hobbies"
+      ],
+      "vocabularyTags": [
+        "v-en-b1-opinions",
+        "v-en-b1-habits"
+      ],
+      "difficulty": 5,
+      "skills": [
+        "speaking"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    }
+  ],
+  "_germanCapsNormalizeVersion": "v3.23-lesen-t2-angebote-corpus-2026-07-28",
+  "_germanCapsNormalizedAt": "2026-09-22T01:57:15.698Z",
+  "_balanceMcqVersion": "v1.2-no-rf-chrono-shuffle-2026-07-11",
+  "_balanceMcqNormalizedAt": "2026-09-22T01:57:15.698Z"
+}

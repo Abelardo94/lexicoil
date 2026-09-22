@@ -1,0 +1,219 @@
+{
+  "passages": [
+    {
+      "id": "en-b1-p-lesen-t4-gapped-food-market-01-01",
+      "module": "lesen",
+      "title": "A Weekend at the Local Food Market",
+      "text": "Last Saturday, I decided to visit the local food market in the town centre. I had heard a lot about it from my neighbours, but I had never found the time to go before. [1] As soon as I arrived, I realized I should have come much sooner. The atmosphere was incredibly lively and full of energy.\n\nThere were dozens of colourful stalls selling everything from fresh fruit to homemade cakes. [2] The smell of freshly baked bread was particularly amazing, drawing a huge crowd to one corner. I spent about an hour just walking around and looking at all the delicious options.\n\nWhat I liked most was talking to the people who worked there. [3] They were happy to explain how they made their cheese or where their vegetables were grown. This made the shopping experience feel much more personal than going to a normal supermarket.\n\nBy lunchtime, I was starting to feel quite hungry because of all the wonderful smells. [4] I chose a small stall selling traditional Spanish empanadas and sat on a wooden bench to eat them. They were absolutely delicious and very filling.\n\nBefore leaving, I bought some fresh pasta and a jar of local honey to take home. [5] I am already planning my next visit and cannot wait to try some of the other stalls.",
+      "passageVocab": [
+        {
+          "word": "lively",
+          "definition": "full of life and energy"
+        },
+        {
+          "word": "stall",
+          "definition": "a large table or small shop with an open front from which goods are sold in a public place"
+        },
+        {
+          "word": "vendor",
+          "definition": "someone who sells things, especially on the street"
+        },
+        {
+          "word": "filling",
+          "definition": "food that makes you feel full quickly"
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "en-b1-r-t4-gapped-food-market-01-q1",
+      "module": "lesen",
+      "teil": 4,
+      "type": "matching",
+      "passageId": "en-b1-p-lesen-t4-gapped-food-market-01-01",
+      "question": "Choose the correct sentence to fill gap [1].",
+      "options": [
+        "A) Fortunately, there were plenty of hot food stalls to choose from.",
+        "B) Each seller was proudly showing off their best products.",
+        "C) However, the prices were much higher than I had expected.",
+        "D) These will make a perfect Sunday dinner for my family.",
+        "E) It takes place every weekend, but I usually sleep late on Saturdays.",
+        "F) I had forgotten to bring enough cash with me.",
+        "G) Most of them were local farmers who had produced the food themselves.",
+        "H) My friends had promised to meet me there at noon."
+      ],
+      "correct": "E",
+      "correctAnswer": "E",
+      "explanation": "Option E fits perfectly because the writer mentions they 'had never found the time to go before'. Explaining that they usually sleep late on Saturdays provides the reason why they hadn't visited the Saturday market previously.",
+      "grammarTags": [
+        "g-en-b1-past-perfect"
+      ],
+      "topicTags": [
+        "food"
+      ],
+      "vocabularyTags": [
+        "v-en-b1-market"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-r-t4-gapped-food-market-01-q2",
+      "module": "lesen",
+      "teil": 4,
+      "type": "matching",
+      "passageId": "en-b1-p-lesen-t4-gapped-food-market-01-01",
+      "question": "Choose the correct sentence to fill gap [2].",
+      "options": [
+        "A) Fortunately, there were plenty of hot food stalls to choose from.",
+        "B) Each seller was proudly showing off their best products.",
+        "C) However, the prices were much higher than I had expected.",
+        "D) These will make a perfect Sunday dinner for my family.",
+        "E) It takes place every weekend, but I usually sleep late on Saturdays.",
+        "F) I had forgotten to bring enough cash with me.",
+        "G) Most of them were local farmers who had produced the food themselves.",
+        "H) My friends had promised to meet me there at noon."
+      ],
+      "correct": "B",
+      "correctAnswer": "B",
+      "explanation": "Option B fits well here. The previous sentence introduces the 'dozens of colourful stalls selling everything', and option B continues this description by focusing on the sellers showing off their goods.",
+      "grammarTags": [
+        "g-en-b1-pronouns-each"
+      ],
+      "topicTags": [
+        "food"
+      ],
+      "vocabularyTags": [
+        "v-en-b1-seller"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-r-t4-gapped-food-market-01-q3",
+      "module": "lesen",
+      "teil": 4,
+      "type": "matching",
+      "passageId": "en-b1-p-lesen-t4-gapped-food-market-01-01",
+      "question": "Choose the correct sentence to fill gap [3].",
+      "options": [
+        "A) Fortunately, there were plenty of hot food stalls to choose from.",
+        "B) Each seller was proudly showing off their best products.",
+        "C) However, the prices were much higher than I had expected.",
+        "D) These will make a perfect Sunday dinner for my family.",
+        "E) It takes place every weekend, but I usually sleep late on Saturdays.",
+        "F) I had forgotten to bring enough cash with me.",
+        "G) Most of them were local farmers who had produced the food themselves.",
+        "H) My friends had promised to meet me there at noon."
+      ],
+      "correct": "G",
+      "correctAnswer": "G",
+      "explanation": "Option G is the correct choice because 'Most of them' refers back to 'the people who worked there' in the previous sentence. The following sentence also uses 'They' to refer back to these local farmers.",
+      "grammarTags": [
+        "g-en-b1-pronouns-relative"
+      ],
+      "topicTags": [
+        "food"
+      ],
+      "vocabularyTags": [
+        "v-en-b1-farmer"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-r-t4-gapped-food-market-01-q4",
+      "module": "lesen",
+      "teil": 4,
+      "type": "matching",
+      "passageId": "en-b1-p-lesen-t4-gapped-food-market-01-01",
+      "question": "Choose the correct sentence to fill gap [4].",
+      "options": [
+        "A) Fortunately, there were plenty of hot food stalls to choose from.",
+        "B) Each seller was proudly showing off their best products.",
+        "C) However, the prices were much higher than I had expected.",
+        "D) These will make a perfect Sunday dinner for my family.",
+        "E) It takes place every weekend, but I usually sleep late on Saturdays.",
+        "F) I had forgotten to bring enough cash with me.",
+        "G) Most of them were local farmers who had produced the food themselves.",
+        "H) My friends had promised to meet me there at noon."
+      ],
+      "correct": "A",
+      "correctAnswer": "A",
+      "explanation": "Option A connects the writer's hunger ('quite hungry') to the solution: finding hot food stalls, leading directly to the next sentence where they choose a stall selling empanadas.",
+      "grammarTags": [
+        "g-en-b1-there-was-were"
+      ],
+      "topicTags": [
+        "food"
+      ],
+      "vocabularyTags": [
+        "v-en-b1-stall"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-r-t4-gapped-food-market-01-q5",
+      "module": "lesen",
+      "teil": 4,
+      "type": "matching",
+      "passageId": "en-b1-p-lesen-t4-gapped-food-market-01-01",
+      "question": "Choose the correct sentence to fill gap [5].",
+      "options": [
+        "A) Fortunately, there were plenty of hot food stalls to choose from.",
+        "B) Each seller was proudly showing off their best products.",
+        "C) However, the prices were much higher than I had expected.",
+        "D) These will make a perfect Sunday dinner for my family.",
+        "E) It takes place every weekend, but I usually sleep late on Saturdays.",
+        "F) I had forgotten to bring enough cash with me.",
+        "G) Most of them were local farmers who had produced the food themselves.",
+        "H) My friends had promised to meet me there at noon."
+      ],
+      "correct": "D",
+      "correctAnswer": "D",
+      "explanation": "Option D is correct because the pronoun 'These' refers back to the 'fresh pasta and a jar of local honey' purchased to take home in the previous sentence.",
+      "grammarTags": [
+        "g-en-b1-demonstratives"
+      ],
+      "topicTags": [
+        "food"
+      ],
+      "vocabularyTags": [
+        "v-en-b1-dinner"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    }
+  ],
+  "_germanCapsNormalizeVersion": "v3.23-lesen-t2-angebote-corpus-2026-07-28",
+  "_germanCapsNormalizedAt": "2026-09-22T01:57:15.690Z",
+  "_balanceMcqVersion": "v1.2-no-rf-chrono-shuffle-2026-07-11",
+  "_balanceMcqNormalizedAt": "2026-09-22T01:57:15.690Z"
+}

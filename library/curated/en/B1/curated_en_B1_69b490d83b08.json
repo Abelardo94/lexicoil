@@ -397,8 +397,8 @@
               "C) City History Museum — Learn about the town's industrial past. Guided tours are available every hour. Perfect for rainy days.",
               "D) Seaside Aquarium — Discover marine life from across the globe. Interactive touch pools are open for children in the afternoons.",
               "E) Forest Botanical Gardens — A peaceful escape featuring rare flowers and quiet walking paths. Ideal for those interested in photography.",
-              "F) Old Town Market — Explore local crafts, handmade jewelry, and fresh food stalls. Very busy on weekends, so arrive early.",
-              "G) Adventure Sports Center — Try rock climbing or zip-lining. All equipment is provided, and instructors are on-site to help beginners.",
+              "F) Old Town Market — Explore local crafts, handmade jewellery, and fresh food stalls. Very busy on weekends, so arrive early.",
+              "G) Adventure Sports Centre — Try rock climbing or zip-lining. All equipment is provided, and instructors are on-site to help beginners.",
               "H) Lakeside Art Gallery — Currently hosting an exhibition of local landscape paintings. A quiet environment with a small café inside."
             ],
             "correct": "E",
@@ -425,8 +425,8 @@
               "C) City History Museum — Learn about the town's industrial past. Guided tours are available every hour. Perfect for rainy days.",
               "D) Seaside Aquarium — Discover marine life from across the globe. Interactive touch pools are open for children in the afternoons.",
               "E) Forest Botanical Gardens — A peaceful escape featuring rare flowers and quiet walking paths. Ideal for those interested in photography.",
-              "F) Old Town Market — Explore local crafts, handmade jewelry, and fresh food stalls. Very busy on weekends, so arrive early.",
-              "G) Adventure Sports Center — Try rock climbing or zip-lining. All equipment is provided, and instructors are on-site to help beginners.",
+              "F) Old Town Market — Explore local crafts, handmade jewellery, and fresh food stalls. Very busy on weekends, so arrive early.",
+              "G) Adventure Sports Centre — Try rock climbing or zip-lining. All equipment is provided, and instructors are on-site to help beginners.",
               "H) Lakeside Art Gallery — Currently hosting an exhibition of local landscape paintings. A quiet environment with a small café inside."
             ],
             "correct": "G",
@@ -440,7 +440,7 @@
               "activity"
             ],
             "difficulty": 4,
-            "explanation": "Mark wants an exciting physical activity, which is provided at the Adventure Sports Center."
+            "explanation": "Mark wants an exciting physical activity, which is provided at the Adventure Sports Centre."
           },
           {
             "id": "ql_en-b1-r-t2-match-day-trips-02-q3",
@@ -453,8 +453,8 @@
               "C) City History Museum — Learn about the town's industrial past. Guided tours are available every hour. Perfect for rainy days.",
               "D) Seaside Aquarium — Discover marine life from across the globe. Interactive touch pools are open for children in the afternoons.",
               "E) Forest Botanical Gardens — A peaceful escape featuring rare flowers and quiet walking paths. Ideal for those interested in photography.",
-              "F) Old Town Market — Explore local crafts, handmade jewelry, and fresh food stalls. Very busy on weekends, so arrive early.",
-              "G) Adventure Sports Center — Try rock climbing or zip-lining. All equipment is provided, and instructors are on-site to help beginners.",
+              "F) Old Town Market — Explore local crafts, handmade jewellery, and fresh food stalls. Very busy on weekends, so arrive early.",
+              "G) Adventure Sports Centre — Try rock climbing or zip-lining. All equipment is provided, and instructors are on-site to help beginners.",
               "H) Lakeside Art Gallery — Currently hosting an exhibition of local landscape paintings. A quiet environment with a small café inside."
             ],
             "correct": "C",
@@ -481,8 +481,8 @@
               "C) City History Museum — Learn about the town's industrial past. Guided tours are available every hour. Perfect for rainy days.",
               "D) Seaside Aquarium — Discover marine life from across the globe. Interactive touch pools are open for children in the afternoons.",
               "E) Forest Botanical Gardens — A peaceful escape featuring rare flowers and quiet walking paths. Ideal for those interested in photography.",
-              "F) Old Town Market — Explore local crafts, handmade jewelry, and fresh food stalls. Very busy on weekends, so arrive early.",
-              "G) Adventure Sports Center — Try rock climbing or zip-lining. All equipment is provided, and instructors are on-site to help beginners.",
+              "F) Old Town Market — Explore local crafts, handmade jewellery, and fresh food stalls. Very busy on weekends, so arrive early.",
+              "G) Adventure Sports Centre — Try rock climbing or zip-lining. All equipment is provided, and instructors are on-site to help beginners.",
               "H) Lakeside Art Gallery — Currently hosting an exhibition of local landscape paintings. A quiet environment with a small café inside."
             ],
             "correct": "A",
@@ -509,8 +509,8 @@
               "C) City History Museum — Learn about the town's industrial past. Guided tours are available every hour. Perfect for rainy days.",
               "D) Seaside Aquarium — Discover marine life from across the globe. Interactive touch pools are open for children in the afternoons.",
               "E) Forest Botanical Gardens — A peaceful escape featuring rare flowers and quiet walking paths. Ideal for those interested in photography.",
-              "F) Old Town Market — Explore local crafts, handmade jewelry, and fresh food stalls. Very busy on weekends, so arrive early.",
-              "G) Adventure Sports Center — Try rock climbing or zip-lining. All equipment is provided, and instructors are on-site to help beginners.",
+              "F) Old Town Market — Explore local crafts, handmade jewellery, and fresh food stalls. Very busy on weekends, so arrive early.",
+              "G) Adventure Sports Centre — Try rock climbing or zip-lining. All equipment is provided, and instructors are on-site to help beginners.",
               "H) Lakeside Art Gallery — Currently hosting an exhibition of local landscape paintings. A quiet environment with a small café inside."
             ],
             "correct": "F",
@@ -524,17 +524,17 @@
               "market"
             ],
             "difficulty": 4,
-            "explanation": "The Old Town Market is the place to find local crafts and handmade jewelry."
+            "explanation": "The Old Town Market is the place to find local crafts and handmade jewellery."
           }
         ],
-        "text": "A) Riverview Park — A great spot for families with a large playground and a calm river for boat rentals. Picnic tables are available.\nB) Mountain Peak Trail — A challenging hike for experienced walkers. It offers stunning views of the valley, but ensure you bring sturdy hiking boots.\nC) City History Museum — Learn about the town's industrial past. Guided tours are available every hour. Perfect for rainy days.\nD) Seaside Aquarium — Discover marine life from across the globe. Interactive touch pools are open for children in the afternoons.\nE) Forest Botanical Gardens — A peaceful escape featuring rare flowers and quiet walking paths. Ideal for those interested in photography.\nF) Old Town Market — Explore local crafts, handmade jewelry, and fresh food stalls. Very busy on weekends, so arrive early.\nG) Adventure Sports Center — Try rock climbing or zip-lining. All equipment is provided, and instructors are on-site to help beginners.\nH) Lakeside Art Gallery — Currently hosting an exhibition of local landscape paintings. A quiet environment with a small café inside."
+        "text": "A) Riverview Park — A great spot for families with a large playground and a calm river for boat rentals. Picnic tables are available.\nB) Mountain Peak Trail — A challenging hike for experienced walkers. It offers stunning views of the valley, but ensure you bring sturdy hiking boots.\nC) City History Museum — Learn about the town's industrial past. Guided tours are available every hour. Perfect for rainy days.\nD) Seaside Aquarium — Discover marine life from across the globe. Interactive touch pools are open for children in the afternoons.\nE) Forest Botanical Gardens — A peaceful escape featuring rare flowers and quiet walking paths. Ideal for those interested in photography.\nF) Old Town Market — Explore local crafts, handmade jewellery, and fresh food stalls. Very busy on weekends, so arrive early.\nG) Adventure Sports Centre — Try rock climbing or zip-lining. All equipment is provided, and instructors are on-site to help beginners.\nH) Lakeside Art Gallery — Currently hosting an exhibition of local landscape paintings. A quiet environment with a small café inside."
       },
       {
         "teil": 3,
         "instruction": "Read the text(s) and answer the questions in Part 3.",
         "blueprintSlot": "long_text",
         "textTitle": "A Life-Changing Summer in Peru",
-        "text": "Last summer, I decided to do something completely different. Instead of spending my holidays at home, I signed up for a volunteer program in a small village in the Peruvian Andes. I had always wanted to travel, but I wanted to do more than just visit tourist sites; I wanted to make a real difference. When I arrived, I was surprised by how different everything was. The air was thin, the mountains were breathtaking, and the local community was incredibly welcoming. My main job was to help build a new classroom for the primary school. I had never held a hammer or painted a wall before, but the local builders were very patient with me. They taught me how to mix cement and how to work as part of a team. It was hard physical work, especially in the heat, but I felt a great sense of achievement every evening. In the afternoons, I helped the children with their English homework. They were so eager to learn, and we often spent hours laughing as we tried to communicate through gestures and simple words. Living without electricity and limited internet access was a challenge at first. I missed my friends and the comforts of home, but as the weeks passed, I realized that I didn't need those things to be happy. I learned to appreciate the simple things, like a shared meal or a beautiful sunset over the peaks. This experience changed my perspective on life. I realized that we don't need much to be happy, and that helping others is one of the most rewarding things you can do. I returned home with a new sense of purpose and a promise to myself that I would continue volunteering in the future. I have already started looking for local opportunities in my own city.",
+        "text": "Last summer, I decided to do something completely different. Instead of spending my holidays at home, I signed up for a volunteer program in a small village in the Peruvian Andes. I had always wanted to travel, but I wanted to do more than just visit tourist sites; I wanted to make a real difference. When I arrived, I was surprised by how different everything was. The air was thin, the mountains were breathtaking, and the local community was incredibly welcoming. My main job was to help build a new classroom for the primary school. I had never held a hammer or painted a wall before, but the local builders were very patient with me. They taught me how to mix cement and how to work as part of a team. It was hard physical work, especially in the heat, but I felt a great sense of achievement every evening. In the afternoons, I helped the children with their English homework. They were so eager to learn, and we often spent hours laughing as we tried to communicate through gestures and simple words. Living without electricity and limited internet access was a challenge at first. I missed my friends and the comforts of home, but as the weeks passed, I realised that I didn't need those things to be happy. I learned to appreciate the simple things, like a shared meal or a beautiful sunset over the peaks. This experience changed my perspective on life. I realised that we don't need much to be happy, and that helping others is one of the most rewarding things you can do. I returned home with a new sense of purpose and a promise to myself that I would continue volunteering in the future. I have already started looking for local opportunities in my own city.",
         "passageId": "en-b1-p-lesen-t3-long-volunteer-abroad-01-01",
         "questions": [
           {
@@ -593,7 +593,7 @@
             "question": "What does the writer say about the lack of technology?",
             "correct": "a",
             "correctAnswer": "a",
-            "explanation": "He says it was a challenge at first, but he eventually realized he didn't need those things to be happy.",
+            "explanation": "He says it was a challenge at first, but he eventually realised he didn't need those things to be happy.",
             "grammarTags": [
               "g-en-b1-comparatives"
             ],
@@ -824,7 +824,7 @@
         "instruction": "Read the text(s) and answer the questions in Part 5.",
         "blueprintSlot": "mcq_gap_fill",
         "textTitle": "A Summer Music Festival",
-        "text": "Every year, thousands of people travel to the coast for the Sunny Beats Music Festival. It is a fantastic event where you can listen to live bands and enjoy the beach. This year, the festival organizers have decided to (1) _____ the event to three days instead of two. Many people choose to (2) _____ in tents at the nearby campsite, which is a great way to meet new friends. If you prefer more comfort, there are also many hotels in the town. You should book your tickets early because they (3) _____ out very quickly. Don't forget to bring sunscreen, as it can get very hot during the day. It is also a good idea to (4) _____ a waterproof jacket, just in case it rains in the evening. The festival offers a wide (5) _____ of food from different countries, so you will definitely find something you like. It is an experience you will (6) _____ forget!",
+        "text": "Every year, thousands of people travel to the coast for the Sunny Beats Music Festival. It is a fantastic event where you can listen to live bands and enjoy the beach. This year, the festival organisers have decided to (1) _____ the event to three days instead of two. Many people choose to (2) _____ in tents at the nearby campsite, which is a great way to meet new friends. If you prefer more comfort, there are also many hotels in the town. You should book your tickets early because they (3) _____ out very quickly. Don't forget to bring sunscreen, as it can get very hot during the day. It is also a good idea to (4) _____ a waterproof jacket, just in case it rains in the evening. The festival offers a wide (5) _____ of food from different countries, so you will definitely find something you like. It is an experience you will (6) _____ forget!",
         "passageId": "en-b1-p-lesen-t5-cloze-music-festival-03-01",
         "questions": [
           {
@@ -873,7 +873,7 @@
               "a) number",
               "b) range",
               "c) collection",
-              "d) variety"
+              "d) amount"
             ],
             "passageId": "en-b1-p-lesen-t5-cloze-music-festival-03-01"
           },
@@ -920,7 +920,7 @@
             ],
             "difficulty": 3,
             "options": [
-              "a) carry",
+              "a) collect",
               "b) hold",
               "c) fetch",
               "d) pack"
@@ -1341,7 +1341,7 @@
         "teil": 2,
         "instruction": "Listen and answer the questions in Part 2.",
         "blueprintSlot": "short_dialogue_mcq",
-        "transcript": "Woman: Have you checked the weather forecast for our hiking trip? Man: Yes, it says it will be cloudy but dry, so we should be fine as long as we have warm jackets.\n\nBoy: Did you finish that book I lent you? Girl: Not yet, I've been so busy with my guitar lessons that I've only managed to read a few pages.\n\nMan: Should we take the train or drive to the coast? Woman: The train is much faster and we won't have to worry about finding a parking space in the busy town center.\n\nBoy: I've finally finished my painting! Girl: That's great! Does that mean you're free to come to the cinema with us later?\n\nWoman: I'm really looking forward to the city break, but I'm worried about the flight times. Man: Why? Woman: We have to be at the airport at 4 a.m. for the early departure.\n\nBoy: Have you finished the invitations for your sister's party? Girl: Almost. I just need to add the time. My mum said we should start at four, but I think five is better so everyone can get there after work.",
+        "transcript": "Woman: Have you checked the weather forecast for our hiking trip? Man: Yes, it says it will be cloudy but dry, so we should be fine as long as we have warm jackets.\n\nBoy: Did you finish that book I lent you? Girl: Not yet, I've been so busy with my guitar lessons that I've only managed to read a few pages.\n\nMan: Should we take the train or drive to the coast? Woman: The train is much faster and we won't have to worry about finding a parking space in the busy town centre.\n\nBoy: I've finally finished my painting! Girl: That's great! Does that mean you're free to come to the cinema with us later?\n\nWoman: I'm really looking forward to the city break, but I'm worried about the flight times. Man: Why? Woman: We have to be at the airport at 4 a.m. for the early departure.\n\nBoy: Have you finished the invitations for your sister's party? Girl: Almost. I just need to add the time. My mum said we should start at four, but I think five is better so everyone can get there after work.",
         "segments": [
           {
             "id": "seg_2_0",
@@ -1410,7 +1410,7 @@
           {
             "id": "seg_2_2",
             "label": "Recording 3",
-            "transcript": "Man: Should we take the train or drive to the coast? Woman: The train is much faster and we won't have to worry about finding a parking space in the busy town center.",
+            "transcript": "Man: Should we take the train or drive to the coast? Woman: The train is much faster and we won't have to worry about finding a parking space in the busy town centre.",
             "passageId": "en-b1-h-t2-gist-holiday-talk-01-s4",
             "questions": [
               {
@@ -1672,12 +1672,12 @@
         "teil": 4,
         "instruction": "Listen and answer the questions in Part 4.",
         "blueprintSlot": "interview_mcq",
-        "transcript": "Interviewer: Today we are talking to Sarah Jenkins, who designs video games for a living. Sarah, was it always your dream to work in this industry? Sarah: Actually, no. I studied architecture at university. I loved drawing buildings, but I found the work a bit slow. One day, a friend showed me how to code a simple game, and I was hooked. I realized that game design is like architecture, but you can build entire worlds that people can interact with. Interviewer: That sounds fascinating. What is the most challenging part of your job? Sarah: People think it is just playing games all day, but it is actually very stressful. We have strict deadlines. If the game isn't ready for the holiday season, the company loses a lot of money. Sometimes I spend 12 hours a day staring at code. Interviewer: Do you ever get tired of it? Sarah: Sometimes, but then I see someone playing a game I helped create, and their face lights up. That feeling is worth all the hard work. Interviewer: What advice would you give to young people wanting to enter the field? Sarah: Don't just play games—learn how they are made. Start with simple tools and don't be afraid to make mistakes. Your first game will probably be terrible, and that is perfectly fine!",
+        "transcript": "Interviewer: Today we are talking to Sarah Jenkins, who designs video games for a living. Sarah, was it always your dream to work in this industry? Sarah: Actually, no. I studied architecture at university. I loved drawing buildings, but I found the work a bit slow. One day, a friend showed me how to code a simple game, and I was hooked. I realised that game design is like architecture, but you can build entire worlds that people can interact with. Interviewer: That sounds fascinating. What is the most challenging part of your job? Sarah: People think it is just playing games all day, but it is actually very stressful. We have strict deadlines. If the game isn't ready for the holiday season, the company loses a lot of money. Sometimes I spend 12 hours a day staring at code. Interviewer: Do you ever get tired of it? Sarah: Sometimes, but then I see someone playing a game I helped create, and their face lights up. That feeling is worth all the hard work. Interviewer: What advice would you give to young people wanting to enter the field? Sarah: Don't just play games—learn how they are made. Start with simple tools and don't be afraid to make mistakes. Your first game will probably be terrible, and that is perfectly fine!",
         "segments": [
           {
             "id": "seg_4_0",
             "label": "Recording 1",
-            "transcript": "Interviewer: Today we are talking to Sarah Jenkins, who designs video games for a living. Sarah, was it always your dream to work in this industry? Sarah: Actually, no. I studied architecture at university. I loved drawing buildings, but I found the work a bit slow. One day, a friend showed me how to code a simple game, and I was hooked. I realized that game design is like architecture, but you can build entire worlds that people can interact with. Interviewer: That sounds fascinating. What is the most challenging part of your job? Sarah: People think it is just playing games all day, but it is actually very stressful. We have strict deadlines. If the game isn't ready for the holiday season, the company loses a lot of money. Sometimes I spend 12 hours a day staring at code. Interviewer: Do you ever get tired of it? Sarah: Sometimes, but then I see someone playing a game I helped create, and their face lights up. That feeling is worth all the hard work. Interviewer: What advice would you give to young people wanting to enter the field? Sarah: Don't just play games—learn how they are made. Start with simple tools and don't be afraid to make mistakes. Your first game will probably be terrible, and that is perfectly fine!",
+            "transcript": "Interviewer: Today we are talking to Sarah Jenkins, who designs video games for a living. Sarah, was it always your dream to work in this industry? Sarah: Actually, no. I studied architecture at university. I loved drawing buildings, but I found the work a bit slow. One day, a friend showed me how to code a simple game, and I was hooked. I realised that game design is like architecture, but you can build entire worlds that people can interact with. Interviewer: That sounds fascinating. What is the most challenging part of your job? Sarah: People think it is just playing games all day, but it is actually very stressful. We have strict deadlines. If the game isn't ready for the holiday season, the company loses a lot of money. Sometimes I spend 12 hours a day staring at code. Interviewer: Do you ever get tired of it? Sarah: Sometimes, but then I see someone playing a game I helped create, and their face lights up. That feeling is worth all the hard work. Interviewer: What advice would you give to young people wanting to enter the field? Sarah: Don't just play games—learn how they are made. Start with simple tools and don't be afraid to make mistakes. Your first game will probably be terrible, and that is perfectly fine!",
             "passageId": "en-b1-p-horen-t4-interview-game-designer-01-01",
             "questions": [
               {

@@ -42,7 +42,10 @@ async function synthesizeElevenLabs(text, voice, lang) {
   if (!voiceId) return null;
 
   const model = resolveTtsModel();
-  const url = `https://api.elevenlabs.io/v1/text-to-speech/${encodeURIComponent(voiceId)}`;
+  // 64 kbps is plenty for speech and halves the default 128 kbps: the de/B1 pool alone is
+  // ~8 h of audio. Cost is per character, so the format does not change the price.
+  const format = process.env.ELEVENLABS_OUTPUT_FORMAT || 'mp3_44100_64';
+  const url = `https://api.elevenlabs.io/v1/text-to-speech/${encodeURIComponent(voiceId)}?output_format=${encodeURIComponent(format)}`;
 
   const res = await fetch(url, {
     method: 'POST',

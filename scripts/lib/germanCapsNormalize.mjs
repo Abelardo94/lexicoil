@@ -119,18 +119,32 @@ export function applyGermanCapsNormalize(batch, opts = {}) {
   walkBatchStrings(batch, (path, value) => beforeMap.set(path, value));
   const documentProperNames = collectDocumentProperNames(batch);
 
+  // Steps 1 and 2 encode GERMAN orthography (mid-sentence decap + noun capitalization) and
+  // this module has no language awareness of its own — it works off a fixed German noun list.
+  // Running them on English silently capitalizes common nouns ("the Bus back to school").
+  // Risk #1 in docs/audit/gates-en-applicability.md. Absent lang still means German, which is
+  // the historical default asserted by normalizeBatch.lang-guard.test.mjs. The
+  // language-neutral steps (markdown strip, MCQ prefix dedupe) run for every language.
+  const germanCaps = String(opts.lang || 'de').trim().toLowerCase() === 'de';
+
   const { batch: stripped, totalFixed: markdownFixed } = stripMarkdownLeakInBatch(batch);
-  const { batch: decapped, totalFixed: decapFixed } = decapitalizeBatchMidSentence(stripped);
+  const { batch: decapped, totalFixed: decapFixed } = germanCaps
+    ? decapitalizeBatchMidSentence(stripped)
+    : { batch: stripped, totalFixed: 0 };
   let current = decapped;
   let capFixed = 0;
-  if (!opts.decapOnly) {
+  if (germanCaps && !opts.decapOnly) {
     const capped = capitalizeBatchNouns(current);
     current = capped.batch;
     capFixed = capped.totalFixed;
   }
   const normalized = opts.decapOnly ? current : normalizeBatchMcqOptionCapitalization(current);
   const { batch: dedupedRaw, fixed: dedupeFixed } = dedupeBatchMcqOptionLetterPrefixes(normalized);
-  const deduped = restoreProperNamesInBatch(dedupedRaw, documentProperNames);
+  // The restore undoes the German decap heuristics above, so it only applies when they ran.
+  // It treats passages[0].title as a proper name and forces its casing case-insensitively
+  // across the batch; an English headline ("The Green Valley Music Festival") then turned
+  // "decided to (1) ______ the Green Valley" into "…______ The Green Valley".
+  const deduped = germanCaps ? restoreProperNamesInBatch(dedupedRaw, documentProperNames) : dedupedRaw;
 
   const changes = [];
   walkBatchStrings(deduped, (path, after) => {

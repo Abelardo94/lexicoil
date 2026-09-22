@@ -397,7 +397,7 @@
               "D) Mountain Peak Trails — If you enjoy long walks and breathtaking views, this is the place for you. Remember to bring sturdy boots and plenty of water, as the climb to the summit can be quite challenging.",
               "E) City Botanical Gardens — A tranquil escape in the middle of the city. Walk through exotic flower displays and relax by the central fountain. It is an ideal spot for anyone looking for a calm, relaxing day out.",
               "F) Old Town Cooking School — Learn to prepare traditional local dishes in a friendly group environment. This is a hands-on experience where you get to eat what you make at the end of the class.",
-              "G) Science Discovery Center — This center is packed with experiments and technology demonstrations. It is highly recommended for teenagers interested in engineering and how things work in the modern world.",
+              "G) Science Discovery Centre — This centre is packed with experiments and technology demonstrations. It is highly recommended for teenagers interested in engineering and how things work in the modern world.",
               "H) Lakeside Boat Rentals — Rent a small rowing boat or a pedal boat for an hour or two. It is a fun way to get out on the water and enjoy the sunshine with friends or family."
             ],
             "correct": "A",
@@ -425,7 +425,7 @@
               "D) Mountain Peak Trails — If you enjoy long walks and breathtaking views, this is the place for you. Remember to bring sturdy boots and plenty of water, as the climb to the summit can be quite challenging.",
               "E) City Botanical Gardens — A tranquil escape in the middle of the city. Walk through exotic flower displays and relax by the central fountain. It is an ideal spot for anyone looking for a calm, relaxing day out.",
               "F) Old Town Cooking School — Learn to prepare traditional local dishes in a friendly group environment. This is a hands-on experience where you get to eat what you make at the end of the class.",
-              "G) Science Discovery Center — This center is packed with experiments and technology demonstrations. It is highly recommended for teenagers interested in engineering and how things work in the modern world.",
+              "G) Science Discovery Centre — This centre is packed with experiments and technology demonstrations. It is highly recommended for teenagers interested in engineering and how things work in the modern world.",
               "H) Lakeside Boat Rentals — Rent a small rowing boat or a pedal boat for an hour or two. It is a fun way to get out on the water and enjoy the sunshine with friends or family."
             ],
             "correct": "C",
@@ -453,7 +453,7 @@
               "D) Mountain Peak Trails — If you enjoy long walks and breathtaking views, this is the place for you. Remember to bring sturdy boots and plenty of water, as the climb to the summit can be quite challenging.",
               "E) City Botanical Gardens — A tranquil escape in the middle of the city. Walk through exotic flower displays and relax by the central fountain. It is an ideal spot for anyone looking for a calm, relaxing day out.",
               "F) Old Town Cooking School — Learn to prepare traditional local dishes in a friendly group environment. This is a hands-on experience where you get to eat what you make at the end of the class.",
-              "G) Science Discovery Center — This center is packed with experiments and technology demonstrations. It is highly recommended for teenagers interested in engineering and how things work in the modern world.",
+              "G) Science Discovery Centre — This centre is packed with experiments and technology demonstrations. It is highly recommended for teenagers interested in engineering and how things work in the modern world.",
               "H) Lakeside Boat Rentals — Rent a small rowing boat or a pedal boat for an hour or two. It is a fun way to get out on the water and enjoy the sunshine with friends or family."
             ],
             "correct": "F",
@@ -481,7 +481,7 @@
               "D) Mountain Peak Trails — If you enjoy long walks and breathtaking views, this is the place for you. Remember to bring sturdy boots and plenty of water, as the climb to the summit can be quite challenging.",
               "E) City Botanical Gardens — A tranquil escape in the middle of the city. Walk through exotic flower displays and relax by the central fountain. It is an ideal spot for anyone looking for a calm, relaxing day out.",
               "F) Old Town Cooking School — Learn to prepare traditional local dishes in a friendly group environment. This is a hands-on experience where you get to eat what you make at the end of the class.",
-              "G) Science Discovery Center — This center is packed with experiments and technology demonstrations. It is highly recommended for teenagers interested in engineering and how things work in the modern world.",
+              "G) Science Discovery Centre — This centre is packed with experiments and technology demonstrations. It is highly recommended for teenagers interested in engineering and how things work in the modern world.",
               "H) Lakeside Boat Rentals — Rent a small rowing boat or a pedal boat for an hour or two. It is a fun way to get out on the water and enjoy the sunshine with friends or family."
             ],
             "correct": "G",
@@ -495,7 +495,7 @@
               "technology"
             ],
             "difficulty": 4,
-            "explanation": "The Science Discovery Center is recommended for teenagers interested in technology and experiments."
+            "explanation": "The Science Discovery Centre is recommended for teenagers interested in technology and experiments."
           },
           {
             "id": "ql_en-b1-r-t2-match-day-trips-03-q5",
@@ -509,7 +509,7 @@
               "D) Mountain Peak Trails — If you enjoy long walks and breathtaking views, this is the place for you. Remember to bring sturdy boots and plenty of water, as the climb to the summit can be quite challenging.",
               "E) City Botanical Gardens — A tranquil escape in the middle of the city. Walk through exotic flower displays and relax by the central fountain. It is an ideal spot for anyone looking for a calm, relaxing day out.",
               "F) Old Town Cooking School — Learn to prepare traditional local dishes in a friendly group environment. This is a hands-on experience where you get to eat what you make at the end of the class.",
-              "G) Science Discovery Center — This center is packed with experiments and technology demonstrations. It is highly recommended for teenagers interested in engineering and how things work in the modern world.",
+              "G) Science Discovery Centre — This centre is packed with experiments and technology demonstrations. It is highly recommended for teenagers interested in engineering and how things work in the modern world.",
               "H) Lakeside Boat Rentals — Rent a small rowing boat or a pedal boat for an hour or two. It is a fun way to get out on the water and enjoy the sunshine with friends or family."
             ],
             "correct": "E",
@@ -526,7 +526,7 @@
             "explanation": "The Botanical Gardens offer a tranquil escape and a relaxing day out in the city."
           }
         ],
-        "text": "A) Riverside Adventure Park — This park offers thrilling zip-lines and high-rope courses through the trees. It is perfect for those who love an adrenaline rush and want to test their physical limits in a beautiful outdoor setting.\nB) The Historical Museum — Explore ancient artifacts and learn about the city's origins. The museum features interactive displays that are great for families with children who want to learn while having fun.\nC) Coastal Art Gallery — Located right by the sea, this gallery showcases local artists' work. It is a quiet, peaceful place to spend an afternoon admiring paintings and photography inspired by the ocean.\nD) Mountain Peak Trails — If you enjoy long walks and breathtaking views, this is the place for you. Remember to bring sturdy boots and plenty of water, as the climb to the summit can be quite challenging.\nE) City Botanical Gardens — A tranquil escape in the middle of the city. Walk through exotic flower displays and relax by the central fountain. It is an ideal spot for anyone looking for a calm, relaxing day out.\nF) Old Town Cooking School — Learn to prepare traditional local dishes in a friendly group environment. This is a hands-on experience where you get to eat what you make at the end of the class.\nG) Science Discovery Center — This center is packed with experiments and technology demonstrations. It is highly recommended for teenagers interested in engineering and how things work in the modern world.\nH) Lakeside Boat Rentals — Rent a small rowing boat or a pedal boat for an hour or two. It is a fun way to get out on the water and enjoy the sunshine with friends or family."
+        "text": "A) Riverside Adventure Park — This park offers thrilling zip-lines and high-rope courses through the trees. It is perfect for those who love an adrenaline rush and want to test their physical limits in a beautiful outdoor setting.\nB) The Historical Museum — Explore ancient artifacts and learn about the city's origins. The museum features interactive displays that are great for families with children who want to learn while having fun.\nC) Coastal Art Gallery — Located right by the sea, this gallery showcases local artists' work. It is a quiet, peaceful place to spend an afternoon admiring paintings and photography inspired by the ocean.\nD) Mountain Peak Trails — If you enjoy long walks and breathtaking views, this is the place for you. Remember to bring sturdy boots and plenty of water, as the climb to the summit can be quite challenging.\nE) City Botanical Gardens — A tranquil escape in the middle of the city. Walk through exotic flower displays and relax by the central fountain. It is an ideal spot for anyone looking for a calm, relaxing day out.\nF) Old Town Cooking School — Learn to prepare traditional local dishes in a friendly group environment. This is a hands-on experience where you get to eat what you make at the end of the class.\nG) Science Discovery Centre — This centre is packed with experiments and technology demonstrations. It is highly recommended for teenagers interested in engineering and how things work in the modern world.\nH) Lakeside Boat Rentals — Rent a small rowing boat or a pedal boat for an hour or two. It is a fun way to get out on the water and enjoy the sunshine with friends or family."
       },
       {
         "teil": 3,
@@ -844,7 +844,7 @@
             ],
             "difficulty": 3,
             "options": [
-              "a) knew",
+              "a) knowing",
               "b) know",
               "c) knew",
               "d) known"
@@ -920,7 +920,7 @@
             "difficulty": 4,
             "options": [
               "a) showed",
-              "b) told",
+              "b) spoke",
               "c) said",
               "d) explained"
             ],
@@ -971,8 +971,8 @@
             "options": [
               "a) done",
               "b) prepared",
-              "c) cooked",
-              "d) finished"
+              "c) bought",
+              "d) ordered"
             ],
             "passageId": "en-b1-p-lesen-t5-cloze-cooking-class-01-01"
           }
@@ -983,7 +983,7 @@
         "instruction": "Read the text(s) and answer the questions in Part 6.",
         "blueprintSlot": "open_cloze",
         "textTitle": "My First Part-Time Job",
-        "text": "Last summer, I decided to look for a part-time job to earn some extra money. I found an advertisement in the local newspaper for a shop assistant in a small bakery. I had (1) _______ worked in a shop before, so I was a little nervous during the interview. However, the manager was very kind and offered me the job immediately. My main duties included serving customers and keeping the shop clean. I usually worked (2) _______ Saturday mornings from eight until midday. It was hard work, but I enjoyed (3) _______ time with my colleagues. One of the best things about the job was the free bread I could take home (4) _______ the end of my shift. I learned a lot about responsibility and how to talk to people. I think (5) _______ student should try to get a part-time job because it is a great way to gain experience. I am definitely going to look for (6) _______ job next summer too.",
+        "text": "Last summer, I decided to look for a part-time job to earn some extra money. I found an advertisement (1) _______ the local newspaper for a shop assistant in a small bakery. I had never worked in a shop before, so I was a little nervous during the interview. However, the manager was very kind and offered me the job immediately. My main duties included serving customers and keeping the shop clean. I usually worked (2) _______ Saturday mornings from eight until midday. It was hard work, but I enjoyed spending time (3) _______ my colleagues. One of the best things about the job was the free bread I could take home (4) _______ the end of my shift. I learned a lot about responsibility and how to talk to people. I think (5) _______ student should try to get a part-time job because it is a great way to gain experience. I am definitely going to look for (6) _______ job next summer too.",
         "passageId": "en-b1-p-lesen-t6-open-cloze-part-time-job-01-01",
         "questions": [
           {
@@ -1009,7 +1009,7 @@
             "id": "ql_en-b1-r-t6-open-cloze-part-time-job-01-q1",
             "type": "gap_fill",
             "question": "Gap 1",
-            "correct": "never",
+            "correct": "in",
             "correctAnswer": "never",
             "explanation": "The context implies the speaker had no previous experience, so 'never' fits the negative structure.",
             "grammarTags": [
@@ -1066,7 +1066,7 @@
             "id": "ql_en-b1-r-t6-open-cloze-part-time-job-01-q3",
             "type": "gap_fill",
             "question": "Gap 3",
-            "correct": "spending",
+            "correct": "with",
             "correctAnswer": "spending",
             "explanation": "The verb 'enjoy' is followed by the gerund form of the verb.",
             "grammarTags": [
@@ -1673,12 +1673,12 @@
         "teil": 4,
         "instruction": "Listen and answer the questions in Part 4.",
         "blueprintSlot": "interview_mcq",
-        "transcript": "Interviewer: Sarah, you've been blogging for five years now. What made you start? Sarah: I was working in an office and felt bored. I took a trip to Peru and realized I wanted to share my experiences. Interviewer: Was it hard to get started? Sarah: Yes, I didn't know anything about photography or writing for an audience. I had to learn everything from scratch. Interviewer: Many people think travel blogging is just a holiday. What do you say to them? Sarah: It's definitely not! I spend hours editing photos and researching locations. It's a full-time job. Interviewer: Do you ever get lonely? Sarah: Sometimes, but I meet so many interesting people on the road that it balances out. Interviewer: What is your favorite part of the job? Sarah: Seeing a place I've only read about in books. It's magical. Interviewer: Any advice for beginners? Sarah: Be yourself. Don't try to copy other bloggers. Authenticity is what people want to see.",
+        "transcript": "Interviewer: Sarah, you've been blogging for five years now. What made you start? Sarah: I was working in an office and felt bored. I took a trip to Peru and realised I wanted to share my experiences. Interviewer: Was it hard to get started? Sarah: Yes, I didn't know anything about photography or writing for an audience. I had to learn everything from scratch. Interviewer: Many people think travel blogging is just a holiday. What do you say to them? Sarah: It's definitely not! I spend hours editing photos and researching locations. It's a full-time job. Interviewer: Do you ever get lonely? Sarah: Sometimes, but I meet so many interesting people on the road that it balances out. Interviewer: What is your favourite part of the job? Sarah: Seeing a place I've only read about in books. It's magical. Interviewer: Any advice for beginners? Sarah: Be yourself. Don't try to copy other bloggers. Authenticity is what people want to see.",
         "segments": [
           {
             "id": "seg_4_0",
             "label": "Recording 1",
-            "transcript": "Interviewer: Sarah, you've been blogging for five years now. What made you start? Sarah: I was working in an office and felt bored. I took a trip to Peru and realized I wanted to share my experiences. Interviewer: Was it hard to get started? Sarah: Yes, I didn't know anything about photography or writing for an audience. I had to learn everything from scratch. Interviewer: Many people think travel blogging is just a holiday. What do you say to them? Sarah: It's definitely not! I spend hours editing photos and researching locations. It's a full-time job. Interviewer: Do you ever get lonely? Sarah: Sometimes, but I meet so many interesting people on the road that it balances out. Interviewer: What is your favorite part of the job? Sarah: Seeing a place I've only read about in books. It's magical. Interviewer: Any advice for beginners? Sarah: Be yourself. Don't try to copy other bloggers. Authenticity is what people want to see.",
+            "transcript": "Interviewer: Sarah, you've been blogging for five years now. What made you start? Sarah: I was working in an office and felt bored. I took a trip to Peru and realised I wanted to share my experiences. Interviewer: Was it hard to get started? Sarah: Yes, I didn't know anything about photography or writing for an audience. I had to learn everything from scratch. Interviewer: Many people think travel blogging is just a holiday. What do you say to them? Sarah: It's definitely not! I spend hours editing photos and researching locations. It's a full-time job. Interviewer: Do you ever get lonely? Sarah: Sometimes, but I meet so many interesting people on the road that it balances out. Interviewer: What is your favourite part of the job? Sarah: Seeing a place I've only read about in books. It's magical. Interviewer: Any advice for beginners? Sarah: Be yourself. Don't try to copy other bloggers. Authenticity is what people want to see.",
             "passageId": "en-b1-p-horen-t4-interview-travel-blogger-02-01",
             "questions": [
               {
@@ -1725,7 +1725,7 @@
                 ],
                 "difficulty": 4,
                 "options": [
-                  "a) She prefers being alone while traveling.",
+                  "a) She prefers being alone while travelling.",
                   "b) It is the hardest part of her job.",
                   "c) It is not a major problem for her."
                 ],

@@ -10,6 +10,7 @@ import { createRequire } from 'node:module';
 import { fileURLToPath } from 'node:url';
 import { buildUpdatedPayload } from './mergeSeedBlobPayload.mjs';
 import { comparePayloadSemantic } from './verifyBlobContent.mjs';
+import { mapWithConcurrency } from './mapWithConcurrency.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../..');
 const require = createRequire(import.meta.url);
@@ -30,6 +31,16 @@ export class BlobStoreReadError extends Error {
 const DEFAULT_MODULES = ['lesen', 'horen', 'schreiben', 'sprechen'];
 
 /**
+ * Blob reads run in parallel up to this many at a time. Override with
+ * BLOBS_CONCURRENCY when Netlify is rate-limiting or when debugging: 1 restores
+ * the old strictly-sequential behaviour.
+ */
+export const DEFAULT_CONCURRENCY = Math.max(
+  1,
+  Number(process.env.BLOBS_CONCURRENCY) || 12,
+);
+
+/**
  * Load blob index — throws BlobStoreReadError on any list/get failure.
  * @returns {{ blobIndex: Map, indexStats: object }}
  */
@@ -40,6 +51,8 @@ export async function loadBlobIndexStrict(
     level = 'B1',
     modules = DEFAULT_MODULES,
     partPayloadKey = defaultPartPayloadKey,
+    concurrency = DEFAULT_CONCURRENCY,
+    onProgress = null,
   } = {},
 ) {
   const blobIndex = new Map();
@@ -60,16 +73,26 @@ export async function loadBlobIndexStrict(
     const blobs = listed?.blobs ?? [];
     indexStats.modules[mod] = { listed: blobs.length, indexed: 0 };
 
-    for (const blob of blobs) {
-      let row;
-      try {
-        row = await store.get(blob.key, { type: 'json' });
-      } catch (err) {
-        throw new BlobStoreReadError(
-          `No se pudo leer entrada de índice ${blob.key}: ${err.message}`,
-          { cause: err, module: mod, phase: 'index-row' },
-        );
-      }
+    // One network round-trip per index entry. Sequentially that is ~958 of them
+    // for de/B1 with nothing printed in between, which is indistinguishable from
+    // a hang; mapWithConcurrency keeps the fail-closed behaviour and adds progress.
+    const rows = await mapWithConcurrency(
+      blobs,
+      concurrency,
+      async (blob) => {
+        try {
+          return await store.get(blob.key, { type: 'json' });
+        } catch (err) {
+          throw new BlobStoreReadError(
+            `No se pudo leer entrada de índice ${blob.key}: ${err.message}`,
+            { cause: err, module: mod, phase: 'index-row' },
+          );
+        }
+      },
+      { onProgress: onProgress && ((d, t) => onProgress(mod, d, t)) },
+    );
+
+    for (const row of rows) {
       if (row?.partKey && row?.id) {
         blobIndex.set(row.id, { ...row, module: mod });
         indexStats.modules[mod].indexed++;
@@ -109,6 +132,38 @@ export async function fetchBlobPayloadStrict(
     );
   }
   return payload;
+}
+
+/**
+ * Every payload the seed needs from blobs, fetched in parallel.
+ *
+ * Fail-closed is preserved: mapWithConcurrency rethrows the first failing item's
+ * error and returns nothing, so a caller can never proceed with a half-filled
+ * cache and report the rest as matching.
+ */
+async function prefetchBlobPayloads(
+  seedArr,
+  store,
+  blobIndex,
+  { lang, level, partPayloadKey, concurrency, onProgress },
+) {
+  const wanted = [];
+  for (const seedPart of seedArr) {
+    const id = seedPart.partId || seedPart.id;
+    if (!id || !blobIndex.has(id)) continue;
+    wanted.push({ id, mod: seedPart.module || blobIndex.get(id)?.module || 'lesen' });
+  }
+
+  const payloads = await mapWithConcurrency(
+    wanted,
+    concurrency,
+    ({ id, mod }) => fetchBlobPayloadStrict(store, lang, level, mod, id, { partPayloadKey }),
+    { onProgress: onProgress && ((d, t) => onProgress('payloads', d, t)) },
+  );
+
+  const cache = new Map();
+  wanted.forEach((w, i) => cache.set(w.id, payloads[i]));
+  return cache;
 }
 
 function diffObjects(a, b, prefix = '') {
@@ -156,13 +211,25 @@ export async function planPushOperations(
   seedArr,
   store,
   blobIndex,
-  { normalizeKeys = false, lang = 'de', level = 'B1', partPayloadKey = defaultPartPayloadKey } = {},
+  {
+    normalizeKeys = false,
+    lang = 'de',
+    level = 'B1',
+    partPayloadKey = defaultPartPayloadKey,
+    concurrency = DEFAULT_CONCURRENCY,
+    onProgress = null,
+  } = {},
 ) {
   const missing = [];
   const differs = [];
   const matching = [];
   const mergeErrors = [];
-  const blobCache = new Map();
+
+  // Fetch every payload we need up front, in parallel. The comparison below is
+  // pure CPU and stays exactly as it was, in seed order; only the waiting moves.
+  const blobCache = await prefetchBlobPayloads(seedArr, store, blobIndex, {
+    lang, level, partPayloadKey, concurrency, onProgress,
+  });
 
   for (const seedPart of seedArr) {
     const id = seedPart.partId || seedPart.id;
@@ -173,9 +240,7 @@ export async function planPushOperations(
       continue;
     }
 
-    const mod = seedPart.module || blobIndex.get(id)?.module || 'lesen';
-    const blobPart = await fetchBlobPayloadStrict(store, lang, level, mod, id, { partPayloadKey });
-    blobCache.set(id, blobPart);
+    const blobPart = blobCache.get(id);
 
     let payload;
     try {
@@ -258,6 +323,8 @@ export async function runVerifyComparison(
     buildPayload = buildUpdatedPayload,
     backupById = null,
     keySeqForPartFn = null,
+    concurrency = DEFAULT_CONCURRENCY,
+    onProgress = null,
   } = {},
 ) {
   const results = {
@@ -271,6 +338,10 @@ export async function runVerifyComparison(
   let keySeqChangedInBlob = 0;
   let keySeqChecked = 0;
 
+  const blobCache = await prefetchBlobPayloads(seedArr, store, blobIndex, {
+    lang, level, partPayloadKey, concurrency, onProgress,
+  });
+
   for (const seedPart of seedArr) {
     const id = seedPart.partId || seedPart.id;
     if (!id) continue;
@@ -280,8 +351,7 @@ export async function runVerifyComparison(
       continue;
     }
 
-    const mod = seedPart.module || blobIndex.get(id)?.module || 'lesen';
-    const blobPart = await fetchBlobPayloadStrict(store, lang, level, mod, id, { partPayloadKey });
+    const blobPart = blobCache.get(id);
 
     let expected;
     try {

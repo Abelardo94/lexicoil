@@ -1,0 +1,280 @@
+{
+  "passages": [
+    {
+      "id": "en-b1-p-horen-t2-gist-free-time-01-01",
+      "module": "horen",
+      "title": "Dialogue 1: Photography",
+      "text": "Woman: Did you see the photos I posted from my weekend walk?\nMan: Yes, they're amazing! The lighting in the forest was perfect. I didn't know you were so good at photography.\nWoman: Thanks! I've been practicing a lot, but I still struggle with getting the focus right on moving objects, like birds.\nMan: Well, you've definitely got a talent for landscapes.",
+      "passageVocab": [
+        "photography",
+        "landscape",
+        "focus",
+        "struggle"
+      ]
+    },
+    {
+      "id": "en-b1-p-horen-t2-gist-free-time-01-02",
+      "module": "horen",
+      "title": "Dialogue 2: Hiking",
+      "text": "Man: Are you coming hiking with us on Sunday? We're going up to the peak.\nWoman: I'd love to, but my hiking boots are completely worn out, and I haven't had time to buy new ones.\nMan: You could just wear your running trainers. The path is quite flat until the very end.\nWoman: Actually, the weather forecast says it's going to rain, so the ground will be too muddy for trainers. I'll pass this time.",
+      "passageVocab": [
+        "hiking",
+        "boots",
+        "forecast",
+        "muddy"
+      ]
+    },
+    {
+      "id": "en-b1-p-horen-t2-gist-free-time-01-03",
+      "module": "horen",
+      "title": "Dialogue 3: Board Games",
+      "text": "Woman: Have you played that new strategy board game yet?\nMan: Yes, my brother bought it. It took us about an hour just to read the instructions!\nWoman: I know, it's really complicated at first. But once you get started, it's incredibly fun.\nMan: Definitely. We ended up playing until midnight. I can't wait to play it again this weekend.",
+      "passageVocab": [
+        "strategy",
+        "instructions",
+        "complicated",
+        "incredibly"
+      ]
+    },
+    {
+      "id": "en-b1-p-horen-t2-gist-free-time-01-04",
+      "module": "horen",
+      "title": "Dialogue 4: Cooking Class",
+      "text": "Man: How was your first Italian cooking class yesterday?\nWoman: It was great! The chef was really funny and explained everything clearly.\nMan: Did you make pasta from scratch?\nWoman: Yes, though mine turned out a bit too thick. Still, it tasted amazing, and I learned some useful techniques that I can easily try at home.",
+      "passageVocab": [
+        "chef",
+        "from scratch",
+        "technique",
+        "taste"
+      ]
+    },
+    {
+      "id": "en-b1-p-horen-t2-gist-free-time-01-05",
+      "module": "horen",
+      "title": "Dialogue 5: Cinema",
+      "text": "Woman: Do you want to see the new science-fiction film tonight?\nMan: I've heard the special effects are incredible, but the story is quite weak and predictable.\nWoman: Really? The reviews I read said the acting was brilliant, especially the main character.\nMan: Well, I suppose we should judge for ourselves. Let's get tickets.",
+      "passageVocab": [
+        "predictable",
+        "special effects",
+        "review",
+        "brilliant"
+      ]
+    },
+    {
+      "id": "en-b1-p-horen-t2-gist-free-time-01-06",
+      "module": "horen",
+      "title": "Dialogue 6: Guitar Practice",
+      "text": "Man: I'm thinking of giving up the guitar. I've been practicing for three months and I still can't play a whole song.\nWoman: Don't be so hard on yourself! It takes time. Are you practicing every day?\nMan: Well, only on weekends, really. I'm too tired after work.\nWoman: That's the problem. Even fifteen minutes a day during the week would make a huge difference.",
+      "passageVocab": [
+        "give up",
+        "practice",
+        "hard on yourself",
+        "difference"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "en-b1-h-t2-gist-free-time-01-q1",
+      "module": "horen",
+      "teil": 2,
+      "type": "multiple_choice",
+      "question": "You hear two friends talking about photography. What does the woman say about it?",
+      "correct": "c",
+      "correctAnswer": "c",
+      "explanation": "The woman explains that she struggles to get the focus right on moving objects like birds, which means she finds certain subjects difficult to shoot.",
+      "options": [
+        "a) She prefers taking photos of animals.",
+        "b) She wants to take a professional course.",
+        "c) She finds some subjects difficult to shoot."
+      ],
+      "grammarTags": [
+        "g-en-b1-gerunds"
+      ],
+      "topicTags": [
+        "hobbies-and-free-time"
+      ],
+      "vocabularyTags": [
+        "photography",
+        "focus"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge",
+      "passageId": "en-b1-p-horen-t2-gist-free-time-01-01"
+    },
+    {
+      "id": "en-b1-h-t2-gist-free-time-01-q2",
+      "module": "horen",
+      "teil": 2,
+      "type": "multiple_choice",
+      "question": "You hear two friends talking about a planned hike. Why does the woman decide not to go?",
+      "correct": "c",
+      "correctAnswer": "c",
+      "explanation": "The woman says that because of the predicted rain, the ground will be too muddy for her running trainers, which are her only option since her boots are worn out.",
+      "options": [
+        "a) She has to go shopping for new boots instead.",
+        "b) She finds the route too difficult.",
+        "c) She thinks the weather will make the path unsafe for her footwear."
+      ],
+      "grammarTags": [
+        "g-en-b1-conditionals"
+      ],
+      "topicTags": [
+        "hobbies-and-free-time"
+      ],
+      "vocabularyTags": [
+        "hiking",
+        "weather"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge",
+      "passageId": "en-b1-p-horen-t2-gist-free-time-01-02"
+    },
+    {
+      "id": "en-b1-h-t2-gist-free-time-01-q3",
+      "module": "horen",
+      "teil": 2,
+      "type": "multiple_choice",
+      "question": "You hear two friends talking about a board game. What do they agree about?",
+      "correct": "b",
+      "correctAnswer": "b",
+      "explanation": "The woman says the game is 'incredibly fun' once you start, and the man agrees ('Definitely') and says he cannot wait to play it again.",
+      "options": [
+        "a) The rules are too difficult to understand.",
+        "b) It is a very enjoyable game to play.",
+        "c) It takes too long to finish a game."
+      ],
+      "grammarTags": [
+        "g-en-b1-adverbs"
+      ],
+      "topicTags": [
+        "hobbies-and-free-time"
+      ],
+      "vocabularyTags": [
+        "board-games",
+        "fun"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge",
+      "passageId": "en-b1-p-horen-t2-gist-free-time-01-03"
+    },
+    {
+      "id": "en-b1-h-t2-gist-free-time-01-q4",
+      "module": "horen",
+      "teil": 2,
+      "type": "multiple_choice",
+      "question": "You hear a woman talking about a cooking class she attended. How does she feel about it?",
+      "correct": "a",
+      "correctAnswer": "a",
+      "explanation": "The woman says she learned some useful techniques that she can easily try at home, showing she is pleased with the practical skills she gained.",
+      "options": [
+        "a) Pleased with the practical skills she gained",
+        "b) Annoyed by the teacher's style of instruction",
+        "c) Disappointed with the quality of the food she made"
+      ],
+      "grammarTags": [
+        "g-en-b1-adjectives-ed-ing"
+      ],
+      "topicTags": [
+        "hobbies-and-free-time"
+      ],
+      "vocabularyTags": [
+        "cooking",
+        "techniques"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge",
+      "passageId": "en-b1-p-horen-t2-gist-free-time-01-04"
+    },
+    {
+      "id": "en-b1-h-t2-gist-free-time-01-q5",
+      "module": "horen",
+      "teil": 2,
+      "type": "multiple_choice",
+      "question": "You hear two friends discussing a film they might see. What convinces the man to go?",
+      "correct": "a",
+      "correctAnswer": "a",
+      "explanation": "The man says, 'I suppose we should judge for ourselves. Let's get tickets,' showing he wants to form his own opinion despite the mixed reviews.",
+      "options": [
+        "a) The desire to form his own opinion",
+        "b) The impressive special effects",
+        "c) The positive reviews about the acting"
+      ],
+      "grammarTags": [
+        "g-en-b1-modals"
+      ],
+      "topicTags": [
+        "hobbies-and-free-time"
+      ],
+      "vocabularyTags": [
+        "cinema",
+        "opinion"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge",
+      "passageId": "en-b1-p-horen-t2-gist-free-time-01-05"
+    },
+    {
+      "id": "en-b1-h-t2-gist-free-time-01-q6",
+      "module": "horen",
+      "teil": 2,
+      "type": "multiple_choice",
+      "question": "You hear a woman talking to a friend who is learning the guitar. What is she doing?",
+      "correct": "b",
+      "correctAnswer": "b",
+      "explanation": "The woman suggests that practicing for fifteen minutes a day during the week, rather than only on weekends, would make a huge difference, which is proposing a better routine.",
+      "options": [
+        "a) Agreeing that learning the guitar is too difficult",
+        "b) Suggesting a more effective practice routine",
+        "c) Recommending a different instrument to try"
+      ],
+      "grammarTags": [
+        "g-en-b1-comparatives"
+      ],
+      "topicTags": [
+        "hobbies-and-free-time"
+      ],
+      "vocabularyTags": [
+        "guitar",
+        "practice"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge",
+      "passageId": "en-b1-p-horen-t2-gist-free-time-01-06"
+    }
+  ],
+  "_germanCapsNormalizeVersion": "v3.23-lesen-t2-angebote-corpus-2026-07-28",
+  "_germanCapsNormalizedAt": "2026-09-22T01:57:15.644Z",
+  "_balanceMcqVersion": "v1.2-no-rf-chrono-shuffle-2026-07-11",
+  "_balanceMcqNormalizedAt": "2026-09-22T01:57:15.644Z"
+}

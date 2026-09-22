@@ -2,6 +2,12 @@
 /**
  * Personal Hören runtime — prompts shape, pool fallback, 422 unparseable.
  */
+// Este test prueba el pick contra el store simulado. En local
+// useLocalSeedInRuntime() es true por defecto y mezcla library/reusable-seed/de_B1.json,
+// asi que el sorteo caia entre cientos de partes de disco y la recien anadida casi nunca
+// salia. En produccion (NETLIFY=true) el seed local no se mezcla; aqui se fuerza lo mismo.
+process.env.POOL_SOURCE = 'blobs';
+
 import { createRequire } from 'node:module';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -40,19 +46,41 @@ function assert(label, cond) {
   console.log('OK:', label);
 }
 
+/** Igual que assert pero sin imprimir en verde — para comprobaciones dentro de un bucle. */
+function assert_quiet(label, cond) {
+  if (!cond) {
+    console.error('FAIL:', label);
+    process.exit(1);
+  }
+}
+
 function makeMockStore() {
   const blobs = new Map();
+  // Sin getWithMetadata, casWriteJson no obtiene etag, cae a onlyIfNew sobre una clave que
+  // ya existe y agota los 5 reintentos: cada pick acababa en el catch en vez de en el
+  // camino de CAS. El mock lleva etags para que el test recorra lo que corre en produccion.
+  const etags = new Map();
+  let seq = 0;
   return {
     async setJSON(key, value, opts = {}) {
       if (opts.onlyIfNew && blobs.has(key)) return { modified: false };
+      if (opts.onlyIfMatch && (etags.get(key) ?? null) !== opts.onlyIfMatch) {
+        return { modified: false };
+      }
       blobs.set(key, value);
+      etags.set(key, `etag-${++seq}`);
       return { modified: true };
     },
     async get(key) {
       return blobs.get(key) ?? null;
     },
+    async getWithMetadata(key) {
+      if (!blobs.has(key)) return null;
+      return { data: blobs.get(key), etag: etags.get(key) ?? null };
+    },
     async delete(key) {
       blobs.delete(key);
+      etags.delete(key);
     },
     async list({ prefix }) {
       const keys = [...blobs.keys()].filter((k) => k.startsWith(prefix));
@@ -170,10 +198,39 @@ await addReusablePart(store, {
   questions: t1Questions,
   complete: true,
   verified: true,
+  // partPassesPublishGate exige ademas la marca de SEM-1: complete+verified ya no basta
+  // para servir. El fixture es anterior a ese requisito y por eso el pick devolvia null.
+  sem1VerifiedAt: '2026-09-18T00:00:00.000Z',
 });
 
 const picked = await pickReusablePart(store, 'de', 'B1', 'horen', { teil: 1 });
 assert('pick horen teil 1 returns pool id', picked?.id === 'pool-horen-t1');
+
+// El gate al reves: una parte sin verificar por SEM-1 no puede salir servida.
+await addReusablePart(store, {
+  id: 'pool-horen-t1-sin-sem1',
+  lang: 'de',
+  level: 'B1',
+  module: 'horen',
+  teil: 1,
+  passage: { text: Array.from({ length: 5 }, (_, i) => `Anderer Text ${i + 1}.`).join('\n\n') },
+  questions: t1Questions,
+  complete: true,
+  verified: true,
+});
+for (let i = 0; i < 20; i++) {
+  const p = await pickReusablePart(store, 'de', 'B1', 'horen', { teil: 1 });
+  assert_quiet('parte sin sem1 nunca se sirve', p?.id !== 'pool-horen-t1-sin-sem1');
+}
+assert('parte sin sem1 nunca se sirve (20 tiradas)', true);
+// excludeIds es preferencia, no veto: si al excluir no queda candidato, pickReusablePart
+// vuelve sobre los excluidos (reusablePartsStore.js:392). Lo que nunca puede hacer es
+// colar la parte que no pasa el gate.
+const forzado = await pickReusablePart(store, 'de', 'B1', 'horen', {
+  teil: 1,
+  excludeIds: ['pool-horen-t1'],
+});
+assert('excluir la unica servible la devuelve igual, no la no verificada', forzado?.id === 'pool-horen-t1');
 
 const poolT1 = reusablePartToHorenPart(picked.part, goetheBp);
 assert('pool T1 converts to 5 segments', poolT1.segments?.length === 5);
@@ -268,6 +325,7 @@ await addReusablePart(enStore, {
   questions: enT1Questions,
   complete: true,
   verified: true,
+  sem1VerifiedAt: '2026-09-18T00:00:00.000Z',
 });
 
 const enT4Questions = Array.from({ length: 6 }, (_, i) =>
@@ -283,6 +341,7 @@ await addReusablePart(enStore, {
   questions: enT4Questions,
   complete: true,
   verified: true,
+  sem1VerifiedAt: '2026-09-18T00:00:00.000Z',
 });
 
 const enPickedT1 = await pickReusablePart(enStore, 'en', 'B1', 'horen', { teil: 1 });

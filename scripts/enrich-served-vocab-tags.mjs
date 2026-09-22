@@ -9,6 +9,8 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { createRequire } from 'node:module';
+import { extractVocabularyFromText } from './lib/enrichBatchMetadata.mjs';
+import { tagsForQuestion } from './lib/questionVocabTags.mjs';
 
 const ROOT = path.join(path.dirname(fileURLToPath(import.meta.url)), '..');
 const require = createRequire(import.meta.url);
@@ -46,6 +48,13 @@ function tokenize(text) {
 }
 
 function extractTags(text, lang, lemmaSet, max = 6) {
+  // Mismo pipeline DE (v2 lemma/caps) que enrich-bank-vocab-tags.mjs. La ruta
+  // legacy de abajo producia tags que no casaban con los del banco -- minusculas
+  // (`vorschlag` vs `Vorschlag`) y funcionales que su STOP recortada no filtra
+  // (`sich`) -- y la personalizacion cruza ambas fuentes.
+  if (String(lang || 'de').toLowerCase().startsWith('de')) {
+    return extractVocabularyFromText(text, max).map((w) => String(w));
+  }
   const scored = new Map();
   for (const tok of tokenize(text)) {
     const low = tok.toLowerCase();
@@ -77,24 +86,18 @@ function collectPassageTexts(exam) {
   return map;
 }
 
-function enrichQuestion(q, blob, lang, lemmaSet) {
-  if ((q.vocabularyTags || []).length >= 3) return false;
-  const tags = extractTags(blob, lang, lemmaSet, 6);
-  if (tags.length < 3) return false;
-  q.vocabularyTags = tags;
-  return true;
-}
-
 function walkLesenQuestions(exam, lang, lemmaSet) {
   const passages = collectPassageTexts(exam);
   let updated = 0;
   for (const part of exam.lesenParts || []) {
     const partText = [part.text, part.textTitle, part.instruction].filter(Boolean).join(' ');
     const enrich = (q, extra = '') => {
-      const blob = [q.question, q.statement, q.signText, q.text, extra, partText, ...(q.options || [])]
-        .filter(Boolean)
-        .join(' ');
-      if (enrichQuestion(q, blob, lang, lemmaSet)) updated += 1;
+      if ((q.vocabularyTags || []).length >= 3) return;
+      const context = [extra, partText].filter(Boolean).join(' ');
+      const tags = tagsForQuestion(q, context, (text, max) => extractTags(text, lang, lemmaSet, max));
+      if (!tags.length) return;
+      q.vocabularyTags = tags;
+      updated += 1;
     };
     for (const q of part.questions || []) enrich(q, partText);
     for (const pp of part.passages || []) {

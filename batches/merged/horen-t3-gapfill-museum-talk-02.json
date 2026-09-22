@@ -1,0 +1,190 @@
+{
+  "passages": [
+    {
+      "id": "en-b1-p-horen-t3-gapfill-museum-talk-02-01",
+      "module": "horen",
+      "title": "Information about a Museum Visit",
+      "text": "Hello everyone, and thank you for joining our tour group today. I want to give you some practical information about our visit to the Science Museum tomorrow.\n\nFirst, we will meet outside the main entrance at 8.45 am. Please don't be late as the bus leaves at exactly nine o'clock.\n\nWhen we arrive, we will start our visit in the transport gallery on the ground floor. This is always very popular because of the old steam trains.\n\nAfter that, you will have some free time. I highly recommend visiting the special exhibition on the first floor. It is about robots and how they are used in everyday life.\n\nFor lunch, you can eat your own sandwiches in the picnic area, which is next to the museum shop. Please do not eat inside the exhibition rooms.\n\nIn the afternoon, we have booked a special 3D film in the IMAX cinema. The film is about the history of space exploration. It starts at two-thirty and lasts for forty minutes.\n\nFinally, before we go home, you can visit the gift shop. If you show your group ticket, you can get a discount on books and posters.\n\nAre there any questions?",
+      "passageVocab": [
+        "exhibition",
+        "gallery",
+        "discount",
+        "exploration"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "en-b1-h-t3-gapfill-museum-talk-02-q1",
+      "module": "horen",
+      "teil": 3,
+      "type": "gap_fill",
+      "question": "Meeting time: [gap] am.",
+      "correct": "8.45",
+      "correctAnswer": "8.45",
+      "explanation": "The speaker says: 'First, we will meet outside the main entrance at 8.45 am.'",
+      "options": [],
+      "grammarTags": [
+        "g-en-b1-numbers"
+      ],
+      "topicTags": [
+        "museums"
+      ],
+      "vocabularyTags": [
+        "v-en-b1-time"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge",
+      "passageId": "en-b1-p-horen-t3-gapfill-museum-talk-02-01"
+    },
+    {
+      "id": "en-b1-h-t3-gapfill-museum-talk-02-q2",
+      "module": "horen",
+      "teil": 3,
+      "type": "gap_fill",
+      "question": "First gallery to visit: [gap] gallery.",
+      "correct": "transport",
+      "correctAnswer": "transport",
+      "explanation": "The speaker mentions: 'we will start our visit in the transport gallery on the ground floor.'",
+      "options": [],
+      "grammarTags": [
+        "g-en-b1-nouns"
+      ],
+      "topicTags": [
+        "museums"
+      ],
+      "vocabularyTags": [
+        "v-en-b1-travel"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge",
+      "passageId": "en-b1-p-horen-t3-gapfill-museum-talk-02-01"
+    },
+    {
+      "id": "en-b1-h-t3-gapfill-museum-talk-02-q3",
+      "module": "horen",
+      "teil": 3,
+      "type": "gap_fill",
+      "question": "Special exhibition topic: [gap].",
+      "correct": "robots",
+      "correctAnswer": "robots",
+      "explanation": "The speaker states: 'It is about robots and how they are used in everyday life.'",
+      "options": [],
+      "grammarTags": [
+        "g-en-b1-nouns-plural"
+      ],
+      "topicTags": [
+        "museums"
+      ],
+      "vocabularyTags": [
+        "v-en-b1-technology"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge",
+      "passageId": "en-b1-p-horen-t3-gapfill-museum-talk-02-01"
+    },
+    {
+      "id": "en-b1-h-t3-gapfill-museum-talk-02-q4",
+      "module": "horen",
+      "teil": 3,
+      "type": "gap_fill",
+      "question": "Place to eat lunch: [gap].",
+      "correct": "picnic area",
+      "correctAnswer": "picnic area",
+      "explanation": "The speaker says: 'you can eat your own sandwiches in the picnic area'.",
+      "options": [],
+      "grammarTags": [
+        "g-en-b1-nouns-compound"
+      ],
+      "topicTags": [
+        "museums"
+      ],
+      "vocabularyTags": [
+        "v-en-b1-food"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge",
+      "passageId": "en-b1-p-horen-t3-gapfill-museum-talk-02-01"
+    },
+    {
+      "id": "en-b1-h-t3-gapfill-museum-talk-02-q5",
+      "module": "horen",
+      "teil": 3,
+      "type": "gap_fill",
+      "question": "Theme of the 3D film: [gap].",
+      "correct": "space",
+      "correctAnswer": "space",
+      "explanation": "The speaker mentions: 'The film is about the history of space exploration.'",
+      "options": [],
+      "grammarTags": [
+        "g-en-b1-nouns"
+      ],
+      "topicTags": [
+        "museums"
+      ],
+      "vocabularyTags": [
+        "v-en-b1-science"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge",
+      "passageId": "en-b1-p-horen-t3-gapfill-museum-talk-02-01"
+    },
+    {
+      "id": "en-b1-h-t3-gapfill-museum-talk-02-q6",
+      "module": "horen",
+      "teil": 3,
+      "type": "gap_fill",
+      "question": "Discount available on: [gap] and posters.",
+      "correct": "books",
+      "correctAnswer": "books",
+      "explanation": "The speaker says: 'you can get a discount on books and posters.'",
+      "options": [],
+      "grammarTags": [
+        "g-en-b1-nouns-plural"
+      ],
+      "topicTags": [
+        "museums"
+      ],
+      "vocabularyTags": [
+        "v-en-b1-shopping"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge",
+      "passageId": "en-b1-p-horen-t3-gapfill-museum-talk-02-01"
+    }
+  ],
+  "_germanCapsNormalizeVersion": "v3.23-lesen-t2-angebote-corpus-2026-07-28",
+  "_germanCapsNormalizedAt": "2026-09-22T01:57:15.663Z",
+  "_balanceMcqVersion": "v1.2-no-rf-chrono-shuffle-2026-07-11",
+  "_balanceMcqNormalizedAt": "2026-09-22T01:57:15.663Z"
+}

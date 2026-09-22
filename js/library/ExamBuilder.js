@@ -173,6 +173,9 @@ const ExamBuilder = (() => {
       topicTags: q.topicTags || [],
       difficulty: q.difficulty,
     };
+    // audit-pass-2 CHK-LEVEL (a publish gate) requires level on every question; dropping it
+    // here made every library-built exam unpublishable.
+    if (q.level) out.level = q.level;
     if (q.origin) out.origin = q.origin;
     if (q.options?.length) out.options = [...q.options];
     const pid =
@@ -395,10 +398,12 @@ const ExamBuilder = (() => {
       }
     });
 
-    // Normalize Hören T1 segment labels to Aufnahme 1…N based on position (not source id).
+    // Normalize Hören T1 segment labels by position (not source id), in the exam's
+    // own language — same wording as ExamBlueprint.buildHorenPart.
+    const recWord = lang === 'de' ? 'Aufnahme' : lang === 'es' ? 'Grabación' : 'Recording';
     const h1Part = (horenParts || []).find((p) => p.teil === 1);
     if (h1Part && Array.isArray(h1Part.segments)) {
-      h1Part.segments.forEach((seg, idx) => { seg.label = `Aufnahme ${idx + 1}`; });
+      h1Part.segments.forEach((seg, idx) => { seg.label = `${recWord} ${idx + 1}`; });
     }
 
     const exam = {

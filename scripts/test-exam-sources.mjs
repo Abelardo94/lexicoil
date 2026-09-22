@@ -131,14 +131,14 @@ assert.deepEqual(CASCADE_ORDER, ['pool', 'questionLibrary', 'examLibrary'], 'cas
   assert.equal(cascade.status, 'blocked');
 }
 
-// A2 curated-only: skip pool and question library
+// A2 goes through the same cascade as any other level: the curatedOnly concept
+// was retired on 21 Sep 2026, so pool and question library are no longer skipped.
 {
   process.chdir(ROOT);
   const LevelAvailability = require(path.join(ROOT, 'js/library/levelAvailability.js'));
   global.LevelAvailability = LevelAvailability;
-  assert.equal(LevelAvailability.isCuratedOnlyLevel('de', 'A2'), true);
+  assert.equal(LevelAvailability.isCuratedOnlyLevel, undefined, 'curatedOnly concept retired');
   let poolCalled = false;
-  let qlCalled = false;
   const { deps } = mockDeps({
     fetchExamFromPool: async () => {
       poolCalled = true;
@@ -146,10 +146,7 @@ assert.deepEqual(CASCADE_ORDER, ['pool', 'questionLibrary', 'examLibrary'], 'cas
     },
     QuestionLibrary: {
       hasLibrary: () => true,
-      buildExam: async () => {
-        qlCalled = true;
-        return { ...SAMPLE_EXAM, topic: 'QL' };
-      },
+      buildExam: async () => ({ ...SAMPLE_EXAM, topic: 'QL' }),
     },
     ExamLibrary: {
       hasLibrary: () => true,
@@ -157,10 +154,9 @@ assert.deepEqual(CASCADE_ORDER, ['pool', 'questionLibrary', 'examLibrary'], 'cas
     },
   });
   const cascade = await runExamSourceCascade({ subject: 'de', level: 'A2', seenIds: [] }, deps);
-  assert.equal(poolCalled, false, 'A2 skips pool');
-  assert.equal(qlCalled, false, 'A2 skips question library');
+  assert.equal(poolCalled, true, 'A2 now reaches the pool like any level');
   assert.equal(cascade.status, 'hit');
-  assert.equal(cascade.result.source, 'library');
+  assert.equal(cascade.result.source, 'pool');
 }
 
 console.log('OK   exam source cascade ordering');

@@ -99,9 +99,15 @@ ok('forum T4: answer key lesen_3_20', forumHtml.includes('setRF("lesen_3_20"') |
 ok('forum T4: opinion 20 visible', forumHtml.includes('Anna:'));
 
 const adsHtml = runner.renderGoetheLesenPart(adsPart, 2, false, ui);
-ok('ads T3: matching key radios', adsHtml.includes('options-matching-keys'));
-ok('ads T3: answer key lesen_2_13', adsHtml.includes('name="lesen_2_13"'));
-ok('ads T3: option 0 present', adsHtml.includes('value="0"'));
+// El Teil 3 se redibujo el 21 jul 2026: de radios (options-matching-keys) a pills
+// con ptSetMatch. El camino de radios sigue vivo en examRunner.js para el matching
+// generico (_keyOnlyMatch), pero una parte ads_matching ya no pasa por ahi.
+ok('ads T3: pills de matching por situacion', (adsHtml.match(/pt-match-pills/g) || []).length === 2);
+ok('ads T3: answer key lesen_2_13', adsHtml.includes('data-ak="lesen_2_13"'));
+ok('ads T3: las 10 letras de anuncio + el 0', 'ABCDEFGHIJ0'.split('').every(
+  (k) => adsHtml.includes(`ptSetMatch("lesen_2_13","${k}"`),
+));
+ok('ads T3: option 0 present', adsHtml.includes('ptSetMatch("lesen_2_14","0"'));
 
 let counted = 0;
 runner.forEachGoetheQ(

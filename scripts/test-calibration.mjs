@@ -39,12 +39,19 @@ const priors = ItemCalibration.seedPriorsFromBank(bank, { lang: 'de', level: 'B1
 assert(Object.keys(priors.items).length === bank.questions.length, 'priors for all bank items');
 
 const { execSync } = await import('node:child_process');
+const os = await import('node:os');
+// El calibrador escribia sobre library/de/B1/calibration.json del repo: correr la suite
+// dejaba contenido trackeado modificado (version 18 -> 21). Se escribe en un temporal y se
+// carga de ahi; loadSync compone root + library/<lang>/<level>/calibration.json.
+const tmpRoot = fs.mkdtempSync(path.join(os.tmpdir(), 'lexicoil-calib-'));
+const tmpOut = path.join(tmpRoot, 'library', 'de', 'B1', 'calibration.json');
 execSync(
-  'node scripts/calibrate-from-usage.mjs --lang de --level B1 --seed-priors --usage data/usage/de_B1.sample.json',
+  'node scripts/calibrate-from-usage.mjs --lang de --level B1 --seed-priors '
+    + `--usage data/usage/de_B1.sample.json --out "${tmpOut}"`,
   { cwd: ROOT, stdio: 'pipe' },
 );
 
-const cal = ItemCalibration.loadSync(fs.readFileSync, ROOT, 'de', 'B1');
+const cal = ItemCalibration.loadSync(fs.readFileSync, tmpRoot, 'de', 'B1');
 assert(cal?.items?.l13?.pValue != null, 'merged empirical p-value for l13');
 assert(cal.items.l13.attempts >= 5, 'l13 has sample attempts');
 
@@ -88,5 +95,7 @@ const examData = {
 AnalyticsStore.recordExamResult(goal, {}, examData, { lesen_0_ql_l13: 'a' });
 const profile = AnalyticsStore.getProfile(goal);
 assert(profile.itemStats?.l13?.total === 1, 'AnalyticsStore records itemStats');
+
+fs.rmSync(tmpRoot, { recursive: true, force: true });
 
 console.log('\nSprint 5 calibration tests passed.');

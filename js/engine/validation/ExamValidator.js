@@ -264,16 +264,28 @@ class ExamValidator {
 
   _countPartItems(part) {
     if (!part || typeof part !== 'object') return 0;
+    // Las preguntas de Horen viven a la vez en part.questions y en segments[].questions:
+    // es la misma lista repetida, asi que se cuenta por id para no contarla dos veces.
+    // Lo que no trae id se cuenta suelto, que es el comportamiento de siempre.
+    const seen = new Set();
     let n = 0;
-    if (Array.isArray(part.items)) n += part.items.length;
-    if (Array.isArray(part.questions)) n += part.questions.length;
+    const add = (item) => {
+      const id = item && item.id != null ? String(item.id) : '';
+      if (id) {
+        if (seen.has(id)) return;
+        seen.add(id);
+      }
+      n += 1;
+    };
+    if (Array.isArray(part.items)) part.items.forEach(add);
+    if (Array.isArray(part.questions)) part.questions.forEach(add);
     if (Array.isArray(part.segments)) {
       for (const seg of part.segments) {
-        if (Array.isArray(seg?.questions)) n += seg.questions.length;
-        else if (seg && (seg.options || seg.correct != null || seg.question)) n += 1;
+        if (Array.isArray(seg?.questions)) seg.questions.forEach(add);
+        else if (seg && (seg.options || seg.correct != null || seg.question)) add(seg);
       }
     }
-    if (Array.isArray(part.noteFields)) n += part.noteFields.length;
+    if (Array.isArray(part.noteFields)) part.noteFields.forEach(add);
     return n;
   }
 
@@ -293,6 +305,11 @@ class ExamValidator {
     (part.items || []).forEach((it) => {
       push(it.signText);
       push(it.text);
+      // Teil 3 (matching): los anuncios son las propias opciones, no un texto aparte.
+      // Solo en matching: en una MCQ normal las opciones son respuestas, no lectura.
+      if (it.type === 'matching') {
+        (it.options || []).forEach((o) => push(typeof o === 'string' ? o : o?.text));
+      }
     });
     (part.ads || []).forEach((a) => push(a.text));
     (part.persons || []).forEach((p) => push(p.text));

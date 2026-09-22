@@ -50,7 +50,16 @@ async function callSemanticLlm(prompt) {
   }
 
   const { generateContent } = await import('./geminiClient.mjs');
-  return generateContent({ prompt, jsonMode: true, maxRetries: 2, maxTokens: 1024, temperature: 0.1 });
+  // gemini-2.5-flash spends reasoning tokens out of the same output budget
+  // (thoughtsTokenCount ~1000 on these prompts). At maxTokens 1024 the JSON
+  // was cut off mid-`themeTags` every time and never reached `issues`.
+  return generateContent({
+    prompt,
+    jsonMode: true,
+    maxRetries: 2,
+    maxTokens: Number(process.env.SEMANTIC_MAX_TOKENS || 4096),
+    temperature: 0.1,
+  });
 }
 
 export function _setLlmFn(fn) {
@@ -108,7 +117,9 @@ function extractPartContext(part) {
 
   if (!mcqs.length) return null; // nothing to validate semantically
 
-  return { module, teil: part.teil, passageText, questions: mcqs };
+  const lang = String(part.lang || part.language || 'de').slice(0, 2).toLowerCase();
+
+  return { module, teil: part.teil, passageText, questions: mcqs, lang };
 }
 
 function collectPassageText(part) {
@@ -197,8 +208,54 @@ function formatCorrectKeyLine(correctLetter, opts) {
   return `Clave: ${key}`;
 }
 
+/**
+ * Exam board per language. The format rules below are Goethe conventions and
+ * must not be applied to another board's tasks — the same Teil number means a
+ * different task in Cambridge (CLAUDE.md trap #3).
+ */
+/**
+ * Issue kinds SEM-1 may raise per language.
+ *
+ * "distractor" and "template" are calibrated for Goethe and misfire on
+ * Cambridge: measured on the en/B1 seed (docs/audit/pilot-sem1-en-B1.json),
+ * 16 of 21 findings came from these two and none was a real defect. "template"
+ * flagged the prescribed task format itself ("diálogos cortos e independientes"
+ * — that *is* Listening Part 1), and "distractor" flagged an option for
+ * contradicting the passage, which is what a working distractor does.
+ *
+ * The prompt already omits them for non-de; this is the deterministic backstop,
+ * because a prompt is not a contract. Cross-part repetition is still caught by
+ * the in-process themeTags registry, which compares real parts against each
+ * other instead of judging one in isolation.
+ *
+ * Write the Cambridge variants and add them back here (see CLAUDE.md trap #5).
+ */
+const ISSUE_KINDS_BY_LANG = Object.freeze({
+  de: null, // null → no filtering, every kind allowed
+  en: Object.freeze(new Set(['correctness', 'ambiguity', 'llm_error'])),
+  es: Object.freeze(new Set(['correctness', 'ambiguity', 'llm_error'])),
+});
+
+function allowedIssueKinds(lang) {
+  const l = String(lang || 'de').slice(0, 2).toLowerCase();
+  return l in ISSUE_KINDS_BY_LANG ? ISSUE_KINDS_BY_LANG[l] : null;
+}
+
+const EXAM_BOARDS = Object.freeze({
+  de: { language: 'alemán', board: 'Goethe B1', part: 'Teil' },
+  en: { language: 'inglés', board: 'Cambridge B1 Preliminary', part: 'Part' },
+  es: { language: 'español', board: 'DELE B1', part: 'Parte' },
+});
+
+function examBoardFor(lang) {
+  return EXAM_BOARDS[String(lang || 'de').slice(0, 2).toLowerCase()] || EXAM_BOARDS.de;
+}
+
 function buildPrompt(ctx) {
   const { passageText, questions, module, teil } = ctx;
+  const lang = String(ctx.lang || 'de').slice(0, 2).toLowerCase();
+  const board = examBoardFor(lang);
+  const isDe = lang === 'de';
 
   const qBlocks = questions
     .slice(0, 8) // cap at 8 to keep prompt bounded
@@ -223,16 +280,28 @@ function buildPrompt(ctx) {
   // For L4 (ja_nein opinion format): the "TEXTO" above is the shared intro.
   // Each question has its own "Texto de la persona" (signText) that must be
   // topically relevant to the question and justify the Ja/Nein answer.
-  const isOpinionFormat = questions.some((q) => q.signText);
+  // Goethe task formats — keyed to Goethe Teil numbers, so de only.
+  const isOpinionFormat = isDe && questions.some((q) => q.signText);
   const isT3Matching =
+    isDe &&
     Number(teil) === 3 &&
     questions.some((q) => String(q.type || '').toLowerCase() === 'matching');
   const isL2Mcq =
+    isDe &&
     Number(teil) === 2 &&
     questions.some((q) => String(q.type || '').toLowerCase() === 'multiple_choice');
 
-  return `Eres un evaluador experto de exámenes de alemán nivel Goethe B1.
-Módulo: ${module.toUpperCase()}, Teil ${teil}.${isOpinionFormat ? `
+  // Cambridge matching (Reading P2) has no "ningún anuncio encaja" key: every
+  // prompt matches exactly one option, so a missing key is a real defect here.
+  const isCambridgeMatching =
+    lang === 'en' &&
+    questions.some((q) => String(q.type || '').toLowerCase() === 'matching');
+
+  return `Eres un evaluador experto de exámenes de ${board.language} nivel ${board.board}.
+Módulo: ${module.toUpperCase()}, ${board.part} ${teil}.${isCambridgeMatching ? `
+Formato: MATCHING Cambridge. Cada pregunta empareja a una persona con UNO de los
+textos ofrecidos. No existe la clave "ninguno": toda pregunta tiene exactamente una
+correspondencia válida. Si la clave marcada no corresponde, genera issue de correctness.` : ''}${isOpinionFormat ? `
 Formato: OPINIONES (Ja/Nein). Cada pregunta incluye el texto donde la persona expresa su postura.` : ''}${isL2Mcq ? `
 Formato: L2 MCQ (3 opciones a/b/c por pregunta, pasaje de prensa).
 REGLA ANTI-AUTOCONTRADICCIÓN: si la clave marcada está respaldada por el pasaje y NINGUNA otra
@@ -291,19 +360,23 @@ Checks a realizar:
    que puedes defender textualmente (no en abstracto).
    Formato del detail: "Opción X también defendible: '<cita literal del texto>'."
 
-3. "distractor" (IMPORTANT) — ¿Alguna opción incorrecta es absurda o imposible?
+${isDe ? `3. "distractor" (IMPORTANT) — ¿Alguna opción incorrecta es absurda o imposible?
    Solo distractores claramente defectuosos (afirmación imposible, tema ajeno, trampa
    obvia que nadie elegiría). No marques si es simplemente incorrecto pero plausible.
 
 4. "template" (IMPORTANT) — ¿El pasaje sigue un molde narrativo genérico/repetitivo?
-   Devuelve también "themeTags": array de 3-5 palabras clave temáticas del pasaje.
+   Devuelve también "themeTags": array de 3-5 palabras clave temáticas del pasaje.` : `3. "themeTags" — devuelve 3-5 palabras clave temáticas del pasaje.
+   NO es un check y no genera issues: sirve para detectar repetición ENTRE partes,
+   que se compara fuera de este prompt.
+   NO generes issues de tipo "distractor" ni "template". El formato de esta tarea lo
+   fija el examen, así que un pasaje "repetitivo" es lo esperado, no un defecto.`}
 
 Formato de respuesta EXACTO (devuelve SOLO este JSON, sin markdown):
 {
   "themeTags": ["palabra1", "palabra2", "palabra3"],
   "issues": [
     {
-      "kind": "correctness"|"ambiguity"|"distractor"|"template",
+      "kind": ${isDe ? '"correctness"|"ambiguity"|"distractor"|"template"' : '"correctness"|"ambiguity"'},
       "itemId": "<id de la pregunta, o 'passage'>",
       "detail": "explicación breve en español (≤50 palabras)",
       "confidence": <0.0–1.0 — tu certeza de que esto es un error real, NO una duda>
@@ -344,7 +417,15 @@ function parseSemanticResponse(raw) {
   }
 
   if (!parsed || typeof parsed !== 'object') {
-    return { themeTags: [], issues: [] }; // fail-open: if we can't parse, don't block
+    // Fail-closed. This used to return no issues, which made an unreadable
+    // answer indistinguishable from a clean part — a truncated response
+    // published unverified content. The caller turns this into a blocking
+    // finding instead.
+    return {
+      themeTags: [],
+      issues: [],
+      parseError: `respuesta no parseable (${text.length} chars): ${text.slice(0, 120)}`,
+    };
   }
 
   const issues = Array.isArray(parsed.issues)
@@ -458,8 +539,10 @@ function diskCacheWrite(hash, result) {
 export async function validatePartSemantics(part, { skipTemplate = false } = {}) {
   const ctx = extractPartContext(part);
 
-  // Schreiben / Sprechen / no MCQ → always OK (no semantic check needed)
-  if (!ctx) return { ok: true, issues: [] };
+  // Nothing SEM-1 knows how to inspect (Schreiben/Sprechen, or a gap-fill task
+  // with no options). It passes, but say so: the caller must record this as
+  // skipped, never as verified — a part nobody looked at is not a clean part.
+  if (!ctx) return { ok: true, issues: [], skipped: 'no-mcq' };
 
   const hash = contentHash(part);
 
@@ -494,7 +577,22 @@ export async function validatePartSemantics(part, { skipTemplate = false } = {})
     return result;
   }
 
-  const { themeTags, issues: rawIssues } = parseSemanticResponse(raw);
+  const { themeTags, issues: rawIssues, parseError } = parseSemanticResponse(raw);
+
+  if (parseError) {
+    const result = {
+      ok: false,
+      issues: [{
+        kind: 'llm_error',
+        itemId: 'part',
+        detail: `SEM-1 sin veredicto legible: ${parseError}`,
+        confidence: 1.0,
+      }],
+      _llmError: parseError,
+    };
+    _resultCache.set(hash, result);
+    return raw?.usage ? { ...result, _usage: raw.usage } : result;
+  }
 
   // Apply confidence threshold — discard low-confidence noise before acting on issues.
   // Template issues injected in-process always pass (they have no LLM confidence field).
@@ -516,10 +614,19 @@ export async function validatePartSemantics(part, { skipTemplate = false } = {})
     registerTemplate(themeTags, part.id || hash.slice(0, 12));
   }
 
-  const result = { ok: issues.length === 0, issues };
+  // Drop issue kinds this language has no calibrated check for. Runs last so it
+  // also covers the in-process template finding above, not just the LLM's.
+  const allowed = allowedIssueKinds(ctx.lang);
+  const kept = allowed
+    ? issues.filter((i) => allowed.has(String(i.kind || '').toLowerCase()))
+    : issues;
+
+  // Token usage rides along so callers can cost a run; it is not part of the
+  // verdict, so the disk cache stores the result without it.
+  const result = { ok: kept.length === 0, issues: kept };
   _resultCache.set(hash, result);
   diskCacheWrite(hash, result);
-  return result;
+  return raw?.usage ? { ...result, _usage: raw.usage } : result;
 }
 
 /** Build SEM-1 prompt for a part (tests / diagnostics). */

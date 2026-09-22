@@ -1,0 +1,274 @@
+{
+  "passages": [
+    {
+      "id": "en-b1-p-horen-t2-gist-free-time-02-01",
+      "module": "horen",
+      "title": "Photography Talk",
+      "text": "Boy: Did you see the photos I took at the park yesterday?\nGirl: Yes, they're really good! The lighting on the lake was perfect. But why didn't you get closer to the birds? They look a bit small.\nBoy: I know, but I didn't want to scare them away. Next time I'll use a better zoom lens.\nGirl: Good idea. Still, you've got a real talent for finding great angles.",
+      "passageVocab": [
+        "lighting",
+        "zoom lens",
+        "scare away",
+        "angles"
+      ]
+    },
+    {
+      "id": "en-b1-p-horen-t2-gist-free-time-02-02",
+      "module": "horen",
+      "title": "Weekend Hiking Plans",
+      "text": "Girl: Are you coming on the mountain hike this weekend?\nBoy: I'd love to, but my boots are completely worn out. I need to buy a new pair before I do any serious climbing.\nGirl: You could always borrow my brother's. He's got some spares.\nBoy: Thanks, but hiking boots need to fit perfectly, otherwise you get terrible blisters. I'll just go shopping on Saturday instead.",
+      "passageVocab": [
+        "worn out",
+        "spares",
+        "blisters",
+        "hiking"
+      ]
+    },
+    {
+      "id": "en-b1-p-horen-t2-gist-free-time-02-03",
+      "module": "horen",
+      "title": "Playing a Board Game",
+      "text": "Girl: That new board game we played last night was so complicated!\nBoy: Really? I thought the rules were quite straightforward once we started.\nGirl: Easy for you to say! You won! I spent half the time trying to figure out what my cards meant.\nBoy: Well, it does take a couple of rounds to get used to it. Let's play again tonight and I'll help you.",
+      "passageVocab": [
+        "complicated",
+        "straightforward",
+        "figure out",
+        "rounds"
+      ]
+    },
+    {
+      "id": "en-b1-p-horen-t2-gist-free-time-02-04",
+      "module": "horen",
+      "title": "Guitar Practice",
+      "text": "Boy: How are your guitar lessons going?\nGirl: Okay, I suppose. My teacher wants me to practice classical music, but I really want to learn rock songs.\nBoy: Classical is great for your technique, though. It makes your fingers much stronger.\nGirl: I know, and I can feel the difference already. It's just not as fun as playing my favorite bands' tracks.",
+      "passageVocab": [
+        "classical",
+        "technique",
+        "fingers",
+        "tracks"
+      ]
+    },
+    {
+      "id": "en-b1-p-horen-t2-gist-free-time-02-05",
+      "module": "horen",
+      "title": "Italian Cooking Class",
+      "text": "Girl: How was the Italian cooking class yesterday?\nBoy: Great! We made fresh pasta from scratch. It was much easier than I thought it would be.\nGirl: Really? I always thought you needed special machines for that.\nBoy: We just used a rolling pin and a knife. The chef was brilliant at explaining each step. I can't wait to try making it at home for my family.",
+      "passageVocab": [
+        "from scratch",
+        "rolling pin",
+        "chef",
+        "explaining"
+      ]
+    },
+    {
+      "id": "en-b1-p-horen-t2-gist-free-time-02-06",
+      "module": "horen",
+      "title": "Watching a Sci-Fi Film",
+      "text": "Boy: Did you watch that new sci-fi film last night?\nGirl: Yes, I did. The special effects were absolutely amazing, especially the space battles.\nBoy: Definitely. But I felt the story was a bit weak. It was just like every other space movie.\nGirl: I agree. You could guess the ending after the first twenty minutes. But it was still highly entertaining.",
+      "passageVocab": [
+        "special effects",
+        "weak",
+        "guess",
+        "entertaining"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "en-b1-h-t2-gist-free-time-02-q1",
+      "module": "horen",
+      "teil": 2,
+      "type": "multiple_choice",
+      "question": "You hear two friends talking about photography. What does the girl think the boy should improve?",
+      "correct": "c",
+      "correctAnswer": "c",
+      "explanation": "The girl points out that the birds in the photos look a bit small and asks why he didn't get closer, which refers to the size of the subjects in his shots.",
+      "options": [
+        "a) The angles he chooses to shoot from",
+        "b) The lighting in his photos",
+        "c) The size of the subjects in his shots"
+      ],
+      "grammarTags": [
+        "g-en-b1-comparatives"
+      ],
+      "topicTags": [
+        "t-en-free-time"
+      ],
+      "vocabularyTags": [
+        "v-en-hobbies"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge",
+      "passageId": "en-b1-p-horen-t2-gist-free-time-02-01"
+    },
+    {
+      "id": "en-b1-h-t2-gist-free-time-02-q2",
+      "module": "horen",
+      "teil": 2,
+      "type": "multiple_choice",
+      "question": "You hear two friends talking about a weekend hike. Why is the boy unable to go?",
+      "correct": "b",
+      "correctAnswer": "b",
+      "explanation": "The boy says his boots are worn out and he cannot borrow a pair because they must fit perfectly to avoid blisters, meaning he lacks the correct footwear.",
+      "options": [
+        "a) He has to go shopping for clothes.",
+        "b) He doesn't have the right footwear.",
+        "c) He has to help his brother."
+      ],
+      "grammarTags": [
+        "g-en-b1-modals"
+      ],
+      "topicTags": [
+        "t-en-free-time"
+      ],
+      "vocabularyTags": [
+        "v-en-sports"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge",
+      "passageId": "en-b1-p-horen-t2-gist-free-time-02-02"
+    },
+    {
+      "id": "en-b1-h-t2-gist-free-time-02-q3",
+      "module": "horen",
+      "teil": 2,
+      "type": "multiple_choice",
+      "question": "You hear two friends talking about a board game. How does the girl feel about it?",
+      "correct": "a",
+      "correctAnswer": "a",
+      "explanation": "The girl says the game was 'so complicated' and that she spent 'half the time trying to figure out what my cards meant', showing she was frustrated by its difficulty.",
+      "options": [
+        "a) Frustrated by its difficulty",
+        "b) Bored by how long it took",
+        "c) Pleased with her performance"
+      ],
+      "grammarTags": [
+        "g-en-b1-adjectives-ed-ing"
+      ],
+      "topicTags": [
+        "t-en-free-time"
+      ],
+      "vocabularyTags": [
+        "v-en-leisure"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge",
+      "passageId": "en-b1-p-horen-t2-gist-free-time-02-03"
+    },
+    {
+      "id": "en-b1-h-t2-gist-free-time-02-q4",
+      "module": "horen",
+      "teil": 2,
+      "type": "multiple_choice",
+      "question": "You hear a girl talking about learning the guitar. What does she admit about her classical music practice?",
+      "correct": "b",
+      "correctAnswer": "b",
+      "explanation": "She agrees that classical music is good for her technique and says she 'can feel the difference already' in her finger strength, admitting it is helping her improve.",
+      "options": [
+        "a) It is more fun than she expected.",
+        "b) It is helping her improve her skills.",
+        "c) It is too difficult for her level."
+      ],
+      "grammarTags": [
+        "g-en-b1-conjunctions"
+      ],
+      "topicTags": [
+        "t-en-free-time"
+      ],
+      "vocabularyTags": [
+        "v-en-music"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge",
+      "passageId": "en-b1-p-horen-t2-gist-free-time-02-04"
+    },
+    {
+      "id": "en-b1-h-t2-gist-free-time-02-q5",
+      "module": "horen",
+      "teil": 2,
+      "type": "multiple_choice",
+      "question": "You hear two friends talking about a cooking class. What surprised the boy?",
+      "correct": "c",
+      "correctAnswer": "c",
+      "explanation": "The boy states that making fresh pasta from scratch was 'much easier than I thought it would be', indicating he was surprised by how simple the process was.",
+      "options": [
+        "a) How expensive the ingredients were",
+        "b) How many tools they needed to use",
+        "c) How simple the process was"
+      ],
+      "grammarTags": [
+        "g-en-b1-comparatives"
+      ],
+      "topicTags": [
+        "t-en-free-time"
+      ],
+      "vocabularyTags": [
+        "v-en-cooking"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge",
+      "passageId": "en-b1-p-horen-t2-gist-free-time-02-05"
+    },
+    {
+      "id": "en-b1-h-t2-gist-free-time-02-q6",
+      "module": "horen",
+      "teil": 2,
+      "type": "multiple_choice",
+      "question": "You hear two friends talking about a film. What do they agree about?",
+      "correct": "a",
+      "correctAnswer": "a",
+      "explanation": "The boy says the story was weak and like every other space movie, and the girl agrees, saying you could guess the ending after twenty minutes, meaning they both found it predictable.",
+      "options": [
+        "a) The plot was very predictable.",
+        "b) The acting was excellent.",
+        "c) The special effects were disappointing."
+      ],
+      "grammarTags": [
+        "g-en-b1-modals-past"
+      ],
+      "topicTags": [
+        "t-en-free-time"
+      ],
+      "vocabularyTags": [
+        "v-en-entertainment"
+      ],
+      "difficulty": 5,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge",
+      "passageId": "en-b1-p-horen-t2-gist-free-time-02-06"
+    }
+  ],
+  "_germanCapsNormalizeVersion": "v3.23-lesen-t2-angebote-corpus-2026-07-28",
+  "_germanCapsNormalizedAt": "2026-09-22T01:57:15.652Z",
+  "_balanceMcqVersion": "v1.2-no-rf-chrono-shuffle-2026-07-11",
+  "_balanceMcqNormalizedAt": "2026-09-22T01:57:15.652Z"
+}

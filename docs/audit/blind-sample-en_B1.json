@@ -1,0 +1,699 @@
+{
+  "lang": "en",
+  "level": "B1",
+  "builtAt": "2026-09-03T23:23:24.103Z",
+  "items": [
+    {
+      "n": 1,
+      "itemId": "ql_en-b1-h-t3-gapfill-school-trip-info-01-q1",
+      "partId": "cur-en-B1-e00-horen-t3-ef9ffefc3d16ba1a",
+      "module": "horen",
+      "teil": 3,
+      "slot": "horen T3",
+      "type": "gap_fill",
+      "question": "The departure time from the school is 7:30 [gap].",
+      "options": null,
+      "key": "am",
+      "context": {
+        "label": "Recording 1",
+        "text": "Hello everyone. I am here to give you the final details about our upcoming school trip to France. We will be departing from the school gates at 7:30 am on Monday morning, so please make sure you arrive on time. We are staying at a lovely hotel in the countryside, which is famous for its large swimming pool. On the first day, we will visit a local museum to learn about history. The most exciting part of the trip will be the visit to the chocolate factory on Wednesday, where we can taste everything! For lunch, we will have a picnic in the park, but please remember to bring a bottle of water. Finally, don't forget to bring your camera to take photos of the beautiful scenery. I am sure we will have a fantastic time!"
+      }
+    },
+    {
+      "n": 2,
+      "itemId": "ql_en-b1-r-t2-match-day-trips-04-q2",
+      "partId": "cur-en-B1-e00-lesen-t2-e94b1c06c8dd5f9a",
+      "module": "lesen",
+      "teil": 2,
+      "slot": "lesen T2",
+      "type": "matching",
+      "question": "Mark is looking for a place where he can be physically active and try something challenging.",
+      "options": [
+        "A) The Riverside Park — This park offers beautiful walking paths along the river and large open fields for picnics. There is a small café serving local snacks and a boat hire service if you want to explore the water.",
+        "B) Mountain Adventure Centre — Perfect for those who love high-energy activities. You can try rock climbing, zip-lining, or mountain biking on our specially designed tracks. Equipment is provided for all visitors.",
+        "C) Historical Castle Tour — Step back in time with a guided tour of this 15th-century castle. You will learn about the royal history and see an impressive collection of ancient armor and paintings.",
+        "D) City Art Gallery — A quiet place to spend an afternoon. The gallery displays modern art from local artists and hosts weekly workshops where you can learn to paint or sculpt yourself.",
+        "E) Coastal Wildlife Reserve — Ideal for nature lovers. Walk along the beach to spot rare birds and seals. There is an information centre with experts who can tell you about the local marine life.",
+        "F) Science Discovery Museum — An interactive museum where you can touch everything! Great for families, the exhibits explain how electricity and space travel work through fun games and experiments.",
+        "G) Old Town Market — Visit our vibrant market to find unique handmade crafts, vintage clothing, and delicious street food from around the world. It is open every Saturday and Sunday.",
+        "H) Botanical Gardens — A peaceful escape featuring thousands of different plants and flowers from all over the globe. There are guided tours available to explain the rare species in the glasshouses."
+      ],
+      "key": "B",
+      "context": {
+        "label": "Read the text(s) and answer the questions in Part 2.",
+        "text": "A) The Riverside Park — This park offers beautiful walking paths along the river and large open fields for picnics. There is a small café serving local snacks and a boat hire service if you want to explore the water.\nB) Mountain Adventure Centre — Perfect for those who love high-energy activities. You can try rock climbing, zip-lining, or mountain biking on our specially designed tracks. Equipment is provided for all visitors.\nC) Historical Castle Tour — Step back in time with a guided tour of this 15th-century castle. You will learn about the royal history and see an impressive collection of ancient armor and paintings.\nD) City Art Gallery — A quiet place to spend an afternoon. The gallery displays modern art from local artists and hosts weekly workshops where you can learn to paint or sculpt yourself.\nE) Coastal Wildlife Reserve — Ideal for nature lovers. Walk along the beach to spot rare birds and seals. There is an information centre with experts who can tell you about the local marine life.\nF) Science Discovery Museum — An interactive museum where you can touch everything! Great for families, the exhibits explain how electricity and space travel work through fun games and experiments.\nG) Old Town Market — Visit our vibrant market to find unique handmade crafts, vintage clothing, and delicious street food from around the world. It is open every Saturday and Sunday.\nH) Botanical Gardens — A peaceful escape featuring thousands of different plants and flowers from all over the globe. There are guided tours available to explain the rare species in the glasshouses."
+      }
+    },
+    {
+      "n": 3,
+      "itemId": "ql_en-b1-h-t3-gapfill-school-trip-info-01-q6",
+      "partId": "cur-en-B1-e00-horen-t3-ef9ffefc3d16ba1a",
+      "module": "horen",
+      "teil": 3,
+      "slot": "horen T3",
+      "type": "gap_fill",
+      "question": "Students are encouraged to bring a [gap] to take photos.",
+      "options": null,
+      "key": "camera",
+      "context": {
+        "label": "Recording 1",
+        "text": "Hello everyone. I am here to give you the final details about our upcoming school trip to France. We will be departing from the school gates at 7:30 am on Monday morning, so please make sure you arrive on time. We are staying at a lovely hotel in the countryside, which is famous for its large swimming pool. On the first day, we will visit a local museum to learn about history. The most exciting part of the trip will be the visit to the chocolate factory on Wednesday, where we can taste everything! For lunch, we will have a picnic in the park, but please remember to bring a bottle of water. Finally, don't forget to bring your camera to take photos of the beautiful scenery. I am sure we will have a fantastic time!"
+      }
+    },
+    {
+      "n": 4,
+      "itemId": "ql_en-b1-r-t6-open-cloze-family-trip-01-q6",
+      "partId": "cur-en-B1-e00-lesen-t6-659ab809e6a01110",
+      "module": "lesen",
+      "teil": 6,
+      "slot": "lesen T6",
+      "type": "gap_fill",
+      "question": "Gap 6",
+      "options": null,
+      "key": "next",
+      "context": {
+        "label": "A Family Trip to the Mountains",
+        "text": "Last summer, my family and I decided to spend a week in the mountains. We had never been there before, so we were all very excited. We packed our bags and left early on Saturday morning. The drive was long, but the scenery was beautiful. When we arrived, we checked into a small wooden cabin. It was perfect (1) _____ us. The next day, we went hiking. My father wanted to climb the highest peak, but my mother preferred to stay near the lake. In the end, we (2) _____ a compromise and chose a path that went through the forest. It was quite challenging (3) _____ times, but we enjoyed every moment. During the trip, we saw many interesting animals, including a deer. We also took (4) _____ of photos to show our friends back home. On our last night, we sat outside and looked at the stars. It was (5) _____ most peaceful experience I have ever had. We all agreed that we would definitely like to return (6) _____ year."
+      }
+    },
+    {
+      "n": 5,
+      "itemId": "ql_en-b1-r-t5-cloze-music-festival-01-q6",
+      "partId": "cur-en-B1-e00-lesen-t5-0be9c21563d4264a",
+      "module": "lesen",
+      "teil": 5,
+      "slot": "lesen T5",
+      "type": "multiple_choice",
+      "question": "Choose the correct option for gap 6.",
+      "options": [
+        "a) pass",
+        "b) waste",
+        "c) spend",
+        "d) take"
+      ],
+      "key": "c",
+      "context": {
+        "label": "A Summer Music Festival",
+        "text": "Every year, thousands of music fans travel to the countryside for the Sunny Beats Festival. It is one of the most popular events in the region, and tickets often sell out months in advance. The festival (1) ______ place over three days in July, offering a wide variety of musical styles ranging from rock to electronic dance music. Many people choose to camp on-site, which allows them to fully (2) ______ the atmosphere of the event. There are several stages, so festival-goers can easily move between them to see their favourite bands. Food stalls are available everywhere, serving delicious snacks from all over the world. If you are (3) ______ of going this year, make sure to book your accommodation early as nearby hotels fill up very quickly. Organisers have also (4) ______ a new shuttle bus service to help people get to the site more easily. It is a fantastic way to (5) ______ new music and meet people who share your interests. Don't forget to bring comfortable shoes, as you will (6) ______ a lot of time walking between the different stages!"
+      }
+    },
+    {
+      "n": 6,
+      "itemId": "ql_en-b1-r-t6-open-cloze-part-time-job-01-q5",
+      "partId": "cur-en-B1-e01-lesen-t6-75857189d592976d",
+      "module": "lesen",
+      "teil": 6,
+      "slot": "lesen T6",
+      "type": "gap_fill",
+      "question": "Gap 5",
+      "options": null,
+      "key": "every",
+      "context": {
+        "label": "My First Part-Time Job",
+        "text": "Last summer, I decided to look for a part-time job to earn some extra money. I found an advertisement in the local newspaper for a shop assistant in a small bakery. I had (1) _______ worked in a shop before, so I was a little nervous during the interview. However, the manager was very kind and offered me the job immediately. My main duties included serving customers and keeping the shop clean. I usually worked (2) _______ Saturday mornings from eight until midday. It was hard work, but I enjoyed (3) _______ time with my colleagues. One of the best things about the job was the free bread I could take home (4) _______ the end of my shift. I learned a lot about responsibility and how to talk to people. I think (5) _______ student should try to get a part-time job because it is a great way to gain experience. I am definitely going to look for (6) _______ job next summer too."
+      }
+    },
+    {
+      "n": 7,
+      "itemId": "ql_en-b1-h-t1-pics-shopping-plans-02-s1-q1",
+      "partId": "cur-en-B1-e00-horen-t1-1bc2044ad48fb576",
+      "module": "horen",
+      "teil": 1,
+      "slot": "horen T1",
+      "type": "multiple_choice",
+      "question": "When will the man likely go to the shopping centre?",
+      "options": [
+        "a) In the morning",
+        "b) Before his project",
+        "c) At 5 p.m."
+      ],
+      "key": "c",
+      "context": {
+        "label": "Recording 3",
+        "text": "Woman: Are you coming to the shopping centre later? I need to buy a new pair of trainers for the gym. Man: I'd love to, but I have to finish my history project first. Maybe I can join you around five o'clock?"
+      }
+    },
+    {
+      "n": 8,
+      "itemId": "ql_en-b1-r-t6-open-cloze-family-trip-01-q5",
+      "partId": "cur-en-B1-e00-lesen-t6-659ab809e6a01110",
+      "module": "lesen",
+      "teil": 6,
+      "slot": "lesen T6",
+      "type": "gap_fill",
+      "question": "Gap 5",
+      "options": null,
+      "key": "the",
+      "context": {
+        "label": "A Family Trip to the Mountains",
+        "text": "Last summer, my family and I decided to spend a week in the mountains. We had never been there before, so we were all very excited. We packed our bags and left early on Saturday morning. The drive was long, but the scenery was beautiful. When we arrived, we checked into a small wooden cabin. It was perfect (1) _____ us. The next day, we went hiking. My father wanted to climb the highest peak, but my mother preferred to stay near the lake. In the end, we (2) _____ a compromise and chose a path that went through the forest. It was quite challenging (3) _____ times, but we enjoyed every moment. During the trip, we saw many interesting animals, including a deer. We also took (4) _____ of photos to show our friends back home. On our last night, we sat outside and looked at the stars. It was (5) _____ most peaceful experience I have ever had. We all agreed that we would definitely like to return (6) _____ year."
+      }
+    },
+    {
+      "n": 9,
+      "itemId": "ql_en-b1-r-t4-gapped-food-market-02-q1",
+      "partId": "cur-en-B1-e00-lesen-t4-8461378a7c25dbfa",
+      "module": "lesen",
+      "teil": 4,
+      "slot": "lesen T4",
+      "type": "matching",
+      "question": "Choose the best sentence (A-H) for gap 1.",
+      "options": [
+        "A) In the end I bought a warm vegetable pie from a stall near the entrance.",
+        "B) Unfortunately, the rain started before I could finish my coffee.",
+        "C) There was far more choice than I had expected from such a small market.",
+        "D) Several of my neighbours have told me they now shop there every week.",
+        "E) I decided to go early so that I could see everything before the crowds arrived.",
+        "F) The music made the whole square feel even more welcoming.",
+        "G) The market is only open on the last Sunday of every month.",
+        "H) I had never bought anything directly from a farmer before."
+      ],
+      "key": "E",
+      "context": {
+        "label": "A Weekend at the Local Food Market",
+        "text": "Last Saturday, I decided to visit the new food market in the town square. I had heard many people talking about the fresh produce and the friendly atmosphere. (1) __________ I arrived just as the stalls were opening, so it was still quite quiet. The smell of freshly baked bread and roasted coffee beans was everywhere. I walked slowly past the different stalls, looking at the colorful vegetables and local cheeses. (2) __________ I eventually stopped at a small stall that sold homemade honey. The owner was very kind and let me taste three different types before I made my choice. After buying a jar of honey, I felt hungry and looked for something to eat. (3) __________ It was filled with fresh herbs and local vegetables. It was probably the best lunch I have had in a long time. While I was eating, a local band started playing some relaxing music near the fountain. (4) __________ Many families were sitting on the grass, enjoying the sunshine and the music. It was a perfect way to spend a Saturday morning. I will definitely return next weekend to try some of the other delicious treats. (5) __________ It is a great addition to our town and I hope it stays for a long time."
+      }
+    },
+    {
+      "n": 10,
+      "itemId": "ql_en-b1-r-t1-notices-station-02-q1",
+      "partId": "cur-en-B1-e00-lesen-t1-dbe624c7b0dd3e6b",
+      "module": "lesen",
+      "teil": 1,
+      "slot": "lesen T1",
+      "type": "multiple_choice",
+      "question": "What should passengers for the London train do?",
+      "options": [
+        "a) Wait at Platform 4 until 14:00.",
+        "b) Go to a different platform to catch their train.",
+        "c) Cancel their journey to London."
+      ],
+      "key": "b",
+      "context": {
+        "label": "Gym Notice 1",
+        "text": "Due to emergency track repairs, all trains departing from Platform 4 are cancelled until 14:00. Passengers for the 13:15 service to London should proceed to Platform 7 for an alternative departure."
+      }
+    },
+    {
+      "n": 11,
+      "itemId": "ql_en-b1-r-t5-cloze-cooking-class-01-q3",
+      "partId": "cur-en-B1-e01-lesen-t5-21704bdc5b4a530e",
+      "module": "lesen",
+      "teil": 5,
+      "slot": "lesen T5",
+      "type": "multiple_choice",
+      "question": "Gap 3",
+      "options": [
+        "a) showed",
+        "b) told",
+        "c) said",
+        "d) explained"
+      ],
+      "key": "a",
+      "context": {
+        "label": "Learning to Cook",
+        "text": "Last weekend, I decided to sign up for a local cooking class. I have always enjoyed eating good food, but I (1) _____ very little about how to prepare it myself. The class took place in a small, professional kitchen in the city centre. There were ten students in total, and our teacher was a friendly chef named Marco. He showed us how to (2) _____ fresh vegetables and herbs to make a healthy soup. I found it quite difficult at first, but Marco was very patient and (3) _____ us exactly what to do. We also learned how to bake bread from scratch. It was (4) _____ harder than I expected, but the smell of the fresh bread was amazing. By the end of the afternoon, we had all (5) _____ a delicious three-course meal. I felt very proud of what I had achieved. I am already (6) _____ forward to booking my next class to learn how to make Italian pasta."
+      }
+    },
+    {
+      "n": 12,
+      "itemId": "ql_en-b1-h-t1-pics-shopping-plans-02-s2-q1",
+      "partId": "cur-en-B1-e00-horen-t1-1bc2044ad48fb576",
+      "module": "horen",
+      "teil": 1,
+      "slot": "horen T1",
+      "type": "multiple_choice",
+      "question": "What did the boy buy at the market?",
+      "options": [
+        "a) Some jewellery for himself",
+        "b) Handmade clothes",
+        "c) A birthday present"
+      ],
+      "key": "c",
+      "context": {
+        "label": "Recording 2",
+        "text": "Girl: Did you see the new market in the town square? They sell amazing handmade jewellery. Boy: Yes, I went yesterday! I bought a gift for my sister's birthday. It was quite expensive, but worth it."
+      }
+    },
+    {
+      "n": 13,
+      "itemId": "ql_en-b1-r-t3-long-young-athlete-03-q5",
+      "partId": "cur-en-B1-e00-lesen-t3-2e8b8deb141a6ecc",
+      "module": "lesen",
+      "teil": 3,
+      "slot": "lesen T3",
+      "type": "multiple_choice",
+      "question": "What is Leo’s main piece of advice for young athletes?",
+      "options": [
+        "a) Always listen to what your coach says.",
+        "b) Focus entirely on your sport to succeed.",
+        "c) Keep enjoying the sport to reach your goals.",
+        "d) Try to win as many medals as possible."
+      ],
+      "key": "c",
+      "context": {
+        "label": "Rising Star: An Interview with Leo Vance",
+        "text": "At just sixteen, Leo Vance has already made a name for himself in the world of competitive swimming. We caught up with him at his local training centre in Manchester. 'I started swimming when I was five,' Leo explains, drying off after a two-hour morning session. 'My parents took me to the pool every weekend, but I didn't really take it seriously until I joined a club at ten.'\n\nLeo’s routine is demanding. He wakes up at 4:30 a.m. to be in the water by 5:15 a.m. 'It’s tough, especially in winter when it's dark and cold outside,' he admits. 'But when you’re in the pool, you forget the time. You just focus on your strokes.' Despite the hard work, Leo insists he has a normal social life. 'People think athletes don't have time for friends, but I make sure I see my mates on Friday nights. It’s important to switch off.'\n\nHis biggest challenge so far was the National Youth Championships last year. 'I was so nervous before the final race,' he recalls. 'I almost pulled out, but my coach reminded me why I started. I ended up winning silver.' That medal changed his perspective. 'It wasn't just about the prize; it was about proving to myself that I could handle the pressure.'\n\nLooking ahead, Leo has his sights set on the international stage. 'The dream is the Olympics, obviously. But for now, I’m focused on improving my technique. My coach says I’m strong, but my turns need work.' When asked if he has any advice for other young athletes, he is humble. 'Don't let the sport define who you are. Enjoy it, work hard, but remember to have fun. If you stop enjoying it, you’ll never reach your potential.'"
+      }
+    },
+    {
+      "n": 14,
+      "itemId": "ql_en-b1-r-t1-notices-gym-02-q1",
+      "partId": "cur-en-B1-e00-lesen-t1-dbe624c7b0dd3e6b",
+      "module": "lesen",
+      "teil": 1,
+      "slot": "lesen T1",
+      "type": "multiple_choice",
+      "question": "What does the notice say about the pool?",
+      "options": [
+        "a) It will reopen on Thursday.",
+        "b) It is only open in the mornings.",
+        "c) It is closed for the whole week."
+      ],
+      "key": "a",
+      "context": {
+        "label": "Gym Notice 1",
+        "text": "POOL CLOSED FOR MAINTENANCE. The swimming pool will be unavailable from Monday to Wednesday due to essential repairs. Normal hours resume on Thursday morning. Thank you for your patience."
+      }
+    },
+    {
+      "n": 15,
+      "itemId": "ql_en-b1-r-t6-open-cloze-family-trip-01-q1",
+      "partId": "cur-en-B1-e00-lesen-t6-659ab809e6a01110",
+      "module": "lesen",
+      "teil": 6,
+      "slot": "lesen T6",
+      "type": "gap_fill",
+      "question": "Gap 1",
+      "options": null,
+      "key": "for",
+      "context": {
+        "label": "A Family Trip to the Mountains",
+        "text": "Last summer, my family and I decided to spend a week in the mountains. We had never been there before, so we were all very excited. We packed our bags and left early on Saturday morning. The drive was long, but the scenery was beautiful. When we arrived, we checked into a small wooden cabin. It was perfect (1) _____ us. The next day, we went hiking. My father wanted to climb the highest peak, but my mother preferred to stay near the lake. In the end, we (2) _____ a compromise and chose a path that went through the forest. It was quite challenging (3) _____ times, but we enjoyed every moment. During the trip, we saw many interesting animals, including a deer. We also took (4) _____ of photos to show our friends back home. On our last night, we sat outside and looked at the stars. It was (5) _____ most peaceful experience I have ever had. We all agreed that we would definitely like to return (6) _____ year."
+      }
+    },
+    {
+      "n": 16,
+      "itemId": "ql_en-b1-h-t3-gapfill-sports-centre-01-q1",
+      "partId": "cur-en-B1-e01-horen-t3-d79cd1d06f0a5f69",
+      "module": "horen",
+      "teil": 3,
+      "slot": "horen T3",
+      "type": "gap_fill",
+      "question": "The new sports centre will open on ____.",
+      "options": null,
+      "key": "Monday",
+      "context": {
+        "label": "Recording 1",
+        "text": "Hello everyone! I am delighted to announce that the Riverside Sports Centre will finally open its doors to the public next Monday. We have spent months preparing the facilities. If you are interested in swimming, our main pool is 25 metres long and has a special area for children. For those who prefer fitness, the gym is equipped with the latest machines, and we offer a variety of classes including yoga and aerobics. We are currently looking for a receptionist to join our team, so please check our website if you are interested. Membership fees are very reasonable, and if you sign up before the end of the month, you will receive a discount of 15 percent on your first year. We also have a cafe on the ground floor where you can relax after your workout. We look forward to seeing you there!"
+      }
+    },
+    {
+      "n": 17,
+      "itemId": "ql_en-b1-h-t2-gist-free-time-03-q4",
+      "partId": "cur-en-B1-e00-horen-t2-bb1fe6918fbea9e1",
+      "module": "horen",
+      "teil": 2,
+      "slot": "horen T2",
+      "type": "multiple_choice",
+      "question": "What will the boy do instead of the exhibition?",
+      "options": [
+        "a) Buy tickets for another day.",
+        "b) Do some art at home.",
+        "c) Go to the cinema."
+      ],
+      "key": "b",
+      "context": {
+        "label": "Recording 1",
+        "text": "Girl: Are you going to the art exhibition this weekend? Boy: I was planning to, but the tickets are sold out. I'll probably just stay home and paint."
+      }
+    },
+    {
+      "n": 18,
+      "itemId": "ql_en-b1-r-t4-gapped-food-market-02-q3",
+      "partId": "cur-en-B1-e00-lesen-t4-8461378a7c25dbfa",
+      "module": "lesen",
+      "teil": 4,
+      "slot": "lesen T4",
+      "type": "matching",
+      "question": "Choose the best sentence (A-H) for gap 3.",
+      "options": [
+        "A) In the end I bought a warm vegetable pie from a stall near the entrance.",
+        "B) Unfortunately, the rain started before I could finish my coffee.",
+        "C) There was far more choice than I had expected from such a small market.",
+        "D) Several of my neighbours have told me they now shop there every week.",
+        "E) I decided to go early so that I could see everything before the crowds arrived.",
+        "F) The music made the whole square feel even more welcoming.",
+        "G) The market is only open on the last Sunday of every month.",
+        "H) I had never bought anything directly from a farmer before."
+      ],
+      "key": "A",
+      "context": {
+        "label": "A Weekend at the Local Food Market",
+        "text": "Last Saturday, I decided to visit the new food market in the town square. I had heard many people talking about the fresh produce and the friendly atmosphere. (1) __________ I arrived just as the stalls were opening, so it was still quite quiet. The smell of freshly baked bread and roasted coffee beans was everywhere. I walked slowly past the different stalls, looking at the colorful vegetables and local cheeses. (2) __________ I eventually stopped at a small stall that sold homemade honey. The owner was very kind and let me taste three different types before I made my choice. After buying a jar of honey, I felt hungry and looked for something to eat. (3) __________ It was filled with fresh herbs and local vegetables. It was probably the best lunch I have had in a long time. While I was eating, a local band started playing some relaxing music near the fountain. (4) __________ Many families were sitting on the grass, enjoying the sunshine and the music. It was a perfect way to spend a Saturday morning. I will definitely return next weekend to try some of the other delicious treats. (5) __________ It is a great addition to our town and I hope it stays for a long time."
+      }
+    },
+    {
+      "n": 19,
+      "itemId": "ql_en-b1-h-t3-gapfill-school-trip-info-01-q3",
+      "partId": "cur-en-B1-e00-horen-t3-ef9ffefc3d16ba1a",
+      "module": "horen",
+      "teil": 3,
+      "slot": "horen T3",
+      "type": "gap_fill",
+      "question": "On the first day, the students will visit a local [gap].",
+      "options": null,
+      "key": "museum",
+      "context": {
+        "label": "Recording 1",
+        "text": "Hello everyone. I am here to give you the final details about our upcoming school trip to France. We will be departing from the school gates at 7:30 am on Monday morning, so please make sure you arrive on time. We are staying at a lovely hotel in the countryside, which is famous for its large swimming pool. On the first day, we will visit a local museum to learn about history. The most exciting part of the trip will be the visit to the chocolate factory on Wednesday, where we can taste everything! For lunch, we will have a picnic in the park, but please remember to bring a bottle of water. Finally, don't forget to bring your camera to take photos of the beautiful scenery. I am sure we will have a fantastic time!"
+      }
+    },
+    {
+      "n": 20,
+      "itemId": "ql_en-b1-h-t2-gist-holiday-talk-01-q1",
+      "partId": "cur-en-B1-e00-horen-t2-bb1fe6918fbea9e1",
+      "module": "horen",
+      "teil": 2,
+      "slot": "horen T2",
+      "type": "multiple_choice",
+      "question": "How does the woman feel about the summer heat in Spain?",
+      "options": [
+        "a) She intends to manage it by being near the water.",
+        "b) She wants to change the dates.",
+        "c) She thinks it will be too uncomfortable."
+      ],
+      "key": "a",
+      "context": {
+        "label": "Recording 3",
+        "text": "Woman: I've finally booked our trip to Spain for July! Man: That's great, but isn't it going to be extremely hot? Woman: I know, but we'll be right by the sea, so we can swim all day."
+      }
+    },
+    {
+      "n": 21,
+      "itemId": "ql_en-b1-r-t2-match-day-trips-04-q1",
+      "partId": "cur-en-B1-e00-lesen-t2-e94b1c06c8dd5f9a",
+      "module": "lesen",
+      "teil": 2,
+      "slot": "lesen T2",
+      "type": "matching",
+      "question": "Sarah wants to find a place where she can see animals in their natural environment.",
+      "options": [
+        "A) The Riverside Park — This park offers beautiful walking paths along the river and large open fields for picnics. There is a small café serving local snacks and a boat hire service if you want to explore the water.",
+        "B) Mountain Adventure Centre — Perfect for those who love high-energy activities. You can try rock climbing, zip-lining, or mountain biking on our specially designed tracks. Equipment is provided for all visitors.",
+        "C) Historical Castle Tour — Step back in time with a guided tour of this 15th-century castle. You will learn about the royal history and see an impressive collection of ancient armor and paintings.",
+        "D) City Art Gallery — A quiet place to spend an afternoon. The gallery displays modern art from local artists and hosts weekly workshops where you can learn to paint or sculpt yourself.",
+        "E) Coastal Wildlife Reserve — Ideal for nature lovers. Walk along the beach to spot rare birds and seals. There is an information centre with experts who can tell you about the local marine life.",
+        "F) Science Discovery Museum — An interactive museum where you can touch everything! Great for families, the exhibits explain how electricity and space travel work through fun games and experiments.",
+        "G) Old Town Market — Visit our vibrant market to find unique handmade crafts, vintage clothing, and delicious street food from around the world. It is open every Saturday and Sunday.",
+        "H) Botanical Gardens — A peaceful escape featuring thousands of different plants and flowers from all over the globe. There are guided tours available to explain the rare species in the glasshouses."
+      ],
+      "key": "E",
+      "context": {
+        "label": "Read the text(s) and answer the questions in Part 2.",
+        "text": "A) The Riverside Park — This park offers beautiful walking paths along the river and large open fields for picnics. There is a small café serving local snacks and a boat hire service if you want to explore the water.\nB) Mountain Adventure Centre — Perfect for those who love high-energy activities. You can try rock climbing, zip-lining, or mountain biking on our specially designed tracks. Equipment is provided for all visitors.\nC) Historical Castle Tour — Step back in time with a guided tour of this 15th-century castle. You will learn about the royal history and see an impressive collection of ancient armor and paintings.\nD) City Art Gallery — A quiet place to spend an afternoon. The gallery displays modern art from local artists and hosts weekly workshops where you can learn to paint or sculpt yourself.\nE) Coastal Wildlife Reserve — Ideal for nature lovers. Walk along the beach to spot rare birds and seals. There is an information centre with experts who can tell you about the local marine life.\nF) Science Discovery Museum — An interactive museum where you can touch everything! Great for families, the exhibits explain how electricity and space travel work through fun games and experiments.\nG) Old Town Market — Visit our vibrant market to find unique handmade crafts, vintage clothing, and delicious street food from around the world. It is open every Saturday and Sunday.\nH) Botanical Gardens — A peaceful escape featuring thousands of different plants and flowers from all over the globe. There are guided tours available to explain the rare species in the glasshouses."
+      }
+    },
+    {
+      "n": 22,
+      "itemId": "ql_en-b1-r-t5-cloze-music-festival-03-q5",
+      "partId": "cur-en-B1-e02-lesen-t5-2737c9e35f86134b",
+      "module": "lesen",
+      "teil": 5,
+      "slot": "lesen T5",
+      "type": "multiple_choice",
+      "question": "Choose the correct word for gap 5.",
+      "options": [
+        "a) number",
+        "b) range",
+        "c) collection",
+        "d) variety"
+      ],
+      "key": "b",
+      "context": {
+        "label": "A Summer Music Festival",
+        "text": "Every year, thousands of people travel to the coast for the Sunny Beats Music Festival. It is a fantastic event where you can listen to live bands and enjoy the beach. This year, the festival organizers have decided to (1) _____ the event to three days instead of two. Many people choose to (2) _____ in tents at the nearby campsite, which is a great way to meet new friends. If you prefer more comfort, there are also many hotels in the town. You should book your tickets early because they (3) _____ out very quickly. Don't forget to bring sunscreen, as it can get very hot during the day. It is also a good idea to (4) _____ a waterproof jacket, just in case it rains in the evening. The festival offers a wide (5) _____ of food from different countries, so you will definitely find something you like. It is an experience you will (6) _____ forget!"
+      }
+    },
+    {
+      "n": 23,
+      "itemId": "ql_en-b1-r-t3-long-young-athlete-03-q1",
+      "partId": "cur-en-B1-e00-lesen-t3-2e8b8deb141a6ecc",
+      "module": "lesen",
+      "teil": 3,
+      "slot": "lesen T3",
+      "type": "multiple_choice",
+      "question": "When did Leo start to treat swimming as a serious activity?",
+      "options": [
+        "a) When he was five years old.",
+        "b) After he won his first medal.",
+        "c) When he became a member of a swimming club.",
+        "d) When he started training in Manchester."
+      ],
+      "key": "c",
+      "context": {
+        "label": "Rising Star: An Interview with Leo Vance",
+        "text": "At just sixteen, Leo Vance has already made a name for himself in the world of competitive swimming. We caught up with him at his local training centre in Manchester. 'I started swimming when I was five,' Leo explains, drying off after a two-hour morning session. 'My parents took me to the pool every weekend, but I didn't really take it seriously until I joined a club at ten.'\n\nLeo’s routine is demanding. He wakes up at 4:30 a.m. to be in the water by 5:15 a.m. 'It’s tough, especially in winter when it's dark and cold outside,' he admits. 'But when you’re in the pool, you forget the time. You just focus on your strokes.' Despite the hard work, Leo insists he has a normal social life. 'People think athletes don't have time for friends, but I make sure I see my mates on Friday nights. It’s important to switch off.'\n\nHis biggest challenge so far was the National Youth Championships last year. 'I was so nervous before the final race,' he recalls. 'I almost pulled out, but my coach reminded me why I started. I ended up winning silver.' That medal changed his perspective. 'It wasn't just about the prize; it was about proving to myself that I could handle the pressure.'\n\nLooking ahead, Leo has his sights set on the international stage. 'The dream is the Olympics, obviously. But for now, I’m focused on improving my technique. My coach says I’m strong, but my turns need work.' When asked if he has any advice for other young athletes, he is humble. 'Don't let the sport define who you are. Enjoy it, work hard, but remember to have fun. If you stop enjoying it, you’ll never reach your potential.'"
+      }
+    },
+    {
+      "n": 24,
+      "itemId": "ql_en-b1-r-t5-cloze-music-festival-01-q5",
+      "partId": "cur-en-B1-e00-lesen-t5-0be9c21563d4264a",
+      "module": "lesen",
+      "teil": 5,
+      "slot": "lesen T5",
+      "type": "multiple_choice",
+      "question": "Choose the correct option for gap 5.",
+      "options": [
+        "a) invent",
+        "b) discover",
+        "c) explore",
+        "d) search"
+      ],
+      "key": "b",
+      "context": {
+        "label": "A Summer Music Festival",
+        "text": "Every year, thousands of music fans travel to the countryside for the Sunny Beats Festival. It is one of the most popular events in the region, and tickets often sell out months in advance. The festival (1) ______ place over three days in July, offering a wide variety of musical styles ranging from rock to electronic dance music. Many people choose to camp on-site, which allows them to fully (2) ______ the atmosphere of the event. There are several stages, so festival-goers can easily move between them to see their favourite bands. Food stalls are available everywhere, serving delicious snacks from all over the world. If you are (3) ______ of going this year, make sure to book your accommodation early as nearby hotels fill up very quickly. Organisers have also (4) ______ a new shuttle bus service to help people get to the site more easily. It is a fantastic way to (5) ______ new music and meet people who share your interests. Don't forget to bring comfortable shoes, as you will (6) ______ a lot of time walking between the different stages!"
+      }
+    },
+    {
+      "n": 25,
+      "itemId": "ql_en-b1-h-t2-gist-family-plans-01-q3",
+      "partId": "cur-en-B1-e00-horen-t2-bb1fe6918fbea9e1",
+      "module": "horen",
+      "teil": 2,
+      "slot": "horen T2",
+      "type": "multiple_choice",
+      "question": "What did the woman do with her cousin?",
+      "options": [
+        "a) Visited a museum.",
+        "b) Cleaned the house.",
+        "c) Looked at old photographs."
+      ],
+      "key": "c",
+      "context": {
+        "label": "Recording 2",
+        "text": "Man: Did you manage to help your cousin with his history project? Woman: Yes, we spent all evening looking at old family photos. It was actually quite interesting to see how much the house has changed."
+      }
+    },
+    {
+      "n": 26,
+      "itemId": "ql_en-b1-r-t6-open-cloze-family-trip-01-q2",
+      "partId": "cur-en-B1-e00-lesen-t6-659ab809e6a01110",
+      "module": "lesen",
+      "teil": 6,
+      "slot": "lesen T6",
+      "type": "gap_fill",
+      "question": "Gap 2",
+      "options": null,
+      "key": "made",
+      "context": {
+        "label": "A Family Trip to the Mountains",
+        "text": "Last summer, my family and I decided to spend a week in the mountains. We had never been there before, so we were all very excited. We packed our bags and left early on Saturday morning. The drive was long, but the scenery was beautiful. When we arrived, we checked into a small wooden cabin. It was perfect (1) _____ us. The next day, we went hiking. My father wanted to climb the highest peak, but my mother preferred to stay near the lake. In the end, we (2) _____ a compromise and chose a path that went through the forest. It was quite challenging (3) _____ times, but we enjoyed every moment. During the trip, we saw many interesting animals, including a deer. We also took (4) _____ of photos to show our friends back home. On our last night, we sat outside and looked at the stars. It was (5) _____ most peaceful experience I have ever had. We all agreed that we would definitely like to return (6) _____ year."
+      }
+    },
+    {
+      "n": 27,
+      "itemId": "ql_en-b1-h-t4-interview-young-chef-02-q6",
+      "partId": "cur-en-B1-e00-horen-t4-2fab3d9398ebe8cc",
+      "module": "horen",
+      "teil": 4,
+      "slot": "horen T4",
+      "type": "multiple_choice",
+      "question": "What is Sarah's advice to young people?",
+      "options": [
+        "a) Learn from your mistakes",
+        "b) Always follow your mentor",
+        "c) Start a business early"
+      ],
+      "key": "a",
+      "context": {
+        "label": "Recording 1",
+        "text": "Interviewer: Today we are talking to Sarah Jenkins, who recently opened her own restaurant at just twenty-two. Sarah, was it always your dream to be a chef? Sarah: Actually, no. I wanted to be a musician, but I loved cooking for friends. Then, I took a summer job in a kitchen and realized I preferred the heat of the stove to the stage! Interviewer: Was it difficult to start your own business so young? Sarah: The hardest part wasn't the cooking, but the paperwork. I spent weeks talking to banks and finding the right location. I almost gave up once, but my mentor encouraged me to keep going. Interviewer: What is the most popular dish on your menu? Sarah: Definitely the spicy vegetable stew. I thought people would find it too hot, but they love it. I use a secret spice mix from my grandmother. Interviewer: What do you do when you are not working? Sarah: I try to get away from food entirely! I go hiking or read books. If I stay in the kitchen too long, I lose my creativity. Interviewer: What advice would you give to other young people? Sarah: Don't be afraid to make mistakes. Every burnt meal is a lesson."
+      }
+    },
+    {
+      "n": 28,
+      "itemId": "ql_en-b1-r-t6-open-cloze-family-trip-01-q4",
+      "partId": "cur-en-B1-e00-lesen-t6-659ab809e6a01110",
+      "module": "lesen",
+      "teil": 6,
+      "slot": "lesen T6",
+      "type": "gap_fill",
+      "question": "Gap 4",
+      "options": null,
+      "key": "lots",
+      "context": {
+        "label": "A Family Trip to the Mountains",
+        "text": "Last summer, my family and I decided to spend a week in the mountains. We had never been there before, so we were all very excited. We packed our bags and left early on Saturday morning. The drive was long, but the scenery was beautiful. When we arrived, we checked into a small wooden cabin. It was perfect (1) _____ us. The next day, we went hiking. My father wanted to climb the highest peak, but my mother preferred to stay near the lake. In the end, we (2) _____ a compromise and chose a path that went through the forest. It was quite challenging (3) _____ times, but we enjoyed every moment. During the trip, we saw many interesting animals, including a deer. We also took (4) _____ of photos to show our friends back home. On our last night, we sat outside and looked at the stars. It was (5) _____ most peaceful experience I have ever had. We all agreed that we would definitely like to return (6) _____ year."
+      }
+    },
+    {
+      "n": 29,
+      "itemId": "ql_en-b1-h-t3-gapfill-school-trip-info-01-q5",
+      "partId": "cur-en-B1-e00-horen-t3-ef9ffefc3d16ba1a",
+      "module": "horen",
+      "teil": 3,
+      "slot": "horen T3",
+      "type": "gap_fill",
+      "question": "Students should bring a bottle of [gap] for lunch.",
+      "options": null,
+      "key": "water",
+      "context": {
+        "label": "Recording 1",
+        "text": "Hello everyone. I am here to give you the final details about our upcoming school trip to France. We will be departing from the school gates at 7:30 am on Monday morning, so please make sure you arrive on time. We are staying at a lovely hotel in the countryside, which is famous for its large swimming pool. On the first day, we will visit a local museum to learn about history. The most exciting part of the trip will be the visit to the chocolate factory on Wednesday, where we can taste everything! For lunch, we will have a picnic in the park, but please remember to bring a bottle of water. Finally, don't forget to bring your camera to take photos of the beautiful scenery. I am sure we will have a fantastic time!"
+      }
+    },
+    {
+      "n": 30,
+      "itemId": "ql_en-b1-r-t5-cloze-cooking-class-01-q5",
+      "partId": "cur-en-B1-e01-lesen-t5-21704bdc5b4a530e",
+      "module": "lesen",
+      "teil": 5,
+      "slot": "lesen T5",
+      "type": "multiple_choice",
+      "question": "Gap 5",
+      "options": [
+        "a) done",
+        "b) prepared",
+        "c) cooked",
+        "d) finished"
+      ],
+      "key": "b",
+      "context": {
+        "label": "Learning to Cook",
+        "text": "Last weekend, I decided to sign up for a local cooking class. I have always enjoyed eating good food, but I (1) _____ very little about how to prepare it myself. The class took place in a small, professional kitchen in the city centre. There were ten students in total, and our teacher was a friendly chef named Marco. He showed us how to (2) _____ fresh vegetables and herbs to make a healthy soup. I found it quite difficult at first, but Marco was very patient and (3) _____ us exactly what to do. We also learned how to bake bread from scratch. It was (4) _____ harder than I expected, but the smell of the fresh bread was amazing. By the end of the afternoon, we had all (5) _____ a delicious three-course meal. I felt very proud of what I had achieved. I am already (6) _____ forward to booking my next class to learn how to make Italian pasta."
+      }
+    },
+    {
+      "n": 31,
+      "itemId": "ql_en-b1-h-t3-gapfill-school-trip-info-01-q2",
+      "partId": "cur-en-B1-e00-horen-t3-ef9ffefc3d16ba1a",
+      "module": "horen",
+      "teil": 3,
+      "slot": "horen T3",
+      "type": "gap_fill",
+      "question": "The hotel where the students are staying has a large [gap].",
+      "options": null,
+      "key": "swimming pool",
+      "context": {
+        "label": "Recording 1",
+        "text": "Hello everyone. I am here to give you the final details about our upcoming school trip to France. We will be departing from the school gates at 7:30 am on Monday morning, so please make sure you arrive on time. We are staying at a lovely hotel in the countryside, which is famous for its large swimming pool. On the first day, we will visit a local museum to learn about history. The most exciting part of the trip will be the visit to the chocolate factory on Wednesday, where we can taste everything! For lunch, we will have a picnic in the park, but please remember to bring a bottle of water. Finally, don't forget to bring your camera to take photos of the beautiful scenery. I am sure we will have a fantastic time!"
+      }
+    },
+    {
+      "n": 32,
+      "itemId": "ql_en-b1-r-t5-cloze-music-festival-03-q4",
+      "partId": "cur-en-B1-e02-lesen-t5-2737c9e35f86134b",
+      "module": "lesen",
+      "teil": 5,
+      "slot": "lesen T5",
+      "type": "multiple_choice",
+      "question": "Choose the correct word for gap 4.",
+      "options": [
+        "a) carry",
+        "b) hold",
+        "c) fetch",
+        "d) pack"
+      ],
+      "key": "d",
+      "context": {
+        "label": "A Summer Music Festival",
+        "text": "Every year, thousands of people travel to the coast for the Sunny Beats Music Festival. It is a fantastic event where you can listen to live bands and enjoy the beach. This year, the festival organizers have decided to (1) _____ the event to three days instead of two. Many people choose to (2) _____ in tents at the nearby campsite, which is a great way to meet new friends. If you prefer more comfort, there are also many hotels in the town. You should book your tickets early because they (3) _____ out very quickly. Don't forget to bring sunscreen, as it can get very hot during the day. It is also a good idea to (4) _____ a waterproof jacket, just in case it rains in the evening. The festival offers a wide (5) _____ of food from different countries, so you will definitely find something you like. It is an experience you will (6) _____ forget!"
+      }
+    },
+    {
+      "n": 33,
+      "itemId": "ql_en-b1-r-t6-open-cloze-family-trip-01-q3",
+      "partId": "cur-en-B1-e00-lesen-t6-659ab809e6a01110",
+      "module": "lesen",
+      "teil": 6,
+      "slot": "lesen T6",
+      "type": "gap_fill",
+      "question": "Gap 3",
+      "options": null,
+      "key": "at",
+      "context": {
+        "label": "A Family Trip to the Mountains",
+        "text": "Last summer, my family and I decided to spend a week in the mountains. We had never been there before, so we were all very excited. We packed our bags and left early on Saturday morning. The drive was long, but the scenery was beautiful. When we arrived, we checked into a small wooden cabin. It was perfect (1) _____ us. The next day, we went hiking. My father wanted to climb the highest peak, but my mother preferred to stay near the lake. In the end, we (2) _____ a compromise and chose a path that went through the forest. It was quite challenging (3) _____ times, but we enjoyed every moment. During the trip, we saw many interesting animals, including a deer. We also took (4) _____ of photos to show our friends back home. On our last night, we sat outside and looked at the stars. It was (5) _____ most peaceful experience I have ever had. We all agreed that we would definitely like to return (6) _____ year."
+      }
+    },
+    {
+      "n": 34,
+      "itemId": "ql_en-b1-h-t4-interview-young-chef-02-q1",
+      "partId": "cur-en-B1-e00-horen-t4-2fab3d9398ebe8cc",
+      "module": "horen",
+      "teil": 4,
+      "slot": "horen T4",
+      "type": "multiple_choice",
+      "question": "What did Sarah originally want to do as a career?",
+      "options": [
+        "a) Open a restaurant",
+        "b) Be a musician",
+        "c) Work in a bank"
+      ],
+      "key": "b",
+      "context": {
+        "label": "Recording 1",
+        "text": "Interviewer: Today we are talking to Sarah Jenkins, who recently opened her own restaurant at just twenty-two. Sarah, was it always your dream to be a chef? Sarah: Actually, no. I wanted to be a musician, but I loved cooking for friends. Then, I took a summer job in a kitchen and realized I preferred the heat of the stove to the stage! Interviewer: Was it difficult to start your own business so young? Sarah: The hardest part wasn't the cooking, but the paperwork. I spent weeks talking to banks and finding the right location. I almost gave up once, but my mentor encouraged me to keep going. Interviewer: What is the most popular dish on your menu? Sarah: Definitely the spicy vegetable stew. I thought people would find it too hot, but they love it. I use a secret spice mix from my grandmother. Interviewer: What do you do when you are not working? Sarah: I try to get away from food entirely! I go hiking or read books. If I stay in the kitchen too long, I lose my creativity. Interviewer: What advice would you give to other young people? Sarah: Don't be afraid to make mistakes. Every burnt meal is a lesson."
+      }
+    },
+    {
+      "n": 35,
+      "itemId": "ql_en-b1-h-t1-pics-weather-plans-01-s6-q6",
+      "partId": "cur-en-B1-e00-horen-t1-1bc2044ad48fb576",
+      "module": "horen",
+      "teil": 1,
+      "slot": "horen T1",
+      "type": "multiple_choice",
+      "question": "What is the man going to do?",
+      "options": [
+        "a) Paint the fence",
+        "b) Build a fence",
+        "c) Clean the garden"
+      ],
+      "key": "a",
+      "context": {
+        "label": "Recording 1",
+        "text": "Man: I've been waiting for a warm weekend to paint the garden fence. It looks like Saturday will be perfect, just warm and dry."
+      }
+    },
+    {
+      "n": 36,
+      "itemId": "ql_en-b1-h-t3-gapfill-school-trip-info-01-q4",
+      "partId": "cur-en-B1-e00-horen-t3-ef9ffefc3d16ba1a",
+      "module": "horen",
+      "teil": 3,
+      "slot": "horen T3",
+      "type": "gap_fill",
+      "question": "The visit to the [gap] factory is scheduled for Wednesday.",
+      "options": null,
+      "key": "chocolate",
+      "context": {
+        "label": "Recording 1",
+        "text": "Hello everyone. I am here to give you the final details about our upcoming school trip to France. We will be departing from the school gates at 7:30 am on Monday morning, so please make sure you arrive on time. We are staying at a lovely hotel in the countryside, which is famous for its large swimming pool. On the first day, we will visit a local museum to learn about history. The most exciting part of the trip will be the visit to the chocolate factory on Wednesday, where we can taste everything! For lunch, we will have a picnic in the park, but please remember to bring a bottle of water. Finally, don't forget to bring your camera to take photos of the beautiful scenery. I am sure we will have a fantastic time!"
+      }
+    }
+  ]
+}

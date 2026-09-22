@@ -43,7 +43,7 @@
     },
     "B1": {
       "status": "live",
-      "exams": 3,
+      "exams": 4,
       "personalized": true,
       "quickModules": true,
       "aiFeatures": true
