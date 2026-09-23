@@ -808,7 +808,13 @@ function chk13(batch, file) {
 // CHK-14 triggers after these articles/conjunctions/prepositions.
 // Flag /gi so sentence-initial capitals (Der, Die, Das, Kein, Keine…) also match;
 // the captured word is then checked separately for lowercase-start.
-const ARTICLE_RE_14 = /\b(?:die|der|das|den|dem|des|ein|eine|einen|einem|einer|eines|kein|keine|keinen|keinem|keiner|keines|und|oder|mit|für|ohne|durch|um|bei|nach|seit|von|vor|über|unter|neben|zwischen|je)\s+(\S{4,})/gi;
+// Word start via lookbehind, not \b: without the u flag \b treats «ä» as a
+// non-letter, so «Fahrräder mieten» read as article «der» + «mieten».
+const ARTICLE_RE_14 = /(?<![\p{L}\p{N}])(?:die|der|das|den|dem|des|ein|eine|einen|einem|einer|eines|kein|keine|keinen|keinem|keiner|keines|und|oder|mit|für|ohne|durch|um|bei|nach|seit|von|vor|über|unter|neben|zwischen|je)\s+(\S{4,})/giu;
+const CHK14_ARTICLES = new Set([
+  'die', 'der', 'das', 'den', 'dem', 'des', 'ein', 'eine', 'einen', 'einem', 'einer', 'eines',
+  'kein', 'keine', 'keinen', 'keinem', 'keiner', 'keines',
+]);
 
 // Nominal suffixes that are unambiguously nouns (never adjectives/verbs).
 // Extended: added -bau, -gut, -werk, -stoff, -zeug, -tat to catch compound nouns.
@@ -1035,10 +1041,13 @@ function chk14(batch, file) {
       if (isChk14FiniteVerbFp(word, articleLemma, nextTok)) continue;
       if (ADJ_NEEDS_ARTICLE_GUARD.has(word.toLowerCase())) continue; // substantivised adj forms in lexicon
       const hasNounSuffix = NOUN_SUFFIX_RE_14.test(word);
+      // After a conjunction/preposition the next word is usually an adjective,
+      // verb or adverb, and the stem lexicon matches those too (glücklich→Glück,
+      // wegen→Wege, traditionellen→Tradition). Only an article allows it.
       const isKnownNoun =
         KNOWN_LOWER_NOUNS_14.has(word.toLowerCase()) ||
         hasNounSuffix ||
-        isKnownGermanNoun(word);
+        (CHK14_ARTICLES.has(articleLemma) && isKnownGermanNoun(word));
       if (!isKnownNoun) continue;
       const nextCap = nextCapitalizedToken(text, m.index + m[0].length);
       // v3.7: «die gelbe Tonne» — color/attr adj before CapNoun

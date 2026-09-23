@@ -540,7 +540,8 @@ export function looksLikeAttributiveAdjective(word) {
   if (/(?:isch|lich|iv|är|ös)(?:e|en|er|es|em)$/i.test(lc)) return true;
   if (/(?:isch|lich|iv|är|ös)$/i.test(lc) && !isCertainNounLemma(lc)) return true;
   // -bar/-sam/-haft/-ig: same pattern («Nachbar» blocked; «wunderbarer» OK)
-  if (/(?:bar|sam|haft|ig)(?:e|en|er|es|em)$/i.test(lc)) return true;
+  // -los inflected («einen kostenlosen Kurs»); bare «Los» is a noun, so no bare form.
+  if (/(?:bar|sam|haft|ig|los)(?:e|en|er|es|em)$/i.test(lc)) return true;
   if (/(?:bar|sam|haft|ig)$/i.test(lc) && !isCertainNounLemma(lc)) return true;
   return false;
 }
