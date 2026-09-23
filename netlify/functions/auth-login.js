@@ -103,6 +103,18 @@ exports.handler = async (event) => {
   }
 
   const { supabaseUrl, supabaseAnonKey, configured } = readSupabaseEnv();
+
+  // A Supabase account (profile mirrored in Blobs, no local password) cannot be
+  // checked without Supabase. Saying "bad_credentials" here sent users hunting
+  // for a wrong password: on 23 sep 2026 production had no SUPABASE_URL /
+  // SUPABASE_ANON_KEY and 3 of its 4 accounts were locked out this way.
+  if (!configured && user?.supabaseId && !user.passwordHash) {
+    console.error(
+      '[auth-login] Supabase account but SUPABASE_URL/SUPABASE_ANON_KEY are not set in this context',
+    );
+    return jsonResponse(503, cors, { error: 'auth_service_unavailable' });
+  }
+
   if (configured) {
     const grant = await supabasePasswordGrant(supabaseUrl, supabaseAnonKey, email, password);
     if (grant.accessToken) {
