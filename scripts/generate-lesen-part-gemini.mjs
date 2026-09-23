@@ -2058,7 +2058,12 @@ async function generateLlmPart(args, teil, session) {
           batch = repaired;
           lastBatch = batch;
         } else {
-          console.log(`  Reparación ${triage.repairKind}: sin cambios en batch — re-validando estado actual…`);
+          // The batch is unchanged, so triage would pick the same repair again
+          // with the same outcome: on de/A2 Lesen T1 (23 sep 2026) one file spent
+          // 6 of its 10 calls repeating an identical length-bias repair. Hand over
+          // to the normal fix retry instead.
+          console.log(`  Reparación ${triage.repairKind}: sin cambios en batch — paso al reintento normal`);
+          break;
         }
         console.log(`  Re-validando tras ${triage.repairKind}…`);
         const reResult = await finalizeBatch(args, teil, batch, basename, relFile);
