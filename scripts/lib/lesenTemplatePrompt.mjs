@@ -17,7 +17,7 @@ import {
   stripVocabSectionFromTemplate,
 } from './promptAssembly.mjs';
 import { GENERATED_DIR, nextNumberedBatchBasename } from './batchPaths.mjs';
-import { buildLengthBiasRepairSpec, mcqCorrectLetter, mcqOptionBody } from './mcqLengthBias.mjs';
+import { buildLengthBiasRepairSpec, buildMcqLengthRulePrompt, mcqCorrectLetter, mcqOptionBody } from './mcqLengthBias.mjs';
 import { finalizeRepairPrompt } from './germanExplanationPromptRules.mjs';
 
 function formatForbiddenNgramsBlock(ngrams) {
@@ -356,7 +356,8 @@ function buildLesenChecklistBlockA2(teil, options = {}) {
       (Number(teil) === 1
         ? `- (T1 A2) Medientext 3ª persona/reportaje; **5 MCQ** a/b/c; PROHIBIDO ich-Blog y richtig_falsch.\n` +
           `- (T1 A2) PROHIBIDO correct:"true"/"false"/"Richtig"/"Falsch" — correct solo letra a/b/c; options[] obligatorio (3 strings).\n` +
-          buildLesenMcqChk34Rule(6)
+          buildLesenMcqChk34Rule(6) +
+          buildMcqLengthRulePrompt('A2')
         : '') +
       (Number(teil) === 2
         ? `- (T2 A2) Informationstafel + 5 MCQ a/b/c.\n` +
@@ -364,13 +365,15 @@ function buildLesenChecklistBlockA2(teil, options = {}) {
           `- (T2 A2) **GATE 4/5:** enunciado "question" con «Stock» o «Etage» en ≥4 preguntas.\n` +
           `- (T2 A2) **GATE 4/5:** opción «in einem anderen Stock» / «anderer Stock» en ≥4 preguntas.\n` +
           `- (T2 A2) **mcq_distinct:** 3 pisos mutuamente excluyentes; formato corto «im N. Stock»; **PROHIBIDO repetir el mismo piso en dos opciones** (ni parafrasear: im Erdgeschoss ≠ Erdgeschoss).\n` +
-          buildLesenMcqChk34Rule(6)
+          buildLesenMcqChk34Rule(6) +
+          buildMcqLengthRulePrompt('A2')
         : '') +
       (Number(teil) === 3
         ? `- (T3 A2) E-Mail/Korrespondenz + 5 MCQ a/b/c.\n` +
           `- (T3 A2) CEFR ingest: **≤12% Nebensätze** (Hauptsätze kurz; max. 1–2 «weil/dass/wenn»).\n` +
           `- (T3 A2) MCQ: options «a) …» «b) …» «c) …»; **correct === correctAnswer** (letra a/b/c).\n` +
-          buildLesenMcqChk34Rule(6)
+          buildLesenMcqChk34Rule(6) +
+          buildMcqLengthRulePrompt('A2')
         : '') +
       (Number(teil) === 4
         ? `- (T4 A2) 6 Anzeigen (passages a–f) + 5 matching; opciones ["a"…"f","X"]; exactamente 1 correct:"X".\n` +
@@ -394,7 +397,8 @@ function buildLesenChecklistBlockA2(teil, options = {}) {
       ? `- (T1 A2) **Medientext** informativo en 3ª persona; título de prensa; **5× multiple_choice** a/b/c.\n` +
         `- (T1 A2) PROHIBIDO: blog en «ich», richtig_falsch, registro B1 (Organisation, Gemeinschaft, Investition…).\n` +
         `- (T1 A2) PROHIBIDO correct:"true"/"false"/"Richtig"/"Falsch" — correct solo letra a/b/c; **options[] obligatorio** (3 strings «a) …» «b) …» «c) …»).\n` +
-        buildLesenMcqChk34Rule(6)
+        buildLesenMcqChk34Rule(6) +
+        buildMcqLengthRulePrompt('A2')
       : '') +
     (Number(teil) === 2
       ? `- (T2 A2) Texto de informationstafel + 5 MCQ a/b/c; topicTag coherente.\n` +
@@ -403,13 +407,15 @@ function buildLesenChecklistBlockA2(teil, options = {}) {
         `- (T2 A2) **GATE 4/5 anderer Stock:** ≥4 preguntas con c) «in einem anderen Stock» (o «anderes Stockwerk»).\n` +
         `- (T2 A2) **mcq_distinct (CHK-28):** a) im X. Stock, b) im Y. Stock (X≠Y), c) in einem anderen Stock — **PROHIBIDO repetir el mismo piso en dos opciones**.\n` +
         `- (T2 A2) PROHIBIDO: 3 pisos concretos sin «anderer Stock»; preguntas solo de horario/entrada sin Stock/Etage.\n` +
-        buildLesenMcqChk34Rule(6)
+        buildLesenMcqChk34Rule(6) +
+        buildMcqLengthRulePrompt('A2')
       : '') +
     (Number(teil) === 3
       ? `- (T3 A2) E-Mail/Korrespondenz + 5 MCQ a/b/c.\n` +
         `- (T3 A2) CEFR ingest: **≤12% Nebensätze** (Hauptsätze kurz; max. 1–2 «weil/dass/wenn»).\n` +
         `- (T3 A2) MCQ: options «a) …» «b) …» «c) …»; **correct === correctAnswer** (letra a/b/c).\n` +
-        buildLesenMcqChk34Rule(6)
+        buildLesenMcqChk34Rule(6) +
+        buildMcqLengthRulePrompt('A2')
       : '') +
     (Number(teil) === 4
       ? `- (T4 A2) 6 Anzeigen + 5 matching; opciones ["a"…"f","X"]; 1× correct:"X"; enunciados con persona en "question".\n` +

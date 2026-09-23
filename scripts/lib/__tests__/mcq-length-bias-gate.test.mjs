@@ -8,6 +8,9 @@ import {
   collectMcqLengthBiasIssues,
   isSignificantMcqLengthBias,
   measureMcqQuestionLengthBias,
+  buildMcqLengthRulePrompt,
+  MCQ_LENGTH_RULE_EXAMPLES,
+  resolveLengthBiasThresholds,
 } from '../mcqLengthBias.mjs';
 
 const POOL = path.join(ROOT, 'batches/ready/pool-verified/B1');
@@ -125,3 +128,14 @@ console.log('PASS: mcq length bias gate (calibrated threshold)');
 console.log(`  lesen-t2-107 gate issues: ${collectMcqLengthBiasIssues(clean107).length}`);
 console.log(`  horen-t2-028 gate issues: ${collectMcqLengthBiasIssues(clean028).length}`);
 console.log(`  horen-t2-005 gate issues: ${flagged005.length} (audit: ${auditOnly.length})`);
+
+// ── Prompt rule is built from the gate's own thresholds (23 sep 2026) ──
+// A hand-written rule said «20% y 8 caracteres»; the gate fires on either.
+for (const lv of ['A2', 'B1']) {
+  const th = resolveLengthBiasThresholds(lv);
+  const rule = buildMcqLengthRulePrompt(lv);
+  assert.ok(rule.includes(`≥${th.minPct}% **o** en ≥${th.minChars} caracteres`), `${lv}: thresholds come from the gate, joined by «o»`);
+  assert.equal(checkMcqQuestionLengthBias(MCQ_LENGTH_RULE_EXAMPLES.bad, { gate: true, level: lv }).bad, true, `${lv}: the INCORRECT example fails the gate`);
+  assert.equal(checkMcqQuestionLengthBias(MCQ_LENGTH_RULE_EXAMPLES.good, { gate: true, level: lv }).bad, false, `${lv}: the CORRECT example passes the gate`);
+}
+console.log('PASS: length rule prompt matches gate thresholds and examples');

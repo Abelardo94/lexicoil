@@ -357,6 +357,50 @@ function ok(cond, label) {
     ok(result.issues.length === 0, 'sin issues tras filtro');
   }
 
+  // ── forced_vocab (23 sep 2026): replaces the lexical vocab-coherence gate ──
+  console.log('\n── forced_vocab: solo Lesen T1 con vocabulario usado ──');
+  {
+    const plain = makeLesenPart('test-fv-plain');
+    ok(!/forced_vocab/.test(buildPromptForPart(plain)), 'sin userVocabFeedback: el prompt no pide forced_vocab');
+
+    const withVocab = { ...makeLesenPart('test-fv-vocab'), userVocabFeedback: { used: ['radweg', 'verkehr'] } };
+    const p = buildPromptForPart(withVocab);
+    ok(/"forced_vocab"/.test(p) && /radweg, verkehr/.test(p), 'Lesen T1 con vocab: pide forced_vocab y lista las palabras');
+
+    const teil3 = { ...withVocab, teil: 3, questions: withVocab.questions.map((q) => ({ ...q, teil: 3 })) };
+    ok(!/forced_vocab/.test(buildPromptForPart(teil3)), 'Lesen T3 con vocab: no pide forced_vocab');
+
+    clearSemanticCache(); clearTemplateRegistry();
+    _setLlmFn(makeLlmFn([{ kind: 'forced_vocab', itemId: 'passage', detail: '«Ein Stadtplan ist praktisch.» — stadtplan metida sin relación' }]));
+    const r = await validatePartSemantics(withVocab, { skipTemplate: true });
+    ok(!r.ok, 'forced_vocab bloquea (ok=false)');
+    ok(/^vocabulario forzado: /.test(r.issues[0]?.detail || ''), 'forced_vocab lleva el prefijo que reconoce la nota de corrección');
+
+    // Same content, different vocab: the verdict must not come from the cache.
+    _setLlmFn(makeLlmFn([]));
+    const r2 = await validatePartSemantics({ ...withVocab, userVocabFeedback: { used: ['fahrrad'] } }, { skipTemplate: true });
+    ok(r2.ok, 'otro vocabulario sobre el mismo texto no reutiliza el veredicto cacheado');
+  }
+
+  console.log('\n── A2 Lesen T1/T2: sin check "template" (formato uniforme) ──');
+  {
+    const a2 = (teil) => {
+      const part = makeLesenPart(`test-a2-t${teil}`);
+      delete part.level; delete part.module; delete part.teil; // shape of a generated batch
+      part.questions = part.questions.map((q) => ({ ...q, level: 'A2', teil, type: 'multiple_choice', options: ['a) x', 'b) y', 'c) z'], correct: 'a' }));
+      return part;
+    };
+    ok(!/molde narrativo/.test(buildPromptForPart(a2(1))), 'A2 T1 (lote generado): sin check de molde');
+    ok(!/molde narrativo/.test(buildPromptForPart(a2(2))), 'A2 T2 (lote generado): sin check de molde');
+    ok(/molde narrativo/.test(buildPromptForPart(a2(3))), 'A2 T3: conserva el check de molde');
+    ok(/molde narrativo/.test(buildPromptForPart(makeLesenPart('test-b1-t1'))), 'B1 T1: conserva el check de molde');
+
+    clearSemanticCache(); clearTemplateRegistry();
+    _setLlmFn(makeLlmFn([{ kind: 'template', itemId: 'passage', detail: 'molde narrativo genérico' }]));
+    const r = await validatePartSemantics(a2(2), { skipTemplate: true });
+    ok(r.ok, 'A2 T2: un "template" del LLM se filtra aunque lo devuelva');
+  }
+
   // ── Summary ────────────────────────────────────────────────────────────────
   console.log(`\n══ semanticValidator tests: ${passed} passed, ${failed} failed ══\n`);
   _setLlmFn(null); // restore real LLM
