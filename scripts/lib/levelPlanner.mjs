@@ -10,6 +10,7 @@ import { layoutForLevel } from './examLevelCells.mjs';
 const require = createRequire(import.meta.url);
 const { B1_TOPICS, normalizeB1Topic } = require(path.join(ROOT, 'js/data/b1Topics.js'));
 const { A2_OFFICIAL_TOPICS, normalizeA2Topic } = require(path.join(ROOT, 'js/data/a2Topics.js'));
+const { EN_B1_TOPICS, normalizeEnB1Topic } = require(path.join(ROOT, 'js/data/enB1Topics.js'));
 
 /**
  * Topic slugs per level.
@@ -21,13 +22,17 @@ const { A2_OFFICIAL_TOPICS, normalizeA2Topic } = require(path.join(ROOT, 'js/dat
 export function topicsForLevel(level = 'B1', opts = {}) {
   const lv = normalizeLevel(level);
   const scope = opts.scope || 'pool';
+  const lang = String(opts.lang || 'de').toLowerCase();
+  // English keeps its own closed list; German is untouched when lang is absent.
+  if (lang === 'en') return [...EN_B1_TOPICS];
   if (lv === 'A2' && (scope === 'gap' || scope === 'ui' || scope === 'official')) {
     return [...A2_OFFICIAL_TOPICS];
   }
   return B1_TOPICS;
 }
 
-export function normalizeTopicForLevel(level, topic) {
+export function normalizeTopicForLevel(level, topic, lang = 'de') {
+  if (String(lang).toLowerCase() === 'en') return normalizeEnB1Topic(topic);
   const lv = normalizeLevel(level);
   if (lv === 'A2') return normalizeA2Topic(topic);
   return normalizeB1Topic(topic);

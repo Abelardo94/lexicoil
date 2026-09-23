@@ -86,13 +86,14 @@ export function planRotation(ctx) {
 
   const wordCount = Math.min(8, Math.max(5, Number(ctx.wordCount) || 6));
   const vocabSkip = new Set(hardSkip);
-  const maxTopicTries = topicsForLevel(ctx.level, { scope: 'gap' }).length + 2;
+  const maxTopicTries = topicsForLevel(ctx.level, { scope: 'gap', lang: ctx.lang }).length + 2;
 
   for (let tryN = 0; tryN < maxTopicTries; tryN++) {
     const topic =
       forced ||
       pickScarcestTopic(records, ctx.module, ctx.teil, {
         targetPerCell: ctx.targetPerCell,
+        lang: ctx.lang,
         level: ctx.level,
         excludeTopics: [
           ...recent.slice(-Math.max(1, ctx.rotateEvery - 1)),
@@ -456,10 +457,10 @@ function loadBatchFromRelFile(relFile) {
 export function printGapStatus(lang, level, module, teil, targetPerCell) {
   const lv = String(level || 'B1').toUpperCase();
   const records = loadPoolRecords(lang, lv);
-  const officialTopics = topicsForLevel(lv, { scope: 'gap' });
-  const { untagged, total } = countTopicStock(records, module, teil, lv);
-  const ranked = rankTopicGaps(records, module, teil, targetPerCell, lv);
-  const scopeLabel = lv === 'A2' ? 'ejes oficiales A2' : 'temas B1';
+  const officialTopics = topicsForLevel(lv, { scope: 'gap', lang });
+  const { untagged, total } = countTopicStock(records, module, teil, lv, { lang });
+  const ranked = rankTopicGaps(records, module, teil, targetPerCell, lv, { lang });
+  const scopeLabel = String(lang).toLowerCase() === 'en' ? 'temas en/B1' : (lv === 'A2' ? 'ejes oficiales A2' : 'temas B1');
   console.log(
     `\nCelda ${module} T${teil} · ${total} partes verificadas ` +
       `(${untagged} sin eje ${scopeLabel})`,
@@ -470,6 +471,6 @@ export function printGapStatus(lang, level, module, teil, targetPerCell) {
     if (row.deficit <= 0 && row.count >= targetPerCell) continue;
     console.log(`${row.topic.padEnd(14)} ${String(row.count).padStart(5)} ${String(row.deficit).padStart(6)}`);
   }
-  const next = pickScarcestTopic(records, module, teil, { targetPerCell, level: lv });
+  const next = pickScarcestTopic(records, module, teil, { targetPerCell, level: lv, lang });
   console.log(`\nSiguiente tema sugerido: ${next}`);
 }

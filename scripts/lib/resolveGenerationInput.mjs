@@ -86,8 +86,9 @@ export function sanitizePromptTargetWords(words, topicTag, targetCount = 8, opts
 export function resolveGenerationTopic(args, { module = 'lesen', teil = 1 } = {}) {
   const level = String(args.level || 'B1').toUpperCase();
   if (args.topic) {
-    const t = normalizeTopicForLevel(level, args.topic);
-    const allowed = topicsForLevel(level, { scope: 'gap' });
+    const lang = String(args.lang || 'de').toLowerCase();
+    const t = normalizeTopicForLevel(level, args.topic, lang);
+    const allowed = topicsForLevel(level, { scope: 'gap', lang });
     if (!t || !allowed.includes(t)) {
       throw new Error(
         `Tema inválido para ${level}: "${args.topic}". Usa uno de: ${allowed.join(', ')}`,
