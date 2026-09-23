@@ -427,6 +427,10 @@ function checklistBlock(module, teil, level = 'B1') {
         `CUENTA los caracteres de las tres opciones antes de responder.\n` +
         `  Ejemplo INCORRECTO: «Um 8 Uhr.» / «Am Montag.» / «Am Dienstag um 10 Uhr im Rathaus.» ← correcta, se adivina sin escuchar.\n` +
         `  Ejemplo CORRECTO: «Am Montag um 9 Uhr.» / «Am Freitag um 14 Uhr.» ← correcta / «Am Dienstag um 10 Uhr.»\n` +
+        `- NEBENSÄTZE (gate CEFR A2 RECHAZA >12% de frases con subordinada): en un segmento de menos de 9 frases, ` +
+        `**NINGUNA** frase con weil/dass/wenn/ob/obwohl/während/nachdem/bevor/damit/falls/sobald. ` +
+        `Usa frases principales con «denn», «deshalb», «aber», «und» («Der Kurs fällt aus, denn die Lehrerin ist krank.»). ` +
+        `Frases de 6–12 palabras: ni telegráficas ni largas.\n` +
         `- REGISTRO A2 T1: PROHIBIDO Beratungsgespräche/Vorstellungsgespräch/Personalabteilung/Herausforderung/Experte; max 1 «… zu …» por segmento.\n` +
         `- difficulty: entero 2–4 en cada question (nunca 5).\n` +
         MCQ_CHK34_EXPLANATION_RULE
