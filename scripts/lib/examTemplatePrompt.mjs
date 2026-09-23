@@ -421,7 +421,7 @@ function checklistBlock(module, teil, level = 'B1') {
         `- SOLO MONÓLOGO — PROHIBIDO diálogo, Gespräch o turnos «Name: …».\n` +
         `- MCQ: options a)/b)/c); correct solo letra; varía a/b/c; anti word-matching (≥4 palabras seguidas del transcript = FAIL).\n` +
         `- LONGITUD MCQ (gate RECHAZA): en cada pregunta la opción correcta **NO puede ser la más larga** ` +
-        `(el gate A2 falla si supera la media de los distractores en ≥20% y ≥8 caracteres). ` +
+        `(el gate A2 falla si supera la media de los distractores en ≥20% O en ≥8 caracteres: con opciones cortas bastan 3 letras). ` +
         `Que la correcta sea la más corta o la del medio, variando entre preguntas; si necesita un dato más, ` +
         `da a los distractores un dato equivalente (otra hora, otro lugar, otro precio). ` +
         `CUENTA los caracteres de las tres opciones antes de responder.\n` +
