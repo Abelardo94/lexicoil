@@ -8,7 +8,7 @@
   "manifestVersion": 1,
   "previousManifestVersion": null,
   "status": "live",
-  "publishedAt": "2026-08-09T09:24:54.616Z",
+  "publishedAt": "2026-09-23T19:01:56.372Z",
   "publishedBy": null,
   "gate1": {
     "ok": true,
@@ -337,152 +337,152 @@
       "cell": "lesen_3",
       "module": "lesen",
       "teil": 3,
-      "partId": "lesen-t3-cur-health",
-      "contentHash": "745e9694f0fae21fef682452be0c771e26b3a2577c24759ca59d92927409b3f8",
+      "partId": "lesen-t3-cur-society",
+      "contentHash": "2cf479445877a8a80f7328c58b86b83d7c996653c0b334b41d96a997ee6270d2",
       "snapshot": {
-        "id": "lesen-t3-cur-health",
+        "id": "lesen-t3-cur-society",
         "lang": "de",
         "level": "A2",
         "module": "lesen",
         "teil": 3,
         "instruction": "",
         "passage": {
-          "title": "E-Mail: Reparaturservice",
-          "text": "Liebe Frau Schmidt,\n\nich schreibe Ihnen, weil mein Kühlschrank kaputt ist. Die Tür schließt nicht mehr richtig und das Licht funktioniert nicht. Ich brauche schnell Hilfe, denn das Essen wird warm.\n\nKönnen Sie morgen vorbeikommen? Ich bin ab 9 Uhr zu Hause. Meine Adresse ist Bahnhofstraße 42, Wohnung 5.\n\nWas kostet die Reparatur? Müssen Sie Ersatzteile kaufen?\n\nDanke für Ihre schnelle Antwort.\n\nViele Grüße\nMartin Köhler",
+          "title": "E-Mail: Fitnessstudio und Sportverein",
+          "text": "Liebe Maria,\n\nwie geht es dir? Ich schreibe dir, weil ich eine Frage habe. Ich möchte mehr Sport machen und bin unsicher: Soll ich ins Fitnessstudio gehen oder in einen Sportverein eintreten?\n\nIm Fitnessstudio kann ich allein trainieren, wann ich will. Die Kurse sind flexibel und es gibt viele Geräte. Aber es ist teuer – 50 Euro pro Monat!\n\nEin Sportverein ist günstiger. Mein Freund Peter ist im Tennisverein und zahlt nur 15 Euro monatlich. Er sagt, es macht mehr Spaß mit anderen zusammen zu spielen. Die Trainer sind gut und man lernt viele neue Menschen kennen. Aber die Trainingszeiten sind fest.\n\nIch bin noch jung und möchte abnehmen und meine Fitness verbessern. Was denkst du? Was ist besser für mich?\n\nViele Grüße,\nDein Thomas",
           "transcript": "",
-          "id": "de-a2-p-lesen-t3-dienstleistungen-alltag-02",
-          "passageId": "de-a2-p-lesen-t3-dienstleistungen-alltag-02"
+          "id": "de-a2-p-lesen-t3-sport-vereine-02",
+          "passageId": "de-a2-p-lesen-t3-sport-vereine-02"
         },
         "questions": [
           {
-            "id": "11-71efe122",
+            "id": "de-a2-cur-lesen-t3-cur-society-q11",
             "module": "lesen",
             "teil": 3,
             "level": "A2",
             "type": "multiple_choice",
-            "question": "Was möchte Martin von Frau Schmidt wissen?",
+            "question": "Warum schreibt Thomas an Maria?",
             "options": [
               {
                 "key": "A",
-                "text": "Nur, wann sie kommt"
+                "text": "Er möchte Maria in den Tennisverein einladen."
               },
               {
                 "key": "B",
-                "text": "Kosten und Ersatzteile"
+                "text": "Er möchte sich in einem Fitnessstudio anmelden."
               },
               {
                 "key": "C",
-                "text": "Nur, wie lange die Reparatur dauert"
-              }
-            ],
-            "correct": "b",
-            "correctAnswer": "b",
-            "explanation": "Martin möchte wissen, was die Reparatur kostet und ob Ersatzteile gekauft werden müssen. Die Option fasst diese beiden Punkte zusammen.",
-            "passageId": "de-a2-p-lesen-t3-dienstleistungen-alltag-02"
-          },
-          {
-            "id": "12-13f14faa",
-            "module": "lesen",
-            "teil": 3,
-            "level": "A2",
-            "type": "multiple_choice",
-            "question": "Warum braucht Martin schnell Hilfe?",
-            "options": [
-              {
-                "key": "A",
-                "text": "Das Essen wird warm"
-              },
-              {
-                "key": "B",
-                "text": "Er hat morgen Besuch"
-              },
-              {
-                "key": "C",
-                "text": "Die Reparatur ist sehr teuer"
-              }
-            ],
-            "correct": "a",
-            "correctAnswer": "a",
-            "explanation": "Die richtige Antwort steht im Text. Lesen Sie den Text noch einmal genau.",
-            "passageId": "de-a2-p-lesen-t3-dienstleistungen-alltag-02"
-          },
-          {
-            "id": "13-c694754d",
-            "module": "lesen",
-            "teil": 3,
-            "level": "A2",
-            "type": "multiple_choice",
-            "question": "Wann kann Martin Frau Schmidt zu Hause empfangen?",
-            "options": [
-              {
-                "key": "A",
-                "text": "Heute ab 9 Uhr"
-              },
-              {
-                "key": "B",
-                "text": "Morgen ab 9 Uhr"
-              },
-              {
-                "key": "C",
-                "text": "Übermorgen ab 9 Uhr"
-              }
-            ],
-            "correct": "b",
-            "correctAnswer": "b",
-            "explanation": "Die richtige Antwort steht im Text. Lesen Sie den Text noch einmal genau.",
-            "passageId": "de-a2-p-lesen-t3-dienstleistungen-alltag-02"
-          },
-          {
-            "id": "14-3d8f77b5",
-            "module": "lesen",
-            "teil": 3,
-            "level": "A2",
-            "type": "multiple_choice",
-            "question": "Was ist das Problem mit dem Kühlschrank?",
-            "options": [
-              {
-                "key": "A",
-                "text": "Der Motor ist zu laut"
-              },
-              {
-                "key": "B",
-                "text": "Das Eis schmilzt zu schnell"
-              },
-              {
-                "key": "C",
-                "text": "Tür und Licht defekt"
+                "text": "Er braucht Rat für Sport: Fitnessstudio oder Verein."
               }
             ],
             "correct": "c",
             "correctAnswer": "c",
-            "explanation": "Im Text steht, dass die Tür nicht richtig schließt und das Licht nicht funktioniert. Dies sind die Probleme mit dem Kühlschrank.",
-            "passageId": "de-a2-p-lesen-t3-dienstleistungen-alltag-02"
+            "explanation": "Thomas schreibt Maria, weil er unsicher ist, ob er ins Fitnessstudio gehen oder in einen Sportverein eintreten soll. Er bittet Maria um ihren Rat.",
+            "passageId": "de-a2-p-lesen-t3-sport-vereine-02"
           },
           {
-            "id": "15-2c9a7ea9",
+            "id": "de-a2-cur-lesen-t3-cur-society-q12",
             "module": "lesen",
             "teil": 3,
             "level": "A2",
             "type": "multiple_choice",
-            "question": "Wo wohnt Martin?",
+            "question": "Warum schreibt Thomas an Maria?",
             "options": [
               {
                 "key": "A",
-                "text": "Bahnhofstraße 42, Wohnung 5"
+                "text": "Er möchte Maria in den Tennisverein einladen."
               },
               {
                 "key": "B",
-                "text": "Bahnhofstraße 25, Wohnung 4"
+                "text": "Er möchte sich in einem Fitnessstudio anmelden."
               },
               {
                 "key": "C",
-                "text": "Bahnhofstraße 5, Wohnung 42"
+                "text": "Er braucht Rat für Sport: Fitnessstudio oder Verein."
+              }
+            ],
+            "correct": "c",
+            "correctAnswer": "c",
+            "explanation": "Thomas schreibt Maria, weil er unsicher ist, ob er ins Fitnessstudio gehen oder in einen Sportverein eintreten soll. Er bittet Maria um ihren Rat.",
+            "passageId": "de-a2-p-lesen-t3-sport-vereine-02"
+          },
+          {
+            "id": "de-a2-cur-lesen-t3-cur-society-q13",
+            "module": "lesen",
+            "teil": 3,
+            "level": "A2",
+            "type": "multiple_choice",
+            "question": "Warum schreibt Thomas an Maria?",
+            "options": [
+              {
+                "key": "A",
+                "text": "Er möchte sich in einem Fitnessstudio anmelden."
+              },
+              {
+                "key": "B",
+                "text": "Er braucht Rat für Sport: Fitnessstudio oder Verein."
+              },
+              {
+                "key": "C",
+                "text": "Er möchte Maria in den Tennisverein einladen."
+              }
+            ],
+            "correct": "b",
+            "correctAnswer": "b",
+            "explanation": "Thomas schreibt Maria, weil er unsicher ist, ob er ins Fitnessstudio gehen oder in einen Sportverein eintreten soll. Er bittet Maria um ihren Rat.",
+            "passageId": "de-a2-p-lesen-t3-sport-vereine-02"
+          },
+          {
+            "id": "de-a2-cur-lesen-t3-cur-society-q14",
+            "module": "lesen",
+            "teil": 3,
+            "level": "A2",
+            "type": "multiple_choice",
+            "question": "Warum schreibt Thomas an Maria?",
+            "options": [
+              {
+                "key": "A",
+                "text": "Er braucht Rat für Sport: Fitnessstudio oder Verein."
+              },
+              {
+                "key": "B",
+                "text": "Er möchte Maria in den Tennisverein einladen."
+              },
+              {
+                "key": "C",
+                "text": "Er möchte sich in einem Fitnessstudio anmelden."
               }
             ],
             "correct": "a",
             "correctAnswer": "a",
-            "explanation": "Die richtige Antwort steht im Text. Lesen Sie den Text noch einmal genau.",
-            "passageId": "de-a2-p-lesen-t3-dienstleistungen-alltag-02"
+            "explanation": "Thomas schreibt Maria, weil er unsicher ist, ob er ins Fitnessstudio gehen oder in einen Sportverein eintreten soll. Er bittet Maria um ihren Rat.",
+            "passageId": "de-a2-p-lesen-t3-sport-vereine-02"
+          },
+          {
+            "id": "de-a2-cur-lesen-t3-cur-society-q15",
+            "module": "lesen",
+            "teil": 3,
+            "level": "A2",
+            "type": "multiple_choice",
+            "question": "Warum schreibt Thomas an Maria?",
+            "options": [
+              {
+                "key": "A",
+                "text": "Er möchte sich in einem Fitnessstudio anmelden."
+              },
+              {
+                "key": "B",
+                "text": "Er braucht Rat für Sport: Fitnessstudio oder Verein."
+              },
+              {
+                "key": "C",
+                "text": "Er möchte Maria in den Tennisverein einladen."
+              }
+            ],
+            "correct": "b",
+            "correctAnswer": "b",
+            "explanation": "Thomas schreibt Maria, weil er unsicher ist, ob er ins Fitnessstudio gehen oder in einen Sportverein eintreten soll. Er bittet Maria um ihren Rat.",
+            "passageId": "de-a2-p-lesen-t3-sport-vereine-02"
           }
         ],
         "complete": true,
@@ -493,31 +493,31 @@
       "cell": "lesen_4",
       "module": "lesen",
       "teil": 4,
-      "partId": "lesen-t4-cur-society",
-      "contentHash": "ee1ed21109a6e0eec4001f11f47c009b625f383d8131e74495fd267d651df5f6",
+      "partId": "lesen-t4-gemini-102",
+      "contentHash": "43bc0c97d0b1d3a58fcb9fb5c92cc03c5e6a954f82621c08c588376d13be3bf4",
       "snapshot": {
-        "id": "lesen-t4-cur-society",
+        "id": "lesen-t4-gemini-102",
         "lang": "de",
         "level": "A2",
         "module": "lesen",
         "teil": 4,
         "instruction": "",
         "passage": {
-          "title": "Pfandflaschen-Verkauf",
-          "text": "Wir verkaufen hochwertige Glasflaschen mit Pfand. Das Pfand beträgt 8 Cent pro Flasche. Alle Flaschen sind spülbar und umweltfreundlich. Bestellen Sie jetzt online!"
+          "title": "Gartenarbeit für die Umwelt",
+          "text": "Wir suchen Freiwillige für unser Stadtgarten-Projekt. Helfen Sie uns, Blumen und Gemüse zu pflanzen. Keine Erfahrung nötig. Gemeinsam machen wir unsere Stadt grüner. Jeden Samstagmorgen. Anmeldung per E-Mail."
         },
         "questions": [
           {
-            "id": "de-a2-cur-lesen-t4-cur-society-q16",
+            "id": "gen-q-4-bc8be82d-1",
             "module": "lesen",
             "teil": 4,
             "level": "A2",
             "type": "matching",
-            "question": "Maria kauft oft im Supermarkt ein und hat gehört, dass ab Juni das Pfand von 8 auf 20 Cent steigt. Welche Anzeige passt?",
+            "question": "Herr Müller möchte wissen, wie er im Haushalt weniger Energie verbrauchen kann, um Kosten zu sparen und die Umwelt zu schonen. Welche Anzeige passt?",
             "signText": "",
             "correct": "d",
             "correctAnswer": "d",
-            "explanation": "Anzeige d erwähnt die Pfanderhöhung ab Juni von 8 auf 20 Cent im Supermarkt.",
+            "explanation": "Dieses Seminar hilft dabei.",
             "options": [
               "a) a",
               "b) b",
@@ -529,37 +529,16 @@
             ]
           },
           {
-            "id": "de-a2-cur-lesen-t4-cur-society-q17",
+            "id": "gen-q-4-bc8be82d-2",
             "module": "lesen",
             "teil": 4,
             "level": "A2",
             "type": "matching",
-            "question": "Ein Umweltlehrer sucht einen Text von Experten, die ein höheres Mindestpfand empfehlen. Welche Anzeige passt?",
-            "signText": "",
-            "correct": "e",
-            "correctAnswer": "e",
-            "explanation": "Anzeige e ist ein Umweltbericht mit der Empfehlung von mindestens 25 Cent Pfand durch Experten.",
-            "options": [
-              "a) a",
-              "b) b",
-              "c) c",
-              "d) d",
-              "e) e",
-              "f) f",
-              "g) X"
-            ]
-          },
-          {
-            "id": "de-a2-cur-lesen-t4-cur-society-q18",
-            "module": "lesen",
-            "teil": 4,
-            "level": "A2",
-            "type": "matching",
-            "question": "Tom liest online eine emotionale Debatte, ob höheres Pfand gut oder schlecht ist. Welche Anzeige passt?",
+            "question": "Lisa fährt gerne Fahrrad, aber ihr Rad ist kaputt. Sie möchte es reparieren, hat aber keine Erfahrung. Welche Anzeige passt?",
             "signText": "",
             "correct": "c",
             "correctAnswer": "c",
-            "explanation": "Anzeige c beschreibt eine Pfand-Debatte im Forum mit unterschiedlichen Meinungen.",
+            "explanation": "Die Werkstatt unterstützt sie.",
             "options": [
               "a) a",
               "b) b",
@@ -571,37 +550,58 @@
             ]
           },
           {
-            "id": "de-a2-cur-lesen-t4-cur-society-q19",
+            "id": "gen-q-4-bc8be82d-3",
             "module": "lesen",
             "teil": 4,
             "level": "A2",
             "type": "matching",
-            "question": "Eine Mutter mit kleinem Familienbudget fürchtet, dass eine Pfanderhöhung alle teurer macht. Welche Anzeige passt?",
-            "signText": "",
-            "correct": "f",
-            "correctAnswer": "f",
-            "explanation": "Anzeige f kritisiert, dass höheres Pfand besonders Familien mit kleinem Budget belastet.",
-            "options": [
-              "a) a",
-              "b) b",
-              "c) c",
-              "d) d",
-              "e) e",
-              "f) f",
-              "g) X"
-            ]
-          },
-          {
-            "id": "de-a2-cur-lesen-t4-cur-society-q20",
-            "module": "lesen",
-            "teil": 4,
-            "level": "A2",
-            "type": "matching",
-            "question": "Herr Becker sucht eine Anzeige, die kostenlose Mehrwegflaschen ohne Pfand und ohne Rückgabe-System anbietet. Welche Anzeige passt?",
+            "question": "Frau Schmidt sucht einen Job als Ärztin in einer umweltfreundlichen Firma. Keine Anzeige passt. Markieren Sie X.",
             "signText": "",
             "correct": "X",
             "correctAnswer": "X",
-            "explanation": "Keine Anzeige a–f bietet kostenlose Flaschen ohne Pfand; alle Texte setzen auf Pfand oder Pfanderhöhung.",
+            "explanation": "Keine Anzeige passt hier.",
+            "options": [
+              "a) a",
+              "b) b",
+              "c) c",
+              "d) d",
+              "e) e",
+              "f) f",
+              "g) X"
+            ]
+          },
+          {
+            "id": "gen-q-4-bc8be82d-4",
+            "module": "lesen",
+            "teil": 4,
+            "level": "A2",
+            "type": "matching",
+            "question": "Die Familie Meier möchte am Wochenende etwas Gemeinsames in der Natur unternehmen und dabei etwas über die lokale Umwelt lernen. Welche Anzeige passt?",
+            "signText": "",
+            "correct": "e",
+            "correctAnswer": "e",
+            "explanation": "Diese Wanderung ist ideal.",
+            "options": [
+              "a) a",
+              "b) b",
+              "c) c",
+              "d) d",
+              "e) e",
+              "f) f",
+              "g) X"
+            ]
+          },
+          {
+            "id": "gen-q-4-bc8be82d-5",
+            "module": "lesen",
+            "teil": 4,
+            "level": "A2",
+            "type": "matching",
+            "question": "Ein kleines Unternehmen möchte seine Produkte liefern, aber dabei die Umwelt nicht so stark belasten. Sie suchen eine Firma, die ihnen dabei hilft. Welche Anzeige passt?",
+            "signText": "",
+            "correct": "f",
+            "correctAnswer": "f",
+            "explanation": "Die Firma bietet Lösungen an.",
             "options": [
               "a) a",
               "b) b",
@@ -617,96 +617,96 @@
         "verified": true,
         "ads": [
           {
-            "key": "gen-p-lesen-t4-cur-society-s1",
-            "title": "Pfandflaschen-Verkauf",
-            "text": "Wir verkaufen hochwertige Glasflaschen mit Pfand. Das Pfand beträgt 8 Cent pro Flasche. Alle Flaschen sind spülbar und umweltfreundlich. Bestellen Sie jetzt online!",
-            "textTitle": "Pfandflaschen-Verkauf",
-            "passageId": "gen-p-lesen-t4-cur-society-s1"
+            "key": "a",
+            "title": "Gartenarbeit für die Umwelt",
+            "text": "Wir suchen Freiwillige für unser Stadtgarten-Projekt. Helfen Sie uns, Blumen und Gemüse zu pflanzen. Keine Erfahrung nötig. Gemeinsam machen wir unsere Stadt grüner. Jeden Samstagmorgen. Anmeldung per E-Mail.",
+            "textTitle": "Gartenarbeit für die Umwelt",
+            "passageId": "gen-l4-bc8be82d-a"
           },
           {
-            "key": "gen-p-lesen-t4-cur-society-s2",
-            "title": "Nachhaltige Verpackung",
-            "text": "Unsere Getränkekästen mit Mehrwegflaschen reduzieren Müll. Jede Flasche hat ein Pfand von 15 Cent. Wir möchten damit die Umwelt schützen und Kundenverantwortung fördern.",
-            "textTitle": "Nachhaltige Verpackung",
-            "passageId": "gen-p-lesen-t4-cur-society-s2"
+            "key": "b",
+            "title": "Weniger Müll im Alltag",
+            "text": "Dieser Kurs zeigt Ihnen, wie Sie Plastikmüll reduzieren können. Lernen Sie praktische Tipps für den Einkauf und zu Hause. Ein kleiner Schritt für Sie, ein großer Vorteil für die Umwelt. Start nächste Woche, Dienstagabend.",
+            "textTitle": "Weniger Müll im Alltag",
+            "passageId": "gen-l4-bc8be82d-b"
           },
           {
-            "key": "gen-p-lesen-t4-cur-society-s3",
-            "title": "Pfand-Debatte im Forum",
-            "text": "Viele Menschen finden: Das Pfand ist zu niedrig. Sie sagen, höheres Pfand hilft gegen Littering. Andere meinen, Pfanderhöhung trifft arme Familien zu sehr. Die Diskussion ist emotional.",
-            "textTitle": "Pfand-Debatte im Forum",
-            "passageId": "gen-p-lesen-t4-cur-society-s3"
+            "key": "c",
+            "title": "Fahrrad-Reparatur-Werkstatt",
+            "text": "Ihr Fahrrad ist kaputt? Kommen Sie in unsere offene Werkstatt! Wir helfen Ihnen, Ihr Rad selbst zu reparieren. Das spart Geld und ist gut für die Umwelt, weil Sie kein neues kaufen müssen. Jeden Mittwoch von 17 bis 19 Uhr.",
+            "textTitle": "Fahrrad-Reparatur-Werkstatt",
+            "passageId": "gen-l4-bc8be82d-c"
           },
           {
-            "key": "gen-p-lesen-t4-cur-society-s4",
-            "title": "Supermarkt-Initiative",
-            "text": "Unser Supermarkt erhöht ab Juni das Pfand von 8 auf 20 Cent. Das neue System soll Menschen motivieren, Flaschen zurückzubringen. Wir zahlen den Unterschied nicht an Kunden zurück.",
-            "textTitle": "Supermarkt-Initiative",
-            "passageId": "gen-p-lesen-t4-cur-society-s4"
+            "key": "d",
+            "title": "Energie sparen zu Hause",
+            "text": "Unser Seminar erklärt, wie Sie Strom und Heizkosten senken können. Erfahren Sie, welche kleinen Änderungen große Wirkung haben. Eine gute Situation für Ihren Geldbeutel und unseren Planeten. Jetzt anmelden!",
+            "textTitle": "Energie sparen zu Hause",
+            "passageId": "gen-l4-bc8be82d-d"
           },
           {
-            "key": "gen-p-lesen-t4-cur-society-s5",
-            "title": "Umweltbericht 2024",
-            "text": "Statistiken zeigen: Länder mit höherem Pfand haben weniger Plastikflaschen in der Natur. Experten empfehlen 25 Cent Mindestpfand. Das schützt Seen und Meere nachhaltig.",
-            "textTitle": "Umweltbericht 2024",
-            "passageId": "gen-p-lesen-t4-cur-society-s5"
+            "key": "e",
+            "title": "Naturwanderung am Fluss",
+            "text": "Entdecken Sie die lokale Natur bei einer geführten Wanderung. Wir sprechen über Pflanzen und Tiere und die Aufgabe, sie zu schützen. Treffpunkt am Sonntag um 10 Uhr. Bitte festes Schuhwerk und Wasser mitbringen.",
+            "textTitle": "Naturwanderung am Fluss",
+            "passageId": "gen-l4-bc8be82d-e"
           },
           {
-            "key": "gen-p-lesen-t4-cur-society-s6",
-            "title": "Kritik von Verbrauchern",
-            "text": "Verbraucherschützer kritisieren: Höheres Pfand bedeutet höhere Preise für alle. Besonders Familien mit kleinen Budgets leiden. Man sollte andere Lösungen finden.",
-            "textTitle": "Kritik von Verbrauchern",
-            "passageId": "gen-p-lesen-t4-cur-society-s6"
+            "key": "f",
+            "title": "Umweltfreundlicher Transport",
+            "text": "Die Firma \"Grüne Wege\" bietet neue Lösungen für den Transport an. Wir beraten Unternehmen, wie sie ihre Lieferungen umweltfreundlicher gestalten können. Weniger CO2 für eine bessere Zukunft. Kontaktieren Sie uns für eine Meinung.",
+            "textTitle": "Umweltfreundlicher Transport",
+            "passageId": "gen-l4-bc8be82d-f"
           }
         ],
         "passages": [
           {
-            "id": "gen-p-lesen-t4-cur-society-s1",
+            "id": "gen-l4-bc8be82d-a",
             "module": "lesen",
             "teil": 4,
             "level": "A2",
-            "title": "Pfandflaschen-Verkauf",
-            "text": "Wir verkaufen hochwertige Glasflaschen mit Pfand. Das Pfand beträgt 8 Cent pro Flasche. Alle Flaschen sind spülbar und umweltfreundlich. Bestellen Sie jetzt online!"
+            "title": "Gartenarbeit für die Umwelt",
+            "text": "Wir suchen Freiwillige für unser Stadtgarten-Projekt. Helfen Sie uns, Blumen und Gemüse zu pflanzen. Keine Erfahrung nötig. Gemeinsam machen wir unsere Stadt grüner. Jeden Samstagmorgen. Anmeldung per E-Mail."
           },
           {
-            "id": "gen-p-lesen-t4-cur-society-s2",
+            "id": "gen-l4-bc8be82d-b",
             "module": "lesen",
             "teil": 4,
             "level": "A2",
-            "title": "Nachhaltige Verpackung",
-            "text": "Unsere Getränkekästen mit Mehrwegflaschen reduzieren Müll. Jede Flasche hat ein Pfand von 15 Cent. Wir möchten damit die Umwelt schützen und Kundenverantwortung fördern."
+            "title": "Weniger Müll im Alltag",
+            "text": "Dieser Kurs zeigt Ihnen, wie Sie Plastikmüll reduzieren können. Lernen Sie praktische Tipps für den Einkauf und zu Hause. Ein kleiner Schritt für Sie, ein großer Vorteil für die Umwelt. Start nächste Woche, Dienstagabend."
           },
           {
-            "id": "gen-p-lesen-t4-cur-society-s3",
+            "id": "gen-l4-bc8be82d-c",
             "module": "lesen",
             "teil": 4,
             "level": "A2",
-            "title": "Pfand-Debatte im Forum",
-            "text": "Viele Menschen finden: Das Pfand ist zu niedrig. Sie sagen, höheres Pfand hilft gegen Littering. Andere meinen, Pfanderhöhung trifft arme Familien zu sehr. Die Diskussion ist emotional."
+            "title": "Fahrrad-Reparatur-Werkstatt",
+            "text": "Ihr Fahrrad ist kaputt? Kommen Sie in unsere offene Werkstatt! Wir helfen Ihnen, Ihr Rad selbst zu reparieren. Das spart Geld und ist gut für die Umwelt, weil Sie kein neues kaufen müssen. Jeden Mittwoch von 17 bis 19 Uhr."
           },
           {
-            "id": "gen-p-lesen-t4-cur-society-s4",
+            "id": "gen-l4-bc8be82d-d",
             "module": "lesen",
             "teil": 4,
             "level": "A2",
-            "title": "Supermarkt-Initiative",
-            "text": "Unser Supermarkt erhöht ab Juni das Pfand von 8 auf 20 Cent. Das neue System soll Menschen motivieren, Flaschen zurückzubringen. Wir zahlen den Unterschied nicht an Kunden zurück."
+            "title": "Energie sparen zu Hause",
+            "text": "Unser Seminar erklärt, wie Sie Strom und Heizkosten senken können. Erfahren Sie, welche kleinen Änderungen große Wirkung haben. Eine gute Situation für Ihren Geldbeutel und unseren Planeten. Jetzt anmelden!"
           },
           {
-            "id": "gen-p-lesen-t4-cur-society-s5",
+            "id": "gen-l4-bc8be82d-e",
             "module": "lesen",
             "teil": 4,
             "level": "A2",
-            "title": "Umweltbericht 2024",
-            "text": "Statistiken zeigen: Länder mit höherem Pfand haben weniger Plastikflaschen in der Natur. Experten empfehlen 25 Cent Mindestpfand. Das schützt Seen und Meere nachhaltig."
+            "title": "Naturwanderung am Fluss",
+            "text": "Entdecken Sie die lokale Natur bei einer geführten Wanderung. Wir sprechen über Pflanzen und Tiere und die Aufgabe, sie zu schützen. Treffpunkt am Sonntag um 10 Uhr. Bitte festes Schuhwerk und Wasser mitbringen."
           },
           {
-            "id": "gen-p-lesen-t4-cur-society-s6",
+            "id": "gen-l4-bc8be82d-f",
             "module": "lesen",
             "teil": 4,
             "level": "A2",
-            "title": "Kritik von Verbrauchern",
-            "text": "Verbraucherschützer kritisieren: Höheres Pfand bedeutet höhere Preise für alle. Besonders Familien mit kleinen Budgets leiden. Man sollte andere Lösungen finden."
+            "title": "Umweltfreundlicher Transport",
+            "text": "Die Firma \"Grüne Wege\" bietet neue Lösungen für den Transport an. Wir beraten Unternehmen, wie sie ihre Lieferungen umweltfreundlicher gestalten können. Weniger CO2 für eine bessere Zukunft. Kontaktieren Sie uns für eine Meinung."
           }
         ]
       }
@@ -715,10 +715,10 @@
       "cell": "horen_1",
       "module": "horen",
       "teil": 1,
-      "partId": "horen-t1-gemini-060",
-      "contentHash": "540f0efba269be1d24f827640f1e1f9d3b4a7591465be1068a220e93c595eac0",
+      "partId": "horen-t1-gemini-063",
+      "contentHash": "bde12319cc068b3e67777ec31c84795792158abb10914365ca34d0deddd178ae",
       "snapshot": {
-        "id": "horen-t1-gemini-060",
+        "id": "horen-t1-gemini-063",
         "lang": "de",
         "level": "A2",
         "module": "horen",
@@ -726,63 +726,90 @@
         "instruction": "",
         "passage": {
           "title": "Text 1",
-          "text": "Achtung bitte, eine kurze Durchsage für alle Mitglieder des Sportzentrums. Das Schwimmbecken ist diese Woche wegen Wartungsarbeiten geschlossen. Ab nächstem Montag, dem 15. Mai, können Sie es wieder täglich von 8 bis 20 Uhr nutzen. Die Sauna ist weiterhin geöffnet. Wir bitten um Ihr Verständnis.",
-          "transcript": "Achtung bitte, eine kurze Durchsage für alle Mitglieder des Sportzentrums. Das Schwimmbecken ist diese Woche wegen Wartungsarbeiten geschlossen. Ab nächstem Montag, dem 15. Mai, können Sie es wieder täglich von 8 bis 20 Uhr nutzen. Die Sauna ist weiterhin geöffnet. Wir bitten um Ihr Verständnis.",
-          "topicTag": "Sport"
+          "text": "Willkommen zu unserem kurzen Alltagstipp! Möchten Sie Ihr Deutsch verbessern? Hören Sie doch mal Radio! Es gibt viele Sender mit einfachen Nachrichten. Eine gute Aufgabe für jeden Tag. Sie können auch Podcasts finden. Das hilft direkt beim Lernen.",
+          "transcript": "Willkommen zu unserem kurzen Alltagstipp! Möchten Sie Ihr Deutsch verbessern? Hören Sie doch mal Radio! Es gibt viele Sender mit einfachen Nachrichten. Eine gute Aufgabe für jeden Tag. Sie können auch Podcasts finden. Das hilft direkt beim Lernen.",
+          "topicTag": "Medien"
         },
         "questions": [
           {
-            "id": "gen-q-h1-f91ddc0b-q1",
+            "id": "gen-q-h1-5fe65cff-q1",
             "module": "horen",
             "teil": 1,
             "lang": "de",
             "level": "A2",
             "type": "multiple_choice",
-            "question": "Wann kann man das Schwimmbecken wieder nutzen?",
+            "question": "Was hilft beim Deutschlernen?",
             "options": [
-              "a) Diese Woche noch.",
-              "b) Nur am Wochenende.",
-              "c) In der nächsten Woche."
+              "a) Radio hören",
+              "b) Filme schauen",
+              "c) Bücher lesen"
             ],
-            "correct": "c",
-            "correctAnswer": "c",
-            "explanation": "Das Schwimmbecken ist ab dem 15. Mai, also ab nächstem Montag, wieder für die Nutzung bereit.",
+            "correct": "a",
+            "correctAnswer": "a",
+            "explanation": "Der Tipp empfiehlt, Radio zu hören und Podcasts zu finden, um das Deutsch zu verbessern. Das ist eine gute tägliche Aufgabe.",
             "segmentLabel": "Text 1",
-            "passageId": "gen-p-h1-f91ddc0b-s1",
+            "passageId": "gen-p-h1-5fe65cff-s1",
             "vocabularyTags": [
-              "nutzen",
-              "schwimmbecken",
-              "Woche"
+              "Radio",
+              "deutschlernen",
+              "hören"
             ],
             "grammarTags": [
-              "g-de-a2-modal",
+              "g-de-a2-trennbar",
               "g-de-a2-dat-akk"
             ]
           },
           {
-            "id": "gen-q-h1-f91ddc0b-q2",
+            "id": "gen-q-h1-5fe65cff-q2",
             "module": "horen",
             "teil": 1,
             "lang": "de",
             "level": "A2",
             "type": "multiple_choice",
-            "question": "Warum ruft Frau Braun an?",
+            "question": "Worum geht es in der Nachricht?",
             "options": [
-              "a) Um ein neues Training zu planen.",
-              "b) Wegen der Absage des Trainings.",
-              "c) Um die Mannschaft zu loben."
+              "a) Man soll ein Buch zurückgeben.",
+              "b) Ein Buch ist abholbereit.",
+              "c) Die Bibliothek ist geschlossen."
             ],
             "correct": "b",
             "correctAnswer": "b",
-            "explanation": "Frau Braun informiert Herrn Keller über die Absage des Trainings am Mittwoch wegen des schlechten Wetters.",
+            "explanation": "Die Nachricht informiert darüber, dass ein reserviertes Buch in der Medienbibliothek zur Abholung bereitliegt und bis Freitag abgeholt werden muss.",
             "segmentLabel": "Text 2",
-            "passageId": "gen-p-h1-f91ddc0b-s2",
+            "passageId": "gen-p-h1-5fe65cff-s2",
+            "grammarTags": [
+              "g-de-a2-nebensatz",
+              "g-de-a2-trennbar",
+              "g-de-a2-dat-akk"
+            ],
             "vocabularyTags": [
-              "wegen",
-              "Trainings",
-              "Absage",
-              "Frau",
-              "Braun"
+              "informieren",
+              "darüber",
+              "Abholung",
+              "Medienbibliothek"
+            ]
+          },
+          {
+            "id": "gen-q-h1-5fe65cff-q3",
+            "module": "horen",
+            "teil": 1,
+            "lang": "de",
+            "level": "A2",
+            "type": "multiple_choice",
+            "question": "Was ist das Thema des Kurses?",
+            "options": [
+              "a) Einen Blog erstellen",
+              "b) Bücher lesen und teilen",
+              "c) Bilder malen lernen"
+            ],
+            "correct": "a",
+            "correctAnswer": "a",
+            "explanation": "Die Durchsage kündigt einen kostenlosen Kurs zum Thema 'Mein erster Blog' an, bei dem man lernt, online Texte zu schreiben und Bilder zu teilen.",
+            "segmentLabel": "Text 3",
+            "passageId": "gen-p-h1-5fe65cff-s3",
+            "vocabularyTags": [
+              "erstell",
+              "Kurses"
             ],
             "grammarTags": [
               "g-de-a2-trennbar",
@@ -790,88 +817,60 @@
             ]
           },
           {
-            "id": "gen-q-h1-f91ddc0b-q3",
+            "id": "gen-q-h1-5fe65cff-q4",
             "module": "horen",
             "teil": 1,
             "lang": "de",
             "level": "A2",
             "type": "multiple_choice",
-            "question": "Was ist der Tipp für mehr Bewegung?",
+            "question": "Was ist in der Ausstellung nicht erlaubt?",
             "options": [
-              "a) Jeden Tag viel Sport machen.",
-              "b) Oft kurz aufstehen.",
-              "c) Nur sitzen bleiben."
+              "a) Tablets mit Kopfhörern benutzen",
+              "b) Fotografieren mit Blitz",
+              "c) Fotografieren ohne Blitz"
             ],
             "correct": "b",
             "correctAnswer": "b",
-            "explanation": "Der Tipp rät dazu, jede Stunde einmal aufzustehen und ein paar Schritte zu gehen, um fitter zu werden.",
-            "segmentLabel": "Text 3",
-            "passageId": "gen-p-h1-f91ddc0b-s3",
-            "vocabularyTags": [
-              "aufstehen",
-              "Bewegung",
-              "Tipp"
-            ],
-            "grammarTags": [
-              "g-de-a2-trennbar",
-              "g-de-a2-dat-akk",
-              "g-de-a2-komparativ"
-            ]
-          },
-          {
-            "id": "gen-q-h1-f91ddc0b-q4",
-            "module": "horen",
-            "teil": 1,
-            "lang": "de",
-            "level": "A2",
-            "type": "multiple_choice",
-            "question": "Was ist heute im Stadion nicht erlaubt?",
-            "options": [
-              "a) Große Taschen.",
-              "b) Essen und Trinken.",
-              "c) Kleine Taschen."
-            ],
-            "correct": "a",
-            "correctAnswer": "a",
-            "explanation": "Es ist nicht erlaubt, Taschen mit ins Stadion zu nehmen, die Größer als DIN A4 sind.",
+            "explanation": "Die Ansage sagt, dass Fotografieren erlaubt ist, aber ausdrücklich ohne Blitz. Das Fotografieren mit Blitz ist also nicht gestattet.",
             "segmentLabel": "Text 4",
-            "passageId": "gen-p-h1-f91ddc0b-s4",
+            "passageId": "gen-p-h1-5fe65cff-s4",
             "vocabularyTags": [
-              "taschen",
-              "Stadion",
-              "große"
-            ],
-            "grammarTags": [
-              "g-de-a2-dat-akk",
-              "g-de-a2-komparativ"
-            ]
-          },
-          {
-            "id": "gen-q-h1-f91ddc0b-q5",
-            "module": "horen",
-            "teil": 1,
-            "lang": "de",
-            "level": "A2",
-            "type": "multiple_choice",
-            "question": "Was soll der Kunde tun?",
-            "options": [
-              "a) Sein Fahrrad abholen.",
-              "b) Später anrufen.",
-              "c) Eine neue Reparatur bestellen."
-            ],
-            "correct": "a",
-            "correctAnswer": "a",
-            "explanation": "Der Anruf informiert den Kunden, dass sein Fahrrad fertig ist und zur Abholung bereitsteht.",
-            "segmentLabel": "Text 5",
-            "passageId": "gen-p-h1-f91ddc0b-s5",
-            "vocabularyTags": [
-              "abholen",
-              "Fahrrad",
-              "Kunde"
+              "fotografieren",
+              "Ausstellung",
+              "Blitz"
             ],
             "grammarTags": [
               "g-de-a2-nebensatz",
-              "g-de-a2-modal",
+              "g-de-a2-perfekt",
+              "g-de-a2-trennbar",
+              "g-de-a2-dat-akk"
+            ]
+          },
+          {
+            "id": "gen-q-h1-5fe65cff-q5",
+            "module": "horen",
+            "teil": 1,
+            "lang": "de",
+            "level": "A2",
+            "type": "multiple_choice",
+            "question": "Was ist wichtig bei Online-Informationen?",
+            "options": [
+              "a) Alles glauben",
+              "b) Viele Seiten besuchen",
+              "c) Die Quelle prüfen"
+            ],
+            "correct": "c",
+            "correctAnswer": "c",
+            "explanation": "Der Radio-Tipp rät dazu, genau darauf zu achten, woher die Nachrichten im Internet kommen und bekannten Medien zu vertrauen.",
+            "segmentLabel": "Text 5",
+            "passageId": "gen-p-h1-5fe65cff-s5",
+            "vocabularyTags": [
+              "Quelle",
+              "prüfen",
+              "online-informationen",
+              "wichtig"
+            ],
+            "grammarTags": [
               "g-de-a2-trennbar",
               "g-de-a2-dat-akk"
             ]
@@ -881,71 +880,106 @@
         "verified": true,
         "segments": [
           {
-            "passageId": "gen-p-h1-f91ddc0b-s1",
+            "passageId": "gen-p-h1-5fe65cff-s1",
             "label": "Text 1",
-            "text": "Achtung bitte, eine kurze Durchsage für alle Mitglieder des Sportzentrums. Das Schwimmbecken ist diese Woche wegen Wartungsarbeiten geschlossen. Ab nächstem Montag, dem 15. Mai, können Sie es wieder täglich von 8 bis 20 Uhr nutzen. Die Sauna ist weiterhin geöffnet. Wir bitten um Ihr Verständnis.",
-            "transcript": "Achtung bitte, eine kurze Durchsage für alle Mitglieder des Sportzentrums. Das Schwimmbecken ist diese Woche wegen Wartungsarbeiten geschlossen. Ab nächstem Montag, dem 15. Mai, können Sie es wieder täglich von 8 bis 20 Uhr nutzen. Die Sauna ist weiterhin geöffnet. Wir bitten um Ihr Verständnis.",
+            "text": "Willkommen zu unserem kurzen Alltagstipp! Möchten Sie Ihr Deutsch verbessern? Hören Sie doch mal Radio! Es gibt viele Sender mit einfachen Nachrichten. Eine gute Aufgabe für jeden Tag. Sie können auch Podcasts finden. Das hilft direkt beim Lernen.",
+            "transcript": "Willkommen zu unserem kurzen Alltagstipp! Möchten Sie Ihr Deutsch verbessern? Hören Sie doch mal Radio! Es gibt viele Sender mit einfachen Nachrichten. Eine gute Aufgabe für jeden Tag. Sie können auch Podcasts finden. Das hilft direkt beim Lernen.",
             "questions": [
               {
-                "id": "gen-q-h1-f91ddc0b-q1",
+                "id": "gen-q-h1-5fe65cff-q1",
                 "module": "horen",
                 "teil": 1,
                 "lang": "de",
                 "level": "A2",
                 "type": "multiple_choice",
-                "question": "Wann kann man das Schwimmbecken wieder nutzen?",
+                "question": "Was hilft beim Deutschlernen?",
                 "options": [
-                  "a) Diese Woche noch.",
-                  "b) Nur am Wochenende.",
-                  "c) In der nächsten Woche."
+                  "a) Radio hören",
+                  "b) Filme schauen",
+                  "c) Bücher lesen"
                 ],
-                "correct": "c",
-                "correctAnswer": "c",
-                "explanation": "Das Schwimmbecken ist ab dem 15. Mai, also ab nächstem Montag, wieder für die Nutzung bereit.",
+                "correct": "a",
+                "correctAnswer": "a",
+                "explanation": "Der Tipp empfiehlt, Radio zu hören und Podcasts zu finden, um das Deutsch zu verbessern. Das ist eine gute tägliche Aufgabe.",
                 "segmentLabel": "Text 1",
-                "passageId": "gen-p-h1-f91ddc0b-s1",
+                "passageId": "gen-p-h1-5fe65cff-s1",
                 "vocabularyTags": [
-                  "nutzen",
-                  "schwimmbecken",
-                  "Woche"
+                  "Radio",
+                  "deutschlernen",
+                  "hören"
                 ],
                 "grammarTags": [
-                  "g-de-a2-modal",
+                  "g-de-a2-trennbar",
                   "g-de-a2-dat-akk"
                 ]
               }
             ]
           },
           {
-            "passageId": "gen-p-h1-f91ddc0b-s2",
+            "passageId": "gen-p-h1-5fe65cff-s2",
             "label": "Text 2",
-            "text": "Hallo Herr Keller, hier ist Frau Braun vom Fußballverein. Ich rufe wegen des Trainings am Mittwoch an. Wegen der schlechten Wettersituation müssen wir es leider absagen. Wir haben aber eine neue Aufgabe für die Mannschaft: Bitte schauen Sie in Ihre E-Mails für die Übungen zu Hause. Das nächste Training ist dann wie geplant am Freitag.",
-            "transcript": "Hallo Herr Keller, hier ist Frau Braun vom Fußballverein. Ich rufe wegen des Trainings am Mittwoch an. Wegen der schlechten Wettersituation müssen wir es leider absagen. Wir haben aber eine neue Aufgabe für die Mannschaft: Bitte schauen Sie in Ihre E-Mails für die Übungen zu Hause. Das nächste Training ist dann wie geplant am Freitag.",
+            "text": "Guten Tag, Sie sprechen mit der Medienbibliothek. Wir haben versucht, Sie zu erreichen. Ihr reserviertes Buch 'Die Reise nach Berlin' ist abholbereit. Bitte kommen Sie bis nächsten Freitag vorbei. Danach geht das Buch zurück ins Regal. Vielen Dank.",
+            "transcript": "Guten Tag, Sie sprechen mit der Medienbibliothek. Wir haben versucht, Sie zu erreichen. Ihr reserviertes Buch 'Die Reise nach Berlin' ist abholbereit. Bitte kommen Sie bis nächsten Freitag vorbei. Danach geht das Buch zurück ins Regal. Vielen Dank.",
             "questions": [
               {
-                "id": "gen-q-h1-f91ddc0b-q2",
+                "id": "gen-q-h1-5fe65cff-q2",
                 "module": "horen",
                 "teil": 1,
                 "lang": "de",
                 "level": "A2",
                 "type": "multiple_choice",
-                "question": "Warum ruft Frau Braun an?",
+                "question": "Worum geht es in der Nachricht?",
                 "options": [
-                  "a) Um ein neues Training zu planen.",
-                  "b) Wegen der Absage des Trainings.",
-                  "c) Um die Mannschaft zu loben."
+                  "a) Man soll ein Buch zurückgeben.",
+                  "b) Ein Buch ist abholbereit.",
+                  "c) Die Bibliothek ist geschlossen."
                 ],
                 "correct": "b",
                 "correctAnswer": "b",
-                "explanation": "Frau Braun informiert Herrn Keller über die Absage des Trainings am Mittwoch wegen des schlechten Wetters.",
+                "explanation": "Die Nachricht informiert darüber, dass ein reserviertes Buch in der Medienbibliothek zur Abholung bereitliegt und bis Freitag abgeholt werden muss.",
                 "segmentLabel": "Text 2",
-                "passageId": "gen-p-h1-f91ddc0b-s2",
+                "passageId": "gen-p-h1-5fe65cff-s2",
+                "grammarTags": [
+                  "g-de-a2-nebensatz",
+                  "g-de-a2-trennbar",
+                  "g-de-a2-dat-akk"
+                ],
                 "vocabularyTags": [
-                  "wegen",
-                  "Trainings",
-                  "Absage",
-                  "Frau",
-                  "Braun"
+                  "informieren",
+                  "darüber",
+                  "Abholung",
+                  "Medienbibliothek"
+                ]
+              }
+            ]
+          },
+          {
+            "passageId": "gen-p-h1-5fe65cff-s3",
+            "label": "Text 3",
+            "text": "Achtung bitte, eine kurze Durchsage für alle Interessierten! Am kommenden Samstag findet ein kostenloser Kurs zum Thema 'Mein erster Blog' statt. Lernen Sie, wie man online Texte schreibt und Bilder teilt. Der Kurs beginnt um zehn Uhr im Raum 203. Eine Anmeldung ist nicht nötig.",
+            "transcript": "Achtung bitte, eine kurze Durchsage für alle Interessierten! Am kommenden Samstag findet ein kostenloser Kurs zum Thema 'Mein erster Blog' statt. Lernen Sie, wie man online Texte schreibt und Bilder teilt. Der Kurs beginnt um zehn Uhr im Raum 203. Eine Anmeldung ist nicht nötig.",
+            "questions": [
+              {
+                "id": "gen-q-h1-5fe65cff-q3",
+                "module": "horen",
+                "teil": 1,
+                "lang": "de",
+                "level": "A2",
+                "type": "multiple_choice",
+                "question": "Was ist das Thema des Kurses?",
+                "options": [
+                  "a) Einen Blog erstellen",
+                  "b) Bücher lesen und teilen",
+                  "c) Bilder malen lernen"
+                ],
+                "correct": "a",
+                "correctAnswer": "a",
+                "explanation": "Die Durchsage kündigt einen kostenlosen Kurs zum Thema 'Mein erster Blog' an, bei dem man lernt, online Texte zu schreiben und Bilder zu teilen.",
+                "segmentLabel": "Text 3",
+                "passageId": "gen-p-h1-5fe65cff-s3",
+                "vocabularyTags": [
+                  "erstell",
+                  "Kurses"
                 ],
                 "grammarTags": [
                   "g-de-a2-trennbar",
@@ -955,110 +989,74 @@
             ]
           },
           {
-            "passageId": "gen-p-h1-f91ddc0b-s3",
-            "label": "Text 3",
-            "text": "Willkommen zu unserem kurzen Alltagstipp! Heute geht es um Bewegung. Viele Menschen sitzen zu viel. Stehen Sie jede Stunde einmal auf und gehen Sie ein paar Schritte. Das hilft direkt gegen Rückenschmerzen und macht Sie fitter. Es muss kein großer Sport sein, kleine Bewegungen täglich sind schon gut für Ihre Gesundheit.",
-            "transcript": "Willkommen zu unserem kurzen Alltagstipp! Heute geht es um Bewegung. Viele Menschen sitzen zu viel. Stehen Sie jede Stunde einmal auf und gehen Sie ein paar Schritte. Das hilft direkt gegen Rückenschmerzen und macht Sie fitter. Es muss kein großer Sport sein, kleine Bewegungen täglich sind schon gut für Ihre Gesundheit.",
+            "passageId": "gen-p-h1-5fe65cff-s4",
+            "label": "Text 4",
+            "text": "Wichtiger Hinweis für alle Besucher unserer Ausstellung 'Digitale Welten'. Bitte benutzen Sie die Tablets nur mit Kopfhörern. Diese können Sie am Eingang ausleihen. Das Fotografieren ist erlaubt, aber bitte ohne Blitz. Wir wünschen Ihnen viel Spaß mit unseren Medien.",
+            "transcript": "Wichtiger Hinweis für alle Besucher unserer Ausstellung 'Digitale Welten'. Bitte benutzen Sie die Tablets nur mit Kopfhörern. Diese können Sie am Eingang ausleihen. Das Fotografieren ist erlaubt, aber bitte ohne Blitz. Wir wünschen Ihnen viel Spaß mit unseren Medien.",
             "questions": [
               {
-                "id": "gen-q-h1-f91ddc0b-q3",
+                "id": "gen-q-h1-5fe65cff-q4",
                 "module": "horen",
                 "teil": 1,
                 "lang": "de",
                 "level": "A2",
                 "type": "multiple_choice",
-                "question": "Was ist der Tipp für mehr Bewegung?",
+                "question": "Was ist in der Ausstellung nicht erlaubt?",
                 "options": [
-                  "a) Jeden Tag viel Sport machen.",
-                  "b) Oft kurz aufstehen.",
-                  "c) Nur sitzen bleiben."
+                  "a) Tablets mit Kopfhörern benutzen",
+                  "b) Fotografieren mit Blitz",
+                  "c) Fotografieren ohne Blitz"
                 ],
                 "correct": "b",
                 "correctAnswer": "b",
-                "explanation": "Der Tipp rät dazu, jede Stunde einmal aufzustehen und ein paar Schritte zu gehen, um fitter zu werden.",
-                "segmentLabel": "Text 3",
-                "passageId": "gen-p-h1-f91ddc0b-s3",
-                "vocabularyTags": [
-                  "aufstehen",
-                  "Bewegung",
-                  "Tipp"
-                ],
-                "grammarTags": [
-                  "g-de-a2-trennbar",
-                  "g-de-a2-dat-akk",
-                  "g-de-a2-komparativ"
-                ]
-              }
-            ]
-          },
-          {
-            "passageId": "gen-p-h1-f91ddc0b-s4",
-            "label": "Text 4",
-            "text": "Wichtiger Hinweis für alle Besucher des heutigen Fußballspiels! Bitte nutzen Sie den Eingang B, direkt hinter der Haupttribüne. Der Eingang A ist heute geschlossen. Taschen, die Größer als DIN A4 sind, dürfen nicht mit ins Stadion genommen werden. Das Spiel beginnt pünktlich um 18 Uhr. Wir wünschen Ihnen ein spannendes Spiel!",
-            "transcript": "Wichtiger Hinweis für alle Besucher des heutigen Fußballspiels! Bitte nutzen Sie den Eingang B, direkt hinter der Haupttribüne. Der Eingang A ist heute geschlossen. Taschen, die Größer als DIN A4 sind, dürfen nicht mit ins Stadion genommen werden. Das Spiel beginnt pünktlich um 18 Uhr. Wir wünschen Ihnen ein spannendes Spiel!",
-            "questions": [
-              {
-                "id": "gen-q-h1-f91ddc0b-q4",
-                "module": "horen",
-                "teil": 1,
-                "lang": "de",
-                "level": "A2",
-                "type": "multiple_choice",
-                "question": "Was ist heute im Stadion nicht erlaubt?",
-                "options": [
-                  "a) Große Taschen.",
-                  "b) Essen und Trinken.",
-                  "c) Kleine Taschen."
-                ],
-                "correct": "a",
-                "correctAnswer": "a",
-                "explanation": "Es ist nicht erlaubt, Taschen mit ins Stadion zu nehmen, die Größer als DIN A4 sind.",
+                "explanation": "Die Ansage sagt, dass Fotografieren erlaubt ist, aber ausdrücklich ohne Blitz. Das Fotografieren mit Blitz ist also nicht gestattet.",
                 "segmentLabel": "Text 4",
-                "passageId": "gen-p-h1-f91ddc0b-s4",
+                "passageId": "gen-p-h1-5fe65cff-s4",
                 "vocabularyTags": [
-                  "taschen",
-                  "Stadion",
-                  "große"
-                ],
-                "grammarTags": [
-                  "g-de-a2-dat-akk",
-                  "g-de-a2-komparativ"
-                ]
-              }
-            ]
-          },
-          {
-            "passageId": "gen-p-h1-f91ddc0b-s5",
-            "label": "Text 5",
-            "text": "Guten Tag, Sie sprechen mit dem Sportgeschäft 'Fit & Fun'. Hier ist Herr Lehmann. Ich rufe Sie an wegen Ihrer Fahrradreparatur. Ihr Fahrrad ist fertig und kann ab sofort abgeholt werden. Wir sind heute bis 19 Uhr für Sie da. Die Rechnung liegt bereit. Bitte kommen Sie direkt zur Kasse. Vielen Dank und bis bald!",
-            "transcript": "Guten Tag, Sie sprechen mit dem Sportgeschäft 'Fit & Fun'. Hier ist Herr Lehmann. Ich rufe Sie an wegen Ihrer Fahrradreparatur. Ihr Fahrrad ist fertig und kann ab sofort abgeholt werden. Wir sind heute bis 19 Uhr für Sie da. Die Rechnung liegt bereit. Bitte kommen Sie direkt zur Kasse. Vielen Dank und bis bald!",
-            "questions": [
-              {
-                "id": "gen-q-h1-f91ddc0b-q5",
-                "module": "horen",
-                "teil": 1,
-                "lang": "de",
-                "level": "A2",
-                "type": "multiple_choice",
-                "question": "Was soll der Kunde tun?",
-                "options": [
-                  "a) Sein Fahrrad abholen.",
-                  "b) Später anrufen.",
-                  "c) Eine neue Reparatur bestellen."
-                ],
-                "correct": "a",
-                "correctAnswer": "a",
-                "explanation": "Der Anruf informiert den Kunden, dass sein Fahrrad fertig ist und zur Abholung bereitsteht.",
-                "segmentLabel": "Text 5",
-                "passageId": "gen-p-h1-f91ddc0b-s5",
-                "vocabularyTags": [
-                  "abholen",
-                  "Fahrrad",
-                  "Kunde"
+                  "fotografieren",
+                  "Ausstellung",
+                  "Blitz"
                 ],
                 "grammarTags": [
                   "g-de-a2-nebensatz",
-                  "g-de-a2-modal",
+                  "g-de-a2-perfekt",
+                  "g-de-a2-trennbar",
+                  "g-de-a2-dat-akk"
+                ]
+              }
+            ]
+          },
+          {
+            "passageId": "gen-p-h1-5fe65cff-s5",
+            "label": "Text 5",
+            "text": "Liebe Zuhörerinnen und Zuhörer, ein Tipp für heute: Suchen Sie gute Informationen im Internet? Achten Sie darauf, woher die Nachrichten kommen. Vertrauen Sie bekannten Seiten oder offiziellen Medien. Das ist eine wichtige Aufgabe, um sich richtig zu informieren. Bleiben Sie kritisch!",
+            "transcript": "Liebe Zuhörerinnen und Zuhörer, ein Tipp für heute: Suchen Sie gute Informationen im Internet? Achten Sie darauf, woher die Nachrichten kommen. Vertrauen Sie bekannten Seiten oder offiziellen Medien. Das ist eine wichtige Aufgabe, um sich richtig zu informieren. Bleiben Sie kritisch!",
+            "questions": [
+              {
+                "id": "gen-q-h1-5fe65cff-q5",
+                "module": "horen",
+                "teil": 1,
+                "lang": "de",
+                "level": "A2",
+                "type": "multiple_choice",
+                "question": "Was ist wichtig bei Online-Informationen?",
+                "options": [
+                  "a) Alles glauben",
+                  "b) Viele Seiten besuchen",
+                  "c) Die Quelle prüfen"
+                ],
+                "correct": "c",
+                "correctAnswer": "c",
+                "explanation": "Der Radio-Tipp rät dazu, genau darauf zu achten, woher die Nachrichten im Internet kommen und bekannten Medien zu vertrauen.",
+                "segmentLabel": "Text 5",
+                "passageId": "gen-p-h1-5fe65cff-s5",
+                "vocabularyTags": [
+                  "Quelle",
+                  "prüfen",
+                  "online-informationen",
+                  "wichtig"
+                ],
+                "grammarTags": [
                   "g-de-a2-trennbar",
                   "g-de-a2-dat-akk"
                 ]
@@ -1421,332 +1419,371 @@
       "cell": "horen_3",
       "module": "horen",
       "teil": 3,
-      "partId": "horen-t3-gemini-072",
-      "contentHash": "0f12c317b0aa6449a5ec3c3218cca358862483b9c06d875d7d464e0789705928",
+      "partId": "horen-t3-cur-health",
+      "contentHash": "6e62e5be03a2884a03732c1a5fc4f45f114924c84d16649ee005c8b5c5340ceb",
       "snapshot": {
-        "id": "horen-t3-gemini-072",
+        "id": "horen-t3-cur-health",
         "lang": "de",
         "level": "A2",
         "module": "horen",
         "teil": 3,
         "instruction": "",
         "passage": {
-          "text": "Lukas: Sag mal, Sarah, hast du schon Tickets für das neue Theaterstück?\nSarah: Ja, Lukas! Ich habe sie online gekauft. Es soll sehr gut sein.\nLukas: Super! Ich freue mich darauf, es mit dir zu sehen.",
-          "transcript": "Lukas: Sag mal, Sarah, hast du schon Tickets für das neue Theaterstück?\nSarah: Ja, Lukas! Ich habe sie online gekauft. Es soll sehr gut sein.\nLukas: Super! Ich freue mich darauf, es mit dir zu sehen.",
-          "topicTag": "Kultur"
+          "title": "Text 3",
+          "text": "Das klingt cool! Aber ich hätte gerne etwas Kreatives. Ich male jetzt Bilder. Das ist sehr entspannend und ich kann meine Gefühle ausdrücken. Willst du meine Bilder sehen?",
+          "transcript": "Das klingt cool! Aber ich hätte gerne etwas Kreatives. Ich male jetzt Bilder. Das ist sehr entspannend und ich kann meine Gefühle ausdrücken. Willst du meine Bilder sehen?",
+          "topicTag": "Verkehr"
         },
         "questions": [
           {
-            "id": "gen-q-h3-c2d90679-q1",
-            "module": "horen",
-            "teil": 3,
-            "lang": "de",
-            "level": "A2",
+            "id": "11-138d74d1",
             "type": "multiple_choice",
-            "passageId": "gen-p-h3-c2d90679-s1",
-            "segmentLabel": "Text 1",
-            "question": "Was hat Sarah gekauft?",
-            "options": [
-              "a) Theaterkarten.",
-              "b) Konzertkarten.",
-              "c) Kinokarten."
-            ],
-            "correct": "a",
-            "correctAnswer": "a",
-            "explanation": "Sarah sagt, sie hat Tickets für das Theaterstück gekauft. Das ist eine kulturelle Veranstaltung.",
-            "vocabularyTags": [
-              "theaterkarten",
-              "Sarah"
-            ],
-            "grammarTags": [
-              "g-de-a2-perfekt",
-              "g-de-a2-trennbar",
-              "g-de-a2-dat-akk"
-            ]
-          },
-          {
-            "id": "gen-q-h3-c2d90679-q2",
-            "module": "horen",
-            "teil": 3,
-            "lang": "de",
-            "level": "A2",
-            "type": "multiple_choice",
-            "passageId": "gen-p-h3-c2d90679-s2",
-            "segmentLabel": "Text 2",
-            "question": "Was möchte Lea besuchen?",
-            "options": [
-              "a) Eine Kunstausstellung.",
-              "b) Ein Restaurant.",
-              "c) Eine Sportveranstaltung."
-            ],
-            "correct": "a",
-            "correctAnswer": "a",
-            "explanation": "Lea möchte die Kunstausstellung in der Stadtgalerie besuchen. Dort kann man verschiedene Kunstwerke sehen.",
-            "vocabularyTags": [
-              "besuchen",
-              "Kunstausstellung",
-              "möcht"
-            ],
-            "grammarTags": [
-              "g-de-a2-modal",
-              "g-de-a2-dat-akk"
-            ]
-          },
-          {
-            "id": "gen-q-h3-c2d90679-q3",
-            "module": "horen",
-            "teil": 3,
-            "lang": "de",
-            "level": "A2",
-            "type": "multiple_choice",
-            "passageId": "gen-p-h3-c2d90679-s3",
-            "segmentLabel": "Text 3",
-            "question": "Worum geht es in dem Buch, das Ben gelesen hat?",
-            "options": [
-              "a) Um Reisen.",
-              "b) Um Sport.",
-              "c) Um Musik."
-            ],
+            "question": "Warum hat die dritte Person ein kreatives Hobby gewählt?",
             "correct": "c",
             "correctAnswer": "c",
-            "explanation": "Ben sagt, das Buch ist ein Roman über Musik. Das Thema des Buches ist also Musik.",
-            "vocabularyTags": [
-              "Musik"
-            ],
+            "explanation": "Die dritte Person wählt ein kreatives Hobby, weil es entspannend ist und sie ihre Gefühle ausdrücken kann.",
             "grammarTags": [
-              "g-de-a2-dat-akk"
-            ]
-          },
-          {
-            "id": "gen-q-h3-c2d90679-q4",
+              "g-de-b1-modalverben",
+              "g-de-b1-perfekt"
+            ],
+            "vocabularyTags": [
+              "ausdrücken",
+              "deutlich",
+              "kreativ",
+              "Hobby",
+              "Motivation",
+              "wählen"
+            ],
+            "options": [
+              "a) Sie verdient Geld damit",
+              "b) Es ist einfach und lustig",
+              "c) Es ist entspannend"
+            ],
+            "passageId": "de-a2-p-horen-t3-hobby-neues-01-s3",
+            "number": 11,
+            "nr": 11,
+            "nummer": 11,
             "module": "horen",
             "teil": 3,
-            "lang": "de",
-            "level": "A2",
+            "level": "A2"
+          },
+          {
+            "id": "12-138d74d1",
             "type": "multiple_choice",
-            "passageId": "gen-p-h3-c2d90679-s4",
-            "segmentLabel": "Text 4",
-            "question": "Was möchte Lena lernen?",
-            "options": [
-              "a) Eine neue Sprache.",
-              "b) Tanzen.",
-              "c) Kochen."
+            "question": "Was hat Marco bei der neuen Stelle bekommen?",
+            "correct": "a",
+            "correctAnswer": "a",
+            "explanation": "Marco sagt: 'Etwas höher als vorher. Außerdem habe ich mehr Urlaubstage.'",
+            "grammarTags": [
+              "g-de-b1-komparativ",
+              "g-de-b1-perfekt"
             ],
+            "vocabularyTags": [
+              "bekommen",
+              "Urlaubstage",
+              "Stelle",
+              "Gehalt",
+              "neuen",
+              "sagen"
+            ],
+            "options": [
+              "a) Ein höheres Gehalt und mehr Urlaubstage.",
+              "b) Das gleiche Gehalt und weniger Urlaubstage.",
+              "c) Ein niedriges Gehalt, aber mehr Urlaubstage."
+            ],
+            "passageId": "de-a2-p-horen-t3-jobwechsel-kollegen-02-s3",
+            "number": 12,
+            "nr": 12,
+            "nummer": 12,
+            "module": "horen",
+            "teil": 3,
+            "level": "A2"
+          },
+          {
+            "id": "13-138d74d1",
+            "type": "multiple_choice",
+            "question": "Wann fängt Marco die neue Stelle an?",
             "correct": "b",
             "correctAnswer": "b",
-            "explanation": "Lena sagt, sie wollte schon immer mal tanzen lernen. Ein Tanzkurs ist eine gute Möglichkeit dafür.",
+            "explanation": "Marco sagt deutlich: 'In zwei Wochen. Ich bin sehr aufgeregt.'",
+            "grammarTags": [],
             "vocabularyTags": [
-              "tanzen",
-              "lernen",
-              "möcht"
+              "deutlich",
+              "wochen",
+              "aufgeregen",
+              "fängen",
+              "Stelle",
+              "sagen"
             ],
-            "grammarTags": [
-              "g-de-a2-modal",
-              "g-de-a2-trennbar"
-            ]
-          },
-          {
-            "id": "gen-q-h3-c2d90679-q5",
+            "options": [
+              "a) Nächste Woche",
+              "b) In zwei Wochen",
+              "c) In einem Monat"
+            ],
+            "passageId": "de-a2-p-horen-t3-jobwechsel-kollegen-02-s1",
+            "number": 13,
+            "nr": 13,
+            "nummer": 13,
             "module": "horen",
             "teil": 3,
-            "lang": "de",
-            "level": "A2",
+            "level": "A2"
+          },
+          {
+            "id": "14-138d74d1",
             "type": "multiple_choice",
-            "passageId": "gen-p-h3-c2d90679-s5",
-            "segmentLabel": "Text 5",
-            "question": "Was hat Tom am Freitagabend besucht?",
-            "options": [
-              "a) Eine Filmvorführung.",
-              "b) Ein Theaterstück.",
-              "c) Ein Konzert."
-            ],
-            "correct": "c",
-            "correctAnswer": "c",
-            "explanation": "Tom fragt Katja nach dem Konzert am Freitagabend. Er hat also ein Konzert besucht.",
+            "question": "Was ist positiv am neuen Standort für Autofahrer?",
+            "correct": "b",
+            "correctAnswer": "b",
+            "explanation": "Für Autofahrer ist es positiv, dass es am neuen Standort viele Parkplätze gibt.",
+            "grammarTags": [],
             "vocabularyTags": [
-              "Freitagabend",
-              "Konzert"
+              "positiv",
+              "Problem",
+              "Autofahrer",
+              "Parkplätze",
+              "Standort",
+              "Kollegin"
             ],
+            "options": [
+              "a) Keine Parkplätze verfügbar",
+              "b) Viele Parkplätze sind da",
+              "c) Nur eine Bushaltestelle in der Nähe"
+            ],
+            "passageId": "de-a2-p-horen-t3-bueroumzug-02-s5",
+            "number": 14,
+            "nr": 14,
+            "nummer": 14,
+            "module": "horen",
+            "teil": 3,
+            "level": "A2"
+          },
+          {
+            "id": "15-138d74d1",
+            "type": "multiple_choice",
+            "question": "Wie wollen sie sich in der Stadt fortbewegen?",
+            "correct": "a",
+            "correctAnswer": "a",
+            "explanation": "Tom und Sarah planen, mit der U-Bahn zu fahren und auch zu Fuß zu gehen, um mehr von der Stadt zu sehen.",
             "grammarTags": [
-              "g-de-a2-dat-akk"
-            ]
+              "g-de-b1-dativ",
+              "g-de-b1-komparativ"
+            ],
+            "vocabularyTags": [
+              "fortbewegen",
+              "planen",
+              "fahren",
+              "u-bahn",
+              "Stadt",
+              "sehen"
+            ],
+            "options": [
+              "a) Mit der U-Bahn und zu Fuß",
+              "b) Mit dem Taxi und dem Fahrrad",
+              "c) Mit dem Auto und dem Bus"
+            ],
+            "passageId": "de-a2-p-horen-t3-urlaubsplanung-freunde-03-s5",
+            "number": 15,
+            "nr": 15,
+            "nummer": 15,
+            "module": "horen",
+            "teil": 3,
+            "level": "A2"
           }
         ],
         "complete": true,
         "verified": true,
         "segments": [
           {
-            "passageId": "gen-p-h3-c2d90679-s1",
-            "label": "Aufnahme 1",
-            "text": "Lukas: Sag mal, Sarah, hast du schon Tickets für das neue Theaterstück?\nSarah: Ja, Lukas! Ich habe sie online gekauft. Es soll sehr gut sein.\nLukas: Super! Ich freue mich darauf, es mit dir zu sehen.",
-            "transcript": "Lukas: Sag mal, Sarah, hast du schon Tickets für das neue Theaterstück?\nSarah: Ja, Lukas! Ich habe sie online gekauft. Es soll sehr gut sein.\nLukas: Super! Ich freue mich darauf, es mit dir zu sehen.",
+            "passageId": "de-a2-p-horen-t3-hobby-neues-01-s3",
+            "label": "Text 3",
+            "text": "Das klingt cool! Aber ich hätte gerne etwas Kreatives. Ich male jetzt Bilder. Das ist sehr entspannend und ich kann meine Gefühle ausdrücken. Willst du meine Bilder sehen?",
+            "transcript": "Das klingt cool! Aber ich hätte gerne etwas Kreatives. Ich male jetzt Bilder. Das ist sehr entspannend und ich kann meine Gefühle ausdrücken. Willst du meine Bilder sehen?",
             "questions": [
               {
-                "id": "gen-q-h3-c2d90679-q1",
-                "module": "horen",
-                "teil": 3,
-                "lang": "de",
-                "level": "A2",
+                "id": "11-138d74d1",
                 "type": "multiple_choice",
-                "passageId": "gen-p-h3-c2d90679-s1",
-                "segmentLabel": "Text 1",
-                "question": "Was hat Sarah gekauft?",
-                "options": [
-                  "a) Theaterkarten.",
-                  "b) Konzertkarten.",
-                  "c) Kinokarten."
-                ],
-                "correct": "a",
-                "correctAnswer": "a",
-                "explanation": "Sarah sagt, sie hat Tickets für das Theaterstück gekauft. Das ist eine kulturelle Veranstaltung.",
-                "vocabularyTags": [
-                  "theaterkarten",
-                  "Sarah"
-                ],
-                "grammarTags": [
-                  "g-de-a2-perfekt",
-                  "g-de-a2-trennbar",
-                  "g-de-a2-dat-akk"
-                ]
-              }
-            ]
-          },
-          {
-            "passageId": "gen-p-h3-c2d90679-s2",
-            "label": "Aufnahme 2",
-            "text": "Noah: Lea, ich habe gehört, es gibt eine interessante Kunstausstellung in der Stadtgalerie.\nLea: Oh, wirklich? Ich wollte mich schon lange wieder mal kulturell unterhalten lassen. Wann gehen wir hin?\nNoah: Wie wäre es am Samstag um elf Uhr?",
-            "transcript": "Noah: Lea, ich habe gehört, es gibt eine interessante Kunstausstellung in der Stadtgalerie.\nLea: Oh, wirklich? Ich wollte mich schon lange wieder mal kulturell unterhalten lassen. Wann gehen wir hin?\nNoah: Wie wäre es am Samstag um elf Uhr?",
-            "questions": [
-              {
-                "id": "gen-q-h3-c2d90679-q2",
-                "module": "horen",
-                "teil": 3,
-                "lang": "de",
-                "level": "A2",
-                "type": "multiple_choice",
-                "passageId": "gen-p-h3-c2d90679-s2",
-                "segmentLabel": "Text 2",
-                "question": "Was möchte Lea besuchen?",
-                "options": [
-                  "a) Eine Kunstausstellung.",
-                  "b) Ein Restaurant.",
-                  "c) Eine Sportveranstaltung."
-                ],
-                "correct": "a",
-                "correctAnswer": "a",
-                "explanation": "Lea möchte die Kunstausstellung in der Stadtgalerie besuchen. Dort kann man verschiedene Kunstwerke sehen.",
-                "vocabularyTags": [
-                  "besuchen",
-                  "Kunstausstellung",
-                  "möcht"
-                ],
-                "grammarTags": [
-                  "g-de-a2-modal",
-                  "g-de-a2-dat-akk"
-                ]
-              }
-            ]
-          },
-          {
-            "passageId": "gen-p-h3-c2d90679-s3",
-            "label": "Aufnahme 3",
-            "text": "Ben: Anna, ich habe ein neues Buch gelesen, der Titel ist \"Die verlorene Melodie\". Es ist ein Roman über Musik.\nAnna: Das klingt spannend! Ist es von einem bekannten Autor?\nBen: Ja, er hat schon viele Preise gewonnen. Ich kann es dir leihen.",
-            "transcript": "Ben: Anna, ich habe ein neues Buch gelesen, der Titel ist \"Die verlorene Melodie\". Es ist ein Roman über Musik.\nAnna: Das klingt spannend! Ist es von einem bekannten Autor?\nBen: Ja, er hat schon viele Preise gewonnen. Ich kann es dir leihen.",
-            "questions": [
-              {
-                "id": "gen-q-h3-c2d90679-q3",
-                "module": "horen",
-                "teil": 3,
-                "lang": "de",
-                "level": "A2",
-                "type": "multiple_choice",
-                "passageId": "gen-p-h3-c2d90679-s3",
-                "segmentLabel": "Text 3",
-                "question": "Worum geht es in dem Buch, das Ben gelesen hat?",
-                "options": [
-                  "a) Um Reisen.",
-                  "b) Um Sport.",
-                  "c) Um Musik."
-                ],
+                "question": "Warum hat die dritte Person ein kreatives Hobby gewählt?",
                 "correct": "c",
                 "correctAnswer": "c",
-                "explanation": "Ben sagt, das Buch ist ein Roman über Musik. Das Thema des Buches ist also Musik.",
-                "vocabularyTags": [
-                  "Musik"
-                ],
+                "explanation": "Die dritte Person wählt ein kreatives Hobby, weil es entspannend ist und sie ihre Gefühle ausdrücken kann.",
                 "grammarTags": [
-                  "g-de-a2-dat-akk"
-                ]
+                  "g-de-b1-modalverben",
+                  "g-de-b1-perfekt"
+                ],
+                "vocabularyTags": [
+                  "ausdrücken",
+                  "deutlich",
+                  "kreativ",
+                  "Hobby",
+                  "Motivation",
+                  "wählen"
+                ],
+                "options": [
+                  "a) Sie verdient Geld damit",
+                  "b) Es ist einfach und lustig",
+                  "c) Es ist entspannend"
+                ],
+                "passageId": "de-a2-p-horen-t3-hobby-neues-01-s3",
+                "number": 11,
+                "nr": 11,
+                "nummer": 11,
+                "module": "horen",
+                "teil": 3,
+                "level": "A2"
               }
             ]
           },
           {
-            "passageId": "gen-p-h3-c2d90679-s4",
-            "label": "Aufnahme 4",
-            "text": "Max: Lena, ich habe gehört, dass es einen Tanzkurs für Anfänger im Gemeindezentrum gibt.\nLena: Ja, das stimmt! Ich überlege, ob ich mich anmelden soll. Ich wollte schon immer mal tanzen lernen.\nMax: Das ist eine gute Idee! Ich komme vielleicht mit.",
-            "transcript": "Max: Lena, ich habe gehört, dass es einen Tanzkurs für Anfänger im Gemeindezentrum gibt.\nLena: Ja, das stimmt! Ich überlege, ob ich mich anmelden soll. Ich wollte schon immer mal tanzen lernen.\nMax: Das ist eine gute Idee! Ich komme vielleicht mit.",
+            "passageId": "de-a2-p-horen-t3-jobwechsel-kollegen-02-s3",
+            "label": "Text 3",
+            "text": "● A: Und wie ist das Gehalt? ● B: Etwas höher als vorher. Außerdem habe ich mehr Urlaubstage. ● A: Das klingt wirklich super! ● B: Ja, endlich lohnt sich der Jobwechsel. Ich freue mich schon!",
+            "transcript": "● A: Und wie ist das Gehalt? ● B: Etwas höher als vorher. Außerdem habe ich mehr Urlaubstage. ● A: Das klingt wirklich super! ● B: Ja, endlich lohnt sich der Jobwechsel. Ich freue mich schon!",
             "questions": [
               {
-                "id": "gen-q-h3-c2d90679-q4",
+                "id": "12-138d74d1",
+                "type": "multiple_choice",
+                "question": "Was hat Marco bei der neuen Stelle bekommen?",
+                "correct": "a",
+                "correctAnswer": "a",
+                "explanation": "Marco sagt: 'Etwas höher als vorher. Außerdem habe ich mehr Urlaubstage.'",
+                "grammarTags": [
+                  "g-de-b1-komparativ",
+                  "g-de-b1-perfekt"
+                ],
+                "vocabularyTags": [
+                  "bekommen",
+                  "Urlaubstage",
+                  "Stelle",
+                  "Gehalt",
+                  "neuen",
+                  "sagen"
+                ],
+                "options": [
+                  "a) Ein höheres Gehalt und mehr Urlaubstage.",
+                  "b) Das gleiche Gehalt und weniger Urlaubstage.",
+                  "c) Ein niedriges Gehalt, aber mehr Urlaubstage."
+                ],
+                "passageId": "de-a2-p-horen-t3-jobwechsel-kollegen-02-s3",
+                "number": 12,
+                "nr": 12,
+                "nummer": 12,
                 "module": "horen",
                 "teil": 3,
-                "lang": "de",
-                "level": "A2",
+                "level": "A2"
+              }
+            ]
+          },
+          {
+            "passageId": "de-a2-p-horen-t3-jobwechsel-kollegen-02-s1",
+            "label": "Text 1",
+            "text": "● A: Hallo Marco, wie geht es dir? ● B: Hallo! Mir geht es gut. Ich habe gerade eine neue Stelle bekommen. ● A: Das ist ja toll! Wann fängst du an? ● B: In zwei Wochen. Ich bin sehr aufgeregt. ● A: Glückwunsch! Welche Aufgaben warten auf dich?",
+            "transcript": "● A: Hallo Marco, wie geht es dir? ● B: Hallo! Mir geht es gut. Ich habe gerade eine neue Stelle bekommen. ● A: Das ist ja toll! Wann fängst du an? ● B: In zwei Wochen. Ich bin sehr aufgeregt. ● A: Glückwunsch! Welche Aufgaben warten auf dich?",
+            "questions": [
+              {
+                "id": "13-138d74d1",
                 "type": "multiple_choice",
-                "passageId": "gen-p-h3-c2d90679-s4",
-                "segmentLabel": "Text 4",
-                "question": "Was möchte Lena lernen?",
-                "options": [
-                  "a) Eine neue Sprache.",
-                  "b) Tanzen.",
-                  "c) Kochen."
-                ],
+                "question": "Wann fängt Marco die neue Stelle an?",
                 "correct": "b",
                 "correctAnswer": "b",
-                "explanation": "Lena sagt, sie wollte schon immer mal tanzen lernen. Ein Tanzkurs ist eine gute Möglichkeit dafür.",
+                "explanation": "Marco sagt deutlich: 'In zwei Wochen. Ich bin sehr aufgeregt.'",
+                "grammarTags": [],
                 "vocabularyTags": [
-                  "tanzen",
-                  "lernen",
-                  "möcht"
+                  "deutlich",
+                  "wochen",
+                  "aufgeregen",
+                  "fängen",
+                  "Stelle",
+                  "sagen"
                 ],
-                "grammarTags": [
-                  "g-de-a2-modal",
-                  "g-de-a2-trennbar"
-                ]
+                "options": [
+                  "a) Nächste Woche",
+                  "b) In zwei Wochen",
+                  "c) In einem Monat"
+                ],
+                "passageId": "de-a2-p-horen-t3-jobwechsel-kollegen-02-s1",
+                "number": 13,
+                "nr": 13,
+                "nummer": 13,
+                "module": "horen",
+                "teil": 3,
+                "level": "A2"
               }
             ]
           },
           {
-            "passageId": "gen-p-h3-c2d90679-s5",
-            "label": "Aufnahme 5",
-            "text": "Tom: Katja, hast du das Konzert am Freitagabend gesehen? Es war fantastisch!\nKatja: Leider nicht, ich hatte keine Zeit. Aber ich habe gehört, die Band war super.\nTom: Ja, die Sängerin hatte eine tolle Stimme. Du hast wirklich etwas verpasst.",
-            "transcript": "Tom: Katja, hast du das Konzert am Freitagabend gesehen? Es war fantastisch!\nKatja: Leider nicht, ich hatte keine Zeit. Aber ich habe gehört, die Band war super.\nTom: Ja, die Sängerin hatte eine tolle Stimme. Du hast wirklich etwas verpasst.",
+            "passageId": "de-a2-p-horen-t3-bueroumzug-02-s5",
+            "label": "Text 5",
+            "text": "Kollege: Wie viele Parkplätze gibt es am neuen Standort? Ich fahre immer mit dem Auto.\nKollegin: Es gibt viele Parkplätze, das ist kein Problem. Auch die Bushaltestelle ist ganz nah.",
+            "transcript": "Kollege: Wie viele Parkplätze gibt es am neuen Standort? Ich fahre immer mit dem Auto.\nKollegin: Es gibt viele Parkplätze, das ist kein Problem. Auch die Bushaltestelle ist ganz nah.",
             "questions": [
               {
-                "id": "gen-q-h3-c2d90679-q5",
+                "id": "14-138d74d1",
+                "type": "multiple_choice",
+                "question": "Was ist positiv am neuen Standort für Autofahrer?",
+                "correct": "b",
+                "correctAnswer": "b",
+                "explanation": "Für Autofahrer ist es positiv, dass es am neuen Standort viele Parkplätze gibt.",
+                "grammarTags": [],
+                "vocabularyTags": [
+                  "positiv",
+                  "Problem",
+                  "Autofahrer",
+                  "Parkplätze",
+                  "Standort",
+                  "Kollegin"
+                ],
+                "options": [
+                  "a) Keine Parkplätze verfügbar",
+                  "b) Viele Parkplätze sind da",
+                  "c) Nur eine Bushaltestelle in der Nähe"
+                ],
+                "passageId": "de-a2-p-horen-t3-bueroumzug-02-s5",
+                "number": 14,
+                "nr": 14,
+                "nummer": 14,
                 "module": "horen",
                 "teil": 3,
-                "lang": "de",
-                "level": "A2",
+                "level": "A2"
+              }
+            ]
+          },
+          {
+            "passageId": "de-a2-p-horen-t3-urlaubsplanung-freunde-03-s5",
+            "label": "Text 5",
+            "text": "Mann: Sarah, wie wollen wir denn in der Stadt fahren? Sarah: Ich denke, mit der U-Bahn ist am einfachsten. Mann: Stimmt! Und es ist auch sehr günstig. Sarah: Wir können auch zu Fuß gehen. Die Stadt ist nicht so groß. Mann: Perfekt! Dann sparen wir auch noch Geld. Sarah: Ja, und wir sehen dabei auch mehr von der Stadt!",
+            "transcript": "Mann: Sarah, wie wollen wir denn in der Stadt fahren? Sarah: Ich denke, mit der U-Bahn ist am einfachsten. Mann: Stimmt! Und es ist auch sehr günstig. Sarah: Wir können auch zu Fuß gehen. Die Stadt ist nicht so groß. Mann: Perfekt! Dann sparen wir auch noch Geld. Sarah: Ja, und wir sehen dabei auch mehr von der Stadt!",
+            "questions": [
+              {
+                "id": "15-138d74d1",
                 "type": "multiple_choice",
-                "passageId": "gen-p-h3-c2d90679-s5",
-                "segmentLabel": "Text 5",
-                "question": "Was hat Tom am Freitagabend besucht?",
-                "options": [
-                  "a) Eine Filmvorführung.",
-                  "b) Ein Theaterstück.",
-                  "c) Ein Konzert."
-                ],
-                "correct": "c",
-                "correctAnswer": "c",
-                "explanation": "Tom fragt Katja nach dem Konzert am Freitagabend. Er hat also ein Konzert besucht.",
-                "vocabularyTags": [
-                  "Freitagabend",
-                  "Konzert"
-                ],
+                "question": "Wie wollen sie sich in der Stadt fortbewegen?",
+                "correct": "a",
+                "correctAnswer": "a",
+                "explanation": "Tom und Sarah planen, mit der U-Bahn zu fahren und auch zu Fuß zu gehen, um mehr von der Stadt zu sehen.",
                 "grammarTags": [
-                  "g-de-a2-dat-akk"
-                ]
+                  "g-de-b1-dativ",
+                  "g-de-b1-komparativ"
+                ],
+                "vocabularyTags": [
+                  "fortbewegen",
+                  "planen",
+                  "fahren",
+                  "u-bahn",
+                  "Stadt",
+                  "sehen"
+                ],
+                "options": [
+                  "a) Mit der U-Bahn und zu Fuß",
+                  "b) Mit dem Taxi und dem Fahrrad",
+                  "c) Mit dem Auto und dem Bus"
+                ],
+                "passageId": "de-a2-p-horen-t3-urlaubsplanung-freunde-03-s5",
+                "number": 15,
+                "nr": 15,
+                "nummer": 15,
+                "module": "horen",
+                "teil": 3,
+                "level": "A2"
               }
             ]
           }
@@ -1757,10 +1794,10 @@
       "cell": "horen_4",
       "module": "horen",
       "teil": 4,
-      "partId": "horen-t4-cur-society",
-      "contentHash": "1676a999fb6e2988dc20fc3450c6eb17bc11df0ebff6eacf952c432a9e707cc3",
+      "partId": "horen-t4-cur-health",
+      "contentHash": "c6a45980a287a1d1446fd95e16479cafb55009db6aaa8289c9b6d75cb7e5da2d",
       "snapshot": {
-        "id": "horen-t4-cur-society",
+        "id": "horen-t4-cur-health",
         "lang": "de",
         "level": "A2",
         "module": "horen",
@@ -1768,83 +1805,32 @@
         "instruction": "",
         "passage": {
           "title": "Aufnahme 1",
-          "text": "Guten Abend! Ich bin Thomas Müller und spreche heute mit Professorin Eva Weber über Reformen im Deutschen Bildungssystem. Professorin Weber, viele Eltern und Lehrer diskutieren über Veränderungen in den Schulen. Was halten Sie für besonders wichtig? Ja, danke der Nachfrage. Ich denke, drei Punkte sind sehr wichtig. Erstens brauchen wir kleinere Klassen. Mit 30 Schülern kann der Lehrer nicht gut arbeiten. Zweitens müssen wir mehr Digitalisierung in den Schulen haben. Die Schüler lernen heute mit Tablets und Computern, aber viele Schulen haben keine modernen Geräte. Und drittens ist die Fortbildung der Lehrer sehr wichtig. Lehrer müssen neue Methoden lernen. Verstanden. Und wie sehen das die Schüler selbst? Das ist eine gute Frage. Schüler wünschen sich mehr Praxisorientierung. Sie wollen nicht nur Theorie, sondern auch praktische Erfahrungen. Viele möchten später einen Beruf haben und die Schule soll sie darauf vorbereiten. Gibt es auch Kritik an diesen Reformen? Ja, natürlich. Manche sagen, die Reformen sind zu teuer. Der Staat muss viel Geld investieren. Andere sagen, zu viele Änderungen sind nicht gut für die Schulen. Die Schulen brauchen Zeit, um neue Ideen zu akzeptieren. Das ist verständlich. Wie optimistisch sind Sie für die Zukunft? Ich bin sehr optimistisch. Es gibt viele engagierte Lehrer und motivierte Schüler. Mit mehr Unterstützung von der Politik können wir die Schulen verbessern.",
-          "transcript": "Guten Abend! Ich bin Thomas Müller und spreche heute mit Professorin Eva Weber über Reformen im Deutschen Bildungssystem. Professorin Weber, viele Eltern und Lehrer diskutieren über Veränderungen in den Schulen. Was halten Sie für besonders wichtig? Ja, danke der Nachfrage. Ich denke, drei Punkte sind sehr wichtig. Erstens brauchen wir kleinere Klassen. Mit 30 Schülern kann der Lehrer nicht gut arbeiten. Zweitens müssen wir mehr Digitalisierung in den Schulen haben. Die Schüler lernen heute mit Tablets und Computern, aber viele Schulen haben keine modernen Geräte. Und drittens ist die Fortbildung der Lehrer sehr wichtig. Lehrer müssen neue Methoden lernen. Verstanden. Und wie sehen das die Schüler selbst? Das ist eine gute Frage. Schüler wünschen sich mehr Praxisorientierung. Sie wollen nicht nur Theorie, sondern auch praktische Erfahrungen. Viele möchten später einen Beruf haben und die Schule soll sie darauf vorbereiten. Gibt es auch Kritik an diesen Reformen? Ja, natürlich. Manche sagen, die Reformen sind zu teuer. Der Staat muss viel Geld investieren. Andere sagen, zu viele Änderungen sind nicht gut für die Schulen. Die Schulen brauchen Zeit, um neue Ideen zu akzeptieren. Das ist verständlich. Wie optimistisch sind Sie für die Zukunft? Ich bin sehr optimistisch. Es gibt viele engagierte Lehrer und motivierte Schüler. Mit mehr Unterstützung von der Politik können wir die Schulen verbessern.",
-          "topicTag": "Medien"
+          "text": "Moderator: Guten Tag. Heute sprechen wir über ein wichtiges Thema: Sollte das Autofahren in Städten eingeschränkt werden? Mit uns im Studio ist Frau Dr. Hansen, Verkehrsexpertin. Frau Dr. Hansen, viele Städte haben Probleme mit Verkehr und Umweltverschmutzung. Was denken Sie?\n\nFrau Dr. Hansen: Das ist wirklich ein großes Problem. In vielen Großstädten ist die Luft sehr schlecht. Der Verkehr verursacht viel Abgas und Lärm. Das ist nicht nur schlecht für die Umwelt, sondern auch für die Gesundheit der Menschen.\n\nModerator: Also sind Sie für Autoverbote?\n\nFrau Dr. Hansen: Nicht ganz. Ich denke, wir brauchen nicht totale Verbote, aber intelligente Regelungen. Zum Beispiel: mehr Busse und Bahnen, Fahrradwege, und Autos mit weniger Abgas. Auch Parkplätze sollten teurer sein.\n\nModerator: Und was ist mit den Menschen, die arbeiten müssen?\n\nFrau Dr. Hansen: Das ist wichtig. Man muss den öffentlichen Nahverkehr besser und billiger machen. Dann fahren mehr Menschen mit Bus und Bahn. Das ist besser für alle.\n\nModerator: Vielen Dank, Frau Dr. Hansen.",
+          "transcript": "Moderator: Guten Tag. Heute sprechen wir über ein wichtiges Thema: Sollte das Autofahren in Städten eingeschränkt werden? Mit uns im Studio ist Frau Dr. Hansen, Verkehrsexpertin. Frau Dr. Hansen, viele Städte haben Probleme mit Verkehr und Umweltverschmutzung. Was denken Sie?\n\nFrau Dr. Hansen: Das ist wirklich ein großes Problem. In vielen Großstädten ist die Luft sehr schlecht. Der Verkehr verursacht viel Abgas und Lärm. Das ist nicht nur schlecht für die Umwelt, sondern auch für die Gesundheit der Menschen.\n\nModerator: Also sind Sie für Autoverbote?\n\nFrau Dr. Hansen: Nicht ganz. Ich denke, wir brauchen nicht totale Verbote, aber intelligente Regelungen. Zum Beispiel: mehr Busse und Bahnen, Fahrradwege, und Autos mit weniger Abgas. Auch Parkplätze sollten teurer sein.\n\nModerator: Und was ist mit den Menschen, die arbeiten müssen?\n\nFrau Dr. Hansen: Das ist wichtig. Man muss den öffentlichen Nahverkehr besser und billiger machen. Dann fahren mehr Menschen mit Bus und Bahn. Das ist besser für alle.\n\nModerator: Vielen Dank, Frau Dr. Hansen.",
+          "topicTag": "Verkehr"
         },
         "questions": [
           {
-            "id": "20-58213406",
+            "id": "16-138d74d1",
             "type": "ja_nein",
-            "question": "Professorin Weber ist pessimistisch über die Zukunft der Schulen.",
+            "question": "Frau Dr. Hansen denkt, dass Autos in Städten ganz verboten werden sollten.",
             "correct": "Nein",
             "correctAnswer": "Nein",
-            "explanation": "Am Ende des Interviews sagt die Professorin: 'Ich bin sehr optimistisch. Es gibt viele engagierte Lehrer und motivierte Schüler.'",
+            "explanation": "Frau Dr. Hansen sagt: 'Nicht ganz. Ich denke, wir brauchen nicht totale Verbote, aber intelligente Regelungen.' Sie möchte keine totalen Verbote, sondern bessere Regelungen.",
             "options": [],
             "grammarTags": [
-              "g-de-a2-trennbar",
-              "g-de-a2-dat-akk"
+              "g-de-b1-konjunktiv",
+              "g-de-b1-futur"
             ],
             "vocabularyTags": [
-              "Zukunft",
-              "schulen",
-              "pessimistisch",
-              "Professorin",
-              "Weber"
+              "städten",
+              "sondern",
+              "brauchen",
+              "verboten",
+              "sollten",
+              "hansen"
             ],
-            "passageId": "de-a2-p-horen-t4-bildungssystem-reform-01",
-            "number": 20,
-            "nr": 20,
-            "nummer": 20,
-            "module": "horen",
-            "teil": 4,
-            "level": "A2"
-          },
-          {
-            "id": "17-58213406",
-            "type": "ja_nein",
-            "question": "Alle Schulen in Deutschland haben moderne Computer und Tablets.",
-            "correct": "Nein",
-            "correctAnswer": "Nein",
-            "explanation": "Die Professorin erklärt: 'Die Schüler lernen heute mit Tablets und Computern, aber viele Schulen haben keine modernen Geräte.'",
-            "options": [],
-            "grammarTags": [],
-            "vocabularyTags": [
-              "schulen",
-              "modern",
-              "Deutschland",
-              "Computer",
-              "Tablets"
-            ],
-            "passageId": "de-a2-p-horen-t4-bildungssystem-reform-01",
-            "number": 17,
-            "nr": 17,
-            "nummer": 17,
-            "module": "horen",
-            "teil": 4,
-            "level": "A2"
-          },
-          {
-            "id": "16-58213406",
-            "type": "ja_nein",
-            "question": "Professorin Weber sagt, dass kleinere Klassen wichtig sind.",
-            "correct": "Ja",
-            "correctAnswer": "Ja",
-            "explanation": "Im Radiointerview sagt Professorin Weber: 'Erstens brauchen wir kleinere Klassen. Mit 30 Schülern kann der Lehrer nicht gut arbeiten.'",
-            "options": [],
-            "grammarTags": [
-              "g-de-a2-nebensatz",
-              "g-de-a2-modal",
-              "g-de-a2-dat-akk"
-            ],
-            "vocabularyTags": [
-              "klassen",
-              "Professorin",
-              "wichtig",
-              "Klein",
-              "Weber"
-            ],
-            "passageId": "de-a2-p-horen-t4-bildungssystem-reform-01",
+            "passageId": "de-a2-p-horen-t4-autoverbote-debatte-01",
             "number": 16,
             "nr": 16,
             "nummer": 16,
@@ -1853,57 +1839,113 @@
             "level": "A2"
           },
           {
-            "id": "18-58213406",
+            "id": "17-138d74d1",
             "type": "ja_nein",
-            "question": "Schüler wünschen sich mehr praktische Erfahrungen und weniger Theorie.",
+            "question": "Der Verkehr in Städten verursacht Probleme für die Umwelt und die Gesundheit.",
             "correct": "Ja",
             "correctAnswer": "Ja",
-            "explanation": "Im Interview sagt die Professorin: 'Schüler wünschen sich mehr Praxisorientierung. Sie wollen nicht nur Theorie, sondern auch praktische Erfahrungen.'",
+            "explanation": "Frau Dr. Hansen sagt: 'Der Verkehr verursacht viel Abgas und Lärm. Das ist nicht nur schlecht für die Umwelt, sondern auch für die Gesundheit der Menschen.'",
             "options": [],
             "grammarTags": [
-              "g-de-a2-modal",
-              "g-de-a2-dat-akk",
-              "g-de-a2-komparativ"
+              "g-de-b1-relativ"
             ],
             "vocabularyTags": [
-              "wünschen",
-              "Erfahrung",
-              "praktisch",
-              "Schüler",
-              "Theorie"
+              "städten",
+              "sondern",
+              "Umwelt",
+              "verursachen",
+              "schlecht",
+              "Gesundheit"
             ],
-            "passageId": "de-a2-p-horen-t4-bildungssystem-reform-01",
-            "number": 18,
-            "nr": 18,
-            "nummer": 18,
+            "passageId": "de-a2-p-horen-t4-autoverbote-debatte-01",
+            "number": 17,
+            "nr": 17,
+            "nummer": 17,
             "module": "horen",
             "teil": 4,
             "level": "A2"
           },
           {
-            "id": "19-58213406",
+            "id": "19-138d74d1",
             "type": "ja_nein",
-            "question": "Manche Kritiker sagen, dass die Reformen zu teuer sind.",
+            "question": "Mehr Busse und Bahnen sind ein Teil der Lösung für das Verkehrsproblem.",
             "correct": "Ja",
             "correctAnswer": "Ja",
-            "explanation": "Die Professorin erwähnt: 'Manche sagen, die Reformen sind zu teuer. Der Staat muss viel Geld investieren.'",
+            "explanation": "Frau Dr. Hansen sagt: 'Zum Beispiel: mehr Busse und Bahnen, Fahrradwege, und Autos mit weniger Abgas.' Das sind ihre Vorschläge für bessere Regelungen.",
             "options": [],
             "grammarTags": [
-              "g-de-a2-nebensatz",
-              "g-de-a2-modal",
-              "g-de-a2-dat-akk"
+              "g-de-b1-komparativ"
             ],
             "vocabularyTags": [
-              "reformen",
-              "Kritiker",
-              "Manche",
-              "sagen",
-              "teuer"
+              "Beispiel",
+              "bahnen",
+              "Lösung",
+              "hansen",
+              "Verkehrsproblem",
+              "Fahrradwege"
             ],
-            "passageId": "de-a2-p-horen-t4-bildungssystem-reform-01",
+            "passageId": "de-a2-p-horen-t4-autoverbote-debatte-01",
             "number": 19,
             "nr": 19,
             "nummer": 19,
+            "module": "horen",
+            "teil": 4,
+            "level": "A2"
+          },
+          {
+            "id": "20-138d74d1",
+            "type": "ja_nein",
+            "question": "Der öffentliche Nahverkehr sollte besser und billiger für die Menschen werden.",
+            "correct": "Ja",
+            "correctAnswer": "Ja",
+            "explanation": "Frau Dr. Hansen sagt: 'Man muss den öffentlichen Nahverkehr besser und billiger machen. Dann fahren mehr Menschen mit Bus und Bahn.'",
+            "options": [],
+            "grammarTags": [
+              "g-de-b1-konjunktiv",
+              "g-de-b1-komparativ",
+              "g-de-b1-futur"
+            ],
+            "vocabularyTags": [
+              "öffentlicht",
+              "Mensch",
+              "hansen",
+              "fahren",
+              "öffentlich",
+              "nahverkehr"
+            ],
+            "passageId": "de-a2-p-horen-t4-autoverbote-debatte-01",
+            "number": 20,
+            "nr": 20,
+            "nummer": 20,
+            "module": "horen",
+            "teil": 4,
+            "level": "A2"
+          },
+          {
+            "id": "18-138d74d1",
+            "type": "ja_nein",
+            "question": "Frau Dr. Hansen schlägt vor, dass Parkplätze billiger werden sollten.",
+            "correct": "Nein",
+            "correctAnswer": "Nein",
+            "explanation": "Frau Dr. Hansen sagt: 'Auch Parkplätze sollten teurer sein.' Sie will, dass Parkplätze teurer werden, nicht billiger.",
+            "options": [],
+            "grammarTags": [
+              "g-de-b1-konjunktiv",
+              "g-de-b1-futur",
+              "g-de-b1-nebensatz"
+            ],
+            "vocabularyTags": [
+              "vorschlagen",
+              "sollten",
+              "hansen",
+              "Parkplätze",
+              "billig",
+              "sagen"
+            ],
+            "passageId": "de-a2-p-horen-t4-autoverbote-debatte-01",
+            "number": 18,
+            "nr": 18,
+            "nummer": 18,
             "module": "horen",
             "teil": 4,
             "level": "A2"

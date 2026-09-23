@@ -6,7 +6,7 @@
     },
     "A2": {
       "status": "live",
-      "exams": 1,
+      "exams": 4,
       "personalized": true,
       "quickModules": true,
       "aiFeatures": true

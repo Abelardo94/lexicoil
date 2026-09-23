@@ -195,6 +195,20 @@ function buildLesenT2Record(batch, { lang, level, topicTag, idPrefix }) {
   };
 }
 
+/**
+ * Ad key for matching (a–f). The old rule, `id.replace(/^ad-/, '')`, only
+ * worked when passages were literally named ad-a…ad-f: curated parts
+ * (…-cur-society-s1) and every generated part (gen-l4-…-a) kept the whole id
+ * as key, and GATE-2 rejected the exam (ads_keys_mismatch, expected ABCDEF).
+ * That blocked A2 exams e2–e4 on 23 sep 2026. An explicit letter in the id
+ * wins; otherwise the position decides, which is what the questions' a–f
+ * answers already refer to.
+ */
+function adLetterKey(id, index) {
+  const m = String(id || '').toLowerCase().match(/(?:^ad-|-)([a-j])$/);
+  return m ? m[1] : String.fromCharCode(97 + index);
+}
+
 function isForumMatchingLesenBatch(batch, level) {
   const lv = String(level || batch?.level || 'B1').toUpperCase();
   if (lv !== 'A2' && lv !== 'B2') return false;
@@ -223,8 +237,10 @@ function buildLesenT4Record(batch, { lang, level, topicTag, idPrefix }) {
       title: p.title || '',
       text: p.text || '',
     }));
+    let adKeys = passages.map((p, i) => adLetterKey(p.id, i));
+    if (new Set(adKeys).size !== adKeys.length) adKeys = passages.map((_, i) => String.fromCharCode(97 + i));
     const ads = passages.map((p, i) => ({
-      key: String(p.id || '').replace(/^ad-/, '') || String.fromCharCode(97 + i),
+      key: adKeys[i],
       title: p.title || '',
       text: p.text || '',
       textTitle: p.title || '',

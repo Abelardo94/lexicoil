@@ -10,10 +10,17 @@ import { buildLesenSeedRecordFromBatch } from './publishToPool.mjs';
 import { oralTeilsForLevel } from './examLevelCells.mjs';
 import { partRecordToExamPart } from '../audit-pass-2.mjs';
 
-function batchToRecord(batch, file, module, teil, level) {
+/**
+ * Pool batch → part record, shared by the assembler, the freshness check and
+ * the reassembler. It used to be copied in each of them; the copies here and in
+ * reassemble-verified-from-pool had lost the A2 Hören T2 picture handling, so
+ * every freshly assembled A2 exam was reported STALE on horen_2 (23 sep 2026)
+ * and Marcos's August reassembly of e2–e4 came out without the 9 pictures.
+ */
+export function batchToRecord(batch, file, module, teil, level = 'B1') {
+  const lv = normalizeLevel(level || batch?.level || 'B1');
   const mod = String(module).toLowerCase();
   const t = Number(teil);
-  const lv = normalizeLevel(level);
   if (mod === 'lesen') {
     const rec = buildLesenSeedRecordFromBatch(batch, { lang: 'de', level: lv, teil: t, idPrefix: 'pv' });
     rec.id = file.replace(/\.json$/i, '');
@@ -32,21 +39,27 @@ function batchToRecord(batch, file, module, teil, level) {
     verified: true,
   };
   if (mod === 'horen') {
-    if (passages.length > 1) {
+    const p0 = passages[0];
+    const pictures = p0?.pictures || batch.pictures;
+    const isPictureT2 =
+      lv === 'A2' && t === 2 && Array.isArray(pictures) && pictures.length >= 9;
+    if (passages.length > 1 || isPictureT2) {
       rec.segments = passages.map((p, i) => ({
         passageId: p.id,
         label: p.title || `Aufnahme ${i + 1}`,
         text: p.text || p.transcript || '',
         transcript: p.transcript || p.text || '',
+        ...(Array.isArray(p.pictures) && p.pictures.length ? { pictures: p.pictures } : {}),
         questions: (batch.questions || []).filter((q) => q.passageId === p.id),
       }));
     }
-    rec.passage = passages[0]
+    rec.passage = p0
       ? {
-          title: passages[0].title,
-          text: passages[0].text,
-          transcript: passages[0].transcript || passages[0].text,
-          topicTag: passages[0].topicTag,
+          title: p0.title,
+          text: p0.text,
+          transcript: p0.transcript || p0.text,
+          topicTag: p0.topicTag,
+          ...(Array.isArray(p0.pictures) ? { pictures: p0.pictures } : {}),
         }
       : null;
   }

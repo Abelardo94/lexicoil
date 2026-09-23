@@ -23,6 +23,8 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { normalizeBatch } from './lib/normalizeBatch.mjs';
+import { collectPassageIds, loadLiveExamLocks } from './lib/liveExamLock.mjs';
+import { batchToRecord } from './lib/assembledPoolLoad.mjs';
 import { buildLesenSeedRecordFromBatch } from './lib/publishToPool.mjs';
 import {
   isExamPublishable,
@@ -74,10 +76,11 @@ function fileReForLevel(level) {
 function parseArgs(argv) {
   // Product already models official vs practice via S.mode (js/bootstrap/state.js).
   // This batch assembler defaults to official (= paid/catalog exams).
-  const args = { max: null, dryRun: false, prefer: new Set(), mode: 'official', level: 'B1' };
+  const args = { max: null, dryRun: false, prefer: new Set(), mode: 'official', level: 'B1', lockLive: true };
   for (let i = 0; i < argv.length; i++) {
     if (argv[i] === '--max') args.max = Number(argv[++i]);
     else if (argv[i] === '--dry-run') args.dryRun = true;
+    else if (argv[i] === '--no-lock-live') args.lockLive = false;
     else if (argv[i] === '--level') args.level = normalizeLevel(argv[++i]);
     else if (argv[i] === '--mode') {
       const m = String(argv[++i] || '').toLowerCase();
@@ -155,55 +158,6 @@ function extractTopic(rec, batch) {
   if (fromQuestions) return fromQuestions;
   const raw = batch?.topicTag || rec?.topicTag || batch?.passages?.[0]?.topicTag || null;
   return normalizeB1Topic(raw) || (raw ? String(raw) : null);
-}
-
-function batchToRecord(batch, file, module, teil, level = 'B1') {
-  const lv = normalizeLevel(level || batch?.level || 'B1');
-  const mod = String(module).toLowerCase();
-  const t = Number(teil);
-  if (mod === 'lesen') {
-    const rec = buildLesenSeedRecordFromBatch(batch, { lang: 'de', level: lv, teil: t, idPrefix: 'pv' });
-    rec.id = file.replace(/\.json$/i, '');
-    return rec;
-  }
-  const passages = batch.passages || [];
-  const rec = {
-    id: file.replace(/\.json$/i, ''),
-    module: mod,
-    teil: t,
-    lang: 'de',
-    level: lv,
-    questions: batch.questions || [],
-    topicTag: batch.topicTag || passages[0]?.topicTag,
-    complete: true,
-    verified: true,
-  };
-  if (mod === 'horen') {
-    const p0 = passages[0];
-    const pictures = p0?.pictures || batch.pictures;
-    const isPictureT2 =
-      lv === 'A2' && t === 2 && Array.isArray(pictures) && pictures.length >= 9;
-    if (passages.length > 1 || isPictureT2) {
-      rec.segments = passages.map((p, i) => ({
-        passageId: p.id,
-        label: p.title || `Aufnahme ${i + 1}`,
-        text: p.text || p.transcript || '',
-        transcript: p.transcript || p.text || '',
-        ...(Array.isArray(p.pictures) && p.pictures.length ? { pictures: p.pictures } : {}),
-        questions: (batch.questions || []).filter((q) => q.passageId === p.id),
-      }));
-    }
-    rec.passage = p0
-      ? {
-          title: p0.title,
-          text: p0.text,
-          transcript: p0.transcript || p0.text,
-          topicTag: p0.topicTag,
-          ...(Array.isArray(p0.pictures) ? { pictures: p0.pictures } : {}),
-        }
-      : null;
-  }
-  return rec;
 }
 
 function oralBundleToParts(batch, file, module, level = 'B1') {
@@ -410,11 +364,19 @@ async function screenOralBundles(module, blockedIds, level = 'B1') {
   return bundles;
 }
 
-function pickBest(pool, usedTopics, usedIds, usedT3Fp, preferFiles = null) {
+function candidatePassageIds(c) {
+  if (!c.passageIds) c.passageIds = collectPassageIds(c.record);
+  return c.passageIds;
+}
+
+function pickBest(pool, usedTopics, usedIds, usedT3Fp, preferFiles = null, usedPassageIds = new Set()) {
   let best = null;
   let bestScore = -Infinity;
   for (const c of pool) {
     if (usedIds.has(c.id)) continue;
+    // Different part files can carry the same passage (curated parts reuse bank
+    // passages): one text must not appear in two exams.
+    if ([...candidatePassageIds(c)].some((pid) => usedPassageIds.has(pid))) continue;
     if (c.t3Fp && usedT3Fp.has(c.t3Fp)) continue;
     let score = 100;
     if (c.topic && usedTopics.has(c.topic)) score -= 40;
@@ -521,7 +483,24 @@ async function main() {
   }
 
   const usedIds = new Set();
+  const usedPassageIds = new Set();
   const usedT3Fp = new Set();
+
+  // Live exams are never reassembled; their parts and passages are reserved.
+  // --no-lock-live restores the old rebuild-everything behaviour.
+  const locks = args.lockLive
+    ? loadLiveExamLocks('de', lv)
+    : { slots: new Set(), partIds: new Set(), passageIds: new Set(), missing: [] };
+  if (locks.missing.length) {
+    console.error(`FATAL: slots live sin manifiesto publicado (${locks.missing.join(', ')}): no se pueden reservar sus partes`);
+    process.exit(1);
+  }
+  for (const id of locks.partIds) usedIds.add(id);
+  for (const pid of locks.passageIds) usedPassageIds.add(pid);
+  if (locks.slots.size) {
+    console.log(`
+Slots live bloqueados (no se reensamblan): ${[...locks.slots].sort((a, b) => a - b).join(', ')} · ${locks.partIds.size} partes y ${locks.passageIds.size} textos reservados`);
+  }
   const usedSch = new Set();
   const usedSpr = new Set();
   const exams = [];
@@ -542,16 +521,21 @@ async function main() {
         'lesen-t5-gemini-078.json',
       ]);
 
-  for (let e = 0; e < maxExams; e++) {
+  examLoop: for (let e = 0; e < maxExams; e++) {
+    if (locks.slots.has(e + 1)) continue;
     const picked = {};
     const usedTopics = new Set();
     const preferThisExam = e === 0 ? preferExam1 : null;
 
-    const sch = schBundles.find((b) => !usedSch.has(b.file));
-    const spr = sprBundles.find((b) => !usedSpr.has(b.file));
+    const bundleFree = (b) => !b.parts.some((p) => usedIds.has(p.id));
+    const sch = schBundles.find((b) => !usedSch.has(b.file) && bundleFree(b));
+    const spr = sprBundles.find((b) => !usedSpr.has(b.file) && bundleFree(b));
     if (!sch || !spr) {
-      console.error(`FATAL: sin bundle schreiben/sprechen para examen ${e + 1}`);
-      process.exit(1);
+      // Stop here and keep the exams already built: the count-based capacity
+      // does not know about reserved live parts or shared passages.
+      console.warn(`
+⚠ Examen ${e + 1}: sin bundle schreiben/sprechen libre — se montan ${exams.length} examen(es) nuevos`);
+      break examLoop;
     }
     usedSch.add(sch.file);
     usedSpr.add(spr.file);
@@ -567,17 +551,19 @@ async function main() {
     }
 
     for (const key of CELL_KEYS) {
-      let c = pickBest(cleanPool[key], usedTopics, usedIds, usedT3Fp, preferThisExam);
-      if (!c) c = pickBest(cleanPool[key], new Set(), usedIds, usedT3Fp, preferThisExam);
+      let c = pickBest(cleanPool[key], usedTopics, usedIds, usedT3Fp, preferThisExam, usedPassageIds);
+      if (!c) c = pickBest(cleanPool[key], new Set(), usedIds, usedT3Fp, preferThisExam, usedPassageIds);
       if (!c) {
         const avail = cleanPool[key]?.length ?? 0;
-        console.error(
-          `FATAL: no se puede ensamblar examen ${lv}: falta stock en [${key}], disponible: ${avail}, necesario: 1`,
+        console.warn(
+          `
+⚠ Examen ${e + 1}: sin parte libre en [${key}] (${avail} en stock, reservadas o con texto ya usado) — se montan ${exams.length} examen(es) nuevos`,
         );
-        process.exit(1);
+        break examLoop;
       }
       picked[key] = c;
       usedIds.add(c.id);
+      for (const pid of candidatePassageIds(c)) usedPassageIds.add(pid);
       if (c.topic) usedTopics.add(c.topic);
       if (c.t3Fp) usedT3Fp.add(c.t3Fp);
     }

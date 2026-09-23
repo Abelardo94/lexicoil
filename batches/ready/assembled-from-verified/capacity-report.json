@@ -1,64 +1,133 @@
 {
-  "generatedAt": "2026-07-25T14:54:51.742Z",
-  "mode": "official",
+  "generatedAt": "2026-09-23T18:49:31.558Z",
+  "source": "batches/ready/pool-verified",
   "stock": {
-    "lesen_1": 17,
-    "lesen_2": 23,
-    "lesen_3": 34,
-    "lesen_4": 19,
-    "lesen_5": 16,
-    "horen_1": 20,
-    "horen_2": 23,
-    "horen_3": 35,
-    "horen_4": 29,
-    "schreiben_sets": 72,
-    "sprechen_sets": 71
+    "lesen_1": 14,
+    "lesen_2": 16,
+    "lesen_3": 10,
+    "lesen_4": 6,
+    "horen_1": 15,
+    "horen_2": 26,
+    "horen_3": 26,
+    "horen_4": 11,
+    "schreiben_sets": 4,
+    "sprechen_sets": 4
   },
-  "capacity": 16,
-  "bottlenecks": [
-    [
-      "lesen_5",
-      16
-    ],
-    [
-      "lesen_1",
-      17
-    ],
-    [
-      "lesen_4",
-      19
-    ],
-    [
-      "horen_1",
-      20
-    ],
-    [
-      "lesen_2",
-      23
-    ],
-    [
-      "horen_2",
-      23
-    ],
-    [
-      "horen_4",
-      29
-    ],
-    [
-      "lesen_3",
-      34
-    ],
-    [
-      "horen_3",
-      35
-    ],
-    [
-      "sprechen_sets",
-      71
-    ],
-    [
-      "schreiben_sets",
-      72
-    ]
+  "capacity": 4,
+  "bottleneck": [
+    "schreiben_sets",
+    4
+  ],
+  "assembled": 3,
+  "exams": [
+    {
+      "examId": "verified-de-A2-e2",
+      "file": "batches/ready/assembled-from-verified/assembled-exam-a2-verified-e2.json",
+      "gate1": true,
+      "partIds": {
+        "lesen_1": "lesen-t1-cur-health",
+        "lesen_2": "lesen-t2-cur-health",
+        "lesen_3": "lesen-t3-cur-society",
+        "lesen_4": "lesen-t4-gemini-102",
+        "horen_1": "horen-t1-gemini-063",
+        "horen_2": "horen-t2-cur-education",
+        "horen_3": "horen-t3-cur-health",
+        "horen_4": "horen-t4-cur-health",
+        "schreiben_1": "schreiben-cur-health-t1",
+        "schreiben_2": "schreiben-cur-health-t2",
+        "sprechen_1": "sprechen-cur-health-t1",
+        "sprechen_2": "sprechen-cur-health-t2",
+        "sprechen_3": "sprechen-cur-health-t3"
+      },
+      "topics": {
+        "lesen_1": "Ernährung",
+        "lesen_2": "Reisen",
+        "lesen_3": "Sport",
+        "lesen_4": "Umwelt",
+        "horen_1": "Medien",
+        "horen_2": "Bildung",
+        "horen_3": "Verkehr",
+        "horen_4": "Verkehr",
+        "schreiben_1": "Arbeit",
+        "schreiben_2": "Gesundheit",
+        "sprechen_1": "Stadtleben",
+        "sprechen_2": "Stadtleben",
+        "sprechen_3": "Stadtleben"
+      }
+    },
+    {
+      "examId": "verified-de-A2-e3",
+      "file": "batches/ready/assembled-from-verified/assembled-exam-a2-verified-e3.json",
+      "gate1": true,
+      "partIds": {
+        "lesen_1": "lesen-t1-cur-society",
+        "lesen_2": "lesen-t2-cur-education",
+        "lesen_3": "lesen-t3-gemini-058",
+        "lesen_4": "lesen-t4-gemini-103",
+        "horen_1": "horen-t1-gemini-060",
+        "horen_2": "horen-t2-cur-health",
+        "horen_3": "horen-t3-cur-society",
+        "horen_4": "horen-t4-cur-society",
+        "schreiben_1": "schreiben-cur-society-t1",
+        "schreiben_2": "schreiben-cur-society-t2",
+        "sprechen_1": "sprechen-cur-society-t1",
+        "sprechen_2": "sprechen-cur-society-t2",
+        "sprechen_3": "sprechen-cur-society-t3"
+      },
+      "topics": {
+        "lesen_1": "Technik",
+        "lesen_2": "Gesundheit",
+        "lesen_3": "Reisen",
+        "lesen_4": "Umwelt",
+        "horen_1": "Sport",
+        "horen_2": "Kultur",
+        "horen_3": "Familie",
+        "horen_4": "Medien",
+        "schreiben_1": "Stadtleben",
+        "schreiben_2": "Stadtleben",
+        "sprechen_1": "Freizeit",
+        "sprechen_2": "Freizeit",
+        "sprechen_3": "Freizeit"
+      }
+    },
+    {
+      "examId": "verified-de-A2-e4",
+      "file": "batches/ready/assembled-from-verified/assembled-exam-a2-verified-e4.json",
+      "gate1": true,
+      "partIds": {
+        "lesen_1": "lesen-t1-cur-work",
+        "lesen_2": "lesen-t2-gemini-177",
+        "lesen_3": "lesen-t3-gemini-059",
+        "lesen_4": "lesen-t4-cur-health",
+        "horen_1": "horen-t1-gemini-079",
+        "horen_2": "horen-t2-cur-work",
+        "horen_3": "horen-t3-cur-work",
+        "horen_4": "horen-t4-gemini-046",
+        "schreiben_1": "schreiben-cur-work-t1",
+        "schreiben_2": "schreiben-cur-work-t2",
+        "sprechen_1": "sprechen-cur-work-t1",
+        "sprechen_2": "sprechen-cur-work-t2",
+        "sprechen_3": "sprechen-cur-work-t3"
+      },
+      "topics": {
+        "lesen_1": "Familie",
+        "lesen_2": "Medien",
+        "lesen_3": "Umwelt",
+        "lesen_4": "Gesundheit",
+        "horen_1": "Reisen",
+        "horen_2": "Arbeit",
+        "horen_3": "Wohnen",
+        "horen_4": "Stadtleben",
+        "schreiben_1": "Stadtleben",
+        "schreiben_2": "Stadtleben",
+        "sprechen_1": "Stadtleben",
+        "sprechen_2": "Stadtleben",
+        "sprechen_3": "Stadtleben"
+      }
+    }
+  ],
+  "nextSteps": [
+    "Cuando haya más Hören T1 (u otra celda cuello de botella) en pool-verified, re-ejecutar: node scripts/assemble-from-pool-verified.mjs",
+    "Publicar: node scripts/publish-verified-exams-local.mjs --slots N --level A2|B1 (GATE-1 + frescura + overlay)"
   ]
 }
