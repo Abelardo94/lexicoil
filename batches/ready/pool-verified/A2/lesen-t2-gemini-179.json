@@ -1,0 +1,309 @@
+{
+  "passages": [
+    {
+      "id": "gen-l2-32cf62d7-1",
+      "text": "Willkommen im 'Stadthaus Mitte'! Hier finden Sie viele Angebote für Ihr Leben in der Stadt.\n\nErdgeschoss:\nCafé 'Treffpunkt': Hier können Sie Kaffee trinken und kleine Snacks genießen.\nPostfiliale 'Schnellbrief': Kaufen Sie hier Ihre Briefmarken und versenden Sie Pakete.\nInformation und Empfang: Unsere Mitarbeiter helfen Ihnen gerne mit einem Stadtplan.\n\n1. Stock:\nSprachschule 'Neue Wege': Lernen Sie Deutsch in verschiedenen Kursen für Anfänger und Fortgeschrittene.\nStadtteilbüro 'Zukunft': Hier bekommen Sie Hilfe, wenn Sie Ihre Wohnung renovieren möchten.\nKinderzimmer 'Sonnenschein': Ein schöner Raum für Kinder zum Spielen.\n\n2. Stock:\nLesesaal 'Ruheoase': Hier können Sie Bücher lesen und in Ruhe arbeiten. Bitte bleiben Sie drinnen leise.\nVeranstaltungsraum 'Miteinander': Dieser große Raum wird oft für Treffen oder einen Flohmarkt genutzt.\n\nWir freuen uns auf Ihren Besuch!",
+      "type": "Informationstafel",
+      "level": "A2",
+      "topicTag": "Stadtleben",
+      "module": "lesen",
+      "teil": 2,
+      "lang": "de"
+    }
+  ],
+  "questions": [
+    {
+      "id": "gen-q-2-32cf62d7-1",
+      "passageId": "gen-l2-32cf62d7-1",
+      "question": "Maria möchte Deutsch lernen. In welchem Stock ist die Sprachschule?",
+      "options": [
+        "a) in einem anderen Stock",
+        "b) im 1. Stock",
+        "c) im Erdgeschoss"
+      ],
+      "correctAnswer": "b",
+      "explanation": "Die Sprachschule 'Neue Wege' bietet Deutschkurse an und befindet sich im 1. Stock.",
+      "module": "lesen",
+      "teil": 2,
+      "level": "A2",
+      "correct": "b",
+      "lang": "de",
+      "type": "multiple_choice",
+      "topicTags": [
+        "Stadtleben"
+      ],
+      "vocabularyTags": [
+        "lernen",
+        "Sprachschule",
+        "Deutsch",
+        "Maria",
+        "möcht",
+        "welch"
+      ],
+      "grammarTags": [
+        "g-de-a2-modal",
+        "g-de-a2-trennbar",
+        "g-de-a2-dat-akk"
+      ]
+    },
+    {
+      "id": "gen-q-2-32cf62d7-2",
+      "passageId": "gen-l2-32cf62d7-1",
+      "question": "Herr Schmidt braucht eine Briefmarke. Auf welcher Etage findet er die Postfiliale?",
+      "options": [
+        "a) im 2. Stock",
+        "b) in einem anderen Stockwerk",
+        "c) im Erdgeschoss"
+      ],
+      "correctAnswer": "c",
+      "explanation": "Die Postfiliale 'Schnellbrief' ist im Erdgeschoss, dort kann man Briefmarken kaufen.",
+      "module": "lesen",
+      "teil": 2,
+      "level": "A2",
+      "correct": "c",
+      "lang": "de",
+      "type": "multiple_choice",
+      "topicTags": [
+        "Stadtleben"
+      ],
+      "vocabularyTags": [
+        "brauchen",
+        "finden",
+        "Postfiliale",
+        "Erdgeschoss",
+        "Briefmarke",
+        "Schmidt"
+      ],
+      "grammarTags": [
+        "g-de-a2-modal",
+        "g-de-a2-trennbar",
+        "g-de-a2-dat-akk"
+      ]
+    },
+    {
+      "id": "gen-q-2-32cf62d7-3",
+      "passageId": "gen-l2-32cf62d7-1",
+      "question": "Lisa möchte ihre Küche renovieren und braucht Beratung. Wo bekommt sie Hilfe? In welchem Stock ist das Büro?",
+      "options": [
+        "a) im 2. Stock",
+        "b) im 1. Stock",
+        "c) im Erdgeschoss"
+      ],
+      "correctAnswer": "b",
+      "explanation": "Das Stadtteilbüro 'Zukunft' hilft beim Renovieren und ist im 1. Stock zu finden.",
+      "module": "lesen",
+      "teil": 2,
+      "level": "A2",
+      "correct": "b",
+      "lang": "de",
+      "type": "multiple_choice",
+      "topicTags": [
+        "Stadtleben"
+      ],
+      "vocabularyTags": [
+        "brauchen",
+        "Küche",
+        "Hilfe",
+        "renovieren",
+        "Beratung",
+        "möcht"
+      ],
+      "grammarTags": [
+        "g-de-a2-modal",
+        "g-de-a2-trennbar",
+        "g-de-a2-dat-akk"
+      ]
+    },
+    {
+      "id": "gen-q-2-32cf62d7-4",
+      "passageId": "gen-l2-32cf62d7-1",
+      "question": "Eine Familie sucht einen Raum für einen Flohmarkt. In welchem Stock befindet sich der Veranstaltungsraum?",
+      "options": [
+        "a) im 2. Stock",
+        "b) in einem anderen Stock",
+        "c) im Erdgeschoss"
+      ],
+      "correctAnswer": "a",
+      "explanation": "Der Veranstaltungsraum 'Miteinander' für einen Flohmarkt ist im 2. Stock gelegen.",
+      "module": "lesen",
+      "teil": 2,
+      "level": "A2",
+      "correct": "a",
+      "lang": "de",
+      "type": "multiple_choice",
+      "topicTags": [
+        "Stadtleben"
+      ],
+      "vocabularyTags": [
+        "Familie",
+        "Veranstaltungsraum",
+        "Flohmarkt",
+        "welch",
+        "Stock"
+      ],
+      "grammarTags": [
+        "g-de-a2-perfekt",
+        "g-de-a2-trennbar",
+        "g-de-a2-dat-akk"
+      ]
+    },
+    {
+      "id": "gen-q-2-32cf62d7-5",
+      "passageId": "gen-l2-32cf62d7-1",
+      "question": "Frau Meier möchte in Ruhe ein Buch lesen. In welchem Stock kann sie das tun?",
+      "options": [
+        "a) in einem anderen Stock",
+        "b) im 1. Stock",
+        "c) im 2. Stock"
+      ],
+      "correctAnswer": "c",
+      "explanation": "Der Lesesaal 'Ruheoase' ist der richtige Ort zum Lesen und befindet sich im 2. Stock.",
+      "module": "lesen",
+      "teil": 2,
+      "level": "A2",
+      "correct": "c",
+      "lang": "de",
+      "type": "multiple_choice",
+      "topicTags": [
+        "Stadtleben"
+      ],
+      "vocabularyTags": [
+        "lesen",
+        "Frau",
+        "Meier",
+        "möcht",
+        "welch",
+        "Stock"
+      ],
+      "grammarTags": [
+        "g-de-a2-modal",
+        "g-de-a2-trennbar",
+        "g-de-a2-dat-akk"
+      ]
+    }
+  ],
+  "_germanCapsNormalizeVersion": "v3.23-lesen-t2-angebote-corpus-2026-07-28",
+  "_germanCapsNormalizedAt": "2026-09-23T00:03:55.120Z",
+  "_balanceMcqVersion": "v1.2-no-rf-chrono-shuffle-2026-07-11",
+  "_balanceMcqNormalizedAt": "2026-09-23T00:03:55.119Z",
+  "topicTag": "Stadtleben",
+  "_requestedTopic": "Stadtleben",
+  "userVocabFeedback": {
+    "topic": "Stadtleben",
+    "requested": [
+      "briefmarke",
+      "drinnen",
+      "flohmarkt",
+      "hauptstadt",
+      "stadtplan",
+      "renovieren"
+    ],
+    "prompted": [
+      "briefmarke",
+      "drinnen",
+      "flohmarkt",
+      "hauptstadt",
+      "stadtplan",
+      "renovieren"
+    ],
+    "originalRequested": [
+      "briefmarke",
+      "drinnen",
+      "flohmarkt",
+      "hauptstadt",
+      "stadtplan",
+      "renovieren"
+    ],
+    "subtypeAdaptation": null,
+    "used": [
+      "briefmarke",
+      "drinnen",
+      "flohmarkt",
+      "stadtplan",
+      "renovieren"
+    ],
+    "notUsed": [
+      "hauptstadt"
+    ],
+    "excluded": [],
+    "ratio": 0.8333333333333334,
+    "targetUsage": [
+      {
+        "word": "briefmarke",
+        "surfaces": [
+          "Briefmarken",
+          "Briefmarke"
+        ]
+      },
+      {
+        "word": "drinnen",
+        "surfaces": [
+          "drinnen"
+        ]
+      },
+      {
+        "word": "flohmarkt",
+        "surfaces": [
+          "Flohmarkt"
+        ]
+      },
+      {
+        "word": "stadtplan",
+        "surfaces": [
+          "Stadtplan"
+        ]
+      },
+      {
+        "word": "renovieren",
+        "surfaces": [
+          "renovieren"
+        ]
+      }
+    ]
+  },
+  "targetUsage": [
+    {
+      "word": "briefmarke",
+      "surfaces": [
+        "Briefmarken",
+        "Briefmarke"
+      ]
+    },
+    {
+      "word": "drinnen",
+      "surfaces": [
+        "drinnen"
+      ]
+    },
+    {
+      "word": "flohmarkt",
+      "surfaces": [
+        "Flohmarkt"
+      ]
+    },
+    {
+      "word": "stadtplan",
+      "surfaces": [
+        "Stadtplan"
+      ]
+    },
+    {
+      "word": "renovieren",
+      "surfaces": [
+        "renovieren"
+      ]
+    }
+  ],
+  "generationMetadata": {
+    "usedFeedback": false,
+    "feedbackRules": [],
+    "feedbackCount": 0,
+    "feedbackCategories": [],
+    "feedbackMode": "off",
+    "feedbackVersion": "v1"
+  },
+  "_metadataEnrichedAt": "2026-09-23T00:04:03.062Z",
+  "_metadataEnrichNote": "deterministic: detectTopic + per-question lemma vocab + grammar heuristics",
+  "_vocabTagsNormalizeVersion": "v2.3.18-paso3-vocab-plural-rubric-strip-2026-08-02",
+  "_grammarTagsNormalizeVersion": "v2.2-a2-b2-level-tags-2026-07-27"
+}

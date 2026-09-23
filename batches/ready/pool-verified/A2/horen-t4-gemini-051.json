@@ -1,0 +1,291 @@
+{
+  "passages": [
+    {
+      "id": "gen-p-h4-efcc41f6-s1",
+      "module": "horen",
+      "teil": 4,
+      "lang": "de",
+      "level": "A2",
+      "title": "Medien im Alltag",
+      "text": "Moderator: Guten Tag. Heute sprechen wir über Medien. Viele Menschen nutzen Medien jeden Tag. Herr Müller, Sie sind heute unser Gast. Was bedeuten Medien für Sie?\n\nPaul: Guten Tag. Medien sind für mich sehr wichtig. Ich nutze sie oft. Zum Beispiel lese ich Nachrichten online. Das mache ich jeden Morgen. So weiß ich, was in der Welt passiert.\n\nModerator: Und nutzen Sie Medien auch für die Arbeit?\n\nPaul: Ja, klar. Ich arbeite in einer kleinen Firma. Wir nutzen E-Mails und Chat-Programme. Das ist wichtig für die Kommunikation mit Kollegen. Manchmal schaue ich auch kurze Videos, wenn ich etwas Neues lernen will.\n\nModerator: Das klingt praktisch. Was machen Sie in Ihrer Freizeit mit Medien?\n\nPaul: In meiner Freizeit höre ich gern Radio. Oder ich schaue einen Film am Abend. Manchmal lese ich auch einen Blog über meine Hobbys. Das ist entspannend. Meine Kinder spielen auch Spiele auf dem Tablet. Das ist eine andere Art von Medien.\n\nModerator: Verstehe. Gibt es auch Nachteile bei Medien?\n\nPaul: Ja, das denke ich schon. Manchmal verbringt man zu viel Zeit vor dem Bildschirm. Das ist nicht gut für die Augen. Und nicht alle Informationen im Internet sind richtig. Man muss vorsichtig sein. Aber insgesamt sind Medien eine gute Sache. Sie helfen uns, damit wir informiert sind und auch Spaß haben.",
+      "passageVocab": [
+        "medien",
+        "radio",
+        "blog",
+        "firma",
+        "nachrichten"
+      ],
+      "audio": [
+        {
+          "speaker": "Moderator",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Guten Tag. Heute sprechen wir über Medien. Viele Menschen nutzen Medien jeden Tag. Herr Müller, Sie sind heute unser Gast. Was bedeuten Medien für Sie?"
+        },
+        {
+          "speaker": "Paul",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Guten Tag. Medien sind für mich sehr wichtig. Ich nutze sie oft. Zum Beispiel lese ich Nachrichten online. Das mache ich jeden Morgen. So weiß ich, was in der Welt passiert."
+        },
+        {
+          "speaker": "Moderator",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Und nutzen Sie Medien auch für die Arbeit?"
+        },
+        {
+          "speaker": "Paul",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Ja, klar. Ich arbeite in einer kleinen Firma. Wir nutzen E-Mails und Chat-Programme. Das ist wichtig für die Kommunikation mit Kollegen. Manchmal schaue ich auch kurze Videos, wenn ich etwas Neues lernen will."
+        },
+        {
+          "speaker": "Moderator",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Das klingt praktisch. Was machen Sie in Ihrer Freizeit mit Medien?"
+        },
+        {
+          "speaker": "Paul",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "In meiner Freizeit höre ich gern Radio. Oder ich schaue einen Film am Abend. Manchmal lese ich auch einen Blog über meine Hobbys. Das ist entspannend. Meine Kinder spielen auch Spiele auf dem Tablet. Das ist eine andere Art von Medien."
+        },
+        {
+          "speaker": "Moderator",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Verstehe. Gibt es auch Nachteile bei Medien?"
+        },
+        {
+          "speaker": "Paul",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Ja, das denke ich schon. Manchmal verbringt man zu viel Zeit vor dem Bildschirm. Das ist nicht gut für die Augen. Und nicht alle Informationen im Internet sind richtig. Man muss vorsichtig sein. Aber insgesamt sind Medien eine gute Sache. Sie helfen uns, damit wir informiert sind und auch Spaß haben."
+        }
+      ],
+      "topicTag": "Medien"
+    }
+  ],
+  "questions": [
+    {
+      "id": "gen-q-h4-efcc41f6-q4",
+      "module": "horen",
+      "teil": 4,
+      "type": "ja_nein",
+      "question": "Herr Müller findet, dass alle Informationen im Internet richtig sind.",
+      "correct": "Nein",
+      "correctAnswer": "Nein",
+      "options": [],
+      "explanation": "Paul sagt, dass nicht alle Informationen im Internet richtig sind und man vorsichtig sein muss.",
+      "passageId": "gen-p-h4-efcc41f6-s1",
+      "level": "A2",
+      "topicTags": [
+        "Medien"
+      ],
+      "vocabularyTags": [
+        "finden",
+        "Informationen",
+        "Internet",
+        "richtig",
+        "Müller"
+      ],
+      "grammarTags": [
+        "g-de-a2-nebensatz",
+        "g-de-a2-trennbar"
+      ]
+    },
+    {
+      "id": "gen-q-h4-efcc41f6-q1",
+      "module": "horen",
+      "teil": 4,
+      "type": "ja_nein",
+      "question": "Herr Müller liest jeden Morgen Online-Nachrichten.",
+      "correct": "Ja",
+      "correctAnswer": "Ja",
+      "options": [],
+      "explanation": "Paul sagt, dass er jeden Morgen Nachrichten online liest, um informiert zu sein.",
+      "passageId": "gen-p-h4-efcc41f6-s1",
+      "level": "A2",
+      "topicTags": [
+        "Medien"
+      ],
+      "vocabularyTags": [
+        "online-nachrichten",
+        "Müller",
+        "jeden"
+      ],
+      "grammarTags": [
+        "g-de-a2-nebensatz",
+        "g-de-a2-trennbar"
+      ]
+    },
+    {
+      "id": "gen-q-h4-efcc41f6-q3",
+      "module": "horen",
+      "teil": 4,
+      "type": "ja_nein",
+      "question": "Pauls Firma kommuniziert mit E-Mails und Chat-Programmen.",
+      "correct": "Ja",
+      "correctAnswer": "Ja",
+      "options": [],
+      "explanation": "Paul erklärt, dass seine Firma E-Mails und Chat-Programme für die Kommunikation verwendet.",
+      "passageId": "gen-p-h4-efcc41f6-s1",
+      "level": "A2",
+      "topicTags": [
+        "Medien"
+      ],
+      "vocabularyTags": [
+        "chat-programm",
+        "e-mails",
+        "Firma",
+        "Pauls"
+      ],
+      "grammarTags": [
+        "g-de-a2-nebensatz",
+        "g-de-a2-dat-akk"
+      ]
+    },
+    {
+      "id": "gen-q-h4-efcc41f6-q5",
+      "module": "horen",
+      "teil": 4,
+      "type": "ja_nein",
+      "question": "Pauls Kinder spielen Spiele auf dem Tablet.",
+      "correct": "Ja",
+      "correctAnswer": "Ja",
+      "options": [],
+      "explanation": "Paul erwähnt, dass seine Kinder auch Spiele auf dem Tablet spielen.",
+      "passageId": "gen-p-h4-efcc41f6-s1",
+      "level": "A2",
+      "topicTags": [
+        "Medien"
+      ],
+      "vocabularyTags": [
+        "spielen",
+        "Kinder",
+        "Tablet",
+        "Pauls"
+      ],
+      "grammarTags": [
+        "g-de-a2-nebensatz",
+        "g-de-a2-dat-akk"
+      ]
+    },
+    {
+      "id": "gen-q-h4-efcc41f6-q2",
+      "module": "horen",
+      "teil": 4,
+      "type": "ja_nein",
+      "question": "Herr Müller nutzt Medien nur für die Arbeit.",
+      "correct": "Nein",
+      "correctAnswer": "Nein",
+      "options": [],
+      "explanation": "Paul nutzt Medien nicht nur für die Arbeit, sondern auch in seiner Freizeit, zum Beispiel für Radio oder Filme.",
+      "passageId": "gen-p-h4-efcc41f6-s1",
+      "level": "A2",
+      "topicTags": [
+        "Medien"
+      ],
+      "vocabularyTags": [
+        "medien",
+        "Arbeit",
+        "Müller"
+      ],
+      "grammarTags": [
+        "g-de-a2-trennbar",
+        "g-de-a2-dat-akk"
+      ]
+    }
+  ],
+  "_germanCapsNormalizeVersion": "v3.23-lesen-t2-angebote-corpus-2026-07-28",
+  "_germanCapsNormalizedAt": "2026-09-23T01:28:04.181Z",
+  "_balanceMcqVersion": "v1.2-no-rf-chrono-shuffle-2026-07-11",
+  "_balanceMcqNormalizedAt": "2026-09-23T01:28:04.181Z",
+  "topicTag": "Medien",
+  "_requestedTopic": "Medien",
+  "userVocabFeedback": {
+    "topic": "Medien",
+    "requested": [
+      "blog",
+      "medien",
+      "aufgabe",
+      "situation",
+      "zukunft",
+      "täglich",
+      "bedeuten",
+      "vorschlag"
+    ],
+    "prompted": [
+      "blog",
+      "medien",
+      "aufgabe",
+      "situation",
+      "zukunft",
+      "täglich",
+      "bedeuten",
+      "vorschlag"
+    ],
+    "originalRequested": null,
+    "subtypeAdaptation": null,
+    "used": [
+      "blog",
+      "medien",
+      "bedeuten"
+    ],
+    "notUsed": [
+      "aufgabe",
+      "situation",
+      "zukunft",
+      "täglich",
+      "vorschlag"
+    ],
+    "excluded": [],
+    "ratio": 0.375,
+    "targetUsage": [
+      {
+        "word": "blog",
+        "surfaces": [
+          "Blog"
+        ]
+      },
+      {
+        "word": "medien",
+        "surfaces": [
+          "Medien"
+        ]
+      },
+      {
+        "word": "bedeuten",
+        "surfaces": [
+          "bedeuten"
+        ]
+      }
+    ]
+  },
+  "targetUsage": [
+    {
+      "word": "blog",
+      "surfaces": [
+        "Blog"
+      ]
+    },
+    {
+      "word": "medien",
+      "surfaces": [
+        "Medien"
+      ]
+    },
+    {
+      "word": "bedeuten",
+      "surfaces": [
+        "bedeuten"
+      ]
+    }
+  ],
+  "generationMetadata": {
+    "usedFeedback": false,
+    "feedbackRules": [],
+    "feedbackCount": 0,
+    "feedbackCategories": [],
+    "feedbackMode": "off",
+    "feedbackVersion": "v1"
+  },
+  "_metadataEnrichedAt": "2026-09-23T01:28:04.336Z",
+  "_metadataEnrichNote": "deterministic: detectTopic + per-question lemma vocab + grammar heuristics",
+  "_vocabTagsNormalizeVersion": "v2.3.18-paso3-vocab-plural-rubric-strip-2026-08-02",
+  "_grammarTagsNormalizeVersion": "v2.2-a2-b2-level-tags-2026-07-27"
+}

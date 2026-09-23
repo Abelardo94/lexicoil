@@ -1,0 +1,137 @@
+{
+  "passages": [],
+  "questions": [
+    {
+      "id": "gen-q-s-t1-6ba6d27f-q1",
+      "module": "schreiben",
+      "teil": 1,
+      "lang": "de",
+      "level": "A2",
+      "type": "short_answer",
+      "question": "Du hast eine interessante neue App oder einen Podcast zum Thema Medien entdeckt. Schreibe eine SMS (20–30 Wörter) an deinen Freund / deine Freundin. Schreibe zu drei Punkten:\n• Welche App / welchen Podcast nutzt du gerade?\n• Was ist dein Vorteil oder Nutzen davon?\n• Möchtest du dich bald treffen, um deine Erfahrung zu teilen?",
+      "correct": "rubric",
+      "correctAnswer": "rubric",
+      "options": [],
+      "explanation": "Bewertung (Goethe-offiziell A2): Erfüllung (0–10) – alle 3 Punkte behandelt; Kohärenz (0–10) – Textaufbau und Verknüpfung; Wortschatz (0–10) – A2-Niveau; Strukturen (0–10) – Grammatik A2. 20–30 Wörter (unter 50 % oder Thema verfehlt → Erfüllung 0). Anrede/Gruß passend zum Empfänger im Aufgabentext (oft informell – du-Form).",
+      "difficulty": 2,
+      "skills": [
+        "writing"
+      ],
+      "language": "de",
+      "examType": "goethe",
+      "topicTags": [
+        "Medien"
+      ],
+      "vocabularyTags": [
+        "entdecken",
+        "treffen",
+        "nutzen",
+        "interessant",
+        "Vorteil",
+        "gerade"
+      ],
+      "grammarTags": [
+        "g-de-a2-trennbar",
+        "g-de-a2-dat-akk",
+        "g-de-a2-praesens"
+      ]
+    }
+  ],
+  "_germanCapsNormalizeVersion": "v3.23-lesen-t2-angebote-corpus-2026-07-28",
+  "_germanCapsNormalizedAt": "2026-09-23T01:42:25.827Z",
+  "_balanceMcqVersion": "v1.2-no-rf-chrono-shuffle-2026-07-11",
+  "_balanceMcqNormalizedAt": "2026-09-23T01:42:25.827Z",
+  "topicTag": "Medien",
+  "_requestedTopic": "Medien",
+  "userVocabFeedback": {
+    "topic": "Medien",
+    "requested": [
+      "vorschlag",
+      "erfahrung",
+      "radio",
+      "anmeldung",
+      "projekt",
+      "meinung",
+      "nutzen",
+      "vorteil"
+    ],
+    "prompted": [
+      "vorschlag",
+      "erfahrung",
+      "radio",
+      "anmeldung",
+      "projekt",
+      "meinung",
+      "nutzen",
+      "vorteil"
+    ],
+    "originalRequested": null,
+    "subtypeAdaptation": null,
+    "used": [
+      "erfahrung",
+      "nutzen",
+      "vorteil"
+    ],
+    "notUsed": [
+      "vorschlag",
+      "radio",
+      "anmeldung",
+      "projekt",
+      "meinung"
+    ],
+    "excluded": [],
+    "ratio": 0.375,
+    "targetUsage": [
+      {
+        "word": "erfahrung",
+        "surfaces": [
+          "Erfahrung"
+        ]
+      },
+      {
+        "word": "nutzen",
+        "surfaces": [
+          "Nutzen"
+        ]
+      },
+      {
+        "word": "vorteil",
+        "surfaces": [
+          "Vorteil"
+        ]
+      }
+    ]
+  },
+  "targetUsage": [
+    {
+      "word": "erfahrung",
+      "surfaces": [
+        "Erfahrung"
+      ]
+    },
+    {
+      "word": "nutzen",
+      "surfaces": [
+        "Nutzen"
+      ]
+    },
+    {
+      "word": "vorteil",
+      "surfaces": [
+        "Vorteil"
+      ]
+    }
+  ],
+  "generationMetadata": {
+    "usedFeedback": false,
+    "feedbackRules": [],
+    "feedbackCount": 0,
+    "feedbackCategories": [],
+    "feedbackMode": "off",
+    "feedbackVersion": "v1"
+  },
+  "_metadataEnrichedAt": "2026-09-23T01:42:25.973Z",
+  "_metadataEnrichNote": "deterministic: detectTopic + per-question lemma vocab + grammar heuristics",
+  "_vocabTagsNormalizeVersion": "v2.3.18-paso3-vocab-plural-rubric-strip-2026-08-02",
+  "_grammarTagsNormalizeVersion": "v2.2-a2-b2-level-tags-2026-07-27"
+}

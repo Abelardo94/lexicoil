@@ -1,0 +1,313 @@
+{
+  "passages": [
+    {
+      "id": "gen-l3-c25c131e-passage-1",
+      "type": "email",
+      "level": "A2",
+      "title": "E-Mail: Umweltprojekt im Park",
+      "topicTag": "Umwelt",
+      "text": "Lieber Tom,\n\nich hoffe, es geht dir gut. Ich schreibe dir. Ich habe eine interessante Information für dich. Unsere Stadt organisiert ein neues Projekt zum Thema Umwelt. Es geht um die Reinigung des Parks am Fluss. Viele Leute aus der Nachbarschaft machen schon mit.\n\nIch habe die Anmeldung online gesehen. Man kann sich bis nächsten Freitag anmelden. Das Projekt startet am Samstag in zwei Wochen. Wir treffen uns um 9 Uhr am Eingang des Parks. Die Aufgabe ist es, Müll zu sammeln und neue Bäume zu pflanzen. Das ist eine gute Situation, um etwas für unsere Umwelt zu tun.\n\nIch finde, das ist eine tolle Idee. Wir können gemeinsam etwas Gutes für die Natur machen. Vielleicht hast du ja Lust, mitzukommen? Es wäre schön, wenn wir zusammen hingehen könnten. Sag mir bitte Bescheid, ob du Zeit hast.\n\nViele Grüße\nLena",
+      "module": "lesen",
+      "teil": 3,
+      "lang": "de"
+    }
+  ],
+  "questions": [
+    {
+      "id": "gen-q-3-c25c131e-q1",
+      "type": "multiple_choice",
+      "level": "A2",
+      "question": "Worum geht es in Lenas E-Mail?",
+      "options": [
+        "a) Um einen neuen Job für Tom.",
+        "b) Um einen Ausflug in die Stadt.",
+        "c) Um ein Umweltprojekt im Park."
+      ],
+      "correct": "c",
+      "correctAnswer": "c",
+      "explanation": "Lena schreibt über ein neues Projekt der Stadt zur Reinigung des Parks und zum Pflanzen von Bäumen.",
+      "module": "lesen",
+      "teil": 3,
+      "passageId": "gen-l3-c25c131e-passage-1",
+      "lang": "de",
+      "topicTags": [
+        "Umwelt"
+      ],
+      "vocabularyTags": [
+        "Umweltprojekt",
+        "e-mail"
+      ],
+      "grammarTags": [
+        "g-de-a2-trennbar",
+        "g-de-a2-dat-akk"
+      ]
+    },
+    {
+      "id": "gen-q-3-c25c131e-q2",
+      "type": "multiple_choice",
+      "level": "A2",
+      "question": "Wann beginnt das Umweltprojekt?",
+      "options": [
+        "a) In zwei Wochen am Wochenende.",
+        "b) Gleich am nächsten Morgen.",
+        "c) Am Ende der nächsten Arbeitswoche."
+      ],
+      "correct": "a",
+      "correctAnswer": "a",
+      "explanation": "Der Text sagt klar, dass das Projekt in zwei Wochen am Samstag startet.",
+      "module": "lesen",
+      "teil": 3,
+      "passageId": "gen-l3-c25c131e-passage-1",
+      "lang": "de",
+      "topicTags": [
+        "Umwelt"
+      ],
+      "vocabularyTags": [
+        "Wochenende",
+        "wochen",
+        "Umweltprojekt"
+      ],
+      "grammarTags": [
+        "g-de-a2-nebensatz",
+        "g-de-a2-trennbar",
+        "g-de-a2-dat-akk"
+      ]
+    },
+    {
+      "id": "gen-q-3-c25c131e-q3",
+      "type": "multiple_choice",
+      "level": "A2",
+      "question": "Was sollen die Teilnehmer im Park machen?",
+      "options": [
+        "a) Ein großes Fest mit Essen und Trinken veranstalten.",
+        "b) Ausschließlich neue Bäume in die Erde bringen.",
+        "c) Den Park sauber machen und neue Pflanzen setzen."
+      ],
+      "correct": "c",
+      "correctAnswer": "c",
+      "explanation": "Die Aufgabe des Projekts ist es, Müll zu sammeln und neue Bäume zu pflanzen.",
+      "module": "lesen",
+      "teil": 3,
+      "passageId": "gen-l3-c25c131e-passage-1",
+      "lang": "de",
+      "topicTags": [
+        "Umwelt"
+      ],
+      "vocabularyTags": [
+        "setzen",
+        "Teilnehmer",
+        "Pflanze",
+        "machen"
+      ],
+      "grammarTags": [
+        "g-de-a2-modal",
+        "g-de-a2-trennbar",
+        "g-de-a2-dat-akk"
+      ]
+    },
+    {
+      "id": "gen-q-3-c25c131e-q4",
+      "type": "multiple_choice",
+      "level": "A2",
+      "question": "Bis wann kann man sich für das Projekt anmelden?",
+      "options": [
+        "a) Bis nächsten Freitag.",
+        "b) Bis zum Start des Projekts.",
+        "c) Bis nächsten Samstag."
+      ],
+      "correct": "a",
+      "correctAnswer": "a",
+      "explanation": "Lena erwähnt, dass man sich bis nächsten Freitag anmelden kann.",
+      "module": "lesen",
+      "teil": 3,
+      "passageId": "gen-l3-c25c131e-passage-1",
+      "lang": "de",
+      "topicTags": [
+        "Umwelt"
+      ],
+      "vocabularyTags": [
+        "anmelden",
+        "Projekt",
+        "Freitag"
+      ],
+      "grammarTags": [
+        "g-de-a2-nebensatz",
+        "g-de-a2-modal",
+        "g-de-a2-trennbar",
+        "g-de-a2-dat-akk"
+      ]
+    },
+    {
+      "id": "gen-q-3-c25c131e-q5",
+      "type": "multiple_choice",
+      "level": "A2",
+      "question": "Was möchte Lena von Tom wissen?",
+      "options": [
+        "a) Ob er schon für das Projekt angemeldet ist.",
+        "b) Ob er Zeit hat, mitzukommen.",
+        "c) Ob er das Projekt auch interessant findet."
+      ],
+      "correct": "b",
+      "correctAnswer": "b",
+      "explanation": "Lena fragt Tom, ob er Lust und Zeit hat, gemeinsam an dem Projekt teilzunehmen.",
+      "module": "lesen",
+      "teil": 3,
+      "passageId": "gen-l3-c25c131e-passage-1",
+      "lang": "de",
+      "topicTags": [
+        "Umwelt"
+      ],
+      "vocabularyTags": [
+        "wissen",
+        "Zeit",
+        "möcht"
+      ],
+      "grammarTags": [
+        "g-de-a2-nebensatz",
+        "g-de-a2-modal",
+        "g-de-a2-trennbar",
+        "g-de-a2-dat-akk"
+      ]
+    }
+  ],
+  "_germanCapsNormalizeVersion": "v3.23-lesen-t2-angebote-corpus-2026-07-28",
+  "_germanCapsNormalizedAt": "2026-08-02T10:35:38.551Z",
+  "_balanceMcqVersion": "v1.2-no-rf-chrono-shuffle-2026-07-11",
+  "_balanceMcqNormalizedAt": "2026-08-02T10:35:38.547Z",
+  "topicTag": "Umwelt",
+  "_requestedTopic": "Umwelt",
+  "userVocabFeedback": {
+    "topic": "Umwelt",
+    "requested": [
+      "anmeldung",
+      "projekt",
+      "nutzen",
+      "gemeinsam",
+      "meinung",
+      "direkt",
+      "aufgabe",
+      "situation",
+      "vorteil",
+      "firma"
+    ],
+    "prompted": [
+      "anmeldung",
+      "projekt",
+      "nutzen",
+      "gemeinsam",
+      "meinung",
+      "direkt",
+      "aufgabe",
+      "situation",
+      "vorteil",
+      "firma"
+    ],
+    "originalRequested": [
+      "anmeldung",
+      "projekt",
+      "nutzen",
+      "gemeinsam",
+      "meinung",
+      "direkt",
+      "aufgabe",
+      "situation"
+    ],
+    "subtypeAdaptation": null,
+    "used": [
+      "anmeldung",
+      "projekt",
+      "gemeinsam",
+      "aufgabe",
+      "situation"
+    ],
+    "notUsed": [
+      "nutzen",
+      "meinung",
+      "direkt",
+      "vorteil",
+      "firma"
+    ],
+    "excluded": [],
+    "ratio": 0.5,
+    "targetUsage": [
+      {
+        "word": "anmeldung",
+        "surfaces": [
+          "Anmeldung"
+        ]
+      },
+      {
+        "word": "projekt",
+        "surfaces": [
+          "Projekt",
+          "Umweltprojekt",
+          "Projekts"
+        ]
+      },
+      {
+        "word": "gemeinsam",
+        "surfaces": [
+          "gemeinsam"
+        ]
+      },
+      {
+        "word": "aufgabe",
+        "surfaces": [
+          "Aufgabe"
+        ]
+      },
+      {
+        "word": "situation",
+        "surfaces": [
+          "Situation"
+        ]
+      }
+    ]
+  },
+  "targetUsage": [
+    {
+      "word": "anmeldung",
+      "surfaces": [
+        "Anmeldung"
+      ]
+    },
+    {
+      "word": "projekt",
+      "surfaces": [
+        "Projekt",
+        "Umweltprojekt",
+        "Projekts"
+      ]
+    },
+    {
+      "word": "gemeinsam",
+      "surfaces": [
+        "gemeinsam"
+      ]
+    },
+    {
+      "word": "aufgabe",
+      "surfaces": [
+        "Aufgabe"
+      ]
+    },
+    {
+      "word": "situation",
+      "surfaces": [
+        "Situation"
+      ]
+    }
+  ],
+  "generationMetadata": {
+    "usedFeedback": false,
+    "feedbackRules": [],
+    "feedbackCount": 0,
+    "feedbackCategories": [],
+    "feedbackMode": "off",
+    "feedbackVersion": "v1"
+  },
+  "_metadataEnrichedAt": "2026-08-02T10:35:53.722Z",
+  "_metadataEnrichNote": "deterministic: detectTopic + per-question lemma vocab + grammar heuristics",
+  "_vocabTagsNormalizeVersion": "v2.3.18-paso3-vocab-plural-rubric-strip-2026-08-02",
+  "_grammarTagsNormalizeVersion": "v2.2-a2-b2-level-tags-2026-07-27"
+}

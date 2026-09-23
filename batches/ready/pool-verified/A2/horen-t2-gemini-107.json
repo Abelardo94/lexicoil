@@ -1,0 +1,296 @@
+{
+  "passages": [
+    {
+      "id": "gen-p-h2-8ea51300-s1",
+      "module": "horen",
+      "teil": 2,
+      "lang": "de",
+      "level": "A2",
+      "title": "Wochenpläne",
+      "text": "Moritz: Hallo Jana! Wie geht es dir? Hast du schon Pläne für die kommende Woche?\nJana: Hallo Moritz! Mir geht es gut, danke. Ja, ich habe schon ein paar Dinge geplant. Und du?\nMoritz: Ich auch! Am Montag muss ich unbedingt für meine Prüfung lernen. Das ist wichtig für meine Zukunft.\nJana: Ah, Bildung! Und am Dienstag? Ich muss am Dienstag einkaufen gehen, der Kühlschrank ist leer.\nMoritz: Am Mittwoch treffe ich ein paar Freunde in einem Café. Wir wollen über unsere Projekte sprechen.\nJana: Klingt gut! Ich werde am Donnerstag zu Hause kochen. Ich habe ein neues Rezept für eine Gemüsesuppe.\nMoritz: Lecker! Und am Freitag? Ich mache am Freitag einen langen Ausflug. Ich werde Fahrrad fahren, wenn das Wetter gut ist.\nJana: Das ist eine schöne Idee! Dann wünsche ich dir eine gute Woche!\nMoritz: Dir auch, Jana!",
+      "pictures": [
+        {
+          "key": "a",
+          "icon": "🚴",
+          "label": "Fahrrad fahren"
+        },
+        {
+          "key": "b",
+          "icon": "🇩🇪",
+          "label": "Deutschkurs"
+        },
+        {
+          "key": "c",
+          "icon": "👫",
+          "label": "Freunde treffen"
+        },
+        {
+          "key": "d",
+          "icon": "🏋️",
+          "label": "Sport machen"
+        },
+        {
+          "key": "e",
+          "icon": "🏛️",
+          "label": "Museum"
+        },
+        {
+          "key": "f",
+          "icon": "🎬",
+          "label": "Kino"
+        },
+        {
+          "key": "g",
+          "icon": "📚",
+          "label": "Lernen"
+        },
+        {
+          "key": "h",
+          "icon": "🛒",
+          "label": "Einkaufen"
+        },
+        {
+          "key": "i",
+          "icon": "🍳",
+          "label": "Kochen"
+        }
+      ],
+      "audio": [
+        {
+          "speaker": "Moritz",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Hallo Jana! Wie geht es dir? Hast du schon Pläne für die kommende Woche?"
+        },
+        {
+          "speaker": "Jana",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Hallo Moritz! Mir geht es gut, danke. Ja, ich habe schon ein paar Dinge geplant. Und du?"
+        },
+        {
+          "speaker": "Moritz",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Ich auch! Am Montag muss ich unbedingt für meine Prüfung lernen. Das ist wichtig für meine Zukunft."
+        },
+        {
+          "speaker": "Jana",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Ah, Bildung! Und am Dienstag? Ich muss am Dienstag einkaufen gehen, der Kühlschrank ist leer."
+        },
+        {
+          "speaker": "Moritz",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Am Mittwoch treffe ich ein paar Freunde in einem Café. Wir wollen über unsere Projekte sprechen."
+        },
+        {
+          "speaker": "Jana",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Klingt gut! Ich werde am Donnerstag zu Hause kochen. Ich habe ein neues Rezept für eine Gemüsesuppe."
+        },
+        {
+          "speaker": "Moritz",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Lecker! Und am Freitag? Ich mache am Freitag einen langen Ausflug. Ich werde Fahrrad fahren, wenn das Wetter gut ist."
+        },
+        {
+          "speaker": "Jana",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Das ist eine schöne Idee! Dann wünsche ich dir eine gute Woche!"
+        },
+        {
+          "speaker": "Moritz",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Dir auch, Jana!"
+        }
+      ],
+      "topicTag": "Bildung"
+    }
+  ],
+  "questions": [
+    {
+      "id": "gen-q-h2-8ea51300-q1",
+      "module": "horen",
+      "teil": 2,
+      "lang": "de",
+      "level": "A2",
+      "type": "matching",
+      "question": "Was macht Moritz am Montag?",
+      "passageId": "gen-p-h2-8ea51300-s1",
+      "correct": "g",
+      "correctAnswer": "g",
+      "explanation": "Moritz muss am Montag für seine Prüfung lernen.",
+      "language": "de",
+      "examType": "goethe",
+      "difficulty": 5,
+      "skills": [
+        "listening"
+      ],
+      "topicTags": [
+        "Bildung"
+      ],
+      "_keyOnlyMatch": true,
+      "vocabularyTags": [
+        "Prüfung",
+        "lernen",
+        "Moritz",
+        "Montag"
+      ],
+      "grammarTags": [
+        "g-de-a2-modal"
+      ]
+    },
+    {
+      "id": "gen-q-h2-8ea51300-q2",
+      "module": "horen",
+      "teil": 2,
+      "lang": "de",
+      "level": "A2",
+      "type": "matching",
+      "question": "Was macht Jana am Dienstag?",
+      "passageId": "gen-p-h2-8ea51300-s1",
+      "correct": "h",
+      "correctAnswer": "h",
+      "explanation": "Jana muss am Dienstag einkaufen gehen, weil der Kühlschrank leer ist.",
+      "language": "de",
+      "examType": "goethe",
+      "difficulty": 5,
+      "skills": [
+        "listening"
+      ],
+      "topicTags": [
+        "Bildung"
+      ],
+      "_keyOnlyMatch": true,
+      "vocabularyTags": [
+        "einkaufen",
+        "Kühlschrank",
+        "Dienstag",
+        "gehen"
+      ],
+      "grammarTags": [
+        "g-de-a2-nebensatz",
+        "g-de-a2-modal",
+        "g-de-a2-trennbar",
+        "g-de-a2-dat-akk"
+      ]
+    },
+    {
+      "id": "gen-q-h2-8ea51300-q3",
+      "module": "horen",
+      "teil": 2,
+      "lang": "de",
+      "level": "A2",
+      "type": "matching",
+      "question": "Was macht Moritz am Mittwoch?",
+      "passageId": "gen-p-h2-8ea51300-s1",
+      "correct": "c",
+      "correctAnswer": "c",
+      "explanation": "Moritz trifft am Mittwoch Freunde in einem Café.",
+      "language": "de",
+      "examType": "goethe",
+      "difficulty": 5,
+      "skills": [
+        "listening"
+      ],
+      "topicTags": [
+        "Bildung"
+      ],
+      "_keyOnlyMatch": true,
+      "vocabularyTags": [
+        "treffen",
+        "Freund",
+        "Mittwoch",
+        "Moritz"
+      ],
+      "grammarTags": [
+        "g-de-a2-trennbar"
+      ]
+    },
+    {
+      "id": "gen-q-h2-8ea51300-q4",
+      "module": "horen",
+      "teil": 2,
+      "lang": "de",
+      "level": "A2",
+      "type": "matching",
+      "question": "Was macht Jana am Donnerstag?",
+      "passageId": "gen-p-h2-8ea51300-s1",
+      "correct": "i",
+      "correctAnswer": "i",
+      "explanation": "Jana wird am Donnerstag zu Hause kochen und ein neues Rezept ausprobieren.",
+      "language": "de",
+      "examType": "goethe",
+      "difficulty": 5,
+      "skills": [
+        "listening"
+      ],
+      "topicTags": [
+        "Bildung"
+      ],
+      "_keyOnlyMatch": true,
+      "vocabularyTags": [
+        "ausprobieren",
+        "kochen",
+        "Donnerstag",
+        "Rezept",
+        "Hause"
+      ],
+      "grammarTags": [
+        "g-de-a2-trennbar"
+      ]
+    },
+    {
+      "id": "gen-q-h2-8ea51300-q5",
+      "module": "horen",
+      "teil": 2,
+      "lang": "de",
+      "level": "A2",
+      "type": "matching",
+      "question": "Was macht Moritz am Freitag?",
+      "passageId": "gen-p-h2-8ea51300-s1",
+      "correct": "a",
+      "correctAnswer": "a",
+      "explanation": "Moritz macht am Freitag einen langen Ausflug und wird Fahrrad fahren.",
+      "language": "de",
+      "examType": "goethe",
+      "difficulty": 5,
+      "skills": [
+        "listening"
+      ],
+      "topicTags": [
+        "Bildung"
+      ],
+      "_keyOnlyMatch": true,
+      "vocabularyTags": [
+        "langen",
+        "fahren",
+        "Freitag",
+        "Ausflug",
+        "Fahrrad",
+        "Moritz"
+      ],
+      "grammarTags": [
+        "g-de-a2-trennbar"
+      ]
+    }
+  ],
+  "_germanCapsNormalizeVersion": "v3.23-lesen-t2-angebote-corpus-2026-07-28",
+  "_germanCapsNormalizedAt": "2026-07-27T06:52:11.339Z",
+  "_balanceMcqVersion": "v1.2-no-rf-chrono-shuffle-2026-07-11",
+  "_balanceMcqNormalizedAt": "2026-07-27T06:52:11.339Z",
+  "topicTag": "Bildung",
+  "_requestedTopic": "Bildung",
+  "generationMetadata": {
+    "usedFeedback": false,
+    "feedbackRules": [],
+    "feedbackCount": 0,
+    "feedbackCategories": [],
+    "feedbackMode": "off",
+    "feedbackVersion": "v1"
+  },
+  "_metadataEnrichedAt": "2026-07-27T06:52:14.243Z",
+  "_metadataEnrichNote": "deterministic: detectTopic + per-question lemma vocab + grammar heuristics",
+  "_vocabTagsNormalizeVersion": "v2.3.16-b1-validated-verb-adj-lemma-2026-07-24",
+  "_grammarTagsNormalizeVersion": "v2.2-a2-b2-level-tags-2026-07-27",
+  "_germanCapsMetadataRestampAt": "2026-08-05T04:37:08.140Z",
+  "_germanCapsMetadataRestampNote": "metadata-only; no applyGermanCapsNormalize"
+}

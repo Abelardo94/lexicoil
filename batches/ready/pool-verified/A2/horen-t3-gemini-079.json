@@ -1,0 +1,342 @@
+{
+  "passages": [
+    {
+      "id": "gen-p-h3-b03c8dc5-s1",
+      "module": "horen",
+      "teil": 3,
+      "lang": "de",
+      "level": "A2",
+      "topicTag": "Kultur",
+      "text": "Moritz: Sag mal, Jana, hast du schon die neue Ausstellung im Stadtmuseum gesehen?\nJana: Nein, Moritz, noch nicht. Ist sie denn gut? Ich suche einen guten Tipp für das Wochenende.\nMoritz: Ja, sehr interessant! Es geht um lokale Künstler. Du solltest unbedingt hingehen.",
+      "audio": [
+        {
+          "speaker": "Moritz",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Sag mal, Jana, hast du schon die neue Ausstellung im Stadtmuseum gesehen?"
+        },
+        {
+          "speaker": "Jana",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Nein, Moritz, noch nicht. Ist sie denn gut? Ich suche einen guten Tipp für das Wochenende."
+        },
+        {
+          "speaker": "Moritz",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Ja, sehr interessant! Es geht um lokale Künstler. Du solltest unbedingt hingehen."
+        }
+      ]
+    },
+    {
+      "id": "gen-p-h3-b03c8dc5-s2",
+      "module": "horen",
+      "teil": 3,
+      "lang": "de",
+      "level": "A2",
+      "topicTag": "Kultur",
+      "text": "Philipp: Sara, ich habe gehört, es gibt ein neues Theaterstück. Hast du den Titel schon gehört?\nSara: Ja, Philipp! Es heißt „Der verlorene Schlüssel“. Es soll sehr lustig sein.\nPhilipp: Super! Vielleicht können wir zusammen hingehen.",
+      "audio": [
+        {
+          "speaker": "Philipp",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Sara, ich habe gehört, es gibt ein neues Theaterstück. Hast du den Titel schon gehört?"
+        },
+        {
+          "speaker": "Sara",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Ja, Philipp! Es heißt „Der verlorene Schlüssel“. Es soll sehr lustig sein."
+        },
+        {
+          "speaker": "Philipp",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Super! Vielleicht können wir zusammen hingehen."
+        }
+      ]
+    },
+    {
+      "id": "gen-p-h3-b03c8dc5-s3",
+      "module": "horen",
+      "teil": 3,
+      "lang": "de",
+      "level": "A2",
+      "topicTag": "Kultur",
+      "text": "Tim: Sophie, ich wollte dich fragen, ob du Lust hast, am Samstag ins Konzert zu gehen?\nSophie: Oh, Tim, das klingt toll! Was wird denn angeboten? Klassik oder Pop?\nTim: Es ist ein Jazzkonzert. Es beginnt um acht Uhr.",
+      "audio": [
+        {
+          "speaker": "Tim",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Sophie, ich wollte dich fragen, ob du Lust hast, am Samstag ins Konzert zu gehen?"
+        },
+        {
+          "speaker": "Sophie",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Oh, Tim, das klingt toll! Was wird denn angeboten? Klassik oder Pop?"
+        },
+        {
+          "speaker": "Tim",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Es ist ein Jazzkonzert. Es beginnt um acht Uhr."
+        }
+      ]
+    },
+    {
+      "id": "gen-p-h3-b03c8dc5-s4",
+      "module": "horen",
+      "teil": 3,
+      "lang": "de",
+      "level": "A2",
+      "topicTag": "Kultur",
+      "text": "Niklas: Laura, ich habe ein altes Comicbuch gefunden. Erinnerst du dich noch daran?\nLaura: Ja, Niklas! Das war mein Lieblings-Comic als Kind. Ich habe es oft gelesen.\nNiklas: Ich auch! Es ist schön, alte Erinnerungen zurückkommen zu lassen.",
+      "audio": [
+        {
+          "speaker": "Niklas",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Laura, ich habe ein altes Comicbuch gefunden. Erinnerst du dich noch daran?"
+        },
+        {
+          "speaker": "Laura",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Ja, Niklas! Das war mein Lieblings-Comic als Kind. Ich habe es oft gelesen."
+        },
+        {
+          "speaker": "Niklas",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Ich auch! Es ist schön, alte Erinnerungen zurückkommen zu lassen."
+        }
+      ]
+    },
+    {
+      "id": "gen-p-h3-b03c8dc5-s5",
+      "module": "horen",
+      "teil": 3,
+      "lang": "de",
+      "level": "A2",
+      "topicTag": "Kultur",
+      "text": "Paul: Nina, ich überlege, einen Malkurs zu machen. Hast du vielleicht einen Tipp für mich?\nNina: Ja, Paul, im Kulturzentrum wird ein Anfängerkurs angeboten. Er startet nächste Woche.\nPaul: Das ist eine gute Idee! Ich werde mich gleich anmelden.",
+      "audio": [
+        {
+          "speaker": "Paul",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Nina, ich überlege, einen Malkurs zu machen. Hast du vielleicht einen Tipp für mich?"
+        },
+        {
+          "speaker": "Nina",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Ja, Paul, im Kulturzentrum wird ein Anfängerkurs angeboten. Er startet nächste Woche."
+        },
+        {
+          "speaker": "Paul",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Das ist eine gute Idee! Ich werde mich gleich anmelden."
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "gen-q-h3-b03c8dc5-q1",
+      "module": "horen",
+      "teil": 3,
+      "lang": "de",
+      "level": "A2",
+      "type": "multiple_choice",
+      "passageId": "gen-p-h3-b03c8dc5-s1",
+      "segmentLabel": "Text 1",
+      "question": "Was schlägt Moritz Jana vor?",
+      "options": [
+        "a) Einen Spaziergang.",
+        "b) Einen Museumsbesuch.",
+        "c) Einen Kinobesuch."
+      ],
+      "correct": "b",
+      "correctAnswer": "b",
+      "explanation": "Moritz fragt Jana, ob sie die Ausstellung im Stadtmuseum gesehen hat und empfiehlt ihr, hinzugehen.",
+      "language": "de",
+      "examType": "goethe",
+      "difficulty": 5,
+      "skills": [
+        "listening"
+      ],
+      "topicTags": [
+        "Kultur"
+      ],
+      "vocabularyTags": [
+        "Museumsbesuch",
+        "Moritz"
+      ],
+      "grammarTags": [
+        "g-de-a2-nebensatz",
+        "g-de-a2-trennbar",
+        "g-de-a2-dat-akk"
+      ]
+    },
+    {
+      "id": "gen-q-h3-b03c8dc5-q2",
+      "module": "horen",
+      "teil": 3,
+      "lang": "de",
+      "level": "A2",
+      "type": "multiple_choice",
+      "passageId": "gen-p-h3-b03c8dc5-s2",
+      "segmentLabel": "Text 2",
+      "question": "Wie heißt das neue Theaterstück?",
+      "options": [
+        "a) „Der Schlüssel“.",
+        "b) „Die alte Tür“.",
+        "c) „Das neue Haus“."
+      ],
+      "correct": "a",
+      "correctAnswer": "a",
+      "explanation": "Sara sagt, dass das neue Theaterstück „Der verlorene Schlüssel“ heißt. Eine kürzere Form ist „Der Schlüssel“.",
+      "language": "de",
+      "examType": "goethe",
+      "difficulty": 5,
+      "skills": [
+        "listening"
+      ],
+      "topicTags": [
+        "Kultur"
+      ],
+      "vocabularyTags": [
+        "Theaterstück",
+        "Schlüssel"
+      ],
+      "grammarTags": [
+        "g-de-a2-nebensatz"
+      ]
+    },
+    {
+      "id": "gen-q-h3-b03c8dc5-q3",
+      "module": "horen",
+      "teil": 3,
+      "lang": "de",
+      "level": "A2",
+      "type": "multiple_choice",
+      "passageId": "gen-p-h3-b03c8dc5-s3",
+      "segmentLabel": "Text 3",
+      "question": "Welche Art von Konzert ist es?",
+      "options": [
+        "a) Ein Popkonzert.",
+        "b) Ein Jazzkonzert.",
+        "c) Ein Klassikkonzert."
+      ],
+      "correct": "b",
+      "correctAnswer": "b",
+      "explanation": "Tim sagt Sophie, dass es sich um ein Jazzkonzert handelt, das am Samstagabend stattfindet.",
+      "language": "de",
+      "examType": "goethe",
+      "difficulty": 5,
+      "skills": [
+        "listening"
+      ],
+      "topicTags": [
+        "Kultur"
+      ],
+      "vocabularyTags": [
+        "Jazzkonzert",
+        "Konzert",
+        "Welche"
+      ],
+      "grammarTags": [
+        "g-de-a2-nebensatz",
+        "g-de-a2-trennbar",
+        "g-de-a2-dat-akk"
+      ]
+    },
+    {
+      "id": "gen-q-h3-b03c8dc5-q4",
+      "module": "horen",
+      "teil": 3,
+      "lang": "de",
+      "level": "A2",
+      "type": "multiple_choice",
+      "passageId": "gen-p-h3-b03c8dc5-s4",
+      "segmentLabel": "Text 4",
+      "question": "Was hat Niklas gefunden?",
+      "options": [
+        "a) Ein altes Comicbuch.",
+        "b) Ein altes Spielzeug.",
+        "c) Ein altes Fotoalbum."
+      ],
+      "correct": "a",
+      "correctAnswer": "a",
+      "explanation": "Niklas erzählt Laura, dass er ein altes Comicbuch gefunden hat, an das sie sich beide erinnern.",
+      "language": "de",
+      "examType": "goethe",
+      "difficulty": 5,
+      "skills": [
+        "listening"
+      ],
+      "topicTags": [
+        "Kultur"
+      ],
+      "vocabularyTags": [
+        "Comicbuch",
+        "Niklas"
+      ],
+      "grammarTags": [
+        "g-de-a2-nebensatz",
+        "g-de-a2-perfekt",
+        "g-de-a2-trennbar"
+      ]
+    },
+    {
+      "id": "gen-q-h3-b03c8dc5-q5",
+      "module": "horen",
+      "teil": 3,
+      "lang": "de",
+      "level": "A2",
+      "type": "multiple_choice",
+      "passageId": "gen-p-h3-b03c8dc5-s5",
+      "segmentLabel": "Text 5",
+      "question": "Wo kann Paul einen Malkurs finden?",
+      "options": [
+        "a) In der Volkshochschule.",
+        "b) In der Bibliothek.",
+        "c) Im Kulturzentrum."
+      ],
+      "correct": "c",
+      "correctAnswer": "c",
+      "explanation": "Nina gibt Paul den Tipp, dass im Kulturzentrum ein Anfängerkurs für Malerei angeboten wird.",
+      "language": "de",
+      "examType": "goethe",
+      "difficulty": 5,
+      "skills": [
+        "listening"
+      ],
+      "topicTags": [
+        "Kultur"
+      ],
+      "vocabularyTags": [
+        "finden",
+        "Kulturzentrum",
+        "Malkurs"
+      ],
+      "grammarTags": [
+        "g-de-a2-nebensatz",
+        "g-de-a2-modal",
+        "g-de-a2-trennbar",
+        "g-de-a2-dat-akk"
+      ]
+    }
+  ],
+  "_germanCapsNormalizeVersion": "v3.23-lesen-t2-angebote-corpus-2026-07-28",
+  "_germanCapsNormalizedAt": "2026-07-27T07:08:25.056Z",
+  "_balanceMcqVersion": "v1.2-no-rf-chrono-shuffle-2026-07-11",
+  "_balanceMcqNormalizedAt": "2026-07-27T07:08:25.056Z",
+  "topicTag": "Kultur",
+  "_requestedTopic": "Kultur",
+  "generationMetadata": {
+    "usedFeedback": false,
+    "feedbackRules": [],
+    "feedbackCount": 0,
+    "feedbackCategories": [],
+    "feedbackMode": "off",
+    "feedbackVersion": "v1"
+  },
+  "_metadataEnrichedAt": "2026-07-27T07:08:32.766Z",
+  "_metadataEnrichNote": "deterministic: detectTopic + per-question lemma vocab + grammar heuristics",
+  "_vocabTagsNormalizeVersion": "v2.3.16-b1-validated-verb-adj-lemma-2026-07-24",
+  "_grammarTagsNormalizeVersion": "v2.2-a2-b2-level-tags-2026-07-27",
+  "_germanCapsMetadataRestampAt": "2026-08-05T04:37:08.170Z",
+  "_germanCapsMetadataRestampNote": "metadata-only; no applyGermanCapsNormalize"
+}

@@ -1,0 +1,112 @@
+{
+  "passages": [],
+  "questions": [
+    {
+      "id": "gen-q-sp-t2-b6430171-q1",
+      "module": "sprechen",
+      "teil": 2,
+      "lang": "de",
+      "level": "A2",
+      "type": "about_self",
+      "question": "Sie bekommen eine Karte und erzählen etwas über Ihr Leben.\n\nIhre Karte:\n«Was tun Sie für Ihre Gesundheit?»\n\nErzählen Sie: Was ist Ihnen wichtig? Was machen Sie täglich? Warum ist das für Sie wichtig?",
+      "correct": "rubric",
+      "correctAnswer": "rubric",
+      "options": [],
+      "explanation": "In diesem Teil erzählen Sie etwas über Ihr Leben zu einem Kartenthema. Wichtig sind verständliche Inhalte, einfache Satzstruktur und passender Wortschatz auf A2-Niveau.",
+      "difficulty": 3,
+      "skills": [
+        "speaking"
+      ],
+      "language": "de",
+      "examType": "goethe",
+      "topicTags": [
+        "Gesundheit"
+      ],
+      "vocabularyTags": [
+        "täglich",
+        "Gesundheit",
+        "bekommen",
+        "erzählen",
+        "leben",
+        "wichtig"
+      ],
+      "grammarTags": [
+        "g-de-a2-trennbar",
+        "g-de-a2-dat-akk"
+      ]
+    }
+  ],
+  "_germanCapsNormalizeVersion": "v3.23-lesen-t2-angebote-corpus-2026-07-28",
+  "_germanCapsNormalizedAt": "2026-08-02T07:09:49.035Z",
+  "_balanceMcqVersion": "v1.2-no-rf-chrono-shuffle-2026-07-11",
+  "_balanceMcqNormalizedAt": "2026-08-02T07:09:49.035Z",
+  "topicTag": "Gesundheit",
+  "_requestedTopic": "Gesundheit",
+  "userVocabFeedback": {
+    "topic": "Gesundheit",
+    "requested": [
+      "krankenhaus",
+      "aufgabe",
+      "situation",
+      "zukunft",
+      "bedeuten",
+      "täglich",
+      "vorschlag",
+      "medikament"
+    ],
+    "prompted": [
+      "krankenhaus",
+      "aufgabe",
+      "situation",
+      "zukunft",
+      "bedeuten",
+      "täglich",
+      "vorschlag",
+      "medikament"
+    ],
+    "originalRequested": null,
+    "subtypeAdaptation": null,
+    "used": [
+      "täglich"
+    ],
+    "notUsed": [
+      "krankenhaus",
+      "aufgabe",
+      "situation",
+      "zukunft",
+      "bedeuten",
+      "vorschlag",
+      "medikament"
+    ],
+    "excluded": [],
+    "ratio": 0.125,
+    "targetUsage": [
+      {
+        "word": "täglich",
+        "surfaces": [
+          "täglich"
+        ]
+      }
+    ]
+  },
+  "targetUsage": [
+    {
+      "word": "täglich",
+      "surfaces": [
+        "täglich"
+      ]
+    }
+  ],
+  "generationMetadata": {
+    "usedFeedback": false,
+    "feedbackRules": [],
+    "feedbackCount": 0,
+    "feedbackCategories": [],
+    "feedbackMode": "off",
+    "feedbackVersion": "v1"
+  },
+  "_metadataEnrichedAt": "2026-08-02T07:09:50.812Z",
+  "_metadataEnrichNote": "deterministic: detectTopic + per-question lemma vocab + grammar heuristics",
+  "_vocabTagsNormalizeVersion": "v2.3.17b-plural-noun-vocab-cap-fix-2026-07-27",
+  "_grammarTagsNormalizeVersion": "v2.2-a2-b2-level-tags-2026-07-27"
+}

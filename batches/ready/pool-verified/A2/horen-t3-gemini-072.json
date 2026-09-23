@@ -1,0 +1,336 @@
+{
+  "passages": [
+    {
+      "id": "gen-p-h3-c2d90679-s1",
+      "module": "horen",
+      "teil": 3,
+      "lang": "de",
+      "level": "A2",
+      "topicTag": "Kultur",
+      "text": "Lukas: Sag mal, Sarah, hast du schon Tickets für das neue Theaterstück?\nSarah: Ja, Lukas! Ich habe sie online gekauft. Es soll sehr gut sein.\nLukas: Super! Ich freue mich darauf, es mit dir zu sehen.",
+      "audio": [
+        {
+          "speaker": "Lukas",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Sag mal, Sarah, hast du schon Tickets für das neue Theaterstück?"
+        },
+        {
+          "speaker": "Sarah",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Ja, Lukas! Ich habe sie online gekauft. Es soll sehr gut sein."
+        },
+        {
+          "speaker": "Lukas",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Super! Ich freue mich darauf, es mit dir zu sehen."
+        }
+      ]
+    },
+    {
+      "id": "gen-p-h3-c2d90679-s2",
+      "module": "horen",
+      "teil": 3,
+      "lang": "de",
+      "level": "A2",
+      "topicTag": "Kultur",
+      "text": "Noah: Lea, ich habe gehört, es gibt eine interessante Kunstausstellung in der Stadtgalerie.\nLea: Oh, wirklich? Ich wollte mich schon lange wieder mal kulturell unterhalten lassen. Wann gehen wir hin?\nNoah: Wie wäre es am Samstag um elf Uhr?",
+      "audio": [
+        {
+          "speaker": "Noah",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Lea, ich habe gehört, es gibt eine interessante Kunstausstellung in der Stadtgalerie."
+        },
+        {
+          "speaker": "Lea",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Oh, wirklich? Ich wollte mich schon lange wieder mal kulturell unterhalten lassen. Wann gehen wir hin?"
+        },
+        {
+          "speaker": "Noah",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Wie wäre es am Samstag um elf Uhr?"
+        }
+      ]
+    },
+    {
+      "id": "gen-p-h3-c2d90679-s3",
+      "module": "horen",
+      "teil": 3,
+      "lang": "de",
+      "level": "A2",
+      "topicTag": "Kultur",
+      "text": "Ben: Anna, ich habe ein neues Buch gelesen, der Titel ist \"Die verlorene Melodie\". Es ist ein Roman über Musik.\nAnna: Das klingt spannend! Ist es von einem bekannten Autor?\nBen: Ja, er hat schon viele Preise gewonnen. Ich kann es dir leihen.",
+      "audio": [
+        {
+          "speaker": "Ben",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Anna, ich habe ein neues Buch gelesen, der Titel ist \"Die verlorene Melodie\". Es ist ein Roman über Musik."
+        },
+        {
+          "speaker": "Anna",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Das klingt spannend! Ist es von einem bekannten Autor?"
+        },
+        {
+          "speaker": "Ben",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Ja, er hat schon viele Preise gewonnen. Ich kann es dir leihen."
+        }
+      ]
+    },
+    {
+      "id": "gen-p-h3-c2d90679-s4",
+      "module": "horen",
+      "teil": 3,
+      "lang": "de",
+      "level": "A2",
+      "topicTag": "Kultur",
+      "text": "Max: Lena, ich habe gehört, dass es einen Tanzkurs für Anfänger im Gemeindezentrum gibt.\nLena: Ja, das stimmt! Ich überlege, ob ich mich anmelden soll. Ich wollte schon immer mal tanzen lernen.\nMax: Das ist eine gute Idee! Ich komme vielleicht mit.",
+      "audio": [
+        {
+          "speaker": "Max",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Lena, ich habe gehört, dass es einen Tanzkurs für Anfänger im Gemeindezentrum gibt."
+        },
+        {
+          "speaker": "Lena",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Ja, das stimmt! Ich überlege, ob ich mich anmelden soll. Ich wollte schon immer mal tanzen lernen."
+        },
+        {
+          "speaker": "Max",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Das ist eine gute Idee! Ich komme vielleicht mit."
+        }
+      ]
+    },
+    {
+      "id": "gen-p-h3-c2d90679-s5",
+      "module": "horen",
+      "teil": 3,
+      "lang": "de",
+      "level": "A2",
+      "topicTag": "Kultur",
+      "text": "Tom: Katja, hast du das Konzert am Freitagabend gesehen? Es war fantastisch!\nKatja: Leider nicht, ich hatte keine Zeit. Aber ich habe gehört, die Band war super.\nTom: Ja, die Sängerin hatte eine tolle Stimme. Du hast wirklich etwas verpasst.",
+      "audio": [
+        {
+          "speaker": "Tom",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Katja, hast du das Konzert am Freitagabend gesehen? Es war fantastisch!"
+        },
+        {
+          "speaker": "Katja",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Leider nicht, ich hatte keine Zeit. Aber ich habe gehört, die Band war super."
+        },
+        {
+          "speaker": "Tom",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Ja, die Sängerin hatte eine tolle Stimme. Du hast wirklich etwas verpasst."
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "gen-q-h3-c2d90679-q1",
+      "module": "horen",
+      "teil": 3,
+      "lang": "de",
+      "level": "A2",
+      "type": "multiple_choice",
+      "passageId": "gen-p-h3-c2d90679-s1",
+      "segmentLabel": "Text 1",
+      "question": "Was hat Sarah gekauft?",
+      "options": [
+        "a) Theaterkarten.",
+        "b) Konzertkarten.",
+        "c) Kinokarten."
+      ],
+      "correct": "a",
+      "correctAnswer": "a",
+      "explanation": "Sarah sagt, sie hat Tickets für das Theaterstück gekauft. Das ist eine kulturelle Veranstaltung.",
+      "language": "de",
+      "examType": "goethe",
+      "difficulty": 5,
+      "skills": [
+        "listening"
+      ],
+      "topicTags": [
+        "Kultur"
+      ],
+      "vocabularyTags": [
+        "theaterkarten",
+        "Sarah"
+      ],
+      "grammarTags": [
+        "g-de-a2-perfekt",
+        "g-de-a2-trennbar",
+        "g-de-a2-dat-akk"
+      ]
+    },
+    {
+      "id": "gen-q-h3-c2d90679-q2",
+      "module": "horen",
+      "teil": 3,
+      "lang": "de",
+      "level": "A2",
+      "type": "multiple_choice",
+      "passageId": "gen-p-h3-c2d90679-s2",
+      "segmentLabel": "Text 2",
+      "question": "Was möchte Lea besuchen?",
+      "options": [
+        "a) Ein Restaurant.",
+        "b) Eine Sportveranstaltung.",
+        "c) Eine Kunstausstellung."
+      ],
+      "correct": "c",
+      "correctAnswer": "c",
+      "explanation": "Lea möchte die Kunstausstellung in der Stadtgalerie besuchen. Dort kann man verschiedene Kunstwerke sehen.",
+      "language": "de",
+      "examType": "goethe",
+      "difficulty": 5,
+      "skills": [
+        "listening"
+      ],
+      "topicTags": [
+        "Kultur"
+      ],
+      "vocabularyTags": [
+        "besuchen",
+        "Kunstausstellung",
+        "möcht"
+      ],
+      "grammarTags": [
+        "g-de-a2-modal",
+        "g-de-a2-dat-akk"
+      ]
+    },
+    {
+      "id": "gen-q-h3-c2d90679-q3",
+      "module": "horen",
+      "teil": 3,
+      "lang": "de",
+      "level": "A2",
+      "type": "multiple_choice",
+      "passageId": "gen-p-h3-c2d90679-s3",
+      "segmentLabel": "Text 3",
+      "question": "Worum geht es in dem Buch, das Ben gelesen hat?",
+      "options": [
+        "a) Um Reisen.",
+        "b) Um Sport.",
+        "c) Um Musik."
+      ],
+      "correct": "c",
+      "correctAnswer": "c",
+      "explanation": "Ben sagt, das Buch ist ein Roman über Musik. Das Thema des Buches ist also Musik.",
+      "language": "de",
+      "examType": "goethe",
+      "difficulty": 5,
+      "skills": [
+        "listening"
+      ],
+      "topicTags": [
+        "Kultur"
+      ],
+      "vocabularyTags": [
+        "Musik"
+      ],
+      "grammarTags": [
+        "g-de-a2-dat-akk"
+      ]
+    },
+    {
+      "id": "gen-q-h3-c2d90679-q4",
+      "module": "horen",
+      "teil": 3,
+      "lang": "de",
+      "level": "A2",
+      "type": "multiple_choice",
+      "passageId": "gen-p-h3-c2d90679-s4",
+      "segmentLabel": "Text 4",
+      "question": "Was möchte Lena lernen?",
+      "options": [
+        "a) Eine neue Sprache.",
+        "b) Tanzen.",
+        "c) Kochen."
+      ],
+      "correct": "b",
+      "correctAnswer": "b",
+      "explanation": "Lena sagt, sie wollte schon immer mal tanzen lernen. Ein Tanzkurs ist eine gute Möglichkeit dafür.",
+      "language": "de",
+      "examType": "goethe",
+      "difficulty": 5,
+      "skills": [
+        "listening"
+      ],
+      "topicTags": [
+        "Kultur"
+      ],
+      "vocabularyTags": [
+        "tanzen",
+        "lernen",
+        "möcht"
+      ],
+      "grammarTags": [
+        "g-de-a2-modal",
+        "g-de-a2-trennbar"
+      ]
+    },
+    {
+      "id": "gen-q-h3-c2d90679-q5",
+      "module": "horen",
+      "teil": 3,
+      "lang": "de",
+      "level": "A2",
+      "type": "multiple_choice",
+      "passageId": "gen-p-h3-c2d90679-s5",
+      "segmentLabel": "Text 5",
+      "question": "Was hat Tom am Freitagabend besucht?",
+      "options": [
+        "a) Ein Konzert.",
+        "b) Eine Filmvorführung.",
+        "c) Ein Theaterstück."
+      ],
+      "correct": "a",
+      "correctAnswer": "a",
+      "explanation": "Tom fragt Katja nach dem Konzert am Freitagabend. Er hat also ein Konzert besucht.",
+      "language": "de",
+      "examType": "goethe",
+      "difficulty": 5,
+      "skills": [
+        "listening"
+      ],
+      "topicTags": [
+        "Kultur"
+      ],
+      "vocabularyTags": [
+        "Freitagabend",
+        "Konzert"
+      ],
+      "grammarTags": [
+        "g-de-a2-dat-akk"
+      ]
+    }
+  ],
+  "_germanCapsNormalizeVersion": "v3.23-lesen-t2-angebote-corpus-2026-07-28",
+  "_germanCapsNormalizedAt": "2026-07-27T06:53:15.013Z",
+  "_balanceMcqVersion": "v1.2-no-rf-chrono-shuffle-2026-07-11",
+  "_balanceMcqNormalizedAt": "2026-07-27T06:53:15.013Z",
+  "topicTag": "Kultur",
+  "_requestedTopic": "Kultur",
+  "generationMetadata": {
+    "usedFeedback": false,
+    "feedbackRules": [],
+    "feedbackCount": 0,
+    "feedbackCategories": [],
+    "feedbackMode": "off",
+    "feedbackVersion": "v1"
+  },
+  "_metadataEnrichedAt": "2026-07-27T06:53:17.270Z",
+  "_metadataEnrichNote": "deterministic: detectTopic + per-question lemma vocab + grammar heuristics",
+  "_vocabTagsNormalizeVersion": "v2.3.16-b1-validated-verb-adj-lemma-2026-07-24",
+  "_grammarTagsNormalizeVersion": "v2.2-a2-b2-level-tags-2026-07-27",
+  "_germanCapsMetadataRestampAt": "2026-08-05T04:37:08.161Z",
+  "_germanCapsMetadataRestampNote": "metadata-only; no applyGermanCapsNormalize"
+}

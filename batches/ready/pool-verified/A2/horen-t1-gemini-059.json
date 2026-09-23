@@ -1,0 +1,330 @@
+{
+  "passages": [
+    {
+      "id": "gen-p-h1-f012b789-s1",
+      "module": "horen",
+      "teil": 1,
+      "lang": "de",
+      "level": "A2",
+      "title": "Text 1",
+      "topicTag": "Stadtleben",
+      "text": "Achtung, liebe Fahrgäste! Eine wichtige Durchsage für den Regionalzug RE 5 nach Rostock. Der Zug fährt heute nicht von Gleis 3, sondern von Gleis 5 ab. Die Abfahrt ist pünktlich um 14:15 Uhr. Bitte begeben Sie sich direkt zu Gleis 5. Wir bitten um Ihr Verständnis.",
+      "passageVocab": [
+        "zug",
+        "gleis",
+        "abfahrt",
+        "direkt"
+      ],
+      "audio": [
+        {
+          "speaker": "Ansager",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Achtung, liebe Fahrgäste! Eine wichtige Durchsage für den Regionalzug RE 5 nach Rostock. Der Zug fährt heute nicht von Gleis 3, sondern von Gleis 5 ab. Die Abfahrt ist pünktlich um 14:15 Uhr. Bitte begeben Sie sich direkt zu Gleis 5. Wir bitten um Ihr Verständnis."
+        }
+      ]
+    },
+    {
+      "id": "gen-p-h1-f012b789-s2",
+      "module": "horen",
+      "teil": 1,
+      "lang": "de",
+      "level": "A2",
+      "title": "Text 2",
+      "topicTag": "Stadtleben",
+      "text": "Guten Tag, hier ist die Anmeldung vom Bürgeramt. Sie rufen außerhalb unserer Öffnungszeiten an. Wir sind Montag bis Donnerstag von 9 bis 17 Uhr für Sie da. Freitags haben wir nur bis 13 Uhr geöffnet. Für dringende Angelegenheiten besuchen Sie bitte unsere Webseite. Vielen Dank für Ihren Anruf.",
+      "passageVocab": [
+        "bürgeramt",
+        "öffnungszeiten",
+        "anmeldung",
+        "webseite"
+      ],
+      "audio": [
+        {
+          "speaker": "Ansagerin",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Guten Tag, hier ist die Anmeldung vom Bürgeramt. Sie rufen außerhalb unserer Öffnungszeiten an. Wir sind Montag bis Donnerstag von 9 bis 17 Uhr für Sie da. Freitags haben wir nur bis 13 Uhr geöffnet. Für dringende Angelegenheiten besuchen Sie bitte unsere Webseite. Vielen Dank für Ihren Anruf."
+        }
+      ]
+    },
+    {
+      "id": "gen-p-h1-f012b789-s3",
+      "module": "horen",
+      "teil": 1,
+      "lang": "de",
+      "level": "A2",
+      "title": "Text 3",
+      "topicTag": "Stadtleben",
+      "text": "Willkommen zu unserem kurzen Alltagstipp! Heute geht es um den Stadtpark. Er ist ideal für Familien mit Kindern. Es gibt einen großen Spielplatz und viele Wege zum Spazierengehen. Jeden Sonntag findet dort ein kleiner Flohmarkt statt. Ein Besuch lohnt sich immer, besonders am Wochenende.",
+      "passageVocab": [
+        "stadtpark",
+        "spielplatz",
+        "flohmarkt",
+        "wochenende"
+      ],
+      "audio": [
+        {
+          "speaker": "Ansager",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Willkommen zu unserem kurzen Alltagstipp! Heute geht es um den Stadtpark. Er ist ideal für Familien mit Kindern. Es gibt einen großen Spielplatz und viele Wege zum Spazierengehen. Jeden Sonntag findet dort ein kleiner Flohmarkt statt. Ein Besuch lohnt sich immer, besonders am Wochenende."
+        }
+      ]
+    },
+    {
+      "id": "gen-p-h1-f012b789-s4",
+      "module": "horen",
+      "teil": 1,
+      "lang": "de",
+      "level": "A2",
+      "title": "Text 4",
+      "topicTag": "Stadtleben",
+      "text": "Liebe Kundinnen und Kunden, einen Moment Aufmerksamkeit! Wir haben heute ein besonderes Angebot für frisches Obst und Gemüse. Sie finden es direkt in der Obst- und Gemüseabteilung. Diese Aktion gilt nur heute bis Ladenschluss. Nutzen Sie diesen Vorteil für Ihren Einkauf. Vielen Dank!",
+      "passageVocab": [
+        "angebot",
+        "einkauf",
+        "vorteil",
+        "ladenschluss"
+      ],
+      "audio": [
+        {
+          "speaker": "Ansagerin",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Liebe Kundinnen und Kunden, einen Moment Aufmerksamkeit! Wir haben heute ein besonderes Angebot für frisches Obst und Gemüse. Sie finden es direkt in der Obst- und Gemüseabteilung. Diese Aktion gilt nur heute bis Ladenschluss. Nutzen Sie diesen Vorteil für Ihren Einkauf. Vielen Dank!"
+        }
+      ]
+    },
+    {
+      "id": "gen-p-h1-f012b789-s5",
+      "module": "horen",
+      "teil": 1,
+      "lang": "de",
+      "level": "A2",
+      "title": "Text 5",
+      "topicTag": "Stadtleben",
+      "text": "Hallo, hier ist Herr Keller vom Nachbarschaftszentrum. Ich rufe wegen unserer nächsten Aktion an. Wir suchen noch Freiwillige für die Gartenarbeit im Gemeinschaftsgarten. Es ist eine einfache Aufgabe, die uns allen hilft. Bitte melden Sie sich bis Freitag, wenn Sie mitmachen möchten. Vielen Dank!",
+      "passageVocab": [
+        "nachbarschaft",
+        "aktion",
+        "aufgabe",
+        "gartenarbeit"
+      ],
+      "audio": [
+        {
+          "speaker": "Ansager",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Hallo, hier ist Herr Keller vom Nachbarschaftszentrum. Ich rufe wegen unserer nächsten Aktion an. Wir suchen noch Freiwillige für die Gartenarbeit im Gemeinschaftsgarten. Es ist eine einfache Aufgabe, die uns allen hilft. Bitte melden Sie sich bis Freitag, wenn Sie mitmachen möchten. Vielen Dank!"
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "gen-q-h1-f012b789-q1",
+      "module": "horen",
+      "teil": 1,
+      "lang": "de",
+      "level": "A2",
+      "type": "multiple_choice",
+      "question": "Von welchem Gleis fährt der Zug nach Rostock heute ab?",
+      "options": [
+        "a) Von Gleis 3.",
+        "b) Von Gleis 5.",
+        "c) Um 14:15 Uhr."
+      ],
+      "correct": "b",
+      "correctAnswer": "b",
+      "explanation": "Die Durchsage informiert, dass der Zug heute von Gleis 5 abfährt, nicht von Gleis 3.",
+      "segmentLabel": "Text 1",
+      "passageId": "gen-p-h1-f012b789-s1",
+      "skills": [
+        "listening"
+      ],
+      "language": "de",
+      "examType": "goethe",
+      "difficulty": 5,
+      "topicTags": [
+        "Stadtleben"
+      ],
+      "vocabularyTags": [
+        "Rostock",
+        "welch",
+        "Gleis"
+      ],
+      "grammarTags": [
+        "g-de-a2-nebensatz",
+        "g-de-a2-trennbar",
+        "g-de-a2-dat-akk"
+      ]
+    },
+    {
+      "id": "gen-q-h1-f012b789-q2",
+      "module": "horen",
+      "teil": 1,
+      "lang": "de",
+      "level": "A2",
+      "type": "multiple_choice",
+      "question": "Wann ist das Bürgeramt am Freitag geöffnet?",
+      "options": [
+        "a) Bis 13 Uhr.",
+        "b) Den ganzen Tag.",
+        "c) Bis 17 Uhr."
+      ],
+      "correct": "a",
+      "correctAnswer": "a",
+      "explanation": "Das Bürgeramt hat freitags nur bis 13 Uhr geöffnet, an den anderen Wochentagen länger.",
+      "segmentLabel": "Text 2",
+      "passageId": "gen-p-h1-f012b789-s2",
+      "skills": [
+        "listening"
+      ],
+      "language": "de",
+      "examType": "goethe",
+      "difficulty": 5,
+      "topicTags": [
+        "Stadtleben"
+      ],
+      "vocabularyTags": [
+        "Bürgeramt",
+        "Freitag"
+      ],
+      "grammarTags": [
+        "g-de-a2-perfekt",
+        "g-de-a2-trennbar",
+        "g-de-a2-dat-akk"
+      ]
+    },
+    {
+      "id": "gen-q-h1-f012b789-q3",
+      "module": "horen",
+      "teil": 1,
+      "lang": "de",
+      "level": "A2",
+      "type": "multiple_choice",
+      "question": "Was findet jeden Sonntag im Stadtpark statt?",
+      "options": [
+        "a) Ein Kurs für Kinder.",
+        "b) Ein Flohmarkt.",
+        "c) Nur Spaziergänge."
+      ],
+      "correct": "b",
+      "correctAnswer": "b",
+      "explanation": "Der Radio-Tipp erwähnt, dass jeden Sonntag ein kleiner Flohmarkt im Stadtpark stattfindet.",
+      "segmentLabel": "Text 3",
+      "passageId": "gen-p-h1-f012b789-s3",
+      "skills": [
+        "listening"
+      ],
+      "language": "de",
+      "examType": "goethe",
+      "difficulty": 5,
+      "topicTags": [
+        "Stadtleben"
+      ],
+      "vocabularyTags": [
+        "stattfinden",
+        "Stadtpark",
+        "Flohmarkt",
+        "Sonntag",
+        "jeden"
+      ],
+      "grammarTags": [
+        "g-de-a2-nebensatz",
+        "g-de-a2-trennbar",
+        "g-de-a2-komparativ"
+      ]
+    },
+    {
+      "id": "gen-q-h1-f012b789-q4",
+      "module": "horen",
+      "teil": 1,
+      "lang": "de",
+      "level": "A2",
+      "type": "multiple_choice",
+      "question": "Worum geht es in der Ansage im Supermarkt?",
+      "options": [
+        "a) Um eine verlorene Sache.",
+        "b) Um neue Öffnungszeiten.",
+        "c) Um ein spezielles Lebensmittelangebot."
+      ],
+      "correct": "c",
+      "correctAnswer": "c",
+      "explanation": "Die Ansage im Supermarkt kündigt ein besonderes Angebot für frisches Obst und Gemüse an.",
+      "segmentLabel": "Text 4",
+      "passageId": "gen-p-h1-f012b789-s4",
+      "skills": [
+        "listening"
+      ],
+      "language": "de",
+      "examType": "goethe",
+      "difficulty": 5,
+      "topicTags": [
+        "Stadtleben"
+      ],
+      "vocabularyTags": [
+        "speziell",
+        "Lebensmittelangebot"
+      ],
+      "grammarTags": [
+        "g-de-a2-trennbar",
+        "g-de-a2-dat-akk"
+      ]
+    },
+    {
+      "id": "gen-q-h1-f012b789-q5",
+      "module": "horen",
+      "teil": 1,
+      "lang": "de",
+      "level": "A2",
+      "type": "multiple_choice",
+      "question": "Wofür werden Freiwillige gesucht?",
+      "options": [
+        "a) Für Anrufe im Zentrum.",
+        "b) Für E-Mails schreiben.",
+        "c) Für Gartenarbeit."
+      ],
+      "correct": "c",
+      "correctAnswer": "c",
+      "explanation": "Herr Keller bittet um Hilfe bei der Gartenarbeit im Gemeinschaftsgarten des Nachbarschaftszentrums.",
+      "segmentLabel": "Text 5",
+      "passageId": "gen-p-h1-f012b789-s5",
+      "skills": [
+        "listening"
+      ],
+      "language": "de",
+      "examType": "goethe",
+      "difficulty": 5,
+      "topicTags": [
+        "Stadtleben"
+      ],
+      "vocabularyTags": [
+        "Gartenarbeit",
+        "Freiwillige"
+      ],
+      "grammarTags": [
+        "g-de-a2-trennbar",
+        "g-de-a2-dat-akk"
+      ]
+    }
+  ],
+  "_germanCapsNormalizeVersion": "v3.23-lesen-t2-angebote-corpus-2026-07-28",
+  "_germanCapsNormalizedAt": "2026-07-27T06:33:35.406Z",
+  "_balanceMcqVersion": "v1.2-no-rf-chrono-shuffle-2026-07-11",
+  "_balanceMcqNormalizedAt": "2026-07-27T06:33:35.406Z",
+  "topicTag": "Stadtleben",
+  "_requestedTopic": "Stadtleben",
+  "generationMetadata": {
+    "usedFeedback": false,
+    "feedbackRules": [],
+    "feedbackCount": 0,
+    "feedbackCategories": [],
+    "feedbackMode": "off",
+    "feedbackVersion": "v1"
+  },
+  "_metadataEnrichedAt": "2026-07-27T06:41:16.338Z",
+  "_metadataEnrichNote": "deterministic: detectTopic + per-question lemma vocab + grammar heuristics",
+  "_vocabTagsNormalizeVersion": "v2.3.16-b1-validated-verb-adj-lemma-2026-07-24",
+  "_grammarTagsNormalizeVersion": "v2.2-a2-b2-level-tags-2026-07-27",
+  "_a2GrammarRetagAt": "2026-07-27T06:41:16.338Z",
+  "_a2GrammarRetagNote": "re-enrich-a2-pool-grammar.mjs",
+  "_germanCapsMetadataRestampAt": "2026-08-05T04:37:08.098Z",
+  "_germanCapsMetadataRestampNote": "metadata-only; no applyGermanCapsNormalize"
+}

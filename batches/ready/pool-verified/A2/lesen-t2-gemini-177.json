@@ -1,0 +1,299 @@
+{
+  "passages": [
+    {
+      "id": "gen-l2-292b9aee-1",
+      "topicTag": "Medien",
+      "text": "Willkommen im modernen Medienzentrum „Kulturpunkt“! Hier finden Sie eine große Auswahl an Informationen und Unterhaltung. Wir bieten Ihnen viele Möglichkeiten, sich mit traditionellen und digitalen Medien zu beschäftigen.\n\nErdgeschoss:\nEmpfang und Information: Hier bekommen Sie Hilfe und können sich anmelden.\nCafé „Lesepause“: Genießen Sie Kaffee und lesen Sie aktuelle Zeitungen und Zeitschriften. Kleine Snacks gibt es auch.\n\n1. Stock:\nStadtbibliothek: Entdecken Sie Romane, Sachbücher und Kinderbücher. Sie können hier auch DVDs und CDs ausleihen.\nLesesaal: Ein ruhiger Ort zum Lernen und Lesen. Viele Fachzeitschriften stehen zur Verfügung.\n\n2. Stock:\nMedienwerkstatt: Hier lernen Sie, wie man einen Blog schreibt oder einen Podcast aufnimmt. Wir bieten Kurse für digitale Medien an.\nComputerraum: Nutzen Sie unsere Computer mit Internetzugang. Drucken ist hier möglich.\n\nWir freuen uns auf Ihren Besuch!",
+      "module": "lesen",
+      "teil": 2,
+      "lang": "de",
+      "level": "A2"
+    }
+  ],
+  "questions": [
+    {
+      "id": "gen-q-2-292b9aee-1",
+      "passageId": "gen-l2-292b9aee-1",
+      "question": "Lisa möchte lernen, wie man einen Blog schreibt. In welchem Stock findet sie einen passenden Kurs?",
+      "type": "multiple_choice",
+      "options": [
+        "a) in einem anderen Stock",
+        "b) im 1. Stock",
+        "c) im 2. Stock"
+      ],
+      "correctAnswer": "c",
+      "explanation": "Die Medienwerkstatt im 2. Stock bietet Kurse zum Blogschreiben an.",
+      "module": "lesen",
+      "teil": 2,
+      "level": "A2",
+      "correct": "c",
+      "lang": "de",
+      "topicTags": [
+        "Medien"
+      ],
+      "vocabularyTags": [
+        "schreiben",
+        "passenden",
+        "lernen",
+        "finden",
+        "Kurs",
+        "möcht"
+      ],
+      "grammarTags": [
+        "g-de-a2-modal",
+        "g-de-a2-trennbar",
+        "g-de-a2-dat-akk"
+      ]
+    },
+    {
+      "id": "gen-q-2-292b9aee-2",
+      "passageId": "gen-l2-292b9aee-1",
+      "question": "Herr Klein möchte aktuelle Zeitungen lesen und dabei einen Kaffee trinken. Auf welcher Etage befindet sich das Café mit Zeitungen?",
+      "type": "multiple_choice",
+      "options": [
+        "a) in einem anderen Stockwerk",
+        "b) im Erdgeschoss",
+        "c) im 1. Stock"
+      ],
+      "correctAnswer": "b",
+      "explanation": "Das Café „Lesepause“ im Erdgeschoss bietet Kaffee und aktuelle Zeitungen an.",
+      "module": "lesen",
+      "teil": 2,
+      "level": "A2",
+      "correct": "b",
+      "lang": "de",
+      "topicTags": [
+        "Medien"
+      ],
+      "vocabularyTags": [
+        "Zeitungen",
+        "aktuell",
+        "trinken",
+        "Erdgeschoss",
+        "Kaffee",
+        "Klein"
+      ],
+      "grammarTags": [
+        "g-de-a2-modal",
+        "g-de-a2-trennbar",
+        "g-de-a2-dat-akk"
+      ]
+    },
+    {
+      "id": "gen-q-2-292b9aee-3",
+      "passageId": "gen-l2-292b9aee-1",
+      "question": "Maria sucht einen ruhigen Ort zum Lernen, wo sie auch Fachzeitschriften finden kann. In welchem Stock ist dieser Ort?",
+      "type": "multiple_choice",
+      "options": [
+        "a) in einem anderen Stock",
+        "b) im 1. Stock",
+        "c) im Erdgeschoss"
+      ],
+      "correctAnswer": "b",
+      "explanation": "Der Lesesaal im 1. Stock ist ein ruhiger Ort zum Lernen mit Fachzeitschriften.",
+      "module": "lesen",
+      "teil": 2,
+      "level": "A2",
+      "correct": "b",
+      "lang": "de",
+      "topicTags": [
+        "Medien"
+      ],
+      "vocabularyTags": [
+        "ruhigen",
+        "lernen",
+        "finden",
+        "Fachzeitschriften",
+        "Maria",
+        "welch"
+      ],
+      "grammarTags": [
+        "g-de-a2-trennbar"
+      ]
+    },
+    {
+      "id": "gen-q-2-292b9aee-4",
+      "passageId": "gen-l2-292b9aee-1",
+      "question": "Ein Besucher möchte seine ausgeliehenen DVDs zurückgeben. Auf welcher Etage kann er das tun?",
+      "type": "multiple_choice",
+      "options": [
+        "a) im 1. Stock",
+        "b) im Erdgeschoss",
+        "c) im 2. Stock"
+      ],
+      "correctAnswer": "a",
+      "explanation": "Die Stadtbibliothek im 1. Stock ist der Ort, wo man Bücher und DVDs ausleiht und zurückgibt.",
+      "module": "lesen",
+      "teil": 2,
+      "level": "A2",
+      "correct": "a",
+      "lang": "de",
+      "topicTags": [
+        "Medien"
+      ],
+      "vocabularyTags": [
+        "zurückgeben",
+        "ausgeliehenen",
+        "Besucher",
+        "möcht",
+        "welch",
+        "Etage"
+      ],
+      "grammarTags": [
+        "g-de-a2-modal",
+        "g-de-a2-trennbar",
+        "g-de-a2-dat-akk"
+      ]
+    },
+    {
+      "id": "gen-q-2-292b9aee-5",
+      "passageId": "gen-l2-292b9aee-1",
+      "question": "Eine Nachbarin braucht Hilfe bei der Anmeldung für einen Computerkurs. In welchem Stock kann sie Informationen und Unterstützung bekommen?",
+      "type": "multiple_choice",
+      "options": [
+        "a) im 2. Stock",
+        "b) in einem anderen Stockwerk",
+        "c) im Erdgeschoss"
+      ],
+      "correctAnswer": "c",
+      "explanation": "Der Empfang und Information im Erdgeschoss bietet Hilfe und Anmeldemöglichkeiten.",
+      "module": "lesen",
+      "teil": 2,
+      "level": "A2",
+      "correct": "c",
+      "lang": "de",
+      "topicTags": [
+        "Medien"
+      ],
+      "vocabularyTags": [
+        "Unterstützung",
+        "Anmeldung",
+        "brauchen",
+        "Hilfe",
+        "bekommen",
+        "Informationen"
+      ],
+      "grammarTags": [
+        "g-de-a2-modal",
+        "g-de-a2-trennbar",
+        "g-de-a2-dat-akk"
+      ]
+    }
+  ],
+  "_germanCapsNormalizeVersion": "v3.23-lesen-t2-angebote-corpus-2026-07-28",
+  "_germanCapsNormalizedAt": "2026-08-02T07:17:55.330Z",
+  "_balanceMcqVersion": "v1.2-no-rf-chrono-shuffle-2026-07-11",
+  "_balanceMcqNormalizedAt": "2026-08-02T07:17:44.706Z",
+  "topicTag": "Medien",
+  "_requestedTopic": "Medien",
+  "userVocabFeedback": {
+    "topic": "Medien",
+    "requested": [
+      "medien",
+      "radio",
+      "blog",
+      "nachbarin",
+      "nachfrage",
+      "zeitschrift",
+      "zurückkommen"
+    ],
+    "prompted": [
+      "medien",
+      "radio",
+      "blog",
+      "nachbarin",
+      "nachfrage",
+      "zeitschrift",
+      "zurückkommen"
+    ],
+    "originalRequested": [
+      "medien",
+      "radio",
+      "blog",
+      "nachbarin",
+      "nachfrage",
+      "zeitschrift",
+      "zurückkommen"
+    ],
+    "subtypeAdaptation": null,
+    "used": [
+      "medien",
+      "blog",
+      "nachbarin",
+      "zeitschrift"
+    ],
+    "notUsed": [
+      "radio",
+      "nachfrage",
+      "zurückkommen"
+    ],
+    "excluded": [],
+    "ratio": 0.5714285714285714,
+    "targetUsage": [
+      {
+        "word": "medien",
+        "surfaces": [
+          "Medienzentrum",
+          "Medien"
+        ]
+      },
+      {
+        "word": "blog",
+        "surfaces": [
+          "Blog"
+        ]
+      },
+      {
+        "word": "nachbarin",
+        "surfaces": [
+          "Nachbarin"
+        ]
+      },
+      {
+        "word": "zeitschrift",
+        "surfaces": [
+          "Zeitschriften"
+        ]
+      }
+    ]
+  },
+  "targetUsage": [
+    {
+      "word": "medien",
+      "surfaces": [
+        "Medienzentrum",
+        "Medien"
+      ]
+    },
+    {
+      "word": "blog",
+      "surfaces": [
+        "Blog"
+      ]
+    },
+    {
+      "word": "nachbarin",
+      "surfaces": [
+        "Nachbarin"
+      ]
+    },
+    {
+      "word": "zeitschrift",
+      "surfaces": [
+        "Zeitschriften"
+      ]
+    }
+  ],
+  "generationMetadata": {
+    "usedFeedback": false,
+    "feedbackRules": [],
+    "feedbackCount": 0,
+    "feedbackCategories": [],
+    "feedbackMode": "off",
+    "feedbackVersion": "v1"
+  },
+  "_metadataEnrichedAt": "2026-08-02T07:18:12.805Z",
+  "_metadataEnrichNote": "deterministic: detectTopic + per-question lemma vocab + grammar heuristics",
+  "_vocabTagsNormalizeVersion": "v2.3.17b-plural-noun-vocab-cap-fix-2026-07-27",
+  "_grammarTagsNormalizeVersion": "v2.2-a2-b2-level-tags-2026-07-27"
+}

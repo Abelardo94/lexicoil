@@ -1,0 +1,138 @@
+{
+  "passages": [],
+  "questions": [
+    {
+      "id": "gen-q-sp-t1-c555b651-q1",
+      "module": "sprechen",
+      "teil": 1,
+      "lang": "de",
+      "level": "A2",
+      "type": "personal_questions",
+      "question": "Sie bekommen vier Karten und stellen mit diesen Karten vier Fragen. Ihr Partner/Ihre Partnerin antwortet. Dann stellt Ihr Partner/Ihre Partnerin vier Fragen und Sie antworten. Sie haben keine Vorbereitungszeit.\n\nIhre Karten:\n1. Geburtstag — Wann haben Sie Geburtstag? Wie feiern Sie gern, vielleicht gemeinsam mit Freunden oder Familie?\n2. Wohnort — Wo wohnen Sie? Wie ist Ihr Wohnort?\n3. Beruf — Was ist Ihr Beruf? Oder: Was möchten Sie in Zukunft arbeiten?\n4. Hobby — Was machen Sie gern in Ihrer Freizeit? Hören Sie zum Beispiel Radio oder lesen Sie einen Blog?\n\nStellen Sie zu jeder Karte eine Frage. Antworten Sie dann auf die Fragen Ihres Partners/Ihrer Partnerin.",
+      "correct": "rubric",
+      "correctAnswer": "rubric",
+      "options": [],
+      "explanation": "In diesem Teil sprechen Sie mit Ihrem Partner/Ihrer Partnerin über persönliche Themen (Geburtstag, Wohnort, Beruf, Hobby). Wichtig sind verständliche Sätze und einfacher Wortschatz auf A2-Niveau.",
+      "difficulty": 3,
+      "skills": [
+        "speaking"
+      ],
+      "language": "de",
+      "examType": "goethe",
+      "topicTags": [
+        "Freizeit"
+      ],
+      "vocabularyTags": [
+        "Beispiel",
+        "Partner",
+        "gemeinsam",
+        "Zukunft",
+        "Hobby",
+        "wohnen"
+      ],
+      "grammarTags": [
+        "g-de-a2-modal",
+        "g-de-a2-trennbar",
+        "g-de-a2-dat-akk",
+        "g-de-a2-praesens"
+      ]
+    }
+  ],
+  "_germanCapsNormalizeVersion": "v3.23-lesen-t2-angebote-corpus-2026-07-28",
+  "_germanCapsNormalizedAt": "2026-09-23T01:45:31.296Z",
+  "_balanceMcqVersion": "v1.2-no-rf-chrono-shuffle-2026-07-11",
+  "_balanceMcqNormalizedAt": "2026-09-23T01:45:31.296Z",
+  "topicTag": "Medien",
+  "_requestedTopic": "Medien",
+  "userVocabFeedback": {
+    "topic": "Medien",
+    "requested": [
+      "gemeinsam",
+      "blog",
+      "aufgabe",
+      "situation",
+      "zukunft",
+      "täglich",
+      "bedeuten",
+      "direkt"
+    ],
+    "prompted": [
+      "gemeinsam",
+      "blog",
+      "aufgabe",
+      "situation",
+      "zukunft",
+      "täglich",
+      "bedeuten",
+      "direkt"
+    ],
+    "originalRequested": null,
+    "subtypeAdaptation": null,
+    "used": [
+      "gemeinsam",
+      "blog",
+      "zukunft"
+    ],
+    "notUsed": [
+      "aufgabe",
+      "situation",
+      "täglich",
+      "bedeuten",
+      "direkt"
+    ],
+    "excluded": [],
+    "ratio": 0.375,
+    "targetUsage": [
+      {
+        "word": "gemeinsam",
+        "surfaces": [
+          "gemeinsam"
+        ]
+      },
+      {
+        "word": "blog",
+        "surfaces": [
+          "Blog"
+        ]
+      },
+      {
+        "word": "zukunft",
+        "surfaces": [
+          "Zukunft"
+        ]
+      }
+    ]
+  },
+  "targetUsage": [
+    {
+      "word": "gemeinsam",
+      "surfaces": [
+        "gemeinsam"
+      ]
+    },
+    {
+      "word": "blog",
+      "surfaces": [
+        "Blog"
+      ]
+    },
+    {
+      "word": "zukunft",
+      "surfaces": [
+        "Zukunft"
+      ]
+    }
+  ],
+  "generationMetadata": {
+    "usedFeedback": false,
+    "feedbackRules": [],
+    "feedbackCount": 0,
+    "feedbackCategories": [],
+    "feedbackMode": "off",
+    "feedbackVersion": "v1"
+  },
+  "_metadataEnrichedAt": "2026-09-23T01:45:31.439Z",
+  "_metadataEnrichNote": "deterministic: detectTopic + per-question lemma vocab + grammar heuristics",
+  "_vocabTagsNormalizeVersion": "v2.3.18-paso3-vocab-plural-rubric-strip-2026-08-02",
+  "_grammarTagsNormalizeVersion": "v2.2-a2-b2-level-tags-2026-07-27"
+}

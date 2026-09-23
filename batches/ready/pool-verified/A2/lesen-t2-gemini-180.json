@@ -1,0 +1,321 @@
+{
+  "passages": [
+    {
+      "id": "gen-l2-f187aa54-1",
+      "text": "Willkommen im Digitalen Lernhaus 'Zukunft'! Hier finden Sie moderne Möglichkeiten, um Medien zu erleben und zu lernen.\n\nErdgeschoss:\nInfo-Punkt: Unser Team hilft Ihnen gerne bei Fragen und der Orientierung.\nCafé 'Netzwerk': Genießen Sie hier Kaffee und kleine Snacks.\nLese-Lounge: Aktuelle Zeitungen und viele Zeitschriften liegen hier bereit.\n\n1. Stock:\nMedien-Bibliothek: Hier gibt es Bücher, Filme und Hörspiele.\nPC-Arbeitsplätze: Nutzen Sie unsere Computer mit Internet.\nBlog-Werkstatt: Lernen Sie hier, einen Blog zu schreiben oder Beiträge zu lesen.\n\n2. Stock:\nSeminar-Räume: Hier finden Kurse zu digitalen Themen statt.\nPodcast-Studio: Nehmen Sie hier Ihre Podcasts oder Radiosendungen auf.\nAustausch-Ecke: Treffen Sie andere und tauschen Sie sich mit Ihrer Nachbarin über neue Medien aus. Wir freuen uns auf Ihren Besuch und Ihre Nachfrage!",
+      "topicTag": "Medien",
+      "level": "A2",
+      "module": "lesen",
+      "teil": 2,
+      "lang": "de"
+    }
+  ],
+  "questions": [
+    {
+      "id": "gen-q-2-f187aa54-1",
+      "passageId": "gen-l2-f187aa54-1",
+      "type": "multiple_choice",
+      "question": "Maria möchte wissen, welche neuen Zeitschriften es gibt. In welchem Stock kann sie diese finden?",
+      "options": [
+        "a) in einem anderen Stock",
+        "b) im Erdgeschoss",
+        "c) im 1. Stock"
+      ],
+      "correctAnswer": "b",
+      "explanation": "Die Lese-Lounge mit aktuellen Zeitungen und Zeitschriften befindet sich im Erdgeschoss.",
+      "module": "lesen",
+      "teil": 2,
+      "level": "A2",
+      "correct": "b",
+      "lang": "de",
+      "topicTags": [
+        "Medien"
+      ],
+      "vocabularyTags": [
+        "wissen",
+        "finden",
+        "Zeitschriften",
+        "Erdgeschoss",
+        "neuen",
+        "Maria"
+      ],
+      "grammarTags": [
+        "g-de-a2-modal",
+        "g-de-a2-praesens"
+      ]
+    },
+    {
+      "id": "gen-q-2-f187aa54-2",
+      "passageId": "gen-l2-f187aa54-1",
+      "type": "multiple_choice",
+      "question": "Herr Schmidt möchte einen Blog schreiben und braucht dafür einen Computer. Auf welcher Etage findet er Hilfe?",
+      "options": [
+        "a) in einem anderen Stock",
+        "b) im Erdgeschoss",
+        "c) im 1. Stock"
+      ],
+      "correctAnswer": "c",
+      "explanation": "Die PC-Arbeitsplätze und die Blog-Werkstatt, um Blogs zu schreiben, sind im 1. Stock.",
+      "module": "lesen",
+      "teil": 2,
+      "level": "A2",
+      "correct": "c",
+      "lang": "de",
+      "topicTags": [
+        "Medien"
+      ],
+      "vocabularyTags": [
+        "brauchen",
+        "Hilfe",
+        "finden",
+        "Computer",
+        "Schmidt",
+        "möcht"
+      ],
+      "grammarTags": [
+        "g-de-a2-modal",
+        "g-de-a2-trennbar",
+        "g-de-a2-dat-akk"
+      ]
+    },
+    {
+      "id": "gen-q-2-f187aa54-3",
+      "passageId": "gen-l2-f187aa54-1",
+      "type": "multiple_choice",
+      "question": "Lisa interessiert sich für einen Kurs über digitale Medien. In welchem Stockwerk sind die Kursräume?",
+      "options": [
+        "a) in einem anderen Stock",
+        "b) im 1. Stock",
+        "c) im 2. Stock"
+      ],
+      "correctAnswer": "c",
+      "explanation": "Die Seminar-Räume für Kurse zu digitalen Themen befinden sich im 2. Stockwerk.",
+      "module": "lesen",
+      "teil": 2,
+      "level": "A2",
+      "correct": "c",
+      "lang": "de",
+      "topicTags": [
+        "Medien"
+      ],
+      "vocabularyTags": [
+        "medien",
+        "Stockwerk",
+        "Kursräume",
+        "digital",
+        "Kurs",
+        "welch"
+      ],
+      "grammarTags": [
+        "g-de-a2-trennbar",
+        "g-de-a2-dat-akk"
+      ]
+    },
+    {
+      "id": "gen-q-2-f187aa54-4",
+      "passageId": "gen-l2-f187aa54-1",
+      "type": "multiple_choice",
+      "question": "Eine Nachbarin von Herrn Müller möchte eine Radiosendung aufnehmen. In welchem Stock ist das Tonstudio?",
+      "options": [
+        "a) im 2. Stock",
+        "b) in einem anderen Stock",
+        "c) im Erdgeschoss"
+      ],
+      "correctAnswer": "a",
+      "explanation": "Das Podcast-Studio für Radiosendungen ist im 2. Stock zu finden.",
+      "module": "lesen",
+      "teil": 2,
+      "level": "A2",
+      "correct": "a",
+      "lang": "de",
+      "topicTags": [
+        "Medien"
+      ],
+      "vocabularyTags": [
+        "aufnehmen",
+        "Radiosendung",
+        "Nachbarin",
+        "Tonstudio",
+        "Müller",
+        "Herrn"
+      ],
+      "grammarTags": [
+        "g-de-a2-modal",
+        "g-de-a2-trennbar",
+        "g-de-a2-dat-akk"
+      ]
+    },
+    {
+      "id": "gen-q-2-f187aa54-5",
+      "passageId": "gen-l2-f187aa54-1",
+      "type": "multiple_choice",
+      "question": "Frau Meier möchte sich über die Angebote des Lernhauses informieren und hat eine Nachfrage. In welchem Stock ist der Info-Punkt?",
+      "options": [
+        "a) in einem anderen Stock",
+        "b) im Erdgeschoss",
+        "c) im 1. Stock"
+      ],
+      "correctAnswer": "b",
+      "explanation": "Der Info-Punkt für Informationen und Nachfragen ist direkt im Erdgeschoss.",
+      "module": "lesen",
+      "teil": 2,
+      "level": "A2",
+      "correct": "b",
+      "lang": "de",
+      "topicTags": [
+        "Medien"
+      ],
+      "vocabularyTags": [
+        "informieren",
+        "Angebot",
+        "Erdgeschoss",
+        "Lernhauses",
+        "info-punkt",
+        "Nachfrage"
+      ],
+      "grammarTags": [
+        "g-de-a2-modal",
+        "g-de-a2-trennbar",
+        "g-de-a2-dat-akk"
+      ]
+    }
+  ],
+  "_germanCapsNormalizeVersion": "v3.23-lesen-t2-angebote-corpus-2026-07-28",
+  "_germanCapsNormalizedAt": "2026-09-23T02:24:21.524Z",
+  "_balanceMcqVersion": "v1.2-no-rf-chrono-shuffle-2026-07-11",
+  "_balanceMcqNormalizedAt": "2026-09-23T02:24:21.522Z",
+  "topicTag": "Medien",
+  "_requestedTopic": "Medien",
+  "userVocabFeedback": {
+    "topic": "Medien",
+    "requested": [
+      "medien",
+      "radio",
+      "blog",
+      "nachbarin",
+      "nachfrage",
+      "zeitschrift",
+      "zurückkommen"
+    ],
+    "prompted": [
+      "medien",
+      "radio",
+      "blog",
+      "nachbarin",
+      "nachfrage",
+      "zeitschrift",
+      "zurückkommen"
+    ],
+    "originalRequested": [
+      "medien",
+      "radio",
+      "blog",
+      "nachbarin",
+      "nachfrage",
+      "zeitschrift",
+      "zurückkommen"
+    ],
+    "subtypeAdaptation": null,
+    "used": [
+      "medien",
+      "radio",
+      "blog",
+      "nachbarin",
+      "nachfrage",
+      "zeitschrift"
+    ],
+    "notUsed": [
+      "zurückkommen"
+    ],
+    "excluded": [],
+    "ratio": 0.8571428571428571,
+    "targetUsage": [
+      {
+        "word": "medien",
+        "surfaces": [
+          "Medien"
+        ]
+      },
+      {
+        "word": "radio",
+        "surfaces": [
+          "Radiosendung"
+        ]
+      },
+      {
+        "word": "blog",
+        "surfaces": [
+          "Blog"
+        ]
+      },
+      {
+        "word": "nachbarin",
+        "surfaces": [
+          "Nachbarin"
+        ]
+      },
+      {
+        "word": "nachfrage",
+        "surfaces": [
+          "Nachfrage"
+        ]
+      },
+      {
+        "word": "zeitschrift",
+        "surfaces": [
+          "Zeitschriften"
+        ]
+      }
+    ]
+  },
+  "targetUsage": [
+    {
+      "word": "medien",
+      "surfaces": [
+        "Medien"
+      ]
+    },
+    {
+      "word": "radio",
+      "surfaces": [
+        "Radiosendung"
+      ]
+    },
+    {
+      "word": "blog",
+      "surfaces": [
+        "Blog"
+      ]
+    },
+    {
+      "word": "nachbarin",
+      "surfaces": [
+        "Nachbarin"
+      ]
+    },
+    {
+      "word": "nachfrage",
+      "surfaces": [
+        "Nachfrage"
+      ]
+    },
+    {
+      "word": "zeitschrift",
+      "surfaces": [
+        "Zeitschriften"
+      ]
+    }
+  ],
+  "generationMetadata": {
+    "usedFeedback": false,
+    "feedbackRules": [],
+    "feedbackCount": 0,
+    "feedbackCategories": [],
+    "feedbackMode": "off",
+    "feedbackVersion": "v1"
+  },
+  "_metadataEnrichedAt": "2026-09-23T02:24:29.183Z",
+  "_metadataEnrichNote": "deterministic: detectTopic + per-question lemma vocab + grammar heuristics",
+  "_vocabTagsNormalizeVersion": "v2.3.18-paso3-vocab-plural-rubric-strip-2026-08-02",
+  "_grammarTagsNormalizeVersion": "v2.2-a2-b2-level-tags-2026-07-27"
+}

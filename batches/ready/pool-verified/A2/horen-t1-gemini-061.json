@@ -1,0 +1,334 @@
+{
+  "passages": [
+    {
+      "id": "gen-p-h1-e227c629-s1",
+      "module": "horen",
+      "teil": 1,
+      "lang": "de",
+      "level": "A2",
+      "title": "Text 1",
+      "text": "Achtung bitte, eine kurze Durchsage für alle Besucher. Das Krankenhaus bittet um Verständnis: Die Besuchszeiten auf Station 3 sind heute von 15 bis 17 Uhr. Bitte melden Sie sich direkt am Empfang, bevor Sie auf die Station gehen. Vielen Dank für Ihre Kooperation.",
+      "passageVocab": [
+        "krankenhaus",
+        "besuchszeiten",
+        "empfang"
+      ],
+      "audio": [
+        {
+          "speaker": "Ansager",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Achtung bitte, eine kurze Durchsage für alle Besucher. Das Krankenhaus bittet um Verständnis: Die Besuchszeiten auf Station 3 sind heute von 15 bis 17 Uhr. Bitte melden Sie sich direkt am Empfang, bevor Sie auf die Station gehen. Vielen Dank für Ihre Kooperation."
+        }
+      ],
+      "topicTag": "Gesundheit"
+    },
+    {
+      "id": "gen-p-h1-e227c629-s2",
+      "module": "horen",
+      "teil": 1,
+      "lang": "de",
+      "level": "A2",
+      "title": "Text 2",
+      "text": "Guten Tag, Sie sprechen mit der Praxis Dr. Lehmann. Unsere Praxis ist heute Nachmittag wegen einer Fortbildung geschlossen. In dringenden Fällen wenden Sie sich bitte an den ärztlichen Bereitschaftsdienst unter der Nummer 116117. Medikamente können Sie morgen früh ab acht Uhr abholen.",
+      "passageVocab": [
+        "praxis",
+        "fortbildung",
+        "medikament"
+      ],
+      "audio": [
+        {
+          "speaker": "Ansager",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Guten Tag, Sie sprechen mit der Praxis Dr. Lehmann. Unsere Praxis ist heute Nachmittag wegen einer Fortbildung geschlossen. In dringenden Fällen wenden Sie sich bitte an den ärztlichen Bereitschaftsdienst unter der Nummer 116117. Medikamente können Sie morgen früh ab acht Uhr abholen."
+        }
+      ],
+      "topicTag": "Gesundheit"
+    },
+    {
+      "id": "gen-p-h1-e227c629-s3",
+      "module": "horen",
+      "teil": 1,
+      "lang": "de",
+      "level": "A2",
+      "title": "Text 3",
+      "text": "Willkommen zu unserem kurzen Alltagstipp! Heute geht es um Bewegung. Versuchen Sie, jeden Tag mindestens 30 Minuten spazieren zu gehen. Das ist eine einfache Aufgabe für Ihre Gesundheit. Auch kleine Spaziergänge helfen schon viel. Bleiben Sie fit!",
+      "passageVocab": [
+        "bewegung",
+        "spaziergang",
+        "gesundheit"
+      ],
+      "audio": [
+        {
+          "speaker": "Ansager",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Willkommen zu unserem kurzen Alltagstipp! Heute geht es um Bewegung. Versuchen Sie, jeden Tag mindestens 30 Minuten spazieren zu gehen. Das ist eine einfache Aufgabe für Ihre Gesundheit. Auch kleine Spaziergänge helfen schon viel. Bleiben Sie fit!"
+        }
+      ],
+      "topicTag": "Gesundheit"
+    },
+    {
+      "id": "gen-p-h1-e227c629-s4",
+      "module": "horen",
+      "teil": 1,
+      "lang": "de",
+      "level": "A2",
+      "title": "Text 4",
+      "text": "Wichtiger Hinweis für alle Besucher des Sportzentrums! Bitte benutzen Sie immer ein Handtuch auf den Geräten. Das ist wichtig für die Hygiene. Nach dem Training können Sie direkt in die Duschen gehen. Denken Sie daran, Ihre Sportschuhe nur in der Halle zu tragen.",
+      "passageVocab": [
+        "sportzentrum",
+        "handtuch",
+        "hygiene"
+      ],
+      "audio": [
+        {
+          "speaker": "Ansager",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Wichtiger Hinweis für alle Besucher des Sportzentrums! Bitte benutzen Sie immer ein Handtuch auf den Geräten. Das ist wichtig für die Hygiene. Nach dem Training können Sie direkt in die Duschen gehen. Denken Sie daran, Ihre Sportschuhe nur in der Halle zu tragen."
+        }
+      ],
+      "topicTag": "Gesundheit"
+    },
+    {
+      "id": "gen-p-h1-e227c629-s5",
+      "module": "horen",
+      "teil": 1,
+      "lang": "de",
+      "level": "A2",
+      "title": "Text 5",
+      "text": "Hallo, ich wollte kurz nachfragen. Hier ist Frau Braun von der Ernährungsberatung. Ich rufe Sie an wegen Ihres Termins nächste Woche. Leider muss ich ihn verschieben. Bitte rufen Sie mich zurück, um eine neue Zeit zu finden. Es ist wichtig, dass wir Ihre aktuelle Situation besprechen. Vielen Dank.",
+      "passageVocab": [
+        "ernährungsberatung",
+        "termin",
+        "situation"
+      ],
+      "audio": [
+        {
+          "speaker": "Ansager",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Hallo, ich wollte kurz nachfragen. Hier ist Frau Braun von der Ernährungsberatung. Ich rufe Sie an wegen Ihres Termins nächste Woche. Leider muss ich ihn verschieben. Bitte rufen Sie mich zurück, um eine neue Zeit zu finden. Es ist wichtig, dass wir Ihre aktuelle Situation besprechen. Vielen Dank."
+        }
+      ],
+      "topicTag": "Gesundheit"
+    }
+  ],
+  "questions": [
+    {
+      "id": "gen-q-h1-e227c629-q1",
+      "module": "horen",
+      "teil": 1,
+      "lang": "de",
+      "level": "A2",
+      "type": "multiple_choice",
+      "question": "Wann sind die Besuchszeiten auf Station 3?",
+      "options": [
+        "a) Von 15 bis 17 Uhr.",
+        "b) Nur am Vormittag.",
+        "c) Den ganzen Tag."
+      ],
+      "correct": "a",
+      "correctAnswer": "a",
+      "explanation": "Die Durchsage informiert, dass die Besuchszeiten auf Station 3 heute von 15 bis 17 Uhr sind.",
+      "segmentLabel": "Text 1",
+      "passageId": "gen-p-h1-e227c629-s1",
+      "skills": [
+        "listening"
+      ],
+      "language": "de",
+      "examType": "goethe",
+      "difficulty": 5,
+      "topicTags": [
+        "Gesundheit"
+      ],
+      "vocabularyTags": [
+        "Station",
+        "Besuchszeit"
+      ],
+      "grammarTags": [
+        "g-de-a2-nebensatz",
+        "g-de-a2-trennbar",
+        "g-de-a2-dat-akk"
+      ]
+    },
+    {
+      "id": "gen-q-h1-e227c629-q2",
+      "module": "horen",
+      "teil": 1,
+      "lang": "de",
+      "level": "A2",
+      "type": "multiple_choice",
+      "question": "An wen soll man sich in dringenden Fällen wenden?",
+      "options": [
+        "a) An die Praxis Dr. Lehmann.",
+        "b) An den ärztlichen Bereitschaftsdienst.",
+        "c) An die Apotheke."
+      ],
+      "correct": "b",
+      "correctAnswer": "b",
+      "explanation": "Die Ansage gibt die Nummer des ärztlichen Bereitschaftsdienstes für dringende Fälle an.",
+      "segmentLabel": "Text 2",
+      "passageId": "gen-p-h1-e227c629-s2",
+      "skills": [
+        "listening"
+      ],
+      "language": "de",
+      "examType": "goethe",
+      "difficulty": 5,
+      "topicTags": [
+        "Gesundheit"
+      ],
+      "vocabularyTags": [
+        "dringenden",
+        "ärztlichen",
+        "fällen",
+        "wenden",
+        "Bereitschaftsdienst"
+      ],
+      "grammarTags": [
+        "g-de-a2-modal",
+        "g-de-a2-trennbar",
+        "g-de-a2-dat-akk"
+      ]
+    },
+    {
+      "id": "gen-q-h1-e227c629-q3",
+      "module": "horen",
+      "teil": 1,
+      "lang": "de",
+      "level": "A2",
+      "type": "multiple_choice",
+      "question": "Wie lange sollte man täglich spazieren gehen?",
+      "options": [
+        "a) Nur am Wochenende.",
+        "b) Mindestens 30 Minuten.",
+        "c) Maximal 15 Minuten."
+      ],
+      "correct": "b",
+      "correctAnswer": "b",
+      "explanation": "Der Alltagstipp empfiehlt, jeden Tag mindestens 30 Minuten spazieren zu gehen.",
+      "segmentLabel": "Text 3",
+      "passageId": "gen-p-h1-e227c629-s3",
+      "skills": [
+        "listening"
+      ],
+      "language": "de",
+      "examType": "goethe",
+      "difficulty": 5,
+      "topicTags": [
+        "Gesundheit"
+      ],
+      "vocabularyTags": [
+        "täglich",
+        "spazieren",
+        "minuten",
+        "Mindestens",
+        "sollt",
+        "gehen"
+      ],
+      "grammarTags": []
+    },
+    {
+      "id": "gen-q-h1-e227c629-q4",
+      "module": "horen",
+      "teil": 1,
+      "lang": "de",
+      "level": "A2",
+      "type": "multiple_choice",
+      "question": "Was ist wichtig für die Hygiene im Sportzentrum?",
+      "options": [
+        "a) Ein Handtuch auf den Geräten.",
+        "b) Sportschuhe in der Halle.",
+        "c) Duschen nach dem Training."
+      ],
+      "correct": "a",
+      "correctAnswer": "a",
+      "explanation": "Der Hinweis betont, dass die Benutzung eines Handtuchs auf den Geräten für die Hygiene wichtig ist.",
+      "segmentLabel": "Text 4",
+      "passageId": "gen-p-h1-e227c629-s4",
+      "skills": [
+        "listening"
+      ],
+      "language": "de",
+      "examType": "goethe",
+      "difficulty": 5,
+      "topicTags": [
+        "Gesundheit"
+      ],
+      "vocabularyTags": [
+        "Sportzentrum",
+        "Handtuch",
+        "wichtig",
+        "Hygiene",
+        "Geräten"
+      ],
+      "grammarTags": [
+        "g-de-a2-nebensatz",
+        "g-de-a2-perfekt",
+        "g-de-a2-trennbar",
+        "g-de-a2-dat-akk"
+      ]
+    },
+    {
+      "id": "gen-q-h1-e227c629-q5",
+      "module": "horen",
+      "teil": 1,
+      "lang": "de",
+      "level": "A2",
+      "type": "multiple_choice",
+      "question": "Was ist der Grund für den Anruf von Frau Braun?",
+      "options": [
+        "a) Frau Braun will einen neuen Termin vereinbaren.",
+        "b) Frau Braun hat eine Frage zur Ernährung.",
+        "c) Ein Termin muss geändert werden."
+      ],
+      "correct": "c",
+      "correctAnswer": "c",
+      "explanation": "Frau Braun ruft an, weil sie den Termin nächste Woche verschieben muss und eine neue Zeit finden möchte.",
+      "segmentLabel": "Text 5",
+      "passageId": "gen-p-h1-e227c629-s5",
+      "skills": [
+        "listening"
+      ],
+      "language": "de",
+      "examType": "goethe",
+      "difficulty": 5,
+      "topicTags": [
+        "Gesundheit"
+      ],
+      "vocabularyTags": [
+        "geändert",
+        "Termin",
+        "Frau",
+        "Anruf",
+        "Braun"
+      ],
+      "grammarTags": [
+        "g-de-a2-nebensatz",
+        "g-de-a2-modal",
+        "g-de-a2-trennbar",
+        "g-de-a2-dat-akk"
+      ]
+    }
+  ],
+  "_germanCapsNormalizeVersion": "v3.23-lesen-t2-angebote-corpus-2026-07-28",
+  "_germanCapsNormalizedAt": "2026-07-27T06:36:53.401Z",
+  "_balanceMcqVersion": "v1.2-no-rf-chrono-shuffle-2026-07-11",
+  "_balanceMcqNormalizedAt": "2026-07-27T06:36:53.401Z",
+  "topicTag": "Gesundheit",
+  "_requestedTopic": "Gesundheit",
+  "generationMetadata": {
+    "usedFeedback": false,
+    "feedbackRules": [],
+    "feedbackCount": 0,
+    "feedbackCategories": [],
+    "feedbackMode": "off",
+    "feedbackVersion": "v1"
+  },
+  "_metadataEnrichedAt": "2026-07-27T06:41:16.351Z",
+  "_metadataEnrichNote": "deterministic: detectTopic + per-question lemma vocab + grammar heuristics",
+  "_vocabTagsNormalizeVersion": "v2.3.16-b1-validated-verb-adj-lemma-2026-07-24",
+  "_grammarTagsNormalizeVersion": "v2.2-a2-b2-level-tags-2026-07-27",
+  "_a2GrammarRetagAt": "2026-07-27T06:41:16.351Z",
+  "_a2GrammarRetagNote": "re-enrich-a2-pool-grammar.mjs",
+  "_germanCapsMetadataRestampAt": "2026-08-05T04:37:08.100Z",
+  "_germanCapsMetadataRestampNote": "metadata-only; no applyGermanCapsNormalize"
+}

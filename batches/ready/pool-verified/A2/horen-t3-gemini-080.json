@@ -1,0 +1,320 @@
+{
+  "passages": [
+    {
+      "id": "gen-p-h3-89670c80-s1",
+      "module": "horen",
+      "teil": 3,
+      "lang": "de",
+      "level": "A2",
+      "topicTag": "Ernährung",
+      "text": "Moritz: Sag mal, Jana, frühstückst du eigentlich immer so gesund?\nJana: Ja, Moritz. Meistens esse ich Müsli mit Joghurt und frischem Obst. Das gibt Energie für den Tag.",
+      "audio": [
+        {
+          "speaker": "Moritz",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Sag mal, Jana, frühstückst du eigentlich immer so gesund?"
+        },
+        {
+          "speaker": "Jana",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Ja, Moritz. Meistens esse ich Müsli mit Joghurt und frischem Obst. Das gibt Energie für den Tag."
+        }
+      ]
+    },
+    {
+      "id": "gen-p-h3-89670c80-s2",
+      "module": "horen",
+      "teil": 3,
+      "lang": "de",
+      "level": "A2",
+      "topicTag": "Ernährung",
+      "text": "Philipp: Sara, sollen wir heute Mittag schnell etwas essen? Vielleicht einen Burger?\nSara: Lieber nicht, Philipp. Ich möchte etwas Leichteres. Wie wäre es mit einem Salat oder einer Suppe?",
+      "audio": [
+        {
+          "speaker": "Philipp",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Sara, sollen wir heute Mittag schnell etwas essen? Vielleicht einen Burger?"
+        },
+        {
+          "speaker": "Sara",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Lieber nicht, Philipp. Ich möchte etwas Leichteres. Wie wäre es mit einem Salat oder einer Suppe?"
+        }
+      ]
+    },
+    {
+      "id": "gen-p-h3-89670c80-s3",
+      "module": "horen",
+      "teil": 3,
+      "lang": "de",
+      "level": "A2",
+      "topicTag": "Ernährung",
+      "text": "Tim: Sophie, ich brauche einen schnellen Tipp für das Abendessen. Was kochst du heute?\nSophie: Ich mache eine Gemüsepfanne mit Reis. Das ist einfach und sehr lecker. Du kannst es auch probieren!",
+      "audio": [
+        {
+          "speaker": "Tim",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Sophie, ich brauche einen schnellen Tipp für das Abendessen. Was kochst du heute?"
+        },
+        {
+          "speaker": "Sophie",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Ich mache eine Gemüsepfanne mit Reis. Das ist einfach und sehr lecker. Du kannst es auch probieren!"
+        }
+      ]
+    },
+    {
+      "id": "gen-p-h3-89670c80-s4",
+      "module": "horen",
+      "teil": 3,
+      "lang": "de",
+      "level": "A2",
+      "topicTag": "Ernährung",
+      "text": "Niklas: Laura, ich esse in letzter Zeit zu viele Süßigkeiten. Hast du einen Tipp für gesunde Snacks?\nLaura: Klar! Iss doch einfach mehr Obst oder ein paar Nüsse. Das ist viel besser für dich.",
+      "audio": [
+        {
+          "speaker": "Niklas",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Laura, ich esse in letzter Zeit zu viele Süßigkeiten. Hast du einen Tipp für gesunde Snacks?"
+        },
+        {
+          "speaker": "Laura",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Klar! Iss doch einfach mehr Obst oder ein paar Nüsse. Das ist viel besser für dich."
+        }
+      ]
+    },
+    {
+      "id": "gen-p-h3-89670c80-s5",
+      "module": "horen",
+      "teil": 3,
+      "lang": "de",
+      "level": "A2",
+      "topicTag": "Ernährung",
+      "text": "Paul: Nina, ich gehe gleich einkaufen. Brauchst du noch etwas für die Küche?\nNina: Ja, Paul, bitte! Kauf frisches Gemüse und ein gutes Vollkornbrot. Das wäre super.",
+      "audio": [
+        {
+          "speaker": "Paul",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Nina, ich gehe gleich einkaufen. Brauchst du noch etwas für die Küche?"
+        },
+        {
+          "speaker": "Nina",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Ja, Paul, bitte! Kauf frisches Gemüse und ein gutes Vollkornbrot. Das wäre super."
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "gen-q-h3-89670c80-q1",
+      "module": "horen",
+      "teil": 3,
+      "lang": "de",
+      "level": "A2",
+      "type": "multiple_choice",
+      "passageId": "gen-p-h3-89670c80-s1",
+      "segmentLabel": "Text 1",
+      "question": "Was isst Jana normalerweise zum Frühstück?",
+      "options": [
+        "a) Sie frühstückt meistens gar nichts.",
+        "b) Sie isst nur Joghurt und ein Stück Brot.",
+        "c) Müsli mit Joghurt und Obst."
+      ],
+      "correct": "c",
+      "correctAnswer": "c",
+      "explanation": "Jana sagt, sie isst meistens Müsli mit Joghurt und frischem Obst zum Frühstück.",
+      "language": "de",
+      "examType": "goethe",
+      "difficulty": 5,
+      "skills": [
+        "listening"
+      ],
+      "topicTags": [
+        "Ernährung"
+      ],
+      "vocabularyTags": [
+        "normalerweis",
+        "Frühstück",
+        "Joghurt",
+        "Müsli"
+      ],
+      "grammarTags": [
+        "g-de-a2-trennbar"
+      ]
+    },
+    {
+      "id": "gen-q-h3-89670c80-q2",
+      "module": "horen",
+      "teil": 3,
+      "lang": "de",
+      "level": "A2",
+      "type": "multiple_choice",
+      "passageId": "gen-p-h3-89670c80-s2",
+      "segmentLabel": "Text 2",
+      "question": "Was möchte Sara zum Mittagessen?",
+      "options": [
+        "a) Sie möchte einen großen Burger essen.",
+        "b) Einen Salat oder eine Suppe.",
+        "c) Sie hat keinen Hunger und isst nichts."
+      ],
+      "correct": "b",
+      "correctAnswer": "b",
+      "explanation": "Sara möchte lieber etwas Leichtes essen, wie einen Salat oder eine Suppe, anstatt eines Burgers.",
+      "language": "de",
+      "examType": "goethe",
+      "difficulty": 5,
+      "skills": [
+        "listening"
+      ],
+      "topicTags": [
+        "Ernährung"
+      ],
+      "vocabularyTags": [
+        "mittagessen",
+        "möcht",
+        "Salat",
+        "Suppe"
+      ],
+      "grammarTags": [
+        "g-de-a2-modal",
+        "g-de-a2-trennbar",
+        "g-de-a2-dat-akk"
+      ]
+    },
+    {
+      "id": "gen-q-h3-89670c80-q3",
+      "module": "horen",
+      "teil": 3,
+      "lang": "de",
+      "level": "A2",
+      "type": "multiple_choice",
+      "passageId": "gen-p-h3-89670c80-s3",
+      "segmentLabel": "Text 3",
+      "question": "Was empfiehlt Sophie Tim für das Abendessen?",
+      "options": [
+        "a) Eine einfache Gemüsepfanne mit Reis.",
+        "b) Sie schlägt einen kleinen Salat vor.",
+        "c) Sie hat keine Idee für das Abendessen."
+      ],
+      "correct": "a",
+      "correctAnswer": "a",
+      "explanation": "Sophie schlägt Tim vor, eine Gemüsepfanne mit Reis zu kochen, da es einfach und lecker ist.",
+      "language": "de",
+      "examType": "goethe",
+      "difficulty": 5,
+      "skills": [
+        "listening"
+      ],
+      "topicTags": [
+        "Ernährung"
+      ],
+      "vocabularyTags": [
+        "abendessen",
+        "Gemüsepfanne",
+        "einfach",
+        "Sophie"
+      ],
+      "grammarTags": [
+        "g-de-a2-trennbar",
+        "g-de-a2-dat-akk"
+      ]
+    },
+    {
+      "id": "gen-q-h3-89670c80-q4",
+      "module": "horen",
+      "teil": 3,
+      "lang": "de",
+      "level": "A2",
+      "type": "multiple_choice",
+      "passageId": "gen-p-h3-89670c80-s4",
+      "segmentLabel": "Text 4",
+      "question": "Was schlägt Laura als gesunden Snack vor?",
+      "options": [
+        "a) Einen großen Kuchen.",
+        "b) Nur Süßigkeiten.",
+        "c) Obst oder Nüsse."
+      ],
+      "correct": "c",
+      "correctAnswer": "c",
+      "explanation": "Laura empfiehlt Niklas, Obst oder Nüsse zu essen, weil das gesünder ist als Süßigkeiten.",
+      "language": "de",
+      "examType": "goethe",
+      "difficulty": 5,
+      "skills": [
+        "listening"
+      ],
+      "topicTags": [
+        "Ernährung"
+      ],
+      "vocabularyTags": [
+        "gesund",
+        "Laura",
+        "Snack",
+        "Nüsse"
+      ],
+      "grammarTags": [
+        "g-de-a2-nebensatz"
+      ]
+    },
+    {
+      "id": "gen-q-h3-89670c80-q5",
+      "module": "horen",
+      "teil": 3,
+      "lang": "de",
+      "level": "A2",
+      "type": "multiple_choice",
+      "passageId": "gen-p-h3-89670c80-s5",
+      "segmentLabel": "Text 5",
+      "question": "Was soll Paul für Nina einkaufen?",
+      "options": [
+        "a) Nur ein paar Süßigkeiten für den Abend.",
+        "b) Frisches Gemüse und ein gutes Vollkornbrot.",
+        "c) Einen Burger und eine Portion Pommes."
+      ],
+      "correct": "b",
+      "correctAnswer": "b",
+      "explanation": "Nina bittet Paul, frisches Gemüse und ein gutes Vollkornbrot für sie einzukaufen.",
+      "language": "de",
+      "examType": "goethe",
+      "difficulty": 5,
+      "skills": [
+        "listening"
+      ],
+      "topicTags": [
+        "Ernährung"
+      ],
+      "vocabularyTags": [
+        "einkaufen",
+        "Gemüse",
+        "Vollkornbrot",
+        "frisches"
+      ],
+      "grammarTags": [
+        "g-de-a2-modal",
+        "g-de-a2-trennbar"
+      ]
+    }
+  ],
+  "_germanCapsNormalizeVersion": "v3.23-lesen-t2-angebote-corpus-2026-07-28",
+  "_germanCapsNormalizedAt": "2026-07-27T07:10:21.186Z",
+  "_balanceMcqVersion": "v1.2-no-rf-chrono-shuffle-2026-07-11",
+  "_balanceMcqNormalizedAt": "2026-07-27T07:10:21.186Z",
+  "topicTag": "Ernährung",
+  "_requestedTopic": "Ernährung",
+  "generationMetadata": {
+    "usedFeedback": false,
+    "feedbackRules": [],
+    "feedbackCount": 0,
+    "feedbackCategories": [],
+    "feedbackMode": "off",
+    "feedbackVersion": "v1"
+  },
+  "_metadataEnrichedAt": "2026-07-27T07:10:23.457Z",
+  "_metadataEnrichNote": "deterministic: detectTopic + per-question lemma vocab + grammar heuristics",
+  "_vocabTagsNormalizeVersion": "v2.3.16-b1-validated-verb-adj-lemma-2026-07-24",
+  "_grammarTagsNormalizeVersion": "v2.2-a2-b2-level-tags-2026-07-27",
+  "_germanCapsMetadataRestampAt": "2026-08-05T04:37:08.172Z",
+  "_germanCapsMetadataRestampNote": "metadata-only; no applyGermanCapsNormalize"
+}

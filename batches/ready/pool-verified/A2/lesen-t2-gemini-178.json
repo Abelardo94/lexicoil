@@ -1,0 +1,288 @@
+{
+  "passages": [
+    {
+      "id": "gen-l2-3a9e2749-1",
+      "text": "Willkommen im Reisezentrum \"Globus\"! Hier finden Sie alle Informationen für Ihre nächste Reise und praktische Services.\n\nErdgeschoss:\nInformation & Empfang: Hier gibt es Broschüren und Beratung zu Reisezielen.\nKoffer-Shop \"Pack & Go\": Kaufen Sie hier Koffer und Reisegepäck für das Ausland.\nCafé \"Weltreise\": Hier gibt es Kaffee und kleine Snacks.\n\n1. Obergeschoss:\nReisebüro \"Fernweh\": Buchen Sie hier Flüge, Hotels und Reisepakete.\nSprachschule \"Global Talk\": Lernen Sie Sätze für Ihr Reiseziel im Ausland.\nBuchhandlung \"ReiseLust\": Hier finden Sie Reiseführer und Landkarten.\n\n2. Obergeschoss:\nFahrkartenverkauf \"Bahn & Bus\": Kaufen Sie hier Tickets für Bahn und Bus.\nVisum-Service \"Grenzenlos\": Hier gibt es Hilfe für Visa-Anträge.\nGeldwechselstube \"Euro & Co.\": Wechseln Sie hier Ihr Geld.",
+      "type": "information_board",
+      "level": "A2",
+      "topicTag": "Reisen",
+      "module": "lesen",
+      "teil": 2,
+      "lang": "de"
+    }
+  ],
+  "questions": [
+    {
+      "id": "gen-q-2-3a9e2749-1",
+      "passageId": "gen-l2-3a9e2749-1",
+      "question": "Maria möchte einen neuen Koffer kaufen. In welchem Stock findet sie ein Geschäft dafür?",
+      "type": "multiple_choice",
+      "options": [
+        "a) in einem anderen Stock",
+        "b) im Erdgeschoss",
+        "c) im 1. Obergeschoss"
+      ],
+      "correctAnswer": "b",
+      "explanation": "Der Koffer-Shop \"Pack & Go\" befindet sich im Erdgeschoss. Dort kann Maria einen neuen Koffer kaufen.",
+      "module": "lesen",
+      "teil": 2,
+      "level": "A2",
+      "correct": "b",
+      "lang": "de",
+      "topicTags": [
+        "Reisen"
+      ],
+      "vocabularyTags": [
+        "Koffer",
+        "kaufen",
+        "finden",
+        "Erdgeschoss",
+        "Geschäft",
+        "neuen"
+      ],
+      "grammarTags": [
+        "g-de-a2-modal",
+        "g-de-a2-trennbar",
+        "g-de-a2-dat-akk"
+      ]
+    },
+    {
+      "id": "gen-q-2-3a9e2749-2",
+      "passageId": "gen-l2-3a9e2749-1",
+      "question": "Herr Schmidt braucht ein Visum für seine Reise ins Ausland. Auf welcher Etage bekommt er Hilfe?",
+      "type": "multiple_choice",
+      "options": [
+        "a) im 2. Stock",
+        "b) im Erdgeschoss",
+        "c) in einem anderen Stock"
+      ],
+      "correctAnswer": "a",
+      "explanation": "Der Visum-Service \"Grenzenlos\" befindet sich im 2. Obergeschoss. Dort bekommt Herr Schmidt Hilfe für seinen Visa-Antrag.",
+      "module": "lesen",
+      "teil": 2,
+      "level": "A2",
+      "correct": "a",
+      "lang": "de",
+      "topicTags": [
+        "Reisen"
+      ],
+      "vocabularyTags": [
+        "brauchen",
+        "Hilfe",
+        "Schmidt",
+        "Ausland",
+        "Visum",
+        "Reise"
+      ],
+      "grammarTags": [
+        "g-de-a2-trennbar",
+        "g-de-a2-dat-akk"
+      ]
+    },
+    {
+      "id": "gen-q-2-3a9e2749-3",
+      "passageId": "gen-l2-3a9e2749-1",
+      "question": "Lisa möchte einen Flug und ein Hotel buchen. In welchem Stock ist das Reisebüro?",
+      "type": "multiple_choice",
+      "options": [
+        "a) in einem anderen Stock",
+        "b) im Erdgeschoss",
+        "c) im 1. Obergeschoss"
+      ],
+      "correctAnswer": "c",
+      "explanation": "Das Reisebüro \"Fernweh\" befindet sich im 1. Obergeschoss. Dort kann Lisa Flüge und Hotels buchen.",
+      "module": "lesen",
+      "teil": 2,
+      "level": "A2",
+      "correct": "c",
+      "lang": "de",
+      "topicTags": [
+        "Reisen"
+      ],
+      "vocabularyTags": [
+        "buchen",
+        "Obergeschoss",
+        "Reisebüro",
+        "möcht",
+        "Hotel",
+        "welch"
+      ],
+      "grammarTags": [
+        "g-de-a2-modal",
+        "g-de-a2-trennbar",
+        "g-de-a2-dat-akk"
+      ]
+    },
+    {
+      "id": "gen-q-2-3a9e2749-4",
+      "passageId": "gen-l2-3a9e2749-1",
+      "question": "Sie möchten Geld für Ihre Reise wechseln. In welchem Stock befindet sich die Geldwechselstube?",
+      "type": "multiple_choice",
+      "options": [
+        "a) im 2. Stock",
+        "b) im Erdgeschoss",
+        "c) in einem anderen Stock"
+      ],
+      "correctAnswer": "a",
+      "explanation": "Die Geldwechselstube \"Euro & Co.\" ist im 2. Obergeschoss. Dort können Sie Ihr Geld wechseln.",
+      "module": "lesen",
+      "teil": 2,
+      "level": "A2",
+      "correct": "a",
+      "lang": "de",
+      "topicTags": [
+        "Reisen"
+      ],
+      "vocabularyTags": [
+        "wechseln",
+        "möchten",
+        "Geldwechselstube",
+        "Geld",
+        "Reise",
+        "welch"
+      ],
+      "grammarTags": [
+        "g-de-a2-modal",
+        "g-de-a2-dat-akk"
+      ]
+    },
+    {
+      "id": "gen-q-2-3a9e2749-5",
+      "passageId": "gen-l2-3a9e2749-1",
+      "question": "Ein Tourist braucht Informationen über verschiedene Reiseziele. In welchem Stock bekommt er persönliche Beratung?",
+      "type": "multiple_choice",
+      "options": [
+        "a) im 1. Stock",
+        "b) im Erdgeschoss",
+        "c) im 2. Stock"
+      ],
+      "correctAnswer": "b",
+      "explanation": "Der Tourist bekommt persönliche Beratung bei der Information & Empfang im Erdgeschoss.",
+      "module": "lesen",
+      "teil": 2,
+      "level": "A2",
+      "correct": "b",
+      "lang": "de",
+      "topicTags": [
+        "Reisen"
+      ],
+      "vocabularyTags": [
+        "persönlich",
+        "brauchen",
+        "verschieden",
+        "Beratung",
+        "Informationen",
+        "Erdgeschoss"
+      ],
+      "grammarTags": [
+        "g-de-a2-dat-akk"
+      ]
+    }
+  ],
+  "_germanCapsNormalizeVersion": "v3.23-lesen-t2-angebote-corpus-2026-07-28",
+  "_germanCapsNormalizedAt": "2026-08-02T10:47:25.210Z",
+  "_balanceMcqVersion": "v1.2-no-rf-chrono-shuffle-2026-07-11",
+  "_balanceMcqNormalizedAt": "2026-08-02T10:47:25.202Z",
+  "topicTag": "Reisen",
+  "_requestedTopic": "Reisen",
+  "userVocabFeedback": {
+    "topic": "Reisen",
+    "requested": [
+      "koffer",
+      "tourist",
+      "ausland",
+      "abflug",
+      "ausländer",
+      "ausländisch",
+      "autobahn",
+      "bahnsteig"
+    ],
+    "prompted": [
+      "koffer",
+      "tourist",
+      "ausland",
+      "abflug",
+      "ausländer",
+      "ausländisch",
+      "autobahn",
+      "bahnsteig"
+    ],
+    "originalRequested": [
+      "koffer",
+      "tourist",
+      "ausland",
+      "abflug",
+      "ausländer",
+      "ausländisch",
+      "autobahn",
+      "bahnsteig"
+    ],
+    "subtypeAdaptation": null,
+    "used": [
+      "koffer",
+      "tourist",
+      "ausland"
+    ],
+    "notUsed": [
+      "abflug",
+      "ausländer",
+      "ausländisch",
+      "autobahn",
+      "bahnsteig"
+    ],
+    "excluded": [],
+    "ratio": 0.375,
+    "targetUsage": [
+      {
+        "word": "koffer",
+        "surfaces": [
+          "Koffer"
+        ]
+      },
+      {
+        "word": "tourist",
+        "surfaces": [
+          "Tourist"
+        ]
+      },
+      {
+        "word": "ausland",
+        "surfaces": [
+          "Ausland"
+        ]
+      }
+    ]
+  },
+  "targetUsage": [
+    {
+      "word": "koffer",
+      "surfaces": [
+        "Koffer"
+      ]
+    },
+    {
+      "word": "tourist",
+      "surfaces": [
+        "Tourist"
+      ]
+    },
+    {
+      "word": "ausland",
+      "surfaces": [
+        "Ausland"
+      ]
+    }
+  ],
+  "generationMetadata": {
+    "usedFeedback": false,
+    "feedbackRules": [],
+    "feedbackCount": 0,
+    "feedbackCategories": [],
+    "feedbackMode": "off",
+    "feedbackVersion": "v1"
+  },
+  "_metadataEnrichedAt": "2026-08-02T10:47:43.803Z",
+  "_metadataEnrichNote": "deterministic: detectTopic + per-question lemma vocab + grammar heuristics",
+  "_vocabTagsNormalizeVersion": "v2.3.18-paso3-vocab-plural-rubric-strip-2026-08-02",
+  "_grammarTagsNormalizeVersion": "v2.2-a2-b2-level-tags-2026-07-27"
+}

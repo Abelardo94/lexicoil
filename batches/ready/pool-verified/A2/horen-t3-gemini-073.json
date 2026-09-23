@@ -1,0 +1,321 @@
+{
+  "passages": [
+    {
+      "id": "gen-p-h3-3b4e3ad0-s1",
+      "module": "horen",
+      "teil": 3,
+      "lang": "de",
+      "level": "A2",
+      "topicTag": "Freizeit",
+      "text": "Noah: Sag mal, Lea, hast du schon Pläne für das Wochenende? Ich dachte, wir könnten etwas zusammen unternehmen.\nLea: Ja, Noah! Ich wollte sowieso fragen. Ich habe gehört, es gibt ein schönes Fest in der Stadt. Hast du Lust?",
+      "audio": [
+        {
+          "speaker": "Noah",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Sag mal, Lea, hast du schon Pläne für das Wochenende? Ich dachte, wir könnten etwas zusammen unternehmen."
+        },
+        {
+          "speaker": "Lea",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Ja, Noah! Ich wollte sowieso fragen. Ich habe gehört, es gibt ein schönes Fest in der Stadt. Hast du Lust?"
+        }
+      ]
+    },
+    {
+      "id": "gen-p-h3-3b4e3ad0-s2",
+      "module": "horen",
+      "teil": 3,
+      "lang": "de",
+      "level": "A2",
+      "topicTag": "Freizeit",
+      "text": "Ben: Anna, ich habe gestern Abend ein neues Buch gelesen. Es war wirklich spannend. Liest du auch gern in deiner Freizeit?\nAnna: Ja, Ben, sehr gern! Am liebsten entspanne ich mich mit einem guten Roman. Das ist mein perfekter Ausgleich nach der Arbeit.",
+      "audio": [
+        {
+          "speaker": "Ben",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Anna, ich habe gestern Abend ein neues Buch gelesen. Es war wirklich spannend. Liest du auch gern in deiner Freizeit?"
+        },
+        {
+          "speaker": "Anna",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Ja, Ben, sehr gern! Am liebsten entspanne ich mich mit einem guten Roman. Das ist mein perfekter Ausgleich nach der Arbeit."
+        }
+      ]
+    },
+    {
+      "id": "gen-p-h3-3b4e3ad0-s3",
+      "module": "horen",
+      "teil": 3,
+      "lang": "de",
+      "level": "A2",
+      "topicTag": "Freizeit",
+      "text": "Max: Lena, ich habe eine Idee für heute Abend. Im Kino läuft ein neuer Film. Wollen wir hingehen?\nLena: Oh, Max, das klingt gut! Aber ich bin heute Abend schon verabredet. Wie wäre es morgen? Da habe ich Zeit.",
+      "audio": [
+        {
+          "speaker": "Max",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Lena, ich habe eine Idee für heute Abend. Im Kino läuft ein neuer Film. Wollen wir hingehen?"
+        },
+        {
+          "speaker": "Lena",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Oh, Max, das klingt gut! Aber ich bin heute Abend schon verabredet. Wie wäre es morgen? Da habe ich Zeit."
+        }
+      ]
+    },
+    {
+      "id": "gen-p-h3-3b4e3ad0-s4",
+      "module": "horen",
+      "teil": 3,
+      "lang": "de",
+      "level": "A2",
+      "topicTag": "Freizeit",
+      "text": "Tom: Katja, ich muss zum Konzert. Weißt du, wann der nächste Bus fährt? Ich habe den Fahrplan nicht dabei.\nKatja: Moment, Tom. Ich schaue schnell auf meinem Handy nach. Der Bus kommt in zehn Minuten. Du bist dann pünktlich da.",
+      "audio": [
+        {
+          "speaker": "Tom",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Katja, ich muss zum Konzert. Weißt du, wann der nächste Bus fährt? Ich habe den Fahrplan nicht dabei."
+        },
+        {
+          "speaker": "Katja",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Moment, Tom. Ich schaue schnell auf meinem Handy nach. Der Bus kommt in zehn Minuten. Du bist dann pünktlich da."
+        }
+      ]
+    },
+    {
+      "id": "gen-p-h3-3b4e3ad0-s5",
+      "module": "horen",
+      "teil": 3,
+      "lang": "de",
+      "level": "A2",
+      "topicTag": "Freizeit",
+      "text": "Moritz: Jana, ich habe ein neues Online-Spiel entdeckt. Es macht wirklich viel Spaß! Willst du es auch mal anklicken?\nJana: Oh, Moritz, das klingt interessant! Ich suche gerade etwas Neues für meine Freizeit. Ich probiere es gern aus.",
+      "audio": [
+        {
+          "speaker": "Moritz",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Jana, ich habe ein neues Online-Spiel entdeckt. Es macht wirklich viel Spaß! Willst du es auch mal anklicken?"
+        },
+        {
+          "speaker": "Jana",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Oh, Moritz, das klingt interessant! Ich suche gerade etwas Neues für meine Freizeit. Ich probiere es gern aus."
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "gen-q-h3-3b4e3ad0-q1",
+      "module": "horen",
+      "teil": 3,
+      "lang": "de",
+      "level": "A2",
+      "type": "multiple_choice",
+      "passageId": "gen-p-h3-3b4e3ad0-s1",
+      "segmentLabel": "Text 1",
+      "question": "Was schlägt Lea für das Wochenende vor?",
+      "options": [
+        "a) Sie möchte zu Hause bleiben.",
+        "b) Sie hat keine Zeit für Noah.",
+        "c) Sie will ein Fest besuchen."
+      ],
+      "correct": "c",
+      "correctAnswer": "c",
+      "explanation": "Lea schlägt vor, ein Fest in der Stadt zu besuchen. Sie fragt Noah, ob er Lust dazu hat.",
+      "language": "de",
+      "examType": "goethe",
+      "difficulty": 5,
+      "skills": [
+        "listening"
+      ],
+      "topicTags": [
+        "Freizeit"
+      ],
+      "vocabularyTags": [
+        "Wochenende",
+        "besuchen"
+      ],
+      "grammarTags": [
+        "g-de-a2-nebensatz",
+        "g-de-a2-modal",
+        "g-de-a2-dat-akk",
+        "g-de-a2-praesens"
+      ]
+    },
+    {
+      "id": "gen-q-h3-3b4e3ad0-q2",
+      "module": "horen",
+      "teil": 3,
+      "lang": "de",
+      "level": "A2",
+      "type": "multiple_choice",
+      "passageId": "gen-p-h3-3b4e3ad0-s2",
+      "segmentLabel": "Text 2",
+      "question": "Was macht Anna am liebsten in ihrer Freizeit?",
+      "options": [
+        "a) Sie arbeitet viel.",
+        "b) Sie geht ins Kino.",
+        "c) Sie liest Romane."
+      ],
+      "correct": "c",
+      "correctAnswer": "c",
+      "explanation": "Anna sagt, dass sie am liebsten Romane liest. Das ist ihr perfekter Ausgleich nach der Arbeit.",
+      "language": "de",
+      "examType": "goethe",
+      "difficulty": 5,
+      "skills": [
+        "listening"
+      ],
+      "topicTags": [
+        "Freizeit"
+      ],
+      "vocabularyTags": [
+        "liebsten",
+        "Freizeit",
+        "Romane"
+      ],
+      "grammarTags": [
+        "g-de-a2-nebensatz",
+        "g-de-a2-trennbar",
+        "g-de-a2-dat-akk",
+        "g-de-a2-komparativ"
+      ]
+    },
+    {
+      "id": "gen-q-h3-3b4e3ad0-q3",
+      "module": "horen",
+      "teil": 3,
+      "lang": "de",
+      "level": "A2",
+      "type": "multiple_choice",
+      "passageId": "gen-p-h3-3b4e3ad0-s3",
+      "segmentLabel": "Text 3",
+      "question": "Warum kann Lena heute Abend nicht ins Kino gehen?",
+      "options": [
+        "a) Sie ist schon verabredet.",
+        "b) Sie muss arbeiten.",
+        "c) Sie hat keine Lust auf den Film."
+      ],
+      "correct": "a",
+      "correctAnswer": "a",
+      "explanation": "Lena erklärt, dass sie heute Abend schon verabredet ist und deshalb nicht mit Max ins Kino gehen kann.",
+      "language": "de",
+      "examType": "goethe",
+      "difficulty": 5,
+      "skills": [
+        "listening"
+      ],
+      "topicTags": [
+        "Freizeit"
+      ],
+      "vocabularyTags": [
+        "Abend",
+        "gehen"
+      ],
+      "grammarTags": [
+        "g-de-a2-nebensatz",
+        "g-de-a2-modal",
+        "g-de-a2-perfekt",
+        "g-de-a2-trennbar"
+      ]
+    },
+    {
+      "id": "gen-q-h3-3b4e3ad0-q4",
+      "module": "horen",
+      "teil": 3,
+      "lang": "de",
+      "level": "A2",
+      "type": "multiple_choice",
+      "passageId": "gen-p-h3-3b4e3ad0-s4",
+      "segmentLabel": "Text 4",
+      "question": "Was macht Katja für Tom?",
+      "options": [
+        "a) Sie hilft ihm, den Bus zu finden.",
+        "b) Sie schaut nach der Bus-Abfahrtszeit.",
+        "c) Sie erklärt ihm den Weg zum Konzert."
+      ],
+      "correct": "b",
+      "correctAnswer": "b",
+      "explanation": "Katja schaut auf ihrem Handy nach, wann der nächste Bus fährt, um Tom zu helfen.",
+      "language": "de",
+      "examType": "goethe",
+      "difficulty": 5,
+      "skills": [
+        "listening"
+      ],
+      "topicTags": [
+        "Freizeit"
+      ],
+      "vocabularyTags": [
+        "bus-abfahrtszeit",
+        "Katja"
+      ],
+      "grammarTags": [
+        "g-de-a2-trennbar",
+        "g-de-a2-dat-akk"
+      ]
+    },
+    {
+      "id": "gen-q-h3-3b4e3ad0-q5",
+      "module": "horen",
+      "teil": 3,
+      "lang": "de",
+      "level": "A2",
+      "type": "multiple_choice",
+      "passageId": "gen-p-h3-3b4e3ad0-s5",
+      "segmentLabel": "Text 5",
+      "question": "Was möchte Jana in ihrer Freizeit ausprobieren?",
+      "options": [
+        "a) Ein neues Online-Spiel.",
+        "b) Ein neues Buch lesen.",
+        "c) Einen Film im Kino sehen."
+      ],
+      "correct": "a",
+      "correctAnswer": "a",
+      "explanation": "Jana findet das neue Online-Spiel, das Moritz entdeckt hat, interessant und möchte es gern ausprobieren.",
+      "language": "de",
+      "examType": "goethe",
+      "difficulty": 5,
+      "skills": [
+        "listening"
+      ],
+      "topicTags": [
+        "Freizeit"
+      ],
+      "vocabularyTags": [
+        "ausprobieren",
+        "Freizeit",
+        "online-spiel",
+        "möcht"
+      ],
+      "grammarTags": [
+        "g-de-a2-modal",
+        "g-de-a2-trennbar",
+        "g-de-a2-dat-akk"
+      ]
+    }
+  ],
+  "_germanCapsNormalizeVersion": "v3.23-lesen-t2-angebote-corpus-2026-07-28",
+  "_germanCapsNormalizedAt": "2026-07-27T06:54:50.328Z",
+  "_balanceMcqVersion": "v1.2-no-rf-chrono-shuffle-2026-07-11",
+  "_balanceMcqNormalizedAt": "2026-07-27T06:54:50.328Z",
+  "topicTag": "Freizeit",
+  "_requestedTopic": "Freizeit",
+  "generationMetadata": {
+    "usedFeedback": false,
+    "feedbackRules": [],
+    "feedbackCount": 0,
+    "feedbackCategories": [],
+    "feedbackMode": "off",
+    "feedbackVersion": "v1"
+  },
+  "_metadataEnrichedAt": "2026-07-27T06:54:58.063Z",
+  "_metadataEnrichNote": "deterministic: detectTopic + per-question lemma vocab + grammar heuristics",
+  "_vocabTagsNormalizeVersion": "v2.3.16-b1-validated-verb-adj-lemma-2026-07-24",
+  "_grammarTagsNormalizeVersion": "v2.2-a2-b2-level-tags-2026-07-27",
+  "_germanCapsMetadataRestampAt": "2026-08-05T04:37:08.162Z",
+  "_germanCapsMetadataRestampNote": "metadata-only; no applyGermanCapsNormalize"
+}

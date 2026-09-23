@@ -1,0 +1,98 @@
+{
+  "passages": [],
+  "questions": [
+    {
+      "id": "gen-q-sp-t3-3c3053fa-q1",
+      "module": "sprechen",
+      "teil": 3,
+      "lang": "de",
+      "level": "A2",
+      "type": "plan_together",
+      "question": "Sie möchten mit Ihrem Partner/Ihrer Partnerin eine neue Kunstausstellung im Stadtmuseum besuchen. Planen Sie gemeinsam, wann Sie die Ausstellung besuchen möchten und welche Art von Kunst Sie interessiert.\n\nIhre Woche:\nMontag 9–11 Uhr: Deutschkurs\nDienstag 14–16 Uhr: Frei\nMittwoch 10–12 Uhr: Sport\nDonnerstag 15–17 Uhr: Frei\nFreitag 11–13 Uhr: Arbeit\n\nWoche Ihres Partners/Ihrer Partnerin:\nMontag 14–16 Uhr: Meeting\nDienstag 14–16 Uhr: Frei\nMittwoch 15–17 Uhr: Frei\nDonnerstag 10–12 Uhr: Frei\nFreitag 14–16 Uhr: Frei\n\neinigen Sie sich auf einen Termin und eine Art von Kunst, die Sie beide interessant finden.",
+      "correct": "rubric",
+      "correctAnswer": "rubric",
+      "options": [],
+      "explanation": "In diesem Teil planen Sie gemeinsam etwas und finden einen Termin. Wichtig sind Verständlichkeit, einfache Verhandlung und passender Wortschatz auf A2-Niveau.",
+      "difficulty": 3,
+      "skills": [
+        "speaking"
+      ],
+      "language": "de",
+      "examType": "goethe",
+      "topicTags": [
+        "Stadtleben"
+      ],
+      "vocabularyTags": [
+        "Partner",
+        "interessant",
+        "gemeinsam",
+        "besuchen",
+        "Kunstausstellung",
+        "Ausstellung"
+      ],
+      "grammarTags": [
+        "g-de-a2-trennbar",
+        "g-de-a2-dat-akk",
+        "g-de-a2-praesens"
+      ]
+    }
+  ],
+  "_germanCapsNormalizeVersion": "v3.23-lesen-t2-angebote-corpus-2026-07-28",
+  "_germanCapsNormalizedAt": "2026-09-23T01:47:55.597Z",
+  "_balanceMcqVersion": "v1.2-no-rf-chrono-shuffle-2026-07-11",
+  "_balanceMcqNormalizedAt": "2026-09-23T01:47:55.597Z",
+  "topicTag": "Stadtleben",
+  "_requestedTopic": "Stadtleben",
+  "userVocabFeedback": {
+    "topic": "Stadtleben",
+    "requested": [
+      "aufgabe",
+      "situation",
+      "zukunft",
+      "täglich",
+      "direkt",
+      "bedeuten",
+      "anmeldung",
+      "erfahrung"
+    ],
+    "prompted": [
+      "aufgabe",
+      "situation",
+      "zukunft",
+      "täglich",
+      "direkt",
+      "bedeuten",
+      "anmeldung",
+      "erfahrung"
+    ],
+    "originalRequested": null,
+    "subtypeAdaptation": null,
+    "used": [],
+    "notUsed": [
+      "aufgabe",
+      "situation",
+      "zukunft",
+      "täglich",
+      "direkt",
+      "bedeuten",
+      "anmeldung",
+      "erfahrung"
+    ],
+    "excluded": [],
+    "ratio": 0,
+    "targetUsage": []
+  },
+  "targetUsage": [],
+  "generationMetadata": {
+    "usedFeedback": false,
+    "feedbackRules": [],
+    "feedbackCount": 0,
+    "feedbackCategories": [],
+    "feedbackMode": "off",
+    "feedbackVersion": "v1"
+  },
+  "_metadataEnrichedAt": "2026-09-23T01:47:55.758Z",
+  "_metadataEnrichNote": "deterministic: detectTopic + per-question lemma vocab + grammar heuristics",
+  "_vocabTagsNormalizeVersion": "v2.3.18-paso3-vocab-plural-rubric-strip-2026-08-02",
+  "_grammarTagsNormalizeVersion": "v2.2-a2-b2-level-tags-2026-07-27"
+}

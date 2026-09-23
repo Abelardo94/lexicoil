@@ -1,0 +1,322 @@
+{
+  "passages": [
+    {
+      "id": "gen-p-h3-80dc5f3e-s1",
+      "module": "horen",
+      "teil": 3,
+      "lang": "de",
+      "level": "A2",
+      "topicTag": "Kultur",
+      "text": "Katja: Sag mal, Tom, hast du schon die neue Ausstellung im Stadtmuseum gesehen?\nTom: Ja, Katja! Ich war am Wochenende dort. Die modernen Bilder sind wirklich interessant. Du solltest sie dir auch ansehen.",
+      "audio": [
+        {
+          "speaker": "Katja",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Sag mal, Tom, hast du schon die neue Ausstellung im Stadtmuseum gesehen?"
+        },
+        {
+          "speaker": "Tom",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Ja, Katja! Ich war am Wochenende dort. Die modernen Bilder sind wirklich interessant. Du solltest sie dir auch ansehen."
+        }
+      ]
+    },
+    {
+      "id": "gen-p-h3-80dc5f3e-s2",
+      "module": "horen",
+      "teil": 3,
+      "lang": "de",
+      "level": "A2",
+      "topicTag": "Kultur",
+      "text": "Jana: Du, Moritz, ich bin mir unsicher wegen der Theaterkarten für Samstag. Wann treffen wir uns?\nMoritz: Wir treffen uns um halb acht vor dem Theater. Ich habe die Karten schon. Es wird bestimmt ein schöner Abend.",
+      "audio": [
+        {
+          "speaker": "Jana",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Du, Moritz, ich bin mir unsicher wegen der Theaterkarten für Samstag. Wann treffen wir uns?"
+        },
+        {
+          "speaker": "Moritz",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Wir treffen uns um halb acht vor dem Theater. Ich habe die Karten schon. Es wird bestimmt ein schöner Abend."
+        }
+      ]
+    },
+    {
+      "id": "gen-p-h3-80dc5f3e-s3",
+      "module": "horen",
+      "teil": 3,
+      "lang": "de",
+      "level": "A2",
+      "topicTag": "Kultur",
+      "text": "Sara: Philipp, ich habe eben etwas über das Sommerfest gehört und bin nicht sicher, ob ich es richtig verstanden habe.\nPhilipp: Das Fest ist am Samstag im Park. Eine tolle Band spielt Live-Musik. Der Eintritt ist frei, das ist super!",
+      "audio": [
+        {
+          "speaker": "Sara",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Philipp, ich habe eben etwas über das Sommerfest gehört und bin nicht sicher, ob ich es richtig verstanden habe."
+        },
+        {
+          "speaker": "Philipp",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Das Fest ist am Samstag im Park. Eine tolle Band spielt Live-Musik. Der Eintritt ist frei, das ist super!"
+        }
+      ]
+    },
+    {
+      "id": "gen-p-h3-80dc5f3e-s4",
+      "module": "horen",
+      "teil": 3,
+      "lang": "de",
+      "level": "A2",
+      "topicTag": "Kultur",
+      "text": "Sophie: Tim, kannst du mir einen Tipp geben? Ich suche ein gutes Buch für den Urlaub.\nTim: Klar, Sophie! Ich habe gerade einen spannenden Roman gelesen. Er ist von einem bekannten deutschen Autor. Du kannst ihn in der Stadtbibliothek ausleihen.",
+      "audio": [
+        {
+          "speaker": "Sophie",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Tim, kannst du mir einen Tipp geben? Ich suche ein gutes Buch für den Urlaub."
+        },
+        {
+          "speaker": "Tim",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Klar, Sophie! Ich habe gerade einen spannenden Roman gelesen. Er ist von einem bekannten deutschen Autor. Du kannst ihn in der Stadtbibliothek ausleihen."
+        }
+      ]
+    },
+    {
+      "id": "gen-p-h3-80dc5f3e-s5",
+      "module": "horen",
+      "teil": 3,
+      "lang": "de",
+      "level": "A2",
+      "topicTag": "Kultur",
+      "text": "Laura: Niklas, ich komme gerade von unterwegs und wollte kurz nachfragen, ob du mit zum Konzert kommst.\nNiklas: Ja, Laura, ich komme mit! Aber es soll heute Abend kühl werden und vielleicht sogar nass. Nimm doch eine Mütze und eine Jacke mit.",
+      "audio": [
+        {
+          "speaker": "Laura",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Niklas, ich komme gerade von unterwegs und wollte kurz nachfragen, ob du mit zum Konzert kommst."
+        },
+        {
+          "speaker": "Niklas",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Ja, Laura, ich komme mit! Aber es soll heute Abend kühl werden und vielleicht sogar nass. Nimm doch eine Mütze und eine Jacke mit."
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "gen-q-h3-80dc5f3e-q1",
+      "module": "horen",
+      "teil": 3,
+      "lang": "de",
+      "level": "A2",
+      "type": "multiple_choice",
+      "passageId": "gen-p-h3-80dc5f3e-s1",
+      "segmentLabel": "Text 1",
+      "question": "Was hat Tom am Wochenende gemacht?",
+      "options": [
+        "a) Er hat sich zu Hause ausgeruht und gelesen.",
+        "b) Er war in der neuen Kunstausstellung im Museum.",
+        "c) Er hat Freunde besucht und Kaffee getrunken."
+      ],
+      "correct": "b",
+      "correctAnswer": "b",
+      "explanation": "Tom sagt: \"Ich war am Wochenende dort. Die modernen Bilder sind wirklich interessant.\"",
+      "language": "de",
+      "examType": "goethe",
+      "difficulty": 5,
+      "skills": [
+        "listening"
+      ],
+      "topicTags": [
+        "Kultur"
+      ],
+      "vocabularyTags": [
+        "Wochenende",
+        "Kunstausstellung",
+        "Museum",
+        "neuen"
+      ],
+      "grammarTags": [
+        "g-de-a2-perfekt"
+      ]
+    },
+    {
+      "id": "gen-q-h3-80dc5f3e-q2",
+      "module": "horen",
+      "teil": 3,
+      "lang": "de",
+      "level": "A2",
+      "type": "multiple_choice",
+      "passageId": "gen-p-h3-80dc5f3e-s2",
+      "segmentLabel": "Text 2",
+      "question": "Wann treffen sich Moritz und Jana?",
+      "options": [
+        "a) Am Samstag um 19:30 Uhr.",
+        "b) Am Morgen vor dem Theater.",
+        "c) Nach dem Theaterstück."
+      ],
+      "correct": "a",
+      "correctAnswer": "a",
+      "explanation": "Moritz sagt: \"Wir treffen uns um halb acht vor dem Theater.\" Halb acht ist 19:30 Uhr.",
+      "language": "de",
+      "examType": "goethe",
+      "difficulty": 5,
+      "skills": [
+        "listening"
+      ],
+      "topicTags": [
+        "Kultur"
+      ],
+      "vocabularyTags": [
+        "treffen",
+        "Samstag",
+        "Moritz"
+      ],
+      "grammarTags": [
+        "g-de-a2-dat-akk"
+      ]
+    },
+    {
+      "id": "gen-q-h3-80dc5f3e-q3",
+      "module": "horen",
+      "teil": 3,
+      "lang": "de",
+      "level": "A2",
+      "type": "multiple_choice",
+      "passageId": "gen-p-h3-80dc5f3e-s3",
+      "segmentLabel": "Text 3",
+      "question": "Was ist richtig über das Sommerfest?",
+      "options": [
+        "a) Es kostet Eintritt.",
+        "b) Es findet am Sonntag statt.",
+        "c) Eine Band spielt Live-Musik."
+      ],
+      "correct": "c",
+      "correctAnswer": "c",
+      "explanation": "Philipp erwähnt, dass eine tolle Band Live-Musik spielt. Der Eintritt ist frei und das Fest ist am Samstag.",
+      "language": "de",
+      "examType": "goethe",
+      "difficulty": 5,
+      "skills": [
+        "listening"
+      ],
+      "topicTags": [
+        "Kultur"
+      ],
+      "vocabularyTags": [
+        "spielen",
+        "Sommerfest",
+        "live-musik",
+        "richtig"
+      ],
+      "grammarTags": [
+        "g-de-a2-nebensatz",
+        "g-de-a2-trennbar",
+        "g-de-a2-dat-akk"
+      ]
+    },
+    {
+      "id": "gen-q-h3-80dc5f3e-q4",
+      "module": "horen",
+      "teil": 3,
+      "lang": "de",
+      "level": "A2",
+      "type": "multiple_choice",
+      "passageId": "gen-p-h3-80dc5f3e-s4",
+      "segmentLabel": "Text 4",
+      "question": "Wo kann Sophie das Buch finden?",
+      "options": [
+        "a) Bei Tim zu Hause.",
+        "b) In einem Buchladen.",
+        "c) In der Bibliothek."
+      ],
+      "correct": "c",
+      "correctAnswer": "c",
+      "explanation": "Tim sagt, dass Sophie das Buch in der Stadtbibliothek ausleihen kann. Die Bibliothek ist der Ort dafür.",
+      "language": "de",
+      "examType": "goethe",
+      "difficulty": 5,
+      "skills": [
+        "listening"
+      ],
+      "topicTags": [
+        "Kultur"
+      ],
+      "vocabularyTags": [
+        "Bibliothek",
+        "finden",
+        "Sophie"
+      ],
+      "grammarTags": [
+        "g-de-a2-nebensatz",
+        "g-de-a2-modal",
+        "g-de-a2-trennbar",
+        "g-de-a2-dat-akk"
+      ]
+    },
+    {
+      "id": "gen-q-h3-80dc5f3e-q5",
+      "module": "horen",
+      "teil": 3,
+      "lang": "de",
+      "level": "A2",
+      "type": "multiple_choice",
+      "passageId": "gen-p-h3-80dc5f3e-s5",
+      "segmentLabel": "Text 5",
+      "question": "Was soll Laura zum Konzert mitnehmen?",
+      "options": [
+        "a) Eine Mütze und eine Jacke.",
+        "b) Einen Regenschirm und warme Handschuhe.",
+        "c) Eine Decke und bequeme Schuhe."
+      ],
+      "correct": "a",
+      "correctAnswer": "a",
+      "explanation": "Niklas sagt: \"Nimm doch eine Mütze und eine Jacke mit.\"",
+      "language": "de",
+      "examType": "goethe",
+      "difficulty": 5,
+      "skills": [
+        "listening"
+      ],
+      "topicTags": [
+        "Kultur"
+      ],
+      "vocabularyTags": [
+        "mitnehmen",
+        "Konzert",
+        "Laura",
+        "Mütze",
+        "Jacke"
+      ],
+      "grammarTags": [
+        "g-de-a2-modal",
+        "g-de-a2-trennbar",
+        "g-de-a2-dat-akk"
+      ]
+    }
+  ],
+  "_germanCapsNormalizeVersion": "v3.23-lesen-t2-angebote-corpus-2026-07-28",
+  "_germanCapsNormalizedAt": "2026-07-27T07:07:21.922Z",
+  "_balanceMcqVersion": "v1.2-no-rf-chrono-shuffle-2026-07-11",
+  "_balanceMcqNormalizedAt": "2026-07-27T07:07:21.922Z",
+  "topicTag": "Kultur",
+  "_requestedTopic": "Kultur",
+  "generationMetadata": {
+    "usedFeedback": false,
+    "feedbackRules": [],
+    "feedbackCount": 0,
+    "feedbackCategories": [],
+    "feedbackMode": "off",
+    "feedbackVersion": "v1"
+  },
+  "_metadataEnrichedAt": "2026-07-27T07:07:32.554Z",
+  "_metadataEnrichNote": "deterministic: detectTopic + per-question lemma vocab + grammar heuristics",
+  "_vocabTagsNormalizeVersion": "v2.3.16-b1-validated-verb-adj-lemma-2026-07-24",
+  "_grammarTagsNormalizeVersion": "v2.2-a2-b2-level-tags-2026-07-27",
+  "_germanCapsMetadataRestampAt": "2026-08-05T04:37:08.169Z",
+  "_germanCapsMetadataRestampNote": "metadata-only; no applyGermanCapsNormalize"
+}

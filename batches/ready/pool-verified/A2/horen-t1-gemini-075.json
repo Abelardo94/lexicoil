@@ -1,0 +1,430 @@
+{
+  "passages": [
+    {
+      "id": "gen-p-h1-9bec7672-s1",
+      "module": "horen",
+      "teil": 1,
+      "lang": "de",
+      "level": "A2",
+      "title": "Text 1",
+      "text": "Willkommen zu unserem kurzen Alltagstipp! Heute sprechen wir über das Schreiben. Möchten Sie einen eigenen Blog starten? Es ist einfacher, als Sie denken! Finden Sie ein Thema, das Sie interessiert, und teilen Sie Ihre Gedanken täglich. So können Sie Ihre Ideen mit anderen teilen.",
+      "passageVocab": [
+        "blog",
+        "schreiben",
+        "täglich",
+        "ideen"
+      ],
+      "topicTag": "Medien",
+      "audio": [
+        {
+          "speaker": "Ansager",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Willkommen zu unserem kurzen Alltagstipp! Heute sprechen wir über das Schreiben. Möchten Sie einen eigenen Blog starten? Es ist einfacher, als Sie denken! Finden Sie ein Thema, das Sie interessiert, und teilen Sie Ihre Gedanken täglich. So können Sie Ihre Ideen mit anderen teilen."
+        }
+      ]
+    },
+    {
+      "id": "gen-p-h1-9bec7672-s2",
+      "module": "horen",
+      "teil": 1,
+      "lang": "de",
+      "level": "A2",
+      "title": "Text 2",
+      "text": "Guten Tag. Sie sind mit der Medien-Hotline verbunden. Leider rufen Sie außerhalb unserer Geschäftszeiten an. Unsere Aufgabe ist es, Ihnen bei technischen Problemen zu helfen. Bitte versuchen Sie es morgen früh noch einmal. Wir sind ab neun Uhr erreichbar.",
+      "passageVocab": [
+        "medien",
+        "hotline",
+        "aufgabe",
+        "problem"
+      ],
+      "topicTag": "Medien",
+      "audio": [
+        {
+          "speaker": "Ansager",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Guten Tag. Sie sind mit der Medien-Hotline verbunden. Leider rufen Sie außerhalb unserer Geschäftszeiten an. Unsere Aufgabe ist es, Ihnen bei technischen Problemen zu helfen. Bitte versuchen Sie es morgen früh noch einmal. Wir sind ab neun Uhr erreichbar."
+        }
+      ]
+    },
+    {
+      "id": "gen-p-h1-9bec7672-s3",
+      "module": "horen",
+      "teil": 1,
+      "lang": "de",
+      "level": "A2",
+      "title": "Text 3",
+      "text": "Achtung, liebe Besucher! Wir haben eine wichtige Durchsage. Ab nächster Woche gibt es in unserer Bibliothek viele neue E-Books und Hörbücher. Sie können diese Medien kostenlos mit Ihrem Bibliotheksausweis nutzen. Kommen Sie vorbei und entdecken Sie die Zukunft des Lesens!",
+      "passageVocab": [
+        "bibliothek",
+        "e-books",
+        "hörbücher",
+        "zukunft"
+      ],
+      "topicTag": "Medien",
+      "audio": [
+        {
+          "speaker": "Ansager",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Achtung, liebe Besucher! Wir haben eine wichtige Durchsage. Ab nächster Woche gibt es in unserer Bibliothek viele neue E-Books und Hörbücher. Sie können diese Medien kostenlos mit Ihrem Bibliotheksausweis nutzen. Kommen Sie vorbei und entdecken Sie die Zukunft des Lesens!"
+        }
+      ]
+    },
+    {
+      "id": "gen-p-h1-9bec7672-s4",
+      "module": "horen",
+      "teil": 1,
+      "lang": "de",
+      "level": "A2",
+      "title": "Text 4",
+      "text": "Sehr geehrte Nutzer, bitte beachten Sie folgenden Hinweis. Wir stellen Ihnen heute unsere brandneue Nachrichten-App vor. Sie bietet eine bessere Übersicht und schnellere Informationen. Wir arbeiten täglich daran, Ihre Situation beim Lesen von Nachrichten zu verbessern. Laden Sie die App jetzt herunter!",
+      "passageVocab": [
+        "app",
+        "nachrichten",
+        "täglich",
+        "information"
+      ],
+      "topicTag": "Medien",
+      "audio": [
+        {
+          "speaker": "Ansager",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Sehr geehrte Nutzer, bitte beachten Sie folgenden Hinweis. Wir stellen Ihnen heute unsere brandneue Nachrichten-App vor. Sie bietet eine bessere Übersicht und schnellere Informationen. Wir arbeiten täglich daran, Ihre Situation beim Lesen von Nachrichten zu verbessern. Laden Sie die App jetzt herunter!"
+        }
+      ]
+    },
+    {
+      "id": "gen-p-h1-9bec7672-s5",
+      "module": "horen",
+      "teil": 1,
+      "lang": "de",
+      "level": "A2",
+      "title": "Text 5",
+      "text": "Hier kommt ein kurzer Bericht aus dem Studio. Heute sprechen wir über die Bedeutung von Medien in unserem Alltag. Viele Menschen informieren sich täglich über Radio, Fernsehen oder das Internet. Es ist wichtig, Nachrichten kritisch zu sehen. Man sollte nicht alles sofort glauben.",
+      "passageVocab": [
+        "medien",
+        "bedeutung",
+        "täglich",
+        "nachrichten"
+      ],
+      "topicTag": "Medien",
+      "audio": [
+        {
+          "speaker": "Ansager",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Hier kommt ein kurzer Bericht aus dem Studio. Heute sprechen wir über die Bedeutung von Medien in unserem Alltag. Viele Menschen informieren sich täglich über Radio, Fernsehen oder das Internet. Es ist wichtig, Nachrichten kritisch zu sehen. Man sollte nicht alles sofort glauben."
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "gen-q-h1-9bec7672-q1",
+      "module": "horen",
+      "teil": 1,
+      "lang": "de",
+      "level": "A2",
+      "type": "multiple_choice",
+      "question": "Worum geht es in diesem Tipp?",
+      "options": [
+        "a) Warum man keine Blogs lesen sollte.",
+        "b) Wie man einen eigenen Blog beginnt.",
+        "c) Wie man das Internet zum Lernen nutzt."
+      ],
+      "correct": "b",
+      "correctAnswer": "b",
+      "explanation": "Der Tipp gibt Ratschläge, wie man einen eigenen Blog starten und seine Gedanken mit anderen teilen kann.",
+      "segmentLabel": "Text 1",
+      "passageId": "gen-p-h1-9bec7672-s1",
+      "topicTags": [
+        "Medien"
+      ],
+      "grammarTags": [
+        "g-de-a2-modal",
+        "g-de-a2-trennbar"
+      ],
+      "vocabularyTags": [
+        "Gedanken",
+        "starten",
+        "anderen",
+        "teilen"
+      ]
+    },
+    {
+      "id": "gen-q-h1-9bec7672-q2",
+      "module": "horen",
+      "teil": 1,
+      "lang": "de",
+      "level": "A2",
+      "type": "multiple_choice",
+      "question": "Was soll der Anrufer tun?",
+      "options": [
+        "a) Eine Nachricht hinterlassen.",
+        "b) Sofort mit jemandem sprechen.",
+        "c) Morgen früh erneut anrufen."
+      ],
+      "correct": "c",
+      "correctAnswer": "c",
+      "explanation": "Der Anrufer wird gebeten, es am nächsten Morgen noch einmal zu versuchen, da die Geschäftszeiten vorbei sind.",
+      "segmentLabel": "Text 2",
+      "passageId": "gen-p-h1-9bec7672-s2",
+      "topicTags": [
+        "Medien"
+      ],
+      "vocabularyTags": [
+        "anrufen",
+        "Anrufer",
+        "erneut"
+      ],
+      "grammarTags": [
+        "g-de-a2-modal",
+        "g-de-a2-trennbar",
+        "g-de-a2-dat-akk"
+      ]
+    },
+    {
+      "id": "gen-q-h1-9bec7672-q3",
+      "module": "horen",
+      "teil": 1,
+      "lang": "de",
+      "level": "A2",
+      "type": "multiple_choice",
+      "question": "Was ist neu in der Bibliothek?",
+      "options": [
+        "a) Es gibt mehr E-Books und Hörbücher.",
+        "b) Man muss für Medien bezahlen.",
+        "c) Die Öffnungszeiten ändern sich bald."
+      ],
+      "correct": "a",
+      "correctAnswer": "a",
+      "explanation": "In der Bibliothek gibt es ab nächster Woche viele neue E-Books und Hörbücher, die kostenlos genutzt werden können.",
+      "segmentLabel": "Text 3",
+      "passageId": "gen-p-h1-9bec7672-s3",
+      "topicTags": [
+        "Medien"
+      ],
+      "vocabularyTags": [
+        "Bibliothek",
+        "Hörbücher",
+        "e-books"
+      ],
+      "grammarTags": [
+        "g-de-a2-dat-akk",
+        "g-de-a2-komparativ"
+      ]
+    },
+    {
+      "id": "gen-q-h1-9bec7672-q4",
+      "module": "horen",
+      "teil": 1,
+      "lang": "de",
+      "level": "A2",
+      "type": "multiple_choice",
+      "question": "Worum geht es bei dem Hinweis?",
+      "options": [
+        "a) Die Nachrichten-App bekommt eine Aktualisierung.",
+        "b) Man kann keine Nachrichten mehr lesen.",
+        "c) Eine neue App wird vorgestellt."
+      ],
+      "correct": "c",
+      "correctAnswer": "c",
+      "explanation": "Der Hinweis kündigt die Vorstellung einer brandneuen Nachrichten-App an, die eine bessere Übersicht und schnellere Informationen bietet.",
+      "segmentLabel": "Text 4",
+      "passageId": "gen-p-h1-9bec7672-s4",
+      "topicTags": [
+        "Medien"
+      ],
+      "grammarTags": [
+        "g-de-a2-trennbar",
+        "g-de-a2-dat-akk"
+      ],
+      "vocabularyTags": [
+        "ankündigen",
+        "bieten",
+        "Vorstellung",
+        "brandneuen"
+      ]
+    },
+    {
+      "id": "gen-q-h1-9bec7672-q5",
+      "module": "horen",
+      "teil": 1,
+      "lang": "de",
+      "level": "A2",
+      "type": "multiple_choice",
+      "question": "Was ist laut dem Bericht wichtig beim Umgang mit Nachrichten?",
+      "options": [
+        "a) Man sollte Nachrichten kritisch prüfen.",
+        "b) Man soll nur Radio hören.",
+        "c) Man soll alle Nachrichten sofort glauben."
+      ],
+      "correct": "a",
+      "correctAnswer": "a",
+      "explanation": "Der Bericht betont, dass man Nachrichten kritisch sehen und nicht alles sofort glauben sollte.",
+      "segmentLabel": "Text 5",
+      "passageId": "gen-p-h1-9bec7672-s5",
+      "topicTags": [
+        "Medien"
+      ],
+      "vocabularyTags": [
+        "nachrichten",
+        "prüfen",
+        "kritisch",
+        "Bericht",
+        "wichtig",
+        "Umgang"
+      ],
+      "grammarTags": [
+        "g-de-a2-nebensatz",
+        "g-de-a2-trennbar",
+        "g-de-a2-dat-akk"
+      ]
+    }
+  ],
+  "_germanCapsNormalizeVersion": "v3.23-lesen-t2-angebote-corpus-2026-07-28",
+  "_germanCapsNormalizedAt": "2026-09-23T01:09:55.340Z",
+  "_balanceMcqVersion": "v1.2-no-rf-chrono-shuffle-2026-07-11",
+  "_balanceMcqNormalizedAt": "2026-09-23T01:09:55.340Z",
+  "topicTag": "Medien",
+  "_requestedTopic": "Medien",
+  "userVocabFeedback": {
+    "topic": "Medien",
+    "requested": [
+      "blog",
+      "medien",
+      "radio",
+      "aufgabe",
+      "situation",
+      "zukunft",
+      "täglich",
+      "bedeuten"
+    ],
+    "prompted": [
+      "blog",
+      "medien",
+      "radio",
+      "aufgabe",
+      "situation",
+      "zukunft",
+      "täglich",
+      "bedeuten"
+    ],
+    "originalRequested": null,
+    "subtypeAdaptation": null,
+    "used": [
+      "blog",
+      "medien",
+      "radio",
+      "aufgabe",
+      "situation",
+      "zukunft",
+      "täglich"
+    ],
+    "notUsed": [
+      "bedeuten"
+    ],
+    "excluded": [],
+    "ratio": 0.875,
+    "targetUsage": [
+      {
+        "word": "blog",
+        "surfaces": [
+          "Blog",
+          "Blogs"
+        ]
+      },
+      {
+        "word": "medien",
+        "surfaces": [
+          "Medien"
+        ]
+      },
+      {
+        "word": "radio",
+        "surfaces": [
+          "Radio"
+        ]
+      },
+      {
+        "word": "aufgabe",
+        "surfaces": [
+          "Aufgabe"
+        ]
+      },
+      {
+        "word": "situation",
+        "surfaces": [
+          "Situation"
+        ]
+      },
+      {
+        "word": "zukunft",
+        "surfaces": [
+          "Zukunft"
+        ]
+      },
+      {
+        "word": "täglich",
+        "surfaces": [
+          "täglich"
+        ]
+      }
+    ]
+  },
+  "targetUsage": [
+    {
+      "word": "blog",
+      "surfaces": [
+        "Blog",
+        "Blogs"
+      ]
+    },
+    {
+      "word": "medien",
+      "surfaces": [
+        "Medien"
+      ]
+    },
+    {
+      "word": "radio",
+      "surfaces": [
+        "Radio"
+      ]
+    },
+    {
+      "word": "aufgabe",
+      "surfaces": [
+        "Aufgabe"
+      ]
+    },
+    {
+      "word": "situation",
+      "surfaces": [
+        "Situation"
+      ]
+    },
+    {
+      "word": "zukunft",
+      "surfaces": [
+        "Zukunft"
+      ]
+    },
+    {
+      "word": "täglich",
+      "surfaces": [
+        "täglich"
+      ]
+    }
+  ],
+  "generationMetadata": {
+    "usedFeedback": false,
+    "feedbackRules": [],
+    "feedbackCount": 0,
+    "feedbackCategories": [],
+    "feedbackMode": "off",
+    "feedbackVersion": "v1"
+  },
+  "_metadataEnrichedAt": "2026-09-23T01:09:59.109Z",
+  "_metadataEnrichNote": "deterministic: detectTopic + per-question lemma vocab + grammar heuristics",
+  "_vocabTagsNormalizeVersion": "v2.3.18-paso3-vocab-plural-rubric-strip-2026-08-02",
+  "_grammarTagsNormalizeVersion": "v2.2-a2-b2-level-tags-2026-07-27"
+}

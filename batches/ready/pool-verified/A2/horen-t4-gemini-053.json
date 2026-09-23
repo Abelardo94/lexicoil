@@ -1,0 +1,309 @@
+{
+  "passages": [
+    {
+      "id": "gen-p-h4-588b3a5e-s1",
+      "module": "horen",
+      "teil": 4,
+      "lang": "de",
+      "level": "A2",
+      "title": "Radiointerview: Leben in der Stadt",
+      "text": "Moderator: Guten Tag. Heute sprechen wir über das Leben in der Stadt. Viele Menschen wohnen gern in der Stadt. Wir haben Amelie Schmidt zu Gast. Guten Tag, Frau Schmidt.\n\nAmelie: Guten Tag. Ja, ich lebe seit fünf Jahren in Berlin und mag es sehr.\n\nModerator: Was gefällt Ihnen am besten am Stadtleben?\n\nAmelie: Ich finde, es gibt immer etwas zu tun. Man kann viele Freunde treffen, ins Kino gehen oder in ein Café. Auch die kurzen Wege sind ein großer Vorteil. Ich brauche kein Auto. Ich fahre oft mit der Bahn oder dem Fahrrad. Das ist sehr praktisch.\n\nModerator: Und gibt es auch Nachteile?\n\nAmelie: Ja, natürlich. Manchmal ist es sehr laut, besonders abends. Und die Mieten sind hoch. Das ist eine große Aufgabe für viele. Aber ich habe eine kleine Wohnung gefunden, die gut passt. Ich nutze auch gern die Parks für Spaziergänge. Das ist wichtig für mich.\n\nModerator: Sie nutzen also die grünen Orte in der Stadt.\n\nAmelie: Genau. Es gibt viele schöne Parks. Dort kann man sich entspannen und die Natur genießen. Ich finde, das ist ein guter Ausgleich zum Trubel der Stadt.\n\nModerator: Vielen Dank, Frau Schmidt, für Ihre Meinung.",
+      "passageVocab": [
+        "interview",
+        "meinung",
+        "stadt",
+        "vorteil",
+        "bahn",
+        "nutzen",
+        "aufgabe"
+      ],
+      "audio": [
+        {
+          "speaker": "Moderator",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Guten Tag. Heute sprechen wir über das Leben in der Stadt. Viele Menschen wohnen gern in der Stadt. Wir haben Amelie Schmidt zu Gast. Guten Tag, Frau Schmidt."
+        },
+        {
+          "speaker": "Amelie",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Guten Tag. Ja, ich lebe seit fünf Jahren in Berlin und mag es sehr."
+        },
+        {
+          "speaker": "Moderator",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Was gefällt Ihnen am besten am Stadtleben?"
+        },
+        {
+          "speaker": "Amelie",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Ich finde, es gibt immer etwas zu tun. Man kann viele Freunde treffen, ins Kino gehen oder in ein Café. Auch die kurzen Wege sind ein großer Vorteil. Ich brauche kein Auto. Ich fahre oft mit der Bahn oder dem Fahrrad. Das ist sehr praktisch."
+        },
+        {
+          "speaker": "Moderator",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Und gibt es auch Nachteile?"
+        },
+        {
+          "speaker": "Amelie",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Ja, natürlich. Manchmal ist es sehr laut, besonders abends. Und die Mieten sind hoch. Das ist eine große Aufgabe für viele. Aber ich habe eine kleine Wohnung gefunden, die gut passt. Ich nutze auch gern die Parks für Spaziergänge. Das ist wichtig für mich."
+        },
+        {
+          "speaker": "Moderator",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Sie nutzen also die grünen Orte in der Stadt."
+        },
+        {
+          "speaker": "Amelie",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Genau. Es gibt viele schöne Parks. Dort kann man sich entspannen und die Natur genießen. Ich finde, das ist ein guter Ausgleich zum Trubel der Stadt."
+        },
+        {
+          "speaker": "Moderator",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Vielen Dank, Frau Schmidt, für Ihre Meinung."
+        }
+      ],
+      "topicTag": "Stadtleben"
+    }
+  ],
+  "questions": [
+    {
+      "id": "gen-q-h4-588b3a5e-q1",
+      "module": "horen",
+      "teil": 4,
+      "type": "ja_nein",
+      "question": "Amelie wohnt seit fünf Jahren in Berlin.",
+      "correct": "Ja",
+      "correctAnswer": "Ja",
+      "options": [],
+      "explanation": "Amelie sagt: „Ja, ich lebe seit fünf Jahren in Berlin.“",
+      "passageId": "gen-p-h4-588b3a5e-s1",
+      "level": "A2",
+      "topicTags": [
+        "Stadtleben"
+      ],
+      "vocabularyTags": [
+        "Berlin",
+        "jahren",
+        "Amelie"
+      ],
+      "grammarTags": []
+    },
+    {
+      "id": "gen-q-h4-588b3a5e-q3",
+      "module": "horen",
+      "teil": 4,
+      "type": "ja_nein",
+      "question": "Amelie findet, dass es in der Stadt immer ruhig ist.",
+      "correct": "Nein",
+      "correctAnswer": "Nein",
+      "options": [],
+      "explanation": "Amelie erwähnt: „Manchmal ist es sehr laut, besonders abends.“",
+      "passageId": "gen-p-h4-588b3a5e-s1",
+      "level": "A2",
+      "topicTags": [
+        "Stadtleben"
+      ],
+      "vocabularyTags": [
+        "ruhig",
+        "finden",
+        "Amelie",
+        "Stadt"
+      ],
+      "grammarTags": [
+        "g-de-a2-nebensatz",
+        "g-de-a2-trennbar",
+        "g-de-a2-dat-akk"
+      ]
+    },
+    {
+      "id": "gen-q-h4-588b3a5e-q5",
+      "module": "horen",
+      "teil": 4,
+      "type": "ja_nein",
+      "question": "Amelie findet, dass die Mieten in der Stadt günstig sind.",
+      "correct": "Nein",
+      "correctAnswer": "Nein",
+      "options": [],
+      "explanation": "Amelie erwähnt, dass die Mieten in der Stadt „hoch“ sind.",
+      "passageId": "gen-p-h4-588b3a5e-s1",
+      "level": "A2",
+      "topicTags": [
+        "Stadtleben"
+      ],
+      "vocabularyTags": [
+        "finden",
+        "mieten",
+        "günstig",
+        "Amelie",
+        "Stadt"
+      ],
+      "grammarTags": [
+        "g-de-a2-nebensatz",
+        "g-de-a2-dat-akk"
+      ]
+    },
+    {
+      "id": "gen-q-h4-588b3a5e-q4",
+      "module": "horen",
+      "teil": 4,
+      "type": "ja_nein",
+      "question": "Amelie mag die Parks in der Stadt.",
+      "correct": "Ja",
+      "correctAnswer": "Ja",
+      "options": [],
+      "explanation": "Amelie sagt: „Ich nutze auch gern die Parks für Spaziergänge.“ und „Es gibt viele schöne Parks.“",
+      "passageId": "gen-p-h4-588b3a5e-s1",
+      "level": "A2",
+      "topicTags": [
+        "Stadtleben"
+      ],
+      "vocabularyTags": [
+        "Parks",
+        "Amelie",
+        "Stadt"
+      ],
+      "grammarTags": [
+        "g-de-a2-dat-akk",
+        "g-de-a2-praesens"
+      ]
+    },
+    {
+      "id": "gen-q-h4-588b3a5e-q2",
+      "module": "horen",
+      "teil": 4,
+      "type": "ja_nein",
+      "question": "Amelie braucht ein Auto, um in der Stadt mobil zu sein.",
+      "correct": "Nein",
+      "correctAnswer": "Nein",
+      "options": [],
+      "explanation": "Amelie sagt: „Ich brauche kein Auto. Ich fahre oft mit der Bahn oder dem Fahrrad.“",
+      "passageId": "gen-p-h4-588b3a5e-s1",
+      "level": "A2",
+      "topicTags": [
+        "Stadtleben"
+      ],
+      "vocabularyTags": [
+        "brauchen",
+        "Amelie",
+        "Stadt",
+        "Auto",
+        "mobil"
+      ],
+      "grammarTags": [
+        "g-de-a2-dat-akk",
+        "g-de-a2-praesens"
+      ]
+    }
+  ],
+  "_germanCapsNormalizeVersion": "v3.23-lesen-t2-angebote-corpus-2026-07-28",
+  "_germanCapsNormalizedAt": "2026-09-23T01:32:17.200Z",
+  "_balanceMcqVersion": "v1.2-no-rf-chrono-shuffle-2026-07-11",
+  "_balanceMcqNormalizedAt": "2026-09-23T01:32:17.200Z",
+  "topicTag": "Stadtleben",
+  "_requestedTopic": "Stadtleben",
+  "userVocabFeedback": {
+    "topic": "Stadtleben",
+    "requested": [
+      "nutzen",
+      "anmeldung",
+      "vorteil",
+      "meinung",
+      "projekt",
+      "gemeinsam",
+      "aufgabe",
+      "situation"
+    ],
+    "prompted": [
+      "nutzen",
+      "anmeldung",
+      "vorteil",
+      "meinung",
+      "projekt",
+      "gemeinsam",
+      "aufgabe",
+      "situation"
+    ],
+    "originalRequested": null,
+    "subtypeAdaptation": null,
+    "used": [
+      "nutzen",
+      "vorteil",
+      "meinung",
+      "aufgabe"
+    ],
+    "notUsed": [
+      "anmeldung",
+      "projekt",
+      "gemeinsam",
+      "situation"
+    ],
+    "excluded": [],
+    "ratio": 0.5,
+    "targetUsage": [
+      {
+        "word": "nutzen",
+        "surfaces": [
+          "nutzen"
+        ]
+      },
+      {
+        "word": "vorteil",
+        "surfaces": [
+          "Vorteil"
+        ]
+      },
+      {
+        "word": "meinung",
+        "surfaces": [
+          "Meinung"
+        ]
+      },
+      {
+        "word": "aufgabe",
+        "surfaces": [
+          "Aufgabe"
+        ]
+      }
+    ]
+  },
+  "targetUsage": [
+    {
+      "word": "nutzen",
+      "surfaces": [
+        "nutzen"
+      ]
+    },
+    {
+      "word": "vorteil",
+      "surfaces": [
+        "Vorteil"
+      ]
+    },
+    {
+      "word": "meinung",
+      "surfaces": [
+        "Meinung"
+      ]
+    },
+    {
+      "word": "aufgabe",
+      "surfaces": [
+        "Aufgabe"
+      ]
+    }
+  ],
+  "generationMetadata": {
+    "usedFeedback": false,
+    "feedbackRules": [],
+    "feedbackCount": 0,
+    "feedbackCategories": [],
+    "feedbackMode": "off",
+    "feedbackVersion": "v1"
+  },
+  "_metadataEnrichedAt": "2026-09-23T01:32:17.351Z",
+  "_metadataEnrichNote": "deterministic: detectTopic + per-question lemma vocab + grammar heuristics",
+  "_vocabTagsNormalizeVersion": "v2.3.18-paso3-vocab-plural-rubric-strip-2026-08-02",
+  "_grammarTagsNormalizeVersion": "v2.2-a2-b2-level-tags-2026-07-27"
+}

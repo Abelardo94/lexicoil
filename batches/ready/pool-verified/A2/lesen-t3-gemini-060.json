@@ -1,0 +1,336 @@
+{
+  "passages": [
+    {
+      "id": "gen-l3-f144eac9-1",
+      "level": "A2",
+      "topicTag": "Umwelt",
+      "text": "Lieber Herr Keller,\nich hoffe, es geht Ihnen gut. Ich schreibe Ihnen heute, weil ich eine wichtige Sache besprechen möchte. Es geht um unseren Stadtpark.\n\nDie Situation im Park ist leider nicht sehr schön. Überall liegt Müll, und das ist schlecht für die Natur und unsere Umwelt. Ich habe mir Gedanken gemacht und einen Vorschlag.\n\nIch möchte ein kleines Projekt starten: eine Aufräumaktion im Park. Das wäre eine gute Aufgabe für uns alle und ein Vorteil für die Zukunft unseres Viertels. Ich habe schon mit ein paar Nachbarn gesprochen, und sie finden die Idee gut.\n\nWir könnten uns am nächsten Samstag, den 20. Mai, um 10 Uhr treffen. Der Treffpunkt ist direkt am Haupteingang des Parks. Bitte bringen Sie feste Handschuhe und vielleicht einen kleinen Eimer mit. Müllsäcke organisiere ich.\n\nEs ist wichtig, dass wir etwas tun. Ich hoffe sehr, Sie können dabei sein. Ihre Anmeldung ist nicht nötig, kommen Sie einfach vorbei.\n\nViele Grüße,\nIhre Nachbarin Frau Lehmann",
+      "module": "lesen",
+      "teil": 3,
+      "lang": "de"
+    }
+  ],
+  "questions": [
+    {
+      "id": "gen-q-3-f144eac9-1",
+      "type": "multiple_choice",
+      "question": "Was ist das Problem im Stadtpark?",
+      "options": [
+        "a) Der Park ist schmutzig.",
+        "b) Die Bäume sind zu alt.",
+        "c) Es gibt zu viele Tiere."
+      ],
+      "correct": "a",
+      "correctAnswer": "a",
+      "explanation": "Frau Lehmann schreibt, dass überall Müll liegt und die Situation nicht schön ist.",
+      "module": "lesen",
+      "teil": 3,
+      "level": "A2",
+      "passageId": "gen-l3-f144eac9-1",
+      "lang": "de",
+      "topicTags": [
+        "Umwelt"
+      ],
+      "vocabularyTags": [
+        "Problem",
+        "Stadtpark",
+        "schmutzig"
+      ],
+      "grammarTags": [
+        "g-de-a2-nebensatz",
+        "g-de-a2-trennbar",
+        "g-de-a2-dat-akk"
+      ]
+    },
+    {
+      "id": "gen-q-3-f144eac9-2",
+      "type": "multiple_choice",
+      "question": "Was schlägt Frau Lehmann vor?",
+      "options": [
+        "a) Eine neue Bank für den Park.",
+        "b) Eine Aktion, um den Park zu reinigen.",
+        "c) Ein Picknick mit den Nachbarn."
+      ],
+      "correct": "b",
+      "correctAnswer": "b",
+      "explanation": "Frau Lehmann möchte ein Projekt starten, um den Park sauber zu machen.",
+      "module": "lesen",
+      "teil": 3,
+      "level": "A2",
+      "passageId": "gen-l3-f144eac9-1",
+      "lang": "de",
+      "topicTags": [
+        "Umwelt"
+      ],
+      "vocabularyTags": [
+        "reinigen",
+        "Aktion",
+        "Lehmann",
+        "Frau"
+      ],
+      "grammarTags": [
+        "g-de-a2-modal",
+        "g-de-a2-dat-akk"
+      ]
+    },
+    {
+      "id": "gen-q-3-f144eac9-3",
+      "type": "multiple_choice",
+      "question": "Wann soll die Aktion stattfinden?",
+      "options": [
+        "a) Am nächsten Sonntag, aber die genaue Uhrzeit ist unbekannt.",
+        "b) Am Wochenende, am zwanzigsten Tag im Mai, vormittags.",
+        "c) Jeden Tag in der Woche um 10 Uhr."
+      ],
+      "correct": "b",
+      "correctAnswer": "b",
+      "explanation": "Frau Lehmann schlägt vor, sich am nächsten Samstag, den 20. Mai, um 10 Uhr zu treffen.",
+      "module": "lesen",
+      "teil": 3,
+      "level": "A2",
+      "passageId": "gen-l3-f144eac9-1",
+      "lang": "de",
+      "topicTags": [
+        "Umwelt"
+      ],
+      "vocabularyTags": [
+        "stattfinden",
+        "Wochenende",
+        "zwanzigsten",
+        "Aktion",
+        "vormittags"
+      ],
+      "grammarTags": [
+        "g-de-a2-modal",
+        "g-de-a2-trennbar",
+        "g-de-a2-dat-akk",
+        "g-de-a2-komparativ"
+      ]
+    },
+    {
+      "id": "gen-q-3-f144eac9-4",
+      "type": "multiple_choice",
+      "question": "Was soll Herr Keller mitbringen?",
+      "options": [
+        "a) Schutzhandschuhe und ein kleines Gefäß.",
+        "b) Eine Kamera und ein Notizbuch für Notizen.",
+        "c) Müllsäcke und Getränke für die Helfer."
+      ],
+      "correct": "a",
+      "correctAnswer": "a",
+      "explanation": "Frau Lehmann bittet ihn, feste Handschuhe und einen kleinen Eimer mitzubringen.",
+      "module": "lesen",
+      "teil": 3,
+      "level": "A2",
+      "passageId": "gen-l3-f144eac9-1",
+      "lang": "de",
+      "topicTags": [
+        "Umwelt"
+      ],
+      "vocabularyTags": [
+        "mitbringen",
+        "Schutzhandschuhe",
+        "Keller",
+        "Klein",
+        "gefäß"
+      ],
+      "grammarTags": [
+        "g-de-a2-modal",
+        "g-de-a2-trennbar"
+      ]
+    },
+    {
+      "id": "gen-q-3-f144eac9-5",
+      "type": "multiple_choice",
+      "question": "Muss man sich für die Aktion anmelden?",
+      "options": [
+        "a) Nur wenn man Müllsäcke braucht.",
+        "b) Ja, eine Anmeldung ist nötig.",
+        "c) Nein, man kann einfach kommen."
+      ],
+      "correct": "c",
+      "correctAnswer": "c",
+      "explanation": "Frau Lehmann schreibt, dass eine Anmeldung nicht nötig ist und man einfach vorbeikommen kann.",
+      "module": "lesen",
+      "teil": 3,
+      "level": "A2",
+      "passageId": "gen-l3-f144eac9-1",
+      "lang": "de",
+      "topicTags": [
+        "Umwelt"
+      ],
+      "vocabularyTags": [
+        "anmelden",
+        "Aktion",
+        "kommen",
+        "einfach"
+      ],
+      "grammarTags": [
+        "g-de-a2-nebensatz",
+        "g-de-a2-modal",
+        "g-de-a2-trennbar",
+        "g-de-a2-dat-akk"
+      ]
+    }
+  ],
+  "_germanCapsNormalizeVersion": "v3.23-lesen-t2-angebote-corpus-2026-07-28",
+  "_germanCapsNormalizedAt": "2026-09-23T00:08:50.992Z",
+  "_balanceMcqVersion": "v1.2-no-rf-chrono-shuffle-2026-07-11",
+  "_balanceMcqNormalizedAt": "2026-09-23T00:08:50.991Z",
+  "topicTag": "Umwelt",
+  "_requestedTopic": "Umwelt",
+  "userVocabFeedback": {
+    "topic": "Umwelt",
+    "requested": [
+      "aufgabe",
+      "situation",
+      "täglich",
+      "zukunft",
+      "anmeldung",
+      "bedeuten",
+      "vorschlag",
+      "vorteil",
+      "transport",
+      "projekt"
+    ],
+    "prompted": [
+      "aufgabe",
+      "situation",
+      "täglich",
+      "zukunft",
+      "anmeldung",
+      "bedeuten",
+      "vorschlag",
+      "vorteil",
+      "transport",
+      "projekt"
+    ],
+    "originalRequested": [
+      "aufgabe",
+      "situation",
+      "täglich",
+      "zukunft",
+      "anmeldung",
+      "bedeuten",
+      "vorschlag",
+      "vorteil"
+    ],
+    "subtypeAdaptation": null,
+    "used": [
+      "aufgabe",
+      "situation",
+      "zukunft",
+      "anmeldung",
+      "vorschlag",
+      "vorteil",
+      "projekt"
+    ],
+    "notUsed": [
+      "täglich",
+      "bedeuten",
+      "transport"
+    ],
+    "excluded": [],
+    "ratio": 0.7,
+    "targetUsage": [
+      {
+        "word": "aufgabe",
+        "surfaces": [
+          "Aufgabe"
+        ]
+      },
+      {
+        "word": "situation",
+        "surfaces": [
+          "Situation"
+        ]
+      },
+      {
+        "word": "zukunft",
+        "surfaces": [
+          "Zukunft"
+        ]
+      },
+      {
+        "word": "anmeldung",
+        "surfaces": [
+          "Anmeldung"
+        ]
+      },
+      {
+        "word": "vorschlag",
+        "surfaces": [
+          "Vorschlag"
+        ]
+      },
+      {
+        "word": "vorteil",
+        "surfaces": [
+          "Vorteil"
+        ]
+      },
+      {
+        "word": "projekt",
+        "surfaces": [
+          "Projekt"
+        ]
+      }
+    ]
+  },
+  "targetUsage": [
+    {
+      "word": "aufgabe",
+      "surfaces": [
+        "Aufgabe"
+      ]
+    },
+    {
+      "word": "situation",
+      "surfaces": [
+        "Situation"
+      ]
+    },
+    {
+      "word": "zukunft",
+      "surfaces": [
+        "Zukunft"
+      ]
+    },
+    {
+      "word": "anmeldung",
+      "surfaces": [
+        "Anmeldung"
+      ]
+    },
+    {
+      "word": "vorschlag",
+      "surfaces": [
+        "Vorschlag"
+      ]
+    },
+    {
+      "word": "vorteil",
+      "surfaces": [
+        "Vorteil"
+      ]
+    },
+    {
+      "word": "projekt",
+      "surfaces": [
+        "Projekt"
+      ]
+    }
+  ],
+  "generationMetadata": {
+    "usedFeedback": false,
+    "feedbackRules": [],
+    "feedbackCount": 0,
+    "feedbackCategories": [],
+    "feedbackMode": "off",
+    "feedbackVersion": "v1"
+  },
+  "_metadataEnrichedAt": "2026-09-23T00:09:02.357Z",
+  "_metadataEnrichNote": "deterministic: detectTopic + per-question lemma vocab + grammar heuristics",
+  "_vocabTagsNormalizeVersion": "v2.3.18-paso3-vocab-plural-rubric-strip-2026-08-02",
+  "_grammarTagsNormalizeVersion": "v2.2-a2-b2-level-tags-2026-07-27"
+}

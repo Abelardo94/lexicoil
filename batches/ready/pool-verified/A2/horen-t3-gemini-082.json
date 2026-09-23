@@ -1,0 +1,314 @@
+{
+  "passages": [
+    {
+      "id": "gen-p-h3-148c748f-s1",
+      "module": "horen",
+      "teil": 3,
+      "lang": "de",
+      "level": "A2",
+      "topicTag": "Freizeit",
+      "text": "Lukas: Sag mal, Sarah, hast du schon Pläne für die Ferien? Ich überlege, ob ich wegfahre.\nSarah: Ja, Lukas. Ich fahre mit meiner Familie ans Meer. Wir freuen uns schon sehr auf die Sonne.",
+      "audio": [
+        {
+          "speaker": "Lukas",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Sag mal, Sarah, hast du schon Pläne für die Ferien? Ich überlege, ob ich wegfahre."
+        },
+        {
+          "speaker": "Sarah",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Ja, Lukas. Ich fahre mit meiner Familie ans Meer. Wir freuen uns schon sehr auf die Sonne."
+        }
+      ]
+    },
+    {
+      "id": "gen-p-h3-148c748f-s2",
+      "module": "horen",
+      "teil": 3,
+      "lang": "de",
+      "level": "A2",
+      "topicTag": "Freizeit",
+      "text": "Noah: Lea, ich habe gehört, du machst jetzt einen neuen Sport. Was ist das denn?\nLea: Ja, Noah. Ich gehe jetzt klettern. Das ist super spannend und macht viel Spaß.",
+      "audio": [
+        {
+          "speaker": "Noah",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Lea, ich habe gehört, du machst jetzt einen neuen Sport. Was ist das denn?"
+        },
+        {
+          "speaker": "Lea",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Ja, Noah. Ich gehe jetzt klettern. Das ist super spannend und macht viel Spaß."
+        }
+      ]
+    },
+    {
+      "id": "gen-p-h3-148c748f-s3",
+      "module": "horen",
+      "teil": 3,
+      "lang": "de",
+      "level": "A2",
+      "topicTag": "Freizeit",
+      "text": "Ben: Anna, ich brauche einen Tipp. Mein Alter Fotoapparat ist kaputt. Welchen soll ich kaufen?\nAnna: Oh, Ben. Ich habe einen neuen Apparat. Er ist klein und macht super Fotos. Ich kann ihn dir zeigen.",
+      "audio": [
+        {
+          "speaker": "Ben",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Anna, ich brauche einen Tipp. Mein Alter Fotoapparat ist kaputt. Welchen soll ich kaufen?"
+        },
+        {
+          "speaker": "Anna",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Oh, Ben. Ich habe einen neuen Apparat. Er ist klein und macht super Fotos. Ich kann ihn dir zeigen."
+        }
+      ]
+    },
+    {
+      "id": "gen-p-h3-148c748f-s4",
+      "module": "horen",
+      "teil": 3,
+      "lang": "de",
+      "level": "A2",
+      "topicTag": "Freizeit",
+      "text": "Max: Lena, ich habe eine Touristin getroffen. Sie sucht ein gutes Café hier in der Stadt.\nLena: Ach, Max. Das Café „Sonnenschein“ ist sehr schön. Es hat leckeren Kuchen und guten Kaffee.",
+      "audio": [
+        {
+          "speaker": "Max",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Lena, ich habe eine Touristin getroffen. Sie sucht ein gutes Café hier in der Stadt."
+        },
+        {
+          "speaker": "Lena",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Ach, Max. Das Café „Sonnenschein“ ist sehr schön. Es hat leckeren Kuchen und guten Kaffee."
+        }
+      ]
+    },
+    {
+      "id": "gen-p-h3-148c748f-s5",
+      "module": "horen",
+      "teil": 3,
+      "lang": "de",
+      "level": "A2",
+      "topicTag": "Freizeit",
+      "text": "Tom: Katja, ich bin heute Abend etwas sauer. Mein Lieblingsfußballteam hat verloren.\nKatja: Oh, das ist schade, Tom. Aber morgen ist ein neuer Tag. Wir können ja zusammen etwas anderes machen.",
+      "audio": [
+        {
+          "speaker": "Tom",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Katja, ich bin heute Abend etwas sauer. Mein Lieblingsfußballteam hat verloren."
+        },
+        {
+          "speaker": "Katja",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Oh, das ist schade, Tom. Aber morgen ist ein neuer Tag. Wir können ja zusammen etwas anderes machen."
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "gen-q-h3-148c748f-q1",
+      "module": "horen",
+      "teil": 3,
+      "lang": "de",
+      "level": "A2",
+      "type": "multiple_choice",
+      "passageId": "gen-p-h3-148c748f-s1",
+      "segmentLabel": "Text 1",
+      "question": "Was macht Sarah in den Ferien?",
+      "options": [
+        "a) Sie besucht Freunde.",
+        "b) Sie fährt ans Meer.",
+        "c) Sie bleibt zu Hause."
+      ],
+      "correct": "b",
+      "correctAnswer": "b",
+      "explanation": "Sarah sagt, sie fährt mit ihrer Familie ans Meer und freut sich darauf.",
+      "language": "de",
+      "examType": "goethe",
+      "difficulty": 5,
+      "skills": [
+        "listening"
+      ],
+      "topicTags": [
+        "Freizeit"
+      ],
+      "vocabularyTags": [
+        "ferien",
+        "Sarah"
+      ],
+      "grammarTags": [
+        "g-de-a2-trennbar",
+        "g-de-a2-dat-akk"
+      ]
+    },
+    {
+      "id": "gen-q-h3-148c748f-q2",
+      "module": "horen",
+      "teil": 3,
+      "lang": "de",
+      "level": "A2",
+      "type": "multiple_choice",
+      "passageId": "gen-p-h3-148c748f-s2",
+      "segmentLabel": "Text 2",
+      "question": "Welchen Sport macht Lea jetzt?",
+      "options": [
+        "a) Sie schwimmt oft.",
+        "b) Sie geht klettern.",
+        "c) Sie spielt Tennis."
+      ],
+      "correct": "b",
+      "correctAnswer": "b",
+      "explanation": "Lea erklärt Noah, dass sie jetzt klettern geht, weil es ihr viel Spaß macht.",
+      "language": "de",
+      "examType": "goethe",
+      "difficulty": 5,
+      "skills": [
+        "listening"
+      ],
+      "topicTags": [
+        "Freizeit"
+      ],
+      "vocabularyTags": [
+        "welchen",
+        "klettern",
+        "Sport"
+      ],
+      "grammarTags": [
+        "g-de-a2-nebensatz",
+        "g-de-a2-praesens"
+      ]
+    },
+    {
+      "id": "gen-q-h3-148c748f-q3",
+      "module": "horen",
+      "teil": 3,
+      "lang": "de",
+      "level": "A2",
+      "type": "multiple_choice",
+      "passageId": "gen-p-h3-148c748f-s3",
+      "segmentLabel": "Text 3",
+      "question": "Worum bittet Ben Anna?",
+      "options": [
+        "a) Um Hilfe, seinen Apparat zu reparieren.",
+        "b) Um eine Empfehlung für ein Handy.",
+        "c) Um einen Rat für einen Apparat."
+      ],
+      "correct": "c",
+      "correctAnswer": "c",
+      "explanation": "Ben fragt Anna nach einem Tipp für einen neuen Fotoapparat, da sein Alter kaputt ist.",
+      "language": "de",
+      "examType": "goethe",
+      "difficulty": 5,
+      "skills": [
+        "listening"
+      ],
+      "topicTags": [
+        "Freizeit"
+      ],
+      "vocabularyTags": [
+        "bitten",
+        "Apparat",
+        "Worum"
+      ],
+      "grammarTags": [
+        "g-de-a2-trennbar",
+        "g-de-a2-dat-akk"
+      ]
+    },
+    {
+      "id": "gen-q-h3-148c748f-q4",
+      "module": "horen",
+      "teil": 3,
+      "lang": "de",
+      "level": "A2",
+      "type": "multiple_choice",
+      "passageId": "gen-p-h3-148c748f-s4",
+      "segmentLabel": "Text 4",
+      "question": "Was sucht die Touristin?",
+      "options": [
+        "a) Ein schönes Café.",
+        "b) Eine Unterkunft.",
+        "c) Eine Sehenswürdigkeit."
+      ],
+      "correct": "a",
+      "correctAnswer": "a",
+      "explanation": "Max berichtet, dass die Touristin ein gutes Café in der Stadt sucht, um Kaffee zu trinken.",
+      "language": "de",
+      "examType": "goethe",
+      "difficulty": 5,
+      "skills": [
+        "listening"
+      ],
+      "topicTags": [
+        "Freizeit"
+      ],
+      "vocabularyTags": [
+        "Touristin",
+        "schön"
+      ],
+      "grammarTags": [
+        "g-de-a2-nebensatz",
+        "g-de-a2-dat-akk"
+      ]
+    },
+    {
+      "id": "gen-q-h3-148c748f-q5",
+      "module": "horen",
+      "teil": 3,
+      "lang": "de",
+      "level": "A2",
+      "type": "multiple_choice",
+      "passageId": "gen-p-h3-148c748f-s5",
+      "segmentLabel": "Text 5",
+      "question": "Warum ist Tom sauer?",
+      "options": [
+        "a) Er hat heute Abend keine Lust.",
+        "b) Er muss noch viel erledigen.",
+        "c) Sein Team hat das Spiel verloren."
+      ],
+      "correct": "c",
+      "correctAnswer": "c",
+      "explanation": "Tom ist sauer, weil sein Lieblingsfußballteam das Spiel verloren hat und er enttäuscht ist.",
+      "language": "de",
+      "examType": "goethe",
+      "difficulty": 5,
+      "skills": [
+        "listening"
+      ],
+      "topicTags": [
+        "Freizeit"
+      ],
+      "vocabularyTags": [
+        "verloren",
+        "sauer",
+        "Spiel"
+      ],
+      "grammarTags": [
+        "g-de-a2-nebensatz",
+        "g-de-a2-dat-akk"
+      ]
+    }
+  ],
+  "_germanCapsNormalizeVersion": "v3.23-lesen-t2-angebote-corpus-2026-07-28",
+  "_germanCapsNormalizedAt": "2026-07-27T07:15:00.842Z",
+  "_balanceMcqVersion": "v1.2-no-rf-chrono-shuffle-2026-07-11",
+  "_balanceMcqNormalizedAt": "2026-07-27T07:15:00.842Z",
+  "topicTag": "Freizeit",
+  "_requestedTopic": "Freizeit",
+  "generationMetadata": {
+    "usedFeedback": false,
+    "feedbackRules": [],
+    "feedbackCount": 0,
+    "feedbackCategories": [],
+    "feedbackMode": "off",
+    "feedbackVersion": "v1"
+  },
+  "_metadataEnrichedAt": "2026-07-27T07:15:03.056Z",
+  "_metadataEnrichNote": "deterministic: detectTopic + per-question lemma vocab + grammar heuristics",
+  "_vocabTagsNormalizeVersion": "v2.3.16-b1-validated-verb-adj-lemma-2026-07-24",
+  "_grammarTagsNormalizeVersion": "v2.2-a2-b2-level-tags-2026-07-27",
+  "_germanCapsMetadataRestampAt": "2026-08-05T04:37:08.175Z",
+  "_germanCapsMetadataRestampNote": "metadata-only; no applyGermanCapsNormalize"
+}

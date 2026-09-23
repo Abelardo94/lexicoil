@@ -1,0 +1,276 @@
+{
+  "passages": [
+    {
+      "id": "gen-p-h2-78907b20-s1",
+      "module": "horen",
+      "teil": 2,
+      "lang": "de",
+      "level": "A2",
+      "title": "Wochenpläne",
+      "topicTag": "Sport",
+      "text": "David: Hallo Julia! Wie geht es dir? Hast du schon Pläne für die Woche?\nJulia: Hallo David! Mir geht es gut, danke. Ja, am Montag besuche ich ein Museum. Es gibt eine interessante Ausstellung.\nDavid: Oh, schön! Am Dienstag treffe ich Freunde in einem Café. Wir reden ein Bisschen.\nJulia: Das klingt gemütlich! Ich muss am Mittwoch Sport machen. Ich gehe ins Fitnessstudio. Das ist wichtig für meine Fitness.\nDavid: Ja, Sport ist gesund! Ich habe am Donnerstag meinen Deutschkurs. Das ist immer sehr lehrreich.\nJulia: Gut! Und am Freitagabend? Ich gehe ins Kino. Kommst du mit?\nDavid: Kino am Freitag? Vielleicht! Ich sage dir noch Bescheid.",
+      "pictures": [
+        {
+          "key": "a",
+          "icon": "🚴",
+          "label": "Fahrrad fahren"
+        },
+        {
+          "key": "b",
+          "icon": "🇩🇪",
+          "label": "Deutschkurs"
+        },
+        {
+          "key": "c",
+          "icon": "👫",
+          "label": "Freunde treffen"
+        },
+        {
+          "key": "d",
+          "icon": "🏋️",
+          "label": "Sport machen"
+        },
+        {
+          "key": "e",
+          "icon": "🏛️",
+          "label": "Museum"
+        },
+        {
+          "key": "f",
+          "icon": "🎬",
+          "label": "Kino"
+        },
+        {
+          "key": "g",
+          "icon": "📚",
+          "label": "Lernen"
+        },
+        {
+          "key": "h",
+          "icon": "🛒",
+          "label": "Einkaufen"
+        },
+        {
+          "key": "i",
+          "icon": "🍳",
+          "label": "Kochen"
+        }
+      ],
+      "audio": [
+        {
+          "speaker": "David",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Hallo Julia! Wie geht es dir? Hast du schon Pläne für die Woche?"
+        },
+        {
+          "speaker": "Julia",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Hallo David! Mir geht es gut, danke. Ja, am Montag besuche ich ein Museum. Es gibt eine interessante Ausstellung."
+        },
+        {
+          "speaker": "David",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Oh, schön! Am Dienstag treffe ich Freunde in einem Café. Wir reden ein Bisschen."
+        },
+        {
+          "speaker": "Julia",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Das klingt gemütlich! Ich muss am Mittwoch Sport machen. Ich gehe ins Fitnessstudio. Das ist wichtig für meine Fitness."
+        },
+        {
+          "speaker": "David",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Ja, Sport ist gesund! Ich habe am Donnerstag meinen Deutschkurs. Das ist immer sehr lehrreich."
+        },
+        {
+          "speaker": "Julia",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Gut! Und am Freitagabend? Ich gehe ins Kino. Kommst du mit?"
+        },
+        {
+          "speaker": "David",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Kino am Freitag? Vielleicht! Ich sage dir noch Bescheid."
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "gen-q-h2-78907b20-q1",
+      "module": "horen",
+      "teil": 2,
+      "lang": "de",
+      "level": "A2",
+      "type": "matching",
+      "question": "Was macht Julia am Montag?",
+      "passageId": "gen-p-h2-78907b20-s1",
+      "correct": "e",
+      "correctAnswer": "e",
+      "explanation": "Julia sagt, dass sie am Montag ein Museum besucht.",
+      "language": "de",
+      "examType": "goethe",
+      "difficulty": 5,
+      "skills": [
+        "listening"
+      ],
+      "topicTags": [
+        "Sport"
+      ],
+      "_keyOnlyMatch": true,
+      "vocabularyTags": [
+        "Montag",
+        "Museum",
+        "Julia"
+      ],
+      "grammarTags": [
+        "g-de-a2-nebensatz",
+        "g-de-a2-dat-akk"
+      ]
+    },
+    {
+      "id": "gen-q-h2-78907b20-q2",
+      "module": "horen",
+      "teil": 2,
+      "lang": "de",
+      "level": "A2",
+      "type": "matching",
+      "question": "Was macht David am Dienstag?",
+      "passageId": "gen-p-h2-78907b20-s1",
+      "correct": "c",
+      "correctAnswer": "c",
+      "explanation": "David trifft am Dienstag Freunde in einem Café.",
+      "language": "de",
+      "examType": "goethe",
+      "difficulty": 5,
+      "skills": [
+        "listening"
+      ],
+      "topicTags": [
+        "Sport"
+      ],
+      "_keyOnlyMatch": true,
+      "vocabularyTags": [
+        "treffen",
+        "Freund",
+        "Dienstag",
+        "David"
+      ],
+      "grammarTags": [
+        "g-de-a2-trennbar"
+      ]
+    },
+    {
+      "id": "gen-q-h2-78907b20-q3",
+      "module": "horen",
+      "teil": 2,
+      "lang": "de",
+      "level": "A2",
+      "type": "matching",
+      "question": "Was macht Julia am Mittwoch?",
+      "passageId": "gen-p-h2-78907b20-s1",
+      "correct": "d",
+      "correctAnswer": "d",
+      "explanation": "Julia geht am Mittwoch ins Fitnessstudio, um Sport zu machen.",
+      "language": "de",
+      "examType": "goethe",
+      "difficulty": 5,
+      "skills": [
+        "listening"
+      ],
+      "topicTags": [
+        "Sport"
+      ],
+      "_keyOnlyMatch": true,
+      "vocabularyTags": [
+        "Fitnessstudio",
+        "Mittwoch",
+        "Julia",
+        "Sport",
+        "machen"
+      ],
+      "grammarTags": [
+        "g-de-a2-trennbar"
+      ]
+    },
+    {
+      "id": "gen-q-h2-78907b20-q4",
+      "module": "horen",
+      "teil": 2,
+      "lang": "de",
+      "level": "A2",
+      "type": "matching",
+      "question": "Was macht David am Donnerstag?",
+      "passageId": "gen-p-h2-78907b20-s1",
+      "correct": "b",
+      "correctAnswer": "b",
+      "explanation": "David hat am Donnerstag seinen Deutschkurs.",
+      "language": "de",
+      "examType": "goethe",
+      "difficulty": 5,
+      "skills": [
+        "listening"
+      ],
+      "topicTags": [
+        "Sport"
+      ],
+      "_keyOnlyMatch": true,
+      "vocabularyTags": [
+        "seinen",
+        "Deutschkurs",
+        "Donnerstag",
+        "David"
+      ],
+      "grammarTags": []
+    },
+    {
+      "id": "gen-q-h2-78907b20-q5",
+      "module": "horen",
+      "teil": 2,
+      "lang": "de",
+      "level": "A2",
+      "type": "matching",
+      "question": "Was macht Julia am Freitag?",
+      "passageId": "gen-p-h2-78907b20-s1",
+      "correct": "f",
+      "correctAnswer": "f",
+      "explanation": "Julia geht am Freitagabend ins Kino.",
+      "language": "de",
+      "examType": "goethe",
+      "difficulty": 5,
+      "skills": [
+        "listening"
+      ],
+      "topicTags": [
+        "Sport"
+      ],
+      "_keyOnlyMatch": true,
+      "vocabularyTags": [
+        "Freitagabend",
+        "Freitag",
+        "Julia"
+      ],
+      "grammarTags": []
+    }
+  ],
+  "_germanCapsNormalizeVersion": "v3.23-lesen-t2-angebote-corpus-2026-07-28",
+  "_germanCapsNormalizedAt": "2026-07-27T06:52:44.878Z",
+  "_balanceMcqVersion": "v1.2-no-rf-chrono-shuffle-2026-07-11",
+  "_balanceMcqNormalizedAt": "2026-07-27T06:52:44.879Z",
+  "topicTag": "Sport",
+  "_requestedTopic": "Sport",
+  "generationMetadata": {
+    "usedFeedback": false,
+    "feedbackRules": [],
+    "feedbackCount": 0,
+    "feedbackCategories": [],
+    "feedbackMode": "off",
+    "feedbackVersion": "v1"
+  },
+  "_metadataEnrichedAt": "2026-07-27T06:52:48.407Z",
+  "_metadataEnrichNote": "deterministic: detectTopic + per-question lemma vocab + grammar heuristics",
+  "_vocabTagsNormalizeVersion": "v2.3.16-b1-validated-verb-adj-lemma-2026-07-24",
+  "_grammarTagsNormalizeVersion": "v2.2-a2-b2-level-tags-2026-07-27",
+  "_germanCapsMetadataRestampAt": "2026-08-05T04:37:08.142Z",
+  "_germanCapsMetadataRestampNote": "metadata-only; no applyGermanCapsNormalize"
+}

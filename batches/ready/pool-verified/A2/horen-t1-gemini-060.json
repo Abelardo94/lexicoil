@@ -1,0 +1,333 @@
+{
+  "passages": [
+    {
+      "id": "gen-p-h1-f91ddc0b-s1",
+      "module": "horen",
+      "teil": 1,
+      "lang": "de",
+      "level": "A2",
+      "title": "Text 1",
+      "text": "Achtung bitte, eine kurze Durchsage für alle Mitglieder des Sportzentrums. Das Schwimmbecken ist diese Woche wegen Wartungsarbeiten geschlossen. Ab nächstem Montag, dem 15. Mai, können Sie es wieder täglich von 8 bis 20 Uhr nutzen. Die Sauna ist weiterhin geöffnet. Wir bitten um Ihr Verständnis.",
+      "passageVocab": [
+        "sportzentrum",
+        "schwimmbecken",
+        "täglich"
+      ],
+      "topicTag": "Sport",
+      "audio": [
+        {
+          "speaker": "Ansager",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Achtung bitte, eine kurze Durchsage für alle Mitglieder des Sportzentrums. Das Schwimmbecken ist diese Woche wegen Wartungsarbeiten geschlossen. Ab nächstem Montag, dem 15. Mai, können Sie es wieder täglich von 8 bis 20 Uhr nutzen. Die Sauna ist weiterhin geöffnet. Wir bitten um Ihr Verständnis."
+        }
+      ]
+    },
+    {
+      "id": "gen-p-h1-f91ddc0b-s2",
+      "module": "horen",
+      "teil": 1,
+      "lang": "de",
+      "level": "A2",
+      "title": "Text 2",
+      "text": "Hallo Herr Keller, hier ist Frau Braun vom Fußballverein. Ich rufe wegen des Trainings am Mittwoch an. Wegen der schlechten Wettersituation müssen wir es leider absagen. Wir haben aber eine neue Aufgabe für die Mannschaft: Bitte schauen Sie in Ihre E-Mails für die Übungen zu Hause. Das nächste Training ist dann wie geplant am Freitag.",
+      "passageVocab": [
+        "fußballverein",
+        "training",
+        "mannschaft",
+        "situation",
+        "aufgabe"
+      ],
+      "topicTag": "Sport",
+      "audio": [
+        {
+          "speaker": "Ansager",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Hallo Herr Keller, hier ist Frau Braun vom Fußballverein. Ich rufe wegen des Trainings am Mittwoch an. Wegen der schlechten Wettersituation müssen wir es leider absagen. Wir haben aber eine neue Aufgabe für die Mannschaft: Bitte schauen Sie in Ihre E-Mails für die Übungen zu Hause. Das nächste Training ist dann wie geplant am Freitag."
+        }
+      ]
+    },
+    {
+      "id": "gen-p-h1-f91ddc0b-s3",
+      "module": "horen",
+      "teil": 1,
+      "lang": "de",
+      "level": "A2",
+      "title": "Text 3",
+      "text": "Willkommen zu unserem kurzen Alltagstipp! Heute geht es um Bewegung. Viele Menschen sitzen zu viel. Stehen Sie jede Stunde einmal auf und gehen Sie ein paar Schritte. Das hilft direkt gegen Rückenschmerzen und macht Sie fitter. Es muss kein großer Sport sein, kleine Bewegungen täglich sind schon gut für Ihre Gesundheit.",
+      "passageVocab": [
+        "bewegung",
+        "rückenschmerzen",
+        "täglich",
+        "direkt"
+      ],
+      "topicTag": "Sport",
+      "audio": [
+        {
+          "speaker": "Ansager",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Willkommen zu unserem kurzen Alltagstipp! Heute geht es um Bewegung. Viele Menschen sitzen zu viel. Stehen Sie jede Stunde einmal auf und gehen Sie ein paar Schritte. Das hilft direkt gegen Rückenschmerzen und macht Sie fitter. Es muss kein großer Sport sein, kleine Bewegungen täglich sind schon gut für Ihre Gesundheit."
+        }
+      ]
+    },
+    {
+      "id": "gen-p-h1-f91ddc0b-s4",
+      "module": "horen",
+      "teil": 1,
+      "lang": "de",
+      "level": "A2",
+      "title": "Text 4",
+      "text": "Wichtiger Hinweis für alle Besucher des heutigen Fußballspiels! Bitte nutzen Sie den Eingang B, direkt hinter der Haupttribüne. Der Eingang A ist heute geschlossen. Taschen, die Größer als DIN A4 sind, dürfen nicht mit ins Stadion genommen werden. Das Spiel beginnt pünktlich um 18 Uhr. Wir wünschen Ihnen ein spannendes Spiel!",
+      "passageVocab": [
+        "fußballspiel",
+        "stadion",
+        "eingang",
+        "direkt"
+      ],
+      "topicTag": "Sport",
+      "audio": [
+        {
+          "speaker": "Ansager",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Wichtiger Hinweis für alle Besucher des heutigen Fußballspiels! Bitte nutzen Sie den Eingang B, direkt hinter der Haupttribüne. Der Eingang A ist heute geschlossen. Taschen, die Größer als DIN A4 sind, dürfen nicht mit ins Stadion genommen werden. Das Spiel beginnt pünktlich um 18 Uhr. Wir wünschen Ihnen ein spannendes Spiel!"
+        }
+      ]
+    },
+    {
+      "id": "gen-p-h1-f91ddc0b-s5",
+      "module": "horen",
+      "teil": 1,
+      "lang": "de",
+      "level": "A2",
+      "title": "Text 5",
+      "text": "Guten Tag, Sie sprechen mit dem Sportgeschäft 'Fit & Fun'. Hier ist Herr Lehmann. Ich rufe Sie an wegen Ihrer Fahrradreparatur. Ihr Fahrrad ist fertig und kann ab sofort abgeholt werden. Wir sind heute bis 19 Uhr für Sie da. Die Rechnung liegt bereit. Bitte kommen Sie direkt zur Kasse. Vielen Dank und bis bald!",
+      "passageVocab": [
+        "sportgeschäft",
+        "fahrradreparatur",
+        "rechnung",
+        "direkt"
+      ],
+      "topicTag": "Sport",
+      "audio": [
+        {
+          "speaker": "Ansager",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Guten Tag, Sie sprechen mit dem Sportgeschäft 'Fit & Fun'. Hier ist Herr Lehmann. Ich rufe Sie an wegen Ihrer Fahrradreparatur. Ihr Fahrrad ist fertig und kann ab sofort abgeholt werden. Wir sind heute bis 19 Uhr für Sie da. Die Rechnung liegt bereit. Bitte kommen Sie direkt zur Kasse. Vielen Dank und bis bald!"
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "gen-q-h1-f91ddc0b-q1",
+      "module": "horen",
+      "teil": 1,
+      "lang": "de",
+      "level": "A2",
+      "type": "multiple_choice",
+      "question": "Wann kann man das Schwimmbecken wieder nutzen?",
+      "options": [
+        "a) Nur am Wochenende.",
+        "b) In der nächsten Woche.",
+        "c) Diese Woche noch."
+      ],
+      "correct": "b",
+      "correctAnswer": "b",
+      "explanation": "Das Schwimmbecken ist ab dem 15. Mai, also ab nächstem Montag, wieder für die Nutzung bereit.",
+      "segmentLabel": "Text 1",
+      "passageId": "gen-p-h1-f91ddc0b-s1",
+      "skills": [
+        "listening"
+      ],
+      "language": "de",
+      "examType": "goethe",
+      "difficulty": 5,
+      "topicTags": [
+        "Sport"
+      ],
+      "vocabularyTags": [
+        "nutzen",
+        "schwimmbecken",
+        "Woche"
+      ],
+      "grammarTags": [
+        "g-de-a2-modal",
+        "g-de-a2-dat-akk"
+      ]
+    },
+    {
+      "id": "gen-q-h1-f91ddc0b-q2",
+      "module": "horen",
+      "teil": 1,
+      "lang": "de",
+      "level": "A2",
+      "type": "multiple_choice",
+      "question": "Warum ruft Frau Braun an?",
+      "options": [
+        "a) Wegen der Absage des Trainings.",
+        "b) Um die Mannschaft zu loben.",
+        "c) Um ein neues Training zu planen."
+      ],
+      "correct": "a",
+      "correctAnswer": "a",
+      "explanation": "Frau Braun informiert Herrn Keller über die Absage des Trainings am Mittwoch wegen des schlechten Wetters.",
+      "segmentLabel": "Text 2",
+      "passageId": "gen-p-h1-f91ddc0b-s2",
+      "skills": [
+        "listening"
+      ],
+      "language": "de",
+      "examType": "goethe",
+      "difficulty": 5,
+      "topicTags": [
+        "Sport"
+      ],
+      "vocabularyTags": [
+        "wegen",
+        "Trainings",
+        "Absage",
+        "Frau",
+        "Braun"
+      ],
+      "grammarTags": [
+        "g-de-a2-trennbar",
+        "g-de-a2-dat-akk"
+      ]
+    },
+    {
+      "id": "gen-q-h1-f91ddc0b-q3",
+      "module": "horen",
+      "teil": 1,
+      "lang": "de",
+      "level": "A2",
+      "type": "multiple_choice",
+      "question": "Was ist der Tipp für mehr Bewegung?",
+      "options": [
+        "a) Nur sitzen bleiben.",
+        "b) Jeden Tag viel Sport machen.",
+        "c) Oft kurz aufstehen."
+      ],
+      "correct": "c",
+      "correctAnswer": "c",
+      "explanation": "Der Tipp rät dazu, jede Stunde einmal aufzustehen und ein paar Schritte zu gehen, um fitter zu werden.",
+      "segmentLabel": "Text 3",
+      "passageId": "gen-p-h1-f91ddc0b-s3",
+      "skills": [
+        "listening"
+      ],
+      "language": "de",
+      "examType": "goethe",
+      "difficulty": 5,
+      "topicTags": [
+        "Sport"
+      ],
+      "vocabularyTags": [
+        "aufstehen",
+        "Bewegung",
+        "Tipp"
+      ],
+      "grammarTags": [
+        "g-de-a2-trennbar",
+        "g-de-a2-dat-akk",
+        "g-de-a2-komparativ"
+      ]
+    },
+    {
+      "id": "gen-q-h1-f91ddc0b-q4",
+      "module": "horen",
+      "teil": 1,
+      "lang": "de",
+      "level": "A2",
+      "type": "multiple_choice",
+      "question": "Was ist heute im Stadion nicht erlaubt?",
+      "options": [
+        "a) Essen und Trinken.",
+        "b) Kleine Taschen.",
+        "c) Große Taschen."
+      ],
+      "correct": "c",
+      "correctAnswer": "c",
+      "explanation": "Es ist nicht erlaubt, Taschen mit ins Stadion zu nehmen, die Größer als DIN A4 sind.",
+      "segmentLabel": "Text 4",
+      "passageId": "gen-p-h1-f91ddc0b-s4",
+      "skills": [
+        "listening"
+      ],
+      "language": "de",
+      "examType": "goethe",
+      "difficulty": 5,
+      "topicTags": [
+        "Sport"
+      ],
+      "vocabularyTags": [
+        "taschen",
+        "Stadion",
+        "große"
+      ],
+      "grammarTags": [
+        "g-de-a2-dat-akk",
+        "g-de-a2-komparativ"
+      ]
+    },
+    {
+      "id": "gen-q-h1-f91ddc0b-q5",
+      "module": "horen",
+      "teil": 1,
+      "lang": "de",
+      "level": "A2",
+      "type": "multiple_choice",
+      "question": "Was soll der Kunde tun?",
+      "options": [
+        "a) Sein Fahrrad abholen.",
+        "b) Später anrufen.",
+        "c) Eine neue Reparatur bestellen."
+      ],
+      "correct": "a",
+      "correctAnswer": "a",
+      "explanation": "Der Anruf informiert den Kunden, dass sein Fahrrad fertig ist und zur Abholung bereitsteht.",
+      "segmentLabel": "Text 5",
+      "passageId": "gen-p-h1-f91ddc0b-s5",
+      "skills": [
+        "listening"
+      ],
+      "language": "de",
+      "examType": "goethe",
+      "difficulty": 5,
+      "topicTags": [
+        "Sport"
+      ],
+      "vocabularyTags": [
+        "abholen",
+        "Fahrrad",
+        "Kunde"
+      ],
+      "grammarTags": [
+        "g-de-a2-nebensatz",
+        "g-de-a2-modal",
+        "g-de-a2-trennbar",
+        "g-de-a2-dat-akk"
+      ]
+    }
+  ],
+  "_germanCapsNormalizeVersion": "v3.23-lesen-t2-angebote-corpus-2026-07-28",
+  "_germanCapsNormalizedAt": "2026-07-27T06:35:00.686Z",
+  "_balanceMcqVersion": "v1.2-no-rf-chrono-shuffle-2026-07-11",
+  "_balanceMcqNormalizedAt": "2026-07-27T06:35:00.686Z",
+  "topicTag": "Sport",
+  "_requestedTopic": "Sport",
+  "generationMetadata": {
+    "usedFeedback": false,
+    "feedbackRules": [],
+    "feedbackCount": 0,
+    "feedbackCategories": [],
+    "feedbackMode": "off",
+    "feedbackVersion": "v1"
+  },
+  "_metadataEnrichedAt": "2026-07-27T06:41:16.346Z",
+  "_metadataEnrichNote": "deterministic: detectTopic + per-question lemma vocab + grammar heuristics",
+  "_vocabTagsNormalizeVersion": "v2.3.16-b1-validated-verb-adj-lemma-2026-07-24",
+  "_grammarTagsNormalizeVersion": "v2.2-a2-b2-level-tags-2026-07-27",
+  "_a2GrammarRetagAt": "2026-07-27T06:41:16.346Z",
+  "_a2GrammarRetagNote": "re-enrich-a2-pool-grammar.mjs",
+  "_germanCapsMetadataRestampAt": "2026-08-05T04:37:08.099Z",
+  "_germanCapsMetadataRestampNote": "metadata-only; no applyGermanCapsNormalize"
+}

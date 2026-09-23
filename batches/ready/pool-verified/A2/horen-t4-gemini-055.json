@@ -1,0 +1,299 @@
+{
+  "passages": [
+    {
+      "id": "gen-p-h4-785ecc55-s1",
+      "module": "horen",
+      "teil": 4,
+      "lang": "de",
+      "level": "A2",
+      "title": "Umwelttipps im Alltag",
+      "text": "Moderator: Guten Tag. Heute sprechen wir über ein wichtiges Thema: unsere Umwelt. Viele Menschen möchten etwas für die Natur tun. Frau Schmidt, Sie haben da eine gute Idee, oder?\n\nMaja Schmidt: Ja, genau. Ich finde, jeder kann im Alltag kleine Dinge ändern. Das ist nicht schwer und hilft viel. Zum Beispiel, weniger Müll machen.\n\nModerator: Weniger Müll? Wie kann man das machen?\n\nMaja Schmidt: Man kann zum Beispiel beim Einkaufen Stofftaschen benutzen. Oder Getränke in Glasflaschen kaufen, nicht in Plastikflaschen. Das ist besser für die Umwelt.\n\nModerator: Das klingt einfach. Und was ist mit Energie?\n\nMaja Schmidt: Energie sparen ist auch sehr wichtig. Man kann das Licht ausmachen, wenn man aus dem Zimmer geht. Oder die Heizung etwas runterdrehen. Auch kurze Duschen helfen.\n\nModerator: Viele Leute fahren oft mit dem Auto. Gibt es da auch einen Vorschlag?\n\nMaja Schmidt: Ja, klar. Man kann öfter das Fahrrad nehmen oder mit dem Bus fahren. Die Bahn ist auch eine gute Option für längere Strecken. Das ist gut für die Luft.\n\nModerator: Das sind viele gute Tipps. Vielen Dank, Frau Schmidt, für diese praktischen Ideen.\n\nMaja Schmidt: Gern geschehen. Es ist wichtig, dass wir alle mitmachen.",
+      "passageVocab": [
+        "Umwelt",
+        "Natur",
+        "Müll",
+        "Einkaufen",
+        "Stofftaschen",
+        "Energie",
+        "Fahrrad",
+        "Bahn"
+      ],
+      "audio": [
+        {
+          "speaker": "Moderator",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Guten Tag. Heute sprechen wir über ein wichtiges Thema: unsere Umwelt. Viele Menschen möchten etwas für die Natur tun. Frau Schmidt, Sie haben da eine gute Idee, oder?"
+        },
+        {
+          "speaker": "Maja Schmidt",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Ja, genau. Ich finde, jeder kann im Alltag kleine Dinge ändern. Das ist nicht schwer und hilft viel. Zum Beispiel, weniger Müll machen."
+        },
+        {
+          "speaker": "Moderator",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Weniger Müll? Wie kann man das machen?"
+        },
+        {
+          "speaker": "Maja Schmidt",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Man kann zum Beispiel beim Einkaufen Stofftaschen benutzen. Oder Getränke in Glasflaschen kaufen, nicht in Plastikflaschen. Das ist besser für die Umwelt."
+        },
+        {
+          "speaker": "Moderator",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Das klingt einfach. Und was ist mit Energie?"
+        },
+        {
+          "speaker": "Maja Schmidt",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Energie sparen ist auch sehr wichtig. Man kann das Licht ausmachen, wenn man aus dem Zimmer geht. Oder die Heizung etwas runterdrehen. Auch kurze Duschen helfen."
+        },
+        {
+          "speaker": "Moderator",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Viele Leute fahren oft mit dem Auto. Gibt es da auch einen Vorschlag?"
+        },
+        {
+          "speaker": "Maja Schmidt",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Ja, klar. Man kann öfter das Fahrrad nehmen oder mit dem Bus fahren. Die Bahn ist auch eine gute Option für längere Strecken. Das ist gut für die Luft."
+        },
+        {
+          "speaker": "Moderator",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Das sind viele gute Tipps. Vielen Dank, Frau Schmidt, für diese praktischen Ideen."
+        },
+        {
+          "speaker": "Maja Schmidt",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Gern geschehen. Es ist wichtig, dass wir alle mitmachen."
+        }
+      ],
+      "topicTag": "Umwelt"
+    }
+  ],
+  "questions": [
+    {
+      "id": "gen-q-h4-785ecc55-q5",
+      "module": "horen",
+      "teil": 4,
+      "type": "ja_nein",
+      "question": "Frau Schmidt denkt, dass jeder Mensch mithelfen kann, die Umwelt zu schützen.",
+      "correct": "Ja",
+      "correctAnswer": "Ja",
+      "options": [],
+      "explanation": "Frau Schmidt betont, dass es wichtig ist, dass alle Menschen bei den Umweltschutzmaßnahmen mitmachen.",
+      "passageId": "gen-p-h4-785ecc55-s1",
+      "level": "A2",
+      "topicTags": [
+        "Umwelt"
+      ],
+      "vocabularyTags": [
+        "Umwelt",
+        "mithelfen",
+        "schützen",
+        "Mensch",
+        "Schmidt"
+      ],
+      "grammarTags": [
+        "g-de-a2-nebensatz",
+        "g-de-a2-modal",
+        "g-de-a2-trennbar",
+        "g-de-a2-dat-akk"
+      ]
+    },
+    {
+      "id": "gen-q-h4-785ecc55-q4",
+      "module": "horen",
+      "teil": 4,
+      "type": "ja_nein",
+      "question": "Frau Schmidt schlägt vor, für längere Wege das Auto zu nehmen.",
+      "correct": "Nein",
+      "correctAnswer": "Nein",
+      "options": [],
+      "explanation": "Sie empfiehlt, öfter das Fahrrad, den Bus oder die Bahn für längere Strecken zu nutzen, nicht das Auto.",
+      "passageId": "gen-p-h4-785ecc55-s1",
+      "level": "A2",
+      "topicTags": [
+        "Umwelt"
+      ],
+      "vocabularyTags": [
+        "Schmidt",
+        "Frau",
+        "Auto"
+      ],
+      "grammarTags": [
+        "g-de-a2-trennbar",
+        "g-de-a2-dat-akk"
+      ]
+    },
+    {
+      "id": "gen-q-h4-785ecc55-q2",
+      "module": "horen",
+      "teil": 4,
+      "type": "ja_nein",
+      "question": "Beim Einkaufen empfiehlt Frau Schmidt, Stofftaschen zu verwenden.",
+      "correct": "Ja",
+      "correctAnswer": "Ja",
+      "options": [],
+      "explanation": "Frau Schmidt schlägt vor, beim Einkaufen Stofftaschen zu benutzen, um Müll zu vermeiden.",
+      "passageId": "gen-p-h4-785ecc55-s1",
+      "level": "A2",
+      "topicTags": [
+        "Umwelt"
+      ],
+      "vocabularyTags": [
+        "einkaufen",
+        "stofftaschen",
+        "verwenden",
+        "Schmidt",
+        "Frau"
+      ],
+      "grammarTags": [
+        "g-de-a2-trennbar"
+      ]
+    },
+    {
+      "id": "gen-q-h4-785ecc55-q1",
+      "module": "horen",
+      "teil": 4,
+      "type": "ja_nein",
+      "question": "Frau Schmidt findet, dass es schwer ist, im Alltag etwas für die Umwelt zu tun.",
+      "correct": "Nein",
+      "correctAnswer": "Nein",
+      "options": [],
+      "explanation": "Frau Schmidt sagt, dass es nicht schwer ist, im Alltag kleine Dinge für die Umwelt zu ändern.",
+      "passageId": "gen-p-h4-785ecc55-s1",
+      "level": "A2",
+      "topicTags": [
+        "Umwelt"
+      ],
+      "vocabularyTags": [
+        "Alltag",
+        "Umwelt",
+        "finden",
+        "Schmidt",
+        "Frau"
+      ],
+      "grammarTags": [
+        "g-de-a2-nebensatz",
+        "g-de-a2-trennbar",
+        "g-de-a2-dat-akk"
+      ]
+    },
+    {
+      "id": "gen-q-h4-785ecc55-q3",
+      "module": "horen",
+      "teil": 4,
+      "type": "ja_nein",
+      "question": "Um Energie zu sparen, soll man das Licht immer anlassen.",
+      "correct": "Nein",
+      "correctAnswer": "Nein",
+      "options": [],
+      "explanation": "Frau Schmidt rät, das Licht auszumachen, wenn man ein Zimmer verlässt, um Energie zu sparen.",
+      "passageId": "gen-p-h4-785ecc55-s1",
+      "level": "A2",
+      "topicTags": [
+        "Umwelt"
+      ],
+      "vocabularyTags": [
+        "Licht",
+        "anlassen",
+        "sparen",
+        "Energie"
+      ],
+      "grammarTags": [
+        "g-de-a2-nebensatz",
+        "g-de-a2-modal",
+        "g-de-a2-trennbar",
+        "g-de-a2-dat-akk"
+      ]
+    }
+  ],
+  "_germanCapsNormalizeVersion": "v3.23-lesen-t2-angebote-corpus-2026-07-28",
+  "_germanCapsNormalizedAt": "2026-09-23T01:38:23.562Z",
+  "_balanceMcqVersion": "v1.2-no-rf-chrono-shuffle-2026-07-11",
+  "_balanceMcqNormalizedAt": "2026-09-23T01:38:23.562Z",
+  "topicTag": "Umwelt",
+  "_requestedTopic": "Umwelt",
+  "userVocabFeedback": {
+    "topic": "Umwelt",
+    "requested": [
+      "zukunft",
+      "täglich",
+      "vorschlag",
+      "bedeuten",
+      "direkt",
+      "erfahrung",
+      "anmeldung",
+      "nutzen"
+    ],
+    "prompted": [
+      "zukunft",
+      "täglich",
+      "vorschlag",
+      "bedeuten",
+      "direkt",
+      "erfahrung",
+      "anmeldung",
+      "nutzen"
+    ],
+    "originalRequested": null,
+    "subtypeAdaptation": null,
+    "used": [
+      "vorschlag",
+      "nutzen"
+    ],
+    "notUsed": [
+      "zukunft",
+      "täglich",
+      "bedeuten",
+      "direkt",
+      "erfahrung",
+      "anmeldung"
+    ],
+    "excluded": [],
+    "ratio": 0.25,
+    "targetUsage": [
+      {
+        "word": "vorschlag",
+        "surfaces": [
+          "Vorschlag"
+        ]
+      },
+      {
+        "word": "nutzen",
+        "surfaces": [
+          "benutzen"
+        ]
+      }
+    ]
+  },
+  "targetUsage": [
+    {
+      "word": "vorschlag",
+      "surfaces": [
+        "Vorschlag"
+      ]
+    },
+    {
+      "word": "nutzen",
+      "surfaces": [
+        "benutzen"
+      ]
+    }
+  ],
+  "generationMetadata": {
+    "usedFeedback": false,
+    "feedbackRules": [],
+    "feedbackCount": 0,
+    "feedbackCategories": [],
+    "feedbackMode": "off",
+    "feedbackVersion": "v1"
+  },
+  "_metadataEnrichedAt": "2026-09-23T01:38:23.725Z",
+  "_metadataEnrichNote": "deterministic: detectTopic + per-question lemma vocab + grammar heuristics",
+  "_vocabTagsNormalizeVersion": "v2.3.18-paso3-vocab-plural-rubric-strip-2026-08-02",
+  "_grammarTagsNormalizeVersion": "v2.2-a2-b2-level-tags-2026-07-27"
+}

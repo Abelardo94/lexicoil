@@ -1,0 +1,278 @@
+{
+  "passages": [
+    {
+      "id": "gen-p-h4-6c00a3e6-s1",
+      "module": "horen",
+      "teil": 4,
+      "lang": "de",
+      "level": "A2",
+      "title": "Medien im Alltag",
+      "text": "Moderator: Guten Tag. Heute sprechen wir über Medien. Viele Menschen nutzen heute täglich das Internet und das Handy. Frau Schmidt, Sie sind heute unser Gast. Wie wichtig sind Medien für Sie?\n\nHannah Schmidt: Guten Tag. Für mich sind Medien sehr wichtig. Ich nutze mein Smartphone jeden Tag. Ich lese Nachrichten online und schaue kurze Videos. Das ist praktisch, besonders wenn ich unterwegs bin.\n\nModerator: Und welche Medien nutzen Sie am liebsten? Ist das nur das Handy?\n\nHannah Schmidt: Nein, nicht nur das Handy. Am Abend lese ich oft ein Buch oder eine Zeitschrift. Manchmal höre ich auch Radio, besonders im Auto. Das ist eine gute Abwechslung. Ich finde es wichtig, nicht nur auf einen Bildschirm zu schauen.\n\nModerator: Verstehen Sie auch, wenn ältere Menschen weniger digitale Medien nutzen?\n\nHannah Schmidt: Ja, klar. Meine Großeltern lesen lieber die Zeitung aus Papier. Sie telefonieren auch lieber mit dem Festnetz. Das ist ihre Gewohnheit. Für sie ist das Handy keine so große Hilfe im Alltag. Aber sie lernen langsam. Mein Opa hat jetzt ein Tablet für Fotos.\n\nModerator: Das klingt gut. Vielen Dank, Frau Schmidt, für Ihre Meinung.",
+      "passageVocab": [
+        "interview",
+        "meinung",
+        "medien",
+        "alltag",
+        "smartphone"
+      ],
+      "audio": [
+        {
+          "speaker": "Moderator",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Guten Tag. Heute sprechen wir über Medien. Viele Menschen nutzen heute täglich das Internet und das Handy. Frau Schmidt, Sie sind heute unser Gast. Wie wichtig sind Medien für Sie?"
+        },
+        {
+          "speaker": "Hannah Schmidt",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Guten Tag. Für mich sind Medien sehr wichtig. Ich nutze mein Smartphone jeden Tag. Ich lese Nachrichten online und schaue kurze Videos. Das ist praktisch, besonders wenn ich unterwegs bin."
+        },
+        {
+          "speaker": "Moderator",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Und welche Medien nutzen Sie am liebsten? Ist das nur das Handy?"
+        },
+        {
+          "speaker": "Hannah Schmidt",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Nein, nicht nur das Handy. Am Abend lese ich oft ein Buch oder eine Zeitschrift. Manchmal höre ich auch Radio, besonders im Auto. Das ist eine gute Abwechslung. Ich finde es wichtig, nicht nur auf einen Bildschirm zu schauen."
+        },
+        {
+          "speaker": "Moderator",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Verstehen Sie auch, wenn ältere Menschen weniger digitale Medien nutzen?"
+        },
+        {
+          "speaker": "Hannah Schmidt",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Ja, klar. Meine Großeltern lesen lieber die Zeitung aus Papier. Sie telefonieren auch lieber mit dem Festnetz. Das ist ihre Gewohnheit. Für sie ist das Handy keine so große Hilfe im Alltag. Aber sie lernen langsam. Mein Opa hat jetzt ein Tablet für Fotos."
+        },
+        {
+          "speaker": "Moderator",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Das klingt gut. Vielen Dank, Frau Schmidt, für Ihre Meinung."
+        }
+      ],
+      "topicTag": "Medien"
+    }
+  ],
+  "questions": [
+    {
+      "id": "gen-q-h4-6c00a3e6-q1",
+      "module": "horen",
+      "teil": 4,
+      "type": "ja_nein",
+      "question": "Hannah Schmidt nutzt ihr Smartphone nur, wenn sie unterwegs ist.",
+      "correct": "Nein",
+      "correctAnswer": "Nein",
+      "options": [],
+      "explanation": "Hannah Schmidt sagt, dass sie ihr Smartphone jeden Tag nutzt, nicht nur unterwegs.",
+      "passageId": "gen-p-h4-6c00a3e6-s1",
+      "level": "A2",
+      "topicTags": [
+        "Medien"
+      ],
+      "vocabularyTags": [
+        "Smartphone",
+        "unterwegs",
+        "Schmidt",
+        "Hannah"
+      ],
+      "grammarTags": [
+        "g-de-a2-nebensatz",
+        "g-de-a2-trennbar",
+        "g-de-a2-praesens"
+      ]
+    },
+    {
+      "id": "gen-q-h4-6c00a3e6-q3",
+      "module": "horen",
+      "teil": 4,
+      "type": "ja_nein",
+      "question": "Sie findet es wichtig, immer nur digitale Medien zu nutzen.",
+      "correct": "Nein",
+      "correctAnswer": "Nein",
+      "options": [],
+      "explanation": "Hannah sagt: 'Ich finde es wichtig, nicht nur auf einen Bildschirm zu schauen.' Sie nutzt auch andere Medien.",
+      "passageId": "gen-p-h4-6c00a3e6-s1",
+      "level": "A2",
+      "topicTags": [
+        "Medien"
+      ],
+      "vocabularyTags": [
+        "nutzen",
+        "finden",
+        "medien",
+        "wichtig",
+        "digital"
+      ],
+      "grammarTags": [
+        "g-de-a2-trennbar",
+        "g-de-a2-dat-akk",
+        "g-de-a2-praesens"
+      ]
+    },
+    {
+      "id": "gen-q-h4-6c00a3e6-q5",
+      "module": "horen",
+      "teil": 4,
+      "type": "ja_nein",
+      "question": "Hannahs Opa hat ein Tablet, um Fotos anzuschauen.",
+      "correct": "Ja",
+      "correctAnswer": "Ja",
+      "options": [],
+      "explanation": "Hannah erwähnt: 'Mein Opa hat jetzt ein Tablet für Fotos.' Das ist korrekt.",
+      "passageId": "gen-p-h4-6c00a3e6-s1",
+      "level": "A2",
+      "topicTags": [
+        "Medien"
+      ],
+      "vocabularyTags": [
+        "Hannahs",
+        "Tablet",
+        "Fotos"
+      ],
+      "grammarTags": [
+        "g-de-a2-trennbar",
+        "g-de-a2-dat-akk"
+      ]
+    },
+    {
+      "id": "gen-q-h4-6c00a3e6-q2",
+      "module": "horen",
+      "teil": 4,
+      "type": "ja_nein",
+      "question": "Hannah liest am Abend oft Bücher oder Zeitschriften.",
+      "correct": "Ja",
+      "correctAnswer": "Ja",
+      "options": [],
+      "explanation": "Sie sagt: 'Am Abend lese ich oft ein Buch oder eine Zeitschrift.' Das ist richtig.",
+      "passageId": "gen-p-h4-6c00a3e6-s1",
+      "level": "A2",
+      "topicTags": [
+        "Medien"
+      ],
+      "vocabularyTags": [
+        "Zeitschriften",
+        "Hannah",
+        "Bücher",
+        "Abend"
+      ],
+      "grammarTags": [
+        "g-de-a2-trennbar",
+        "g-de-a2-dat-akk",
+        "g-de-a2-praesens"
+      ]
+    },
+    {
+      "id": "gen-q-h4-6c00a3e6-q4",
+      "module": "horen",
+      "teil": 4,
+      "type": "ja_nein",
+      "question": "Ihre Großeltern nutzen das Handy sehr oft im Alltag.",
+      "correct": "Nein",
+      "correctAnswer": "Nein",
+      "options": [],
+      "explanation": "Hannah erklärt, dass das Handy für ihre Großeltern 'keine so große Hilfe im Alltag' ist.",
+      "passageId": "gen-p-h4-6c00a3e6-s1",
+      "level": "A2",
+      "topicTags": [
+        "Medien"
+      ],
+      "vocabularyTags": [
+        "nutzen",
+        "Alltag",
+        "Handy",
+        "Großeltern"
+      ],
+      "grammarTags": [
+        "g-de-a2-nebensatz",
+        "g-de-a2-dat-akk"
+      ]
+    }
+  ],
+  "_germanCapsNormalizeVersion": "v3.23-lesen-t2-angebote-corpus-2026-07-28",
+  "_germanCapsNormalizedAt": "2026-09-23T01:29:38.722Z",
+  "_balanceMcqVersion": "v1.2-no-rf-chrono-shuffle-2026-07-11",
+  "_balanceMcqNormalizedAt": "2026-09-23T01:29:38.722Z",
+  "topicTag": "Medien",
+  "_requestedTopic": "Medien",
+  "userVocabFeedback": {
+    "topic": "Medien",
+    "requested": [
+      "blog",
+      "medien",
+      "aufgabe",
+      "situation",
+      "zukunft",
+      "täglich",
+      "bedeuten",
+      "vorschlag"
+    ],
+    "prompted": [
+      "blog",
+      "medien",
+      "aufgabe",
+      "situation",
+      "zukunft",
+      "täglich",
+      "bedeuten",
+      "vorschlag"
+    ],
+    "originalRequested": null,
+    "subtypeAdaptation": null,
+    "used": [
+      "medien",
+      "täglich"
+    ],
+    "notUsed": [
+      "blog",
+      "aufgabe",
+      "situation",
+      "zukunft",
+      "bedeuten",
+      "vorschlag"
+    ],
+    "excluded": [],
+    "ratio": 0.25,
+    "targetUsage": [
+      {
+        "word": "medien",
+        "surfaces": [
+          "Medien"
+        ]
+      },
+      {
+        "word": "täglich",
+        "surfaces": [
+          "täglich"
+        ]
+      }
+    ]
+  },
+  "targetUsage": [
+    {
+      "word": "medien",
+      "surfaces": [
+        "Medien"
+      ]
+    },
+    {
+      "word": "täglich",
+      "surfaces": [
+        "täglich"
+      ]
+    }
+  ],
+  "generationMetadata": {
+    "usedFeedback": false,
+    "feedbackRules": [],
+    "feedbackCount": 0,
+    "feedbackCategories": [],
+    "feedbackMode": "off",
+    "feedbackVersion": "v1"
+  },
+  "_metadataEnrichedAt": "2026-09-23T01:29:38.864Z",
+  "_metadataEnrichNote": "deterministic: detectTopic + per-question lemma vocab + grammar heuristics",
+  "_vocabTagsNormalizeVersion": "v2.3.18-paso3-vocab-plural-rubric-strip-2026-08-02",
+  "_grammarTagsNormalizeVersion": "v2.2-a2-b2-level-tags-2026-07-27"
+}

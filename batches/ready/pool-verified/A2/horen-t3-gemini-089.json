@@ -1,0 +1,421 @@
+{
+  "passages": [
+    {
+      "id": "gen-p-h3-fd68980c-s1",
+      "module": "horen",
+      "teil": 3,
+      "lang": "de",
+      "level": "A2",
+      "topicTag": "Gesundheit",
+      "text": "Tim: Sag mal, Sophie, hast du dich schon für den neuen Gesundheitskurs angemeldet?\nSophie: Ach, Tim, das ist eine wichtige Aufgabe. Ich habe es noch nicht geschafft, aber ich weiß, es ist gut für meine Zukunft.",
+      "audio": [
+        {
+          "speaker": "Tim",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Sag mal, Sophie, hast du dich schon für den neuen Gesundheitskurs angemeldet?"
+        },
+        {
+          "speaker": "Sophie",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Ach, Tim, das ist eine wichtige Aufgabe. Ich habe es noch nicht geschafft, aber ich weiß, es ist gut für meine Zukunft."
+        }
+      ]
+    },
+    {
+      "id": "gen-p-h3-fd68980c-s2",
+      "module": "horen",
+      "teil": 3,
+      "lang": "de",
+      "level": "A2",
+      "topicTag": "Gesundheit",
+      "text": "Niklas: Laura, ich fühle mich in letzter Zeit nicht so gut. Ich denke, ich brauche einen Arzttermin.\nLaura: Das ist eine gute Idee, Niklas. Ruf doch gleich im Krankenhaus an und mach einen Termin.",
+      "audio": [
+        {
+          "speaker": "Niklas",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Laura, ich fühle mich in letzter Zeit nicht so gut. Ich denke, ich brauche einen Arzttermin."
+        },
+        {
+          "speaker": "Laura",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Das ist eine gute Idee, Niklas. Ruf doch gleich im Krankenhaus an und mach einen Termin."
+        }
+      ]
+    },
+    {
+      "id": "gen-p-h3-fd68980c-s3",
+      "module": "horen",
+      "teil": 3,
+      "lang": "de",
+      "level": "A2",
+      "topicTag": "Gesundheit",
+      "text": "Paul: Nina, ich muss täglich meine Medikamente nehmen. Hast du zufällig meine Tabletten gesehen?\nNina: Ja, Paul, sie liegen auf dem Küchentisch. Du solltest sie nicht vergessen, das ist wichtig für deine Gesundheit.",
+      "audio": [
+        {
+          "speaker": "Paul",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Nina, ich muss täglich meine Medikamente nehmen. Hast du zufällig meine Tabletten gesehen?"
+        },
+        {
+          "speaker": "Nina",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Ja, Paul, sie liegen auf dem Küchentisch. Du solltest sie nicht vergessen, das ist wichtig für deine Gesundheit."
+        }
+      ]
+    },
+    {
+      "id": "gen-p-h3-fd68980c-s4",
+      "module": "horen",
+      "teil": 3,
+      "lang": "de",
+      "level": "A2",
+      "topicTag": "Gesundheit",
+      "text": "David: Julia, ich habe gehört, du machst jetzt täglich Sport. Wie ist deine Erfahrung damit?\nJulia: Ja, David, es ist super! Ich fühle mich viel besser und habe mehr Energie. Das ist wirklich gut für die Gesundheit.",
+      "audio": [
+        {
+          "speaker": "David",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Julia, ich habe gehört, du machst jetzt täglich Sport. Wie ist deine Erfahrung damit?"
+        },
+        {
+          "speaker": "Julia",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Ja, David, es ist super! Ich fühle mich viel besser und habe mehr Energie. Das ist wirklich gut für die Gesundheit."
+        }
+      ]
+    },
+    {
+      "id": "gen-p-h3-fd68980c-s5",
+      "module": "horen",
+      "teil": 3,
+      "lang": "de",
+      "level": "A2",
+      "topicTag": "Gesundheit",
+      "text": "Simon: Lisa, ich habe eine Frage zur Situation im Krankenhaus. Wie funktioniert der Transport für Patienten?\nLisa: Der Transport ist gut organisiert. Ein spezieller Dienst bringt die Patienten sicher zu ihren Behandlungen.",
+      "audio": [
+        {
+          "speaker": "Simon",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Lisa, ich habe eine Frage zur Situation im Krankenhaus. Wie funktioniert der Transport für Patienten?"
+        },
+        {
+          "speaker": "Lisa",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Der Transport ist gut organisiert. Ein spezieller Dienst bringt die Patienten sicher zu ihren Behandlungen."
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "gen-q-h3-fd68980c-q1",
+      "module": "horen",
+      "teil": 3,
+      "lang": "de",
+      "level": "A2",
+      "type": "multiple_choice",
+      "passageId": "gen-p-h3-fd68980c-s1",
+      "segmentLabel": "Text 1",
+      "question": "Was hat Sophie noch nicht gemacht?",
+      "options": [
+        "a) Ihre Medikamente genommen.",
+        "b) Einen Arzttermin vereinbart.",
+        "c) Sich für den Kurs angemeldet."
+      ],
+      "correct": "c",
+      "correctAnswer": "c",
+      "explanation": "Sophie sagt, dass sie die Anmeldung für den neuen Gesundheitskurs noch nicht erledigt hat, obwohl sie es für wichtig hält.",
+      "topicTags": [
+        "Gesundheit"
+      ],
+      "vocabularyTags": [
+        "Sophie",
+        "Kurs"
+      ],
+      "grammarTags": [
+        "g-de-a2-nebensatz",
+        "g-de-a2-perfekt",
+        "g-de-a2-trennbar",
+        "g-de-a2-dat-akk"
+      ]
+    },
+    {
+      "id": "gen-q-h3-fd68980c-q2",
+      "module": "horen",
+      "teil": 3,
+      "lang": "de",
+      "level": "A2",
+      "type": "multiple_choice",
+      "passageId": "gen-p-h3-fd68980c-s2",
+      "segmentLabel": "Text 2",
+      "question": "Was schlägt Laura Niklas vor?",
+      "options": [
+        "a) Er soll im Krankenhaus anrufen.",
+        "b) Er soll seine Medikamente nehmen.",
+        "c) Er soll Sport machen."
+      ],
+      "correct": "a",
+      "correctAnswer": "a",
+      "explanation": "Laura rät Niklas, direkt im Krankenhaus anzurufen, um einen Termin beim Arzt zu vereinbaren, weil er sich nicht gut fühlt.",
+      "topicTags": [
+        "Gesundheit"
+      ],
+      "vocabularyTags": [
+        "anrufen",
+        "Krankenhaus",
+        "Niklas",
+        "Laura"
+      ],
+      "grammarTags": [
+        "g-de-a2-nebensatz",
+        "g-de-a2-modal",
+        "g-de-a2-trennbar",
+        "g-de-a2-dat-akk"
+      ]
+    },
+    {
+      "id": "gen-q-h3-fd68980c-q3",
+      "module": "horen",
+      "teil": 3,
+      "lang": "de",
+      "level": "A2",
+      "type": "multiple_choice",
+      "passageId": "gen-p-h3-fd68980c-s3",
+      "segmentLabel": "Text 3",
+      "question": "Wo findet Nina Pauls Tabletten?",
+      "options": [
+        "a) Im Badzimmer.",
+        "b) Auf dem Küchentisch.",
+        "c) Auf dem Nachttisch."
+      ],
+      "correct": "b",
+      "correctAnswer": "b",
+      "explanation": "Nina sagt Paul, dass seine Tabletten auf dem Küchentisch liegen und dass er sie nicht vergessen soll.",
+      "topicTags": [
+        "Gesundheit"
+      ],
+      "vocabularyTags": [
+        "tabletten",
+        "finden",
+        "Küchentisch",
+        "Pauls"
+      ],
+      "grammarTags": [
+        "g-de-a2-nebensatz",
+        "g-de-a2-dat-akk"
+      ]
+    },
+    {
+      "id": "gen-q-h3-fd68980c-q4",
+      "module": "horen",
+      "teil": 3,
+      "lang": "de",
+      "level": "A2",
+      "type": "multiple_choice",
+      "passageId": "gen-p-h3-fd68980c-s4",
+      "segmentLabel": "Text 4",
+      "question": "Wie fühlt sich Julia durch den Sport?",
+      "options": [
+        "a) Besser und energiegeladener.",
+        "b) Sie hat keine Veränderung bemerkt.",
+        "c) Müde und energielos."
+      ],
+      "correct": "a",
+      "correctAnswer": "a",
+      "explanation": "Julia erklärt, dass sie sich durch das tägliche Sporttreiben viel besser und energiegeladener fühlt, was gut für ihre Gesundheit ist.",
+      "topicTags": [
+        "Gesundheit"
+      ],
+      "vocabularyTags": [
+        "Besser",
+        "energiegeladen",
+        "Julia",
+        "Sport"
+      ],
+      "grammarTags": [
+        "g-de-a2-nebensatz",
+        "g-de-a2-dat-akk",
+        "g-de-a2-komparativ"
+      ]
+    },
+    {
+      "id": "gen-q-h3-fd68980c-q5",
+      "module": "horen",
+      "teil": 3,
+      "lang": "de",
+      "level": "A2",
+      "type": "multiple_choice",
+      "passageId": "gen-p-h3-fd68980c-s5",
+      "segmentLabel": "Text 5",
+      "question": "Wer transportiert die Patienten im Krankenhaus?",
+      "options": [
+        "a) Die Familienmitglieder.",
+        "b) Die Ärzte selbst.",
+        "c) Ein spezieller Dienst."
+      ],
+      "correct": "c",
+      "correctAnswer": "c",
+      "explanation": "Lisa beschreibt, dass ein spezieller Dienst im Krankenhaus dafür zuständig ist, die Patienten sicher zu ihren Behandlungen zu bringen.",
+      "topicTags": [
+        "Gesundheit"
+      ],
+      "vocabularyTags": [
+        "transportiert",
+        "speziell",
+        "Krankenhaus",
+        "patienten",
+        "Dienst"
+      ],
+      "grammarTags": [
+        "g-de-a2-nebensatz",
+        "g-de-a2-trennbar",
+        "g-de-a2-dat-akk"
+      ]
+    }
+  ],
+  "_germanCapsNormalizeVersion": "v3.23-lesen-t2-angebote-corpus-2026-07-28",
+  "_germanCapsNormalizedAt": "2026-08-02T10:53:18.592Z",
+  "_balanceMcqVersion": "v1.2-no-rf-chrono-shuffle-2026-07-11",
+  "_balanceMcqNormalizedAt": "2026-08-02T10:53:18.592Z",
+  "topicTag": "Gesundheit",
+  "_requestedTopic": "Gesundheit",
+  "userVocabFeedback": {
+    "topic": "Gesundheit",
+    "requested": [
+      "krankenhaus",
+      "aufgabe",
+      "situation",
+      "zukunft",
+      "täglich",
+      "bedeuten",
+      "erfahrung",
+      "medikament"
+    ],
+    "prompted": [
+      "krankenhaus",
+      "aufgabe",
+      "situation",
+      "zukunft",
+      "täglich",
+      "bedeuten",
+      "erfahrung",
+      "medikament"
+    ],
+    "originalRequested": null,
+    "subtypeAdaptation": null,
+    "used": [
+      "krankenhaus",
+      "aufgabe",
+      "situation",
+      "zukunft",
+      "täglich",
+      "erfahrung",
+      "medikament"
+    ],
+    "notUsed": [
+      "bedeuten"
+    ],
+    "excluded": [],
+    "ratio": 0.875,
+    "targetUsage": [
+      {
+        "word": "krankenhaus",
+        "surfaces": [
+          "Krankenhaus"
+        ]
+      },
+      {
+        "word": "aufgabe",
+        "surfaces": [
+          "Aufgabe"
+        ]
+      },
+      {
+        "word": "situation",
+        "surfaces": [
+          "Situation"
+        ]
+      },
+      {
+        "word": "zukunft",
+        "surfaces": [
+          "Zukunft"
+        ]
+      },
+      {
+        "word": "täglich",
+        "surfaces": [
+          "täglich"
+        ]
+      },
+      {
+        "word": "erfahrung",
+        "surfaces": [
+          "Erfahrung"
+        ]
+      },
+      {
+        "word": "medikament",
+        "surfaces": [
+          "Medikamente"
+        ]
+      }
+    ]
+  },
+  "targetUsage": [
+    {
+      "word": "krankenhaus",
+      "surfaces": [
+        "Krankenhaus"
+      ]
+    },
+    {
+      "word": "aufgabe",
+      "surfaces": [
+        "Aufgabe"
+      ]
+    },
+    {
+      "word": "situation",
+      "surfaces": [
+        "Situation"
+      ]
+    },
+    {
+      "word": "zukunft",
+      "surfaces": [
+        "Zukunft"
+      ]
+    },
+    {
+      "word": "täglich",
+      "surfaces": [
+        "täglich"
+      ]
+    },
+    {
+      "word": "erfahrung",
+      "surfaces": [
+        "Erfahrung"
+      ]
+    },
+    {
+      "word": "medikament",
+      "surfaces": [
+        "Medikamente"
+      ]
+    }
+  ],
+  "generationMetadata": {
+    "usedFeedback": false,
+    "feedbackRules": [],
+    "feedbackCount": 0,
+    "feedbackCategories": [],
+    "feedbackMode": "off",
+    "feedbackVersion": "v1"
+  },
+  "_metadataEnrichedAt": "2026-08-02T10:53:36.442Z",
+  "_metadataEnrichNote": "deterministic: detectTopic + per-question lemma vocab + grammar heuristics",
+  "_vocabTagsNormalizeVersion": "v2.3.18-paso3-vocab-plural-rubric-strip-2026-08-02",
+  "_grammarTagsNormalizeVersion": "v2.2-a2-b2-level-tags-2026-07-27"
+}

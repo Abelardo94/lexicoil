@@ -1,0 +1,344 @@
+{
+  "passages": [
+    {
+      "id": "gen-p-h2-d9d86816-s1",
+      "module": "horen",
+      "teil": 2,
+      "lang": "de",
+      "level": "A2",
+      "title": "Wochenpläne in der Stadt",
+      "topicTag": "Bildung",
+      "text": "Felix: Hallo Mia! Wie geht es dir? Hast du schon Pläne für die kommende Woche?\nMia: Hallo Felix! Mir geht es gut, danke. Ja, ich habe schon einiges vor.\nFelix: Erzähl mal! Was machst du am Montag?\nMia: Am Montag habe ich eine wichtige Aufgabe. Ich muss für meine Prüfung lernen. Das ist meine Hauptaufgabe.\nFelix: Ah, verstanden. Ich habe am Dienstag einen Deutschkurs. Ich möchte mein Deutsch verbessern.\nMia: Das ist eine gute Idee! Ich muss am Mittwoch zu Hause kochen. Ich möchte eine neue Suppe ausprobieren.\nFelix: Lecker! Ich fahre am Donnerstag mit dem Fahrrad durch die Stadt. Ich liebe es, die Stadt so zu erkunden.\nMia: Das klingt toll und ist gut für die Gesundheit! Am Freitag muss ich einkaufen. Ich brauche noch ein paar Sachen für das Wochenende.\nFelix: Ja, das gehört dazu. Ich muss auch noch ein paar Kleinigkeiten besorgen.",
+      "pictures": [
+        {
+          "key": "a",
+          "icon": "🚴",
+          "label": "Fahrrad fahren"
+        },
+        {
+          "key": "b",
+          "icon": "🇩🇪",
+          "label": "Deutschkurs"
+        },
+        {
+          "key": "c",
+          "icon": "👫",
+          "label": "Freunde treffen"
+        },
+        {
+          "key": "d",
+          "icon": "🏋️",
+          "label": "Sport machen"
+        },
+        {
+          "key": "e",
+          "icon": "🏛️",
+          "label": "Museum"
+        },
+        {
+          "key": "f",
+          "icon": "🎬",
+          "label": "Kino"
+        },
+        {
+          "key": "g",
+          "icon": "📚",
+          "label": "Lernen"
+        },
+        {
+          "key": "h",
+          "icon": "🛒",
+          "label": "Einkaufen"
+        },
+        {
+          "key": "i",
+          "icon": "🍳",
+          "label": "Kochen"
+        }
+      ],
+      "audio": [
+        {
+          "speaker": "Felix",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Hallo Mia! Wie geht es dir? Hast du schon Pläne für die kommende Woche?"
+        },
+        {
+          "speaker": "Mia",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Hallo Felix! Mir geht es gut, danke. Ja, ich habe schon einiges vor."
+        },
+        {
+          "speaker": "Felix",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Erzähl mal! Was machst du am Montag?"
+        },
+        {
+          "speaker": "Mia",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Am Montag habe ich eine wichtige Aufgabe. Ich muss für meine Prüfung lernen. Das ist meine Hauptaufgabe."
+        },
+        {
+          "speaker": "Felix",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Ah, verstanden. Ich habe am Dienstag einen Deutschkurs. Ich möchte mein Deutsch verbessern."
+        },
+        {
+          "speaker": "Mia",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Das ist eine gute Idee! Ich muss am Mittwoch zu Hause kochen. Ich möchte eine neue Suppe ausprobieren."
+        },
+        {
+          "speaker": "Felix",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Lecker! Ich fahre am Donnerstag mit dem Fahrrad durch die Stadt. Ich liebe es, die Stadt so zu erkunden."
+        },
+        {
+          "speaker": "Mia",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Das klingt toll und ist gut für die Gesundheit! Am Freitag muss ich einkaufen. Ich brauche noch ein paar Sachen für das Wochenende."
+        },
+        {
+          "speaker": "Felix",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Ja, das gehört dazu. Ich muss auch noch ein paar Kleinigkeiten besorgen."
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "gen-q-h2-d9d86816-q1",
+      "module": "horen",
+      "teil": 2,
+      "lang": "de",
+      "level": "A2",
+      "type": "matching",
+      "question": "Was macht Mia am Montag?",
+      "passageId": "gen-p-h2-d9d86816-s1",
+      "correct": "g",
+      "correctAnswer": "g",
+      "explanation": "Mia muss am Montag für ihre Prüfung lernen.",
+      "language": "de",
+      "examType": "goethe",
+      "difficulty": 5,
+      "skills": [
+        "listening"
+      ],
+      "topicTags": [
+        "Bildung"
+      ],
+      "_keyOnlyMatch": true,
+      "vocabularyTags": [
+        "Prüfung",
+        "lernen",
+        "Montag"
+      ],
+      "grammarTags": [
+        "g-de-a2-modal"
+      ]
+    },
+    {
+      "id": "gen-q-h2-d9d86816-q2",
+      "module": "horen",
+      "teil": 2,
+      "lang": "de",
+      "level": "A2",
+      "type": "matching",
+      "question": "Was macht Felix am Dienstag?",
+      "passageId": "gen-p-h2-d9d86816-s1",
+      "correct": "b",
+      "correctAnswer": "b",
+      "explanation": "Felix hat am Dienstag einen Deutschkurs.",
+      "language": "de",
+      "examType": "goethe",
+      "difficulty": 5,
+      "skills": [
+        "listening"
+      ],
+      "topicTags": [
+        "Bildung"
+      ],
+      "_keyOnlyMatch": true,
+      "vocabularyTags": [
+        "Deutschkurs",
+        "Dienstag",
+        "Felix"
+      ],
+      "grammarTags": [
+        "g-de-a2-trennbar",
+        "g-de-a2-dat-akk"
+      ]
+    },
+    {
+      "id": "gen-q-h2-d9d86816-q3",
+      "module": "horen",
+      "teil": 2,
+      "lang": "de",
+      "level": "A2",
+      "type": "matching",
+      "question": "Was macht Mia am Mittwoch?",
+      "passageId": "gen-p-h2-d9d86816-s1",
+      "correct": "i",
+      "correctAnswer": "i",
+      "explanation": "Mia muss am Mittwoch zu Hause kochen.",
+      "language": "de",
+      "examType": "goethe",
+      "difficulty": 5,
+      "skills": [
+        "listening"
+      ],
+      "topicTags": [
+        "Bildung"
+      ],
+      "_keyOnlyMatch": true,
+      "vocabularyTags": [
+        "kochen",
+        "Mittwoch",
+        "Hause"
+      ],
+      "grammarTags": [
+        "g-de-a2-modal",
+        "g-de-a2-trennbar"
+      ]
+    },
+    {
+      "id": "gen-q-h2-d9d86816-q4",
+      "module": "horen",
+      "teil": 2,
+      "lang": "de",
+      "level": "A2",
+      "type": "matching",
+      "question": "Was macht Felix am Donnerstag?",
+      "passageId": "gen-p-h2-d9d86816-s1",
+      "correct": "a",
+      "correctAnswer": "a",
+      "explanation": "Felix fährt am Donnerstag mit dem Fahrrad durch die Stadt.",
+      "language": "de",
+      "examType": "goethe",
+      "difficulty": 5,
+      "skills": [
+        "listening"
+      ],
+      "topicTags": [
+        "Bildung"
+      ],
+      "_keyOnlyMatch": true,
+      "vocabularyTags": [
+        "fahren",
+        "Donnerstag",
+        "Fahrrad",
+        "Stadt",
+        "Felix"
+      ],
+      "grammarTags": [
+        "g-de-a2-dat-akk"
+      ]
+    },
+    {
+      "id": "gen-q-h2-d9d86816-q5",
+      "module": "horen",
+      "teil": 2,
+      "lang": "de",
+      "level": "A2",
+      "type": "matching",
+      "question": "Was macht Mia am Freitag?",
+      "passageId": "gen-p-h2-d9d86816-s1",
+      "correct": "h",
+      "correctAnswer": "h",
+      "explanation": "Mia muss am Freitag einkaufen.",
+      "language": "de",
+      "examType": "goethe",
+      "difficulty": 5,
+      "skills": [
+        "listening"
+      ],
+      "topicTags": [
+        "Bildung"
+      ],
+      "_keyOnlyMatch": true,
+      "vocabularyTags": [
+        "einkaufen",
+        "Freitag"
+      ],
+      "grammarTags": [
+        "g-de-a2-modal",
+        "g-de-a2-trennbar"
+      ]
+    }
+  ],
+  "_germanCapsNormalizeVersion": "v3.23-lesen-t2-angebote-corpus-2026-07-28",
+  "_germanCapsNormalizedAt": "2026-08-02T06:57:40.613Z",
+  "_balanceMcqVersion": "v1.2-no-rf-chrono-shuffle-2026-07-11",
+  "_balanceMcqNormalizedAt": "2026-08-02T06:57:40.613Z",
+  "topicTag": "Bildung",
+  "_requestedTopic": "Bildung",
+  "userVocabFeedback": {
+    "topic": "Stadtleben",
+    "requested": [
+      "aufgabe",
+      "situation",
+      "zukunft",
+      "bedeuten",
+      "täglich",
+      "vorschlag",
+      "vorteil",
+      "anmeldung"
+    ],
+    "prompted": [
+      "aufgabe",
+      "situation",
+      "zukunft",
+      "bedeuten",
+      "täglich",
+      "vorschlag",
+      "vorteil",
+      "anmeldung"
+    ],
+    "originalRequested": null,
+    "subtypeAdaptation": null,
+    "used": [
+      "aufgabe"
+    ],
+    "notUsed": [
+      "situation",
+      "zukunft",
+      "bedeuten",
+      "täglich",
+      "vorschlag",
+      "vorteil",
+      "anmeldung"
+    ],
+    "excluded": [],
+    "ratio": 0.125,
+    "targetUsage": [
+      {
+        "word": "aufgabe",
+        "surfaces": [
+          "Aufgabe",
+          "Hauptaufgabe"
+        ]
+      }
+    ]
+  },
+  "targetUsage": [
+    {
+      "word": "aufgabe",
+      "surfaces": [
+        "Aufgabe",
+        "Hauptaufgabe"
+      ]
+    }
+  ],
+  "generationMetadata": {
+    "usedFeedback": false,
+    "feedbackRules": [],
+    "feedbackCount": 0,
+    "feedbackCategories": [],
+    "feedbackMode": "off",
+    "feedbackVersion": "v1"
+  },
+  "_metadataEnrichedAt": "2026-08-02T06:57:43.047Z",
+  "_metadataEnrichNote": "deterministic: detectTopic + per-question lemma vocab + grammar heuristics",
+  "_vocabTagsNormalizeVersion": "v2.3.17b-plural-noun-vocab-cap-fix-2026-07-27",
+  "_grammarTagsNormalizeVersion": "v2.2-a2-b2-level-tags-2026-07-27"
+}

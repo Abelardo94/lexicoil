@@ -1,0 +1,335 @@
+{
+  "passages": [
+    {
+      "id": "gen-p-h4-7476c0f7-s1",
+      "module": "horen",
+      "teil": 4,
+      "lang": "de",
+      "level": "A2",
+      "title": "Radiointerview: Stadtleben",
+      "text": "Moderator: Guten Tag. Heute sprechen wir über das Leben in der Stadt. Viele Menschen wohnen gern in der Stadt, aber es gibt auch Nachteile. Wir haben Lena Müller eingeladen. Sie wohnt schon lange in Berlin. Guten Tag, Frau Müller.\n\nLena: Guten Tag. Ja, ich lebe seit zehn Jahren hier. Berlin ist meine Heimat.\n\nModerator: Was gefällt Ihnen am Stadtleben am besten?\n\nLena: Ich mag die vielen Möglichkeiten. Man kann immer etwas Neues machen. Es gibt viele Geschäfte, Restaurants und auch Parks. Ich treffe meine Freunde oft in Cafés. Das ist ein großer Vorteil für mich.\n\nModerator: Und was ist mit den Nachteilen? Gibt es etwas, das Sie stört?\n\nLena: Ja, natürlich. Der Verkehr ist manchmal sehr schlimm. Es gibt viele Autos und oft Stau. Auch die Mieten sind sehr hoch. Das ist eine große Aufgabe, eine gute und bezahlbare Wohnung zu finden. Und es ist manchmal laut.\n\nModerator: Verstehen. Haben Sie einen Vorschlag, wie man das Stadtleben besser machen kann?\n\nLena: Ich denke, mehr Grünflächen und weniger Autos wären gut. Auch mehr Platz für Fahrräder. Das würde die Situation verbessern. Ich glaube, die Zukunft der Stadt ist grüner und ruhiger.\n\nModerator: Vielen Dank, Frau Müller, für Ihre Erfahrungen und diesen Einblick.",
+      "passageVocab": [
+        "stadtleben",
+        "vorteil",
+        "nachteil",
+        "verkehr",
+        "mieten",
+        "wohnung",
+        "grünflächen",
+        "fahrräder"
+      ],
+      "audio": [
+        {
+          "speaker": "Moderator",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Guten Tag. Heute sprechen wir über das Leben in der Stadt. Viele Menschen wohnen gern in der Stadt, aber es gibt auch Nachteile. Wir haben Lena Müller eingeladen. Sie wohnt schon lange in Berlin. Guten Tag, Frau Müller."
+        },
+        {
+          "speaker": "Lena",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Guten Tag. Ja, ich lebe seit zehn Jahren hier. Berlin ist meine Heimat."
+        },
+        {
+          "speaker": "Moderator",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Was gefällt Ihnen am Stadtleben am besten?"
+        },
+        {
+          "speaker": "Lena",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Ich mag die vielen Möglichkeiten. Man kann immer etwas Neues machen. Es gibt viele Geschäfte, Restaurants und auch Parks. Ich treffe meine Freunde oft in Cafés. Das ist ein großer Vorteil für mich."
+        },
+        {
+          "speaker": "Moderator",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Und was ist mit den Nachteilen? Gibt es etwas, das Sie stört?"
+        },
+        {
+          "speaker": "Lena",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Ja, natürlich. Der Verkehr ist manchmal sehr schlimm. Es gibt viele Autos und oft Stau. Auch die Mieten sind sehr hoch. Das ist eine große Aufgabe, eine gute und bezahlbare Wohnung zu finden. Und es ist manchmal laut."
+        },
+        {
+          "speaker": "Moderator",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Verstehen. Haben Sie einen Vorschlag, wie man das Stadtleben besser machen kann?"
+        },
+        {
+          "speaker": "Lena",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Ich denke, mehr Grünflächen und weniger Autos wären gut. Auch mehr Platz für Fahrräder. Das würde die Situation verbessern. Ich glaube, die Zukunft der Stadt ist grüner und ruhiger."
+        },
+        {
+          "speaker": "Moderator",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Vielen Dank, Frau Müller, für Ihre Erfahrungen und diesen Einblick."
+        }
+      ],
+      "topicTag": "Stadtleben"
+    }
+  ],
+  "questions": [
+    {
+      "id": "gen-q-h4-7476c0f7-q2",
+      "module": "horen",
+      "teil": 4,
+      "type": "ja_nein",
+      "question": "Lena mag es, dass sie in der Stadt viele Dinge unternehmen kann.",
+      "correct": "Ja",
+      "correctAnswer": "Ja",
+      "options": [],
+      "explanation": "Lena sagt: 'Ich mag die vielen Möglichkeiten. Man kann immer etwas Neues machen.'",
+      "passageId": "gen-p-h4-7476c0f7-s1",
+      "level": "A2",
+      "topicTags": [
+        "Stadtleben"
+      ],
+      "vocabularyTags": [
+        "viele",
+        "unternehm",
+        "Stadt",
+        "Dinge"
+      ],
+      "grammarTags": [
+        "g-de-a2-nebensatz",
+        "g-de-a2-modal",
+        "g-de-a2-trennbar",
+        "g-de-a2-dat-akk"
+      ]
+    },
+    {
+      "id": "gen-q-h4-7476c0f7-q4",
+      "module": "horen",
+      "teil": 4,
+      "type": "ja_nein",
+      "question": "Lena stört sich am Verkehr und an den hohen Mieten in der Stadt.",
+      "correct": "Ja",
+      "correctAnswer": "Ja",
+      "options": [],
+      "explanation": "Lena sagt: 'Der Verkehr ist manchmal sehr schlimm. [...] Auch die Mieten sind sehr hoch.'",
+      "passageId": "gen-p-h4-7476c0f7-s1",
+      "level": "A2",
+      "topicTags": [
+        "Stadtleben"
+      ],
+      "vocabularyTags": [
+        "Verkehr",
+        "mieten",
+        "hohen",
+        "Stadt"
+      ],
+      "grammarTags": [
+        "g-de-a2-dat-akk"
+      ]
+    },
+    {
+      "id": "gen-q-h4-7476c0f7-q3",
+      "module": "horen",
+      "teil": 4,
+      "type": "ja_nein",
+      "question": "Lena findet, dass es in Berlin zu wenig Parks gibt.",
+      "correct": "Nein",
+      "correctAnswer": "Nein",
+      "options": [],
+      "explanation": "Lena erwähnt Parks als einen Vorteil und sagt: 'Es gibt viele Geschäfte, Restaurants und auch Parks.'",
+      "passageId": "gen-p-h4-7476c0f7-s1",
+      "level": "A2",
+      "topicTags": [
+        "Stadtleben"
+      ],
+      "vocabularyTags": [
+        "Berlin",
+        "Parks",
+        "finden"
+      ],
+      "grammarTags": [
+        "g-de-a2-nebensatz",
+        "g-de-a2-trennbar",
+        "g-de-a2-dat-akk"
+      ]
+    },
+    {
+      "id": "gen-q-h4-7476c0f7-q1",
+      "module": "horen",
+      "teil": 4,
+      "type": "ja_nein",
+      "question": "Lena wohnt erst seit kurzer Zeit in Berlin.",
+      "correct": "Nein",
+      "correctAnswer": "Nein",
+      "options": [],
+      "explanation": "Lena sagt, dass sie seit zehn Jahren in Berlin lebt.",
+      "passageId": "gen-p-h4-7476c0f7-s1",
+      "level": "A2",
+      "topicTags": [
+        "Stadtleben"
+      ],
+      "vocabularyTags": [
+        "Berlin",
+        "Zeit"
+      ],
+      "grammarTags": [
+        "g-de-a2-nebensatz"
+      ]
+    },
+    {
+      "id": "gen-q-h4-7476c0f7-q5",
+      "module": "horen",
+      "teil": 4,
+      "type": "ja_nein",
+      "question": "Lena wünscht sich für die Zukunft mehr Autos in der Stadt.",
+      "correct": "Nein",
+      "correctAnswer": "Nein",
+      "options": [],
+      "explanation": "Lena sagt: 'Ich denke, mehr Grünflächen und weniger Autos wären gut.'",
+      "passageId": "gen-p-h4-7476c0f7-s1",
+      "level": "A2",
+      "topicTags": [
+        "Stadtleben"
+      ],
+      "vocabularyTags": [
+        "Zukunft",
+        "wünschen",
+        "Stadt",
+        "Autos"
+      ],
+      "grammarTags": [
+        "g-de-a2-trennbar",
+        "g-de-a2-dat-akk",
+        "g-de-a2-komparativ"
+      ]
+    }
+  ],
+  "_germanCapsNormalizeVersion": "v3.23-lesen-t2-angebote-corpus-2026-07-28",
+  "_germanCapsNormalizedAt": "2026-08-02T07:42:46.673Z",
+  "_balanceMcqVersion": "v1.2-no-rf-chrono-shuffle-2026-07-11",
+  "_balanceMcqNormalizedAt": "2026-08-02T07:42:46.673Z",
+  "topicTag": "Stadtleben",
+  "_requestedTopic": "Stadtleben",
+  "userVocabFeedback": {
+    "topic": "Stadtleben",
+    "requested": [
+      "aufgabe",
+      "situation",
+      "zukunft",
+      "bedeuten",
+      "täglich",
+      "vorschlag",
+      "erfahrung",
+      "vorteil"
+    ],
+    "prompted": [
+      "aufgabe",
+      "situation",
+      "zukunft",
+      "bedeuten",
+      "täglich",
+      "vorschlag",
+      "erfahrung",
+      "vorteil"
+    ],
+    "originalRequested": null,
+    "subtypeAdaptation": null,
+    "used": [
+      "aufgabe",
+      "situation",
+      "zukunft",
+      "vorschlag",
+      "erfahrung",
+      "vorteil"
+    ],
+    "notUsed": [
+      "bedeuten",
+      "täglich"
+    ],
+    "excluded": [],
+    "ratio": 0.75,
+    "targetUsage": [
+      {
+        "word": "aufgabe",
+        "surfaces": [
+          "Aufgabe"
+        ]
+      },
+      {
+        "word": "situation",
+        "surfaces": [
+          "Situation"
+        ]
+      },
+      {
+        "word": "zukunft",
+        "surfaces": [
+          "Zukunft"
+        ]
+      },
+      {
+        "word": "vorschlag",
+        "surfaces": [
+          "Vorschlag"
+        ]
+      },
+      {
+        "word": "erfahrung",
+        "surfaces": [
+          "Erfahrungen"
+        ]
+      },
+      {
+        "word": "vorteil",
+        "surfaces": [
+          "Vorteil"
+        ]
+      }
+    ]
+  },
+  "targetUsage": [
+    {
+      "word": "aufgabe",
+      "surfaces": [
+        "Aufgabe"
+      ]
+    },
+    {
+      "word": "situation",
+      "surfaces": [
+        "Situation"
+      ]
+    },
+    {
+      "word": "zukunft",
+      "surfaces": [
+        "Zukunft"
+      ]
+    },
+    {
+      "word": "vorschlag",
+      "surfaces": [
+        "Vorschlag"
+      ]
+    },
+    {
+      "word": "erfahrung",
+      "surfaces": [
+        "Erfahrungen"
+      ]
+    },
+    {
+      "word": "vorteil",
+      "surfaces": [
+        "Vorteil"
+      ]
+    }
+  ],
+  "generationMetadata": {
+    "usedFeedback": false,
+    "feedbackRules": [],
+    "feedbackCount": 0,
+    "feedbackCategories": [],
+    "feedbackMode": "off",
+    "feedbackVersion": "v1"
+  },
+  "_metadataEnrichedAt": "2026-08-02T07:42:48.525Z",
+  "_metadataEnrichNote": "deterministic: detectTopic + per-question lemma vocab + grammar heuristics",
+  "_vocabTagsNormalizeVersion": "v2.3.17b-plural-noun-vocab-cap-fix-2026-07-27",
+  "_grammarTagsNormalizeVersion": "v2.2-a2-b2-level-tags-2026-07-27"
+}

@@ -1,0 +1,99 @@
+{
+  "passages": [],
+  "questions": [
+    {
+      "id": "gen-q-s-t2-7c6baaaa-q1",
+      "module": "schreiben",
+      "teil": 2,
+      "lang": "de",
+      "level": "A2",
+      "type": "short_answer",
+      "question": "Ihr Chef lädt Sie zu einer Firmenfeier ein, um ein erfolgreiches Reiseprojekt zu feiern. Schreiben Sie eine E-Mail (30–40 Wörter) an Ihren Chef. Schreiben Sie zu drei Punkten:\n• Bedanken Sie sich für die Einladung.\n• Bestätigen Sie Ihre Teilnahme und informieren Sie, dass Sie eine Begleitung mitbringen.\n• Fragen Sie nach dem besten Weg oder Parkmöglichkeiten.",
+      "correct": "rubric",
+      "correctAnswer": "rubric",
+      "options": [],
+      "explanation": "Bewertung (Goethe-offiziell A2): Erfüllung (0–10) – alle 3 Punkte behandelt; Kohärenz (0–10) – Textaufbau und Verknüpfung; Wortschatz (0–10) – A2-Niveau; Strukturen (0–10) – Grammatik A2. 30–40 Wörter (unter 50 % oder Thema verfehlt → Erfüllung 0). Anrede/Gruß: formell – Sie-Form zum Empfänger im Aufgabentext.",
+      "difficulty": 2,
+      "skills": [
+        "writing"
+      ],
+      "language": "de",
+      "examType": "goethe",
+      "topicTags": [
+        "Reisen"
+      ],
+      "vocabularyTags": [
+        "informieren",
+        "mitbringen",
+        "Begleitung",
+        "schreiben",
+        "Einladung",
+        "bedanken"
+      ],
+      "grammarTags": [
+        "g-de-a2-nebensatz",
+        "g-de-a2-trennbar",
+        "g-de-a2-dat-akk",
+        "g-de-a2-praesens"
+      ]
+    }
+  ],
+  "_germanCapsNormalizeVersion": "v3.23-lesen-t2-angebote-corpus-2026-07-28",
+  "_germanCapsNormalizedAt": "2026-08-02T06:43:24.133Z",
+  "_balanceMcqVersion": "v1.2-no-rf-chrono-shuffle-2026-07-11",
+  "_balanceMcqNormalizedAt": "2026-08-02T06:43:24.133Z",
+  "topicTag": "Reisen",
+  "_requestedTopic": "Reisen",
+  "userVocabFeedback": {
+    "topic": "Reisen",
+    "requested": [
+      "koffer",
+      "tourist",
+      "aufgabe",
+      "situation",
+      "zukunft",
+      "bedeuten",
+      "täglich",
+      "vorschlag"
+    ],
+    "prompted": [
+      "koffer",
+      "tourist",
+      "aufgabe",
+      "situation",
+      "zukunft",
+      "bedeuten",
+      "täglich",
+      "vorschlag"
+    ],
+    "originalRequested": null,
+    "subtypeAdaptation": null,
+    "used": [],
+    "notUsed": [
+      "koffer",
+      "tourist",
+      "aufgabe",
+      "situation",
+      "zukunft",
+      "bedeuten",
+      "täglich",
+      "vorschlag"
+    ],
+    "excluded": [],
+    "ratio": 0,
+    "targetUsage": []
+  },
+  "targetUsage": [],
+  "generationMetadata": {
+    "usedFeedback": false,
+    "feedbackRules": [],
+    "feedbackCount": 0,
+    "feedbackCategories": [],
+    "feedbackMode": "off",
+    "feedbackVersion": "v1"
+  },
+  "_metadataEnrichedAt": "2026-08-02T06:43:25.919Z",
+  "_metadataEnrichNote": "deterministic: detectTopic + per-question lemma vocab + grammar heuristics",
+  "_vocabTagsNormalizeVersion": "v2.3.17b-plural-noun-vocab-cap-fix-2026-07-27",
+  "_grammarTagsNormalizeVersion": "v2.2-a2-b2-level-tags-2026-07-27"
+}

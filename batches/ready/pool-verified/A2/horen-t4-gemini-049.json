@@ -1,0 +1,297 @@
+{
+  "passages": [
+    {
+      "id": "gen-p-h4-d9d9d4c9-s1",
+      "module": "horen",
+      "teil": 4,
+      "lang": "de",
+      "level": "A2",
+      "title": "Radiointerview: Reisen mit Alina Sommer",
+      "text": "Moderator: Guten Tag. Heute sprechen wir über das Thema Reisen. Viele Menschen reisen gern. Bei uns ist heute Alina Sommer. Guten Tag, Frau Sommer.\n\nAlina Sommer: Guten Tag. Ich freue mich, dass ich hier bin.\n\nModerator: Frau Sommer, reisen Sie oft?\n\nAlina Sommer: Ja, ich reise sehr gern. Jedes Jahr mache ich eine große Reise. Letztes Jahr war ich in Italien. Das war schön.\n\nModerator: Und was ist Ihnen beim Reisen wichtig?\n\nAlina Sommer: Ich möchte neue Orte sehen und andere Kulturen kennenlernen. Ich spreche gern direkt mit den Menschen. Meine Reisen plane ich oft selbst. Ich buche Hotels und Flüge online. Das ist einfach.\n\nModerator: Reisen Sie lieber allein oder mit Freunden?\n\nAlina Sommer: Meistens reise ich mit meinem Mann. Manchmal fahren wir auch mit Freunden weg. Allein reise ich nicht so gern. Es ist schöner, wenn man Erlebnisse teilt.\n\nModerator: Haben Sie einen Tipp für unsere Hörer?\n\nAlina Sommer: Ja, packen Sie nicht zu viel in den Koffer! Weniger Gepäck ist besser. Und lernen Sie ein paar Wörter in der Landessprache. Das hilft immer.",
+      "passageVocab": [
+        "Reisen",
+        "Koffer",
+        "Tourist",
+        "online",
+        "Gepäck",
+        "Landessprache",
+        "Hörer",
+        "Kultur",
+        "Ausland"
+      ],
+      "audio": [
+        {
+          "speaker": "Moderator",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Guten Tag. Heute sprechen wir über das Thema Reisen. Viele Menschen reisen gern. Bei uns ist heute Alina Sommer. Guten Tag, Frau Sommer."
+        },
+        {
+          "speaker": "Alina Sommer",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Guten Tag. Ich freue mich, dass ich hier bin."
+        },
+        {
+          "speaker": "Moderator",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Frau Sommer, reisen Sie oft?"
+        },
+        {
+          "speaker": "Alina Sommer",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Ja, ich reise sehr gern. Jedes Jahr mache ich eine große Reise. Letztes Jahr war ich in Italien. Das war schön."
+        },
+        {
+          "speaker": "Moderator",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Und was ist Ihnen beim Reisen wichtig?"
+        },
+        {
+          "speaker": "Alina Sommer",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Ich möchte neue Orte sehen und andere Kulturen kennenlernen. Ich spreche gern direkt mit den Menschen. Meine Reisen plane ich oft selbst. Ich buche Hotels und Flüge online. Das ist einfach."
+        },
+        {
+          "speaker": "Moderator",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Reisen Sie lieber allein oder mit Freunden?"
+        },
+        {
+          "speaker": "Alina Sommer",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Meistens reise ich mit meinem Mann. Manchmal fahren wir auch mit Freunden weg. Allein reise ich nicht so gern. Es ist schöner, wenn man Erlebnisse teilt."
+        },
+        {
+          "speaker": "Moderator",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Haben Sie einen Tipp für unsere Hörer?"
+        },
+        {
+          "speaker": "Alina Sommer",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Ja, packen Sie nicht zu viel in den Koffer! Weniger Gepäck ist besser. Und lernen Sie ein paar Wörter in der Landessprache. Das hilft immer."
+        }
+      ],
+      "topicTag": "Reisen"
+    }
+  ],
+  "questions": [
+    {
+      "id": "gen-q-h4-d9d9d4c9-q1",
+      "module": "horen",
+      "teil": 4,
+      "type": "ja_nein",
+      "question": "Alina Sommer reist jedes Jahr in ein anderes Land.",
+      "correct": "Ja",
+      "correctAnswer": "Ja",
+      "options": [],
+      "explanation": "Alina Sommer sagt, dass sie jedes Jahr eine große Reise macht und letztes Jahr in Italien war.",
+      "passageId": "gen-p-h4-d9d9d4c9-s1",
+      "level": "A2",
+      "topicTags": [
+        "Reisen"
+      ],
+      "vocabularyTags": [
+        "Sommer",
+        "Land",
+        "Alina",
+        "ander"
+      ],
+      "grammarTags": [
+        "g-de-a2-nebensatz",
+        "g-de-a2-trennbar"
+      ]
+    },
+    {
+      "id": "gen-q-h4-d9d9d4c9-q5",
+      "module": "horen",
+      "teil": 4,
+      "type": "ja_nein",
+      "question": "Alina Sommer spricht gern mit den Menschen im Reiseland.",
+      "correct": "Ja",
+      "correctAnswer": "Ja",
+      "options": [],
+      "explanation": "Sie sagt, dass sie gern direkt mit den Menschen spricht und andere Kulturen kennenlernen möchte.",
+      "passageId": "gen-p-h4-d9d9d4c9-s1",
+      "level": "A2",
+      "topicTags": [
+        "Reisen"
+      ],
+      "vocabularyTags": [
+        "Mensch",
+        "Reiseland",
+        "Sommer",
+        "gern",
+        "Alina"
+      ],
+      "grammarTags": [
+        "g-de-a2-nebensatz",
+        "g-de-a2-trennbar",
+        "g-de-a2-dat-akk"
+      ]
+    },
+    {
+      "id": "gen-q-h4-d9d9d4c9-q2",
+      "module": "horen",
+      "teil": 4,
+      "type": "ja_nein",
+      "question": "Alina Sommer bucht ihre Reisen immer in einem Reisebüro.",
+      "correct": "Nein",
+      "correctAnswer": "Nein",
+      "options": [],
+      "explanation": "Sie plant ihre Reisen oft selbst und bucht Hotels und Flüge online, nicht im Reisebüro.",
+      "passageId": "gen-p-h4-d9d9d4c9-s1",
+      "level": "A2",
+      "topicTags": [
+        "Reisen"
+      ],
+      "vocabularyTags": [
+        "reisen",
+        "Reisebüro",
+        "Sommer",
+        "Alina"
+      ],
+      "grammarTags": [
+        "g-de-a2-trennbar"
+      ]
+    },
+    {
+      "id": "gen-q-h4-d9d9d4c9-q3",
+      "module": "horen",
+      "teil": 4,
+      "type": "ja_nein",
+      "question": "Alina Sommer reist am liebsten allein.",
+      "correct": "Nein",
+      "correctAnswer": "Nein",
+      "options": [],
+      "explanation": "Alina Sommer reist meistens mit ihrem Mann oder mit Freunden, sie reist nicht so gern allein.",
+      "passageId": "gen-p-h4-d9d9d4c9-s1",
+      "level": "A2",
+      "topicTags": [
+        "Reisen"
+      ],
+      "vocabularyTags": [
+        "liebsten",
+        "allein",
+        "Sommer",
+        "Alina"
+      ],
+      "grammarTags": [
+        "g-de-a2-komparativ"
+      ]
+    },
+    {
+      "id": "gen-q-h4-d9d9d4c9-q4",
+      "module": "horen",
+      "teil": 4,
+      "type": "ja_nein",
+      "question": "Alina Sommer findet es wichtig, viel Gepäck mitzunehmen.",
+      "correct": "Nein",
+      "correctAnswer": "Nein",
+      "options": [],
+      "explanation": "Sie sagt, man soll nicht zu viel in den Koffer packen. Weniger Gepäck ist besser.",
+      "passageId": "gen-p-h4-d9d9d4c9-s1",
+      "level": "A2",
+      "topicTags": [
+        "Reisen"
+      ],
+      "vocabularyTags": [
+        "finden",
+        "wichtig",
+        "Sommer",
+        "Gepäck",
+        "Alina"
+      ],
+      "grammarTags": [
+        "g-de-a2-modal",
+        "g-de-a2-trennbar",
+        "g-de-a2-dat-akk",
+        "g-de-a2-komparativ"
+      ]
+    }
+  ],
+  "_germanCapsNormalizeVersion": "v3.23-lesen-t2-angebote-corpus-2026-07-28",
+  "_germanCapsNormalizedAt": "2026-09-22T23:31:20.546Z",
+  "_balanceMcqVersion": "v1.2-no-rf-chrono-shuffle-2026-07-11",
+  "_balanceMcqNormalizedAt": "2026-09-22T23:31:20.546Z",
+  "topicTag": "Reisen",
+  "_requestedTopic": "Reisen",
+  "userVocabFeedback": {
+    "topic": "Reisen",
+    "requested": [
+      "ausland",
+      "koffer",
+      "tourist",
+      "aufgabe",
+      "direkt",
+      "situation",
+      "täglich",
+      "vorteil"
+    ],
+    "prompted": [
+      "ausland",
+      "koffer",
+      "tourist",
+      "aufgabe",
+      "direkt",
+      "situation",
+      "täglich",
+      "vorteil"
+    ],
+    "originalRequested": null,
+    "subtypeAdaptation": null,
+    "used": [
+      "koffer",
+      "direkt"
+    ],
+    "notUsed": [
+      "ausland",
+      "tourist",
+      "aufgabe",
+      "situation",
+      "täglich",
+      "vorteil"
+    ],
+    "excluded": [],
+    "ratio": 0.25,
+    "targetUsage": [
+      {
+        "word": "koffer",
+        "surfaces": [
+          "Koffer"
+        ]
+      },
+      {
+        "word": "direkt",
+        "surfaces": [
+          "direkt"
+        ]
+      }
+    ]
+  },
+  "targetUsage": [
+    {
+      "word": "koffer",
+      "surfaces": [
+        "Koffer"
+      ]
+    },
+    {
+      "word": "direkt",
+      "surfaces": [
+        "direkt"
+      ]
+    }
+  ],
+  "generationMetadata": {
+    "usedFeedback": false,
+    "feedbackRules": [],
+    "feedbackCount": 0,
+    "feedbackCategories": [],
+    "feedbackMode": "off",
+    "feedbackVersion": "v1"
+  },
+  "_metadataEnrichedAt": "2026-09-22T23:31:20.800Z",
+  "_metadataEnrichNote": "deterministic: detectTopic + per-question lemma vocab + grammar heuristics",
+  "_vocabTagsNormalizeVersion": "v2.3.18-paso3-vocab-plural-rubric-strip-2026-08-02",
+  "_grammarTagsNormalizeVersion": "v2.2-a2-b2-level-tags-2026-07-27"
+}

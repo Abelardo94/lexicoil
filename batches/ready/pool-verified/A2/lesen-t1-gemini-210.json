@@ -1,0 +1,242 @@
+{
+  "passages": [
+    {
+      "id": "gen-l1-cc295a8d-01",
+      "module": "lesen",
+      "teil": 1,
+      "level": "A2",
+      "title": "Neues Gesundheitszentrum in Kleinburg",
+      "text": "In Kleinburg öffnet nächste Woche ein neues Gesundheitszentrum. Es heißt 'Gesund & Fit' und bietet viele Kurse für alle Altersgruppen an. Ab dem 15. Mai können Bürger hier Sport machen und sich über gesunde Ernährung informieren. Es gibt zum Beispiel Yoga-Kurse am Morgen und Gymnastik für Senioren am Nachmittag. Auch Kinder können an speziellen Bewegungsspielen teilnehmen. Ein Arzt und eine Ernährungsberaterin sind immer dienstags und donnerstags für Fragen da. Die Krankenkasse 'Gesundheit Plus' unterstützt das Projekt und bietet für ihre Mitglieder spezielle Rabatte an. Viele Menschen in Kleinburg freuen sich schon auf das neue Zentrum. Sie hoffen, dass sie dort fit bleiben und neue Freunde finden können. Das Zentrum ist montags bis freitags von 9 bis 20 Uhr geöffnet. Am Wochenende gibt es besondere Seminare, zum Beispiel zum Thema 'Stress abbauen'. Die Anmeldung für die Kurse ist online oder direkt im Zentrum möglich. Man braucht keine spezielle Ausrüstung, nur bequeme Kleidung.",
+      "topicTag": "Gesundheit",
+      "lang": "de"
+    }
+  ],
+  "questions": [
+    {
+      "id": "gen-q-1-cc295a8d-1",
+      "module": "lesen",
+      "teil": 1,
+      "type": "multiple_choice",
+      "question": "Wann öffnet das neue Gesundheitszentrum?",
+      "options": [
+        "a) Ab dem 15. Mai",
+        "b) Nächste Woche",
+        "c) Im Sommer"
+      ],
+      "correct": "b",
+      "correctAnswer": "b",
+      "explanation": "Im Text steht, dass das Gesundheitszentrum nächste Woche öffnet.",
+      "passageId": "gen-l1-cc295a8d-01",
+      "lang": "de",
+      "level": "A2",
+      "topicTags": [
+        "Gesundheit"
+      ],
+      "vocabularyTags": [
+        "Gesundheitszentrum",
+        "Woche"
+      ],
+      "grammarTags": [
+        "g-de-a2-nebensatz",
+        "g-de-a2-dat-akk"
+      ]
+    },
+    {
+      "id": "gen-q-1-cc295a8d-2",
+      "module": "lesen",
+      "teil": 1,
+      "type": "multiple_choice",
+      "question": "Wer unterstützt das Projekt 'Gesund & Fit'?",
+      "options": [
+        "a) Eine Krankenkasse",
+        "b) Private Spender",
+        "c) Die Stadtverwaltung"
+      ],
+      "correct": "a",
+      "correctAnswer": "a",
+      "explanation": "Der Text sagt, dass die Krankenkasse 'Gesundheit Plus' das Projekt unterstützt.",
+      "passageId": "gen-l1-cc295a8d-01",
+      "lang": "de",
+      "level": "A2",
+      "topicTags": [
+        "Gesundheit"
+      ],
+      "vocabularyTags": [
+        "unterstützen",
+        "Krankenkasse",
+        "Projekt",
+        "Gesund"
+      ],
+      "grammarTags": [
+        "g-de-a2-nebensatz",
+        "g-de-a2-trennbar",
+        "g-de-a2-dat-akk"
+      ]
+    },
+    {
+      "id": "gen-q-1-cc295a8d-3",
+      "module": "lesen",
+      "teil": 1,
+      "type": "multiple_choice",
+      "question": "Wie sind die Öffnungszeiten von Montag bis Freitag?",
+      "options": [
+        "a) Von 9 bis 20 Uhr",
+        "b) Nur am Vormittag",
+        "c) Den ganzen Tag"
+      ],
+      "correct": "a",
+      "correctAnswer": "a",
+      "explanation": "Das Zentrum ist montags bis freitags von 9 bis 20 Uhr geöffnet.",
+      "passageId": "gen-l1-cc295a8d-01",
+      "lang": "de",
+      "level": "A2",
+      "topicTags": [
+        "Gesundheit"
+      ],
+      "vocabularyTags": [
+        "öffnungszeiten",
+        "Freitag",
+        "Montag"
+      ],
+      "grammarTags": [
+        "g-de-a2-perfekt",
+        "g-de-a2-dat-akk"
+      ]
+    },
+    {
+      "id": "gen-q-1-cc295a8d-4",
+      "module": "lesen",
+      "teil": 1,
+      "type": "multiple_choice",
+      "question": "Welche Kurse gibt es für Kinder?",
+      "options": [
+        "a) Yoga-Kurse",
+        "b) Gymnastik für Senioren",
+        "c) Bewegungsspiele"
+      ],
+      "correct": "c",
+      "correctAnswer": "c",
+      "explanation": "Der Text sagt, dass Kinder an speziellen Bewegungsspielen teilnehmen können. Option C ist die prägnanteste Zusammenfassung dieser Information.",
+      "passageId": "gen-l1-cc295a8d-01",
+      "lang": "de",
+      "level": "A2",
+      "topicTags": [
+        "Gesundheit"
+      ],
+      "vocabularyTags": [
+        "Bewegungsspiele",
+        "Welche",
+        "Kinder",
+        "Kurse"
+      ],
+      "grammarTags": [
+        "g-de-a2-nebensatz",
+        "g-de-a2-trennbar"
+      ]
+    },
+    {
+      "id": "gen-q-1-cc295a8d-5",
+      "module": "lesen",
+      "teil": 1,
+      "type": "multiple_choice",
+      "question": "Was braucht man für die Kurse?",
+      "options": [
+        "a) Bequeme Kleidung und Sportschuhe",
+        "b) Nur bequeme Kleidung",
+        "c) Eine spezielle Ausrüstung"
+      ],
+      "correct": "b",
+      "correctAnswer": "b",
+      "explanation": "Der Text sagt, man braucht keine spezielle Ausrüstung, nur bequeme Kleidung.",
+      "passageId": "gen-l1-cc295a8d-01",
+      "lang": "de",
+      "level": "A2",
+      "topicTags": [
+        "Gesundheit"
+      ],
+      "vocabularyTags": [
+        "brauchen",
+        "Kleidung",
+        "Kurse"
+      ],
+      "grammarTags": [
+        "g-de-a2-trennbar",
+        "g-de-a2-dat-akk"
+      ]
+    }
+  ],
+  "_germanCapsNormalizeVersion": "v3.23-lesen-t2-angebote-corpus-2026-07-28",
+  "_germanCapsNormalizedAt": "2026-08-02T10:41:27.633Z",
+  "_balanceMcqVersion": "v1.2-no-rf-chrono-shuffle-2026-07-11",
+  "_balanceMcqNormalizedAt": "2026-08-02T10:41:20.827Z",
+  "topicTag": "Gesundheit",
+  "_requestedTopic": "Gesundheit",
+  "userVocabFeedback": {
+    "topic": "Gesundheit",
+    "requested": [
+      "krankenhaus",
+      "medikament",
+      "dorther",
+      "krankenkasse",
+      "schimpfen",
+      "schmutzig"
+    ],
+    "prompted": [
+      "krankenhaus",
+      "medikament",
+      "dorther",
+      "krankenkasse",
+      "schimpfen",
+      "schmutzig"
+    ],
+    "originalRequested": [
+      "krankenhaus",
+      "medikament",
+      "dorther",
+      "krankenkasse",
+      "schimpfen",
+      "schmutzig"
+    ],
+    "subtypeAdaptation": null,
+    "used": [
+      "krankenkasse"
+    ],
+    "notUsed": [
+      "krankenhaus",
+      "medikament",
+      "dorther",
+      "schimpfen",
+      "schmutzig"
+    ],
+    "excluded": [],
+    "ratio": 0.16666666666666666,
+    "targetUsage": [
+      {
+        "word": "krankenkasse",
+        "surfaces": [
+          "Krankenkasse"
+        ]
+      }
+    ]
+  },
+  "targetUsage": [
+    {
+      "word": "krankenkasse",
+      "surfaces": [
+        "Krankenkasse"
+      ]
+    }
+  ],
+  "generationMetadata": {
+    "usedFeedback": false,
+    "feedbackRules": [],
+    "feedbackCount": 0,
+    "feedbackCategories": [],
+    "feedbackMode": "off",
+    "feedbackVersion": "v1"
+  },
+  "_metadataEnrichedAt": "2026-08-02T10:41:42.937Z",
+  "_metadataEnrichNote": "deterministic: detectTopic + per-question lemma vocab + grammar heuristics",
+  "_vocabTagsNormalizeVersion": "v2.3.18-paso3-vocab-plural-rubric-strip-2026-08-02",
+  "_grammarTagsNormalizeVersion": "v2.2-a2-b2-level-tags-2026-07-27"
+}
