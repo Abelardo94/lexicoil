@@ -133,14 +133,35 @@ function extractPartContext(part) {
 
 /**
  * Slots whose passage is uniform by design: every valid instance looks alike
- * because that is the task. Goethe A2 Lesen Teil 2 is an information board of a
- * building, floor by floor (floor_plan_mcq). The LLM "template" check flagged
- * exactly that ("molde narrativo de un edificio con diferentes plantas") and
- * rejected 4 of 5 generations on 22 sep 2026. Cross-part repetition is still
- * caught by the in-process themeTags registry.
+ * because that is the task, so the LLM "template" check judges the format
+ * itself. Cross-part repetition is still caught by the in-process themeTags
+ * registry. Keyed by Goethe A2 Lesen Teil.
  */
+const UNIFORM_FORMAT_SLOTS = Object.freeze({
+  // A2 Lesen T1 (Medientext): a short press text announcing a programme or
+  // event. On 23 sep 2026 SEM-1 flagged "molde narrativo" on 7 of the 9
+  // published A2 T1 parts, 3 of them hand-curated, and parts that had passed
+  // at generation failed on a re-run: a coin flip, not a defect check.
+  1: {
+    task: 'un texto breve de prensa que anuncia un programa, servicio o evento (qué, cuándo, dónde, para quién)',
+    formatWords: 'Anzeige, Programm, Angebot, Veranstaltung, Information',
+  },
+  // A2 Lesen T2 (floor_plan_mcq): an information board of a building, floor by
+  // floor. Flagged "molde narrativo de un edificio con diferentes plantas" and
+  // rejected 4 of 5 generations on 22 sep 2026.
+  2: {
+    task: 'una tabla de informaciones de un edificio por plantas',
+    formatWords: 'Etage, Stock, Stockwerk, Gebäude, Plan, Übersicht',
+  },
+});
+
+function uniformFormatSlot(ctx) {
+  if (ctx.lang !== 'de' || ctx.level !== 'A2' || ctx.slot.module !== 'lesen') return null;
+  return UNIFORM_FORMAT_SLOTS[ctx.slot.teil] || null;
+}
+
 function isUniformFormatSlot(ctx) {
-  return ctx.lang === 'de' && ctx.level === 'A2' && ctx.slot.module === 'lesen' && ctx.slot.teil === 2;
+  return uniformFormatSlot(ctx) !== null;
 }
 
 function collectPassageText(part) {
@@ -385,10 +406,10 @@ ${isDe ? `3. "distractor" (IMPORTANT) — ¿Alguna opción incorrecta es absurda
    Solo distractores claramente defectuosos (afirmación imposible, tema ajeno, trampa
    obvia que nadie elegiría). No marques si es simplemente incorrecto pero plausible.
 
-${isUniformFormatSlot(ctx) ? `4. "themeTags" — devuelve 3-5 palabras clave temáticas del pasaje: los servicios y el
-   asunto concreto, NUNCA palabras del formato (Etage, Stock, Stockwerk, Gebäude, Plan, Übersicht).
-   NO generes issues de tipo "template": esta tarea ES una tabla de informaciones de un
-   edificio por plantas; que se parezca a otras tablas de plantas es el formato, no un defecto.` : `4. "template" (IMPORTANT) — ¿El pasaje sigue un molde narrativo genérico/repetitivo?
+${isUniformFormatSlot(ctx) ? `4. "themeTags" — devuelve 3-5 palabras clave temáticas del pasaje: el asunto
+   concreto, NUNCA palabras del formato (${uniformFormatSlot(ctx).formatWords}).
+   NO generes issues de tipo "template": esta tarea ES ${uniformFormatSlot(ctx).task};
+   que se parezca a otros textos de esta tarea es el formato, no un defecto.` : `4. "template" (IMPORTANT) — ¿El pasaje sigue un molde narrativo genérico/repetitivo?
    Devuelve también "themeTags": array de 3-5 palabras clave temáticas del pasaje.`}` : `3. "themeTags" — devuelve 3-5 palabras clave temáticas del pasaje.
    NO es un check y no genera issues: sirve para detectar repetición ENTRE partes,
    que se compara fuera de este prompt.
