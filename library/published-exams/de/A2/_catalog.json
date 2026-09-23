@@ -1,6 +1,6 @@
 {
   "schema": "published-catalog/v1",
-  "version": "2026-09-23T19:01:56.431Z",
+  "version": "2026-09-23T20:07:41.253Z",
   "lang": "de",
   "level": "A2",
   "exams": [
@@ -35,6 +35,22 @@
       "status": "live",
       "manifestVersion": 1,
       "publishedAt": "2026-09-23T19:01:56.428Z"
+    },
+    {
+      "examId": "official-de-A2-e5",
+      "slot": 5,
+      "title": "Official A2 Exam 5",
+      "status": "live",
+      "manifestVersion": 1,
+      "publishedAt": "2026-09-23T20:07:41.220Z"
+    },
+    {
+      "examId": "official-de-A2-e6",
+      "slot": 6,
+      "title": "Official A2 Exam 6",
+      "status": "live",
+      "manifestVersion": 1,
+      "publishedAt": "2026-09-23T20:07:41.251Z"
     }
   ]
 }
