@@ -1398,6 +1398,34 @@ export function isHeuristicAdjAdvOvercapitalized(word, prevWord = '', nextWord =
   return true;
 }
 
+/**
+ * Homograph as the object noun of a later verb in the same clause: «wo man
+ * Fragen stellen kann», «Sie können Fragen an den Arzt stellen». Only the
+ * typical collocation verb counts, so «Sie können Fragen.» is still flagged.
+ * Rejected de/A2 Lesen T1/T2 parts on 23 sep 2026.
+ */
+const HOMOGRAPH_NOUN_COLLOCATIONS = Object.freeze({
+  fragen: /^(?:stellen|gestellt|stellt|beantworten|beantwortet|haben|hat|klären|geklärt)$/,
+  kosten: /^(?:übernehmen|übernimmt|übernommen|sparen|tragen|senken|decken)$/,
+  sorgen: /^(?:machen|gemacht)$/,
+  reisen: /^(?:buchen|gebucht|planen|geplant|organisieren)$/,
+  treffen: /^(?:organisieren|organisiert|planen|geplant|vereinbaren|vereinbart)$/,
+});
+
+function isHomographNounObject(token, chunks, idx) {
+  const verbRe = HOMOGRAPH_NOUN_COLLOCATIONS[tokenLemma(token)];
+  if (!verbRe) return false;
+  for (let j = idx + 1; j < chunks.length; j++) {
+    const { token: t, isWord } = chunks[j];
+    if (!isWord) {
+      if (/[.,;:!?]/.test(t)) return false; // clause ends before the verb
+      continue;
+    }
+    if (verbRe.test(t.toLowerCase())) return true;
+  }
+  return false;
+}
+
 export function scanP2CapitalizationViolations(text) {
   if (typeof text !== 'string' || !text) return [];
   const violations = [];
@@ -1412,7 +1440,10 @@ export function scanP2CapitalizationViolations(text) {
     }
     if (isCapitalizedWord(token) && isMidSentenceCapital(prevContent)) {
       const nextWord = nextWordFrom(chunks, idx);
-      if (isModalInfinitiveOvercapitalized(token, lastWord, nextWord)) {
+      if (
+        isModalInfinitiveOvercapitalized(token, lastWord, nextWord) &&
+        !isHomographNounObject(token, chunks, idx)
+      ) {
         pushBlockViolation(violations, 'modal_infinitive', token, token.toLowerCase());
       } else if (isWasClauseSubstantivizedAdj(token, nextWord, chunks, idx)) {
         // keep — not a violation
@@ -1423,7 +1454,11 @@ export function scanP2CapitalizationViolations(text) {
         /^(ihr|ihre|mein|meine|dein|deine|sein|seine)$/i.test(tokenLemma(lastWord))
       ) {
         // «über Ihr Leben» — noun, not homograph verb (A2 Sprechen T2)
-      } else if (HOMOGRAPH_RISK.has(tokenLemma(token)) && DECAP_TRIGGER_PREV.has(tokenLemma(lastWord))) {
+      } else if (
+        HOMOGRAPH_RISK.has(tokenLemma(token)) &&
+        DECAP_TRIGGER_PREV.has(tokenLemma(lastWord)) &&
+        !isHomographNounObject(token, chunks, idx)
+      ) {
         pushBlockViolation(violations, 'homograph', token, token.toLowerCase());
       } else if (!isKnownGermanNoun(token) && !SUBSTANTIVISING_ARTICLES.has(tokenLemma(lastWord))) {
         pushAdvisoryViolation(violations, token);
