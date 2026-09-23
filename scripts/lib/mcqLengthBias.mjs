@@ -95,6 +95,98 @@ export function resolveLengthBiasThresholds(level) {
 }
 
 
+/**
+
+ * Worked examples for the generation prompt. A unit test runs them through
+
+ * checkMcqQuestionLengthBias, so the prompt can never show a "correct" example
+
+ * that the gate would reject (a hand-written one did, on 23 sep 2026).
+
+ */
+
+export const MCQ_LENGTH_RULE_EXAMPLES = Object.freeze({
+
+  bad: Object.freeze({
+
+    id: 'example-bad',
+
+    type: 'multiple_choice',
+
+    options: Object.freeze(['a) Um 8 Uhr.', 'b) Am Montag.', 'c) Am Dienstag um 10 Uhr im Rathaus.']),
+
+    correct: 'c',
+
+  }),
+
+  good: Object.freeze({
+
+    id: 'example-good',
+
+    type: 'multiple_choice',
+
+    options: Object.freeze(['a) Am Montag um 9 Uhr.', 'b) Am Freitag um 14 Uhr.', 'c) Am Dienstag um 10 Uhr.']),
+
+    correct: 'b',
+
+  }),
+
+});
+
+
+
+/**
+
+ * Prompt rule for the generator, built from the same thresholds the gate uses.
+
+ * The hand-written version said «≥20% y ≥8 caracteres» while the gate fires on
+
+ * either one, so the model was told a laxer rule than the one it was judged by.
+
+ * @param {string} [level]
+
+ * @returns {string} one checklist line (with examples), ending in a newline
+
+ */
+
+export function buildMcqLengthRulePrompt(level = 'B1') {
+
+  const lv = String(level || 'B1').trim().toUpperCase();
+
+  const th = resolveLengthBiasThresholds(lv);
+
+  const show = (q) => q.options
+
+    .map((o, i) => `«${mcqOptionBody(o)}»${String.fromCharCode(97 + i) === q.correct ? ' ← correcta' : ''}`)
+
+    .join(' / ');
+
+  return (
+
+    `- LONGITUD MCQ (el gate ${lv} RECHAZA): en cada pregunta la opción correcta **NO debe ser la más larga**. ` +
+
+    `El gate falla si la correcta supera la media de los distractores en ≥${th.minPct}% **o** en ≥${th.minChars} caracteres ` +
+
+    `(basta una de las dos: con opciones de unas 15 letras, 3 de más ya son un ${th.minPct}%). ` +
+
+    `Que la correcta sea la más corta o la del medio, variando entre preguntas; si necesita un dato más, ` +
+
+    `da a los distractores un dato equivalente (otra hora, otro lugar, otro precio). ` +
+
+    `CUENTA los caracteres de las tres opciones antes de responder.
+` +
+
+    `  Ejemplo INCORRECTO: ${show(MCQ_LENGTH_RULE_EXAMPLES.bad)} — se adivina sin leer ni escuchar.
+` +
+
+    `  Ejemplo CORRECTO: ${show(MCQ_LENGTH_RULE_EXAMPLES.good)}
+`
+
+  );
+
+}
+
+
 
 function inferBatchLevel(batch, opts = {}) {
 

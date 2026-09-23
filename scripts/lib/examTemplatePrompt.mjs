@@ -27,6 +27,7 @@ import {
   stripVocabSectionFromTemplate,
 } from './promptAssembly.mjs';
 import { B2_ANGLICISM_PROMPT_HINT } from './anglicismPolicy.mjs';
+import { buildMcqLengthRulePrompt } from './mcqLengthBias.mjs';
 
 export { pickTargetWords };
 
@@ -420,13 +421,7 @@ function checklistBlock(module, teil, level = 'B1') {
         `- Cada passage: **audio[]** con 1 turno monólogo para TTS.\n` +
         `- SOLO MONÓLOGO — PROHIBIDO diálogo, Gespräch o turnos «Name: …».\n` +
         `- MCQ: options a)/b)/c); correct solo letra; varía a/b/c; anti word-matching (≥4 palabras seguidas del transcript = FAIL).\n` +
-        `- LONGITUD MCQ (gate RECHAZA): en cada pregunta la opción correcta **NO puede ser la más larga** ` +
-        `(el gate A2 falla si supera la media de los distractores en ≥20% O en ≥8 caracteres: con opciones cortas bastan 3 letras). ` +
-        `Que la correcta sea la más corta o la del medio, variando entre preguntas; si necesita un dato más, ` +
-        `da a los distractores un dato equivalente (otra hora, otro lugar, otro precio). ` +
-        `CUENTA los caracteres de las tres opciones antes de responder.\n` +
-        `  Ejemplo INCORRECTO: «Um 8 Uhr.» / «Am Montag.» / «Am Dienstag um 10 Uhr im Rathaus.» ← correcta, se adivina sin escuchar.\n` +
-        `  Ejemplo CORRECTO: «Am Montag um 9 Uhr.» / «Am Freitag um 14 Uhr.» ← correcta / «Am Dienstag um 10 Uhr.»\n` +
+        buildMcqLengthRulePrompt(lv) +
         `- NEBENSÄTZE (gate CEFR A2 RECHAZA >12% de frases con subordinada): en un segmento de menos de 9 frases, ` +
         `**NINGUNA** frase con weil/dass/wenn/ob/obwohl/während/nachdem/bevor/damit/falls/sobald. ` +
         `Usa frases principales con «denn», «deshalb», «aber», «und» («Der Kurs fällt aus, denn die Lehrerin ist krank.»). ` +
@@ -529,6 +524,7 @@ function checklistBlock(module, teil, level = 'B1') {
         `- 5× multiple_choice a/b/c; cada question con segmentLabel «Text 1»…«Text 5» y passageId.\n` +
         `- Cada passage: **audio[]** con turnos de diálogo (2 voiceId) para TTS.\n` +
         `- PROHIBIDO: 1 diálogo largo + 7 Richtig/Falsch (eso es B1).\n` +
+        buildMcqLengthRulePrompt(lv) +
         MCQ_CHK34_EXPLANATION_RULE
       );
     }
