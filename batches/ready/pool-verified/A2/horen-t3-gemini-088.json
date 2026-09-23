@@ -1,0 +1,438 @@
+{
+  "passages": [
+    {
+      "id": "gen-p-h3-5579a259-s1",
+      "module": "horen",
+      "teil": 3,
+      "lang": "de",
+      "level": "A2",
+      "topicTag": "Medien",
+      "text": "Tom: Sag mal, Katja, hast du schon den neuen Podcast gehört? Er ist wirklich interessant.\nKatja: Welchen meinst du? Ich suche immer gute Vorschläge für meine tägliche Pendelfahrt.\nTom: Es geht um digitale Medien und ihre Zukunft. Sehr informativ!",
+      "audio": [
+        {
+          "speaker": "Tom",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Sag mal, Katja, hast du schon den neuen Podcast gehört? Er ist wirklich interessant."
+        },
+        {
+          "speaker": "Katja",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Welchen meinst du? Ich suche immer gute Vorschläge für meine tägliche Pendelfahrt."
+        },
+        {
+          "speaker": "Tom",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Es geht um digitale Medien und ihre Zukunft. Sehr informativ!"
+        }
+      ]
+    },
+    {
+      "id": "gen-p-h3-5579a259-s2",
+      "module": "horen",
+      "teil": 3,
+      "lang": "de",
+      "level": "A2",
+      "topicTag": "Medien",
+      "text": "Moritz: Jana, ich habe gestern Abend eine interessante Doku im Fernsehen gesehen.\nJana: Ach ja? Welches Thema hatte sie? Ich schaue selten fern, aber Dokus mag ich.\nMoritz: Es ging um die Bedeutung von sozialen Medien für junge Leute.",
+      "audio": [
+        {
+          "speaker": "Moritz",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Jana, ich habe gestern Abend eine interessante Doku im Fernsehen gesehen."
+        },
+        {
+          "speaker": "Jana",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Ach ja? Welches Thema hatte sie? Ich schaue selten fern, aber Dokus mag ich."
+        },
+        {
+          "speaker": "Moritz",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Es ging um die Bedeutung von sozialen Medien für junge Leute."
+        }
+      ]
+    },
+    {
+      "id": "gen-p-h3-5579a259-s3",
+      "module": "horen",
+      "teil": 3,
+      "lang": "de",
+      "level": "A2",
+      "topicTag": "Medien",
+      "text": "Philipp: Sara, ich habe ein Problem mit meinem Tablet. Es funktioniert nicht mehr richtig.\nSara: Oh, das ist ärgerlich. Hast du schon versucht, es neu zu starten? Manchmal hilft das.\nPhilipp: Ja, aber es bleibt dunkel. Ich brauche es für meine Aufgabe.",
+      "audio": [
+        {
+          "speaker": "Philipp",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Sara, ich habe ein Problem mit meinem Tablet. Es funktioniert nicht mehr richtig."
+        },
+        {
+          "speaker": "Sara",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Oh, das ist ärgerlich. Hast du schon versucht, es neu zu starten? Manchmal hilft das."
+        },
+        {
+          "speaker": "Philipp",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Ja, aber es bleibt dunkel. Ich brauche es für meine Aufgabe."
+        }
+      ]
+    },
+    {
+      "id": "gen-p-h3-5579a259-s4",
+      "module": "horen",
+      "teil": 3,
+      "lang": "de",
+      "level": "A2",
+      "topicTag": "Medien",
+      "text": "Tim: Sophie, hast du den Artikel über Online-Sicherheit gelesen? Das ist eine wichtige Situation.\nSophie: Nein, noch nicht. Ist es wichtig für unsere Gesundheit?\nTim: Es geht um den Schutz unserer Daten im Internet. Das betrifft uns alle.",
+      "audio": [
+        {
+          "speaker": "Tim",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Sophie, hast du den Artikel über Online-Sicherheit gelesen? Das ist eine wichtige Situation."
+        },
+        {
+          "speaker": "Sophie",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Nein, noch nicht. Ist es wichtig für unsere Gesundheit?"
+        },
+        {
+          "speaker": "Tim",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Es geht um den Schutz unserer Daten im Internet. Das betrifft uns alle."
+        }
+      ]
+    },
+    {
+      "id": "gen-p-h3-5579a259-s5",
+      "module": "horen",
+      "teil": 3,
+      "lang": "de",
+      "level": "A2",
+      "topicTag": "Medien",
+      "text": "Niklas: Laura, ich habe eine neue App entdeckt, die sehr nützlich ist.\nLaura: Wirklich? Was kann sie denn? Ich suche immer Apps, die mir Vorteile bringen.\nNiklas: Es ist eine Nachrichten-App, die dir täglich die wichtigsten Meldungen zeigt.",
+      "audio": [
+        {
+          "speaker": "Niklas",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Laura, ich habe eine neue App entdeckt, die sehr nützlich ist."
+        },
+        {
+          "speaker": "Laura",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Wirklich? Was kann sie denn? Ich suche immer Apps, die mir Vorteile bringen."
+        },
+        {
+          "speaker": "Niklas",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Es ist eine Nachrichten-App, die dir täglich die wichtigsten Meldungen zeigt."
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "gen-q-h3-5579a259-q1",
+      "module": "horen",
+      "teil": 3,
+      "lang": "de",
+      "level": "A2",
+      "type": "multiple_choice",
+      "passageId": "gen-p-h3-5579a259-s1",
+      "segmentLabel": "Text 1",
+      "question": "Worüber spricht Tom mit Katja?",
+      "options": [
+        "a) Über seine Pendelfahrt.",
+        "b) Über ein Buch.",
+        "c) Über einen Podcast."
+      ],
+      "correct": "c",
+      "correctAnswer": "c",
+      "explanation": "Tom fragt Katja, ob sie den neuen Podcast gehört hat. Er findet ihn sehr interessant und informativ.",
+      "language": "de",
+      "examType": "goethe",
+      "difficulty": 5,
+      "skills": [
+        "listening"
+      ],
+      "topicTags": [
+        "Medien"
+      ],
+      "vocabularyTags": [
+        "Worüber",
+        "Podcast",
+        "Katja"
+      ],
+      "grammarTags": [
+        "g-de-a2-nebensatz",
+        "g-de-a2-trennbar",
+        "g-de-a2-dat-akk"
+      ]
+    },
+    {
+      "id": "gen-q-h3-5579a259-q2",
+      "module": "horen",
+      "teil": 3,
+      "lang": "de",
+      "level": "A2",
+      "type": "multiple_choice",
+      "passageId": "gen-p-h3-5579a259-s2",
+      "segmentLabel": "Text 2",
+      "question": "Was hat Moritz im Fernsehen gesehen?",
+      "options": [
+        "a) Eine Dokumentation.",
+        "b) Eine Nachrichtensendung.",
+        "c) Einen Film über Sport."
+      ],
+      "correct": "a",
+      "correctAnswer": "a",
+      "explanation": "Moritz erzählt Jana, dass er gestern Abend eine interessante Doku im Fernsehen gesehen hat, die ein bestimmtes Thema hatte.",
+      "language": "de",
+      "examType": "goethe",
+      "difficulty": 5,
+      "skills": [
+        "listening"
+      ],
+      "topicTags": [
+        "Medien"
+      ],
+      "vocabularyTags": [
+        "Dokumentation",
+        "fernsehen",
+        "Moritz",
+        "sehen"
+      ],
+      "grammarTags": [
+        "g-de-a2-nebensatz",
+        "g-de-a2-perfekt",
+        "g-de-a2-trennbar"
+      ]
+    },
+    {
+      "id": "gen-q-h3-5579a259-q3",
+      "module": "horen",
+      "teil": 3,
+      "lang": "de",
+      "level": "A2",
+      "type": "multiple_choice",
+      "passageId": "gen-p-h3-5579a259-s3",
+      "segmentLabel": "Text 3",
+      "question": "Was ist das Problem von Philipp?",
+      "options": [
+        "a) Sein Telefon ist kaputt.",
+        "b) Sein Tablet ist kaputt.",
+        "c) Er hat keine Aufgabe."
+      ],
+      "correct": "b",
+      "correctAnswer": "b",
+      "explanation": "Philipp hat ein Problem mit seinem Tablet, es funktioniert nicht mehr richtig und bleibt dunkel. Er braucht es für seine Aufgabe.",
+      "language": "de",
+      "examType": "goethe",
+      "difficulty": 5,
+      "skills": [
+        "listening"
+      ],
+      "topicTags": [
+        "Medien"
+      ],
+      "vocabularyTags": [
+        "kaputt",
+        "Problem",
+        "Philipp",
+        "Tablet"
+      ],
+      "grammarTags": [
+        "g-de-a2-perfekt",
+        "g-de-a2-trennbar",
+        "g-de-a2-dat-akk",
+        "g-de-a2-komparativ"
+      ]
+    },
+    {
+      "id": "gen-q-h3-5579a259-q4",
+      "module": "horen",
+      "teil": 3,
+      "lang": "de",
+      "level": "A2",
+      "type": "multiple_choice",
+      "passageId": "gen-p-h3-5579a259-s4",
+      "segmentLabel": "Text 4",
+      "question": "Worum geht es in dem Artikel?",
+      "options": [
+        "a) Um Sport und Fitness.",
+        "b) Um Online-Sicherheit.",
+        "c) Um neue Filme."
+      ],
+      "correct": "b",
+      "correctAnswer": "b",
+      "explanation": "Tim fragt Sophie, ob sie den Artikel über Online-Sicherheit gelesen hat, da es um den Schutz unserer Daten geht.",
+      "language": "de",
+      "examType": "goethe",
+      "difficulty": 5,
+      "skills": [
+        "listening"
+      ],
+      "topicTags": [
+        "Medien"
+      ],
+      "vocabularyTags": [
+        "Online-sicherheit"
+      ],
+      "grammarTags": [
+        "g-de-a2-nebensatz",
+        "g-de-a2-perfekt",
+        "g-de-a2-dat-akk"
+      ]
+    },
+    {
+      "id": "gen-q-h3-5579a259-q5",
+      "module": "horen",
+      "teil": 3,
+      "lang": "de",
+      "level": "A2",
+      "type": "multiple_choice",
+      "passageId": "gen-p-h3-5579a259-s5",
+      "segmentLabel": "Text 5",
+      "question": "Was für eine App hat Niklas entdeckt?",
+      "options": [
+        "a) Eine App für Spiele und Unterhaltung.",
+        "b) Eine App, die das Wetter genau vorhersagt.",
+        "c) Eine Nachrichten-App."
+      ],
+      "correct": "c",
+      "correctAnswer": "c",
+      "explanation": "Niklas erklärt Laura, dass er eine Nachrichten-App gefunden hat, die ihm täglich wichtige Meldungen zeigt und sehr nützlich ist.",
+      "language": "de",
+      "examType": "goethe",
+      "difficulty": 5,
+      "skills": [
+        "listening"
+      ],
+      "topicTags": [
+        "Medien"
+      ],
+      "vocabularyTags": [
+        "entdecken",
+        "nachrichten-app",
+        "Niklas"
+      ],
+      "grammarTags": [
+        "g-de-a2-nebensatz",
+        "g-de-a2-trennbar",
+        "g-de-a2-dat-akk"
+      ]
+    }
+  ],
+  "_germanCapsNormalizeVersion": "v3.23-lesen-t2-angebote-corpus-2026-07-28",
+  "_germanCapsNormalizedAt": "2026-08-02T06:57:02.314Z",
+  "_balanceMcqVersion": "v1.2-no-rf-chrono-shuffle-2026-07-11",
+  "_balanceMcqNormalizedAt": "2026-08-02T06:57:02.314Z",
+  "topicTag": "Medien",
+  "_requestedTopic": "Medien",
+  "userVocabFeedback": {
+    "topic": "Medien",
+    "requested": [
+      "blog",
+      "aufgabe",
+      "situation",
+      "zukunft",
+      "täglich",
+      "bedeuten",
+      "radio",
+      "vorschlag"
+    ],
+    "prompted": [
+      "blog",
+      "aufgabe",
+      "situation",
+      "zukunft",
+      "täglich",
+      "bedeuten",
+      "radio",
+      "vorschlag"
+    ],
+    "originalRequested": null,
+    "subtypeAdaptation": null,
+    "used": [
+      "aufgabe",
+      "situation",
+      "zukunft",
+      "täglich"
+    ],
+    "notUsed": [
+      "blog",
+      "bedeuten",
+      "radio",
+      "vorschlag"
+    ],
+    "excluded": [],
+    "ratio": 0.5,
+    "targetUsage": [
+      {
+        "word": "aufgabe",
+        "surfaces": [
+          "Aufgabe"
+        ]
+      },
+      {
+        "word": "situation",
+        "surfaces": [
+          "Situation"
+        ]
+      },
+      {
+        "word": "zukunft",
+        "surfaces": [
+          "Zukunft"
+        ]
+      },
+      {
+        "word": "täglich",
+        "surfaces": [
+          "tägliche",
+          "täglich"
+        ]
+      }
+    ]
+  },
+  "targetUsage": [
+    {
+      "word": "aufgabe",
+      "surfaces": [
+        "Aufgabe"
+      ]
+    },
+    {
+      "word": "situation",
+      "surfaces": [
+        "Situation"
+      ]
+    },
+    {
+      "word": "zukunft",
+      "surfaces": [
+        "Zukunft"
+      ]
+    },
+    {
+      "word": "täglich",
+      "surfaces": [
+        "tägliche",
+        "täglich"
+      ]
+    }
+  ],
+  "generationMetadata": {
+    "usedFeedback": false,
+    "feedbackRules": [],
+    "feedbackCount": 0,
+    "feedbackCategories": [],
+    "feedbackMode": "off",
+    "feedbackVersion": "v1"
+  },
+  "_metadataEnrichedAt": "2026-08-02T06:57:08.922Z",
+  "_metadataEnrichNote": "deterministic: detectTopic + per-question lemma vocab + grammar heuristics",
+  "_vocabTagsNormalizeVersion": "v2.3.17b-plural-noun-vocab-cap-fix-2026-07-27",
+  "_grammarTagsNormalizeVersion": "v2.2-a2-b2-level-tags-2026-07-27"
+}

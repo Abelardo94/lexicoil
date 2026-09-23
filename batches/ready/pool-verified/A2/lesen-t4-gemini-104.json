@@ -1,0 +1,339 @@
+{
+  "passages": [
+    {
+      "id": "gen-l4-735f1698-a",
+      "title": "Städtetrip nach Berlin",
+      "text": "Entdecken Sie Berlin! Wir bieten eine dreitägige Reise mit Hotel und Stadtführung. Besuchen Sie historische Orte und genießen Sie das Nachtleben. Ideal für Paare oder Freunde, die gemeinsam etwas Neues erleben möchten. Buchen Sie jetzt Ihren nächsten Urlaub!",
+      "topicTag": "Reisen",
+      "module": "lesen",
+      "teil": 4,
+      "lang": "de",
+      "level": "A2"
+    },
+    {
+      "id": "gen-l4-735f1698-b",
+      "title": "Sprachreise nach Spanien",
+      "text": "Möchten Sie Spanisch lernen und das Ausland erkunden? Unser Intensivkurs in Málaga ist perfekt! Täglich Sprachunterricht am Morgen, nachmittags Freizeit für Strand oder Kultur. Ein großer Vorteil: Sie wohnen bei einer Gastfamilie. Starten Sie Ihre Sprachreise!",
+      "topicTag": "Reisen",
+      "module": "lesen",
+      "teil": 4,
+      "lang": "de",
+      "level": "A2"
+    },
+    {
+      "id": "gen-l4-735f1698-c",
+      "title": "Familienurlaub am See",
+      "text": "Suchen Sie einen entspannten Urlaub für die ganze Familie? Unser Ferienhaus am Bodensee ist ideal. Mit großem Garten, Spielplatz und direktem Seezugang. Viele Aktivitäten für Kinder und Erwachsene. Genießen Sie die Natur und die gemeinsame Zeit.",
+      "topicTag": "Reisen",
+      "module": "lesen",
+      "teil": 4,
+      "lang": "de",
+      "level": "A2"
+    },
+    {
+      "id": "gen-l4-735f1698-d",
+      "title": "Abenteuerliche Wanderung",
+      "text": "Erleben Sie die Berge! Wir organisieren eine geführte Wanderung durch die Alpen. Für Anfänger und Fortgeschrittene. Übernachten in Berghütten. Eine gute Kondition ist ein Vorteil. Packen Sie Ihren Koffer und erleben Sie ein unvergessliches Abenteuer in der Natur.",
+      "topicTag": "Reisen",
+      "module": "lesen",
+      "teil": 4,
+      "lang": "de",
+      "level": "A2"
+    },
+    {
+      "id": "gen-l4-735f1698-e",
+      "title": "Reisevorbereitung Seminar",
+      "text": "Planen Sie eine Reise ins Ausland? In unserem Seminar lernen Sie alles wichtige: Visum, Impfungen, Reiseversicherung und Notfalltipps. Vermeiden Sie typische Fehler und reisen Sie sicher. Eine gute Vorbereitung ist die halbe Miete. Melden Sie sich an!",
+      "topicTag": "Reisen",
+      "module": "lesen",
+      "teil": 4,
+      "lang": "de",
+      "level": "A2"
+    },
+    {
+      "id": "gen-l4-735f1698-f",
+      "title": "Günstige Zugtickets",
+      "text": "Reisen Sie günstig durch Deutschland! Die Deutsche Bahn bietet jetzt Sparpreise für alle Strecken. Buchen Sie online und sparen Sie Geld. Ideal für spontane Trips oder wenn Sie Freunde in einer anderen Stadt besuchen möchten. Eine tolle Situation für preisbewusste Reisende.",
+      "topicTag": "Reisen",
+      "module": "lesen",
+      "teil": 4,
+      "lang": "de",
+      "level": "A2"
+    }
+  ],
+  "questions": [
+    {
+      "id": "gen-q-4-735f1698-1",
+      "type": "matching",
+      "question": "Herr Müller (55) möchte mit seiner Frau ein Wochenende in einer großen deutschen Stadt verbringen. Sie interessieren sich für Geschichte und Kultur. Welche Anzeige passt?",
+      "options": [
+        "a) a",
+        "b) b",
+        "c) c",
+        "d) d",
+        "e) e",
+        "f) f",
+        "g) X"
+      ],
+      "correct": "a",
+      "correctAnswer": "a",
+      "module": "lesen",
+      "teil": 4,
+      "level": "A2",
+      "explanation": "Anzeige 'a' beschreibt einen Städtetrip nach Berlin mit Stadtführung und historischen Orten, ideal für Paare.",
+      "lang": "de",
+      "topicTags": [
+        "Reisen"
+      ],
+      "vocabularyTags": [
+        "deutschen",
+        "verbringen",
+        "Wochenende",
+        "Berlin",
+        "interessieren",
+        "Stadtführung"
+      ],
+      "grammarTags": [
+        "g-de-a2-trennbar",
+        "g-de-a2-dat-akk"
+      ]
+    },
+    {
+      "id": "gen-q-4-735f1698-2",
+      "type": "matching",
+      "question": "Familie Schmidt mit zwei kleinen Kindern sucht einen ruhigen Ort für die Sommerferien, wo die Kinder viel draußen spielen können. Welche Anzeige passt?",
+      "options": [
+        "a) a",
+        "b) b",
+        "c) c",
+        "d) d",
+        "e) e",
+        "f) f",
+        "g) X"
+      ],
+      "correct": "c",
+      "correctAnswer": "c",
+      "module": "lesen",
+      "teil": 4,
+      "level": "A2",
+      "explanation": "Anzeige 'c' bietet ein Ferienhaus am Bodensee mit großem Garten und Spielplatz, perfekt für Familien mit Kindern.",
+      "lang": "de",
+      "topicTags": [
+        "Reisen"
+      ],
+      "vocabularyTags": [
+        "familien",
+        "draußen",
+        "bieten",
+        "perfekt",
+        "sommerferien",
+        "Familie"
+      ],
+      "grammarTags": [
+        "g-de-a2-trennbar",
+        "g-de-a2-dat-akk"
+      ]
+    },
+    {
+      "id": "gen-q-4-735f1698-3",
+      "type": "matching",
+      "question": "Frau Lehmann möchte einen Kurs besuchen, um zu lernen, wie man zu Hause Brot backt. Sie sucht keine Reise. Welche Anzeige passt?",
+      "options": [
+        "a) a",
+        "b) b",
+        "c) c",
+        "d) d",
+        "e) e",
+        "f) f",
+        "g) X"
+      ],
+      "correct": "X",
+      "correctAnswer": "X",
+      "module": "lesen",
+      "teil": 4,
+      "level": "A2",
+      "explanation": "Keine der Anzeigen bietet einen Kurs zum Brotbacken an; alle Anzeigen handeln von Reisen oder Reisevorbereitung.",
+      "lang": "de",
+      "topicTags": [
+        "Reisen"
+      ],
+      "vocabularyTags": [
+        "backen",
+        "bieten",
+        "reisen",
+        "besuchen",
+        "Reisevorbereitung",
+        "brotbacken"
+      ],
+      "grammarTags": [
+        "g-de-a2-modal",
+        "g-de-a2-trennbar",
+        "g-de-a2-dat-akk",
+        "g-de-a2-praesens"
+      ]
+    },
+    {
+      "id": "gen-q-4-735f1698-4",
+      "type": "matching",
+      "question": "Lisa (22) möchte ihre Spanischkenntnisse verbessern und gleichzeitig ein fremdes Land kennenlernen. Sie möchte auch bei Einheimischen wohnen. Welche Anzeige passt?",
+      "options": [
+        "a) a",
+        "b) b",
+        "c) c",
+        "d) d",
+        "e) e",
+        "f) f",
+        "g) X"
+      ],
+      "correct": "b",
+      "correctAnswer": "b",
+      "module": "lesen",
+      "teil": 4,
+      "level": "A2",
+      "explanation": "Anzeige 'b' beschreibt eine Sprachreise nach Málaga mit Sprachunterricht und der Möglichkeit, bei einer Gastfamilie zu wohnen.",
+      "lang": "de",
+      "topicTags": [
+        "Reisen"
+      ],
+      "vocabularyTags": [
+        "kennenlernen",
+        "wohnen",
+        "Einheimischen",
+        "Möglichkeit",
+        "verbessern",
+        "Spanischkenntnisse"
+      ],
+      "grammarTags": [
+        "g-de-a2-modal",
+        "g-de-a2-trennbar",
+        "g-de-a2-dat-akk"
+      ]
+    },
+    {
+      "id": "gen-q-4-735f1698-5",
+      "type": "matching",
+      "question": "Herr Weber plant eine lange Reise nach Asien. Er ist unsicher, welche Dokumente er braucht und wie er sich am besten vorbereitet. Welche Anzeige passt?",
+      "options": [
+        "a) a",
+        "b) b",
+        "c) c",
+        "d) d",
+        "e) e",
+        "f) f",
+        "g) X"
+      ],
+      "correct": "e",
+      "correctAnswer": "e",
+      "module": "lesen",
+      "teil": 4,
+      "level": "A2",
+      "explanation": "Anzeige 'e' ist ein Seminar zur Reisevorbereitung, das wichtige Informationen zu Visum, Impfungen und Notfalltipps bietet.",
+      "lang": "de",
+      "topicTags": [
+        "Reisen"
+      ],
+      "vocabularyTags": [
+        "bieten",
+        "vorbereiten",
+        "Dokumente",
+        "unsicher",
+        "brauchen",
+        "Reisevorbereitung"
+      ],
+      "grammarTags": [
+        "g-de-a2-trennbar",
+        "g-de-a2-dat-akk",
+        "g-de-a2-komparativ",
+        "g-de-a2-praesens"
+      ]
+    }
+  ],
+  "_germanCapsNormalizeVersion": "v3.23-lesen-t2-angebote-corpus-2026-07-28",
+  "_germanCapsNormalizedAt": "2026-09-23T00:35:08.206Z",
+  "_balanceMcqVersion": "v1.2-no-rf-chrono-shuffle-2026-07-11",
+  "_balanceMcqNormalizedAt": "2026-09-23T00:35:08.205Z",
+  "topicTag": "Reisen",
+  "_requestedTopic": "Reisen",
+  "userVocabFeedback": {
+    "topic": "Reisen",
+    "requested": [
+      "gemeinsam",
+      "koffer",
+      "tourist",
+      "ausland",
+      "aufgabe",
+      "situation",
+      "zukunft",
+      "täglich",
+      "vorteil",
+      "meinung"
+    ],
+    "prompted": [
+      "gemeinsam",
+      "koffer",
+      "tourist",
+      "ausland",
+      "aufgabe",
+      "situation",
+      "zukunft",
+      "täglich",
+      "vorteil",
+      "meinung"
+    ],
+    "originalRequested": [
+      "gemeinsam",
+      "koffer",
+      "tourist",
+      "ausland",
+      "aufgabe",
+      "situation",
+      "zukunft",
+      "täglich"
+    ],
+    "subtypeAdaptation": null,
+    "used": [
+      "gemeinsam"
+    ],
+    "notUsed": [
+      "koffer",
+      "tourist",
+      "ausland",
+      "aufgabe",
+      "situation",
+      "zukunft",
+      "täglich",
+      "vorteil",
+      "meinung"
+    ],
+    "excluded": [],
+    "ratio": 0.1,
+    "targetUsage": [
+      {
+        "word": "gemeinsam",
+        "surfaces": [
+          "gemeinsam"
+        ]
+      }
+    ]
+  },
+  "targetUsage": [
+    {
+      "word": "gemeinsam",
+      "surfaces": [
+        "gemeinsam"
+      ]
+    }
+  ],
+  "generationMetadata": {
+    "usedFeedback": false,
+    "feedbackRules": [],
+    "feedbackCount": 0,
+    "feedbackCategories": [],
+    "feedbackMode": "off",
+    "feedbackVersion": "v1"
+  },
+  "_metadataEnrichedAt": "2026-09-23T00:35:23.420Z",
+  "_metadataEnrichNote": "deterministic: detectTopic + per-question lemma vocab + grammar heuristics",
+  "_vocabTagsNormalizeVersion": "v2.3.18-paso3-vocab-plural-rubric-strip-2026-08-02",
+  "_grammarTagsNormalizeVersion": "v2.2-a2-b2-level-tags-2026-07-27"
+}

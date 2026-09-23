@@ -1,0 +1,98 @@
+{
+  "passages": [],
+  "questions": [
+    {
+      "id": "gen-q-sp-t3-adc0dd04-q1",
+      "module": "sprechen",
+      "teil": 3,
+      "lang": "de",
+      "level": "A2",
+      "type": "plan_together",
+      "question": "Sie möchten mit Ihrem Partner/Ihrer Partnerin einen Kochkurs für gesunde Ernährung besuchen. Planen Sie gemeinsam, welchen Kurs Sie besuchen möchten und wann Sie dafür Zeit haben.\n\nIhre Woche:\nMontag 9–11 Uhr: Arbeit\nDienstag 14–16 Uhr: Frei\nMittwoch 10–12 Uhr: Deutschkurs\nDonnerstag 16–18 Uhr: Sport\nFreitag 11–13 Uhr: Arzttermin\n\nWoche Ihres Partners/Ihrer Partnerin:\nMontag 14–16 Uhr: Meeting\nDienstag 14–17 Uhr: Frei\nMittwoch 15–17 Uhr: Kurs\nDonnerstag 10–12 Uhr: Frei\nFreitag 14–16 Uhr: Frei\n\neinigen Sie sich auf einen Kurs und einen gemeinsamen Termin.",
+      "correct": "rubric",
+      "correctAnswer": "rubric",
+      "options": [],
+      "explanation": "In diesem Teil planen Sie gemeinsam etwas und finden einen Termin. Wichtig sind Verständlichkeit, einfache Verhandlung und passender Wortschatz auf A2-Niveau.",
+      "difficulty": 3,
+      "skills": [
+        "speaking"
+      ],
+      "language": "de",
+      "examType": "goethe",
+      "topicTags": [
+        "Gesundheit"
+      ],
+      "vocabularyTags": [
+        "Partner",
+        "gemeinsam",
+        "Kochkurs",
+        "besuchen",
+        "welchen",
+        "Ernährung"
+      ],
+      "grammarTags": [
+        "g-de-a2-modal",
+        "g-de-a2-trennbar",
+        "g-de-a2-dat-akk"
+      ]
+    }
+  ],
+  "_germanCapsNormalizeVersion": "v3.23-lesen-t2-angebote-corpus-2026-07-28",
+  "_germanCapsNormalizedAt": "2026-08-02T07:10:21.832Z",
+  "_balanceMcqVersion": "v1.2-no-rf-chrono-shuffle-2026-07-11",
+  "_balanceMcqNormalizedAt": "2026-08-02T07:10:21.832Z",
+  "topicTag": "Gesundheit",
+  "_requestedTopic": "Gesundheit",
+  "userVocabFeedback": {
+    "topic": "Gesundheit",
+    "requested": [
+      "krankenhaus",
+      "aufgabe",
+      "situation",
+      "zukunft",
+      "bedeuten",
+      "täglich",
+      "vorschlag",
+      "medikament"
+    ],
+    "prompted": [
+      "krankenhaus",
+      "aufgabe",
+      "situation",
+      "zukunft",
+      "bedeuten",
+      "täglich",
+      "vorschlag",
+      "medikament"
+    ],
+    "originalRequested": null,
+    "subtypeAdaptation": null,
+    "used": [],
+    "notUsed": [
+      "krankenhaus",
+      "aufgabe",
+      "situation",
+      "zukunft",
+      "bedeuten",
+      "täglich",
+      "vorschlag",
+      "medikament"
+    ],
+    "excluded": [],
+    "ratio": 0,
+    "targetUsage": []
+  },
+  "targetUsage": [],
+  "generationMetadata": {
+    "usedFeedback": false,
+    "feedbackRules": [],
+    "feedbackCount": 0,
+    "feedbackCategories": [],
+    "feedbackMode": "off",
+    "feedbackVersion": "v1"
+  },
+  "_metadataEnrichedAt": "2026-08-02T07:10:23.459Z",
+  "_metadataEnrichNote": "deterministic: detectTopic + per-question lemma vocab + grammar heuristics",
+  "_vocabTagsNormalizeVersion": "v2.3.17b-plural-noun-vocab-cap-fix-2026-07-27",
+  "_grammarTagsNormalizeVersion": "v2.2-a2-b2-level-tags-2026-07-27"
+}

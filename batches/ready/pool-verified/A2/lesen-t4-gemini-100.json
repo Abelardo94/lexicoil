@@ -1,0 +1,340 @@
+{
+  "passages": [
+    {
+      "id": "gen-l4-63cd5fe8-a",
+      "topicTag": "Gesundheit",
+      "title": "Fit und Aktiv starten!",
+      "text": "Möchten Sie mehr Sport machen, wissen aber nicht wie? Unser Anfänger-Kurs hilft Ihnen, fit zu werden. Wir trainieren zweimal wöchentlich am Abend. Keine Vorkenntnisse nötig. Melden Sie sich jetzt an und verbessern Sie Ihre Gesundheit!",
+      "module": "lesen",
+      "teil": 4,
+      "lang": "de",
+      "level": "A2"
+    },
+    {
+      "id": "gen-l4-63cd5fe8-b",
+      "topicTag": "Gesundheit",
+      "title": "Gesund essen leicht gemacht",
+      "text": "Lernen Sie in unserem Seminar, wie eine ausgewogene Ernährung Ihre Energie steigert. Wir zeigen Ihnen einfache Rezepte und geben Tipps für den Alltag. Start nächste Woche, samstags von 10 bis 14 Uhr. Ein großer Vorteil für Ihre Zukunft!",
+      "module": "lesen",
+      "teil": 4,
+      "lang": "de",
+      "level": "A2"
+    },
+    {
+      "id": "gen-l4-63cd5fe8-c",
+      "topicTag": "Gesundheit",
+      "title": "Ruhe finden mit Yoga",
+      "text": "Suchen Sie Entspannung und möchten Stress abbauen? Unser Yoga-Kurs bietet Ihnen eine Stunde Ruhe und Bewegung. Jeden Dienstagabend. Ideal für Anfänger. Verbessern Sie Ihr Wohlbefinden und lernen Sie, täglich zu entspannen.",
+      "module": "lesen",
+      "teil": 4,
+      "lang": "de",
+      "level": "A2"
+    },
+    {
+      "id": "gen-l4-63cd5fe8-d",
+      "topicTag": "Gesundheit",
+      "title": "Ihr jährlicher Gesundheits-Check.",
+      "text": "Denken Sie an Ihre Vorsorge! Unser Krankenhaus bietet kostenlose Gesundheits-Checks für alle Bürger an. Eine wichtige Aufgabe für Ihre Gesundheit. Vereinbaren Sie einen Termin für eine Untersuchung. Wir beraten Sie gerne zu Ihrer Situation.",
+      "module": "lesen",
+      "teil": 4,
+      "lang": "de",
+      "level": "A2"
+    },
+    {
+      "id": "gen-l4-63cd5fe8-e",
+      "topicTag": "Gesundheit",
+      "title": "Bewegung für Senioren",
+      "text": "Bleiben Sie aktiv im Alter! Unsere Gymnastikgruppe trifft sich jeden Mittwochvormittag. Sanfte Übungen stärken Muskeln und Gelenke. Kein Leistungsdruck. Der Transport kann organisiert werden. Eine gute Möglichkeit, fit zu bleiben.",
+      "module": "lesen",
+      "teil": 4,
+      "lang": "de",
+      "level": "A2"
+    },
+    {
+      "id": "gen-l4-63cd5fe8-f",
+      "topicTag": "Gesundheit",
+      "title": "Erste Hilfe lernen",
+      "text": "Was tun im Notfall? In unserem Kurs lernen Sie die wichtigsten Maßnahmen der ersten Hilfe. Für jeden wichtig! Termine am Wochenende. Keine medizinischen Vorkenntnisse nötig. Schützen Sie sich und andere. Anmeldung online.",
+      "module": "lesen",
+      "teil": 4,
+      "lang": "de",
+      "level": "A2"
+    }
+  ],
+  "questions": [
+    {
+      "id": "gen-q-4-63cd5fe8-1",
+      "type": "matching",
+      "question": "Frau Müller ist 65 Jahre alt und möchte nach einer Operation wieder sanft trainieren. Sie braucht vielleicht Hilfe beim Transport. Welche Anzeige passt?",
+      "options": [
+        "a) a",
+        "b) b",
+        "c) c",
+        "d) d",
+        "e) e",
+        "f) f",
+        "g) X"
+      ],
+      "correct": "e",
+      "module": "lesen",
+      "teil": 4,
+      "level": "A2",
+      "explanation": "Die Anzeige e beschreibt Gymnastik für Senioren und erwähnt Transport.",
+      "lang": "de",
+      "correctAnswer": "e",
+      "topicTags": [
+        "Gesundheit"
+      ],
+      "vocabularyTags": [
+        "trainieren",
+        "senioren",
+        "brauchen",
+        "Hilfe",
+        "Operation",
+        "Transport"
+      ],
+      "grammarTags": [
+        "g-de-a2-modal",
+        "g-de-a2-trennbar",
+        "g-de-a2-praesens"
+      ]
+    },
+    {
+      "id": "gen-q-4-63cd5fe8-2",
+      "type": "matching",
+      "question": "Herr Schmidt möchte wissen, wie er im Notfall schnell helfen kann. Er sucht einen Kurs für wichtige Maßnahmen. Welche Anzeige passt?",
+      "options": [
+        "a) a",
+        "b) b",
+        "c) c",
+        "d) d",
+        "e) e",
+        "f) f",
+        "g) X"
+      ],
+      "correct": "f",
+      "module": "lesen",
+      "teil": 4,
+      "level": "A2",
+      "explanation": "Die Anzeige f bietet einen Erste-Hilfe-Kurs an.",
+      "lang": "de",
+      "correctAnswer": "f",
+      "topicTags": [
+        "Gesundheit"
+      ],
+      "vocabularyTags": [
+        "bieten",
+        "wissen",
+        "helfen",
+        "erste-hilfe-kurs",
+        "Maßnahmen",
+        "Schmidt"
+      ],
+      "grammarTags": [
+        "g-de-a2-modal",
+        "g-de-a2-trennbar",
+        "g-de-a2-dat-akk",
+        "g-de-a2-praesens"
+      ]
+    },
+    {
+      "id": "gen-q-4-63cd5fe8-3",
+      "type": "matching",
+      "question": "Lisa ist 30 Jahre alt und hat oft Stress. Sie möchte lernen, wie sie sich entspannen und mehr Ruhe im Alltag finden kann. Welche Anzeige passt?",
+      "options": [
+        "a) a",
+        "b) b",
+        "c) c",
+        "d) d",
+        "e) e",
+        "f) f",
+        "g) X"
+      ],
+      "correct": "c",
+      "module": "lesen",
+      "teil": 4,
+      "level": "A2",
+      "explanation": "Die Anzeige c ist ein Yoga-Kurs zur Entspannung.",
+      "lang": "de",
+      "correctAnswer": "c",
+      "topicTags": [
+        "Gesundheit"
+      ],
+      "vocabularyTags": [
+        "Entspannung",
+        "Alltag",
+        "Stress",
+        "entspannen",
+        "lernen",
+        "finden"
+      ],
+      "grammarTags": [
+        "g-de-a2-modal",
+        "g-de-a2-trennbar",
+        "g-de-a2-dat-akk",
+        "g-de-a2-komparativ"
+      ]
+    },
+    {
+      "id": "gen-q-4-63cd5fe8-4",
+      "type": "matching",
+      "question": "Familie Weber möchte gesünder essen und sucht einfache Tipps und neue Rezepte für den Alltag. Welche Anzeige passt?",
+      "options": [
+        "a) a",
+        "b) b",
+        "c) c",
+        "d) d",
+        "e) e",
+        "f) f",
+        "g) X"
+      ],
+      "correct": "b",
+      "module": "lesen",
+      "teil": 4,
+      "level": "A2",
+      "explanation": "Die Anzeige b lehrt gesunde Ernährung und Rezepte.",
+      "lang": "de",
+      "correctAnswer": "b",
+      "topicTags": [
+        "Gesundheit"
+      ],
+      "vocabularyTags": [
+        "Alltag",
+        "Rezepte",
+        "Ernährung",
+        "Familie",
+        "einfach",
+        "Anzeige"
+      ],
+      "grammarTags": [
+        "g-de-a2-modal",
+        "g-de-a2-trennbar",
+        "g-de-a2-dat-akk"
+      ]
+    },
+    {
+      "id": "gen-q-4-63cd5fe8-5",
+      "type": "matching",
+      "question": "Herr Meier sucht eine neue Wohnung mit drei Zimmern in der Stadt. Keine Anzeige passt. Markieren Sie X.",
+      "options": [
+        "a) a",
+        "b) b",
+        "c) c",
+        "d) d",
+        "e) e",
+        "f) f",
+        "g) X"
+      ],
+      "correct": "X",
+      "module": "lesen",
+      "teil": 4,
+      "level": "A2",
+      "explanation": "Keine Anzeige passt zu einer Wohnungssuche.",
+      "lang": "de",
+      "correctAnswer": "X",
+      "topicTags": [
+        "Gesundheit"
+      ],
+      "vocabularyTags": [
+        "Wohnung",
+        "markieren",
+        "zimmern",
+        "Wohnungssuche",
+        "Anzeige",
+        "Stadt"
+      ],
+      "grammarTags": [
+        "g-de-a2-trennbar",
+        "g-de-a2-dat-akk"
+      ]
+    }
+  ],
+  "_germanCapsNormalizeVersion": "v3.23-lesen-t2-angebote-corpus-2026-07-28",
+  "_germanCapsNormalizedAt": "2026-09-23T00:16:34.751Z",
+  "_balanceMcqVersion": "v1.2-no-rf-chrono-shuffle-2026-07-11",
+  "_balanceMcqNormalizedAt": "2026-09-23T00:16:34.749Z",
+  "topicTag": "Gesundheit",
+  "_requestedTopic": "Gesundheit",
+  "userVocabFeedback": {
+    "topic": "Gesundheit",
+    "requested": [
+      "krankenhaus",
+      "medikament",
+      "aufgabe",
+      "situation",
+      "täglich",
+      "zukunft",
+      "bedeuten",
+      "anmeldung",
+      "transport",
+      "vorteil"
+    ],
+    "prompted": [
+      "krankenhaus",
+      "medikament",
+      "aufgabe",
+      "situation",
+      "täglich",
+      "zukunft",
+      "bedeuten",
+      "anmeldung",
+      "transport",
+      "vorteil"
+    ],
+    "originalRequested": [
+      "krankenhaus",
+      "medikament",
+      "aufgabe",
+      "situation",
+      "täglich",
+      "zukunft",
+      "bedeuten",
+      "anmeldung"
+    ],
+    "subtypeAdaptation": null,
+    "used": [
+      "transport"
+    ],
+    "notUsed": [
+      "krankenhaus",
+      "medikament",
+      "aufgabe",
+      "situation",
+      "täglich",
+      "zukunft",
+      "bedeuten",
+      "anmeldung",
+      "vorteil"
+    ],
+    "excluded": [],
+    "ratio": 0.1,
+    "targetUsage": [
+      {
+        "word": "transport",
+        "surfaces": [
+          "Transport"
+        ]
+      }
+    ]
+  },
+  "targetUsage": [
+    {
+      "word": "transport",
+      "surfaces": [
+        "Transport"
+      ]
+    }
+  ],
+  "generationMetadata": {
+    "usedFeedback": false,
+    "feedbackRules": [],
+    "feedbackCount": 0,
+    "feedbackCategories": [],
+    "feedbackMode": "off",
+    "feedbackVersion": "v1"
+  },
+  "_metadataEnrichedAt": "2026-09-23T00:16:48.154Z",
+  "_metadataEnrichNote": "deterministic: detectTopic + per-question lemma vocab + grammar heuristics",
+  "_vocabTagsNormalizeVersion": "v2.3.18-paso3-vocab-plural-rubric-strip-2026-08-02",
+  "_grammarTagsNormalizeVersion": "v2.2-a2-b2-level-tags-2026-07-27"
+}

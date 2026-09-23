@@ -1,0 +1,321 @@
+{
+  "passages": [
+    {
+      "id": "gen-p-h3-20240726-s1",
+      "module": "horen",
+      "teil": 3,
+      "lang": "de",
+      "level": "A2",
+      "topicTag": "Umwelt",
+      "text": "Finn: Sag mal, Paula, ich versuche immer, den Müll richtig zu trennen. Machst du das auch?\nPaula: Ja, auf jeden Fall! Das ist sehr wichtig für unsere Umwelt. Wir sollten beide darauf achten.",
+      "audio": [
+        {
+          "speaker": "Finn",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Sag mal, Paula, ich versuche immer, den Müll richtig zu trennen. Machst du das auch?"
+        },
+        {
+          "speaker": "Paula",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Ja, auf jeden Fall! Das ist sehr wichtig für unsere Umwelt. Wir sollten beide darauf achten."
+        }
+      ]
+    },
+    {
+      "id": "gen-p-h3-20240726-s2",
+      "module": "horen",
+      "teil": 3,
+      "lang": "de",
+      "level": "A2",
+      "topicTag": "Umwelt",
+      "text": "Omar: Yasmin, hast du schon gesehen, wie viel Strom wir diesen Monat gespart haben?\nYasmin: Nein, aber das ist super! Wir sollten auf jeden Fall so weitermachen, das ist gut für die Umwelt.",
+      "audio": [
+        {
+          "speaker": "Omar",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Yasmin, hast du schon gesehen, wie viel Strom wir diesen Monat gespart haben?"
+        },
+        {
+          "speaker": "Yasmin",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Nein, aber das ist super! Wir sollten auf jeden Fall so weitermachen, das ist gut für die Umwelt."
+        }
+      ]
+    },
+    {
+      "id": "gen-p-h3-20240726-s3",
+      "module": "horen",
+      "teil": 3,
+      "lang": "de",
+      "level": "A2",
+      "topicTag": "Umwelt",
+      "text": "Felix: Mia, ich fahre jetzt öfter mit dem Bus zur Arbeit. Das ist besser für die Luft in der Stadt.\nMia: Das ist eine sehr gute Idee! Niemand sollte unnötig Auto fahren, wenn es Alternativen gibt.",
+      "audio": [
+        {
+          "speaker": "Felix",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Mia, ich fahre jetzt öfter mit dem Bus zur Arbeit. Das ist besser für die Luft in der Stadt."
+        },
+        {
+          "speaker": "Mia",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Das ist eine sehr gute Idee! Niemand sollte unnötig Auto fahren, wenn es Alternativen gibt."
+        }
+      ]
+    },
+    {
+      "id": "gen-p-h3-20240726-s4",
+      "module": "horen",
+      "teil": 3,
+      "lang": "de",
+      "level": "A2",
+      "topicTag": "Umwelt",
+      "text": "Lukas: Sarah, ich habe immer meine Stofftasche dabei, wenn ich einkaufen gehe. Das ist besser als Plastik.\nSarah: Das ist wirklich klug! Weniger Plastik ist viel besser für unsere Erde. Wir sollten alle so handeln.",
+      "audio": [
+        {
+          "speaker": "Lukas",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Sarah, ich habe immer meine Stofftasche dabei, wenn ich einkaufen gehe. Das ist besser als Plastik."
+        },
+        {
+          "speaker": "Sarah",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Das ist wirklich klug! Weniger Plastik ist viel besser für unsere Erde. Wir sollten alle so handeln."
+        }
+      ]
+    },
+    {
+      "id": "gen-p-h3-20240726-s5",
+      "module": "horen",
+      "teil": 3,
+      "lang": "de",
+      "level": "A2",
+      "topicTag": "Umwelt",
+      "text": "Noah: Lea, wir könnten doch beim Wettbewerb 'Grüne Stadt' mitmachen und Bäume pflanzen. Das wäre toll!\nLea: Das ist eine super Idee, Noah! Ich bin auf jeden Fall dabei. Das hilft unserer Natur sehr.",
+      "audio": [
+        {
+          "speaker": "Noah",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Lea, wir könnten doch beim Wettbewerb 'Grüne Stadt' mitmachen und Bäume pflanzen. Das wäre toll!"
+        },
+        {
+          "speaker": "Lea",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Das ist eine super Idee, Noah! Ich bin auf jeden Fall dabei. Das hilft unserer Natur sehr."
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "gen-q-h3-20240726-q1",
+      "module": "horen",
+      "teil": 3,
+      "lang": "de",
+      "level": "A2",
+      "type": "multiple_choice",
+      "passageId": "gen-p-h3-20240726-s1",
+      "segmentLabel": "Text 1",
+      "question": "Worum geht es in dem Gespräch?",
+      "options": [
+        "a) Um einen neuen Einkaufsladen.",
+        "b) Um die Planung eines Ausflugs.",
+        "c) Um das richtige Trennen von Müll."
+      ],
+      "correct": "c",
+      "correctAnswer": "c",
+      "explanation": "Finn und Paula sprechen darüber, wie wichtig es ist, den Müll korrekt zu trennen, um die Umwelt zu schützen.",
+      "language": "de",
+      "examType": "goethe",
+      "difficulty": 5,
+      "skills": [
+        "listening"
+      ],
+      "topicTags": [
+        "Umwelt"
+      ],
+      "vocabularyTags": [
+        "trennen",
+        "richtig"
+      ],
+      "grammarTags": [
+        "g-de-a2-trennbar",
+        "g-de-a2-dat-akk"
+      ]
+    },
+    {
+      "id": "gen-q-h3-20240726-q2",
+      "module": "horen",
+      "teil": 3,
+      "lang": "de",
+      "level": "A2",
+      "type": "multiple_choice",
+      "passageId": "gen-p-h3-20240726-s2",
+      "segmentLabel": "Text 2",
+      "question": "Worüber freuen sich Omar und Yasmin?",
+      "options": [
+        "a) Sie haben ein gutes Buch gelesen.",
+        "b) Sie haben weniger Strom verbraucht.",
+        "c) Sie haben neue Möbel gekauft."
+      ],
+      "correct": "b",
+      "correctAnswer": "b",
+      "explanation": "Omar und Yasmin freuen sich über den gesparten Strom, da dies positiv für die Umwelt ist.",
+      "language": "de",
+      "examType": "goethe",
+      "difficulty": 5,
+      "skills": [
+        "listening"
+      ],
+      "topicTags": [
+        "Umwelt"
+      ],
+      "vocabularyTags": [
+        "freuen",
+        "Worüber",
+        "Yasmin",
+        "Strom"
+      ],
+      "grammarTags": [
+        "g-de-a2-trennbar",
+        "g-de-a2-dat-akk",
+        "g-de-a2-komparativ"
+      ]
+    },
+    {
+      "id": "gen-q-h3-20240726-q3",
+      "module": "horen",
+      "teil": 3,
+      "lang": "de",
+      "level": "A2",
+      "type": "multiple_choice",
+      "passageId": "gen-p-h3-20240726-s3",
+      "segmentLabel": "Text 3",
+      "question": "Was macht Felix für die Umwelt?",
+      "options": [
+        "a) Er kauft ein neues, umweltfreundliches Auto.",
+        "b) Er bleibt zu Hause und arbeitet nicht.",
+        "c) Er nutzt öffentliche Verkehrsmittel."
+      ],
+      "correct": "c",
+      "correctAnswer": "c",
+      "explanation": "Felix fährt mit dem Bus zur Arbeit, was eine umweltfreundlichere Alternative zum Auto ist.",
+      "language": "de",
+      "examType": "goethe",
+      "difficulty": 5,
+      "skills": [
+        "listening"
+      ],
+      "topicTags": [
+        "Umwelt"
+      ],
+      "vocabularyTags": [
+        "Verkehrsmittel",
+        "Umwelt",
+        "öffentlich",
+        "Felix"
+      ],
+      "grammarTags": [
+        "g-de-a2-trennbar",
+        "g-de-a2-dat-akk"
+      ]
+    },
+    {
+      "id": "gen-q-h3-20240726-q4",
+      "module": "horen",
+      "teil": 3,
+      "lang": "de",
+      "level": "A2",
+      "type": "multiple_choice",
+      "passageId": "gen-p-h3-20240726-s4",
+      "segmentLabel": "Text 4",
+      "question": "Was benutzt Lukas beim Einkaufen?",
+      "options": [
+        "a) Eine wiederverwendbare Stofftasche.",
+        "b) Eine große Plastiktüte vom Supermarkt.",
+        "c) Einen kleinen Rucksack für seine Sachen."
+      ],
+      "correct": "a",
+      "correctAnswer": "a",
+      "explanation": "Lukas verwendet eine Stofftasche, um Plastikmüll zu vermeiden und die Umwelt zu schonen.",
+      "language": "de",
+      "examType": "goethe",
+      "difficulty": 5,
+      "skills": [
+        "listening"
+      ],
+      "topicTags": [
+        "Umwelt"
+      ],
+      "vocabularyTags": [
+        "einkaufen",
+        "wiederverwendbar",
+        "Stofftasche",
+        "Lukas"
+      ],
+      "grammarTags": [
+        "g-de-a2-trennbar",
+        "g-de-a2-dat-akk"
+      ]
+    },
+    {
+      "id": "gen-q-h3-20240726-q5",
+      "module": "horen",
+      "teil": 3,
+      "lang": "de",
+      "level": "A2",
+      "type": "multiple_choice",
+      "passageId": "gen-p-h3-20240726-s5",
+      "segmentLabel": "Text 5",
+      "question": "Was möchten Noah und Lea tun?",
+      "options": [
+        "a) Sie planen eine lange Reise in ein anderes Land.",
+        "b) Sie wollen Bäume pflanzen und am Wettbewerb teilnehmen.",
+        "c) Sie möchten einen Film über die Natur ansehen."
+      ],
+      "correct": "b",
+      "correctAnswer": "b",
+      "explanation": "Noah schlägt vor, am Wettbewerb 'Grüne Stadt' teilzunehmen und Bäume zu pflanzen, und Lea stimmt zu.",
+      "language": "de",
+      "examType": "goethe",
+      "difficulty": 5,
+      "skills": [
+        "listening"
+      ],
+      "topicTags": [
+        "Umwelt"
+      ],
+      "vocabularyTags": [
+        "teilnehmen",
+        "pflanzen",
+        "möchten",
+        "Wettbewerb",
+        "Bäume"
+      ],
+      "grammarTags": [
+        "g-de-a2-modal",
+        "g-de-a2-trennbar"
+      ]
+    }
+  ],
+  "_germanCapsNormalizeVersion": "v3.23-lesen-t2-angebote-corpus-2026-07-28",
+  "_germanCapsNormalizedAt": "2026-07-27T07:16:30.865Z",
+  "_balanceMcqVersion": "v1.2-no-rf-chrono-shuffle-2026-07-11",
+  "_balanceMcqNormalizedAt": "2026-07-27T07:16:30.865Z",
+  "topicTag": "Umwelt",
+  "_requestedTopic": "Umwelt",
+  "generationMetadata": {
+    "usedFeedback": false,
+    "feedbackRules": [],
+    "feedbackCount": 0,
+    "feedbackCategories": [],
+    "feedbackMode": "off",
+    "feedbackVersion": "v1"
+  },
+  "_metadataEnrichedAt": "2026-07-27T07:16:33.615Z",
+  "_metadataEnrichNote": "deterministic: detectTopic + per-question lemma vocab + grammar heuristics",
+  "_vocabTagsNormalizeVersion": "v2.3.16-b1-validated-verb-adj-lemma-2026-07-24",
+  "_grammarTagsNormalizeVersion": "v2.2-a2-b2-level-tags-2026-07-27",
+  "_germanCapsMetadataRestampAt": "2026-08-05T04:37:08.176Z",
+  "_germanCapsMetadataRestampNote": "metadata-only; no applyGermanCapsNormalize"
+}

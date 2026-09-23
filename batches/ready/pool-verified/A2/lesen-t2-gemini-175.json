@@ -1,0 +1,308 @@
+{
+  "passages": [
+    {
+      "id": "gen-l2-006c21b2-1",
+      "text": "Willkommen im Stadthaus \"Am Markt\"! Hier finden Sie wichtige Dienste und interessante Angebote für Ihr Stadtleben.\n\nErdgeschoss:\nEmpfang & Information: Hier bekommen Sie Hilfe und einen praktischen Stadtplan.\nCafé \"Treffpunkt\": Genießen Sie hier Kaffee und leckere Snacks. Es ist ein schöner Ort für eine Pause.\nPostfiliale: Kaufen Sie hier Briefmarken oder verschicken Sie Pakete.\n\n1. Obergeschoss:\nStadtbibliothek: Leihen Sie sich Bücher, Zeitungen und Filme aus. Hier können Sie auch drinnen lesen.\nSprachschule \"Global\": Lernen Sie Deutsch oder andere Sprachen in kleinen Gruppen.\nBürgerbüro: Melden Sie sich hier an oder beantragen Sie wichtige Dokumente für Ihr Leben in der Hauptstadt.\n\n2. Obergeschoss:\nKreativ-Werkstatt: Besuchen Sie hier Kurse für Malerei oder Handarbeit.\nVeranstaltungssaal: Hier finden regelmäßig Flohmärkte, Vorträge oder kleine Konzerte statt.\nRenovierungsberatung: Experten geben Ihnen Tipps, wenn Sie Ihre Wohnung renovieren möchten.",
+      "level": "A2",
+      "topicTag": "Stadtleben",
+      "module": "lesen",
+      "teil": 2,
+      "lang": "de"
+    }
+  ],
+  "questions": [
+    {
+      "id": "gen-q-2-006c21b2-1",
+      "passageId": "gen-l2-006c21b2-1",
+      "type": "multiple_choice",
+      "question": "Maria möchte einen Kaffee trinken und eine kleine Pause machen. In welchem Stock ist das Café?",
+      "options": [
+        "a) im 1. Obergeschoss",
+        "b) in einem anderen Stock",
+        "c) im Erdgeschoss"
+      ],
+      "correctAnswer": "c",
+      "level": "A2",
+      "module": "lesen",
+      "teil": 2,
+      "correct": "c",
+      "explanation": "Das Café \"Treffpunkt\" befindet sich im Erdgeschoss, wie der Text angibt.",
+      "lang": "de",
+      "topicTags": [
+        "Stadtleben"
+      ],
+      "vocabularyTags": [
+        "trinken",
+        "Erdgeschoss",
+        "Kaffee",
+        "Klein",
+        "Maria",
+        "möcht"
+      ],
+      "grammarTags": [
+        "g-de-a2-modal",
+        "g-de-a2-trennbar",
+        "g-de-a2-dat-akk"
+      ]
+    },
+    {
+      "id": "gen-q-2-006c21b2-2",
+      "passageId": "gen-l2-006c21b2-1",
+      "type": "multiple_choice",
+      "question": "Herr Schmidt braucht eine neue Briefmarke für einen wichtigen Brief. Auf welcher Etage findet er die Postfiliale?",
+      "options": [
+        "a) in einem anderen Stock",
+        "b) im Erdgeschoss",
+        "c) im 2. Obergeschoss"
+      ],
+      "correctAnswer": "b",
+      "level": "A2",
+      "module": "lesen",
+      "teil": 2,
+      "correct": "b",
+      "explanation": "Die Postfiliale, wo man Briefmarken kaufen kann, ist im Erdgeschoss.",
+      "lang": "de",
+      "topicTags": [
+        "Stadtleben"
+      ],
+      "vocabularyTags": [
+        "brauchen",
+        "finden",
+        "Postfiliale",
+        "Erdgeschoss",
+        "Briefmarke",
+        "Schmidt"
+      ],
+      "grammarTags": [
+        "g-de-a2-trennbar",
+        "g-de-a2-dat-akk"
+      ]
+    },
+    {
+      "id": "gen-q-2-006c21b2-3",
+      "passageId": "gen-l2-006c21b2-1",
+      "type": "multiple_choice",
+      "question": "Lisa möchte ein neues Buch ausleihen und drinnen lesen. In welchem Stock befindet sich die Stadtbibliothek?",
+      "options": [
+        "a) im Erdgeschoss",
+        "b) im 1. Obergeschoss",
+        "c) in einem anderen Stock"
+      ],
+      "correctAnswer": "b",
+      "level": "A2",
+      "module": "lesen",
+      "teil": 2,
+      "correct": "b",
+      "explanation": "Die Stadtbibliothek, um Bücher auszuleihen, ist im 1. Obergeschoss.",
+      "lang": "de",
+      "topicTags": [
+        "Stadtleben"
+      ],
+      "vocabularyTags": [
+        "ausleihen",
+        "drinnen",
+        "Stadtbibliothek",
+        "Obergeschoss",
+        "lesen",
+        "möcht"
+      ],
+      "grammarTags": [
+        "g-de-a2-modal",
+        "g-de-a2-trennbar",
+        "g-de-a2-dat-akk"
+      ]
+    },
+    {
+      "id": "gen-q-2-006c21b2-4",
+      "passageId": "gen-l2-006c21b2-1",
+      "type": "multiple_choice",
+      "question": "Ein Freund von Ihnen möchte seine Küche renovieren und sucht gute Ratschläge. In welchem Stock ist die Renovierungsberatung?",
+      "options": [
+        "a) im 2. Obergeschoss",
+        "b) in einem anderen Stock",
+        "c) im Erdgeschoss"
+      ],
+      "correctAnswer": "a",
+      "level": "A2",
+      "module": "lesen",
+      "teil": 2,
+      "correct": "a",
+      "explanation": "Die Renovierungsberatung mit Tipps zur Wohnung ist im 2. Obergeschoss.",
+      "lang": "de",
+      "topicTags": [
+        "Stadtleben"
+      ],
+      "vocabularyTags": [
+        "Küche",
+        "Renovierungsberatung",
+        "renovieren",
+        "Freund",
+        "Obergeschoss",
+        "Ratschläge"
+      ],
+      "grammarTags": [
+        "g-de-a2-modal",
+        "g-de-a2-trennbar",
+        "g-de-a2-dat-akk"
+      ]
+    },
+    {
+      "id": "gen-q-2-006c21b2-5",
+      "passageId": "gen-l2-006c21b2-1",
+      "type": "multiple_choice",
+      "question": "Sie möchten einen Deutschkurs besuchen. In welchem Stock befindet sich die Sprachschule \"Global\"?",
+      "options": [
+        "a) in einem anderen Stock",
+        "b) im Erdgeschoss",
+        "c) im 1. Obergeschoss"
+      ],
+      "correctAnswer": "c",
+      "level": "A2",
+      "module": "lesen",
+      "teil": 2,
+      "correct": "c",
+      "explanation": "Die Sprachschule \"Global\" für Deutschkurse ist im 1. Obergeschoss.",
+      "lang": "de",
+      "topicTags": [
+        "Stadtleben"
+      ],
+      "vocabularyTags": [
+        "Global",
+        "besuchen",
+        "möchten",
+        "Sprachschule",
+        "Obergeschoss",
+        "Deutschkurs"
+      ],
+      "grammarTags": [
+        "g-de-a2-modal",
+        "g-de-a2-trennbar",
+        "g-de-a2-dat-akk"
+      ]
+    }
+  ],
+  "_germanCapsNormalizeVersion": "v3.23-lesen-t2-angebote-corpus-2026-07-28",
+  "_germanCapsNormalizedAt": "2026-08-01T08:29:25.169Z",
+  "_balanceMcqVersion": "v1.2-no-rf-chrono-shuffle-2026-07-11",
+  "_balanceMcqNormalizedAt": "2026-08-01T08:29:25.165Z",
+  "topicTag": "Stadtleben",
+  "_requestedTopic": "Stadtleben",
+  "userVocabFeedback": {
+    "topic": "Stadtleben",
+    "requested": [
+      "briefmarke",
+      "flohmarkt",
+      "hauptstadt",
+      "stadtplan",
+      "drinnen",
+      "renovieren"
+    ],
+    "prompted": [
+      "briefmarke",
+      "flohmarkt",
+      "hauptstadt",
+      "stadtplan",
+      "drinnen",
+      "renovieren"
+    ],
+    "originalRequested": [
+      "briefmarke",
+      "flohmarkt",
+      "hauptstadt",
+      "stadtplan",
+      "drinnen",
+      "renovieren"
+    ],
+    "subtypeAdaptation": null,
+    "used": [
+      "briefmarke",
+      "hauptstadt",
+      "stadtplan",
+      "drinnen",
+      "renovieren"
+    ],
+    "notUsed": [
+      "flohmarkt"
+    ],
+    "excluded": [],
+    "ratio": 0.8333333333333334,
+    "targetUsage": [
+      {
+        "word": "briefmarke",
+        "surfaces": [
+          "Briefmarken",
+          "Briefmarke"
+        ]
+      },
+      {
+        "word": "hauptstadt",
+        "surfaces": [
+          "Hauptstadt"
+        ]
+      },
+      {
+        "word": "stadtplan",
+        "surfaces": [
+          "Stadtplan"
+        ]
+      },
+      {
+        "word": "drinnen",
+        "surfaces": [
+          "drinnen"
+        ]
+      },
+      {
+        "word": "renovieren",
+        "surfaces": [
+          "renovieren"
+        ]
+      }
+    ]
+  },
+  "targetUsage": [
+    {
+      "word": "briefmarke",
+      "surfaces": [
+        "Briefmarken",
+        "Briefmarke"
+      ]
+    },
+    {
+      "word": "hauptstadt",
+      "surfaces": [
+        "Hauptstadt"
+      ]
+    },
+    {
+      "word": "stadtplan",
+      "surfaces": [
+        "Stadtplan"
+      ]
+    },
+    {
+      "word": "drinnen",
+      "surfaces": [
+        "drinnen"
+      ]
+    },
+    {
+      "word": "renovieren",
+      "surfaces": [
+        "renovieren"
+      ]
+    }
+  ],
+  "generationMetadata": {
+    "usedFeedback": false,
+    "feedbackRules": [],
+    "feedbackCount": 0,
+    "feedbackCategories": [],
+    "feedbackMode": "off",
+    "feedbackVersion": "v1"
+  },
+  "_metadataEnrichedAt": "2026-08-01T08:29:43.256Z",
+  "_metadataEnrichNote": "deterministic: detectTopic + per-question lemma vocab + grammar heuristics",
+  "_vocabTagsNormalizeVersion": "v2.3.17b-plural-noun-vocab-cap-fix-2026-07-27",
+  "_grammarTagsNormalizeVersion": "v2.2-a2-b2-level-tags-2026-07-27"
+}

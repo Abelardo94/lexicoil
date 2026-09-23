@@ -1,0 +1,359 @@
+{
+  "passages": [
+    {
+      "id": "gen-p-h2-d8af5db0-s1",
+      "module": "horen",
+      "teil": 2,
+      "lang": "de",
+      "level": "A2",
+      "title": "Wochenpläne",
+      "topicTag": "Medien",
+      "text": "Philipp: Hallo Sara! Wie geht es dir? Hast du schon Pläne für die Woche?\nSara: Hallo Philipp! Mir geht es gut, danke. Ja, ich habe schon einiges vor.\nPhilipp: Erzähl mal! Ich muss am Montag zuerst einkaufen gehen, der Kühlschrank ist leer.\nSara: Ah, das kenne ich! Ich werde am Dienstagabend etwas Neues kochen. Vielleicht ein Rezept aus einem Online-Blog.\nPhilipp: Klingt lecker! Ich fahre am Mittwoch mit dem Fahrrad zur Arbeit, wenn das Wetter gut ist. Das ist mein täglicher Sport.\nSara: Super! Ich habe am Donnerstag einen Deutschkurs. Das ist wichtig für meine Zukunft hier.\nPhilipp: Ja, Deutsch lernen ist eine gute Aufgabe. Und am Freitag? Ich besuche ein Museum, es gibt eine interessante Ausstellung über alte Medien.\nSara: Oh, das ist ja passend zum Thema! Ich habe am Freitag nichts Besonderes.",
+      "pictures": [
+        {
+          "key": "a",
+          "icon": "🚴",
+          "label": "Fahrrad fahren"
+        },
+        {
+          "key": "b",
+          "icon": "🇩🇪",
+          "label": "Deutschkurs"
+        },
+        {
+          "key": "c",
+          "icon": "👫",
+          "label": "Freunde treffen"
+        },
+        {
+          "key": "d",
+          "icon": "🏋️",
+          "label": "Sport machen"
+        },
+        {
+          "key": "e",
+          "icon": "🏛️",
+          "label": "Museum"
+        },
+        {
+          "key": "f",
+          "icon": "🎬",
+          "label": "Kino"
+        },
+        {
+          "key": "g",
+          "icon": "📚",
+          "label": "Lernen"
+        },
+        {
+          "key": "h",
+          "icon": "🛒",
+          "label": "Einkaufen"
+        },
+        {
+          "key": "i",
+          "icon": "🍳",
+          "label": "Kochen"
+        }
+      ],
+      "audio": [
+        {
+          "speaker": "Philipp",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Hallo Sara! Wie geht es dir? Hast du schon Pläne für die Woche?"
+        },
+        {
+          "speaker": "Sara",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Hallo Philipp! Mir geht es gut, danke. Ja, ich habe schon einiges vor."
+        },
+        {
+          "speaker": "Philipp",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Erzähl mal! Ich muss am Montag zuerst einkaufen gehen, der Kühlschrank ist leer."
+        },
+        {
+          "speaker": "Sara",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Ah, das kenne ich! Ich werde am Dienstagabend etwas Neues kochen. Vielleicht ein Rezept aus einem Online-Blog."
+        },
+        {
+          "speaker": "Philipp",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Klingt lecker! Ich fahre am Mittwoch mit dem Fahrrad zur Arbeit, wenn das Wetter gut ist. Das ist mein täglicher Sport."
+        },
+        {
+          "speaker": "Sara",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Super! Ich habe am Donnerstag einen Deutschkurs. Das ist wichtig für meine Zukunft hier."
+        },
+        {
+          "speaker": "Philipp",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Ja, Deutsch lernen ist eine gute Aufgabe. Und am Freitag? Ich besuche ein Museum, es gibt eine interessante Ausstellung über alte Medien."
+        },
+        {
+          "speaker": "Sara",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Oh, das ist ja passend zum Thema! Ich habe am Freitag nichts Besonderes."
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "gen-q-h2-d8af5db0-q1",
+      "module": "horen",
+      "teil": 2,
+      "lang": "de",
+      "level": "A2",
+      "type": "matching",
+      "question": "Was macht Philipp am Montag?",
+      "passageId": "gen-p-h2-d8af5db0-s1",
+      "correct": "h",
+      "correctAnswer": "h",
+      "explanation": "Philipp muss am Montag einkaufen gehen, weil der Kühlschrank leer ist.",
+      "_keyOnlyMatch": true,
+      "topicTags": [
+        "Medien"
+      ],
+      "vocabularyTags": [
+        "einkaufen",
+        "Kühlschrank",
+        "Philipp",
+        "Montag",
+        "gehen"
+      ],
+      "grammarTags": [
+        "g-de-a2-nebensatz",
+        "g-de-a2-modal",
+        "g-de-a2-trennbar",
+        "g-de-a2-dat-akk"
+      ]
+    },
+    {
+      "id": "gen-q-h2-d8af5db0-q2",
+      "module": "horen",
+      "teil": 2,
+      "lang": "de",
+      "level": "A2",
+      "type": "matching",
+      "question": "Was macht Sara am Dienstag?",
+      "passageId": "gen-p-h2-d8af5db0-s1",
+      "correct": "i",
+      "correctAnswer": "i",
+      "explanation": "Sara wird am Dienstagabend etwas Neues kochen, vielleicht ein Rezept aus einem Online-Blog.",
+      "_keyOnlyMatch": true,
+      "topicTags": [
+        "Medien"
+      ],
+      "vocabularyTags": [
+        "kochen",
+        "Dienstagabend",
+        "online-blog",
+        "Dienstag",
+        "Rezept",
+        "neues"
+      ],
+      "grammarTags": [
+        "g-de-a2-trennbar",
+        "g-de-a2-dat-akk"
+      ]
+    },
+    {
+      "id": "gen-q-h2-d8af5db0-q3",
+      "module": "horen",
+      "teil": 2,
+      "lang": "de",
+      "level": "A2",
+      "type": "matching",
+      "question": "Was macht Philipp am Mittwoch?",
+      "passageId": "gen-p-h2-d8af5db0-s1",
+      "correct": "a",
+      "correctAnswer": "a",
+      "explanation": "Philipp fährt am Mittwoch mit dem Fahrrad zur Arbeit, wenn das Wetter gut ist.",
+      "_keyOnlyMatch": true,
+      "topicTags": [
+        "Medien"
+      ],
+      "vocabularyTags": [
+        "fahren",
+        "Arbeit",
+        "Mittwoch",
+        "Philipp",
+        "Fahrrad",
+        "Wetter"
+      ],
+      "grammarTags": [
+        "g-de-a2-nebensatz",
+        "g-de-a2-trennbar",
+        "g-de-a2-dat-akk"
+      ]
+    },
+    {
+      "id": "gen-q-h2-d8af5db0-q4",
+      "module": "horen",
+      "teil": 2,
+      "lang": "de",
+      "level": "A2",
+      "type": "matching",
+      "question": "Was macht Sara am Donnerstag?",
+      "passageId": "gen-p-h2-d8af5db0-s1",
+      "correct": "b",
+      "correctAnswer": "b",
+      "explanation": "Sara hat am Donnerstag einen Deutschkurs, der Wichtig für ihre Zukunft ist.",
+      "_keyOnlyMatch": true,
+      "topicTags": [
+        "Medien"
+      ],
+      "vocabularyTags": [
+        "Zukunft",
+        "Deutschkurs",
+        "Donnerstag",
+        "wichtig"
+      ],
+      "grammarTags": [
+        "g-de-a2-trennbar",
+        "g-de-a2-dat-akk"
+      ]
+    },
+    {
+      "id": "gen-q-h2-d8af5db0-q5",
+      "module": "horen",
+      "teil": 2,
+      "lang": "de",
+      "level": "A2",
+      "type": "matching",
+      "question": "Was macht Philipp am Freitag?",
+      "passageId": "gen-p-h2-d8af5db0-s1",
+      "correct": "e",
+      "correctAnswer": "e",
+      "explanation": "Philipp besucht am Freitag ein Museum, um eine Ausstellung über alte Medien zu sehen.",
+      "_keyOnlyMatch": true,
+      "topicTags": [
+        "Medien"
+      ],
+      "vocabularyTags": [
+        "Ausstellung",
+        "medien",
+        "Philipp",
+        "Freitag",
+        "Museum",
+        "sehen"
+      ],
+      "grammarTags": [
+        "g-de-a2-trennbar",
+        "g-de-a2-dat-akk"
+      ]
+    }
+  ],
+  "_germanCapsNormalizeVersion": "v3.23-lesen-t2-angebote-corpus-2026-07-28",
+  "_germanCapsNormalizedAt": "2026-08-02T10:54:33.036Z",
+  "_balanceMcqVersion": "v1.2-no-rf-chrono-shuffle-2026-07-11",
+  "_balanceMcqNormalizedAt": "2026-08-02T10:54:33.036Z",
+  "topicTag": "Medien",
+  "_requestedTopic": "Medien",
+  "userVocabFeedback": {
+    "topic": "Medien",
+    "requested": [
+      "aufgabe",
+      "situation",
+      "zukunft",
+      "täglich",
+      "bedeuten",
+      "blog",
+      "radio",
+      "vorschlag"
+    ],
+    "prompted": [
+      "aufgabe",
+      "situation",
+      "zukunft",
+      "täglich",
+      "bedeuten",
+      "blog",
+      "radio",
+      "vorschlag"
+    ],
+    "originalRequested": null,
+    "subtypeAdaptation": null,
+    "used": [
+      "aufgabe",
+      "zukunft",
+      "täglich",
+      "blog"
+    ],
+    "notUsed": [
+      "situation",
+      "bedeuten",
+      "radio",
+      "vorschlag"
+    ],
+    "excluded": [],
+    "ratio": 0.5,
+    "targetUsage": [
+      {
+        "word": "aufgabe",
+        "surfaces": [
+          "Aufgabe"
+        ]
+      },
+      {
+        "word": "zukunft",
+        "surfaces": [
+          "Zukunft"
+        ]
+      },
+      {
+        "word": "täglich",
+        "surfaces": [
+          "täglicher"
+        ]
+      },
+      {
+        "word": "blog",
+        "surfaces": [
+          "Blog"
+        ]
+      }
+    ]
+  },
+  "targetUsage": [
+    {
+      "word": "aufgabe",
+      "surfaces": [
+        "Aufgabe"
+      ]
+    },
+    {
+      "word": "zukunft",
+      "surfaces": [
+        "Zukunft"
+      ]
+    },
+    {
+      "word": "täglich",
+      "surfaces": [
+        "täglicher"
+      ]
+    },
+    {
+      "word": "blog",
+      "surfaces": [
+        "Blog"
+      ]
+    }
+  ],
+  "generationMetadata": {
+    "usedFeedback": false,
+    "feedbackRules": [],
+    "feedbackCount": 0,
+    "feedbackCategories": [],
+    "feedbackMode": "off",
+    "feedbackVersion": "v1"
+  },
+  "_metadataEnrichedAt": "2026-08-02T10:54:34.818Z",
+  "_metadataEnrichNote": "deterministic: detectTopic + per-question lemma vocab + grammar heuristics",
+  "_vocabTagsNormalizeVersion": "v2.3.18-paso3-vocab-plural-rubric-strip-2026-08-02",
+  "_grammarTagsNormalizeVersion": "v2.2-a2-b2-level-tags-2026-07-27"
+}

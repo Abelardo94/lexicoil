@@ -1,0 +1,265 @@
+{
+  "passages": [
+    {
+      "id": "gen-p-h4-acadb964-s1",
+      "module": "horen",
+      "teil": 4,
+      "lang": "de",
+      "level": "A2",
+      "title": "Das Leben in der Stadt",
+      "text": "Moderator: Guten Tag. Heute sprechen wir über Das Leben in der Stadt. Viele Menschen wohnen gern in einer Stadt. Wir haben Dominik Müller eingeladen. Er lebt seit zehn Jahren in Berlin. Herr Müller, willkommen!\n\nDominik: Guten Tag. Ja, ich wohne wirklich gern in Berlin. Die Stadt ist groß und es gibt immer viel neues. Ich mag die vielen Parks und die Kultur.\n\nModerator: Was machen Sie denn in Ihrer Freizeit?\n\nDominik: Ich gehe oft ins Kino oder treffe Freunde in Cafés. Am Wochenende fahre ich manchmal mit dem Fahrrad durch den Park. Das ist gut für frische Luft. Ich nutze auch oft die öffentlichen Verkehrsmittel. Ein Auto brauche ich selten.\n\nModerator: Und was ist mit der Arbeit? Finden Sie einfach einen Job in der Stadt?\n\nDominik: Für mich war es einfach. Ich arbeite in einer kleinen Firma hier im Zentrum. Mein Arbeitsweg ist kurz, das ist ein großer Vorteil. Ich kann zu Fuß zur Arbeit gehen.\n\nModerator: Gibt es auch Nachteile am Stadtleben?\n\nDominik: Manchmal ist es laut. Und die Mieten sind hoch. Aber für mich überwiegen die Vorteile. Ich mag die Energie der Stadt und die vielen Möglichkeiten. Es ist nie langweilig.",
+      "passageVocab": [
+        "interview",
+        "meinung",
+        "stadt",
+        "nutzen",
+        "vorteil",
+        "firma",
+        "transport"
+      ],
+      "audio": [
+        {
+          "speaker": "Moderator",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Guten Tag. Heute sprechen wir über das Leben in der Stadt. Viele Menschen wohnen gern in einer Stadt. Wir haben Dominik Müller eingeladen. Er lebt seit zehn Jahren in Berlin. Herr Müller, willkommen!"
+        },
+        {
+          "speaker": "Dominik",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Guten Tag. Ja, ich wohne wirklich gern in Berlin. Die Stadt ist groß und es gibt immer viel neues. Ich mag die vielen Parks und die Kultur."
+        },
+        {
+          "speaker": "Moderator",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Was machen Sie denn in Ihrer Freizeit?"
+        },
+        {
+          "speaker": "Dominik",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Ich gehe oft ins Kino oder treffe Freunde in Cafés. Am Wochenende fahre ich manchmal mit dem Fahrrad durch den Park. Das ist gut für frische Luft. Ich nutze auch oft die öffentlichen Verkehrsmittel. Ein Auto brauche ich selten."
+        },
+        {
+          "speaker": "Moderator",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Und was ist mit der Arbeit? Finden Sie einfach einen Job in der Stadt?"
+        },
+        {
+          "speaker": "Dominik",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Für mich war es einfach. Ich arbeite in einer kleinen Firma hier im Zentrum. Mein Arbeitsweg ist kurz, das ist ein großer Vorteil. Ich kann zu Fuß zur Arbeit gehen."
+        },
+        {
+          "speaker": "Moderator",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Gibt es auch Nachteile am Stadtleben?"
+        },
+        {
+          "speaker": "Dominik",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Manchmal ist es laut. Und die Mieten sind hoch. Aber für mich überwiegen die Vorteile. Ich mag die Energie der Stadt und die vielen Möglichkeiten. Es ist nie langweilig."
+        }
+      ],
+      "topicTag": "Stadtleben"
+    }
+  ],
+  "questions": [
+    {
+      "id": "gen-q-h4-acadb964-q1",
+      "module": "horen",
+      "teil": 4,
+      "type": "ja_nein",
+      "question": "Dominik wohnt erst seit kurzer Zeit in Berlin.",
+      "correct": "Nein",
+      "correctAnswer": "Nein",
+      "options": [],
+      "explanation": "Dominik sagt: „Er lebt seit zehn Jahren in Berlin.“ Das ist keine kurze Zeit.",
+      "passageId": "gen-p-h4-acadb964-s1",
+      "level": "A2",
+      "topicTags": [
+        "Stadtleben"
+      ],
+      "vocabularyTags": [
+        "Berlin",
+        "Dominik",
+        "Zeit"
+      ],
+      "grammarTags": []
+    },
+    {
+      "id": "gen-q-h4-acadb964-q4",
+      "module": "horen",
+      "teil": 4,
+      "type": "ja_nein",
+      "question": "Dominik findet, dass die Mieten in der Stadt günstig sind.",
+      "correct": "Nein",
+      "correctAnswer": "Nein",
+      "options": [],
+      "explanation": "Dominik sagt, dass die Mieten in der Stadt „hoch“ sind, nicht günstig.",
+      "passageId": "gen-p-h4-acadb964-s1",
+      "level": "A2",
+      "topicTags": [
+        "Stadtleben"
+      ],
+      "vocabularyTags": [
+        "finden",
+        "mieten",
+        "Dominik",
+        "günstig",
+        "Stadt"
+      ],
+      "grammarTags": [
+        "g-de-a2-nebensatz",
+        "g-de-a2-dat-akk"
+      ]
+    },
+    {
+      "id": "gen-q-h4-acadb964-q3",
+      "module": "horen",
+      "teil": 4,
+      "type": "ja_nein",
+      "question": "Dominik braucht sein Auto selten.",
+      "correct": "Ja",
+      "correctAnswer": "Ja",
+      "options": [],
+      "explanation": "Dominik sagt: „Ein Auto brauche ich selten.“ Er nutzt öffentliche Verkehrsmittel oder geht zu Fuß.",
+      "passageId": "gen-p-h4-acadb964-s1",
+      "level": "A2",
+      "topicTags": [
+        "Stadtleben"
+      ],
+      "vocabularyTags": [
+        "selten",
+        "brauchen",
+        "Dominik",
+        "Auto"
+      ],
+      "grammarTags": []
+    },
+    {
+      "id": "gen-q-h4-acadb964-q5",
+      "module": "horen",
+      "teil": 4,
+      "type": "ja_nein",
+      "question": "Dominik findet Das Leben in der Stadt langweilig.",
+      "correct": "Nein",
+      "correctAnswer": "Nein",
+      "options": [],
+      "explanation": "Dominik sagt am Ende des Interviews: „Es ist nie langweilig.“",
+      "passageId": "gen-p-h4-acadb964-s1",
+      "level": "A2",
+      "topicTags": [
+        "Stadtleben"
+      ],
+      "vocabularyTags": [
+        "finden",
+        "leben",
+        "langweilig",
+        "Dominik",
+        "Stadt"
+      ],
+      "grammarTags": [
+        "g-de-a2-dat-akk"
+      ]
+    },
+    {
+      "id": "gen-q-h4-acadb964-q2",
+      "module": "horen",
+      "teil": 4,
+      "type": "ja_nein",
+      "question": "Dominik mag die Parks und die Kultur in Berlin.",
+      "correct": "Ja",
+      "correctAnswer": "Ja",
+      "options": [],
+      "explanation": "Dominik sagt: „Ich mag die vielen Parks und die Kultur.“",
+      "passageId": "gen-p-h4-acadb964-s1",
+      "level": "A2",
+      "topicTags": [
+        "Stadtleben"
+      ],
+      "vocabularyTags": [
+        "Berlin",
+        "Parks",
+        "Dominik",
+        "Kultur"
+      ],
+      "grammarTags": [
+        "g-de-a2-dat-akk"
+      ]
+    }
+  ],
+  "_germanCapsNormalizeVersion": "v3.23-lesen-t2-angebote-corpus-2026-07-28",
+  "_germanCapsNormalizedAt": "2026-09-23T01:37:17.350Z",
+  "_balanceMcqVersion": "v1.2-no-rf-chrono-shuffle-2026-07-11",
+  "_balanceMcqNormalizedAt": "2026-09-23T01:37:17.350Z",
+  "topicTag": "Stadtleben",
+  "_requestedTopic": "Stadtleben",
+  "userVocabFeedback": {
+    "topic": "Stadtleben",
+    "requested": [
+      "nutzen",
+      "anmeldung",
+      "vorteil",
+      "meinung",
+      "projekt",
+      "gemeinsam",
+      "aufgabe",
+      "situation"
+    ],
+    "prompted": [
+      "nutzen",
+      "anmeldung",
+      "vorteil",
+      "meinung",
+      "projekt",
+      "gemeinsam",
+      "aufgabe",
+      "situation"
+    ],
+    "originalRequested": null,
+    "subtypeAdaptation": null,
+    "used": [
+      "vorteil"
+    ],
+    "notUsed": [
+      "nutzen",
+      "anmeldung",
+      "meinung",
+      "projekt",
+      "gemeinsam",
+      "aufgabe",
+      "situation"
+    ],
+    "excluded": [],
+    "ratio": 0.125,
+    "targetUsage": [
+      {
+        "word": "vorteil",
+        "surfaces": [
+          "Vorteil",
+          "Vorteile"
+        ]
+      }
+    ]
+  },
+  "targetUsage": [
+    {
+      "word": "vorteil",
+      "surfaces": [
+        "Vorteil",
+        "Vorteile"
+      ]
+    }
+  ],
+  "generationMetadata": {
+    "usedFeedback": false,
+    "feedbackRules": [],
+    "feedbackCount": 0,
+    "feedbackCategories": [],
+    "feedbackMode": "off",
+    "feedbackVersion": "v1"
+  },
+  "_metadataEnrichedAt": "2026-09-23T01:37:17.514Z",
+  "_metadataEnrichNote": "deterministic: detectTopic + per-question lemma vocab + grammar heuristics",
+  "_vocabTagsNormalizeVersion": "v2.3.18-paso3-vocab-plural-rubric-strip-2026-08-02",
+  "_grammarTagsNormalizeVersion": "v2.2-a2-b2-level-tags-2026-07-27"
+}

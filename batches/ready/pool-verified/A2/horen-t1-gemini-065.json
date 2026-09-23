@@ -1,0 +1,322 @@
+{
+  "passages": [
+    {
+      "id": "gen-p-h1-0594be5f-s1",
+      "module": "horen",
+      "teil": 1,
+      "lang": "de",
+      "level": "A2",
+      "topicTag": "Familie",
+      "title": "Text 1",
+      "text": "Liebe Kundinnen und Kunden, herzlich willkommen zu unserem Familientag! Heute gibt es viele Spiele für Kinder und ein kleines Café für die Eltern. Tom und Katja helfen Ihnen gerne bei Fragen. Der Familientag beginnt um zehn Uhr und endet um siebzehn Uhr. Wir wünschen Ihnen viel Spaß!",
+      "passageVocab": [
+        "familientag",
+        "kinder",
+        "eltern"
+      ],
+      "audio": [
+        {
+          "speaker": "Ansagerin",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Liebe Kundinnen und Kunden, herzlich willkommen zu unserem Familientag! Heute gibt es viele Spiele für Kinder und ein kleines Café für die Eltern. Tom und Katja helfen Ihnen gerne bei Fragen. Der Familientag beginnt um zehn Uhr und endet um siebzehn Uhr. Wir wünschen Ihnen viel Spaß!"
+        }
+      ]
+    },
+    {
+      "id": "gen-p-h1-0594be5f-s2",
+      "module": "horen",
+      "teil": 1,
+      "lang": "de",
+      "level": "A2",
+      "topicTag": "Familie",
+      "title": "Text 2",
+      "text": "Hallo Jana, hier ist Moritz. Ich wollte dich kurz anrufen wegen unseres Abendessens am Samstag. Meine Eltern kommen auch. Könntest du bitte noch den Salat machen? Ich kümmere mich um den Hauptgang. Ruf mich bitte zurück, wenn du Zeit hast. Danke!",
+      "passageVocab": [
+        "abendessen",
+        "eltern",
+        "salat"
+      ],
+      "audio": [
+        {
+          "speaker": "Anrufer",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Hallo Jana, hier ist Moritz. Ich wollte dich kurz anrufen wegen unseres Abendessens am Samstag. Meine Eltern kommen auch. Könntest du bitte noch den Salat machen? Ich kümmere mich um den Hauptgang. Ruf mich bitte zurück, wenn du Zeit hast. Danke!"
+        }
+      ]
+    },
+    {
+      "id": "gen-p-h1-0594be5f-s3",
+      "module": "horen",
+      "teil": 1,
+      "lang": "de",
+      "level": "A2",
+      "topicTag": "Familie",
+      "title": "Text 3",
+      "text": "Willkommen zu unserem kurzen Alltagstipp! Heute sprechen wir über Aufgaben im Haushalt. Es ist wichtig, dass alle in der Familie helfen. Philipp und Sara haben zum Beispiel einen Plan für die Woche. So ist die Situation für jeden klar und es gibt weniger Streit. Versuchen Sie es doch auch!",
+      "passageVocab": [
+        "haushalt",
+        "aufgaben",
+        "familie"
+      ],
+      "audio": [
+        {
+          "speaker": "Sprecherin",
+          "voiceId": "de-DE-AmelieNeural",
+          "text": "Willkommen zu unserem kurzen Alltagstipp! Heute sprechen wir über Aufgaben im Haushalt. Es ist wichtig, dass alle in der Familie helfen. Philipp und Sara haben zum Beispiel einen Plan für die Woche. So ist die Situation für jeden klar und es gibt weniger Streit. Versuchen Sie es doch auch!"
+        }
+      ]
+    },
+    {
+      "id": "gen-p-h1-0594be5f-s4",
+      "module": "horen",
+      "teil": 1,
+      "lang": "de",
+      "level": "A2",
+      "topicTag": "Familie",
+      "title": "Text 4",
+      "text": "Wichtiger Hinweis für alle Besucher des Einkaufszentrums! Im ersten Stock finden Sie jetzt einen neuen Spielbereich für kleine Kinder. Er ist direkt neben dem Café. Eltern können dort ihre Kinder spielen lassen und entspannt einen Kaffee trinken. Tim und Sophies Kinder lieben es schon! Geöffnet von zehn bis achtzehn Uhr.",
+      "passageVocab": [
+        "spielbereich",
+        "kinder",
+        "einkaufszentrum"
+      ],
+      "audio": [
+        {
+          "speaker": "Ansager",
+          "voiceId": "de-DE-BerndNeural",
+          "text": "Wichtiger Hinweis für alle Besucher des Einkaufszentrums! Im ersten Stock finden Sie jetzt einen neuen Spielbereich für kleine Kinder. Er ist direkt neben dem Café. Eltern können dort ihre Kinder spielen lassen und entspannt einen Kaffee trinken. Tim und Sophies Kinder lieben es schon! Geöffnet von zehn bis achtzehn Uhr."
+        }
+      ]
+    },
+    {
+      "id": "gen-p-h1-0594be5f-s5",
+      "module": "horen",
+      "teil": 1,
+      "lang": "de",
+      "level": "A2",
+      "topicTag": "Familie",
+      "title": "Text 5",
+      "text": "Guten Tag, hier ist Niklas. Ich wollte Laura Bescheid geben, dass unser Baby gut angekommen ist! Es ist ein Junge und er ist sehr süß. Laura, wir sind jetzt im Krankenhaus, aber morgen sind wir wieder in unserer Wohnung. Wir freuen uns schon auf deinen Besuch! Bis bald!",
+      "passageVocab": [
+        "baby",
+        "krankenhaus",
+        "wohnung"
+      ],
+      "audio": [
+        {
+          "speaker": "Anruferin",
+          "voiceId": "de-DE-WiebkeNeural",
+          "text": "Guten Tag, hier ist Niklas. Ich wollte Laura Bescheid geben, dass unser Baby gut angekommen ist! Es ist ein Junge und er ist sehr süß. Laura, wir sind jetzt im Krankenhaus, aber morgen sind wir wieder in unserer Wohnung. Wir freuen uns schon auf deinen Besuch! Bis bald!"
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "gen-q-h1-0594be5f-q1",
+      "module": "horen",
+      "teil": 1,
+      "lang": "de",
+      "level": "A2",
+      "type": "multiple_choice",
+      "question": "Was ist heute im Zentrum geplant?",
+      "options": [
+        "a) Ein Tag für die ganze Familie.",
+        "b) Ein Kurs für Kinder und Erwachsene.",
+        "c) Ein Treffen nur für Eltern."
+      ],
+      "correct": "a",
+      "correctAnswer": "a",
+      "explanation": "Die Ansage informiert über einen Familientag mit Spielen für Kinder und einem Café für Eltern.",
+      "segmentLabel": "Text 1",
+      "passageId": "gen-p-h1-0594be5f-s1",
+      "skills": [
+        "listening"
+      ],
+      "language": "de",
+      "examType": "goethe",
+      "difficulty": 5,
+      "topicTags": [
+        "Familie"
+      ],
+      "vocabularyTags": [
+        "Familie",
+        "Zentrum"
+      ],
+      "grammarTags": [
+        "g-de-a2-perfekt",
+        "g-de-a2-trennbar",
+        "g-de-a2-dat-akk"
+      ]
+    },
+    {
+      "id": "gen-q-h1-0594be5f-q2",
+      "module": "horen",
+      "teil": 1,
+      "lang": "de",
+      "level": "A2",
+      "type": "multiple_choice",
+      "question": "Was soll Jana für das Abendessen vorbereiten?",
+      "options": [
+        "a) Die Getränke für die Familie.",
+        "b) Den Hauptgang für die Gäste.",
+        "c) Einen Salat für alle."
+      ],
+      "correct": "c",
+      "correctAnswer": "c",
+      "explanation": "Moritz bittet Jana, den Salat für das gemeinsame Abendessen mit den Eltern zu machen.",
+      "segmentLabel": "Text 2",
+      "passageId": "gen-p-h1-0594be5f-s2",
+      "skills": [
+        "listening"
+      ],
+      "language": "de",
+      "examType": "goethe",
+      "difficulty": 5,
+      "topicTags": [
+        "Familie"
+      ],
+      "vocabularyTags": [
+        "vorbereiten",
+        "abendessen",
+        "Salat"
+      ],
+      "grammarTags": [
+        "g-de-a2-modal",
+        "g-de-a2-trennbar",
+        "g-de-a2-dat-akk"
+      ]
+    },
+    {
+      "id": "gen-q-h1-0594be5f-q3",
+      "module": "horen",
+      "teil": 1,
+      "lang": "de",
+      "level": "A2",
+      "type": "multiple_choice",
+      "question": "Worum geht es in dem Tipp?",
+      "options": [
+        "a) Um einen Wochenplan für die Arbeit.",
+        "b) Um die Verteilung der Hausarbeit.",
+        "c) Um neue Ideen für die Freizeit."
+      ],
+      "correct": "b",
+      "correctAnswer": "b",
+      "explanation": "Der Tipp handelt davon, wie man die Aufgaben im Haushalt gerecht in der Familie aufteilt.",
+      "segmentLabel": "Text 3",
+      "passageId": "gen-p-h1-0594be5f-s3",
+      "skills": [
+        "listening"
+      ],
+      "language": "de",
+      "examType": "goethe",
+      "difficulty": 5,
+      "topicTags": [
+        "Familie"
+      ],
+      "vocabularyTags": [
+        "Verteilung",
+        "Hausarbeit"
+      ],
+      "grammarTags": [
+        "g-de-a2-trennbar",
+        "g-de-a2-dat-akk"
+      ]
+    },
+    {
+      "id": "gen-q-h1-0594be5f-q4",
+      "module": "horen",
+      "teil": 1,
+      "lang": "de",
+      "level": "A2",
+      "type": "multiple_choice",
+      "question": "Wo befindet sich der neue Spielbereich?",
+      "options": [
+        "a) Im zweiten Stock, im Restaurant.",
+        "b) Im Erdgeschoss, weit weg vom Café.",
+        "c) Auf der ersten Etage, gleich am Café."
+      ],
+      "correct": "c",
+      "correctAnswer": "c",
+      "explanation": "Der Spielbereich ist im ersten Stock und befindet sich direkt neben dem Café.",
+      "segmentLabel": "Text 4",
+      "passageId": "gen-p-h1-0594be5f-s4",
+      "skills": [
+        "listening"
+      ],
+      "language": "de",
+      "examType": "goethe",
+      "difficulty": 5,
+      "topicTags": [
+        "Familie"
+      ],
+      "vocabularyTags": [
+        "Spielbereich",
+        "gleich",
+        "Etage"
+      ],
+      "grammarTags": [
+        "g-de-a2-dat-akk"
+      ]
+    },
+    {
+      "id": "gen-q-h1-0594be5f-q5",
+      "module": "horen",
+      "teil": 1,
+      "lang": "de",
+      "level": "A2",
+      "type": "multiple_choice",
+      "question": "Was ist die Neuigkeit von Niklas?",
+      "options": [
+        "a) Er hat eine neue Wohnung gefunden.",
+        "b) Sein Baby ist geboren.",
+        "c) Er ist im Krankenhaus und braucht Hilfe."
+      ],
+      "correct": "b",
+      "correctAnswer": "b",
+      "explanation": "Niklas teilt Laura mit, dass sein Baby geboren wurde und es ihm gut geht.",
+      "segmentLabel": "Text 5",
+      "passageId": "gen-p-h1-0594be5f-s5",
+      "skills": [
+        "listening"
+      ],
+      "language": "de",
+      "examType": "goethe",
+      "difficulty": 5,
+      "topicTags": [
+        "Familie"
+      ],
+      "vocabularyTags": [
+        "Neuigkeit",
+        "Niklas",
+        "gebor"
+      ],
+      "grammarTags": [
+        "g-de-a2-nebensatz",
+        "g-de-a2-perfekt",
+        "g-de-a2-trennbar",
+        "g-de-a2-dat-akk"
+      ]
+    }
+  ],
+  "_germanCapsNormalizeVersion": "v3.23-lesen-t2-angebote-corpus-2026-07-28",
+  "_germanCapsNormalizedAt": "2026-07-27T06:45:50.151Z",
+  "_balanceMcqVersion": "v1.2-no-rf-chrono-shuffle-2026-07-11",
+  "_balanceMcqNormalizedAt": "2026-07-27T06:45:50.151Z",
+  "topicTag": "Familie",
+  "_requestedTopic": "Familie",
+  "generationMetadata": {
+    "usedFeedback": false,
+    "feedbackRules": [],
+    "feedbackCount": 0,
+    "feedbackCategories": [],
+    "feedbackMode": "off",
+    "feedbackVersion": "v1"
+  },
+  "_metadataEnrichedAt": "2026-07-27T06:45:52.151Z",
+  "_metadataEnrichNote": "deterministic: detectTopic + per-question lemma vocab + grammar heuristics",
+  "_vocabTagsNormalizeVersion": "v2.3.16-b1-validated-verb-adj-lemma-2026-07-24",
+  "_grammarTagsNormalizeVersion": "v2.2-a2-b2-level-tags-2026-07-27",
+  "_germanCapsMetadataRestampAt": "2026-08-05T04:37:08.105Z",
+  "_germanCapsMetadataRestampNote": "metadata-only; no applyGermanCapsNormalize"
+}

@@ -1,0 +1,290 @@
+{
+  "passages": [
+    {
+      "id": "gen-p-h2-ce93f415-s1",
+      "module": "horen",
+      "teil": 2,
+      "lang": "de",
+      "level": "A2",
+      "title": "Wochenpläne",
+      "text": "Lena: Hallo Max! Wie ist dein Plan für die Woche?\nMax: Hallo Lena! Ganz schön voll.\nLena: Was machst du am Montag?\nLena: Am Montag muss ich für meine Deutschprüfung lernen. Das ist eine wichtige Aufgabe.\nMax: Oh, viel Erfolg! Ich habe am Dienstag meinen Deutschkurs. Ich fahre mit der Bahn dorthin, das ist direkt.\nLena: Stimmt, die Bahn ist praktisch. Am Mittwoch werde ich zu Hause kochen. Ich probiere ein neues Rezept aus.\nMax: Lecker! Ich fahre am Donnerstag mit dem Fahrrad zur Arbeit, wenn das Wetter gut ist. Das ist gut für die Umwelt.\nLena: Ja, Fahrrad fahren ist super! Am Freitag muss ich noch einkaufen gehen. Die Verkehrssituation in der Stadt ist dann immer schwierig.\nMax: Das kenne ich! Viel Glück dabei.",
+      "pictures": [
+        {
+          "key": "a",
+          "icon": "🚴",
+          "label": "Fahrrad fahren"
+        },
+        {
+          "key": "b",
+          "icon": "🇩🇪",
+          "label": "Deutschkurs"
+        },
+        {
+          "key": "c",
+          "icon": "👫",
+          "label": "Freunde treffen"
+        },
+        {
+          "key": "d",
+          "icon": "🏋️",
+          "label": "Sport machen"
+        },
+        {
+          "key": "e",
+          "icon": "🏛️",
+          "label": "Museum"
+        },
+        {
+          "key": "f",
+          "icon": "🎬",
+          "label": "Kino"
+        },
+        {
+          "key": "g",
+          "icon": "📚",
+          "label": "Lernen"
+        },
+        {
+          "key": "h",
+          "icon": "🛒",
+          "label": "Einkaufen"
+        },
+        {
+          "key": "i",
+          "icon": "🍳",
+          "label": "Kochen"
+        }
+      ],
+      "audio": [
+        {
+          "speaker": "Lena",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Hallo Max! Wie ist dein Plan für die Woche?"
+        },
+        {
+          "speaker": "Max",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Hallo Lena! Ganz schön voll."
+        },
+        {
+          "speaker": "Lena",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Was machst du am Montag?"
+        },
+        {
+          "speaker": "Lena",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Am Montag muss ich für meine Deutschprüfung lernen. Das ist eine wichtige Aufgabe."
+        },
+        {
+          "speaker": "Max",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Oh, viel Erfolg! Ich habe am Dienstag meinen Deutschkurs. Ich fahre mit der Bahn dorthin, das ist direkt."
+        },
+        {
+          "speaker": "Lena",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Stimmt, die Bahn ist praktisch. Am Mittwoch werde ich zu Hause kochen. Ich probiere ein neues Rezept aus."
+        },
+        {
+          "speaker": "Max",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Lecker! Ich fahre am Donnerstag mit dem Fahrrad zur Arbeit, wenn das Wetter gut ist. Das ist gut für die Umwelt."
+        },
+        {
+          "speaker": "Lena",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Ja, Fahrrad fahren ist super! Am Freitag muss ich noch einkaufen gehen. Die Verkehrssituation in der Stadt ist dann immer schwierig."
+        },
+        {
+          "speaker": "Max",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Das kenne ich! Viel Glück dabei."
+        }
+      ],
+      "topicTag": "Verkehr"
+    }
+  ],
+  "questions": [
+    {
+      "id": "gen-q-h2-ce93f415-q1",
+      "module": "horen",
+      "teil": 2,
+      "lang": "de",
+      "level": "A2",
+      "type": "matching",
+      "question": "Was macht Lena am Montag?",
+      "passageId": "gen-p-h2-ce93f415-s1",
+      "correct": "g",
+      "correctAnswer": "g",
+      "explanation": "Lena muss am Montag für ihre Deutschprüfung lernen.",
+      "language": "de",
+      "examType": "goethe",
+      "difficulty": 5,
+      "skills": [
+        "listening"
+      ],
+      "topicTags": [
+        "Verkehr"
+      ],
+      "_keyOnlyMatch": true,
+      "vocabularyTags": [
+        "Deutschprüfung",
+        "lernen",
+        "Montag"
+      ],
+      "grammarTags": [
+        "g-de-a2-modal"
+      ]
+    },
+    {
+      "id": "gen-q-h2-ce93f415-q2",
+      "module": "horen",
+      "teil": 2,
+      "lang": "de",
+      "level": "A2",
+      "type": "matching",
+      "question": "Was macht Max am Dienstag?",
+      "passageId": "gen-p-h2-ce93f415-s1",
+      "correct": "b",
+      "correctAnswer": "b",
+      "explanation": "Max hat am Dienstag seinen Deutschkurs.",
+      "language": "de",
+      "examType": "goethe",
+      "difficulty": 5,
+      "skills": [
+        "listening"
+      ],
+      "topicTags": [
+        "Verkehr"
+      ],
+      "_keyOnlyMatch": true,
+      "vocabularyTags": [
+        "seinen",
+        "Deutschkurs",
+        "Dienstag"
+      ],
+      "grammarTags": []
+    },
+    {
+      "id": "gen-q-h2-ce93f415-q3",
+      "module": "horen",
+      "teil": 2,
+      "lang": "de",
+      "level": "A2",
+      "type": "matching",
+      "question": "Was macht Lena am Mittwoch?",
+      "passageId": "gen-p-h2-ce93f415-s1",
+      "correct": "i",
+      "correctAnswer": "i",
+      "explanation": "Lena wird am Mittwoch zu Hause kochen und ein neues Rezept ausprobieren.",
+      "language": "de",
+      "examType": "goethe",
+      "difficulty": 5,
+      "skills": [
+        "listening"
+      ],
+      "topicTags": [
+        "Verkehr"
+      ],
+      "_keyOnlyMatch": true,
+      "vocabularyTags": [
+        "ausprobieren",
+        "kochen",
+        "Mittwoch",
+        "Rezept",
+        "Hause"
+      ],
+      "grammarTags": [
+        "g-de-a2-trennbar"
+      ]
+    },
+    {
+      "id": "gen-q-h2-ce93f415-q4",
+      "module": "horen",
+      "teil": 2,
+      "lang": "de",
+      "level": "A2",
+      "type": "matching",
+      "question": "Was macht Max am Donnerstag?",
+      "passageId": "gen-p-h2-ce93f415-s1",
+      "correct": "a",
+      "correctAnswer": "a",
+      "explanation": "Max fährt am Donnerstag mit dem Fahrrad zur Arbeit.",
+      "language": "de",
+      "examType": "goethe",
+      "difficulty": 5,
+      "skills": [
+        "listening"
+      ],
+      "topicTags": [
+        "Verkehr"
+      ],
+      "_keyOnlyMatch": true,
+      "vocabularyTags": [
+        "fahren",
+        "Arbeit",
+        "Donnerstag",
+        "Fahrrad"
+      ],
+      "grammarTags": [
+        "g-de-a2-trennbar",
+        "g-de-a2-dat-akk"
+      ]
+    },
+    {
+      "id": "gen-q-h2-ce93f415-q5",
+      "module": "horen",
+      "teil": 2,
+      "lang": "de",
+      "level": "A2",
+      "type": "matching",
+      "question": "Was macht Lena am Freitag?",
+      "passageId": "gen-p-h2-ce93f415-s1",
+      "correct": "h",
+      "correctAnswer": "h",
+      "explanation": "Lena muss am Freitag noch einkaufen gehen.",
+      "language": "de",
+      "examType": "goethe",
+      "difficulty": 5,
+      "skills": [
+        "listening"
+      ],
+      "topicTags": [
+        "Verkehr"
+      ],
+      "_keyOnlyMatch": true,
+      "vocabularyTags": [
+        "einkaufen",
+        "Freitag",
+        "gehen"
+      ],
+      "grammarTags": [
+        "g-de-a2-modal",
+        "g-de-a2-trennbar"
+      ]
+    }
+  ],
+  "_germanCapsNormalizeVersion": "v3.23-lesen-t2-angebote-corpus-2026-07-28",
+  "_germanCapsNormalizedAt": "2026-07-27T06:37:23.218Z",
+  "_balanceMcqVersion": "v1.2-no-rf-chrono-shuffle-2026-07-11",
+  "_balanceMcqNormalizedAt": "2026-07-27T06:37:23.218Z",
+  "topicTag": "Verkehr",
+  "_requestedTopic": "Verkehr",
+  "generationMetadata": {
+    "usedFeedback": false,
+    "feedbackRules": [],
+    "feedbackCount": 0,
+    "feedbackCategories": [],
+    "feedbackMode": "off",
+    "feedbackVersion": "v1"
+  },
+  "_metadataEnrichedAt": "2026-07-27T06:41:16.624Z",
+  "_metadataEnrichNote": "deterministic: detectTopic + per-question lemma vocab + grammar heuristics",
+  "_vocabTagsNormalizeVersion": "v2.3.16-b1-validated-verb-adj-lemma-2026-07-24",
+  "_grammarTagsNormalizeVersion": "v2.2-a2-b2-level-tags-2026-07-27",
+  "_a2GrammarRetagAt": "2026-07-27T06:41:16.624Z",
+  "_a2GrammarRetagNote": "re-enrich-a2-pool-grammar.mjs",
+  "_germanCapsMetadataRestampAt": "2026-08-05T04:37:08.134Z",
+  "_germanCapsMetadataRestampNote": "metadata-only; no applyGermanCapsNormalize"
+}

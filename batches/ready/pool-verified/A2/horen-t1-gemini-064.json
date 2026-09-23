@@ -1,0 +1,335 @@
+{
+  "passages": [
+    {
+      "id": "gen-p-h1-28e0a665-s1",
+      "module": "horen",
+      "teil": 1,
+      "lang": "de",
+      "level": "A2",
+      "title": "Text 1",
+      "text": "Achtung, bitte! Eine wichtige Durchsage für alle Besucher des Jobcenters. Die Beratungsgespräche für Arbeitssuchende finden diese Woche nicht im Raum 3, sondern direkt im Erdgeschoss statt. Bitte melden Sie sich am Empfang. Herr Tim Schmidt ist ab Mittwoch wieder für Sie da. Vielen Dank.",
+      "passageVocab": [
+        "jobcenter",
+        "beratung",
+        "empfang",
+        "mittwoch"
+      ],
+      "topicTag": "Arbeit",
+      "audio": [
+        {
+          "speaker": "Ansager",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Achtung, bitte! Eine wichtige Durchsage für alle Besucher des Jobcenters. Die Beratungsgespräche für Arbeitssuchende finden diese Woche nicht im Raum 3, sondern direkt im Erdgeschoss statt. Bitte melden Sie sich am Empfang. Herr Tim Schmidt ist ab Mittwoch wieder für Sie da. Vielen Dank."
+        }
+      ]
+    },
+    {
+      "id": "gen-p-h1-28e0a665-s2",
+      "module": "horen",
+      "teil": 1,
+      "lang": "de",
+      "level": "A2",
+      "title": "Text 2",
+      "text": "Guten Tag, Herr Niklas Weber. Hier ist die Personalabteilung der Firma Müller & Co. Wir haben Ihre Bewerbung erhalten und möchten Sie gerne zu einem Vorstellungsgespräch einladen. Bitte rufen Sie uns bis Freitag zurück, um einen Termin zu vereinbaren. Wir freuen uns auf Ihren Anruf.",
+      "passageVocab": [
+        "bewerbung",
+        "vorstellungsgespräch",
+        "personalabteilung",
+        "termin"
+      ],
+      "topicTag": "Arbeit",
+      "audio": [
+        {
+          "speaker": "Ansager",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Guten Tag, Herr Niklas Weber. Hier ist die Personalabteilung der Firma Müller & Co. Wir haben Ihre Bewerbung erhalten und möchten Sie gerne zu einem Vorstellungsgespräch einladen. Bitte rufen Sie uns bis Freitag zurück, um einen Termin zu vereinbaren. Wir freuen uns auf Ihren Anruf."
+        }
+      ]
+    },
+    {
+      "id": "gen-p-h1-28e0a665-s3",
+      "module": "horen",
+      "teil": 1,
+      "lang": "de",
+      "level": "A2",
+      "title": "Text 3",
+      "text": "Willkommen zu unserem kurzen Alltagstipp! Heute geht es um Pausen im Arbeitsalltag. Machen Sie jede Stunde eine kurze Pause von fünf Minuten. Stehen Sie auf, bewegen Sie sich ein Bisschen. Das hilft, die Konzentration zu halten und ist gut für Ihre Gesundheit. So bleiben Sie den ganzen Tag produktiv.",
+      "passageVocab": [
+        "pause",
+        "arbeitsalltag",
+        "konzentration",
+        "gesundheit"
+      ],
+      "topicTag": "Arbeit",
+      "audio": [
+        {
+          "speaker": "Ansager",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Willkommen zu unserem kurzen Alltagstipp! Heute geht es um Pausen im Arbeitsalltag. Machen Sie jede Stunde eine kurze Pause von fünf Minuten. Stehen Sie auf, bewegen Sie sich ein Bisschen. Das hilft, die Konzentration zu halten und ist gut für Ihre Gesundheit. So bleiben Sie den ganzen Tag produktiv."
+        }
+      ]
+    },
+    {
+      "id": "gen-p-h1-28e0a665-s4",
+      "module": "horen",
+      "teil": 1,
+      "lang": "de",
+      "level": "A2",
+      "title": "Text 4",
+      "text": "Liebe Mitarbeiterinnen und Mitarbeiter, bitte beachten Sie folgenden Hinweis: Ab nächster Woche gibt es neue Regeln für die Nutzung der Teeküche. Eine Liste mit allen Änderungen hängt ab Montag am schwarzen Brett. Bei Fragen wenden Sie sich bitte direkt an Frau Julia Fischer. Sie hilft Ihnen gerne.",
+      "passageVocab": [
+        "mitarbeiter",
+        "teeküche",
+        "regeln",
+        "montag"
+      ],
+      "topicTag": "Arbeit",
+      "audio": [
+        {
+          "speaker": "Ansager",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Liebe Mitarbeiterinnen und Mitarbeiter, bitte beachten Sie folgenden Hinweis: Ab nächster Woche gibt es neue Regeln für die Nutzung der Teeküche. Eine Liste mit allen Änderungen hängt ab Montag am schwarzen Brett. Bei Fragen wenden Sie sich bitte direkt an Frau Julia Fischer. Sie hilft Ihnen gerne."
+        }
+      ]
+    },
+    {
+      "id": "gen-p-h1-28e0a665-s5",
+      "module": "horen",
+      "teil": 1,
+      "lang": "de",
+      "level": "A2",
+      "title": "Text 5",
+      "text": "Guten Tag, Frau Lisa Klein. Hier ist Simon von der Personalabteilung. Ich rufe an wegen Ihrer Frage zu den Arbeitszeiten für die neue Stelle. Wir haben Ihre E-Mail erhalten. Die genauen Zeiten besprechen wir am besten persönlich. Bitte kommen Sie am Dienstag um zehn Uhr in unser Büro. Vielen Dank und auf Wiederhören.",
+      "passageVocab": [
+        "arbeitszeiten",
+        "stelle",
+        "büro",
+        "dienstag"
+      ],
+      "topicTag": "Arbeit",
+      "audio": [
+        {
+          "speaker": "Ansager",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Guten Tag, Frau Lisa Klein. Hier ist Simon von der Personalabteilung. Ich rufe an wegen Ihrer Frage zu den Arbeitszeiten für die neue Stelle. Wir haben Ihre E-Mail erhalten. Die genauen Zeiten besprechen wir am besten persönlich. Bitte kommen Sie am Dienstag um zehn Uhr in unser Büro. Vielen Dank und auf Wiederhören."
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "gen-q-h1-28e0a665-q1",
+      "module": "horen",
+      "teil": 1,
+      "lang": "de",
+      "level": "A2",
+      "type": "multiple_choice",
+      "question": "Wo finden die Beratungsgespräche diese Woche statt?",
+      "options": [
+        "a) Im Erdgeschoss",
+        "b) Im Raum 3",
+        "c) Ab Mittwoch bei Herrn Schmidt"
+      ],
+      "correct": "a",
+      "correctAnswer": "a",
+      "explanation": "Die Durchsage informiert, dass die Gespräche diese Woche im Erdgeschoss stattfinden, nicht im Raum 3.",
+      "segmentLabel": "Text 1",
+      "passageId": "gen-p-h1-28e0a665-s1",
+      "skills": [
+        "listening"
+      ],
+      "language": "de",
+      "examType": "goethe",
+      "difficulty": 5,
+      "topicTags": [
+        "Arbeit"
+      ],
+      "vocabularyTags": [
+        "stattfinden",
+        "Beratungsgespräche",
+        "Erdgeschoss",
+        "Woche"
+      ],
+      "grammarTags": [
+        "g-de-a2-nebensatz",
+        "g-de-a2-trennbar",
+        "g-de-a2-dat-akk"
+      ]
+    },
+    {
+      "id": "gen-q-h1-28e0a665-q2",
+      "module": "horen",
+      "teil": 1,
+      "lang": "de",
+      "level": "A2",
+      "type": "multiple_choice",
+      "question": "Was soll Herr Weber machen?",
+      "options": [
+        "a) Seine Bewerbung ändern",
+        "b) Auf einen Termin warten",
+        "c) Bis Freitag anrufen"
+      ],
+      "correct": "c",
+      "correctAnswer": "c",
+      "explanation": "Herr Weber soll die Personalabteilung bis Freitag zurückrufen, um einen Termin für ein Vorstellungsgespräch zu vereinbaren.",
+      "segmentLabel": "Text 2",
+      "passageId": "gen-p-h1-28e0a665-s2",
+      "skills": [
+        "listening"
+      ],
+      "language": "de",
+      "examType": "goethe",
+      "difficulty": 5,
+      "topicTags": [
+        "Arbeit"
+      ],
+      "vocabularyTags": [
+        "anrufen",
+        "Freitag",
+        "Weber",
+        "machen"
+      ],
+      "grammarTags": [
+        "g-de-a2-modal",
+        "g-de-a2-trennbar",
+        "g-de-a2-dat-akk"
+      ]
+    },
+    {
+      "id": "gen-q-h1-28e0a665-q3",
+      "module": "horen",
+      "teil": 1,
+      "lang": "de",
+      "level": "A2",
+      "type": "multiple_choice",
+      "question": "Was ist der Tipp für den Arbeitsalltag?",
+      "options": [
+        "a) Lange Pausen machen",
+        "b) Jede Stunde kurz aufstehen",
+        "c) Den ganzen Tag sitzen bleiben"
+      ],
+      "correct": "b",
+      "correctAnswer": "b",
+      "explanation": "Der Tipp empfiehlt, jede Stunde eine kurze Pause zu machen und sich zu bewegen, um konzentriert zu bleiben.",
+      "segmentLabel": "Text 3",
+      "passageId": "gen-p-h1-28e0a665-s3",
+      "skills": [
+        "listening"
+      ],
+      "language": "de",
+      "examType": "goethe",
+      "difficulty": 5,
+      "topicTags": [
+        "Arbeit"
+      ],
+      "vocabularyTags": [
+        "aufstehen",
+        "Arbeitsalltag",
+        "Stunde",
+        "Tipp"
+      ],
+      "grammarTags": [
+        "g-de-a2-trennbar",
+        "g-de-a2-dat-akk"
+      ]
+    },
+    {
+      "id": "gen-q-h1-28e0a665-q4",
+      "module": "horen",
+      "teil": 1,
+      "lang": "de",
+      "level": "A2",
+      "type": "multiple_choice",
+      "question": "Wer gibt Auskunft zu den neuen Regeln?",
+      "options": [
+        "a) Die Teeküche",
+        "b) Frau Fischer",
+        "c) Das schwarze Brett"
+      ],
+      "correct": "b",
+      "correctAnswer": "b",
+      "explanation": "Bei Fragen zu den neuen Regeln sollen sich die Mitarbeiter direkt an Frau Julia Fischer wenden.",
+      "segmentLabel": "Text 4",
+      "passageId": "gen-p-h1-28e0a665-s4",
+      "skills": [
+        "listening"
+      ],
+      "language": "de",
+      "examType": "goethe",
+      "difficulty": 5,
+      "topicTags": [
+        "Arbeit"
+      ],
+      "vocabularyTags": [
+        "Auskunft",
+        "Fischer",
+        "neuen",
+        "Frau",
+        "Regel"
+      ],
+      "grammarTags": [
+        "g-de-a2-trennbar",
+        "g-de-a2-dat-akk"
+      ]
+    },
+    {
+      "id": "gen-q-h1-28e0a665-q5",
+      "module": "horen",
+      "teil": 1,
+      "lang": "de",
+      "level": "A2",
+      "type": "multiple_choice",
+      "question": "Wie soll Frau Klein die Details besprechen?",
+      "options": [
+        "a) Persönlich im Büro",
+        "b) Per E-Mail",
+        "c) Telefonisch"
+      ],
+      "correct": "a",
+      "correctAnswer": "a",
+      "explanation": "Simon bittet Frau Klein, persönlich ins Büro zu kommen, um die genauen Arbeitszeiten für die neue Stelle zu besprechen.",
+      "segmentLabel": "Text 5",
+      "passageId": "gen-p-h1-28e0a665-s5",
+      "skills": [
+        "listening"
+      ],
+      "language": "de",
+      "examType": "goethe",
+      "difficulty": 5,
+      "topicTags": [
+        "Arbeit"
+      ],
+      "vocabularyTags": [
+        "persönlich",
+        "Details",
+        "besprechen",
+        "Klein",
+        "Frau"
+      ],
+      "grammarTags": [
+        "g-de-a2-modal",
+        "g-de-a2-dat-akk"
+      ]
+    }
+  ],
+  "_germanCapsNormalizeVersion": "v3.23-lesen-t2-angebote-corpus-2026-07-28",
+  "_germanCapsNormalizedAt": "2026-07-27T06:44:14.011Z",
+  "_balanceMcqVersion": "v1.2-no-rf-chrono-shuffle-2026-07-11",
+  "_balanceMcqNormalizedAt": "2026-07-27T06:44:14.011Z",
+  "topicTag": "Arbeit",
+  "_requestedTopic": "Arbeit",
+  "generationMetadata": {
+    "usedFeedback": false,
+    "feedbackRules": [],
+    "feedbackCount": 0,
+    "feedbackCategories": [],
+    "feedbackMode": "off",
+    "feedbackVersion": "v1"
+  },
+  "_metadataEnrichedAt": "2026-07-27T06:44:16.968Z",
+  "_metadataEnrichNote": "deterministic: detectTopic + per-question lemma vocab + grammar heuristics",
+  "_vocabTagsNormalizeVersion": "v2.3.16-b1-validated-verb-adj-lemma-2026-07-24",
+  "_grammarTagsNormalizeVersion": "v2.2-a2-b2-level-tags-2026-07-27",
+  "_germanCapsMetadataRestampAt": "2026-08-05T04:37:08.104Z",
+  "_germanCapsMetadataRestampNote": "metadata-only; no applyGermanCapsNormalize"
+}

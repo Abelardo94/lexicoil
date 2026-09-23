@@ -1,0 +1,331 @@
+{
+  "passages": [
+    {
+      "id": "gen-p-h4-4fa8a4e2-s1",
+      "module": "horen",
+      "teil": 4,
+      "lang": "de",
+      "level": "A2",
+      "title": "Aufnahme 1",
+      "text": "Moderator: Guten Tag. Heute sprechen wir über das Reisen. Viele Menschen reisen gern. Frau Schmidt, Sie sind oft unterwegs. Was ist Ihnen wichtig beim Reisen?\n\nHelena Schmidt: Guten Tag. Ja, ich reise sehr gern. Für mich ist es wichtig, neue Orte zu sehen. Ich mag es, andere Kulturen kennenzulernen. Das ist immer spannend.\n\nModerator: Fahren Sie lieber mit dem Auto oder mit der Bahn?\n\nHelena Schmidt: Ich fahre oft mit der Bahn. Das ist entspannter. Man kann lesen oder einfach aus dem Fenster schauen. Mit dem Auto ist es manchmal stressig, besonders im Stau. Die Bahn ist auch gut für die Umwelt.\n\nModerator: Und was ist mit dem Koffer? Packen Sie viel ein?\n\nHelena Schmidt: Nein, ich packe nicht viel. Nur das Nötigste. Ein kleiner Koffer ist praktischer. Man muss ihn nicht so viel tragen. Das ist ein großer Vorteil.\n\nModerator: Machen Sie lieber kurze Reisen oder lange Urlaube?\n\nHelena Schmidt: Ich mache beides. Kurze Reisen am Wochenende sind toll, um mal rauszukommen. Aber ein langer Urlaub, vielleicht zwei Wochen im Ausland, ist auch schön. Man kann sich gut erholen.\n\nModerator: Planen Sie Ihre Reisen immer sehr genau?\n\nHelena Schmidt: Nicht immer. Manchmal plane ich alles direkt. Aber oft lasse ich es auch spontan. Das ist eine schöne Situation. So findet man manchmal die besten Erlebnisse.",
+      "passageVocab": [
+        "reisen",
+        "bahn",
+        "koffer",
+        "urlaub",
+        "ausland",
+        "spontan",
+        "vorteil",
+        "direkt"
+      ],
+      "topicTag": "Reisen",
+      "audio": [
+        {
+          "speaker": "Moderator",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Guten Tag. Heute sprechen wir über das Reisen. Viele Menschen reisen gern. Frau Schmidt, Sie sind oft unterwegs. Was ist Ihnen wichtig beim Reisen?"
+        },
+        {
+          "speaker": "Helena",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Guten Tag. Ja, ich reise sehr gern. Für mich ist es wichtig, neue Orte zu sehen. Ich mag es, andere Kulturen kennenzulernen. Das ist immer spannend."
+        },
+        {
+          "speaker": "Moderator",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Fahren Sie lieber mit dem Auto oder mit der Bahn?"
+        },
+        {
+          "speaker": "Helena",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Ich fahre oft mit der Bahn. Das ist entspannter. Man kann lesen oder einfach aus dem Fenster schauen. Mit dem Auto ist es manchmal stressig, besonders im Stau. Die Bahn ist auch gut für die Umwelt."
+        },
+        {
+          "speaker": "Moderator",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Und was ist mit dem Koffer? Packen Sie viel ein?"
+        },
+        {
+          "speaker": "Helena",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Nein, ich packe nicht viel. Nur das Nötigste. Ein kleiner Koffer ist praktischer. Man muss ihn nicht so viel tragen. Das ist ein großer Vorteil."
+        },
+        {
+          "speaker": "Moderator",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Machen Sie lieber kurze Reisen oder lange Urlaube?"
+        },
+        {
+          "speaker": "Helena",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Ich mache beides. Kurze Reisen am Wochenende sind toll, um mal rauszukommen. Aber ein langer Urlaub, vielleicht zwei Wochen im Ausland, ist auch schön. Man kann sich gut erholen."
+        },
+        {
+          "speaker": "Moderator",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Planen Sie Ihre Reisen immer sehr genau?"
+        },
+        {
+          "speaker": "Helena",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Nicht immer. Manchmal plane ich alles direkt. Aber oft lasse ich es auch spontan. Das ist eine schöne Situation. So findet man manchmal die besten Erlebnisse."
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "gen-q-h4-4fa8a4e2-q4",
+      "module": "horen",
+      "teil": 4,
+      "type": "ja_nein",
+      "lang": "de",
+      "level": "A2",
+      "question": "Helena macht nur kurze Reisen am Wochenende.",
+      "correct": "Nein",
+      "correctAnswer": "Nein",
+      "options": [],
+      "explanation": "Helena macht sowohl kurze Reisen am Wochenende als auch lange Urlaube, zum Beispiel im Ausland.",
+      "passageId": "gen-p-h4-4fa8a4e2-s1",
+      "topicTags": [
+        "Reisen"
+      ],
+      "vocabularyTags": [
+        "reisen",
+        "Wochenende",
+        "Helena"
+      ],
+      "grammarTags": [
+        "g-de-a2-trennbar"
+      ]
+    },
+    {
+      "id": "gen-q-h4-4fa8a4e2-q1",
+      "module": "horen",
+      "teil": 4,
+      "type": "ja_nein",
+      "lang": "de",
+      "level": "A2",
+      "question": "Helena reist gern, weil sie neue Orte sehen möchte.",
+      "correct": "Ja",
+      "correctAnswer": "Ja",
+      "options": [],
+      "explanation": "Helena sagt, dass sie gern reist, um neue Orte und Kulturen kennenzulernen.",
+      "passageId": "gen-p-h4-4fa8a4e2-s1",
+      "topicTags": [
+        "Reisen"
+      ],
+      "vocabularyTags": [
+        "Helena",
+        "sehen",
+        "gern",
+        "möcht"
+      ],
+      "grammarTags": [
+        "g-de-a2-nebensatz",
+        "g-de-a2-modal"
+      ]
+    },
+    {
+      "id": "gen-q-h4-4fa8a4e2-q2",
+      "module": "horen",
+      "teil": 4,
+      "type": "ja_nein",
+      "lang": "de",
+      "level": "A2",
+      "question": "Helena fährt am liebsten mit dem Auto, weil es entspannter ist.",
+      "correct": "Nein",
+      "correctAnswer": "Nein",
+      "options": [],
+      "explanation": "Helena fährt lieber mit der Bahn, weil das Auto oft stressig ist und die Bahn entspannter ist.",
+      "passageId": "gen-p-h4-4fa8a4e2-s1",
+      "topicTags": [
+        "Reisen"
+      ],
+      "vocabularyTags": [
+        "entspannter",
+        "liebsten",
+        "Helena",
+        "Auto"
+      ],
+      "grammarTags": [
+        "g-de-a2-nebensatz",
+        "g-de-a2-dat-akk",
+        "g-de-a2-komparativ"
+      ]
+    },
+    {
+      "id": "gen-q-h4-4fa8a4e2-q5",
+      "module": "horen",
+      "teil": 4,
+      "type": "ja_nein",
+      "lang": "de",
+      "level": "A2",
+      "question": "Helena plant ihre Reisen immer sehr genau im Voraus.",
+      "correct": "Nein",
+      "correctAnswer": "Nein",
+      "options": [],
+      "explanation": "Helena plant ihre Reisen nicht immer genau, manchmal lässt sie es auch spontan auf sich zukommen.",
+      "passageId": "gen-p-h4-4fa8a4e2-s1",
+      "topicTags": [
+        "Reisen"
+      ],
+      "vocabularyTags": [
+        "reisen",
+        "Helena",
+        "Voraus",
+        "genau"
+      ],
+      "grammarTags": [
+        "g-de-a2-trennbar"
+      ]
+    },
+    {
+      "id": "gen-q-h4-4fa8a4e2-q3",
+      "module": "horen",
+      "teil": 4,
+      "type": "ja_nein",
+      "lang": "de",
+      "level": "A2",
+      "question": "Helena nimmt immer einen großen Koffer mit auf Reisen.",
+      "correct": "Nein",
+      "correctAnswer": "Nein",
+      "options": [],
+      "explanation": "Helena packt nicht viel ein und findet einen kleinen Koffer viel praktischer.",
+      "passageId": "gen-p-h4-4fa8a4e2-s1",
+      "topicTags": [
+        "Reisen"
+      ],
+      "vocabularyTags": [
+        "reisen",
+        "Koffer",
+        "großen",
+        "Helena"
+      ],
+      "grammarTags": [
+        "g-de-a2-trennbar"
+      ]
+    }
+  ],
+  "_germanCapsNormalizeVersion": "v3.23-lesen-t2-angebote-corpus-2026-07-28",
+  "_germanCapsNormalizedAt": "2026-09-22T23:32:12.717Z",
+  "_balanceMcqVersion": "v1.2-no-rf-chrono-shuffle-2026-07-11",
+  "_balanceMcqNormalizedAt": "2026-09-22T23:32:12.717Z",
+  "topicTag": "Reisen",
+  "_requestedTopic": "Reisen",
+  "userVocabFeedback": {
+    "topic": "Reisen",
+    "requested": [
+      "ausland",
+      "koffer",
+      "tourist",
+      "aufgabe",
+      "direkt",
+      "situation",
+      "täglich",
+      "vorteil"
+    ],
+    "prompted": [
+      "ausland",
+      "koffer",
+      "tourist",
+      "aufgabe",
+      "direkt",
+      "situation",
+      "täglich",
+      "vorteil"
+    ],
+    "originalRequested": null,
+    "subtypeAdaptation": null,
+    "used": [
+      "ausland",
+      "koffer",
+      "direkt",
+      "situation",
+      "vorteil"
+    ],
+    "notUsed": [
+      "tourist",
+      "aufgabe",
+      "täglich"
+    ],
+    "excluded": [],
+    "ratio": 0.625,
+    "targetUsage": [
+      {
+        "word": "ausland",
+        "surfaces": [
+          "Ausland"
+        ]
+      },
+      {
+        "word": "koffer",
+        "surfaces": [
+          "Koffer"
+        ]
+      },
+      {
+        "word": "direkt",
+        "surfaces": [
+          "direkt"
+        ]
+      },
+      {
+        "word": "situation",
+        "surfaces": [
+          "Situation"
+        ]
+      },
+      {
+        "word": "vorteil",
+        "surfaces": [
+          "Vorteil"
+        ]
+      }
+    ]
+  },
+  "targetUsage": [
+    {
+      "word": "ausland",
+      "surfaces": [
+        "Ausland"
+      ]
+    },
+    {
+      "word": "koffer",
+      "surfaces": [
+        "Koffer"
+      ]
+    },
+    {
+      "word": "direkt",
+      "surfaces": [
+        "direkt"
+      ]
+    },
+    {
+      "word": "situation",
+      "surfaces": [
+        "Situation"
+      ]
+    },
+    {
+      "word": "vorteil",
+      "surfaces": [
+        "Vorteil"
+      ]
+    }
+  ],
+  "generationMetadata": {
+    "usedFeedback": false,
+    "feedbackRules": [],
+    "feedbackCount": 0,
+    "feedbackCategories": [],
+    "feedbackMode": "off",
+    "feedbackVersion": "v1"
+  },
+  "_metadataEnrichedAt": "2026-09-22T23:32:12.939Z",
+  "_metadataEnrichNote": "deterministic: detectTopic + per-question lemma vocab + grammar heuristics",
+  "_vocabTagsNormalizeVersion": "v2.3.18-paso3-vocab-plural-rubric-strip-2026-08-02",
+  "_grammarTagsNormalizeVersion": "v2.2-a2-b2-level-tags-2026-07-27"
+}

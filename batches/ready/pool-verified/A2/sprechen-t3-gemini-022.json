@@ -1,0 +1,99 @@
+{
+  "passages": [],
+  "questions": [
+    {
+      "id": "gen-q-sp-t3-260b7bd7-q1",
+      "module": "sprechen",
+      "teil": 3,
+      "lang": "de",
+      "level": "A2",
+      "type": "plan_together",
+      "question": "Sie möchten mit Ihrem Partner/Ihrer Partnerin einen Umweltmarkt besuchen, um mehr über nachhaltige Produkte zu erfahren und vielleicht etwas Kleines zu kaufen. Planen Sie gemeinsam, wann Sie den Markt besuchen und was Sie dort machen möchten.\n\nIhre Woche:\nMontag 9–11 Uhr: Sport\nDienstag 14–16 Uhr: Frei\nMittwoch 10–12 Uhr: Deutschkurs\nDonnerstag 16–18 Uhr: Frei\nFreitag 11–13 Uhr: Arbeit\n\nWoche Ihres Partners/Ihrer Partnerin:\nMontag 14–16 Uhr: Frei\nDienstag 14–16 Uhr: Frei\nMittwoch 11–13 Uhr: Frei\nDonnerstag 10–12 Uhr: Meeting\nFreitag 14–16 Uhr: Frei\n\neinigen Sie sich auf einen Termin und besprechen Sie Ihre Ideen für den Besuch des Umweltmarktes.",
+      "correct": "rubric",
+      "correctAnswer": "rubric",
+      "options": [],
+      "explanation": "In diesem Teil planen Sie gemeinsam etwas und finden einen Termin. Wichtig sind Verständlichkeit, einfache Verhandlung und passender Wortschatz auf A2-Niveau.",
+      "difficulty": 3,
+      "skills": [
+        "speaking"
+      ],
+      "language": "de",
+      "examType": "goethe",
+      "topicTags": [
+        "Umwelt"
+      ],
+      "vocabularyTags": [
+        "Partner",
+        "gemeinsam",
+        "ideen",
+        "besprechen",
+        "besuchen",
+        "erfahren"
+      ],
+      "grammarTags": [
+        "g-de-a2-modal",
+        "g-de-a2-trennbar",
+        "g-de-a2-dat-akk",
+        "g-de-a2-komparativ"
+      ]
+    }
+  ],
+  "_germanCapsNormalizeVersion": "v3.23-lesen-t2-angebote-corpus-2026-07-28",
+  "_germanCapsNormalizedAt": "2026-09-23T01:50:10.293Z",
+  "_balanceMcqVersion": "v1.2-no-rf-chrono-shuffle-2026-07-11",
+  "_balanceMcqNormalizedAt": "2026-09-23T01:50:10.293Z",
+  "topicTag": "Umwelt",
+  "_requestedTopic": "Umwelt",
+  "userVocabFeedback": {
+    "topic": "Umwelt",
+    "requested": [
+      "zukunft",
+      "täglich",
+      "direkt",
+      "bedeuten",
+      "anmeldung",
+      "erfahrung",
+      "vorschlag",
+      "projekt"
+    ],
+    "prompted": [
+      "zukunft",
+      "täglich",
+      "direkt",
+      "bedeuten",
+      "anmeldung",
+      "erfahrung",
+      "vorschlag",
+      "projekt"
+    ],
+    "originalRequested": null,
+    "subtypeAdaptation": null,
+    "used": [],
+    "notUsed": [
+      "zukunft",
+      "täglich",
+      "direkt",
+      "bedeuten",
+      "anmeldung",
+      "erfahrung",
+      "vorschlag",
+      "projekt"
+    ],
+    "excluded": [],
+    "ratio": 0,
+    "targetUsage": []
+  },
+  "targetUsage": [],
+  "generationMetadata": {
+    "usedFeedback": false,
+    "feedbackRules": [],
+    "feedbackCount": 0,
+    "feedbackCategories": [],
+    "feedbackMode": "off",
+    "feedbackVersion": "v1"
+  },
+  "_metadataEnrichedAt": "2026-09-23T01:50:10.430Z",
+  "_metadataEnrichNote": "deterministic: detectTopic + per-question lemma vocab + grammar heuristics",
+  "_vocabTagsNormalizeVersion": "v2.3.18-paso3-vocab-plural-rubric-strip-2026-08-02",
+  "_grammarTagsNormalizeVersion": "v2.2-a2-b2-level-tags-2026-07-27"
+}

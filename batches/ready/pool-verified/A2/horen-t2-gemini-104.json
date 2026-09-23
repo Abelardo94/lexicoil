@@ -1,0 +1,285 @@
+{
+  "passages": [
+    {
+      "id": "gen-p-h2-ab20dede-s1",
+      "module": "horen",
+      "teil": 2,
+      "lang": "de",
+      "level": "A2",
+      "title": "Wochenpläne für die Gesundheit",
+      "topicTag": "Sport",
+      "text": "Max: Hallo Lena! Wie geht's dir? Hast du schon Pläne für die kommende Woche?\nLena: Hallo Max! Mir geht's gut, danke! Ja, ich habe schon einiges vor, besonders für meine Gesundheit.\nMax: Das ist gut! Ich auch. Am Montag werde ich gesund kochen. Ich mache eine große Gemüsesuppe für die ganze Woche.\nLena: Super Idee! Ich fahre am Dienstag mit dem Fahrrad zur Arbeit. Das ist gut für die Fitness und die Umwelt.\nMax: Stimmt! Am Mittwoch gehe ich ins Fitnessstudio. Ich muss wieder mehr Sport machen.\nLena: Ja, Sport ist wichtig! Am Donnerstagabend möchte ich ins Kino gehen. Ich brauche auch mal etwas Entspannung.\nMax: Kino ist toll zur Entspannung! Und am Freitag treffe ich ein paar Freunde in einem Café. Wir wollen über gesunde Ernährung sprechen.\nLena: Klingt nach einer gesunden und sozialen Woche!",
+      "pictures": [
+        {
+          "key": "a",
+          "icon": "🚴",
+          "label": "Fahrrad fahren"
+        },
+        {
+          "key": "b",
+          "icon": "🇩🇪",
+          "label": "Deutschkurs"
+        },
+        {
+          "key": "c",
+          "icon": "👫",
+          "label": "Freunde treffen"
+        },
+        {
+          "key": "d",
+          "icon": "🏋️",
+          "label": "Sport machen"
+        },
+        {
+          "key": "e",
+          "icon": "🏛️",
+          "label": "Museum"
+        },
+        {
+          "key": "f",
+          "icon": "🎬",
+          "label": "Kino"
+        },
+        {
+          "key": "g",
+          "icon": "📚",
+          "label": "Lernen"
+        },
+        {
+          "key": "h",
+          "icon": "🛒",
+          "label": "Einkaufen"
+        },
+        {
+          "key": "i",
+          "icon": "🍳",
+          "label": "Kochen"
+        }
+      ],
+      "audio": [
+        {
+          "speaker": "Max",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Hallo Lena! Wie geht's dir? Hast du schon Pläne für die kommende Woche?"
+        },
+        {
+          "speaker": "Lena",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Hallo Max! Mir geht's gut, danke! Ja, ich habe schon einiges vor, besonders für meine Gesundheit."
+        },
+        {
+          "speaker": "Max",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Das ist gut! Ich auch. Am Montag werde ich gesund kochen. Ich mache eine große Gemüsesuppe für die ganze Woche."
+        },
+        {
+          "speaker": "Lena",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Super Idee! Ich fahre am Dienstag mit dem Fahrrad zur Arbeit. Das ist gut für die Fitness und die Umwelt."
+        },
+        {
+          "speaker": "Max",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Stimmt! Am Mittwoch gehe ich ins Fitnessstudio. Ich muss wieder mehr Sport machen."
+        },
+        {
+          "speaker": "Lena",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Ja, Sport ist wichtig! Am Donnerstagabend möchte ich ins Kino gehen. Ich brauche auch mal etwas Entspannung."
+        },
+        {
+          "speaker": "Max",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Kino ist toll zur Entspannung! Und am Freitag treffe ich ein paar Freunde in einem Café. Wir wollen über gesunde Ernährung sprechen."
+        },
+        {
+          "speaker": "Lena",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Klingt nach einer gesunden und sozialen Woche!"
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "gen-q-h2-ab20dede-q1",
+      "module": "horen",
+      "teil": 2,
+      "lang": "de",
+      "level": "A2",
+      "type": "matching",
+      "question": "Was macht Max am Montag?",
+      "passageId": "gen-p-h2-ab20dede-s1",
+      "correct": "i",
+      "correctAnswer": "i",
+      "explanation": "Max kocht am Montag eine Gemüsesuppe.",
+      "language": "de",
+      "examType": "goethe",
+      "difficulty": 5,
+      "skills": [
+        "listening"
+      ],
+      "topicTags": [
+        "Sport"
+      ],
+      "_keyOnlyMatch": true,
+      "vocabularyTags": [
+        "kochen",
+        "Gemüsesuppe",
+        "Montag"
+      ],
+      "grammarTags": [
+        "g-de-a2-trennbar",
+        "g-de-a2-dat-akk"
+      ]
+    },
+    {
+      "id": "gen-q-h2-ab20dede-q2",
+      "module": "horen",
+      "teil": 2,
+      "lang": "de",
+      "level": "A2",
+      "type": "matching",
+      "question": "Was macht Lena am Dienstag?",
+      "passageId": "gen-p-h2-ab20dede-s1",
+      "correct": "a",
+      "correctAnswer": "a",
+      "explanation": "Lena fährt am Dienstag mit dem Fahrrad zur Arbeit.",
+      "language": "de",
+      "examType": "goethe",
+      "difficulty": 5,
+      "skills": [
+        "listening"
+      ],
+      "topicTags": [
+        "Sport"
+      ],
+      "_keyOnlyMatch": true,
+      "vocabularyTags": [
+        "fahren",
+        "Arbeit",
+        "Dienstag",
+        "Fahrrad"
+      ],
+      "grammarTags": [
+        "g-de-a2-trennbar",
+        "g-de-a2-dat-akk"
+      ]
+    },
+    {
+      "id": "gen-q-h2-ab20dede-q3",
+      "module": "horen",
+      "teil": 2,
+      "lang": "de",
+      "level": "A2",
+      "type": "matching",
+      "question": "Was macht Max am Mittwoch?",
+      "passageId": "gen-p-h2-ab20dede-s1",
+      "correct": "d",
+      "correctAnswer": "d",
+      "explanation": "Max geht am Mittwoch ins Fitnessstudio, um Sport zu machen.",
+      "language": "de",
+      "examType": "goethe",
+      "difficulty": 5,
+      "skills": [
+        "listening"
+      ],
+      "topicTags": [
+        "Sport"
+      ],
+      "_keyOnlyMatch": true,
+      "vocabularyTags": [
+        "Fitnessstudio",
+        "Mittwoch",
+        "Sport",
+        "machen"
+      ],
+      "grammarTags": [
+        "g-de-a2-trennbar"
+      ]
+    },
+    {
+      "id": "gen-q-h2-ab20dede-q4",
+      "module": "horen",
+      "teil": 2,
+      "lang": "de",
+      "level": "A2",
+      "type": "matching",
+      "question": "Was macht Lena am Donnerstag?",
+      "passageId": "gen-p-h2-ab20dede-s1",
+      "correct": "f",
+      "correctAnswer": "f",
+      "explanation": "Lena möchte am Donnerstagabend ins Kino gehen.",
+      "language": "de",
+      "examType": "goethe",
+      "difficulty": 5,
+      "skills": [
+        "listening"
+      ],
+      "topicTags": [
+        "Sport"
+      ],
+      "_keyOnlyMatch": true,
+      "vocabularyTags": [
+        "Donnerstagabend",
+        "Donnerstag",
+        "möcht",
+        "gehen"
+      ],
+      "grammarTags": [
+        "g-de-a2-modal"
+      ]
+    },
+    {
+      "id": "gen-q-h2-ab20dede-q5",
+      "module": "horen",
+      "teil": 2,
+      "lang": "de",
+      "level": "A2",
+      "type": "matching",
+      "question": "Was macht Max am Freitag?",
+      "passageId": "gen-p-h2-ab20dede-s1",
+      "correct": "c",
+      "correctAnswer": "c",
+      "explanation": "Max trifft am Freitag Freunde in einem Café.",
+      "language": "de",
+      "examType": "goethe",
+      "difficulty": 5,
+      "skills": [
+        "listening"
+      ],
+      "topicTags": [
+        "Sport"
+      ],
+      "_keyOnlyMatch": true,
+      "vocabularyTags": [
+        "treffen",
+        "Freund",
+        "Freitag"
+      ],
+      "grammarTags": [
+        "g-de-a2-trennbar"
+      ]
+    }
+  ],
+  "_germanCapsNormalizeVersion": "v3.23-lesen-t2-angebote-corpus-2026-07-28",
+  "_germanCapsNormalizedAt": "2026-07-27T06:41:35.793Z",
+  "_balanceMcqVersion": "v1.2-no-rf-chrono-shuffle-2026-07-11",
+  "_balanceMcqNormalizedAt": "2026-07-27T06:41:35.793Z",
+  "topicTag": "Sport",
+  "_requestedTopic": "Sport",
+  "generationMetadata": {
+    "usedFeedback": false,
+    "feedbackRules": [],
+    "feedbackCount": 0,
+    "feedbackCategories": [],
+    "feedbackMode": "off",
+    "feedbackVersion": "v1"
+  },
+  "_metadataEnrichedAt": "2026-07-27T06:41:38.004Z",
+  "_metadataEnrichNote": "deterministic: detectTopic + per-question lemma vocab + grammar heuristics",
+  "_vocabTagsNormalizeVersion": "v2.3.16-b1-validated-verb-adj-lemma-2026-07-24",
+  "_grammarTagsNormalizeVersion": "v2.2-a2-b2-level-tags-2026-07-27",
+  "_germanCapsMetadataRestampAt": "2026-08-05T04:37:08.136Z",
+  "_germanCapsMetadataRestampNote": "metadata-only; no applyGermanCapsNormalize"
+}

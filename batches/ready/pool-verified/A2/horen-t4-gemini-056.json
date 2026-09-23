@@ -1,0 +1,309 @@
+{
+  "passages": [
+    {
+      "id": "gen-p-h4-b9c5f201-s1",
+      "module": "horen",
+      "teil": 4,
+      "lang": "de",
+      "level": "A2",
+      "title": "Umwelt im Alltag",
+      "text": "Moderator: Guten Tag. Heute sprechen wir über ein wichtiges Thema: unsere Umwelt. Viele Leute möchten etwas tun, aber wissen nicht wie. Frau Schmidt, Sie haben gute Ideen für uns. Herzlich willkommen, Aylin Schmidt.\n\nAylin Schmidt: Guten Tag. Ja, es ist einfacher, als man denkt. Kleine Dinge im Alltag helfen schon viel.\n\nModerator: Das klingt gut. Was ist Ihr erster Vorschlag?\n\nAylin Schmidt: Mein erster Tipp ist: Weniger Müll machen. Zum Beispiel, kaufen Sie Getränke in Glasflaschen, nicht in Plastikflaschen. Und nehmen Sie eine Stofftasche zum Einkaufen mit. Das ist besser für die Umwelt.\n\nModerator: Das ist ein guter Punkt. Und was ist mit Energie?\n\nAylin Schmidt: Ja, Energie sparen ist auch sehr wichtig. Machen Sie das Licht aus, wenn Sie den Raum verlassen. Und duschen Sie kurz, statt lange zu baden. Das spart Wasser und Energie.\n\nModerator: Viele Leute fahren mit dem Auto zur Arbeit. Gibt es hier eine Alternative?\n\nAylin Schmidt: Ja, klar! Nutzen Sie öfter das Fahrrad oder die Bahn. Das ist gut für die Luft und auch für Ihre Gesundheit. Eine kurze Strecke kann man oft zu Fuß gehen. Das ist auch eine gute Bewegung.\n\nModerator: Das sind praktische Tipps. Vielen Dank, Aylin Schmidt, für diese wichtigen Informationen.\n\nAylin Schmidt: Gern geschehen. Jeder kann etwas tun für eine bessere Zukunft.",
+      "passageVocab": [
+        "Umwelt",
+        "Alltag",
+        "Müll",
+        "Energie",
+        "Gesundheit",
+        "Zukunft"
+      ],
+      "audio": [
+        {
+          "speaker": "Moderator",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Guten Tag. Heute sprechen wir über ein wichtiges Thema: unsere Umwelt. Viele Leute möchten etwas tun, aber wissen nicht wie. Frau Schmidt, Sie haben gute Ideen für uns. Herzlich willkommen, Aylin Schmidt."
+        },
+        {
+          "speaker": "Aylin Schmidt",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Guten Tag. Ja, es ist einfacher, als man denkt. Kleine Dinge im Alltag helfen schon viel."
+        },
+        {
+          "speaker": "Moderator",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Das klingt gut. Was ist Ihr erster Vorschlag?"
+        },
+        {
+          "speaker": "Aylin Schmidt",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Mein erster Tipp ist: Weniger Müll machen. Zum Beispiel, kaufen Sie Getränke in Glasflaschen, nicht in Plastikflaschen. Und nehmen Sie eine Stofftasche zum Einkaufen mit. Das ist besser für die Umwelt."
+        },
+        {
+          "speaker": "Moderator",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Das ist ein guter Punkt. Und was ist mit Energie?"
+        },
+        {
+          "speaker": "Aylin Schmidt",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Ja, Energie sparen ist auch sehr wichtig. Machen Sie das Licht aus, wenn Sie den Raum verlassen. Und duschen Sie kurz, statt lange zu baden. Das spart Wasser und Energie."
+        },
+        {
+          "speaker": "Moderator",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Viele Leute fahren mit dem Auto zur Arbeit. Gibt es hier eine Alternative?"
+        },
+        {
+          "speaker": "Aylin Schmidt",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Ja, klar! Nutzen Sie öfter das Fahrrad oder die Bahn. Das ist gut für die Luft und auch für Ihre Gesundheit. Eine kurze Strecke kann man oft zu Fuß gehen. Das ist auch eine gute Bewegung."
+        },
+        {
+          "speaker": "Moderator",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Das sind praktische Tipps. Vielen Dank, Aylin Schmidt, für diese wichtigen Informationen."
+        },
+        {
+          "speaker": "Aylin Schmidt",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Gern geschehen. Jeder kann etwas tun für eine bessere Zukunft."
+        }
+      ],
+      "topicTag": "Umwelt"
+    }
+  ],
+  "questions": [
+    {
+      "id": "gen-q-h4-b9c5f201-q1",
+      "module": "horen",
+      "teil": 4,
+      "type": "ja_nein",
+      "question": "Aylin Schmidt meint, dass Umweltschutz sehr kompliziert ist.",
+      "correct": "Nein",
+      "correctAnswer": "Nein",
+      "options": [],
+      "explanation": "Aylin Schmidt sagt, dass es einfacher ist, als man denkt, und kleine Dinge schon helfen.",
+      "passageId": "gen-p-h4-b9c5f201-s1",
+      "level": "A2",
+      "topicTags": [
+        "Umwelt"
+      ],
+      "vocabularyTags": [
+        "Umweltschutz",
+        "Schmidt",
+        "Aylin"
+      ],
+      "grammarTags": [
+        "g-de-a2-nebensatz",
+        "g-de-a2-trennbar"
+      ]
+    },
+    {
+      "id": "gen-q-h4-b9c5f201-q5",
+      "module": "horen",
+      "teil": 4,
+      "type": "ja_nein",
+      "question": "Aylin Schmidt sagt, dass Spaziergänge schlecht für die Gesundheit sind.",
+      "correct": "Nein",
+      "correctAnswer": "Nein",
+      "options": [],
+      "explanation": "Sie erklärt, dass zu Fuß gehen gut für die Gesundheit ist und eine gute Bewegung.",
+      "passageId": "gen-p-h4-b9c5f201-s1",
+      "level": "A2",
+      "topicTags": [
+        "Umwelt"
+      ],
+      "vocabularyTags": [
+        "Spaziergänge",
+        "Gesundheit",
+        "schlecht",
+        "Schmidt",
+        "Aylin"
+      ],
+      "grammarTags": [
+        "g-de-a2-nebensatz",
+        "g-de-a2-perfekt",
+        "g-de-a2-trennbar",
+        "g-de-a2-dat-akk"
+      ]
+    },
+    {
+      "id": "gen-q-h4-b9c5f201-q3",
+      "module": "horen",
+      "teil": 4,
+      "type": "ja_nein",
+      "question": "Aylin Schmidt rät, das Licht auszuschalten, bevor man einen Raum verlässt.",
+      "correct": "Ja",
+      "correctAnswer": "Ja",
+      "options": [],
+      "explanation": "Sie sagt: 'Machen Sie das Licht aus, wenn Sie den Raum verlassen.'",
+      "passageId": "gen-p-h4-b9c5f201-s1",
+      "level": "A2",
+      "topicTags": [
+        "Umwelt"
+      ],
+      "vocabularyTags": [
+        "Licht",
+        "Schmidt",
+        "Aylin",
+        "bevor"
+      ],
+      "grammarTags": [
+        "g-de-a2-nebensatz",
+        "g-de-a2-trennbar",
+        "g-de-a2-dat-akk"
+      ]
+    },
+    {
+      "id": "gen-q-h4-b9c5f201-q2",
+      "module": "horen",
+      "teil": 4,
+      "type": "ja_nein",
+      "question": "Aylin Schmidt schlägt vor, Getränke in Plastikflaschen zu kaufen.",
+      "correct": "Nein",
+      "correctAnswer": "Nein",
+      "options": [],
+      "explanation": "Sie empfiehlt, Getränke in Glasflaschen zu kaufen, nicht in Plastikflaschen.",
+      "passageId": "gen-p-h4-b9c5f201-s1",
+      "level": "A2",
+      "topicTags": [
+        "Umwelt"
+      ],
+      "vocabularyTags": [
+        "plastikflaschen",
+        "kaufen",
+        "Getränke",
+        "Schmidt",
+        "Aylin"
+      ],
+      "grammarTags": []
+    },
+    {
+      "id": "gen-q-h4-b9c5f201-q4",
+      "module": "horen",
+      "teil": 4,
+      "type": "ja_nein",
+      "question": "Aylin Schmidt findet, dass man oft öffentliche Verkehrsmittel oder das Fahrrad nutzen sollte.",
+      "correct": "Ja",
+      "correctAnswer": "Ja",
+      "options": [],
+      "explanation": "Sie empfiehlt: 'Nutzen Sie öfter das Fahrrad oder die Bahn.'",
+      "passageId": "gen-p-h4-b9c5f201-s1",
+      "level": "A2",
+      "topicTags": [
+        "Umwelt"
+      ],
+      "vocabularyTags": [
+        "Verkehrsmittel",
+        "nutzen",
+        "finden",
+        "öffentlich",
+        "Schmidt",
+        "Fahrrad"
+      ],
+      "grammarTags": [
+        "g-de-a2-nebensatz",
+        "g-de-a2-dat-akk",
+        "g-de-a2-praesens"
+      ]
+    }
+  ],
+  "_germanCapsNormalizeVersion": "v3.23-lesen-t2-angebote-corpus-2026-07-28",
+  "_germanCapsNormalizedAt": "2026-09-23T01:41:53.834Z",
+  "_balanceMcqVersion": "v1.2-no-rf-chrono-shuffle-2026-07-11",
+  "_balanceMcqNormalizedAt": "2026-09-23T01:41:53.835Z",
+  "topicTag": "Umwelt",
+  "_requestedTopic": "Umwelt",
+  "userVocabFeedback": {
+    "topic": "Umwelt",
+    "requested": [
+      "zukunft",
+      "täglich",
+      "vorschlag",
+      "bedeuten",
+      "direkt",
+      "erfahrung",
+      "anmeldung",
+      "nutzen"
+    ],
+    "prompted": [
+      "zukunft",
+      "täglich",
+      "vorschlag",
+      "bedeuten",
+      "direkt",
+      "erfahrung",
+      "anmeldung",
+      "nutzen"
+    ],
+    "originalRequested": null,
+    "subtypeAdaptation": null,
+    "used": [
+      "zukunft",
+      "vorschlag",
+      "nutzen"
+    ],
+    "notUsed": [
+      "täglich",
+      "bedeuten",
+      "direkt",
+      "erfahrung",
+      "anmeldung"
+    ],
+    "excluded": [],
+    "ratio": 0.375,
+    "targetUsage": [
+      {
+        "word": "zukunft",
+        "surfaces": [
+          "Zukunft"
+        ]
+      },
+      {
+        "word": "vorschlag",
+        "surfaces": [
+          "Vorschlag"
+        ]
+      },
+      {
+        "word": "nutzen",
+        "surfaces": [
+          "Nutzen",
+          "nutzen"
+        ]
+      }
+    ]
+  },
+  "targetUsage": [
+    {
+      "word": "zukunft",
+      "surfaces": [
+        "Zukunft"
+      ]
+    },
+    {
+      "word": "vorschlag",
+      "surfaces": [
+        "Vorschlag"
+      ]
+    },
+    {
+      "word": "nutzen",
+      "surfaces": [
+        "Nutzen",
+        "nutzen"
+      ]
+    }
+  ],
+  "generationMetadata": {
+    "usedFeedback": false,
+    "feedbackRules": [],
+    "feedbackCount": 0,
+    "feedbackCategories": [],
+    "feedbackMode": "off",
+    "feedbackVersion": "v1"
+  },
+  "_metadataEnrichedAt": "2026-09-23T01:41:53.989Z",
+  "_metadataEnrichNote": "deterministic: detectTopic + per-question lemma vocab + grammar heuristics",
+  "_vocabTagsNormalizeVersion": "v2.3.18-paso3-vocab-plural-rubric-strip-2026-08-02",
+  "_grammarTagsNormalizeVersion": "v2.2-a2-b2-level-tags-2026-07-27"
+}

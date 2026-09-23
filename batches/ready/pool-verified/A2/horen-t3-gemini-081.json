@@ -1,0 +1,322 @@
+{
+  "passages": [
+    {
+      "id": "gen-p-h3-64809e90-s1",
+      "module": "horen",
+      "teil": 3,
+      "lang": "de",
+      "level": "A2",
+      "topicTag": "Konsum",
+      "text": "Lukas: Sag mal, Sarah, hast du das neue Smartphone schon gesehen? Es ist gerade im Angebot.\nSarah: Ja, Lukas. Ich habe es online gesehen. Ich überlege, es zu kaufen, aber ich bin mir unsicher wegen der Farbe.",
+      "audio": [
+        {
+          "speaker": "Lukas",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Sag mal, Sarah, hast du das neue Smartphone schon gesehen? Es ist gerade im Angebot."
+        },
+        {
+          "speaker": "Sarah",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Ja, Lukas. Ich habe es online gesehen. Ich überlege, es zu kaufen, aber ich bin mir unsicher wegen der Farbe."
+        }
+      ]
+    },
+    {
+      "id": "gen-p-h3-64809e90-s2",
+      "module": "horen",
+      "teil": 3,
+      "lang": "de",
+      "level": "A2",
+      "topicTag": "Konsum",
+      "text": "Noah: Lea, ich muss diesen Pullover zurückgeben. Er passt mir leider nicht.\nLea: Kein Problem, Noah. Hast du den Kassenbon noch? Ohne den geht es nicht.",
+      "audio": [
+        {
+          "speaker": "Noah",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Lea, ich muss diesen Pullover zurückgeben. Er passt mir leider nicht."
+        },
+        {
+          "speaker": "Lea",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Kein Problem, Noah. Hast du den Kassenbon noch? Ohne den geht es nicht."
+        }
+      ]
+    },
+    {
+      "id": "gen-p-h3-64809e90-s3",
+      "module": "horen",
+      "teil": 3,
+      "lang": "de",
+      "level": "A2",
+      "topicTag": "Konsum",
+      "text": "Ben: Anna, ich brauche ein Geschenk für meine Mutter. Hast du eine Idee?\nAnna: Wie wäre es mit einem Buch? Oder vielleicht eine schöne Pflanze für die Wohnung? Sie mag beides sehr.",
+      "audio": [
+        {
+          "speaker": "Ben",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Anna, ich brauche ein Geschenk für meine Mutter. Hast du eine Idee?"
+        },
+        {
+          "speaker": "Anna",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Wie wäre es mit einem Buch? Oder vielleicht eine schöne Pflanze für die Wohnung? Sie mag beides sehr."
+        }
+      ]
+    },
+    {
+      "id": "gen-p-h3-64809e90-s4",
+      "module": "horen",
+      "teil": 3,
+      "lang": "de",
+      "level": "A2",
+      "topicTag": "Konsum",
+      "text": "Max: Lena, ich suche einen neuen Laptop. Die Preise sind überall so unterschiedlich.\nLena: Ja, das stimmt. Schau mal online, dort gibt es oft bessere Angebote. Zum Beispiel bei Elektronikmärkten.",
+      "audio": [
+        {
+          "speaker": "Max",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Lena, ich suche einen neuen Laptop. Die Preise sind überall so unterschiedlich."
+        },
+        {
+          "speaker": "Lena",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Ja, das stimmt. Schau mal online, dort gibt es oft bessere Angebote. Zum Beispiel bei Elektronikmärkten."
+        }
+      ]
+    },
+    {
+      "id": "gen-p-h3-64809e90-s5",
+      "module": "horen",
+      "teil": 3,
+      "lang": "de",
+      "level": "A2",
+      "topicTag": "Konsum",
+      "text": "Tom: Katja, sollen wir heute Abend Pizza bestellen oder lieber selbst kochen?\nKatja: Ich bin müde, Tom. Lass uns Pizza bestellen. Das ist einfacher und schneller.",
+      "audio": [
+        {
+          "speaker": "Tom",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Katja, sollen wir heute Abend Pizza bestellen oder lieber selbst kochen?"
+        },
+        {
+          "speaker": "Katja",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Ich bin müde, Tom. Lass uns Pizza bestellen. Das ist einfacher und schneller."
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "gen-q-h3-64809e90-q1",
+      "module": "horen",
+      "teil": 3,
+      "lang": "de",
+      "level": "A2",
+      "type": "multiple_choice",
+      "passageId": "gen-p-h3-64809e90-s1",
+      "segmentLabel": "Text 1",
+      "question": "Wegen welcher Sache ist Sarah unsicher?",
+      "options": [
+        "a) Wegen des Preises.",
+        "b) Wegen der Farbe.",
+        "c) Wegen der Marke."
+      ],
+      "correct": "b",
+      "correctAnswer": "b",
+      "explanation": "Sarah überlegt, das Smartphone zu kaufen, ist aber unsicher wegen der Farbe.",
+      "language": "de",
+      "examType": "goethe",
+      "difficulty": 5,
+      "skills": [
+        "listening"
+      ],
+      "topicTags": [
+        "Konsum"
+      ],
+      "vocabularyTags": [
+        "unsicher",
+        "wegen",
+        "Sache",
+        "welch",
+        "Sarah",
+        "Farbe"
+      ],
+      "grammarTags": [
+        "g-de-a2-trennbar",
+        "g-de-a2-dat-akk"
+      ]
+    },
+    {
+      "id": "gen-q-h3-64809e90-q2",
+      "module": "horen",
+      "teil": 3,
+      "lang": "de",
+      "level": "A2",
+      "type": "multiple_choice",
+      "passageId": "gen-p-h3-64809e90-s2",
+      "segmentLabel": "Text 2",
+      "question": "Was möchte Noah mit dem Pullover machen?",
+      "options": [
+        "a) Den Pullover zurückgeben.",
+        "b) Einen neuen Pullover kaufen.",
+        "c) Den Pullover umtauschen."
+      ],
+      "correct": "a",
+      "correctAnswer": "a",
+      "explanation": "Noah möchte den Pullover zurückgeben, weil er ihm leider nicht passt.",
+      "language": "de",
+      "examType": "goethe",
+      "difficulty": 5,
+      "skills": [
+        "listening"
+      ],
+      "topicTags": [
+        "Konsum"
+      ],
+      "vocabularyTags": [
+        "zurückgeben",
+        "Pullover",
+        "möcht",
+        "machen"
+      ],
+      "grammarTags": [
+        "g-de-a2-nebensatz",
+        "g-de-a2-modal",
+        "g-de-a2-trennbar",
+        "g-de-a2-dat-akk"
+      ]
+    },
+    {
+      "id": "gen-q-h3-64809e90-q3",
+      "module": "horen",
+      "teil": 3,
+      "lang": "de",
+      "level": "A2",
+      "type": "multiple_choice",
+      "passageId": "gen-p-h3-64809e90-s3",
+      "segmentLabel": "Text 3",
+      "question": "Was schlägt Anna als Geschenk vor?",
+      "options": [
+        "a) Schmuck oder neue Kleidung.",
+        "b) Ein Kochbuch oder frische Blumen.",
+        "c) Ein Buch oder eine Zimmerpflanze."
+      ],
+      "correct": "c",
+      "correctAnswer": "c",
+      "explanation": "Anna schlägt vor, ein Buch oder eine Pflanze zu kaufen, da die Mutter beides sehr mag.",
+      "language": "de",
+      "examType": "goethe",
+      "difficulty": 5,
+      "skills": [
+        "listening"
+      ],
+      "topicTags": [
+        "Konsum"
+      ],
+      "vocabularyTags": [
+        "Zimmerpflanze",
+        "Geschenk"
+      ],
+      "grammarTags": [
+        "g-de-a2-trennbar",
+        "g-de-a2-dat-akk"
+      ]
+    },
+    {
+      "id": "gen-q-h3-64809e90-q4",
+      "module": "horen",
+      "teil": 3,
+      "lang": "de",
+      "level": "A2",
+      "type": "multiple_choice",
+      "passageId": "gen-p-h3-64809e90-s4",
+      "segmentLabel": "Text 4",
+      "question": "Was empfiehlt Lena Max?",
+      "options": [
+        "a) Einen gebrauchten Laptop zu kaufen.",
+        "b) In einem Geschäft zu kaufen.",
+        "c) Online nach Angeboten zu suchen."
+      ],
+      "correct": "c",
+      "correctAnswer": "c",
+      "explanation": "Lena rät Max, online nach Angeboten zu suchen, da es dort oft bessere Preise gibt.",
+      "language": "de",
+      "examType": "goethe",
+      "difficulty": 5,
+      "skills": [
+        "listening"
+      ],
+      "topicTags": [
+        "Konsum"
+      ],
+      "vocabularyTags": [
+        "suchen",
+        "Angebot",
+        "online"
+      ],
+      "grammarTags": [
+        "g-de-a2-trennbar"
+      ]
+    },
+    {
+      "id": "gen-q-h3-64809e90-q5",
+      "module": "horen",
+      "teil": 3,
+      "lang": "de",
+      "level": "A2",
+      "type": "multiple_choice",
+      "passageId": "gen-p-h3-64809e90-s5",
+      "segmentLabel": "Text 5",
+      "question": "Was entscheiden Tom und Katja?",
+      "options": [
+        "a) Pizza zu bestellen.",
+        "b) In ein Restaurant zu gehen.",
+        "c) Selbst zu kochen."
+      ],
+      "correct": "a",
+      "correctAnswer": "a",
+      "explanation": "Katja ist müde und möchte Pizza bestellen, weil es einfacher und schneller ist.",
+      "language": "de",
+      "examType": "goethe",
+      "difficulty": 5,
+      "skills": [
+        "listening"
+      ],
+      "topicTags": [
+        "Konsum"
+      ],
+      "vocabularyTags": [
+        "entscheiden",
+        "bestell",
+        "Katja",
+        "Pizza"
+      ],
+      "grammarTags": [
+        "g-de-a2-nebensatz",
+        "g-de-a2-modal",
+        "g-de-a2-trennbar"
+      ]
+    }
+  ],
+  "_germanCapsNormalizeVersion": "v3.23-lesen-t2-angebote-corpus-2026-07-28",
+  "_germanCapsNormalizedAt": "2026-07-27T07:13:56.818Z",
+  "_balanceMcqVersion": "v1.2-no-rf-chrono-shuffle-2026-07-11",
+  "_balanceMcqNormalizedAt": "2026-07-27T07:13:56.818Z",
+  "topicTag": "Konsum",
+  "_requestedTopic": "Konsum",
+  "generationMetadata": {
+    "usedFeedback": false,
+    "feedbackRules": [],
+    "feedbackCount": 0,
+    "feedbackCategories": [],
+    "feedbackMode": "off",
+    "feedbackVersion": "v1"
+  },
+  "_metadataEnrichedAt": "2026-07-27T07:13:58.560Z",
+  "_metadataEnrichNote": "deterministic: detectTopic + per-question lemma vocab + grammar heuristics",
+  "_vocabTagsNormalizeVersion": "v2.3.16-b1-validated-verb-adj-lemma-2026-07-24",
+  "_grammarTagsNormalizeVersion": "v2.2-a2-b2-level-tags-2026-07-27",
+  "_germanCapsMetadataRestampAt": "2026-08-05T04:37:08.173Z",
+  "_germanCapsMetadataRestampNote": "metadata-only; no applyGermanCapsNormalize"
+}

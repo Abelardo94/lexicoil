@@ -1,0 +1,270 @@
+{
+  "passages": [
+    {
+      "id": "gen-l3-33b56bf0-0",
+      "topicTag": "Umwelt",
+      "level": "A2",
+      "type": "email",
+      "text": "Lieber Herr Lehmann,\n\nich hoffe, es geht Ihnen gut. Ich schreibe Ihnen heute wegen unserer Wohnung. Ich denke viel über die Umwelt nach. Wir könnten im Haus vielleicht etwas tun, um Energie zu sparen. Das ist gut für die Umwelt und auch für unsere Kosten.\n\nIch habe ein paar Ideen gesammelt. Zum Beispiel: Licht ausmachen, wenn man geht. Oder das Wasser beim Duschen nicht so lange laufen lassen. Auch beim Heizen kann man oft etwas ändern. Es ist eine wichtige Aufgabe, auf unsere Ressourcen zu achten.\n\nHätten Sie Lust, darüber zu sprechen? Vielleicht haben Sie auch gute Vorschläge. Ich schlage vor, wir treffen uns nächste Woche. Wie wäre es am Dienstag, den 20. Juni, um 18 Uhr? Wir könnten uns kurz im Hausflur treffen.\n\nBitte sagen Sie mir, ob der Termin für Sie passt. Ich freue mich auf Ihre Antwort.\n\nViele Grüße,\nIhre Nachbarin Frau Richter",
+      "module": "lesen",
+      "teil": 3,
+      "lang": "de"
+    }
+  ],
+  "questions": [
+    {
+      "id": "gen-q-3-33b56bf0-0",
+      "passageId": "gen-l3-33b56bf0-0",
+      "question": "Warum schreibt Frau Richter die E-Mail?",
+      "type": "multiple_choice",
+      "options": [
+        "a) Sie braucht Hilfe bei einer Reparatur in ihrer Wohnung.",
+        "b) Sie möchte Herrn Lehmann zu einer Party einladen.",
+        "c) Sie möchte Ideen zum Energiesparen besprechen."
+      ],
+      "correct": "c",
+      "correctAnswer": "c",
+      "explanation": "Frau Richter schreibt, um mit Herrn Lehmann über das Sparen von Energie zu sprechen.",
+      "module": "lesen",
+      "teil": 3,
+      "level": "A2",
+      "lang": "de",
+      "topicTags": [
+        "Umwelt"
+      ],
+      "vocabularyTags": [
+        "ideen",
+        "besprechen",
+        "energiesparen",
+        "Richter",
+        "e-mail",
+        "Frau"
+      ],
+      "grammarTags": [
+        "g-de-a2-modal",
+        "g-de-a2-trennbar",
+        "g-de-a2-dat-akk"
+      ]
+    },
+    {
+      "id": "gen-q-3-33b56bf0-1",
+      "passageId": "gen-l3-33b56bf0-0",
+      "question": "Was ist Frau Richters Hauptanliegen?",
+      "type": "multiple_choice",
+      "options": [
+        "a) Die hohen Mietkosten im Gebäude.",
+        "b) Energie und Wasser im Haus sparen.",
+        "c) Mehr soziale Aktivitäten unter den Nachbarn."
+      ],
+      "correct": "b",
+      "correctAnswer": "b",
+      "explanation": "Frau Richter möchte überlegen, wie man im Haus Energie und Wasser sparen kann, um die Umwelt zu schützen und Kosten zu senken.",
+      "module": "lesen",
+      "teil": 3,
+      "level": "A2",
+      "lang": "de",
+      "topicTags": [
+        "Umwelt"
+      ],
+      "vocabularyTags": [
+        "Haus",
+        "hauptanliegen",
+        "sparen",
+        "Richters",
+        "Energie",
+        "Wasser"
+      ],
+      "grammarTags": [
+        "g-de-a2-modal",
+        "g-de-a2-trennbar",
+        "g-de-a2-dat-akk"
+      ]
+    },
+    {
+      "id": "gen-q-3-33b56bf0-2",
+      "passageId": "gen-l3-33b56bf0-0",
+      "question": "Wann schlägt Frau Richter ein Treffen vor?",
+      "type": "multiple_choice",
+      "options": [
+        "a) Am nächsten Dienstagabend.",
+        "b) Am Wochenende im Park.",
+        "c) An einem Sonntagmorgen."
+      ],
+      "correct": "a",
+      "correctAnswer": "a",
+      "explanation": "Sie schlägt vor, sich am Dienstag, den 20. Juni, um 18 Uhr zu treffen.",
+      "module": "lesen",
+      "teil": 3,
+      "level": "A2",
+      "lang": "de",
+      "topicTags": [
+        "Umwelt"
+      ],
+      "vocabularyTags": [
+        "treffen",
+        "Dienstagabend",
+        "Richter",
+        "Frau"
+      ],
+      "grammarTags": [
+        "g-de-a2-dat-akk"
+      ]
+    },
+    {
+      "id": "gen-q-3-33b56bf0-3",
+      "passageId": "gen-l3-33b56bf0-0",
+      "question": "Wo sollen sich die Nachbarn treffen?",
+      "type": "multiple_choice",
+      "options": [
+        "a) In Frau Richters Wohnung.",
+        "b) Im Hausflur des Gebäudes.",
+        "c) In einem Café in der Nähe."
+      ],
+      "correct": "b",
+      "correctAnswer": "b",
+      "explanation": "Im Text steht, dass sie sich kurz im Hausflur treffen könnten.",
+      "module": "lesen",
+      "teil": 3,
+      "level": "A2",
+      "lang": "de",
+      "topicTags": [
+        "Umwelt"
+      ],
+      "vocabularyTags": [
+        "treffen",
+        "Nachbarn",
+        "Hausflur",
+        "Gebäudes"
+      ],
+      "grammarTags": [
+        "g-de-a2-nebensatz",
+        "g-de-a2-modal",
+        "g-de-a2-trennbar",
+        "g-de-a2-dat-akk"
+      ]
+    },
+    {
+      "id": "gen-q-3-33b56bf0-4",
+      "passageId": "gen-l3-33b56bf0-0",
+      "question": "Was möchte Frau Richter von Herrn Lehmann?",
+      "type": "multiple_choice",
+      "options": [
+        "a) Er soll seine Vorschläge teilen und den Termin bestätigen.",
+        "b) Er soll ihr bei der Reparatur der Heizung helfen.",
+        "c) Er soll ein großes Event für alle Bewohner organisieren."
+      ],
+      "correct": "a",
+      "correctAnswer": "a",
+      "explanation": "Frau Richter bittet Herrn Lehmann, seine Vorschläge zu den Energiesparmaßnahmen mitzuteilen und zu sagen, ob der vorgeschlagene Termin passt.",
+      "module": "lesen",
+      "teil": 3,
+      "level": "A2",
+      "lang": "de",
+      "topicTags": [
+        "Umwelt"
+      ],
+      "vocabularyTags": [
+        "teilen",
+        "Termin",
+        "Vorschläge",
+        "bestätig",
+        "Richter",
+        "Lehmann"
+      ],
+      "grammarTags": [
+        "g-de-a2-nebensatz",
+        "g-de-a2-modal",
+        "g-de-a2-trennbar",
+        "g-de-a2-dat-akk"
+      ]
+    }
+  ],
+  "_germanCapsNormalizeVersion": "v3.23-lesen-t2-angebote-corpus-2026-07-28",
+  "_germanCapsNormalizedAt": "2026-09-23T00:10:54.491Z",
+  "_balanceMcqVersion": "v1.2-no-rf-chrono-shuffle-2026-07-11",
+  "_balanceMcqNormalizedAt": "2026-09-23T00:10:39.237Z",
+  "topicTag": "Umwelt",
+  "_requestedTopic": "Umwelt",
+  "userVocabFeedback": {
+    "topic": "Umwelt",
+    "requested": [
+      "aufgabe",
+      "situation",
+      "täglich",
+      "zukunft",
+      "anmeldung",
+      "bedeuten",
+      "vorschlag",
+      "vorteil",
+      "firma",
+      "projekt"
+    ],
+    "prompted": [
+      "aufgabe",
+      "situation",
+      "täglich",
+      "zukunft",
+      "anmeldung",
+      "bedeuten",
+      "vorschlag",
+      "vorteil",
+      "firma",
+      "projekt"
+    ],
+    "originalRequested": [
+      "aufgabe",
+      "situation",
+      "täglich",
+      "zukunft",
+      "anmeldung",
+      "bedeuten",
+      "vorschlag",
+      "vorteil"
+    ],
+    "subtypeAdaptation": null,
+    "used": [
+      "aufgabe"
+    ],
+    "notUsed": [
+      "situation",
+      "täglich",
+      "zukunft",
+      "anmeldung",
+      "bedeuten",
+      "vorschlag",
+      "vorteil",
+      "firma",
+      "projekt"
+    ],
+    "excluded": [],
+    "ratio": 0.1,
+    "targetUsage": [
+      {
+        "word": "aufgabe",
+        "surfaces": [
+          "Aufgabe"
+        ]
+      }
+    ]
+  },
+  "targetUsage": [
+    {
+      "word": "aufgabe",
+      "surfaces": [
+        "Aufgabe"
+      ]
+    }
+  ],
+  "generationMetadata": {
+    "usedFeedback": false,
+    "feedbackRules": [],
+    "feedbackCount": 0,
+    "feedbackCategories": [],
+    "feedbackMode": "off",
+    "feedbackVersion": "v1"
+  },
+  "_metadataEnrichedAt": "2026-09-23T00:11:05.609Z",
+  "_metadataEnrichNote": "deterministic: detectTopic + per-question lemma vocab + grammar heuristics",
+  "_vocabTagsNormalizeVersion": "v2.3.18-paso3-vocab-plural-rubric-strip-2026-08-02",
+  "_grammarTagsNormalizeVersion": "v2.2-a2-b2-level-tags-2026-07-27"
+}

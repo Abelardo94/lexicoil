@@ -1,0 +1,315 @@
+{
+  "passages": [
+    {
+      "id": "gen-p-h2-f6c6c902-s1",
+      "module": "horen",
+      "teil": 2,
+      "lang": "de",
+      "level": "A2",
+      "title": "Wochenpläne und Umwelt",
+      "topicTag": "Umwelt",
+      "text": "Lena: Hallo Max! Wie geht es dir? Hast du schon Pläne für die Woche?\nMax: Hallo Lena! Mir geht es gut, danke. Ja, am Montag gehe ich ins Fitnessstudio. Das ist gut für meine Energie und ich spare Strom zu Hause.\nLena: Das ist super! Ich habe am Dienstagabend vor, ein vegetarisches Abendessen zu kochen. Weniger Fleisch ist besser für die Umwelt.\nMax: Gute Idee! Am Mittwoch muss ich in der Bibliothek lernen. Das ist ruhig und ich brauche zu Hause kein Licht.\nLena: Ja, lernen ist wichtig. Am Donnerstagabend möchte ich ins Kino gehen, vielleicht einen Film über die Natur.\nMax: Klingt interessant! Und am Freitag? Ich mache eine lange Fahrradtour, um die frische Luft zu genießen.",
+      "pictures": [
+        {
+          "key": "a",
+          "icon": "🚴",
+          "label": "Fahrrad fahren"
+        },
+        {
+          "key": "b",
+          "icon": "🇩🇪",
+          "label": "Deutschkurs"
+        },
+        {
+          "key": "c",
+          "icon": "👫",
+          "label": "Freunde treffen"
+        },
+        {
+          "key": "d",
+          "icon": "🏋️",
+          "label": "Sport machen"
+        },
+        {
+          "key": "e",
+          "icon": "🏛️",
+          "label": "Museum"
+        },
+        {
+          "key": "f",
+          "icon": "🎬",
+          "label": "Kino"
+        },
+        {
+          "key": "g",
+          "icon": "📚",
+          "label": "Lernen"
+        },
+        {
+          "key": "h",
+          "icon": "🛒",
+          "label": "Einkaufen"
+        },
+        {
+          "key": "i",
+          "icon": "🍳",
+          "label": "Kochen"
+        }
+      ],
+      "audio": [
+        {
+          "speaker": "Lena",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Hallo Max! Wie geht es dir? Hast du schon Pläne für die Woche?"
+        },
+        {
+          "speaker": "Max",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Hallo Lena! Mir geht es gut, danke. Ja, am Montag gehe ich ins Fitnessstudio. Das ist gut für meine Energie und ich spare Strom zu Hause."
+        },
+        {
+          "speaker": "Lena",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Das ist super! Ich habe am Dienstagabend vor, ein vegetarisches Abendessen zu kochen. Weniger Fleisch ist besser für die Umwelt."
+        },
+        {
+          "speaker": "Max",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Gute Idee! Am Mittwoch muss ich in der Bibliothek lernen. Das ist ruhig und ich brauche zu Hause kein Licht."
+        },
+        {
+          "speaker": "Lena",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Ja, lernen ist wichtig. Am Donnerstagabend möchte ich ins Kino gehen, vielleicht einen Film über die Natur."
+        },
+        {
+          "speaker": "Max",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Klingt interessant! Und am Freitag? Ich mache eine lange Fahrradtour, um die frische Luft zu genießen."
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "gen-q-h2-f6c6c902-q1",
+      "module": "horen",
+      "teil": 2,
+      "lang": "de",
+      "level": "A2",
+      "type": "matching",
+      "question": "Was macht Max am Montag?",
+      "passageId": "gen-p-h2-f6c6c902-s1",
+      "correct": "d",
+      "correctAnswer": "d",
+      "explanation": "Max geht am Montag ins Fitnessstudio, um Sport zu machen.",
+      "language": "de",
+      "examType": "goethe",
+      "difficulty": 5,
+      "skills": [
+        "listening"
+      ],
+      "topicTags": [
+        "Umwelt"
+      ],
+      "_keyOnlyMatch": true,
+      "vocabularyTags": [
+        "Fitnessstudio",
+        "Montag",
+        "Sport",
+        "machen"
+      ],
+      "grammarTags": []
+    },
+    {
+      "id": "gen-q-h2-f6c6c902-q2",
+      "module": "horen",
+      "teil": 2,
+      "lang": "de",
+      "level": "A2",
+      "type": "matching",
+      "question": "Was macht Lena am Dienstag?",
+      "passageId": "gen-p-h2-f6c6c902-s1",
+      "correct": "i",
+      "correctAnswer": "i",
+      "explanation": "Lena möchte am Dienstagabend ein vegetarisches Abendessen kochen.",
+      "language": "de",
+      "examType": "goethe",
+      "difficulty": 5,
+      "skills": [
+        "listening"
+      ],
+      "topicTags": [
+        "Umwelt"
+      ],
+      "_keyOnlyMatch": true,
+      "vocabularyTags": [
+        "kochen",
+        "abendessen",
+        "Dienstagabend",
+        "vegetarisch",
+        "Dienstag",
+        "möcht"
+      ],
+      "grammarTags": [
+        "g-de-a2-modal",
+        "g-de-a2-trennbar"
+      ]
+    },
+    {
+      "id": "gen-q-h2-f6c6c902-q3",
+      "module": "horen",
+      "teil": 2,
+      "lang": "de",
+      "level": "A2",
+      "type": "matching",
+      "question": "Was macht Max am Mittwoch?",
+      "passageId": "gen-p-h2-f6c6c902-s1",
+      "correct": "g",
+      "correctAnswer": "g",
+      "explanation": "Max muss am Mittwoch in der Bibliothek lernen.",
+      "language": "de",
+      "examType": "goethe",
+      "difficulty": 5,
+      "skills": [
+        "listening"
+      ],
+      "topicTags": [
+        "Umwelt"
+      ],
+      "_keyOnlyMatch": true,
+      "vocabularyTags": [
+        "Bibliothek",
+        "lernen",
+        "Mittwoch"
+      ],
+      "grammarTags": [
+        "g-de-a2-modal",
+        "g-de-a2-trennbar",
+        "g-de-a2-dat-akk"
+      ]
+    },
+    {
+      "id": "gen-q-h2-f6c6c902-q4",
+      "module": "horen",
+      "teil": 2,
+      "lang": "de",
+      "level": "A2",
+      "type": "matching",
+      "question": "Was macht Lena am Donnerstag?",
+      "passageId": "gen-p-h2-f6c6c902-s1",
+      "correct": "f",
+      "correctAnswer": "f",
+      "explanation": "Lena möchte am Donnerstagabend ins Kino gehen.",
+      "language": "de",
+      "examType": "goethe",
+      "difficulty": 5,
+      "skills": [
+        "listening"
+      ],
+      "topicTags": [
+        "Umwelt"
+      ],
+      "_keyOnlyMatch": true,
+      "vocabularyTags": [
+        "Donnerstagabend",
+        "Donnerstag",
+        "möcht",
+        "gehen"
+      ],
+      "grammarTags": [
+        "g-de-a2-modal"
+      ]
+    },
+    {
+      "id": "gen-q-h2-f6c6c902-q5",
+      "module": "horen",
+      "teil": 2,
+      "lang": "de",
+      "level": "A2",
+      "type": "matching",
+      "question": "Was macht Max am Freitag?",
+      "passageId": "gen-p-h2-f6c6c902-s1",
+      "correct": "a",
+      "correctAnswer": "a",
+      "explanation": "Max plant am Freitag eine lange Fahrradtour.",
+      "language": "de",
+      "examType": "goethe",
+      "difficulty": 5,
+      "skills": [
+        "listening"
+      ],
+      "topicTags": [
+        "Umwelt"
+      ],
+      "_keyOnlyMatch": true,
+      "vocabularyTags": [
+        "fahren",
+        "Fahrradtour",
+        "Freitag",
+        "Fahrrad"
+      ],
+      "grammarTags": [
+        "g-de-a2-trennbar"
+      ]
+    }
+  ],
+  "_germanCapsNormalizeVersion": "v3.23-lesen-t2-angebote-corpus-2026-07-28",
+  "_germanCapsNormalizedAt": "2026-08-02T07:23:36.713Z",
+  "_balanceMcqVersion": "v1.2-no-rf-chrono-shuffle-2026-07-11",
+  "_balanceMcqNormalizedAt": "2026-08-02T07:23:36.713Z",
+  "topicTag": "Umwelt",
+  "_requestedTopic": "Umwelt",
+  "userVocabFeedback": {
+    "topic": "Umwelt",
+    "requested": [
+      "aufgabe",
+      "situation",
+      "zukunft",
+      "täglich",
+      "bedeuten",
+      "vorschlag",
+      "vorteil",
+      "erfahrung"
+    ],
+    "prompted": [
+      "aufgabe",
+      "situation",
+      "zukunft",
+      "täglich",
+      "bedeuten",
+      "vorschlag",
+      "vorteil",
+      "erfahrung"
+    ],
+    "originalRequested": null,
+    "subtypeAdaptation": null,
+    "used": [],
+    "notUsed": [
+      "aufgabe",
+      "situation",
+      "zukunft",
+      "täglich",
+      "bedeuten",
+      "vorschlag",
+      "vorteil",
+      "erfahrung"
+    ],
+    "excluded": [],
+    "ratio": 0,
+    "targetUsage": []
+  },
+  "targetUsage": [],
+  "generationMetadata": {
+    "usedFeedback": false,
+    "feedbackRules": [],
+    "feedbackCount": 0,
+    "feedbackCategories": [],
+    "feedbackMode": "off",
+    "feedbackVersion": "v1"
+  },
+  "_metadataEnrichedAt": "2026-08-02T07:23:38.421Z",
+  "_metadataEnrichNote": "deterministic: detectTopic + per-question lemma vocab + grammar heuristics",
+  "_vocabTagsNormalizeVersion": "v2.3.17b-plural-noun-vocab-cap-fix-2026-07-27",
+  "_grammarTagsNormalizeVersion": "v2.2-a2-b2-level-tags-2026-07-27"
+}

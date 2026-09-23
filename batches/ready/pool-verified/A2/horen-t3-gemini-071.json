@@ -1,0 +1,371 @@
+{
+  "passages": [
+    {
+      "id": "gen-p-h3-0bd7ef1c-s1",
+      "module": "horen",
+      "teil": 3,
+      "lang": "de",
+      "level": "A2",
+      "topicTag": "Bildung",
+      "text": "Omar: Sag mal, Yasmin, hast du schon die neue Aufgabe für den Deutschkurs gesehen?\nYasmin: Ja, Omar. Ich habe sie gerade gelesen. Es geht um unsere Ausbildung und Zukunftspläne.\nOmar: Genau. Ich finde die Situation etwas schwierig. Ich weiß noch nicht, was ich schreiben soll.\nYasmin: Kein Problem, wir können es uns später zusammen ansehen.",
+      "audio": [
+        {
+          "speaker": "Omar",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Sag mal, Yasmin, hast du schon die neue Aufgabe für den Deutschkurs gesehen?"
+        },
+        {
+          "speaker": "Yasmin",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Ja, Omar. Ich habe sie gerade gelesen. Es geht um unsere Ausbildung und Zukunftspläne."
+        },
+        {
+          "speaker": "Omar",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Genau. Ich finde die Situation etwas schwierig. Ich weiß noch nicht, was ich schreiben soll."
+        },
+        {
+          "speaker": "Yasmin",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Kein Problem, wir können es uns später zusammen ansehen."
+        }
+      ]
+    },
+    {
+      "id": "gen-p-h3-0bd7ef1c-s2",
+      "module": "horen",
+      "teil": 3,
+      "lang": "de",
+      "level": "A2",
+      "topicTag": "Bildung",
+      "text": "Felix: Mia, ich muss täglich für die Prüfung lernen. Hast du einen Tipp für mich?\nMia: Ja, Felix. Du solltest dir einen Lernplan machen. Das hilft direkt, alles zu organisieren.\nFelix: Das ist eine gute Idee. Ich habe so viele Bücher und Notizen.\nMia: Fang einfach an. Kleine Schritte sind besser als gar keine.",
+      "audio": [
+        {
+          "speaker": "Felix",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Mia, ich muss täglich für die Prüfung lernen. Hast du einen Tipp für mich?"
+        },
+        {
+          "speaker": "Mia",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Ja, Felix. Du solltest dir einen Lernplan machen. Das hilft direkt, alles zu organisieren."
+        },
+        {
+          "speaker": "Felix",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Das ist eine gute Idee. Ich habe so viele Bücher und Notizen."
+        },
+        {
+          "speaker": "Mia",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Fang einfach an. Kleine Schritte sind besser als gar keine."
+        }
+      ]
+    },
+    {
+      "id": "gen-p-h3-0bd7ef1c-s3",
+      "module": "horen",
+      "teil": 3,
+      "lang": "de",
+      "level": "A2",
+      "topicTag": "Bildung",
+      "text": "Lukas: Sarah, weißt du, ob man sich noch für den Online-Kurs anmelden kann?\nSarah: Ich glaube, die Frist ist bald vorbei, Lukas. Du musst dich direkt auf der Webseite informieren.\nLukas: Oh, das ist wichtig. Es geht um meine Weiterbildung.\nSarah: Ja, beeil dich! Die Plätze sind oft schnell weg.",
+      "audio": [
+        {
+          "speaker": "Lukas",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Sarah, weißt du, ob man sich noch für den Online-Kurs anmelden kann?"
+        },
+        {
+          "speaker": "Sarah",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Ich glaube, die Frist ist bald vorbei, Lukas. Du musst dich direkt auf der Webseite informieren."
+        },
+        {
+          "speaker": "Lukas",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Oh, das ist wichtig. Es geht um meine Weiterbildung."
+        },
+        {
+          "speaker": "Sarah",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Ja, beeil dich! Die Plätze sind oft schnell weg."
+        }
+      ]
+    },
+    {
+      "id": "gen-p-h3-0bd7ef1c-s4",
+      "module": "horen",
+      "teil": 3,
+      "lang": "de",
+      "level": "A2",
+      "topicTag": "Bildung",
+      "text": "Noah: Lea, ich brauche deine Meinung zu meinem Schulprojekt. Es ist eine große Aufgabe.\nLea: Klar, Noah. Worum geht es genau? Ist es für Geschichte oder Biologie?\nNoah: Es ist für Biologie. Ich muss etwas über Pflanzen schreiben. Ich finde keine gute Situation für den Anfang.\nLea: Komm nachher zu mir. Wir finden sicher eine Lösung.",
+      "audio": [
+        {
+          "speaker": "Noah",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Lea, ich brauche deine Meinung zu meinem Schulprojekt. Es ist eine große Aufgabe."
+        },
+        {
+          "speaker": "Lea",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Klar, Noah. Worum geht es genau? Ist es für Geschichte oder Biologie?"
+        },
+        {
+          "speaker": "Noah",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Es ist für Biologie. Ich muss etwas über Pflanzen schreiben. Ich finde keine gute Situation für den Anfang."
+        },
+        {
+          "speaker": "Lea",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Komm nachher zu mir. Wir finden sicher eine Lösung."
+        }
+      ]
+    },
+    {
+      "id": "gen-p-h3-0bd7ef1c-s5",
+      "module": "horen",
+      "teil": 3,
+      "lang": "de",
+      "level": "A2",
+      "topicTag": "Bildung",
+      "text": "Ben: Anna, ich habe gehört, du lernst jetzt täglich Spanisch. Wie ist die Ausbildung?\nAnna: Ja, Ben. Es macht viel Spaß! Ich habe einen Online-Kurs.\nBen: Das ist toll. Ich möchte auch eine neue Sprache lernen.\nAnna: Du solltest es direkt versuchen! Es gibt viele gute Angebote.",
+      "audio": [
+        {
+          "speaker": "Ben",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Anna, ich habe gehört, du lernst jetzt täglich Spanisch. Wie ist die Ausbildung?"
+        },
+        {
+          "speaker": "Anna",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Ja, Ben. Es macht viel Spaß! Ich habe einen Online-Kurs."
+        },
+        {
+          "speaker": "Ben",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Das ist toll. Ich möchte auch eine neue Sprache lernen."
+        },
+        {
+          "speaker": "Anna",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Du solltest es direkt versuchen! Es gibt viele gute Angebote."
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "gen-q-h3-0bd7ef1c-q1",
+      "module": "horen",
+      "teil": 3,
+      "lang": "de",
+      "level": "A2",
+      "type": "multiple_choice",
+      "passageId": "gen-p-h3-0bd7ef1c-s1",
+      "segmentLabel": "Text 1",
+      "question": "Worum geht es in der Aufgabe für den Deutschkurs?",
+      "options": [
+        "a) Um einen neuen Job.",
+        "b) Um eine Reise.",
+        "c) Um Ausbildung und Zukunftspläne."
+      ],
+      "correct": "c",
+      "correctAnswer": "c",
+      "explanation": "Yasmin sagt, die Aufgabe handelt von ihrer Ausbildung und ihren Zukunftsplänen. Omar findet die Situation schwierig.",
+      "language": "de",
+      "examType": "goethe",
+      "difficulty": 5,
+      "skills": [
+        "listening"
+      ],
+      "topicTags": [
+        "Bildung"
+      ],
+      "vocabularyTags": [
+        "Ausbildung",
+        "Zukunftspläne"
+      ],
+      "grammarTags": [
+        "g-de-a2-trennbar",
+        "g-de-a2-dat-akk"
+      ]
+    },
+    {
+      "id": "gen-q-h3-0bd7ef1c-q2",
+      "module": "horen",
+      "teil": 3,
+      "lang": "de",
+      "level": "A2",
+      "type": "multiple_choice",
+      "passageId": "gen-p-h3-0bd7ef1c-s2",
+      "segmentLabel": "Text 2",
+      "question": "Was schlägt Mia Felix vor?",
+      "options": [
+        "a) Neue Bücher zu kaufen.",
+        "b) Einen Lernplan zu machen.",
+        "c) Mit dem Lernen aufzuhören."
+      ],
+      "correct": "b",
+      "correctAnswer": "b",
+      "explanation": "Mia rät Felix, einen Lernplan zu erstellen, um seine Lernsituation direkt zu organisieren und täglich Fortschritte zu machen.",
+      "language": "de",
+      "examType": "goethe",
+      "difficulty": 5,
+      "skills": [
+        "listening"
+      ],
+      "topicTags": [
+        "Bildung"
+      ],
+      "vocabularyTags": [
+        "Lernplan",
+        "Felix",
+        "machen"
+      ],
+      "grammarTags": [
+        "g-de-a2-trennbar",
+        "g-de-a2-dat-akk"
+      ]
+    },
+    {
+      "id": "gen-q-h3-0bd7ef1c-q3",
+      "module": "horen",
+      "teil": 3,
+      "lang": "de",
+      "level": "A2",
+      "type": "multiple_choice",
+      "passageId": "gen-p-h3-0bd7ef1c-s3",
+      "segmentLabel": "Text 3",
+      "question": "Was soll Lukas tun?",
+      "options": [
+        "a) Sich direkt auf der Webseite informieren.",
+        "b) Sarah morgen noch einmal fragen.",
+        "c) Auf den nächsten Kurs warten."
+      ],
+      "correct": "a",
+      "correctAnswer": "a",
+      "explanation": "Sarah sagt Lukas, dass er sich direkt auf der Webseite informieren muss, da die Frist bald endet und die Plätze schnell weg sind.",
+      "language": "de",
+      "examType": "goethe",
+      "difficulty": 5,
+      "skills": [
+        "listening"
+      ],
+      "topicTags": [
+        "Bildung"
+      ],
+      "vocabularyTags": [
+        "informieren",
+        "direkt",
+        "Webseite",
+        "Lukas"
+      ],
+      "grammarTags": [
+        "g-de-a2-nebensatz",
+        "g-de-a2-dat-akk"
+      ]
+    },
+    {
+      "id": "gen-q-h3-0bd7ef1c-q4",
+      "module": "horen",
+      "teil": 3,
+      "lang": "de",
+      "level": "A2",
+      "type": "multiple_choice",
+      "passageId": "gen-p-h3-0bd7ef1c-s4",
+      "segmentLabel": "Text 4",
+      "question": "Welches Problem hat Noah bei seinem Schulprojekt?",
+      "options": [
+        "a) Er findet keinen guten Anfang für sein Projekt.",
+        "b) Er braucht neue Bücher.",
+        "c) Er mag Biologie nicht."
+      ],
+      "correct": "a",
+      "correctAnswer": "a",
+      "explanation": "Noah erklärt, dass er keine gute Situation für den Anfang seines Biologieprojekts finden kann, obwohl es eine große Aufgabe ist.",
+      "language": "de",
+      "examType": "goethe",
+      "difficulty": 5,
+      "skills": [
+        "listening"
+      ],
+      "topicTags": [
+        "Bildung"
+      ],
+      "vocabularyTags": [
+        "Problem",
+        "finden",
+        "keinen",
+        "Schulprojekt",
+        "Welches",
+        "Projekt"
+      ],
+      "grammarTags": [
+        "g-de-a2-nebensatz",
+        "g-de-a2-trennbar",
+        "g-de-a2-dat-akk",
+        "g-de-a2-praesens"
+      ]
+    },
+    {
+      "id": "gen-q-h3-0bd7ef1c-q5",
+      "module": "horen",
+      "teil": 3,
+      "lang": "de",
+      "level": "A2",
+      "type": "multiple_choice",
+      "passageId": "gen-p-h3-0bd7ef1c-s5",
+      "segmentLabel": "Text 5",
+      "question": "Was macht Anna?",
+      "options": [
+        "a) Sie unterrichtet Spanisch.",
+        "b) Sie lernt Spanisch online.",
+        "c) Sie reist nach Spanien."
+      ],
+      "correct": "b",
+      "correctAnswer": "b",
+      "explanation": "Anna sagt, dass sie einen Online-Kurs macht, um täglich Spanisch zu lernen, und es ihr viel Spaß macht.",
+      "language": "de",
+      "examType": "goethe",
+      "difficulty": 5,
+      "skills": [
+        "listening"
+      ],
+      "topicTags": [
+        "Bildung"
+      ],
+      "vocabularyTags": [
+        "Spanisch",
+        "onlin"
+      ],
+      "grammarTags": [
+        "g-de-a2-nebensatz",
+        "g-de-a2-trennbar",
+        "g-de-a2-dat-akk"
+      ]
+    }
+  ],
+  "_germanCapsNormalizeVersion": "v3.23-lesen-t2-angebote-corpus-2026-07-28",
+  "_germanCapsNormalizedAt": "2026-07-27T06:45:12.817Z",
+  "_balanceMcqVersion": "v1.2-no-rf-chrono-shuffle-2026-07-11",
+  "_balanceMcqNormalizedAt": "2026-07-27T06:45:12.817Z",
+  "topicTag": "Bildung",
+  "_requestedTopic": "Bildung",
+  "generationMetadata": {
+    "usedFeedback": false,
+    "feedbackRules": [],
+    "feedbackCount": 0,
+    "feedbackCategories": [],
+    "feedbackMode": "off",
+    "feedbackVersion": "v1"
+  },
+  "_metadataEnrichedAt": "2026-07-27T06:45:14.578Z",
+  "_metadataEnrichNote": "deterministic: detectTopic + per-question lemma vocab + grammar heuristics",
+  "_vocabTagsNormalizeVersion": "v2.3.16-b1-validated-verb-adj-lemma-2026-07-24",
+  "_grammarTagsNormalizeVersion": "v2.2-a2-b2-level-tags-2026-07-27",
+  "_germanCapsMetadataRestampAt": "2026-08-05T04:37:08.159Z",
+  "_germanCapsMetadataRestampNote": "metadata-only; no applyGermanCapsNormalize"
+}

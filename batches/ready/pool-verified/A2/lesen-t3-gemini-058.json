@@ -1,0 +1,265 @@
+{
+  "passages": [
+    {
+      "id": "gen-l3-20150a84-1",
+      "text": "Liebe Anna,\n\nwie geht es dir? Ich hoffe, alles ist gut bei dir. Ich schreibe dir, weil ich eine Idee für unseren Sommerurlaub habe. Erinnerst du dich an unser Gespräch über eine Reise?\n\nIch habe online ein tolles Angebot gefunden. Es ist eine Woche in Spanien, genauer gesagt auf Mallorca. Das Hotel sieht sehr schön aus und ist direkt am Meer. Es gibt dort viele Strände und man kann gut schwimmen. Ich denke, das wäre perfekt für uns.\n\nDie Reise ist im Juli. Das ist eine gute Zeit, denn dann haben wir beide frei. Der Preis ist auch nicht schlecht. Ich habe schon ein paar Informationen gesammelt. Wir könnten einen großen Koffer zusammen packen.\n\nWas denkst du darüber? Hast du Lust, mitzukommen? Bitte sag mir bald Bescheid, damit wir die Reise buchen können. Wir müssen schnell sein, denn das Angebot ist nicht mehr lange gültig.\n\nViele Grüße,\nLena",
+      "title": "E-Mail von Lena an Anna",
+      "level": "A2",
+      "topicTag": "Reisen",
+      "module": "lesen",
+      "teil": 3,
+      "lang": "de"
+    }
+  ],
+  "questions": [
+    {
+      "id": "gen-q-3-20150a84-1",
+      "passageId": "gen-l3-20150a84-1",
+      "question": "Warum schreibt Lena diese E-Mail?",
+      "type": "multiple_choice",
+      "options": [
+        "a) Sie fragt Anna nach ihrer Meinung zu einem Hotel.",
+        "b) Sie möchte Anna von ihrem letzten Urlaub erzählen.",
+        "c) Sie möchte Anna zu einem Urlaub einladen."
+      ],
+      "correct": "c",
+      "correctAnswer": "c",
+      "explanation": "Lena hat ein Reiseangebot gefunden und fragt Anna, ob sie mitkommen möchte.",
+      "module": "lesen",
+      "teil": 3,
+      "level": "A2",
+      "lang": "de",
+      "topicTags": [
+        "Reisen"
+      ],
+      "vocabularyTags": [
+        "Urlaub",
+        "einladen",
+        "e-mail",
+        "möcht"
+      ],
+      "grammarTags": [
+        "g-de-a2-nebensatz",
+        "g-de-a2-modal",
+        "g-de-a2-perfekt",
+        "g-de-a2-trennbar"
+      ]
+    },
+    {
+      "id": "gen-q-3-20150a84-2",
+      "passageId": "gen-l3-20150a84-1",
+      "question": "Wohin möchte Lena reisen?",
+      "type": "multiple_choice",
+      "options": [
+        "a) Nach Spanien.",
+        "b) Nach Deutschland.",
+        "c) Nach Italien."
+      ],
+      "correct": "a",
+      "correctAnswer": "a",
+      "explanation": "Lena hat ein Angebot für Mallorca gefunden, das in Spanien liegt.",
+      "module": "lesen",
+      "teil": 3,
+      "level": "A2",
+      "lang": "de",
+      "topicTags": [
+        "Reisen"
+      ],
+      "vocabularyTags": [
+        "reisen",
+        "spanien",
+        "Wohin",
+        "möcht"
+      ],
+      "grammarTags": [
+        "g-de-a2-modal",
+        "g-de-a2-perfekt",
+        "g-de-a2-trennbar",
+        "g-de-a2-dat-akk"
+      ]
+    },
+    {
+      "id": "gen-q-3-20150a84-3",
+      "passageId": "gen-l3-20150a84-1",
+      "question": "Wann soll die Reise stattfinden?",
+      "type": "multiple_choice",
+      "options": [
+        "a) Im Juni.",
+        "b) Im Juli.",
+        "c) Im August."
+      ],
+      "correct": "b",
+      "correctAnswer": "b",
+      "explanation": "Im Text steht klar, dass die Reise im Juli stattfinden soll.",
+      "module": "lesen",
+      "teil": 3,
+      "level": "A2",
+      "lang": "de",
+      "topicTags": [
+        "Reisen"
+      ],
+      "vocabularyTags": [
+        "stattfinden",
+        "Reise"
+      ],
+      "grammarTags": [
+        "g-de-a2-nebensatz",
+        "g-de-a2-modal",
+        "g-de-a2-trennbar",
+        "g-de-a2-dat-akk"
+      ]
+    },
+    {
+      "id": "gen-q-3-20150a84-4",
+      "passageId": "gen-l3-20150a84-1",
+      "question": "Was sagt Lena über das Hotel?",
+      "type": "multiple_choice",
+      "options": [
+        "a) Es ist teuer, aber schön.",
+        "b) Es liegt direkt am Wasser.",
+        "c) Es hat kein Schwimmbad."
+      ],
+      "correct": "b",
+      "correctAnswer": "b",
+      "explanation": "Lena schreibt, dass das Hotel sehr schön aussieht und direkt am Meer ist.",
+      "module": "lesen",
+      "teil": 3,
+      "level": "A2",
+      "lang": "de",
+      "topicTags": [
+        "Reisen"
+      ],
+      "vocabularyTags": [
+        "direkt",
+        "Wasser",
+        "Hotel"
+      ],
+      "grammarTags": [
+        "g-de-a2-nebensatz",
+        "g-de-a2-trennbar",
+        "g-de-a2-dat-akk"
+      ]
+    },
+    {
+      "id": "gen-q-3-20150a84-5",
+      "passageId": "gen-l3-20150a84-1",
+      "question": "Warum muss Anna schnell antworten?",
+      "type": "multiple_choice",
+      "options": [
+        "a) Lenas Angebot läuft bald ab.",
+        "b) Lena möchte schnell packen.",
+        "c) Lena muss bald zur Arbeit."
+      ],
+      "correct": "a",
+      "correctAnswer": "a",
+      "explanation": "Lena bittet um schnelle Antwort, weil das Reiseangebot bald abläuft.",
+      "module": "lesen",
+      "teil": 3,
+      "level": "A2",
+      "lang": "de",
+      "topicTags": [
+        "Reisen"
+      ],
+      "vocabularyTags": [
+        "antworten",
+        "Angebot",
+        "schnell",
+        "Lenas"
+      ],
+      "grammarTags": [
+        "g-de-a2-nebensatz",
+        "g-de-a2-modal",
+        "g-de-a2-trennbar",
+        "g-de-a2-dat-akk"
+      ]
+    }
+  ],
+  "_germanCapsNormalizeVersion": "v3.23-lesen-t2-angebote-corpus-2026-07-28",
+  "_germanCapsNormalizedAt": "2026-08-02T10:29:40.793Z",
+  "_balanceMcqVersion": "v1.2-no-rf-chrono-shuffle-2026-07-11",
+  "_balanceMcqNormalizedAt": "2026-08-02T10:29:40.791Z",
+  "topicTag": "Reisen",
+  "_requestedTopic": "Reisen",
+  "userVocabFeedback": {
+    "topic": "Reisen",
+    "requested": [
+      "koffer",
+      "tourist",
+      "ausland",
+      "aufgabe",
+      "situation",
+      "zukunft",
+      "bedeuten",
+      "täglich",
+      "gesundheit",
+      "firma"
+    ],
+    "prompted": [
+      "koffer",
+      "tourist",
+      "ausland",
+      "aufgabe",
+      "situation",
+      "zukunft",
+      "bedeuten",
+      "täglich",
+      "gesundheit",
+      "firma"
+    ],
+    "originalRequested": [
+      "koffer",
+      "tourist",
+      "ausland",
+      "aufgabe",
+      "situation",
+      "zukunft",
+      "bedeuten",
+      "täglich"
+    ],
+    "subtypeAdaptation": null,
+    "used": [
+      "koffer"
+    ],
+    "notUsed": [
+      "tourist",
+      "ausland",
+      "aufgabe",
+      "situation",
+      "zukunft",
+      "bedeuten",
+      "täglich",
+      "gesundheit",
+      "firma"
+    ],
+    "excluded": [],
+    "ratio": 0.1,
+    "targetUsage": [
+      {
+        "word": "koffer",
+        "surfaces": [
+          "Koffer"
+        ]
+      }
+    ]
+  },
+  "targetUsage": [
+    {
+      "word": "koffer",
+      "surfaces": [
+        "Koffer"
+      ]
+    }
+  ],
+  "generationMetadata": {
+    "usedFeedback": false,
+    "feedbackRules": [],
+    "feedbackCount": 0,
+    "feedbackCategories": [],
+    "feedbackMode": "off",
+    "feedbackVersion": "v1"
+  },
+  "_metadataEnrichedAt": "2026-08-02T10:29:55.957Z",
+  "_metadataEnrichNote": "deterministic: detectTopic + per-question lemma vocab + grammar heuristics",
+  "_vocabTagsNormalizeVersion": "v2.3.18-paso3-vocab-plural-rubric-strip-2026-08-02",
+  "_grammarTagsNormalizeVersion": "v2.2-a2-b2-level-tags-2026-07-27"
+}

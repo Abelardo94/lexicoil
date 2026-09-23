@@ -1,0 +1,349 @@
+{
+  "passages": [
+    {
+      "id": "gen-p-h1-21703daa-s1",
+      "module": "horen",
+      "teil": 1,
+      "lang": "de",
+      "level": "A2",
+      "title": "Text 1",
+      "topicTag": "Kultur",
+      "text": "Liebe Besucherinnen und Besucher, herzlich willkommen im Stadtmuseum. Wir haben eine neue Ausstellung zum Thema 'Moderne Kunst' eröffnet. Sie können die Bilder von Dienstag bis Sonntag von 10 bis 18 Uhr sehen. Am Montag ist das Museum geschlossen. Am kommenden Samstag gibt es um 14 Uhr eine Führung mit einem Künstler. Der Eintritt ist frei.",
+      "passageVocab": [
+        "museum",
+        "ausstellung",
+        "kunst",
+        "führung"
+      ],
+      "audio": [
+        {
+          "speaker": "Ansagerin",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Liebe Besucherinnen und Besucher, herzlich willkommen im Stadtmuseum. Wir haben eine neue Ausstellung zum Thema 'Moderne Kunst' eröffnet. Sie können die Bilder von Dienstag bis Sonntag von 10 bis 18 Uhr sehen. Am Montag ist das Museum geschlossen. Am kommenden Samstag gibt es um 14 Uhr eine Führung mit einem Künstler. Der Eintritt ist frei."
+        }
+      ]
+    },
+    {
+      "id": "gen-p-h1-21703daa-s2",
+      "module": "horen",
+      "teil": 1,
+      "lang": "de",
+      "level": "A2",
+      "title": "Text 2",
+      "topicTag": "Kultur",
+      "text": "Guten Tag, Sie sind verbunden mit dem Theater am Fluss. Leider muss die Abendvorstellung 'Sommernachtstraum' heute um 19 Uhr ausfallen. Das tut uns leid. Sie können Ihre Tickets direkt an der Kasse zurückgeben oder für eine andere Vorstellung umtauschen. Bitte rufen Sie uns für weitere Informationen an.",
+      "passageVocab": [
+        "theater",
+        "vorstellung",
+        "ticket",
+        "kasse"
+      ],
+      "audio": [
+        {
+          "speaker": "Sprecherin",
+          "voiceId": "de-DE-AmelieNeural",
+          "text": "Guten Tag, Sie sind verbunden mit dem Theater am Fluss. Leider muss die Abendvorstellung 'Sommernachtstraum' heute um 19 Uhr ausfallen. Das tut uns leid. Sie können Ihre Tickets direkt an der Kasse zurückgeben oder für eine andere Vorstellung umtauschen. Bitte rufen Sie uns für weitere Informationen an."
+        }
+      ]
+    },
+    {
+      "id": "gen-p-h1-21703daa-s3",
+      "module": "horen",
+      "teil": 1,
+      "lang": "de",
+      "level": "A2",
+      "title": "Text 3",
+      "topicTag": "Kultur",
+      "text": "Willkommen zu unserem kurzen Alltagstipp! Möchten Sie eine neue Sprache lernen oder Ihre Deutschkenntnisse verbessern? Die Volkshochschule bietet viele Kurse an. Zum Beispiel gibt es einen Kurs 'Deutsch für den Alltag' jeden Dienstagabend. Die Anmeldung ist noch bis Freitag möglich. Das ist eine gute Aufgabe für Ihre Freizeit!",
+      "passageVocab": [
+        "sprache",
+        "kurs",
+        "anmeldung",
+        "freizeit"
+      ],
+      "audio": [
+        {
+          "speaker": "Radiosprecher",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Willkommen zu unserem kurzen Alltagstipp! Möchten Sie eine neue Sprache lernen oder Ihre Deutschkenntnisse verbessern? Die Volkshochschule bietet viele Kurse an. Zum Beispiel gibt es einen Kurs 'Deutsch für den Alltag' jeden Dienstagabend. Die Anmeldung ist noch bis Freitag möglich. Das ist eine gute Aufgabe für Ihre Freizeit!"
+        }
+      ]
+    },
+    {
+      "id": "gen-p-h1-21703daa-s4",
+      "module": "horen",
+      "teil": 1,
+      "lang": "de",
+      "level": "A2",
+      "title": "Text 4",
+      "topicTag": "Kultur",
+      "text": "Wichtiger Hinweis für alle Besucher des Stadtfestes! Das Fest findet dieses Jahr vom 15. bis 17. Juli auf dem Marktplatz statt. Es gibt Musik, Essen und viele Stände mit Handwerk. Bitte beachten Sie, dass der Marktplatz für Autos gesperrt ist. Kommen Sie am besten mit öffentlichen Verkehrsmitteln. Wir freuen uns auf Ihr Kommen zu dieser großen Veranstaltung!",
+      "passageVocab": [
+        "stadtfest",
+        "marktplatz",
+        "verkehrsmittel",
+        "veranstaltung"
+      ],
+      "audio": [
+        {
+          "speaker": "Ansagerin",
+          "voiceId": "de-DE-WiebkeNeural",
+          "text": "Wichtiger Hinweis für alle Besucher des Stadtfestes! Das Fest findet dieses Jahr vom 15. bis 17. Juli auf dem Marktplatz statt. Es gibt Musik, Essen und viele Stände mit Handwerk. Bitte beachten Sie, dass der Marktplatz für Autos gesperrt ist. Kommen Sie am besten mit öffentlichen Verkehrsmitteln. Wir freuen uns auf Ihr Kommen zu dieser großen Veranstaltung!"
+        }
+      ]
+    },
+    {
+      "id": "gen-p-h1-21703daa-s5",
+      "module": "horen",
+      "teil": 1,
+      "lang": "de",
+      "level": "A2",
+      "title": "Text 5",
+      "topicTag": "Kultur",
+      "text": "Guten Tag, hier ist die Stadtbibliothek. Wir möchten Sie an unsere Lesung am nächsten Donnerstag erinnern. Frau Müller liest aus ihrem neuen Buch. Die Lesung beginnt um 19 Uhr im großen Saal. Bitte holen Sie Ihre reservierten Karten bis Mittwoch ab. Es gibt noch wenige Plätze, falls Sie spontan kommen möchten.",
+      "passageVocab": [
+        "bibliothek",
+        "lesung",
+        "buch",
+        "karte"
+      ],
+      "audio": [
+        {
+          "speaker": "Mitarbeiterin",
+          "voiceId": "de-DE-BerndNeural",
+          "text": "Guten Tag, hier ist die Stadtbibliothek. Wir möchten Sie an unsere Lesung am nächsten Donnerstag erinnern. Frau Müller liest aus ihrem neuen Buch. Die Lesung beginnt um 19 Uhr im großen Saal. Bitte holen Sie Ihre reservierten Karten bis Mittwoch ab. Es gibt noch wenige Plätze, falls Sie spontan kommen möchten."
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "gen-q-h1-21703daa-q1",
+      "module": "horen",
+      "teil": 1,
+      "lang": "de",
+      "level": "A2",
+      "type": "multiple_choice",
+      "question": "Wann ist eine Führung in der neuen Ausstellung möglich?",
+      "options": [
+        "a) Am Dienstag.",
+        "b) Am Samstag um 14 Uhr.",
+        "c) Am Montag."
+      ],
+      "correct": "b",
+      "correctAnswer": "b",
+      "explanation": "Die Ansage informiert, dass am kommenden Samstag um 14 Uhr eine Führung mit einem Künstler stattfindet.",
+      "segmentLabel": "Text 1",
+      "passageId": "gen-p-h1-21703daa-s1",
+      "skills": [
+        "listening"
+      ],
+      "language": "de",
+      "examType": "goethe",
+      "difficulty": 5,
+      "topicTags": [
+        "Kultur"
+      ],
+      "vocabularyTags": [
+        "Ausstellung",
+        "Führung",
+        "möglich",
+        "Samstag",
+        "neuen"
+      ],
+      "grammarTags": [
+        "g-de-a2-nebensatz",
+        "g-de-a2-trennbar",
+        "g-de-a2-dat-akk"
+      ]
+    },
+    {
+      "id": "gen-q-h1-21703daa-q2",
+      "module": "horen",
+      "teil": 1,
+      "lang": "de",
+      "level": "A2",
+      "type": "multiple_choice",
+      "question": "Was sollen Besucher mit ihren Tickets für die Vorstellung machen?",
+      "options": [
+        "a) Sie an der Kasse umtauschen oder zurückgeben.",
+        "b) Sie per Post an das Theater schicken.",
+        "c) Sie behalten und auf eine neue Vorstellung warten."
+      ],
+      "correct": "a",
+      "correctAnswer": "a",
+      "explanation": "Der Anrufbeantworter sagt, dass man die Tickets direkt an der Kasse zurückgeben oder für eine andere Vorstellung umtauschen kann.",
+      "segmentLabel": "Text 2",
+      "passageId": "gen-p-h1-21703daa-s2",
+      "skills": [
+        "listening"
+      ],
+      "language": "de",
+      "examType": "goethe",
+      "difficulty": 5,
+      "topicTags": [
+        "Kultur"
+      ],
+      "vocabularyTags": [
+        "zurückgeben",
+        "umtauschen",
+        "Vorstellung",
+        "Besucher",
+        "Tickets",
+        "ihren"
+      ],
+      "grammarTags": [
+        "g-de-a2-nebensatz",
+        "g-de-a2-modal",
+        "g-de-a2-trennbar",
+        "g-de-a2-dat-akk"
+      ]
+    },
+    {
+      "id": "gen-q-h1-21703daa-q3",
+      "module": "horen",
+      "teil": 1,
+      "lang": "de",
+      "level": "A2",
+      "type": "multiple_choice",
+      "question": "Was kann man an der Volkshochschule finden?",
+      "options": [
+        "a) Nur Kurse, die am Wochenende stattfinden.",
+        "b) Nur Sprachkurse für Anfänger.",
+        "c) Viele verschiedene Kurse, auch für Deutsch."
+      ],
+      "correct": "c",
+      "correctAnswer": "c",
+      "explanation": "Der Tipp erwähnt, dass die Volkshochschule viele Kurse anbietet, darunter auch einen Deutschkurs für den Alltag.",
+      "segmentLabel": "Text 3",
+      "passageId": "gen-p-h1-21703daa-s3",
+      "skills": [
+        "listening"
+      ],
+      "language": "de",
+      "examType": "goethe",
+      "difficulty": 5,
+      "topicTags": [
+        "Kultur"
+      ],
+      "vocabularyTags": [
+        "viele",
+        "verschieden",
+        "finden",
+        "Volkshochschule",
+        "Deutsch",
+        "Kurse"
+      ],
+      "grammarTags": [
+        "g-de-a2-nebensatz",
+        "g-de-a2-modal",
+        "g-de-a2-trennbar",
+        "g-de-a2-dat-akk"
+      ]
+    },
+    {
+      "id": "gen-q-h1-21703daa-q4",
+      "module": "horen",
+      "teil": 1,
+      "lang": "de",
+      "level": "A2",
+      "type": "multiple_choice",
+      "question": "Wie ist die beste Art, zum Stadtfest zu kommen?",
+      "options": [
+        "a) Mit dem Fahrrad, um die Umwelt zu schonen.",
+        "b) Mit dem eigenen Auto, da es viele Parkplätze gibt.",
+        "c) Mit öffentlichen Verkehrsmitteln, da der Marktplatz gesperrt ist."
+      ],
+      "correct": "c",
+      "correctAnswer": "c",
+      "explanation": "Der Hinweis empfiehlt, mit öffentlichen Verkehrsmitteln zu kommen, weil der Marktplatz für Autos gesperrt ist.",
+      "segmentLabel": "Text 4",
+      "passageId": "gen-p-h1-21703daa-s4",
+      "skills": [
+        "listening"
+      ],
+      "language": "de",
+      "examType": "goethe",
+      "difficulty": 5,
+      "topicTags": [
+        "Kultur"
+      ],
+      "vocabularyTags": [
+        "verkehrsmitteln",
+        "öffentlichen",
+        "kommen",
+        "Marktplatz",
+        "Stadtfest"
+      ],
+      "grammarTags": [
+        "g-de-a2-nebensatz",
+        "g-de-a2-trennbar",
+        "g-de-a2-dat-akk"
+      ]
+    },
+    {
+      "id": "gen-q-h1-21703daa-q5",
+      "module": "horen",
+      "teil": 1,
+      "lang": "de",
+      "level": "A2",
+      "type": "multiple_choice",
+      "question": "Was ist wichtig bezüglich der Karten für die Lesung?",
+      "options": [
+        "a) Man muss keine Karte haben, der Eintritt ist frei.",
+        "b) Die reservierten Karten müssen bis Mittwoch abgeholt werden.",
+        "c) Es gibt keine freien Plätze mehr für spontane Besucher."
+      ],
+      "correct": "b",
+      "correctAnswer": "b",
+      "explanation": "Die Stadtbibliothek erinnert daran, dass reservierte Karten bis Mittwoch abgeholt werden müssen, um den Platz zu sichern.",
+      "segmentLabel": "Text 5",
+      "passageId": "gen-p-h1-21703daa-s5",
+      "skills": [
+        "listening"
+      ],
+      "language": "de",
+      "examType": "goethe",
+      "difficulty": 5,
+      "topicTags": [
+        "Kultur"
+      ],
+      "vocabularyTags": [
+        "reservierten",
+        "karten",
+        "Lesung",
+        "bezüglich",
+        "Mittwoch",
+        "wichtig"
+      ],
+      "grammarTags": [
+        "g-de-a2-nebensatz",
+        "g-de-a2-modal",
+        "g-de-a2-trennbar",
+        "g-de-a2-dat-akk"
+      ]
+    }
+  ],
+  "_germanCapsNormalizeVersion": "v3.23-lesen-t2-angebote-corpus-2026-07-28",
+  "_germanCapsNormalizedAt": "2026-07-27T06:31:44.131Z",
+  "_balanceMcqVersion": "v1.2-no-rf-chrono-shuffle-2026-07-11",
+  "_balanceMcqNormalizedAt": "2026-07-27T06:31:44.131Z",
+  "topicTag": "Kultur",
+  "_requestedTopic": "Kultur",
+  "generationMetadata": {
+    "usedFeedback": false,
+    "feedbackRules": [],
+    "feedbackCount": 0,
+    "feedbackCategories": [],
+    "feedbackMode": "off",
+    "feedbackVersion": "v1"
+  },
+  "_metadataEnrichedAt": "2026-07-27T06:41:16.334Z",
+  "_metadataEnrichNote": "deterministic: detectTopic + per-question lemma vocab + grammar heuristics",
+  "_vocabTagsNormalizeVersion": "v2.3.16-b1-validated-verb-adj-lemma-2026-07-24",
+  "_grammarTagsNormalizeVersion": "v2.2-a2-b2-level-tags-2026-07-27",
+  "_a2GrammarRetagAt": "2026-07-27T06:41:16.334Z",
+  "_a2GrammarRetagNote": "re-enrich-a2-pool-grammar.mjs",
+  "_germanCapsMetadataRestampAt": "2026-08-05T04:37:08.097Z",
+  "_germanCapsMetadataRestampNote": "metadata-only; no applyGermanCapsNormalize"
+}

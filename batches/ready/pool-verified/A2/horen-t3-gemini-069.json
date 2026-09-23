@@ -1,0 +1,318 @@
+{
+  "passages": [
+    {
+      "id": "gen-p-h3-b0c8c37d-s1",
+      "module": "horen",
+      "teil": 3,
+      "lang": "de",
+      "level": "A2",
+      "topicTag": "Reisen",
+      "text": "Paul: Sag mal, Nina, hast du schon deinen Koffer gepackt? Wir fahren doch morgen ins Ausland.\nNina: Fast! Ich muss nur noch meine Badesachen einpacken. Die Aufgabe ist fast erledigt.",
+      "audio": [
+        {
+          "speaker": "Paul",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Sag mal, Nina, hast du schon deinen Koffer gepackt? Wir fahren doch morgen ins Ausland."
+        },
+        {
+          "speaker": "Nina",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Fast! Ich muss nur noch meine Badesachen einpacken. Die Aufgabe ist fast erledigt."
+        }
+      ]
+    },
+    {
+      "id": "gen-p-h3-b0c8c37d-s2",
+      "module": "horen",
+      "teil": 3,
+      "lang": "de",
+      "level": "A2",
+      "topicTag": "Reisen",
+      "text": "David: Julia, weißt du, ob es einen direkten Flug nach Mallorca gibt? Ich möchte nicht umsteigen.\nJulia: Ja, David, es gibt einen. Viele Touristen fliegen direkt dorthin.",
+      "audio": [
+        {
+          "speaker": "David",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Julia, weißt du, ob es einen direkten Flug nach Mallorca gibt? Ich möchte nicht umsteigen."
+        },
+        {
+          "speaker": "Julia",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Ja, David, es gibt einen. Viele Touristen fliegen direkt dorthin."
+        }
+      ]
+    },
+    {
+      "id": "gen-p-h3-b0c8c37d-s3",
+      "module": "horen",
+      "teil": 3,
+      "lang": "de",
+      "level": "A2",
+      "topicTag": "Reisen",
+      "text": "Simon: Lisa, ich habe gehört, du warst letztes Jahr im Ausland. War es schön?\nLisa: Ja, Simon! Es war super. Ich war in Italien und habe viele schöne Städte besucht.",
+      "audio": [
+        {
+          "speaker": "Simon",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Lisa, ich habe gehört, du warst letztes Jahr im Ausland. War es schön?"
+        },
+        {
+          "speaker": "Lisa",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Ja, Simon! Es war super. Ich war in Italien und habe viele schöne Städte besucht."
+        }
+      ]
+    },
+    {
+      "id": "gen-p-h3-b0c8c37d-s4",
+      "module": "horen",
+      "teil": 3,
+      "lang": "de",
+      "level": "A2",
+      "topicTag": "Reisen",
+      "text": "Jan: Marie, ich habe meine Reisepässe gefunden. Jetzt können wir die Reise ins Ausland planen.\nMarie: Super, Jan! Ich freue mich schon auf die neue Aufgabe, alles zu organisieren.",
+      "audio": [
+        {
+          "speaker": "Jan",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Marie, ich habe meine Reisepässe gefunden. Jetzt können wir die Reise ins Ausland planen."
+        },
+        {
+          "speaker": "Marie",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Super, Jan! Ich freue mich schon auf die neue Aufgabe, alles zu organisieren."
+        }
+      ]
+    },
+    {
+      "id": "gen-p-h3-b0c8c37d-s5",
+      "module": "horen",
+      "teil": 3,
+      "lang": "de",
+      "level": "A2",
+      "topicTag": "Reisen",
+      "text": "Erik: Hannah, kannst du mir einen Tipp geben? Ich suche ein gutes Hotel für Touristen in Berlin.\nHannah: Klar! Das Hotel am Brandenburger Tor ist sehr beliebt und direkt im Zentrum.",
+      "audio": [
+        {
+          "speaker": "Erik",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Hannah, kannst du mir einen Tipp geben? Ich suche ein gutes Hotel für Touristen in Berlin."
+        },
+        {
+          "speaker": "Hannah",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Klar! Das Hotel am Brandenburger Tor ist sehr beliebt und direkt im Zentrum."
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "gen-q-h3-b0c8c37d-q1",
+      "module": "horen",
+      "teil": 3,
+      "lang": "de",
+      "level": "A2",
+      "type": "multiple_choice",
+      "passageId": "gen-p-h3-b0c8c37d-s1",
+      "segmentLabel": "Text 1",
+      "question": "Was muss Nina noch machen?",
+      "options": [
+        "a) Morgen fahren.",
+        "b) Ihre Badesachen einpacken.",
+        "c) Ihren Koffer kaufen."
+      ],
+      "correct": "b",
+      "correctAnswer": "b",
+      "explanation": "Nina sagt, sie muss nur noch ihre Badesachen einpacken, bevor sie fertig ist.",
+      "language": "de",
+      "examType": "goethe",
+      "difficulty": 5,
+      "skills": [
+        "listening"
+      ],
+      "topicTags": [
+        "Reisen"
+      ],
+      "vocabularyTags": [
+        "einpacken",
+        "badesachen",
+        "machen"
+      ],
+      "grammarTags": [
+        "g-de-a2-nebensatz",
+        "g-de-a2-modal",
+        "g-de-a2-trennbar"
+      ]
+    },
+    {
+      "id": "gen-q-h3-b0c8c37d-q2",
+      "module": "horen",
+      "teil": 3,
+      "lang": "de",
+      "level": "A2",
+      "type": "multiple_choice",
+      "passageId": "gen-p-h3-b0c8c37d-s2",
+      "segmentLabel": "Text 2",
+      "question": "Was möchte David nicht?",
+      "options": [
+        "a) Umsteigen.",
+        "b) Einen direkten Flug.",
+        "c) Nach Mallorca fliegen."
+      ],
+      "correct": "a",
+      "correctAnswer": "a",
+      "explanation": "David fragt nach einem direkten Flug, weil er nicht umsteigen möchte.",
+      "language": "de",
+      "examType": "goethe",
+      "difficulty": 5,
+      "skills": [
+        "listening"
+      ],
+      "topicTags": [
+        "Reisen"
+      ],
+      "vocabularyTags": [
+        "umsteigen",
+        "möcht",
+        "David"
+      ],
+      "grammarTags": [
+        "g-de-a2-nebensatz",
+        "g-de-a2-modal",
+        "g-de-a2-trennbar"
+      ]
+    },
+    {
+      "id": "gen-q-h3-b0c8c37d-q3",
+      "module": "horen",
+      "teil": 3,
+      "lang": "de",
+      "level": "A2",
+      "type": "multiple_choice",
+      "passageId": "gen-p-h3-b0c8c37d-s3",
+      "segmentLabel": "Text 3",
+      "question": "Wo war Lisa letztes Jahr?",
+      "options": [
+        "a) Zuhause.",
+        "b) In Deutschland.",
+        "c) In Italien."
+      ],
+      "correct": "c",
+      "correctAnswer": "c",
+      "explanation": "Lisa erzählt Simon, dass sie letztes Jahr in Italien war und dort viele schöne Städte besucht hat.",
+      "language": "de",
+      "examType": "goethe",
+      "difficulty": 5,
+      "skills": [
+        "listening"
+      ],
+      "topicTags": [
+        "Reisen"
+      ],
+      "vocabularyTags": [
+        "letzt",
+        "italien"
+      ],
+      "grammarTags": [
+        "g-de-a2-nebensatz"
+      ]
+    },
+    {
+      "id": "gen-q-h3-b0c8c37d-q4",
+      "module": "horen",
+      "teil": 3,
+      "lang": "de",
+      "level": "A2",
+      "type": "multiple_choice",
+      "passageId": "gen-p-h3-b0c8c37d-s4",
+      "segmentLabel": "Text 4",
+      "question": "Was haben Jan und Marie vor?",
+      "options": [
+        "a) Eine Aufgabe erledigen.",
+        "b) Reisepässe suchen.",
+        "c) Eine Reise planen."
+      ],
+      "correct": "c",
+      "correctAnswer": "c",
+      "explanation": "Jan hat die Reisepässe gefunden und sagt, dass sie jetzt die Reise ins Ausland planen können.",
+      "language": "de",
+      "examType": "goethe",
+      "difficulty": 5,
+      "skills": [
+        "listening"
+      ],
+      "topicTags": [
+        "Reisen"
+      ],
+      "vocabularyTags": [
+        "planen",
+        "Marie",
+        "Reise"
+      ],
+      "grammarTags": [
+        "g-de-a2-nebensatz",
+        "g-de-a2-modal",
+        "g-de-a2-perfekt",
+        "g-de-a2-trennbar"
+      ]
+    },
+    {
+      "id": "gen-q-h3-b0c8c37d-q5",
+      "module": "horen",
+      "teil": 3,
+      "lang": "de",
+      "level": "A2",
+      "type": "multiple_choice",
+      "passageId": "gen-p-h3-b0c8c37d-s5",
+      "segmentLabel": "Text 5",
+      "question": "Wo befindet sich das empfohlene Hotel?",
+      "options": [
+        "a) Am Flughafen.",
+        "b) Direkt im Zentrum.",
+        "c) Am Stadtrand."
+      ],
+      "correct": "b",
+      "correctAnswer": "b",
+      "explanation": "Hannah empfiehlt ein Hotel, das sehr beliebt ist und direkt im Zentrum von Berlin liegt.",
+      "language": "de",
+      "examType": "goethe",
+      "difficulty": 5,
+      "skills": [
+        "listening"
+      ],
+      "topicTags": [
+        "Reisen"
+      ],
+      "vocabularyTags": [
+        "Direkt",
+        "empfohlen",
+        "Zentrum",
+        "Hotel"
+      ],
+      "grammarTags": [
+        "g-de-a2-dat-akk"
+      ]
+    }
+  ],
+  "_germanCapsNormalizeVersion": "v3.23-lesen-t2-angebote-corpus-2026-07-28",
+  "_germanCapsNormalizedAt": "2026-07-27T06:42:00.225Z",
+  "_balanceMcqVersion": "v1.2-no-rf-chrono-shuffle-2026-07-11",
+  "_balanceMcqNormalizedAt": "2026-07-27T06:42:00.225Z",
+  "topicTag": "Reisen",
+  "_requestedTopic": "Reisen",
+  "generationMetadata": {
+    "usedFeedback": false,
+    "feedbackRules": [],
+    "feedbackCount": 0,
+    "feedbackCategories": [],
+    "feedbackMode": "off",
+    "feedbackVersion": "v1"
+  },
+  "_metadataEnrichedAt": "2026-07-27T06:42:02.377Z",
+  "_metadataEnrichNote": "deterministic: detectTopic + per-question lemma vocab + grammar heuristics",
+  "_vocabTagsNormalizeVersion": "v2.3.16-b1-validated-verb-adj-lemma-2026-07-24",
+  "_grammarTagsNormalizeVersion": "v2.2-a2-b2-level-tags-2026-07-27",
+  "_germanCapsMetadataRestampAt": "2026-08-05T04:37:08.156Z",
+  "_germanCapsMetadataRestampNote": "metadata-only; no applyGermanCapsNormalize"
+}

@@ -1,0 +1,378 @@
+{
+  "passages": [
+    {
+      "id": "gen-l4-9f9950be-a",
+      "title": "Grüner Daumen gesucht!",
+      "text": "Wir suchen Freiwillige für unser Stadtgarten-Projekt. Gemeinsam pflanzen wir Gemüse und Kräuter für alle. Keine Erfahrung nötig. Treffen jeden Samstagmorgen. Machen Sie mit und helfen Sie der Umwelt! Anmeldung per E-Mail ist erforderlich.",
+      "topicTag": "Umwelt",
+      "module": "lesen",
+      "teil": 4,
+      "lang": "de",
+      "level": "A2"
+    },
+    {
+      "id": "gen-l4-9f9950be-b",
+      "title": "Strom sparen leicht gemacht",
+      "text": "Unser neuer Kurs zeigt Ihnen, wie Sie zu Hause Energie sparen können. Das ist gut für die Umwelt und Ihren Geldbeutel. Lernen Sie einfache Tipps und Tricks. Der Kurs findet online statt, an drei Abenden. Melden Sie sich jetzt an!",
+      "topicTag": "Umwelt",
+      "module": "lesen",
+      "teil": 4,
+      "lang": "de",
+      "level": "A2"
+    },
+    {
+      "id": "gen-l4-9f9950be-c",
+      "title": "Fahrrad-Reparatur-Werkstatt",
+      "text": "Bringen Sie Ihr altes Fahrrad in unsere Werkstatt! Wir helfen Ihnen, es zu reparieren, statt ein neues zu kaufen. Das schont Ressourcen und ist nachhaltig. Unsere Experten zeigen Ihnen, wie es geht. Termine nach Vereinbarung.",
+      "topicTag": "Umwelt",
+      "module": "lesen",
+      "teil": 4,
+      "lang": "de",
+      "level": "A2"
+    },
+    {
+      "id": "gen-l4-9f9950be-d",
+      "title": "Müll trennen – aber richtig!",
+      "text": "Wissen Sie, was in welche Tonne gehört? Unser kostenloses Seminar klärt auf! Weniger Müll bedeutet mehr Schutz für die Umwelt. Erfahren Sie alles über Recycling und Abfallvermeidung. Nächster Termin: Freitagabend im Bürgerhaus.",
+      "topicTag": "Umwelt",
+      "module": "lesen",
+      "teil": 4,
+      "lang": "de",
+      "level": "A2"
+    },
+    {
+      "id": "gen-l4-9f9950be-e",
+      "title": "Naturerlebnisse für Familien",
+      "text": "Entdecken Sie die Natur in Ihrer Nähe! Unser Verein organisiert Wanderungen und Ausflüge für Familien mit Kindern. Lernen Sie Tiere und Pflanzen kennen. Eine tolle Gelegenheit, gemeinsam draußen zu sein und die Umwelt zu schätzen.",
+      "topicTag": "Umwelt",
+      "module": "lesen",
+      "teil": 4,
+      "lang": "de",
+      "level": "A2"
+    },
+    {
+      "id": "gen-l4-9f9950be-f",
+      "title": "Nachhaltig einkaufen – Tipps",
+      "text": "Möchten Sie wissen, wie man umweltfreundlich einkauft? Unser Online-Kurs gibt Ihnen praktische Tipps für den Alltag. Weniger Plastik, regionale Produkte und faire Preise. Machen Sie den ersten Schritt zu einem grüneren Leben!",
+      "topicTag": "Umwelt",
+      "module": "lesen",
+      "teil": 4,
+      "lang": "de",
+      "level": "A2"
+    }
+  ],
+  "questions": [
+    {
+      "id": "gen-q-4-9f9950be-1",
+      "question": "Herr Müller möchte in seiner Freizeit aktiv werden und etwas Gutes für die Natur in seiner Stadt tun. Er hat keine Erfahrung mit Gartenarbeit. Welche Anzeige passt?",
+      "options": [
+        "a) a",
+        "b) b",
+        "c) c",
+        "d) d",
+        "e) e",
+        "f) f",
+        "g) X"
+      ],
+      "correctAnswer": "a",
+      "module": "lesen",
+      "teil": 4,
+      "level": "A2",
+      "correct": "a",
+      "explanation": "Anzeige 'a' sucht Freiwillige für ein Stadtgarten-Projekt und betont, dass keine Erfahrung nötig ist.",
+      "lang": "de",
+      "type": "matching",
+      "topicTags": [
+        "Umwelt"
+      ],
+      "vocabularyTags": [
+        "aktiv",
+        "Erfahrung",
+        "Freizeit",
+        "stadtgarten-projekt",
+        "Gartenarbeit",
+        "Freiwillige"
+      ],
+      "grammarTags": [
+        "g-de-a2-nebensatz",
+        "g-de-a2-modal",
+        "g-de-a2-trennbar",
+        "g-de-a2-dat-akk"
+      ]
+    },
+    {
+      "id": "gen-q-4-9f9950be-2",
+      "question": "Familie Meier möchte ihre Stromrechnung senken und gleichzeitig die Umwelt schonen. Sie suchen nach einfachen Wegen, um Energie zu sparen. Welche Anzeige passt?",
+      "options": [
+        "a) a",
+        "b) b",
+        "c) c",
+        "d) d",
+        "e) e",
+        "f) f",
+        "g) X"
+      ],
+      "correctAnswer": "b",
+      "module": "lesen",
+      "teil": 4,
+      "level": "A2",
+      "correct": "b",
+      "explanation": "Anzeige 'b' bietet einen Kurs zum Energiesparen an, der gut für Umwelt und Geldbeutel ist.",
+      "lang": "de",
+      "type": "matching",
+      "topicTags": [
+        "Umwelt"
+      ],
+      "vocabularyTags": [
+        "Umwelt",
+        "bieten",
+        "wegen",
+        "einfachen",
+        "suchen",
+        "Stromrechnung"
+      ],
+      "grammarTags": [
+        "g-de-a2-modal",
+        "g-de-a2-trennbar",
+        "g-de-a2-dat-akk"
+      ]
+    },
+    {
+      "id": "gen-q-4-9f9950be-3",
+      "question": "Anna fährt viel Fahrrad, aber ihr Rad ist kaputt. Sie möchte es nicht wegwerfen, sondern selbst reparieren lernen. Welche Anzeige passt?",
+      "options": [
+        "a) a",
+        "b) b",
+        "c) c",
+        "d) d",
+        "e) e",
+        "f) f",
+        "g) X"
+      ],
+      "correctAnswer": "c",
+      "module": "lesen",
+      "teil": 4,
+      "level": "A2",
+      "correct": "c",
+      "explanation": "Anzeige 'c' ist eine Fahrrad-Reparatur-Werkstatt, die hilft, Fahrräder zu reparieren und Mittel zu schonen.",
+      "lang": "de",
+      "type": "matching",
+      "topicTags": [
+        "Umwelt"
+      ],
+      "vocabularyTags": [
+        "sondern",
+        "kaputt",
+        "reparieren",
+        "wegwerfen",
+        "schonen"
+      ],
+      "grammarTags": [
+        "g-de-a2-modal",
+        "g-de-a2-trennbar",
+        "g-de-a2-dat-akk",
+        "g-de-a2-praesens"
+      ]
+    },
+    {
+      "id": "gen-q-4-9f9950be-4",
+      "question": "Frau Schmidt möchte umweltbewusster leben und beim Einkaufen auf Umweltschutz achten. Sie sucht praktische Ratschläge für den Alltag. Welche Anzeige passt?",
+      "options": [
+        "a) a",
+        "b) b",
+        "c) c",
+        "d) d",
+        "e) e",
+        "f) f",
+        "g) X"
+      ],
+      "correctAnswer": "f",
+      "module": "lesen",
+      "teil": 4,
+      "level": "A2",
+      "correct": "f",
+      "explanation": "Anzeige 'f' bietet einen Online-Kurs mit praktischen Tipps für umweltfreundliches Einkaufen im Alltag.",
+      "lang": "de",
+      "type": "matching",
+      "topicTags": [
+        "Umwelt"
+      ],
+      "vocabularyTags": [
+        "achten",
+        "Alltag",
+        "bieten",
+        "einkaufen",
+        "Praktischen",
+        "leben"
+      ],
+      "grammarTags": [
+        "g-de-a2-modal",
+        "g-de-a2-trennbar",
+        "g-de-a2-dat-akk",
+        "g-de-a2-praesens"
+      ]
+    },
+    {
+      "id": "gen-q-4-9f9950be-5",
+      "question": "Herr Weber sucht einen Kurs, um seine Computerkenntnisse zu verbessern. Er möchte lernen, wie man Programme installiert. Keine Anzeige passt. Markieren Sie X.",
+      "options": [
+        "a) a",
+        "b) b",
+        "c) c",
+        "d) d",
+        "e) e",
+        "f) f",
+        "g) X"
+      ],
+      "correctAnswer": "X",
+      "module": "lesen",
+      "teil": 4,
+      "level": "A2",
+      "correct": "X",
+      "explanation": "Keine der Anzeigen a-f bietet einen Kurs zur Verbesserung von Computerkenntnissen oder Software-Installation an.",
+      "lang": "de",
+      "type": "matching",
+      "topicTags": [
+        "Umwelt"
+      ],
+      "vocabularyTags": [
+        "bieten",
+        "Software-installation",
+        "computerkenntnissen",
+        "Verbesserung",
+        "verbessern",
+        "markieren"
+      ],
+      "grammarTags": [
+        "g-de-a2-modal",
+        "g-de-a2-trennbar",
+        "g-de-a2-dat-akk",
+        "g-de-a2-praesens"
+      ]
+    }
+  ],
+  "_germanCapsNormalizeVersion": "v3.23-lesen-t2-angebote-corpus-2026-07-28",
+  "_germanCapsNormalizedAt": "2026-09-23T00:31:51.689Z",
+  "_balanceMcqVersion": "v1.2-no-rf-chrono-shuffle-2026-07-11",
+  "_balanceMcqNormalizedAt": "2026-09-23T00:31:51.625Z",
+  "topicTag": "Umwelt",
+  "_requestedTopic": "Umwelt",
+  "userVocabFeedback": {
+    "topic": "Umwelt",
+    "requested": [
+      "erfahrung",
+      "vorteil",
+      "anmeldung",
+      "meinung",
+      "projekt",
+      "gemeinsam",
+      "aufgabe",
+      "situation",
+      "transport",
+      "firma"
+    ],
+    "prompted": [
+      "erfahrung",
+      "vorteil",
+      "anmeldung",
+      "meinung",
+      "projekt",
+      "gemeinsam",
+      "aufgabe",
+      "situation",
+      "transport",
+      "firma"
+    ],
+    "originalRequested": [
+      "erfahrung",
+      "vorteil",
+      "anmeldung",
+      "meinung",
+      "projekt",
+      "gemeinsam",
+      "aufgabe",
+      "situation"
+    ],
+    "subtypeAdaptation": null,
+    "used": [
+      "erfahrung",
+      "anmeldung",
+      "projekt",
+      "gemeinsam"
+    ],
+    "notUsed": [
+      "vorteil",
+      "meinung",
+      "aufgabe",
+      "situation",
+      "transport",
+      "firma"
+    ],
+    "excluded": [],
+    "ratio": 0.4,
+    "targetUsage": [
+      {
+        "word": "erfahrung",
+        "surfaces": [
+          "Erfahrung"
+        ]
+      },
+      {
+        "word": "anmeldung",
+        "surfaces": [
+          "Anmeldung"
+        ]
+      },
+      {
+        "word": "projekt",
+        "surfaces": [
+          "Projekt"
+        ]
+      },
+      {
+        "word": "gemeinsam",
+        "surfaces": [
+          "Gemeinsam"
+        ]
+      }
+    ]
+  },
+  "targetUsage": [
+    {
+      "word": "erfahrung",
+      "surfaces": [
+        "Erfahrung"
+      ]
+    },
+    {
+      "word": "anmeldung",
+      "surfaces": [
+        "Anmeldung"
+      ]
+    },
+    {
+      "word": "projekt",
+      "surfaces": [
+        "Projekt"
+      ]
+    },
+    {
+      "word": "gemeinsam",
+      "surfaces": [
+        "Gemeinsam"
+      ]
+    }
+  ],
+  "generationMetadata": {
+    "usedFeedback": false,
+    "feedbackRules": [],
+    "feedbackCount": 0,
+    "feedbackCategories": [],
+    "feedbackMode": "off",
+    "feedbackVersion": "v1"
+  },
+  "_metadataEnrichedAt": "2026-09-23T00:32:03.056Z",
+  "_metadataEnrichNote": "deterministic: detectTopic + per-question lemma vocab + grammar heuristics",
+  "_vocabTagsNormalizeVersion": "v2.3.18-paso3-vocab-plural-rubric-strip-2026-08-02",
+  "_grammarTagsNormalizeVersion": "v2.2-a2-b2-level-tags-2026-07-27"
+}

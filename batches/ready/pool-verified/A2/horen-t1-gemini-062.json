@@ -1,0 +1,331 @@
+{
+  "passages": [
+    {
+      "id": "gen-p-h1-c968d359-s1",
+      "module": "horen",
+      "teil": 1,
+      "lang": "de",
+      "level": "A2",
+      "title": "Text 1",
+      "text": "Liebe Besucherinnen und Besucher, wir haben eine wichtige Information für Sie. Ab nächster Woche zeigt unser Museum eine neue Kunstausstellung. Sie heißt 'Farben der Welt'. Die Ausstellung beginnt am Dienstag um zehn Uhr. Der Eintritt kostet fünf Euro. Kinder unter zwölf Jahren zahlen nichts.",
+      "passageVocab": [
+        "museum",
+        "kunst",
+        "ausstellung",
+        "eintritt"
+      ],
+      "audio": [
+        {
+          "speaker": "Ansager",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Liebe Besucherinnen und Besucher, wir haben eine wichtige Information für Sie. Ab nächster Woche zeigt unser Museum eine neue Kunstausstellung. Sie heißt 'Farben der Welt'. Die Ausstellung beginnt am Dienstag um zehn Uhr. Der Eintritt kostet fünf Euro. Kinder unter zwölf Jahren zahlen nichts."
+        }
+      ],
+      "topicTag": "Kultur"
+    },
+    {
+      "id": "gen-p-h1-c968d359-s2",
+      "module": "horen",
+      "teil": 1,
+      "lang": "de",
+      "level": "A2",
+      "title": "Text 2",
+      "text": "Guten Tag, hier ist die Theaterkasse. Wir rufen an wegen Ihrer Reservierung für das Konzert am Samstagabend. Leider muss das Konzert verschoben werden. Es findet jetzt am nächsten Freitag um zwanzig Uhr statt. Ihre Tickets bleiben gültig. Bitte rufen Sie uns an, wenn Sie Fragen haben.",
+      "passageVocab": [
+        "theaterkasse",
+        "konzert",
+        "reservierung",
+        "tickets"
+      ],
+      "audio": [
+        {
+          "speaker": "Sprecherin",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Guten Tag, hier ist die Theaterkasse. Wir rufen an wegen Ihrer Reservierung für das Konzert am Samstagabend. Leider muss das Konzert verschoben werden. Es findet jetzt am nächsten Freitag um zwanzig Uhr statt. Ihre Tickets bleiben gültig. Bitte rufen Sie uns an, wenn Sie Fragen haben."
+        }
+      ],
+      "topicTag": "Kultur"
+    },
+    {
+      "id": "gen-p-h1-c968d359-s3",
+      "module": "horen",
+      "teil": 1,
+      "lang": "de",
+      "level": "A2",
+      "title": "Text 3",
+      "text": "Willkommen zurück zu unserem Kultur-Tipp der Woche! Heute empfehlen wir Ihnen ein spannendes Buch: 'Die Reise ins Glück'. Es ist ein Roman über eine junge Frau, die die Welt entdeckt. Ideal für entspannte Stunden zu Hause oder im Urlaub. Sie finden es in jeder Buchhandlung.",
+      "passageVocab": [
+        "buch",
+        "roman",
+        "reise",
+        "buchhandlung"
+      ],
+      "audio": [
+        {
+          "speaker": "Radiosprecher",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Willkommen zurück zu unserem Kultur-Tipp der Woche! Heute empfehlen wir Ihnen ein spannendes Buch: 'Die Reise ins Glück'. Es ist ein Roman über eine junge Frau, die die Welt entdeckt. Ideal für entspannte Stunden zu Hause oder im Urlaub. Sie finden es in jeder Buchhandlung."
+        }
+      ],
+      "topicTag": "Kultur"
+    },
+    {
+      "id": "gen-p-h1-c968d359-s4",
+      "module": "horen",
+      "teil": 1,
+      "lang": "de",
+      "level": "A2",
+      "title": "Text 4",
+      "text": "Wichtiger Hinweis für alle Teilnehmer der Stadtführung 'Historisches Berlin'! Der Treffpunkt ist heute nicht am Brandenburger Tor. Wir treffen uns stattdessen direkt vor dem roten Rathaus. Bitte seien Sie pünktlich um vierzehn Uhr da. Die Führung dauert etwa zwei Stunden.",
+      "passageVocab": [
+        "stadtführung",
+        "treffpunkt",
+        "rathaus",
+        "pünktlich"
+      ],
+      "audio": [
+        {
+          "speaker": "Ansager",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Wichtiger Hinweis für alle Teilnehmer der Stadtführung 'Historisches Berlin'! Der Treffpunkt ist heute nicht am Brandenburger Tor. Wir treffen uns stattdessen direkt vor dem roten Rathaus. Bitte seien Sie pünktlich um vierzehn Uhr da. Die Führung dauert etwa zwei Stunden."
+        }
+      ],
+      "topicTag": "Kultur"
+    },
+    {
+      "id": "gen-p-h1-c968d359-s5",
+      "module": "horen",
+      "teil": 1,
+      "lang": "de",
+      "level": "A2",
+      "title": "Text 5",
+      "text": "Guten Tag, hier ist die Volkshochschule. Wir möchten Sie über unseren neuen Malkurs informieren. Er beginnt am ersten Montag im nächsten Monat. Der Kurs ist für Anfänger und Fortgeschrittene geeignet. Die Anmeldung ist ab sofort online möglich. Die Kursgebühr beträgt neunzig Euro.",
+      "passageVocab": [
+        "malkurs",
+        "anmeldung",
+        "volkshochschule",
+        "kursgebühr"
+      ],
+      "audio": [
+        {
+          "speaker": "Mitarbeiterin",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Guten Tag, hier ist die Volkshochschule. Wir möchten Sie über unseren neuen Malkurs informieren. Er beginnt am ersten Montag im nächsten Monat. Der Kurs ist für Anfänger und Fortgeschrittene geeignet. Die Anmeldung ist ab sofort online möglich. Die Kursgebühr beträgt neunzig Euro."
+        }
+      ],
+      "topicTag": "Kultur"
+    }
+  ],
+  "questions": [
+    {
+      "id": "gen-q-h1-c968d359-q1",
+      "module": "horen",
+      "teil": 1,
+      "lang": "de",
+      "level": "A2",
+      "type": "multiple_choice",
+      "question": "Wann beginnt die neue Kunstausstellung?",
+      "options": [
+        "a) Am Dienstag",
+        "b) Am Wochenende",
+        "c) Am Montag"
+      ],
+      "correct": "a",
+      "correctAnswer": "a",
+      "explanation": "Die Ansage informiert, dass die neue Kunstausstellung im Museum am Dienstag beginnt.",
+      "segmentLabel": "Text 1",
+      "passageId": "gen-p-h1-c968d359-s1",
+      "skills": [
+        "listening"
+      ],
+      "language": "de",
+      "examType": "goethe",
+      "difficulty": 5,
+      "topicTags": [
+        "Kultur"
+      ],
+      "vocabularyTags": [
+        "Kunstausstellung",
+        "Dienstag"
+      ],
+      "grammarTags": [
+        "g-de-a2-nebensatz",
+        "g-de-a2-trennbar"
+      ]
+    },
+    {
+      "id": "gen-q-h1-c968d359-q2",
+      "module": "horen",
+      "teil": 1,
+      "lang": "de",
+      "level": "A2",
+      "type": "multiple_choice",
+      "question": "Was ist neu beim Konzert?",
+      "options": [
+        "a) Es ist am Samstagabend.",
+        "b) Es ist eine andere Veranstaltung.",
+        "c) Es hat einen neuen Termin."
+      ],
+      "correct": "c",
+      "correctAnswer": "c",
+      "explanation": "Das Konzert wird verschoben und findet jetzt am nächsten Freitag statt, was bedeutet, es gibt einen neuen Termin.",
+      "segmentLabel": "Text 2",
+      "passageId": "gen-p-h1-c968d359-s2",
+      "skills": [
+        "listening"
+      ],
+      "language": "de",
+      "examType": "goethe",
+      "difficulty": 5,
+      "topicTags": [
+        "Kultur"
+      ],
+      "vocabularyTags": [
+        "Termin",
+        "Konzert",
+        "neuen"
+      ],
+      "grammarTags": [
+        "g-de-a2-trennbar",
+        "g-de-a2-praesens"
+      ]
+    },
+    {
+      "id": "gen-q-h1-c968d359-q3",
+      "module": "horen",
+      "teil": 1,
+      "lang": "de",
+      "level": "A2",
+      "type": "multiple_choice",
+      "question": "Worum geht es in dem empfohlenen Buch?",
+      "options": [
+        "a) Um das Entdecken der Welt im Urlaub.",
+        "b) Um eine Reise einer jungen Frau.",
+        "c) Um Glück im Alltag."
+      ],
+      "correct": "b",
+      "correctAnswer": "b",
+      "explanation": "Der Radiosprecher beschreibt das Buch als einen Roman über eine junge Frau, die die Welt entdeckt.",
+      "segmentLabel": "Text 3",
+      "passageId": "gen-p-h1-c968d359-s3",
+      "skills": [
+        "listening"
+      ],
+      "language": "de",
+      "examType": "goethe",
+      "difficulty": 5,
+      "topicTags": [
+        "Kultur"
+      ],
+      "vocabularyTags": [
+        "Frau",
+        "Reise"
+      ],
+      "grammarTags": [
+        "g-de-a2-trennbar",
+        "g-de-a2-dat-akk"
+      ]
+    },
+    {
+      "id": "gen-q-h1-c968d359-q4",
+      "module": "horen",
+      "teil": 1,
+      "lang": "de",
+      "level": "A2",
+      "type": "multiple_choice",
+      "question": "Wo beginnt die Stadtführung heute?",
+      "options": [
+        "a) Direkt beim roten Rathaus.",
+        "b) Um vierzehn Uhr.",
+        "c) Am Brandenburger Tor."
+      ],
+      "correct": "a",
+      "correctAnswer": "a",
+      "explanation": "Der Hinweis besagt, dass sich die Teilnehmer heute direkt vor dem roten Rathaus treffen.",
+      "segmentLabel": "Text 4",
+      "passageId": "gen-p-h1-c968d359-s4",
+      "skills": [
+        "listening"
+      ],
+      "language": "de",
+      "examType": "goethe",
+      "difficulty": 5,
+      "topicTags": [
+        "Kultur"
+      ],
+      "vocabularyTags": [
+        "Direkt",
+        "Stadtführung",
+        "Rathaus",
+        "roten"
+      ],
+      "grammarTags": [
+        "g-de-a2-nebensatz",
+        "g-de-a2-trennbar",
+        "g-de-a2-dat-akk"
+      ]
+    },
+    {
+      "id": "gen-q-h1-c968d359-q5",
+      "module": "horen",
+      "teil": 1,
+      "lang": "de",
+      "level": "A2",
+      "type": "multiple_choice",
+      "question": "Wer kann an dem Malkurs teilnehmen?",
+      "options": [
+        "a) Nur Anfänger.",
+        "b) Nur Fortgeschrittene.",
+        "c) Anfänger und Fortgeschrittene."
+      ],
+      "correct": "c",
+      "correctAnswer": "c",
+      "explanation": "Die Volkshochschule informiert, dass der Malkurs sowohl für Anfänger als auch für Fortgeschrittene geeignet ist.",
+      "segmentLabel": "Text 5",
+      "passageId": "gen-p-h1-c968d359-s5",
+      "skills": [
+        "listening"
+      ],
+      "language": "de",
+      "examType": "goethe",
+      "difficulty": 5,
+      "topicTags": [
+        "Kultur"
+      ],
+      "vocabularyTags": [
+        "teilnehmen",
+        "Fortgeschrittene",
+        "Anfänger",
+        "Malkurs"
+      ],
+      "grammarTags": [
+        "g-de-a2-nebensatz",
+        "g-de-a2-modal",
+        "g-de-a2-trennbar",
+        "g-de-a2-dat-akk"
+      ]
+    }
+  ],
+  "_germanCapsNormalizeVersion": "v3.23-lesen-t2-angebote-corpus-2026-07-28",
+  "_germanCapsNormalizedAt": "2026-07-27T06:41:10.418Z",
+  "_balanceMcqVersion": "v1.2-no-rf-chrono-shuffle-2026-07-11",
+  "_balanceMcqNormalizedAt": "2026-07-27T06:41:10.418Z",
+  "topicTag": "Kultur",
+  "_requestedTopic": "Kultur",
+  "generationMetadata": {
+    "usedFeedback": false,
+    "feedbackRules": [],
+    "feedbackCount": 0,
+    "feedbackCategories": [],
+    "feedbackMode": "off",
+    "feedbackVersion": "v1"
+  },
+  "_metadataEnrichedAt": "2026-07-27T06:41:16.358Z",
+  "_metadataEnrichNote": "deterministic: detectTopic + per-question lemma vocab + grammar heuristics",
+  "_vocabTagsNormalizeVersion": "v2.3.16-b1-validated-verb-adj-lemma-2026-07-24",
+  "_grammarTagsNormalizeVersion": "v2.2-a2-b2-level-tags-2026-07-27",
+  "_a2GrammarRetagAt": "2026-07-27T06:41:16.358Z",
+  "_a2GrammarRetagNote": "re-enrich-a2-pool-grammar.mjs",
+  "_germanCapsMetadataRestampAt": "2026-08-05T04:37:08.102Z",
+  "_germanCapsMetadataRestampNote": "metadata-only; no applyGermanCapsNormalize"
+}

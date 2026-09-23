@@ -1,0 +1,99 @@
+{
+  "passages": [],
+  "questions": [
+    {
+      "id": "gen-q-sp-t1-56ea1868-q1",
+      "module": "sprechen",
+      "teil": 1,
+      "lang": "de",
+      "level": "A2",
+      "type": "personal_questions",
+      "question": "Sie bekommen vier Karten und stellen mit diesen Karten vier Fragen. Ihr Partner/Ihre Partnerin antwortet. Dann stellt Ihr Partner/Ihre Partnerin vier Fragen und Sie antworten. Sie haben keine Vorbereitungszeit.\n\nIhre Karten:\n1. Geburtstag — Wann ist Ihr Geburtstag? Wie feiern Sie normalerweise? Mit wem verbringen Sie diesen Tag?\n2. Wohnort — Wo wohnen Sie genau? Beschreiben Sie bitte Ihre Wohnung oder Ihr Haus. Wie finden Sie Ihre Nachbarn?\n3. Beruf — Was ist Ihr Beruf? Oder: Was möchten Sie später einmal arbeiten?\n4. Hobby — Was machen Sie gern in Ihrer Freizeit? Welches Hobby haben Sie?\n\nStellen Sie zu jeder Karte eine Frage. Antworten Sie dann auf die Fragen Ihres Partners/Ihrer Partnerin.",
+      "correct": "rubric",
+      "correctAnswer": "rubric",
+      "options": [],
+      "explanation": "In diesem Teil sprechen Sie mit Ihrem Partner/Ihrer Partnerin über persönliche Themen (Geburtstag, Wohnort, Beruf, Hobby). Wichtig sind verständliche Sätze und einfacher Wortschatz auf A2-Niveau.",
+      "difficulty": 3,
+      "skills": [
+        "speaking"
+      ],
+      "language": "de",
+      "examType": "goethe",
+      "topicTags": [
+        "Freizeit"
+      ],
+      "vocabularyTags": [
+        "verbringen",
+        "Partner",
+        "Wohnung",
+        "einmal",
+        "Hobby",
+        "Haus"
+      ],
+      "grammarTags": [
+        "g-de-a2-modal",
+        "g-de-a2-trennbar",
+        "g-de-a2-dat-akk",
+        "g-de-a2-praesens"
+      ]
+    }
+  ],
+  "_germanCapsNormalizeVersion": "v3.23-lesen-t2-angebote-corpus-2026-07-28",
+  "_germanCapsNormalizedAt": "2026-08-02T07:15:30.748Z",
+  "_balanceMcqVersion": "v1.2-no-rf-chrono-shuffle-2026-07-11",
+  "_balanceMcqNormalizedAt": "2026-08-02T07:15:30.748Z",
+  "topicTag": "Medien",
+  "_requestedTopic": "Medien",
+  "userVocabFeedback": {
+    "topic": "Medien",
+    "requested": [
+      "aufgabe",
+      "situation",
+      "zukunft",
+      "täglich",
+      "bedeuten",
+      "blog",
+      "radio",
+      "vorschlag"
+    ],
+    "prompted": [
+      "aufgabe",
+      "situation",
+      "zukunft",
+      "täglich",
+      "bedeuten",
+      "blog",
+      "radio",
+      "vorschlag"
+    ],
+    "originalRequested": null,
+    "subtypeAdaptation": null,
+    "used": [],
+    "notUsed": [
+      "aufgabe",
+      "situation",
+      "zukunft",
+      "täglich",
+      "bedeuten",
+      "blog",
+      "radio",
+      "vorschlag"
+    ],
+    "excluded": [],
+    "ratio": 0,
+    "targetUsage": []
+  },
+  "targetUsage": [],
+  "generationMetadata": {
+    "usedFeedback": false,
+    "feedbackRules": [],
+    "feedbackCount": 0,
+    "feedbackCategories": [],
+    "feedbackMode": "off",
+    "feedbackVersion": "v1"
+  },
+  "_metadataEnrichedAt": "2026-08-02T08:19:03.485Z",
+  "_metadataEnrichNote": "deterministic: detectTopic + per-question lemma vocab + grammar heuristics",
+  "_vocabTagsNormalizeVersion": "v2.3.17b-plural-noun-vocab-cap-fix-2026-07-27",
+  "_grammarTagsNormalizeVersion": "v2.2-a2-b2-level-tags-2026-07-27"
+}

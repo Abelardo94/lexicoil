@@ -1,0 +1,284 @@
+{
+  "passages": [
+    {
+      "id": "gen-p-h2-72eb1308-s1",
+      "module": "horen",
+      "teil": 2,
+      "lang": "de",
+      "level": "A2",
+      "title": "Wochenpläne",
+      "topicTag": "Ernährung",
+      "text": "Lena: Hallo Max! Wie geht es dir? Hast du schon Pläne für die Woche?\nMax: Hallo Lena! Mir geht es gut, danke. Ja, ich habe einiges vor. Am Montag muss ich unbedingt einkaufen gehen. Mein Kühlschrank ist fast leer, und ich brauche viele frische Sachen für die Woche.\nLena: Das kenne ich! Ich treffe am Dienstag ein paar Freunde in einem Café. Wir wollen über gesunde Rezepte sprechen.\nMax: Super Idee! Ich habe am Mittwoch meinen Deutschkurs. Das ist immer eine wichtige Aufgabe für mich.\nLena: Ah, klar. Ich plane am Donnerstag, etwas Neues zu kochen. Vielleicht ein vegetarisches Gericht mit viel Gemüse. Ich habe ein neues Rezept gefunden.\nMax: Klingt lecker! Und am Freitag? Ich möchte am Freitag ins Museum gehen. Es gibt eine interessante Ausstellung über alte Kulturen.",
+      "pictures": [
+        {
+          "key": "a",
+          "icon": "🚴",
+          "label": "Fahrrad fahren"
+        },
+        {
+          "key": "b",
+          "icon": "🇩🇪",
+          "label": "Deutschkurs"
+        },
+        {
+          "key": "c",
+          "icon": "👫",
+          "label": "Freunde treffen"
+        },
+        {
+          "key": "d",
+          "icon": "🏋️",
+          "label": "Sport machen"
+        },
+        {
+          "key": "e",
+          "icon": "🏛️",
+          "label": "Museum"
+        },
+        {
+          "key": "f",
+          "icon": "🎬",
+          "label": "Kino"
+        },
+        {
+          "key": "g",
+          "icon": "📚",
+          "label": "Lernen"
+        },
+        {
+          "key": "h",
+          "icon": "🛒",
+          "label": "Einkaufen"
+        },
+        {
+          "key": "i",
+          "icon": "🍳",
+          "label": "Kochen"
+        }
+      ],
+      "audio": [
+        {
+          "speaker": "Lena",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Hallo Max! Wie geht es dir? Hast du schon Pläne für die Woche?"
+        },
+        {
+          "speaker": "Max",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Hallo Lena! Mir geht es gut, danke. Ja, ich habe einiges vor. Am Montag muss ich unbedingt einkaufen gehen. Mein Kühlschrank ist fast leer, und ich brauche viele frische Sachen für die Woche."
+        },
+        {
+          "speaker": "Lena",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Das kenne ich! Ich treffe am Dienstag ein paar Freunde in einem Café. Wir wollen über gesunde Rezepte sprechen."
+        },
+        {
+          "speaker": "Max",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Super Idee! Ich habe am Mittwoch meinen Deutschkurs. Das ist immer eine wichtige Aufgabe für mich."
+        },
+        {
+          "speaker": "Lena",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Ah, klar. Ich plane am Donnerstag, etwas Neues zu kochen. Vielleicht ein vegetarisches Gericht mit viel Gemüse. Ich habe ein neues Rezept gefunden."
+        },
+        {
+          "speaker": "Max",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Klingt lecker! Und am Freitag? Ich möchte am Freitag ins Museum gehen. Es gibt eine interessante Ausstellung über alte Kulturen."
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "gen-q-h2-72eb1308-q1",
+      "module": "horen",
+      "teil": 2,
+      "lang": "de",
+      "level": "A2",
+      "type": "matching",
+      "question": "Was macht Max am Montag?",
+      "passageId": "gen-p-h2-72eb1308-s1",
+      "correct": "h",
+      "correctAnswer": "h",
+      "explanation": "Max muss am Montag einkaufen gehen, weil sein Kühlschrank fast leer ist.",
+      "language": "de",
+      "examType": "goethe",
+      "difficulty": 5,
+      "skills": [
+        "listening"
+      ],
+      "topicTags": [
+        "Ernährung"
+      ],
+      "_keyOnlyMatch": true,
+      "vocabularyTags": [
+        "einkaufen",
+        "Kühlschrank",
+        "Montag",
+        "gehen"
+      ],
+      "grammarTags": [
+        "g-de-a2-nebensatz",
+        "g-de-a2-modal",
+        "g-de-a2-trennbar"
+      ]
+    },
+    {
+      "id": "gen-q-h2-72eb1308-q2",
+      "module": "horen",
+      "teil": 2,
+      "lang": "de",
+      "level": "A2",
+      "type": "matching",
+      "question": "Was macht Lena am Dienstag?",
+      "passageId": "gen-p-h2-72eb1308-s1",
+      "correct": "c",
+      "correctAnswer": "c",
+      "explanation": "Lena trifft am Dienstag Freunde in einem Café, um über gesunde Rezepte zu sprechen.",
+      "language": "de",
+      "examType": "goethe",
+      "difficulty": 5,
+      "skills": [
+        "listening"
+      ],
+      "topicTags": [
+        "Ernährung"
+      ],
+      "_keyOnlyMatch": true,
+      "vocabularyTags": [
+        "treffen",
+        "Rezepte",
+        "sprechen",
+        "Freund",
+        "Dienstag",
+        "gesund"
+      ],
+      "grammarTags": [
+        "g-de-a2-trennbar"
+      ]
+    },
+    {
+      "id": "gen-q-h2-72eb1308-q3",
+      "module": "horen",
+      "teil": 2,
+      "lang": "de",
+      "level": "A2",
+      "type": "matching",
+      "question": "Was macht Max am Mittwoch?",
+      "passageId": "gen-p-h2-72eb1308-s1",
+      "correct": "b",
+      "correctAnswer": "b",
+      "explanation": "Max hat am Mittwoch seinen Deutschkurs, was eine wichtige Aufgabe für ihn ist.",
+      "language": "de",
+      "examType": "goethe",
+      "difficulty": 5,
+      "skills": [
+        "listening"
+      ],
+      "topicTags": [
+        "Ernährung"
+      ],
+      "_keyOnlyMatch": true,
+      "vocabularyTags": [
+        "Aufgabe",
+        "seinen",
+        "Deutschkurs",
+        "Mittwoch",
+        "wichtig"
+      ],
+      "grammarTags": [
+        "g-de-a2-trennbar"
+      ]
+    },
+    {
+      "id": "gen-q-h2-72eb1308-q4",
+      "module": "horen",
+      "teil": 2,
+      "lang": "de",
+      "level": "A2",
+      "type": "matching",
+      "question": "Was macht Lena am Donnerstag?",
+      "passageId": "gen-p-h2-72eb1308-s1",
+      "correct": "i",
+      "correctAnswer": "i",
+      "explanation": "Lena plant am Donnerstag, etwas Neues zu kochen, vielleicht ein vegetarisches Gericht.",
+      "language": "de",
+      "examType": "goethe",
+      "difficulty": 5,
+      "skills": [
+        "listening"
+      ],
+      "topicTags": [
+        "Ernährung"
+      ],
+      "_keyOnlyMatch": true,
+      "vocabularyTags": [
+        "kochen",
+        "vegetarisch",
+        "Donnerstag",
+        "Gericht",
+        "neues"
+      ],
+      "grammarTags": []
+    },
+    {
+      "id": "gen-q-h2-72eb1308-q5",
+      "module": "horen",
+      "teil": 2,
+      "lang": "de",
+      "level": "A2",
+      "type": "matching",
+      "question": "Was macht Max am Freitag?",
+      "passageId": "gen-p-h2-72eb1308-s1",
+      "correct": "e",
+      "correctAnswer": "e",
+      "explanation": "Max möchte am Freitag ins Museum gehen, um eine interessante Ausstellung zu besuchen.",
+      "language": "de",
+      "examType": "goethe",
+      "difficulty": 5,
+      "skills": [
+        "listening"
+      ],
+      "topicTags": [
+        "Ernährung"
+      ],
+      "_keyOnlyMatch": true,
+      "vocabularyTags": [
+        "interessant",
+        "besuchen",
+        "Ausstellung",
+        "Freitag",
+        "Museum",
+        "möcht"
+      ],
+      "grammarTags": [
+        "g-de-a2-modal",
+        "g-de-a2-trennbar"
+      ]
+    }
+  ],
+  "_germanCapsNormalizeVersion": "v3.23-lesen-t2-angebote-corpus-2026-07-28",
+  "_germanCapsNormalizedAt": "2026-07-27T06:33:57.779Z",
+  "_balanceMcqVersion": "v1.2-no-rf-chrono-shuffle-2026-07-11",
+  "_balanceMcqNormalizedAt": "2026-07-27T06:33:57.779Z",
+  "topicTag": "Ernährung",
+  "_requestedTopic": "Ernährung",
+  "generationMetadata": {
+    "usedFeedback": false,
+    "feedbackRules": [],
+    "feedbackCount": 0,
+    "feedbackCategories": [],
+    "feedbackMode": "off",
+    "feedbackVersion": "v1"
+  },
+  "_metadataEnrichedAt": "2026-07-27T06:41:16.601Z",
+  "_metadataEnrichNote": "deterministic: detectTopic + per-question lemma vocab + grammar heuristics",
+  "_vocabTagsNormalizeVersion": "v2.3.16-b1-validated-verb-adj-lemma-2026-07-24",
+  "_grammarTagsNormalizeVersion": "v2.2-a2-b2-level-tags-2026-07-27",
+  "_a2GrammarRetagAt": "2026-07-27T06:41:16.602Z",
+  "_a2GrammarRetagNote": "re-enrich-a2-pool-grammar.mjs",
+  "_germanCapsMetadataRestampAt": "2026-08-05T04:37:08.131Z",
+  "_germanCapsMetadataRestampNote": "metadata-only; no applyGermanCapsNormalize"
+}

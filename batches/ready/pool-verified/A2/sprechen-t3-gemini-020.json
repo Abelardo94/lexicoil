@@ -1,0 +1,112 @@
+{
+  "passages": [],
+  "questions": [
+    {
+      "id": "gen-q-sp-t3-42b94496-q1",
+      "module": "sprechen",
+      "teil": 3,
+      "lang": "de",
+      "level": "A2",
+      "type": "plan_together",
+      "question": "Sie möchten mit Ihrem Partner/Ihrer Partnerin eine interessante Ausstellung über die Geschichte des Radios besuchen. Planen Sie gemeinsam den Besuch und finden Sie einen passenden Termin dafür.\n\nIhre Woche:\nMontag 9–11 Uhr: Sportkurs\nDienstag 14–16 Uhr: Frei\nMittwoch 10–12 Uhr: Online-Meeting\nDonnerstag 16–18 Uhr: Frei\nFreitag 11–13 Uhr: Arzttermin\n\nWoche Ihres Partners/Ihrer Partnerin:\nMontag 14–16 Uhr: Arbeit\nDienstag 14–16 Uhr: Frei\nMittwoch 15–17 Uhr: Sprachkurs\nDonnerstag 16–18 Uhr: Frei\nFreitag 14–16 Uhr: Frei\n\neinigen Sie sich auf einen Tag und eine Uhrzeit für den Ausstellungsbesuch.",
+      "correct": "rubric",
+      "correctAnswer": "rubric",
+      "options": [],
+      "explanation": "In diesem Teil planen Sie gemeinsam etwas und finden einen Termin. Wichtig sind Verständlichkeit, einfache Verhandlung und passender Wortschatz auf A2-Niveau.",
+      "difficulty": 3,
+      "skills": [
+        "speaking"
+      ],
+      "language": "de",
+      "examType": "goethe",
+      "topicTags": [
+        "Medien"
+      ],
+      "vocabularyTags": [
+        "Partner",
+        "interessant",
+        "gemeinsam",
+        "besuchen",
+        "Ausstellung",
+        "passenden"
+      ],
+      "grammarTags": [
+        "g-de-a2-trennbar",
+        "g-de-a2-dat-akk"
+      ]
+    }
+  ],
+  "_germanCapsNormalizeVersion": "v3.23-lesen-t2-angebote-corpus-2026-07-28",
+  "_germanCapsNormalizedAt": "2026-09-23T01:49:40.313Z",
+  "_balanceMcqVersion": "v1.2-no-rf-chrono-shuffle-2026-07-11",
+  "_balanceMcqNormalizedAt": "2026-09-23T01:49:40.313Z",
+  "topicTag": "Medien",
+  "_requestedTopic": "Medien",
+  "userVocabFeedback": {
+    "topic": "Medien",
+    "requested": [
+      "erfahrung",
+      "medien",
+      "radio",
+      "vorschlag",
+      "projekt",
+      "meinung",
+      "vorteil",
+      "nutzen"
+    ],
+    "prompted": [
+      "erfahrung",
+      "medien",
+      "radio",
+      "vorschlag",
+      "projekt",
+      "meinung",
+      "vorteil",
+      "nutzen"
+    ],
+    "originalRequested": null,
+    "subtypeAdaptation": null,
+    "used": [
+      "radio"
+    ],
+    "notUsed": [
+      "erfahrung",
+      "medien",
+      "vorschlag",
+      "projekt",
+      "meinung",
+      "vorteil",
+      "nutzen"
+    ],
+    "excluded": [],
+    "ratio": 0.125,
+    "targetUsage": [
+      {
+        "word": "radio",
+        "surfaces": [
+          "Radios"
+        ]
+      }
+    ]
+  },
+  "targetUsage": [
+    {
+      "word": "radio",
+      "surfaces": [
+        "Radios"
+      ]
+    }
+  ],
+  "generationMetadata": {
+    "usedFeedback": false,
+    "feedbackRules": [],
+    "feedbackCount": 0,
+    "feedbackCategories": [],
+    "feedbackMode": "off",
+    "feedbackVersion": "v1"
+  },
+  "_metadataEnrichedAt": "2026-09-23T01:49:40.454Z",
+  "_metadataEnrichNote": "deterministic: detectTopic + per-question lemma vocab + grammar heuristics",
+  "_vocabTagsNormalizeVersion": "v2.3.18-paso3-vocab-plural-rubric-strip-2026-08-02",
+  "_grammarTagsNormalizeVersion": "v2.2-a2-b2-level-tags-2026-07-27"
+}

@@ -1,0 +1,375 @@
+{
+  "passages": [
+    {
+      "id": "gen-l4-3b8de1f8-a",
+      "title": "Gesund durch Bewegung",
+      "text": "Unser neuer Kurs hilft Ihnen, fit zu bleiben. Wir bieten tägliche Übungen für alle Altersgruppen. Lernen Sie einfache Bewegungen für zu Hause. Keine Vorkenntnisse nötig. Starten Sie jetzt in eine gesündere Zukunft!",
+      "topicTag": "Gesundheit",
+      "module": "lesen",
+      "teil": 4,
+      "lang": "de",
+      "level": "A2"
+    },
+    {
+      "id": "gen-l4-3b8de1f8-b",
+      "title": "Entspannung für den Rücken",
+      "text": "Haben Sie Rückenschmerzen? In unserem Seminar lernen Sie effektive Techniken zur Entspannung und Stärkung. Ein erfahrener Physiotherapeut zeigt Ihnen, wie Sie Ihre Haltung verbessern können. Melden Sie sich bald an!",
+      "topicTag": "Gesundheit",
+      "module": "lesen",
+      "teil": 4,
+      "lang": "de",
+      "level": "A2"
+    },
+    {
+      "id": "gen-l4-3b8de1f8-c",
+      "title": "Kochkurs: Leichte Küche",
+      "text": "Entdecken Sie, wie einfach gesunde Ernährung sein kann! In diesem Kurs bereiten wir gemeinsam leckere und leichte Gerichte zu. Für Anfänger und Fortgeschrittene. Verbessern Sie Ihre Gesundheit mit frischen Zutaten.",
+      "topicTag": "Gesundheit",
+      "module": "lesen",
+      "teil": 4,
+      "lang": "de",
+      "level": "A2"
+    },
+    {
+      "id": "gen-l4-3b8de1f8-d",
+      "title": "Erste-Hilfe-Kurs für Familien!",
+      "text": "Wissen Sie, was im Notfall zu tun ist? Dieser Kurs bereitet Sie auf wichtige Situationen vor. Lernen Sie grundlegende Erste-Hilfe-Maßnahmen für Kinder und Erwachsene. Eine wichtige Aufgabe für jede Familie.",
+      "topicTag": "Gesundheit",
+      "module": "lesen",
+      "teil": 4,
+      "lang": "de",
+      "level": "A2"
+    },
+    {
+      "id": "gen-l4-3b8de1f8-e",
+      "title": "Stressbewältigung Seminar",
+      "text": "Fühlen Sie sich oft gestresst? Unser Seminar bietet praktische Strategien, um den Alltag besser zu meistern. Finden Sie Wege zur inneren Ruhe und verbessern Sie Ihre Lebensqualität. Melden Sie sich für mehr Wohlbefinden an.",
+      "topicTag": "Gesundheit",
+      "module": "lesen",
+      "teil": 4,
+      "lang": "de",
+      "level": "A2"
+    },
+    {
+      "id": "gen-l4-3b8de1f8-f",
+      "title": "Sprechstunde im Krankenhaus",
+      "text": "Das örtliche Krankenhaus bietet kostenlose Beratungen zur Herzgesundheit an. Ein Arzt beantwortet Ihre Fragen zu Vorsorge und Medikamenten. Eine gute Gelegenheit, mehr über Ihre Gesundheit zu erfahren. Keine Anmeldung nötig.",
+      "topicTag": "Gesundheit",
+      "module": "lesen",
+      "teil": 4,
+      "lang": "de",
+      "level": "A2"
+    }
+  ],
+  "questions": [
+    {
+      "id": "gen-q-4-3b8de1f8-1",
+      "type": "matching",
+      "question": "Herr Müller ist oft müde und sucht nach Wegen, seinen Stress zu reduzieren. Er möchte lernen, wie er im Alltag entspannter sein kann. Welche Anzeige passt?",
+      "options": [
+        "a) a",
+        "b) b",
+        "c) c",
+        "d) d",
+        "e) e",
+        "f) f",
+        "g) X"
+      ],
+      "correctAnswer": "e",
+      "module": "lesen",
+      "teil": 4,
+      "level": "A2",
+      "correct": "e",
+      "explanation": "Die Anzeige e passt.",
+      "lang": "de",
+      "topicTags": [
+        "Gesundheit"
+      ],
+      "vocabularyTags": [
+        "Alltag",
+        "entspannter",
+        "Stress",
+        "wegen",
+        "reduzieren",
+        "seinen"
+      ],
+      "grammarTags": [
+        "g-de-a2-modal",
+        "g-de-a2-trennbar"
+      ]
+    },
+    {
+      "id": "gen-q-4-3b8de1f8-2",
+      "type": "matching",
+      "question": "Frau Lehmann möchte lernen, wie sie im Notfall helfen kann, besonders wenn es um ihre Kinder geht. Sie sucht einen Kurs, der ihr praktische Fähigkeiten vermittelt. Welche Anzeige passt?",
+      "options": [
+        "a) a",
+        "b) b",
+        "c) c",
+        "d) d",
+        "e) e",
+        "f) f",
+        "g) X"
+      ],
+      "correctAnswer": "d",
+      "module": "lesen",
+      "teil": 4,
+      "level": "A2",
+      "correct": "d",
+      "explanation": "Der Text d erklärt es.",
+      "lang": "de",
+      "topicTags": [
+        "Gesundheit"
+      ],
+      "vocabularyTags": [
+        "lernen",
+        "helfen",
+        "Fähigkeiten",
+        "besonders",
+        "praktisch",
+        "Lehmann"
+      ],
+      "grammarTags": [
+        "g-de-a2-nebensatz",
+        "g-de-a2-modal",
+        "g-de-a2-trennbar",
+        "g-de-a2-dat-akk"
+      ]
+    },
+    {
+      "id": "gen-q-4-3b8de1f8-3",
+      "type": "matching",
+      "question": "Lisa möchte sich gesünder ernähren, aber sie weiß nicht, wie sie anfangen soll. Sie sucht Ideen für einfache und leckere Gerichte, die gut für die Gesundheit sind. Welche Anzeige passt?",
+      "options": [
+        "a) a",
+        "b) b",
+        "c) c",
+        "d) d",
+        "e) e",
+        "f) f",
+        "g) X"
+      ],
+      "correctAnswer": "c",
+      "module": "lesen",
+      "teil": 4,
+      "level": "A2",
+      "correct": "c",
+      "explanation": "Anzeige c ist passend.",
+      "lang": "de",
+      "topicTags": [
+        "Gesundheit"
+      ],
+      "vocabularyTags": [
+        "anfangen",
+        "Gerichte",
+        "ideen",
+        "Gesundheit",
+        "ernähren"
+      ],
+      "grammarTags": [
+        "g-de-a2-modal",
+        "g-de-a2-trennbar",
+        "g-de-a2-dat-akk",
+        "g-de-a2-praesens"
+      ]
+    },
+    {
+      "id": "gen-q-4-3b8de1f8-4",
+      "type": "matching",
+      "question": "Herr Schmidt hat oft Schmerzen im Rücken und sucht nach Übungen oder Techniken, um diese zu lindern. Er möchte seine Haltung verbessern. Welche Anzeige passt?",
+      "options": [
+        "a) a",
+        "b) b",
+        "c) c",
+        "d) d",
+        "e) e",
+        "f) f",
+        "g) X"
+      ],
+      "correctAnswer": "b",
+      "module": "lesen",
+      "teil": 4,
+      "level": "A2",
+      "correct": "b",
+      "explanation": "Der Text b passt hier.",
+      "lang": "de",
+      "topicTags": [
+        "Gesundheit"
+      ],
+      "vocabularyTags": [
+        "Übung",
+        "verbessern",
+        "schmerzen",
+        "techniken",
+        "lindern",
+        "Haltung"
+      ],
+      "grammarTags": [
+        "g-de-a2-modal",
+        "g-de-a2-trennbar"
+      ]
+    },
+    {
+      "id": "gen-q-4-3b8de1f8-5",
+      "type": "matching",
+      "question": "Frau Weber sucht einen Job als Krankenschwester in einem neuen Krankenhaus. Sie hat viel Erfahrung und möchte sich beruflich weiterentwickeln. Keine Anzeige passt. Markieren Sie X.",
+      "options": [
+        "a) a",
+        "b) b",
+        "c) c",
+        "d) d",
+        "e) e",
+        "f) f",
+        "g) X"
+      ],
+      "correctAnswer": "X",
+      "module": "lesen",
+      "teil": 4,
+      "level": "A2",
+      "correct": "X",
+      "explanation": "Keine Anzeige passt hier.",
+      "lang": "de",
+      "topicTags": [
+        "Gesundheit"
+      ],
+      "vocabularyTags": [
+        "beruflich",
+        "weiterentwickeln",
+        "Krankenhaus",
+        "Erfahrung",
+        "markieren",
+        "Krankenschwester"
+      ],
+      "grammarTags": [
+        "g-de-a2-modal",
+        "g-de-a2-trennbar",
+        "g-de-a2-dat-akk",
+        "g-de-a2-praesens"
+      ]
+    }
+  ],
+  "_germanCapsNormalizeVersion": "v3.23-lesen-t2-angebote-corpus-2026-07-28",
+  "_germanCapsNormalizedAt": "2026-09-23T00:18:37.568Z",
+  "_balanceMcqVersion": "v1.2-no-rf-chrono-shuffle-2026-07-11",
+  "_balanceMcqNormalizedAt": "2026-09-23T00:18:37.567Z",
+  "topicTag": "Gesundheit",
+  "_requestedTopic": "Gesundheit",
+  "userVocabFeedback": {
+    "topic": "Gesundheit",
+    "requested": [
+      "krankenhaus",
+      "medikament",
+      "aufgabe",
+      "situation",
+      "täglich",
+      "zukunft",
+      "bedeuten",
+      "anmeldung",
+      "erfahrung",
+      "bahn"
+    ],
+    "prompted": [
+      "krankenhaus",
+      "medikament",
+      "aufgabe",
+      "situation",
+      "täglich",
+      "zukunft",
+      "bedeuten",
+      "anmeldung",
+      "erfahrung",
+      "bahn"
+    ],
+    "originalRequested": [
+      "krankenhaus",
+      "medikament",
+      "aufgabe",
+      "situation",
+      "täglich",
+      "zukunft",
+      "bedeuten",
+      "anmeldung"
+    ],
+    "subtypeAdaptation": null,
+    "used": [
+      "krankenhaus",
+      "täglich",
+      "zukunft",
+      "erfahrung"
+    ],
+    "notUsed": [
+      "medikament",
+      "aufgabe",
+      "situation",
+      "bedeuten",
+      "anmeldung",
+      "bahn"
+    ],
+    "excluded": [],
+    "ratio": 0.4,
+    "targetUsage": [
+      {
+        "word": "krankenhaus",
+        "surfaces": [
+          "Krankenhaus"
+        ]
+      },
+      {
+        "word": "täglich",
+        "surfaces": [
+          "tägliche"
+        ]
+      },
+      {
+        "word": "zukunft",
+        "surfaces": [
+          "Zukunft"
+        ]
+      },
+      {
+        "word": "erfahrung",
+        "surfaces": [
+          "Erfahrung"
+        ]
+      }
+    ]
+  },
+  "targetUsage": [
+    {
+      "word": "krankenhaus",
+      "surfaces": [
+        "Krankenhaus"
+      ]
+    },
+    {
+      "word": "täglich",
+      "surfaces": [
+        "tägliche"
+      ]
+    },
+    {
+      "word": "zukunft",
+      "surfaces": [
+        "Zukunft"
+      ]
+    },
+    {
+      "word": "erfahrung",
+      "surfaces": [
+        "Erfahrung"
+      ]
+    }
+  ],
+  "generationMetadata": {
+    "usedFeedback": false,
+    "feedbackRules": [],
+    "feedbackCount": 0,
+    "feedbackCategories": [],
+    "feedbackMode": "off",
+    "feedbackVersion": "v1"
+  },
+  "_metadataEnrichedAt": "2026-09-23T00:18:49.573Z",
+  "_metadataEnrichNote": "deterministic: detectTopic + per-question lemma vocab + grammar heuristics",
+  "_vocabTagsNormalizeVersion": "v2.3.18-paso3-vocab-plural-rubric-strip-2026-08-02",
+  "_grammarTagsNormalizeVersion": "v2.2-a2-b2-level-tags-2026-07-27"
+}

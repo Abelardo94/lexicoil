@@ -1,0 +1,279 @@
+{
+  "passages": [
+    {
+      "id": "gen-p-h2-e5d7e8bf-s1",
+      "module": "horen",
+      "teil": 2,
+      "lang": "de",
+      "level": "A2",
+      "title": "Wochenpläne und Arbeit",
+      "text": "Felix: Hallo Mia! Wie geht's? Viel Arbeit diese Woche?\nMia: Hallo Felix! Ja, eine typische Woche. Aber ich habe auch Pläne.\nFelix: Gut! Am Montag fahre ich nach der Arbeit mit dem Fahrrad. Das ist mein Start in die Woche.\nMia: Schön! Ich gehe am Dienstagabend ins Kino. Es gibt einen interessanten Film.\nFelix: Klingt gut! Am Mittwoch mache ich Sport im Fitnessstudio. Das ist mein Ausgleich zur täglichen Aufgabe.\nMia: Super! Ich koche am Donnerstagabend etwas Leckeres. Ich probiere ein neues Rezept aus.\nFelix: Toll! Und am Freitag? Ich habe meinen Deutschkurs. Das ist immer eine gute Abwechslung.\nMia: Ja, das ist bestimmt gut für die Situation.",
+      "pictures": [
+        {
+          "key": "a",
+          "icon": "🚴",
+          "label": "Fahrrad fahren"
+        },
+        {
+          "key": "b",
+          "icon": "🇩🇪",
+          "label": "Deutschkurs"
+        },
+        {
+          "key": "c",
+          "icon": "👫",
+          "label": "Freunde treffen"
+        },
+        {
+          "key": "d",
+          "icon": "🏋️",
+          "label": "Sport machen"
+        },
+        {
+          "key": "e",
+          "icon": "🏛️",
+          "label": "Museum"
+        },
+        {
+          "key": "f",
+          "icon": "🎬",
+          "label": "Kino"
+        },
+        {
+          "key": "g",
+          "icon": "📚",
+          "label": "Lernen"
+        },
+        {
+          "key": "h",
+          "icon": "🛒",
+          "label": "Einkaufen"
+        },
+        {
+          "key": "i",
+          "icon": "🍳",
+          "label": "Kochen"
+        }
+      ],
+      "audio": [
+        {
+          "speaker": "Felix",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Hallo Mia! Wie geht's? Viel Arbeit diese Woche?"
+        },
+        {
+          "speaker": "Mia",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Hallo Felix! Ja, eine typische Woche. Aber ich habe auch Pläne."
+        },
+        {
+          "speaker": "Felix",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Gut! Am Montag fahre ich nach der Arbeit mit dem Fahrrad. Das ist mein Start in die Woche."
+        },
+        {
+          "speaker": "Mia",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Schön! Ich gehe am Dienstagabend ins Kino. Es gibt einen interessanten Film."
+        },
+        {
+          "speaker": "Felix",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Klingt gut! Am Mittwoch mache ich Sport im Fitnessstudio. Das ist mein Ausgleich zur täglichen Aufgabe."
+        },
+        {
+          "speaker": "Mia",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Super! Ich koche am Donnerstagabend etwas Leckeres. Ich probiere ein neues Rezept aus."
+        },
+        {
+          "speaker": "Felix",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Toll! Und am Freitag? Ich habe meinen Deutschkurs. Das ist immer eine gute Abwechslung."
+        },
+        {
+          "speaker": "Mia",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Ja, das ist bestimmt gut für die Situation."
+        }
+      ],
+      "topicTag": "Kultur"
+    }
+  ],
+  "questions": [
+    {
+      "id": "gen-q-h2-e5d7e8bf-q1",
+      "module": "horen",
+      "teil": 2,
+      "lang": "de",
+      "level": "A2",
+      "type": "matching",
+      "question": "Was macht Felix am Montag?",
+      "passageId": "gen-p-h2-e5d7e8bf-s1",
+      "correct": "a",
+      "correctAnswer": "a",
+      "explanation": "Felix fährt am Montag nach der Arbeit mit dem Fahrrad.",
+      "language": "de",
+      "examType": "goethe",
+      "difficulty": 5,
+      "skills": [
+        "listening"
+      ],
+      "topicTags": [
+        "Kultur"
+      ],
+      "_keyOnlyMatch": true,
+      "vocabularyTags": [
+        "fahren",
+        "Arbeit",
+        "Fahrrad",
+        "Montag",
+        "Felix"
+      ],
+      "grammarTags": [
+        "g-de-a2-dat-akk"
+      ]
+    },
+    {
+      "id": "gen-q-h2-e5d7e8bf-q2",
+      "module": "horen",
+      "teil": 2,
+      "lang": "de",
+      "level": "A2",
+      "type": "matching",
+      "question": "Was macht Mia am Dienstag?",
+      "passageId": "gen-p-h2-e5d7e8bf-s1",
+      "correct": "f",
+      "correctAnswer": "f",
+      "explanation": "Mia geht am Dienstagabend ins Kino.",
+      "language": "de",
+      "examType": "goethe",
+      "difficulty": 5,
+      "skills": [
+        "listening"
+      ],
+      "topicTags": [
+        "Kultur"
+      ],
+      "_keyOnlyMatch": true,
+      "vocabularyTags": [
+        "Dienstagabend",
+        "Dienstag"
+      ],
+      "grammarTags": []
+    },
+    {
+      "id": "gen-q-h2-e5d7e8bf-q3",
+      "module": "horen",
+      "teil": 2,
+      "lang": "de",
+      "level": "A2",
+      "type": "matching",
+      "question": "Was macht Felix am Mittwoch?",
+      "passageId": "gen-p-h2-e5d7e8bf-s1",
+      "correct": "d",
+      "correctAnswer": "d",
+      "explanation": "Felix macht am Mittwoch Sport im Fitnessstudio.",
+      "language": "de",
+      "examType": "goethe",
+      "difficulty": 5,
+      "skills": [
+        "listening"
+      ],
+      "topicTags": [
+        "Kultur"
+      ],
+      "_keyOnlyMatch": true,
+      "vocabularyTags": [
+        "Fitnessstudio",
+        "Mittwoch",
+        "Felix",
+        "Sport",
+        "machen"
+      ],
+      "grammarTags": [
+        "g-de-a2-trennbar"
+      ]
+    },
+    {
+      "id": "gen-q-h2-e5d7e8bf-q4",
+      "module": "horen",
+      "teil": 2,
+      "lang": "de",
+      "level": "A2",
+      "type": "matching",
+      "question": "Was macht Mia am Donnerstag?",
+      "passageId": "gen-p-h2-e5d7e8bf-s1",
+      "correct": "i",
+      "correctAnswer": "i",
+      "explanation": "Mia kocht am Donnerstagabend etwas Leckeres.",
+      "language": "de",
+      "examType": "goethe",
+      "difficulty": 5,
+      "skills": [
+        "listening"
+      ],
+      "topicTags": [
+        "Kultur"
+      ],
+      "_keyOnlyMatch": true,
+      "vocabularyTags": [
+        "kochen",
+        "Donnerstagabend",
+        "Donnerstag",
+        "Leckeres"
+      ],
+      "grammarTags": []
+    },
+    {
+      "id": "gen-q-h2-e5d7e8bf-q5",
+      "module": "horen",
+      "teil": 2,
+      "lang": "de",
+      "level": "A2",
+      "type": "matching",
+      "question": "Was macht Felix am Freitag?",
+      "passageId": "gen-p-h2-e5d7e8bf-s1",
+      "correct": "b",
+      "correctAnswer": "b",
+      "explanation": "Felix hat am Freitag seinen Deutschkurs.",
+      "language": "de",
+      "examType": "goethe",
+      "difficulty": 5,
+      "skills": [
+        "listening"
+      ],
+      "topicTags": [
+        "Kultur"
+      ],
+      "_keyOnlyMatch": true,
+      "vocabularyTags": [
+        "seinen",
+        "Deutschkurs",
+        "Freitag",
+        "Felix"
+      ],
+      "grammarTags": []
+    }
+  ],
+  "_germanCapsNormalizeVersion": "v3.23-lesen-t2-angebote-corpus-2026-07-28",
+  "_germanCapsNormalizedAt": "2026-07-27T06:43:03.496Z",
+  "_balanceMcqVersion": "v1.2-no-rf-chrono-shuffle-2026-07-11",
+  "_balanceMcqNormalizedAt": "2026-07-27T06:43:03.496Z",
+  "topicTag": "Kultur",
+  "_requestedTopic": "Kultur",
+  "generationMetadata": {
+    "usedFeedback": false,
+    "feedbackRules": [],
+    "feedbackCount": 0,
+    "feedbackCategories": [],
+    "feedbackMode": "off",
+    "feedbackVersion": "v1"
+  },
+  "_metadataEnrichedAt": "2026-07-27T06:43:05.950Z",
+  "_metadataEnrichNote": "deterministic: detectTopic + per-question lemma vocab + grammar heuristics",
+  "_vocabTagsNormalizeVersion": "v2.3.16-b1-validated-verb-adj-lemma-2026-07-24",
+  "_grammarTagsNormalizeVersion": "v2.2-a2-b2-level-tags-2026-07-27",
+  "_germanCapsMetadataRestampAt": "2026-08-05T04:37:08.137Z",
+  "_germanCapsMetadataRestampNote": "metadata-only; no applyGermanCapsNormalize"
+}

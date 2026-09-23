@@ -1,0 +1,287 @@
+{
+  "passages": [
+    {
+      "id": "gen-p-h2-603e3d46-s1",
+      "module": "horen",
+      "teil": 2,
+      "lang": "de",
+      "level": "A2",
+      "title": "Wochenpläne für die Freizeit",
+      "text": "Leon: Hallo Greta! Wie geht's? Hast du schon Pläne für die kommende Woche?\nGreta: Hallo Leon! Mir geht es gut, danke. Ja, ich habe schon ein paar Ideen. Am Montag möchte ich unbedingt Sport machen. Ich gehe ins Fitnessstudio.\nLeon: Oh, das ist gut! Ich habe am Dienstagabend vor, etwas Leckeres zu kochen. Vielleicht eine neue Suppe.\nGreta: Klingt gut! Ich muss am Mittwoch in die Bibliothek. Ich habe eine wichtige Aufgabe und muss lernen.\nLeon: Verstehe. Am Donnerstagabend gehe ich ins Kino. Es gibt einen neuen Film, den ich sehen möchte.\nGreta: Toll! Und am Freitag? Ich überlege, ob ich eine Fahrradtour mache. Das Wetter soll schön werden.\nLeon: Eine gute Idee! Ich habe am Freitag noch nichts Konkretes. Vielleicht entspanne ich einfach.",
+      "pictures": [
+        {
+          "key": "a",
+          "icon": "🚴",
+          "label": "Fahrrad fahren"
+        },
+        {
+          "key": "b",
+          "icon": "🇩🇪",
+          "label": "Deutschkurs"
+        },
+        {
+          "key": "c",
+          "icon": "👫",
+          "label": "Freunde treffen"
+        },
+        {
+          "key": "d",
+          "icon": "🏋️",
+          "label": "Sport machen"
+        },
+        {
+          "key": "e",
+          "icon": "🏛️",
+          "label": "Museum"
+        },
+        {
+          "key": "f",
+          "icon": "🎬",
+          "label": "Kino"
+        },
+        {
+          "key": "g",
+          "icon": "📚",
+          "label": "Lernen"
+        },
+        {
+          "key": "h",
+          "icon": "🛒",
+          "label": "Einkaufen"
+        },
+        {
+          "key": "i",
+          "icon": "🍳",
+          "label": "Kochen"
+        }
+      ],
+      "audio": [
+        {
+          "speaker": "Leon",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Hallo Greta! Wie geht's? Hast du schon Pläne für die kommende Woche?"
+        },
+        {
+          "speaker": "Greta",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Hallo Leon! Mir geht es gut, danke. Ja, ich habe schon ein paar Ideen. Am Montag möchte ich unbedingt Sport machen. Ich gehe ins Fitnessstudio."
+        },
+        {
+          "speaker": "Leon",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Oh, das ist gut! Ich habe am Dienstagabend vor, etwas Leckeres zu kochen. Vielleicht eine neue Suppe."
+        },
+        {
+          "speaker": "Greta",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Klingt gut! Ich muss am Mittwoch in die Bibliothek. Ich habe eine wichtige Aufgabe und muss lernen."
+        },
+        {
+          "speaker": "Leon",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Verstehe. Am Donnerstagabend gehe ich ins Kino. Es gibt einen neuen Film, den ich sehen möchte."
+        },
+        {
+          "speaker": "Greta",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Toll! Und am Freitag? Ich überlege, ob ich eine Fahrradtour mache. Das Wetter soll schön werden."
+        },
+        {
+          "speaker": "Leon",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Eine gute Idee! Ich habe am Freitag noch nichts Konkretes. Vielleicht entspanne ich einfach."
+        }
+      ],
+      "topicTag": "Freizeit"
+    }
+  ],
+  "questions": [
+    {
+      "id": "gen-q-h2-603e3d46-q1",
+      "module": "horen",
+      "teil": 2,
+      "lang": "de",
+      "level": "A2",
+      "type": "matching",
+      "question": "Was macht Greta am Montag?",
+      "passageId": "gen-p-h2-603e3d46-s1",
+      "correct": "d",
+      "correctAnswer": "d",
+      "explanation": "Greta möchte am Montag Sport machen und geht ins Fitnessstudio.",
+      "language": "de",
+      "examType": "goethe",
+      "difficulty": 5,
+      "skills": [
+        "listening"
+      ],
+      "topicTags": [
+        "Freizeit"
+      ],
+      "_keyOnlyMatch": true,
+      "vocabularyTags": [
+        "Fitnessstudio",
+        "Montag",
+        "Greta",
+        "möcht",
+        "Sport",
+        "machen"
+      ],
+      "grammarTags": [
+        "g-de-a2-modal"
+      ]
+    },
+    {
+      "id": "gen-q-h2-603e3d46-q2",
+      "module": "horen",
+      "teil": 2,
+      "lang": "de",
+      "level": "A2",
+      "type": "matching",
+      "question": "Was macht Leon am Dienstag?",
+      "passageId": "gen-p-h2-603e3d46-s1",
+      "correct": "i",
+      "correctAnswer": "i",
+      "explanation": "Leon hat vor, am Dienstagabend etwas Leckeres zu kochen.",
+      "language": "de",
+      "examType": "goethe",
+      "difficulty": 5,
+      "skills": [
+        "listening"
+      ],
+      "topicTags": [
+        "Freizeit"
+      ],
+      "_keyOnlyMatch": true,
+      "vocabularyTags": [
+        "kochen",
+        "Dienstagabend",
+        "Dienstag",
+        "Leckeres"
+      ],
+      "grammarTags": []
+    },
+    {
+      "id": "gen-q-h2-603e3d46-q3",
+      "module": "horen",
+      "teil": 2,
+      "lang": "de",
+      "level": "A2",
+      "type": "matching",
+      "question": "Was macht Greta am Mittwoch?",
+      "passageId": "gen-p-h2-603e3d46-s1",
+      "correct": "g",
+      "correctAnswer": "g",
+      "explanation": "Greta muss am Mittwoch in die Bibliothek, um für eine Aufgabe zu lernen.",
+      "language": "de",
+      "examType": "goethe",
+      "difficulty": 5,
+      "skills": [
+        "listening"
+      ],
+      "topicTags": [
+        "Freizeit"
+      ],
+      "_keyOnlyMatch": true,
+      "vocabularyTags": [
+        "Bibliothek",
+        "Aufgabe",
+        "lernen",
+        "Mittwoch",
+        "Greta"
+      ],
+      "grammarTags": [
+        "g-de-a2-trennbar",
+        "g-de-a2-dat-akk"
+      ]
+    },
+    {
+      "id": "gen-q-h2-603e3d46-q4",
+      "module": "horen",
+      "teil": 2,
+      "lang": "de",
+      "level": "A2",
+      "type": "matching",
+      "question": "Was macht Leon am Donnerstag?",
+      "passageId": "gen-p-h2-603e3d46-s1",
+      "correct": "f",
+      "correctAnswer": "f",
+      "explanation": "Leon geht am Donnerstagabend ins Kino, um einen neuen Film zu sehen.",
+      "language": "de",
+      "examType": "goethe",
+      "difficulty": 5,
+      "skills": [
+        "listening"
+      ],
+      "topicTags": [
+        "Freizeit"
+      ],
+      "_keyOnlyMatch": true,
+      "vocabularyTags": [
+        "Donnerstagabend",
+        "Donnerstag",
+        "neuen",
+        "sehen"
+      ],
+      "grammarTags": [
+        "g-de-a2-trennbar"
+      ]
+    },
+    {
+      "id": "gen-q-h2-603e3d46-q5",
+      "module": "horen",
+      "teil": 2,
+      "lang": "de",
+      "level": "A2",
+      "type": "matching",
+      "question": "Was macht Greta am Freitag?",
+      "passageId": "gen-p-h2-603e3d46-s1",
+      "correct": "a",
+      "correctAnswer": "a",
+      "explanation": "Greta überlegt, am Freitag eine Fahrradtour zu machen.",
+      "language": "de",
+      "examType": "goethe",
+      "difficulty": 5,
+      "skills": [
+        "listening"
+      ],
+      "topicTags": [
+        "Freizeit"
+      ],
+      "_keyOnlyMatch": true,
+      "vocabularyTags": [
+        "fahren",
+        "Fahrradtour",
+        "Freitag",
+        "Fahrrad",
+        "Greta",
+        "machen"
+      ],
+      "grammarTags": [
+        "g-de-a2-trennbar",
+        "g-de-a2-dat-akk"
+      ]
+    }
+  ],
+  "_germanCapsNormalizeVersion": "v3.23-lesen-t2-angebote-corpus-2026-07-28",
+  "_germanCapsNormalizedAt": "2026-07-27T06:32:39.396Z",
+  "_balanceMcqVersion": "v1.2-no-rf-chrono-shuffle-2026-07-11",
+  "_balanceMcqNormalizedAt": "2026-07-27T06:32:39.396Z",
+  "topicTag": "Freizeit",
+  "_requestedTopic": "Freizeit",
+  "generationMetadata": {
+    "usedFeedback": false,
+    "feedbackRules": [],
+    "feedbackCount": 0,
+    "feedbackCategories": [],
+    "feedbackMode": "off",
+    "feedbackVersion": "v1"
+  },
+  "_metadataEnrichedAt": "2026-07-27T06:41:16.589Z",
+  "_metadataEnrichNote": "deterministic: detectTopic + per-question lemma vocab + grammar heuristics",
+  "_vocabTagsNormalizeVersion": "v2.3.16-b1-validated-verb-adj-lemma-2026-07-24",
+  "_grammarTagsNormalizeVersion": "v2.2-a2-b2-level-tags-2026-07-27",
+  "_a2GrammarRetagAt": "2026-07-27T06:41:16.589Z",
+  "_a2GrammarRetagNote": "re-enrich-a2-pool-grammar.mjs",
+  "_germanCapsMetadataRestampAt": "2026-08-05T04:37:08.129Z",
+  "_germanCapsMetadataRestampNote": "metadata-only; no applyGermanCapsNormalize"
+}

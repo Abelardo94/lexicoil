@@ -1,0 +1,325 @@
+{
+  "passages": [
+    {
+      "id": "gen-p-h3-8156cb9d-s1",
+      "module": "horen",
+      "teil": 3,
+      "lang": "de",
+      "level": "A2",
+      "topicTag": "Umwelt",
+      "text": "Jan: Sag mal, Marie, hast du schon die neue Mülltrennung gesehen? Das ist eine gute Aufgabe für uns alle.\nMarie: Ja, Jan! Ich finde es super, dass wir jetzt direkt am Haus Bio-Müll trennen können. Das ist ein großer Vorteil für die Umwelt.",
+      "audio": [
+        {
+          "speaker": "Jan",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Sag mal, Marie, hast du schon die neue Mülltrennung gesehen? Das ist eine gute Aufgabe für uns alle."
+        },
+        {
+          "speaker": "Marie",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Ja, Jan! Ich finde es super, dass wir jetzt direkt am Haus Bio-Müll trennen können. Das ist ein großer Vorteil für die Umwelt."
+        }
+      ]
+    },
+    {
+      "id": "gen-p-h3-8156cb9d-s2",
+      "module": "horen",
+      "teil": 3,
+      "lang": "de",
+      "level": "A2",
+      "topicTag": "Umwelt",
+      "text": "Erik: Hannah, ich überlege, ob wir öfter mit dem Fahrrad zur Arbeit fahren sollten. Das wäre besser für die Luft.\nHannah: Das ist eine tolle Idee, Erik! Ich fahre sowieso schon täglich mit dem Rad. Es ist gut für die Gesundheit und die Umwelt.",
+      "audio": [
+        {
+          "speaker": "Erik",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Hannah, ich überlege, ob wir öfter mit dem Fahrrad zur Arbeit fahren sollten. Das wäre besser für die Luft."
+        },
+        {
+          "speaker": "Hannah",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Das ist eine tolle Idee, Erik! Ich fahre sowieso schon täglich mit dem Rad. Es ist gut für die Gesundheit und die Umwelt."
+        }
+      ]
+    },
+    {
+      "id": "gen-p-h3-8156cb9d-s3",
+      "module": "horen",
+      "teil": 3,
+      "lang": "de",
+      "level": "A2",
+      "topicTag": "Umwelt",
+      "text": "Leon: Greta, ich habe gehört, es gibt einen neuen Kurs zum Gärtnern ohne Chemie. Das klingt interessant für unsere Situation.\nGreta: Oh, wirklich? Das ist eine gute Möglichkeit, unseren Garten umweltfreundlicher zu machen. Ich melde mich direkt an!",
+      "audio": [
+        {
+          "speaker": "Leon",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Greta, ich habe gehört, es gibt einen neuen Kurs zum Gärtnern ohne Chemie. Das klingt interessant für unsere Situation."
+        },
+        {
+          "speaker": "Greta",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Oh, wirklich? Das ist eine gute Möglichkeit, unseren Garten umweltfreundlicher zu machen. Ich melde mich direkt an!"
+        }
+      ]
+    },
+    {
+      "id": "gen-p-h3-8156cb9d-s4",
+      "module": "horen",
+      "teil": 3,
+      "lang": "de",
+      "level": "A2",
+      "topicTag": "Umwelt",
+      "text": "Finn: Paula, ich habe gelesen, dass man beim Einkaufen Plastik vermeiden soll. Das ist eine wichtige Aufgabe für uns.\nPaula: Ja, Finn. Ich nehme immer meine Stofftasche mit. Das ist ein kleiner Schritt, aber ein großer Vorteil für die Natur.",
+      "audio": [
+        {
+          "speaker": "Finn",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Paula, ich habe gelesen, dass man beim Einkaufen Plastik vermeiden soll. Das ist eine wichtige Aufgabe für uns."
+        },
+        {
+          "speaker": "Paula",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Ja, Finn. Ich nehme immer meine Stofftasche mit. Das ist ein kleiner Schritt, aber ein großer Vorteil für die Natur."
+        }
+      ]
+    },
+    {
+      "id": "gen-p-h3-8156cb9d-s5",
+      "module": "horen",
+      "teil": 3,
+      "lang": "de",
+      "level": "A2",
+      "topicTag": "Umwelt",
+      "text": "Omar: Yasmin, hast du schon die neuen Energiesparlampen gesehen? Sie sind zwar teurer, aber ein Vorteil für die Umwelt.\nYasmin: Ja, Omar. Ich habe schon alle Lampen bei mir ausgetauscht. Es ist eine gute Situation für unseren Planeten.",
+      "audio": [
+        {
+          "speaker": "Omar",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Yasmin, hast du schon die neuen Energiesparlampen gesehen? Sie sind zwar teurer, aber ein Vorteil für die Umwelt."
+        },
+        {
+          "speaker": "Yasmin",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Ja, Omar. Ich habe schon alle Lampen bei mir ausgetauscht. Es ist eine gute Situation für unseren Planeten."
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "gen-q-h3-8156cb9d-q1",
+      "module": "horen",
+      "teil": 3,
+      "lang": "de",
+      "level": "A2",
+      "type": "multiple_choice",
+      "passageId": "gen-p-h3-8156cb9d-s1",
+      "segmentLabel": "Text 1",
+      "question": "Worüber sprechen Jan und Marie?",
+      "options": [
+        "a) Über die Mülltrennung.",
+        "b) Über ein neues Haus.",
+        "c) Über eine neue Aufgabe im Büro."
+      ],
+      "correct": "a",
+      "correctAnswer": "a",
+      "explanation": "Jan und Marie sprechen über die neue Mülltrennung und wie wichtig diese Aufgabe für die Umwelt ist.",
+      "language": "de",
+      "examType": "goethe",
+      "difficulty": 5,
+      "skills": [
+        "listening"
+      ],
+      "topicTags": [
+        "Umwelt"
+      ],
+      "vocabularyTags": [
+        "Mülltrennung",
+        "sprechen",
+        "Worüber",
+        "Marie"
+      ],
+      "grammarTags": [
+        "g-de-a2-trennbar",
+        "g-de-a2-dat-akk"
+      ]
+    },
+    {
+      "id": "gen-q-h3-8156cb9d-q2",
+      "module": "horen",
+      "teil": 3,
+      "lang": "de",
+      "level": "A2",
+      "type": "multiple_choice",
+      "passageId": "gen-p-h3-8156cb9d-s2",
+      "segmentLabel": "Text 2",
+      "question": "Was sagt Hannah zum Fahrradfahren zur Arbeit?",
+      "options": [
+        "a) Sie fährt schon täglich mit dem Rad.",
+        "b) Sie findet es zu anstrengend.",
+        "c) Sie hat kein Fahrrad."
+      ],
+      "correct": "a",
+      "correctAnswer": "a",
+      "explanation": "Hannah sagt, dass sie sowieso schon täglich mit dem Fahrrad zur Arbeit fährt, weil es gut für die Gesundheit und die Umwelt ist.",
+      "language": "de",
+      "examType": "goethe",
+      "difficulty": 5,
+      "skills": [
+        "listening"
+      ],
+      "topicTags": [
+        "Umwelt"
+      ],
+      "vocabularyTags": [
+        "täglich",
+        "fahrradfahren",
+        "Arbeit",
+        "fahren",
+        "Hannah"
+      ],
+      "grammarTags": [
+        "g-de-a2-nebensatz",
+        "g-de-a2-trennbar",
+        "g-de-a2-dat-akk"
+      ]
+    },
+    {
+      "id": "gen-q-h3-8156cb9d-q3",
+      "module": "horen",
+      "teil": 3,
+      "lang": "de",
+      "level": "A2",
+      "type": "multiple_choice",
+      "passageId": "gen-p-h3-8156cb9d-s3",
+      "segmentLabel": "Text 3",
+      "question": "Wofür interessiert sich Greta?",
+      "options": [
+        "a) Für einen Kurs über Chemie.",
+        "b) Für einen Kurs zum umweltfreundlichen Gärtnern.",
+        "c) Für den Kauf eines neuen Gartens."
+      ],
+      "correct": "b",
+      "correctAnswer": "b",
+      "explanation": "Greta interessiert sich für den Kurs zum Gärtnern ohne Chemie, um ihren Garten umweltfreundlicher zu gestalten.",
+      "language": "de",
+      "examType": "goethe",
+      "difficulty": 5,
+      "skills": [
+        "listening"
+      ],
+      "topicTags": [
+        "Umwelt"
+      ],
+      "vocabularyTags": [
+        "gärtnern",
+        "Umweltfreundlichen",
+        "Kurs",
+        "Greta"
+      ],
+      "grammarTags": [
+        "g-de-a2-trennbar",
+        "g-de-a2-dat-akk"
+      ]
+    },
+    {
+      "id": "gen-q-h3-8156cb9d-q4",
+      "module": "horen",
+      "teil": 3,
+      "lang": "de",
+      "level": "A2",
+      "type": "multiple_choice",
+      "passageId": "gen-p-h3-8156cb9d-s4",
+      "segmentLabel": "Text 4",
+      "question": "Was macht Paula beim Einkaufen?",
+      "options": [
+        "a) Sie vermeidet das Einkaufen.",
+        "b) Sie kauft viel Plastik.",
+        "c) Sie nimmt immer eine Stofftasche mit."
+      ],
+      "correct": "c",
+      "correctAnswer": "c",
+      "explanation": "Paula sagt, dass sie immer ihre Stofftasche mitnimmt, um Plastik zu vermeiden und einen Vorteil für die Natur zu schaffen.",
+      "language": "de",
+      "examType": "goethe",
+      "difficulty": 5,
+      "skills": [
+        "listening"
+      ],
+      "topicTags": [
+        "Umwelt"
+      ],
+      "vocabularyTags": [
+        "einkaufen",
+        "Stofftasche",
+        "Paula"
+      ],
+      "grammarTags": [
+        "g-de-a2-nebensatz",
+        "g-de-a2-trennbar",
+        "g-de-a2-dat-akk"
+      ]
+    },
+    {
+      "id": "gen-q-h3-8156cb9d-q5",
+      "module": "horen",
+      "teil": 3,
+      "lang": "de",
+      "level": "A2",
+      "type": "multiple_choice",
+      "passageId": "gen-p-h3-8156cb9d-s5",
+      "segmentLabel": "Text 5",
+      "question": "Warum benutzt Yasmin neue Lampen?",
+      "options": [
+        "a) Sie sind billiger.",
+        "b) Sie sind besser für die Umwelt.",
+        "c) Sie sind schöner."
+      ],
+      "correct": "b",
+      "correctAnswer": "b",
+      "explanation": "Yasmin hat alle Lampen ausgetauscht, weil die neuen Energiesparlampen ein Vorteil für die Umwelt und den Planeten sind.",
+      "language": "de",
+      "examType": "goethe",
+      "difficulty": 5,
+      "skills": [
+        "listening"
+      ],
+      "topicTags": [
+        "Umwelt"
+      ],
+      "vocabularyTags": [
+        "Umwelt",
+        "besser",
+        "lampen",
+        "Yasmin"
+      ],
+      "grammarTags": [
+        "g-de-a2-nebensatz",
+        "g-de-a2-trennbar",
+        "g-de-a2-dat-akk",
+        "g-de-a2-komparativ"
+      ]
+    }
+  ],
+  "_germanCapsNormalizeVersion": "v3.23-lesen-t2-angebote-corpus-2026-07-28",
+  "_germanCapsNormalizedAt": "2026-07-27T06:43:30.276Z",
+  "_balanceMcqVersion": "v1.2-no-rf-chrono-shuffle-2026-07-11",
+  "_balanceMcqNormalizedAt": "2026-07-27T06:43:30.276Z",
+  "topicTag": "Umwelt",
+  "_requestedTopic": "Umwelt",
+  "generationMetadata": {
+    "usedFeedback": false,
+    "feedbackRules": [],
+    "feedbackCount": 0,
+    "feedbackCategories": [],
+    "feedbackMode": "off",
+    "feedbackVersion": "v1"
+  },
+  "_metadataEnrichedAt": "2026-07-27T06:43:32.354Z",
+  "_metadataEnrichNote": "deterministic: detectTopic + per-question lemma vocab + grammar heuristics",
+  "_vocabTagsNormalizeVersion": "v2.3.16-b1-validated-verb-adj-lemma-2026-07-24",
+  "_grammarTagsNormalizeVersion": "v2.2-a2-b2-level-tags-2026-07-27",
+  "_germanCapsMetadataRestampAt": "2026-08-05T04:37:08.157Z",
+  "_germanCapsMetadataRestampNote": "metadata-only; no applyGermanCapsNormalize"
+}

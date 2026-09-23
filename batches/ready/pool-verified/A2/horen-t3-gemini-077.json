@@ -1,0 +1,374 @@
+{
+  "passages": [
+    {
+      "id": "gen-p-h3-cf59b1b2-s1",
+      "module": "horen",
+      "teil": 3,
+      "lang": "de",
+      "level": "A2",
+      "topicTag": "Freizeit",
+      "text": "Max: Sag mal, Lena, hast du schon Pläne für das Wochenende? Ich wollte vielleicht wandern gehen.\nLena: Wandern klingt gut, Max! Aber ich muss am Samstag noch das Geschirr spülen. Vielleicht am Sonntag?\nMax: Ja, Sonntag ist auch gut. Treffen wir uns dann am Morgen?\nLena: Perfekt! Am Sonntagvormittag passt es mir am besten.",
+      "audio": [
+        {
+          "speaker": "Max",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Sag mal, Lena, hast du schon Pläne für das Wochenende? Ich wollte vielleicht wandern gehen."
+        },
+        {
+          "speaker": "Lena",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Wandern klingt gut, Max! Aber ich muss am Samstag noch das Geschirr spülen. Vielleicht am Sonntag?"
+        },
+        {
+          "speaker": "Max",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Ja, Sonntag ist auch gut. Treffen wir uns dann am Morgen?"
+        },
+        {
+          "speaker": "Lena",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Perfekt! Am Sonntagvormittag passt es mir am besten."
+        }
+      ]
+    },
+    {
+      "id": "gen-p-h3-cf59b1b2-s2",
+      "module": "horen",
+      "teil": 3,
+      "lang": "de",
+      "level": "A2",
+      "topicTag": "Freizeit",
+      "text": "Tom: Katja, ich habe einen interessanten Blog über neue Hobbys gefunden. Möchtest du ihn lesen?\nKatja: Oh, super, Tom! Ich suche schon lange nach einer neuen Freizeitbeschäftigung.\nTom: Er hat viele gute Ideen, zum Beispiel Töpfern oder Fotografieren.\nKatja: Das klingt spannend! Schick mir den Link, bitte.",
+      "audio": [
+        {
+          "speaker": "Tom",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Katja, ich habe einen interessanten Blog über neue Hobbys gefunden. Möchtest du ihn lesen?"
+        },
+        {
+          "speaker": "Katja",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Oh, super, Tom! Ich suche schon lange nach einer neuen Freizeitbeschäftigung."
+        },
+        {
+          "speaker": "Tom",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Er hat viele gute Ideen, zum Beispiel Töpfern oder Fotografieren."
+        },
+        {
+          "speaker": "Katja",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Das klingt spannend! Schick mir den Link, bitte."
+        }
+      ]
+    },
+    {
+      "id": "gen-p-h3-cf59b1b2-s3",
+      "module": "horen",
+      "teil": 3,
+      "lang": "de",
+      "level": "A2",
+      "topicTag": "Freizeit",
+      "text": "Moritz: Jana, ich muss morgen früh aufstehen, um zum Sport zu gehen. Das weckt mich richtig auf!\nJana: Früh aufstehen ist nicht so mein Ding, Moritz. Aber Sport ist wichtig für die Gesundheit.\nMoritz: Ja, und danach fühle ich mich meistens sehr gut.\nJana: Das glaube ich dir. Viel Spaß dabei!",
+      "audio": [
+        {
+          "speaker": "Moritz",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Jana, ich muss morgen früh aufstehen, um zum Sport zu gehen. Das weckt mich richtig auf!"
+        },
+        {
+          "speaker": "Jana",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Früh aufstehen ist nicht so mein Ding, Moritz. Aber Sport ist wichtig für die Gesundheit."
+        },
+        {
+          "speaker": "Moritz",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Ja, und danach fühle ich mich meistens sehr gut."
+        },
+        {
+          "speaker": "Jana",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Das glaube ich dir. Viel Spaß dabei!"
+        }
+      ]
+    },
+    {
+      "id": "gen-p-h3-cf59b1b2-s4",
+      "module": "horen",
+      "teil": 3,
+      "lang": "de",
+      "level": "A2",
+      "topicTag": "Freizeit",
+      "text": "Philipp: Sara, was machst du am liebsten in deiner Freizeit?\nSara: Ich gehe am liebsten spazieren oder lese ein gutes Buch. Das ist für mich die beste Entspannung.\nPhilipp: Ja, das verstehe ich. Ich spiele gerne Fußball mit Freunden.\nSara: Das ist auch eine schöne Beschäftigung.",
+      "audio": [
+        {
+          "speaker": "Philipp",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Sara, was machst du am liebsten in deiner Freizeit?"
+        },
+        {
+          "speaker": "Sara",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Ich gehe am liebsten spazieren oder lese ein gutes Buch. Das ist für mich die beste Entspannung."
+        },
+        {
+          "speaker": "Philipp",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Ja, das verstehe ich. Ich spiele gerne Fußball mit Freunden."
+        },
+        {
+          "speaker": "Sara",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Das ist auch eine schöne Beschäftigung."
+        }
+      ]
+    },
+    {
+      "id": "gen-p-h3-cf59b1b2-s5",
+      "module": "horen",
+      "teil": 3,
+      "lang": "de",
+      "level": "A2",
+      "topicTag": "Freizeit",
+      "text": "Tim: Sophie, ich habe gehört, du machst jetzt einen Töpferkurs. Wie gefällt er dir?\nSophie: Ja, Tim! Er ist super, ich lerne viel neues. Es ist eine tolle Abwechslung.\nTim: Das klingt interessant. Ich überlege auch, etwas Kreatives zu machen.\nSophie: Kann ich nur empfehlen! Es macht wirklich Spaß.",
+      "audio": [
+        {
+          "speaker": "Tim",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Sophie, ich habe gehört, du machst jetzt einen Töpferkurs. Wie gefällt er dir?"
+        },
+        {
+          "speaker": "Sophie",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Ja, Tim! Er ist super, ich lerne viel neues. Es ist eine tolle Abwechslung."
+        },
+        {
+          "speaker": "Tim",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Das klingt interessant. Ich überlege auch, etwas Kreatives zu machen."
+        },
+        {
+          "speaker": "Sophie",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Kann ich nur empfehlen! Es macht wirklich Spaß."
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "gen-q-h3-cf59b1b2-q1",
+      "module": "horen",
+      "teil": 3,
+      "lang": "de",
+      "level": "A2",
+      "type": "multiple_choice",
+      "passageId": "gen-p-h3-cf59b1b2-s1",
+      "segmentLabel": "Text 1",
+      "question": "Was planen Max und Lena für Sonntag?",
+      "options": [
+        "a) Sie wollen wandern gehen.",
+        "b) Sie wollen das Geschirr spülen.",
+        "c) Sie wollen sich nur treffen."
+      ],
+      "correct": "a",
+      "correctAnswer": "a",
+      "explanation": "Lena schlägt vor, am Sonntag wandern zu gehen, nachdem sie am Samstag das Geschirr gespült hat, und Max stimmt zu. Am Sonntagvormittag passt es ihr am besten.",
+      "language": "de",
+      "examType": "goethe",
+      "difficulty": 5,
+      "skills": [
+        "listening"
+      ],
+      "topicTags": [
+        "Freizeit"
+      ],
+      "vocabularyTags": [
+        "wandern",
+        "planen",
+        "Sonntag",
+        "gehen"
+      ],
+      "grammarTags": [
+        "g-de-a2-nebensatz",
+        "g-de-a2-modal",
+        "g-de-a2-dat-akk",
+        "g-de-a2-komparativ"
+      ]
+    },
+    {
+      "id": "gen-q-h3-cf59b1b2-q2",
+      "module": "horen",
+      "teil": 3,
+      "lang": "de",
+      "level": "A2",
+      "type": "multiple_choice",
+      "passageId": "gen-p-h3-cf59b1b2-s2",
+      "segmentLabel": "Text 2",
+      "question": "Was hat Tom gefunden?",
+      "options": [
+        "a) Eine neue Kamera.",
+        "b) Ein neues Hobby.",
+        "c) Einen Blog."
+      ],
+      "correct": "c",
+      "correctAnswer": "c",
+      "explanation": "Tom sagt zu Katja, dass er einen interessanten Blog über neue Hobbys gefunden hat und fragt, ob sie ihn lesen möchte.",
+      "language": "de",
+      "examType": "goethe",
+      "difficulty": 5,
+      "skills": [
+        "listening"
+      ],
+      "topicTags": [
+        "Freizeit"
+      ],
+      "vocabularyTags": [
+        "finden"
+      ],
+      "grammarTags": [
+        "g-de-a2-nebensatz",
+        "g-de-a2-modal",
+        "g-de-a2-perfekt",
+        "g-de-a2-trennbar"
+      ]
+    },
+    {
+      "id": "gen-q-h3-cf59b1b2-q3",
+      "module": "horen",
+      "teil": 3,
+      "lang": "de",
+      "level": "A2",
+      "type": "multiple_choice",
+      "passageId": "gen-p-h3-cf59b1b2-s3",
+      "segmentLabel": "Text 3",
+      "question": "Warum steht Moritz früh auf?",
+      "options": [
+        "a) Er fühlt sich danach müde.",
+        "b) Er muss arbeiten.",
+        "c) Er möchte Sport machen."
+      ],
+      "correct": "c",
+      "correctAnswer": "c",
+      "explanation": "Moritz erklärt, dass er morgen früh aufstehen muss, um zum Sport zu gehen, weil ihn das Richtig aufweckt.",
+      "language": "de",
+      "examType": "goethe",
+      "difficulty": 5,
+      "skills": [
+        "listening"
+      ],
+      "topicTags": [
+        "Freizeit"
+      ],
+      "vocabularyTags": [
+        "Moritz",
+        "möcht",
+        "Sport",
+        "machen"
+      ],
+      "grammarTags": [
+        "g-de-a2-nebensatz",
+        "g-de-a2-modal",
+        "g-de-a2-trennbar",
+        "g-de-a2-dat-akk"
+      ]
+    },
+    {
+      "id": "gen-q-h3-cf59b1b2-q4",
+      "module": "horen",
+      "teil": 3,
+      "lang": "de",
+      "level": "A2",
+      "type": "multiple_choice",
+      "passageId": "gen-p-h3-cf59b1b2-s4",
+      "segmentLabel": "Text 4",
+      "question": "Was ist Saras Lieblingsfreizeitaktivität?",
+      "options": [
+        "a) Fußball spielen.",
+        "b) Spazieren und lesen.",
+        "c) Freunde treffen."
+      ],
+      "correct": "b",
+      "correctAnswer": "b",
+      "explanation": "Sara antwortet: \"Ich gehe am liebsten spazieren oder lese ein gutes Buch.\" Das sind ihre bevorzugten Freizeitaktivitäten.",
+      "language": "de",
+      "examType": "goethe",
+      "difficulty": 5,
+      "skills": [
+        "listening"
+      ],
+      "topicTags": [
+        "Freizeit"
+      ],
+      "vocabularyTags": [
+        "Lieblingsfreizeitaktivität",
+        "spazieren",
+        "lesen",
+        "Saras"
+      ],
+      "grammarTags": [
+        "g-de-a2-trennbar",
+        "g-de-a2-komparativ"
+      ]
+    },
+    {
+      "id": "gen-q-h3-cf59b1b2-q5",
+      "module": "horen",
+      "teil": 3,
+      "lang": "de",
+      "level": "A2",
+      "type": "multiple_choice",
+      "passageId": "gen-p-h3-cf59b1b2-s5",
+      "segmentLabel": "Text 5",
+      "question": "Was macht Sophie in ihrer Freizeit?",
+      "options": [
+        "a) Sie macht einen Töpferkurs.",
+        "b) Sie lernt viel neues.",
+        "c) Sie besucht einen Sprachkurs."
+      ],
+      "correct": "a",
+      "correctAnswer": "a",
+      "explanation": "Tim fragt Sophie direkt nach ihrem Töpferkurs, und Sophie bestätigt, dass sie diesen besucht und er ihr sehr gut gefällt.",
+      "language": "de",
+      "examType": "goethe",
+      "difficulty": 5,
+      "skills": [
+        "listening"
+      ],
+      "topicTags": [
+        "Freizeit"
+      ],
+      "vocabularyTags": [
+        "Freizeit",
+        "Töpferkurs",
+        "Sophie"
+      ],
+      "grammarTags": [
+        "g-de-a2-nebensatz",
+        "g-de-a2-trennbar",
+        "g-de-a2-dat-akk"
+      ]
+    }
+  ],
+  "_germanCapsNormalizeVersion": "v3.23-lesen-t2-angebote-corpus-2026-07-28",
+  "_germanCapsNormalizedAt": "2026-07-27T07:06:05.097Z",
+  "_balanceMcqVersion": "v1.2-no-rf-chrono-shuffle-2026-07-11",
+  "_balanceMcqNormalizedAt": "2026-07-27T07:06:05.097Z",
+  "topicTag": "Freizeit",
+  "_requestedTopic": "Freizeit",
+  "generationMetadata": {
+    "usedFeedback": false,
+    "feedbackRules": [],
+    "feedbackCount": 0,
+    "feedbackCategories": [],
+    "feedbackMode": "off",
+    "feedbackVersion": "v1"
+  },
+  "_metadataEnrichedAt": "2026-07-27T07:06:18.345Z",
+  "_metadataEnrichNote": "deterministic: detectTopic + per-question lemma vocab + grammar heuristics",
+  "_vocabTagsNormalizeVersion": "v2.3.16-b1-validated-verb-adj-lemma-2026-07-24",
+  "_grammarTagsNormalizeVersion": "v2.2-a2-b2-level-tags-2026-07-27",
+  "_germanCapsMetadataRestampAt": "2026-08-05T04:37:08.167Z",
+  "_germanCapsMetadataRestampNote": "metadata-only; no applyGermanCapsNormalize"
+}

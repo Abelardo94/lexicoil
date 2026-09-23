@@ -1,0 +1,342 @@
+{
+  "passages": [
+    {
+      "id": "gen-p-h3-4f102561-s1",
+      "module": "horen",
+      "teil": 3,
+      "lang": "de",
+      "level": "A2",
+      "topicTag": "Kultur",
+      "text": "Tim: Sag mal, Sophie, hast du schon die neue Ausstellung im Stadtmuseum gesehen?\nSophie: Nein, noch nicht. Ist sie gut? Ich habe gehört, sie zeigt alte Kunst.\nTim: Ja, sehr interessant! Ich war gestern dort. Du solltest hingehen.",
+      "audio": [
+        {
+          "speaker": "Tim",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Sag mal, Sophie, hast du schon die neue Ausstellung im Stadtmuseum gesehen?"
+        },
+        {
+          "speaker": "Sophie",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Nein, noch nicht. Ist sie gut? Ich habe gehört, sie zeigt alte Kunst."
+        },
+        {
+          "speaker": "Tim",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Ja, sehr interessant! Ich war gestern dort. Du solltest hingehen."
+        }
+      ]
+    },
+    {
+      "id": "gen-p-h3-4f102561-s2",
+      "module": "horen",
+      "teil": 3,
+      "lang": "de",
+      "level": "A2",
+      "topicTag": "Kultur",
+      "text": "Niklas: Laura, ich habe Karten für das Konzert am Samstagabend. Möchtest du mitkommen?\nLaura: Oh, das ist perfekt! Welche Musikrichtung ist es denn?\nNiklas: Es ist klassische Musik. Es beginnt um acht Uhr.",
+      "audio": [
+        {
+          "speaker": "Niklas",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Laura, ich habe Karten für das Konzert am Samstagabend. Möchtest du mitkommen?"
+        },
+        {
+          "speaker": "Laura",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Oh, das ist perfekt! Welche Musikrichtung ist es denn?"
+        },
+        {
+          "speaker": "Niklas",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Es ist klassische Musik. Es beginnt um acht Uhr."
+        }
+      ]
+    },
+    {
+      "id": "gen-p-h3-4f102561-s3",
+      "module": "horen",
+      "teil": 3,
+      "lang": "de",
+      "level": "A2",
+      "topicTag": "Kultur",
+      "text": "Paul: Nina, ich habe einen Tipp für dich: Im Kino läuft ein neuer deutscher Film.\nNina: Ach, wirklich? Wie heißt er? Ich suche schon lange einen guten Film.\nPaul: Er heißt „Der alte Baum“. Er ist sehr schön und läuft bis nächste Woche.",
+      "audio": [
+        {
+          "speaker": "Paul",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Nina, ich habe einen Tipp für dich: Im Kino läuft ein neuer deutscher Film."
+        },
+        {
+          "speaker": "Nina",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Ach, wirklich? Wie heißt er? Ich suche schon lange einen guten Film."
+        },
+        {
+          "speaker": "Paul",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Er heißt „Der alte Baum“. Er ist sehr schön und läuft bis nächste Woche."
+        }
+      ]
+    },
+    {
+      "id": "gen-p-h3-4f102561-s4",
+      "module": "horen",
+      "teil": 3,
+      "lang": "de",
+      "level": "A2",
+      "topicTag": "Kultur",
+      "text": "David: Julia, ich habe gehört, es gibt eine interessante Führung durch die Altstadt.\nJulia: Ja, das stimmt! Sie ist am Sonntag um elf Uhr. Ich wollte schon lange mal mitmachen.\nDavid: Super! Treffen wir uns dann am Marktplatz?",
+      "audio": [
+        {
+          "speaker": "David",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Julia, ich habe gehört, es gibt eine interessante Führung durch die Altstadt."
+        },
+        {
+          "speaker": "Julia",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Ja, das stimmt! Sie ist am Sonntag um elf Uhr. Ich wollte schon lange mal mitmachen."
+        },
+        {
+          "speaker": "David",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Super! Treffen wir uns dann am Marktplatz?"
+        }
+      ]
+    },
+    {
+      "id": "gen-p-h3-4f102561-s5",
+      "module": "horen",
+      "teil": 3,
+      "lang": "de",
+      "level": "A2",
+      "topicTag": "Kultur",
+      "text": "Simon: Lisa, weißt du, wann das Sommerfest im Park ist? Es soll Musik geben.\nLisa: Ja, Simon. Es ist am kommenden Wochenende. Viele Bands spielen dort.\nSimon: Toll! Ich möchte unbedingt hingehen.",
+      "audio": [
+        {
+          "speaker": "Simon",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Lisa, weißt du, wann das Sommerfest im Park ist? Es soll Musik geben."
+        },
+        {
+          "speaker": "Lisa",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Ja, Simon. Es ist am kommenden Wochenende. Viele Bands spielen dort."
+        },
+        {
+          "speaker": "Simon",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Toll! Ich möchte unbedingt hingehen."
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "gen-q-h3-4f102561-q1",
+      "module": "horen",
+      "teil": 3,
+      "lang": "de",
+      "level": "A2",
+      "type": "multiple_choice",
+      "passageId": "gen-p-h3-4f102561-s1",
+      "segmentLabel": "Text 1",
+      "question": "Was hat Tim gestern gemacht?",
+      "options": [
+        "a) Er hat alte Kunst gekauft.",
+        "b) Er hat eine neue Ausstellung besucht.",
+        "c) Er hat Sophie im Stadtmuseum getroffen."
+      ],
+      "correct": "b",
+      "correctAnswer": "b",
+      "explanation": "Tim sagt, er war gestern dort und hat die neue Ausstellung im Stadtmuseum gesehen. Option b fasst dies korrekt zusammen.",
+      "language": "de",
+      "examType": "goethe",
+      "difficulty": 5,
+      "skills": [
+        "listening"
+      ],
+      "topicTags": [
+        "Kultur"
+      ],
+      "vocabularyTags": [
+        "Ausstellung"
+      ],
+      "grammarTags": [
+        "g-de-a2-perfekt",
+        "g-de-a2-trennbar"
+      ]
+    },
+    {
+      "id": "gen-q-h3-4f102561-q2",
+      "module": "horen",
+      "teil": 3,
+      "lang": "de",
+      "level": "A2",
+      "type": "multiple_choice",
+      "passageId": "gen-p-h3-4f102561-s2",
+      "segmentLabel": "Text 2",
+      "question": "Was machen Niklas und Laura am Samstagabend?",
+      "options": [
+        "a) Sie besuchen ein Konzert mit klassischer Musik.",
+        "b) Sie essen zusammen zu Abend und treffen sich um acht Uhr.",
+        "c) Sie hören Rockmusik in einem Club."
+      ],
+      "correct": "a",
+      "correctAnswer": "a",
+      "explanation": "Niklas hat Karten für ein Konzert mit klassischer Musik am Samstagabend.",
+      "language": "de",
+      "examType": "goethe",
+      "difficulty": 5,
+      "skills": [
+        "listening"
+      ],
+      "topicTags": [
+        "Kultur"
+      ],
+      "vocabularyTags": [
+        "besuchen",
+        "Samstagabend",
+        "klassisch",
+        "Konzert",
+        "Niklas",
+        "Laura"
+      ],
+      "grammarTags": [
+        "g-de-a2-dat-akk"
+      ]
+    },
+    {
+      "id": "gen-q-h3-4f102561-q3",
+      "module": "horen",
+      "teil": 3,
+      "lang": "de",
+      "level": "A2",
+      "type": "multiple_choice",
+      "passageId": "gen-p-h3-4f102561-s3",
+      "segmentLabel": "Text 3",
+      "question": "Was empfiehlt Paul Nina?",
+      "options": [
+        "a) Ein Buch über deutsche Filme.",
+        "b) Einen alten Baum im Park.",
+        "c) Einen neuen deutschen Film."
+      ],
+      "correct": "c",
+      "correctAnswer": "c",
+      "explanation": "Paul sagt, im Kino läuft ein neuer deutscher Film. Die richtige Antwort lautet: «Einen neuen deutschen Film.»",
+      "language": "de",
+      "examType": "goethe",
+      "difficulty": 5,
+      "skills": [
+        "listening"
+      ],
+      "topicTags": [
+        "Kultur"
+      ],
+      "vocabularyTags": [
+        "deutschen",
+        "neuen"
+      ],
+      "grammarTags": [
+        "g-de-a2-trennbar"
+      ]
+    },
+    {
+      "id": "gen-q-h3-4f102561-q4",
+      "module": "horen",
+      "teil": 3,
+      "lang": "de",
+      "level": "A2",
+      "type": "multiple_choice",
+      "passageId": "gen-p-h3-4f102561-s4",
+      "segmentLabel": "Text 4",
+      "question": "Wann findet die Führung durch die Altstadt statt?",
+      "options": [
+        "a) Am Marktplatz.",
+        "b) Am Samstagmorgen.",
+        "c) Am Sonntag um elf."
+      ],
+      "correct": "c",
+      "correctAnswer": "c",
+      "explanation": "Julia sagt, dass die Führung am Sonntag um elf Uhr ist. David und Julia wollen sich dann treffen.",
+      "language": "de",
+      "examType": "goethe",
+      "difficulty": 5,
+      "skills": [
+        "listening"
+      ],
+      "topicTags": [
+        "Kultur"
+      ],
+      "vocabularyTags": [
+        "stattfinden",
+        "Führung",
+        "Altstadt",
+        "Sonntag"
+      ],
+      "grammarTags": [
+        "g-de-a2-nebensatz",
+        "g-de-a2-modal",
+        "g-de-a2-dat-akk"
+      ]
+    },
+    {
+      "id": "gen-q-h3-4f102561-q5",
+      "module": "horen",
+      "teil": 3,
+      "lang": "de",
+      "level": "A2",
+      "type": "multiple_choice",
+      "passageId": "gen-p-h3-4f102561-s5",
+      "segmentLabel": "Text 5",
+      "question": "Worum geht es bei dem Sommerfest im Park?",
+      "options": [
+        "a) Es gibt viele Bands und Musik.",
+        "b) Es ist ein Treffen für Freunde.",
+        "c) Es ist ein Fest nur für Familien."
+      ],
+      "correct": "a",
+      "correctAnswer": "a",
+      "explanation": "Lisa informiert Simon, dass beim Sommerfest viele Bands spielen werden. Option a beschreibt den Hauptinhalt des Festes.",
+      "language": "de",
+      "examType": "goethe",
+      "difficulty": 5,
+      "skills": [
+        "listening"
+      ],
+      "topicTags": [
+        "Kultur"
+      ],
+      "vocabularyTags": [
+        "viele",
+        "Bands",
+        "Musik"
+      ],
+      "grammarTags": [
+        "g-de-a2-nebensatz",
+        "g-de-a2-trennbar",
+        "g-de-a2-dat-akk"
+      ]
+    }
+  ],
+  "_germanCapsNormalizeVersion": "v3.23-lesen-t2-angebote-corpus-2026-07-28",
+  "_germanCapsNormalizedAt": "2026-07-27T06:56:07.874Z",
+  "_balanceMcqVersion": "v1.2-no-rf-chrono-shuffle-2026-07-11",
+  "_balanceMcqNormalizedAt": "2026-07-27T06:56:07.874Z",
+  "topicTag": "Kultur",
+  "_requestedTopic": "Kultur",
+  "generationMetadata": {
+    "usedFeedback": false,
+    "feedbackRules": [],
+    "feedbackCount": 0,
+    "feedbackCategories": [],
+    "feedbackMode": "off",
+    "feedbackVersion": "v1"
+  },
+  "_metadataEnrichedAt": "2026-07-27T06:56:24.687Z",
+  "_metadataEnrichNote": "deterministic: detectTopic + per-question lemma vocab + grammar heuristics",
+  "_vocabTagsNormalizeVersion": "v2.3.16-b1-validated-verb-adj-lemma-2026-07-24",
+  "_grammarTagsNormalizeVersion": "v2.2-a2-b2-level-tags-2026-07-27",
+  "_germanCapsMetadataRestampAt": "2026-08-05T04:37:08.163Z",
+  "_germanCapsMetadataRestampNote": "metadata-only; no applyGermanCapsNormalize"
+}

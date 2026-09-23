@@ -1,0 +1,101 @@
+{
+  "passages": [],
+  "questions": [
+    {
+      "id": "gen-q-s-t2-aa847e92-q1",
+      "module": "schreiben",
+      "teil": 2,
+      "lang": "de",
+      "level": "A2",
+      "type": "short_answer",
+      "question": "Ihr Chef lädt Sie zu einer Firmenfeier ein. Schreiben Sie eine E-Mail (30–40 Wörter) an Ihren Chef. Schreiben Sie zu drei Punkten:\n• Bedanken Sie sich für die Einladung.\n• Bestätigen Sie Ihre Teilnahme und informieren Sie, dass Sie eine Begleitung mitbringen.\n• Fragen Sie nach dem besten Weg oder Parkmöglichkeiten.",
+      "correct": "rubric",
+      "correctAnswer": "rubric",
+      "options": [],
+      "explanation": "Bewertung (Goethe-offiziell A2): Erfüllung (0–10) – alle 3 Punkte behandelt; Kohärenz (0–10) – Textaufbau und Verknüpfung; Wortschatz (0–10) – A2-Niveau; Strukturen (0–10) – Grammatik A2. 30–40 Wörter (unter 50 % oder Thema verfehlt → Erfüllung 0). Anrede/Gruß: formell – Sie-Form zum Empfänger im Aufgabentext.",
+      "difficulty": 2,
+      "skills": [
+        "writing"
+      ],
+      "language": "de",
+      "examType": "goethe",
+      "topicTags": [
+        "Stadtleben"
+      ],
+      "vocabularyTags": [
+        "informieren",
+        "mitbringen",
+        "Begleitung",
+        "Einladung",
+        "bedanken",
+        "fragen"
+      ],
+      "grammarTags": [
+        "g-de-a2-nebensatz",
+        "g-de-a2-trennbar",
+        "g-de-a2-dat-akk",
+        "g-de-a2-praesens"
+      ]
+    }
+  ],
+  "_germanCapsNormalizeVersion": "v3.23-lesen-t2-angebote-corpus-2026-07-28",
+  "_germanCapsNormalizedAt": "2026-08-02T10:43:54.423Z",
+  "_balanceMcqVersion": "v1.2-no-rf-chrono-shuffle-2026-07-11",
+  "_balanceMcqNormalizedAt": "2026-08-02T10:43:54.423Z",
+  "topicTag": "Stadtleben",
+  "_requestedTopic": "Stadtleben",
+  "userVocabFeedback": {
+    "topic": "Umwelt",
+    "requested": [
+      "aufgabe",
+      "situation",
+      "zukunft",
+      "täglich",
+      "bedeuten",
+      "erfahrung",
+      "vorschlag",
+      "vorteil"
+    ],
+    "prompted": [
+      "aufgabe",
+      "situation",
+      "zukunft",
+      "täglich",
+      "bedeuten",
+      "erfahrung",
+      "vorschlag",
+      "vorteil"
+    ],
+    "originalRequested": null,
+    "subtypeAdaptation": null,
+    "used": [],
+    "notUsed": [
+      "aufgabe",
+      "situation",
+      "zukunft",
+      "täglich",
+      "bedeuten",
+      "erfahrung",
+      "vorschlag",
+      "vorteil"
+    ],
+    "excluded": [],
+    "ratio": 0,
+    "targetUsage": []
+  },
+  "targetUsage": [],
+  "generationMetadata": {
+    "usedFeedback": false,
+    "feedbackRules": [],
+    "feedbackCount": 0,
+    "feedbackCategories": [],
+    "feedbackMode": "off",
+    "feedbackVersion": "v1"
+  },
+  "_metadataEnrichedAt": "2026-08-02T10:43:56.111Z",
+  "_metadataEnrichNote": "deterministic: detectTopic + per-question lemma vocab + grammar heuristics",
+  "_vocabTagsNormalizeVersion": "v2.3.18-paso3-vocab-plural-rubric-strip-2026-08-02",
+  "_grammarTagsNormalizeVersion": "v2.2-a2-b2-level-tags-2026-07-27",
+  "_a2TopicTriageFixAt": "2026-08-02T14:42:49.784Z",
+  "_a2TopicTriageFixNote": "B:topicTag Stadtleben→Stadtleben"
+}
