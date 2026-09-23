@@ -420,7 +420,13 @@ function checklistBlock(module, teil, level = 'B1') {
         `- Cada passage: **audio[]** con 1 turno monólogo para TTS.\n` +
         `- SOLO MONÓLOGO — PROHIBIDO diálogo, Gespräch o turnos «Name: …».\n` +
         `- MCQ: options a)/b)/c); correct solo letra; varía a/b/c; anti word-matching (≥4 palabras seguidas del transcript = FAIL).\n` +
-        `- LONGITUD MCQ: opción correcta y distractores de longitud comparable.\n` +
+        `- LONGITUD MCQ (gate RECHAZA): en cada pregunta la opción correcta **NO puede ser la más larga** ` +
+        `(el gate A2 falla si supera la media de los distractores en ≥20% y ≥8 caracteres). ` +
+        `Que la correcta sea la más corta o la del medio, variando entre preguntas; si necesita un dato más, ` +
+        `da a los distractores un dato equivalente (otra hora, otro lugar, otro precio). ` +
+        `CUENTA los caracteres de las tres opciones antes de responder.\n` +
+        `  Ejemplo INCORRECTO: «Um 8 Uhr.» / «Am Montag.» / «Am Dienstag um 10 Uhr im Rathaus.» ← correcta, se adivina sin escuchar.\n` +
+        `  Ejemplo CORRECTO: «Am Montag um 9 Uhr.» / «Am Freitag um 14 Uhr.» ← correcta / «Am Dienstag um 10 Uhr.»\n` +
         `- REGISTRO A2 T1: PROHIBIDO Beratungsgespräche/Vorstellungsgespräch/Personalabteilung/Herausforderung/Experte; max 1 «… zu …» por segmento.\n` +
         `- difficulty: entero 2–4 en cada question (nunca 5).\n` +
         MCQ_CHK34_EXPLANATION_RULE

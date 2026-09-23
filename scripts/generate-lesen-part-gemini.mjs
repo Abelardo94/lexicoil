@@ -1864,6 +1864,24 @@ async function generateLlmPart(args, teil, session) {
         const coherence = vocabNarrativeCoherenceGate(batch);
         if (!coherence.ok) {
           console.log(`  Gate vocab coherencia: ${coherence.reason}`);
+          // Retry instead of discarding on the first hit: the words are optional,
+          // so naming the forced ones is enough for the model to drop them. On
+          // de/A2 T1 (a short news text) this gate discarded 5 of 9 attempts
+          // outright on 22 sep 2026, without using the fix budget.
+          if (fix < args.fixRetries) {
+            const forced = coherence.flags.map((f) => f.word).join(', ');
+            lastIssue = coherence.reason;
+            settleCostFail(coherence.reason, 'vocab-narrative-coherence');
+            resetPromptWithFix(
+              `${coherence.reason}. Estas palabras quedaron en frases sueltas que no hablan del ` +
+                `tema del texto: ${forced}. Reescribe el texto SIN ellas (son opcionales) o ` +
+                `intégralas en una frase que trate del mismo asunto que el resto. ` +
+                `No añadas frases aisladas solo para meter una palabra.`,
+              'vocab-narrative-coherence',
+              batch,
+            );
+            continue;
+          }
           maybeArchiveRejectedBatch(args, teil, batch, basename, {
             reason: coherence.reason,
             gate: 'vocab-narrative-coherence',

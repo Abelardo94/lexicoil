@@ -118,8 +118,21 @@ function extractPartContext(part) {
   if (!mcqs.length) return null; // nothing to validate semantically
 
   const lang = String(part.lang || part.language || 'de').slice(0, 2).toLowerCase();
+  const level = String(part.level || '').toUpperCase();
 
-  return { module, teil: part.teil, passageText, questions: mcqs, lang };
+  return { module, teil: part.teil, passageText, questions: mcqs, lang, level };
+}
+
+/**
+ * Slots whose passage is uniform by design: every valid instance looks alike
+ * because that is the task. Goethe A2 Lesen Teil 2 is an information board of a
+ * building, floor by floor (floor_plan_mcq). The LLM "template" check flagged
+ * exactly that ("molde narrativo de un edificio con diferentes plantas") and
+ * rejected 4 of 5 generations on 22 sep 2026. Cross-part repetition is still
+ * caught by the in-process themeTags registry.
+ */
+function isUniformFormatSlot(ctx) {
+  return ctx.lang === 'de' && ctx.level === 'A2' && ctx.module === 'lesen' && Number(ctx.teil) === 2;
 }
 
 function collectPassageText(part) {
@@ -364,8 +377,10 @@ ${isDe ? `3. "distractor" (IMPORTANT) — ¿Alguna opción incorrecta es absurda
    Solo distractores claramente defectuosos (afirmación imposible, tema ajeno, trampa
    obvia que nadie elegiría). No marques si es simplemente incorrecto pero plausible.
 
-4. "template" (IMPORTANT) — ¿El pasaje sigue un molde narrativo genérico/repetitivo?
-   Devuelve también "themeTags": array de 3-5 palabras clave temáticas del pasaje.` : `3. "themeTags" — devuelve 3-5 palabras clave temáticas del pasaje.
+${isUniformFormatSlot(ctx) ? `4. "themeTags" — devuelve 3-5 palabras clave temáticas del pasaje.
+   NO generes issues de tipo "template": esta tarea ES una tabla de informaciones de un
+   edificio por plantas; que se parezca a otras tablas de plantas es el formato, no un defecto.` : `4. "template" (IMPORTANT) — ¿El pasaje sigue un molde narrativo genérico/repetitivo?
+   Devuelve también "themeTags": array de 3-5 palabras clave temáticas del pasaje.`}` : `3. "themeTags" — devuelve 3-5 palabras clave temáticas del pasaje.
    NO es un check y no genera issues: sirve para detectar repetición ENTRE partes,
    que se compara fuera de este prompt.
    NO generes issues de tipo "distractor" ni "template". El formato de esta tarea lo
@@ -598,7 +613,9 @@ export async function validatePartSemantics(part, { skipTemplate = false } = {})
   // Template issues injected in-process always pass (they have no LLM confidence field).
   const issues = rawIssues
     .filter((i) => (i.confidence ?? 1.0) >= CONFIDENCE_THRESHOLD)
-    .filter((i) => !isSelfContradictorySemIssue(i));
+    .filter((i) => !isSelfContradictorySemIssue(i))
+    // Deterministic backstop for the prompt rule: a prompt is not a contract.
+    .filter((i) => !(isUniformFormatSlot(ctx) && i.kind === 'template'));
 
   // Template check (runs in-process, no extra LLM call)
   if (!skipTemplate && themeTags.length) {
