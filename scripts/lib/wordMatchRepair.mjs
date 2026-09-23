@@ -382,6 +382,11 @@ export async function repairMcqWordCopyBatch(batch, teil, findings, callLlm, opt
   return repairedAny ? { ...batch, questions } : null;
 }
 
+function isMcqBatch(batch) {
+  const qs = batch?.questions || [];
+  return qs.length > 0 && qs.every((q) => Array.isArray(q.options) && q.options.length >= 3);
+}
+
 /**
  * Router word-matching por Teil.
  */
@@ -394,6 +399,12 @@ export async function repairWordMatchBatch(batch, teil, issues, callLlm, opts = 
       return repairMcqWordCopyBatch(batch, 2, findings, callLlm, opts);
     }
     return repairHorenWordCopyBatch(batch, findings, callLlm, { ...opts, teil: t });
+  }
+  // Goethe A2 Lesen T1 is a/b/c MCQ, not the B1 richtig/falsch statements.
+  // The statement repair rewrote A2 MCQs as true/false items without options:
+  // 33 'correct="true" no válido' rejections in 8 attempts on 23 sep 2026.
+  if (t === 1 && isMcqBatch(batch)) {
+    return repairMcqWordCopyBatch(batch, 1, parseWordMatchFindings(issues), callLlm, opts);
   }
   if (t === 1) {
     return repairT1WordMatchBatch(batch, issues, callLlm, opts);
