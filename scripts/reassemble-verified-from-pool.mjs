@@ -3,6 +3,7 @@
  * Rebuild assembled exam JSON from current pool-verified (same partIds/sources).
  *   node scripts/reassemble-verified-from-pool.mjs --level A2 --slots 1,2,3,4
  */
+import { batchToRecord } from './lib/assembledPoolLoad.mjs';
 import fs from 'node:fs';
 import path from 'node:path';
 import { ROOT } from './lib/loadEnv.mjs';
@@ -26,49 +27,6 @@ function parseArgs(argv) {
     }
   }
   return out;
-}
-
-function batchToRecord(batch, file, module, teil, level) {
-  const mod = String(module).toLowerCase();
-  const t = Number(teil);
-  const lv = normalizeLevel(level);
-  if (mod === 'lesen') {
-    const rec = buildLesenSeedRecordFromBatch(batch, { lang: 'de', level: lv, teil: t, idPrefix: 'pv' });
-    rec.id = file.replace(/\.json$/i, '');
-    return rec;
-  }
-  const passages = batch.passages || [];
-  const rec = {
-    id: file.replace(/\.json$/i, ''),
-    module: mod,
-    teil: t,
-    lang: 'de',
-    level: lv,
-    questions: batch.questions || [],
-    topicTag: batch.topicTag || passages[0]?.topicTag,
-    complete: true,
-    verified: true,
-  };
-  if (mod === 'horen') {
-    if (passages.length > 1) {
-      rec.segments = passages.map((p, i) => ({
-        passageId: p.id,
-        label: p.title || `Aufnahme ${i + 1}`,
-        text: p.text || p.transcript || '',
-        transcript: p.transcript || p.text || '',
-        questions: (batch.questions || []).filter((q) => q.passageId === p.id),
-      }));
-    }
-    rec.passage = passages[0]
-      ? {
-          title: passages[0].title,
-          text: passages[0].text,
-          transcript: passages[0].transcript || passages[0].text,
-          topicTag: passages[0].topicTag,
-        }
-      : null;
-  }
-  return rec;
 }
 
 function oralBundleToParts(batch, file, module, level) {

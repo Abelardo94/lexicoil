@@ -24,6 +24,7 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { normalizeBatch } from './lib/normalizeBatch.mjs';
 import { collectPassageIds, loadLiveExamLocks } from './lib/liveExamLock.mjs';
+import { batchToRecord } from './lib/assembledPoolLoad.mjs';
 import { buildLesenSeedRecordFromBatch } from './lib/publishToPool.mjs';
 import {
   isExamPublishable,
@@ -157,55 +158,6 @@ function extractTopic(rec, batch) {
   if (fromQuestions) return fromQuestions;
   const raw = batch?.topicTag || rec?.topicTag || batch?.passages?.[0]?.topicTag || null;
   return normalizeB1Topic(raw) || (raw ? String(raw) : null);
-}
-
-function batchToRecord(batch, file, module, teil, level = 'B1') {
-  const lv = normalizeLevel(level || batch?.level || 'B1');
-  const mod = String(module).toLowerCase();
-  const t = Number(teil);
-  if (mod === 'lesen') {
-    const rec = buildLesenSeedRecordFromBatch(batch, { lang: 'de', level: lv, teil: t, idPrefix: 'pv' });
-    rec.id = file.replace(/\.json$/i, '');
-    return rec;
-  }
-  const passages = batch.passages || [];
-  const rec = {
-    id: file.replace(/\.json$/i, ''),
-    module: mod,
-    teil: t,
-    lang: 'de',
-    level: lv,
-    questions: batch.questions || [],
-    topicTag: batch.topicTag || passages[0]?.topicTag,
-    complete: true,
-    verified: true,
-  };
-  if (mod === 'horen') {
-    const p0 = passages[0];
-    const pictures = p0?.pictures || batch.pictures;
-    const isPictureT2 =
-      lv === 'A2' && t === 2 && Array.isArray(pictures) && pictures.length >= 9;
-    if (passages.length > 1 || isPictureT2) {
-      rec.segments = passages.map((p, i) => ({
-        passageId: p.id,
-        label: p.title || `Aufnahme ${i + 1}`,
-        text: p.text || p.transcript || '',
-        transcript: p.transcript || p.text || '',
-        ...(Array.isArray(p.pictures) && p.pictures.length ? { pictures: p.pictures } : {}),
-        questions: (batch.questions || []).filter((q) => q.passageId === p.id),
-      }));
-    }
-    rec.passage = p0
-      ? {
-          title: p0.title,
-          text: p0.text,
-          transcript: p0.transcript || p0.text,
-          topicTag: p0.topicTag,
-          ...(Array.isArray(p0.pictures) ? { pictures: p0.pictures } : {}),
-        }
-      : null;
-  }
-  return rec;
 }
 
 function oralBundleToParts(batch, file, module, level = 'B1') {
