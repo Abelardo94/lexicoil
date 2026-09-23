@@ -75,7 +75,9 @@ export async function repairL2McqDistinctBatch(batch, findings, callLlm) {
       continue;
     }
 
-    const patch = parsed?.question || parsed;
+    // The prompt asks for a flat object whose "question" is the stem string, so
+    // only unwrap when "question" is itself the patch object.
+    const patch = parsed?.question && typeof parsed.question === 'object' ? parsed.question : parsed;
     if (!patch?.options?.length) continue;
 
     const patched = mergeQuestionPatch(question, patch);
