@@ -2,13 +2,13 @@
   "_meta": {
     "examNumber": 4,
     "examId": "verified-de-A2-e4",
-    "generatedAt": "2026-08-09T09:24:30.993Z",
+    "generatedAt": "2026-09-23T18:49:31.557Z",
     "purpose": "assembled from pool-verified only (official mode: A2 official parts)",
     "assembleMode": "official",
     "sourceRoot": "batches/ready/pool-verified/A2",
     "capacityAtAssemble": 4,
     "bottleneck": [
-      "lesen_2",
+      "schreiben_sets",
       4
     ],
     "gate1": {
@@ -17,13 +17,13 @@
     },
     "partIds": {
       "lesen_1": "lesen-t1-cur-work",
-      "lesen_2": "lesen-t2-cur-work",
-      "lesen_3": "lesen-t3-cur-work",
-      "lesen_4": "lesen-t4-cur-work",
-      "horen_1": "horen-t1-cur-work",
+      "lesen_2": "lesen-t2-gemini-177",
+      "lesen_3": "lesen-t3-gemini-059",
+      "lesen_4": "lesen-t4-cur-health",
+      "horen_1": "horen-t1-gemini-079",
       "horen_2": "horen-t2-cur-work",
-      "horen_3": "horen-t3-gemini-073",
-      "horen_4": "horen-t4-cur-work",
+      "horen_3": "horen-t3-cur-work",
+      "horen_4": "horen-t4-gemini-046",
       "schreiben_1": "schreiben-cur-work-t1",
       "schreiben_2": "schreiben-cur-work-t2",
       "sprechen_1": "sprechen-cur-work-t1",
@@ -32,28 +32,28 @@
     },
     "topics": {
       "lesen_1": "Familie",
-      "lesen_2": "Reisen",
-      "lesen_3": "Wohnen",
-      "lesen_4": "Arbeit",
-      "horen_1": "Gesundheit",
-      "horen_2": "Bildung",
-      "horen_3": "Freizeit",
-      "horen_4": "Verkehr",
-      "schreiben_1": "Arbeit",
-      "schreiben_2": "Arbeit",
-      "sprechen_1": "Arbeit",
-      "sprechen_2": "Arbeit",
-      "sprechen_3": "Arbeit"
+      "lesen_2": "Medien",
+      "lesen_3": "Umwelt",
+      "lesen_4": "Gesundheit",
+      "horen_1": "Reisen",
+      "horen_2": "Arbeit",
+      "horen_3": "Wohnen",
+      "horen_4": "Stadtleben",
+      "schreiben_1": "Stadtleben",
+      "schreiben_2": "Stadtleben",
+      "sprechen_1": "Stadtleben",
+      "sprechen_2": "Stadtleben",
+      "sprechen_3": "Stadtleben"
     },
     "sources": {
       "lesen_1": "lesen-t1-cur-work.json",
-      "lesen_2": "lesen-t2-cur-work.json",
-      "lesen_3": "lesen-t3-cur-work.json",
-      "lesen_4": "lesen-t4-cur-work.json",
-      "horen_1": "horen-t1-cur-work.json",
+      "lesen_2": "lesen-t2-gemini-177.json",
+      "lesen_3": "lesen-t3-gemini-059.json",
+      "lesen_4": "lesen-t4-cur-health.json",
+      "horen_1": "horen-t1-gemini-079.json",
       "horen_2": "horen-t2-cur-work.json",
-      "horen_3": "horen-t3-gemini-073.json",
-      "horen_4": "horen-t4-cur-work.json",
+      "horen_3": "horen-t3-cur-work.json",
+      "horen_4": "horen-t4-gemini-046.json",
       "schreiben_1": "schreiben-cur-work.json",
       "schreiben_2": "schreiben-cur-work.json",
       "sprechen_1": "sprechen-cur-work.json",
@@ -69,26 +69,26 @@
       },
       "lesen_2": {
         "poolLevel": "A2",
-        "poolFile": "batches/ready/pool-verified/A2/lesen-t2-cur-work.json",
-        "partId": "lesen-t2-cur-work",
+        "poolFile": "batches/ready/pool-verified/A2/lesen-t2-gemini-177.json",
+        "partId": "lesen-t2-gemini-177",
         "declaredLevel": "A2"
       },
       "lesen_3": {
         "poolLevel": "A2",
-        "poolFile": "batches/ready/pool-verified/A2/lesen-t3-cur-work.json",
-        "partId": "lesen-t3-cur-work",
+        "poolFile": "batches/ready/pool-verified/A2/lesen-t3-gemini-059.json",
+        "partId": "lesen-t3-gemini-059",
         "declaredLevel": "A2"
       },
       "lesen_4": {
         "poolLevel": "A2",
-        "poolFile": "batches/ready/pool-verified/A2/lesen-t4-cur-work.json",
-        "partId": "lesen-t4-cur-work",
+        "poolFile": "batches/ready/pool-verified/A2/lesen-t4-cur-health.json",
+        "partId": "lesen-t4-cur-health",
         "declaredLevel": "A2"
       },
       "horen_1": {
         "poolLevel": "A2",
-        "poolFile": "batches/ready/pool-verified/A2/horen-t1-cur-work.json",
-        "partId": "horen-t1-cur-work",
+        "poolFile": "batches/ready/pool-verified/A2/horen-t1-gemini-079.json",
+        "partId": "horen-t1-gemini-079",
         "declaredLevel": "A2"
       },
       "horen_2": {
@@ -99,14 +99,14 @@
       },
       "horen_3": {
         "poolLevel": "A2",
-        "poolFile": "batches/ready/pool-verified/A2/horen-t3-gemini-073.json",
-        "partId": "horen-t3-gemini-073",
+        "poolFile": "batches/ready/pool-verified/A2/horen-t3-cur-work.json",
+        "partId": "horen-t3-cur-work",
         "declaredLevel": "A2"
       },
       "horen_4": {
         "poolLevel": "A2",
-        "poolFile": "batches/ready/pool-verified/A2/horen-t4-cur-work.json",
-        "partId": "horen-t4-cur-work",
+        "poolFile": "batches/ready/pool-verified/A2/horen-t4-gemini-046.json",
+        "partId": "horen-t4-gemini-046",
         "declaredLevel": "A2"
       },
       "schreiben_1": {
@@ -139,11 +139,7 @@
         "partId": "sprechen-cur-work-t3",
         "declaredLevel": "A2"
       }
-    },
-    "horenT3RepairAt": "2026-07-27T08:15:06.441Z",
-    "horenT3RepairNote": "horen_3 horen-t3-gemini-040 → horen-t3-gemini-073 (hot-pair successors)",
-    "reassembledFromPoolAt": "2026-08-09T09:24:30.515Z",
-    "reassembledFromPoolNote": "same partIds/sources, exam body from current pool-verified"
+    }
   },
   "lang": "de",
   "level": "A2",
@@ -293,401 +289,401 @@
       {
         "teil": 2,
         "instruction": "",
-        "topicTag": "Stadtleben",
-        "text": "CINEMAXX MULTIPLEX – 5. ETAGE\n\nWillkommen im Cinemaxx! Hier finden Sie alle wichtigen Informationen zu unserem Kino.\n\nKASSE & TICKETS\nÖffnungszeiten: Mo–So 10:00–22:00 Uhr\nOnline-Tickets: www.cinemaxx.de\nPreise: Erwachsene €11,50 | Kinder (bis 12 J.) €8,00 | Studenten €9,50\n\nSAAL 1–3: Aktuelle Blockbuster\nSAAL 4–5: Klassische Filme & Dokumentationen\nSAAL 6: VIP-Bereich mit Liegesesseln\n\nCAFÉ & SNACKS\nLage: 5. Etage, neben Saal 2\nAngebot: Popcorn, Nachos, Getränke, Süßigkeiten\nÖffnungszeit: 10:00–22:30 Uhr\nPreise: Popcorn klein €5,00 | groß €7,50 | Getränk €3,50\n\nTOILETTEN\nHerren & Damen: Bei Saal 3 und Saal 5\nBehindertentoilette: Neben der Kasse\n\nPARKEN\nParkplätze: B1–B3 im Untergeschoss\nPreis: €2,00 pro Stunde | Max. €10,00 pro Tag\nBehindertenparkplätze: Kostenfrei\n\nREGELN\nMobiltelefone: Bitte ausschalten\nEssen & Trinken: Nur im Café oder Kinosaal erlaubt\nVerspätung: Nach 15 Min. Filmstart kein Einlass mehr\n\nInformationen: info@cinemaxx.de | Tel. 030–555–8899",
-        "textTitle": "Cinemaxx Multiplex – Informationstafel",
-        "passageId": "de-a2-p-lesen-t2-freizeit-kino-streaming-01",
+        "topicTag": "Medien",
+        "text": "Willkommen im modernen Medienzentrum „Kulturpunkt“! Hier finden Sie eine große Auswahl an Informationen und Unterhaltung. Wir bieten Ihnen viele Möglichkeiten, sich mit traditionellen und digitalen Medien zu beschäftigen.\n\nErdgeschoss:\nEmpfang und Information: Hier bekommen Sie Hilfe und können sich anmelden.\nCafé „Lesepause“: Genießen Sie Kaffee und lesen Sie aktuelle Zeitungen und Zeitschriften. Kleine Snacks gibt es auch.\n\n1. Stock:\nStadtbibliothek: Entdecken Sie Romane, Sachbücher und Kinderbücher. Sie können hier auch DVDs und CDs ausleihen.\nLesesaal: Ein ruhiger Ort zum Lernen und Lesen. Viele Fachzeitschriften stehen zur Verfügung.\n\n2. Stock:\nMedienwerkstatt: Hier lernen Sie, wie man einen Blog schreibt oder einen Podcast aufnimmt. Wir bieten Kurse für digitale Medien an.\nComputerraum: Nutzen Sie unsere Computer mit Internetzugang. Drucken ist hier möglich.\n\nWir freuen uns auf Ihren Besuch!",
+        "textTitle": "",
+        "passageId": "gen-l2-292b9aee-1",
         "questions": [
           {
-            "id": "6-3bd63911",
+            "id": "gen-q-2-292b9aee-1",
             "module": "lesen",
             "teil": 2,
             "level": "A2",
             "type": "multiple_choice",
-            "question": "Was darf man im Kino NICHT tun?",
+            "question": "Lisa möchte lernen, wie man einen Blog schreibt. In welchem Stock findet sie einen passenden Kurs?",
             "options": [
               {
                 "key": "A",
-                "text": "Essen im Saal essen"
+                "text": "im 1. Stock"
               },
               {
                 "key": "B",
-                "text": "Das Handy ausschalten"
+                "text": "im 2. Stock"
               },
               {
                 "key": "C",
-                "text": "Handy anlassen"
-              }
-            ],
-            "correct": "c",
-            "correctAnswer": "c",
-            "explanation": "In den Regeln steht, dass man Mobiltelefone bitte ausschalten soll. Es ist also nicht erlaubt, das Mobiltelefon während des Films eingeschaltet zu lassen.",
-            "passageId": "de-a2-p-lesen-t2-freizeit-kino-streaming-01"
-          },
-          {
-            "id": "7-3bd63911",
-            "module": "lesen",
-            "teil": 2,
-            "level": "A2",
-            "type": "multiple_choice",
-            "question": "Wie viel kostet Parken maximal pro Tag?",
-            "options": [
-              {
-                "key": "A",
-                "text": "€2,00"
-              },
-              {
-                "key": "B",
-                "text": "€10,00"
-              },
-              {
-                "key": "C",
-                "text": "Es kostet nichts"
+                "text": "in einem anderen Stock"
               }
             ],
             "correct": "b",
             "correctAnswer": "b",
-            "explanation": "Die richtige Antwort steht im Text. Lesen Sie den Text noch einmal genau.",
-            "passageId": "de-a2-p-lesen-t2-freizeit-kino-streaming-01"
+            "explanation": "Die Medienwerkstatt im 2. Stock bietet Kurse zum Blogschreiben an.",
+            "passageId": "gen-l2-292b9aee-1"
           },
           {
-            "id": "8-3bd63911",
+            "id": "gen-q-2-292b9aee-2",
             "module": "lesen",
             "teil": 2,
             "level": "A2",
             "type": "multiple_choice",
-            "question": "Was kostet ein großes Popcorn im Café?",
+            "question": "Herr Klein möchte aktuelle Zeitungen lesen und dabei einen Kaffee trinken. Auf welcher Etage befindet sich das Café mit Zeitungen?",
             "options": [
               {
                 "key": "A",
-                "text": "€5,00"
+                "text": "im Erdgeschoss"
               },
               {
                 "key": "B",
-                "text": "€3,50"
+                "text": "im 1. Stock"
               },
               {
                 "key": "C",
-                "text": "€7,50"
-              }
-            ],
-            "correct": "c",
-            "correctAnswer": "c",
-            "explanation": "Die richtige Antwort steht im Text. Lesen Sie den Text noch einmal genau.",
-            "passageId": "de-a2-p-lesen-t2-freizeit-kino-streaming-01"
-          },
-          {
-            "id": "9-3bd63911",
-            "module": "lesen",
-            "teil": 2,
-            "level": "A2",
-            "type": "multiple_choice",
-            "question": "Wo ist das Café im Kino?",
-            "options": [
-              {
-                "key": "A",
-                "text": "Ganz oben bei Saal 3 auf Etage sechs"
-              },
-              {
-                "key": "B",
-                "text": "Auf Etage fünf direkt neben Saal 2"
-              },
-              {
-                "key": "C",
-                "text": "Unten im Untergeschoss bei den Parkplätzen"
-              }
-            ],
-            "correct": "b",
-            "correctAnswer": "b",
-            "explanation": "Das Café befindet sich laut dem Abschnitt „CAFÉ & SNACKS“ auf der 5. Etage, neben Saal 2.",
-            "passageId": "de-a2-p-lesen-t2-freizeit-kino-streaming-01"
-          },
-          {
-            "id": "10-3bd63911",
-            "module": "lesen",
-            "teil": 2,
-            "level": "A2",
-            "type": "multiple_choice",
-            "question": "Wie viel kostet eine Kinokarte für einen Erwachsenen?",
-            "options": [
-              {
-                "key": "A",
-                "text": "11,50€"
-              },
-              {
-                "key": "B",
-                "text": "8,00 €"
-              },
-              {
-                "key": "C",
-                "text": "9,50 €"
+                "text": "in einem anderen Stockwerk"
               }
             ],
             "correct": "a",
             "correctAnswer": "a",
-            "explanation": "Unter „KASSE & TICKETS“ sind die Preise aufgelistet. Eine Kinokarte für Erwachsene kostet 11,50 €.",
-            "passageId": "de-a2-p-lesen-t2-freizeit-kino-streaming-01"
+            "explanation": "Das Café „Lesepause“ im Erdgeschoss bietet Kaffee und aktuelle Zeitungen an.",
+            "passageId": "gen-l2-292b9aee-1"
+          },
+          {
+            "id": "gen-q-2-292b9aee-3",
+            "module": "lesen",
+            "teil": 2,
+            "level": "A2",
+            "type": "multiple_choice",
+            "question": "Maria sucht einen ruhigen Ort zum Lernen, wo sie auch Fachzeitschriften finden kann. In welchem Stock ist dieser Ort?",
+            "options": [
+              {
+                "key": "A",
+                "text": "in einem anderen Stock"
+              },
+              {
+                "key": "B",
+                "text": "im 1. Stock"
+              },
+              {
+                "key": "C",
+                "text": "im Erdgeschoss"
+              }
+            ],
+            "correct": "b",
+            "correctAnswer": "b",
+            "explanation": "Der Lesesaal im 1. Stock ist ein ruhiger Ort zum Lernen mit Fachzeitschriften.",
+            "passageId": "gen-l2-292b9aee-1"
+          },
+          {
+            "id": "gen-q-2-292b9aee-4",
+            "module": "lesen",
+            "teil": 2,
+            "level": "A2",
+            "type": "multiple_choice",
+            "question": "Ein Besucher möchte seine ausgeliehenen DVDs zurückgeben. Auf welcher Etage kann er das tun?",
+            "options": [
+              {
+                "key": "A",
+                "text": "im 1. Stock"
+              },
+              {
+                "key": "B",
+                "text": "im Erdgeschoss"
+              },
+              {
+                "key": "C",
+                "text": "im 2. Stock"
+              }
+            ],
+            "correct": "a",
+            "correctAnswer": "a",
+            "explanation": "Die Stadtbibliothek im 1. Stock ist der Ort, wo man Bücher und DVDs ausleiht und zurückgibt.",
+            "passageId": "gen-l2-292b9aee-1"
+          },
+          {
+            "id": "gen-q-2-292b9aee-5",
+            "module": "lesen",
+            "teil": 2,
+            "level": "A2",
+            "type": "multiple_choice",
+            "question": "Eine Nachbarin braucht Hilfe bei der Anmeldung für einen Computerkurs. In welchem Stock kann sie Informationen und Unterstützung bekommen?",
+            "options": [
+              {
+                "key": "A",
+                "text": "im 2. Stock"
+              },
+              {
+                "key": "B",
+                "text": "in einem anderen Stockwerk"
+              },
+              {
+                "key": "C",
+                "text": "im Erdgeschoss"
+              }
+            ],
+            "correct": "c",
+            "correctAnswer": "c",
+            "explanation": "Der Empfang und Information im Erdgeschoss bietet Hilfe und Anmeldemöglichkeiten.",
+            "passageId": "gen-l2-292b9aee-1"
           }
         ]
       },
       {
         "teil": 3,
         "instruction": "",
-        "topicTag": "Stadtleben",
-        "text": "Liebe Frau Müller,\n\nvielen Dank für Ihre Anfrage. Wir können Ihren Kühlschrank gerne reparieren. Unser Techniker kommt am Dienstag oder Mittwoch zu ihnen nach Hause. Die Reparatur dauert etwa zwei Stunden.\n\nDie Kosten sind 85 Euro für die Inspektion und 40 Euro pro Stunde für die Arbeit. Wenn Sie Ersatzteile brauchen, kosten diese extra.\n\nBitte geben Sie uns Bescheid, welcher Tag besser passt. Unser Techniker kommt zwischen 9 und 17 Uhr.\n\nViele Grüße,\nThomas Bauer\nSchnell-Reparatur GmbH",
-        "textTitle": "E-Mail: Reparaturservice",
+        "topicTag": "Umwelt",
+        "text": "Lieber Tom,\n\nich hoffe, es geht dir gut. Ich schreibe dir. Ich habe eine interessante Information für dich. Unsere Stadt organisiert ein neues Projekt zum Thema Umwelt. Es geht um die Reinigung des Parks am Fluss. Viele Leute aus der Nachbarschaft machen schon mit.\n\nIch habe die Anmeldung online gesehen. Man kann sich bis nächsten Freitag anmelden. Das Projekt startet am Samstag in zwei Wochen. Wir treffen uns um 9 Uhr am Eingang des Parks. Die Aufgabe ist es, Müll zu sammeln und neue Bäume zu pflanzen. Das ist eine gute Situation, um etwas für unsere Umwelt zu tun.\n\nIch finde, das ist eine tolle Idee. Wir können gemeinsam etwas Gutes für die Natur machen. Vielleicht hast du ja Lust, mitzukommen? Es wäre schön, wenn wir zusammen hingehen könnten. Sag mir bitte Bescheid, ob du Zeit hast.\n\nViele Grüße\nLena",
+        "textTitle": "E-Mail: Umweltprojekt im Park",
         "ads": [],
-        "passageId": "de-a2-p-lesen-t3-dienstleistungen-alltag-03",
+        "passageId": "gen-l3-c25c131e-passage-1",
         "passages": [
           {
-            "id": "de-a2-p-lesen-t3-dienstleistungen-alltag-03",
-            "text": "Liebe Frau Müller,\n\nvielen Dank für Ihre Anfrage. Wir können Ihren Kühlschrank gerne reparieren. Unser Techniker kommt am Dienstag oder Mittwoch zu ihnen nach Hause. Die Reparatur dauert etwa zwei Stunden.\n\nDie Kosten sind 85 Euro für die Inspektion und 40 Euro pro Stunde für die Arbeit. Wenn Sie Ersatzteile brauchen, kosten diese extra.\n\nBitte geben Sie uns Bescheid, welcher Tag besser passt. Unser Techniker kommt zwischen 9 und 17 Uhr.\n\nViele Grüße,\nThomas Bauer\nSchnell-Reparatur GmbH",
-            "title": "E-Mail: Reparaturservice"
+            "id": "gen-l3-c25c131e-passage-1",
+            "text": "Lieber Tom,\n\nich hoffe, es geht dir gut. Ich schreibe dir. Ich habe eine interessante Information für dich. Unsere Stadt organisiert ein neues Projekt zum Thema Umwelt. Es geht um die Reinigung des Parks am Fluss. Viele Leute aus der Nachbarschaft machen schon mit.\n\nIch habe die Anmeldung online gesehen. Man kann sich bis nächsten Freitag anmelden. Das Projekt startet am Samstag in zwei Wochen. Wir treffen uns um 9 Uhr am Eingang des Parks. Die Aufgabe ist es, Müll zu sammeln und neue Bäume zu pflanzen. Das ist eine gute Situation, um etwas für unsere Umwelt zu tun.\n\nIch finde, das ist eine tolle Idee. Wir können gemeinsam etwas Gutes für die Natur machen. Vielleicht hast du ja Lust, mitzukommen? Es wäre schön, wenn wir zusammen hingehen könnten. Sag mir bitte Bescheid, ob du Zeit hast.\n\nViele Grüße\nLena",
+            "title": "E-Mail: Umweltprojekt im Park"
           }
         ],
         "questions": [
           {
-            "id": "de-a2-cur-lesen-t3-cur-work-q1",
+            "id": "gen-q-3-c25c131e-q1",
             "module": "lesen",
             "teil": 3,
             "level": "A2",
             "type": "multiple_choice",
-            "question": "Wer schreibt diese E-Mail?",
+            "question": "Worum geht es in Lenas E-Mail?",
             "options": [
               {
                 "key": "A",
-                "text": "Ein Kunde"
+                "text": "Um einen Ausflug in die Stadt."
               },
               {
                 "key": "B",
-                "text": "Frau Müller"
+                "text": "Um ein Umweltprojekt im Park."
               },
               {
                 "key": "C",
-                "text": "Thomas Bauer"
+                "text": "Um einen neuen Job für Tom."
+              }
+            ],
+            "correct": "b",
+            "correctAnswer": "b",
+            "explanation": "Lena schreibt über ein neues Projekt der Stadt zur Reinigung des Parks und zum Pflanzen von Bäumen.",
+            "passageId": "gen-l3-c25c131e-passage-1"
+          },
+          {
+            "id": "gen-q-3-c25c131e-q2",
+            "module": "lesen",
+            "teil": 3,
+            "level": "A2",
+            "type": "multiple_choice",
+            "question": "Wann beginnt das Umweltprojekt?",
+            "options": [
+              {
+                "key": "A",
+                "text": "Gleich am nächsten Morgen."
+              },
+              {
+                "key": "B",
+                "text": "Am Ende der nächsten Arbeitswoche."
+              },
+              {
+                "key": "C",
+                "text": "In zwei Wochen am Wochenende."
               }
             ],
             "correct": "c",
             "correctAnswer": "c",
-            "explanation": "Die E-Mail ist mit 'Viele Grüße, Thomas Bauer Schnell-Reparatur GmbH' unterschrieben. Daher schreibt Thomas Bauer die E-Mail.",
-            "passageId": "de-a2-p-lesen-t3-dienstleistungen-alltag-03"
+            "explanation": "Der Text sagt klar, dass das Projekt in zwei Wochen am Samstag startet.",
+            "passageId": "gen-l3-c25c131e-passage-1"
           },
           {
-            "id": "de-a2-cur-lesen-t3-cur-work-q2",
+            "id": "gen-q-3-c25c131e-q3",
             "module": "lesen",
             "teil": 3,
             "level": "A2",
             "type": "multiple_choice",
-            "question": "Was muss Frau Müller noch machen?",
+            "question": "Was sollen die Teilnehmer im Park machen?",
             "options": [
               {
                 "key": "A",
-                "text": "Einen Termin für einen anderen Tag buchen"
+                "text": "Ausschließlich neue Bäume in die Erde bringen."
               },
               {
                 "key": "B",
-                "text": "Dem Techniker sagen, welcher Tag passt"
+                "text": "Den Park sauber machen und neue Pflanzen setzen."
               },
               {
                 "key": "C",
-                "text": "Das Geld vor der Reparatur bezahlen"
+                "text": "Ein großes Fest mit Essen und Trinken veranstalten."
               }
             ],
             "correct": "b",
             "correctAnswer": "b",
-            "explanation": "Die richtige Antwort steht im Text. Lesen Sie den Text noch einmal genau.",
-            "passageId": "de-a2-p-lesen-t3-dienstleistungen-alltag-03"
+            "explanation": "Die Aufgabe des Projekts ist es, Müll zu sammeln und neue Bäume zu pflanzen.",
+            "passageId": "gen-l3-c25c131e-passage-1"
           },
           {
-            "id": "de-a2-cur-lesen-t3-cur-work-q3",
+            "id": "gen-q-3-c25c131e-q4",
             "module": "lesen",
             "teil": 3,
             "level": "A2",
             "type": "multiple_choice",
-            "question": "Was kostet die Inspektion?",
+            "question": "Bis wann kann man sich für das Projekt anmelden?",
             "options": [
               {
                 "key": "A",
-                "text": "85 Euro"
+                "text": "Bis nächsten Freitag."
               },
               {
                 "key": "B",
-                "text": "40 Euro"
+                "text": "Bis zum Start des Projekts."
               },
               {
                 "key": "C",
-                "text": "75 Euro"
+                "text": "Bis nächsten Samstag."
               }
             ],
             "correct": "a",
             "correctAnswer": "a",
-            "explanation": "Die richtige Antwort steht im Text. Lesen Sie den Text noch einmal genau.",
-            "passageId": "de-a2-p-lesen-t3-dienstleistungen-alltag-03"
+            "explanation": "Lena erwähnt, dass man sich bis nächsten Freitag anmelden kann.",
+            "passageId": "gen-l3-c25c131e-passage-1"
           },
           {
-            "id": "de-a2-cur-lesen-t3-cur-work-q4",
+            "id": "gen-q-3-c25c131e-q5",
             "module": "lesen",
             "teil": 3,
             "level": "A2",
             "type": "multiple_choice",
-            "question": "Wann kann der Techniker kommen?",
+            "question": "Was möchte Lena von Tom wissen?",
             "options": [
               {
                 "key": "A",
-                "text": "Am Dienstag oder Mittwoch"
+                "text": "Ob er das Projekt auch interessant findet."
               },
               {
                 "key": "B",
-                "text": "Am Mittwoch oder Donnerstag"
+                "text": "Ob er schon für das Projekt angemeldet ist."
               },
               {
                 "key": "C",
-                "text": "Am Montag oder Dienstag"
+                "text": "Ob er Zeit hat, mitzukommen."
               }
             ],
-            "correct": "a",
-            "correctAnswer": "a",
-            "explanation": "Die richtige Antwort steht im Text. Lesen Sie den Text noch einmal genau.",
-            "passageId": "de-a2-p-lesen-t3-dienstleistungen-alltag-03"
-          },
-          {
-            "id": "de-a2-cur-lesen-t3-cur-work-q5",
-            "module": "lesen",
-            "teil": 3,
-            "level": "A2",
-            "type": "multiple_choice",
-            "question": "Wie lange dauert die Reparatur?",
-            "options": [
-              {
-                "key": "A",
-                "text": "Eine Stunde"
-              },
-              {
-                "key": "B",
-                "text": "Zwei Stunden"
-              },
-              {
-                "key": "C",
-                "text": "Drei Stunden"
-              }
-            ],
-            "correct": "b",
-            "correctAnswer": "b",
-            "explanation": "Im Text steht klar: 'Die Reparatur dauert etwa zwei Stunden.' Dies ist die genaue Zeitangabe für die Reparatur.",
-            "passageId": "de-a2-p-lesen-t3-dienstleistungen-alltag-03"
+            "correct": "c",
+            "correctAnswer": "c",
+            "explanation": "Lena fragt Tom, ob er Lust und Zeit hat, gemeinsam an dem Projekt teilzunehmen.",
+            "passageId": "gen-l3-c25c131e-passage-1"
           }
         ]
       },
       {
         "teil": 4,
         "instruction": "",
-        "topicTag": "Stadtleben",
+        "topicTag": "Gesundheit",
         "passages": [
           {
-            "id": "gen-p-lesen-t4-cur-work-s1",
+            "id": "gen-p-lesen-t4-cur-health-s1",
             "module": "lesen",
             "teil": 4,
             "level": "A2",
-            "title": "Anzeige A: Moderne Bürofirma sucht Mitarbeiter.",
-            "text": "Wir sind ein innovatives Unternehmen und bieten flexible Arbeitszeiten. Ab sofort können unsere Mitarbeiter vier Tage pro Woche arbeiten. Der fünfte Tag ist frei. Das Gehalt bleibt gleich. Interessiert? Dann bewerben Sie sich jetzt!"
+            "title": "Vegetarisches Mittagessen",
+            "text": "Bio-Schulcafé bietet jeden Dienstag ein vegetarisches Menü an. Schüler und Lehrer können zwischen Gemüseauflauf, Kartoffelpuffer oder Linsensuppe wählen. Die Preise sind fair und das Essen schmeckt lecker."
           },
           {
-            "id": "gen-p-lesen-t4-cur-work-s2",
+            "id": "gen-p-lesen-t4-cur-health-s2",
             "module": "lesen",
             "teil": 4,
             "level": "A2",
-            "title": "Anzeige B: Hotel sucht Personal.",
-            "text": "Unser Hotel am See ist sehr beliebt. Wir suchen Rezeptionisten und Kellner. Die normale Arbeitszeit ist 40 Stunden pro Woche. Wir arbeiten nach traditionellem Plan. Gutes Arbeitsklima und freundliches Team warten auf Sie."
+            "title": "Fleisch im Schulmenü",
+            "text": "Die Schulmensa bietet täglich Gerichte mit Fleisch. Viele Schüler essen gerne Hähnchen oder Rinder­fleisch. Vegetarische Alternativen gibt es nur selten und sind oft teuer."
           },
           {
-            "id": "gen-p-lesen-t4-cur-work-s3",
+            "id": "gen-p-lesen-t4-cur-health-s3",
             "module": "lesen",
             "teil": 4,
             "level": "A2",
-            "title": "Anzeige C: IT-Startup mit neuen Ideen.",
-            "text": "Unser Startup arbeitet 4 Tage pro Woche – von Montag bis Donnerstag. Freitag ist Pausentag für alle. Wir glauben: Weniger Stunden = mehr Produktivität. Dein Gehalt ist attraktiv. Komm in unser junges, dynamisches Team!"
+            "title": "Umweltschutz und Ernährung",
+            "text": "Eine Studie zeigt: Weniger Fleischkonsum ist gut für die Umwelt. Schulen sollten deshalb mehr vegetarische Mahlzeiten anbieten. Das hilft der Erde und macht Schüler nachdenklich über ihre Ernährung."
           },
           {
-            "id": "gen-p-lesen-t4-cur-work-s4",
+            "id": "gen-p-lesen-t4-cur-health-s4",
             "module": "lesen",
             "teil": 4,
             "level": "A2",
-            "title": "Anzeige D: Schulverwaltung braucht Sekretäre.",
-            "text": "Die Grundschule 'Sonnenschein' sucht erfahrene Sekretäre. Arbeitszeit: 38 Stunden pro Woche, Montag bis Freitag. Wir haben keine Vier-Tage-Woche. Aber: sehr sichere Arbeit, gute Vorteile und nette Kollegen."
+            "title": "Gesundheit und Vegetarismus",
+            "text": "Vegetarische Ernährung ist gesund, wenn man die richtige Mischung hat. Bohnen, Nüsse und Milchprodukte geben Protein. Ärzte empfehlen, mehr Gemüse und Obst zu essen."
           },
           {
-            "id": "gen-p-lesen-t4-cur-work-s5",
+            "id": "gen-p-lesen-t4-cur-health-s5",
             "module": "lesen",
             "teil": 4,
             "level": "A2",
-            "title": "Anzeige E: Beratungsfirma bietet alternatives Modell.",
-            "text": "Wir testen die Vier-Tage-Woche in unserem Unternehmen. Berater und Manager arbeiten Montag bis Donnerstag, 36 Stunden. Freitag für Fortbildung oder Ruhe. Das Projekt läuft noch ein Jahr. Möchten Sie teilnehmen?"
+            "title": "Schüler mögen Vielfalt",
+            "text": "In einer Umfrage sagen 60% der Schüler: Wir wollen Auswahl haben! Manche essen gerne Fleisch, andere mögen Vegetarisches. Schulen müssen für alle etwas anbieten."
           },
           {
-            "id": "gen-p-lesen-t4-cur-work-s6",
+            "id": "gen-p-lesen-t4-cur-health-s6",
             "module": "lesen",
             "teil": 4,
             "level": "A2",
-            "title": "Anzeige F: Einzelhandel mit Standardwoche.",
-            "text": "Große Einzelhandelskette sucht Verkäufer. Arbeitszeit: 40 Stunden Montag bis Freitag. Schichten möglich. Wir bieten Rabatte auf Produkte. Ein gesicherter Job mit Karrierechancen."
+            "title": "Kosten für die Schule",
+            "text": "Vegetarisches Essen ist oft billiger als Fleischgerichte. Schulen könnten Geld sparen, wenn sie mehr vegetarische Menüs machen. Das ist gut für das Schulbudget."
           }
         ],
         "ads": [
           {
-            "key": "gen-p-lesen-t4-cur-work-s1",
-            "title": "Anzeige A: Moderne Bürofirma sucht Mitarbeiter.",
-            "text": "Wir sind ein innovatives Unternehmen und bieten flexible Arbeitszeiten. Ab sofort können unsere Mitarbeiter vier Tage pro Woche arbeiten. Der fünfte Tag ist frei. Das Gehalt bleibt gleich. Interessiert? Dann bewerben Sie sich jetzt!",
-            "textTitle": "Anzeige A: Moderne Bürofirma sucht Mitarbeiter.",
-            "passageId": "gen-p-lesen-t4-cur-work-s1"
+            "key": "a",
+            "title": "Vegetarisches Mittagessen",
+            "text": "Bio-Schulcafé bietet jeden Dienstag ein vegetarisches Menü an. Schüler und Lehrer können zwischen Gemüseauflauf, Kartoffelpuffer oder Linsensuppe wählen. Die Preise sind fair und das Essen schmeckt lecker.",
+            "textTitle": "Vegetarisches Mittagessen",
+            "passageId": "gen-p-lesen-t4-cur-health-s1"
           },
           {
-            "key": "gen-p-lesen-t4-cur-work-s2",
-            "title": "Anzeige B: Hotel sucht Personal.",
-            "text": "Unser Hotel am See ist sehr beliebt. Wir suchen Rezeptionisten und Kellner. Die normale Arbeitszeit ist 40 Stunden pro Woche. Wir arbeiten nach traditionellem Plan. Gutes Arbeitsklima und freundliches Team warten auf Sie.",
-            "textTitle": "Anzeige B: Hotel sucht Personal.",
-            "passageId": "gen-p-lesen-t4-cur-work-s2"
+            "key": "b",
+            "title": "Fleisch im Schulmenü",
+            "text": "Die Schulmensa bietet täglich Gerichte mit Fleisch. Viele Schüler essen gerne Hähnchen oder Rinder­fleisch. Vegetarische Alternativen gibt es nur selten und sind oft teuer.",
+            "textTitle": "Fleisch im Schulmenü",
+            "passageId": "gen-p-lesen-t4-cur-health-s2"
           },
           {
-            "key": "gen-p-lesen-t4-cur-work-s3",
-            "title": "Anzeige C: IT-Startup mit neuen Ideen.",
-            "text": "Unser Startup arbeitet 4 Tage pro Woche – von Montag bis Donnerstag. Freitag ist Pausentag für alle. Wir glauben: Weniger Stunden = mehr Produktivität. Dein Gehalt ist attraktiv. Komm in unser junges, dynamisches Team!",
-            "textTitle": "Anzeige C: IT-Startup mit neuen Ideen.",
-            "passageId": "gen-p-lesen-t4-cur-work-s3"
+            "key": "c",
+            "title": "Umweltschutz und Ernährung",
+            "text": "Eine Studie zeigt: Weniger Fleischkonsum ist gut für die Umwelt. Schulen sollten deshalb mehr vegetarische Mahlzeiten anbieten. Das hilft der Erde und macht Schüler nachdenklich über ihre Ernährung.",
+            "textTitle": "Umweltschutz und Ernährung",
+            "passageId": "gen-p-lesen-t4-cur-health-s3"
           },
           {
-            "key": "gen-p-lesen-t4-cur-work-s4",
-            "title": "Anzeige D: Schulverwaltung braucht Sekretäre.",
-            "text": "Die Grundschule 'Sonnenschein' sucht erfahrene Sekretäre. Arbeitszeit: 38 Stunden pro Woche, Montag bis Freitag. Wir haben keine Vier-Tage-Woche. Aber: sehr sichere Arbeit, gute Vorteile und nette Kollegen.",
-            "textTitle": "Anzeige D: Schulverwaltung braucht Sekretäre.",
-            "passageId": "gen-p-lesen-t4-cur-work-s4"
+            "key": "d",
+            "title": "Gesundheit und Vegetarismus",
+            "text": "Vegetarische Ernährung ist gesund, wenn man die richtige Mischung hat. Bohnen, Nüsse und Milchprodukte geben Protein. Ärzte empfehlen, mehr Gemüse und Obst zu essen.",
+            "textTitle": "Gesundheit und Vegetarismus",
+            "passageId": "gen-p-lesen-t4-cur-health-s4"
           },
           {
-            "key": "gen-p-lesen-t4-cur-work-s5",
-            "title": "Anzeige E: Beratungsfirma bietet alternatives Modell.",
-            "text": "Wir testen die Vier-Tage-Woche in unserem Unternehmen. Berater und Manager arbeiten Montag bis Donnerstag, 36 Stunden. Freitag für Fortbildung oder Ruhe. Das Projekt läuft noch ein Jahr. Möchten Sie teilnehmen?",
-            "textTitle": "Anzeige E: Beratungsfirma bietet alternatives Modell.",
-            "passageId": "gen-p-lesen-t4-cur-work-s5"
+            "key": "e",
+            "title": "Schüler mögen Vielfalt",
+            "text": "In einer Umfrage sagen 60% der Schüler: Wir wollen Auswahl haben! Manche essen gerne Fleisch, andere mögen Vegetarisches. Schulen müssen für alle etwas anbieten.",
+            "textTitle": "Schüler mögen Vielfalt",
+            "passageId": "gen-p-lesen-t4-cur-health-s5"
           },
           {
-            "key": "gen-p-lesen-t4-cur-work-s6",
-            "title": "Anzeige F: Einzelhandel mit Standardwoche.",
-            "text": "Große Einzelhandelskette sucht Verkäufer. Arbeitszeit: 40 Stunden Montag bis Freitag. Schichten möglich. Wir bieten Rabatte auf Produkte. Ein gesicherter Job mit Karrierechancen.",
-            "textTitle": "Anzeige F: Einzelhandel mit Standardwoche.",
-            "passageId": "gen-p-lesen-t4-cur-work-s6"
+            "key": "f",
+            "title": "Kosten für die Schule",
+            "text": "Vegetarisches Essen ist oft billiger als Fleischgerichte. Schulen könnten Geld sparen, wenn sie mehr vegetarische Menüs machen. Das ist gut für das Schulbudget.",
+            "textTitle": "Kosten für die Schule",
+            "passageId": "gen-p-lesen-t4-cur-health-s6"
           }
         ],
         "questions": [
           {
-            "id": "de-a2-cur-lesen-t4-cur-work-q1",
+            "id": "de-a2-cur-lesen-t4-cur-health-q1",
             "module": "lesen",
             "teil": 4,
             "level": "A2",
             "type": "matching",
-            "question": "Ein Arbeitnehmer möchte 4 Tage pro Woche arbeiten und das Gehalt soll gleich bleiben. Welche Anzeige passt?",
+            "question": "Eine Schülerin möchte jeden Dienstag im Bio-Schulcafé der Schule ein Vegetarisches Mittagessen essen. Welche Anzeige passt?",
             "signText": "",
             "correct": "a",
             "correctAnswer": "a",
-            "explanation": "Anzeige a: «Ab sofort können unsere Mitarbeiter vier Tage pro Woche arbeiten. Der fünfte Tag ist frei. Das Gehalt bleibt gleich.»",
+            "explanation": "Anzeige a beschreibt das Bio-Schulcafé mit vegetarischem Menü am Dienstag.",
             "options": [
               "a) a",
               "b) b",
@@ -699,16 +695,16 @@
             ]
           },
           {
-            "id": "de-a2-cur-lesen-t4-cur-work-q2",
+            "id": "de-a2-cur-lesen-t4-cur-health-q2",
             "module": "lesen",
             "teil": 4,
             "level": "A2",
             "type": "matching",
-            "question": "Ein IT-Experte glaubt: 'Weniger Arbeitszeit = mehr Produktivität.' Welches Unternehmen hat diese Philosophie?",
+            "question": "Ein Umweltteam an der Schule möchte, dass die Mensa weniger Fleisch anbietet, weil das der Umwelt hilft. Welche Anzeige passt?",
             "signText": "",
             "correct": "c",
             "correctAnswer": "c",
-            "explanation": "Anzeige c: «Wir glauben: Weniger Stunden = mehr Produktivität.»",
+            "explanation": "Anzeige c erklärt, dass weniger Fleischkonsum gut für die Umwelt ist und Schulen mehr vegetarische Mahlzeiten anbieten sollten.",
             "options": [
               "a) a",
               "b) b",
@@ -720,58 +716,58 @@
             ]
           },
           {
-            "id": "de-a2-cur-lesen-t4-cur-work-q3",
+            "id": "de-a2-cur-lesen-t4-cur-health-q3",
             "module": "lesen",
             "teil": 4,
             "level": "A2",
             "type": "matching",
-            "question": "Eine Beraterin sucht Arbeit in einem Unternehmen, das ein Projekt zur Vier-Tage-Woche testet. Wo kann sie sich bewerben?",
-            "signText": "",
-            "correct": "e",
-            "correctAnswer": "e",
-            "explanation": "Anzeige e: «Wir testen die Vier-Tage-Woche in unserem Unternehmen.»",
-            "options": [
-              "a) a",
-              "b) b",
-              "c) c",
-              "d) d",
-              "e) e",
-              "f) f",
-              "g) X"
-            ]
-          },
-          {
-            "id": "de-a2-cur-lesen-t4-cur-work-q4",
-            "module": "lesen",
-            "teil": 4,
-            "level": "A2",
-            "type": "matching",
-            "question": "Ein pensionierter Lehrer sucht keine neue Stelle. Welche Anzeige (A–F) passt für ihn nicht?",
-            "signText": "",
-            "correct": "X",
-            "correctAnswer": "X",
-            "explanation": "Die richtige Antwort steht im Text. Lesen Sie den Text noch einmal genau.",
-            "options": [
-              "a) a",
-              "b) b",
-              "c) c",
-              "d) d",
-              "e) e",
-              "f) f",
-              "g) X"
-            ]
-          },
-          {
-            "id": "de-a2-cur-lesen-t4-cur-work-q5",
-            "module": "lesen",
-            "teil": 4,
-            "level": "A2",
-            "type": "matching",
-            "question": "Eine Sekretärin arbeitet traditionell Montag bis Freitag. Welche Anzeige beschreibt diese traditionelle Arbeitsweise?",
+            "question": "Eine Schülerin achtet auf gesunde Ernährung und sucht Tipps zu vegetarischem Essen mit Bohnen, Nüssen und Milchprodukten. Welche Anzeige passt?",
             "signText": "",
             "correct": "d",
             "correctAnswer": "d",
-            "explanation": "Anzeige d: «Arbeitszeit: 38 Stunden pro Woche, Montag bis Freitag. Wir haben keine Vier-Tage-Woche.»",
+            "explanation": "Anzeige d handelt von gesunder vegetarischer Ernährung und Protein aus Bohnen, Nüssen und Milchprodukten.",
+            "options": [
+              "a) a",
+              "b) b",
+              "c) c",
+              "d) d",
+              "e) e",
+              "f) f",
+              "g) X"
+            ]
+          },
+          {
+            "id": "de-a2-cur-lesen-t4-cur-health-q4",
+            "module": "lesen",
+            "teil": 4,
+            "level": "A2",
+            "type": "matching",
+            "question": "Die Schulleitung möchte Geld sparen und überlegt, ob vegetarische Menüs günstiger sind als Fleischgerichte. Welche Anzeige passt?",
+            "signText": "",
+            "correct": "f",
+            "correctAnswer": "f",
+            "explanation": "Anzeige f erklärt, dass vegetarisches Essen oft billiger ist und Schulen beim Budget sparen können.",
+            "options": [
+              "a) a",
+              "b) b",
+              "c) c",
+              "d) d",
+              "e) e",
+              "f) f",
+              "g) X"
+            ]
+          },
+          {
+            "id": "de-a2-cur-lesen-t4-cur-health-q5",
+            "module": "lesen",
+            "teil": 4,
+            "level": "A2",
+            "type": "matching",
+            "question": "Ein Schüler wünscht sich deutlich mehr Fleischgerichte und mehr Fleischauswahl in der Schulkantine — nicht mehr vegetarische Angebote. Welche Anzeige passt?",
+            "signText": "",
+            "correct": "X",
+            "correctAnswer": "X",
+            "explanation": "Keine Anzeige a–f wirbt für mehr Fleisch; die Texte betonen vegetarische Optionen, Umwelt oder Kosten.",
             "options": [
               "a) a",
               "b) b",
@@ -789,370 +785,520 @@
       {
         "teil": 1,
         "instruction": "",
-        "topicTag": "Gesundheit",
+        "topicTag": "Reisen",
         "segments": [
           {
-            "passageId": "de-a2-p-horen-t1-gesundheit-arzt-04-s1",
+            "passageId": "gen-p-h1-74763564-s1",
             "label": "Text 1",
-            "text": "Guten Tag. Sie haben die Zahnarztpraxis Dr. Müller angerufen. Unsere Sprechzeiten sind Montag bis Freitag von 8 bis 12 Uhr und von 14 bis 18 Uhr. Samstags sind wir von 9 bis 13 Uhr geöffnet. Für einen Termin drücken Sie bitte die Taste 1. Für Notfälle drücken Sie die Taste 2.",
-            "transcript": "Guten Tag. Sie haben die Zahnarztpraxis Dr. Müller angerufen. Unsere Sprechzeiten sind Montag bis Freitag von 8 bis 12 Uhr und von 14 bis 18 Uhr. Samstags sind wir von 9 bis 13 Uhr geöffnet. Für einen Termin drücken Sie bitte die Taste 1. Für Notfälle drücken Sie die Taste 2.",
+            "text": "Achtung, liebe Fahrgäste! Eine wichtige Durchsage für Simon und Lisa. Der Zug nach Hamburg, Abfahrt um vierzehn Uhr dreißig, fährt heute nicht von Gleis fünf. Bitte gehen Sie zu Gleis drei. Der Zug hat leider fünfzehn Minuten Verspätung. Wir bitten um Ihr Verständnis und wünschen eine gute Reise.",
+            "transcript": "Achtung, liebe Fahrgäste! Eine wichtige Durchsage für Simon und Lisa. Der Zug nach Hamburg, Abfahrt um vierzehn Uhr dreißig, fährt heute nicht von Gleis fünf. Bitte gehen Sie zu Gleis drei. Der Zug hat leider fünfzehn Minuten Verspätung. Wir bitten um Ihr Verständnis und wünschen eine gute Reise.",
             "questions": [
               {
-                "id": "1-3bd63911",
-                "type": "multiple_choice",
-                "question": "Wann ist die Zahnarztpraxis Dr. Müller offen?",
-                "correct": "b",
-                "correctAnswer": "b",
-                "explanation": "Die Praxis ist Montag bis Freitag von 8 bis 12 Uhr und von 14 bis 18 Uhr geöffnet, samstags von 9 bis 13 Uhr.",
-                "grammarTags": [
-                  "g-de-a2-dat-akk"
-                ],
-                "vocabularyTags": [
-                  "Zahnarztpraxis",
-                  "Müller",
-                  "offen",
-                  "mo-fr"
-                ],
-                "options": [
-                  "a) Montag bis Freitag 9–12 Uhr und 15–18 Uhr",
-                  "b) Mo-Fr 8-12 Uhr und 14-18 Uhr, Sa 9-13 Uhr",
-                  "c) Nur Montag bis Freitag 8–18 Uhr"
-                ],
-                "passageId": "de-a2-p-horen-t1-gesundheit-arzt-04-s1",
-                "number": 1,
-                "nr": 1,
-                "nummer": 1,
+                "id": "gen-q-h1-74763564-q1",
                 "module": "horen",
                 "teil": 1,
+                "lang": "de",
                 "level": "A2",
-                "segmentLabel": "Aufnahme 1"
-              }
-            ]
-          },
-          {
-            "passageId": "de-a2-p-horen-t1-gesundheit-arzt-02-s5",
-            "label": "Text 5",
-            "text": "Guten Tag. Ich brauche etwas gegen Erkältung. Haben Sie Halsschmerzen? Ja, und ich huste auch. Dann empfehle ich diesen Hustensaft. Nehmen Sie dreimal täglich einen Löffel. Wie viel kostet das? Das kostet 12 Euro.",
-            "transcript": "Guten Tag. Ich brauche etwas gegen Erkältung. Haben Sie Halsschmerzen? Ja, und ich huste auch. Dann empfehle ich diesen Hustensaft. Nehmen Sie dreimal täglich einen Löffel. Wie viel kostet das? Das kostet 12 Euro.",
-            "questions": [
-              {
-                "id": "2-3bd63911",
                 "type": "multiple_choice",
-                "question": "Wie oft soll die Person den Hustensaft nehmen?",
-                "correct": "b",
-                "correctAnswer": "b",
-                "explanation": "Der Apotheker sagt: 'Nehmen Sie dreimal täglich einen Löffel.'",
-                "grammarTags": [
-                  "g-de-a2-modal",
-                  "g-de-a2-trennbar",
-                  "g-de-a2-dat-akk"
-                ],
-                "vocabularyTags": [
-                  "täglich",
-                  "Hustensaft",
-                  "Dreimal",
-                  "Person",
-                  "nehmen"
-                ],
+                "question": "Was ist neu für den Zug nach Hamburg?",
                 "options": [
-                  "a) Zweimal täglich",
-                  "b) Dreimal täglich",
-                  "c) Einmal täglich"
+                  "a) Die Reise dauert länger.",
+                  "b) Die Abfahrtszeit ist später.",
+                  "c) Er fährt von einem anderen Gleis."
                 ],
-                "passageId": "de-a2-p-horen-t1-gesundheit-arzt-02-s5",
-                "number": 2,
-                "nr": 2,
-                "nummer": 2,
-                "module": "horen",
-                "teil": 1,
-                "level": "A2",
-                "segmentLabel": "Aufnahme 2"
-              }
-            ]
-          },
-          {
-            "passageId": "gen-p-horen-t1-cur-work-s3",
-            "label": "Text 3",
-            "text": "Guten Morgen Herr Meyer. Ich bin krank und kann heute nicht zur Arbeit kommen. Tut mir leid. Ich war gestern beim Arzt. Der Arzt sagt, ich brauche zwei Tage Ruhe. Okay, vielen Dank, dass Sie Bescheid geben. Gute Besserung!",
-            "transcript": "Guten Morgen Herr Meyer. Ich bin krank und kann heute nicht zur Arbeit kommen. Tut mir leid. Ich war gestern beim Arzt. Der Arzt sagt, ich brauche zwei Tage Ruhe. Okay, vielen Dank, dass Sie Bescheid geben. Gute Besserung!",
-            "questions": [
-              {
-                "id": "3-3bd63911",
-                "type": "multiple_choice",
-                "question": "Wie lange muss Herr die Arbeit nicht machen?",
                 "correct": "c",
                 "correctAnswer": "c",
-                "explanation": "Der Arzt sagt: 'Ich brauche zwei Tage Ruhe.'",
+                "explanation": "Der Zug nach Hamburg fährt heute von Gleis drei ab, nicht wie ursprünglich geplant von Gleis fünf.",
+                "segmentLabel": "Text 1",
+                "passageId": "gen-p-h1-74763564-s1",
+                "vocabularyTags": [
+                  "Hamburg",
+                  "anderen",
+                  "Gleis"
+                ],
                 "grammarTags": [
-                  "g-de-a2-modal",
                   "g-de-a2-trennbar",
                   "g-de-a2-dat-akk"
-                ],
-                "vocabularyTags": [
-                  "Arbeit",
-                  "machen"
-                ],
-                "options": [
-                  "a) Eine Woche",
-                  "b) Einen Tag",
-                  "c) Zwei Tage"
-                ],
-                "passageId": "gen-p-horen-t1-cur-work-s3",
-                "number": 3,
-                "nr": 3,
-                "nummer": 3,
-                "module": "horen",
-                "teil": 1,
-                "level": "A2",
-                "segmentLabel": "Aufnahme 3"
+                ]
               }
             ]
           },
           {
-            "passageId": "de-a2-p-horen-t1-gesundheit-arzt-04-s5",
-            "label": "Text 5",
-            "text": "Guten Morgen, ich hätte gerne Aspirin gegen Kopfschmerzen. Welche Stärke nehmen Sie normalerweise? 500 Milligramm. Hier haben wir 10 Tabletten für 4 Euro 50. Perfekt. Wie nehme ich die Tabletten? Zwei Tabletten alle vier Stunden mit Wasser.",
-            "transcript": "Guten Morgen, ich hätte gerne Aspirin gegen Kopfschmerzen. Welche Stärke nehmen Sie normalerweise? 500 Milligramm. Hier haben wir 10 Tabletten für 4 Euro 50. Perfekt. Wie nehme ich die Tabletten? Zwei Tabletten alle vier Stunden mit Wasser.",
+            "passageId": "gen-p-h1-74763564-s2",
+            "label": "Text 2",
+            "text": "Guten Tag, hier ist die Zentrale vom Reisebüro. Eine Nachricht für Jan und Marie. Ihre Buchung für die Reise nach Spanien ist jetzt bestätigt. Sie können die Unterlagen ab morgen bei uns abholen. Bitte rufen Sie uns kurz an, um einen Termin zu vereinbaren. Wir freuen uns auf Sie!",
+            "transcript": "Guten Tag, hier ist die Zentrale vom Reisebüro. Eine Nachricht für Jan und Marie. Ihre Buchung für die Reise nach Spanien ist jetzt bestätigt. Sie können die Unterlagen ab morgen bei uns abholen. Bitte rufen Sie uns kurz an, um einen Termin zu vereinbaren. Wir freuen uns auf Sie!",
             "questions": [
               {
-                "id": "4-3bd63911",
+                "id": "gen-q-h1-74763564-q2",
+                "module": "horen",
+                "teil": 1,
+                "lang": "de",
+                "level": "A2",
                 "type": "multiple_choice",
-                "question": "Wie oft sollte die Person die Tabletten nehmen?",
+                "question": "Was sollen Jan und Marie tun?",
+                "options": [
+                  "a) Die Reise nach Spanien bezahlen.",
+                  "b) Das Reisebüro anrufen.",
+                  "c) Die Unterlagen heute abholen."
+                ],
+                "correct": "b",
+                "correctAnswer": "b",
+                "explanation": "Jan und Marie sollen das Reisebüro anrufen, um einen Termin für die Abholung der Unterlagen zu vereinbaren.",
+                "segmentLabel": "Text 2",
+                "passageId": "gen-p-h1-74763564-s2",
+                "vocabularyTags": [
+                  "anrufen",
+                  "Reisebüro",
+                  "Marie"
+                ],
+                "grammarTags": [
+                  "g-de-a2-modal",
+                  "g-de-a2-trennbar",
+                  "g-de-a2-dat-akk"
+                ]
+              }
+            ]
+          },
+          {
+            "passageId": "gen-p-h1-74763564-s3",
+            "label": "Text 3",
+            "text": "Willkommen zu unserem kurzen Alltagstipp! Heute geht es um das Packen für die Reise. Erik und Hannah, denkt daran: Nehmt nicht zu viele schwere Sachen mit. Ein kleiner Koffer ist oft besser. Und vergesst nicht die wichtigen Dokumente! Eine gute Vorbereitung macht die Reise entspannter.",
+            "transcript": "Willkommen zu unserem kurzen Alltagstipp! Heute geht es um das Packen für die Reise. Erik und Hannah, denkt daran: Nehmt nicht zu viele schwere Sachen mit. Ein kleiner Koffer ist oft besser. Und vergesst nicht die wichtigen Dokumente! Eine gute Vorbereitung macht die Reise entspannter.",
+            "questions": [
+              {
+                "id": "gen-q-h1-74763564-q3",
+                "module": "horen",
+                "teil": 1,
+                "lang": "de",
+                "level": "A2",
+                "type": "multiple_choice",
+                "question": "Was ist ein guter Tipp für die Reise?",
+                "options": [
+                  "a) Viele schwere Dinge einpacken.",
+                  "b) Einen großen Koffer benutzen.",
+                  "c) Wichtige Papiere nicht vergessen."
+                ],
+                "correct": "c",
+                "correctAnswer": "c",
+                "explanation": "Der Tipp empfiehlt, die wichtigen Dokumente für die Reise nicht zu vergessen, um entspannt zu reisen.",
+                "segmentLabel": "Text 3",
+                "passageId": "gen-p-h1-74763564-s3",
+                "vocabularyTags": [
+                  "vergessen",
+                  "wichtige",
+                  "Papiere",
+                  "Tipp",
+                  "Reise"
+                ],
+                "grammarTags": [
+                  "g-de-a2-dat-akk"
+                ]
+              }
+            ]
+          },
+          {
+            "passageId": "gen-p-h1-74763564-s4",
+            "label": "Text 4",
+            "text": "Liebe Gäste, bitte beachten Sie folgenden Hinweis für Leon und Greta. Das Frühstück ist täglich von sieben bis zehn Uhr im Restaurant im Erdgeschoss. Bitte vergessen Sie nicht, bis elf Uhr auszuchecken. Wir wünschen Ihnen einen schönen Aufenthalt und eine gute Heimreise.",
+            "transcript": "Liebe Gäste, bitte beachten Sie folgenden Hinweis für Leon und Greta. Das Frühstück ist täglich von sieben bis zehn Uhr im Restaurant im Erdgeschoss. Bitte vergessen Sie nicht, bis elf Uhr auszuchecken. Wir wünschen Ihnen einen schönen Aufenthalt und eine gute Heimreise.",
+            "questions": [
+              {
+                "id": "gen-q-h1-74763564-q4",
+                "module": "horen",
+                "teil": 1,
+                "lang": "de",
+                "level": "A2",
+                "type": "multiple_choice",
+                "question": "Was müssen die Gäste bis elf Uhr machen?",
+                "options": [
+                  "a) Im Restaurant frühstücken.",
+                  "b) Das Hotel verlassen.",
+                  "c) Die Rechnung bezahlen."
+                ],
+                "correct": "b",
+                "correctAnswer": "b",
+                "explanation": "Die Gäste müssen bis elf Uhr auschecken, was bedeutet, das Hotel zu verlassen.",
+                "segmentLabel": "Text 4",
+                "passageId": "gen-p-h1-74763564-s4",
+                "vocabularyTags": [
+                  "verlassen",
+                  "Gäste",
+                  "Hotel",
+                  "machen"
+                ],
+                "grammarTags": [
+                  "g-de-a2-modal",
+                  "g-de-a2-trennbar",
+                  "g-de-a2-dat-akk"
+                ]
+              }
+            ]
+          },
+          {
+            "passageId": "gen-p-h1-74763564-s5",
+            "label": "Text 5",
+            "text": "Hallo Finn, hallo Paula! Hier ist eure Freundin. Ich muss unsere Reisepläne für nächste Woche noch einmal prüfen. Es gibt eine kleine Änderung in meiner Situation. Ich melde mich später noch einmal bei euch. Bis bald!",
+            "transcript": "Hallo Finn, hallo Paula! Hier ist eure Freundin. Ich muss unsere Reisepläne für nächste Woche noch einmal prüfen. Es gibt eine kleine Änderung in meiner Situation. Ich melde mich später noch einmal bei euch. Bis bald!",
+            "questions": [
+              {
+                "id": "gen-q-h1-74763564-q5",
+                "module": "horen",
+                "teil": 1,
+                "lang": "de",
+                "level": "A2",
+                "type": "multiple_choice",
+                "question": "Warum meldet sich die Freundin?",
+                "options": [
+                  "a) Sie will die Reisepläne ändern.",
+                  "b) Sie möchte die Reise absagen.",
+                  "c) Sie hat neue Informationen."
+                ],
                 "correct": "a",
                 "correctAnswer": "a",
-                "explanation": "Die Anweisung besagt, dass man zwei Tabletten alle vier Stunden nehmen soll.",
+                "explanation": "Die Freundin muss die Reisepläne prüfen, weil es eine kleine Änderung in ihrer Situation gibt.",
+                "segmentLabel": "Text 5",
+                "passageId": "gen-p-h1-74763564-s5",
+                "vocabularyTags": [
+                  "melden",
+                  "ändern",
+                  "Reisepläne",
+                  "Freundin"
+                ],
                 "grammarTags": [
                   "g-de-a2-nebensatz",
                   "g-de-a2-modal",
                   "g-de-a2-trennbar",
                   "g-de-a2-dat-akk"
-                ],
-                "vocabularyTags": [
-                  "tabletten",
-                  "stunden",
-                  "Person",
-                  "sollt",
-                  "nehmen"
-                ],
-                "options": [
-                  "a) Alle 4 Stunden",
-                  "b) Dreimal am Tag",
-                  "c) Zweimal am Tag"
-                ],
-                "passageId": "de-a2-p-horen-t1-gesundheit-arzt-04-s5",
-                "number": 4,
-                "nr": 4,
-                "nummer": 4,
-                "module": "horen",
-                "teil": 1,
-                "level": "A2",
-                "segmentLabel": "Aufnahme 4"
-              }
-            ]
-          },
-          {
-            "passageId": "de-a2-p-horen-t1-gesundheit-arzt-01-s5",
-            "label": "Text 5",
-            "text": "Ich brauche eine Krankmeldung. Ich bin seit drei Tagen krank. Der Arzt schreibt eine Krankmeldung für dich. Du brauchst sie für deinen Chef.",
-            "transcript": "Ich brauche eine Krankmeldung. Ich bin seit drei Tagen krank. Der Arzt schreibt eine Krankmeldung für dich. Du brauchst sie für deinen Chef.",
-            "questions": [
-              {
-                "id": "5-3bd63911",
-                "type": "multiple_choice",
-                "question": "Warum braucht die Person die Krankmeldung?",
-                "correct": "c",
-                "correctAnswer": "c",
-                "explanation": "Im Gespräch heißt es: 'Du brauchst sie für deinen Chef.'",
-                "grammarTags": [
-                  "g-de-a2-dat-akk"
-                ],
-                "vocabularyTags": [
-                  "brauchen",
-                  "Krankmeldung",
-                  "Person"
-                ],
-                "options": [
-                  "a) Für den Arzt",
-                  "b) Für die Apotheke",
-                  "c) Für den Chef"
-                ],
-                "passageId": "de-a2-p-horen-t1-gesundheit-arzt-01-s5",
-                "number": 5,
-                "nr": 5,
-                "nummer": 5,
-                "module": "horen",
-                "teil": 1,
-                "level": "A2",
-                "segmentLabel": "Aufnahme 5"
+                ]
               }
             ]
           }
         ],
-        "transcript": "Guten Tag. Sie haben die Zahnarztpraxis Dr. Müller angerufen. Unsere Sprechzeiten sind Montag bis Freitag von 8 bis 12 Uhr und von 14 bis 18 Uhr. Samstags sind wir von 9 bis 13 Uhr geöffnet. Für einen Termin drücken Sie bitte die Taste 1. Für Notfälle drücken Sie die Taste 2.",
         "questions": [
           {
-            "id": "1-3bd63911",
-            "type": "multiple_choice",
-            "question": "Wann ist die Zahnarztpraxis Dr. Müller offen?",
-            "correct": "b",
-            "correctAnswer": "b",
-            "explanation": "Die Praxis ist Montag bis Freitag von 8 bis 12 Uhr und von 14 bis 18 Uhr geöffnet, samstags von 9 bis 13 Uhr.",
-            "grammarTags": [
-              "g-de-a2-dat-akk"
-            ],
-            "vocabularyTags": [
-              "Zahnarztpraxis",
-              "Müller",
-              "offen",
-              "mo-fr"
-            ],
-            "options": [
-              "a) Montag bis Freitag 9–12 Uhr und 15–18 Uhr",
-              "b) Mo-Fr 8-12 Uhr und 14-18 Uhr, Sa 9-13 Uhr",
-              "c) Nur Montag bis Freitag 8–18 Uhr"
-            ],
-            "passageId": "de-a2-p-horen-t1-gesundheit-arzt-04-s1",
-            "number": 1,
-            "nr": 1,
-            "nummer": 1,
+            "id": "gen-q-h1-74763564-q1",
             "module": "horen",
             "teil": 1,
+            "lang": "de",
             "level": "A2",
-            "segmentLabel": "Aufnahme 1"
-          },
-          {
-            "id": "2-3bd63911",
             "type": "multiple_choice",
-            "question": "Wie oft soll die Person den Hustensaft nehmen?",
-            "correct": "b",
-            "correctAnswer": "b",
-            "explanation": "Der Apotheker sagt: 'Nehmen Sie dreimal täglich einen Löffel.'",
-            "grammarTags": [
-              "g-de-a2-modal",
-              "g-de-a2-trennbar",
-              "g-de-a2-dat-akk"
-            ],
-            "vocabularyTags": [
-              "täglich",
-              "Hustensaft",
-              "Dreimal",
-              "Person",
-              "nehmen"
-            ],
+            "question": "Was ist neu für den Zug nach Hamburg?",
             "options": [
-              "a) Zweimal täglich",
-              "b) Dreimal täglich",
-              "c) Einmal täglich"
+              "a) Die Reise dauert länger.",
+              "b) Die Abfahrtszeit ist später.",
+              "c) Er fährt von einem anderen Gleis."
             ],
-            "passageId": "de-a2-p-horen-t1-gesundheit-arzt-02-s5",
-            "number": 2,
-            "nr": 2,
-            "nummer": 2,
-            "module": "horen",
-            "teil": 1,
-            "level": "A2",
-            "segmentLabel": "Aufnahme 2"
-          },
-          {
-            "id": "3-3bd63911",
-            "type": "multiple_choice",
-            "question": "Wie lange muss Herr die Arbeit nicht machen?",
             "correct": "c",
             "correctAnswer": "c",
-            "explanation": "Der Arzt sagt: 'Ich brauche zwei Tage Ruhe.'",
+            "explanation": "Der Zug nach Hamburg fährt heute von Gleis drei ab, nicht wie ursprünglich geplant von Gleis fünf.",
+            "segmentLabel": "Text 1",
+            "passageId": "gen-p-h1-74763564-s1",
+            "vocabularyTags": [
+              "Hamburg",
+              "anderen",
+              "Gleis"
+            ],
+            "grammarTags": [
+              "g-de-a2-trennbar",
+              "g-de-a2-dat-akk"
+            ]
+          },
+          {
+            "id": "gen-q-h1-74763564-q2",
+            "module": "horen",
+            "teil": 1,
+            "lang": "de",
+            "level": "A2",
+            "type": "multiple_choice",
+            "question": "Was sollen Jan und Marie tun?",
+            "options": [
+              "a) Die Reise nach Spanien bezahlen.",
+              "b) Das Reisebüro anrufen.",
+              "c) Die Unterlagen heute abholen."
+            ],
+            "correct": "b",
+            "correctAnswer": "b",
+            "explanation": "Jan und Marie sollen das Reisebüro anrufen, um einen Termin für die Abholung der Unterlagen zu vereinbaren.",
+            "segmentLabel": "Text 2",
+            "passageId": "gen-p-h1-74763564-s2",
+            "vocabularyTags": [
+              "anrufen",
+              "Reisebüro",
+              "Marie"
+            ],
             "grammarTags": [
               "g-de-a2-modal",
               "g-de-a2-trennbar",
               "g-de-a2-dat-akk"
-            ],
-            "vocabularyTags": [
-              "Arbeit",
-              "machen"
-            ],
-            "options": [
-              "a) Eine Woche",
-              "b) Einen Tag",
-              "c) Zwei Tage"
-            ],
-            "passageId": "gen-p-horen-t1-cur-work-s3",
-            "number": 3,
-            "nr": 3,
-            "nummer": 3,
-            "module": "horen",
-            "teil": 1,
-            "level": "A2",
-            "segmentLabel": "Aufnahme 3"
+            ]
           },
           {
-            "id": "4-3bd63911",
+            "id": "gen-q-h1-74763564-q3",
+            "module": "horen",
+            "teil": 1,
+            "lang": "de",
+            "level": "A2",
             "type": "multiple_choice",
-            "question": "Wie oft sollte die Person die Tabletten nehmen?",
+            "question": "Was ist ein guter Tipp für die Reise?",
+            "options": [
+              "a) Viele schwere Dinge einpacken.",
+              "b) Einen großen Koffer benutzen.",
+              "c) Wichtige Papiere nicht vergessen."
+            ],
+            "correct": "c",
+            "correctAnswer": "c",
+            "explanation": "Der Tipp empfiehlt, die wichtigen Dokumente für die Reise nicht zu vergessen, um entspannt zu reisen.",
+            "segmentLabel": "Text 3",
+            "passageId": "gen-p-h1-74763564-s3",
+            "vocabularyTags": [
+              "vergessen",
+              "wichtige",
+              "Papiere",
+              "Tipp",
+              "Reise"
+            ],
+            "grammarTags": [
+              "g-de-a2-dat-akk"
+            ]
+          },
+          {
+            "id": "gen-q-h1-74763564-q4",
+            "module": "horen",
+            "teil": 1,
+            "lang": "de",
+            "level": "A2",
+            "type": "multiple_choice",
+            "question": "Was müssen die Gäste bis elf Uhr machen?",
+            "options": [
+              "a) Im Restaurant frühstücken.",
+              "b) Das Hotel verlassen.",
+              "c) Die Rechnung bezahlen."
+            ],
+            "correct": "b",
+            "correctAnswer": "b",
+            "explanation": "Die Gäste müssen bis elf Uhr auschecken, was bedeutet, das Hotel zu verlassen.",
+            "segmentLabel": "Text 4",
+            "passageId": "gen-p-h1-74763564-s4",
+            "vocabularyTags": [
+              "verlassen",
+              "Gäste",
+              "Hotel",
+              "machen"
+            ],
+            "grammarTags": [
+              "g-de-a2-modal",
+              "g-de-a2-trennbar",
+              "g-de-a2-dat-akk"
+            ]
+          },
+          {
+            "id": "gen-q-h1-74763564-q5",
+            "module": "horen",
+            "teil": 1,
+            "lang": "de",
+            "level": "A2",
+            "type": "multiple_choice",
+            "question": "Warum meldet sich die Freundin?",
+            "options": [
+              "a) Sie will die Reisepläne ändern.",
+              "b) Sie möchte die Reise absagen.",
+              "c) Sie hat neue Informationen."
+            ],
             "correct": "a",
             "correctAnswer": "a",
-            "explanation": "Die Anweisung besagt, dass man zwei Tabletten alle vier Stunden nehmen soll.",
+            "explanation": "Die Freundin muss die Reisepläne prüfen, weil es eine kleine Änderung in ihrer Situation gibt.",
+            "segmentLabel": "Text 5",
+            "passageId": "gen-p-h1-74763564-s5",
+            "vocabularyTags": [
+              "melden",
+              "ändern",
+              "Reisepläne",
+              "Freundin"
+            ],
             "grammarTags": [
               "g-de-a2-nebensatz",
               "g-de-a2-modal",
               "g-de-a2-trennbar",
               "g-de-a2-dat-akk"
-            ],
-            "vocabularyTags": [
-              "tabletten",
-              "stunden",
-              "Person",
-              "sollt",
-              "nehmen"
-            ],
-            "options": [
-              "a) Alle 4 Stunden",
-              "b) Dreimal am Tag",
-              "c) Zweimal am Tag"
-            ],
-            "passageId": "de-a2-p-horen-t1-gesundheit-arzt-04-s5",
-            "number": 4,
-            "nr": 4,
-            "nummer": 4,
-            "module": "horen",
-            "teil": 1,
-            "level": "A2",
-            "segmentLabel": "Aufnahme 4"
-          },
-          {
-            "id": "5-3bd63911",
-            "type": "multiple_choice",
-            "question": "Warum braucht die Person die Krankmeldung?",
-            "correct": "c",
-            "correctAnswer": "c",
-            "explanation": "Im Gespräch heißt es: 'Du brauchst sie für deinen Chef.'",
-            "grammarTags": [
-              "g-de-a2-dat-akk"
-            ],
-            "vocabularyTags": [
-              "brauchen",
-              "Krankmeldung",
-              "Person"
-            ],
-            "options": [
-              "a) Für den Arzt",
-              "b) Für die Apotheke",
-              "c) Für den Chef"
-            ],
-            "passageId": "de-a2-p-horen-t1-gesundheit-arzt-01-s5",
-            "number": 5,
-            "nr": 5,
-            "nummer": 5,
-            "module": "horen",
-            "teil": 1,
-            "level": "A2",
-            "segmentLabel": "Aufnahme 5"
+            ]
           }
-        ]
+        ],
+        "transcript": "Achtung, liebe Fahrgäste! Eine wichtige Durchsage für Simon und Lisa. Der Zug nach Hamburg, Abfahrt um vierzehn Uhr dreißig, fährt heute nicht von Gleis fünf. Bitte gehen Sie zu Gleis drei. Der Zug hat leider fünfzehn Minuten Verspätung. Wir bitten um Ihr Verständnis und wünschen eine gute Reise."
       },
       {
         "teil": 2,
         "instruction": "",
         "topicTag": "Arbeit",
-        "transcript": "Sara: Hallo Felix! Was machst du diese Woche?\nFelix: Hallo Sara! Montag habe ich einen Deutschkurs nach der Arbeit in der Volkshochschule.\nSara: Prima! Am Dienstagabend treffe ich Kollegen im Café. Wir sprechen über das neue Projekt.\nFelix: Klingt gut! Am Mittwoch gehe ich ins Museum mit meiner Tochter. Sie lernt in der Schule Kunst.\nSara: Schön! Am Donnerstag kaufe ich Bücher für meinen Abendkurs. Der Kurs beginnt nächste Woche.\nFelix: Viel Erfolg! Am Freitag koche ich das Abendessen für meine Familie.\nSara: Guten Appetit! Am Wochenende habe ich endlich frei.",
+        "segments": [
+          {
+            "passageId": "de-a2-p-horen-t2-work-pic01",
+            "label": "Arbeitswoche — Büro und Termine",
+            "text": "Sara: Hallo Felix! Was machst du diese Woche?\nFelix: Hallo Sara! Montag habe ich einen Deutschkurs nach der Arbeit in der Volkshochschule.\nSara: Prima! Am Dienstagabend treffe ich Kollegen im Café. Wir sprechen über das neue Projekt.\nFelix: Klingt gut! Am Mittwoch gehe ich ins Museum mit meiner Tochter. Sie lernt in der Schule Kunst.\nSara: Schön! Am Donnerstag kaufe ich Bücher für meinen Abendkurs. Der Kurs beginnt nächste Woche.\nFelix: Viel Erfolg! Am Freitag koche ich das Abendessen für meine Familie.\nSara: Guten Appetit! Am Wochenende habe ich endlich frei.",
+            "transcript": "Sara: Hallo Felix! Was machst du diese Woche?\nFelix: Hallo Sara! Montag habe ich einen Deutschkurs nach der Arbeit in der Volkshochschule.\nSara: Prima! Am Dienstagabend treffe ich Kollegen im Café. Wir sprechen über das neue Projekt.\nFelix: Klingt gut! Am Mittwoch gehe ich ins Museum mit meiner Tochter. Sie lernt in der Schule Kunst.\nSara: Schön! Am Donnerstag kaufe ich Bücher für meinen Abendkurs. Der Kurs beginnt nächste Woche.\nFelix: Viel Erfolg! Am Freitag koche ich das Abendessen für meine Familie.\nSara: Guten Appetit! Am Wochenende habe ich endlich frei.",
+            "pictures": [
+              {
+                "key": "a",
+                "icon": "🚴‍♂️",
+                "label": "Fahrrad fahren"
+              },
+              {
+                "key": "b",
+                "icon": "🇩🇪",
+                "label": "Deutschkurs"
+              },
+              {
+                "key": "c",
+                "icon": "👫",
+                "label": "Freunde treffen"
+              },
+              {
+                "key": "d",
+                "icon": "🏋️‍♀️",
+                "label": "Sport machen"
+              },
+              {
+                "key": "e",
+                "icon": "🏛️",
+                "label": "Museum"
+              },
+              {
+                "key": "f",
+                "icon": "🎬",
+                "label": "Kino"
+              },
+              {
+                "key": "g",
+                "icon": "📚",
+                "label": "Lernen"
+              },
+              {
+                "key": "h",
+                "icon": "🛒",
+                "label": "Einkaufen"
+              },
+              {
+                "key": "i",
+                "icon": "🍳",
+                "label": "Kochen"
+              }
+            ],
+            "questions": [
+              {
+                "id": "de-a2-p-horen-t2-work-pic01-q1",
+                "module": "horen",
+                "teil": 2,
+                "lang": "de",
+                "level": "A2",
+                "type": "matching",
+                "question": "Was macht Felix am Montag?",
+                "passageId": "de-a2-p-horen-t2-work-pic01",
+                "correct": "b",
+                "correctAnswer": "b",
+                "explanation": "Felix hat am Montag einen Deutschkurs.",
+                "_keyOnlyMatch": true,
+                "vocabularyTags": [
+                  "Deutschkurs",
+                  "Montag",
+                  "Felix",
+                  "machen"
+                ],
+                "grammarTags": []
+              },
+              {
+                "id": "de-a2-p-horen-t2-work-pic01-q2",
+                "module": "horen",
+                "teil": 2,
+                "lang": "de",
+                "level": "A2",
+                "type": "matching",
+                "question": "Was macht Sara am Dienstag?",
+                "passageId": "de-a2-p-horen-t2-work-pic01",
+                "correct": "c",
+                "correctAnswer": "c",
+                "explanation": "Sara trifft am Dienstagabend Kollegen im Café.",
+                "_keyOnlyMatch": true,
+                "vocabularyTags": [
+                  "treffen",
+                  "kollegen",
+                  "Freund",
+                  "Dienstagabend",
+                  "Dienstag",
+                  "machen"
+                ],
+                "grammarTags": []
+              },
+              {
+                "id": "de-a2-p-horen-t2-work-pic01-q3",
+                "module": "horen",
+                "teil": 2,
+                "lang": "de",
+                "level": "A2",
+                "type": "matching",
+                "question": "Was macht Felix am Mittwoch?",
+                "passageId": "de-a2-p-horen-t2-work-pic01",
+                "correct": "e",
+                "correctAnswer": "e",
+                "explanation": "Felix geht am Mittwoch ins Museum.",
+                "_keyOnlyMatch": true,
+                "vocabularyTags": [
+                  "Mittwoch",
+                  "Museum",
+                  "Felix",
+                  "machen",
+                  "gehen"
+                ],
+                "grammarTags": []
+              },
+              {
+                "id": "de-a2-p-horen-t2-work-pic01-q4",
+                "module": "horen",
+                "teil": 2,
+                "lang": "de",
+                "level": "A2",
+                "type": "matching",
+                "question": "Was macht Sara am Donnerstag?",
+                "passageId": "de-a2-p-horen-t2-work-pic01",
+                "correct": "h",
+                "correctAnswer": "h",
+                "explanation": "Sara kauft am Donnerstag Bücher für den Kurs.",
+                "_keyOnlyMatch": true,
+                "vocabularyTags": [
+                  "einkaufen",
+                  "Donnerstag",
+                  "Bücher",
+                  "Kurs",
+                  "machen"
+                ],
+                "grammarTags": []
+              },
+              {
+                "id": "de-a2-p-horen-t2-work-pic01-q5",
+                "module": "horen",
+                "teil": 2,
+                "lang": "de",
+                "level": "A2",
+                "type": "matching",
+                "question": "Was macht Felix am Freitag?",
+                "passageId": "de-a2-p-horen-t2-work-pic01",
+                "correct": "i",
+                "correctAnswer": "i",
+                "explanation": "Felix kocht am Freitag das Abendessen.",
+                "_keyOnlyMatch": true,
+                "vocabularyTags": [
+                  "kochen",
+                  "abendessen",
+                  "Freitag",
+                  "Felix",
+                  "machen"
+                ],
+                "grammarTags": []
+              }
+            ]
+          }
+        ],
+        "blueprintSlot": "picture_matching",
+        "plays": 1,
         "questions": [
           {
             "id": "de-a2-p-horen-t2-work-pic01-q1",
@@ -1265,487 +1411,468 @@
             "grammarTags": []
           }
         ],
-        "passageId": "de-a2-p-horen-t2-work-pic01"
+        "transcript": "Sara: Hallo Felix! Was machst du diese Woche?\nFelix: Hallo Sara! Montag habe ich einen Deutschkurs nach der Arbeit in der Volkshochschule.\nSara: Prima! Am Dienstagabend treffe ich Kollegen im Café. Wir sprechen über das neue Projekt.\nFelix: Klingt gut! Am Mittwoch gehe ich ins Museum mit meiner Tochter. Sie lernt in der Schule Kunst.\nSara: Schön! Am Donnerstag kaufe ich Bücher für meinen Abendkurs. Der Kurs beginnt nächste Woche.\nFelix: Viel Erfolg! Am Freitag koche ich das Abendessen für meine Familie.\nSara: Guten Appetit! Am Wochenende habe ich endlich frei."
       },
       {
         "teil": 3,
         "instruction": "",
-        "topicTag": "Freizeit",
+        "topicTag": "Wohnen",
         "segments": [
           {
-            "passageId": "gen-p-h3-3b4e3ad0-s1",
-            "label": "Aufnahme 1",
-            "text": "Noah: Sag mal, Lea, hast du schon Pläne für das Wochenende? Ich dachte, wir könnten etwas zusammen unternehmen.\nLea: Ja, Noah! Ich wollte sowieso fragen. Ich habe gehört, es gibt ein schönes Fest in der Stadt. Hast du Lust?",
-            "transcript": "Noah: Sag mal, Lea, hast du schon Pläne für das Wochenende? Ich dachte, wir könnten etwas zusammen unternehmen.\nLea: Ja, Noah! Ich wollte sowieso fragen. Ich habe gehört, es gibt ein schönes Fest in der Stadt. Hast du Lust?",
+            "passageId": "de-a2-p-horen-t3-urlaubsplanung-freunde-03-s4",
+            "label": "Text 4",
+            "text": "Sarah: Tom, wo wollen wir denn essen gehen? Mann: Ich habe einen italienischen Restaurant gefunden. Die Pizzas sind dort sehr lecker. Sarah: Klingt gut! Aber ich mag auch gerne asiatisches Essen. Mann: Okay, dann gehen wir in zwei verschiedene Restaurants! Sarah: Abgemacht! Lass uns Reservierungen machen. Mann: Gute Idee. Ich rufe gleich an.",
+            "transcript": "Sarah: Tom, wo wollen wir denn essen gehen? Mann: Ich habe einen italienischen Restaurant gefunden. Die Pizzas sind dort sehr lecker. Sarah: Klingt gut! Aber ich mag auch gerne asiatisches Essen. Mann: Okay, dann gehen wir in zwei verschiedene Restaurants! Sarah: Abgemacht! Lass uns Reservierungen machen. Mann: Gute Idee. Ich rufe gleich an.",
             "questions": [
               {
-                "id": "gen-q-h3-3b4e3ad0-q1",
-                "module": "horen",
-                "teil": 3,
-                "lang": "de",
-                "level": "A2",
+                "id": "11-3bd63911",
                 "type": "multiple_choice",
-                "passageId": "gen-p-h3-3b4e3ad0-s1",
-                "segmentLabel": "Text 1",
-                "question": "Was schlägt Lea für das Wochenende vor?",
-                "options": [
-                  "a) Sie will ein Fest besuchen.",
-                  "b) Sie möchte zu Hause bleiben.",
-                  "c) Sie hat keine Zeit für Noah."
-                ],
-                "correct": "a",
-                "correctAnswer": "a",
-                "explanation": "Lea schlägt vor, ein Fest in der Stadt zu besuchen. Sie fragt Noah, ob er Lust dazu hat.",
-                "vocabularyTags": [
-                  "Wochenende",
-                  "besuchen"
-                ],
-                "grammarTags": [
-                  "g-de-a2-nebensatz",
-                  "g-de-a2-modal",
-                  "g-de-a2-dat-akk",
-                  "g-de-a2-praesens"
-                ]
-              }
-            ]
-          },
-          {
-            "passageId": "gen-p-h3-3b4e3ad0-s2",
-            "label": "Aufnahme 2",
-            "text": "Ben: Anna, ich habe gestern Abend ein neues Buch gelesen. Es war wirklich spannend. Liest du auch gern in deiner Freizeit?\nAnna: Ja, Ben, sehr gern! Am liebsten entspanne ich mich mit einem guten Roman. Das ist mein perfekter Ausgleich nach der Arbeit.",
-            "transcript": "Ben: Anna, ich habe gestern Abend ein neues Buch gelesen. Es war wirklich spannend. Liest du auch gern in deiner Freizeit?\nAnna: Ja, Ben, sehr gern! Am liebsten entspanne ich mich mit einem guten Roman. Das ist mein perfekter Ausgleich nach der Arbeit.",
-            "questions": [
-              {
-                "id": "gen-q-h3-3b4e3ad0-q2",
-                "module": "horen",
-                "teil": 3,
-                "lang": "de",
-                "level": "A2",
-                "type": "multiple_choice",
-                "passageId": "gen-p-h3-3b4e3ad0-s2",
-                "segmentLabel": "Text 2",
-                "question": "Was macht Anna am liebsten in ihrer Freizeit?",
-                "options": [
-                  "a) Sie geht ins Kino.",
-                  "b) Sie liest Romane.",
-                  "c) Sie arbeitet viel."
-                ],
+                "question": "Warum wollen sie in zwei verschiedene Restaurants gehen?",
                 "correct": "b",
                 "correctAnswer": "b",
-                "explanation": "Anna sagt, dass sie am liebsten Romane liest. Das ist ihr perfekter Ausgleich nach der Arbeit.",
+                "explanation": "Sarah mag auch gerne asiatisches Essen, darum gehen sie in zwei verschiedene Restaurants: eines italienisches und eines asiatisches.",
+                "grammarTags": [],
                 "vocabularyTags": [
-                  "liebsten",
-                  "Freizeit",
-                  "Romane"
+                  "verschieden",
+                  "Restaurants",
+                  "italienisch",
+                  "asiatisch",
+                  "essen",
+                  "gern"
                 ],
-                "grammarTags": [
-                  "g-de-a2-nebensatz",
-                  "g-de-a2-trennbar",
-                  "g-de-a2-dat-akk",
-                  "g-de-a2-komparativ"
-                ]
+                "options": [
+                  "a) Weil Tom kein italienisches essen mag",
+                  "b) Weil Sarah auch asiatisches essen mag",
+                  "c) Weil das erste Restaurant zu teuer ist"
+                ],
+                "passageId": "de-a2-p-horen-t3-urlaubsplanung-freunde-03-s4",
+                "number": 11,
+                "nr": 11,
+                "nummer": 11,
+                "module": "horen",
+                "teil": 3,
+                "level": "A2"
               }
             ]
           },
           {
-            "passageId": "gen-p-h3-3b4e3ad0-s3",
-            "label": "Aufnahme 3",
-            "text": "Max: Lena, ich habe eine Idee für heute Abend. Im Kino läuft ein neuer Film. Wollen wir hingehen?\nLena: Oh, Max, das klingt gut! Aber ich bin heute Abend schon verabredet. Wie wäre es morgen? Da habe ich Zeit.",
-            "transcript": "Max: Lena, ich habe eine Idee für heute Abend. Im Kino läuft ein neuer Film. Wollen wir hingehen?\nLena: Oh, Max, das klingt gut! Aber ich bin heute Abend schon verabredet. Wie wäre es morgen? Da habe ich Zeit.",
+            "passageId": "de-a2-p-horen-t3-umzug-familie-03-s1",
+            "label": "Text 1",
+            "text": "■ Mutter: Schatz, ich habe gute Nachrichten! Ich habe eine neue Wohnung gefunden. Sie hat drei Zimmer und liegt im Zentrum. ■ Vater: Das ist ja toll! Wann können wir sie besichtigen? ■ Mutter: Nächste Woche Dienstag. Die Miete ist 800 Euro im Monat. ■ Vater: Das ist ein gutes Preis. Wann wollen wir umziehen?",
+            "transcript": "■ Mutter: Schatz, ich habe gute Nachrichten! Ich habe eine neue Wohnung gefunden. Sie hat drei Zimmer und liegt im Zentrum. ■ Vater: Das ist ja toll! Wann können wir sie besichtigen? ■ Mutter: Nächste Woche Dienstag. Die Miete ist 800 Euro im Monat. ■ Vater: Das ist ein gutes Preis. Wann wollen wir umziehen?",
             "questions": [
               {
-                "id": "gen-q-h3-3b4e3ad0-q3",
-                "module": "horen",
-                "teil": 3,
-                "lang": "de",
-                "level": "A2",
+                "id": "de-a2-h-t3-umzug-familie-03-q1",
                 "type": "multiple_choice",
-                "passageId": "gen-p-h3-3b4e3ad0-s3",
-                "segmentLabel": "Text 3",
-                "question": "Warum kann Lena heute Abend nicht ins Kino gehen?",
-                "options": [
-                  "a) Sie ist schon verabredet.",
-                  "b) Sie muss arbeiten.",
-                  "c) Sie hat keine Lust auf den Film."
-                ],
+                "question": "Wie viele Zimmer hat die neue Wohnung?",
                 "correct": "a",
                 "correctAnswer": "a",
-                "explanation": "Lena erklärt, dass sie heute Abend schon verabredet ist und deshalb nicht mit Max ins Kino gehen kann.",
-                "vocabularyTags": [
-                  "Abend",
-                  "gehen"
-                ],
+                "explanation": "Die Mutter sagt: 'Ich habe eine neue Wohnung gefunden. Sie hat drei Zimmer und liegt im Zentrum.'",
                 "grammarTags": [
-                  "g-de-a2-nebensatz",
-                  "g-de-a2-modal",
-                  "g-de-a2-perfekt",
-                  "g-de-a2-trennbar"
-                ]
+                  "g-de-b1-perfekt"
+                ],
+                "vocabularyTags": [
+                  "Wohnung",
+                  "Zimmer",
+                  "finden",
+                  "liegen",
+                  "Zentrum",
+                  "Mutter"
+                ],
+                "options": [
+                  "a) Drei Zimmer",
+                  "b) Vier Zimmer",
+                  "c) Zwei Zimmer"
+                ],
+                "passageId": "de-a2-p-horen-t3-umzug-familie-03-s1",
+                "module": "horen",
+                "teil": 3,
+                "level": "A2"
               }
             ]
           },
           {
-            "passageId": "gen-p-h3-3b4e3ad0-s4",
-            "label": "Aufnahme 4",
-            "text": "Tom: Katja, ich muss zum Konzert. Weißt du, wann der nächste Bus fährt? Ich habe den Fahrplan nicht dabei.\nKatja: Moment, Tom. Ich schaue schnell auf meinem Handy nach. Der Bus kommt in zehn Minuten. Du bist dann pünktlich da.",
-            "transcript": "Tom: Katja, ich muss zum Konzert. Weißt du, wann der nächste Bus fährt? Ich habe den Fahrplan nicht dabei.\nKatja: Moment, Tom. Ich schaue schnell auf meinem Handy nach. Der Bus kommt in zehn Minuten. Du bist dann pünktlich da.",
+            "passageId": "de-a2-p-horen-t3-umzug-familie-03-s2",
+            "label": "Text 2",
+            "text": "■ Sohn: Mama, darf ich mein altes Bett mitnehmen? ■ Mutter: Nein, das Bett ist zu alt. Wir kaufen dir ein neues Bett. ■ Sohn: Und mein schreibtisch? ■ Mutter: Der Schreibtisch passt in dein neues Zimmer. Es ist größer als das jetzige Zimmer.",
+            "transcript": "■ Sohn: Mama, darf ich mein altes Bett mitnehmen? ■ Mutter: Nein, das Bett ist zu alt. Wir kaufen dir ein neues Bett. ■ Sohn: Und mein schreibtisch? ■ Mutter: Der Schreibtisch passt in dein neues Zimmer. Es ist größer als das jetzige Zimmer.",
             "questions": [
               {
-                "id": "gen-q-h3-3b4e3ad0-q4",
+                "id": "13-3bd63911",
+                "type": "multiple_choice",
+                "question": "Warum kann der Sohn sein altes Bett nicht mitnehmen?",
+                "correct": "a",
+                "correctAnswer": "a",
+                "explanation": "Die Mutter sagt: 'Nein, das Bett ist zu alt. Wir kaufen dir ein neues Bett.'",
+                "grammarTags": [
+                  "g-de-b1-relativ"
+                ],
+                "vocabularyTags": [
+                  "mitnehmen",
+                  "kaufen",
+                  "Mutter",
+                  "sagen"
+                ],
+                "options": [
+                  "a) Das Bett ist zu alt",
+                  "b) Das Bett ist zu groß",
+                  "c) Das Bett passt nicht"
+                ],
+                "passageId": "de-a2-p-horen-t3-umzug-familie-03-s2",
+                "number": 13,
+                "nr": 13,
+                "nummer": 13,
                 "module": "horen",
                 "teil": 3,
-                "lang": "de",
-                "level": "A2",
-                "type": "multiple_choice",
-                "passageId": "gen-p-h3-3b4e3ad0-s4",
-                "segmentLabel": "Text 4",
-                "question": "Was macht Katja für Tom?",
-                "options": [
-                  "a) Sie erklärt ihm den Weg zum Konzert.",
-                  "b) Sie hilft ihm, den Bus zu finden.",
-                  "c) Sie schaut nach der Bus-Abfahrtszeit."
-                ],
-                "correct": "c",
-                "correctAnswer": "c",
-                "explanation": "Katja schaut auf ihrem Handy nach, wann der nächste Bus fährt, um Tom zu helfen.",
-                "vocabularyTags": [
-                  "bus-abfahrtszeit",
-                  "Katja"
-                ],
-                "grammarTags": [
-                  "g-de-a2-trennbar",
-                  "g-de-a2-dat-akk"
-                ]
+                "level": "A2"
               }
             ]
           },
           {
-            "passageId": "gen-p-h3-3b4e3ad0-s5",
-            "label": "Aufnahme 5",
-            "text": "Moritz: Jana, ich habe ein neues Online-Spiel entdeckt. Es macht wirklich viel Spaß! Willst du es auch mal anklicken?\nJana: Oh, Moritz, das klingt interessant! Ich suche gerade etwas Neues für meine Freizeit. Ich probiere es gern aus.",
-            "transcript": "Moritz: Jana, ich habe ein neues Online-Spiel entdeckt. Es macht wirklich viel Spaß! Willst du es auch mal anklicken?\nJana: Oh, Moritz, das klingt interessant! Ich suche gerade etwas Neues für meine Freizeit. Ich probiere es gern aus.",
+            "passageId": "de-a2-p-horen-t3-hobby-neues-01-s4",
+            "label": "Text 4",
+            "text": "Natürlich! Ich bin neugierig. Übrigens, ich habe auch etwas Neues angefangen. Ich lerne Gitarre spielen. Es ist schwierig, aber ich liebe Musik. Wir könnten zusammen musizieren!",
+            "transcript": "Natürlich! Ich bin neugierig. Übrigens, ich habe auch etwas Neues angefangen. Ich lerne Gitarre spielen. Es ist schwierig, aber ich liebe Musik. Wir könnten zusammen musizieren!",
             "questions": [
               {
-                "id": "gen-q-h3-3b4e3ad0-q5",
-                "module": "horen",
-                "teil": 3,
-                "lang": "de",
-                "level": "A2",
+                "id": "14-3bd63911",
                 "type": "multiple_choice",
-                "passageId": "gen-p-h3-3b4e3ad0-s5",
-                "segmentLabel": "Text 5",
-                "question": "Was möchte Jana in ihrer Freizeit ausprobieren?",
-                "options": [
-                  "a) Ein neues Buch lesen.",
-                  "b) Einen Film im Kino sehen.",
-                  "c) Ein neues Online-Spiel."
-                ],
+                "question": "Welches neue Hobby hat die vierte Person?",
                 "correct": "c",
                 "correctAnswer": "c",
-                "explanation": "Jana findet das neue Online-Spiel, das Moritz entdeckt hat, interessant und möchte es gern ausprobieren.",
+                "explanation": "Die vierte Person im Gespräch sagt: „Ich lerne Gitarre spielen.“ Dies zeigt, dass ihr neues Hobby das Gitarrespielen ist.",
+                "grammarTags": [],
                 "vocabularyTags": [
-                  "ausprobieren",
-                  "Freizeit",
-                  "online-spiel",
-                  "möcht"
+                  "deutlich",
+                  "Hobby",
+                  "spielen",
+                  "lernen",
+                  "Welches",
+                  "Gitarre"
                 ],
-                "grammarTags": [
-                  "g-de-a2-modal",
-                  "g-de-a2-trennbar",
-                  "g-de-a2-dat-akk"
-                ]
+                "options": [
+                  "a) Singen",
+                  "b) Tanzen",
+                  "c) Gitarre"
+                ],
+                "passageId": "de-a2-p-horen-t3-hobby-neues-01-s4",
+                "number": 14,
+                "nr": 14,
+                "nummer": 14,
+                "module": "horen",
+                "teil": 3,
+                "level": "A2"
+              }
+            ]
+          },
+          {
+            "passageId": "de-a2-p-horen-t3-jobwechsel-kollegen-02-s5",
+            "label": "Text 5",
+            "text": "● A: Vermisst du deine alte Arbeit? ● B: Ein Bisschen die Kollegen. Aber nicht den Job selbst. ● A: Wann ist dein letzter Tag hier? ● B: Nächste Woche Freitag. Dann komme ich in zwei Wochen zur neuen Stelle.",
+            "transcript": "● A: Vermisst du deine alte Arbeit? ● B: Ein Bisschen die Kollegen. Aber nicht den Job selbst. ● A: Wann ist dein letzter Tag hier? ● B: Nächste Woche Freitag. Dann komme ich in zwei Wochen zur neuen Stelle.",
+            "questions": [
+              {
+                "id": "15-3bd63911",
+                "type": "multiple_choice",
+                "question": "Was vermisst Marco von seiner alten Arbeit?",
+                "correct": "b",
+                "correctAnswer": "b",
+                "explanation": "Marco antwortet: 'Ein Bisschen die Kollegen. Aber nicht den Job selbst.'",
+                "grammarTags": [],
+                "vocabularyTags": [
+                  "bisschen",
+                  "vermissen",
+                  "antworten",
+                  "kollegen",
+                  "Arbeit",
+                  "alten"
+                ],
+                "options": [
+                  "a) Den Job und die Arbeit.",
+                  "b) Nur die Kollegen.",
+                  "c) Nichts von der alten Arbeit."
+                ],
+                "passageId": "de-a2-p-horen-t3-jobwechsel-kollegen-02-s5",
+                "number": 15,
+                "nr": 15,
+                "nummer": 15,
+                "module": "horen",
+                "teil": 3,
+                "level": "A2"
               }
             ]
           }
         ],
-        "transcript": "Noah: Sag mal, Lea, hast du schon Pläne für das Wochenende? Ich dachte, wir könnten etwas zusammen unternehmen.\nLea: Ja, Noah! Ich wollte sowieso fragen. Ich habe gehört, es gibt ein schönes Fest in der Stadt. Hast du Lust?",
         "questions": [
           {
-            "id": "gen-q-h3-3b4e3ad0-q1",
+            "id": "11-3bd63911",
+            "type": "multiple_choice",
+            "question": "Warum wollen sie in zwei verschiedene Restaurants gehen?",
+            "correct": "b",
+            "correctAnswer": "b",
+            "explanation": "Sarah mag auch gerne asiatisches Essen, darum gehen sie in zwei verschiedene Restaurants: eines italienisches und eines asiatisches.",
+            "grammarTags": [],
+            "vocabularyTags": [
+              "verschieden",
+              "Restaurants",
+              "italienisch",
+              "asiatisch",
+              "essen",
+              "gern"
+            ],
+            "options": [
+              "a) Weil Tom kein italienisches essen mag",
+              "b) Weil Sarah auch asiatisches essen mag",
+              "c) Weil das erste Restaurant zu teuer ist"
+            ],
+            "passageId": "de-a2-p-horen-t3-urlaubsplanung-freunde-03-s4",
+            "number": 11,
+            "nr": 11,
+            "nummer": 11,
             "module": "horen",
             "teil": 3,
-            "lang": "de",
-            "level": "A2",
+            "level": "A2"
+          },
+          {
+            "id": "de-a2-h-t3-umzug-familie-03-q1",
             "type": "multiple_choice",
-            "passageId": "gen-p-h3-3b4e3ad0-s1",
-            "segmentLabel": "Text 1",
-            "question": "Was schlägt Lea für das Wochenende vor?",
-            "options": [
-              "a) Sie will ein Fest besuchen.",
-              "b) Sie möchte zu Hause bleiben.",
-              "c) Sie hat keine Zeit für Noah."
-            ],
+            "question": "Wie viele Zimmer hat die neue Wohnung?",
             "correct": "a",
             "correctAnswer": "a",
-            "explanation": "Lea schlägt vor, ein Fest in der Stadt zu besuchen. Sie fragt Noah, ob er Lust dazu hat.",
+            "explanation": "Die Mutter sagt: 'Ich habe eine neue Wohnung gefunden. Sie hat drei Zimmer und liegt im Zentrum.'",
+            "grammarTags": [
+              "g-de-b1-perfekt"
+            ],
             "vocabularyTags": [
-              "Wochenende",
-              "besuchen"
+              "Wohnung",
+              "Zimmer",
+              "finden",
+              "liegen",
+              "Zentrum",
+              "Mutter"
+            ],
+            "options": [
+              "a) Drei Zimmer",
+              "b) Vier Zimmer",
+              "c) Zwei Zimmer"
+            ],
+            "passageId": "de-a2-p-horen-t3-umzug-familie-03-s1",
+            "module": "horen",
+            "teil": 3,
+            "level": "A2"
+          },
+          {
+            "id": "13-3bd63911",
+            "type": "multiple_choice",
+            "question": "Warum kann der Sohn sein altes Bett nicht mitnehmen?",
+            "correct": "a",
+            "correctAnswer": "a",
+            "explanation": "Die Mutter sagt: 'Nein, das Bett ist zu alt. Wir kaufen dir ein neues Bett.'",
+            "grammarTags": [
+              "g-de-b1-relativ"
+            ],
+            "vocabularyTags": [
+              "mitnehmen",
+              "kaufen",
+              "Mutter",
+              "sagen"
+            ],
+            "options": [
+              "a) Das Bett ist zu alt",
+              "b) Das Bett ist zu groß",
+              "c) Das Bett passt nicht"
+            ],
+            "passageId": "de-a2-p-horen-t3-umzug-familie-03-s2",
+            "number": 13,
+            "nr": 13,
+            "nummer": 13,
+            "module": "horen",
+            "teil": 3,
+            "level": "A2"
+          },
+          {
+            "id": "14-3bd63911",
+            "type": "multiple_choice",
+            "question": "Welches neue Hobby hat die vierte Person?",
+            "correct": "c",
+            "correctAnswer": "c",
+            "explanation": "Die vierte Person im Gespräch sagt: „Ich lerne Gitarre spielen.“ Dies zeigt, dass ihr neues Hobby das Gitarrespielen ist.",
+            "grammarTags": [],
+            "vocabularyTags": [
+              "deutlich",
+              "Hobby",
+              "spielen",
+              "lernen",
+              "Welches",
+              "Gitarre"
+            ],
+            "options": [
+              "a) Singen",
+              "b) Tanzen",
+              "c) Gitarre"
+            ],
+            "passageId": "de-a2-p-horen-t3-hobby-neues-01-s4",
+            "number": 14,
+            "nr": 14,
+            "nummer": 14,
+            "module": "horen",
+            "teil": 3,
+            "level": "A2"
+          },
+          {
+            "id": "15-3bd63911",
+            "type": "multiple_choice",
+            "question": "Was vermisst Marco von seiner alten Arbeit?",
+            "correct": "b",
+            "correctAnswer": "b",
+            "explanation": "Marco antwortet: 'Ein Bisschen die Kollegen. Aber nicht den Job selbst.'",
+            "grammarTags": [],
+            "vocabularyTags": [
+              "bisschen",
+              "vermissen",
+              "antworten",
+              "kollegen",
+              "Arbeit",
+              "alten"
+            ],
+            "options": [
+              "a) Den Job und die Arbeit.",
+              "b) Nur die Kollegen.",
+              "c) Nichts von der alten Arbeit."
+            ],
+            "passageId": "de-a2-p-horen-t3-jobwechsel-kollegen-02-s5",
+            "number": 15,
+            "nr": 15,
+            "nummer": 15,
+            "module": "horen",
+            "teil": 3,
+            "level": "A2"
+          }
+        ],
+        "transcript": "Sarah: Tom, wo wollen wir denn essen gehen? Mann: Ich habe einen italienischen Restaurant gefunden. Die Pizzas sind dort sehr lecker. Sarah: Klingt gut! Aber ich mag auch gerne asiatisches Essen. Mann: Okay, dann gehen wir in zwei verschiedene Restaurants! Sarah: Abgemacht! Lass uns Reservierungen machen. Mann: Gute Idee. Ich rufe gleich an."
+      },
+      {
+        "teil": 4,
+        "instruction": "",
+        "topicTag": "Stadtleben",
+        "transcript": "Moderator: Guten Tag. Heute sprechen wir über das Leben in der Stadt. Viele Menschen wohnen gern in der Stadt, aber es gibt auch Nachteile. Wir haben Lena Müller eingeladen. Sie wohnt schon lange in Berlin. Guten Tag, Frau Müller.\n\nLena: Guten Tag. Ja, ich lebe seit zehn Jahren hier. Berlin ist meine Heimat.\n\nModerator: Was gefällt Ihnen am Stadtleben am besten?\n\nLena: Ich mag die vielen Möglichkeiten. Man kann immer etwas Neues machen. Es gibt viele Geschäfte, Restaurants und auch Parks. Ich treffe meine Freunde oft in Cafés. Das ist ein großer Vorteil für mich.\n\nModerator: Und was ist mit den Nachteilen? Gibt es etwas, das Sie stört?\n\nLena: Ja, natürlich. Der Verkehr ist manchmal sehr schlimm. Es gibt viele Autos und oft Stau. Auch die Mieten sind sehr hoch. Das ist eine große Aufgabe, eine gute und bezahlbare Wohnung zu finden. Und es ist manchmal laut.\n\nModerator: Verstehen. Haben Sie einen Vorschlag, wie man das Stadtleben besser machen kann?\n\nLena: Ich denke, mehr Grünflächen und weniger Autos wären gut. Auch mehr Platz für Fahrräder. Das würde die Situation verbessern. Ich glaube, die Zukunft der Stadt ist grüner und ruhiger.\n\nModerator: Vielen Dank, Frau Müller, für Ihre Erfahrungen und diesen Einblick.",
+        "questions": [
+          {
+            "id": "gen-q-h4-7476c0f7-q4",
+            "module": "horen",
+            "teil": 4,
+            "type": "ja_nein",
+            "question": "Lena stört sich am Verkehr und an den hohen Mieten in der Stadt.",
+            "correct": "Ja",
+            "correctAnswer": "Ja",
+            "options": [],
+            "explanation": "Lena sagt: 'Der Verkehr ist manchmal sehr schlimm. [...] Auch die Mieten sind sehr hoch.'",
+            "passageId": "gen-p-h4-7476c0f7-s1",
+            "level": "A2",
+            "vocabularyTags": [
+              "Verkehr",
+              "mieten",
+              "hohen",
+              "Stadt"
+            ],
+            "grammarTags": [
+              "g-de-a2-dat-akk"
+            ]
+          },
+          {
+            "id": "gen-q-h4-7476c0f7-q2",
+            "module": "horen",
+            "teil": 4,
+            "type": "ja_nein",
+            "question": "Lena mag es, dass sie in der Stadt viele Dinge unternehmen kann.",
+            "correct": "Ja",
+            "correctAnswer": "Ja",
+            "options": [],
+            "explanation": "Lena sagt: 'Ich mag die vielen Möglichkeiten. Man kann immer etwas Neues machen.'",
+            "passageId": "gen-p-h4-7476c0f7-s1",
+            "level": "A2",
+            "vocabularyTags": [
+              "viele",
+              "unternehm",
+              "Stadt",
+              "Dinge"
             ],
             "grammarTags": [
               "g-de-a2-nebensatz",
               "g-de-a2-modal",
-              "g-de-a2-dat-akk",
-              "g-de-a2-praesens"
+              "g-de-a2-trennbar",
+              "g-de-a2-dat-akk"
             ]
           },
           {
-            "id": "gen-q-h3-3b4e3ad0-q2",
+            "id": "gen-q-h4-7476c0f7-q3",
             "module": "horen",
-            "teil": 3,
-            "lang": "de",
+            "teil": 4,
+            "type": "ja_nein",
+            "question": "Lena findet, dass es in Berlin zu wenig Parks gibt.",
+            "correct": "Nein",
+            "correctAnswer": "Nein",
+            "options": [],
+            "explanation": "Lena erwähnt Parks als einen Vorteil und sagt: 'Es gibt viele Geschäfte, Restaurants und auch Parks.'",
+            "passageId": "gen-p-h4-7476c0f7-s1",
             "level": "A2",
-            "type": "multiple_choice",
-            "passageId": "gen-p-h3-3b4e3ad0-s2",
-            "segmentLabel": "Text 2",
-            "question": "Was macht Anna am liebsten in ihrer Freizeit?",
-            "options": [
-              "a) Sie geht ins Kino.",
-              "b) Sie liest Romane.",
-              "c) Sie arbeitet viel."
-            ],
-            "correct": "b",
-            "correctAnswer": "b",
-            "explanation": "Anna sagt, dass sie am liebsten Romane liest. Das ist ihr perfekter Ausgleich nach der Arbeit.",
             "vocabularyTags": [
-              "liebsten",
-              "Freizeit",
-              "Romane"
+              "Berlin",
+              "Parks",
+              "finden"
             ],
             "grammarTags": [
               "g-de-a2-nebensatz",
+              "g-de-a2-trennbar",
+              "g-de-a2-dat-akk"
+            ]
+          },
+          {
+            "id": "gen-q-h4-7476c0f7-q5",
+            "module": "horen",
+            "teil": 4,
+            "type": "ja_nein",
+            "question": "Lena wünscht sich für die Zukunft mehr Autos in der Stadt.",
+            "correct": "Nein",
+            "correctAnswer": "Nein",
+            "options": [],
+            "explanation": "Lena sagt: 'Ich denke, mehr Grünflächen und weniger Autos wären gut.'",
+            "passageId": "gen-p-h4-7476c0f7-s1",
+            "level": "A2",
+            "vocabularyTags": [
+              "Zukunft",
+              "wünschen",
+              "Stadt",
+              "Autos"
+            ],
+            "grammarTags": [
               "g-de-a2-trennbar",
               "g-de-a2-dat-akk",
               "g-de-a2-komparativ"
             ]
           },
           {
-            "id": "gen-q-h3-3b4e3ad0-q3",
-            "module": "horen",
-            "teil": 3,
-            "lang": "de",
-            "level": "A2",
-            "type": "multiple_choice",
-            "passageId": "gen-p-h3-3b4e3ad0-s3",
-            "segmentLabel": "Text 3",
-            "question": "Warum kann Lena heute Abend nicht ins Kino gehen?",
-            "options": [
-              "a) Sie ist schon verabredet.",
-              "b) Sie muss arbeiten.",
-              "c) Sie hat keine Lust auf den Film."
-            ],
-            "correct": "a",
-            "correctAnswer": "a",
-            "explanation": "Lena erklärt, dass sie heute Abend schon verabredet ist und deshalb nicht mit Max ins Kino gehen kann.",
-            "vocabularyTags": [
-              "Abend",
-              "gehen"
-            ],
-            "grammarTags": [
-              "g-de-a2-nebensatz",
-              "g-de-a2-modal",
-              "g-de-a2-perfekt",
-              "g-de-a2-trennbar"
-            ]
-          },
-          {
-            "id": "gen-q-h3-3b4e3ad0-q4",
-            "module": "horen",
-            "teil": 3,
-            "lang": "de",
-            "level": "A2",
-            "type": "multiple_choice",
-            "passageId": "gen-p-h3-3b4e3ad0-s4",
-            "segmentLabel": "Text 4",
-            "question": "Was macht Katja für Tom?",
-            "options": [
-              "a) Sie erklärt ihm den Weg zum Konzert.",
-              "b) Sie hilft ihm, den Bus zu finden.",
-              "c) Sie schaut nach der Bus-Abfahrtszeit."
-            ],
-            "correct": "c",
-            "correctAnswer": "c",
-            "explanation": "Katja schaut auf ihrem Handy nach, wann der nächste Bus fährt, um Tom zu helfen.",
-            "vocabularyTags": [
-              "bus-abfahrtszeit",
-              "Katja"
-            ],
-            "grammarTags": [
-              "g-de-a2-trennbar",
-              "g-de-a2-dat-akk"
-            ]
-          },
-          {
-            "id": "gen-q-h3-3b4e3ad0-q5",
-            "module": "horen",
-            "teil": 3,
-            "lang": "de",
-            "level": "A2",
-            "type": "multiple_choice",
-            "passageId": "gen-p-h3-3b4e3ad0-s5",
-            "segmentLabel": "Text 5",
-            "question": "Was möchte Jana in ihrer Freizeit ausprobieren?",
-            "options": [
-              "a) Ein neues Buch lesen.",
-              "b) Einen Film im Kino sehen.",
-              "c) Ein neues Online-Spiel."
-            ],
-            "correct": "c",
-            "correctAnswer": "c",
-            "explanation": "Jana findet das neue Online-Spiel, das Moritz entdeckt hat, interessant und möchte es gern ausprobieren.",
-            "vocabularyTags": [
-              "ausprobieren",
-              "Freizeit",
-              "online-spiel",
-              "möcht"
-            ],
-            "grammarTags": [
-              "g-de-a2-modal",
-              "g-de-a2-trennbar",
-              "g-de-a2-dat-akk"
-            ]
-          }
-        ]
-      },
-      {
-        "teil": 4,
-        "instruction": "",
-        "topicTag": "Verkehr",
-        "transcript": "Moderatorin: Guten Morgen! Heute sprechen wir über ein wichtiges Thema: Sollte das Autofahren in Städten eingeschränkt werden? Bei uns ist Verkehrsplaner Markus Weber. Willkommen!\n\nMarkus Weber: Danke der Einladung!\n\nModerator: Herr Weber, viele Städte haben Probleme mit Verkehr und Luftverschmutzung. Was ist Ihre Meinung?\n\nMarkus Weber: Das ist richtig. In vielen Großstädten gibt es jeden Tag Staus. Das Auto verursacht Lärm und Abgase. Ich denke, wir sollten weniger Autos in der Innenstadt haben. Vielleicht sollten wir Busse und Fahrräder fördern.\n\nModerator: Aber was ist mit den Menschen, die zum Arbeiten ins Zentrum fahren müssen?\n\nMarkus Weber: Gute Frage. Deshalb brauchen wir bessere öffentliche Verkehrsmittel. Wenn die U-Bahn und der Bus zuverlässig sind, fahren mehr Menschen damit. Das ist billiger und schneller als Auto.\n\nModerator: Kostet das nicht sehr viel Geld?\n\nMarkus Weber: Ja, der Ausbau kostet Geld. Aber die Verschmutzung und die Staus kosten die Stadt auch viel. Mit weniger Autos sparen wir Zeit und Geld. Die Menschen sind weniger krank. Die Luft ist sauberer.\n\nModerator: Also Sie sind für Autoverbote?\n\nMarkus Weber: Nicht für totale Verbote. Aber für weniger Autos. Zum Beispiel: nur noch Elektroautos in der Innenstadt. Oder: Autos zahlen Gebühren. Diese Gebühren finanzieren dann Bus und Fahrrad.\n\nModerator: Interessant. Vielen Dank, Herr Weber!\n\nMarkus Weber: Gerne! Danke für das Gespräch.",
-        "questions": [
-          {
-            "id": "20-3bd63911",
-            "type": "ja_nein",
-            "question": "Finanzieren Gebühren für Autos die öffentlichen Verkehrsmittel?",
-            "correct": "Ja",
-            "correctAnswer": "Ja",
-            "explanation": "Markus Weber erklärt: 'Diese Gebühren finanzieren dann Bus und Fahrrad.' Das ist eine Möglichkeit, die neuen Verkehrsmittel zu bezahlen.",
-            "options": [],
-            "grammarTags": [],
-            "vocabularyTags": [
-              "Verkehrsmittel",
-              "Öffentlichen",
-              "finanzieren",
-              "Möglichkeit",
-              "bezahlen",
-              "Gebühren"
-            ],
-            "passageId": "de-a2-p-horen-t4-autoverbote-debatte-02",
-            "number": 20,
-            "nr": 20,
-            "nummer": 20,
+            "id": "gen-q-h4-7476c0f7-q1",
             "module": "horen",
             "teil": 4,
-            "level": "A2"
-          },
-          {
-            "id": "17-3bd63911",
             "type": "ja_nein",
-            "question": "Sind öffentliche Verkehrsmittel schneller und billiger als Auto?",
-            "correct": "Ja",
-            "correctAnswer": "Ja",
-            "explanation": "Markus Weber sagt: 'Das ist billiger und schneller als Auto.' wenn die U-Bahn und der Bus zuverlässig sind.",
-            "options": [],
-            "grammarTags": [
-              "g-de-b1-komparativ",
-              "g-de-b1-genitiv"
-            ],
-            "vocabularyTags": [
-              "Verkehrsmittel",
-              "zuverlässig",
-              "öffentlich",
-              "schnell",
-              "billig",
-              "Markus"
-            ],
-            "passageId": "de-a2-p-horen-t4-autoverbote-debatte-02",
-            "number": 17,
-            "nr": 17,
-            "nummer": 17,
-            "module": "horen",
-            "teil": 4,
-            "level": "A2"
-          },
-          {
-            "id": "19-3bd63911",
-            "type": "ja_nein",
-            "question": "Schlägt Markus Weber vor, dass nur Elektroautos in die Innenstadt fahren dürfen?",
-            "correct": "Ja",
-            "correctAnswer": "Ja",
-            "explanation": "Markus Weber sagt als mögliche Lösung: 'Zum Beispiel: nur noch Elektroautos in der Innenstadt.'",
-            "options": [],
-            "grammarTags": [],
-            "vocabularyTags": [
-              "vorschlagen",
-              "Beispiel",
-              "Innenstadt",
-              "fahren",
-              "dürfen",
-              "Lösung"
-            ],
-            "passageId": "de-a2-p-horen-t4-autoverbote-debatte-02",
-            "number": 19,
-            "nr": 19,
-            "nummer": 19,
-            "module": "horen",
-            "teil": 4,
-            "level": "A2"
-          },
-          {
-            "id": "18-3bd63911",
-            "type": "ja_nein",
-            "question": "Hat Verkehr in Städten Probleme mit Lärm und Luftverschmutzung?",
-            "correct": "Ja",
-            "correctAnswer": "Ja",
-            "explanation": "Markus Weber erklärt, dass Autos Lärm und Abgase verursachen. Das ist ein großes Problem in Großstädten.",
-            "options": [],
-            "grammarTags": [],
-            "vocabularyTags": [
-              "städten",
-              "verursachen",
-              "Luftverschmutzung",
-              "großstädten",
-              "Verkehr",
-              "Problem"
-            ],
-            "passageId": "de-a2-p-horen-t4-autoverbote-debatte-02",
-            "number": 18,
-            "nr": 18,
-            "nummer": 18,
-            "module": "horen",
-            "teil": 4,
-            "level": "A2"
-          },
-          {
-            "id": "16-3bd63911",
-            "type": "ja_nein",
-            "question": "Möchte Markus Weber alle Autos aus der Stadt verbieten?",
+            "question": "Lena wohnt erst seit kurzer Zeit in Berlin.",
             "correct": "Nein",
             "correctAnswer": "Nein",
-            "explanation": "Markus Weber sagt: 'Nicht für totale Verbote. Aber für weniger Autos.' Er möchte weniger Autos, nicht alle Autos verbieten.",
             "options": [],
-            "grammarTags": [
-              "g-de-b1-modalverben",
-              "g-de-b1-komparativ"
-            ],
+            "explanation": "Lena sagt, dass sie seit zehn Jahren in Berlin lebt.",
+            "passageId": "gen-p-h4-7476c0f7-s1",
+            "level": "A2",
             "vocabularyTags": [
-              "verbieten",
-              "Verbote",
-              "Möchte",
-              "Markus",
-              "Stadt",
-              "sagen"
+              "Berlin",
+              "Zeit"
             ],
-            "passageId": "de-a2-p-horen-t4-autoverbote-debatte-02",
-            "number": 16,
-            "nr": 16,
-            "nummer": 16,
-            "module": "horen",
-            "teil": 4,
-            "level": "A2"
+            "grammarTags": [
+              "g-de-a2-nebensatz"
+            ]
           }
         ],
-        "passageId": "de-a2-p-horen-t4-autoverbote-debatte-02"
+        "passageId": "gen-p-h4-7476c0f7-s1"
       }
     ],
     "schreibenParts": [
@@ -1756,6 +1883,7 @@
         "task": "Sie haben einen neuen Job. Schreiben Sie eine SMS an einen Freund (20–30 Wörter). Schreiben Sie zu drei Punkten:\n• Wie ist der neue Job?\n• Was gefällt Ihnen?\n• Wann treffen Sie sich?",
         "minWords": 20,
         "maxWords": 30,
+        "targetWords": 30,
         "questions": [
           {
             "id": "de-a2-s-t1-arbeit-alltag-01-q1",
@@ -1801,6 +1929,7 @@
         "task": "Ihr Chef organisiert ein Sommerfest für die Mitarbeiter. Schreiben Sie eine E-Mail (30–40 Wörter) an Ihren Chef. Schreiben Sie zu drei Punkten:\n• Bedanken Sie sich für die Einladung\n• Sagen Sie, dass Sie kommen und Ihre Frau mitbringen\n• Fragen Sie nach dem Weg und einem Parkplatz",
         "minWords": 30,
         "maxWords": 40,
+        "targetWords": 40,
         "questions": [
           {
             "id": "de-a2-s-t2-arbeit-feier-01-q1",
@@ -1894,7 +2023,11 @@
         "photoDescriptions": [],
         "minExchanges": 4,
         "points": [],
-        "prompts": []
+        "prompts": [],
+        "topic": "Stadtleben",
+        "topicTags": [
+          "Stadtleben"
+        ]
       },
       {
         "teil": 2,
@@ -1947,7 +2080,11 @@
         "photoDescriptions": [],
         "minExchanges": 4,
         "points": [],
-        "prompts": []
+        "prompts": [],
+        "topic": "Stadtleben",
+        "topicTags": [
+          "Stadtleben"
+        ]
       },
       {
         "teil": 3,
@@ -2001,7 +2138,11 @@
         "photoDescriptions": [],
         "minExchanges": 3,
         "points": [],
-        "prompts": []
+        "prompts": [],
+        "topic": "Stadtleben",
+        "topicTags": [
+          "Stadtleben"
+        ]
       }
     ]
   }

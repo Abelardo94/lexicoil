@@ -94,12 +94,282 @@
           "issues": []
         }
       ]
+    },
+    {
+      "examLabel": "data/exams/de_A2.json :: official-de-A2-e2",
+      "id": "official-de-A2-e2",
+      "topic": "Official A2 Exam 2",
+      "ok": true,
+      "errorCount": 0,
+      "warningCount": 0,
+      "errors": [],
+      "warnings": [],
+      "details": [
+        {
+          "module": "lesen",
+          "teil": 1,
+          "slotType": "press_mcq",
+          "issues": []
+        },
+        {
+          "module": "lesen",
+          "teil": 2,
+          "slotType": "info_board_mcq",
+          "issues": []
+        },
+        {
+          "module": "lesen",
+          "teil": 3,
+          "slotType": "email_mcq",
+          "issues": []
+        },
+        {
+          "module": "lesen",
+          "teil": 4,
+          "slotType": "ads_matching",
+          "issues": []
+        },
+        {
+          "module": "horen",
+          "teil": 1,
+          "slotType": "short_texts_twice",
+          "issues": []
+        },
+        {
+          "module": "horen",
+          "teil": 2,
+          "slotType": "picture_matching",
+          "issues": []
+        },
+        {
+          "module": "horen",
+          "teil": 3,
+          "slotType": "short_dialogues_once",
+          "issues": []
+        },
+        {
+          "module": "horen",
+          "teil": 4,
+          "slotType": "interview_twice",
+          "issues": []
+        },
+        {
+          "module": "schreiben",
+          "teil": 1,
+          "slotType": "writing_task",
+          "issues": []
+        },
+        {
+          "module": "schreiben",
+          "teil": 2,
+          "slotType": "writing_task",
+          "issues": []
+        },
+        {
+          "module": "sprechen",
+          "teil": 1,
+          "slotType": "speaking_task",
+          "issues": []
+        },
+        {
+          "module": "sprechen",
+          "teil": 2,
+          "slotType": "speaking_task",
+          "issues": []
+        },
+        {
+          "module": "sprechen",
+          "teil": 3,
+          "slotType": "speaking_task",
+          "issues": []
+        }
+      ]
+    },
+    {
+      "examLabel": "data/exams/de_A2.json :: official-de-A2-e3",
+      "id": "official-de-A2-e3",
+      "topic": "Official A2 Exam 3",
+      "ok": true,
+      "errorCount": 0,
+      "warningCount": 0,
+      "errors": [],
+      "warnings": [],
+      "details": [
+        {
+          "module": "lesen",
+          "teil": 1,
+          "slotType": "press_mcq",
+          "issues": []
+        },
+        {
+          "module": "lesen",
+          "teil": 2,
+          "slotType": "info_board_mcq",
+          "issues": []
+        },
+        {
+          "module": "lesen",
+          "teil": 3,
+          "slotType": "email_mcq",
+          "issues": []
+        },
+        {
+          "module": "lesen",
+          "teil": 4,
+          "slotType": "ads_matching",
+          "issues": []
+        },
+        {
+          "module": "horen",
+          "teil": 1,
+          "slotType": "short_texts_twice",
+          "issues": []
+        },
+        {
+          "module": "horen",
+          "teil": 2,
+          "slotType": "picture_matching",
+          "issues": []
+        },
+        {
+          "module": "horen",
+          "teil": 3,
+          "slotType": "short_dialogues_once",
+          "issues": []
+        },
+        {
+          "module": "horen",
+          "teil": 4,
+          "slotType": "interview_twice",
+          "issues": []
+        },
+        {
+          "module": "schreiben",
+          "teil": 1,
+          "slotType": "writing_task",
+          "issues": []
+        },
+        {
+          "module": "schreiben",
+          "teil": 2,
+          "slotType": "writing_task",
+          "issues": []
+        },
+        {
+          "module": "sprechen",
+          "teil": 1,
+          "slotType": "speaking_task",
+          "issues": []
+        },
+        {
+          "module": "sprechen",
+          "teil": 2,
+          "slotType": "speaking_task",
+          "issues": []
+        },
+        {
+          "module": "sprechen",
+          "teil": 3,
+          "slotType": "speaking_task",
+          "issues": []
+        }
+      ]
+    },
+    {
+      "examLabel": "data/exams/de_A2.json :: official-de-A2-e4",
+      "id": "official-de-A2-e4",
+      "topic": "Official A2 Exam 4",
+      "ok": true,
+      "errorCount": 0,
+      "warningCount": 0,
+      "errors": [],
+      "warnings": [],
+      "details": [
+        {
+          "module": "lesen",
+          "teil": 1,
+          "slotType": "press_mcq",
+          "issues": []
+        },
+        {
+          "module": "lesen",
+          "teil": 2,
+          "slotType": "info_board_mcq",
+          "issues": []
+        },
+        {
+          "module": "lesen",
+          "teil": 3,
+          "slotType": "email_mcq",
+          "issues": []
+        },
+        {
+          "module": "lesen",
+          "teil": 4,
+          "slotType": "ads_matching",
+          "issues": []
+        },
+        {
+          "module": "horen",
+          "teil": 1,
+          "slotType": "short_texts_twice",
+          "issues": []
+        },
+        {
+          "module": "horen",
+          "teil": 2,
+          "slotType": "picture_matching",
+          "issues": []
+        },
+        {
+          "module": "horen",
+          "teil": 3,
+          "slotType": "short_dialogues_once",
+          "issues": []
+        },
+        {
+          "module": "horen",
+          "teil": 4,
+          "slotType": "interview_twice",
+          "issues": []
+        },
+        {
+          "module": "schreiben",
+          "teil": 1,
+          "slotType": "writing_task",
+          "issues": []
+        },
+        {
+          "module": "schreiben",
+          "teil": 2,
+          "slotType": "writing_task",
+          "issues": []
+        },
+        {
+          "module": "sprechen",
+          "teil": 1,
+          "slotType": "speaking_task",
+          "issues": []
+        },
+        {
+          "module": "sprechen",
+          "teil": 2,
+          "slotType": "speaking_task",
+          "issues": []
+        },
+        {
+          "module": "sprechen",
+          "teil": 3,
+          "slotType": "speaking_task",
+          "issues": []
+        }
+      ]
     }
   ],
   "passageDedupe": {
     "ok": true,
     "threshold": 0.85,
-    "passageCount": 32,
+    "passageCount": 128,
     "violations": []
   }
 }

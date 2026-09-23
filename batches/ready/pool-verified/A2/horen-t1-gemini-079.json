@@ -1,0 +1,375 @@
+{
+  "passages": [
+    {
+      "id": "gen-p-h1-74763564-s1",
+      "module": "horen",
+      "teil": 1,
+      "lang": "de",
+      "level": "A2",
+      "title": "Text 1",
+      "text": "Achtung, liebe Fahrgäste! Eine wichtige Durchsage für Simon und Lisa. Der Zug nach Hamburg, Abfahrt um vierzehn Uhr dreißig, fährt heute nicht von Gleis fünf. Bitte gehen Sie zu Gleis drei. Der Zug hat leider fünfzehn Minuten Verspätung. Wir bitten um Ihr Verständnis und wünschen eine gute Reise.",
+      "passageVocab": [
+        "zug",
+        "gleis",
+        "verspätung"
+      ],
+      "audio": [
+        {
+          "speaker": "Ansager",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Achtung, liebe Fahrgäste! Eine wichtige Durchsage für Simon und Lisa. Der Zug nach Hamburg, Abfahrt um vierzehn Uhr dreißig, fährt heute nicht von Gleis fünf. Bitte gehen Sie zu Gleis drei. Der Zug hat leider fünfzehn Minuten Verspätung. Wir bitten um Ihr Verständnis und wünschen eine gute Reise."
+        }
+      ],
+      "topicTag": "Reisen"
+    },
+    {
+      "id": "gen-p-h1-74763564-s2",
+      "module": "horen",
+      "teil": 1,
+      "lang": "de",
+      "level": "A2",
+      "title": "Text 2",
+      "text": "Guten Tag, hier ist die Zentrale vom Reisebüro. Eine Nachricht für Jan und Marie. Ihre Buchung für die Reise nach Spanien ist jetzt bestätigt. Sie können die Unterlagen ab morgen bei uns abholen. Bitte rufen Sie uns kurz an, um einen Termin zu vereinbaren. Wir freuen uns auf Sie!",
+      "passageVocab": [
+        "reisebüro",
+        "buchung",
+        "unterlagen"
+      ],
+      "audio": [
+        {
+          "speaker": "Ansager",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Guten Tag, hier ist die Zentrale vom Reisebüro. Eine Nachricht für Jan und Marie. Ihre Buchung für die Reise nach Spanien ist jetzt bestätigt. Sie können die Unterlagen ab morgen bei uns abholen. Bitte rufen Sie uns kurz an, um einen Termin zu vereinbaren. Wir freuen uns auf Sie!"
+        }
+      ],
+      "topicTag": "Reisen"
+    },
+    {
+      "id": "gen-p-h1-74763564-s3",
+      "module": "horen",
+      "teil": 1,
+      "lang": "de",
+      "level": "A2",
+      "title": "Text 3",
+      "text": "Willkommen zu unserem kurzen Alltagstipp! Heute geht es um das Packen für die Reise. Erik und Hannah, denkt daran: Nehmt nicht zu viele schwere Sachen mit. Ein kleiner Koffer ist oft besser. Und vergesst nicht die wichtigen Dokumente! Eine gute Vorbereitung macht die Reise entspannter.",
+      "passageVocab": [
+        "koffer",
+        "dokumente",
+        "vorbereitung"
+      ],
+      "audio": [
+        {
+          "speaker": "Ansager",
+          "voiceId": "de-DE-BerndNeural",
+          "text": "Willkommen zu unserem kurzen Alltagstipp! Heute geht es um das Packen für die Reise. Erik und Hannah, denkt daran: Nehmt nicht zu viele schwere Sachen mit. Ein kleiner Koffer ist oft besser. Und vergesst nicht die wichtigen Dokumente! Eine gute Vorbereitung macht die Reise entspannter."
+        }
+      ],
+      "topicTag": "Reisen"
+    },
+    {
+      "id": "gen-p-h1-74763564-s4",
+      "module": "horen",
+      "teil": 1,
+      "lang": "de",
+      "level": "A2",
+      "title": "Text 4",
+      "text": "Liebe Gäste, bitte beachten Sie folgenden Hinweis für Leon und Greta. Das Frühstück ist täglich von sieben bis zehn Uhr im Restaurant im Erdgeschoss. Bitte vergessen Sie nicht, bis elf Uhr auszuchecken. Wir wünschen Ihnen einen schönen Aufenthalt und eine gute Heimreise.",
+      "passageVocab": [
+        "frühstück",
+        "restaurant",
+        "auschecken"
+      ],
+      "audio": [
+        {
+          "speaker": "Ansager",
+          "voiceId": "de-DE-WiebkeNeural",
+          "text": "Liebe Gäste, bitte beachten Sie folgenden Hinweis für Leon und Greta. Das Frühstück ist täglich von sieben bis zehn Uhr im Restaurant im Erdgeschoss. Bitte vergessen Sie nicht, bis elf Uhr auszuchecken. Wir wünschen Ihnen einen schönen Aufenthalt und eine gute Heimreise."
+        }
+      ],
+      "topicTag": "Reisen"
+    },
+    {
+      "id": "gen-p-h1-74763564-s5",
+      "module": "horen",
+      "teil": 1,
+      "lang": "de",
+      "level": "A2",
+      "title": "Text 5",
+      "text": "Hallo Finn, hallo Paula! Hier ist eure Freundin. Ich muss unsere Reisepläne für nächste Woche noch einmal prüfen. Es gibt eine kleine Änderung in meiner Situation. Ich melde mich später noch einmal bei euch. Bis bald!",
+      "passageVocab": [
+        "reisepläne",
+        "änderung",
+        "situation"
+      ],
+      "audio": [
+        {
+          "speaker": "Ansager",
+          "voiceId": "de-DE-AmelieNeural",
+          "text": "Hallo Finn, hallo Paula! Hier ist eure Freundin. Ich muss unsere Reisepläne für nächste Woche noch einmal prüfen. Es gibt eine kleine Änderung in meiner Situation. Ich melde mich später noch einmal bei euch. Bis bald!"
+        }
+      ],
+      "topicTag": "Reisen"
+    }
+  ],
+  "questions": [
+    {
+      "id": "gen-q-h1-74763564-q1",
+      "module": "horen",
+      "teil": 1,
+      "lang": "de",
+      "level": "A2",
+      "type": "multiple_choice",
+      "question": "Was ist neu für den Zug nach Hamburg?",
+      "options": [
+        "a) Die Reise dauert länger.",
+        "b) Die Abfahrtszeit ist später.",
+        "c) Er fährt von einem anderen Gleis."
+      ],
+      "correct": "c",
+      "correctAnswer": "c",
+      "explanation": "Der Zug nach Hamburg fährt heute von Gleis drei ab, nicht wie ursprünglich geplant von Gleis fünf.",
+      "segmentLabel": "Text 1",
+      "passageId": "gen-p-h1-74763564-s1",
+      "topicTags": [
+        "Reisen"
+      ],
+      "vocabularyTags": [
+        "Hamburg",
+        "anderen",
+        "Gleis"
+      ],
+      "grammarTags": [
+        "g-de-a2-trennbar",
+        "g-de-a2-dat-akk"
+      ]
+    },
+    {
+      "id": "gen-q-h1-74763564-q2",
+      "module": "horen",
+      "teil": 1,
+      "lang": "de",
+      "level": "A2",
+      "type": "multiple_choice",
+      "question": "Was sollen Jan und Marie tun?",
+      "options": [
+        "a) Die Unterlagen heute abholen.",
+        "b) Die Reise nach Spanien bezahlen.",
+        "c) Das Reisebüro anrufen."
+      ],
+      "correct": "c",
+      "correctAnswer": "c",
+      "explanation": "Jan und Marie sollen das Reisebüro anrufen, um einen Termin für die Abholung der Unterlagen zu vereinbaren.",
+      "segmentLabel": "Text 2",
+      "passageId": "gen-p-h1-74763564-s2",
+      "topicTags": [
+        "Reisen"
+      ],
+      "vocabularyTags": [
+        "anrufen",
+        "Reisebüro",
+        "Marie"
+      ],
+      "grammarTags": [
+        "g-de-a2-modal",
+        "g-de-a2-trennbar",
+        "g-de-a2-dat-akk"
+      ]
+    },
+    {
+      "id": "gen-q-h1-74763564-q3",
+      "module": "horen",
+      "teil": 1,
+      "lang": "de",
+      "level": "A2",
+      "type": "multiple_choice",
+      "question": "Was ist ein guter Tipp für die Reise?",
+      "options": [
+        "a) Einen großen Koffer benutzen.",
+        "b) Wichtige Papiere nicht vergessen.",
+        "c) Viele schwere Dinge einpacken."
+      ],
+      "correct": "b",
+      "correctAnswer": "b",
+      "explanation": "Der Tipp empfiehlt, die wichtigen Dokumente für die Reise nicht zu vergessen, um entspannt zu reisen.",
+      "segmentLabel": "Text 3",
+      "passageId": "gen-p-h1-74763564-s3",
+      "topicTags": [
+        "Reisen"
+      ],
+      "vocabularyTags": [
+        "vergessen",
+        "wichtige",
+        "Papiere",
+        "Tipp",
+        "Reise"
+      ],
+      "grammarTags": [
+        "g-de-a2-dat-akk"
+      ]
+    },
+    {
+      "id": "gen-q-h1-74763564-q4",
+      "module": "horen",
+      "teil": 1,
+      "lang": "de",
+      "level": "A2",
+      "type": "multiple_choice",
+      "question": "Was müssen die Gäste bis elf Uhr machen?",
+      "options": [
+        "a) Im Restaurant frühstücken.",
+        "b) Das Hotel verlassen.",
+        "c) Die Rechnung bezahlen."
+      ],
+      "correct": "b",
+      "correctAnswer": "b",
+      "explanation": "Die Gäste müssen bis elf Uhr auschecken, was bedeutet, das Hotel zu verlassen.",
+      "segmentLabel": "Text 4",
+      "passageId": "gen-p-h1-74763564-s4",
+      "topicTags": [
+        "Reisen"
+      ],
+      "vocabularyTags": [
+        "verlassen",
+        "Gäste",
+        "Hotel",
+        "machen"
+      ],
+      "grammarTags": [
+        "g-de-a2-modal",
+        "g-de-a2-trennbar",
+        "g-de-a2-dat-akk"
+      ]
+    },
+    {
+      "id": "gen-q-h1-74763564-q5",
+      "module": "horen",
+      "teil": 1,
+      "lang": "de",
+      "level": "A2",
+      "type": "multiple_choice",
+      "question": "Warum meldet sich die Freundin?",
+      "options": [
+        "a) Sie will die Reisepläne ändern.",
+        "b) Sie möchte die Reise absagen.",
+        "c) Sie hat neue Informationen."
+      ],
+      "correct": "a",
+      "correctAnswer": "a",
+      "explanation": "Die Freundin muss die Reisepläne prüfen, weil es eine kleine Änderung in ihrer Situation gibt.",
+      "segmentLabel": "Text 5",
+      "passageId": "gen-p-h1-74763564-s5",
+      "topicTags": [
+        "Reisen"
+      ],
+      "vocabularyTags": [
+        "melden",
+        "ändern",
+        "Reisepläne",
+        "Freundin"
+      ],
+      "grammarTags": [
+        "g-de-a2-nebensatz",
+        "g-de-a2-modal",
+        "g-de-a2-trennbar",
+        "g-de-a2-dat-akk"
+      ]
+    }
+  ],
+  "_germanCapsNormalizeVersion": "v3.23-lesen-t2-angebote-corpus-2026-07-28",
+  "_germanCapsNormalizedAt": "2026-09-23T14:55:01.195Z",
+  "_balanceMcqVersion": "v1.2-no-rf-chrono-shuffle-2026-07-11",
+  "_balanceMcqNormalizedAt": "2026-09-23T14:55:01.195Z",
+  "topicTag": "Reisen",
+  "_requestedTopic": "Reisen",
+  "userVocabFeedback": {
+    "topic": "Reisen",
+    "requested": [
+      "koffer",
+      "tourist",
+      "ausland",
+      "aufgabe",
+      "situation",
+      "zukunft",
+      "täglich",
+      "bedeuten"
+    ],
+    "prompted": [
+      "koffer",
+      "tourist",
+      "ausland",
+      "aufgabe",
+      "situation",
+      "zukunft",
+      "täglich",
+      "bedeuten"
+    ],
+    "originalRequested": null,
+    "subtypeAdaptation": null,
+    "used": [
+      "koffer",
+      "situation",
+      "täglich"
+    ],
+    "notUsed": [
+      "tourist",
+      "ausland",
+      "aufgabe",
+      "zukunft",
+      "bedeuten"
+    ],
+    "excluded": [],
+    "ratio": 0.375,
+    "targetUsage": [
+      {
+        "word": "koffer",
+        "surfaces": [
+          "Koffer"
+        ]
+      },
+      {
+        "word": "situation",
+        "surfaces": [
+          "Situation"
+        ]
+      },
+      {
+        "word": "täglich",
+        "surfaces": [
+          "täglich"
+        ]
+      }
+    ]
+  },
+  "targetUsage": [
+    {
+      "word": "koffer",
+      "surfaces": [
+        "Koffer"
+      ]
+    },
+    {
+      "word": "situation",
+      "surfaces": [
+        "Situation"
+      ]
+    },
+    {
+      "word": "täglich",
+      "surfaces": [
+        "täglich"
+      ]
+    }
+  ],
+  "generationMetadata": {
+    "usedFeedback": false,
+    "feedbackRules": [],
+    "feedbackCount": 0,
+    "feedbackCategories": [],
+    "feedbackMode": "off",
+    "feedbackVersion": "v1"
+  },
+  "_metadataEnrichedAt": "2026-09-23T14:55:01.366Z",
+  "_metadataEnrichNote": "deterministic: detectTopic + per-question lemma vocab + grammar heuristics",
+  "_vocabTagsNormalizeVersion": "v2.3.18-paso3-vocab-plural-rubric-strip-2026-08-02",
+  "_grammarTagsNormalizeVersion": "v2.2-a2-b2-level-tags-2026-07-27"
+}
