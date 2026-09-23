@@ -309,12 +309,14 @@ function cefrPassageChecks(batch, { lang, level, teil }) {
   const metrics = [];
   const bounds = lengthBoundsForTeil(teil, level);
 
-  // A2 Hören T1 is five ~6-sentence monologues. Per segment, the A2 ≤12%
-  // subordinate cap means zero, and one «weil» fails the part: 8 of the 13
-  // published A2 T1 parts would fail that way. Complexity (sentence length,
-  // subordinates) is measured over the whole part; length and coverage stay
-  // per segment.
-  if (String(level).toUpperCase() === 'A2' && Number(teil) === 1) {
+  // A2 Hören T1 (five ~6-sentence monologues) and T3 (five 15–50-word
+  // dialogues). Per segment, the A2 ≤12% subordinate cap means zero, and one
+  // «weil» fails the part: 8 of the 13 published A2 T1 parts would fail that
+  // way, and T3 failed on it twice in the 23 sep 2026 batch (20%, 33%) while
+  // 0 of 15 published T3 parts exceed it over the whole part. Complexity
+  // (sentence length, subordinates) is measured over the whole part; length
+  // and coverage stay per segment.
+  if (String(level).toUpperCase() === 'A2' && (Number(teil) === 1 || Number(teil) === 3)) {
     return cefrPassageChecksPartComplexity(batch, { lang, level, bounds });
   }
 
