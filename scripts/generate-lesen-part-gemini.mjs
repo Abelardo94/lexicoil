@@ -417,6 +417,12 @@ function buildFixNote(issues, gate = 'checker', opts = {}) {
   if (list.some((i) => /cefr_gate:length_above_max|length_above_max:wordCount/i.test(String(i)))) {
     extra += buildLesenT2LengthFixHint(opts.combinedWc ?? null);
   }
+  if (list.some((i) => /^vocabulario forzado:/i.test(String(i)))) {
+    extra +=
+      '\nVOCABULARIO FORZADO: las palabras sugeridas son OPCIONALES. Borra la frase citada o ' +
+      'reescríbela para que cuente algo del mismo asunto que el resto del texto; si la palabra no ' +
+      'encaja en esta noticia/este texto, NO la uses. No añadas frases aisladas para meter vocabulario.';
+  }
   // Scope-trap hint eliminado: CHK-10 del auditor gestiona la correlación; no forzamos
   // ningún requisito de absolute-word aquí para evitar el patrón "absoluta→Falsch".
   return (
@@ -1861,41 +1867,13 @@ async function generateLlmPart(args, teil, session) {
       });
       console.log(formatVocabFeedbackSummary(batch.userVocabFeedback));
       if (teil === 1 && batch.userVocabFeedback?.used?.length) {
+        // Advisory only. The lexical-overlap check cannot tell a forced word from a
+        // natural one: on 23 sep 2026 it flagged 33% of the nouns in hand-curated
+        // de/A2 T1 texts and 51% in de/B1 T1, and flagged the requested words less
+        // often (20%) than ordinary nouns. SEM-1 judges forced vocabulary instead
+        // ("forced_vocab"): 0/16 false positives, 15/16 forced sentences caught.
         const coherence = vocabNarrativeCoherenceGate(batch);
-        if (!coherence.ok) {
-          console.log(`  Gate vocab coherencia: ${coherence.reason}`);
-          // Retry instead of discarding on the first hit: the words are optional,
-          // so naming the forced ones is enough for the model to drop them. On
-          // de/A2 T1 (a short news text) this gate discarded 5 of 9 attempts
-          // outright on 22 sep 2026, without using the fix budget.
-          if (fix < args.fixRetries) {
-            const forced = coherence.flags.map((f) => f.word).join(', ');
-            lastIssue = coherence.reason;
-            settleCostFail(coherence.reason, 'vocab-narrative-coherence');
-            resetPromptWithFix(
-              `${coherence.reason}. Estas palabras quedaron en frases sueltas que no hablan del ` +
-                `tema del texto: ${forced}. Reescribe el texto SIN ellas (son opcionales) o ` +
-                `intégralas en una frase que trate del mismo asunto que el resto. ` +
-                `No añadas frases aisladas solo para meter una palabra.`,
-              'vocab-narrative-coherence',
-              batch,
-            );
-            continue;
-          }
-          maybeArchiveRejectedBatch(args, teil, batch, basename, {
-            reason: coherence.reason,
-            gate: 'vocab-narrative-coherence',
-          });
-          settleCostFail(coherence.reason, 'vocab-narrative-coherence');
-          return finishPart({
-            ok: false,
-            discarded: true,
-            teil,
-            reason: coherence.reason,
-            attempts: partAttempts,
-            gate: 'vocab-narrative-coherence',
-          });
-        }
+        if (!coherence.ok) console.log(`  (aviso, no bloquea) vocab coherencia léxica: ${coherence.reason}`);
       }
     }
     if (levelUpper === 'B2' && Number(teil) === 1 && args.forumPhase === 'passage') {

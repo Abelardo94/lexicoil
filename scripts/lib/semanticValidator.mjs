@@ -12,6 +12,8 @@
  *   2. ambiguity   — ¿hay ≥2 opciones defendibles como correctas?
  *   3. distractor  — ¿algún distractor es absurdo/imposible o demasiado obvio?
  *   4. template    — ¿el pasaje repite un molde temático ya visto en esta sesión?
+ *   5. forced_vocab — (Lesen T1 con vocabulario pedido) ¿alguna palabra está metida
+ *      en una frase que sobra? Sustituye al gate léxico de vocabNarrativeCoherence.
  *   (explanation eliminado: CHK-18 cubre longitud/trivialidad estructuralmente)
  *
  * Umbral de confianza: CONFIDENCE_THRESHOLD = 0.85.
@@ -93,6 +95,8 @@ function contentHash(part) {
   h.update(JSON.stringify(part.passage || {}));
   h.update(JSON.stringify(part.segments || []));
   h.update(JSON.stringify(part.questions || []));
+  const vocab = part.userVocabFeedback?.used;
+  if (Array.isArray(vocab) && vocab.length) h.update(JSON.stringify(vocab));
   return h.digest('hex').slice(0, 32);
 }
 
@@ -128,7 +132,13 @@ function extractPartContext(part) {
     teil: Number(part.teil ?? first.teil),
   };
 
-  return { module, teil: part.teil, passageText, questions: mcqs, lang, level, slot };
+  // Optional target vocabulary the generator asked for and actually used. Judged
+  // only on Lesen T1, where the lexical coherence gate used to run.
+  const vocabWords = slot.module === 'lesen' && slot.teil === 1
+    ? (part.userVocabFeedback?.used || []).map((w) => String(w).trim()).filter(Boolean)
+    : [];
+
+  return { module, teil: part.teil, passageText, questions: mcqs, lang, level, slot, vocabWords };
 }
 
 /**
@@ -414,14 +424,22 @@ ${isUniformFormatSlot(ctx) ? `4. "themeTags" — devuelve 3-5 palabras clave tem
    NO es un check y no genera issues: sirve para detectar repetición ENTRE partes,
    que se compara fuera de este prompt.
    NO generes issues de tipo "distractor" ni "template". El formato de esta tarea lo
-   fija el examen, así que un pasaje "repetitivo" es lo esperado, no un defecto.`}
+   fija el examen, así que un pasaje "repetitivo" es lo esperado, no un defecto.`}${isDe && ctx.vocabWords.length ? `
+
+5. "forced_vocab" (IMPORTANT) — Estas palabras se pidieron como vocabulario OPCIONAL y aparecen
+   en el pasaje: ${ctx.vocabWords.join(', ')}.
+   ¿Alguna está en una frase que sobra, metida solo para usar la palabra: cambia de asunto,
+   no se conecta con lo anterior ni con lo siguiente, y el texto se entendería igual sin ella?
+   NO generes issue si la palabra forma parte natural de lo que cuenta el texto, aunque la
+   frase sea corta o no repita palabras de las demás frases (en A2 es lo normal).
+   En "detail" cita la frase y di qué palabra está forzada.` : ''}
 
 Formato de respuesta EXACTO (devuelve SOLO este JSON, sin markdown):
 {
   "themeTags": ["palabra1", "palabra2", "palabra3"],
   "issues": [
     {
-      "kind": ${isDe ? '"correctness"|"ambiguity"|"distractor"|"template"' : '"correctness"|"ambiguity"'},
+      "kind": ${isDe ? `"correctness"|"ambiguity"|"distractor"|"template"${ctx.vocabWords.length ? '|"forced_vocab"' : ''}` : '"correctness"|"ambiguity"'},
       "itemId": "<id de la pregunta, o 'passage'>",
       "detail": "explicación breve en español (≤50 palabras)",
       "confidence": <0.0–1.0 — tu certeza de que esto es un error real, NO una duda>
@@ -480,13 +498,18 @@ function parseSemanticResponse(raw) {
             i &&
             typeof i.kind === 'string' &&
             typeof i.detail === 'string' &&
-            ['correctness', 'ambiguity', 'distractor', 'template'].includes(i.kind),
+            ['correctness', 'ambiguity', 'distractor', 'template', 'forced_vocab'].includes(i.kind),
         )
         .map((i) => {
           // Normalize confidence to [0, 1]; default 1.0 if absent (conservative)
           const raw = Number(i.confidence);
           const confidence = Number.isFinite(raw) ? Math.min(1, Math.max(0, raw)) : 1.0;
-          return { kind: i.kind, itemId: i.itemId || 'part', detail: i.detail, confidence };
+          // Stable prefix so the generator's fix note can recognise it: issues reach
+          // the retry prompt as bare detail strings, without the kind.
+          const detail = i.kind === 'forced_vocab' && !/^vocabulario forzado/i.test(i.detail)
+            ? `vocabulario forzado: ${i.detail}`
+            : i.detail;
+          return { kind: i.kind, itemId: i.itemId || 'part', detail, confidence };
         })
     : [];
 
