@@ -273,10 +273,50 @@ export function checkHorenA2Register(batch, teil) {
   return { ok: errors.length === 0, errors };
 }
 
+const COMPLEXITY_REASON_RE = /^(?:subordinate_|complexity_)/;
+
+function cefrPassageChecksPartComplexity(batch, { lang, level, bounds }) {
+  const errors = [];
+  const metrics = [];
+  const texts = [];
+  for (const p of batch.passages || []) {
+    const text = p.text || p.transcript || '';
+    if (!text.trim()) {
+      errors.push(`passage ${p.id || '?'}: empty transcript`);
+      continue;
+    }
+    texts.push(text);
+    const result = CefrGate.validatePassage(text, { level, lang, lengthBounds: bounds });
+    const reasons = (result.reasons || []).filter((r) => !COMPLEXITY_REASON_RE.test(r));
+    const blocking = reasons.some((r) => /^(?:length_|coverage_below)/.test(r));
+    metrics.push({ passageId: p.id, ...result.metrics, reasons, withinRange: !blocking });
+    if (blocking) {
+      for (const r of reasons) errors.push(`passage ${p.id || '?'}: cefr_gate:${r}`);
+    }
+  }
+  if (texts.length) {
+    const part = CefrGate.validatePassage(texts.join('\n'), { level, lang, passageLengthExempt: true });
+    for (const r of (part.reasons || []).filter((x) => COMPLEXITY_REASON_RE.test(x))) {
+      errors.push(`part: cefr_gate:${r}`);
+    }
+    metrics.push({ passageId: 'part', ...part.metrics });
+  }
+  return { errors, metrics };
+}
+
 function cefrPassageChecks(batch, { lang, level, teil }) {
   const errors = [];
   const metrics = [];
   const bounds = lengthBoundsForTeil(teil, level);
+
+  // A2 Hören T1 is five ~6-sentence monologues. Per segment, the A2 ≤12%
+  // subordinate cap means zero, and one «weil» fails the part: 8 of the 13
+  // published A2 T1 parts would fail that way. Complexity (sentence length,
+  // subordinates) is measured over the whole part; length and coverage stay
+  // per segment.
+  if (String(level).toUpperCase() === 'A2' && Number(teil) === 1) {
+    return cefrPassageChecksPartComplexity(batch, { lang, level, bounds });
+  }
 
   for (const p of batch.passages || []) {
     const text = p.text || p.transcript || '';
