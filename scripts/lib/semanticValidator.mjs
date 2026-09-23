@@ -118,9 +118,17 @@ function extractPartContext(part) {
   if (!mcqs.length) return null; // nothing to validate semantically
 
   const lang = String(part.lang || part.language || 'de').slice(0, 2).toLowerCase();
-  const level = String(part.level || '').toUpperCase();
+  // Generated batches carry level/module/teil only on questions and passages,
+  // not at the top (pool records do). Read them from there for the slot check
+  // only: ctx.module/ctx.teil keep their old values so the B1 prompt is unchanged.
+  const first = allQs[0] || part.passages?.[0] || {};
+  const level = String(part.level || first.level || '').toUpperCase();
+  const slot = {
+    module: module || String(first.module || '').toLowerCase(),
+    teil: Number(part.teil ?? first.teil),
+  };
 
-  return { module, teil: part.teil, passageText, questions: mcqs, lang, level };
+  return { module, teil: part.teil, passageText, questions: mcqs, lang, level, slot };
 }
 
 /**
@@ -132,7 +140,7 @@ function extractPartContext(part) {
  * caught by the in-process themeTags registry.
  */
 function isUniformFormatSlot(ctx) {
-  return ctx.lang === 'de' && ctx.level === 'A2' && ctx.module === 'lesen' && Number(ctx.teil) === 2;
+  return ctx.lang === 'de' && ctx.level === 'A2' && ctx.slot.module === 'lesen' && ctx.slot.teil === 2;
 }
 
 function collectPassageText(part) {
@@ -377,7 +385,8 @@ ${isDe ? `3. "distractor" (IMPORTANT) — ¿Alguna opción incorrecta es absurda
    Solo distractores claramente defectuosos (afirmación imposible, tema ajeno, trampa
    obvia que nadie elegiría). No marques si es simplemente incorrecto pero plausible.
 
-${isUniformFormatSlot(ctx) ? `4. "themeTags" — devuelve 3-5 palabras clave temáticas del pasaje.
+${isUniformFormatSlot(ctx) ? `4. "themeTags" — devuelve 3-5 palabras clave temáticas del pasaje: los servicios y el
+   asunto concreto, NUNCA palabras del formato (Etage, Stock, Stockwerk, Gebäude, Plan, Übersicht).
    NO generes issues de tipo "template": esta tarea ES una tabla de informaciones de un
    edificio por plantas; que se parezca a otras tablas de plantas es el formato, no un defecto.` : `4. "template" (IMPORTANT) — ¿El pasaje sigue un molde narrativo genérico/repetitivo?
    Devuelve también "themeTags": array de 3-5 palabras clave temáticas del pasaje.`}` : `3. "themeTags" — devuelve 3-5 palabras clave temáticas del pasaje.
