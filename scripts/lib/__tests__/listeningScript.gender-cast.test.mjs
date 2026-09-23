@@ -24,14 +24,21 @@ function assert(desc, cond) {
   else { console.error(`  FAIL ${desc}`); failed++; }
 }
 
-const FEMALE = {
-  de: new Set(['XrExE9yKIg1WjnnlVkGX', 'Xb7hH8MSUJpSbSDYk0k2']),
-  en: new Set(['Xb7hH8MSUJpSbSDYk0k2', 'pFZP5JQG7iQjIQuC4Bku']),
-};
-const MALE = {
-  de: new Set(['pNInz6obpgDQGcFmaJgB', 'JBFqnCBsd6RMkjVDRZzb', 'onwK4e9ZLuTAKqWW03F9']),
-  en: new Set(['JBFqnCBsd6RMkjVDRZzb', 'onwK4e9ZLuTAKqWW03F9']),
-};
+// Las listas salen del modulo, no de una copia: este test comprueba que el reparto
+// respeta el GENERO, no que las voces sean unas concretas. Al pasar el aleman a voces
+// nativas (22 sep 2026) la copia cableada que habia aqui puso 5 comprobaciones en rojo
+// sin que el reparto tuviera nada malo.
+const FEMALE = {};
+const MALE = {};
+for (const lang of ['de', 'en']) {
+  const t = LS.voicesByGender(lang);
+  if (!t) throw new Error(`Sin tabla de voces por genero para ${lang}`);
+  if (!t.f.length || !t.m.length) throw new Error(`Tabla de ${lang} incompleta: f=${t.f.length} m=${t.m.length}`);
+  const solapan = t.f.filter((v) => t.m.includes(v));
+  if (solapan.length) throw new Error(`${lang}: voz en los dos generos: ${solapan.join(', ')}`);
+  FEMALE[lang] = new Set(t.f);
+  MALE[lang] = new Set(t.m);
+}
 const voiceOf = (segs, sp) => segs.find((s) => s.speaker === sp)?.voice;
 
 // ── gender, not order ──────────────────────────────────────────────────────

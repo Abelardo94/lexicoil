@@ -4,8 +4,16 @@
  * TTS voice registry — ElevenLabs IDs + legacy locale aliases.
  * Override defaults via ELEVENLABS_VOICES_DE (comma-separated voice IDs).
  */
+// de: voces ALEMANAS NATIVAS de la biblioteca (requieren plan de pago; en el gratuito
+// la API devuelve 402 paid_plan_required). Antes eran Adam/George/Daniel, inglesas
+// nativas hablando aleman. El indice 0 es el narrador: LEGACY_VOICE_INDEX mapea el
+// alias 'de-DE' a esta posicion y es la que mas clips usa.
+//   Christian tlaozmPwSPrjhdNidYEO (m, sereno) · Emma RqAMJpZ689MpxoPI49H6 (f, calida)
+//   Jonas xlbJQnFFGB01bv7HK5CZ (m, joven)
+// Tiene que coincidir con VOICES en js/bootstrap/listeningScript.js o la clave del
+// cache deja de acertar.
 const DEFAULT_VOICES = {
-  de: ['pNInz6obpgDQGcFmaJgB', 'JBFqnCBsd6RMkjVDRZzb', 'onwK4e9ZLuTAKqWW03F9'],
+  de: ['tlaozmPwSPrjhdNidYEO', 'RqAMJpZ689MpxoPI49H6', 'xlbJQnFFGB01bv7HK5CZ'],
   en: ['Xb7hH8MSUJpSbSDYk0k2', 'JBFqnCBsd6RMkjVDRZzb', 'pNInz6obpgDQGcFmaJgB'],
   es: ['ErXwobaYiN019PkySvjV', 'JBFqnCBsd6RMkjVDRZzb', 'pNInz6obpgDQGcFmaJgB'],
 };
