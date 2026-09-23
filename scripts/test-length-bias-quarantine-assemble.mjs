@@ -43,8 +43,11 @@ function collectExamQuestionIds(doc) {
 }
 
 function run(args) {
-  return spawnSync(process.execPath, [path.join(ROOT, 'scripts/assemble-from-pool-verified.mjs'), ...args], {
+  // --no-lock-live: this test assembles slot 1 on purpose (backed up and restored).
+  // AUTO_PUBLISH_EXAMS=0: the assembler ends by trying to publish; a test must not.
+  return spawnSync(process.execPath, [path.join(ROOT, 'scripts/assemble-from-pool-verified.mjs'), '--no-lock-live', ...args], {
     cwd: ROOT,
+    env: { ...process.env, AUTO_PUBLISH_EXAMS: '0' },
     encoding: 'utf8',
     maxBuffer: 20 * 1024 * 1024,
   });
