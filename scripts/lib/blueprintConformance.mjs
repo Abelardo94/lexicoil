@@ -78,6 +78,39 @@ function hasNonEmptyOptions(q) {
   return Array.isArray(opts) && opts.length > 0;
 }
 
+// "A", "a) A", "B.", "c) C)" — a label with no content of its own.
+const BARE_LABEL_OPTION = /^\s*(?:[a-j][).:]\s*)?([A-J])[).:]?\s*$/;
+
+/**
+ * Letters of bare-label matching options that point at no content. Bare labels are fine when the
+ * texts they name live elsewhere (Reading Part 2: "A) …" lines in the passage, or one passage per
+ * text with an id ending in "-A"). A gapped text whose options are just "a) A" with the sentences
+ * nowhere passed conformance before and was unanswerable (A/B 24 sep 2026).
+ * Returns null when the options carry their own content.
+ */
+function unresolvedBareLabels(q, batch) {
+  const opts = q.options ?? q.matchLabels;
+  if (!Array.isArray(opts) || !opts.length) return null;
+  const letters = opts.map((o) => String(o).match(BARE_LABEL_OPTION)?.[1]);
+  if (letters.some((l) => !l)) return null;
+  // The question's passage and its siblings (one passage per text: "…-A" or "…-01" ids).
+  const stem = String(q.passageId || '').replace(/-[A-Za-z0-9]+$/, '');
+  const group = (batch?.passages || []).filter(
+    (p) => p.id === q.passageId || (stem && String(p.id).replace(/-[A-Za-z0-9]+$/, '') === stem),
+  );
+  const found = new Set();
+  const LABEL_LINE = /(?:^|\n)\s*\(?([A-J])[).:]\s+\S/g;
+  for (const p of group) {
+    if (!String(p.text || '').trim()) continue;
+    for (const m of String(p.text).matchAll(LABEL_LINE)) found.add(m[1]);
+    const byId = String(p.id).match(/-([A-J])$/);
+    if (byId) found.add(byId[1]);
+    const byTitle = String(p.title || '').match(/^\s*\(?([A-J])[).:]\s+\S/);
+    if (byTitle) found.add(byTitle[1]);
+  }
+  return letters.filter((l) => !found.has(l));
+}
+
 function hasCorrect(q) {
   const c = q.correct ?? q.correctAnswer;
   return c != null && c !== '';
@@ -124,6 +157,11 @@ export function checkQuestionConformance(q, blueprint, batch = null) {
       });
     if (!hasNonEmptyOptions(q) && !isPictureMatching && !passageHasPictures) {
       reasons.push('matching_missing_options');
+    }
+    // Reading only: in Listening, bare labels are speakers ("A", "B", "M") and legitimately bare.
+    if (!isPictureMatching && !passageHasPictures && batch && normalizeModuleId(q.module) === 'lesen') {
+      const missing = unresolvedBareLabels(q, batch);
+      if (missing?.length) reasons.push(`matching_options_without_content:${missing.join('')}`);
     }
     if (isPictureMatching || passageHasPictures) {
       const key = String(q.correct ?? q.correctAnswer ?? '').trim().toLowerCase();
