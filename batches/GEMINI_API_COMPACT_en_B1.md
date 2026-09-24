@@ -42,13 +42,19 @@ Never store `reading`/`listening`/`writing`/`speaking` as the module.
 - **T2 (5 Q · matching):** 8 short texts (45-65 words EACH, total under 550) + 5 people; match each person to the best text. `options` = the 8 text labels A–H; `correct` a letter A–H. 8 passages (or one passage listing the 8 texts).
 - **T3 (5 Q · multiple_choice):** 1 long text (350–500 words), 4 options each (a–d). Detail, gist, inference, attitude/opinion.
 - **T4 (5 Q · matching):** 1 long text with 5 gaps; 8 candidate sentences A–H (3 unused). `options` = the 8 FULL sentences, each with its letter: `["A) <full sentence>", …, "H) <full sentence>"]` — never bare letters like "A" or "a) A"; the sentences exist nowhere else. `correct` the letter.
-- **T5 (6 Q · multiple_choice):** 1 short text (160–190 words, never fewer than 155) with 6 gaps; 4 vocabulary options each (a–d).
+- **T5 (6 Q · multiple_choice):** 1 short text (160–190 words, never fewer than 155) with 6 gaps; 4 vocabulary options each (a–d). Gaps numbered 1–6 in the text as "(1) ______" (no scored gap 0). Each `question` is exactly "Choose the best word for gap N." — never the answer word, never just a number. Options in lower case unless the gap starts a sentence.
+  - Test words the context **forces**: a collocation (make/do, heavy/strong), a fixed phrase, a dependent preposition or verb pattern (*interested in*, *avoid + -ing*), a phrasal verb.
+  - The 3 distractors must be **wrong in that gap**, not just less good: wrong collocation, wrong pattern, or a different meaning. **Never near-synonyms** a native speaker would accept (at ease / at home, improve / develop, choose / pick / select, made / prepared / cooked, persuade / encourage).
+  - Check each item: read the sentence aloud with every distractor. If one still sounds acceptable to a British native speaker, replace that distractor.
 - **T6 (6 Q · gap_fill):** 1 short text (160–190 words, never fewer than 155) with 6 gaps; **one word** per gap, no options. `correct` = the word; `options: []`.
 
 ## LISTENING (horen) — provide a transcript in the passage `text`
 
 - **T1 (7 Q · multiple_choice):** 7 short recordings; 3 options each (describe the options in words). 7 segments.
-- **T2 (6 Q · multiple_choice):** 6 short dialogues, gist, 3 options each.
+- **T2 (6 Q · multiple_choice):** 6 short dialogues (two speakers, 60–90 words each), 3 options each. Part 2 tests **attitude and opinion, not facts**.
+  - Each `question` starts with a context line and asks about a feeling, opinion, agreement or purpose: "You will hear two friends talking about a film. What do they agree about?" · "…How does the woman feel about…?" · "…What does the man think of…?"
+  - The answer is **inferred**, never repeated word for word from the dialogue. The distractors can be mentioned, but the speaker must **clearly reject** them or they must belong to the other speaker — never leave two options that both describe what the speaker thinks.
+  - No invented names in the questions ("the woman", "the boy"), and no questions a reader could answer without the recording.
 - **T3 (6 Q · gap_fill):** 1 monologue; complete 6 gaps (1–3 words, appearing in the transcript). `options: []`.
 - **T4 (6 Q · multiple_choice):** 1 interview; 3 options each; attitudes/opinions.
 
@@ -66,6 +72,7 @@ Never store `reading`/`listening`/`writing`/`speaking` as the module.
 - **correct === correctAnswer** always.
 - multiple_choice: `correct` lowercase letter; `options: ["a) …","b) …","c) …"]` (add `d)` for T3/T5). Strings, never objects.
 - **Answer distribution (important):** spread the correct answers across the letters. In a set of 5-7 MCQ, no single letter may be correct more than **twice**, and never put 3+ correct answers on the same letter. Do not default to `a` or `b`.
+- **multiple_choice explanations never name options by letter** ("(a)", "option b"): MCQ options are shuffled after generation, so letters go stale (matching letters are stable and may be cited). Quote the option text instead ("not 'the weather', because…").
 - matching (T2/T4): `correct` a capital letter (A–H); `options` the labelled choices. T2 may use bare labels ("a) A") only because its 8 texts are passages labelled A–H; T4 options must contain the sentences.
 - gap_fill (T6, Listening T3): `correct` = the exact word/phrase; `options: []`.
 - writing/speaking: `correct: "rubric"`.
