@@ -13,22 +13,34 @@
  * (shared with scripts/lib/balanceMcq.mjs — do not fork the regex list here).
  */
 
-function resolveResyncFn() {
+function resolveResyncApi() {
   if (typeof require === 'function') {
     try {
-      return require('./explanationOptionResync.js').resyncExplanationOptionLetter;
+      return require('./explanationOptionResync.js');
     } catch (_) {
       /* browser script tag path */
     }
   }
   if (typeof globalThis !== 'undefined' && globalThis.ExplanationOptionResync) {
-    return globalThis.ExplanationOptionResync.resyncExplanationOptionLetter;
+    return globalThis.ExplanationOptionResync;
+  }
+  return null;
+}
+
+// All option letters move when the key is moved, so every letter the explanation names has to
+// be remapped, not only the key's. Falls back to the key-only resync if a cached older
+// explanationOptionResync.js (without the remap) is what the browser loaded.
+const partPostprocessRemapLetters = (function () {
+  const api = resolveResyncApi();
+  if (api && typeof api.remapExplanationOptionLetters === 'function') {
+    return (explanation, mapping) => api.remapExplanationOptionLetters(explanation, mapping);
+  }
+  if (api && typeof api.resyncExplanationOptionLetter === 'function') {
+    return (explanation, mapping, oldKey, newKey) => api.resyncExplanationOptionLetter(explanation, oldKey, newKey);
   }
   // Last resort no-op (should not happen if script order is correct).
   return (explanation) => explanation;
-}
-
-const resyncExplanationOptionLetter = resolveResyncFn();
+})();
 
 function balanceAnswerPositions(questions) {
   if (!Array.isArray(questions)) return { changed: 0 };
@@ -56,16 +68,28 @@ function balanceAnswerPositions(questions) {
     const correctText = texts[correctIdx];
     const rest = texts.filter((_, i) => i !== correctIdx);
     const newTexts = [];
+    // newIndexOf[j] = where the text that was at j ends up (the distractors shift too).
+    const restOrigIdx = texts.map((_, i) => i).filter((i) => i !== correctIdx);
+    const newIndexOf = [];
     let r = 0;
     for (let i = 0; i < opts.length; i++) {
-      newTexts[i] = i === targetIdx ? correctText : rest[r++];
+      if (i === targetIdx) {
+        newTexts[i] = correctText;
+        newIndexOf[correctIdx] = i;
+      } else {
+        newIndexOf[restOrigIdx[r]] = i;
+        newTexts[i] = rest[r++];
+      }
     }
     // Reasigna las mismas claves (A,B,C…) en orden a los textos reordenados.
+    const keys = opts.map((o) => String(o.key).toLowerCase());
     opts.forEach((o, i) => { o.text = newTexts[i]; });
     q.correct = String(opts[targetIdx].key);
     if (q.correctAnswer !== undefined) q.correctAnswer = q.correct;
     if (q.explanation) {
-      q.explanation = resyncExplanationOptionLetter(q.explanation, oldLetter, q.correct);
+      const mapping = {};
+      keys.forEach((k, j) => { mapping[k] = keys[newIndexOf[j]]; });
+      q.explanation = partPostprocessRemapLetters(q.explanation, mapping, oldLetter, q.correct);
     }
     changed++;
   }

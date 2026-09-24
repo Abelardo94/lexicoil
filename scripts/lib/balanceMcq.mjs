@@ -21,10 +21,12 @@ const {
   resyncExplanationOptionLetter: resyncExplanationOptionLetterShared,
   alignExplanationOptionLetters,
   findExplanationOptionLetters,
+  findExplanationLetterRefs,
+  remapExplanationOptionLetters,
 } = require('../../js/engine/prompts/explanationOptionResync.js');
 
 export const resyncExplanationOptionLetter = resyncExplanationOptionLetterShared;
-export { alignExplanationOptionLetters, findExplanationOptionLetters };
+export { alignExplanationOptionLetters, findExplanationOptionLetters, findExplanationLetterRefs, remapExplanationOptionLetters };
 
 /** Bump when letter-target / remainder / R-F shuffle policy changes (pool re-stamp). */
 export const BALANCE_MCQ_VERSION = 'v1.2-no-rf-chrono-shuffle-2026-07-11';
@@ -180,7 +182,9 @@ function correctOptionBody(q) {
  * Writer contract for balanceMcq / antiRuns (checked BEFORE the caller persists):
  *  (a) option body multiset unchanged (labels may move);
  *  (b) the option body marked correct after rotate is the same body that was correct before;
- *  (c) every "Option X" reference in explanation matches the post-rotate correct letter.
+ *  (c) an explanation naming a single "Option X" names the post-rotate correct letter;
+ *  (d) every option letter the explanation names ("Option b", "(b)", …) still names the same
+ *      option body after the rotation — distractors included, not only the key.
  *
  * @throws {Error} on any violation
  */
@@ -234,15 +238,43 @@ export function assertBalanceMcqWriterContract(beforeQuestions, afterQuestions, 
     }
 
     // (c) explanation letter refs match new correct
+    // Only meaningful when the explanation names ONE letter: then that letter is the key's.
+    // An explanation that names several is discussing distractors ("option d means…") — it
+    // used to throw here and sink the whole batch; (d) below checks those refs instead.
+    // Uses the a–h finder: the a–c one cannot see "option d", so on four-option items it
+    // mistook a remapped distractor for the only letter named.
     const want = mcqCorrectLetter(a);
-    const hits = findExplanationOptionLetters(String(a.explanation || ''));
-    const desync = hits.filter((h) => h.letter !== want);
-    if (desync.length) {
+    const named = findExplanationLetterRefs(String(a.explanation || ''));
+    const distinct = new Set(named.map((h) => h.letter));
+    if (distinct.size === 1 && !distinct.has(want)) {
       throw new Error(
         `[${label}:contract:c] q[${i}] explanation letter desync (want ${want}): ` +
-          desync.map((h) => h.match).join(', '),
+          named.map((h) => h.raw).join(', '),
       );
     }
+
+    // (d) every letter ref keeps pointing at the same body. Checked on the pair, not by
+    // re-running the remap, so a remap bug cannot pass its own test.
+    const refsBefore = findExplanationLetterRefs(String(b.explanation || ''));
+    const refsAfter = findExplanationLetterRefs(String(a.explanation || ''));
+    if (refsBefore.length !== refsAfter.length) {
+      throw new Error(`[${label}:contract:d] q[${i}] explanation letter refs ${refsBefore.length}→${refsAfter.length}`);
+    }
+    const bodyAt = (q, letter) => {
+      const idx = letter.charCodeAt(0) - 97;
+      return idx >= 0 && idx < q.options.length ? stripMcqOptionLabel(q.options[idx]) : null;
+    };
+    refsBefore.forEach((rb, r) => {
+      const was = bodyAt(b, rb.letter);
+      const now = bodyAt(a, refsAfter[r].letter);
+      // A ref outside the option range pointed at nothing before; it must still point at nothing.
+      if (was !== now) {
+        throw new Error(
+          `[${label}:contract:d] q[${i}] explanation ref "${rb.raw}" named ${JSON.stringify(was)}, ` +
+            `now "${refsAfter[r].raw}" names ${JSON.stringify(now)}`,
+        );
+      }
+    });
   }
   return true;
 }
@@ -281,11 +313,13 @@ function rotateToTarget(question, targetLetter) {
     return text.replace(prefix, `${letter}) `);
   });
 
-  const explanation = resyncExplanationOptionLetter(
-    question.explanation,
-    correctLetter,
-    targetLetter,
-  );
+  // Every option moves, not only the key: the option at old index j lands at (j - shift) mod k.
+  // Remap all the letters the explanation names in one pass (it may discuss distractors too).
+  const mapping = {};
+  for (let j = 0; j < k; j++) mapping[ALL_LETTERS[j]] = ALL_LETTERS[(j - shift + k) % k];
+  const explanation = question.explanation == null
+    ? question.explanation
+    : remapExplanationOptionLetters(question.explanation, mapping);
 
   return {
     ...question,

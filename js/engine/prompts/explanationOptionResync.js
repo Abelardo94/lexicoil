@@ -158,10 +158,74 @@
     return { explanation: out, changed: out !== expl, fixes };
   }
 
+  /**
+   * Every place an explanation names an option by its letter, in ANY of the contexts below.
+   * resyncExplanationOptionLetter only moves ONE letter (the key), so after a shuffle the
+   * distractors an explanation discusses ("they don't discuss the weather (a)") kept pointing
+   * at their old positions. English generators write "(a)", which no replacer above knew, so
+   * there even the key was left stale.
+   * `at(m)` gives the letter's offset in the text; overlapping hits ("Option (a)") are deduped
+   * by that offset so a letter is rewritten once.
+   */
+  function buildLetterRefPatterns() {
+    const last = (m) => m.index + m[0].length - 1;
+    return [
+      // "Option a" / "option b)" / "Option (c)" / "die Option a" / "Antwort b" / "Alternative a" / "Buchstabe c"
+      // Unicode lookahead: with [A-Za-z0-9] the "f" of "Option für" read as an option letter.
+      { re: /\b(?:[Oo]ption|[Aa]ntwort|[Aa]lternative|[Bb]uchstabe)\s*\(?[a-hA-H](?![\p{L}\p{N}])/gu, at: last },
+      // "a ist korrekt/richtig"
+      { re: /\b[a-hA-H](?=\s+ist\s+(?:richtig|korrekt)\b)/gi, at: (m) => m.index },
+      // "ist a korrekt/richtig"
+      { re: /\bist\s+[a-hA-H](?=\s+(?:richtig|korrekt)\b)/gi, at: last },
+      // "(a)" — the English habit: "doesn't express excitement (a)"
+      { re: /\([a-hA-H]\)/g, at: (m) => m.index + 1 },
+    ];
+  }
+
+  /** @returns {{ letter: string, raw: string, index: number }[]} letter refs in text order. */
+  function findExplanationLetterRefs(explanation) {
+    const text = String(explanation || '');
+    const byIndex = new Map();
+    for (const { re, at } of buildLetterRefPatterns()) {
+      let m;
+      while ((m = re.exec(text)) !== null) {
+        const index = at(m);
+        byIndex.set(index, text[index]);
+      }
+    }
+    return [...byIndex.entries()]
+      .sort((a, b) => a[0] - b[0])
+      .map(([index, raw]) => ({ letter: raw.toLowerCase(), raw, index }));
+  }
+
+  /**
+   * Rewrite ALL option-letter refs at once through `mapping` (old letter → new letter, both
+   * lowercase). One pass, so a→b and b→a cannot chain into each other. Case is preserved
+   * ("Option A" stays uppercase). Letters absent from `mapping` are left alone.
+   */
+  function remapExplanationOptionLetters(explanation, mapping) {
+    const text = String(explanation || '');
+    if (!text || !mapping) return explanation;
+    const refs = findExplanationLetterRefs(text);
+    if (!refs.length) return explanation;
+    let out = '';
+    let last = 0;
+    for (const { letter, raw, index } of refs) {
+      const to = mapping[letter];
+      if (!to || to === letter) continue;
+      out += text.slice(last, index) + (raw === raw.toUpperCase() ? to.toUpperCase() : to);
+      last = index + 1;
+    }
+    if (last === 0) return explanation;
+    return out + text.slice(last);
+  }
+
   return {
     resyncExplanationOptionLetter,
     findExplanationOptionLetters,
     alignExplanationOptionLetters,
     buildResyncReplacers,
+    findExplanationLetterRefs,
+    remapExplanationOptionLetters,
   };
 });
