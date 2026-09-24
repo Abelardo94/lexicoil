@@ -43,7 +43,7 @@ Never store `reading`/`listening`/`writing`/`speaking` as the module.
 - **T3 (5 Q · multiple_choice):** 1 long text (350–500 words), 4 options each (a–d). Detail, gist, inference, attitude/opinion.
 - **T4 (5 Q · matching):** 1 long text with 5 gaps; 8 candidate sentences A–H (3 unused). `options` = A–H; `correct` the letter.
 - **T5 (6 Q · multiple_choice):** 1 short text (160–190 words, never fewer than 155) with 6 gaps; 4 vocabulary options each (a–d).
-- **T6 (6 Q · gap_fill):** 1 short text (160–190 words, never fewer than 155) with 6 gaps; **one word** per gap, no options. `correct` = the word; `options: []`.
+- **T6 (6 Q · gap_fill):** 1 short text (160–190 words, never fewer than 155) with 6 gaps; **one word** per gap, no options. `correct` = the word; `options: []`. Gap grammatical words inside fixed patterns where only one word fits (responsible **for**, so tired **that**, depending **on**, had **ever** had). If another word is equally correct (who/that, because/as), list every other correct word in `acceptedAnswers: ["that"]`; otherwise omit the field.
 
 ## LISTENING (horen) — provide a transcript in the passage `text`
 

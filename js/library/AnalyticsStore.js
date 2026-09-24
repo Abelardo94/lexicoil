@@ -211,7 +211,10 @@ const AnalyticsStore = (() => {
   }
 
   function scoreAnswer(q, user) {
-    if (typeof goetheAnswersMatch === 'function') return goetheAnswersMatch(user, q.correct ?? q.correctAnswer);
+    if (typeof goetheAnswersMatch === 'function') {
+      return goetheAnswersMatch(user, q.correct ?? q.correctAnswer) ||
+        (typeof acceptedAnswerMatch === 'function' && acceptedAnswerMatch(user, q));
+    }
     return user === (q.correct ?? q.correctAnswer);
   }
 

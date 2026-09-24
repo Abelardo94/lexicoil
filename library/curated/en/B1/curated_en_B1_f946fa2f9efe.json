@@ -1092,7 +1092,12 @@
             ],
             "difficulty": 4,
             "level": "B1",
-            "passageId": "en-b1-p-lesen-t6-open-cloze-family-trip-02-01"
+            "passageId": "en-b1-p-lesen-t6-open-cloze-family-trip-02-01",
+            "acceptedAnswers": [
+              "though",
+              "while",
+              "whilst"
+            ]
           },
           {
             "id": "ql_en-b1-r-t6-open-cloze-family-trip-02-q3",
@@ -1112,7 +1117,10 @@
             ],
             "difficulty": 4,
             "level": "B1",
-            "passageId": "en-b1-p-lesen-t6-open-cloze-family-trip-02-01"
+            "passageId": "en-b1-p-lesen-t6-open-cloze-family-trip-02-01",
+            "acceptedAnswers": [
+              "that"
+            ]
           },
           {
             "id": "ql_en-b1-r-t6-open-cloze-family-trip-02-q4",

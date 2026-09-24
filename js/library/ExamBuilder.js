@@ -178,6 +178,8 @@ const ExamBuilder = (() => {
     if (q.level) out.level = q.level;
     if (q.origin) out.origin = q.origin;
     if (q.options?.length) out.options = [...q.options];
+    // Cambridge Reading P6: the other words a gap accepts. Dropping it here marked them wrong.
+    if (Array.isArray(q.acceptedAnswers) && q.acceptedAnswers.length) out.acceptedAnswers = [...q.acceptedAnswers];
     const pid =
       typeof PassageResolver !== 'undefined' ? PassageResolver.passageIdFromQuestion(q) : q.passageId;
     if (pid) out.passageId = pid;

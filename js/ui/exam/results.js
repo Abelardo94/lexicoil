@@ -108,6 +108,11 @@ function ansLabel(q, val, isDE) {
 }
 function correctLabel(q, isDE) {
   if (Array.isArray(q.correct)) return q.correct.join(', ');
+  // Open cloze with more than one right word: show them all ("because / as / since").
+  if (FREE_TEXT_TYPES.has(q.type) && Array.isArray(q.acceptedAnswers) && q.acceptedAnswers.length) {
+    return [q.correct, ...q.acceptedAnswers].map((a) => String(a ?? '').trim()).filter(Boolean)
+      .filter((a, i, all) => all.findIndex((b) => b.toLowerCase() === a.toLowerCase()) === i).join(' / ');
+  }
   return ansLabel(q, q.correct, isDE);
 }
 function countSpeakExchanges(text, isDE) {
@@ -200,7 +205,7 @@ function buildCorrection(d, isDE, writeAns, speakAns, passPercent = 60) {
         }
         const user = S.answers['lesen_' + pi + '_' + q.id];
         const label = q.question || (item.signText ? String(item.id || idx + 1) : q.question);
-        items.push({ ok: goetheAnswersMatch(user, q.correct), q: label, yours: ansLabel(q, user, isDE), correct: correctLabel(q, isDE), explanation: q.explanation || '', grammarTags: q.grammarTags || [] });
+        items.push({ ok: goetheAnswersMatch(user, q.correct) || acceptedAnswerMatch(user, q), q: label, yours: ansLabel(q, user, isDE), correct: correctLabel(q, isDE), explanation: q.explanation || '', grammarTags: q.grammarTags || [] });
       };
       if (isLesenAdsMatchingRender(p) || isLesenForumOpinionsPart(p)) {
         p.items?.forEach((item, idx) => pushLesenItem(item, idx));
@@ -215,7 +220,7 @@ function buildCorrection(d, isDE, writeAns, speakAns, passPercent = 60) {
         }
         enrichMatchingQFromPart(q, p);
         const user = S.answers['lesen_' + pi + '_' + q.id];
-        items.push({ ok: goetheAnswersMatch(user, q.correct), q: q.gap?`Lücke ${q.gap}`:q.question, yours: ansLabel(q, user, isDE), correct: correctLabel(q, isDE), explanation: q.explanation || '', grammarTags: q.grammarTags || [] });
+        items.push({ ok: goetheAnswersMatch(user, q.correct) || acceptedAnswerMatch(user, q), q: q.gap?`Lücke ${q.gap}`:q.question, yours: ansLabel(q, user, isDE), correct: correctLabel(q, isDE), explanation: q.explanation || '', grammarTags: q.grammarTags || [] });
       });
       pushQ('lesen', `${isDE ? 'Lesen' : 'Reading'} — ${isDE ? 'Teil' : 'Part'} ${p.teil}`, items);
     });
@@ -238,7 +243,7 @@ function buildCorrection(d, isDE, writeAns, speakAns, passPercent = 60) {
               }
               const mod = 'horen_' + pi + '_' + si;
               const user = S.answers[mod + '_' + q.id];
-              return [{ ok: goetheAnswersMatch(user, q.correct), q: q.question, yours: ansLabel(q, user, isDE), correct: correctLabel(q, isDE), explanation: q.explanation || '', grammarTags: q.grammarTags || [] }];
+              return [{ ok: goetheAnswersMatch(user, q.correct) || acceptedAnswerMatch(user, q), q: q.question, yours: ansLabel(q, user, isDE), correct: correctLabel(q, isDE), explanation: q.explanation || '', grammarTags: q.grammarTags || [] }];
             })
           );
         });
@@ -253,7 +258,7 @@ function buildCorrection(d, isDE, writeAns, speakAns, passPercent = 60) {
               return [];
             }
             const user = S.answers['horen_' + pi + '_' + q.id];
-            return [{ ok: goetheAnswersMatch(user, q.correct), q: q.question, yours: ansLabel(q, user, isDE), correct: correctLabel(q, isDE), explanation: q.explanation || '', grammarTags: q.grammarTags || [] }];
+            return [{ ok: goetheAnswersMatch(user, q.correct) || acceptedAnswerMatch(user, q), q: q.question, yours: ansLabel(q, user, isDE), correct: correctLabel(q, isDE), explanation: q.explanation || '', grammarTags: q.grammarTags || [] }];
           })
         );
       }
@@ -575,7 +580,7 @@ async function submitExam(){
       if(mod.startsWith('lesen_')){lp++;}
       else if(mod.startsWith('horen_')){hp++;}
       if(!answered)return;
-      const ok=goetheAnswersMatch(user,q.correct);
+      const ok=goetheAnswersMatch(user,q.correct)||acceptedAnswerMatch(user,q);
       if(mod.startsWith('lesen_')){la++;if(ok)lc++;}
       else if(mod.startsWith('horen_')){ha++;if(ok)hc++;}
     });

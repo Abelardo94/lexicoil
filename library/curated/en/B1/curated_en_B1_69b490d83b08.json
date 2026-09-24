@@ -1004,7 +1004,10 @@
               "prediction"
             ],
             "difficulty": 4,
-            "passageId": "en-b1-p-lesen-t6-open-cloze-birthday-surprise-01-01"
+            "passageId": "en-b1-p-lesen-t6-open-cloze-birthday-surprise-01-01",
+            "acceptedAnswers": [
+              "should"
+            ]
           },
           {
             "id": "ql_en-b1-r-t6-open-cloze-birthday-surprise-01-q4",
@@ -1023,7 +1026,11 @@
               "reasoning"
             ],
             "difficulty": 4,
-            "passageId": "en-b1-p-lesen-t6-open-cloze-birthday-surprise-01-01"
+            "passageId": "en-b1-p-lesen-t6-open-cloze-birthday-surprise-01-01",
+            "acceptedAnswers": [
+              "as",
+              "since"
+            ]
           },
           {
             "id": "ql_en-b1-r-t6-open-cloze-birthday-surprise-01-q2",
@@ -1042,7 +1049,10 @@
               "people"
             ],
             "difficulty": 4,
-            "passageId": "en-b1-p-lesen-t6-open-cloze-birthday-surprise-01-01"
+            "passageId": "en-b1-p-lesen-t6-open-cloze-birthday-surprise-01-01",
+            "acceptedAnswers": [
+              "whom"
+            ]
           },
           {
             "id": "ql_en-b1-r-t6-open-cloze-birthday-surprise-01-q1",
@@ -1080,7 +1090,10 @@
               "relative-clauses"
             ],
             "difficulty": 4,
-            "passageId": "en-b1-p-lesen-t6-open-cloze-birthday-surprise-01-01"
+            "passageId": "en-b1-p-lesen-t6-open-cloze-birthday-surprise-01-01",
+            "acceptedAnswers": [
+              "which"
+            ]
           },
           {
             "id": "ql_en-b1-r-t6-open-cloze-birthday-surprise-01-q3",
@@ -1099,7 +1112,11 @@
               "time"
             ],
             "difficulty": 4,
-            "passageId": "en-b1-p-lesen-t6-open-cloze-birthday-surprise-01-01"
+            "passageId": "en-b1-p-lesen-t6-open-cloze-birthday-surprise-01-01",
+            "acceptedAnswers": [
+              "when",
+              "until"
+            ]
           }
         ]
       }

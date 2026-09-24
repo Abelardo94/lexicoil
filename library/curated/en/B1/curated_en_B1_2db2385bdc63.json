@@ -1003,7 +1003,11 @@
               "general"
             ],
             "difficulty": 4,
-            "passageId": "en-b1-p-lesen-t6-open-cloze-part-time-job-01-01"
+            "passageId": "en-b1-p-lesen-t6-open-cloze-part-time-job-01-01",
+            "acceptedAnswers": [
+              "any",
+              "each"
+            ]
           },
           {
             "id": "ql_en-b1-r-t6-open-cloze-part-time-job-01-q1",
@@ -1060,7 +1064,10 @@
               "employment"
             ],
             "difficulty": 4,
-            "passageId": "en-b1-p-lesen-t6-open-cloze-part-time-job-01-01"
+            "passageId": "en-b1-p-lesen-t6-open-cloze-part-time-job-01-01",
+            "acceptedAnswers": [
+              "a"
+            ]
           },
           {
             "id": "ql_en-b1-r-t6-open-cloze-part-time-job-01-q3",

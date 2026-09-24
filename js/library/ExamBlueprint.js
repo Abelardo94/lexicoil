@@ -462,6 +462,8 @@ const ExamBlueprint = (() => {
     };
     if (q.options?.length) out.options = [...q.options];
     if (q.signText) out.signText = q.signText;
+    // Cambridge Reading P6: the other words a gap accepts. Dropping it here marked them wrong.
+    if (Array.isArray(q.acceptedAnswers) && q.acceptedAnswers.length) out.acceptedAnswers = [...q.acceptedAnswers];
     // Same as ExamBuilder.toExamQuestion: CHK-LEVEL gates publishing on per-question level.
     if (q.level) out.level = q.level;
     if (q.origin) out.origin = q.origin;

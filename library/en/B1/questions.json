@@ -6325,7 +6325,10 @@
       "level": "B1",
       "examType": "cambridge",
       "passageId": "en-b1-p-lesen-t6-open-cloze-birthday-surprise-01-01",
-      "lang": "en"
+      "lang": "en",
+      "acceptedAnswers": [
+        "whom"
+      ]
     },
     {
       "id": "en-b1-r-t6-open-cloze-birthday-surprise-01-q3",
@@ -6354,7 +6357,11 @@
       "level": "B1",
       "examType": "cambridge",
       "passageId": "en-b1-p-lesen-t6-open-cloze-birthday-surprise-01-01",
-      "lang": "en"
+      "lang": "en",
+      "acceptedAnswers": [
+        "when",
+        "until"
+      ]
     },
     {
       "id": "en-b1-r-t6-open-cloze-birthday-surprise-01-q4",
@@ -6383,7 +6390,11 @@
       "level": "B1",
       "examType": "cambridge",
       "passageId": "en-b1-p-lesen-t6-open-cloze-birthday-surprise-01-01",
-      "lang": "en"
+      "lang": "en",
+      "acceptedAnswers": [
+        "as",
+        "since"
+      ]
     },
     {
       "id": "en-b1-r-t6-open-cloze-birthday-surprise-01-q5",
@@ -6412,7 +6423,10 @@
       "level": "B1",
       "examType": "cambridge",
       "passageId": "en-b1-p-lesen-t6-open-cloze-birthday-surprise-01-01",
-      "lang": "en"
+      "lang": "en",
+      "acceptedAnswers": [
+        "which"
+      ]
     },
     {
       "id": "en-b1-r-t6-open-cloze-birthday-surprise-01-q6",
@@ -6441,7 +6455,10 @@
       "level": "B1",
       "examType": "cambridge",
       "passageId": "en-b1-p-lesen-t6-open-cloze-birthday-surprise-01-01",
-      "lang": "en"
+      "lang": "en",
+      "acceptedAnswers": [
+        "should"
+      ]
     },
     {
       "id": "en-b1-r-t6-open-cloze-family-trip-01-q1",
@@ -6760,7 +6777,11 @@
       "level": "B1",
       "examType": "cambridge",
       "passageId": "en-b1-p-lesen-t6-open-cloze-part-time-job-01-01",
-      "lang": "en"
+      "lang": "en",
+      "acceptedAnswers": [
+        "any",
+        "each"
+      ]
     },
     {
       "id": "en-b1-r-t6-open-cloze-part-time-job-01-q6",
@@ -6789,7 +6810,10 @@
       "level": "B1",
       "examType": "cambridge",
       "passageId": "en-b1-p-lesen-t6-open-cloze-part-time-job-01-01",
-      "lang": "en"
+      "lang": "en",
+      "acceptedAnswers": [
+        "a"
+      ]
     },
     {
       "id": "en-b1-w-t1-email-new-course-02-q1",
@@ -9545,7 +9569,12 @@
       "level": "B1",
       "examType": "cambridge",
       "passageId": "en-b1-p-lesen-t6-open-cloze-family-trip-02-01",
-      "lang": "en"
+      "lang": "en",
+      "acceptedAnswers": [
+        "though",
+        "while",
+        "whilst"
+      ]
     },
     {
       "id": "en-b1-r-t6-open-cloze-family-trip-02-q3",
@@ -9574,7 +9603,10 @@
       "level": "B1",
       "examType": "cambridge",
       "passageId": "en-b1-p-lesen-t6-open-cloze-family-trip-02-01",
-      "lang": "en"
+      "lang": "en",
+      "acceptedAnswers": [
+        "that"
+      ]
     },
     {
       "id": "en-b1-r-t6-open-cloze-family-trip-02-q4",

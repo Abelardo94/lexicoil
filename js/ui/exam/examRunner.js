@@ -1168,6 +1168,14 @@ function goetheAnswersMatch(user,correct){
   }
   return normalizeGradingToken(user)===normalizeGradingToken(correct);
 }
+/** Cambridge Reading Part 6 accepts more than one word in some gaps ("who"/"that",
+ *  "because"/"as"); those items list the others in acceptedAnswers. Only free-text gap types
+ *  carry them — an option-letter item never does, so a stray field cannot mark "b" right. */
+function acceptedAnswerMatch(user,q){
+  const t=String(q?.type||'').toLowerCase();
+  if((t!=='gap_fill'&&t!=='gap')||!Array.isArray(q?.acceptedAnswers))return false;
+  return q.acceptedAnswers.some(a=>a!=null&&String(a).trim()!==''&&goetheAnswersMatch(user,a));
+}
 function togglePersonMatch(key,val,el){
   let sel=[];
   try{sel=JSON.parse(S.answers[key]||'[]');}catch(_){sel=[];}
