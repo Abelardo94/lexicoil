@@ -170,8 +170,19 @@ function isLesenPoolNormalize(ctx) {
   return isPoolStripLegacyQuestionFields(ctx);
 }
 
-function defaultExplanation(q) {
-  if (q.module === 'schreiben' || q.module === 'sprechen') {
+/**
+ * Fallback explanation when the generator left none. The German strings are Goethe wording;
+ * an English Cambridge batch used to receive them too ("Bewertung: Inhalt vollständig…").
+ */
+function defaultExplanation(q, lang = 'de') {
+  const productive = q.module === 'schreiben' || q.module === 'sprechen';
+  if (lang !== 'de') {
+    if (productive) {
+      return 'Assessed on content, organisation, language and communicative achievement.';
+    }
+    return q.explanation || 'See the text or recording.';
+  }
+  if (productive) {
     return 'Bewertung: Inhalt vollständig; passende Struktur und Register; verständliche Sprache auf B1-Niveau.';
   }
   return q.explanation || 'Siehe Text/Transkript.';
@@ -255,6 +266,12 @@ function normalizeQuestion(q, ctx = {}) {
     out.type = canonicalSprechenType(out.type, out.teil, level);
     const canonExpl = canonicalSprechenExplanation(out.teil, level);
     if (canonExpl) out.explanation = canonExpl;
+  } else if (out.module === 'sprechen') {
+    // Cambridge Speaking is stored as short_answer (the served en/B1 bank); Gemini writes
+    // type "rubric", which audit CHK-1 rejects as non-canonical.
+    if (!out.type || out.type === 'rubric' || out.type === 'speaking' || out.type === 'sprechen') {
+      out.type = 'short_answer';
+    }
   }
   // Schreiben: B1 convention correct/correctAnswer = "rubric"; examples live in explanation.
   // Rubric object normalized to fixed English keys (shared with A2 backlog reprocessor).
@@ -301,7 +318,7 @@ function normalizeQuestion(q, ctx = {}) {
     out.options = [];
   }
   if (!out.explanation || String(out.explanation).toLowerCase() === 'rubric') {
-    out.explanation = defaultExplanation(out);
+    out.explanation = defaultExplanation(out, lang);
   }
   if (out.passageId === null) delete out.passageId;
   if (Array.isArray(out.passageId)) delete out.passageId;
