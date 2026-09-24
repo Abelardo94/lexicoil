@@ -21,9 +21,14 @@ function clientAuthDisabled() {
   return trimEnv(process.env.SUPABASE_CLIENT_AUTH).toLowerCase() === '0';
 }
 
-async function isSupabaseReachable(supabaseUrl, timeoutMs = 2500) {
+/**
+ * GoTrue's /auth/v1/health answers 401 without an `apikey` header, so a keyless
+ * probe reported every healthy project as unreachable. No key → no probe.
+ */
+async function isSupabaseReachable(supabaseUrl, anonKey, timeoutMs = 2500) {
   const base = supabaseBase(supabaseUrl);
-  if (!base) return false;
+  const key = trimEnv(anonKey);
+  if (!base || !key) return false;
 
   const now = Date.now();
   if (reachCache.url === base && now - reachCache.at < 60000) {
@@ -33,6 +38,7 @@ async function isSupabaseReachable(supabaseUrl, timeoutMs = 2500) {
   let ok = false;
   try {
     const res = await fetch(`${base}/auth/v1/health`, {
+      headers: { apikey: key },
       signal: AbortSignal.timeout(timeoutMs),
     });
     ok = res.ok;

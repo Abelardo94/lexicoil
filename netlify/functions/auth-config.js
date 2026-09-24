@@ -19,7 +19,7 @@ exports.handler = async function handler(event) {
   const { supabaseUrl, supabaseAnonKey, configured: hasSupabase } = readSupabaseEnv();
   const clientSupabase = hasSupabase ? await supabaseClientEnabled() : false;
   const supabaseReachable =
-    hasSupabase && supabaseUrl ? await isSupabaseReachable(supabaseUrl) : false;
+    hasSupabase ? await isSupabaseReachable(supabaseUrl, supabaseAnonKey) : false;
 
   return jsonResponse(200, cors, {
     enabled: Boolean(getJwtSecret()),
