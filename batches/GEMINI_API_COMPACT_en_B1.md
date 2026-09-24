@@ -41,7 +41,7 @@ Never store `reading`/`listening`/`writing`/`speaking` as the module.
 - **T1 (5 Q · multiple_choice):** 5 independent short texts (notice/sign/message), one 3-option question each on the main message. 5 passages (10–60 words each). `correct` a/b/c.
 - **T2 (5 Q · matching):** 8 short texts (45-65 words EACH, total under 550) + 5 people; match each person to the best text. `options` = the 8 text labels A–H; `correct` a letter A–H. 8 passages (or one passage listing the 8 texts).
 - **T3 (5 Q · multiple_choice):** 1 long text (350–500 words), 4 options each (a–d). Detail, gist, inference, attitude/opinion.
-- **T4 (5 Q · matching):** 1 long text with 5 gaps; 8 candidate sentences A–H (3 unused). `options` = A–H; `correct` the letter.
+- **T4 (5 Q · matching):** 1 long text with 5 gaps; 8 candidate sentences A–H (3 unused). `options` = the 8 FULL sentences, each with its letter: `["A) <full sentence>", …, "H) <full sentence>"]` — never bare letters like "A" or "a) A"; the sentences exist nowhere else. `correct` the letter.
 - **T5 (6 Q · multiple_choice):** 1 short text (160–190 words, never fewer than 155) with 6 gaps; 4 vocabulary options each (a–d).
 - **T6 (6 Q · gap_fill):** 1 short text (160–190 words, never fewer than 155) with 6 gaps; **one word** per gap, no options. `correct` = the word; `options: []`.
 
@@ -66,7 +66,7 @@ Never store `reading`/`listening`/`writing`/`speaking` as the module.
 - **correct === correctAnswer** always.
 - multiple_choice: `correct` lowercase letter; `options: ["a) …","b) …","c) …"]` (add `d)` for T3/T5). Strings, never objects.
 - **Answer distribution (important):** spread the correct answers across the letters. In a set of 5-7 MCQ, no single letter may be correct more than **twice**, and never put 3+ correct answers on the same letter. Do not default to `a` or `b`.
-- matching (T2/T4): `correct` a capital letter (A–H); `options` the labelled choices.
+- matching (T2/T4): `correct` a capital letter (A–H); `options` the labelled choices. T2 may use bare labels ("a) A") only because its 8 texts are passages labelled A–H; T4 options must contain the sentences.
 - gap_fill (T6, Listening T3): `correct` = the exact word/phrase; `options: []`.
 - writing/speaking: `correct: "rubric"`.
 
