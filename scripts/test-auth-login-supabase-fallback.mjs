@@ -23,16 +23,24 @@ function fail(label, detail) {
   failed += 1;
 }
 
-const reachableProd = await isSupabaseReachable(PROD_SB, 3000);
-if (reachableProd) {
-  fail('prod Supabase project should be unreachable in this incident');
+// The anon key is public: auth-config hands it to every browser.
+const prodCfg = await fetch('https://lexicoil.com/.netlify/functions/auth-config').then((r) => r.json());
+
+// Until 23 sep 2026 the probe sent no apikey, GoTrue answered 401 and every healthy
+// project read as unreachable — this check "passed" by asserting that lie.
+if (await isSupabaseReachable(PROD_SB, '', 3000)) {
+  fail('probe without anon key must not claim reachability');
 } else {
-  ok('prod Supabase DNS/health unreachable (expected)');
+  ok('probe without anon key → false (no request sent)');
 }
 
-const reachableOk = await isSupabaseReachable('https://example.supabase.co', 1500);
-// example.supabase.co may or may not resolve — only assert our prod ref is dead
-ok(`reachability probe returns boolean (${reachableOk})`);
+if (prodCfg.supabaseAnonKey) {
+  const reachableProd = await isSupabaseReachable(PROD_SB, prodCfg.supabaseAnonKey, 3000);
+  if (reachableProd) ok('prod Supabase health with anon key → reachable');
+  else fail('prod Supabase health with anon key', 'unreachable (project paused or key rotated?)');
+} else {
+  ok('prod auth-config exposes no anon key (client SDK off) — skip live health probe');
+}
 
 const env = readSupabaseEnv();
 ok(`readSupabaseEnv configured=${env.configured}`);
@@ -43,9 +51,9 @@ if (clientOff) fail('SUPABASE_CLIENT_AUTH=0 should disable client SDK');
 else ok('SUPABASE_CLIENT_AUTH=0 disables client SDK');
 delete process.env.SUPABASE_CLIENT_AUTH;
 
-const prodCfg = await fetch('https://lexicoil.com/.netlify/functions/auth-config').then((r) => r.json());
 console.log('\nProduction auth-config (live deploy, pre-push):', {
   supabase: prodCfg.supabase,
+  supabaseReachable: prodCfg.supabaseReachable,
   hasUrl: Boolean(prodCfg.supabaseUrl),
 });
 
