@@ -332,7 +332,9 @@ export const SENTENCE_END_RE =
   // After .!?: optional trailing quote (open or close). Standalone quote-as-boundary:
   // only German/French OPENERS („ « ‚) — NOT closers (“ »), else «… News“ Gesprochen»
   // is wrongly treated as sentence start (Hören T2 2026-07-10).
-  /[.!?:]\s*['"„«»‚‘’“”\u2018\u2019\u201c\u201d\u00ab\u00bb]?\s*$|[\u2013\u2014–—]\s*$|[„«‚\u201e\u201a]\s*$|(?<!\w)['"]\s*$/;
+  // A bullet at the start of a line (Schreiben A2 T2 Leitpunkte: newline, then • Fragen Sie …)
+  // also starts a sentence: without it, «möchten.» + bullet + «Fragen» read as modal + Fragen.
+  /[.!?:]\s*['"„«»‚‘’“”\u2018\u2019\u201c\u201d\u00ab\u00bb]?\s*$|[\u2013\u2014–—]\s*$|[„«‚\u201e\u201a]\s*$|(?<!\w)['"]\s*$|(?:^|\n)[ \t]*(?:[•·▪◦‣*]|-(?=[ \t]))[ \t]*$/;
 
 export const MCQ_OPTION_PREFIX_RE = /^([a-jA-J]\))\s+(.*)$/s;
 

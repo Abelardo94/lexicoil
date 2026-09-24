@@ -307,7 +307,7 @@ async function screenOralSingleTeilFiles(module, teil, blockedIds, level = 'B1')
     if (!part) continue;
     const gate = await isPartPoolReady(part.record, { semantic: false, skipSem2: true });
     if (!gate.ok) {
-      console.log(`  skip ${file} ${part.cell}: ${gate.issue || 'gate fail'}`);
+      console.log(`  skip ${file} ${part.cell}: ${gate.issue || gate.blocking?.[0]?.message || 'gate fail'}`);
       continue;
     }
     out.push(part);
@@ -315,17 +315,28 @@ async function screenOralSingleTeilFiles(module, teil, blockedIds, level = 'B1')
   return out;
 }
 
-async function screenOralSplitBundles(module, blockedIds, level = 'B1') {
+const PER_TEIL_ORAL_LEVELS = new Set(['A2', 'B2', 'C1']);
+
+/**
+ * Sets built from one-Teil files: the i-th passing part of every Teil. Files
+ * already used as full bundles are left out. Used to return a single set.
+ */
+async function screenOralSplitBundles(module, blockedIds, level = 'B1', excludeFiles = new Set()) {
   const lv = normalizeLevel(level);
   const teils = oralTeilsForLevel(module, lv);
   const byTeil = {};
   for (const teil of teils) {
-    byTeil[teil] = await screenOralSingleTeilFiles(module, teil, blockedIds, level);
+    byTeil[teil] = (await screenOralSingleTeilFiles(module, teil, blockedIds, level))
+      .filter((p) => !excludeFiles.has(p.file));
     if (!byTeil[teil].length) return [];
   }
-  const parts = teils.map((t) => byTeil[t][0]);
-  const fileKey = parts.map((p) => p.file).join('+');
-  return [{ file: fileKey, topic: parts[0].topic, parts, module, splitBundle: true }];
+  const count = Math.min(...teils.map((t) => byTeil[t].length));
+  const out = [];
+  for (let i = 0; i < count; i++) {
+    const parts = teils.map((t) => byTeil[t][i]);
+    out.push({ file: parts.map((p) => p.file).join('+'), topic: parts[0].topic, parts, module, splitBundle: true });
+  }
+  return out;
 }
 
 async function screenOralBundles(module, blockedIds, level = 'B1') {
@@ -335,6 +346,7 @@ async function screenOralBundles(module, blockedIds, level = 'B1') {
   const expected = expectedOralPartCount(module, level);
   const files = [...index.keys()].filter((f) => re.test(f)).sort();
   const bundles = [];
+  let singleTeilFiles = 0;
   for (const file of files) {
     if (isAssembleBlocked(file, blockedIds)) continue;
     const batch = JSON.parse(fs.readFileSync(index.get(file), 'utf8'));
@@ -345,21 +357,35 @@ async function screenOralBundles(module, blockedIds, level = 'B1') {
     }
     if (rawLevel !== normalizeLevel(level)) continue;
     const parts = oralBundleToParts(batch, file, module, level);
-    if (parts.length !== expected) continue;
+    if (parts.length !== expected) {
+      singleTeilFiles += 1;
+      continue;
+    }
     if (parts.some((p) => isAssembleBlocked(p.id, blockedIds))) continue;
     let allOk = true;
     for (const p of parts) {
       const gate = await isPartPoolReady(p.record, { semantic: false, skipSem2: true });
       if (!gate.ok) {
-        console.log(`  skip ${file} ${p.cell}: ${gate.issue || 'gate fail'}`);
+        console.log(`  skip ${file} ${p.cell}: ${gate.issue || gate.blocking?.[0]?.message || 'gate fail'}`);
         allOk = false;
         break;
       }
     }
     if (allOk) bundles.push({ file, topic: parts[0].topic, parts, module });
   }
-  if (!bundles.length && (lv === 'B2' || lv === 'C1')) {
-    return screenOralSplitBundles(module, blockedIds, level);
+  // A2/B2/C1 oral parts are generated one Teil per file, and those files never
+  // form a full bundle: they were skipped without a word, so de/A2 counted 4
+  // sets (the curated ones) with 10 Schreiben T1+T2 and 10 Sprechen T1/T2/T3
+  // sitting unused in pool-verified (23 sep 2026). Pair them into sets.
+  if (PER_TEIL_ORAL_LEVELS.has(lv)) {
+    const split = await screenOralSplitBundles(module, blockedIds, level, new Set(bundles.map((b) => b.file)));
+    if (singleTeilFiles) {
+      console.log(`  ${module}: ${singleTeilFiles} fichero(s) de un solo Teil → ${split.length} set(s) emparejados`);
+    }
+    return [...bundles, ...split];
+  }
+  if (singleTeilFiles) {
+    console.log(`  ${module}: ${singleTeilFiles} fichero(s) sin todos los Teile, no usados en ${lv}`);
   }
   return bundles;
 }

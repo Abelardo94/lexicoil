@@ -1,0 +1,2133 @@
+{
+  "_meta": {
+    "examNumber": 5,
+    "examId": "verified-de-A2-e5",
+    "generatedAt": "2026-09-23T20:07:32.462Z",
+    "purpose": "assembled from pool-verified only (official mode: A2 official parts)",
+    "assembleMode": "official",
+    "sourceRoot": "batches/ready/pool-verified/A2",
+    "capacityAtAssemble": 6,
+    "bottleneck": [
+      "lesen_4",
+      6
+    ],
+    "gate1": {
+      "ok": true,
+      "blocking": []
+    },
+    "partIds": {
+      "lesen_1": "lesen-t1-gemini-200",
+      "lesen_2": "lesen-t2-gemini-178",
+      "lesen_3": "lesen-t3-gemini-060",
+      "lesen_4": "lesen-t4-gemini-100",
+      "horen_1": "horen-t1-gemini-065",
+      "horen_2": "horen-t2-gemini-072",
+      "horen_3": "horen-t3-gemini-039",
+      "horen_4": "horen-t4-gemini-049",
+      "schreiben_1": "schreiben-gemini-057-t1",
+      "schreiben_2": "schreiben-gemini-058-t2",
+      "sprechen_1": "sprechen-t1-gemini-016-t1",
+      "sprechen_2": "sprechen-t2-gemini-016-t2",
+      "sprechen_3": "sprechen-t3-gemini-011-t3"
+    },
+    "topics": {
+      "lesen_1": "Sport",
+      "lesen_2": "Reisen",
+      "lesen_3": "Umwelt",
+      "lesen_4": "Gesundheit",
+      "horen_1": "Familie",
+      "horen_2": "Ernährung",
+      "horen_3": "Freizeit",
+      "horen_4": "Reisen",
+      "schreiben_1": "Medien",
+      "schreiben_2": "Stadtleben",
+      "sprechen_1": "Stadtleben",
+      "sprechen_2": "Verkehr",
+      "sprechen_3": "Konsum"
+    },
+    "sources": {
+      "lesen_1": "lesen-t1-gemini-200.json",
+      "lesen_2": "lesen-t2-gemini-178.json",
+      "lesen_3": "lesen-t3-gemini-060.json",
+      "lesen_4": "lesen-t4-gemini-100.json",
+      "horen_1": "horen-t1-gemini-065.json",
+      "horen_2": "horen-t2-gemini-072.json",
+      "horen_3": "horen-t3-gemini-039.json",
+      "horen_4": "horen-t4-gemini-049.json",
+      "schreiben_1": "schreiben-gemini-057.json",
+      "schreiben_2": "schreiben-gemini-058.json",
+      "sprechen_1": "sprechen-t1-gemini-016.json",
+      "sprechen_2": "sprechen-t2-gemini-016.json",
+      "sprechen_3": "sprechen-t3-gemini-011.json"
+    },
+    "poolCells": {
+      "lesen_1": {
+        "poolLevel": "A2",
+        "poolFile": "batches/ready/pool-verified/A2/lesen-t1-gemini-200.json",
+        "partId": "lesen-t1-gemini-200",
+        "declaredLevel": "A2"
+      },
+      "lesen_2": {
+        "poolLevel": "A2",
+        "poolFile": "batches/ready/pool-verified/A2/lesen-t2-gemini-178.json",
+        "partId": "lesen-t2-gemini-178",
+        "declaredLevel": "A2"
+      },
+      "lesen_3": {
+        "poolLevel": "A2",
+        "poolFile": "batches/ready/pool-verified/A2/lesen-t3-gemini-060.json",
+        "partId": "lesen-t3-gemini-060",
+        "declaredLevel": "A2"
+      },
+      "lesen_4": {
+        "poolLevel": "A2",
+        "poolFile": "batches/ready/pool-verified/A2/lesen-t4-gemini-100.json",
+        "partId": "lesen-t4-gemini-100",
+        "declaredLevel": "A2"
+      },
+      "horen_1": {
+        "poolLevel": "A2",
+        "poolFile": "batches/ready/pool-verified/A2/horen-t1-gemini-065.json",
+        "partId": "horen-t1-gemini-065",
+        "declaredLevel": "A2"
+      },
+      "horen_2": {
+        "poolLevel": "A2",
+        "poolFile": "batches/ready/pool-verified/A2/horen-t2-gemini-072.json",
+        "partId": "horen-t2-gemini-072",
+        "declaredLevel": "A2"
+      },
+      "horen_3": {
+        "poolLevel": "A2",
+        "poolFile": "batches/ready/pool-verified/A2/horen-t3-gemini-039.json",
+        "partId": "horen-t3-gemini-039",
+        "declaredLevel": "A2"
+      },
+      "horen_4": {
+        "poolLevel": "A2",
+        "poolFile": "batches/ready/pool-verified/A2/horen-t4-gemini-049.json",
+        "partId": "horen-t4-gemini-049",
+        "declaredLevel": "A2"
+      },
+      "schreiben_1": {
+        "poolLevel": "A2",
+        "poolFile": "batches/ready/pool-verified/A2/schreiben-gemini-057.json",
+        "partId": "schreiben-gemini-057-t1",
+        "declaredLevel": "A2"
+      },
+      "schreiben_2": {
+        "poolLevel": "A2",
+        "poolFile": "batches/ready/pool-verified/A2/schreiben-gemini-058.json",
+        "partId": "schreiben-gemini-058-t2",
+        "declaredLevel": "A2"
+      },
+      "sprechen_1": {
+        "poolLevel": "A2",
+        "poolFile": "batches/ready/pool-verified/A2/sprechen-t1-gemini-016.json",
+        "partId": "sprechen-t1-gemini-016-t1",
+        "declaredLevel": "A2"
+      },
+      "sprechen_2": {
+        "poolLevel": "A2",
+        "poolFile": "batches/ready/pool-verified/A2/sprechen-t2-gemini-016.json",
+        "partId": "sprechen-t2-gemini-016-t2",
+        "declaredLevel": "A2"
+      },
+      "sprechen_3": {
+        "poolLevel": "A2",
+        "poolFile": "batches/ready/pool-verified/A2/sprechen-t3-gemini-011.json",
+        "partId": "sprechen-t3-gemini-011-t3",
+        "declaredLevel": "A2"
+      }
+    }
+  },
+  "lang": "de",
+  "level": "A2",
+  "goetheFormat": true,
+  "exam": {
+    "lesenParts": [
+      {
+        "teil": 1,
+        "instruction": "",
+        "topicTag": "Sport",
+        "text": "In Musterstadt gibt es bald ein großes Sportfest für die ganze Familie. Am 15. Juni können alle Bürger von 10 bis 16 Uhr im Stadtpark mitmachen. Das Fest bietet viele verschiedene Aktivitäten. Kinder können Fußball spielen oder auf einem neuen Spielplatz klettern. Für Erwachsene gibt es einen Laufkurs und Yoga im freien. Auch ältere Menschen sind herzlich willkommen; für sie gibt es leichte Gymnastikübungen. Eine besondere Attraktion ist ein Fahrradparcours durch die schöne Landschaft um den Park. Man braucht keine Anmeldung für die meisten Angebote, nur für den Laufkurs muss man sich bis zum 10. Juni online registrieren. Alle Teilnehmer bekommen am Ende eine kleine Überraschung. Das Sportfest ist eine gute Möglichkeit, neue Sportarten auszuprobieren und Freunde zu treffen. Die Stadtverwaltung möchte, dass mehr Menschen aktiv sind und zusammen Sport machen. Es gibt auch einen kleinen Markt mit gesunden Snacks und Getränken. Der Eintritt ist frei.",
+        "textTitle": "Neues Sportfest für alle in Musterstadt",
+        "passageId": "gen-l1-d2d7048a",
+        "questions": [
+          {
+            "id": "gen-q-1-d2d7048a-1",
+            "module": "lesen",
+            "teil": 1,
+            "level": "A2",
+            "type": "multiple_choice",
+            "question": "Wann findet das Sportfest statt?",
+            "options": [
+              {
+                "key": "A",
+                "text": "Im Juli"
+              },
+              {
+                "key": "B",
+                "text": "Am 15. Juni"
+              },
+              {
+                "key": "C",
+                "text": "Jedes Wochenende"
+              }
+            ],
+            "correct": "b",
+            "correctAnswer": "b",
+            "explanation": "Im Text steht, dass das Sportfest am 15. Juni stattfindet.",
+            "passageId": "gen-l1-d2d7048a"
+          },
+          {
+            "id": "gen-q-1-d2d7048a-2",
+            "module": "lesen",
+            "teil": 1,
+            "level": "A2",
+            "type": "multiple_choice",
+            "question": "Wo können die Bürger Sport machen?",
+            "options": [
+              {
+                "key": "A",
+                "text": "Nur in der Sporthalle"
+              },
+              {
+                "key": "B",
+                "text": "Im Stadtpark"
+              },
+              {
+                "key": "C",
+                "text": "In verschiedenen Schulen"
+              }
+            ],
+            "correct": "b",
+            "correctAnswer": "b",
+            "explanation": "Der Text sagt, dass das Sportfest im Stadtpark ist.",
+            "passageId": "gen-l1-d2d7048a"
+          },
+          {
+            "id": "gen-q-1-d2d7048a-3",
+            "module": "lesen",
+            "teil": 1,
+            "level": "A2",
+            "type": "multiple_choice",
+            "question": "Was ist für den Laufkurs wichtig?",
+            "options": [
+              {
+                "key": "A",
+                "text": "Man braucht spezielle Kleidung."
+              },
+              {
+                "key": "B",
+                "text": "Man muss nichts vorbereiten."
+              },
+              {
+                "key": "C",
+                "text": "Man muss sich vorher anmelden."
+              }
+            ],
+            "correct": "c",
+            "correctAnswer": "c",
+            "explanation": "Für den Laufkurs muss man sich bis zum 10. Juni online registrieren.",
+            "passageId": "gen-l1-d2d7048a"
+          },
+          {
+            "id": "gen-q-1-d2d7048a-4",
+            "module": "lesen",
+            "teil": 1,
+            "level": "A2",
+            "type": "multiple_choice",
+            "question": "Was kostet der Eintritt zum Sportfest?",
+            "options": [
+              {
+                "key": "A",
+                "text": "Nur für Kinder ist es gratis"
+              },
+              {
+                "key": "B",
+                "text": "5 Euro für Erwachsene"
+              },
+              {
+                "key": "C",
+                "text": "Der Eintritt ist kostenlos"
+              }
+            ],
+            "correct": "c",
+            "correctAnswer": "c",
+            "explanation": "Im Text steht klar, dass der Eintritt frei ist.",
+            "passageId": "gen-l1-d2d7048a"
+          },
+          {
+            "id": "gen-q-1-d2d7048a-5",
+            "module": "lesen",
+            "teil": 1,
+            "level": "A2",
+            "type": "multiple_choice",
+            "question": "Welche Aktivität ist für Kinder gedacht?",
+            "options": [
+              {
+                "key": "A",
+                "text": "Fußball spielen"
+              },
+              {
+                "key": "B",
+                "text": "Leichte Gymnastik"
+              },
+              {
+                "key": "C",
+                "text": "Yoga im Freien"
+              }
+            ],
+            "correct": "a",
+            "correctAnswer": "a",
+            "explanation": "Der Text erwähnt, dass Kinder Fußball spielen können.",
+            "passageId": "gen-l1-d2d7048a"
+          }
+        ]
+      },
+      {
+        "teil": 2,
+        "instruction": "",
+        "topicTag": "Reisen",
+        "text": "Willkommen im Reisezentrum \"Globus\"! Hier finden Sie alle Informationen für Ihre nächste Reise und praktische Services.\n\nErdgeschoss:\nInformation & Empfang: Hier gibt es Broschüren und Beratung zu reisezielen.\nKoffer-Shop \"Pack & Go\": Kaufen Sie hier Koffer und Reisegepäck für das Ausland.\nCafé \"Weltreise\": Hier gibt es Kaffee und kleine Snacks.\n\n1. Obergeschoss:\nReisebüro \"Fernweh\": Buchen Sie hier Flüge, Hotels und Reisepakete.\nSprachschule \"Global Talk\": Lernen Sie Sätze für Ihr Reiseziel im Ausland.\nBuchhandlung \"ReiseLust\": Hier finden Sie Reiseführer und Landkarten.\n\n2. Obergeschoss:\nFahrkartenverkauf \"Bahn & Bus\": Kaufen Sie hier Tickets für Bahn und Bus.\nVisum-Service \"Grenzenlos\": Hier gibt es Hilfe für Visa-Anträge.\nGeldwechselstube \"Euro & Co.\": Wechseln Sie hier Ihr Geld.",
+        "textTitle": "",
+        "passageId": "gen-l2-3a9e2749-1",
+        "questions": [
+          {
+            "id": "gen-q-2-3a9e2749-1",
+            "module": "lesen",
+            "teil": 2,
+            "level": "A2",
+            "type": "multiple_choice",
+            "question": "Maria möchte einen neuen Koffer kaufen. In welchem Stock findet sie ein Geschäft dafür?",
+            "options": [
+              {
+                "key": "A",
+                "text": "im 1. Obergeschoss"
+              },
+              {
+                "key": "B",
+                "text": "in einem anderen Stock"
+              },
+              {
+                "key": "C",
+                "text": "im Erdgeschoss"
+              }
+            ],
+            "correct": "c",
+            "correctAnswer": "c",
+            "explanation": "Der Koffer-Shop \"Pack & Go\" befindet sich im Erdgeschoss. Dort kann Maria einen neuen Koffer kaufen.",
+            "passageId": "gen-l2-3a9e2749-1"
+          },
+          {
+            "id": "gen-q-2-3a9e2749-2",
+            "module": "lesen",
+            "teil": 2,
+            "level": "A2",
+            "type": "multiple_choice",
+            "question": "Herr Schmidt braucht ein Visum für seine Reise ins Ausland. Auf welcher Etage bekommt er Hilfe?",
+            "options": [
+              {
+                "key": "A",
+                "text": "im 2. Stock"
+              },
+              {
+                "key": "B",
+                "text": "im Erdgeschoss"
+              },
+              {
+                "key": "C",
+                "text": "in einem anderen Stock"
+              }
+            ],
+            "correct": "a",
+            "correctAnswer": "a",
+            "explanation": "Der Visum-Service \"Grenzenlos\" befindet sich im 2. Obergeschoss. Dort bekommt Herr Schmidt Hilfe für seinen Visa-Antrag.",
+            "passageId": "gen-l2-3a9e2749-1"
+          },
+          {
+            "id": "gen-q-2-3a9e2749-3",
+            "module": "lesen",
+            "teil": 2,
+            "level": "A2",
+            "type": "multiple_choice",
+            "question": "Lisa möchte einen Flug und ein Hotel buchen. In welchem Stock ist das Reisebüro?",
+            "options": [
+              {
+                "key": "A",
+                "text": "im Erdgeschoss"
+              },
+              {
+                "key": "B",
+                "text": "im 1. Obergeschoss"
+              },
+              {
+                "key": "C",
+                "text": "in einem anderen Stock"
+              }
+            ],
+            "correct": "b",
+            "correctAnswer": "b",
+            "explanation": "Das Reisebüro \"Fernweh\" befindet sich im 1. Obergeschoss. Dort kann Lisa Flüge und Hotels buchen.",
+            "passageId": "gen-l2-3a9e2749-1"
+          },
+          {
+            "id": "gen-q-2-3a9e2749-4",
+            "module": "lesen",
+            "teil": 2,
+            "level": "A2",
+            "type": "multiple_choice",
+            "question": "Sie möchten Geld für Ihre Reise wechseln. In welchem Stock befindet sich die Geldwechselstube?",
+            "options": [
+              {
+                "key": "A",
+                "text": "im 2. Stock"
+              },
+              {
+                "key": "B",
+                "text": "im Erdgeschoss"
+              },
+              {
+                "key": "C",
+                "text": "in einem anderen Stock"
+              }
+            ],
+            "correct": "a",
+            "correctAnswer": "a",
+            "explanation": "Die Geldwechselstube \"Euro & Co.\" ist im 2. Obergeschoss. Dort können Sie Ihr Geld wechseln.",
+            "passageId": "gen-l2-3a9e2749-1"
+          },
+          {
+            "id": "gen-q-2-3a9e2749-5",
+            "module": "lesen",
+            "teil": 2,
+            "level": "A2",
+            "type": "multiple_choice",
+            "question": "Ein Tourist braucht Informationen über verschiedene Reiseziele. In welchem Stock bekommt er persönliche Beratung?",
+            "options": [
+              {
+                "key": "A",
+                "text": "im 1. Stock"
+              },
+              {
+                "key": "B",
+                "text": "im Erdgeschoss"
+              },
+              {
+                "key": "C",
+                "text": "im 2. Stock"
+              }
+            ],
+            "correct": "b",
+            "correctAnswer": "b",
+            "explanation": "Der Tourist bekommt persönliche Beratung bei der Information & Empfang im Erdgeschoss.",
+            "passageId": "gen-l2-3a9e2749-1"
+          }
+        ]
+      },
+      {
+        "teil": 3,
+        "instruction": "",
+        "topicTag": "Umwelt",
+        "text": "Lieber Herr Keller,\nich hoffe, es geht Ihnen gut. Ich schreibe Ihnen heute, weil ich eine wichtige Sache besprechen möchte. Es geht um unseren Stadtpark.\n\nDie Situation im Park ist leider nicht sehr schön. Überall liegt Müll, und das ist schlecht für die Natur und unsere Umwelt. Ich habe mir Gedanken gemacht und einen Vorschlag.\n\nIch möchte ein kleines Projekt starten: eine Aufräumaktion im Park. Das wäre eine gute Aufgabe für uns alle und ein Vorteil für die Zukunft unseres Viertels. Ich habe schon mit ein paar Nachbarn gesprochen, und sie finden die Idee gut.\n\nWir könnten uns am nächsten Samstag, den 20. Mai, um 10 Uhr treffen. Der Treffpunkt ist direkt am Haupteingang des Parks. Bitte bringen Sie feste Handschuhe und vielleicht einen kleinen Eimer mit. Müllsäcke organisiere ich.\n\nEs ist wichtig, dass wir etwas tun. Ich hoffe sehr, Sie können dabei sein. Ihre Anmeldung ist nicht nötig, kommen Sie einfach vorbei.\n\nViele Grüße,\nIhre Nachbarin Frau Lehmann",
+        "textTitle": "",
+        "ads": [],
+        "passageId": "gen-l3-f144eac9-1",
+        "passages": [
+          {
+            "id": "gen-l3-f144eac9-1",
+            "text": "Lieber Herr Keller,\nich hoffe, es geht Ihnen gut. Ich schreibe Ihnen heute, weil ich eine wichtige Sache besprechen möchte. Es geht um unseren Stadtpark.\n\nDie Situation im Park ist leider nicht sehr schön. Überall liegt Müll, und das ist schlecht für die Natur und unsere Umwelt. Ich habe mir Gedanken gemacht und einen Vorschlag.\n\nIch möchte ein kleines Projekt starten: eine Aufräumaktion im Park. Das wäre eine gute Aufgabe für uns alle und ein Vorteil für die Zukunft unseres Viertels. Ich habe schon mit ein paar Nachbarn gesprochen, und sie finden die Idee gut.\n\nWir könnten uns am nächsten Samstag, den 20. Mai, um 10 Uhr treffen. Der Treffpunkt ist direkt am Haupteingang des Parks. Bitte bringen Sie feste Handschuhe und vielleicht einen kleinen Eimer mit. Müllsäcke organisiere ich.\n\nEs ist wichtig, dass wir etwas tun. Ich hoffe sehr, Sie können dabei sein. Ihre Anmeldung ist nicht nötig, kommen Sie einfach vorbei.\n\nViele Grüße,\nIhre Nachbarin Frau Lehmann",
+            "title": ""
+          }
+        ],
+        "questions": [
+          {
+            "id": "gen-q-3-f144eac9-1",
+            "module": "lesen",
+            "teil": 3,
+            "level": "A2",
+            "type": "multiple_choice",
+            "question": "Was ist das Problem im Stadtpark?",
+            "options": [
+              {
+                "key": "A",
+                "text": "Der Park ist schmutzig."
+              },
+              {
+                "key": "B",
+                "text": "Die Bäume sind zu alt."
+              },
+              {
+                "key": "C",
+                "text": "Es gibt zu viele Tiere."
+              }
+            ],
+            "correct": "a",
+            "correctAnswer": "a",
+            "explanation": "Frau Lehmann schreibt, dass überall Müll liegt und die Situation nicht schön ist.",
+            "passageId": "gen-l3-f144eac9-1"
+          },
+          {
+            "id": "gen-q-3-f144eac9-2",
+            "module": "lesen",
+            "teil": 3,
+            "level": "A2",
+            "type": "multiple_choice",
+            "question": "Was schlägt Frau Lehmann vor?",
+            "options": [
+              {
+                "key": "A",
+                "text": "Ein Picknick mit den Nachbarn."
+              },
+              {
+                "key": "B",
+                "text": "Eine neue Bank für den Park."
+              },
+              {
+                "key": "C",
+                "text": "Eine Aktion, um den Park zu reinigen."
+              }
+            ],
+            "correct": "c",
+            "correctAnswer": "c",
+            "explanation": "Frau Lehmann möchte ein Projekt starten, um den Park sauber zu machen.",
+            "passageId": "gen-l3-f144eac9-1"
+          },
+          {
+            "id": "gen-q-3-f144eac9-3",
+            "module": "lesen",
+            "teil": 3,
+            "level": "A2",
+            "type": "multiple_choice",
+            "question": "Wann soll die Aktion stattfinden?",
+            "options": [
+              {
+                "key": "A",
+                "text": "Am Wochenende, am zwanzigsten Tag im Mai, vormittags."
+              },
+              {
+                "key": "B",
+                "text": "Jeden Tag in der Woche um 10 Uhr."
+              },
+              {
+                "key": "C",
+                "text": "Am nächsten Sonntag, aber die genaue Uhrzeit ist unbekannt."
+              }
+            ],
+            "correct": "a",
+            "correctAnswer": "a",
+            "explanation": "Frau Lehmann schlägt vor, sich am nächsten Samstag, den 20. Mai, um 10 Uhr zu treffen.",
+            "passageId": "gen-l3-f144eac9-1"
+          },
+          {
+            "id": "gen-q-3-f144eac9-4",
+            "module": "lesen",
+            "teil": 3,
+            "level": "A2",
+            "type": "multiple_choice",
+            "question": "Was soll Herr Keller mitbringen?",
+            "options": [
+              {
+                "key": "A",
+                "text": "Müllsäcke und Getränke für die Helfer."
+              },
+              {
+                "key": "B",
+                "text": "Schutzhandschuhe und ein kleines Gefäß."
+              },
+              {
+                "key": "C",
+                "text": "Eine Kamera und ein Notizbuch für Notizen."
+              }
+            ],
+            "correct": "b",
+            "correctAnswer": "b",
+            "explanation": "Frau Lehmann bittet ihn, feste Handschuhe und einen kleinen Eimer mitzubringen.",
+            "passageId": "gen-l3-f144eac9-1"
+          },
+          {
+            "id": "gen-q-3-f144eac9-5",
+            "module": "lesen",
+            "teil": 3,
+            "level": "A2",
+            "type": "multiple_choice",
+            "question": "Muss man sich für die Aktion anmelden?",
+            "options": [
+              {
+                "key": "A",
+                "text": "Nur wenn man Müllsäcke braucht."
+              },
+              {
+                "key": "B",
+                "text": "Ja, eine Anmeldung ist nötig."
+              },
+              {
+                "key": "C",
+                "text": "Nein, man kann einfach kommen."
+              }
+            ],
+            "correct": "c",
+            "correctAnswer": "c",
+            "explanation": "Frau Lehmann schreibt, dass eine Anmeldung nicht nötig ist und man einfach vorbeikommen kann.",
+            "passageId": "gen-l3-f144eac9-1"
+          }
+        ]
+      },
+      {
+        "teil": 4,
+        "instruction": "",
+        "topicTag": "Gesundheit",
+        "passages": [
+          {
+            "id": "gen-l4-63cd5fe8-a",
+            "module": "lesen",
+            "teil": 4,
+            "level": "A2",
+            "title": "Fit und Aktiv starten!",
+            "text": "Möchten Sie mehr Sport machen, wissen aber nicht wie? Unser Anfänger-Kurs hilft Ihnen, fit zu werden. Wir trainieren zweimal wöchentlich am Abend. Keine Vorkenntnisse nötig. Melden Sie sich jetzt an und verbessern Sie Ihre Gesundheit!"
+          },
+          {
+            "id": "gen-l4-63cd5fe8-b",
+            "module": "lesen",
+            "teil": 4,
+            "level": "A2",
+            "title": "Gesund essen leicht gemacht",
+            "text": "Lernen Sie in unserem Seminar, wie eine ausgewogene Ernährung Ihre Energie steigert. Wir zeigen Ihnen einfache Rezepte und geben Tipps für den Alltag. Start nächste Woche, samstags von 10 bis 14 Uhr. Ein großer Vorteil für Ihre Zukunft!"
+          },
+          {
+            "id": "gen-l4-63cd5fe8-c",
+            "module": "lesen",
+            "teil": 4,
+            "level": "A2",
+            "title": "Ruhe finden mit Yoga",
+            "text": "Suchen Sie Entspannung und möchten Stress abbauen? Unser Yoga-Kurs bietet Ihnen eine Stunde Ruhe und Bewegung. Jeden Dienstagabend. Ideal für Anfänger. Verbessern Sie Ihr Wohlbefinden und lernen Sie, täglich zu entspannen."
+          },
+          {
+            "id": "gen-l4-63cd5fe8-d",
+            "module": "lesen",
+            "teil": 4,
+            "level": "A2",
+            "title": "Ihr jährlicher Gesundheits-Check.",
+            "text": "Denken Sie an Ihre Vorsorge! Unser Krankenhaus bietet kostenlose Gesundheits-Checks für alle Bürger an. Eine wichtige Aufgabe für Ihre Gesundheit. Vereinbaren Sie einen Termin für eine Untersuchung. Wir beraten Sie gerne zu Ihrer Situation."
+          },
+          {
+            "id": "gen-l4-63cd5fe8-e",
+            "module": "lesen",
+            "teil": 4,
+            "level": "A2",
+            "title": "Bewegung für Senioren",
+            "text": "Bleiben Sie aktiv im Alter! Unsere Gymnastikgruppe trifft sich jeden Mittwochvormittag. Sanfte Übungen stärken Muskeln und Gelenke. Kein Leistungsdruck. Der Transport kann organisiert werden. Eine gute Möglichkeit, fit zu bleiben."
+          },
+          {
+            "id": "gen-l4-63cd5fe8-f",
+            "module": "lesen",
+            "teil": 4,
+            "level": "A2",
+            "title": "Erste Hilfe lernen",
+            "text": "Was tun im Notfall? In unserem Kurs lernen Sie die wichtigsten Maßnahmen der ersten Hilfe. Für jeden wichtig! Termine am Wochenende. Keine medizinischen Vorkenntnisse nötig. Schützen Sie sich und andere. Anmeldung online."
+          }
+        ],
+        "ads": [
+          {
+            "key": "a",
+            "title": "Fit und Aktiv starten!",
+            "text": "Möchten Sie mehr Sport machen, wissen aber nicht wie? Unser Anfänger-Kurs hilft Ihnen, fit zu werden. Wir trainieren zweimal wöchentlich am Abend. Keine Vorkenntnisse nötig. Melden Sie sich jetzt an und verbessern Sie Ihre Gesundheit!",
+            "textTitle": "Fit und Aktiv starten!",
+            "passageId": "gen-l4-63cd5fe8-a"
+          },
+          {
+            "key": "b",
+            "title": "Gesund essen leicht gemacht",
+            "text": "Lernen Sie in unserem Seminar, wie eine ausgewogene Ernährung Ihre Energie steigert. Wir zeigen Ihnen einfache Rezepte und geben Tipps für den Alltag. Start nächste Woche, samstags von 10 bis 14 Uhr. Ein großer Vorteil für Ihre Zukunft!",
+            "textTitle": "Gesund essen leicht gemacht",
+            "passageId": "gen-l4-63cd5fe8-b"
+          },
+          {
+            "key": "c",
+            "title": "Ruhe finden mit Yoga",
+            "text": "Suchen Sie Entspannung und möchten Stress abbauen? Unser Yoga-Kurs bietet Ihnen eine Stunde Ruhe und Bewegung. Jeden Dienstagabend. Ideal für Anfänger. Verbessern Sie Ihr Wohlbefinden und lernen Sie, täglich zu entspannen.",
+            "textTitle": "Ruhe finden mit Yoga",
+            "passageId": "gen-l4-63cd5fe8-c"
+          },
+          {
+            "key": "d",
+            "title": "Ihr jährlicher Gesundheits-Check.",
+            "text": "Denken Sie an Ihre Vorsorge! Unser Krankenhaus bietet kostenlose Gesundheits-Checks für alle Bürger an. Eine wichtige Aufgabe für Ihre Gesundheit. Vereinbaren Sie einen Termin für eine Untersuchung. Wir beraten Sie gerne zu Ihrer Situation.",
+            "textTitle": "Ihr jährlicher Gesundheits-Check.",
+            "passageId": "gen-l4-63cd5fe8-d"
+          },
+          {
+            "key": "e",
+            "title": "Bewegung für Senioren",
+            "text": "Bleiben Sie aktiv im Alter! Unsere Gymnastikgruppe trifft sich jeden Mittwochvormittag. Sanfte Übungen stärken Muskeln und Gelenke. Kein Leistungsdruck. Der Transport kann organisiert werden. Eine gute Möglichkeit, fit zu bleiben.",
+            "textTitle": "Bewegung für Senioren",
+            "passageId": "gen-l4-63cd5fe8-e"
+          },
+          {
+            "key": "f",
+            "title": "Erste Hilfe lernen",
+            "text": "Was tun im Notfall? In unserem Kurs lernen Sie die wichtigsten Maßnahmen der ersten Hilfe. Für jeden wichtig! Termine am Wochenende. Keine medizinischen Vorkenntnisse nötig. Schützen Sie sich und andere. Anmeldung online.",
+            "textTitle": "Erste Hilfe lernen",
+            "passageId": "gen-l4-63cd5fe8-f"
+          }
+        ],
+        "questions": [
+          {
+            "id": "gen-q-4-63cd5fe8-1",
+            "module": "lesen",
+            "teil": 4,
+            "level": "A2",
+            "type": "matching",
+            "question": "Frau Müller ist 65 Jahre alt und möchte nach einer Operation wieder sanft trainieren. Sie braucht vielleicht Hilfe beim Transport. Welche Anzeige passt?",
+            "signText": "",
+            "correct": "e",
+            "correctAnswer": "e",
+            "explanation": "Die Anzeige e beschreibt Gymnastik für Senioren und erwähnt Transport.",
+            "options": [
+              "a) a",
+              "b) b",
+              "c) c",
+              "d) d",
+              "e) e",
+              "f) f",
+              "g) X"
+            ]
+          },
+          {
+            "id": "gen-q-4-63cd5fe8-2",
+            "module": "lesen",
+            "teil": 4,
+            "level": "A2",
+            "type": "matching",
+            "question": "Herr Schmidt möchte wissen, wie er im Notfall schnell helfen kann. Er sucht einen Kurs für wichtige Maßnahmen. Welche Anzeige passt?",
+            "signText": "",
+            "correct": "f",
+            "correctAnswer": "f",
+            "explanation": "Die Anzeige f bietet einen Erste-Hilfe-Kurs an.",
+            "options": [
+              "a) a",
+              "b) b",
+              "c) c",
+              "d) d",
+              "e) e",
+              "f) f",
+              "g) X"
+            ]
+          },
+          {
+            "id": "gen-q-4-63cd5fe8-3",
+            "module": "lesen",
+            "teil": 4,
+            "level": "A2",
+            "type": "matching",
+            "question": "Lisa ist 30 Jahre alt und hat oft Stress. Sie möchte lernen, wie sie sich entspannen und mehr Ruhe im Alltag finden kann. Welche Anzeige passt?",
+            "signText": "",
+            "correct": "c",
+            "correctAnswer": "c",
+            "explanation": "Die Anzeige c ist ein Yoga-Kurs zur Entspannung.",
+            "options": [
+              "a) a",
+              "b) b",
+              "c) c",
+              "d) d",
+              "e) e",
+              "f) f",
+              "g) X"
+            ]
+          },
+          {
+            "id": "gen-q-4-63cd5fe8-4",
+            "module": "lesen",
+            "teil": 4,
+            "level": "A2",
+            "type": "matching",
+            "question": "Familie Weber möchte gesünder essen und sucht einfache Tipps und neue Rezepte für den Alltag. Welche Anzeige passt?",
+            "signText": "",
+            "correct": "b",
+            "correctAnswer": "b",
+            "explanation": "Die Anzeige b lehrt gesunde Ernährung und Rezepte.",
+            "options": [
+              "a) a",
+              "b) b",
+              "c) c",
+              "d) d",
+              "e) e",
+              "f) f",
+              "g) X"
+            ]
+          },
+          {
+            "id": "gen-q-4-63cd5fe8-5",
+            "module": "lesen",
+            "teil": 4,
+            "level": "A2",
+            "type": "matching",
+            "question": "Herr Meier sucht eine neue Wohnung mit drei Zimmern in der Stadt. Keine Anzeige passt. Markieren Sie X.",
+            "signText": "",
+            "correct": "X",
+            "correctAnswer": "X",
+            "explanation": "Keine Anzeige passt zu einer Wohnungssuche.",
+            "options": [
+              "a) a",
+              "b) b",
+              "c) c",
+              "d) d",
+              "e) e",
+              "f) f",
+              "g) X"
+            ]
+          }
+        ]
+      }
+    ],
+    "horenParts": [
+      {
+        "teil": 1,
+        "instruction": "",
+        "topicTag": "Familie",
+        "segments": [
+          {
+            "passageId": "gen-p-h1-0594be5f-s1",
+            "label": "Text 1",
+            "text": "Liebe Kundinnen und Kunden, herzlich willkommen zu unserem Familientag! Heute gibt es viele Spiele für Kinder und ein kleines Café für die Eltern. Tom und Katja helfen Ihnen gerne bei Fragen. Der Familientag beginnt um zehn Uhr und endet um siebzehn Uhr. Wir wünschen Ihnen viel Spaß!",
+            "transcript": "Liebe Kundinnen und Kunden, herzlich willkommen zu unserem Familientag! Heute gibt es viele Spiele für Kinder und ein kleines Café für die Eltern. Tom und Katja helfen Ihnen gerne bei Fragen. Der Familientag beginnt um zehn Uhr und endet um siebzehn Uhr. Wir wünschen Ihnen viel Spaß!",
+            "questions": [
+              {
+                "id": "gen-q-h1-0594be5f-q1",
+                "module": "horen",
+                "teil": 1,
+                "lang": "de",
+                "level": "A2",
+                "type": "multiple_choice",
+                "question": "Was ist heute im Zentrum geplant?",
+                "options": [
+                  "a) Ein Tag für die ganze Familie.",
+                  "b) Ein Kurs für Kinder und Erwachsene.",
+                  "c) Ein Treffen nur für Eltern."
+                ],
+                "correct": "a",
+                "correctAnswer": "a",
+                "explanation": "Die Ansage informiert über einen Familientag mit Spielen für Kinder und einem Café für Eltern.",
+                "segmentLabel": "Text 1",
+                "passageId": "gen-p-h1-0594be5f-s1",
+                "vocabularyTags": [
+                  "Familie",
+                  "Zentrum"
+                ],
+                "grammarTags": [
+                  "g-de-a2-perfekt",
+                  "g-de-a2-trennbar",
+                  "g-de-a2-dat-akk"
+                ]
+              }
+            ]
+          },
+          {
+            "passageId": "gen-p-h1-0594be5f-s2",
+            "label": "Text 2",
+            "text": "Hallo Jana, hier ist Moritz. Ich wollte dich kurz anrufen wegen unseres Abendessens am Samstag. Meine Eltern kommen auch. Könntest du bitte noch den Salat machen? Ich kümmere mich um den Hauptgang. Ruf mich bitte zurück, wenn du Zeit hast. Danke!",
+            "transcript": "Hallo Jana, hier ist Moritz. Ich wollte dich kurz anrufen wegen unseres Abendessens am Samstag. Meine Eltern kommen auch. Könntest du bitte noch den Salat machen? Ich kümmere mich um den Hauptgang. Ruf mich bitte zurück, wenn du Zeit hast. Danke!",
+            "questions": [
+              {
+                "id": "gen-q-h1-0594be5f-q2",
+                "module": "horen",
+                "teil": 1,
+                "lang": "de",
+                "level": "A2",
+                "type": "multiple_choice",
+                "question": "Was soll Jana für das Abendessen vorbereiten?",
+                "options": [
+                  "a) Die Getränke für die Familie.",
+                  "b) Den Hauptgang für die Gäste.",
+                  "c) Einen Salat für alle."
+                ],
+                "correct": "c",
+                "correctAnswer": "c",
+                "explanation": "Moritz bittet Jana, den Salat für das gemeinsame Abendessen mit den Eltern zu machen.",
+                "segmentLabel": "Text 2",
+                "passageId": "gen-p-h1-0594be5f-s2",
+                "vocabularyTags": [
+                  "vorbereiten",
+                  "abendessen",
+                  "Salat"
+                ],
+                "grammarTags": [
+                  "g-de-a2-modal",
+                  "g-de-a2-trennbar",
+                  "g-de-a2-dat-akk"
+                ]
+              }
+            ]
+          },
+          {
+            "passageId": "gen-p-h1-0594be5f-s3",
+            "label": "Text 3",
+            "text": "Willkommen zu unserem kurzen Alltagstipp! Heute sprechen wir über Aufgaben im Haushalt. Es ist wichtig, dass alle in der Familie helfen. Philipp und Sara haben zum Beispiel einen Plan für die Woche. So ist die Situation für jeden klar und es gibt weniger Streit. Versuchen Sie es doch auch!",
+            "transcript": "Willkommen zu unserem kurzen Alltagstipp! Heute sprechen wir über Aufgaben im Haushalt. Es ist wichtig, dass alle in der Familie helfen. Philipp und Sara haben zum Beispiel einen Plan für die Woche. So ist die Situation für jeden klar und es gibt weniger Streit. Versuchen Sie es doch auch!",
+            "questions": [
+              {
+                "id": "gen-q-h1-0594be5f-q3",
+                "module": "horen",
+                "teil": 1,
+                "lang": "de",
+                "level": "A2",
+                "type": "multiple_choice",
+                "question": "Worum geht es in dem Tipp?",
+                "options": [
+                  "a) Um neue Ideen für die Freizeit.",
+                  "b) Um einen Wochenplan für die Arbeit.",
+                  "c) Um die Verteilung der Hausarbeit."
+                ],
+                "correct": "c",
+                "correctAnswer": "c",
+                "explanation": "Der Tipp handelt davon, wie man die Aufgaben im Haushalt gerecht in der Familie aufteilt.",
+                "segmentLabel": "Text 3",
+                "passageId": "gen-p-h1-0594be5f-s3",
+                "vocabularyTags": [
+                  "Verteilung",
+                  "Hausarbeit"
+                ],
+                "grammarTags": [
+                  "g-de-a2-trennbar",
+                  "g-de-a2-dat-akk"
+                ]
+              }
+            ]
+          },
+          {
+            "passageId": "gen-p-h1-0594be5f-s4",
+            "label": "Text 4",
+            "text": "Wichtiger Hinweis für alle Besucher des Einkaufszentrums! Im ersten Stock finden Sie jetzt einen neuen Spielbereich für kleine Kinder. Er ist direkt neben dem Café. Eltern können dort ihre Kinder spielen lassen und entspannt einen Kaffee trinken. Tim und Sophies Kinder lieben es schon! Geöffnet von zehn bis achtzehn Uhr.",
+            "transcript": "Wichtiger Hinweis für alle Besucher des Einkaufszentrums! Im ersten Stock finden Sie jetzt einen neuen Spielbereich für kleine Kinder. Er ist direkt neben dem Café. Eltern können dort ihre Kinder spielen lassen und entspannt einen Kaffee trinken. Tim und Sophies Kinder lieben es schon! Geöffnet von zehn bis achtzehn Uhr.",
+            "questions": [
+              {
+                "id": "gen-q-h1-0594be5f-q4",
+                "module": "horen",
+                "teil": 1,
+                "lang": "de",
+                "level": "A2",
+                "type": "multiple_choice",
+                "question": "Wo befindet sich der neue Spielbereich?",
+                "options": [
+                  "a) Im Erdgeschoss, weit weg vom Café.",
+                  "b) Auf der ersten Etage, gleich am Café.",
+                  "c) Im zweiten Stock, im Restaurant."
+                ],
+                "correct": "b",
+                "correctAnswer": "b",
+                "explanation": "Der Spielbereich ist im ersten Stock und befindet sich direkt neben dem Café.",
+                "segmentLabel": "Text 4",
+                "passageId": "gen-p-h1-0594be5f-s4",
+                "vocabularyTags": [
+                  "Spielbereich",
+                  "gleich",
+                  "Etage"
+                ],
+                "grammarTags": [
+                  "g-de-a2-dat-akk"
+                ]
+              }
+            ]
+          },
+          {
+            "passageId": "gen-p-h1-0594be5f-s5",
+            "label": "Text 5",
+            "text": "Guten Tag, hier ist Niklas. Ich wollte Laura Bescheid geben, dass unser Baby gut angekommen ist! Es ist ein Junge und er ist sehr süß. Laura, wir sind jetzt im Krankenhaus, aber morgen sind wir wieder in unserer Wohnung. Wir freuen uns schon auf deinen Besuch! Bis bald!",
+            "transcript": "Guten Tag, hier ist Niklas. Ich wollte Laura Bescheid geben, dass unser Baby gut angekommen ist! Es ist ein Junge und er ist sehr süß. Laura, wir sind jetzt im Krankenhaus, aber morgen sind wir wieder in unserer Wohnung. Wir freuen uns schon auf deinen Besuch! Bis bald!",
+            "questions": [
+              {
+                "id": "gen-q-h1-0594be5f-q5",
+                "module": "horen",
+                "teil": 1,
+                "lang": "de",
+                "level": "A2",
+                "type": "multiple_choice",
+                "question": "Was ist die Neuigkeit von Niklas?",
+                "options": [
+                  "a) Er hat eine neue Wohnung gefunden.",
+                  "b) Sein Baby ist geboren.",
+                  "c) Er ist im Krankenhaus und braucht Hilfe."
+                ],
+                "correct": "b",
+                "correctAnswer": "b",
+                "explanation": "Niklas teilt Laura mit, dass sein Baby geboren wurde und es ihm gut geht.",
+                "segmentLabel": "Text 5",
+                "passageId": "gen-p-h1-0594be5f-s5",
+                "vocabularyTags": [
+                  "Neuigkeit",
+                  "Niklas",
+                  "gebor"
+                ],
+                "grammarTags": [
+                  "g-de-a2-nebensatz",
+                  "g-de-a2-perfekt",
+                  "g-de-a2-trennbar",
+                  "g-de-a2-dat-akk"
+                ]
+              }
+            ]
+          }
+        ],
+        "questions": [
+          {
+            "id": "gen-q-h1-0594be5f-q1",
+            "module": "horen",
+            "teil": 1,
+            "lang": "de",
+            "level": "A2",
+            "type": "multiple_choice",
+            "question": "Was ist heute im Zentrum geplant?",
+            "options": [
+              "a) Ein Tag für die ganze Familie.",
+              "b) Ein Kurs für Kinder und Erwachsene.",
+              "c) Ein Treffen nur für Eltern."
+            ],
+            "correct": "a",
+            "correctAnswer": "a",
+            "explanation": "Die Ansage informiert über einen Familientag mit Spielen für Kinder und einem Café für Eltern.",
+            "segmentLabel": "Text 1",
+            "passageId": "gen-p-h1-0594be5f-s1",
+            "vocabularyTags": [
+              "Familie",
+              "Zentrum"
+            ],
+            "grammarTags": [
+              "g-de-a2-perfekt",
+              "g-de-a2-trennbar",
+              "g-de-a2-dat-akk"
+            ]
+          },
+          {
+            "id": "gen-q-h1-0594be5f-q2",
+            "module": "horen",
+            "teil": 1,
+            "lang": "de",
+            "level": "A2",
+            "type": "multiple_choice",
+            "question": "Was soll Jana für das Abendessen vorbereiten?",
+            "options": [
+              "a) Die Getränke für die Familie.",
+              "b) Den Hauptgang für die Gäste.",
+              "c) Einen Salat für alle."
+            ],
+            "correct": "c",
+            "correctAnswer": "c",
+            "explanation": "Moritz bittet Jana, den Salat für das gemeinsame Abendessen mit den Eltern zu machen.",
+            "segmentLabel": "Text 2",
+            "passageId": "gen-p-h1-0594be5f-s2",
+            "vocabularyTags": [
+              "vorbereiten",
+              "abendessen",
+              "Salat"
+            ],
+            "grammarTags": [
+              "g-de-a2-modal",
+              "g-de-a2-trennbar",
+              "g-de-a2-dat-akk"
+            ]
+          },
+          {
+            "id": "gen-q-h1-0594be5f-q3",
+            "module": "horen",
+            "teil": 1,
+            "lang": "de",
+            "level": "A2",
+            "type": "multiple_choice",
+            "question": "Worum geht es in dem Tipp?",
+            "options": [
+              "a) Um neue Ideen für die Freizeit.",
+              "b) Um einen Wochenplan für die Arbeit.",
+              "c) Um die Verteilung der Hausarbeit."
+            ],
+            "correct": "c",
+            "correctAnswer": "c",
+            "explanation": "Der Tipp handelt davon, wie man die Aufgaben im Haushalt gerecht in der Familie aufteilt.",
+            "segmentLabel": "Text 3",
+            "passageId": "gen-p-h1-0594be5f-s3",
+            "vocabularyTags": [
+              "Verteilung",
+              "Hausarbeit"
+            ],
+            "grammarTags": [
+              "g-de-a2-trennbar",
+              "g-de-a2-dat-akk"
+            ]
+          },
+          {
+            "id": "gen-q-h1-0594be5f-q4",
+            "module": "horen",
+            "teil": 1,
+            "lang": "de",
+            "level": "A2",
+            "type": "multiple_choice",
+            "question": "Wo befindet sich der neue Spielbereich?",
+            "options": [
+              "a) Im Erdgeschoss, weit weg vom Café.",
+              "b) Auf der ersten Etage, gleich am Café.",
+              "c) Im zweiten Stock, im Restaurant."
+            ],
+            "correct": "b",
+            "correctAnswer": "b",
+            "explanation": "Der Spielbereich ist im ersten Stock und befindet sich direkt neben dem Café.",
+            "segmentLabel": "Text 4",
+            "passageId": "gen-p-h1-0594be5f-s4",
+            "vocabularyTags": [
+              "Spielbereich",
+              "gleich",
+              "Etage"
+            ],
+            "grammarTags": [
+              "g-de-a2-dat-akk"
+            ]
+          },
+          {
+            "id": "gen-q-h1-0594be5f-q5",
+            "module": "horen",
+            "teil": 1,
+            "lang": "de",
+            "level": "A2",
+            "type": "multiple_choice",
+            "question": "Was ist die Neuigkeit von Niklas?",
+            "options": [
+              "a) Er hat eine neue Wohnung gefunden.",
+              "b) Sein Baby ist geboren.",
+              "c) Er ist im Krankenhaus und braucht Hilfe."
+            ],
+            "correct": "b",
+            "correctAnswer": "b",
+            "explanation": "Niklas teilt Laura mit, dass sein Baby geboren wurde und es ihm gut geht.",
+            "segmentLabel": "Text 5",
+            "passageId": "gen-p-h1-0594be5f-s5",
+            "vocabularyTags": [
+              "Neuigkeit",
+              "Niklas",
+              "gebor"
+            ],
+            "grammarTags": [
+              "g-de-a2-nebensatz",
+              "g-de-a2-perfekt",
+              "g-de-a2-trennbar",
+              "g-de-a2-dat-akk"
+            ]
+          }
+        ],
+        "transcript": "Liebe Kundinnen und Kunden, herzlich willkommen zu unserem Familientag! Heute gibt es viele Spiele für Kinder und ein kleines Café für die Eltern. Tom und Katja helfen Ihnen gerne bei Fragen. Der Familientag beginnt um zehn Uhr und endet um siebzehn Uhr. Wir wünschen Ihnen viel Spaß!"
+      },
+      {
+        "teil": 2,
+        "instruction": "",
+        "topicTag": "Ernährung",
+        "segments": [
+          {
+            "passageId": "gen-p-h2-9da0c8bf-s1",
+            "label": "Wochenpläne",
+            "text": "Anna: Hallo Tom! Wie geht's dir? Hast du schon Pläne für die Woche?\nTom: Hallo Anna! Mir geht's gut, danke. Ja, ich habe einiges vor. Am Montag gehe ich zum Deutschkurs. Ich muss noch viel lernen.\nAnna: Oh, das ist wichtig! Ich habe am Dienstag Zeit. Ich möchte Fahrrad fahren, wenn das Wetter gut ist.\nTom: Klingt super! Am Mittwoch treffe ich Freunde in einem Café. Wir wollen über unsere Reisepläne sprechen.\nAnna: Schön! Ich muss am Donnerstag etwas für meine Fitness tun. Ich gehe ins Fitnessstudio.\nTom: Gut für dich! Und am Freitag? Hast du da schon etwas geplant?\nAnna: Ja, am Freitag will ich ein neues Rezept ausprobieren. Ich werde zu Hause kochen. Vielleicht eine italienische Suppe.\nTom: Lecker! Dann wünsche ich dir eine schöne Woche!\nAnna: Dir auch, Tom!",
+            "transcript": "Anna: Hallo Tom! Wie geht's dir? Hast du schon Pläne für die Woche?\nTom: Hallo Anna! Mir geht's gut, danke. Ja, ich habe einiges vor. Am Montag gehe ich zum Deutschkurs. Ich muss noch viel lernen.\nAnna: Oh, das ist wichtig! Ich habe am Dienstag Zeit. Ich möchte Fahrrad fahren, wenn das Wetter gut ist.\nTom: Klingt super! Am Mittwoch treffe ich Freunde in einem Café. Wir wollen über unsere Reisepläne sprechen.\nAnna: Schön! Ich muss am Donnerstag etwas für meine Fitness tun. Ich gehe ins Fitnessstudio.\nTom: Gut für dich! Und am Freitag? Hast du da schon etwas geplant?\nAnna: Ja, am Freitag will ich ein neues Rezept ausprobieren. Ich werde zu Hause kochen. Vielleicht eine italienische Suppe.\nTom: Lecker! Dann wünsche ich dir eine schöne Woche!\nAnna: Dir auch, Tom!",
+            "pictures": [
+              {
+                "key": "a",
+                "icon": "🚴",
+                "label": "Fahrrad fahren"
+              },
+              {
+                "key": "b",
+                "icon": "🇩🇪",
+                "label": "Deutschkurs"
+              },
+              {
+                "key": "c",
+                "icon": "👫",
+                "label": "Freunde treffen"
+              },
+              {
+                "key": "d",
+                "icon": "🏋️",
+                "label": "Sport machen"
+              },
+              {
+                "key": "e",
+                "icon": "🏛️",
+                "label": "Museum"
+              },
+              {
+                "key": "f",
+                "icon": "🎬",
+                "label": "Kino"
+              },
+              {
+                "key": "g",
+                "icon": "📚",
+                "label": "Lernen"
+              },
+              {
+                "key": "h",
+                "icon": "🛒",
+                "label": "Einkaufen"
+              },
+              {
+                "key": "i",
+                "icon": "🍳",
+                "label": "Kochen"
+              }
+            ],
+            "questions": [
+              {
+                "id": "gen-q-h2-9da0c8bf-q1",
+                "module": "horen",
+                "teil": 2,
+                "lang": "de",
+                "level": "A2",
+                "type": "matching",
+                "question": "Was macht Tom am Montag?",
+                "passageId": "gen-p-h2-9da0c8bf-s1",
+                "correct": "b",
+                "correctAnswer": "b",
+                "explanation": "Tom geht am Montag zum Deutschkurs.",
+                "_keyOnlyMatch": true,
+                "vocabularyTags": [
+                  "Deutschkurs",
+                  "Montag",
+                  "machen",
+                  "gehen"
+                ],
+                "grammarTags": []
+              },
+              {
+                "id": "gen-q-h2-9da0c8bf-q2",
+                "module": "horen",
+                "teil": 2,
+                "lang": "de",
+                "level": "A2",
+                "type": "matching",
+                "question": "Was macht Anna am Dienstag?",
+                "passageId": "gen-p-h2-9da0c8bf-s1",
+                "correct": "a",
+                "correctAnswer": "a",
+                "explanation": "Anna möchte am Dienstag Fahrrad fahren.",
+                "_keyOnlyMatch": true,
+                "vocabularyTags": [
+                  "fahren",
+                  "Dienstag",
+                  "Fahrrad",
+                  "möcht",
+                  "machen"
+                ],
+                "grammarTags": []
+              },
+              {
+                "id": "gen-q-h2-9da0c8bf-q3",
+                "module": "horen",
+                "teil": 2,
+                "lang": "de",
+                "level": "A2",
+                "type": "matching",
+                "question": "Was macht Tom am Mittwoch?",
+                "passageId": "gen-p-h2-9da0c8bf-s1",
+                "correct": "c",
+                "correctAnswer": "c",
+                "explanation": "Tom trifft am Mittwoch Freunde in einem Café.",
+                "_keyOnlyMatch": true,
+                "vocabularyTags": [
+                  "treffen",
+                  "Freund",
+                  "Mittwoch",
+                  "machen"
+                ],
+                "grammarTags": []
+              },
+              {
+                "id": "gen-q-h2-9da0c8bf-q4",
+                "module": "horen",
+                "teil": 2,
+                "lang": "de",
+                "level": "A2",
+                "type": "matching",
+                "question": "Was macht Anna am Donnerstag?",
+                "passageId": "gen-p-h2-9da0c8bf-s1",
+                "correct": "d",
+                "correctAnswer": "d",
+                "explanation": "Anna geht am Donnerstag ins Fitnessstudio.",
+                "_keyOnlyMatch": true,
+                "vocabularyTags": [
+                  "Fitnessstudio",
+                  "Donnerstag",
+                  "Sport",
+                  "machen",
+                  "gehen"
+                ],
+                "grammarTags": []
+              },
+              {
+                "id": "gen-q-h2-9da0c8bf-q5",
+                "module": "horen",
+                "teil": 2,
+                "lang": "de",
+                "level": "A2",
+                "type": "matching",
+                "question": "Was macht Anna am Freitag?",
+                "passageId": "gen-p-h2-9da0c8bf-s1",
+                "correct": "i",
+                "correctAnswer": "i",
+                "explanation": "Anna will am Freitag zu Hause kochen.",
+                "_keyOnlyMatch": true,
+                "vocabularyTags": [
+                  "kochen",
+                  "Freitag",
+                  "Hause",
+                  "machen"
+                ],
+                "grammarTags": []
+              }
+            ]
+          }
+        ],
+        "blueprintSlot": "picture_matching",
+        "plays": 1,
+        "questions": [
+          {
+            "id": "gen-q-h2-9da0c8bf-q1",
+            "module": "horen",
+            "teil": 2,
+            "lang": "de",
+            "level": "A2",
+            "type": "matching",
+            "question": "Was macht Tom am Montag?",
+            "passageId": "gen-p-h2-9da0c8bf-s1",
+            "correct": "b",
+            "correctAnswer": "b",
+            "explanation": "Tom geht am Montag zum Deutschkurs.",
+            "_keyOnlyMatch": true,
+            "vocabularyTags": [
+              "Deutschkurs",
+              "Montag",
+              "machen",
+              "gehen"
+            ],
+            "grammarTags": []
+          },
+          {
+            "id": "gen-q-h2-9da0c8bf-q2",
+            "module": "horen",
+            "teil": 2,
+            "lang": "de",
+            "level": "A2",
+            "type": "matching",
+            "question": "Was macht Anna am Dienstag?",
+            "passageId": "gen-p-h2-9da0c8bf-s1",
+            "correct": "a",
+            "correctAnswer": "a",
+            "explanation": "Anna möchte am Dienstag Fahrrad fahren.",
+            "_keyOnlyMatch": true,
+            "vocabularyTags": [
+              "fahren",
+              "Dienstag",
+              "Fahrrad",
+              "möcht",
+              "machen"
+            ],
+            "grammarTags": []
+          },
+          {
+            "id": "gen-q-h2-9da0c8bf-q3",
+            "module": "horen",
+            "teil": 2,
+            "lang": "de",
+            "level": "A2",
+            "type": "matching",
+            "question": "Was macht Tom am Mittwoch?",
+            "passageId": "gen-p-h2-9da0c8bf-s1",
+            "correct": "c",
+            "correctAnswer": "c",
+            "explanation": "Tom trifft am Mittwoch Freunde in einem Café.",
+            "_keyOnlyMatch": true,
+            "vocabularyTags": [
+              "treffen",
+              "Freund",
+              "Mittwoch",
+              "machen"
+            ],
+            "grammarTags": []
+          },
+          {
+            "id": "gen-q-h2-9da0c8bf-q4",
+            "module": "horen",
+            "teil": 2,
+            "lang": "de",
+            "level": "A2",
+            "type": "matching",
+            "question": "Was macht Anna am Donnerstag?",
+            "passageId": "gen-p-h2-9da0c8bf-s1",
+            "correct": "d",
+            "correctAnswer": "d",
+            "explanation": "Anna geht am Donnerstag ins Fitnessstudio.",
+            "_keyOnlyMatch": true,
+            "vocabularyTags": [
+              "Fitnessstudio",
+              "Donnerstag",
+              "Sport",
+              "machen",
+              "gehen"
+            ],
+            "grammarTags": []
+          },
+          {
+            "id": "gen-q-h2-9da0c8bf-q5",
+            "module": "horen",
+            "teil": 2,
+            "lang": "de",
+            "level": "A2",
+            "type": "matching",
+            "question": "Was macht Anna am Freitag?",
+            "passageId": "gen-p-h2-9da0c8bf-s1",
+            "correct": "i",
+            "correctAnswer": "i",
+            "explanation": "Anna will am Freitag zu Hause kochen.",
+            "_keyOnlyMatch": true,
+            "vocabularyTags": [
+              "kochen",
+              "Freitag",
+              "Hause",
+              "machen"
+            ],
+            "grammarTags": []
+          }
+        ],
+        "transcript": "Anna: Hallo Tom! Wie geht's dir? Hast du schon Pläne für die Woche?\nTom: Hallo Anna! Mir geht's gut, danke. Ja, ich habe einiges vor. Am Montag gehe ich zum Deutschkurs. Ich muss noch viel lernen.\nAnna: Oh, das ist wichtig! Ich habe am Dienstag Zeit. Ich möchte Fahrrad fahren, wenn das Wetter gut ist.\nTom: Klingt super! Am Mittwoch treffe ich Freunde in einem Café. Wir wollen über unsere Reisepläne sprechen.\nAnna: Schön! Ich muss am Donnerstag etwas für meine Fitness tun. Ich gehe ins Fitnessstudio.\nTom: Gut für dich! Und am Freitag? Hast du da schon etwas geplant?\nAnna: Ja, am Freitag will ich ein neues Rezept ausprobieren. Ich werde zu Hause kochen. Vielleicht eine italienische Suppe.\nTom: Lecker! Dann wünsche ich dir eine schöne Woche!\nAnna: Dir auch, Tom!"
+      },
+      {
+        "teil": 3,
+        "instruction": "",
+        "topicTag": "Freizeit",
+        "segments": [
+          {
+            "passageId": "gen-p-h3-a6161cdf-s1",
+            "label": "Aufnahme 1",
+            "text": "Jonas: Sag mal, Emma, hast du schon Pläne für das Wochenende?\nEmma: Ja, Jonas. Ich wollte mit meiner Familie in den Park gehen und ein Picknick machen. Es ist notwendig, das Wetter zu nutzen!\nJonas: Das klingt sympathisch! Vielleicht komme ich auch vorbei.",
+            "transcript": "Jonas: Sag mal, Emma, hast du schon Pläne für das Wochenende?\nEmma: Ja, Jonas. Ich wollte mit meiner Familie in den Park gehen und ein Picknick machen. Es ist notwendig, das Wetter zu nutzen!\nJonas: Das klingt sympathisch! Vielleicht komme ich auch vorbei.",
+            "questions": [
+              {
+                "id": "gen-q-h3-a6161cdf-q1",
+                "module": "horen",
+                "teil": 3,
+                "lang": "de",
+                "level": "A2",
+                "type": "multiple_choice",
+                "passageId": "gen-p-h3-a6161cdf-s1",
+                "segmentLabel": "Text 1",
+                "question": "Was plant Emma für das Wochenende?",
+                "options": [
+                  "a) Sie will ins Kino gehen.",
+                  "b) Sie will ein Picknick machen.",
+                  "c) Sie hat noch keine Pläne."
+                ],
+                "correct": "b",
+                "correctAnswer": "b",
+                "explanation": "Emma sagt, sie möchte mit ihrer Familie in den Park gehen und ein Picknick machen. Das ist ihre Planung für das Wochenende.",
+                "vocabularyTags": [
+                  "wochenend",
+                  "beschreiben",
+                  "prägnant",
+                  "Familie",
+                  "planen",
+                  "Option"
+                ],
+                "grammarTags": [
+                  "g-de-b1-modalverben",
+                  "g-de-b1-relativ"
+                ]
+              }
+            ]
+          },
+          {
+            "passageId": "gen-p-h3-a6161cdf-s2",
+            "label": "Aufnahme 2",
+            "text": "Tim: Du, Sophie, ich habe einen neuen Kurs angefangen. Es ist ein Malkurs am Abend.\nSophie: Oh, toll! Macht es dir Spaß? Ich suche auch eine neue Freizeitaktivität.\nTim: Ja, sehr! Du solltest es auch mal probieren. Man kann dort gut entspannen.",
+            "transcript": "Tim: Du, Sophie, ich habe einen neuen Kurs angefangen. Es ist ein Malkurs am Abend.\nSophie: Oh, toll! Macht es dir Spaß? Ich suche auch eine neue Freizeitaktivität.\nTim: Ja, sehr! Du solltest es auch mal probieren. Man kann dort gut entspannen.",
+            "questions": [
+              {
+                "id": "gen-q-h3-a6161cdf-q2",
+                "module": "horen",
+                "teil": 3,
+                "lang": "de",
+                "level": "A2",
+                "type": "multiple_choice",
+                "passageId": "gen-p-h3-a6161cdf-s2",
+                "segmentLabel": "Text 2",
+                "question": "Was macht Tim jetzt neu in seiner Freizeit?",
+                "options": [
+                  "a) Er besucht einen Sprachkurs.",
+                  "b) Er macht einen Malkurs.",
+                  "c) Er geht oft ins Kino."
+                ],
+                "correct": "b",
+                "correctAnswer": "b",
+                "explanation": "Tim erzählt Sophie, dass er einen neuen Malkurs am Abend angefangen hat und dort gut entspannen kann.",
+                "vocabularyTags": [
+                  "anfangen",
+                  "entspannen",
+                  "Freizeit",
+                  "erzählen",
+                  "malkur",
+                  "Sophie"
+                ],
+                "grammarTags": []
+              }
+            ]
+          },
+          {
+            "passageId": "gen-p-h3-a6161cdf-s3",
+            "label": "Aufnahme 3",
+            "text": "Niklas: Laura, ich habe gehört, du suchst einen Babysitter für Samstagabend. Stimmt das?\nLaura: Ja, Niklas, genau! Ich möchte mit meinem Mann ins Konzert gehen. Hast du vielleicht eine Idee?\nNiklas: Meine Nichte ist sehr sympathisch und sucht einen Job. Ich kann sie fragen.",
+            "transcript": "Niklas: Laura, ich habe gehört, du suchst einen Babysitter für Samstagabend. Stimmt das?\nLaura: Ja, Niklas, genau! Ich möchte mit meinem Mann ins Konzert gehen. Hast du vielleicht eine Idee?\nNiklas: Meine Nichte ist sehr sympathisch und sucht einen Job. Ich kann sie fragen.",
+            "questions": [
+              {
+                "id": "gen-q-h3-a6161cdf-q3",
+                "module": "horen",
+                "teil": 3,
+                "lang": "de",
+                "level": "A2",
+                "type": "multiple_choice",
+                "passageId": "gen-p-h3-a6161cdf-s3",
+                "segmentLabel": "Text 3",
+                "question": "Warum braucht Laura einen Babysitter?",
+                "options": [
+                  "a) Sie muss ihre Wohnung aufräumen.",
+                  "b) Sie möchte arbeiten gehen.",
+                  "c) Sie will ein Konzert besuchen."
+                ],
+                "correct": "c",
+                "correctAnswer": "c",
+                "explanation": "Laura sagt, sie möchte mit ihrem Mann ins Konzert gehen und braucht dafür einen Babysitter für Samstagabend.",
+                "vocabularyTags": [
+                  "brauchen",
+                  "besuchen",
+                  "samstagabend",
+                  "babysitt",
+                  "konzern",
+                  "sagen"
+                ],
+                "grammarTags": [
+                  "g-de-b1-modalverben"
+                ]
+              }
+            ]
+          },
+          {
+            "passageId": "gen-p-h3-a6161cdf-s4",
+            "label": "Aufnahme 4",
+            "text": "Paul: Nina, gibt es ein neues Rätsel-Spiel in der Stadt? Ich habe davon gehört.\nNina: Ja, Paul! Ein Escape Room. Das ist eine tolle Freizeitbeschäftigung. Wollen wir das zusammen ausprobieren?\nPaul: Gute Idee! Ich bin dabei. Wann passt es dir?",
+            "transcript": "Paul: Nina, gibt es ein neues Rätsel-Spiel in der Stadt? Ich habe davon gehört.\nNina: Ja, Paul! Ein Escape Room. Das ist eine tolle Freizeitbeschäftigung. Wollen wir das zusammen ausprobieren?\nPaul: Gute Idee! Ich bin dabei. Wann passt es dir?",
+            "questions": [
+              {
+                "id": "gen-q-h3-a6161cdf-q4",
+                "module": "horen",
+                "teil": 3,
+                "lang": "de",
+                "level": "A2",
+                "type": "multiple_choice",
+                "passageId": "gen-p-h3-a6161cdf-s4",
+                "segmentLabel": "Text 4",
+                "question": "Was schlägt Nina Paul vor?",
+                "options": [
+                  "a) Einen Escape Room besuchen.",
+                  "b) Ein neues Buch zu lesen.",
+                  "c) Eine Ausstellung anzusehen."
+                ],
+                "correct": "a",
+                "correctAnswer": "a",
+                "explanation": "Nina schlägt Paul vor, einen Escape Room auszuprobieren, nachdem Paul nach einem neuen Rätsel-Spiel gefragt hat.",
+                "vocabularyTags": [
+                  "vorschlagen",
+                  "ausprobieren",
+                  "besuchen",
+                  "Freizeitbeschäftigung",
+                  "beschreiben",
+                  "escap"
+                ],
+                "grammarTags": []
+              }
+            ]
+          },
+          {
+            "passageId": "gen-p-h3-a6161cdf-s5",
+            "label": "Aufnahme 5",
+            "text": "Tobias: Clara, ich komme gerade von unterwegs. Was machst du heute Abend zur Entspannung?\nClara: Ich habe meine alte Wohnung endlich ausgezogen. Jetzt ist es notwendig, mich zu erholen. Ich lese ein Buch.\nTobias: Das klingt gut! Viel Spaß beim Lesen.",
+            "transcript": "Tobias: Clara, ich komme gerade von unterwegs. Was machst du heute Abend zur Entspannung?\nClara: Ich habe meine alte Wohnung endlich ausgezogen. Jetzt ist es notwendig, mich zu erholen. Ich lese ein Buch.\nTobias: Das klingt gut! Viel Spaß beim Lesen.",
+            "questions": [
+              {
+                "id": "gen-q-h3-a6161cdf-q5",
+                "module": "horen",
+                "teil": 3,
+                "lang": "de",
+                "level": "A2",
+                "type": "multiple_choice",
+                "passageId": "gen-p-h3-a6161cdf-s5",
+                "segmentLabel": "Text 5",
+                "question": "Was macht Clara heute Abend zur Entspannung?",
+                "options": [
+                  "a) Sie geht ins Kino.",
+                  "b) Sie zieht in eine neue Wohnung.",
+                  "c) Sie liest ein Buch."
+                ],
+                "correct": "c",
+                "correctAnswer": "c",
+                "explanation": "Clara sagt, sie hat ihre alte Wohnung ausgezogen und möchte sich jetzt erholen, indem sie ein Buch liest.",
+                "vocabularyTags": [
+                  "Entspannung",
+                  "Wohnung",
+                  "ausgezogen",
+                  "erholen",
+                  "sagen",
+                  "lesen"
+                ],
+                "grammarTags": []
+              }
+            ]
+          }
+        ],
+        "questions": [
+          {
+            "id": "gen-q-h3-a6161cdf-q1",
+            "module": "horen",
+            "teil": 3,
+            "lang": "de",
+            "level": "A2",
+            "type": "multiple_choice",
+            "passageId": "gen-p-h3-a6161cdf-s1",
+            "segmentLabel": "Text 1",
+            "question": "Was plant Emma für das Wochenende?",
+            "options": [
+              "a) Sie will ins Kino gehen.",
+              "b) Sie will ein Picknick machen.",
+              "c) Sie hat noch keine Pläne."
+            ],
+            "correct": "b",
+            "correctAnswer": "b",
+            "explanation": "Emma sagt, sie möchte mit ihrer Familie in den Park gehen und ein Picknick machen. Das ist ihre Planung für das Wochenende.",
+            "vocabularyTags": [
+              "wochenend",
+              "beschreiben",
+              "prägnant",
+              "Familie",
+              "planen",
+              "Option"
+            ],
+            "grammarTags": [
+              "g-de-b1-modalverben",
+              "g-de-b1-relativ"
+            ]
+          },
+          {
+            "id": "gen-q-h3-a6161cdf-q2",
+            "module": "horen",
+            "teil": 3,
+            "lang": "de",
+            "level": "A2",
+            "type": "multiple_choice",
+            "passageId": "gen-p-h3-a6161cdf-s2",
+            "segmentLabel": "Text 2",
+            "question": "Was macht Tim jetzt neu in seiner Freizeit?",
+            "options": [
+              "a) Er besucht einen Sprachkurs.",
+              "b) Er macht einen Malkurs.",
+              "c) Er geht oft ins Kino."
+            ],
+            "correct": "b",
+            "correctAnswer": "b",
+            "explanation": "Tim erzählt Sophie, dass er einen neuen Malkurs am Abend angefangen hat und dort gut entspannen kann.",
+            "vocabularyTags": [
+              "anfangen",
+              "entspannen",
+              "Freizeit",
+              "erzählen",
+              "malkur",
+              "Sophie"
+            ],
+            "grammarTags": []
+          },
+          {
+            "id": "gen-q-h3-a6161cdf-q3",
+            "module": "horen",
+            "teil": 3,
+            "lang": "de",
+            "level": "A2",
+            "type": "multiple_choice",
+            "passageId": "gen-p-h3-a6161cdf-s3",
+            "segmentLabel": "Text 3",
+            "question": "Warum braucht Laura einen Babysitter?",
+            "options": [
+              "a) Sie muss ihre Wohnung aufräumen.",
+              "b) Sie möchte arbeiten gehen.",
+              "c) Sie will ein Konzert besuchen."
+            ],
+            "correct": "c",
+            "correctAnswer": "c",
+            "explanation": "Laura sagt, sie möchte mit ihrem Mann ins Konzert gehen und braucht dafür einen Babysitter für Samstagabend.",
+            "vocabularyTags": [
+              "brauchen",
+              "besuchen",
+              "samstagabend",
+              "babysitt",
+              "konzern",
+              "sagen"
+            ],
+            "grammarTags": [
+              "g-de-b1-modalverben"
+            ]
+          },
+          {
+            "id": "gen-q-h3-a6161cdf-q4",
+            "module": "horen",
+            "teil": 3,
+            "lang": "de",
+            "level": "A2",
+            "type": "multiple_choice",
+            "passageId": "gen-p-h3-a6161cdf-s4",
+            "segmentLabel": "Text 4",
+            "question": "Was schlägt Nina Paul vor?",
+            "options": [
+              "a) Einen Escape Room besuchen.",
+              "b) Ein neues Buch zu lesen.",
+              "c) Eine Ausstellung anzusehen."
+            ],
+            "correct": "a",
+            "correctAnswer": "a",
+            "explanation": "Nina schlägt Paul vor, einen Escape Room auszuprobieren, nachdem Paul nach einem neuen Rätsel-Spiel gefragt hat.",
+            "vocabularyTags": [
+              "vorschlagen",
+              "ausprobieren",
+              "besuchen",
+              "Freizeitbeschäftigung",
+              "beschreiben",
+              "escap"
+            ],
+            "grammarTags": []
+          },
+          {
+            "id": "gen-q-h3-a6161cdf-q5",
+            "module": "horen",
+            "teil": 3,
+            "lang": "de",
+            "level": "A2",
+            "type": "multiple_choice",
+            "passageId": "gen-p-h3-a6161cdf-s5",
+            "segmentLabel": "Text 5",
+            "question": "Was macht Clara heute Abend zur Entspannung?",
+            "options": [
+              "a) Sie geht ins Kino.",
+              "b) Sie zieht in eine neue Wohnung.",
+              "c) Sie liest ein Buch."
+            ],
+            "correct": "c",
+            "correctAnswer": "c",
+            "explanation": "Clara sagt, sie hat ihre alte Wohnung ausgezogen und möchte sich jetzt erholen, indem sie ein Buch liest.",
+            "vocabularyTags": [
+              "Entspannung",
+              "Wohnung",
+              "ausgezogen",
+              "erholen",
+              "sagen",
+              "lesen"
+            ],
+            "grammarTags": []
+          }
+        ],
+        "transcript": "Jonas: Sag mal, Emma, hast du schon Pläne für das Wochenende?\nEmma: Ja, Jonas. Ich wollte mit meiner Familie in den Park gehen und ein Picknick machen. Es ist notwendig, das Wetter zu nutzen!\nJonas: Das klingt sympathisch! Vielleicht komme ich auch vorbei."
+      },
+      {
+        "teil": 4,
+        "instruction": "",
+        "topicTag": "Reisen",
+        "transcript": "Moderator: Guten Tag. Heute sprechen wir über das Thema Reisen. Viele Menschen reisen gern. Bei uns ist heute Alina Sommer. Guten Tag, Frau Sommer.\n\nAlina Sommer: Guten Tag. Ich freue mich, dass ich hier bin.\n\nModerator: Frau Sommer, reisen Sie oft?\n\nAlina Sommer: Ja, ich reise sehr gern. Jedes Jahr mache ich eine große Reise. Letztes Jahr war ich in Italien. Das war schön.\n\nModerator: Und was ist Ihnen beim Reisen wichtig?\n\nAlina Sommer: Ich möchte neue Orte sehen und andere Kulturen kennenlernen. Ich spreche gern direkt mit den Menschen. Meine Reisen plane ich oft selbst. Ich buche Hotels und Flüge online. Das ist einfach.\n\nModerator: Reisen Sie lieber allein oder mit Freunden?\n\nAlina Sommer: Meistens reise ich mit meinem Mann. Manchmal fahren wir auch mit Freunden weg. Allein reise ich nicht so gern. Es ist schöner, wenn man Erlebnisse teilt.\n\nModerator: Haben Sie einen Tipp für unsere Hörer?\n\nAlina Sommer: Ja, packen Sie nicht zu viel in den Koffer! Weniger Gepäck ist besser. Und lernen Sie ein paar Wörter in der Landessprache. Das hilft immer.",
+        "questions": [
+          {
+            "id": "gen-q-h4-d9d9d4c9-q5",
+            "module": "horen",
+            "teil": 4,
+            "type": "ja_nein",
+            "question": "Alina Sommer spricht gern mit den Menschen im Reiseland.",
+            "correct": "Ja",
+            "correctAnswer": "Ja",
+            "options": [],
+            "explanation": "Sie sagt, dass sie gern direkt mit den Menschen spricht und andere Kulturen kennenlernen möchte.",
+            "passageId": "gen-p-h4-d9d9d4c9-s1",
+            "level": "A2",
+            "vocabularyTags": [
+              "Mensch",
+              "Reiseland",
+              "Sommer",
+              "gern",
+              "Alina"
+            ],
+            "grammarTags": [
+              "g-de-a2-nebensatz",
+              "g-de-a2-trennbar",
+              "g-de-a2-dat-akk"
+            ]
+          },
+          {
+            "id": "gen-q-h4-d9d9d4c9-q2",
+            "module": "horen",
+            "teil": 4,
+            "type": "ja_nein",
+            "question": "Alina Sommer bucht ihre Reisen immer in einem Reisebüro.",
+            "correct": "Nein",
+            "correctAnswer": "Nein",
+            "options": [],
+            "explanation": "Sie plant ihre Reisen oft selbst und bucht Hotels und Flüge online, nicht im Reisebüro.",
+            "passageId": "gen-p-h4-d9d9d4c9-s1",
+            "level": "A2",
+            "vocabularyTags": [
+              "reisen",
+              "Reisebüro",
+              "Sommer",
+              "Alina"
+            ],
+            "grammarTags": [
+              "g-de-a2-trennbar"
+            ]
+          },
+          {
+            "id": "gen-q-h4-d9d9d4c9-q4",
+            "module": "horen",
+            "teil": 4,
+            "type": "ja_nein",
+            "question": "Alina Sommer findet es wichtig, viel Gepäck mitzunehmen.",
+            "correct": "Nein",
+            "correctAnswer": "Nein",
+            "options": [],
+            "explanation": "Sie sagt, man soll nicht zu viel in den Koffer packen. Weniger Gepäck ist besser.",
+            "passageId": "gen-p-h4-d9d9d4c9-s1",
+            "level": "A2",
+            "vocabularyTags": [
+              "finden",
+              "wichtig",
+              "Sommer",
+              "Gepäck",
+              "Alina"
+            ],
+            "grammarTags": [
+              "g-de-a2-modal",
+              "g-de-a2-trennbar",
+              "g-de-a2-dat-akk",
+              "g-de-a2-komparativ"
+            ]
+          },
+          {
+            "id": "gen-q-h4-d9d9d4c9-q1",
+            "module": "horen",
+            "teil": 4,
+            "type": "ja_nein",
+            "question": "Alina Sommer reist jedes Jahr in ein anderes Land.",
+            "correct": "Ja",
+            "correctAnswer": "Ja",
+            "options": [],
+            "explanation": "Alina Sommer sagt, dass sie jedes Jahr eine große Reise macht und letztes Jahr in Italien war.",
+            "passageId": "gen-p-h4-d9d9d4c9-s1",
+            "level": "A2",
+            "vocabularyTags": [
+              "Sommer",
+              "Land",
+              "Alina",
+              "ander"
+            ],
+            "grammarTags": [
+              "g-de-a2-nebensatz",
+              "g-de-a2-trennbar"
+            ]
+          },
+          {
+            "id": "gen-q-h4-d9d9d4c9-q3",
+            "module": "horen",
+            "teil": 4,
+            "type": "ja_nein",
+            "question": "Alina Sommer reist am liebsten allein.",
+            "correct": "Nein",
+            "correctAnswer": "Nein",
+            "options": [],
+            "explanation": "Alina Sommer reist meistens mit ihrem Mann oder mit Freunden, sie reist nicht so gern allein.",
+            "passageId": "gen-p-h4-d9d9d4c9-s1",
+            "level": "A2",
+            "vocabularyTags": [
+              "liebsten",
+              "allein",
+              "Sommer",
+              "Alina"
+            ],
+            "grammarTags": [
+              "g-de-a2-komparativ"
+            ]
+          }
+        ],
+        "passageId": "gen-p-h4-d9d9d4c9-s1"
+      }
+    ],
+    "schreibenParts": [
+      {
+        "teil": 1,
+        "instruction": "Du hast eine neue Lieblings-App oder eine interessante Serie entdeckt. Schreib eine SMS (20–30 Wörter) an deinen Freund / deine Freundin. Schreib zu drei Punkten:\n• Welche App / Serie ist das?\n• Warum gefällt sie dir so gut?\n• Sollen wir sie zusammen ausprobieren / darüber sprechen?",
+        "topicTag": "Medien",
+        "task": "Du hast eine neue Lieblings-App oder eine interessante Serie entdeckt. Schreib eine SMS (20–30 Wörter) an deinen Freund / deine Freundin. Schreib zu drei Punkten:\n• Welche App / Serie ist das?\n• Warum gefällt sie dir so gut?\n• Sollen wir sie zusammen ausprobieren / darüber sprechen?",
+        "minWords": 20,
+        "maxWords": 30,
+        "targetWords": 30,
+        "questions": [
+          {
+            "id": "gen-q-s-t1-c976d8b0-q1",
+            "module": "schreiben",
+            "teil": 1,
+            "lang": "de",
+            "level": "A2",
+            "type": "short_answer",
+            "question": "Du hast eine neue Lieblings-App oder eine interessante Serie entdeckt. Schreib eine SMS (20–30 Wörter) an deinen Freund / deine Freundin. Schreib zu drei Punkten:\n• Welche App / Serie ist das?\n• Warum gefällt sie dir so gut?\n• Sollen wir sie zusammen ausprobieren / darüber sprechen?",
+            "correct": "rubric",
+            "correctAnswer": "rubric",
+            "options": [],
+            "explanation": "Bewertung (Goethe-offiziell A2): Erfüllung (0–10) – alle 3 Punkte behandelt; Kohärenz (0–10) – Textaufbau und Verknüpfung; Wortschatz (0–10) – A2-Niveau; Strukturen (0–10) – Grammatik A2. 20–30 Wörter (unter 50 % oder Thema verfehlt → Erfüllung 0). Anrede/Gruß passend zum Empfänger im Aufgabentext (oft informell – du-Form).",
+            "difficulty": 2,
+            "skills": [
+              "writing"
+            ],
+            "language": "de",
+            "examType": "goethe",
+            "topicTags": [
+              "Medien"
+            ],
+            "vocabularyTags": [
+              "entdecken",
+              "zusammen",
+              "ausprobieren",
+              "interessant",
+              "darüber",
+              "sprechen"
+            ],
+            "grammarTags": [
+              "g-de-a2-modal",
+              "g-de-a2-perfekt",
+              "g-de-a2-trennbar",
+              "g-de-a2-dat-akk"
+            ]
+          }
+        ]
+      },
+      {
+        "teil": 2,
+        "instruction": "Ihr Chef lädt Sie zu einer besonderen Firmenfeier ein, die in einem schönen Restaurant im Stadtzentrum stattfindet. Schreiben Sie eine E-Mail (30–40 Wörter) an Ihren Chef. Schreiben Sie zu drei Punkten:\n• Bedanken Sie sich für die Einladung.\n• Bestätigen Sie Ihre Teilnahme und sagen Sie, dass Sie eine Begleitung mitbringen möchten.\n• Fragen Sie nach dem besten Weg oder Parkmöglichkeiten.",
+        "topicTag": "Stadtleben",
+        "task": "Ihr Chef lädt Sie zu einer besonderen Firmenfeier ein, die in einem schönen Restaurant im Stadtzentrum stattfindet. Schreiben Sie eine E-Mail (30–40 Wörter) an Ihren Chef. Schreiben Sie zu drei Punkten:\n• Bedanken Sie sich für die Einladung.\n• Bestätigen Sie Ihre Teilnahme und sagen Sie, dass Sie eine Begleitung mitbringen möchten.\n• Fragen Sie nach dem besten Weg oder Parkmöglichkeiten.",
+        "minWords": 30,
+        "maxWords": 40,
+        "targetWords": 40,
+        "questions": [
+          {
+            "id": "gen-q-s-t2-63ab78c5-q1",
+            "module": "schreiben",
+            "teil": 2,
+            "lang": "de",
+            "level": "A2",
+            "type": "short_answer",
+            "question": "Ihr Chef lädt Sie zu einer besonderen Firmenfeier ein, die in einem schönen Restaurant im Stadtzentrum stattfindet. Schreiben Sie eine E-Mail (30–40 Wörter) an Ihren Chef. Schreiben Sie zu drei Punkten:\n• Bedanken Sie sich für die Einladung.\n• Bestätigen Sie Ihre Teilnahme und sagen Sie, dass Sie eine Begleitung mitbringen möchten.\n• Fragen Sie nach dem besten Weg oder Parkmöglichkeiten.",
+            "correct": "rubric",
+            "correctAnswer": "rubric",
+            "options": [],
+            "explanation": "Bewertung (Goethe-offiziell A2): Erfüllung (0–10) – alle 3 Punkte behandelt; Kohärenz (0–10) – Textaufbau und Verknüpfung; Wortschatz (0–10) – A2-Niveau; Strukturen (0–10) – Grammatik A2. 30–40 Wörter (unter 50 % oder Thema verfehlt → Erfüllung 0). Anrede/Gruß: formell – Sie-Form zum Empfänger im Aufgabentext.",
+            "difficulty": 2,
+            "skills": [
+              "writing"
+            ],
+            "language": "de",
+            "examType": "goethe",
+            "topicTags": [
+              "Stadtleben"
+            ],
+            "vocabularyTags": [
+              "stattfinden",
+              "mitbringen",
+              "besonderen",
+              "Begleitung",
+              "schreiben",
+              "Einladung"
+            ],
+            "grammarTags": [
+              "g-de-a2-nebensatz",
+              "g-de-a2-modal",
+              "g-de-a2-trennbar",
+              "g-de-a2-dat-akk"
+            ]
+          }
+        ]
+      }
+    ],
+    "sprechenParts": [
+      {
+        "teil": 1,
+        "instruction": "Sie bekommen vier Karten und stellen mit diesen Karten vier Fragen. Ihr Partner/Ihre Partnerin antwortet. Dann stellt Ihr Partner/Ihre Partnerin vier Fragen und Sie antworten. Sie haben keine Vorbereitungszeit.\n\nIhre Karten:\n1. Geburtstag — Wann haben Sie Geburtstag? Wie feiern Sie diesen Tag? Mit wem verbringen Sie ihn?\n2. Wohnort — Wo wohnen Sie? Wie ist Ihre Wohnung oder Ihr Haus? Wie finden Sie Ihre Nachbarn?\n3. Beruf — Was ist Ihr Beruf? Oder: Was möchten Sie gern arbeiten?\n4. Hobby — Was sind Ihre Hobbys? Was machen Sie am liebsten in Ihrer Freizeit?\n\nStellen Sie zu jeder Karte eine Frage. Antworten Sie dann auf die Fragen Ihres Partners/Ihrer Partnerin.",
+        "topicTag": "Stadtleben",
+        "level": "A2",
+        "questions": [
+          {
+            "id": "gen-q-sp-t1-1b6ed7d0-q1",
+            "module": "sprechen",
+            "teil": 1,
+            "lang": "de",
+            "level": "A2",
+            "type": "personal_questions",
+            "question": "Sie bekommen vier Karten und stellen mit diesen Karten vier Fragen. Ihr Partner/Ihre Partnerin antwortet. Dann stellt Ihr Partner/Ihre Partnerin vier Fragen und Sie antworten. Sie haben keine Vorbereitungszeit.\n\nIhre Karten:\n1. Geburtstag — Wann haben Sie Geburtstag? Wie feiern Sie diesen Tag? Mit wem verbringen Sie ihn?\n2. Wohnort — Wo wohnen Sie? Wie ist Ihre Wohnung oder Ihr Haus? Wie finden Sie Ihre Nachbarn?\n3. Beruf — Was ist Ihr Beruf? Oder: Was möchten Sie gern arbeiten?\n4. Hobby — Was sind Ihre Hobbys? Was machen Sie am liebsten in Ihrer Freizeit?\n\nStellen Sie zu jeder Karte eine Frage. Antworten Sie dann auf die Fragen Ihres Partners/Ihrer Partnerin.",
+            "correct": "rubric",
+            "correctAnswer": "rubric",
+            "options": [],
+            "explanation": "In diesem Teil sprechen Sie mit Ihrem Partner/Ihrer Partnerin über persönliche Themen (Geburtstag, Wohnort, Beruf, Hobby). Wichtig sind verständliche Sätze und einfacher Wortschatz auf A2-Niveau.",
+            "difficulty": 3,
+            "skills": [
+              "speaking"
+            ],
+            "language": "de",
+            "examType": "goethe",
+            "topicTags": [
+              "Stadtleben"
+            ],
+            "vocabularyTags": [
+              "verbringen",
+              "Partner",
+              "Wohnung",
+              "Hobby",
+              "Haus",
+              "wohnen"
+            ],
+            "grammarTags": [
+              "g-de-a2-modal",
+              "g-de-a2-trennbar",
+              "g-de-a2-dat-akk",
+              "g-de-a2-komparativ"
+            ]
+          }
+        ],
+        "task": "Sie bekommen vier Karten und stellen mit diesen Karten vier Fragen. Ihr Partner/Ihre Partnerin antwortet. Dann stellt Ihr Partner/Ihre Partnerin vier Fragen und Sie antworten. Sie haben keine Vorbereitungszeit.\n\nIhre Karten:\n1. Geburtstag — Wann haben Sie Geburtstag? Wie feiern Sie diesen Tag? Mit wem verbringen Sie ihn?\n2. Wohnort — Wo wohnen Sie? Wie ist Ihre Wohnung oder Ihr Haus? Wie finden Sie Ihre Nachbarn?\n3. Beruf — Was ist Ihr Beruf? Oder: Was möchten Sie gern arbeiten?\n4. Hobby — Was sind Ihre Hobbys? Was machen Sie am liebsten in Ihrer Freizeit?\n\nStellen Sie zu jeder Karte eine Frage. Antworten Sie dann auf die Fragen Ihres Partners/Ihrer Partnerin.",
+        "situation": "Sie bekommen vier Karten und stellen mit diesen Karten vier Fragen. Ihr Partner/Ihre Partnerin antwortet. Dann stellt Ihr Partner/Ihre Partnerin vier Fragen und Sie antworten. Sie haben keine Vorbereitungszeit.\n\nIhre Karten:\n1. Geburtstag — Wann haben Sie Geburtstag? Wie feiern Sie diesen Tag? Mit wem verbringen Sie ihn?\n2. Wohnort — Wo wohnen Sie? Wie ist Ihre Wohnung oder Ihr Haus? Wie finden Sie Ihre Nachbarn?\n3. Beruf — Was ist Ihr Beruf? Oder: Was möchten Sie gern arbeiten?\n4. Hobby — Was sind Ihre Hobbys? Was machen Sie am liebsten in Ihrer Freizeit?\n\nStellen Sie zu jeder Karte eine Frage. Antworten Sie dann auf die Fragen Ihres Partners/Ihrer Partnerin.",
+        "fieldId": "speak_bp_1",
+        "title": "Teil 1",
+        "dauer": "",
+        "cardText": "",
+        "photoDescriptions": [],
+        "minExchanges": 4,
+        "points": [],
+        "prompts": [],
+        "topic": "Stadtleben",
+        "topicTags": [
+          "Stadtleben"
+        ]
+      },
+      {
+        "teil": 2,
+        "instruction": "Sie bekommen eine Karte und erzählen etwas über Ihr Leben.\n\nIhre Karte:\n«Welches Verkehrsmittel benutzen Sie am liebsten und warum?»\n\nErzählen Sie: Welches Verkehrsmittel ist das? Warum ist es Ihr Lieblings-Verkehrsmittel? Welche Vorteile hat es für Sie?",
+        "topicTag": "Verkehr",
+        "level": "A2",
+        "questions": [
+          {
+            "id": "gen-q-sp-t2-f0883ce6-q1",
+            "module": "sprechen",
+            "teil": 2,
+            "lang": "de",
+            "level": "A2",
+            "type": "about_self",
+            "question": "Sie bekommen eine Karte und erzählen etwas über Ihr Leben.\n\nIhre Karte:\n«Welches Verkehrsmittel benutzen Sie am liebsten und warum?»\n\nErzählen Sie: Welches Verkehrsmittel ist das? Warum ist es Ihr Lieblings-Verkehrsmittel? Welche Vorteile hat es für Sie?",
+            "correct": "rubric",
+            "correctAnswer": "rubric",
+            "options": [],
+            "explanation": "In diesem Teil erzählen Sie etwas über Ihr Leben zu einem Kartenthema. Wichtig sind verständliche Inhalte, einfache Satzstruktur und passender Wortschatz auf A2-Niveau.",
+            "difficulty": 3,
+            "skills": [
+              "speaking"
+            ],
+            "language": "de",
+            "examType": "goethe",
+            "topicTags": [
+              "Verkehr"
+            ],
+            "vocabularyTags": [
+              "Verkehrsmittel",
+              "Vorteile",
+              "bekommen",
+              "erzählen",
+              "benutzen",
+              "liebsten"
+            ],
+            "grammarTags": [
+              "g-de-b1-komparativ"
+            ]
+          }
+        ],
+        "task": "Sie bekommen eine Karte und erzählen etwas über Ihr Leben.\n\nIhre Karte:\n«Welches Verkehrsmittel benutzen Sie am liebsten und warum?»\n\nErzählen Sie: Welches Verkehrsmittel ist das? Warum ist es Ihr Lieblings-Verkehrsmittel? Welche Vorteile hat es für Sie?",
+        "situation": "Sie bekommen eine Karte und erzählen etwas über Ihr Leben.\n\nIhre Karte:\n«Welches Verkehrsmittel benutzen Sie am liebsten und warum?»\n\nErzählen Sie: Welches Verkehrsmittel ist das? Warum ist es Ihr Lieblings-Verkehrsmittel? Welche Vorteile hat es für Sie?",
+        "fieldId": "speak_bp_2",
+        "title": "Teil 2",
+        "dauer": "",
+        "cardText": "",
+        "photoDescriptions": [],
+        "minExchanges": 4,
+        "points": [],
+        "prompts": [],
+        "topic": "Verkehr",
+        "topicTags": [
+          "Verkehr"
+        ]
+      },
+      {
+        "teil": 3,
+        "instruction": "Sie möchten mit Ihrem Partner/Ihrer Partnerin ein neues Haushaltsgerät für Ihre Wohnung kaufen, da das Alte kaputt ist. Planen Sie gemeinsam, welches Produkt Sie kaufen möchten und wann Sie in den Elektromarkt gehen.\n\nIhre Woche:\nMontag 9–11 Uhr: Sportkurs\nDienstag 13–15 Uhr: Frei\nMittwoch 10–12 Uhr: Deutschkurs\nDonnerstag 15–17 Uhr: Frei\nFreitag 14–16 Uhr: Arzttermin\n\nWoche Ihres Partners/Ihrer Partnerin:\nMontag 14–16 Uhr: Arbeit\nDienstag 10–12 Uhr: Frei\nMittwoch 15–17 Uhr: Meeting\nDonnerstag 14–16 Uhr: Frei\nFreitag 11–13 Uhr: Frei\n\neinigen Sie sich auf ein Produkt und einen Termin für den Einkauf.",
+        "topicTag": "Konsum",
+        "level": "A2",
+        "questions": [
+          {
+            "id": "gen-q-sp-t3-020d1ea3-q1",
+            "module": "sprechen",
+            "teil": 3,
+            "lang": "de",
+            "level": "A2",
+            "type": "plan_together",
+            "question": "Sie möchten mit Ihrem Partner/Ihrer Partnerin ein neues Haushaltsgerät für Ihre Wohnung kaufen, da das Alte kaputt ist. Planen Sie gemeinsam, welches Produkt Sie kaufen möchten und wann Sie in den Elektromarkt gehen.\n\nIhre Woche:\nMontag 9–11 Uhr: Sportkurs\nDienstag 13–15 Uhr: Frei\nMittwoch 10–12 Uhr: Deutschkurs\nDonnerstag 15–17 Uhr: Frei\nFreitag 14–16 Uhr: Arzttermin\n\nWoche Ihres Partners/Ihrer Partnerin:\nMontag 14–16 Uhr: Arbeit\nDienstag 10–12 Uhr: Frei\nMittwoch 15–17 Uhr: Meeting\nDonnerstag 14–16 Uhr: Frei\nFreitag 11–13 Uhr: Frei\n\neinigen Sie sich auf ein Produkt und einen Termin für den Einkauf.",
+            "correct": "rubric",
+            "correctAnswer": "rubric",
+            "options": [],
+            "explanation": "In diesem Teil planen Sie gemeinsam etwas und finden einen Termin. Wichtig sind Verständlichkeit, einfache Verhandlung und passender Wortschatz auf A2-Niveau.",
+            "difficulty": 3,
+            "skills": [
+              "speaking"
+            ],
+            "language": "de",
+            "examType": "goethe",
+            "topicTags": [
+              "Konsum"
+            ],
+            "vocabularyTags": [
+              "Partner",
+              "Wohnung",
+              "gemeinsam",
+              "einkauf",
+              "möchten",
+              "kaputt"
+            ],
+            "grammarTags": [
+              "g-de-b1-relativ"
+            ]
+          }
+        ],
+        "task": "Sie möchten mit Ihrem Partner/Ihrer Partnerin ein neues Haushaltsgerät für Ihre Wohnung kaufen, da das Alte kaputt ist. Planen Sie gemeinsam, welches Produkt Sie kaufen möchten und wann Sie in den Elektromarkt gehen.\n\nIhre Woche:\nMontag 9–11 Uhr: Sportkurs\nDienstag 13–15 Uhr: Frei\nMittwoch 10–12 Uhr: Deutschkurs\nDonnerstag 15–17 Uhr: Frei\nFreitag 14–16 Uhr: Arzttermin\n\nWoche Ihres Partners/Ihrer Partnerin:\nMontag 14–16 Uhr: Arbeit\nDienstag 10–12 Uhr: Frei\nMittwoch 15–17 Uhr: Meeting\nDonnerstag 14–16 Uhr: Frei\nFreitag 11–13 Uhr: Frei\n\neinigen Sie sich auf ein Produkt und einen Termin für den Einkauf.",
+        "situation": "Sie möchten mit Ihrem Partner/Ihrer Partnerin ein neues Haushaltsgerät für Ihre Wohnung kaufen, da das Alte kaputt ist. Planen Sie gemeinsam, welches Produkt Sie kaufen möchten und wann Sie in den Elektromarkt gehen.\n\nIhre Woche:\nMontag 9–11 Uhr: Sportkurs\nDienstag 13–15 Uhr: Frei\nMittwoch 10–12 Uhr: Deutschkurs\nDonnerstag 15–17 Uhr: Frei\nFreitag 14–16 Uhr: Arzttermin\n\nWoche Ihres Partners/Ihrer Partnerin:\nMontag 14–16 Uhr: Arbeit\nDienstag 10–12 Uhr: Frei\nMittwoch 15–17 Uhr: Meeting\nDonnerstag 14–16 Uhr: Frei\nFreitag 11–13 Uhr: Frei\n\neinigen Sie sich auf ein Produkt und einen Termin für den Einkauf.",
+        "fieldId": "speak_bp_3",
+        "title": "Teil 3",
+        "dauer": "",
+        "cardText": "",
+        "photoDescriptions": [],
+        "minExchanges": 3,
+        "points": [],
+        "prompts": [],
+        "topic": "Konsum",
+        "topicTags": [
+          "Konsum"
+        ]
+      }
+    ]
+  }
+}
