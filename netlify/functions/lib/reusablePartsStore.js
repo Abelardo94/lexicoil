@@ -179,6 +179,8 @@ async function addReusablePart(store, part, options = {}) {
   if (part.topic != null) payload.topic = part.topic;
   if (part.sem1VerifiedAt != null) payload.sem1VerifiedAt = part.sem1VerifiedAt;
   if (part.sem1Skipped != null) payload.sem1Skipped = part.sem1Skipped;
+  if (part.reviewVerifiedAt != null) payload.reviewVerifiedAt = part.reviewVerifiedAt;
+  if (part.reviewVerifiedBy != null) payload.reviewVerifiedBy = part.reviewVerifiedBy;
   if (Array.isArray(part.vocabIndex) && part.vocabIndex.length) {
     payload.vocabIndex = part.vocabIndex;
     if (part.vocabIndexVersion != null) payload.vocabIndexVersion = part.vocabIndexVersion;

@@ -3,7 +3,9 @@
  */
 import fs from 'node:fs';
 import path from 'node:path';
+import { createRequire } from 'node:module';
 import { ROOT } from './loadEnv.mjs';
+const { partPassesPublishGate } = createRequire(import.meta.url)('../../netlify/functions/lib/partPublishGate.js');
 import { loadWeakLemmas } from './lesenTemplatePrompt.mjs';
 import {
   moduleTeilsForLevel,
@@ -23,9 +25,8 @@ export function loadPoolRecords(lang = 'de', level = 'B1') {
       if (String(r.lang || lang).toLowerCase() !== lang) continue;
       if (String(r.level || level).toUpperCase() !== level) continue;
       if (r.disabled) continue;
-      if (!r.complete || !r.verified) continue;
-      // Same servability bar as build-pool-stock-manifest / exam-part pool pick.
-      if (!(r.sem1VerifiedAt || r.sem1Skipped)) continue;
+      // Same servability bar as the runtime pool pick (disabled, complete, verified, semantic stamp).
+      if (!partPassesPublishGate(r)) continue;
       records.push(r);
     }
   }
