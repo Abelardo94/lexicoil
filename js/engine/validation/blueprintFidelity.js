@@ -118,24 +118,19 @@ function examHasModuleParts(exam, modId) {
   return (exam[key] || []).some((p) => p && typeof p === 'object');
 }
 
-/** Personal / section exams may include only one module or a subset of Teile. */
+/**
+ * Personal / section exams may include only one module or a subset of Teile.
+ * A subset of Teile must be declared (`_sectionPart` / `_partialGen`): inferring it
+ * from a missing Teil made every incomplete exam "partial", so part_missing never fired.
+ * Only whole missing modules are still inferred (single-module practice exams).
+ */
 function inferPartialExamDelivery(exam, blueprint) {
   if (!exam || typeof exam !== 'object') return false;
   if (exam._sectionPart === true || exam._partialGen === true) return true;
   if (!blueprint?.modules?.length) return false;
   let modulesWithParts = 0;
   for (const mod of blueprint.modules) {
-    const modId = String(mod.id || '').toLowerCase();
-    if (!examHasModuleParts(exam, modId)) continue;
-    modulesWithParts += 1;
-    const parts = exam[MODULE_EXAM_KEYS[modId]] || [];
-    const expectedTeils = new Set((mod.parts || []).map((p) => Number(p.teil ?? p.aufgabe)));
-    const presentTeils = new Set(
-      parts.map((p) => Number(p.teil ?? p.aufgabe)).filter((n) => Number.isFinite(n)),
-    );
-    for (const teil of expectedTeils) {
-      if (!presentTeils.has(teil)) return true;
-    }
+    if (examHasModuleParts(exam, String(mod.id || '').toLowerCase())) modulesWithParts += 1;
   }
   return modulesWithParts > 0 && modulesWithParts < blueprint.modules.length;
 }
