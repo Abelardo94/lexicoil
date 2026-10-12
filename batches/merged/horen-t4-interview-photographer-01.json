@@ -1,0 +1,294 @@
+{
+  "passages": [
+    {
+      "id": "en-b1-p-horen-t4-interview-photographer-01-01",
+      "module": "horen",
+      "title": "Interview with a young photographer",
+      "text": "Interviewer: My guest today is Maya Collins, who's only twenty-three but already has her photographs in several national magazines. Maya, welcome. How did you first get into photography?\n\nMaya: Thanks for having me. Well, my grandfather gave me his old camera when I was fourteen. To be honest, I wasn't very excited about it at first. It was heavy and old-fashioned, and I mainly used it because I didn't want to hurt his feelings. But after a few weeks I realised I was looking at the world differently, noticing shadows and colours I'd never paid attention to before. That's what got me hooked.\n\nInterviewer: And at seventeen you won a national competition. Did that change everything?\n\nMaya: People always expect me to say yes, but it didn't really. The prize money was nice, and I bought a better lens with it. And no, magazines didn't suddenly start phoning me either. What really mattered was that one of the judges wrote to me afterwards with some very honest comments about the weak points in my pictures. It wasn't easy to read, but I learnt more from that letter than from winning the prize.\n\nInterviewer: Nowadays almost everyone takes photos on their phone. Is that a problem for professional photographers like you?\n\nMaya: Not at all. I know some photographers complain about it, but I think it's brilliant that everyone can take pictures now. Once people have tried to get a really good shot themselves, they understand how difficult it is, and they appreciate good photography more. I use my phone myself sometimes, actually, for quick ideas, though never for paid work.\n\nInterviewer: What's the hardest part of your job?\n\nMaya: Most people guess it's the early mornings, because the best light is just after sunrise. But I actually love being out at that time of day. And yes, my camera bag's heavy, but I've got used to that. No, what I find really tough is the waiting. Sometimes I stay in one place for a whole day for one particular picture, and it may never happen. I've learnt to take a good book with me!\n\nInterviewer: You share a lot of your work online. How do you feel about that?\n\nMaya: I have mixed feelings. It's a great way for editors to find you. That's how I got my first magazine job. But I try very hard not to check how many likes a picture gets. When I used to do that, I started taking the kind of photos I thought people wanted, instead of ones I really cared about.\n\nInterviewer: Finally, what advice would you give young people who'd like to do what you do?\n\nMaya: Lots of people ask me which camera to buy, and honestly, it doesn't matter that much. You don't need to travel to amazing places either. Some of my best photos were taken in my own street. What I would say is this: show your work to people who'll tell you the truth, not just to friends who say everything's lovely.\n\nInterviewer: Maya Collins, thank you very much.",
+      "passageVocab": [
+        "lens",
+        "judge",
+        "editor",
+        "sunrise",
+        "appreciate"
+      ],
+      "audio": [
+        {
+          "speaker": "Interviewer",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "My guest today is Maya Collins, who's only twenty-three but already has her photographs in several national magazines. Maya, welcome. How did you first get into photography?"
+        },
+        {
+          "speaker": "Maya",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Thanks for having me. Well, my grandfather gave me his old camera when I was fourteen. To be honest, I wasn't very excited about it at first. It was heavy and old-fashioned, and I mainly used it because I didn't want to hurt his feelings. But after a few weeks I realised I was looking at the world differently, noticing shadows and colours I'd never paid attention to before. That's what got me hooked."
+        },
+        {
+          "speaker": "Interviewer",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "And at seventeen you won a national competition. Did that change everything?"
+        },
+        {
+          "speaker": "Maya",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "People always expect me to say yes, but it didn't really. The prize money was nice, and I bought a better lens with it. And no, magazines didn't suddenly start phoning me either. What really mattered was that one of the judges wrote to me afterwards with some very honest comments about the weak points in my pictures. It wasn't easy to read, but I learnt more from that letter than from winning the prize."
+        },
+        {
+          "speaker": "Interviewer",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Nowadays almost everyone takes photos on their phone. Is that a problem for professional photographers like you?"
+        },
+        {
+          "speaker": "Maya",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Not at all. I know some photographers complain about it, but I think it's brilliant that everyone can take pictures now. Once people have tried to get a really good shot themselves, they understand how difficult it is, and they appreciate good photography more. I use my phone myself sometimes, actually, for quick ideas, though never for paid work."
+        },
+        {
+          "speaker": "Interviewer",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "What's the hardest part of your job?"
+        },
+        {
+          "speaker": "Maya",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Most people guess it's the early mornings, because the best light is just after sunrise. But I actually love being out at that time of day. And yes, my camera bag's heavy, but I've got used to that. No, what I find really tough is the waiting. Sometimes I stay in one place for a whole day for one particular picture, and it may never happen. I've learnt to take a good book with me!"
+        },
+        {
+          "speaker": "Interviewer",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "You share a lot of your work online. How do you feel about that?"
+        },
+        {
+          "speaker": "Maya",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "I have mixed feelings. It's a great way for editors to find you. That's how I got my first magazine job. But I try very hard not to check how many likes a picture gets. When I used to do that, I started taking the kind of photos I thought people wanted, instead of ones I really cared about."
+        },
+        {
+          "speaker": "Interviewer",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Finally, what advice would you give young people who'd like to do what you do?"
+        },
+        {
+          "speaker": "Maya",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Lots of people ask me which camera to buy, and honestly, it doesn't matter that much. You don't need to travel to amazing places either. Some of my best photos were taken in my own street. What I would say is this: show your work to people who'll tell you the truth, not just to friends who say everything's lovely."
+        },
+        {
+          "speaker": "Interviewer",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Maya Collins, thank you very much."
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "en-b1-h-t4-interview-photographer-01-q1",
+      "module": "horen",
+      "teil": 4,
+      "type": "multiple_choice",
+      "passageId": "en-b1-p-horen-t4-interview-photographer-01-01",
+      "question": "How did Maya feel about the camera when her grandfather first gave it to her?",
+      "options": [
+        "a) She used it mainly so as not to upset him.",
+        "b) She was worried that she might damage it.",
+        "c) She was keen to learn how to use it properly."
+      ],
+      "correct": "a",
+      "correctAnswer": "a",
+      "explanation": "Maya says 'I wasn't very excited about it at first' and 'I mainly used it because I didn't want to hurt his feelings.' She was not keen at first: she only became interested 'after a few weeks'.",
+      "grammarTags": [
+        "g-en-b1-past-simple"
+      ],
+      "topicTags": [
+        "work-jobs"
+      ],
+      "vocabularyTags": [
+        "old-fashioned",
+        "feelings",
+        "hooked"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-h-t4-interview-photographer-01-q2",
+      "module": "horen",
+      "teil": 4,
+      "type": "multiple_choice",
+      "passageId": "en-b1-p-horen-t4-interview-photographer-01-01",
+      "question": "What does Maya say was most valuable about winning the competition?",
+      "options": [
+        "a) The money she could spend on better equipment",
+        "b) The attention she suddenly received from magazines",
+        "c) The comments one of the judges sent her"
+      ],
+      "correct": "c",
+      "correctAnswer": "c",
+      "explanation": "Maya says 'What really mattered was that one of the judges wrote to me afterwards with some very honest comments' and 'I learnt more from that letter than from winning the prize.' The money was only 'nice', and she says magazines 'didn't suddenly start phoning'.",
+      "grammarTags": [
+        "g-en-b1-comparatives"
+      ],
+      "topicTags": [
+        "work-jobs"
+      ],
+      "vocabularyTags": [
+        "prize",
+        "lens",
+        "judge"
+      ],
+      "difficulty": 5,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-h-t4-interview-photographer-01-q3",
+      "module": "horen",
+      "teil": 4,
+      "type": "multiple_choice",
+      "passageId": "en-b1-p-horen-t4-interview-photographer-01-01",
+      "question": "What is Maya's opinion of people taking photos on their phones?",
+      "options": [
+        "a) It helps them to value good photography.",
+        "b) It makes it harder for professionals to find work.",
+        "c) It means their pictures are as good as hers."
+      ],
+      "correct": "a",
+      "correctAnswer": "a",
+      "explanation": "Maya says that once people try to take a good shot, 'they understand how difficult it is, and they appreciate good photography more.' She says it is 'Not at all' a problem for professionals, and she never uses her phone for paid work.",
+      "grammarTags": [
+        "g-en-b1-present-simple"
+      ],
+      "topicTags": [
+        "work-jobs"
+      ],
+      "vocabularyTags": [
+        "professional",
+        "complain",
+        "appreciate"
+      ],
+      "difficulty": 5,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-h-t4-interview-photographer-01-q4",
+      "module": "horen",
+      "teil": 4,
+      "type": "multiple_choice",
+      "passageId": "en-b1-p-horen-t4-interview-photographer-01-01",
+      "question": "What does Maya find most difficult about her work?",
+      "options": [
+        "a) Carrying her heavy camera bag",
+        "b) Waiting a long time for one picture",
+        "c) Having to start work very early in the morning"
+      ],
+      "correct": "b",
+      "correctAnswer": "b",
+      "explanation": "Maya says 'what I find really tough is the waiting. Sometimes I stay in one place for a whole day for one particular picture'. She says she loves the early mornings, and she has 'got used to' the heavy bag.",
+      "grammarTags": [
+        "g-en-b1-present-perfect"
+      ],
+      "topicTags": [
+        "work-jobs"
+      ],
+      "vocabularyTags": [
+        "sunrise",
+        "tough",
+        "particular"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-h-t4-interview-photographer-01-q5",
+      "module": "horen",
+      "teil": 4,
+      "type": "multiple_choice",
+      "passageId": "en-b1-p-horen-t4-interview-photographer-01-01",
+      "question": "How does Maya feel about sharing her photos online?",
+      "options": [
+        "a) It takes too much time away from taking pictures.",
+        "b) It is useful, but she ignores how many people like them.",
+        "c) It is the only way for young photographers to find work."
+      ],
+      "correct": "b",
+      "correctAnswer": "b",
+      "explanation": "Maya says it's 'a great way for editors to find you', but 'I try very hard not to check how many likes a picture gets.' She got her first job this way, but she never says it is the only way.",
+      "grammarTags": [
+        "g-en-b1-used-to"
+      ],
+      "topicTags": [
+        "work-jobs"
+      ],
+      "vocabularyTags": [
+        "mixed feelings",
+        "editor",
+        "likes"
+      ],
+      "difficulty": 5,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-h-t4-interview-photographer-01-q6",
+      "module": "horen",
+      "teil": 4,
+      "type": "multiple_choice",
+      "passageId": "en-b1-p-horen-t4-interview-photographer-01-01",
+      "question": "What advice does Maya give to young photographers?",
+      "options": [
+        "a) Travel to interesting places to find subjects.",
+        "b) Buy the best camera you can afford.",
+        "c) Ask people for honest opinions of your work."
+      ],
+      "correct": "c",
+      "correctAnswer": "c",
+      "explanation": "Maya says 'show your work to people who'll tell you the truth, not just to friends who say everything's lovely.' She says the camera 'doesn't matter that much' and 'You don't need to travel to amazing places'.",
+      "grammarTags": [
+        "g-en-b1-imperatives"
+      ],
+      "topicTags": [
+        "work-jobs"
+      ],
+      "vocabularyTags": [
+        "advice",
+        "truth",
+        "lovely"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    }
+  ],
+  "_germanCapsNormalizeVersion": "v3.23-lesen-t2-angebote-corpus-2026-07-28",
+  "_germanCapsNormalizedAt": "2026-10-12T14:44:04.348Z",
+  "_balanceMcqVersion": "v1.2-no-rf-chrono-shuffle-2026-07-11",
+  "_balanceMcqNormalizedAt": "2026-10-12T14:44:04.348Z"
+}

@@ -1,0 +1,239 @@
+{
+  "passages": [
+    {
+      "id": "en-b1-p-lesen-t1-notices-cinema-01-01",
+      "module": "lesen",
+      "title": "Notice at a cinema box office",
+      "text": "TUESDAY IS MEMBERS' DAY\nMembers can see any film starting before 6 pm for just £5.\nNot a member yet? Join today at the box office for £10 a year and get a free drink with every ticket you buy.",
+      "passageVocab": [
+        "member",
+        "box office",
+        "join",
+        "ticket"
+      ]
+    },
+    {
+      "id": "en-b1-p-lesen-t1-notices-cinema-01-02",
+      "module": "lesen",
+      "title": "Text message",
+      "text": "Sophie – I'm stuck on the bus because there's been an accident on Mill Road. Don't wait for me outside. I've emailed you your ticket, so go in and find our seats. I'll text you when I get there. Leah",
+      "passageVocab": [
+        "stuck",
+        "accident",
+        "seat",
+        "text"
+      ]
+    },
+    {
+      "id": "en-b1-p-lesen-t1-notices-cinema-01-03",
+      "module": "lesen",
+      "title": "Sign at a theatre entrance",
+      "text": "LATECOMERS\nThe doors close when the performance begins. If you arrive after this, you will be able to take your seat during the interval, about 50 minutes later. Until then, you can watch the show on a screen in the theatre bar.",
+      "passageVocab": [
+        "latecomer",
+        "performance",
+        "interval",
+        "take your seat"
+      ]
+    },
+    {
+      "id": "en-b1-p-lesen-t1-notices-cinema-01-04",
+      "module": "lesen",
+      "title": "Email from a theatre",
+      "text": "Dear Mr Brennan,\nUnfortunately, tonight's performance of The Lighthouse Keeper has been cancelled because the main actor is ill. You can either change your tickets for another night this week or get your money back. Please reply to tell us which you prefer.\nRiverside Theatre Box Office",
+      "passageVocab": [
+        "cancel",
+        "performance",
+        "prefer",
+        "get your money back"
+      ]
+    },
+    {
+      "id": "en-b1-p-lesen-t1-notices-cinema-01-05",
+      "module": "lesen",
+      "title": "Sign outside the screens",
+      "text": "Please note: food and drinks bought outside the cinema may not be taken into the screens. Bottles of water are the only exception.",
+      "passageVocab": [
+        "screen",
+        "exception",
+        "note"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "en-b1-r-t1-notices-cinema-01-q1",
+      "module": "lesen",
+      "teil": 1,
+      "type": "multiple_choice",
+      "passageId": "en-b1-p-lesen-t1-notices-cinema-01-01",
+      "question": "What does the notice say?",
+      "options": [
+        "a) Members pay less for early films on Tuesdays.",
+        "b) Any customer can see a film for £5 on Tuesdays.",
+        "c) New members get a free ticket when they join."
+      ],
+      "correct": "a",
+      "correctAnswer": "a",
+      "explanation": "On Tuesdays 'Members can see any film starting before 6 pm for just £5', so early films are cheaper for members. The £5 price is for members, not any customer, and people who join get 'a free drink with every ticket you buy', not a free ticket.",
+      "grammarTags": [
+        "g-en-b1-modals"
+      ],
+      "topicTags": [
+        "entertainment"
+      ],
+      "vocabularyTags": [
+        "member",
+        "box office",
+        "join"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-r-t1-notices-cinema-01-q2",
+      "module": "lesen",
+      "teil": 1,
+      "type": "multiple_choice",
+      "passageId": "en-b1-p-lesen-t1-notices-cinema-01-02",
+      "question": "What does Leah want Sophie to do?",
+      "options": [
+        "a) Email her a copy of her ticket",
+        "b) Go into the cinema without her",
+        "c) Wait for her outside the entrance"
+      ],
+      "correct": "b",
+      "correctAnswer": "b",
+      "explanation": "Leah writes 'Don't wait for me outside … go in and find our seats', so Sophie should go in alone. Leah has already emailed Sophie her ticket; she does not ask Sophie to send her one.",
+      "grammarTags": [
+        "g-en-b1-imperatives"
+      ],
+      "topicTags": [
+        "entertainment"
+      ],
+      "vocabularyTags": [
+        "stuck",
+        "seat",
+        "accident"
+      ],
+      "difficulty": 3,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-r-t1-notices-cinema-01-q3",
+      "module": "lesen",
+      "teil": 1,
+      "type": "multiple_choice",
+      "passageId": "en-b1-p-lesen-t1-notices-cinema-01-03",
+      "question": "What does the sign say about people who arrive late?",
+      "options": [
+        "a) They cannot go to their seats straight away.",
+        "b) They must stay in the bar for the second half.",
+        "c) They will not be able to see any of the show."
+      ],
+      "correct": "a",
+      "correctAnswer": "a",
+      "explanation": "Latecomers 'will be able to take [their] seat during the interval, about 50 minutes later', so they have to wait before going in. They can see the first part 'on a screen in the theatre bar', and after the interval they go to their seats, so they do not stay in the bar.",
+      "grammarTags": [
+        "g-en-b1-future-forms"
+      ],
+      "topicTags": [
+        "entertainment"
+      ],
+      "vocabularyTags": [
+        "latecomer",
+        "interval",
+        "performance"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-r-t1-notices-cinema-01-q4",
+      "module": "lesen",
+      "teil": 1,
+      "type": "multiple_choice",
+      "passageId": "en-b1-p-lesen-t1-notices-cinema-01-04",
+      "question": "Why has the theatre written to Mr Brennan?",
+      "options": [
+        "a) To offer him free tickets for next week",
+        "b) To ask him to make a choice",
+        "c) To tell him another actor will play the main part"
+      ],
+      "correct": "b",
+      "correctAnswer": "b",
+      "explanation": "Mr Brennan can 'either change [his] tickets … or get [his] money back' and must 'reply to tell us which you prefer', so he has to choose. The performance is cancelled, so no other actor will play the part, and the new tickets are for 'another night this week', not free tickets for next week.",
+      "grammarTags": [
+        "g-en-b1-passive"
+      ],
+      "topicTags": [
+        "entertainment"
+      ],
+      "vocabularyTags": [
+        "cancel",
+        "prefer",
+        "refund"
+      ],
+      "difficulty": 3,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-r-t1-notices-cinema-01-q5",
+      "module": "lesen",
+      "teil": 1,
+      "type": "multiple_choice",
+      "passageId": "en-b1-p-lesen-t1-notices-cinema-01-05",
+      "question": "What does the sign say?",
+      "options": [
+        "a) You have to buy all your drinks at the cinema.",
+        "b) Food from the cinema café is not allowed in the screens.",
+        "c) You can take water from home into the screens."
+      ],
+      "correct": "c",
+      "correctAnswer": "c",
+      "explanation": "Food and drinks from outside are not allowed, but 'Bottles of water are the only exception', so you can bring water in. This means you do not have to buy every drink at the cinema, and the rule is about food bought outside the cinema, not food from the cinema itself.",
+      "grammarTags": [
+        "g-en-b1-passive"
+      ],
+      "topicTags": [
+        "entertainment"
+      ],
+      "vocabularyTags": [
+        "exception",
+        "screen",
+        "allowed"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    }
+  ],
+  "_germanCapsNormalizeVersion": "v3.23-lesen-t2-angebote-corpus-2026-07-28",
+  "_germanCapsNormalizedAt": "2026-10-12T14:43:58.959Z",
+  "_balanceMcqVersion": "v1.2-no-rf-chrono-shuffle-2026-07-11",
+  "_balanceMcqNormalizedAt": "2026-10-12T14:43:58.959Z"
+}

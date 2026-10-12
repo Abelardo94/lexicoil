@@ -1,0 +1,280 @@
+{
+  "passages": [
+    {
+      "id": "en-b1-p-horen-t2-gist-films-music-01-01",
+      "module": "horen",
+      "title": "After the film",
+      "text": "Lauren: Well, what did you think?\nAaron: Most of it was brilliant. I loved the way the story kept jumping between the past and now.\nLauren: Did you? I got a bit lost in the middle.\nAaron: No, it was clear enough. And two and a half hours went really quickly. But after all that, the last five minutes were so silly! Everyone suddenly became friends and everything was fine. I expected something much cleverer.",
+      "passageVocab": [
+        "story",
+        "ending",
+        "clever",
+        "silly"
+      ]
+    },
+    {
+      "id": "en-b1-p-horen-t2-gist-films-music-01-02",
+      "module": "horen",
+      "title": "The concert",
+      "text": "Kyle: How was the Midnight Sky concert, Freya?\nFreya: The band were fantastic. They played all my favourite songs.\nKyle: So you had a great time?\nFreya: Not really. There were so many people that I couldn't move, and it was so hot. I spent half the time worrying about getting out. Next time I'll get a seat upstairs, even if I can't see as well.",
+      "passageVocab": [
+        "band",
+        "crowd",
+        "hot",
+        "seat"
+      ]
+    },
+    {
+      "id": "en-b1-p-horen-t2-gist-films-music-01-03",
+      "module": "horen",
+      "title": "A TV talent show",
+      "text": "Jordan: Did you watch Star Search last night?\nMolly: Of course. That girl from Cardiff was amazing. I think the singers are much better than last year.\nJordan: Really? I thought last year's were just as good. But the judges! Did you hear what they said to that old man?\nMolly: Yes, that was horrible. They didn't need to laugh at him like that.\nJordan: Exactly. They should tell people what's wrong in a nicer way.",
+      "passageVocab": [
+        "judge",
+        "talent show",
+        "unkind",
+        "laugh at"
+      ]
+    },
+    {
+      "id": "en-b1-p-horen-t2-gist-films-music-01-04",
+      "module": "horen",
+      "title": "Learning the guitar",
+      "text": "Woman: I didn't know you played the guitar, Noah. How long have you been learning?\nNoah: About a year. My parents always wanted me to learn the piano, but I wasn't interested.\nWoman: So what changed?\nNoah: My friend Dev started a band with some boys from school, and they needed a guitarist. I really wanted to be in it, so I asked for lessons for my birthday. We do music at school too, but it's only singing.",
+      "passageVocab": [
+        "guitar",
+        "band",
+        "guitarist",
+        "lessons"
+      ]
+    },
+    {
+      "id": "en-b1-p-horen-t2-gist-films-music-01-05",
+      "module": "horen",
+      "title": "A birthday night out",
+      "text": "Sara: So, for your birthday, there's that musical at the Grand Theatre.\nNeil: I'm not a big fan of musicals, you know that. What else is on?\nSara: There's a comedy night at the Arts Centre, and a modern dance show.\nNeil: Comedy would be fun.\nSara: It's sold out, I'm afraid. I checked this morning.\nNeil: Oh. Well, I've never seen modern dance. Let's try something new.\nSara: Great, I'll book it.",
+      "passageVocab": [
+        "musical",
+        "comedy",
+        "sold out",
+        "book"
+      ]
+    },
+    {
+      "id": "en-b1-p-horen-t2-gist-films-music-01-06",
+      "module": "horen",
+      "title": "The summer festival",
+      "text": "Amira: Are you coming to the Riverside Festival with us, Tyler? Everyone's going.\nTyler: I'd love to. The bands are great this year.\nAmira: So book a ticket!\nTyler: It's ninety pounds, plus the train. I've only just started my Saturday job and I'm saving for a laptop. I'll see how much I've got at the end of the month.\nAmira: The camping's free, if that helps.\nTyler: That's good, but sleeping in a tent isn't my favourite thing.",
+      "passageVocab": [
+        "festival",
+        "afford",
+        "save",
+        "tent"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "en-b1-h-t2-gist-films-music-01-q1",
+      "module": "horen",
+      "teil": 2,
+      "type": "multiple_choice",
+      "passageId": "en-b1-p-horen-t2-gist-films-music-01-01",
+      "question": "You will hear two friends talking about a film they have just seen. What did Aaron think of it?",
+      "options": [
+        "a) It was much too long.",
+        "b) The story was hard to follow.",
+        "c) The ending was disappointing."
+      ],
+      "correct": "c",
+      "correctAnswer": "c",
+      "explanation": "Aaron says \"the last five minutes were so silly\" and \"I expected something much cleverer.\" It was Lauren who \"got a bit lost\"; Aaron thought \"it was clear enough\", and the two and a half hours \"went really quickly\".",
+      "grammarTags": [
+        "g-en-b1-past-continuous"
+      ],
+      "topicTags": [
+        "entertainment"
+      ],
+      "vocabularyTags": [
+        "ending",
+        "silly"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-h-t2-gist-films-music-01-q2",
+      "module": "horen",
+      "teil": 2,
+      "type": "multiple_choice",
+      "passageId": "en-b1-p-horen-t2-gist-films-music-01-02",
+      "question": "You will hear a girl telling a friend about a concert. How did she feel at the concert?",
+      "options": [
+        "a) Uncomfortable in the crowd",
+        "b) Disappointed with the band",
+        "c) Too far away from the stage"
+      ],
+      "correct": "a",
+      "correctAnswer": "a",
+      "explanation": "Freya says \"There were so many people that I couldn't move, and it was so hot\" and she was \"worrying about getting out\". She thought \"The band were fantastic\", and she never complains that she couldn't see the stage.",
+      "grammarTags": [
+        "g-en-b1-so-that"
+      ],
+      "topicTags": [
+        "entertainment"
+      ],
+      "vocabularyTags": [
+        "crowd",
+        "band"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-h-t2-gist-films-music-01-q3",
+      "module": "horen",
+      "teil": 2,
+      "type": "multiple_choice",
+      "passageId": "en-b1-p-horen-t2-gist-films-music-01-03",
+      "question": "You will hear two friends talking about a TV talent show. What do they agree about?",
+      "options": [
+        "a) The show is on too late.",
+        "b) The judges are unkind.",
+        "c) The singers have improved this year."
+      ],
+      "correct": "b",
+      "correctAnswer": "b",
+      "explanation": "Jordan complains about the judges and Molly says \"that was horrible. They didn’t need to laugh at him\"; Jordan answers \"Exactly.\" Only Molly thinks the singers are better; Jordan says \"last year’s were just as good\". Nobody mentions the time of the show.",
+      "grammarTags": [
+        "g-en-b1-should"
+      ],
+      "topicTags": [
+        "entertainment"
+      ],
+      "vocabularyTags": [
+        "judge",
+        "laugh at"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-h-t2-gist-films-music-01-q4",
+      "module": "horen",
+      "teil": 2,
+      "type": "multiple_choice",
+      "passageId": "en-b1-p-horen-t2-gist-films-music-01-04",
+      "question": "You will hear a boy talking about the guitar. Why did he start learning it?",
+      "options": [
+        "a) He wanted to join a band.",
+        "b) It was part of his music lessons at school.",
+        "c) His parents wanted him to learn."
+      ],
+      "correct": "a",
+      "correctAnswer": "a",
+      "explanation": "Noah says the band \"needed a guitarist. I really wanted to be in it, so I asked for lessons\". His parents wanted him to learn \"the piano\", not the guitar, and music at school is \"only singing\".",
+      "grammarTags": [
+        "g-en-b1-present-perfect-continuous"
+      ],
+      "topicTags": [
+        "entertainment"
+      ],
+      "vocabularyTags": [
+        "guitarist",
+        "band"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-h-t2-gist-films-music-01-q5",
+      "module": "horen",
+      "teil": 2,
+      "type": "multiple_choice",
+      "passageId": "en-b1-p-horen-t2-gist-films-music-01-05",
+      "question": "You will hear a woman and a man deciding what show to see. What do they decide?",
+      "options": [
+        "a) To see a musical",
+        "b) To go to a comedy night",
+        "c) To watch a dance show"
+      ],
+      "correct": "c",
+      "correctAnswer": "c",
+      "explanation": "Neil says \"I've never seen modern dance. Let's try something new\" and Sara agrees: \"Great, I'll book it.\" Neil is \"not a big fan of musicals\", and the comedy night is \"sold out\".",
+      "grammarTags": [
+        "g-en-b1-lets-suggestions"
+      ],
+      "topicTags": [
+        "entertainment"
+      ],
+      "vocabularyTags": [
+        "sold out",
+        "book"
+      ],
+      "difficulty": 3,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-h-t2-gist-films-music-01-q6",
+      "module": "horen",
+      "teil": 2,
+      "type": "multiple_choice",
+      "passageId": "en-b1-p-horen-t2-gist-films-music-01-06",
+      "question": "You will hear two friends talking about a music festival. What is Tyler's attitude to going?",
+      "options": [
+        "a) He doesn't like the bands.",
+        "b) He isn't sure he has enough money.",
+        "c) He is excited about camping there."
+      ],
+      "correct": "b",
+      "correctAnswer": "b",
+      "explanation": "Tyler mentions the cost (\"ninety pounds, plus the train\"), says \"I'm saving for a laptop\" and \"I'll see how much I've got at the end of the month.\" He says \"The bands are great this year\", and \"sleeping in a tent isn't my favourite thing\".",
+      "grammarTags": [
+        "g-en-b1-present-continuous"
+      ],
+      "topicTags": [
+        "entertainment"
+      ],
+      "vocabularyTags": [
+        "save",
+        "afford"
+      ],
+      "difficulty": 5,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    }
+  ],
+  "_germanCapsNormalizeVersion": "v3.23-lesen-t2-angebote-corpus-2026-07-28",
+  "_germanCapsNormalizedAt": "2026-10-12T14:44:03.425Z",
+  "_balanceMcqVersion": "v1.2-no-rf-chrono-shuffle-2026-07-11",
+  "_balanceMcqNormalizedAt": "2026-10-12T14:44:03.425Z"
+}

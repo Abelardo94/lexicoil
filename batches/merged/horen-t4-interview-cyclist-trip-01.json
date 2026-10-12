@@ -1,0 +1,294 @@
+{
+  "passages": [
+    {
+      "id": "en-b1-p-horen-t4-interview-cyclist-trip-01-01",
+      "module": "horen",
+      "title": "Interview with a student who cycled across France",
+      "text": "Interviewer: My guest today is Owen Barker, a nineteen-year-old student who has just cycled right across France, from the north coast down to the Mediterranean. That's about twelve hundred kilometres. Owen, why did you decide to do it?\n\nOwen: A lot of people assume I did it for charity, and I did collect a bit of money for a children's hospital, but that wasn't the main reason. I'd spent the whole year sitting in front of a screen, revising for exams, and I was desperate to do something physical, something completely different. My cousin Ben felt the same, so we went together.\n\nInterviewer: How much planning did you do?\n\nOwen: Far too much, I think now. We had every day organised: where we'd eat, where we'd sleep, how many kilometres we'd cover. Looking back, that was a mistake. Some of the best moments were in places we found by chance, when we got lost or took a different road. Next time I'll leave much more to chance.\n\nInterviewer: What was the hardest part?\n\nOwen: Before we left, I was worried about the hills, but they were fine. You just go slowly. And we had a couple of very wet days, which weren't much fun. No, the worst thing was when Ben got a stomach bug and we had to stay in a small town for three days. I felt so frustrated just sitting there, knowing how far we still had to go.\n\nInterviewer: What about the people you met?\n\nOwen: I was nervous before we went, because my French is terrible, and I thought people might be impatient with us. Actually, everyone was incredibly kind. One farmer let us put our tent up in his garden when the campsite was full, and his wife brought us breakfast in the morning! Hardly anyone spoke English, mind you, but we managed with our hands.\n\nInterviewer: How did you feel when you finally reached the sea?\n\nOwen: I'd imagined we'd be jumping up and down, celebrating. And we did take lots of photos on the beach. But honestly, I felt a bit sad more than anything. For three weeks, all we'd had to think about was cycling and eating, and suddenly it was over.\n\nInterviewer: Would you recommend a trip like this to other students?\n\nOwen: Definitely. People think you need to be really fit before you start, but we weren't, especially me. You get fitter every day. And you don't need an expensive bike. Mine was second-hand. The one thing I'd say is go with someone you get on well with, because you spend every minute together!\n\nInterviewer: Owen Barker, thanks for coming in.",
+      "passageVocab": [
+        "revise",
+        "by chance",
+        "frustrated",
+        "campsite",
+        "second-hand"
+      ],
+      "audio": [
+        {
+          "speaker": "Interviewer",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "My guest today is Owen Barker, a nineteen-year-old student who has just cycled right across France, from the north coast down to the Mediterranean. That's about twelve hundred kilometres. Owen, why did you decide to do it?"
+        },
+        {
+          "speaker": "Owen",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "A lot of people assume I did it for charity, and I did collect a bit of money for a children's hospital, but that wasn't the main reason. I'd spent the whole year sitting in front of a screen, revising for exams, and I was desperate to do something physical, something completely different. My cousin Ben felt the same, so we went together."
+        },
+        {
+          "speaker": "Interviewer",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "How much planning did you do?"
+        },
+        {
+          "speaker": "Owen",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Far too much, I think now. We had every day organised: where we'd eat, where we'd sleep, how many kilometres we'd cover. Looking back, that was a mistake. Some of the best moments were in places we found by chance, when we got lost or took a different road. Next time I'll leave much more to chance."
+        },
+        {
+          "speaker": "Interviewer",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "What was the hardest part?"
+        },
+        {
+          "speaker": "Owen",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Before we left, I was worried about the hills, but they were fine. You just go slowly. And we had a couple of very wet days, which weren't much fun. No, the worst thing was when Ben got a stomach bug and we had to stay in a small town for three days. I felt so frustrated just sitting there, knowing how far we still had to go."
+        },
+        {
+          "speaker": "Interviewer",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "What about the people you met?"
+        },
+        {
+          "speaker": "Owen",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "I was nervous before we went, because my French is terrible, and I thought people might be impatient with us. Actually, everyone was incredibly kind. One farmer let us put our tent up in his garden when the campsite was full, and his wife brought us breakfast in the morning! Hardly anyone spoke English, mind you, but we managed with our hands."
+        },
+        {
+          "speaker": "Interviewer",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "How did you feel when you finally reached the sea?"
+        },
+        {
+          "speaker": "Owen",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "I'd imagined we'd be jumping up and down, celebrating. And we did take lots of photos on the beach. But honestly, I felt a bit sad more than anything. For three weeks, all we'd had to think about was cycling and eating, and suddenly it was over."
+        },
+        {
+          "speaker": "Interviewer",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Would you recommend a trip like this to other students?"
+        },
+        {
+          "speaker": "Owen",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Definitely. People think you need to be really fit before you start, but we weren't, especially me. You get fitter every day. And you don't need an expensive bike. Mine was second-hand. The one thing I'd say is go with someone you get on well with, because you spend every minute together!"
+        },
+        {
+          "speaker": "Interviewer",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Owen Barker, thanks for coming in."
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "en-b1-h-t4-interview-cyclist-trip-01-q1",
+      "module": "horen",
+      "teil": 4,
+      "type": "multiple_choice",
+      "passageId": "en-b1-p-horen-t4-interview-cyclist-trip-01-01",
+      "question": "What was Owen's main reason for doing the trip?",
+      "options": [
+        "a) His cousin persuaded him to go with him.",
+        "b) He needed a complete change from studying.",
+        "c) He wanted to raise money for a hospital."
+      ],
+      "correct": "b",
+      "correctAnswer": "b",
+      "explanation": "Owen says he had spent the year 'revising for exams' and 'was desperate to do something physical, something completely different.' He collected some money for a hospital, 'but that wasn't the main reason', and his cousin simply 'felt the same'.",
+      "grammarTags": [
+        "g-en-b1-past-perfect"
+      ],
+      "topicTags": [
+        "travel-holidays"
+      ],
+      "vocabularyTags": [
+        "charity",
+        "revise",
+        "desperate"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-h-t4-interview-cyclist-trip-01-q2",
+      "module": "horen",
+      "teil": 4,
+      "type": "multiple_choice",
+      "passageId": "en-b1-p-horen-t4-interview-cyclist-trip-01-01",
+      "question": "How does Owen feel now about the planning they did?",
+      "options": [
+        "a) He is glad they organised everything carefully.",
+        "b) He thinks they planned too much.",
+        "c) He wishes they had prepared their route better."
+      ],
+      "correct": "b",
+      "correctAnswer": "b",
+      "explanation": "Owen says they did 'Far too much' planning and 'Looking back, that was a mistake.' He is not glad about it, and he wants to 'leave much more to chance' next time, not prepare more.",
+      "grammarTags": [
+        "g-en-b1-wish"
+      ],
+      "topicTags": [
+        "travel-holidays"
+      ],
+      "vocabularyTags": [
+        "organise",
+        "mistake",
+        "by chance"
+      ],
+      "difficulty": 5,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-h-t4-interview-cyclist-trip-01-q3",
+      "module": "horen",
+      "teil": 4,
+      "type": "multiple_choice",
+      "passageId": "en-b1-p-horen-t4-interview-cyclist-trip-01-01",
+      "question": "What did Owen find hardest during the trip?",
+      "options": [
+        "a) Waiting for his cousin to get better",
+        "b) Climbing the steep hills on his bike",
+        "c) Cycling for days in heavy rain"
+      ],
+      "correct": "a",
+      "correctAnswer": "a",
+      "explanation": "Owen says 'the worst thing was when Ben got a stomach bug and we had to stay in a small town for three days. I felt so frustrated'. He says the hills 'were fine', and the wet days only 'weren't much fun'.",
+      "grammarTags": [
+        "g-en-b1-superlatives"
+      ],
+      "topicTags": [
+        "travel-holidays"
+      ],
+      "vocabularyTags": [
+        "stomach bug",
+        "frustrated",
+        "hill"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-h-t4-interview-cyclist-trip-01-q4",
+      "module": "horen",
+      "teil": 4,
+      "type": "multiple_choice",
+      "passageId": "en-b1-p-horen-t4-interview-cyclist-trip-01-01",
+      "question": "What does Owen say about the people he met in France?",
+      "options": [
+        "a) They were surprised to see cyclists.",
+        "b) Most of them were able to speak good English.",
+        "c) They were kinder than he had expected."
+      ],
+      "correct": "c",
+      "correctAnswer": "c",
+      "explanation": "Owen was afraid 'people might be impatient with us', but 'Actually, everyone was incredibly kind.' He says 'Hardly anyone spoke English'.",
+      "grammarTags": [
+        "g-en-b1-comparatives"
+      ],
+      "topicTags": [
+        "travel-holidays"
+      ],
+      "vocabularyTags": [
+        "impatient",
+        "incredibly",
+        "campsite"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-h-t4-interview-cyclist-trip-01-q5",
+      "module": "horen",
+      "teil": 4,
+      "type": "multiple_choice",
+      "passageId": "en-b1-p-horen-t4-interview-cyclist-trip-01-01",
+      "question": "How did Owen feel when they reached the Mediterranean?",
+      "options": [
+        "a) Sorry that the trip was over",
+        "b) Excited and keen to celebrate",
+        "c) Proud of how fit he had become"
+      ],
+      "correct": "a",
+      "correctAnswer": "a",
+      "explanation": "Owen says 'I felt a bit sad more than anything' because 'suddenly it was over.' He had imagined 'jumping up and down, celebrating', but that is not how he actually felt.",
+      "grammarTags": [
+        "g-en-b1-past-perfect"
+      ],
+      "topicTags": [
+        "travel-holidays"
+      ],
+      "vocabularyTags": [
+        "imagine",
+        "celebrate",
+        "honestly"
+      ],
+      "difficulty": 5,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-h-t4-interview-cyclist-trip-01-q6",
+      "module": "horen",
+      "teil": 4,
+      "type": "multiple_choice",
+      "passageId": "en-b1-p-horen-t4-interview-cyclist-trip-01-01",
+      "question": "What does Owen say about doing a trip like this?",
+      "options": [
+        "a) It's worth paying for a really good bike.",
+        "b) It is more fun to travel on your own.",
+        "c) You can do it without being very fit."
+      ],
+      "correct": "c",
+      "correctAnswer": "c",
+      "explanation": "Owen says 'People think you need to be really fit before you start, but we weren't' and 'You get fitter every day.' His own bike was 'second-hand', and he advises going 'with someone you get on well with', not alone.",
+      "grammarTags": [
+        "g-en-b1-modals"
+      ],
+      "topicTags": [
+        "travel-holidays"
+      ],
+      "vocabularyTags": [
+        "recommend",
+        "fit",
+        "get on with"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    }
+  ],
+  "_germanCapsNormalizeVersion": "v3.23-lesen-t2-angebote-corpus-2026-07-28",
+  "_germanCapsNormalizedAt": "2026-10-12T14:44:04.660Z",
+  "_balanceMcqVersion": "v1.2-no-rf-chrono-shuffle-2026-07-11",
+  "_balanceMcqNormalizedAt": "2026-10-12T14:44:04.660Z"
+}

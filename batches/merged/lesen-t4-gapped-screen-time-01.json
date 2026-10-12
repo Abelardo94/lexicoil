@@ -1,0 +1,218 @@
+{
+  "passages": [
+    {
+      "id": "en-b1-p-lesen-t4-gapped-screen-time-01-01",
+      "module": "lesen",
+      "title": "How much is too much?",
+      "text": "Ask any parent what worries them most about their teenage children, and many will give the same answer: screens. Phones, tablets, games consoles: young people seem to be looking at one of them almost all the time. (1) ________ According to one recent study of British 13- to 16-year-olds, the average is around seven hours a day, not counting schoolwork.\n\nThat number sounds shocking, but researchers say we should be careful with it. (2) ________ A teenager might be listening to music, chatting to friends and watching a video at the same moment, and each activity is counted separately.\n\nNot all screen time is the same, either. Dr Ellen Ward, who studies young people's sleep, believes the problem is not how long teenagers spend online but when. (3) ________ The bright light tells the brain that it is still daytime, and messages that arrive late at night keep teenagers awake.\n\nSome schools have decided to act. At Riverside Academy in Belfast, students hand in their phones when they arrive and get them back at four o'clock. (4) ________ Now, says head teacher Ciaran Doyle, most of them say they prefer it, because break times have become far more sociable.\n\nTeenagers themselves are not always happy with the way adults talk about the subject. Sixteen-year-old Maya told us that her phone is how she keeps in touch with her cousins in Canada and how she learns the guitar from online videos. (5) ________\n\nPerhaps, then, the real question is not simply how many hours teenagers spend on screens, but what they use those hours for.",
+      "passageVocab": [
+        "screen",
+        "researcher",
+        "average",
+        "sociable",
+        "keep in touch"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "en-b1-r-t4-gapped-screen-time-01-q1",
+      "module": "lesen",
+      "teil": 4,
+      "type": "matching",
+      "passageId": "en-b1-p-lesen-t4-gapped-screen-time-01-01",
+      "question": "Which sentence fits gap (1)?",
+      "options": [
+        "A) Using a phone in bed, for example, can make it much harder to fall asleep.",
+        "B) 'Adults only see us staring at a screen,' she says, 'not what we're actually doing.'",
+        "C) The study also found that most teenagers watch less television than their parents did.",
+        "D) Much of that time, they point out, is spent doing several things at once.",
+        "E) As a result, she has decided to delete all the social media apps on her phone.",
+        "F) But how many hours do teenagers really spend in front of them?",
+        "G) Sleep experts say that teenagers need at least eight hours of sleep every night.",
+        "H) At first, a lot of them were angry about the new rule."
+      ],
+      "correct": "F",
+      "correctAnswer": "F",
+      "explanation": "'Them' refers to the screens listed before ('Phones, tablets, games consoles'), and the question 'how many hours do teenagers really spend' is answered by the next sentence: 'the average is around seven hours a day'. The sentence about the study also finding something cannot fit, because the study has not been mentioned yet.",
+      "grammarTags": [
+        "g-en-b1-questions"
+      ],
+      "topicTags": [
+        "technology"
+      ],
+      "vocabularyTags": [
+        "hours",
+        "teenager",
+        "screen"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-r-t4-gapped-screen-time-01-q2",
+      "module": "lesen",
+      "teil": 4,
+      "type": "matching",
+      "passageId": "en-b1-p-lesen-t4-gapped-screen-time-01-01",
+      "question": "Which sentence fits gap (2)?",
+      "options": [
+        "A) Using a phone in bed, for example, can make it much harder to fall asleep.",
+        "B) 'Adults only see us staring at a screen,' she says, 'not what we're actually doing.'",
+        "C) The study also found that most teenagers watch less television than their parents did.",
+        "D) Much of that time, they point out, is spent doing several things at once.",
+        "E) As a result, she has decided to delete all the social media apps on her phone.",
+        "F) But how many hours do teenagers really spend in front of them?",
+        "G) Sleep experts say that teenagers need at least eight hours of sleep every night.",
+        "H) At first, a lot of them were angry about the new rule."
+      ],
+      "correct": "D",
+      "correctAnswer": "D",
+      "explanation": "'They' refers to the 'researchers', 'that time' to the seven hours, and 'doing several things at once' is explained by the next sentence: a teenager might be 'listening to music, chatting to friends and watching a video at the same moment'. The sentence about television does not explain why the number should be treated carefully.",
+      "grammarTags": [
+        "g-en-b1-reference-words"
+      ],
+      "topicTags": [
+        "technology"
+      ],
+      "vocabularyTags": [
+        "at once",
+        "point out",
+        "separately"
+      ],
+      "difficulty": 5,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-r-t4-gapped-screen-time-01-q3",
+      "module": "lesen",
+      "teil": 4,
+      "type": "matching",
+      "passageId": "en-b1-p-lesen-t4-gapped-screen-time-01-01",
+      "question": "Which sentence fits gap (3)?",
+      "options": [
+        "A) Using a phone in bed, for example, can make it much harder to fall asleep.",
+        "B) 'Adults only see us staring at a screen,' she says, 'not what we're actually doing.'",
+        "C) The study also found that most teenagers watch less television than their parents did.",
+        "D) Much of that time, they point out, is spent doing several things at once.",
+        "E) As a result, she has decided to delete all the social media apps on her phone.",
+        "F) But how many hours do teenagers really spend in front of them?",
+        "G) Sleep experts say that teenagers need at least eight hours of sleep every night.",
+        "H) At first, a lot of them were angry about the new rule."
+      ],
+      "correct": "A",
+      "correctAnswer": "A",
+      "explanation": "Dr Ward thinks the problem is 'when', and using a phone 'in bed' is an example ('for example') of the wrong time. 'The bright light' in the next sentence is the light from that phone. The sentence about needing eight hours of sleep does not mention a screen, so 'The bright light' would have nothing to refer to.",
+      "grammarTags": [
+        "g-en-b1-gerunds"
+      ],
+      "topicTags": [
+        "technology"
+      ],
+      "vocabularyTags": [
+        "fall asleep",
+        "bed",
+        "bright"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-r-t4-gapped-screen-time-01-q4",
+      "module": "lesen",
+      "teil": 4,
+      "type": "matching",
+      "passageId": "en-b1-p-lesen-t4-gapped-screen-time-01-01",
+      "question": "Which sentence fits gap (4)?",
+      "options": [
+        "A) Using a phone in bed, for example, can make it much harder to fall asleep.",
+        "B) 'Adults only see us staring at a screen,' she says, 'not what we're actually doing.'",
+        "C) The study also found that most teenagers watch less television than their parents did.",
+        "D) Much of that time, they point out, is spent doing several things at once.",
+        "E) As a result, she has decided to delete all the social media apps on her phone.",
+        "F) But how many hours do teenagers really spend in front of them?",
+        "G) Sleep experts say that teenagers need at least eight hours of sleep every night.",
+        "H) At first, a lot of them were angry about the new rule."
+      ],
+      "correct": "H",
+      "correctAnswer": "H",
+      "explanation": "'Them' refers to the 'students' who hand in their phones, 'the new rule' to that arrangement, and 'At first' contrasts with the next sentence: 'Now… most of them say they prefer it'. No other sentence prepares the change of opinion shown by 'Now'.",
+      "grammarTags": [
+        "g-en-b1-past-simple"
+      ],
+      "topicTags": [
+        "technology"
+      ],
+      "vocabularyTags": [
+        "rule",
+        "angry",
+        "at first"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-r-t4-gapped-screen-time-01-q5",
+      "module": "lesen",
+      "teil": 4,
+      "type": "matching",
+      "passageId": "en-b1-p-lesen-t4-gapped-screen-time-01-01",
+      "question": "Which sentence fits gap (5)?",
+      "options": [
+        "A) Using a phone in bed, for example, can make it much harder to fall asleep.",
+        "B) 'Adults only see us staring at a screen,' she says, 'not what we're actually doing.'",
+        "C) The study also found that most teenagers watch less television than their parents did.",
+        "D) Much of that time, they point out, is spent doing several things at once.",
+        "E) As a result, she has decided to delete all the social media apps on her phone.",
+        "F) But how many hours do teenagers really spend in front of them?",
+        "G) Sleep experts say that teenagers need at least eight hours of sleep every night.",
+        "H) At first, a lot of them were angry about the new rule."
+      ],
+      "correct": "B",
+      "correctAnswer": "B",
+      "explanation": "Maya explains that she uses her phone to keep 'in touch with her cousins' and to learn the guitar, and her words 'Adults only see us staring at a screen' repeat the idea that teenagers are 'not always happy with the way adults talk about the subject'. The sentence about her deleting her social media apps contradicts her defence of her phone.",
+      "grammarTags": [
+        "g-en-b1-direct-speech"
+      ],
+      "topicTags": [
+        "technology"
+      ],
+      "vocabularyTags": [
+        "stare",
+        "actually",
+        "adult"
+      ],
+      "difficulty": 5,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    }
+  ],
+  "_germanCapsNormalizeVersion": "v3.23-lesen-t2-angebote-corpus-2026-07-28",
+  "_germanCapsNormalizedAt": "2026-10-12T14:44:00.939Z",
+  "_balanceMcqVersion": "v1.2-no-rf-chrono-shuffle-2026-07-11",
+  "_balanceMcqNormalizedAt": "2026-10-12T14:44:00.939Z"
+}

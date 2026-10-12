@@ -1,0 +1,280 @@
+{
+  "passages": [
+    {
+      "id": "en-b1-p-horen-t2-gist-health-fitness-01-01",
+      "module": "horen",
+      "title": "The new gym",
+      "text": "Gareth: How's the new gym, Olivia?\nOlivia: The machines are all brand new, and it's only five minutes from my flat.\nGareth: Sounds perfect.\nOlivia: It would be, but I can only go after work, and that's when everyone else goes. I usually have to wait ages to use anything. I might start going early in the morning instead.",
+      "passageVocab": [
+        "gym",
+        "machine",
+        "brand new",
+        "after work"
+      ]
+    },
+    {
+      "id": "en-b1-p-horen-t2-gist-health-fitness-01-02",
+      "module": "horen",
+      "title": "A running app",
+      "text": "Woman: You've been out running every day this week, Max!\nMax: It's this app. It gives you points for every kilometre, and you can see how your friends are doing. I'm trying to beat Lewis.\nWoman: I thought you hated running.\nMax: I did! But now it's like a game. And it was free, so you can't complain.",
+      "passageVocab": [
+        "app",
+        "points",
+        "kilometre",
+        "beat"
+      ]
+    },
+    {
+      "id": "en-b1-p-horen-t2-gist-health-fitness-01-03",
+      "module": "horen",
+      "title": "Getting enough sleep",
+      "text": "Fiona: I read that we should all sleep eight hours a night. I'm lucky if I get six.\nDominic: Me too. I always look at my phone in bed, and then I'm awake for ages.\nFiona: Same here. I really think the screen keeps you awake. I'm going to leave mine in the kitchen.\nDominic: Good idea. Mind you, I went swimming yesterday and I still couldn't sleep.\nFiona: Really? Swimming always makes me sleep like a baby.",
+      "passageVocab": [
+        "sleep",
+        "screen",
+        "awake",
+        "swimming"
+      ]
+    },
+    {
+      "id": "en-b1-p-horen-t2-gist-health-fitness-01-04",
+      "module": "horen",
+      "title": "Starting yoga",
+      "text": "Marcus: Since when do you do yoga, Holly?\nHolly: Since January. My sister's been trying to get me to go with her for years, but I always said no.\nMarcus: So what changed your mind?\nHolly: Exams, really. I was so stressed I couldn't think properly. Someone told me yoga helps you relax, so I tried it. And it works. I feel much calmer now. My sister's really happy I'm there, of course!",
+      "passageVocab": [
+        "yoga",
+        "stressed",
+        "relax",
+        "calm"
+      ]
+    },
+    {
+      "id": "en-b1-p-horen-t2-gist-health-fitness-01-05",
+      "module": "horen",
+      "title": "Cycling to work",
+      "text": "Kirsty: Are you still cycling to work, Ian?\nIan: Every day. I thought it would take much longer than the car, but with all the traffic in the mornings, I actually get there ten minutes earlier.\nKirsty: Isn't it dangerous, though, on those busy roads?\nIan: There's a cycle path most of the way now, so I feel quite safe. And I'm not tired at all. I've got more energy than before.",
+      "passageVocab": [
+        "cycle",
+        "traffic",
+        "cycle path",
+        "energy"
+      ]
+    },
+    {
+      "id": "en-b1-p-horen-t2-gist-health-fitness-01-06",
+      "module": "horen",
+      "title": "A month without sugar",
+      "text": "Ruth: So, how's the no-sugar month going, Pete?\nPete: Well, I was sure I'd be desperate for chocolate after a couple of days. But honestly, I hardly think about it.\nRuth: Really? I'd find it impossible.\nPete: So did I! I haven't lost any weight yet, but that wasn't really why I did it. I just wanted to have more energy.",
+      "passageVocab": [
+        "sugar",
+        "chocolate",
+        "lose weight",
+        "energy"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "en-b1-h-t2-gist-health-fitness-01-q1",
+      "module": "horen",
+      "teil": 2,
+      "type": "multiple_choice",
+      "passageId": "en-b1-p-horen-t2-gist-health-fitness-01-01",
+      "question": "You will hear two friends talking about a gym. What problem does Olivia have with it?",
+      "options": [
+        "a) It is a long way from her home.",
+        "b) It is too busy when she can go.",
+        "c) The equipment is quite old."
+      ],
+      "correct": "b",
+      "correctAnswer": "b",
+      "explanation": "Olivia says \"I can only go after work, and that's when everyone else goes. I usually have to wait ages\". The gym is \"only five minutes from my flat\" and the machines are \"brand new\".",
+      "grammarTags": [
+        "g-en-b1-modals-might"
+      ],
+      "topicTags": [
+        "health"
+      ],
+      "vocabularyTags": [
+        "gym",
+        "machine"
+      ],
+      "difficulty": 3,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-h-t2-gist-health-fitness-01-q2",
+      "module": "horen",
+      "teil": 2,
+      "type": "multiple_choice",
+      "passageId": "en-b1-p-horen-t2-gist-health-fitness-01-02",
+      "question": "You will hear a boy talking to his mother about a running app. What does he think of the app?",
+      "options": [
+        "a) It was too expensive to download.",
+        "b) It has made running more fun.",
+        "c) It makes running too hard."
+      ],
+      "correct": "b",
+      "correctAnswer": "b",
+      "explanation": "Max says he hated running, \"But now it's like a game\", and he is \"trying to beat Lewis\". The app \"was free\", and nothing suggests it makes running too hard.",
+      "grammarTags": [
+        "g-en-b1-present-perfect-continuous"
+      ],
+      "topicTags": [
+        "health"
+      ],
+      "vocabularyTags": [
+        "app",
+        "beat"
+      ],
+      "difficulty": 3,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-h-t2-gist-health-fitness-01-q3",
+      "module": "horen",
+      "teil": 2,
+      "type": "multiple_choice",
+      "passageId": "en-b1-p-horen-t2-gist-health-fitness-01-03",
+      "question": "You will hear two friends talking about sleep. What do they agree about?",
+      "options": [
+        "a) Using a phone in bed stops you sleeping.",
+        "b) Eight hours of sleep is too much.",
+        "c) Doing exercise during the day helps you sleep."
+      ],
+      "correct": "a",
+      "correctAnswer": "a",
+      "explanation": "Dominic looks at his phone in bed \"and then I'm awake for ages\", and Fiona says \"Same here. I really think the screen keeps you awake.\" They disagree about exercise: swimming didn't help Dominic, but it helps Fiona.",
+      "grammarTags": [
+        "g-en-b1-make-keep-verb-patterns"
+      ],
+      "topicTags": [
+        "health"
+      ],
+      "vocabularyTags": [
+        "awake",
+        "screen"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-h-t2-gist-health-fitness-01-q4",
+      "module": "horen",
+      "teil": 2,
+      "type": "multiple_choice",
+      "passageId": "en-b1-p-horen-t2-gist-health-fitness-01-04",
+      "question": "You will hear a girl telling a friend about yoga. Why did she start doing it?",
+      "options": [
+        "a) Because her sister persuaded her",
+        "b) To make some new friends",
+        "c) To deal with stress"
+      ],
+      "correct": "c",
+      "correctAnswer": "c",
+      "explanation": "Holly says \"Exams, really. I was so stressed I couldn't think properly\", and she tried yoga because it \"helps you relax\". Her sister asked her \"for years\", \"but I always said no\", so that wasn't the reason.",
+      "grammarTags": [
+        "g-en-b1-present-perfect-continuous"
+      ],
+      "topicTags": [
+        "health"
+      ],
+      "vocabularyTags": [
+        "stressed",
+        "relax"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-h-t2-gist-health-fitness-01-q5",
+      "module": "horen",
+      "teil": 2,
+      "type": "multiple_choice",
+      "passageId": "en-b1-p-horen-t2-gist-health-fitness-01-05",
+      "question": "You will hear two friends talking about cycling to work. What is Ian's opinion of it?",
+      "options": [
+        "a) It is dangerous on the busy roads in town.",
+        "b) It makes him feel tired.",
+        "c) It is quicker than driving."
+      ],
+      "correct": "c",
+      "correctAnswer": "c",
+      "explanation": "Ian says \"with all the traffic in the mornings, I actually get there ten minutes earlier\" than by car. It is Kirsty who thinks it is dangerous; Ian feels \"quite safe\" and is \"not tired at all\".",
+      "grammarTags": [
+        "g-en-b1-comparatives"
+      ],
+      "topicTags": [
+        "health"
+      ],
+      "vocabularyTags": [
+        "traffic",
+        "cycle path"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-h-t2-gist-health-fitness-01-q6",
+      "module": "horen",
+      "teil": 2,
+      "type": "multiple_choice",
+      "passageId": "en-b1-p-horen-t2-gist-health-fitness-01-06",
+      "question": "You will hear a man talking about giving up sugar. How does he feel about it now?",
+      "options": [
+        "a) He is surprised it has been so easy.",
+        "b) He is upset that he hasn't lost weight.",
+        "c) He misses sweet food a lot."
+      ],
+      "correct": "a",
+      "correctAnswer": "a",
+      "explanation": "Pete \"was sure I'd be desperate for chocolate\", \"But honestly, I hardly think about it.\" He hasn't lost weight, but \"that wasn't really why I did it\", so he is not upset about it.",
+      "grammarTags": [
+        "g-en-b1-reported-expectations"
+      ],
+      "topicTags": [
+        "health"
+      ],
+      "vocabularyTags": [
+        "sugar",
+        "lose weight"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    }
+  ],
+  "_germanCapsNormalizeVersion": "v3.23-lesen-t2-angebote-corpus-2026-07-28",
+  "_germanCapsNormalizedAt": "2026-10-12T14:44:03.577Z",
+  "_balanceMcqVersion": "v1.2-no-rf-chrono-shuffle-2026-07-11",
+  "_balanceMcqNormalizedAt": "2026-10-12T14:44:03.577Z"
+}

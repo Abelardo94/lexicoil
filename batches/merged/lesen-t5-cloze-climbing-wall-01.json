@@ -1,0 +1,226 @@
+{
+  "passages": [
+    {
+      "id": "en-b1-p-lesen-t5-cloze-climbing-wall-01-01",
+      "module": "lesen",
+      "title": "My first time on a climbing wall",
+      "text": "For my fifteenth birthday, my friend Priya and I decided to try the new indoor climbing wall in Leeds. I was a bit nervous because I'm (1) ____ of heights, but Priya persuaded me to come.\n\nFirst, an instructor called Dan showed us how to put on our harnesses and tie the ropes correctly. He also (2) ____ sure that we understood the safety rules before we started.\n\nThe wall was covered in brightly coloured holds, and each colour showed a different (3) ____ of difficulty. We began with the easy yellow route. Priya reached the top in less than two minutes, but halfway up I made the mistake of looking down, and my legs started shaking. Dan shouted from the ground, \"Don't (4) ____ up now - you're nearly there!\" His words gave me the confidence to continue, and when I finally touched the top, I felt really proud.\n\nBy the end of the session my arms were aching, but I had (5) ____ a lot of fun. Priya and I have already (6) ____ another session for next Saturday, and this time I want to try the blue route.",
+      "passageVocab": [
+        "instructor",
+        "harness",
+        "route",
+        "confidence",
+        "session"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "en-b1-r-t5-cloze-climbing-wall-01-q1",
+      "module": "lesen",
+      "teil": 5,
+      "type": "multiple_choice",
+      "passageId": "en-b1-p-lesen-t5-cloze-climbing-wall-01-01",
+      "question": "Choose the correct word for gap (1).",
+      "options": [
+        "a) worried",
+        "b) afraid",
+        "c) anxious",
+        "d) upset"
+      ],
+      "correct": "b",
+      "correctAnswer": "b",
+      "explanation": "The pattern is \"afraid of\" something: the writer says \"I'm afraid of heights\". 'Worried' and 'anxious' are followed by 'about', not 'of', and 'upset of' is not possible.",
+      "grammarTags": [
+        "g-en-b1-adjective-prepositions"
+      ],
+      "topicTags": [
+        "sport"
+      ],
+      "vocabularyTags": [
+        "afraid of",
+        "heights"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-r-t5-cloze-climbing-wall-01-q2",
+      "module": "lesen",
+      "teil": 5,
+      "type": "multiple_choice",
+      "passageId": "en-b1-p-lesen-t5-cloze-climbing-wall-01-01",
+      "question": "Choose the correct word for gap (2).",
+      "options": [
+        "a) got",
+        "b) did",
+        "c) took",
+        "d) made"
+      ],
+      "correct": "d",
+      "correctAnswer": "d",
+      "explanation": "The fixed expression is \"make sure\": Dan \"made sure that we understood the safety rules\", meaning he checked it. 'Did sure', 'took sure' and 'got sure' are not English.",
+      "grammarTags": [
+        "g-en-b1-fixed-expressions"
+      ],
+      "topicTags": [
+        "sport"
+      ],
+      "vocabularyTags": [
+        "make sure",
+        "safety"
+      ],
+      "difficulty": 3,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-r-t5-cloze-climbing-wall-01-q3",
+      "module": "lesen",
+      "teil": 5,
+      "type": "multiple_choice",
+      "passageId": "en-b1-p-lesen-t5-cloze-climbing-wall-01-01",
+      "question": "Choose the correct word for gap (3).",
+      "options": [
+        "a) level",
+        "b) height",
+        "c) size",
+        "d) step"
+      ],
+      "correct": "a",
+      "correctAnswer": "a",
+      "explanation": "We talk about \"a level of difficulty\": each colour showed how hard the route was, from \"the easy yellow route\" upwards. 'Height', 'size' and 'step of difficulty' are not used in English.",
+      "grammarTags": [
+        "g-en-b1-collocations"
+      ],
+      "topicTags": [
+        "sport"
+      ],
+      "vocabularyTags": [
+        "level of difficulty",
+        "route"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-r-t5-cloze-climbing-wall-01-q4",
+      "module": "lesen",
+      "teil": 5,
+      "type": "multiple_choice",
+      "passageId": "en-b1-p-lesen-t5-cloze-climbing-wall-01-01",
+      "question": "Choose the correct word for gap (4).",
+      "options": [
+        "a) give",
+        "b) stop",
+        "c) end",
+        "d) leave"
+      ],
+      "correct": "a",
+      "correctAnswer": "a",
+      "explanation": "Dan wants the writer to keep climbing: \"Don't give up now - you're nearly there!\" 'Give up' means stop trying. 'Stop up', 'end up' and 'leave up' do not have this meaning ('end up' means 'finally be somewhere').",
+      "grammarTags": [
+        "g-en-b1-phrasal-verbs"
+      ],
+      "topicTags": [
+        "sport"
+      ],
+      "vocabularyTags": [
+        "give up",
+        "encourage"
+      ],
+      "difficulty": 3,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-r-t5-cloze-climbing-wall-01-q5",
+      "module": "lesen",
+      "teil": 5,
+      "type": "multiple_choice",
+      "passageId": "en-b1-p-lesen-t5-cloze-climbing-wall-01-01",
+      "question": "Choose the correct word for gap (5).",
+      "options": [
+        "a) made",
+        "b) had",
+        "c) taken",
+        "d) done"
+      ],
+      "correct": "b",
+      "correctAnswer": "b",
+      "explanation": "The collocation is \"have fun\", so in the past perfect it is \"I had had a lot of fun\". We do not say 'do fun', 'make fun' (which means laughing at someone unkindly, and needs 'of') or 'take fun'.",
+      "grammarTags": [
+        "g-en-b1-collocations"
+      ],
+      "topicTags": [
+        "sport"
+      ],
+      "vocabularyTags": [
+        "have fun"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-r-t5-cloze-climbing-wall-01-q6",
+      "module": "lesen",
+      "teil": 5,
+      "type": "multiple_choice",
+      "passageId": "en-b1-p-lesen-t5-cloze-climbing-wall-01-01",
+      "question": "Choose the correct word for gap (6).",
+      "options": [
+        "a) spent",
+        "b) charged",
+        "c) booked",
+        "d) paid"
+      ],
+      "correct": "c",
+      "correctAnswer": "c",
+      "explanation": "They \"have already booked another session for next Saturday\", meaning they have arranged it in advance. 'Paid' would need 'for' (paid for a session), 'spent a session' refers to time already used, and 'charged' is what the centre does to customers.",
+      "grammarTags": [
+        "g-en-b1-collocations"
+      ],
+      "topicTags": [
+        "sport"
+      ],
+      "vocabularyTags": [
+        "book",
+        "session"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    }
+  ],
+  "_germanCapsNormalizeVersion": "v3.23-lesen-t2-angebote-corpus-2026-07-28",
+  "_germanCapsNormalizedAt": "2026-10-12T14:44:01.560Z",
+  "_balanceMcqVersion": "v1.2-no-rf-chrono-shuffle-2026-07-11",
+  "_balanceMcqNormalizedAt": "2026-10-12T14:44:01.560Z"
+}

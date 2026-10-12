@@ -1,0 +1,280 @@
+{
+  "passages": [
+    {
+      "id": "en-b1-p-horen-t2-gist-school-life-01-01",
+      "module": "horen",
+      "title": "After the maths exam",
+      "text": "Jamie: How did the maths exam go, Priya? You were really nervous this morning.\nPriya: I know! I hardly slept. But honestly, it was fine. The questions were the same kind we did in class, and I had loads of time at the end to check everything.\nJamie: Lucky you. I didn't even get to the last page.\nPriya: Oh no. Well, I was sure I'd find it really hard, so I'm just glad it's over.",
+      "passageVocab": [
+        "exam",
+        "nervous",
+        "check",
+        "relieved"
+      ]
+    },
+    {
+      "id": "en-b1-p-horen-t2-gist-school-life-01-02",
+      "module": "horen",
+      "title": "The school trip",
+      "text": "Woman: How was the trip to the science museum, Owen?\nOwen: Well, you know I didn't want to go. I thought it'd be really boring, just looking at old machines.\nWoman: And was it?\nOwen: Not at all! There were loads of things you could try yourself, and a guide showed us how robots are built. The coach journey took ages, but I'd go again tomorrow.\nWoman: Mr Evans organised it very well, then.\nOwen: Yes, everything happened exactly on time.",
+      "passageVocab": [
+        "trip",
+        "museum",
+        "guide",
+        "coach"
+      ]
+    },
+    {
+      "id": "en-b1-p-horen-t2-gist-school-life-01-03",
+      "module": "horen",
+      "title": "A new phone rule",
+      "text": "Megan: Have you heard? From next month, we can't use our phones at all during the school day, not even at lunch.\nRavi: Yes. I think it's going to be good, actually. People will talk to each other more at break.\nMegan: Maybe. But nobody asked us what we thought. The head teacher just decided. They should have had a vote in the school council.\nRavi: You're right about that. We're the ones who have to live with it.\nMegan: Well, I'll find it hard. I check my phone all the time.",
+      "passageVocab": [
+        "rule",
+        "head teacher",
+        "vote",
+        "school council"
+      ]
+    },
+    {
+      "id": "en-b1-p-horen-t2-gist-school-life-01-04",
+      "module": "horen",
+      "title": "Talking to the teacher",
+      "text": "Zoe: Mrs Taylor, have you got a minute? It's about the history project.\nMrs Taylor: Of course, Zoe. Are you finding it hard to choose a topic?\nZoe: No, I'm doing the history of the town market. I've already started. The thing is, you put me in a group with Ellie and Ben, and they want to do something completely different.\nMrs Taylor: I see.\nZoe: So I wondered if I could do it on my own. I don't mind doing all the work myself, and I can still finish by the end of the month.",
+      "passageVocab": [
+        "project",
+        "topic",
+        "group",
+        "on my own"
+      ]
+    },
+    {
+      "id": "en-b1-p-horen-t2-gist-school-life-01-05",
+      "module": "horen",
+      "title": "How to revise",
+      "text": "Rosie: How can you revise with music on, Adam? I need total silence.\nAdam: I know, but silence doesn't work for me. If it's too quiet, I start thinking about other things.\nRosie: You could go to the library with Kim and Leo.\nAdam: I tried that last week. They spent the whole time chatting, so I didn't get anything done. No, I'll stay in my room with my headphones on. I remember things much better that way.",
+      "passageVocab": [
+        "revise",
+        "silence",
+        "library",
+        "headphones"
+      ]
+    },
+    {
+      "id": "en-b1-p-horen-t2-gist-school-life-01-06",
+      "module": "horen",
+      "title": "The school play",
+      "text": "Hayley: Congratulations, Luke! I saw the list. You're the king in the school play!\nLuke: Thanks. I wanted to be the king's servant, actually. He's got all the funny lines.\nHayley: But the king's the main part!\nLuke: I know, and that's the problem. I've got so many lines to learn and only five weeks. The singing's fine, I've done that before, but I don't know how I'll remember all those words.",
+      "passageVocab": [
+        "play",
+        "part",
+        "lines",
+        "servant"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "en-b1-h-t2-gist-school-life-01-q1",
+      "module": "horen",
+      "teil": 2,
+      "type": "multiple_choice",
+      "passageId": "en-b1-p-horen-t2-gist-school-life-01-01",
+      "question": "You will hear two students talking about a maths exam. How does Priya feel about it?",
+      "options": [
+        "a) Annoyed that the questions were unfamiliar",
+        "b) Relieved that it went well",
+        "c) Worried that she didn't finish in time"
+      ],
+      "correct": "b",
+      "correctAnswer": "b",
+      "explanation": "Priya says \"I was sure I'd find it really hard, so I'm just glad it's over\" and \"honestly, it was fine\". It was Jamie who didn't finish (\"I didn't even get to the last page\"), and the questions were \"the same kind we did in class\".",
+      "grammarTags": [
+        "g-en-b1-past-simple"
+      ],
+      "topicTags": [
+        "education"
+      ],
+      "vocabularyTags": [
+        "exam",
+        "nervous"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-h-t2-gist-school-life-01-q2",
+      "module": "horen",
+      "teil": 2,
+      "type": "multiple_choice",
+      "passageId": "en-b1-p-horen-t2-gist-school-life-01-02",
+      "question": "You will hear a boy telling his mother about a school trip. What is his opinion of the trip?",
+      "options": [
+        "a) It was more interesting than he expected.",
+        "b) It was badly organised.",
+        "c) It went on for too long."
+      ],
+      "correct": "a",
+      "correctAnswer": "a",
+      "explanation": "Owen thought it would be \"really boring\", but says \"Not at all!\" and \"I'd go again tomorrow\". Only the coach journey \"took ages\", not the trip itself, and he agrees it was well organised: \"everything happened exactly on time\".",
+      "grammarTags": [
+        "g-en-b1-comparatives"
+      ],
+      "topicTags": [
+        "education"
+      ],
+      "vocabularyTags": [
+        "trip",
+        "guide"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-h-t2-gist-school-life-01-q3",
+      "module": "horen",
+      "teil": 2,
+      "type": "multiple_choice",
+      "passageId": "en-b1-p-horen-t2-gist-school-life-01-03",
+      "question": "You will hear two friends talking about a new rule at their school. What do they agree about?",
+      "options": [
+        "a) Students should have been asked about it.",
+        "b) It will be very hard for students to follow.",
+        "c) It is a good idea."
+      ],
+      "correct": "a",
+      "correctAnswer": "a",
+      "explanation": "Megan says \"nobody asked us what we thought\" and \"They should have had a vote\", and Ravi answers \"You’re right about that.\" Only Ravi thinks the rule is good (Megan just says \"Maybe\"), and only Megan says \"I’ll find it hard\".",
+      "grammarTags": [
+        "g-en-b1-should-have"
+      ],
+      "topicTags": [
+        "education"
+      ],
+      "vocabularyTags": [
+        "rule",
+        "vote"
+      ],
+      "difficulty": 5,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-h-t2-gist-school-life-01-q4",
+      "module": "horen",
+      "teil": 2,
+      "type": "multiple_choice",
+      "passageId": "en-b1-p-horen-t2-gist-school-life-01-04",
+      "question": "You will hear a girl talking to her teacher about a project. Why has she gone to see her teacher?",
+      "options": [
+        "a) To ask for more time to finish it",
+        "b) To ask if she can work alone",
+        "c) To get help with choosing a topic"
+      ],
+      "correct": "b",
+      "correctAnswer": "b",
+      "explanation": "Zoe says \"I wondered if I could do it on my own.\" She has already chosen a topic (\"I'm doing the history of the town market\"), and she \"can still finish by the end of the month\", so she doesn't need more time.",
+      "grammarTags": [
+        "g-en-b1-indirect-requests"
+      ],
+      "topicTags": [
+        "education"
+      ],
+      "vocabularyTags": [
+        "project",
+        "on my own"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-h-t2-gist-school-life-01-q5",
+      "module": "horen",
+      "teil": 2,
+      "type": "multiple_choice",
+      "passageId": "en-b1-p-horen-t2-gist-school-life-01-05",
+      "question": "You will hear a brother and sister talking about revising for exams. What does Adam say about revising?",
+      "options": [
+        "a) He prefers to revise with his friends.",
+        "b) He works better in the library.",
+        "c) Listening to music helps him."
+      ],
+      "correct": "c",
+      "correctAnswer": "c",
+      "explanation": "Adam explains that \"If it's too quiet, I start thinking about other things\" and that with his headphones on \"I remember things much better that way.\" When he went to the library with friends, \"I didn't get anything done\".",
+      "grammarTags": [
+        "g-en-b1-conditionals-zero"
+      ],
+      "topicTags": [
+        "education"
+      ],
+      "vocabularyTags": [
+        "revise",
+        "headphones"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-h-t2-gist-school-life-01-q6",
+      "module": "horen",
+      "teil": 2,
+      "type": "multiple_choice",
+      "passageId": "en-b1-p-horen-t2-gist-school-life-01-06",
+      "question": "You will hear two students talking about a school play. How does Luke feel about his part?",
+      "options": [
+        "a) Nervous about singing on stage",
+        "b) Unhappy that his part is far too small",
+        "c) Worried about learning all his lines"
+      ],
+      "correct": "c",
+      "correctAnswer": "c",
+      "explanation": "Luke says \"I've got so many lines to learn and only five weeks\" and \"I don't know how I'll remember all those words.\" He says \"The singing's fine\", and his part is not small: Hayley reminds him \"the king's the main part\".",
+      "grammarTags": [
+        "g-en-b1-present-perfect"
+      ],
+      "topicTags": [
+        "education"
+      ],
+      "vocabularyTags": [
+        "part",
+        "lines"
+      ],
+      "difficulty": 3,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    }
+  ],
+  "_germanCapsNormalizeVersion": "v3.23-lesen-t2-angebote-corpus-2026-07-28",
+  "_germanCapsNormalizedAt": "2026-10-12T14:44:03.115Z",
+  "_balanceMcqVersion": "v1.2-no-rf-chrono-shuffle-2026-07-11",
+  "_balanceMcqNormalizedAt": "2026-10-12T14:44:03.115Z"
+}

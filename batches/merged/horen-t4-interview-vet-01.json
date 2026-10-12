@@ -1,0 +1,294 @@
+{
+  "passages": [
+    {
+      "id": "en-b1-p-horen-t4-interview-vet-01-01",
+      "module": "horen",
+      "title": "Interview with a country vet",
+      "text": "Interviewer: Today I'm talking to Daniel Hughes, a vet who works in a small country practice in north Wales. Daniel, did you always want to be a vet?\n\nDaniel: Not at all! As a child I was actually a bit frightened of dogs, and we didn't have any pets at home. I was quite good at science at school, but I wanted to be an engineer. Then, when I was fifteen, I spent a summer on my uncle's farm, and one night a cow was having trouble giving birth. The vet arrived, and an hour later the mother and the calf were both fine. I remember thinking: that's what I want to do.\n\nInterviewer: What surprised you when you started working?\n\nDaniel: Everyone had warned me how hard the studying would be, and they were right, but I was ready for that. And I knew the hours would be long. What I hadn't expected was how much of the job is talking to people. Owners are often upset or worried, and you need to explain things calmly and kindly. That's something nobody really teaches you at university.\n\nInterviewer: Which part of the job do you enjoy most?\n\nDaniel: People imagine I'd love the puppy appointments best, and of course puppies are lovely. Operations can be exciting, too. But what I really enjoy is driving out to the farms and being outside, even when it's pouring with rain. Every day's different out there, and the farmers are great to work with.\n\nInterviewer: Do you have to work at night?\n\nDaniel: Yes, about twice a week I'm on call. I won't pretend it's easy. I'm often very tired the next day. But it's part of being a vet, and I accept that. And there's something quite special about helping a lamb into the world at three in the morning.\n\nInterviewer: Lots of pet owners look things up online before they come to see you. Does that annoy you?\n\nDaniel: Some of my colleagues get quite annoyed, but I don't. It shows that people care about their animals. The trouble is that they often read about the worst possible illness, so they arrive much more worried than they need to be. Usually it's something quite simple.\n\nInterviewer: And what about the future? Would you like your own practice one day?\n\nDaniel: A couple of friends from university have opened their own practices in the city, and people often ask if I'll do the same. But I'm really happy where I am, and the paperwork that comes with running a business doesn't appeal to me at all. What I would like, though, is to teach vet students part-time one day. I had some brilliant teachers, and I'd love to do that for someone else.\n\nInterviewer: Daniel Hughes, thank you.",
+      "passageVocab": [
+        "practice",
+        "on call",
+        "calf",
+        "colleague",
+        "paperwork"
+      ],
+      "audio": [
+        {
+          "speaker": "Interviewer",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Today I'm talking to Daniel Hughes, a vet who works in a small country practice in north Wales. Daniel, did you always want to be a vet?"
+        },
+        {
+          "speaker": "Daniel",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Not at all! As a child I was actually a bit frightened of dogs, and we didn't have any pets at home. I was quite good at science at school, but I wanted to be an engineer. Then, when I was fifteen, I spent a summer on my uncle's farm, and one night a cow was having trouble giving birth. The vet arrived, and an hour later the mother and the calf were both fine. I remember thinking: that's what I want to do."
+        },
+        {
+          "speaker": "Interviewer",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "What surprised you when you started working?"
+        },
+        {
+          "speaker": "Daniel",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Everyone had warned me how hard the studying would be, and they were right, but I was ready for that. And I knew the hours would be long. What I hadn't expected was how much of the job is talking to people. Owners are often upset or worried, and you need to explain things calmly and kindly. That's something nobody really teaches you at university."
+        },
+        {
+          "speaker": "Interviewer",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Which part of the job do you enjoy most?"
+        },
+        {
+          "speaker": "Daniel",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "People imagine I'd love the puppy appointments best, and of course puppies are lovely. Operations can be exciting, too. But what I really enjoy is driving out to the farms and being outside, even when it's pouring with rain. Every day's different out there, and the farmers are great to work with."
+        },
+        {
+          "speaker": "Interviewer",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Do you have to work at night?"
+        },
+        {
+          "speaker": "Daniel",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Yes, about twice a week I'm on call. I won't pretend it's easy. I'm often very tired the next day. But it's part of being a vet, and I accept that. And there's something quite special about helping a lamb into the world at three in the morning."
+        },
+        {
+          "speaker": "Interviewer",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Lots of pet owners look things up online before they come to see you. Does that annoy you?"
+        },
+        {
+          "speaker": "Daniel",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Some of my colleagues get quite annoyed, but I don't. It shows that people care about their animals. The trouble is that they often read about the worst possible illness, so they arrive much more worried than they need to be. Usually it's something quite simple."
+        },
+        {
+          "speaker": "Interviewer",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "And what about the future? Would you like your own practice one day?"
+        },
+        {
+          "speaker": "Daniel",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "A couple of friends from university have opened their own practices in the city, and people often ask if I'll do the same. But I'm really happy where I am, and the paperwork that comes with running a business doesn't appeal to me at all. What I would like, though, is to teach vet students part-time one day. I had some brilliant teachers, and I'd love to do that for someone else."
+        },
+        {
+          "speaker": "Interviewer",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Daniel Hughes, thank you."
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "en-b1-h-t4-interview-vet-01-q1",
+      "module": "horen",
+      "teil": 4,
+      "type": "multiple_choice",
+      "passageId": "en-b1-p-horen-t4-interview-vet-01-01",
+      "question": "Why did Daniel decide to become a vet?",
+      "options": [
+        "a) He saw a vet save an animal on a farm.",
+        "b) He had loved animals since he was very small.",
+        "c) He was good at science subjects at school."
+      ],
+      "correct": "a",
+      "correctAnswer": "a",
+      "explanation": "Daniel describes the night on his uncle's farm when 'The vet arrived, and an hour later the mother and the calf were both fine', and says 'that's what I want to do.' He was good at science, but at that time he 'wanted to be an engineer', and as a child he was 'frightened of dogs'.",
+      "grammarTags": [
+        "g-en-b1-past-continuous"
+      ],
+      "topicTags": [
+        "work-jobs"
+      ],
+      "vocabularyTags": [
+        "frightened",
+        "engineer",
+        "calf"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-h-t4-interview-vet-01-q2",
+      "module": "horen",
+      "teil": 4,
+      "type": "multiple_choice",
+      "passageId": "en-b1-p-horen-t4-interview-vet-01-01",
+      "question": "What surprised Daniel when he started working as a vet?",
+      "options": [
+        "a) How many hours he had to work each day",
+        "b) How hard the studying at university had been",
+        "c) How much he had to talk to owners"
+      ],
+      "correct": "c",
+      "correctAnswer": "c",
+      "explanation": "Daniel says 'What I hadn't expected was how much of the job is talking to people.' He says he 'was ready for' the hard studying and 'knew the hours would be long', so neither surprised him.",
+      "grammarTags": [
+        "g-en-b1-past-perfect"
+      ],
+      "topicTags": [
+        "work-jobs"
+      ],
+      "vocabularyTags": [
+        "warn",
+        "owner",
+        "explain"
+      ],
+      "difficulty": 5,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-h-t4-interview-vet-01-q3",
+      "module": "horen",
+      "teil": 4,
+      "type": "multiple_choice",
+      "passageId": "en-b1-p-horen-t4-interview-vet-01-01",
+      "question": "What does Daniel enjoy most about his job?",
+      "options": [
+        "a) Working outside on farms",
+        "b) Carrying out operations",
+        "c) Seeing young animals at the practice"
+      ],
+      "correct": "a",
+      "correctAnswer": "a",
+      "explanation": "Daniel says 'what I really enjoy is driving out to the farms and being outside, even when it's pouring with rain.' He says puppies are 'lovely' and operations 'can be exciting', but neither is what he enjoys most.",
+      "grammarTags": [
+        "g-en-b1-superlatives"
+      ],
+      "topicTags": [
+        "work-jobs"
+      ],
+      "vocabularyTags": [
+        "appointment",
+        "operation",
+        "pour"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-h-t4-interview-vet-01-q4",
+      "module": "horen",
+      "teil": 4,
+      "type": "multiple_choice",
+      "passageId": "en-b1-p-horen-t4-interview-vet-01-01",
+      "question": "How does Daniel feel about working at night?",
+      "options": [
+        "a) He hopes he can stop doing it soon.",
+        "b) He accepts it, although it is tiring.",
+        "c) He prefers it to working during the day."
+      ],
+      "correct": "b",
+      "correctAnswer": "b",
+      "explanation": "Daniel says 'I'm often very tired the next day. But it's part of being a vet, and I accept that.' He finds some night work 'quite special', but he never says he prefers it to daytime work.",
+      "grammarTags": [
+        "g-en-b1-present-simple"
+      ],
+      "topicTags": [
+        "work-jobs"
+      ],
+      "vocabularyTags": [
+        "on call",
+        "pretend",
+        "accept"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-h-t4-interview-vet-01-q5",
+      "module": "horen",
+      "teil": 4,
+      "type": "multiple_choice",
+      "passageId": "en-b1-p-horen-t4-interview-vet-01-01",
+      "question": "What does Daniel think about owners who look for information online?",
+      "options": [
+        "a) He finds it annoying, like his colleagues.",
+        "b) It frightens them more than it should.",
+        "c) They often know as much as some vets do."
+      ],
+      "correct": "b",
+      "correctAnswer": "b",
+      "explanation": "Daniel says owners 'often read about the worst possible illness, so they arrive much more worried than they need to be.' He says 'Some of my colleagues get quite annoyed, but I don't.'",
+      "grammarTags": [
+        "g-en-b1-comparatives"
+      ],
+      "topicTags": [
+        "work-jobs"
+      ],
+      "vocabularyTags": [
+        "look up",
+        "annoyed",
+        "illness"
+      ],
+      "difficulty": 5,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-h-t4-interview-vet-01-q6",
+      "module": "horen",
+      "teil": 4,
+      "type": "multiple_choice",
+      "passageId": "en-b1-p-horen-t4-interview-vet-01-01",
+      "question": "What does Daniel say about his plans for the future?",
+      "options": [
+        "a) He is thinking of moving to a city.",
+        "b) He would like to open his own practice.",
+        "c) He hopes to teach students one day."
+      ],
+      "correct": "c",
+      "correctAnswer": "c",
+      "explanation": "Daniel says 'What I would like, though, is to teach vet students part-time one day.' His friends have opened practices in the city, but he says 'I'm really happy where I am' and running a business 'doesn't appeal to me at all'.",
+      "grammarTags": [
+        "g-en-b1-would-like"
+      ],
+      "topicTags": [
+        "work-jobs"
+      ],
+      "vocabularyTags": [
+        "practice",
+        "paperwork",
+        "appeal"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    }
+  ],
+  "_germanCapsNormalizeVersion": "v3.23-lesen-t2-angebote-corpus-2026-07-28",
+  "_germanCapsNormalizedAt": "2026-10-12T14:44:04.504Z",
+  "_balanceMcqVersion": "v1.2-no-rf-chrono-shuffle-2026-07-11",
+  "_balanceMcqNormalizedAt": "2026-10-12T14:44:04.504Z"
+}

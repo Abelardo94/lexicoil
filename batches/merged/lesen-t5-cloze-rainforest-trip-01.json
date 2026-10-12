@@ -1,0 +1,229 @@
+{
+  "passages": [
+    {
+      "id": "en-b1-p-lesen-t5-cloze-rainforest-trip-01-01",
+      "module": "lesen",
+      "title": "Our trip to the rainforest centre",
+      "text": "Last month our science class went on a trip to the Tropica Centre, a huge glass building just outside Bristol. Inside, the air is hot and wet, just like in a real rainforest, so our teacher, Mr Hughes, (1) ____ us to wear light clothes.\n\nAs soon as we went in, a guide called Asha took us along a narrow path between enormous trees. She (2) ____ out a small green frog sitting on a leaf and told us it was one of the rarest animals in the centre. Later we climbed up to a bridge high above the ground, where birds were flying freely all around us.\n\nThe part I enjoyed most was the butterfly room. Hundreds of butterflies landed on our arms and heads, and we had to hold our (3) ____ in case we frightened them. Asha explained that rainforests (4) ____ an important part in keeping our planet healthy, and that we should all help to protect them.\n\nBefore we left, we each (5) ____ a short quiz about what we had learned. I got nine out of ten, which really (6) ____ me by surprise!",
+      "passageVocab": [
+        "rainforest",
+        "guide",
+        "rare",
+        "protect",
+        "quiz"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "en-b1-r-t5-cloze-rainforest-trip-01-q1",
+      "module": "lesen",
+      "teil": 5,
+      "type": "multiple_choice",
+      "passageId": "en-b1-p-lesen-t5-cloze-rainforest-trip-01-01",
+      "question": "Choose the correct word for gap (1).",
+      "options": [
+        "a) explained",
+        "b) said",
+        "c) suggested",
+        "d) advised"
+      ],
+      "correct": "d",
+      "correctAnswer": "d",
+      "explanation": "The text says Mr Hughes \"advised us to wear light clothes\": the verb is followed by an object and 'to' + infinitive. 'Said', 'suggested' and 'explained' cannot be used in the pattern 'verb + us + to do' (we say 'suggested that we wear', 'explained that…').",
+      "grammarTags": [
+        "g-en-b1-verb-patterns"
+      ],
+      "topicTags": [
+        "travel"
+      ],
+      "vocabularyTags": [
+        "advise",
+        "suggest",
+        "explain"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-r-t5-cloze-rainforest-trip-01-q2",
+      "module": "lesen",
+      "teil": 5,
+      "type": "multiple_choice",
+      "passageId": "en-b1-p-lesen-t5-cloze-rainforest-trip-01-01",
+      "question": "Choose the correct word for gap (2).",
+      "options": [
+        "a) looked",
+        "b) noticed",
+        "c) showed",
+        "d) pointed"
+      ],
+      "correct": "d",
+      "correctAnswer": "d",
+      "explanation": "The guide \"pointed out a small green frog\": 'point out' means to show something to someone so they see it. 'Showed out' and 'noticed out' are not phrasal verbs, and 'looked out' means 'be careful', which does not fit with an object like 'a small green frog'.",
+      "grammarTags": [
+        "g-en-b1-phrasal-verbs"
+      ],
+      "topicTags": [
+        "travel"
+      ],
+      "vocabularyTags": [
+        "point out",
+        "show",
+        "notice"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-r-t5-cloze-rainforest-trip-01-q3",
+      "module": "lesen",
+      "teil": 5,
+      "type": "multiple_choice",
+      "passageId": "en-b1-p-lesen-t5-cloze-rainforest-trip-01-01",
+      "question": "Choose the correct word for gap (3).",
+      "options": [
+        "a) breath",
+        "b) air",
+        "c) voice",
+        "d) breeze"
+      ],
+      "correct": "a",
+      "correctAnswer": "a",
+      "explanation": "The fixed expression is \"hold our breath\": the students stayed completely still and quiet \"in case we frightened them\". English does not say 'hold our air', 'hold our voice' or 'hold our breeze'.",
+      "grammarTags": [
+        "g-en-b1-collocations"
+      ],
+      "topicTags": [
+        "travel"
+      ],
+      "vocabularyTags": [
+        "hold your breath",
+        "frighten"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-r-t5-cloze-rainforest-trip-01-q4",
+      "module": "lesen",
+      "teil": 5,
+      "type": "multiple_choice",
+      "passageId": "en-b1-p-lesen-t5-cloze-rainforest-trip-01-01",
+      "question": "Choose the correct word for gap (4).",
+      "options": [
+        "a) make",
+        "b) do",
+        "c) play",
+        "d) give"
+      ],
+      "correct": "c",
+      "correctAnswer": "c",
+      "explanation": "The collocation is \"play an important part in\" something: rainforests \"play an important part in keeping our planet healthy\". We do not say 'make', 'do' or 'give an important part in'.",
+      "grammarTags": [
+        "g-en-b1-collocations"
+      ],
+      "topicTags": [
+        "travel"
+      ],
+      "vocabularyTags": [
+        "play a part",
+        "planet",
+        "healthy"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-r-t5-cloze-rainforest-trip-01-q5",
+      "module": "lesen",
+      "teil": 5,
+      "type": "multiple_choice",
+      "passageId": "en-b1-p-lesen-t5-cloze-rainforest-trip-01-01",
+      "question": "Choose the correct word for gap (5).",
+      "options": [
+        "a) put",
+        "b) did",
+        "c) made",
+        "d) gave"
+      ],
+      "correct": "b",
+      "correctAnswer": "b",
+      "explanation": "Students \"did a short quiz\" and then the writer says \"I got nine out of ten\", so they answered the quiz. In English you do a quiz when you answer the questions. If you make or give a quiz, you write it or set it for other people, and you cannot put a quiz.",
+      "grammarTags": [
+        "g-en-b1-collocations"
+      ],
+      "topicTags": [
+        "travel"
+      ],
+      "vocabularyTags": [
+        "do a quiz",
+        "score"
+      ],
+      "difficulty": 3,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-r-t5-cloze-rainforest-trip-01-q6",
+      "module": "lesen",
+      "teil": 5,
+      "type": "multiple_choice",
+      "passageId": "en-b1-p-lesen-t5-cloze-rainforest-trip-01-01",
+      "question": "Choose the correct word for gap (6).",
+      "options": [
+        "a) took",
+        "b) made",
+        "c) got",
+        "d) brought"
+      ],
+      "correct": "a",
+      "correctAnswer": "a",
+      "explanation": "The fixed expression is \"take someone by surprise\": the good result \"really took me by surprise\". 'Made', 'got' and 'brought me by surprise' are not English expressions.",
+      "grammarTags": [
+        "g-en-b1-fixed-expressions"
+      ],
+      "topicTags": [
+        "travel"
+      ],
+      "vocabularyTags": [
+        "take by surprise"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    }
+  ],
+  "_germanCapsNormalizeVersion": "v3.23-lesen-t2-angebote-corpus-2026-07-28",
+  "_germanCapsNormalizedAt": "2026-10-12T14:44:01.253Z",
+  "_balanceMcqVersion": "v1.2-no-rf-chrono-shuffle-2026-07-11",
+  "_balanceMcqNormalizedAt": "2026-10-12T14:44:01.253Z"
+}

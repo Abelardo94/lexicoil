@@ -1,0 +1,194 @@
+{
+  "passages": [
+    {
+      "id": "en-b1-p-lesen-t6-open-cloze-new-neighbour-01-01",
+      "module": "lesen",
+      "title": "The woman next door",
+      "text": "A few weeks ago, a woman moved into the empty flat next to ours in Manchester. For several days I only saw her carrying boxes up the stairs, so one afternoon my dad and I baked some biscuits and knocked on her door.\n\nShe introduced herself as Ines, a woman (1) ____ family had come to England from Portugal when she was a child. She told us that she lives by (2) ____, but that her two grown-up sons visit her every weekend. \"(3) ____ of them play in a jazz band,\" she said proudly.\n\n\"Where (4) ____ you live before?\" my dad asked. \"In a tiny flat above a shop,\" she answered. \"It was so noisy that I could hardly sleep!\"\n\nIt soon turned (5) ____ that Ines was a piano teacher, and she offered to give me some free lessons. Now I go round every Thursday after school. She is patient and funny, and she gets on well (6) ____ everyone in our building, even the grumpy man on the top floor.\n\nI'm really glad we knocked on her door that day.",
+      "passageVocab": [
+        "neighbour",
+        "introduce",
+        "grown-up",
+        "patient",
+        "grumpy"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "en-b1-r-t6-open-cloze-new-neighbour-01-q1",
+      "module": "lesen",
+      "teil": 6,
+      "type": "gap_fill",
+      "passageId": "en-b1-p-lesen-t6-open-cloze-new-neighbour-01-01",
+      "question": "Write ONE word for gap (1).",
+      "options": [],
+      "correct": "whose",
+      "correctAnswer": "whose",
+      "explanation": "'Whose' is the relative pronoun for possession: \"a woman whose family had come to England\" means 'a woman, and her family had come to England'. 'Who' or 'that' cannot be followed directly by a noun like 'family' in this way.",
+      "grammarTags": [
+        "g-en-b1-relative-clauses"
+      ],
+      "topicTags": [
+        "people"
+      ],
+      "vocabularyTags": [
+        "whose",
+        "family"
+      ],
+      "difficulty": 5,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-r-t6-open-cloze-new-neighbour-01-q2",
+      "module": "lesen",
+      "teil": 6,
+      "type": "gap_fill",
+      "passageId": "en-b1-p-lesen-t6-open-cloze-new-neighbour-01-01",
+      "question": "Write ONE word for gap (2).",
+      "options": [],
+      "correct": "herself",
+      "correctAnswer": "herself",
+      "explanation": "'By + reflexive pronoun' means 'alone': \"she lives by herself\", while her sons only \"visit her every weekend\". The subject is 'she', so the reflexive pronoun must be 'herself'.",
+      "grammarTags": [
+        "g-en-b1-reflexive-pronouns"
+      ],
+      "topicTags": [
+        "people"
+      ],
+      "vocabularyTags": [
+        "by herself",
+        "alone"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-r-t6-open-cloze-new-neighbour-01-q3",
+      "module": "lesen",
+      "teil": 6,
+      "type": "gap_fill",
+      "passageId": "en-b1-p-lesen-t6-open-cloze-new-neighbour-01-01",
+      "question": "Write ONE word for gap (3).",
+      "options": [],
+      "correct": "both",
+      "correctAnswer": "both",
+      "explanation": "Ines has \"two grown-up sons\", and 'both of them' refers to two people together: \"Both of them play in a jazz band\". 'All' is used for three or more, and 'neither' does not fit because she says it \"proudly\" and the verb is positive.",
+      "grammarTags": [
+        "g-en-b1-quantifiers"
+      ],
+      "topicTags": [
+        "people"
+      ],
+      "vocabularyTags": [
+        "both of them"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-r-t6-open-cloze-new-neighbour-01-q4",
+      "module": "lesen",
+      "teil": 6,
+      "type": "gap_fill",
+      "passageId": "en-b1-p-lesen-t6-open-cloze-new-neighbour-01-01",
+      "question": "Write ONE word for gap (4).",
+      "options": [],
+      "correct": "did",
+      "correctAnswer": "did",
+      "explanation": "A past simple question needs the auxiliary 'did': \"Where did you live before?\" The word 'before' and the answer about a flat she no longer lives in show the past, so 'do' is wrong.",
+      "grammarTags": [
+        "g-en-b1-past-simple-questions"
+      ],
+      "topicTags": [
+        "people"
+      ],
+      "vocabularyTags": [
+        "before",
+        "question"
+      ],
+      "difficulty": 3,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-r-t6-open-cloze-new-neighbour-01-q5",
+      "module": "lesen",
+      "teil": 6,
+      "type": "gap_fill",
+      "passageId": "en-b1-p-lesen-t6-open-cloze-new-neighbour-01-01",
+      "question": "Write ONE word for gap (5).",
+      "options": [],
+      "correct": "out",
+      "correctAnswer": "out",
+      "explanation": "The phrasal verb 'turn out that' means 'it was discovered that': \"It soon turned out that Ines was a piano teacher\".",
+      "grammarTags": [
+        "g-en-b1-phrasal-verbs"
+      ],
+      "topicTags": [
+        "people"
+      ],
+      "vocabularyTags": [
+        "turn out"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-r-t6-open-cloze-new-neighbour-01-q6",
+      "module": "lesen",
+      "teil": 6,
+      "type": "gap_fill",
+      "passageId": "en-b1-p-lesen-t6-open-cloze-new-neighbour-01-01",
+      "question": "Write ONE word for gap (6).",
+      "options": [],
+      "correct": "with",
+      "correctAnswer": "with",
+      "explanation": "The fixed phrase is 'get on (well) with someone', meaning have a friendly relationship: \"she gets on well with everyone in our building\".",
+      "grammarTags": [
+        "g-en-b1-dependent-prepositions"
+      ],
+      "topicTags": [
+        "people"
+      ],
+      "vocabularyTags": [
+        "get on well with"
+      ],
+      "difficulty": 3,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    }
+  ],
+  "_germanCapsNormalizeVersion": "v3.23-lesen-t2-angebote-corpus-2026-07-28",
+  "_germanCapsNormalizedAt": "2026-10-12T14:44:02.168Z",
+  "_balanceMcqVersion": "v1.2-no-rf-chrono-shuffle-2026-07-11",
+  "_balanceMcqNormalizedAt": "2026-10-12T14:44:02.168Z"
+}

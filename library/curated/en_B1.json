@@ -43,5 +43,25 @@
     "id": "curated_en_B1_9d06e5aab9a5",
     "topic": "work",
     "file": "curated_en_B1_9d06e5aab9a5.json"
+  },
+  {
+    "id": "curated_en_B1_6003e110b2d8",
+    "topic": "health",
+    "file": "curated_en_B1_6003e110b2d8.json"
+  },
+  {
+    "id": "curated_en_B1_a937ecccaa1c",
+    "topic": "entertainment",
+    "file": "curated_en_B1_a937ecccaa1c.json"
+  },
+  {
+    "id": "curated_en_B1_00590c325318",
+    "topic": "sport",
+    "file": "curated_en_B1_00590c325318.json"
+  },
+  {
+    "id": "curated_en_B1_6c330744627b",
+    "topic": "travel",
+    "file": "curated_en_B1_6c330744627b.json"
   }
 ]

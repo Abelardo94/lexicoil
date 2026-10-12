@@ -1,0 +1,332 @@
+{
+  "passages": [
+    {
+      "id": "en-b1-p-horen-t1-pics-health-appointments-01-01",
+      "module": "horen",
+      "title": "A message from the dentist",
+      "text": "Woman: Hello, this is a message for Mrs Clarke from Bridge Street Dental Practice. It's about your son Harry's check-up. It was booked for Tuesday afternoon, but unfortunately the dentist is away that day. We could offer Monday morning at nine, but I know Harry's at school then, so we've put him in on Thursday at a quarter past four instead. Please call us if that's a problem.",
+      "passageVocab": [
+        "check-up",
+        "dentist",
+        "practice",
+        "appointment"
+      ]
+    },
+    {
+      "id": "en-b1-p-horen-t1-pics-health-appointments-01-02",
+      "module": "horen",
+      "title": "At the doctor's: a bad knee",
+      "text": "Woman: Well, Mr Hughes, your knee isn't broken, you'll be pleased to hear.\nMan: That's good. Should I keep it up on a chair and not walk on it?\nWoman: No, not at all. That's what people used to do, but now we know it gets better more quickly if you move it. I'll give you a sheet with some simple exercises to do three times a day. You can take painkillers if you really need them, but try not to.",
+      "passageVocab": [
+        "knee",
+        "broken",
+        "exercise",
+        "painkiller"
+      ]
+    },
+    {
+      "id": "en-b1-p-horen-t1-pics-health-appointments-01-03",
+      "module": "horen",
+      "title": "Getting to the hospital",
+      "text": "Sam: What time's your appointment at the hospital tomorrow, Laura?\nLaura: Half past ten. I was going to drive, but you can never find anywhere to park there.\nSam: I could take you.\nLaura: You're working, Sam! It's fine. The number fourteen bus stops right outside the hospital, and it's much cheaper than a taxi. I'll just leave a bit early.",
+      "passageVocab": [
+        "hospital",
+        "park",
+        "bus",
+        "taxi"
+      ]
+    },
+    {
+      "id": "en-b1-p-horen-t1-pics-health-appointments-01-04",
+      "module": "horen",
+      "title": "What's the matter, Ella?",
+      "text": "Man: Hello, Ella. What can I do for you today?\nElla: Well, I fell off my bike on Saturday. I thought I'd hurt my wrist, but it's fine now.\nMan: Good.\nElla: The problem is my ear. It's been really painful since Sunday, and I can't hear very well on this side.\nMan: Any cough or sore throat?\nElla: No, nothing like that.",
+      "passageVocab": [
+        "wrist",
+        "ear",
+        "painful",
+        "throat"
+      ]
+    },
+    {
+      "id": "en-b1-p-horen-t1-pics-health-appointments-01-05",
+      "module": "horen",
+      "title": "Phoning the surgery",
+      "text": "Man: Hello, it's Peter Brown. I've got an appointment with Dr Shah on Friday at eleven.\nWoman: Yes, Mr Brown, I can see it here.\nMan: Well, I've just found out I have to work on Friday. I don't want to cancel it completely, because I still need to talk to her about my blood test results. Is there anything on Monday instead?\nWoman: Let me see. Yes, Monday at nine twenty.",
+      "passageVocab": [
+        "surgery",
+        "cancel",
+        "test results",
+        "instead"
+      ]
+    },
+    {
+      "id": "en-b1-p-horen-t1-pics-health-appointments-01-06",
+      "module": "horen",
+      "title": "Finding the nurse",
+      "text": "Man: Good morning. Can I have your name, please?\nAnna: Anna Kowalski. I'm here to see the nurse at ten.\nMan: Ah, yes. The nurse is usually in Room Three, just down there, but it's being painted this week. So she's upstairs today, on the first floor, in Room Eight. You can take the lift if you like. Room Twelve, on the second floor, is the doctor's room, so don't go up that far.",
+      "passageVocab": [
+        "nurse",
+        "floor",
+        "lift",
+        "upstairs"
+      ]
+    },
+    {
+      "id": "en-b1-p-horen-t1-pics-health-appointments-01-07",
+      "module": "horen",
+      "title": "At the dentist's",
+      "text": "Woman: Your teeth look very healthy, Ryan. I can tell you're not eating too many sweets.\nRyan: My mum doesn't let me!\nWoman: Good for her. But you're missing the ones at the back when you brush. Try to spend two minutes on it, not thirty seconds.\nRyan: OK. Do I need to come back soon?\nWoman: No, I'll see you in a year.",
+      "passageVocab": [
+        "teeth",
+        "brush",
+        "sweets",
+        "healthy"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "en-b1-h-t1-pics-health-appointments-01-s1-q1",
+      "module": "horen",
+      "teil": 1,
+      "type": "multiple_choice",
+      "passageId": "en-b1-p-horen-t1-pics-health-appointments-01-01",
+      "question": "When is Harry's new dentist appointment?",
+      "options": [
+        "a) Tuesday afternoon",
+        "b) Thursday afternoon",
+        "c) Monday morning"
+      ],
+      "correct": "b",
+      "correctAnswer": "b",
+      "explanation": "The receptionist says \"we've put him in on Thursday at a quarter past four instead\". Tuesday afternoon was the old appointment, and Monday morning is not possible because \"Harry's at school then\".",
+      "grammarTags": [
+        "g-en-b1-present-perfect"
+      ],
+      "topicTags": [
+        "health"
+      ],
+      "vocabularyTags": [
+        "check-up",
+        "appointment"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge",
+      "segmentLabel": "Aufnahme 1"
+    },
+    {
+      "id": "en-b1-h-t1-pics-health-appointments-01-s2-q1",
+      "module": "horen",
+      "teil": 1,
+      "type": "multiple_choice",
+      "passageId": "en-b1-p-horen-t1-pics-health-appointments-01-02",
+      "question": "What does the doctor tell Mr Hughes to do?",
+      "options": [
+        "a) Do some exercises",
+        "b) Take some tablets",
+        "c) Rest his knee on a chair"
+      ],
+      "correct": "a",
+      "correctAnswer": "a",
+      "explanation": "The doctor gives him \"a sheet with some simple exercises to do three times a day\". She says \"No, not at all\" when he asks about keeping his leg up, and about painkillers she says \"try not to\".",
+      "grammarTags": [
+        "g-en-b1-used-to"
+      ],
+      "topicTags": [
+        "health"
+      ],
+      "vocabularyTags": [
+        "knee",
+        "painkiller"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge",
+      "segmentLabel": "Aufnahme 2"
+    },
+    {
+      "id": "en-b1-h-t1-pics-health-appointments-01-s3-q1",
+      "module": "horen",
+      "teil": 1,
+      "type": "multiple_choice",
+      "passageId": "en-b1-p-horen-t1-pics-health-appointments-01-03",
+      "question": "How will Laura travel to the hospital?",
+      "options": [
+        "a) By bus",
+        "b) By taxi",
+        "c) In Sam's car"
+      ],
+      "correct": "a",
+      "correctAnswer": "a",
+      "explanation": "Laura says \"The number fourteen bus stops right outside the hospital\" and \"I'll just leave a bit early\". She refuses Sam's offer because he's working, and the bus is \"much cheaper than a taxi\".",
+      "grammarTags": [
+        "g-en-b1-future-forms"
+      ],
+      "topicTags": [
+        "health"
+      ],
+      "vocabularyTags": [
+        "park",
+        "appointment"
+      ],
+      "difficulty": 3,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge",
+      "segmentLabel": "Aufnahme 3"
+    },
+    {
+      "id": "en-b1-h-t1-pics-health-appointments-01-s4-q1",
+      "module": "horen",
+      "teil": 1,
+      "type": "multiple_choice",
+      "passageId": "en-b1-p-horen-t1-pics-health-appointments-01-04",
+      "question": "Why has Ella come to see the doctor?",
+      "options": [
+        "a) Her throat is sore.",
+        "b) Her wrist hurts.",
+        "c) Her ear hurts."
+      ],
+      "correct": "c",
+      "correctAnswer": "c",
+      "explanation": "Ella says \"The problem is my ear. It's been really painful since Sunday\". Her wrist is \"fine now\", and she answers \"No, nothing like that\" when asked about a sore throat.",
+      "grammarTags": [
+        "g-en-b1-present-perfect-continuous"
+      ],
+      "topicTags": [
+        "health"
+      ],
+      "vocabularyTags": [
+        "wrist",
+        "painful"
+      ],
+      "difficulty": 3,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge",
+      "segmentLabel": "Aufnahme 4"
+    },
+    {
+      "id": "en-b1-h-t1-pics-health-appointments-01-s5-q1",
+      "module": "horen",
+      "teil": 1,
+      "type": "multiple_choice",
+      "passageId": "en-b1-p-horen-t1-pics-health-appointments-01-05",
+      "question": "Why is Peter Brown phoning the surgery?",
+      "options": [
+        "a) To get his test results",
+        "b) To cancel his appointment",
+        "c) To move his appointment"
+      ],
+      "correct": "c",
+      "correctAnswer": "c",
+      "explanation": "Peter asks \"Is there anything on Monday instead?\" because he has to work on Friday. He says \"I don't want to cancel it completely\", and he wants to discuss his test results with Dr Shah at the appointment, not on the phone.",
+      "grammarTags": [
+        "g-en-b1-have-to"
+      ],
+      "topicTags": [
+        "health"
+      ],
+      "vocabularyTags": [
+        "cancel",
+        "instead"
+      ],
+      "difficulty": 5,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge",
+      "segmentLabel": "Aufnahme 5"
+    },
+    {
+      "id": "en-b1-h-t1-pics-health-appointments-01-s6-q1",
+      "module": "horen",
+      "teil": 1,
+      "type": "multiple_choice",
+      "passageId": "en-b1-p-horen-t1-pics-health-appointments-01-06",
+      "question": "Which room does Anna need to go to?",
+      "options": [
+        "a) Room 12 on the second floor",
+        "b) Room 8 on the first floor",
+        "c) Room 3 on the ground floor"
+      ],
+      "correct": "b",
+      "correctAnswer": "b",
+      "explanation": "The receptionist says the nurse is \"upstairs today, on the first floor, in Room Eight\". Room Three is \"being painted this week\", and Room Twelve is the doctor's room, \"so don't go up that far\".",
+      "grammarTags": [
+        "g-en-b1-passive-continuous"
+      ],
+      "topicTags": [
+        "health"
+      ],
+      "vocabularyTags": [
+        "floor",
+        "lift"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge",
+      "segmentLabel": "Aufnahme 6"
+    },
+    {
+      "id": "en-b1-h-t1-pics-health-appointments-01-s7-q1",
+      "module": "horen",
+      "teil": 1,
+      "type": "multiple_choice",
+      "passageId": "en-b1-p-horen-t1-pics-health-appointments-01-07",
+      "question": "What does the dentist tell Ryan to do?",
+      "options": [
+        "a) Eat fewer sweets",
+        "b) Come back in six months",
+        "c) Brush his teeth for longer"
+      ],
+      "correct": "c",
+      "correctAnswer": "c",
+      "explanation": "The dentist says \"Try to spend two minutes on it, not thirty seconds.\" She is happy that he's \"not eating too many sweets\", and she will see him \"in a year\", not in six months.",
+      "grammarTags": [
+        "g-en-b1-imperatives"
+      ],
+      "topicTags": [
+        "health"
+      ],
+      "vocabularyTags": [
+        "brush",
+        "teeth"
+      ],
+      "difficulty": 3,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge",
+      "segmentLabel": "Aufnahme 7"
+    }
+  ],
+  "_germanCapsNormalizeVersion": "v3.23-lesen-t2-angebote-corpus-2026-07-28",
+  "_germanCapsNormalizedAt": "2026-10-12T14:44:02.791Z",
+  "_balanceMcqVersion": "v1.2-no-rf-chrono-shuffle-2026-07-11",
+  "_balanceMcqNormalizedAt": "2026-10-12T14:44:02.791Z"
+}

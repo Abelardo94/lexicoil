@@ -1,0 +1,240 @@
+{
+  "passages": [
+    {
+      "id": "en-b1-p-lesen-t1-notices-hospital-01-01",
+      "module": "lesen",
+      "title": "Notice at the health centre reception",
+      "text": "Patients who arrive more than ten minutes late for an appointment may be asked to book a new one. If you are running late, please phone reception so that we can let the doctor know.",
+      "passageVocab": [
+        "appointment",
+        "reception",
+        "run late",
+        "book"
+      ]
+    },
+    {
+      "id": "en-b1-p-lesen-t1-notices-hospital-01-02",
+      "module": "lesen",
+      "title": "Text message",
+      "text": "Hi Mum, the pharmacy says my prescription won't be ready until Thursday because they've run out of the cream. Could you pick it up on your way home from work then? I've got football practice. Thanks, Jake",
+      "passageVocab": [
+        "pharmacy",
+        "prescription",
+        "run out of",
+        "pick up"
+      ]
+    },
+    {
+      "id": "en-b1-p-lesen-t1-notices-hospital-01-03",
+      "module": "lesen",
+      "title": "Sign in a pharmacy",
+      "text": "FLU VACCINATIONS\nSaturday mornings: no appointment needed – just come in.\nMonday to Friday: please book at the counter at least one day before.\nSorry, we cannot vaccinate anyone under 18.",
+      "passageVocab": [
+        "vaccination",
+        "appointment",
+        "counter",
+        "vaccinate"
+      ]
+    },
+    {
+      "id": "en-b1-p-lesen-t1-notices-hospital-01-04",
+      "module": "lesen",
+      "title": "Letter from a health centre",
+      "text": "Dear Ms Okafor,\nYour blood test results are now back. Dr Patel would like to discuss them with you, but there is nothing to worry about. Please call us to arrange a telephone appointment at a time that suits you.\nBrookfield Health Centre",
+      "passageVocab": [
+        "result",
+        "discuss",
+        "arrange",
+        "suit"
+      ]
+    },
+    {
+      "id": "en-b1-p-lesen-t1-notices-hospital-01-05",
+      "module": "lesen",
+      "title": "Sign in the waiting room",
+      "text": "LIFT OUT OF ORDER\nPatients with appointments at the eye clinic (second floor) who cannot use the stairs should speak to reception. A nurse will see you in Room 3 on the ground floor instead.",
+      "passageVocab": [
+        "out of order",
+        "clinic",
+        "ground floor",
+        "nurse"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "en-b1-r-t1-notices-hospital-01-q1",
+      "module": "lesen",
+      "teil": 1,
+      "type": "multiple_choice",
+      "passageId": "en-b1-p-lesen-t1-notices-hospital-01-01",
+      "question": "What does the notice say?",
+      "options": [
+        "a) Patients must arrive ten minutes before their appointment time.",
+        "b) Patients should phone if they are going to be late.",
+        "c) Late patients will always need to book a new appointment."
+      ],
+      "correct": "b",
+      "correctAnswer": "b",
+      "explanation": "The notice says 'If you are running late, please phone reception so that we can let the doctor know.' It does not ask people to arrive ten minutes early, and late patients 'may be asked' to book again, so it will not always happen.",
+      "grammarTags": [
+        "g-en-b1-modals"
+      ],
+      "topicTags": [
+        "health"
+      ],
+      "vocabularyTags": [
+        "appointment",
+        "reception",
+        "run late"
+      ],
+      "difficulty": 3,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-r-t1-notices-hospital-01-q2",
+      "module": "lesen",
+      "teil": 1,
+      "type": "multiple_choice",
+      "passageId": "en-b1-p-lesen-t1-notices-hospital-01-02",
+      "question": "Why has Jake sent this message?",
+      "options": [
+        "a) To explain why he missed football practice",
+        "b) To tell his mum that the pharmacy has closed",
+        "c) To ask his mum to collect something for him"
+      ],
+      "correct": "c",
+      "correctAnswer": "c",
+      "explanation": "Jake writes 'Could you pick it up on your way home from work then?', so he wants his mum to collect his prescription. He mentions football practice as the reason he can't go himself, not as something he missed, and the pharmacy has only 'run out of the cream' – it has not closed.",
+      "grammarTags": [
+        "g-en-b1-modals"
+      ],
+      "topicTags": [
+        "health"
+      ],
+      "vocabularyTags": [
+        "prescription",
+        "pick up",
+        "run out of"
+      ],
+      "difficulty": 3,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-r-t1-notices-hospital-01-q3",
+      "module": "lesen",
+      "teil": 1,
+      "type": "multiple_choice",
+      "passageId": "en-b1-p-lesen-t1-notices-hospital-01-03",
+      "question": "What does the sign say?",
+      "options": [
+        "a) Weekday vaccinations must be booked in advance.",
+        "b) Vaccinations are only given on Saturday mornings.",
+        "c) Children can be vaccinated here on Saturday mornings."
+      ],
+      "correct": "a",
+      "correctAnswer": "a",
+      "explanation": "For Monday to Friday the sign says 'please book at the counter at least one day before', so weekday vaccinations must be booked in advance. Children are under 18, and the sign says 'we cannot vaccinate anyone under 18'. Vaccinations are also given on weekdays, not only on Saturdays.",
+      "grammarTags": [
+        "g-en-b1-passive"
+      ],
+      "topicTags": [
+        "health"
+      ],
+      "vocabularyTags": [
+        "vaccination",
+        "book",
+        "in advance"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-r-t1-notices-hospital-01-q4",
+      "module": "lesen",
+      "teil": 1,
+      "type": "multiple_choice",
+      "passageId": "en-b1-p-lesen-t1-notices-hospital-01-04",
+      "question": "What should Ms Okafor do?",
+      "options": [
+        "a) Wait until the doctor rings her",
+        "b) Ring the centre to book a phone call",
+        "c) Go to the centre to pick up her results"
+      ],
+      "correct": "b",
+      "correctAnswer": "b",
+      "explanation": "The letter says 'Please call us to arrange a telephone appointment at a time that suits you.' She does not need to go in to collect the results, and she should not wait for Dr Patel to call, because she has to contact the centre first.",
+      "grammarTags": [
+        "g-en-b1-imperatives"
+      ],
+      "topicTags": [
+        "health"
+      ],
+      "vocabularyTags": [
+        "result",
+        "arrange",
+        "telephone appointment"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-r-t1-notices-hospital-01-q5",
+      "module": "lesen",
+      "teil": 1,
+      "type": "multiple_choice",
+      "passageId": "en-b1-p-lesen-t1-notices-hospital-01-05",
+      "question": "What does the sign say?",
+      "options": [
+        "a) Patients who can't climb stairs will be seen downstairs.",
+        "b) Everyone with an eye clinic appointment must go to Room 3.",
+        "c) The eye clinic has moved to the ground floor today."
+      ],
+      "correct": "a",
+      "correctAnswer": "a",
+      "explanation": "Patients 'who cannot use the stairs' will be seen by 'a nurse … in Room 3 on the ground floor'. Only these patients go to Room 3, not everyone, and the eye clinic itself is still on the second floor.",
+      "grammarTags": [
+        "g-en-b1-relative-clauses"
+      ],
+      "topicTags": [
+        "health"
+      ],
+      "vocabularyTags": [
+        "out of order",
+        "clinic",
+        "ground floor"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    }
+  ],
+  "_germanCapsNormalizeVersion": "v3.23-lesen-t2-angebote-corpus-2026-07-28",
+  "_germanCapsNormalizedAt": "2026-10-12T14:43:58.803Z",
+  "_balanceMcqVersion": "v1.2-no-rf-chrono-shuffle-2026-07-11",
+  "_balanceMcqNormalizedAt": "2026-10-12T14:43:58.803Z"
+}

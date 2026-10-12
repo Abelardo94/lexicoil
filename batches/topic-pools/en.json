@@ -55,6 +55,41 @@
             "slugBase": "notices-hospital",
             "topic": "Part 1: signs and messages at a health centre and pharmacy",
             "topicTag": "health"
+          },
+          {
+            "slugBase": "notices-cinema",
+            "topic": "Part 1: signs and messages at a cinema and theatre",
+            "topicTag": "culture"
+          },
+          {
+            "slugBase": "notices-swimming-pool",
+            "topic": "Part 1: notices and messages at a swimming pool and changing rooms",
+            "topicTag": "sport"
+          },
+          {
+            "slugBase": "notices-campsite",
+            "topic": "Part 1: signs and notes at a campsite and youth hostel",
+            "topicTag": "travel"
+          },
+          {
+            "slugBase": "notices-college",
+            "topic": "Part 1: notices and emails at a language college",
+            "topicTag": "education"
+          },
+          {
+            "slugBase": "notices-flats",
+            "topic": "Part 1: notes and notices in a block of flats",
+            "topicTag": "daily_life"
+          },
+          {
+            "slugBase": "notices-vet",
+            "topic": "Part 1: signs and messages at a vet and pet shop",
+            "topicTag": "animals"
+          },
+          {
+            "slugBase": "notices-recycling",
+            "topic": "Part 1: notices about recycling and a town clean-up",
+            "topicTag": "environment"
           }
         ],
         "2": [
@@ -97,6 +132,36 @@
             "slugBase": "match-sports-clubs",
             "topic": "Part 2: match five people to eight sports clubs and activities",
             "topicTag": "sport"
+          },
+          {
+            "slugBase": "match-apps",
+            "topic": "Part 2: match five people to eight mobile apps",
+            "topicTag": "technology"
+          },
+          {
+            "slugBase": "match-volunteering",
+            "topic": "Part 2: match five people to eight volunteering opportunities",
+            "topicTag": "work"
+          },
+          {
+            "slugBase": "match-concerts",
+            "topic": "Part 2: match five people to eight concerts and shows",
+            "topicTag": "culture"
+          },
+          {
+            "slugBase": "match-summer-jobs",
+            "topic": "Part 2: match five people to eight summer jobs",
+            "topicTag": "work"
+          },
+          {
+            "slugBase": "match-podcasts",
+            "topic": "Part 2: match five people to eight podcasts",
+            "topicTag": "media"
+          },
+          {
+            "slugBase": "match-walks",
+            "topic": "Part 2: match five people to eight countryside walks",
+            "topicTag": "nature"
           }
         ],
         "3": [
@@ -139,6 +204,41 @@
             "slugBase": "long-restaurant-owner",
             "topic": "Part 3: long text - a family that opened a small restaurant",
             "topicTag": "food"
+          },
+          {
+            "slugBase": "long-zookeeper",
+            "topic": "Part 3: long text - a young zookeeper describes her working day",
+            "topicTag": "animals"
+          },
+          {
+            "slugBase": "long-exchange-student",
+            "topic": "Part 3: long text - a student remembers a year on an exchange programme",
+            "topicTag": "education"
+          },
+          {
+            "slugBase": "long-mountain-rescue",
+            "topic": "Part 3: long text - a volunteer in a mountain rescue team",
+            "topicTag": "nature"
+          },
+          {
+            "slugBase": "long-youtuber-science",
+            "topic": "Part 3: long text - a teenager who makes science videos online",
+            "topicTag": "media"
+          },
+          {
+            "slugBase": "long-bike-repair",
+            "topic": "Part 3: long text - a young man who opened a bicycle repair shop",
+            "topicTag": "work"
+          },
+          {
+            "slugBase": "long-climate-student",
+            "topic": "Part 3: long text - a student who started a recycling project at school",
+            "topicTag": "environment"
+          },
+          {
+            "slugBase": "long-dancer",
+            "topic": "Part 3: long text - interview with a young dancer",
+            "topicTag": "culture"
           }
         ],
         "4": [
@@ -181,6 +281,36 @@
             "slugBase": "gapped-board-games",
             "topic": "Part 4: gapped text - the return of board game cafes",
             "topicTag": "free_time"
+          },
+          {
+            "slugBase": "gapped-screen-time",
+            "topic": "Part 4: gapped text - how much time teenagers spend on screens",
+            "topicTag": "technology"
+          },
+          {
+            "slugBase": "gapped-zero-waste",
+            "topic": "Part 4: gapped text - a family who tried to live without plastic",
+            "topicTag": "environment"
+          },
+          {
+            "slugBase": "gapped-first-marathon",
+            "topic": "Part 4: gapped text - training for a first long-distance run",
+            "topicTag": "sport"
+          },
+          {
+            "slugBase": "gapped-island-school",
+            "topic": "Part 4: gapped text - a tiny school on an island",
+            "topicTag": "education"
+          },
+          {
+            "slugBase": "gapped-dog-training",
+            "topic": "Part 4: gapped text - training a rescue dog",
+            "topicTag": "animals"
+          },
+          {
+            "slugBase": "gapped-street-food",
+            "topic": "Part 4: gapped text - the history of a famous street food",
+            "topicTag": "food"
           }
         ],
         "5": [
@@ -222,6 +352,46 @@
           {
             "slugBase": "cloze-pet-cafe",
             "topic": "Part 5: multiple-choice cloze - a cafe where cats live",
+            "topicTag": "animals"
+          },
+          {
+            "slugBase": "cloze-rainforest-trip",
+            "topic": "Part 5: multiple-choice cloze - a school visit to a rainforest centre",
+            "topicTag": "nature"
+          },
+          {
+            "slugBase": "cloze-old-photos",
+            "topic": "Part 5: multiple-choice cloze - finding old family photographs",
+            "topicTag": "culture"
+          },
+          {
+            "slugBase": "cloze-climbing-wall",
+            "topic": "Part 5: multiple-choice cloze - trying an indoor climbing wall",
+            "topicTag": "sport"
+          },
+          {
+            "slugBase": "cloze-smartphone-history",
+            "topic": "Part 5: multiple-choice cloze - how the mobile phone changed",
+            "topicTag": "technology"
+          },
+          {
+            "slugBase": "cloze-first-job",
+            "topic": "Part 5: multiple-choice cloze - a teenager's first job in a shop",
+            "topicTag": "work"
+          },
+          {
+            "slugBase": "cloze-local-radio",
+            "topic": "Part 5: multiple-choice cloze - a student radio station",
+            "topicTag": "media"
+          },
+          {
+            "slugBase": "cloze-flea-market",
+            "topic": "Part 5: multiple-choice cloze - shopping at a second-hand market",
+            "topicTag": "shopping"
+          },
+          {
+            "slugBase": "cloze-bird-watching",
+            "topic": "Part 5: multiple-choice cloze - a weekend of bird watching",
             "topicTag": "animals"
           }
         ],
@@ -265,6 +435,46 @@
             "slugBase": "open-cloze-beach-cleanup",
             "topic": "Part 6: open cloze - a beach clean-up day",
             "topicTag": "nature"
+          },
+          {
+            "slugBase": "open-cloze-camping-rain",
+            "topic": "Part 6: open cloze - a camping trip in the rain",
+            "topicTag": "travel"
+          },
+          {
+            "slugBase": "open-cloze-school-play",
+            "topic": "Part 6: open cloze - taking part in a school play",
+            "topicTag": "culture"
+          },
+          {
+            "slugBase": "open-cloze-new-neighbour",
+            "topic": "Part 6: open cloze - meeting a new neighbour",
+            "topicTag": "daily_life"
+          },
+          {
+            "slugBase": "open-cloze-lost-cat",
+            "topic": "Part 6: open cloze - looking for a lost cat",
+            "topicTag": "animals"
+          },
+          {
+            "slugBase": "open-cloze-football-team",
+            "topic": "Part 6: open cloze - joining a local football team",
+            "topicTag": "sport"
+          },
+          {
+            "slugBase": "open-cloze-cooking-disaster",
+            "topic": "Part 6: open cloze - a cooking disaster at home",
+            "topicTag": "food"
+          },
+          {
+            "slugBase": "open-cloze-tree-planting",
+            "topic": "Part 6: open cloze - planting trees in the town",
+            "topicTag": "environment"
+          },
+          {
+            "slugBase": "open-cloze-online-friend",
+            "topic": "Part 6: open cloze - meeting an online friend in person",
+            "topicTag": "technology"
           }
         ]
       }
@@ -307,6 +517,46 @@
             "slugBase": "pics-school-events",
             "topic": "Part 1: seven short recordings about school events and homework",
             "topicTag": "education"
+          },
+          {
+            "slugBase": "pics-sport-plans",
+            "topic": "Part 1: seven short recordings about sports, matches and training times",
+            "topicTag": "sport"
+          },
+          {
+            "slugBase": "pics-home-jobs",
+            "topic": "Part 1: seven short recordings about jobs at home and in the garden",
+            "topicTag": "daily_life"
+          },
+          {
+            "slugBase": "pics-health-appointments",
+            "topic": "Part 1: seven short recordings about doctor and dentist appointments",
+            "topicTag": "health"
+          },
+          {
+            "slugBase": "pics-free-time",
+            "topic": "Part 1: seven short recordings about free-time plans and tickets",
+            "topicTag": "free_time"
+          },
+          {
+            "slugBase": "pics-presents",
+            "topic": "Part 1: seven short recordings about buying presents",
+            "topicTag": "shopping"
+          },
+          {
+            "slugBase": "pics-animals",
+            "topic": "Part 1: seven short recordings about pets and animals",
+            "topicTag": "animals"
+          },
+          {
+            "slugBase": "pics-technology",
+            "topic": "Part 1: seven short recordings about phones, computers and repairs",
+            "topicTag": "technology"
+          },
+          {
+            "slugBase": "pics-work-tasks",
+            "topic": "Part 1: seven short recordings about jobs and tasks at work",
+            "topicTag": "work"
           }
         ],
         "2": [
@@ -339,6 +589,46 @@
             "slugBase": "gist-family-plans",
             "topic": "Part 2: six short dialogues about family plans and events",
             "topicTag": "daily_life"
+          },
+          {
+            "slugBase": "gist-school-life",
+            "topic": "Part 2: six short dialogues about school life and exams",
+            "topicTag": "education"
+          },
+          {
+            "slugBase": "gist-food-cooking",
+            "topic": "Part 2: six short dialogues about food and cooking",
+            "topicTag": "food"
+          },
+          {
+            "slugBase": "gist-films-music",
+            "topic": "Part 2: six short dialogues about films, music and shows",
+            "topicTag": "culture"
+          },
+          {
+            "slugBase": "gist-health-fitness",
+            "topic": "Part 2: six short dialogues about health and keeping fit",
+            "topicTag": "health"
+          },
+          {
+            "slugBase": "gist-technology",
+            "topic": "Part 2: six short dialogues about technology and apps",
+            "topicTag": "technology"
+          },
+          {
+            "slugBase": "gist-neighbourhood",
+            "topic": "Part 2: six short dialogues about the neighbourhood and local news",
+            "topicTag": "daily_life"
+          },
+          {
+            "slugBase": "gist-environment",
+            "topic": "Part 2: six short dialogues about recycling and the environment",
+            "topicTag": "environment"
+          },
+          {
+            "slugBase": "gist-pets",
+            "topic": "Part 2: six short dialogues about pets and animals",
+            "topicTag": "animals"
           }
         ],
         "3": [
@@ -371,6 +661,46 @@
             "slugBase": "gapfill-library-services",
             "topic": "Part 3: monologue - a talk about new library services",
             "topicTag": "culture"
+          },
+          {
+            "slugBase": "gapfill-wildlife-park",
+            "topic": "Part 3: monologue gap fill - information for visitors to a wildlife park",
+            "topicTag": "nature"
+          },
+          {
+            "slugBase": "gapfill-summer-course",
+            "topic": "Part 3: monologue gap fill - details of a summer language course",
+            "topicTag": "education"
+          },
+          {
+            "slugBase": "gapfill-cooking-club",
+            "topic": "Part 3: monologue gap fill - a new after-school cooking club",
+            "topicTag": "food"
+          },
+          {
+            "slugBase": "gapfill-bike-scheme",
+            "topic": "Part 3: monologue gap fill - a town bike-hire scheme",
+            "topicTag": "travel"
+          },
+          {
+            "slugBase": "gapfill-theatre-tour",
+            "topic": "Part 3: monologue gap fill - a guided tour of a theatre",
+            "topicTag": "culture"
+          },
+          {
+            "slugBase": "gapfill-volunteer-day",
+            "topic": "Part 3: monologue gap fill - a volunteer day to clean up a river",
+            "topicTag": "environment"
+          },
+          {
+            "slugBase": "gapfill-radio-competition",
+            "topic": "Part 3: monologue gap fill - a radio competition for young writers",
+            "topicTag": "media"
+          },
+          {
+            "slugBase": "gapfill-shopping-centre",
+            "topic": "Part 3: monologue gap fill - the opening of a new shopping centre",
+            "topicTag": "shopping"
           }
         ],
         "4": [
@@ -398,6 +728,46 @@
             "slugBase": "interview-swimmer",
             "topic": "Part 4: interview - a young swimmer preparing for a competition",
             "topicTag": "sport"
+          },
+          {
+            "slugBase": "interview-photographer",
+            "topic": "Part 4: interview - a young photographer talks about her work",
+            "topicTag": "culture"
+          },
+          {
+            "slugBase": "interview-vet",
+            "topic": "Part 4: interview - a vet talks about his job",
+            "topicTag": "animals"
+          },
+          {
+            "slugBase": "interview-cyclist-trip",
+            "topic": "Part 4: interview - a student who cycled across a country",
+            "topicTag": "travel"
+          },
+          {
+            "slugBase": "interview-teacher-abroad",
+            "topic": "Part 4: interview - a teacher who works in another country",
+            "topicTag": "education"
+          },
+          {
+            "slugBase": "interview-musician",
+            "topic": "Part 4: interview - a young musician in a band",
+            "topicTag": "culture"
+          },
+          {
+            "slugBase": "interview-recycling-business",
+            "topic": "Part 4: interview - a young woman who runs a recycling business",
+            "topicTag": "environment"
+          },
+          {
+            "slugBase": "interview-climber",
+            "topic": "Part 4: interview - a young rock climber",
+            "topicTag": "sport"
+          },
+          {
+            "slugBase": "interview-baker",
+            "topic": "Part 4: interview - a baker who opened her own shop",
+            "topicTag": "food"
           }
         ]
       }
@@ -455,6 +825,48 @@
           "topicT1": "Email: reply to a classmate about a school project you are doing together, answering their 4 notes",
           "topicT2": "Article or story: 'Something new I learned this year' (article) OR a story beginning 'The teacher smiled and handed me the results.'",
           "topicTag": "education"
+        },
+        {
+          "slugBase": "email-concert-tickets",
+          "topicT1": "Email: reply to a friend who has got tickets for a concert you are going to together, answering their 4 notes",
+          "topicT2": "Article or story: 'The best concert or show I have seen' (article) OR a story beginning 'The lights went out just before the show started.'",
+          "topicTag": "culture"
+        },
+        {
+          "slugBase": "email-pet-sitting",
+          "topicT1": "Email: reply to a neighbour who wants you to look after their pet, answering their 4 notes",
+          "topicT2": "Article or story: 'Why animals are important to people' (article) OR a story beginning 'The dog would not stop barking.'",
+          "topicTag": "animals"
+        },
+        {
+          "slugBase": "email-camping-trip",
+          "topicT1": "Email: reply to a friend about a camping trip you are planning together, answering their 4 notes",
+          "topicT2": "Article or story: 'A weekend in the countryside' (article) OR a story beginning 'We could hear something moving outside the tent.'",
+          "topicTag": "nature"
+        },
+        {
+          "slugBase": "email-part-time-job",
+          "topicT1": "Email: reply to a friend who works in a cafe and has told you about a job there, answering their 4 notes",
+          "topicT2": "Article or story: 'My first job' (article) OR a story beginning 'It was my first day at work and I was late.'",
+          "topicTag": "work"
+        },
+        {
+          "slugBase": "email-cooking-evening",
+          "topicT1": "Email: reply to a friend about a cooking evening you are organising together, answering their 4 notes",
+          "topicT2": "Article or story: 'My favourite meal' (article) OR a story beginning 'Suddenly there was smoke everywhere in the kitchen.'",
+          "topicTag": "food"
+        },
+        {
+          "slugBase": "email-fitness-plan",
+          "topicT1": "Email: reply to a friend who wants to get fitter with you, answering their 4 notes",
+          "topicT2": "Article or story: 'How I keep healthy' (article) OR a story beginning 'I had never run so fast in my life.'",
+          "topicTag": "health"
+        },
+        {
+          "slugBase": "email-clean-up-day",
+          "topicT1": "Email: reply to a friend about a clean-up day in your town, answering their 4 notes",
+          "topicT2": "Article or story: 'How my town could be greener' (article) OR a story beginning 'Nobody believed what we found in the river.'",
+          "topicTag": "environment"
         }
       ]
     },
@@ -529,6 +941,38 @@
           "topicT2": "Photo description: a colour photo of people using devices together",
           "topicT3": "Collaborative task: plan a screen-free weekend",
           "topicT4": "General conversation: technology and free time"
+        },
+        {
+          "slugBase": "speaking-home-neighbourhood",
+          "topicTag": "daily_life",
+          "topicT1": "Interview: personal questions about your home and neighbourhood",
+          "topicT2": "Photo description: a colour photo of a family doing jobs at home",
+          "topicT3": "Collaborative task: decide together how to improve a neighbourhood for young people",
+          "topicT4": "General conversation: homes and neighbours"
+        },
+        {
+          "slugBase": "speaking-environment",
+          "topicTag": "environment",
+          "topicT1": "Interview: personal questions about nature and the outdoors",
+          "topicT2": "Photo description: a colour photo of young people collecting rubbish on a beach",
+          "topicT3": "Collaborative task: decide together what a school could do to help the environment",
+          "topicT4": "General conversation: recycling and protecting nature"
+        },
+        {
+          "slugBase": "speaking-culture-entertainment",
+          "topicTag": "culture",
+          "topicT1": "Interview: personal questions about films, music and books",
+          "topicT2": "Photo description: a colour photo of people watching a street performer",
+          "topicT3": "Collaborative task: choose an activity for a class trip to a city",
+          "topicT4": "General conversation: going out and entertainment"
+        },
+        {
+          "slugBase": "speaking-animals-pets",
+          "topicTag": "animals",
+          "topicT1": "Interview: personal questions about animals and pets",
+          "topicT2": "Photo description: a colour photo of a girl walking several dogs in a park",
+          "topicT3": "Collaborative task: decide which pet would be best for a busy family",
+          "topicT4": "General conversation: people and animals"
         }
       ]
     }

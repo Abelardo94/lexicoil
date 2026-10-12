@@ -1,0 +1,309 @@
+{
+  "passages": [
+    {
+      "module": "lesen",
+      "passageVocab": [
+        "crew",
+        "confident",
+        "gentle",
+        "junior",
+        "academy"
+      ],
+      "id": "en-b1-p-lesen-t2-match-sports-clubs-01-01",
+      "title": "A – Riverside Rowing Club",
+      "text": "Our crews race against clubs from all over the country, and several members have rowed for their national team. We welcome adults with at least two years' rowing experience who are serious about competing. Training is on the river every weekday from 6 to 7.30 am, so you'll need to be an early riser!"
+    },
+    {
+      "module": "lesen",
+      "passageVocab": [
+        "crew",
+        "confident",
+        "gentle",
+        "junior",
+        "academy"
+      ],
+      "id": "en-b1-p-lesen-t2-match-sports-clubs-01-02",
+      "title": "B – Summit Climbing Team",
+      "text": "Already a confident climber? Our team is for people who have been climbing for at least three years and want to test themselves against others. Members take part in regional and national competitions, and each summer we organise a two-week trip to climb in the mountains of Spain or France. Coaching sessions take place on Wednesday evenings."
+    },
+    {
+      "module": "lesen",
+      "passageVocab": [
+        "crew",
+        "confident",
+        "gentle",
+        "junior",
+        "academy"
+      ],
+      "id": "en-b1-p-lesen-t2-match-sports-clubs-01-03",
+      "title": "C – Aqua Fit at Parkway Pool",
+      "text": "These gentle exercise classes in warm water are perfect if you have problems with your back or joints, because the water supports your body. You don't need to be able to swim, as the water is only waist-deep. Classes run on Mondays, Wednesdays and Fridays at 12.30, so they fit nicely into a lunch break."
+    },
+    {
+      "module": "lesen",
+      "passageVocab": [
+        "crew",
+        "confident",
+        "gentle",
+        "junior",
+        "academy"
+      ],
+      "id": "en-b1-p-lesen-t2-match-sports-clubs-01-04",
+      "title": "D – Northside Basketball Club",
+      "text": "We are looking for new players aged 12 to 18 for our junior teams. Complete beginners are very welcome – our coaches will teach you everything from the basic rules upwards. Training is on Tuesdays and Thursdays from 4.30 to 6 pm in the school sports hall, and your first month is completely free."
+    },
+    {
+      "module": "lesen",
+      "passageVocab": [
+        "crew",
+        "confident",
+        "gentle",
+        "junior",
+        "academy"
+      ],
+      "id": "en-b1-p-lesen-t2-match-sports-clubs-01-05",
+      "title": "E – Westfield Youth Football Academy",
+      "text": "The academy trains the best young footballers in the area, and several of our former players are now professionals. To join, you must be between 14 and 18 and have played for a club for at least a year. Trials are held in August, and training takes place on Saturday mornings."
+    },
+    {
+      "module": "lesen",
+      "passageVocab": [
+        "crew",
+        "confident",
+        "gentle",
+        "junior",
+        "academy"
+      ],
+      "id": "en-b1-p-lesen-t2-match-sports-clubs-01-06",
+      "title": "F – Sunrise Fitness Group",
+      "text": "Start your day the healthy way! We meet in Victoria Park at 6.30 every weekday morning for 45 minutes of running, stretching and simple exercises – rain or shine. People of all ages and fitness levels join us, and there are no races or times to beat. It's all about having fun together."
+    },
+    {
+      "module": "lesen",
+      "passageVocab": [
+        "crew",
+        "confident",
+        "gentle",
+        "junior",
+        "academy"
+      ],
+      "id": "en-b1-p-lesen-t2-match-sports-clubs-01-07",
+      "title": "G – Peak Climbing Wall",
+      "text": "Never climbed before? Our friendly instructors run four-week beginners' courses for all ages, and all equipment is included. On Saturday mornings we hold special family sessions, where parents and children aged eight and over learn to climb side by side. It's a great way to build confidence and have fun together indoors."
+    },
+    {
+      "module": "lesen",
+      "passageVocab": [
+        "crew",
+        "confident",
+        "gentle",
+        "junior",
+        "academy"
+      ],
+      "id": "en-b1-p-lesen-t2-match-sports-clubs-01-08",
+      "title": "H – Balance Pilates Studio",
+      "text": "Pilates uses slow, controlled movements to make your body stronger, and many doctors recommend it for people with back pain. Our small indoor classes mean the teacher can give you plenty of individual attention. We have classes on Saturday and Sunday mornings at 9 and 11 am, and you can book online."
+    }
+  ],
+  "questions": [
+    {
+      "id": "en-b1-r-t2-match-sports-clubs-01-q1",
+      "module": "lesen",
+      "teil": 2,
+      "type": "matching",
+      "passageId": "en-b1-p-lesen-t2-match-sports-clubs-01-01",
+      "question": "Ryan is 15 and has never played in a team, but he'd like to try a team sport. He can only train after school on weekdays.",
+      "options": [
+        "A) Riverside Rowing Club",
+        "B) Summit Climbing Team",
+        "C) Aqua Fit at Parkway Pool",
+        "D) Northside Basketball Club",
+        "E) Westfield Youth Football Academy",
+        "F) Sunrise Fitness Group",
+        "G) Peak Climbing Wall",
+        "H) Balance Pilates Studio"
+      ],
+      "correct": "D",
+      "correctAnswer": "D",
+      "explanation": "Northside Basketball Club has 'junior teams', 'Complete beginners are very welcome', and training is 'on Tuesdays and Thursdays from 4.30 to 6 pm'. Westfield Youth Football Academy is also a team sport for his age, but players 'must … have played for a club for at least a year' and training is on Saturdays.",
+      "grammarTags": [
+        "g-en-b1-present-perfect"
+      ],
+      "topicTags": [
+        "sport"
+      ],
+      "vocabularyTags": [
+        "team sport",
+        "beginner",
+        "train"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-r-t2-match-sports-clubs-01-q2",
+      "module": "lesen",
+      "teil": 2,
+      "type": "matching",
+      "passageId": "en-b1-p-lesen-t2-match-sports-clubs-01-01",
+      "question": "Anita wants to get fitter by exercising outdoors with other people before she goes to work. She doesn't enjoy competition and just wants to have a good time.",
+      "options": [
+        "A) Riverside Rowing Club",
+        "B) Summit Climbing Team",
+        "C) Aqua Fit at Parkway Pool",
+        "D) Northside Basketball Club",
+        "E) Westfield Youth Football Academy",
+        "F) Sunrise Fitness Group",
+        "G) Peak Climbing Wall",
+        "H) Balance Pilates Studio"
+      ],
+      "correct": "F",
+      "correctAnswer": "F",
+      "explanation": "Sunrise Fitness Group meets 'in Victoria Park at 6.30 every weekday morning', 'there are no races or times to beat' and 'It's all about having fun together'. Riverside Rowing Club also trains outdoors early in the morning, but it is for people 'who are serious about competing'.",
+      "grammarTags": [
+        "g-en-b1-gerunds-infinitives"
+      ],
+      "topicTags": [
+        "sport"
+      ],
+      "vocabularyTags": [
+        "fitness",
+        "outdoors",
+        "competition"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-r-t2-match-sports-clubs-01-q3",
+      "module": "lesen",
+      "teil": 2,
+      "type": "matching",
+      "passageId": "en-b1-p-lesen-t2-match-sports-clubs-01-01",
+      "question": "Lukas has a bad back, and his doctor has told him to try a gentle form of exercise. He works long hours during the week, so he wants an indoor class at the weekend.",
+      "options": [
+        "A) Riverside Rowing Club",
+        "B) Summit Climbing Team",
+        "C) Aqua Fit at Parkway Pool",
+        "D) Northside Basketball Club",
+        "E) Westfield Youth Football Academy",
+        "F) Sunrise Fitness Group",
+        "G) Peak Climbing Wall",
+        "H) Balance Pilates Studio"
+      ],
+      "correct": "H",
+      "correctAnswer": "H",
+      "explanation": "At Balance Pilates Studio 'many doctors recommend it for people with back pain', the classes are 'indoor', and they are 'on Saturday and Sunday mornings'. Aqua Fit is also gentle and good for 'problems with your back', but it only runs on weekdays at lunchtime.",
+      "grammarTags": [
+        "g-en-b1-reported-speech"
+      ],
+      "topicTags": [
+        "sport"
+      ],
+      "vocabularyTags": [
+        "back pain",
+        "gentle",
+        "weekend"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-r-t2-match-sports-clubs-01-q4",
+      "module": "lesen",
+      "teil": 2,
+      "type": "matching",
+      "passageId": "en-b1-p-lesen-t2-match-sports-clubs-01-01",
+      "question": "Grace and her ten-year-old daughter are looking for a new activity that they can learn together. Saturday is the only day they are both free.",
+      "options": [
+        "A) Riverside Rowing Club",
+        "B) Summit Climbing Team",
+        "C) Aqua Fit at Parkway Pool",
+        "D) Northside Basketball Club",
+        "E) Westfield Youth Football Academy",
+        "F) Sunrise Fitness Group",
+        "G) Peak Climbing Wall",
+        "H) Balance Pilates Studio"
+      ],
+      "correct": "G",
+      "correctAnswer": "G",
+      "explanation": "Peak Climbing Wall has 'family sessions' on 'Saturday mornings, where parents and children aged eight and over learn to climb side by side'. Westfield Youth Football Academy also trains on Saturday mornings, but it is only for young players aged 14 to 18, so Grace could not take part.",
+      "grammarTags": [
+        "g-en-b1-relative-clauses"
+      ],
+      "topicTags": [
+        "sport"
+      ],
+      "vocabularyTags": [
+        "learn",
+        "together",
+        "family session"
+      ],
+      "difficulty": 3,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-r-t2-match-sports-clubs-01-q5",
+      "module": "lesen",
+      "teil": 2,
+      "type": "matching",
+      "passageId": "en-b1-p-lesen-t2-match-sports-clubs-01-01",
+      "question": "Tomasz has been climbing for many years and now wants to see how good he is compared with other climbers. He would also love to climb abroad.",
+      "options": [
+        "A) Riverside Rowing Club",
+        "B) Summit Climbing Team",
+        "C) Aqua Fit at Parkway Pool",
+        "D) Northside Basketball Club",
+        "E) Westfield Youth Football Academy",
+        "F) Sunrise Fitness Group",
+        "G) Peak Climbing Wall",
+        "H) Balance Pilates Studio"
+      ],
+      "correct": "B",
+      "correctAnswer": "B",
+      "explanation": "Summit Climbing Team is for people who 'want to test themselves against others', members 'take part in regional and national competitions', and there is a summer 'trip to climb in the mountains of Spain or France'. Peak Climbing Wall is also for climbing, but it offers 'beginners' courses' and family sessions, not competitions or trips abroad.",
+      "grammarTags": [
+        "g-en-b1-present-perfect-continuous"
+      ],
+      "topicTags": [
+        "sport"
+      ],
+      "vocabularyTags": [
+        "climber",
+        "competition",
+        "abroad"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    }
+  ],
+  "_germanCapsNormalizeVersion": "v3.23-lesen-t2-angebote-corpus-2026-07-28",
+  "_germanCapsNormalizedAt": "2026-10-12T14:43:59.570Z",
+  "_balanceMcqVersion": "v1.2-no-rf-chrono-shuffle-2026-07-11",
+  "_balanceMcqNormalizedAt": "2026-10-12T14:43:59.570Z"
+}

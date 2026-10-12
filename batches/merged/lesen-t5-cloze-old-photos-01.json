@@ -1,0 +1,227 @@
+{
+  "passages": [
+    {
+      "id": "en-b1-p-lesen-t5-cloze-old-photos-01-01",
+      "module": "lesen",
+      "title": "A box in the attic",
+      "text": "When my grandmother moved into a smaller flat last spring, my family helped her to (1) ____ out her old house in Aberdeen. In the attic, under a pile of blankets, my brother Callum found a wooden box full of black-and-white photographs.\n\nGran sat down and looked through them slowly. Most of the people in the photos were relatives she hadn't seen for years, and a few she couldn't (2) ____ at all. One picture showed a young woman standing next to a bicycle outside a bakery. \"That's me!\" Gran laughed. \"I worked there when I was sixteen. I had to get up at four o'clock every morning to (3) ____ the bread.\"\n\nSome of the photos were in quite bad (4) ____ because water had got into the box. My dad took them to a shop in town, where an expert managed to repair them on a computer.\n\nNow the best ones hang in Gran's new living room, and she loves telling visitors the stories (5) ____ them. Callum has even started a family tree online, and he hopes to (6) ____ in touch with some of our distant cousins in Canada.",
+      "passageVocab": [
+        "attic",
+        "relative",
+        "bakery",
+        "repair",
+        "family tree"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "en-b1-r-t5-cloze-old-photos-01-q1",
+      "module": "lesen",
+      "teil": 5,
+      "type": "multiple_choice",
+      "passageId": "en-b1-p-lesen-t5-cloze-old-photos-01-01",
+      "question": "Choose the correct word for gap (1).",
+      "options": [
+        "a) clear",
+        "b) take",
+        "c) carry",
+        "d) keep"
+      ],
+      "correct": "a",
+      "correctAnswer": "a",
+      "explanation": "The family helped Gran \"clear out her old house\", which means empty it and remove the things she no longer needed before moving. 'Take out' is not used with a house as the object in this meaning, 'carry out' means 'do a task' (carry out an experiment), and 'keep out' means 'stay outside', which is the opposite of helping.",
+      "grammarTags": [
+        "g-en-b1-phrasal-verbs"
+      ],
+      "topicTags": [
+        "family"
+      ],
+      "vocabularyTags": [
+        "clear out",
+        "move house"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-r-t5-cloze-old-photos-01-q2",
+      "module": "lesen",
+      "teil": 5,
+      "type": "multiple_choice",
+      "passageId": "en-b1-p-lesen-t5-cloze-old-photos-01-01",
+      "question": "Choose the correct word for gap (2).",
+      "options": [
+        "a) discover",
+        "b) realise",
+        "c) notice",
+        "d) recognise"
+      ],
+      "correct": "d",
+      "correctAnswer": "d",
+      "explanation": "Gran looked at the faces and \"a few she couldn't recognise at all\": she did not know who those people were. 'Notice' and 'discover' do not fit because the people were right in front of her in the photos, and 'realise' needs a fact (realise that…), not a person.",
+      "grammarTags": [
+        "g-en-b1-confusing-verbs"
+      ],
+      "topicTags": [
+        "family"
+      ],
+      "vocabularyTags": [
+        "recognise",
+        "realise",
+        "notice"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-r-t5-cloze-old-photos-01-q3",
+      "module": "lesen",
+      "teil": 5,
+      "type": "multiple_choice",
+      "passageId": "en-b1-p-lesen-t5-cloze-old-photos-01-01",
+      "question": "Choose the correct word for gap (3).",
+      "options": [
+        "a) bake",
+        "b) boil",
+        "c) fry",
+        "d) roast"
+      ],
+      "correct": "a",
+      "correctAnswer": "a",
+      "explanation": "Gran worked in \"a bakery\", and bread is cooked in an oven, so she got up early \"to bake the bread\". Bread is not boiled, fried or roasted.",
+      "grammarTags": [
+        "g-en-b1-collocations"
+      ],
+      "topicTags": [
+        "family"
+      ],
+      "vocabularyTags": [
+        "bake",
+        "bakery"
+      ],
+      "difficulty": 3,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-r-t5-cloze-old-photos-01-q4",
+      "module": "lesen",
+      "teil": 5,
+      "type": "multiple_choice",
+      "passageId": "en-b1-p-lesen-t5-cloze-old-photos-01-01",
+      "question": "Choose the correct word for gap (4).",
+      "options": [
+        "a) behaviour",
+        "b) health",
+        "c) condition",
+        "d) mood"
+      ],
+      "correct": "c",
+      "correctAnswer": "c",
+      "explanation": "Objects can be \"in quite bad condition\" when they are damaged: here \"water had got into the box\". 'Health', 'mood' and 'behaviour' describe people (or animals), not photographs.",
+      "grammarTags": [
+        "g-en-b1-collocations"
+      ],
+      "topicTags": [
+        "family"
+      ],
+      "vocabularyTags": [
+        "condition",
+        "damage"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-r-t5-cloze-old-photos-01-q5",
+      "module": "lesen",
+      "teil": 5,
+      "type": "multiple_choice",
+      "passageId": "en-b1-p-lesen-t5-cloze-old-photos-01-01",
+      "question": "Choose the correct word for gap (5).",
+      "options": [
+        "a) under",
+        "b) behind",
+        "c) between",
+        "d) along"
+      ],
+      "correct": "b",
+      "correctAnswer": "b",
+      "explanation": "\"The stories behind them\" means the true events that explain the photos, for example how Gran came to work at the bakery. 'The stories under / between / along them' make no sense here.",
+      "grammarTags": [
+        "g-en-b1-prepositions"
+      ],
+      "topicTags": [
+        "family"
+      ],
+      "vocabularyTags": [
+        "the story behind"
+      ],
+      "difficulty": 5,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-r-t5-cloze-old-photos-01-q6",
+      "module": "lesen",
+      "teil": 5,
+      "type": "multiple_choice",
+      "passageId": "en-b1-p-lesen-t5-cloze-old-photos-01-01",
+      "question": "Choose the correct word for gap (6).",
+      "options": [
+        "a) make",
+        "b) do",
+        "c) put",
+        "d) get"
+      ],
+      "correct": "d",
+      "correctAnswer": "d",
+      "explanation": "The fixed expression is \"get in touch with\" someone, meaning to contact them: Callum \"hopes to get in touch with some of our distant cousins\". We do not say 'make', 'do' or 'put in touch with' about contacting people ourselves.",
+      "grammarTags": [
+        "g-en-b1-fixed-expressions"
+      ],
+      "topicTags": [
+        "family"
+      ],
+      "vocabularyTags": [
+        "get in touch",
+        "cousin"
+      ],
+      "difficulty": 3,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    }
+  ],
+  "_germanCapsNormalizeVersion": "v3.23-lesen-t2-angebote-corpus-2026-07-28",
+  "_germanCapsNormalizedAt": "2026-10-12T14:44:01.408Z",
+  "_balanceMcqVersion": "v1.2-no-rf-chrono-shuffle-2026-07-11",
+  "_balanceMcqNormalizedAt": "2026-10-12T14:44:01.408Z"
+}

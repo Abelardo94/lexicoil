@@ -1,0 +1,194 @@
+{
+  "passages": [
+    {
+      "id": "en-b1-p-lesen-t6-open-cloze-camping-rain-01-01",
+      "module": "lesen",
+      "title": "Three wet nights in Snowdonia",
+      "text": "Last summer my cousin Freya and I went camping in Snowdonia for three nights. Before that trip, neither of us (1) ____ ever slept in a tent, so we were very excited.\n\nUnfortunately, it was pouring with rain when we reached the campsite. The tent was much smaller (2) ____ it looked in the photo online, and it took us ages to put it up in the wind. When we finally got inside, we realised it wasn't big (3) ____ for both of us and our bags, so we left them in the car.\n\nThat evening Freya discovered she had left (4) ____ own raincoat at home, so she had to borrow mine whenever she went outside. It was (5) ____ a cold night that we slept in our jumpers and woolly hats. Mud got everywhere, so we took (6) ____ our boots before climbing into the tent.\n\nOn the third morning, the sun came out. We dried everything on a fence, climbed a hill and had a picnic with amazing views across the valley. Looking back, the rain is the part we laugh about most, and we are already planning our next trip.",
+      "passageVocab": [
+        "campsite",
+        "pour",
+        "borrow",
+        "mud",
+        "valley"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "en-b1-r-t6-open-cloze-camping-rain-01-q1",
+      "module": "lesen",
+      "teil": 6,
+      "type": "gap_fill",
+      "passageId": "en-b1-p-lesen-t6-open-cloze-camping-rain-01-01",
+      "question": "Write ONE word for gap (1).",
+      "options": [],
+      "correct": "had",
+      "correctAnswer": "had",
+      "explanation": "\"Before that trip, neither of us had ever slept in a tent\": the past perfect (had + past participle 'slept') is needed for an experience before another past time. 'Has' is wrong because the story is in the past, and 'did' cannot go before 'slept'.",
+      "grammarTags": [
+        "g-en-b1-past-perfect"
+      ],
+      "topicTags": [
+        "travel"
+      ],
+      "vocabularyTags": [
+        "neither of us",
+        "ever"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-r-t6-open-cloze-camping-rain-01-q2",
+      "module": "lesen",
+      "teil": 6,
+      "type": "gap_fill",
+      "passageId": "en-b1-p-lesen-t6-open-cloze-camping-rain-01-01",
+      "question": "Write ONE word for gap (2).",
+      "options": [],
+      "correct": "than",
+      "correctAnswer": "than",
+      "explanation": "After a comparative adjective we use 'than': \"much smaller than it looked in the photo online\".",
+      "grammarTags": [
+        "g-en-b1-comparatives"
+      ],
+      "topicTags": [
+        "travel"
+      ],
+      "vocabularyTags": [
+        "smaller than"
+      ],
+      "difficulty": 3,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-r-t6-open-cloze-camping-rain-01-q3",
+      "module": "lesen",
+      "teil": 6,
+      "type": "gap_fill",
+      "passageId": "en-b1-p-lesen-t6-open-cloze-camping-rain-01-01",
+      "question": "Write ONE word for gap (3).",
+      "options": [],
+      "correct": "enough",
+      "correctAnswer": "enough",
+      "explanation": "'Enough' comes after an adjective and is followed by 'for': \"it wasn't big enough for both of us\", so they \"left them in the car\". 'Too' and 'very' go before the adjective, not after it.",
+      "grammarTags": [
+        "g-en-b1-too-enough"
+      ],
+      "topicTags": [
+        "travel"
+      ],
+      "vocabularyTags": [
+        "big enough"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-r-t6-open-cloze-camping-rain-01-q4",
+      "module": "lesen",
+      "teil": 6,
+      "type": "gap_fill",
+      "passageId": "en-b1-p-lesen-t6-open-cloze-camping-rain-01-01",
+      "question": "Write ONE word for gap (4).",
+      "options": [],
+      "correct": "her",
+      "correctAnswer": "her",
+      "explanation": "'Own' must follow a possessive adjective, and the raincoat belongs to Freya: \"she had left her own raincoat at home\". 'My' is impossible because she then had \"to borrow mine\".",
+      "grammarTags": [
+        "g-en-b1-possessives"
+      ],
+      "topicTags": [
+        "travel"
+      ],
+      "vocabularyTags": [
+        "own",
+        "borrow"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-r-t6-open-cloze-camping-rain-01-q5",
+      "module": "lesen",
+      "teil": 6,
+      "type": "gap_fill",
+      "passageId": "en-b1-p-lesen-t6-open-cloze-camping-rain-01-01",
+      "question": "Write ONE word for gap (5).",
+      "options": [],
+      "correct": "such",
+      "correctAnswer": "such",
+      "explanation": "The pattern is 'such + a + adjective + noun + that': \"It was such a cold night that we slept in our jumpers\". 'So' cannot go before 'a cold night' (we say 'so cold that').",
+      "grammarTags": [
+        "g-en-b1-so-such"
+      ],
+      "topicTags": [
+        "travel"
+      ],
+      "vocabularyTags": [
+        "such … that"
+      ],
+      "difficulty": 5,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-r-t6-open-cloze-camping-rain-01-q6",
+      "module": "lesen",
+      "teil": 6,
+      "type": "gap_fill",
+      "passageId": "en-b1-p-lesen-t6-open-cloze-camping-rain-01-01",
+      "question": "Write ONE word for gap (6).",
+      "options": [],
+      "correct": "off",
+      "correctAnswer": "off",
+      "explanation": "The phrasal verb 'take off' means remove clothes or shoes: because \"mud got everywhere\", they \"took off our boots before climbing into the tent\".",
+      "grammarTags": [
+        "g-en-b1-phrasal-verbs"
+      ],
+      "topicTags": [
+        "travel"
+      ],
+      "vocabularyTags": [
+        "take off",
+        "mud"
+      ],
+      "difficulty": 3,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    }
+  ],
+  "_germanCapsNormalizeVersion": "v3.23-lesen-t2-angebote-corpus-2026-07-28",
+  "_germanCapsNormalizedAt": "2026-10-12T14:44:01.871Z",
+  "_balanceMcqVersion": "v1.2-no-rf-chrono-shuffle-2026-07-11",
+  "_balanceMcqNormalizedAt": "2026-10-12T14:44:01.871Z"
+}

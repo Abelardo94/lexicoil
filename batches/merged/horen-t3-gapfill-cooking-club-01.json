@@ -1,0 +1,246 @@
+{
+  "passages": [
+    {
+      "id": "en-b1-p-horen-t3-gapfill-cooking-club-01-01",
+      "module": "horen",
+      "title": "Millbrook School: the new cooking club",
+      "text": "Woman: Hello, everyone. I'm Mrs Okafor, and I teach food technology here at Millbrook School. I'm really pleased to tell you about our new after-school cooking club, which starts next week.\n\nWoman: First of all, please note that the club will meet every Thursday. The poster in the corridor says Wednesday, but that's a mistake, and we'll be changing it soon.\n\nWoman: Sessions start at quarter to four and finish at half past five. We'll be using the new kitchen behind the sports hall, not the old classroom near the library, which is too small for a big group.\n\nWoman: The club costs two pounds a week. That money pays for all the ingredients, so you won't need to bring any food with you.\n\nWoman: In our very first session, we were planning to make pizza. Unfortunately, one of the ovens is being repaired, so instead we'll be making soup, which we can cook on the hob. Don't worry, pizza will come later in the term!\n\nWoman: We provide aprons, so you don't need to bring one. But please bring a plastic box with a lid each week, so that you can take home whatever you've made. Your families will be able to taste your cooking, too.\n\nWoman: Finally, at the end of term, we'll hold a competition, and our head teacher has kindly agreed to be the judge. The winning recipe will appear in the school magazine. So, if you'd like to join, please put your name on the list outside my classroom by Friday.",
+      "passageVocab": [
+        "ingredient",
+        "apron",
+        "recipe",
+        "oven",
+        "judge"
+      ],
+      "audio": [
+        {
+          "speaker": "Woman",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Hello, everyone. I'm Mrs Okafor, and I teach food technology here at Millbrook School. I'm really pleased to tell you about our new after-school cooking club, which starts next week."
+        },
+        {
+          "speaker": "Woman",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "First of all, please note that the club will meet every Thursday. The poster in the corridor says Wednesday, but that's a mistake, and we'll be changing it soon."
+        },
+        {
+          "speaker": "Woman",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Sessions start at quarter to four and finish at half past five. We'll be using the new kitchen behind the sports hall, not the old classroom near the library, which is too small for a big group."
+        },
+        {
+          "speaker": "Woman",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "The club costs two pounds a week. That money pays for all the ingredients, so you won't need to bring any food with you."
+        },
+        {
+          "speaker": "Woman",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "In our very first session, we were planning to make pizza. Unfortunately, one of the ovens is being repaired, so instead we'll be making soup, which we can cook on the hob. Don't worry, pizza will come later in the term!"
+        },
+        {
+          "speaker": "Woman",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "We provide aprons, so you don't need to bring one. But please bring a plastic box with a lid each week, so that you can take home whatever you've made. Your families will be able to taste your cooking, too."
+        },
+        {
+          "speaker": "Woman",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Finally, at the end of term, we'll hold a competition, and our head teacher has kindly agreed to be the judge. The winning recipe will appear in the school magazine. So, if you'd like to join, please put your name on the list outside my classroom by Friday."
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "en-b1-h-t3-gapfill-cooking-club-01-q1",
+      "module": "horen",
+      "teil": 3,
+      "type": "gap_fill",
+      "passageId": "en-b1-p-horen-t3-gapfill-cooking-club-01-01",
+      "question": "The club meets every ____.",
+      "correct": "Thursday",
+      "correctAnswer": "Thursday",
+      "explanation": "Mrs Okafor says 'the club will meet every Thursday'. Wednesday is on the poster, but she says 'that's a mistake'.",
+      "options": [],
+      "grammarTags": [
+        "g-en-b1-future-will"
+      ],
+      "topicTags": [
+        "food-cooking"
+      ],
+      "vocabularyTags": [
+        "club",
+        "poster",
+        "mistake"
+      ],
+      "difficulty": 3,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-h-t3-gapfill-cooking-club-01-q2",
+      "module": "horen",
+      "teil": 3,
+      "type": "gap_fill",
+      "passageId": "en-b1-p-horen-t3-gapfill-cooking-club-01-01",
+      "question": "Place: the new kitchen behind the ____",
+      "correct": "sports hall",
+      "correctAnswer": "sports hall",
+      "explanation": "Mrs Okafor says 'We'll be using the new kitchen behind the sports hall, not the old classroom near the library'. The library is near the old classroom, which is too small.",
+      "options": [],
+      "grammarTags": [
+        "g-en-b1-prepositions-place"
+      ],
+      "topicTags": [
+        "food-cooking"
+      ],
+      "vocabularyTags": [
+        "kitchen",
+        "sports hall",
+        "library"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-h-t3-gapfill-cooking-club-01-q3",
+      "module": "horen",
+      "teil": 3,
+      "type": "gap_fill",
+      "passageId": "en-b1-p-horen-t3-gapfill-cooking-club-01-01",
+      "question": "Cost: ____ pounds a week, which pays for the ingredients.",
+      "correct": "two",
+      "correctAnswer": "two",
+      "acceptedAnswers": [
+        "2"
+      ],
+      "explanation": "Mrs Okafor says 'The club costs two pounds a week. That money pays for all the ingredients'.",
+      "options": [],
+      "grammarTags": [
+        "g-en-b1-numbers"
+      ],
+      "topicTags": [
+        "food-cooking"
+      ],
+      "vocabularyTags": [
+        "cost",
+        "pound",
+        "ingredient"
+      ],
+      "difficulty": 3,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-h-t3-gapfill-cooking-club-01-q4",
+      "module": "horen",
+      "teil": 3,
+      "type": "gap_fill",
+      "passageId": "en-b1-p-horen-t3-gapfill-cooking-club-01-01",
+      "question": "In the first session, students will make ____.",
+      "correct": "soup",
+      "correctAnswer": "soup",
+      "explanation": "Mrs Okafor says they 'were planning to make pizza', but because an oven is being repaired, 'instead we'll be making soup'. Pizza will come later in the term.",
+      "options": [],
+      "grammarTags": [
+        "g-en-b1-past-continuous"
+      ],
+      "topicTags": [
+        "food-cooking"
+      ],
+      "vocabularyTags": [
+        "session",
+        "oven",
+        "soup"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-h-t3-gapfill-cooking-club-01-q5",
+      "module": "horen",
+      "teil": 3,
+      "type": "gap_fill",
+      "passageId": "en-b1-p-horen-t3-gapfill-cooking-club-01-01",
+      "question": "Bring a ____ with a lid to take your food home in.",
+      "correct": "plastic box",
+      "correctAnswer": "plastic box",
+      "acceptedAnswers": [
+        "box"
+      ],
+      "explanation": "Mrs Okafor says 'please bring a plastic box with a lid each week, so that you can take home whatever you've made'. Aprons are provided, so students do not need to bring one.",
+      "options": [],
+      "grammarTags": [
+        "g-en-b1-purpose-clauses"
+      ],
+      "topicTags": [
+        "food-cooking"
+      ],
+      "vocabularyTags": [
+        "apron",
+        "lid",
+        "box"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-h-t3-gapfill-cooking-club-01-q6",
+      "module": "horen",
+      "teil": 3,
+      "type": "gap_fill",
+      "passageId": "en-b1-p-horen-t3-gapfill-cooking-club-01-01",
+      "question": "End of term: a ____ judged by the head teacher.",
+      "correct": "competition",
+      "correctAnswer": "competition",
+      "explanation": "Mrs Okafor says 'at the end of term, we'll hold a competition, and our head teacher has kindly agreed to be the judge'.",
+      "options": [],
+      "grammarTags": [
+        "g-en-b1-future-will"
+      ],
+      "topicTags": [
+        "food-cooking"
+      ],
+      "vocabularyTags": [
+        "competition",
+        "judge",
+        "magazine"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    }
+  ],
+  "_germanCapsNormalizeVersion": "v3.23-lesen-t2-angebote-corpus-2026-07-28",
+  "_germanCapsNormalizedAt": "2026-10-12T14:44:04.044Z",
+  "_balanceMcqVersion": "v1.2-no-rf-chrono-shuffle-2026-07-11",
+  "_balanceMcqNormalizedAt": "2026-10-12T14:44:04.044Z"
+}

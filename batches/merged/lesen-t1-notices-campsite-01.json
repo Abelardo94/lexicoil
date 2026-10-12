@@ -1,0 +1,240 @@
+{
+  "passages": [
+    {
+      "id": "en-b1-p-lesen-t1-notices-campsite-01-01",
+      "module": "lesen",
+      "title": "Sign at a campsite entrance",
+      "text": "QUIET TIME: 10.30 pm – 7 am\nNo music or loud voices in the camping fields.\nThe gate is locked during these hours, so cars cannot enter or leave the site.",
+      "passageVocab": [
+        "site",
+        "gate",
+        "enter",
+        "loud"
+      ]
+    },
+    {
+      "id": "en-b1-p-lesen-t1-notices-campsite-01-02",
+      "module": "lesen",
+      "title": "Note in a youth hostel kitchen",
+      "text": "Please label all your food in the fridge with your name and the date you are leaving. Any food without a label will be thrown away on Monday mornings.\nFREE SHELF: help yourself to anything here!",
+      "passageVocab": [
+        "label",
+        "fridge",
+        "throw away",
+        "help yourself"
+      ]
+    },
+    {
+      "id": "en-b1-p-lesen-t1-notices-campsite-01-03",
+      "module": "lesen",
+      "title": "Text message",
+      "text": "Hi Tom, we've arrived, but the field by the river is flooded, so we've put our tent in the top field next to the shower block instead. Look for the green tent. Bring a torch – it's really dark up here! Ellie",
+      "passageVocab": [
+        "flooded",
+        "shower block",
+        "torch",
+        "field"
+      ]
+    },
+    {
+      "id": "en-b1-p-lesen-t1-notices-campsite-01-04",
+      "module": "lesen",
+      "title": "Sign at a youth hostel reception",
+      "text": "Sheets and pillowcases are included in the price of your bed. Towels can be hired from reception for £2. On the morning you leave, please put your used sheets in the basket by the front door.",
+      "passageVocab": [
+        "sheet",
+        "pillowcase",
+        "hire",
+        "basket"
+      ]
+    },
+    {
+      "id": "en-b1-p-lesen-t1-notices-campsite-01-05",
+      "module": "lesen",
+      "title": "Email from a campsite",
+      "text": "Dear Ms Lindqvist,\nThank you for booking a pitch for 14–16 August. Please note that reception closes at 8 pm. If you expect to arrive later, call us before 6 pm and we will leave your welcome pack in the box by the gate.\nGlenmore Farm Campsite",
+      "passageVocab": [
+        "pitch",
+        "reception",
+        "expect",
+        "welcome pack"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "en-b1-r-t1-notices-campsite-01-q1",
+      "module": "lesen",
+      "teil": 1,
+      "type": "multiple_choice",
+      "passageId": "en-b1-p-lesen-t1-notices-campsite-01-01",
+      "question": "What does the sign say?",
+      "options": [
+        "a) Campers can't drive in or out late at night.",
+        "b) Campers must be inside their tents by 10.30 pm.",
+        "c) Cars must be parked outside the campsite at night."
+      ],
+      "correct": "a",
+      "correctAnswer": "a",
+      "explanation": "Between 10.30 pm and 7 am 'The gate is locked … so cars cannot enter or leave the site'. Cars are not sent outside the site – they just cannot move in or out – and the sign only asks for no music or loud voices, not for people to be in their tents.",
+      "grammarTags": [
+        "g-en-b1-modals"
+      ],
+      "topicTags": [
+        "travel"
+      ],
+      "vocabularyTags": [
+        "gate",
+        "enter",
+        "site"
+      ],
+      "difficulty": 3,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-r-t1-notices-campsite-01-q2",
+      "module": "lesen",
+      "teil": 1,
+      "type": "multiple_choice",
+      "passageId": "en-b1-p-lesen-t1-notices-campsite-01-02",
+      "question": "What does the note tell guests?",
+      "options": [
+        "a) All food in the fridge is removed every Monday.",
+        "b) They can take any food they find in the fridge.",
+        "c) They should write their departure date on their food."
+      ],
+      "correct": "c",
+      "correctAnswer": "c",
+      "explanation": "Guests must label food 'with your name and the date you are leaving'. Only the free shelf is for everyone – not the whole fridge – and only 'food without a label' is thrown away on Mondays, not all food.",
+      "grammarTags": [
+        "g-en-b1-passive"
+      ],
+      "topicTags": [
+        "travel"
+      ],
+      "vocabularyTags": [
+        "label",
+        "throw away",
+        "help yourself"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-r-t1-notices-campsite-01-q3",
+      "module": "lesen",
+      "teil": 1,
+      "type": "multiple_choice",
+      "passageId": "en-b1-p-lesen-t1-notices-campsite-01-03",
+      "question": "Why has Ellie sent this message?",
+      "options": [
+        "a) To ask Tom to buy a new torch on the way",
+        "b) To warn Tom not to go near the river",
+        "c) To tell Tom where to find her"
+      ],
+      "correct": "c",
+      "correctAnswer": "c",
+      "explanation": "Ellie explains that they are 'in the top field next to the shower block' and tells Tom to 'Look for the green tent', so she is telling him where they are. She asks him to 'Bring a torch', not to buy one, and she mentions the flooded field only to explain why they moved.",
+      "grammarTags": [
+        "g-en-b1-present-perfect"
+      ],
+      "topicTags": [
+        "travel"
+      ],
+      "vocabularyTags": [
+        "flooded",
+        "torch",
+        "shower block"
+      ],
+      "difficulty": 3,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-r-t1-notices-campsite-01-q4",
+      "module": "lesen",
+      "teil": 1,
+      "type": "multiple_choice",
+      "passageId": "en-b1-p-lesen-t1-notices-campsite-01-04",
+      "question": "What does the sign say?",
+      "options": [
+        "a) The price of a bed includes the use of a towel.",
+        "b) Guests should leave their sheets in a basket.",
+        "c) Guests need to bring their own sheets."
+      ],
+      "correct": "b",
+      "correctAnswer": "b",
+      "explanation": "The sign says 'please put your used sheets in the basket by the front door' on the day you leave. Sheets are 'included in the price', so guests do not bring their own, but towels cost '£2' extra, so they are not included.",
+      "grammarTags": [
+        "g-en-b1-passive"
+      ],
+      "topicTags": [
+        "travel"
+      ],
+      "vocabularyTags": [
+        "sheet",
+        "hire",
+        "include"
+      ],
+      "difficulty": 3,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-r-t1-notices-campsite-01-q5",
+      "module": "lesen",
+      "teil": 1,
+      "type": "multiple_choice",
+      "passageId": "en-b1-p-lesen-t1-notices-campsite-01-05",
+      "question": "What should Ms Lindqvist do if she will arrive after 8 pm?",
+      "options": [
+        "a) Wait at the gate until someone comes",
+        "b) Phone the campsite earlier that day",
+        "c) Collect her welcome pack from reception"
+      ],
+      "correct": "b",
+      "correctAnswer": "b",
+      "explanation": "The email says 'If you expect to arrive later, call us before 6 pm'. Reception is closed after 8 pm, so she cannot collect the pack there – it will be 'in the box by the gate' – and the email does not say that anyone will come to the gate.",
+      "grammarTags": [
+        "g-en-b1-conditionals"
+      ],
+      "topicTags": [
+        "travel"
+      ],
+      "vocabularyTags": [
+        "pitch",
+        "welcome pack",
+        "expect"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    }
+  ],
+  "_germanCapsNormalizeVersion": "v3.23-lesen-t2-angebote-corpus-2026-07-28",
+  "_germanCapsNormalizedAt": "2026-10-12T14:43:59.267Z",
+  "_balanceMcqVersion": "v1.2-no-rf-chrono-shuffle-2026-07-11",
+  "_balanceMcqNormalizedAt": "2026-10-12T14:43:59.267Z"
+}

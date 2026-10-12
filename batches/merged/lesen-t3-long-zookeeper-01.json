@@ -1,0 +1,198 @@
+{
+  "passages": [
+    {
+      "id": "en-b1-p-lesen-t3-long-zookeeper-01-01",
+      "module": "lesen",
+      "title": "A day with the otters and red pandas",
+      "text": "My alarm goes off at half past five, which my friends think is crazy. But I need to be at Glenmore Wildlife Park, about twenty minutes' drive from Aberdeen, by seven o'clock, and the animals don't care whether it's raining or snowing. I'm Isla Grant, I'm twenty-three, and I've worked here as a keeper for two years, mainly with the red pandas and the otters.\n\nThe first job of the day is always the same: I walk round every enclosure and look carefully at each animal. You learn to notice small things, like an otter that isn't eating or a panda that stays inside when it usually comes out. If something seems wrong, I write it down and tell the vet. Visitors often imagine that keepers spend all day playing with the animals, but actually we try not to touch them much. They're wild animals, not pets, and we want them to behave as naturally as possible.\n\nAfter the checks comes the part nobody talks about: cleaning. I spend at least two hours every morning washing floors, removing old food and changing water. It isn't exciting, but a clean enclosure stops diseases from spreading, so I don't mind it. Then I prepare the food. The otters eat fish, but the red pandas need mostly bamboo, and they're surprisingly fussy about it. If the leaves are even slightly old, they just leave them.\n\nIn the afternoon I give a short talk to visitors at the otter pool. When I started, I was terrified of speaking in front of a crowd, and my first few talks were a disaster. I'd learnt a script by heart and then forgot half of it. My manager suggested I forget the script and simply tell people stories about the animals instead. That changed everything. Now it's one of my favourite parts of the day, especially when children ask questions I can't answer.\n\nPeople sometimes ask whether I wanted to be a zookeeper as a child. Honestly, I wanted to be a vet, but my exam results weren't good enough. I was disappointed for a while. Then I did a college course in animal care and spent a summer volunteering here, and at the end of it they offered me a job. I'm not paid much, and my back often hurts after lifting heavy bags of food. But last spring one of our red pandas had twins, and I was the first person to see them. At that moment I knew I wouldn't change this job for anything.",
+      "passageVocab": [
+        "enclosure",
+        "keeper",
+        "fussy",
+        "script",
+        "volunteer"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "en-b1-r-t3-long-zookeeper-01-q1",
+      "module": "lesen",
+      "teil": 3,
+      "type": "multiple_choice",
+      "passageId": "en-b1-p-lesen-t3-long-zookeeper-01-01",
+      "question": "Why does Isla walk round every enclosure at the start of the day?",
+      "options": [
+        "a) To spend some time playing with the animals",
+        "b) To notice if any animal might have a problem",
+        "c) To check that all the gates are safely locked",
+        "d) To give the animals their first meal of the day"
+      ],
+      "correct": "b",
+      "correctAnswer": "b",
+      "explanation": "Isla says 'You learn to notice small things, like an otter that isn't eating', and 'If something seems wrong, I write it down and tell the vet.' Feeding comes later ('Then I prepare the food'), and she says keepers do not play with the animals: 'we try not to touch them much'. Gates are not mentioned.",
+      "grammarTags": [
+        "g-en-b1-present-simple"
+      ],
+      "topicTags": [
+        "animals"
+      ],
+      "vocabularyTags": [
+        "enclosure",
+        "vet",
+        "notice"
+      ],
+      "difficulty": 3,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-r-t3-long-zookeeper-01-q2",
+      "module": "lesen",
+      "teil": 3,
+      "type": "multiple_choice",
+      "passageId": "en-b1-p-lesen-t3-long-zookeeper-01-01",
+      "question": "Why do the keepers try not to touch the animals much?",
+      "options": [
+        "a) So that the animals behave as they would in the wild",
+        "b) Because visitors are not supposed to see it happen",
+        "c) Because some of the animals could be dangerous",
+        "d) So that diseases cannot pass from one animal to another"
+      ],
+      "correct": "a",
+      "correctAnswer": "a",
+      "explanation": "Isla explains: 'They're wild animals, not pets, and we want them to behave as naturally as possible.' Stopping diseases is the reason she gives for cleaning ('a clean enclosure stops diseases from spreading'), not for avoiding touching. She never says the animals are dangerous or mentions visitors seeing it.",
+      "grammarTags": [
+        "g-en-b1-purpose-clauses"
+      ],
+      "topicTags": [
+        "animals"
+      ],
+      "vocabularyTags": [
+        "wild",
+        "pet",
+        "naturally"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-r-t3-long-zookeeper-01-q3",
+      "module": "lesen",
+      "teil": 3,
+      "type": "multiple_choice",
+      "passageId": "en-b1-p-lesen-t3-long-zookeeper-01-01",
+      "question": "What is Isla's attitude to the cleaning she does?",
+      "options": [
+        "a) She feels it takes up too much of her morning.",
+        "b) She enjoys it more than preparing the food.",
+        "c) She accepts it because it keeps the animals healthy.",
+        "d) She thinks it is the most tiring part of her job."
+      ],
+      "correct": "c",
+      "correctAnswer": "c",
+      "explanation": "She says: 'It isn't exciting, but a clean enclosure stops diseases from spreading, so I don't mind it.' She spends 'at least two hours' on it but does not complain about the time. What hurts her back is 'lifting heavy bags of food', not cleaning, and she does not compare it with preparing food.",
+      "grammarTags": [
+        "g-en-b1-linking-words"
+      ],
+      "topicTags": [
+        "work"
+      ],
+      "vocabularyTags": [
+        "clean",
+        "disease",
+        "spread"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-r-t3-long-zookeeper-01-q4",
+      "module": "lesen",
+      "teil": 3,
+      "type": "multiple_choice",
+      "passageId": "en-b1-p-lesen-t3-long-zookeeper-01-01",
+      "question": "How did Isla become better at giving talks?",
+      "options": [
+        "a) She asked children to send in their questions.",
+        "b) She practised her script many more times.",
+        "c) She started telling stories about the animals.",
+        "d) She watched the other keepers giving talks."
+      ],
+      "correct": "c",
+      "correctAnswer": "c",
+      "explanation": "'My manager suggested I forget the script and simply tell people stories about the animals instead. That changed everything.' Learning the script by heart was what she did before, when her talks were 'a disaster'. Children's questions are something she enjoys now, not how she improved.",
+      "grammarTags": [
+        "g-en-b1-reported-speech"
+      ],
+      "topicTags": [
+        "work"
+      ],
+      "vocabularyTags": [
+        "talk",
+        "crowd",
+        "terrified"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-r-t3-long-zookeeper-01-q5",
+      "module": "lesen",
+      "teil": 3,
+      "type": "multiple_choice",
+      "passageId": "en-b1-p-lesen-t3-long-zookeeper-01-01",
+      "question": "What might Isla write in a message to a friend?",
+      "options": [
+        "a) 'This is exactly the job I dreamed about when I was little.'",
+        "b) 'I'm going back to college soon to train as a vet.'",
+        "c) 'I'm glad I failed my exams because I never wanted to be a vet.'",
+        "d) 'It's badly paid and hard on my body, but I love it.'"
+      ],
+      "correct": "d",
+      "correctAnswer": "d",
+      "explanation": "Isla says 'I'm not paid much, and my back often hurts', but she 'wouldn't change this job for anything'. As a child she 'wanted to be a vet', so this was not her childhood dream, and she 'was disappointed' about her results, so she was not glad. Nothing suggests she plans to go back to college.",
+      "grammarTags": [
+        "g-en-b1-conditionals"
+      ],
+      "topicTags": [
+        "work"
+      ],
+      "vocabularyTags": [
+        "paid",
+        "disappointed",
+        "dream"
+      ],
+      "difficulty": 5,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    }
+  ],
+  "_germanCapsNormalizeVersion": "v3.23-lesen-t2-angebote-corpus-2026-07-28",
+  "_germanCapsNormalizedAt": "2026-10-12T14:44:00.182Z",
+  "_balanceMcqVersion": "v1.2-no-rf-chrono-shuffle-2026-07-11",
+  "_balanceMcqNormalizedAt": "2026-10-12T14:44:00.182Z"
+}

@@ -1,0 +1,280 @@
+{
+  "passages": [
+    {
+      "id": "en-b1-p-horen-t2-gist-food-cooking-01-01",
+      "module": "horen",
+      "title": "A new restaurant",
+      "text": "Tom: Did you try that new Italian place on Mill Street, Jess?\nJess: Yes, on Friday. The pasta was amazing, honestly the best I've had in this town.\nTom: Great. I've heard it's quite cheap too.\nJess: It is, and you get loads on your plate. But we waited forty minutes for our main course, and the waiter got our drinks wrong twice.",
+      "passageVocab": [
+        "restaurant",
+        "waiter",
+        "main course",
+        "service"
+      ]
+    },
+    {
+      "id": "en-b1-p-horen-t2-gist-food-cooking-01-02",
+      "module": "horen",
+      "title": "Cooking dinner tonight",
+      "text": "Finn: Dad, can I make dinner tonight?\nMan: You? That's a first! Is it for Mum's birthday or something?\nFinn: No, that's next month. It's for food technology at school. We've got a cooking competition in two weeks, and we have to make a main course in an hour. So I want to try my recipe at home first and see how long it takes.\nMan: Good idea.",
+      "passageVocab": [
+        "recipe",
+        "competition",
+        "main course",
+        "food technology"
+      ]
+    },
+    {
+      "id": "en-b1-p-horen-t2-gist-food-cooking-01-03",
+      "module": "horen",
+      "title": "Giving up meat",
+      "text": "Nadia: I've stopped eating meat, you know. Three months now.\nCallum: Really? How's it going?\nNadia: Fine! And my shopping costs much less. Beans and lentils cost almost nothing compared to chicken.\nCallum: That's true. My sister's vegetarian and she says the same. I'm not sure it's always healthier, though. Some veggie burgers are full of salt.\nNadia: Maybe. The worst thing is eating out. Most places only have one boring vegetarian dish.",
+      "passageVocab": [
+        "vegetarian",
+        "lentils",
+        "healthy",
+        "eat out"
+      ]
+    },
+    {
+      "id": "en-b1-p-horen-t2-gist-food-cooking-01-04",
+      "module": "horen",
+      "title": "The cooking class",
+      "text": "Gemma: How was the Thai cooking class, Helen?\nHelen: Well, the recipes were really easy. I could make them all at home now. But the chef just stood at the front reading from his notes. He didn't come round once to see how we were doing.\nGemma: Oh dear.\nHelen: The other people were lovely, though. We're meeting for coffee next week. But I won't do another class with him.",
+      "passageVocab": [
+        "class",
+        "chef",
+        "recipe",
+        "notes"
+      ]
+    },
+    {
+      "id": "en-b1-p-horen-t2-gist-food-cooking-01-05",
+      "module": "horen",
+      "title": "Grandad's apple cake",
+      "text": "Isla: Grandad, your apple cake is the best thing ever. How do you make it?\nGrandad: It's my mother's recipe. I've never written it down. It's all in my head.\nIsla: That's exactly why I'm asking! Will you show me on Sunday? I'll write everything down as we go, so it's never lost.\nGrandad: Of course. Are you going to sell them at the school fair?\nIsla: Maybe one day! But I just don't want the recipe to disappear.",
+      "passageVocab": [
+        "recipe",
+        "write down",
+        "fair",
+        "disappear"
+      ]
+    },
+    {
+      "id": "en-b1-p-horen-t2-gist-food-cooking-01-06",
+      "module": "horen",
+      "title": "The weekly shopping",
+      "text": "Becky: We've run out of milk again, and there's no bread either.\nJoe: I know. We always forget something when we go to the supermarket.\nBecky: Shall we write a list and put it on the fridge?\nJoe: We tried that, remember? Nobody looked at it. Why don't we just order everything on the internet once a week? They bring it to the door, and the app remembers what we usually buy.\nBecky: Hmm, OK. Let's try it.",
+      "passageVocab": [
+        "run out of",
+        "list",
+        "order",
+        "app"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "en-b1-h-t2-gist-food-cooking-01-q1",
+      "module": "horen",
+      "teil": 2,
+      "type": "multiple_choice",
+      "passageId": "en-b1-p-horen-t2-gist-food-cooking-01-01",
+      "question": "You will hear two friends talking about a new restaurant. What does Jess think of it?",
+      "options": [
+        "a) The prices are too high for what you get.",
+        "b) The service is not as good as the food.",
+        "c) The meals are too small."
+      ],
+      "correct": "b",
+      "correctAnswer": "b",
+      "explanation": "Jess loved the pasta (\"the best I've had in this town\"), but \"we waited forty minutes\" and \"the waiter got our drinks wrong twice\". She agrees it is cheap (\"It is\") and says \"you get loads on your plate\".",
+      "grammarTags": [
+        "g-en-b1-superlatives"
+      ],
+      "topicTags": [
+        "food"
+      ],
+      "vocabularyTags": [
+        "waiter",
+        "service"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-h-t2-gist-food-cooking-01-q2",
+      "module": "horen",
+      "teil": 2,
+      "type": "multiple_choice",
+      "passageId": "en-b1-p-horen-t2-gist-food-cooking-01-02",
+      "question": "You will hear a boy talking to his father. Why does the boy want to cook dinner?",
+      "options": [
+        "a) To show his father a recipe",
+        "b) To practise for a competition",
+        "c) To surprise his mother on her birthday"
+      ],
+      "correct": "b",
+      "correctAnswer": "b",
+      "explanation": "Finn explains \"We've got a cooking competition in two weeks\" and \"I want to try my recipe at home first and see how long it takes\". His mother's birthday is \"next month\", so it isn't a surprise for her.",
+      "grammarTags": [
+        "g-en-b1-have-to"
+      ],
+      "topicTags": [
+        "food"
+      ],
+      "vocabularyTags": [
+        "recipe",
+        "competition"
+      ],
+      "difficulty": 3,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-h-t2-gist-food-cooking-01-q3",
+      "module": "horen",
+      "teil": 2,
+      "type": "multiple_choice",
+      "passageId": "en-b1-p-horen-t2-gist-food-cooking-01-03",
+      "question": "You will hear two friends talking about vegetarian food. What do they agree about?",
+      "options": [
+        "a) It can cost less than meat.",
+        "b) It is always healthier than meat.",
+        "c) Restaurants have plenty of good vegetarian dishes."
+      ],
+      "correct": "a",
+      "correctAnswer": "a",
+      "explanation": "Nadia says \"my shopping costs much less\" and Callum answers \"That’s true.\" Callum is \"not sure it’s always healthier\", and Nadia complains that \"Most places only have one boring vegetarian dish\".",
+      "grammarTags": [
+        "g-en-b1-comparatives"
+      ],
+      "topicTags": [
+        "food"
+      ],
+      "vocabularyTags": [
+        "vegetarian",
+        "eat out"
+      ],
+      "difficulty": 5,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-h-t2-gist-food-cooking-01-q4",
+      "module": "horen",
+      "teil": 2,
+      "type": "multiple_choice",
+      "passageId": "en-b1-p-horen-t2-gist-food-cooking-01-04",
+      "question": "You will hear a woman telling a friend about a cooking class. What was she disappointed with?",
+      "options": [
+        "a) The other people in the group",
+        "b) How difficult the recipes were to follow",
+        "c) The way the chef taught the class"
+      ],
+      "correct": "c",
+      "correctAnswer": "c",
+      "explanation": "Helen says the chef \"just stood at the front reading from his notes\" and \"didn't come round once\", and \"I won't do another class with him.\" The recipes were \"really easy\", and \"The other people were lovely\".",
+      "grammarTags": [
+        "g-en-b1-past-simple"
+      ],
+      "topicTags": [
+        "food"
+      ],
+      "vocabularyTags": [
+        "chef",
+        "recipe"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-h-t2-gist-food-cooking-01-q5",
+      "module": "horen",
+      "teil": 2,
+      "type": "multiple_choice",
+      "passageId": "en-b1-p-horen-t2-gist-food-cooking-01-05",
+      "question": "You will hear a girl talking to her grandfather about a family recipe. What does she want to do?",
+      "options": [
+        "a) Sell the cakes at a school fair",
+        "b) Make some changes to the original recipe",
+        "c) Keep a written copy of the recipe"
+      ],
+      "correct": "c",
+      "correctAnswer": "c",
+      "explanation": "Isla says \"I’ll write everything down as we go, so it’s never lost\" and \"I just don’t want the recipe to disappear.\" Selling cakes is Grandad’s idea, and she only answers \"Maybe one day!\"",
+      "grammarTags": [
+        "g-en-b1-present-perfect"
+      ],
+      "topicTags": [
+        "food"
+      ],
+      "vocabularyTags": [
+        "recipe",
+        "write down"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-h-t2-gist-food-cooking-01-q6",
+      "module": "horen",
+      "teil": 2,
+      "type": "multiple_choice",
+      "passageId": "en-b1-p-horen-t2-gist-food-cooking-01-06",
+      "question": "You will hear two flatmates talking about food shopping. What does Joe suggest?",
+      "options": [
+        "a) Doing the shopping online",
+        "b) Going to the supermarket more often",
+        "c) Writing a shopping list"
+      ],
+      "correct": "a",
+      "correctAnswer": "a",
+      "explanation": "Joe says \"Why don't we just order everything on the internet once a week?\" The list was Becky's idea, and Joe rejects it: \"We tried that, remember? Nobody looked at it.\"",
+      "grammarTags": [
+        "g-en-b1-suggestions"
+      ],
+      "topicTags": [
+        "food"
+      ],
+      "vocabularyTags": [
+        "run out of",
+        "order"
+      ],
+      "difficulty": 3,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    }
+  ],
+  "_germanCapsNormalizeVersion": "v3.23-lesen-t2-angebote-corpus-2026-07-28",
+  "_germanCapsNormalizedAt": "2026-10-12T14:44:03.271Z",
+  "_balanceMcqVersion": "v1.2-no-rf-chrono-shuffle-2026-07-11",
+  "_balanceMcqNormalizedAt": "2026-10-12T14:44:03.271Z"
+}
