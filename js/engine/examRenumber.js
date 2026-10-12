@@ -43,11 +43,30 @@ const ExamRenumber = (() => {
     },
   };
 
-  /** Goethe stays on DEFAULT_RANGES exactly as before; only Cambridge opts in. */
+  /** Goethe-Zertifikat A2: Lesen and Hören are both 4 Teile × 5 items, 1–20
+   *  (library/blueprints/goethe_A2.json). On DEFAULT_RANGES, A2 Lesen T1 claimed 1–6,
+   *  T2 started at 7 and T3 at 13, so a 20-item module was numbered like B1's 30. */
+  const GOETHE_A2_RANGES = {
+    lesen: {
+      1: { start: 1, end: 5, expected: 5 },
+      2: { start: 6, end: 10, expected: 5 },
+      3: { start: 11, end: 15, expected: 5 },
+      4: { start: 16, end: 20, expected: 5 },
+    },
+    horen: {
+      1: { start: 1, end: 5, expected: 5 },
+      2: { start: 6, end: 10, expected: 5 },
+      3: { start: 11, end: 15, expected: 5 },
+      4: { start: 16, end: 20, expected: 5 },
+    },
+  };
+
+  /** Goethe B1 stays on DEFAULT_RANGES exactly as before; Cambridge and Goethe A2 opt in. */
   function rangeTableFor(exam) {
     const bpId = String(exam?.blueprintId || '').toLowerCase();
     const lang = String(exam?.lang || '').toLowerCase();
     if (bpId.startsWith('cambridge') || (!bpId && lang === 'en')) return CAMBRIDGE_RANGES;
+    if (bpId === 'goethe-a2') return GOETHE_A2_RANGES;
     return DEFAULT_RANGES;
   }
 
@@ -408,7 +427,9 @@ const ExamRenumber = (() => {
     buildModuleRanges,
     teilRange,
     blueprintExpectedCount,
+    rangeTableFor,
     DEFAULT_RANGES,
+    GOETHE_A2_RANGES,
   });
 })();
 

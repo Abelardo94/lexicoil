@@ -1471,6 +1471,9 @@ function ensureLesenPartInstruction(part,lang){
 }
 function rebuildLesenAdsMatchingInstruction(part,lang){
   if(!part?.items?.length||!part.ads?.length)return;
+  // Official wording set upstream (publishedExamAdapter, Goethe A2): rebuilding it here used
+  // B1's text and item ids that are not renumbered yet ("Situationen gen-q-4-… bis …").
+  if(part._instructionAuthored&&String(part.instruction||'').trim())return;
   const de=lang!=='en'&&lang!=='es';
   // Outside German, only FILL a missing instruction — never replace an authored one.
   // The Goethe wording ("eine Anzeige passt nicht", "schreiben Sie 0") describes Lesen T3

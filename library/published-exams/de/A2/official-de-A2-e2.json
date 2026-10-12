@@ -338,7 +338,7 @@
       "module": "lesen",
       "teil": 3,
       "partId": "lesen-t3-cur-society",
-      "contentHash": "2cf479445877a8a80f7328c58b86b83d7c996653c0b334b41d96a997ee6270d2",
+      "contentHash": "2338d2e11d5b6d3605d35f10e32647fc4eba0890036d5b6752a9c1298fd932e5",
       "snapshot": {
         "id": "lesen-t3-cur-society",
         "lang": "de",
@@ -386,24 +386,24 @@
             "teil": 3,
             "level": "A2",
             "type": "multiple_choice",
-            "question": "Warum schreibt Thomas an Maria?",
+            "question": "Was ist für Thomas ein Nachteil vom Fitnessstudio?",
             "options": [
               {
                 "key": "A",
-                "text": "Er möchte Maria in den Tennisverein einladen."
+                "text": "Er muss dort immer allein trainieren."
               },
               {
                 "key": "B",
-                "text": "Er möchte sich in einem Fitnessstudio anmelden."
+                "text": "Es kostet 50 Euro im Monat."
               },
               {
                 "key": "C",
-                "text": "Er braucht Rat für Sport: Fitnessstudio oder Verein."
+                "text": "Es gibt dort nicht genug Geräte."
               }
             ],
-            "correct": "c",
-            "correctAnswer": "c",
-            "explanation": "Thomas schreibt Maria, weil er unsicher ist, ob er ins Fitnessstudio gehen oder in einen Sportverein eintreten soll. Er bittet Maria um ihren Rat.",
+            "correct": "b",
+            "correctAnswer": "b",
+            "explanation": "Thomas schreibt über das Fitnessstudio: \"Aber es ist teuer – 50 Euro pro Monat!\" Er kann dort allein trainieren, wann er will, aber das ist für ihn kein Problem. Und es gibt \"viele Geräte\".",
             "passageId": "de-a2-p-lesen-t3-sport-vereine-02"
           },
           {
@@ -412,24 +412,24 @@
             "teil": 3,
             "level": "A2",
             "type": "multiple_choice",
-            "question": "Warum schreibt Thomas an Maria?",
+            "question": "Wie viel bezahlt Peter für den Tennisverein?",
             "options": [
               {
                 "key": "A",
-                "text": "Er möchte sich in einem Fitnessstudio anmelden."
+                "text": "15 Euro im Monat."
               },
               {
                 "key": "B",
-                "text": "Er braucht Rat für Sport: Fitnessstudio oder Verein."
+                "text": "50 Euro im Monat."
               },
               {
                 "key": "C",
-                "text": "Er möchte Maria in den Tennisverein einladen."
+                "text": "15 Euro im Jahr."
               }
             ],
-            "correct": "b",
-            "correctAnswer": "b",
-            "explanation": "Thomas schreibt Maria, weil er unsicher ist, ob er ins Fitnessstudio gehen oder in einen Sportverein eintreten soll. Er bittet Maria um ihren Rat.",
+            "correct": "a",
+            "correctAnswer": "a",
+            "explanation": "Im Text steht: \"Mein Freund Peter ist im Tennisverein und zahlt nur 15 Euro monatlich.\" 50 Euro im Monat kostet das Fitnessstudio.",
             "passageId": "de-a2-p-lesen-t3-sport-vereine-02"
           },
           {
@@ -438,24 +438,24 @@
             "teil": 3,
             "level": "A2",
             "type": "multiple_choice",
-            "question": "Warum schreibt Thomas an Maria?",
+            "question": "Was sagt Peter über den Sportverein?",
             "options": [
               {
                 "key": "A",
-                "text": "Er braucht Rat für Sport: Fitnessstudio oder Verein."
+                "text": "Man kann trainieren, wann man will."
               },
               {
                 "key": "B",
-                "text": "Er möchte Maria in den Tennisverein einladen."
+                "text": "Allein trainieren ist schöner."
               },
               {
                 "key": "C",
-                "text": "Er möchte sich in einem Fitnessstudio anmelden."
+                "text": "Mit anderen zusammen macht es mehr Spaß."
               }
             ],
-            "correct": "a",
-            "correctAnswer": "a",
-            "explanation": "Thomas schreibt Maria, weil er unsicher ist, ob er ins Fitnessstudio gehen oder in einen Sportverein eintreten soll. Er bittet Maria um ihren Rat.",
+            "correct": "c",
+            "correctAnswer": "c",
+            "explanation": "Peter sagt, \"es macht mehr Spaß mit anderen zusammen zu spielen\". Im Verein sind die Trainingszeiten fest; wann man will, kann man nur im Fitnessstudio trainieren.",
             "passageId": "de-a2-p-lesen-t3-sport-vereine-02"
           },
           {
@@ -464,24 +464,24 @@
             "teil": 3,
             "level": "A2",
             "type": "multiple_choice",
-            "question": "Warum schreibt Thomas an Maria?",
+            "question": "Was möchte Thomas mit dem Sport erreichen?",
             "options": [
               {
                 "key": "A",
-                "text": "Er möchte sich in einem Fitnessstudio anmelden."
+                "text": "Er möchte abnehmen und fitter werden."
               },
               {
                 "key": "B",
-                "text": "Er braucht Rat für Sport: Fitnessstudio oder Verein."
+                "text": "Er möchte Tennistrainer werden."
               },
               {
                 "key": "C",
-                "text": "Er möchte Maria in den Tennisverein einladen."
+                "text": "Er möchte neue Kollegen finden."
               }
             ],
-            "correct": "b",
-            "correctAnswer": "b",
-            "explanation": "Thomas schreibt Maria, weil er unsicher ist, ob er ins Fitnessstudio gehen oder in einen Sportverein eintreten soll. Er bittet Maria um ihren Rat.",
+            "correct": "a",
+            "correctAnswer": "a",
+            "explanation": "Thomas schreibt: \"Ich bin noch jung und möchte abnehmen und meine Fitness verbessern.\" Von einem Beruf als Trainer schreibt er nichts.",
             "passageId": "de-a2-p-lesen-t3-sport-vereine-02"
           }
         ],
