@@ -1,0 +1,218 @@
+{
+  "passages": [
+    {
+      "id": "en-b1-p-lesen-t4-gapped-dog-training-01-01",
+      "module": "lesen",
+      "title": "Learning to trust: a year with Biscuit",
+      "text": "Last spring, my partner and I adopted a three-year-old dog called Biscuit from a rescue centre near Leeds. The staff told us that he had spent most of his life alone in a small back garden. (1) ________ For the first two days, he hid behind the sofa and refused to eat anything at all.\n\nIn the end, we contacted a local trainer called Megan Hughes. On her first visit, she did not bring any equipment with her. (2) ________ For an hour, she simply sat on the floor with a book and completely ignored Biscuit. By the end of that hour, he was lying next to her feet.\n\nMegan explained that many rescue dogs need time before they can learn anything. (3) ________ So we kept the same routine every day: a walk at seven, breakfast at eight and a quiet hour in the afternoon. After about three weeks, Biscuit started to relax.\n\nThen the real training began. We used tiny pieces of cheese as rewards, and the lessons never lasted more than five minutes. (4) ________ Biscuit learned to sit in a single afternoon, but learning to stay took him much longer.\n\nThe hardest part was the park. Other dogs frightened him, and he barked at every bicycle. (5) ________ Now, a year later, he can walk past a busy playground without even looking up. He still hides behind the sofa sometimes, but these days it is usually because he has stolen a sock.",
+      "passageVocab": [
+        "adopt",
+        "rescue centre",
+        "routine",
+        "reward",
+        "trainer"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "en-b1-r-t4-gapped-dog-training-01-q1",
+      "module": "lesen",
+      "teil": 4,
+      "type": "matching",
+      "question": "Read the text \"Learning to trust: a year with Biscuit\". Which sentence (A–H) best fits gap 1?",
+      "correct": "D",
+      "correctAnswer": "D",
+      "explanation": "Biscuit had lived \"alone in a small back garden\", so a busy flat full of noise and visitors would be a shock; this explains why next \"he hid behind the sofa\". The sentence about him loving other dogs from the first day cannot fit, because it does not match a dog that hides and refuses to eat.",
+      "options": [
+        "A) Before that, they have to feel safe, and a regular routine helps with this.",
+        "B) Instead, she arrived with a large bag of toys and a long lead.",
+        "C) So for the first few months, we only took him there early in the morning, when it was almost empty.",
+        "D) So the noise and the visitors in our busy flat were a real shock to him.",
+        "E) Cheese was the only food that he would not eat.",
+        "F) Megan had told us that short, happy lessons work much better than long ones.",
+        "G) This surprised us, as we had expected a whistle or at least a lead.",
+        "H) That is why he loved meeting other dogs from the very first day."
+      ],
+      "grammarTags": [
+        "g-en-b1-reference-words",
+        "g-en-b1-linking-words"
+      ],
+      "topicTags": [
+        "animals"
+      ],
+      "vocabularyTags": [
+        "rescue centre",
+        "shock"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge",
+      "passageId": "en-b1-p-lesen-t4-gapped-dog-training-01-01"
+    },
+    {
+      "id": "en-b1-r-t4-gapped-dog-training-01-q2",
+      "module": "lesen",
+      "teil": 4,
+      "type": "matching",
+      "question": "Read the text \"Learning to trust: a year with Biscuit\". Which sentence (A–H) best fits gap 2?",
+      "correct": "G",
+      "correctAnswer": "G",
+      "explanation": "\"This surprised us\" refers back to \"she did not bring any equipment\", and the writers expected \"a whistle or at least a lead\". The sentence saying she arrived with a bag of toys and a lead is wrong, because the text says she brought no equipment.",
+      "options": [
+        "A) Before that, they have to feel safe, and a regular routine helps with this.",
+        "B) Instead, she arrived with a large bag of toys and a long lead.",
+        "C) So for the first few months, we only took him there early in the morning, when it was almost empty.",
+        "D) So the noise and the visitors in our busy flat were a real shock to him.",
+        "E) Cheese was the only food that he would not eat.",
+        "F) Megan had told us that short, happy lessons work much better than long ones.",
+        "G) This surprised us, as we had expected a whistle or at least a lead.",
+        "H) That is why he loved meeting other dogs from the very first day."
+      ],
+      "grammarTags": [
+        "g-en-b1-reference-words",
+        "g-en-b1-linking-words"
+      ],
+      "topicTags": [
+        "animals"
+      ],
+      "vocabularyTags": [
+        "equipment",
+        "whistle"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge",
+      "passageId": "en-b1-p-lesen-t4-gapped-dog-training-01-01"
+    },
+    {
+      "id": "en-b1-r-t4-gapped-dog-training-01-q3",
+      "module": "lesen",
+      "teil": 4,
+      "type": "matching",
+      "question": "Read the text \"Learning to trust: a year with Biscuit\". Which sentence (A–H) best fits gap 3?",
+      "correct": "A",
+      "correctAnswer": "A",
+      "explanation": "\"Before that\" means before dogs \"can learn anything\", and \"a regular routine helps\" leads directly to \"So we kept the same routine every day\". No other sentence explains why the writers started a routine.",
+      "options": [
+        "A) Before that, they have to feel safe, and a regular routine helps with this.",
+        "B) Instead, she arrived with a large bag of toys and a long lead.",
+        "C) So for the first few months, we only took him there early in the morning, when it was almost empty.",
+        "D) So the noise and the visitors in our busy flat were a real shock to him.",
+        "E) Cheese was the only food that he would not eat.",
+        "F) Megan had told us that short, happy lessons work much better than long ones.",
+        "G) This surprised us, as we had expected a whistle or at least a lead.",
+        "H) That is why he loved meeting other dogs from the very first day."
+      ],
+      "grammarTags": [
+        "g-en-b1-reference-words",
+        "g-en-b1-linking-words"
+      ],
+      "topicTags": [
+        "animals"
+      ],
+      "vocabularyTags": [
+        "routine",
+        "feel safe"
+      ],
+      "difficulty": 5,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge",
+      "passageId": "en-b1-p-lesen-t4-gapped-dog-training-01-01"
+    },
+    {
+      "id": "en-b1-r-t4-gapped-dog-training-01-q4",
+      "module": "lesen",
+      "teil": 4,
+      "type": "matching",
+      "question": "Read the text \"Learning to trust: a year with Biscuit\". Which sentence (A–H) best fits gap 4?",
+      "correct": "F",
+      "correctAnswer": "F",
+      "explanation": "The lessons \"never lasted more than five minutes\", and this sentence gives the reason: \"short, happy lessons work much better than long ones\". The sentence saying cheese was the only food he would not eat is wrong, because the writers \"used tiny pieces of cheese as rewards\".",
+      "options": [
+        "A) Before that, they have to feel safe, and a regular routine helps with this.",
+        "B) Instead, she arrived with a large bag of toys and a long lead.",
+        "C) So for the first few months, we only took him there early in the morning, when it was almost empty.",
+        "D) So the noise and the visitors in our busy flat were a real shock to him.",
+        "E) Cheese was the only food that he would not eat.",
+        "F) Megan had told us that short, happy lessons work much better than long ones.",
+        "G) This surprised us, as we had expected a whistle or at least a lead.",
+        "H) That is why he loved meeting other dogs from the very first day."
+      ],
+      "grammarTags": [
+        "g-en-b1-reference-words",
+        "g-en-b1-linking-words"
+      ],
+      "topicTags": [
+        "animals"
+      ],
+      "vocabularyTags": [
+        "reward",
+        "lesson"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge",
+      "passageId": "en-b1-p-lesen-t4-gapped-dog-training-01-01"
+    },
+    {
+      "id": "en-b1-r-t4-gapped-dog-training-01-q5",
+      "module": "lesen",
+      "teil": 4,
+      "type": "matching",
+      "question": "Read the text \"Learning to trust: a year with Biscuit\". Which sentence (A–H) best fits gap 5?",
+      "correct": "C",
+      "correctAnswer": "C",
+      "explanation": "\"there\" refers to \"the park\", and an \"almost empty\" park solves the problem that \"Other dogs frightened him\". The sentence saying he loved meeting other dogs contradicts \"Other dogs frightened him\".",
+      "options": [
+        "A) Before that, they have to feel safe, and a regular routine helps with this.",
+        "B) Instead, she arrived with a large bag of toys and a long lead.",
+        "C) So for the first few months, we only took him there early in the morning, when it was almost empty.",
+        "D) So the noise and the visitors in our busy flat were a real shock to him.",
+        "E) Cheese was the only food that he would not eat.",
+        "F) Megan had told us that short, happy lessons work much better than long ones.",
+        "G) This surprised us, as we had expected a whistle or at least a lead.",
+        "H) That is why he loved meeting other dogs from the very first day."
+      ],
+      "grammarTags": [
+        "g-en-b1-reference-words",
+        "g-en-b1-linking-words"
+      ],
+      "topicTags": [
+        "animals"
+      ],
+      "vocabularyTags": [
+        "frighten",
+        "empty"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge",
+      "passageId": "en-b1-p-lesen-t4-gapped-dog-training-01-01"
+    }
+  ],
+  "_germanCapsNormalizeVersion": "v3.23-lesen-t2-angebote-corpus-2026-07-28",
+  "_germanCapsNormalizedAt": "2026-10-12T19:19:51.773Z",
+  "_balanceMcqVersion": "v1.2-no-rf-chrono-shuffle-2026-07-11",
+  "_balanceMcqNormalizedAt": "2026-10-12T19:19:51.773Z"
+}

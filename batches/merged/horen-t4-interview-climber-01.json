@@ -1,0 +1,288 @@
+{
+  "passages": [
+    {
+      "id": "en-b1-p-horen-t4-interview-climber-01-01",
+      "module": "horen",
+      "title": "Interview with a young climber",
+      "text": "Interviewer: I’m here with seventeen-year-old Leo Hartley, who has just been chosen for the national youth climbing team. Leo, how did you get into climbing?\n\nLeo: It was because of my older sister, really. She went to a climbing wall for a friend’s birthday party and loved it, and the next week I went along with her, just because I was bored. I wasn’t sporty at all. I was terrible at football, so I didn’t expect much. But after ten minutes on the wall I knew I’d found my thing.\n\nInterviewer: What is it about climbing that you enjoy most?\n\nLeo: People think it’s all about being strong, and you do need strength. But for me the best part is the puzzle. Every route is different, and you have to work out where to put your hands and feet. When you finally manage a route you’ve been stuck on for weeks, it’s an amazing feeling.\n\nInterviewer: Do you prefer climbing indoors or outdoors?\n\nLeo: Competitions are all indoors, so I train on climbing walls most of the time, and they’re great for practising. But nothing compares to being on real rock in the mountains. The views, the quiet… Whenever I can, I go to Wales with my coach.\n\nInterviewer: Is climbing dangerous?\n\nLeo: Everyone asks that! My mum worried a lot at first. But honestly, with the right equipment and a good partner, it’s much safer than most people imagine. Accidents usually happen when people get careless, so I always check everything twice.\n\nInterviewer: How do you manage school and training?\n\nLeo: It isn’t easy. I train five evenings a week, so I do my homework on the bus and at lunchtime. My teachers have been really understanding, though. When I had a competition in France, they sent me work to do so that I didn’t fall behind.\n\nInterviewer: What are your hopes for the future?\n\nLeo: Lots of people expect me to say the Olympics. That would be incredible, of course, but I try not to think that far ahead. Right now I just want to keep enjoying it. If I stop having fun, there’s no point.\n\nInterviewer: Leo, good luck.",
+      "passageVocab": [
+        "route",
+        "strength",
+        "equipment",
+        "careless",
+        "coach"
+      ],
+      "audio": [
+        {
+          "speaker": "Interviewer",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "I’m here with seventeen-year-old Leo Hartley, who has just been chosen for the national youth climbing team. Leo, how did you get into climbing?"
+        },
+        {
+          "speaker": "Leo",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "It was because of my older sister, really. She went to a climbing wall for a friend’s birthday party and loved it, and the next week I went along with her, just because I was bored. I wasn’t sporty at all. I was terrible at football, so I didn’t expect much. But after ten minutes on the wall I knew I’d found my thing."
+        },
+        {
+          "speaker": "Interviewer",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "What is it about climbing that you enjoy most?"
+        },
+        {
+          "speaker": "Leo",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "People think it’s all about being strong, and you do need strength. But for me the best part is the puzzle. Every route is different, and you have to work out where to put your hands and feet. When you finally manage a route you’ve been stuck on for weeks, it’s an amazing feeling."
+        },
+        {
+          "speaker": "Interviewer",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Do you prefer climbing indoors or outdoors?"
+        },
+        {
+          "speaker": "Leo",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Competitions are all indoors, so I train on climbing walls most of the time, and they’re great for practising. But nothing compares to being on real rock in the mountains. The views, the quiet… Whenever I can, I go to Wales with my coach."
+        },
+        {
+          "speaker": "Interviewer",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Is climbing dangerous?"
+        },
+        {
+          "speaker": "Leo",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Everyone asks that! My mum worried a lot at first. But honestly, with the right equipment and a good partner, it’s much safer than most people imagine. Accidents usually happen when people get careless, so I always check everything twice."
+        },
+        {
+          "speaker": "Interviewer",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "How do you manage school and training?"
+        },
+        {
+          "speaker": "Leo",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "It isn’t easy. I train five evenings a week, so I do my homework on the bus and at lunchtime. My teachers have been really understanding, though. When I had a competition in France, they sent me work to do so that I didn’t fall behind."
+        },
+        {
+          "speaker": "Interviewer",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "What are your hopes for the future?"
+        },
+        {
+          "speaker": "Leo",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Lots of people expect me to say the Olympics. That would be incredible, of course, but I try not to think that far ahead. Right now I just want to keep enjoying it. If I stop having fun, there’s no point."
+        },
+        {
+          "speaker": "Interviewer",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Leo, good luck."
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "en-b1-h-t4-interview-climber-01-q1",
+      "module": "horen",
+      "teil": 4,
+      "type": "multiple_choice",
+      "question": "Why did Leo first go climbing?",
+      "options": [
+        "a) He hoped to find a sport he was good at.",
+        "b) He was invited to a friend’s birthday party.",
+        "c) He was bored, so he went with his sister."
+      ],
+      "correct": "c",
+      "correctAnswer": "c",
+      "explanation": "\"The next week I went along with her, just because I was bored.\" It was his sister who went to the birthday party, and he \"didn’t expect much\", so he was not looking for a sport.",
+      "passageId": "en-b1-p-horen-t4-interview-climber-01-01",
+      "grammarTags": [
+        "g-en-b1-past-simple"
+      ],
+      "topicTags": [
+        "sport"
+      ],
+      "vocabularyTags": [
+        "sport",
+        "family"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-h-t4-interview-climber-01-q2",
+      "module": "horen",
+      "teil": 4,
+      "type": "multiple_choice",
+      "question": "What does Leo enjoy most about climbing?",
+      "options": [
+        "a) Meeting other young climbers at competitions",
+        "b) Working out how to climb a route",
+        "c) Becoming stronger and fitter"
+      ],
+      "correct": "b",
+      "correctAnswer": "b",
+      "explanation": "\"For me the best part is the puzzle … you have to work out where to put your hands and feet.\" He says you need strength, but \"people think\" it is all about that.",
+      "passageId": "en-b1-p-horen-t4-interview-climber-01-01",
+      "grammarTags": [
+        "g-en-b1-superlatives"
+      ],
+      "topicTags": [
+        "sport"
+      ],
+      "vocabularyTags": [
+        "sport",
+        "feelings"
+      ],
+      "difficulty": 5,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-h-t4-interview-climber-01-q3",
+      "module": "horen",
+      "teil": 4,
+      "type": "multiple_choice",
+      "question": "How does Leo feel about climbing outdoors?",
+      "options": [
+        "a) He prefers it to indoor walls.",
+        "b) It is too far away to do often.",
+        "c) It is more useful for training."
+      ],
+      "correct": "a",
+      "correctAnswer": "a",
+      "explanation": "\"Nothing compares to being on real rock in the mountains.\" Climbing walls are the ones that are \"great for practising\", so outdoor climbing is not better for training.",
+      "passageId": "en-b1-p-horen-t4-interview-climber-01-01",
+      "grammarTags": [
+        "g-en-b1-comparatives"
+      ],
+      "topicTags": [
+        "sport"
+      ],
+      "vocabularyTags": [
+        "nature",
+        "sport"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-h-t4-interview-climber-01-q4",
+      "module": "horen",
+      "teil": 4,
+      "type": "multiple_choice",
+      "question": "What is Leo’s opinion about the danger of climbing?",
+      "options": [
+        "a) It is safer than many people believe.",
+        "b) His mother is right to worry about him.",
+        "c) Most accidents happen to beginners."
+      ],
+      "correct": "a",
+      "correctAnswer": "a",
+      "explanation": "\"It’s much safer than most people imagine.\" He says accidents happen \"when people get careless\", not that they happen to beginners.",
+      "passageId": "en-b1-p-horen-t4-interview-climber-01-01",
+      "grammarTags": [
+        "g-en-b1-comparatives"
+      ],
+      "topicTags": [
+        "sport"
+      ],
+      "vocabularyTags": [
+        "safety",
+        "opinions"
+      ],
+      "difficulty": 5,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-h-t4-interview-climber-01-q5",
+      "module": "horen",
+      "teil": 4,
+      "type": "multiple_choice",
+      "question": "What does Leo say about his teachers?",
+      "options": [
+        "a) They let him miss homework before competitions.",
+        "b) They help him keep up with his schoolwork.",
+        "c) They think he should train less often."
+      ],
+      "correct": "b",
+      "correctAnswer": "b",
+      "explanation": "His teachers \"sent me work to do so that I didn’t fall behind\". He still does his homework \"on the bus and at lunchtime\", and they are \"really understanding\" about his training.",
+      "passageId": "en-b1-p-horen-t4-interview-climber-01-01",
+      "grammarTags": [
+        "g-en-b1-present-perfect"
+      ],
+      "topicTags": [
+        "sport"
+      ],
+      "vocabularyTags": [
+        "school",
+        "education"
+      ],
+      "difficulty": 5,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-h-t4-interview-climber-01-q6",
+      "module": "horen",
+      "teil": 4,
+      "type": "multiple_choice",
+      "question": "How does Leo feel about his future?",
+      "options": [
+        "a) He is afraid he will get bored with the sport.",
+        "b) He is determined to compete in the Olympics.",
+        "c) He wants to concentrate on enjoying climbing."
+      ],
+      "correct": "c",
+      "correctAnswer": "c",
+      "explanation": "\"Right now I just want to keep enjoying it.\" The Olympics \"would be incredible\", but \"I try not to think that far ahead\".",
+      "passageId": "en-b1-p-horen-t4-interview-climber-01-01",
+      "grammarTags": [
+        "g-en-b1-want-to"
+      ],
+      "topicTags": [
+        "sport"
+      ],
+      "vocabularyTags": [
+        "plans",
+        "feelings"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    }
+  ],
+  "_germanCapsNormalizeVersion": "v3.23-lesen-t2-angebote-corpus-2026-07-28",
+  "_germanCapsNormalizedAt": "2026-10-12T19:15:54.240Z",
+  "_balanceMcqVersion": "v1.2-no-rf-chrono-shuffle-2026-07-11",
+  "_balanceMcqNormalizedAt": "2026-10-12T19:15:54.240Z"
+}

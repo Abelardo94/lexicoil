@@ -1,0 +1,198 @@
+{
+  "passages": [
+    {
+      "id": "en-b1-p-lesen-t3-long-youtuber-science-01-01",
+      "module": "lesen",
+      "title": "The kitchen scientist",
+      "text": "Every Sunday afternoon, sixteen-year-old Priya Shah turns her family’s kitchen in Cardiff into a science laboratory. She puts her phone on a pile of books and starts filming while her parents are out. Her short videos explain everyday science, such as the reason bread rises or ice floats. Her channel, Kitchen Lab, now has more than 80,000 subscribers.\n\nPriya never planned to become a video maker. Two years ago she was having problems with chemistry at school. Her textbook seemed dull, and the diagrams meant nothing to her. One evening she tried an experiment from the book at home, with vinegar and baking soda. Suddenly the reaction made sense. Her cousin was having the same problem with chemistry, so she filmed the next experiment for him. He shared it with his class, and soon strangers were asking for more.\n\nThe first videos were not very good because the sound was poor, and Priya talked too fast. Some viewers left unkind comments. “I nearly deleted everything after the first month,” she admits. Her older brother persuaded her to continue. He bought her a cheap microphone and showed her how to edit. Now each video takes about six hours to make. Most of that time goes on research. “I check every fact in at least two places. A mistake in a science video is worse than no video at all.”\n\nSafety is important to her too, so she never uses dangerous chemicals. Every experiment uses things from an ordinary kitchen. At the start of each video, she reminds younger viewers to ask an adult for help.\n\nHer chemistry teacher, Mr Evans, is a big fan who sometimes shows her videos in his lessons. “Priya explains things in the language of teenagers,” he says. “Students listen to her in a different way. They listen to me because they have to!”\n\nSuccess has brought some surprises. Last spring a university invited her to speak at a science festival. She was terrified of the large audience, but she enjoyed it in the end. Companies have also offered her money to advertise their products. So far she has said no to all of them. “My viewers trust me. I don’t want them to think I’m selling something.”\n\nPriya wants to study medicine, so she is not sure about the future of Kitchen Lab. “Maybe I’ll stop, maybe I won’t. For now, it’s fun, and I’m learning more than my viewers!”",
+      "passageVocab": [
+        "experiment",
+        "subscriber",
+        "research",
+        "advertise",
+        "audience"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "en-b1-r-t3-long-youtuber-science-01-q1",
+      "module": "lesen",
+      "teil": 3,
+      "type": "multiple_choice",
+      "passageId": "en-b1-p-lesen-t3-long-youtuber-science-01-01",
+      "question": "Why did Priya make her first video?",
+      "options": [
+        "a) Her teacher asked her to make one for the class.",
+        "b) She wanted to help a relative with a subject.",
+        "c) She hoped to become well known online.",
+        "d) She needed it for a school chemistry project."
+      ],
+      "correct": "b",
+      "correctAnswer": "b",
+      "explanation": "Her cousin \"was having the same problem with chemistry, so she filmed the next experiment for him.\" Her teacher only started using the videos later, and the text says she \"never planned to become a video maker\".",
+      "grammarTags": [
+        "g-en-b1-past-simple"
+      ],
+      "topicTags": [
+        "science"
+      ],
+      "vocabularyTags": [
+        "experiment",
+        "chemistry",
+        "cousin"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-r-t3-long-youtuber-science-01-q2",
+      "module": "lesen",
+      "teil": 3,
+      "type": "multiple_choice",
+      "passageId": "en-b1-p-lesen-t3-long-youtuber-science-01-01",
+      "question": "Why does Priya spend so much time on research?",
+      "options": [
+        "a) Her viewers often point out her mistakes.",
+        "b) Her brother taught her to check facts carefully.",
+        "c) Her teacher checks each video before she posts it.",
+        "d) She thinks wrong information is worse than none."
+      ],
+      "correct": "d",
+      "correctAnswer": "d",
+      "explanation": "Priya says: \"A mistake in a science video is worse than no video at all.\" Her brother helped her with a microphone and editing, not with checking facts, and the unkind comments were about the poor sound and her fast talking.",
+      "grammarTags": [
+        "g-en-b1-comparatives"
+      ],
+      "topicTags": [
+        "science"
+      ],
+      "vocabularyTags": [
+        "research",
+        "fact",
+        "edit"
+      ],
+      "difficulty": 5,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-r-t3-long-youtuber-science-01-q3",
+      "module": "lesen",
+      "teil": 3,
+      "type": "multiple_choice",
+      "passageId": "en-b1-p-lesen-t3-long-youtuber-science-01-01",
+      "question": "What does Mr Evans suggest about Priya’s videos?",
+      "options": [
+        "a) They use some language that he does not like.",
+        "b) Students should watch them at home, not in class.",
+        "c) Students pay more attention to her than to him.",
+        "d) They are too simple for his older students."
+      ],
+      "correct": "c",
+      "correctAnswer": "c",
+      "explanation": "Mr Evans says students \"listen to her in a different way. They listen to me because they have to!\" He likes the way she uses \"the language of teenagers\", and he shows the videos \"in his lessons\".",
+      "grammarTags": [
+        "g-en-b1-present-simple"
+      ],
+      "topicTags": [
+        "science"
+      ],
+      "vocabularyTags": [
+        "fan",
+        "lesson",
+        "language"
+      ],
+      "difficulty": 5,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-r-t3-long-youtuber-science-01-q4",
+      "module": "lesen",
+      "teil": 3,
+      "type": "multiple_choice",
+      "passageId": "en-b1-p-lesen-t3-long-youtuber-science-01-01",
+      "question": "Why has Priya refused the offers from companies?",
+      "options": [
+        "a) She does not want to lose her viewers’ trust.",
+        "b) Her parents do not allow her to advertise.",
+        "c) She has no time to make extra videos for them.",
+        "d) The money they offered was too little."
+      ],
+      "correct": "a",
+      "correctAnswer": "a",
+      "explanation": "Priya says: \"My viewers trust me. I don’t want them to think I’m selling something.\" The text says nothing about the amount of money, her parents or a lack of time.",
+      "grammarTags": [
+        "g-en-b1-past-simple"
+      ],
+      "topicTags": [
+        "science"
+      ],
+      "vocabularyTags": [
+        "advertise",
+        "product",
+        "trust"
+      ],
+      "difficulty": 3,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-r-t3-long-youtuber-science-01-q5",
+      "module": "lesen",
+      "teil": 3,
+      "type": "multiple_choice",
+      "passageId": "en-b1-p-lesen-t3-long-youtuber-science-01-01",
+      "question": "Which of these would Priya probably write on her channel page?",
+      "options": [
+        "a) Kitchen Lab: I make these videos with my teacher, and we post a new one every day.",
+        "b) Kitchen Lab: easy science with things from your kitchen. Young viewers, ask an adult first!",
+        "c) Kitchen Lab: science videos for future doctors, with special offers from our sponsors.",
+        "d) Kitchen Lab: real experiments with the chemicals that scientists use in their laboratories."
+      ],
+      "correct": "b",
+      "correctAnswer": "b",
+      "explanation": "\"Every experiment uses things from an ordinary kitchen\" and she \"reminds younger viewers to ask an adult for help.\" She \"never uses dangerous chemicals\", she films on Sunday afternoons (not every day) without her teacher, and she has said no to every company.",
+      "grammarTags": [
+        "g-en-b1-imperatives"
+      ],
+      "topicTags": [
+        "science"
+      ],
+      "vocabularyTags": [
+        "channel",
+        "viewer",
+        "safety"
+      ],
+      "difficulty": 6,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    }
+  ],
+  "_germanCapsNormalizeVersion": "v3.23-lesen-t2-angebote-corpus-2026-07-28",
+  "_germanCapsNormalizedAt": "2026-10-12T19:17:24.118Z",
+  "_balanceMcqVersion": "v1.2-no-rf-chrono-shuffle-2026-07-11",
+  "_balanceMcqNormalizedAt": "2026-10-12T19:17:24.118Z"
+}

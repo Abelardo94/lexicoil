@@ -1,0 +1,80 @@
+{
+  "passages": [],
+  "questions": [
+    {
+      "id": "en-b1-w-t1-email-fitness-plan-01-q1",
+      "module": "schreiben",
+      "teil": 1,
+      "type": "short_answer",
+      "taskTypes": [
+        "email"
+      ],
+      "question": "Read this email from your English-speaking friend Priya and the notes you have made.\n\nFrom: Priya\nSubject: Getting fit together\n\nHi!\nI’ve decided I really need to get fitter this year, and I’d love to do it with you. [Note 1: Great idea!] We could go running in the park or join the new sports centre in town. Which would you rather do? [Note 2: Choose and explain] How often do you think we should exercise? [Note 3: Suggest] I’d also like to eat more healthily, but I don’t know where to start. Have you got any tips? [Note 4: Give advice]\n\nSpeak soon,\nPriya\n\nWrite your email to Priya using all the notes. Write about 100 words.",
+      "correct": "rubric",
+      "correctAnswer": "rubric",
+      "explanation": "A good answer replies to all four notes: (1) says it is a great idea to get fit together; (2) chooses between running in the park and joining the sports centre, with a reason; (3) suggests how often you should exercise; (4) gives Priya at least one piece of advice about healthy eating. Use an informal greeting and ending, link your ideas and write about 100 words.\n\nModel answer:\nHi Priya,\nWhat a great idea! I’ve been feeling lazy recently, so I’d love to get fit with you.\nI’d rather go running in the park. It’s free, we can go whenever we want, and it’s nice to be outside. The sports centre is quite expensive.\nI think we should start with three times a week, maybe for half an hour, and then run a bit further each week.\nAbout food, my advice is to eat fruit instead of crisps between meals and to drink lots of water. It really helps!\nLet’s start on Monday.\nDaniel",
+      "options": [],
+      "grammarTags": [
+        "g-en-b1-modals",
+        "g-en-b1-comparatives"
+      ],
+      "topicTags": [
+        "health"
+      ],
+      "vocabularyTags": [
+        "fit",
+        "exercise",
+        "sports centre",
+        "healthily",
+        "advice"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "writing"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-w-t2-email-fitness-plan-01-q1",
+      "module": "schreiben",
+      "teil": 2,
+      "type": "short_answer",
+      "taskTypes": [
+        "article",
+        "story"
+      ],
+      "question": "Choose ONE of these questions. Write your answer in about 100 words.\n\nQuestion 2 – Article\nYou see this announcement in your school’s English-language magazine.\n\nArticles wanted!\nHOW I KEEP HEALTHY\nWhat do you do to keep healthy? What do you eat, and what kind of exercise do you do? Is there anything you would like to change?\nWrite an article answering these questions. We will publish the most interesting articles.\n\nWrite your article.\n\nQuestion 3 – Story\nYour English teacher has asked you to write a story.\nYour story must begin with this sentence:\nI had never run so fast in my life.\n\nWrite your story.",
+      "correct": "rubric",
+      "correctAnswer": "rubric",
+      "explanation": "Article: give your article a title, answer all the questions in the announcement (food, exercise, something you would like to change) and talk directly to the reader to make it interesting. Story: begin with the given sentence, explain why you were running, and give the story a clear ending. Use past tenses consistently. In both tasks write about 100 words.\n\nModel article:\nSmall habits, big difference\nI’m not a sports star, but I try to keep healthy in simple ways. I cycle to school every day, even when it’s raining, and I play basketball with my friends on Saturdays.\nI eat a big breakfast, usually porridge with fruit, and my family cooks fresh food most evenings. I don’t drink fizzy drinks any more.\nWhat would I like to change? I go to bed too late because I watch videos on my phone. I know sleep is important, so that’s my next challenge. What’s yours?\n\nModel story:\nI had never run so fast in my life. The last train home was leaving at ten o’clock, and I was still three streets away from the station.\nI raced past the shops and down the stairs to the platform. The doors were starting to close, but a kind man saw me and held them open with his arm.\nI jumped in and fell into a seat, completely out of breath. “Thank you so much!” I said.\nHe smiled. “No problem. I’m the driver, actually. I was just on my way to the front.”",
+      "options": [],
+      "grammarTags": [
+        "g-en-b1-past-perfect",
+        "g-en-b1-present-simple"
+      ],
+      "topicTags": [
+        "health"
+      ],
+      "vocabularyTags": [
+        "habit",
+        "healthy",
+        "out of breath",
+        "challenge",
+        "platform"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "writing"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    }
+  ],
+  "_germanCapsNormalizeVersion": "v3.23-lesen-t2-angebote-corpus-2026-07-28",
+  "_germanCapsNormalizedAt": "2026-10-12T19:15:54.867Z",
+  "_balanceMcqVersion": "v1.2-no-rf-chrono-shuffle-2026-07-11",
+  "_balanceMcqNormalizedAt": "2026-10-12T19:15:54.867Z"
+}

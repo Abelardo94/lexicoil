@@ -1,0 +1,191 @@
+{
+  "passages": [
+    {
+      "id": "en-b1-p-lesen-t6-open-cloze-tree-planting-01-01",
+      "module": "lesen",
+      "title": "Five hundred new trees",
+      "text": "Last autumn our town council asked local people to help plant five hundred young trees along the river path. The project had (1) ______ planned for over a year, but the money only arrived in the summer. On a cold Saturday morning about sixty volunteers met at the old bridge, carrying spades and flasks of hot tea. Very (2) ______ of us had ever planted a tree before, so a gardener from the council showed us what to do. By lunchtime my back was aching, and the work was far (3) ______ tiring than I had expected. Still, it felt good to see the long line of thin trees standing in the grass. The gardener explained that the trees are too young to look after (4) ______ yet. They will not survive their first summer (5) ______ someone waters them regularly. The council has now organised a rota, (6) ______ means that every volunteer spends one evening a month with a watering can. My turn is next Tuesday, and I am already looking forward to it.",
+      "passageVocab": [
+        "volunteer",
+        "spade",
+        "survive",
+        "rota",
+        "water"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "en-b1-r-t6-open-cloze-tree-planting-01-q1",
+      "module": "lesen",
+      "teil": 6,
+      "type": "gap_fill",
+      "question": "Write ONE word that fits gap (1).",
+      "correct": "been",
+      "correctAnswer": "been",
+      "explanation": "This is a past perfect passive: \"The project had been planned for over a year\". The project did not plan anything itself, so had must be followed by been + past participle.",
+      "options": [],
+      "grammarTags": [
+        "g-en-b1-passive"
+      ],
+      "topicTags": [
+        "environment"
+      ],
+      "vocabularyTags": [
+        "plan"
+      ],
+      "difficulty": 4,
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge",
+      "skills": [
+        "reading"
+      ],
+      "passageId": "en-b1-p-lesen-t6-open-cloze-tree-planting-01-01"
+    },
+    {
+      "id": "en-b1-r-t6-open-cloze-tree-planting-01-q2",
+      "module": "lesen",
+      "teil": 6,
+      "type": "gap_fill",
+      "question": "Write ONE word that fits gap (2).",
+      "correct": "few",
+      "correctAnswer": "few",
+      "explanation": "\"Very few of us had ever planted a tree before, so a gardener … showed us what to do.\" The word so shows that most people had no experience; very many would not fit the meaning or the word ever.",
+      "options": [],
+      "grammarTags": [
+        "g-en-b1-quantifiers"
+      ],
+      "topicTags": [
+        "environment"
+      ],
+      "vocabularyTags": [
+        "few"
+      ],
+      "difficulty": 4,
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge",
+      "skills": [
+        "reading"
+      ],
+      "passageId": "en-b1-p-lesen-t6-open-cloze-tree-planting-01-01"
+    },
+    {
+      "id": "en-b1-r-t6-open-cloze-tree-planting-01-q3",
+      "module": "lesen",
+      "teil": 6,
+      "type": "gap_fill",
+      "question": "Write ONE word that fits gap (3).",
+      "correct": "more",
+      "correctAnswer": "more",
+      "explanation": "Tiring is a long adjective, so the comparative is more tiring than. \"My back was aching\" shows that the work was harder than expected, so less is not possible.",
+      "options": [],
+      "grammarTags": [
+        "g-en-b1-comparatives"
+      ],
+      "topicTags": [
+        "environment"
+      ],
+      "vocabularyTags": [
+        "tiring"
+      ],
+      "difficulty": 3,
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge",
+      "skills": [
+        "reading"
+      ],
+      "passageId": "en-b1-p-lesen-t6-open-cloze-tree-planting-01-01"
+    },
+    {
+      "id": "en-b1-r-t6-open-cloze-tree-planting-01-q4",
+      "module": "lesen",
+      "teil": 6,
+      "type": "gap_fill",
+      "question": "Write ONE word that fits gap (4).",
+      "correct": "themselves",
+      "correctAnswer": "themselves",
+      "explanation": "The subject is the trees, so the reflexive pronoun is needed: \"the trees are too young to look after themselves yet\". Them would mean some other things, not the trees.",
+      "options": [],
+      "grammarTags": [
+        "g-en-b1-reflexive-pronouns"
+      ],
+      "topicTags": [
+        "environment"
+      ],
+      "vocabularyTags": [
+        "look after"
+      ],
+      "difficulty": 4,
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge",
+      "skills": [
+        "reading"
+      ],
+      "passageId": "en-b1-p-lesen-t6-open-cloze-tree-planting-01-01"
+    },
+    {
+      "id": "en-b1-r-t6-open-cloze-tree-planting-01-q5",
+      "module": "lesen",
+      "teil": 6,
+      "type": "gap_fill",
+      "question": "Write ONE word that fits gap (5).",
+      "correct": "unless",
+      "correctAnswer": "unless",
+      "explanation": "Unless means if not: \"They will not survive their first summer unless someone waters them regularly\". If would give the opposite meaning (watering would kill them).",
+      "options": [],
+      "grammarTags": [
+        "g-en-b1-conditionals"
+      ],
+      "topicTags": [
+        "environment"
+      ],
+      "vocabularyTags": [
+        "survive"
+      ],
+      "difficulty": 5,
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge",
+      "skills": [
+        "reading"
+      ],
+      "passageId": "en-b1-p-lesen-t6-open-cloze-tree-planting-01-01"
+    },
+    {
+      "id": "en-b1-r-t6-open-cloze-tree-planting-01-q6",
+      "module": "lesen",
+      "teil": 6,
+      "type": "gap_fill",
+      "question": "Write ONE word that fits gap (6).",
+      "correct": "which",
+      "correctAnswer": "which",
+      "explanation": "After a comma, a non-defining relative clause that refers to the whole idea before it starts with which: \"organised a rota, which means that every volunteer …\". That cannot be used after a comma.",
+      "options": [],
+      "grammarTags": [
+        "g-en-b1-relative-clauses"
+      ],
+      "topicTags": [
+        "environment"
+      ],
+      "vocabularyTags": [
+        "rota"
+      ],
+      "difficulty": 5,
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge",
+      "skills": [
+        "reading"
+      ],
+      "passageId": "en-b1-p-lesen-t6-open-cloze-tree-planting-01-01"
+    }
+  ],
+  "_germanCapsNormalizeVersion": "v3.23-lesen-t2-angebote-corpus-2026-07-28",
+  "_germanCapsNormalizedAt": "2026-10-12T19:15:52.198Z",
+  "_balanceMcqVersion": "v1.2-no-rf-chrono-shuffle-2026-07-11",
+  "_balanceMcqNormalizedAt": "2026-10-12T19:15:52.198Z"
+}

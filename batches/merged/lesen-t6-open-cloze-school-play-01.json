@@ -4,7 +4,7 @@
       "id": "en-b1-p-lesen-t6-open-cloze-school-play-01-01",
       "module": "lesen",
       "title": "My part in The Lighthouse",
-      "text": "Last term I took part in my school's production of a musical called The Lighthouse. Our drama teacher, Mr Okafor, (1) ____ has written several plays himself, gave me the role of the old lighthouse keeper.\n\nI was delighted, but I soon realised I had more than two hundred lines to learn (2) ____ heart. \"You (3) ____ better start learning them today, or you won't be ready,\" Mr Okafor warned. So every evening my mum read the other characters' lines while I practised mine.\n\nRehearsals were hard work, but the cast became really close. We helped (4) ____ other with difficult scenes, and the older students gave us useful advice about staying calm on stage.\n\nOn the first night I was the (5) ____ nervous I have ever been: my hands were shaking and my mouth was completely dry. But as (6) ____ as the curtain went up and I heard the audience laugh at my first joke, my nerves disappeared.\n\nWe performed the show three times, and every night the hall was full. I'm already hoping to get a part in next year's play.",
+      "text": "Last term I took part in my school's production of a musical called The Lighthouse. Our drama teacher, Mr Okafor, (1) ____ has written several plays himself, gave me the role of the old lighthouse keeper.\n\nI was delighted, but I soon realised I had more than two hundred lines to learn (2) ____ heart. \"You (3) ____ better start learning them today, or you won't be ready,\" Mr Okafor warned. So every evening my mum read the other characters' lines while I practised mine.\n\nRehearsals were hard work, but the cast became really close. We helped (4) ____ other with difficult scenes, and the older students gave us useful advice about staying calm on stage.\n\nOn the first night I was the (5) ____ nervous I have ever been: my hands were shaking and my mouth was completely dry. But as soon (6) ____ the curtain went up and I heard the audience laugh at my first joke, my nerves disappeared.\n\nWe performed the show three times, and every night the hall was full. I'm already hoping to get a part in next year's play.",
       "passageVocab": [
         "production",
         "role",
@@ -168,9 +168,9 @@
       "passageId": "en-b1-p-lesen-t6-open-cloze-school-play-01-01",
       "question": "Write ONE word for gap (6).",
       "options": [],
-      "correct": "soon",
-      "correctAnswer": "soon",
-      "explanation": "'As soon as' is a time conjunction meaning 'immediately when': \"as soon as the curtain went up … my nerves disappeared\". 'As long as' and 'as far as' have different meanings that do not fit here.",
+      "correct": "as",
+      "correctAnswer": "as",
+      "explanation": "The time conjunction is as soon as, meaning immediately when: \"as soon as the curtain went up … my nerves disappeared\". The second as completes the fixed phrase; no other word fits after as soon.",
       "grammarTags": [
         "g-en-b1-time-conjunctions"
       ],
@@ -191,7 +191,7 @@
     }
   ],
   "_germanCapsNormalizeVersion": "v3.23-lesen-t2-angebote-corpus-2026-07-28",
-  "_germanCapsNormalizedAt": "2026-10-12T14:44:02.019Z",
+  "_germanCapsNormalizedAt": "2026-10-12T19:48:36.921Z",
   "_balanceMcqVersion": "v1.2-no-rf-chrono-shuffle-2026-07-11",
-  "_balanceMcqNormalizedAt": "2026-10-12T14:44:02.019Z"
+  "_balanceMcqNormalizedAt": "2026-10-12T19:48:36.921Z"
 }

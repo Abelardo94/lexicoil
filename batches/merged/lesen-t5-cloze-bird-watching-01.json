@@ -1,0 +1,223 @@
+{
+  "passages": [
+    {
+      "id": "en-b1-p-lesen-t5-cloze-bird-watching-01-01",
+      "module": "lesen",
+      "title": "A weekend with the birds",
+      "text": "My grandfather has loved birds all his life, and last April he (1) ______ me to spend a weekend bird watching with him in Norfolk. On the first morning we got up at five o’clock and walked to a small wooden hut beside a lake. Inside, we sat on a narrow bench and tried not to (2) ______ any noise, because even a cough can frighten birds away. For a long time nothing happened, and I started to feel cold and bored. Then, after about an hour, I suddenly (3) ______ sight of a flash of bright blue above the water. It was a kingfisher! It moved so fast that I was amazed when I (4) ______ to take a photo of it. Grandad was delighted. He (5) ______ a notebook in which he writes down every bird he sees, and he let me add the kingfisher to his list. By the end of the weekend we had seen thirty-two different kinds of birds. I never expected to enjoy it so much, but now I have (6) ______ up bird watching myself.",
+      "passageVocab": [
+        "hut",
+        "kingfisher",
+        "frighten",
+        "notebook",
+        "bench"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "en-b1-r-t5-cloze-bird-watching-01-q1",
+      "module": "lesen",
+      "teil": 5,
+      "type": "multiple_choice",
+      "question": "Choose the word that best fits gap (1).",
+      "correct": "a",
+      "correctAnswer": "a",
+      "explanation": "Only invite follows the pattern verb + person + to-infinitive: \"he invited me to spend a weekend bird watching with him\". We cannot say offered me to, suggested me to or agreed me to.",
+      "options": [
+        "a) invited",
+        "b) suggested",
+        "c) agreed",
+        "d) offered"
+      ],
+      "grammarTags": [
+        "g-en-b1-verb-patterns"
+      ],
+      "topicTags": [
+        "nature"
+      ],
+      "vocabularyTags": [
+        "invite"
+      ],
+      "difficulty": 4,
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge",
+      "skills": [
+        "reading"
+      ],
+      "passageId": "en-b1-p-lesen-t5-cloze-bird-watching-01-01"
+    },
+    {
+      "id": "en-b1-r-t5-cloze-bird-watching-01-q2",
+      "module": "lesen",
+      "teil": 5,
+      "type": "multiple_choice",
+      "question": "Choose the word that best fits gap (2).",
+      "correct": "c",
+      "correctAnswer": "c",
+      "explanation": "The collocation is make a noise: they \"tried not to make any noise, because even a cough can frighten birds away\". Do, give and take a noise are not correct English.",
+      "options": [
+        "a) give",
+        "b) take",
+        "c) make",
+        "d) do"
+      ],
+      "grammarTags": [
+        "g-en-b1-collocations"
+      ],
+      "topicTags": [
+        "nature"
+      ],
+      "vocabularyTags": [
+        "make a noise"
+      ],
+      "difficulty": 3,
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge",
+      "skills": [
+        "reading"
+      ],
+      "passageId": "en-b1-p-lesen-t5-cloze-bird-watching-01-01"
+    },
+    {
+      "id": "en-b1-r-t5-cloze-bird-watching-01-q3",
+      "module": "lesen",
+      "teil": 5,
+      "type": "multiple_choice",
+      "question": "Choose the word that best fits gap (3).",
+      "correct": "d",
+      "correctAnswer": "d",
+      "explanation": "The fixed phrase is catch sight of, meaning see something suddenly: \"I suddenly caught sight of a flash of bright blue\". Took sight, held sight and got sight are not used.",
+      "options": [
+        "a) took",
+        "b) held",
+        "c) got",
+        "d) caught"
+      ],
+      "grammarTags": [
+        "g-en-b1-collocations"
+      ],
+      "topicTags": [
+        "nature"
+      ],
+      "vocabularyTags": [
+        "catch sight of"
+      ],
+      "difficulty": 5,
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge",
+      "skills": [
+        "reading"
+      ],
+      "passageId": "en-b1-p-lesen-t5-cloze-bird-watching-01-01"
+    },
+    {
+      "id": "en-b1-r-t5-cloze-bird-watching-01-q4",
+      "module": "lesen",
+      "teil": 5,
+      "type": "multiple_choice",
+      "question": "Choose the word that best fits gap (4).",
+      "correct": "c",
+      "correctAnswer": "c",
+      "explanation": "Manage is followed by a to-infinitive: \"I was amazed when I managed to take a photo of it\". Succeeded needs in + -ing, could has no to, and achieved needs a noun object.",
+      "options": [
+        "a) could",
+        "b) achieved",
+        "c) managed",
+        "d) succeeded"
+      ],
+      "grammarTags": [
+        "g-en-b1-verb-patterns"
+      ],
+      "topicTags": [
+        "nature"
+      ],
+      "vocabularyTags": [
+        "manage to"
+      ],
+      "difficulty": 5,
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge",
+      "skills": [
+        "reading"
+      ],
+      "passageId": "en-b1-p-lesen-t5-cloze-bird-watching-01-01"
+    },
+    {
+      "id": "en-b1-r-t5-cloze-bird-watching-01-q5",
+      "module": "lesen",
+      "teil": 5,
+      "type": "multiple_choice",
+      "question": "Choose the word that best fits gap (5).",
+      "correct": "b",
+      "correctAnswer": "b",
+      "explanation": "To keep a notebook or diary means to write in it regularly: \"He keeps a notebook in which he writes down every bird he sees\". Saves, stores and collects a notebook do not describe writing a record in it.",
+      "options": [
+        "a) stores",
+        "b) keeps",
+        "c) collects",
+        "d) saves"
+      ],
+      "grammarTags": [
+        "g-en-b1-present-simple"
+      ],
+      "topicTags": [
+        "nature"
+      ],
+      "vocabularyTags": [
+        "keep a notebook",
+        "record"
+      ],
+      "difficulty": 4,
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge",
+      "skills": [
+        "reading"
+      ],
+      "passageId": "en-b1-p-lesen-t5-cloze-bird-watching-01-01"
+    },
+    {
+      "id": "en-b1-r-t5-cloze-bird-watching-01-q6",
+      "module": "lesen",
+      "teil": 5,
+      "type": "multiple_choice",
+      "question": "Choose the word that best fits gap (6).",
+      "correct": "d",
+      "correctAnswer": "d",
+      "explanation": "Take up means start a new hobby: \"I never expected to enjoy it so much, but now I have taken up bird watching myself\". Given up would mean the writer stopped, which does not fit \"enjoy it so much\"; made up and put up have no connection with hobbies.",
+      "options": [
+        "a) given",
+        "b) made",
+        "c) put",
+        "d) taken"
+      ],
+      "grammarTags": [
+        "g-en-b1-phrasal-verbs"
+      ],
+      "topicTags": [
+        "nature"
+      ],
+      "vocabularyTags": [
+        "take up",
+        "hobby"
+      ],
+      "difficulty": 5,
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge",
+      "skills": [
+        "reading"
+      ],
+      "passageId": "en-b1-p-lesen-t5-cloze-bird-watching-01-01"
+    }
+  ],
+  "_germanCapsNormalizeVersion": "v3.23-lesen-t2-angebote-corpus-2026-07-28",
+  "_germanCapsNormalizedAt": "2026-10-12T19:15:51.720Z",
+  "_balanceMcqVersion": "v1.2-no-rf-chrono-shuffle-2026-07-11",
+  "_balanceMcqNormalizedAt": "2026-10-12T19:15:51.720Z"
+}

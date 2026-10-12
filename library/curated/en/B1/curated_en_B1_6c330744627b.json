@@ -1080,16 +1080,16 @@
         "instruction": "Read the text(s) and answer the questions in Part 6.",
         "blueprintSlot": "open_cloze",
         "textTitle": "Where was Biscuit?",
-        "text": "Last winter our cat, Biscuit, disappeared. He always comes home for his dinner at six o'clock, so when he didn't appear, we started to worry.\n\nWe searched the garden and the street with torches, but by midnight we still hadn't been (1) ____ to find him anywhere. The next day my sister made posters with his photo, and we put them on every lamp post in the neighbourhood. Several people called, but none of the cats they had seen was Biscuit.\n\nBy Thursday, Biscuit had been missing (2) ____ Sunday evening, and we were starting to give (3) ____ hope. Then, at ten o'clock that night, our neighbour Mr Davies knocked on the door. He had been clearing out his garage and had heard a quiet noise behind some old paint tins.\n\nI ran next door as fast (4) ____ I could. There was Biscuit, dusty and (5) ____ thin that I hardly recognised him. He must have walked into the garage while the door was open and got trapped.\n\nIt wasn't (6) ____ he had eaten two bowls of food that he finally began to purr. Now we always check Mr Davies's garage first!",
+        "text": "Last winter our cat, Biscuit, disappeared. He always comes home for his dinner at six o'clock, so when he didn't appear, we started to worry.\n\nWe searched the garden and the street with torches, but by midnight we (1) ____ still not found him anywhere. The next day my sister made posters with his photo, and we put them on every lamp post in the neighbourhood. Several people called, but none of the cats they had seen was Biscuit.\n\nBy Thursday, Biscuit had been missing (2) ____ Sunday evening, and we were starting to give (3) ____ hope. Then, at ten o'clock that night, our neighbour Mr Davies knocked on the door. He had been clearing out his garage and had heard a quiet noise behind some old paint tins.\n\nI ran next door as fast (4) ____ I could. There was Biscuit, dusty and (5) ____ thin that I hardly recognised him. He must have walked into the garage while the door was open and got trapped.\n\nIt wasn't (6) ____ he had eaten two bowls of food that he finally began to purr. Now we always check Mr Davies's garage first!",
         "passageId": "en-b1-p-lesen-t6-open-cloze-lost-cat-01-01",
         "questions": [
           {
             "id": "ql_en-b1-r-t6-open-cloze-lost-cat-01-q1",
             "type": "gap_fill",
             "question": "Write ONE word for gap (1).",
-            "correct": "able",
-            "correctAnswer": "able",
-            "explanation": "'Be able to' expresses ability, and in the past perfect it becomes 'had been able to': \"by midnight we still hadn't been able to find him anywhere\" means 'we couldn't find him'. Modals like 'can' cannot follow 'been'.",
+            "correct": "had",
+            "correctAnswer": "had",
+            "explanation": "By midnight points to a time in the past, so the past perfect is needed: \"by midnight we had still not found him anywhere\". Have would need a present time.",
             "grammarTags": [
               "g-en-b1-modals-ability"
             ],

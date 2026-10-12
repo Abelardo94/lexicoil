@@ -1,0 +1,198 @@
+{
+  "passages": [
+    {
+      "id": "en-b1-p-lesen-t3-long-climate-student-01-01",
+      "module": "lesen",
+      "title": "312 bottles: how our school changed",
+      "text": "Amara Okafor, fifteen, explains how her school cut its plastic waste.\n\nLast year I counted the plastic bottles in the bins at my school in Plymouth. It took me a whole lunch break. In one day there were 312 bottles, and almost none of them were recycled. That number shocked me so much that it became the start of our project.\n\nAt first I tried to do everything alone. I put a cardboard box in the canteen with a sign: “Bottles here, please”. After a week the box was full of crisp packets, apple cores and chewing gum. I felt like giving up. My form tutor, Ms Hughes, had a different idea. “People don’t change because of a box,” she told me. “They change because their friends do.”\n\nSo I asked for volunteers. Six students from different year groups joined me, and we called ourselves the Green Team. Each of us talked to our own class about what we had found. We also made a short film about the bottles and showed it in assembly. The younger students loved it, but some older ones laughed at us. That was hard. For a few days I felt quite embarrassed in the corridors.\n\nNext we needed proper recycling bins. The head teacher liked the idea, but there was no money for them. We organised a cake sale and a sponsored walk along the coast. Together they raised £650, enough for ten bins. A local company that collects rubbish agreed to empty them for free every week.\n\nThe bins helped, but the biggest change came from the water fountains. Two fountains in the school had been broken for months. We wrote a letter to the head teacher, and they were repaired. We also sold metal water bottles with the school badge on them. Now most students fill up their own bottle. They no longer buy a new one every day.\n\nThis year we counted again. On an average day there are fewer than forty plastic bottles, and nearly all of them go into the recycling bins. Other schools in the city have asked us for advice. In May we even gave a talk at a meeting for local teachers.\n\nPeople often ask me about the lessons of the project. For me, the people are more important than the numbers. A project like this needs a team. I am quite shy, and I could never speak in assembly on my own. Working with others gave me confidence. Next year I want to start on food waste. It will be harder, but I am not worried because our team is bigger now.",
+      "passageVocab": [
+        "recycle",
+        "volunteer",
+        "raise",
+        "fountain",
+        "waste"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "en-b1-r-t3-long-climate-student-01-q1",
+      "module": "lesen",
+      "teil": 3,
+      "type": "multiple_choice",
+      "passageId": "en-b1-p-lesen-t3-long-climate-student-01-01",
+      "question": "What did Ms Hughes think about the cardboard box?",
+      "options": [
+        "a) It would not change habits on its own.",
+        "b) It just needed a little more time.",
+        "c) It needed a clearer sign on it.",
+        "d) It should be in a different place."
+      ],
+      "correct": "a",
+      "correctAnswer": "a",
+      "explanation": "Ms Hughes said: \"People don’t change because of a box. They change because their friends do.\" She did not talk about the sign, the place or the time; her idea was that people follow their friends.",
+      "grammarTags": [
+        "g-en-b1-past-simple"
+      ],
+      "topicTags": [
+        "environment"
+      ],
+      "vocabularyTags": [
+        "canteen",
+        "form tutor",
+        "habit"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-r-t3-long-climate-student-01-q2",
+      "module": "lesen",
+      "teil": 3,
+      "type": "multiple_choice",
+      "passageId": "en-b1-p-lesen-t3-long-climate-student-01-01",
+      "question": "What does Amara say was difficult about the film in assembly?",
+      "options": [
+        "a) The younger students did not understand it.",
+        "b) Some older students made fun of the team.",
+        "c) Nobody wanted to join the team after seeing it.",
+        "d) It took the team a very long time to make."
+      ],
+      "correct": "b",
+      "correctAnswer": "b",
+      "explanation": "Amara writes: \"some older ones laughed at us. That was hard.\" The younger students \"loved it\", and the volunteers joined the team before the film.",
+      "grammarTags": [
+        "g-en-b1-past-simple"
+      ],
+      "topicTags": [
+        "environment"
+      ],
+      "vocabularyTags": [
+        "assembly",
+        "embarrassed",
+        "volunteer"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-r-t3-long-climate-student-01-q3",
+      "module": "lesen",
+      "teil": 3,
+      "type": "multiple_choice",
+      "passageId": "en-b1-p-lesen-t3-long-climate-student-01-01",
+      "question": "How did the school get its recycling bins?",
+      "options": [
+        "a) The head teacher paid for them from the school budget.",
+        "b) A local company gave them to the school for free.",
+        "c) The city council sent them after a letter from the team.",
+        "d) The students raised the money themselves."
+      ],
+      "correct": "d",
+      "correctAnswer": "d",
+      "explanation": "The team \"organised a cake sale and a sponsored walk\" which \"raised £650, enough for ten bins.\" The head teacher had \"no money\", and the local company only empties the bins for free; it did not give them.",
+      "grammarTags": [
+        "g-en-b1-past-simple"
+      ],
+      "topicTags": [
+        "environment"
+      ],
+      "vocabularyTags": [
+        "raise money",
+        "sponsored walk",
+        "bin"
+      ],
+      "difficulty": 5,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-r-t3-long-climate-student-01-q4",
+      "module": "lesen",
+      "teil": 3,
+      "type": "multiple_choice",
+      "passageId": "en-b1-p-lesen-t3-long-climate-student-01-01",
+      "question": "What made the biggest difference to the number of plastic bottles?",
+      "options": [
+        "a) The canteen stopped selling drinks in plastic.",
+        "b) Other schools in the city joined the project.",
+        "c) Students began to refill their own bottles.",
+        "d) The recycling bins were emptied more often."
+      ],
+      "correct": "c",
+      "correctAnswer": "c",
+      "explanation": "\"The biggest change came from the water fountains\": now \"most students fill up their own bottle.\" The bins only \"helped\", and other schools asked for advice but did not join the project.",
+      "grammarTags": [
+        "g-en-b1-superlatives"
+      ],
+      "topicTags": [
+        "environment"
+      ],
+      "vocabularyTags": [
+        "fountain",
+        "refill",
+        "badge"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-r-t3-long-climate-student-01-q5",
+      "module": "lesen",
+      "teil": 3,
+      "type": "multiple_choice",
+      "passageId": "en-b1-p-lesen-t3-long-climate-student-01-01",
+      "question": "What is Amara’s main point in the last paragraph?",
+      "options": [
+        "a) Working with a team mattered more than the results.",
+        "b) Food waste will be easier to deal with than bottles.",
+        "c) The new figures prove the project was a success.",
+        "d) Being shy made it hard for her to lead the project."
+      ],
+      "correct": "a",
+      "correctAnswer": "a",
+      "explanation": "Amara says: \"the people are more important than the numbers\" and \"Working with others gave me confidence.\" She says food waste \"will be harder\", and her shyness was not a problem because she had a team.",
+      "grammarTags": [
+        "g-en-b1-comparatives"
+      ],
+      "topicTags": [
+        "environment"
+      ],
+      "vocabularyTags": [
+        "confidence",
+        "shy",
+        "waste"
+      ],
+      "difficulty": 6,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    }
+  ],
+  "_germanCapsNormalizeVersion": "v3.23-lesen-t2-angebote-corpus-2026-07-28",
+  "_germanCapsNormalizedAt": "2026-10-12T19:17:34.598Z",
+  "_balanceMcqVersion": "v1.2-no-rf-chrono-shuffle-2026-07-11",
+  "_balanceMcqNormalizedAt": "2026-10-12T19:17:34.598Z"
+}

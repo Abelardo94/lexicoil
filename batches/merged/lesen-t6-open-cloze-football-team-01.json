@@ -1,0 +1,191 @@
+{
+  "passages": [
+    {
+      "id": "en-b1-p-lesen-t6-open-cloze-football-team-01-01",
+      "module": "lesen",
+      "title": "The Riverside Rovers",
+      "text": "My family moved to Leeds last year, and I knew nobody there. My dad suggested joining a local football team. The Riverside Rovers had a terrible reputation: the season before, they had lost (1) ______ single match. I joined anyway. The coach, a retired PE teacher called Mr Okafor, believed that hard work mattered more than talent. In my first training session he spent an hour teaching us (2) ______ to pass the ball without looking at our feet. He also made us promise never to let the rest of the team (3) ______ by missing training without a good reason. Slowly, things began to improve. Nobody missed a single session all winter, (4) ______ though the weather was often freezing. In our last match of the season we played the team that had beaten us 7–0 in September. At half-time we (5) ______ losing 2–0, and I thought nothing had changed. But in the second half we scored three goals in twenty minutes. When the final whistle blew, we ran to hug each (6) ______, laughing and shouting. Joining the Rovers was the best way to make friends in a new city.",
+      "passageVocab": [
+        "coach",
+        "training",
+        "half-time",
+        "whistle",
+        "season"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "en-b1-r-t6-open-cloze-football-team-01-q1",
+      "module": "lesen",
+      "teil": 6,
+      "type": "gap_fill",
+      "question": "Write ONE word that fits gap (1).",
+      "correct": "every",
+      "correctAnswer": "every",
+      "explanation": "Every single means all, one by one, and stresses how bad the results were: \"they had lost every single match\". This matches \"a terrible reputation\".",
+      "options": [],
+      "grammarTags": [
+        "g-en-b1-quantifiers"
+      ],
+      "topicTags": [
+        "sport"
+      ],
+      "vocabularyTags": [
+        "match"
+      ],
+      "difficulty": 4,
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge",
+      "skills": [
+        "reading"
+      ],
+      "passageId": "en-b1-p-lesen-t6-open-cloze-football-team-01-01"
+    },
+    {
+      "id": "en-b1-r-t6-open-cloze-football-team-01-q2",
+      "module": "lesen",
+      "teil": 6,
+      "type": "gap_fill",
+      "question": "Write ONE word that fits gap (2).",
+      "correct": "how",
+      "correctAnswer": "how",
+      "explanation": "Teach someone how to do something describes a method: \"teaching us how to pass the ball without looking at our feet\". The words without looking describe the way of passing, so how is needed.",
+      "options": [],
+      "grammarTags": [
+        "g-en-b1-question-words"
+      ],
+      "topicTags": [
+        "sport"
+      ],
+      "vocabularyTags": [
+        "pass"
+      ],
+      "difficulty": 4,
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge",
+      "skills": [
+        "reading"
+      ],
+      "passageId": "en-b1-p-lesen-t6-open-cloze-football-team-01-01"
+    },
+    {
+      "id": "en-b1-r-t6-open-cloze-football-team-01-q3",
+      "module": "lesen",
+      "teil": 6,
+      "type": "gap_fill",
+      "question": "Write ONE word that fits gap (3).",
+      "correct": "down",
+      "correctAnswer": "down",
+      "explanation": "Let someone down means disappoint them: \"never to let the rest of the team down by missing training\". No other particle gives this meaning.",
+      "options": [],
+      "grammarTags": [
+        "g-en-b1-phrasal-verbs"
+      ],
+      "topicTags": [
+        "sport"
+      ],
+      "vocabularyTags": [
+        "let down"
+      ],
+      "difficulty": 4,
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge",
+      "skills": [
+        "reading"
+      ],
+      "passageId": "en-b1-p-lesen-t6-open-cloze-football-team-01-01"
+    },
+    {
+      "id": "en-b1-r-t6-open-cloze-football-team-01-q4",
+      "module": "lesen",
+      "teil": 6,
+      "type": "gap_fill",
+      "question": "Write ONE word that fits gap (4).",
+      "correct": "even",
+      "correctAnswer": "even",
+      "explanation": "Even though means although, and makes the contrast stronger: nobody missed a session \"even though the weather was often freezing\". Only even goes before though here.",
+      "options": [],
+      "grammarTags": [
+        "g-en-b1-linking-words"
+      ],
+      "topicTags": [
+        "sport"
+      ],
+      "vocabularyTags": [
+        "freezing"
+      ],
+      "difficulty": 5,
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge",
+      "skills": [
+        "reading"
+      ],
+      "passageId": "en-b1-p-lesen-t6-open-cloze-football-team-01-01"
+    },
+    {
+      "id": "en-b1-r-t6-open-cloze-football-team-01-q5",
+      "module": "lesen",
+      "teil": 6,
+      "type": "gap_fill",
+      "question": "Write ONE word that fits gap (5).",
+      "correct": "were",
+      "correctAnswer": "were",
+      "explanation": "The past continuous with we needs were: \"At half-time we were losing 2–0\". The story is in the past, so are is not possible.",
+      "options": [],
+      "grammarTags": [
+        "g-en-b1-past-continuous"
+      ],
+      "topicTags": [
+        "sport"
+      ],
+      "vocabularyTags": [
+        "half-time"
+      ],
+      "difficulty": 3,
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge",
+      "skills": [
+        "reading"
+      ],
+      "passageId": "en-b1-p-lesen-t6-open-cloze-football-team-01-01"
+    },
+    {
+      "id": "en-b1-r-t6-open-cloze-football-team-01-q6",
+      "module": "lesen",
+      "teil": 6,
+      "type": "gap_fill",
+      "question": "Write ONE word that fits gap (6).",
+      "correct": "other",
+      "correctAnswer": "other",
+      "explanation": "Each other shows that every player hugged the others: \"we ran to hug each other\". Only other completes the phrase.",
+      "options": [],
+      "grammarTags": [
+        "g-en-b1-reciprocal-pronouns"
+      ],
+      "topicTags": [
+        "sport"
+      ],
+      "vocabularyTags": [
+        "each other"
+      ],
+      "difficulty": 3,
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge",
+      "skills": [
+        "reading"
+      ],
+      "passageId": "en-b1-p-lesen-t6-open-cloze-football-team-01-01"
+    }
+  ],
+  "_germanCapsNormalizeVersion": "v3.23-lesen-t2-angebote-corpus-2026-07-28",
+  "_germanCapsNormalizedAt": "2026-10-12T19:49:02.162Z",
+  "_balanceMcqVersion": "v1.2-no-rf-chrono-shuffle-2026-07-11",
+  "_balanceMcqNormalizedAt": "2026-10-12T19:49:02.163Z"
+}

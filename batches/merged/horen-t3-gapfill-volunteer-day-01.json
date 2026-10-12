@@ -1,0 +1,216 @@
+{
+  "passages": [
+    {
+      "id": "en-b1-p-horen-t3-gapfill-volunteer-day-01-01",
+      "module": "horen",
+      "title": "River Wendle Clean-Up Day",
+      "text": "Woman: Hi everyone, I’m Ruth, and I’m organising this year’s River Wendle Clean-Up Day, which is happening on Sunday the fourteenth of May. Thanks for coming to this meeting. Let me tell you what you need to know.\n\nWe’ll all meet in the car park next to the old mill, at the bottom of Station Road. Please don’t go to the bridge in the town centre. That’s where we met last year, but there’s building work there at the moment.\n\nThe poster says we’re starting at ten o’clock, but that was a mistake, I’m afraid. We’ll actually start at half past nine, so please try to arrive a few minutes before that.\n\nAs for equipment, we’ll give everyone rubbish bags and litter pickers, those long grabbers, so you won’t need to bring those. What you do need to bring is a pair of gloves. Strong ones, please, because there can be broken glass near the water. And wear old clothes, as you’re going to get muddy.\n\nYou might be wondering what we find. Mostly it’s plastic bottles and cans, of course, and every year there are a couple of shopping trolleys. But the strangest thing we pulled out last year was a guitar. It was in surprisingly good condition, actually!\n\nAt about one o’clock we’ll stop for lunch. The café by the river has closed down, unfortunately, but a local bakery has kindly offered to bring sandwiches and cakes for everyone, free of charge.\n\nFinally, families are very welcome. Children aged fourteen and over can come on their own, but anyone under fourteen must be with an adult. Last year the age was twelve, but we’ve changed it because some parts of the riverbank are quite steep.\n\nIf you have any questions, you can find me after the meeting. See you on the fourteenth!",
+      "passageVocab": [
+        "volunteer",
+        "litter",
+        "riverbank",
+        "equipment",
+        "muddy"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "en-b1-h-t3-gapfill-volunteer-day-01-q1",
+      "module": "horen",
+      "teil": 3,
+      "type": "gap_fill",
+      "question": "Meeting point: the car park next to the ____",
+      "correct": "old mill",
+      "correctAnswer": "old mill",
+      "acceptedAnswers": [
+        "mill"
+      ],
+      "explanation": "\"We’ll all meet in the car park next to the old mill\". The bridge in the town centre was last year’s meeting place.",
+      "options": [],
+      "passageId": "en-b1-p-horen-t3-gapfill-volunteer-day-01-01",
+      "grammarTags": [
+        "g-en-b1-prepositions-of-place"
+      ],
+      "topicTags": [
+        "environment"
+      ],
+      "vocabularyTags": [
+        "places",
+        "directions"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-h-t3-gapfill-volunteer-day-01-q2",
+      "module": "horen",
+      "teil": 3,
+      "type": "gap_fill",
+      "question": "Start time: ____",
+      "correct": "9.30",
+      "correctAnswer": "9.30",
+      "acceptedAnswers": [
+        "9:30",
+        "half past nine",
+        "nine thirty",
+        "9.30 am",
+        "9:30 am",
+        "9.30am",
+        "9:30am"
+      ],
+      "explanation": "The poster says ten o’clock, but \"that was a mistake\": \"We’ll actually start at half past nine\".",
+      "options": [],
+      "passageId": "en-b1-p-horen-t3-gapfill-volunteer-day-01-01",
+      "grammarTags": [
+        "g-en-b1-time"
+      ],
+      "topicTags": [
+        "environment"
+      ],
+      "vocabularyTags": [
+        "time",
+        "numbers"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-h-t3-gapfill-volunteer-day-01-q3",
+      "module": "horen",
+      "teil": 3,
+      "type": "gap_fill",
+      "question": "Volunteers must bring their own ____.",
+      "correct": "gloves",
+      "correctAnswer": "gloves",
+      "acceptedAnswers": [
+        "pair of gloves",
+        "a pair of gloves"
+      ],
+      "explanation": "Bags and litter pickers are given out, \"so you won’t need to bring those. What you do need to bring is a pair of gloves.\"",
+      "options": [],
+      "passageId": "en-b1-p-horen-t3-gapfill-volunteer-day-01-01",
+      "grammarTags": [
+        "g-en-b1-need-to"
+      ],
+      "topicTags": [
+        "environment"
+      ],
+      "vocabularyTags": [
+        "clothes",
+        "equipment"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-h-t3-gapfill-volunteer-day-01-q4",
+      "module": "horen",
+      "teil": 3,
+      "type": "gap_fill",
+      "question": "Strangest thing found in the river last year: a ____",
+      "correct": "guitar",
+      "correctAnswer": "guitar",
+      "explanation": "Bottles, cans and shopping trolleys are found every year, \"But the strangest thing we pulled out last year was a guitar.\"",
+      "options": [],
+      "passageId": "en-b1-p-horen-t3-gapfill-volunteer-day-01-01",
+      "grammarTags": [
+        "g-en-b1-superlatives"
+      ],
+      "topicTags": [
+        "environment"
+      ],
+      "vocabularyTags": [
+        "objects",
+        "music"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-h-t3-gapfill-volunteer-day-01-q5",
+      "module": "horen",
+      "teil": 3,
+      "type": "gap_fill",
+      "question": "Free lunch will be brought by a local ____.",
+      "correct": "bakery",
+      "correctAnswer": "bakery",
+      "explanation": "\"The café by the river has closed down … but a local bakery has kindly offered to bring sandwiches and cakes\".",
+      "options": [],
+      "passageId": "en-b1-p-horen-t3-gapfill-volunteer-day-01-01",
+      "grammarTags": [
+        "g-en-b1-present-perfect"
+      ],
+      "topicTags": [
+        "environment"
+      ],
+      "vocabularyTags": [
+        "food",
+        "shops"
+      ],
+      "difficulty": 5,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-h-t3-gapfill-volunteer-day-01-q6",
+      "module": "horen",
+      "teil": 3,
+      "type": "gap_fill",
+      "question": "Children under ____ must come with an adult.",
+      "correct": "14",
+      "correctAnswer": "14",
+      "acceptedAnswers": [
+        "fourteen"
+      ],
+      "explanation": "\"Anyone under fourteen must be with an adult.\" Twelve was the age \"last year\".",
+      "options": [],
+      "passageId": "en-b1-p-horen-t3-gapfill-volunteer-day-01-01",
+      "grammarTags": [
+        "g-en-b1-modals"
+      ],
+      "topicTags": [
+        "environment"
+      ],
+      "vocabularyTags": [
+        "age",
+        "family"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    }
+  ],
+  "_germanCapsNormalizeVersion": "v3.23-lesen-t2-angebote-corpus-2026-07-28",
+  "_germanCapsNormalizedAt": "2026-10-12T19:15:53.448Z",
+  "_balanceMcqVersion": "v1.2-no-rf-chrono-shuffle-2026-07-11",
+  "_balanceMcqNormalizedAt": "2026-10-12T19:15:53.448Z"
+}

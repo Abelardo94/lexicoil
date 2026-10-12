@@ -1,0 +1,298 @@
+{
+  "passages": [
+    {
+      "id": "en-b1-p-horen-t4-interview-recycling-business-01-01",
+      "module": "horen",
+      "title": "Interview with a young business owner",
+      "text": "Interviewer: My guest today is Aisha Bello, who’s just twenty-three and runs her own recycling business in Leeds. Aisha, tell us what you do.\n\nAisha: We collect old jeans from charity shops, from people’s wardrobes, from anywhere really, and turn them into bags, cushions and pencil cases. Last year we saved about four tonnes of denim from going to the rubbish tip.\n\nInterviewer: How did the idea start?\n\nAisha: At university I shared a flat with three other students, and when we moved out, the amount of clothing we threw away shocked me. I’d always thought of myself as someone who cared about the environment, and suddenly I felt quite ashamed. That’s really what got me started. Making money didn’t come into it at first.\n\nInterviewer: Was it difficult to get going?\n\nAisha: The sewing wasn’t a problem. My grandmother taught me when I was small. The hard part was persuading shops to stock our products. Some of them said recycled things looked cheap. I had to keep going back with better and better samples, and eventually one shop in York said yes.\n\nInterviewer: You now have six people working for you. What’s that like?\n\nAisha: I love it, although being a boss was a big change. At first I tried to check everything myself, and I was exhausted. Now I trust the team to make their own decisions, and honestly, they often have better ideas than I do.\n\nInterviewer: Your bags aren’t cheap, are they?\n\nAisha: No, and I won’t pretend they are. Every one is made by hand here in Leeds, and we pay our staff properly. Some customers do complain, but most of them understand that if you want something made fairly, it’s going to cost a bit more.\n\nInterviewer: Some people say small recycling businesses can’t really make a difference. What do you think?\n\nAisha: I understand why they say it. One small company won’t save the planet. But I think we do something important by showing people that old things can be beautiful. When customers see what we make, they start looking at their own clothes differently, and that matters more than the tonnes we collect.\n\nInterviewer: And what’s next for you?\n\nAisha: People keep telling me to open a big factory, but I’m not interested in growing too fast. I’d rather stay small and do things properly. What I would like is to run workshops in schools, so that children can learn to repair their own clothes.\n\nInterviewer: Aisha Bello, thanks for talking to us.",
+      "passageVocab": [
+        "recycle",
+        "denim",
+        "environment",
+        "persuade",
+        "repair"
+      ],
+      "audio": [
+        {
+          "speaker": "Interviewer",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "My guest today is Aisha Bello, who’s just twenty-three and runs her own recycling business in Leeds. Aisha, tell us what you do."
+        },
+        {
+          "speaker": "Aisha",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "We collect old jeans from charity shops, from people’s wardrobes, from anywhere really, and turn them into bags, cushions and pencil cases. Last year we saved about four tonnes of denim from going to the rubbish tip."
+        },
+        {
+          "speaker": "Interviewer",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "How did the idea start?"
+        },
+        {
+          "speaker": "Aisha",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "At university I shared a flat with three other students, and when we moved out, the amount of clothing we threw away shocked me. I’d always thought of myself as someone who cared about the environment, and suddenly I felt quite ashamed. That’s really what got me started. Making money didn’t come into it at first."
+        },
+        {
+          "speaker": "Interviewer",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Was it difficult to get going?"
+        },
+        {
+          "speaker": "Aisha",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "The sewing wasn’t a problem. My grandmother taught me when I was small. The hard part was persuading shops to stock our products. Some of them said recycled things looked cheap. I had to keep going back with better and better samples, and eventually one shop in York said yes."
+        },
+        {
+          "speaker": "Interviewer",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "You now have six people working for you. What’s that like?"
+        },
+        {
+          "speaker": "Aisha",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "I love it, although being a boss was a big change. At first I tried to check everything myself, and I was exhausted. Now I trust the team to make their own decisions, and honestly, they often have better ideas than I do."
+        },
+        {
+          "speaker": "Interviewer",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Your bags aren’t cheap, are they?"
+        },
+        {
+          "speaker": "Aisha",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "No, and I won’t pretend they are. Every one is made by hand here in Leeds, and we pay our staff properly. Some customers do complain, but most of them understand that if you want something made fairly, it’s going to cost a bit more."
+        },
+        {
+          "speaker": "Interviewer",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Some people say small recycling businesses can’t really make a difference. What do you think?"
+        },
+        {
+          "speaker": "Aisha",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "I understand why they say it. One small company won’t save the planet. But I think we do something important by showing people that old things can be beautiful. When customers see what we make, they start looking at their own clothes differently, and that matters more than the tonnes we collect."
+        },
+        {
+          "speaker": "Interviewer",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "And what’s next for you?"
+        },
+        {
+          "speaker": "Aisha",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "People keep telling me to open a big factory, but I’m not interested in growing too fast. I’d rather stay small and do things properly. What I would like is to run workshops in schools, so that children can learn to repair their own clothes."
+        },
+        {
+          "speaker": "Interviewer",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Aisha Bello, thanks for talking to us."
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "en-b1-h-t4-interview-recycling-business-01-q1",
+      "module": "horen",
+      "teil": 4,
+      "type": "multiple_choice",
+      "question": "Why did Aisha start her business?",
+      "options": [
+        "a) She felt bad about wasted clothes.",
+        "b) She saw a chance to make a lot of money.",
+        "c) Her flatmates asked her to help them."
+      ],
+      "correct": "a",
+      "correctAnswer": "a",
+      "explanation": "The clothing they threw away \"shocked me\" and \"I felt quite ashamed. That’s really what got me started.\" Money was not the reason: \"Making money didn’t come into it at first.\"",
+      "passageId": "en-b1-p-horen-t4-interview-recycling-business-01-01",
+      "grammarTags": [
+        "g-en-b1-past-perfect"
+      ],
+      "topicTags": [
+        "environment"
+      ],
+      "vocabularyTags": [
+        "feelings",
+        "clothes"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-h-t4-interview-recycling-business-01-q2",
+      "module": "horen",
+      "teil": 4,
+      "type": "multiple_choice",
+      "question": "What was most difficult for Aisha at the beginning?",
+      "options": [
+        "a) Learning how to sew well enough",
+        "b) Finding enough old jeans to work with",
+        "c) Getting shops to sell what she made"
+      ],
+      "correct": "c",
+      "correctAnswer": "c",
+      "explanation": "\"The hard part was persuading shops to stock our products.\" Sewing was easy for her: \"The sewing wasn’t a problem. My grandmother taught me\".",
+      "passageId": "en-b1-p-horen-t4-interview-recycling-business-01-01",
+      "grammarTags": [
+        "g-en-b1-gerunds"
+      ],
+      "topicTags": [
+        "environment"
+      ],
+      "vocabularyTags": [
+        "business",
+        "shopping"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-h-t4-interview-recycling-business-01-q3",
+      "module": "horen",
+      "teil": 4,
+      "type": "multiple_choice",
+      "question": "How does Aisha feel about being a boss now?",
+      "options": [
+        "a) She still prefers to check all the work herself.",
+        "b) She is happy to let her team make decisions.",
+        "c) She would rather go back to working alone."
+      ],
+      "correct": "b",
+      "correctAnswer": "b",
+      "explanation": "\"Now I trust the team to make their own decisions\". Checking everything herself was what she did \"at first\", and she says \"I love it\", so she does not want to work alone.",
+      "passageId": "en-b1-p-horen-t4-interview-recycling-business-01-01",
+      "grammarTags": [
+        "g-en-b1-present-simple-vs-past"
+      ],
+      "topicTags": [
+        "environment"
+      ],
+      "vocabularyTags": [
+        "work",
+        "feelings"
+      ],
+      "difficulty": 5,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-h-t4-interview-recycling-business-01-q4",
+      "module": "horen",
+      "teil": 4,
+      "type": "multiple_choice",
+      "question": "What is Aisha’s opinion about the price of her bags?",
+      "options": [
+        "a) It is fair because of how they are made.",
+        "b) It should be lower so more people can buy them.",
+        "c) It is the reason why some shops refuse them."
+      ],
+      "correct": "a",
+      "correctAnswer": "a",
+      "explanation": "They are \"made by hand\" and \"we pay our staff properly\", so \"if you want something made fairly, it’s going to cost a bit more.\" She does not want to lower the price, and shops refused her products because they \"looked cheap\", not because of the price.",
+      "passageId": "en-b1-p-horen-t4-interview-recycling-business-01-01",
+      "grammarTags": [
+        "g-en-b1-first-conditional"
+      ],
+      "topicTags": [
+        "environment"
+      ],
+      "vocabularyTags": [
+        "money",
+        "shopping"
+      ],
+      "difficulty": 5,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-h-t4-interview-recycling-business-01-q5",
+      "module": "horen",
+      "teil": 4,
+      "type": "multiple_choice",
+      "question": "What does Aisha think is the most important thing her business does?",
+      "options": [
+        "a) It gives jobs to young people in Leeds.",
+        "b) It stops tonnes of denim being thrown away.",
+        "c) It changes the way people see old things."
+      ],
+      "correct": "c",
+      "correctAnswer": "c",
+      "explanation": "Customers \"start looking at their own clothes differently, and that matters more than the tonnes we collect.\" So the denim saved is less important to her.",
+      "passageId": "en-b1-p-horen-t4-interview-recycling-business-01-01",
+      "grammarTags": [
+        "g-en-b1-comparatives"
+      ],
+      "topicTags": [
+        "environment"
+      ],
+      "vocabularyTags": [
+        "environment",
+        "opinions"
+      ],
+      "difficulty": 6,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-h-t4-interview-recycling-business-01-q6",
+      "module": "horen",
+      "teil": 4,
+      "type": "multiple_choice",
+      "question": "What does Aisha want to do in the future?",
+      "options": [
+        "a) Sell her products in other countries",
+        "b) Teach children to mend clothes",
+        "c) Open a large factory near Leeds"
+      ],
+      "correct": "b",
+      "correctAnswer": "b",
+      "explanation": "\"What I would like is to run workshops in schools, so that children can learn to repair their own clothes.\" She is \"not interested\" in a big factory.",
+      "passageId": "en-b1-p-horen-t4-interview-recycling-business-01-01",
+      "grammarTags": [
+        "g-en-b1-would-rather"
+      ],
+      "topicTags": [
+        "environment"
+      ],
+      "vocabularyTags": [
+        "plans",
+        "education"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    }
+  ],
+  "_germanCapsNormalizeVersion": "v3.23-lesen-t2-angebote-corpus-2026-07-28",
+  "_germanCapsNormalizedAt": "2026-10-12T19:15:54.083Z",
+  "_balanceMcqVersion": "v1.2-no-rf-chrono-shuffle-2026-07-11",
+  "_balanceMcqNormalizedAt": "2026-10-12T19:15:54.083Z"
+}

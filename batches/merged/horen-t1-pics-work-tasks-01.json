@@ -1,0 +1,339 @@
+{
+  "passages": [
+    {
+      "id": "en-b1-p-horen-t1-pics-work-tasks-01-01",
+      "module": "horen",
+      "title": "Recording 1",
+      "text": "Woman: Good morning, Tom. I know you usually start by checking the emails, but can you leave them until later today? The delivery’s coming at ten, and the storeroom’s in a terrible mess. Could you sort that out first?\nMan: Of course. And what about Mrs Green? She wanted someone to call her back.\nWoman: Don’t worry, I’ll phone her myself.",
+      "passageVocab": [
+        "delivery",
+        "storeroom",
+        "sort out",
+        "call back"
+      ]
+    },
+    {
+      "id": "en-b1-p-horen-t1-pics-work-tasks-01-02",
+      "module": "horen",
+      "title": "Recording 2",
+      "text": "Man: Is the team meeting still in Meeting Room Two this afternoon?\nWoman: No, there’s a problem with the heating in there. It’s freezing.\nMan: We could go to the café downstairs.\nWoman: It’s too noisy. Let’s use the staff kitchen. There’s a big table, and nobody uses it after lunch.\nMan: OK, I’ll tell everyone.",
+      "passageVocab": [
+        "meeting",
+        "heating",
+        "freezing",
+        "staff kitchen"
+      ]
+    },
+    {
+      "id": "en-b1-p-horen-t1-pics-work-tasks-01-03",
+      "module": "horen",
+      "title": "Recording 3",
+      "text": "Man: I heard you’ve left the hospital.\nWoman: Yes. After eight years as a nurse, I wanted a change. I thought about teaching, but you need another year of training for that.\nMan: So what are you doing now?\nWoman: I’m working on reception at the Park Hotel. I love meeting people from all over the world.",
+      "passageVocab": [
+        "nurse",
+        "training",
+        "reception",
+        "change"
+      ]
+    },
+    {
+      "id": "en-b1-p-horen-t1-pics-work-tasks-01-04",
+      "module": "horen",
+      "title": "Recording 4",
+      "text": "Woman: Are you on the afternoon shift again next week, Dan?\nMan: No. I’ve been doing two o’clock starts for a month now, so they’ve moved me. Next week I’m on the early shift.\nWoman: Eight o’clock? That’s not too bad.\nMan: I wish! The early shift starts at six now. I’ll have to get up at five.",
+      "passageVocab": [
+        "shift",
+        "early",
+        "move",
+        "get up"
+      ]
+    },
+    {
+      "id": "en-b1-p-horen-t1-pics-work-tasks-01-05",
+      "module": "horen",
+      "title": "Recording 5",
+      "text": "Woman: Hi, are you the engineer? The printer on this floor isn’t working.\nMan: Actually, I’m here for the photocopier. Your office manager called us this morning.\nWoman: Oh, the photocopier? I didn’t know that was broken too.\nMan: Yes, it’s making a strange noise, apparently. I’m afraid I don’t do printers. You’ll need to call a different company for that.\nWoman: And I don’t suppose you can do anything about the coffee machine either!",
+      "passageVocab": [
+        "engineer",
+        "photocopier",
+        "apparently",
+        "printer"
+      ]
+    },
+    {
+      "id": "en-b1-p-horen-t1-pics-work-tasks-01-06",
+      "module": "horen",
+      "title": "Recording 6",
+      "text": "Man: So, we’ll see you on Monday at nine. Have you got everything you need?\nWoman: I think so. Do I need to bring my passport?\nMan: No, we saw that at the interview. And we’ll take your photo for your ID card here. But we haven’t got your bank details yet, so please bring those, or we can’t pay you!\nWoman: Of course. I’ll bring them with me.",
+      "passageVocab": [
+        "passport",
+        "interview",
+        "ID card",
+        "bank details"
+      ]
+    },
+    {
+      "id": "en-b1-p-horen-t1-pics-work-tasks-01-07",
+      "module": "horen",
+      "title": "Recording 7",
+      "text": "Man: What’s it like working at the park?\nWoman: It’s great. In summer I spend most of the day cutting the grass, which gets a bit boring. Sometimes visitors stop and ask me questions, and that’s nice. But the best part is in autumn, when we plant new trees. It’s hard work, but I know they’ll still be there in a hundred years.",
+      "passageVocab": [
+        "cut the grass",
+        "visitor",
+        "plant",
+        "autumn"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "en-b1-h-t1-pics-work-tasks-01-s1-q1",
+      "module": "horen",
+      "teil": 1,
+      "type": "multiple_choice",
+      "question": "What does the woman ask Tom to do first?",
+      "options": [
+        "a) answer the emails",
+        "b) tidy the storeroom",
+        "c) phone a customer"
+      ],
+      "correct": "b",
+      "correctAnswer": "b",
+      "explanation": "The woman says \"the storeroom’s in a terrible mess. Could you sort that out first?\" She asks him to leave the emails \"until later today\", and she will phone Mrs Green \"myself\".",
+      "passageId": "en-b1-p-horen-t1-pics-work-tasks-01-01",
+      "grammarTags": [
+        "g-en-b1-requests"
+      ],
+      "topicTags": [
+        "work"
+      ],
+      "vocabularyTags": [
+        "storeroom",
+        "emails",
+        "customer"
+      ],
+      "difficulty": 3,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge",
+      "segmentLabel": "Aufnahme 1"
+    },
+    {
+      "id": "en-b1-h-t1-pics-work-tasks-01-s2-q1",
+      "module": "horen",
+      "teil": 1,
+      "type": "multiple_choice",
+      "question": "Where will the team meeting be?",
+      "options": [
+        "a) in the café downstairs",
+        "b) in the staff kitchen",
+        "c) in Meeting Room Two"
+      ],
+      "correct": "b",
+      "correctAnswer": "b",
+      "explanation": "The woman says \"Let’s use the staff kitchen\" and the man agrees. Meeting Room Two has \"a problem with the heating\", and the café is \"too noisy\".",
+      "passageId": "en-b1-p-horen-t1-pics-work-tasks-01-02",
+      "grammarTags": [
+        "g-en-b1-suggestions"
+      ],
+      "topicTags": [
+        "work"
+      ],
+      "vocabularyTags": [
+        "meeting",
+        "kitchen",
+        "café"
+      ],
+      "difficulty": 3,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge",
+      "segmentLabel": "Aufnahme 2"
+    },
+    {
+      "id": "en-b1-h-t1-pics-work-tasks-01-s3-q1",
+      "module": "horen",
+      "teil": 1,
+      "type": "multiple_choice",
+      "question": "Where does the woman work now?",
+      "options": [
+        "a) in a school",
+        "b) in a hotel",
+        "c) in a hospital"
+      ],
+      "correct": "b",
+      "correctAnswer": "b",
+      "explanation": "The woman says \"I’m working on reception at the Park Hotel\". She has \"left the hospital\", and she did not become a teacher because \"you need another year of training\".",
+      "passageId": "en-b1-p-horen-t1-pics-work-tasks-01-03",
+      "grammarTags": [
+        "g-en-b1-present-continuous"
+      ],
+      "topicTags": [
+        "work"
+      ],
+      "vocabularyTags": [
+        "hospital",
+        "hotel",
+        "reception"
+      ],
+      "difficulty": 3,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge",
+      "segmentLabel": "Aufnahme 3"
+    },
+    {
+      "id": "en-b1-h-t1-pics-work-tasks-01-s4-q1",
+      "module": "horen",
+      "teil": 1,
+      "type": "multiple_choice",
+      "question": "What time will Dan start work next week?",
+      "options": [
+        "a) at eight o’clock",
+        "b) at two o’clock",
+        "c) at six o’clock"
+      ],
+      "correct": "c",
+      "correctAnswer": "c",
+      "explanation": "Dan is on the early shift and says \"The early shift starts at six now\". The woman wrongly guesses eight o’clock, and two o’clock is the afternoon shift he has been doing.",
+      "passageId": "en-b1-p-horen-t1-pics-work-tasks-01-04",
+      "grammarTags": [
+        "g-en-b1-present-perfect-continuous"
+      ],
+      "topicTags": [
+        "work"
+      ],
+      "vocabularyTags": [
+        "shift",
+        "start",
+        "time"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge",
+      "segmentLabel": "Aufnahme 4"
+    },
+    {
+      "id": "en-b1-h-t1-pics-work-tasks-01-s5-q1",
+      "module": "horen",
+      "teil": 1,
+      "type": "multiple_choice",
+      "question": "What has the engineer come to repair?",
+      "options": [
+        "a) the photocopier",
+        "b) the coffee machine",
+        "c) the printer"
+      ],
+      "correct": "a",
+      "correctAnswer": "a",
+      "explanation": "The man says \"I’m here for the photocopier\". He says \"I don’t do printers\", and the woman only jokes about the coffee machine.",
+      "passageId": "en-b1-p-horen-t1-pics-work-tasks-01-05",
+      "grammarTags": [
+        "g-en-b1-present-perfect"
+      ],
+      "topicTags": [
+        "work"
+      ],
+      "vocabularyTags": [
+        "printer",
+        "photocopier",
+        "coffee machine"
+      ],
+      "difficulty": 3,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge",
+      "segmentLabel": "Aufnahme 5"
+    },
+    {
+      "id": "en-b1-h-t1-pics-work-tasks-01-s6-q1",
+      "module": "horen",
+      "teil": 1,
+      "type": "multiple_choice",
+      "question": "What must the woman bring on her first day?",
+      "options": [
+        "a) her bank details",
+        "b) her passport",
+        "c) a photo of herself"
+      ],
+      "correct": "a",
+      "correctAnswer": "a",
+      "explanation": "The man says \"we haven’t got your bank details yet, so please bring those\". They saw her passport \"at the interview\", and they will take her photo themselves.",
+      "passageId": "en-b1-p-horen-t1-pics-work-tasks-01-06",
+      "grammarTags": [
+        "g-en-b1-modals-obligation"
+      ],
+      "topicTags": [
+        "work"
+      ],
+      "vocabularyTags": [
+        "passport",
+        "photo",
+        "bank details"
+      ],
+      "difficulty": 3,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge",
+      "segmentLabel": "Aufnahme 6"
+    },
+    {
+      "id": "en-b1-h-t1-pics-work-tasks-01-s7-q1",
+      "module": "horen",
+      "teil": 1,
+      "type": "multiple_choice",
+      "question": "Which part of her job does the woman enjoy most?",
+      "options": [
+        "a) cutting the grass",
+        "b) talking to visitors",
+        "c) planting trees"
+      ],
+      "correct": "c",
+      "correctAnswer": "c",
+      "explanation": "She says \"the best part is in autumn, when we plant new trees\". Cutting the grass \"gets a bit boring\", and talking to visitors is only \"nice\".",
+      "passageId": "en-b1-p-horen-t1-pics-work-tasks-01-07",
+      "grammarTags": [
+        "g-en-b1-comparatives-superlatives"
+      ],
+      "topicTags": [
+        "work"
+      ],
+      "vocabularyTags": [
+        "plant",
+        "grass",
+        "visitor"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge",
+      "segmentLabel": "Aufnahme 7"
+    }
+  ],
+  "_germanCapsNormalizeVersion": "v3.23-lesen-t2-angebote-corpus-2026-07-28",
+  "_germanCapsNormalizedAt": "2026-10-12T19:15:52.971Z",
+  "_balanceMcqVersion": "v1.2-no-rf-chrono-shuffle-2026-07-11",
+  "_balanceMcqNormalizedAt": "2026-10-12T19:15:52.971Z"
+}

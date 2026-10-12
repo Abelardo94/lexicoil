@@ -1,0 +1,286 @@
+{
+  "passages": [
+    {
+      "id": "en-b1-p-horen-t2-gist-pets-01-01",
+      "module": "horen",
+      "title": "Dialogue 1",
+      "text": "Man: I thought you wanted a kitten.\nWoman: So did I! The rescue centre had lots of them. But the staff told me kittens are full of energy and climb all over the furniture. I work from home, and I need peace and quiet for that. Biscuit’s nine, and she just sleeps on the chair next to my desk all day.\nMan: Was she cheaper than a kitten?\nWoman: No, it was the same price, actually.",
+      "passageVocab": [
+        "kitten",
+        "rescue centre",
+        "energy",
+        "furniture"
+      ]
+    },
+    {
+      "id": "en-b1-p-horen-t2-gist-pets-01-02",
+      "module": "horen",
+      "title": "Dialogue 2",
+      "text": "Woman: How are the training classes going with Rocky?\nMan: Better than I hoped. I thought the trainer would just teach Rocky to sit, but really she teaches the owners. Most of the problems were my fault. I was giving him treats at the wrong time!\nWoman: Aren’t those classes expensive?\nMan: Twenty pounds each, but they’re worth it. And Rocky’s only one, so he learns fast.",
+      "passageVocab": [
+        "trainer",
+        "owner",
+        "treat",
+        "fault"
+      ]
+    },
+    {
+      "id": "en-b1-p-horen-t2-gist-pets-01-03",
+      "module": "horen",
+      "title": "Dialogue 3",
+      "text": "Woman: Well, what did you think of the wildlife park?\nMan: The animals looked healthy, and they had loads of space. Not like the old zoo in town.\nWoman: True. The keepers obviously care about them. But the café was a disaster. Twenty minutes for a sandwich!\nMan: I didn’t mind that. What I didn’t like was the price. Thirty pounds each is too much.\nWoman: Hmm, for a whole day out, I think it’s fair.",
+      "passageVocab": [
+        "wildlife park",
+        "healthy",
+        "keeper",
+        "disaster"
+      ]
+    },
+    {
+      "id": "en-b1-p-horen-t2-gist-pets-01-04",
+      "module": "horen",
+      "title": "Dialogue 4",
+      "text": "Woman: Every Saturday at the dog shelter? That’s kind of you.\nMan: It isn’t that kind, really. I’ve always wanted a dog, but pets aren’t allowed in my flat. This way I get to spend time with dogs without breaking the rules.\nWoman: And you must get fit, walking all those dogs.\nMan: I already run every day, so that’s not the point.\nWoman: Have you ever thought of working with animals?\nMan: Not seriously. I’m happy in my job.",
+      "passageVocab": [
+        "shelter",
+        "allow",
+        "rule",
+        "fit"
+      ]
+    },
+    {
+      "id": "en-b1-p-horen-t2-gist-pets-01-05",
+      "module": "horen",
+      "title": "Dialogue 5",
+      "text": "Man: How’s your daughter’s rabbit?\nWoman: Well, she begged for him for a year and promised she’d look after him. For the first month she did. Now guess who cleans the cage every Sunday?\nMan: You?\nWoman: Me! But the strange thing is, I don’t mind at all. I sit with him in the garden in the evenings, and he’s really become my rabbit too. I’m quite glad she wanted one.",
+      "passageVocab": [
+        "beg",
+        "promise",
+        "cage",
+        "look after"
+      ]
+    },
+    {
+      "id": "en-b1-p-horen-t2-gist-pets-01-06",
+      "module": "horen",
+      "title": "Dialogue 6",
+      "text": "Woman: Did you watch that programme about foxes last night?\nMan: I did. I used to think foxes were just a nuisance. One keeps opening our bins.\nWoman: Me too.\nMan: But I feel differently now. It showed how clever they are, and how hard it is for them to raise their cubs in a city. There was one sad bit when a cub got lost, but it found its mother in the end.\nWoman: I fell asleep before the end. It was an hour and a half!\nMan: I didn’t notice the time at all.",
+      "passageVocab": [
+        "fox",
+        "nuisance",
+        "clever",
+        "cub"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "en-b1-h-t2-gist-pets-01-q1",
+      "module": "horen",
+      "teil": 2,
+      "type": "multiple_choice",
+      "question": "You will hear a woman telling a friend about the cat she got from a rescue centre. Why did she choose an older cat?",
+      "options": [
+        "a) It cost less than a kitten.",
+        "b) There were no kittens left.",
+        "c) She wanted a quiet animal."
+      ],
+      "correct": "c",
+      "correctAnswer": "c",
+      "explanation": "Kittens are \"full of energy\", but she says \"I need peace and quiet\", and her cat \"just sleeps\" by her desk. It was \"the same price\", and the centre \"had lots of\" kittens.",
+      "passageId": "en-b1-p-horen-t2-gist-pets-01-01",
+      "grammarTags": [
+        "g-en-b1-reported-speech"
+      ],
+      "topicTags": [
+        "animals"
+      ],
+      "vocabularyTags": [
+        "cat",
+        "rescue centre",
+        "reason"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-h-t2-gist-pets-01-q2",
+      "module": "horen",
+      "teil": 2,
+      "type": "multiple_choice",
+      "question": "You will hear two friends talking about dog training classes. What does the man think of them?",
+      "options": [
+        "a) They cost more than they are worth.",
+        "b) He is learning a lot from them too.",
+        "c) His dog is too old to learn much."
+      ],
+      "correct": "b",
+      "correctAnswer": "b",
+      "explanation": "He says the trainer \"teaches the owners\" and \"Most of the problems were my fault\". The classes are \"worth it\", and Rocky is \"only one, so he learns fast\".",
+      "passageId": "en-b1-p-horen-t2-gist-pets-01-02",
+      "grammarTags": [
+        "g-en-b1-past-continuous"
+      ],
+      "topicTags": [
+        "animals"
+      ],
+      "vocabularyTags": [
+        "dog",
+        "training",
+        "opinion"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-h-t2-gist-pets-01-q3",
+      "module": "horen",
+      "teil": 2,
+      "type": "multiple_choice",
+      "question": "You will hear two friends talking about a day at a wildlife park. What do they agree about?",
+      "options": [
+        "a) The café was much too slow.",
+        "b) The animals were well cared for.",
+        "c) The entry tickets were too expensive."
+      ],
+      "correct": "b",
+      "correctAnswer": "b",
+      "explanation": "The man says the animals \"looked healthy\" and the woman answers \"True. The keepers obviously care about them\". She complains about the café, but he says \"I didn’t mind that\"; he thinks the price is \"too much\", but she thinks \"it’s fair\".",
+      "passageId": "en-b1-p-horen-t2-gist-pets-01-03",
+      "grammarTags": [
+        "g-en-b1-past-simple"
+      ],
+      "topicTags": [
+        "animals"
+      ],
+      "vocabularyTags": [
+        "wildlife park",
+        "zoo",
+        "agree"
+      ],
+      "difficulty": 5,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-h-t2-gist-pets-01-q4",
+      "module": "horen",
+      "teil": 2,
+      "type": "multiple_choice",
+      "question": "You will hear a man talking about helping at a dog shelter. Why does he do it?",
+      "options": [
+        "a) He cannot keep a dog at home.",
+        "b) He wants to get fitter.",
+        "c) He hopes to work with animals."
+      ],
+      "correct": "a",
+      "correctAnswer": "a",
+      "explanation": "He says \"pets aren’t allowed in my flat\", so at the shelter he can \"spend time with dogs without breaking the rules\". He already runs every day, \"so that’s not the point\", and he is \"happy in my job\".",
+      "passageId": "en-b1-p-horen-t2-gist-pets-01-04",
+      "grammarTags": [
+        "g-en-b1-present-perfect"
+      ],
+      "topicTags": [
+        "animals"
+      ],
+      "vocabularyTags": [
+        "dog",
+        "volunteering",
+        "purpose"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-h-t2-gist-pets-01-q5",
+      "module": "horen",
+      "teil": 2,
+      "type": "multiple_choice",
+      "question": "You will hear a woman talking to a friend about her daughter’s rabbit. How does she feel about it now?",
+      "options": [
+        "a) Happy that it has become her pet too",
+        "b) Annoyed that she has to clean the cage",
+        "c) Worried that her daughter has lost interest"
+      ],
+      "correct": "a",
+      "correctAnswer": "a",
+      "explanation": "She says \"he’s really become my rabbit too\" and \"I’m quite glad she wanted one\". She cleans the cage, but \"I don’t mind at all\", and she does not seem worried about her daughter.",
+      "passageId": "en-b1-p-horen-t2-gist-pets-01-05",
+      "grammarTags": [
+        "g-en-b1-reported-speech"
+      ],
+      "topicTags": [
+        "animals"
+      ],
+      "vocabularyTags": [
+        "rabbit",
+        "pets",
+        "feelings"
+      ],
+      "difficulty": 5,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-h-t2-gist-pets-01-q6",
+      "module": "horen",
+      "teil": 2,
+      "type": "multiple_choice",
+      "question": "You will hear two friends talking about a TV programme. What is the man’s opinion of it?",
+      "options": [
+        "a) It lasted much longer than necessary.",
+        "b) It was too sad to enjoy.",
+        "c) It changed his view of foxes."
+      ],
+      "correct": "c",
+      "correctAnswer": "c",
+      "explanation": "He \"used to think foxes were just a nuisance\", but says \"I feel differently now\". The sad part ended well (\"it found its mother\"), and it is the woman who thinks it was long; he \"didn’t notice the time at all\".",
+      "passageId": "en-b1-p-horen-t2-gist-pets-01-06",
+      "grammarTags": [
+        "g-en-b1-used-to"
+      ],
+      "topicTags": [
+        "animals"
+      ],
+      "vocabularyTags": [
+        "fox",
+        "programme",
+        "opinion"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    }
+  ],
+  "_germanCapsNormalizeVersion": "v3.23-lesen-t2-angebote-corpus-2026-07-28",
+  "_germanCapsNormalizedAt": "2026-10-12T19:19:07.584Z",
+  "_balanceMcqVersion": "v1.2-no-rf-chrono-shuffle-2026-07-11",
+  "_balanceMcqNormalizedAt": "2026-10-12T19:19:07.584Z"
+}

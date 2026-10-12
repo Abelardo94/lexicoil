@@ -1,0 +1,286 @@
+{
+  "passages": [
+    {
+      "id": "en-b1-p-horen-t2-gist-neighbourhood-01-01",
+      "module": "horen",
+      "title": "Dialogue 1",
+      "text": "Man: Have you been to the new café where the bookshop used to be?\nWoman: Yes, I went on Saturday. I was sad when the bookshop closed, I must admit. But the café’s lovely. They’ve kept some of the old shelves, and there are books you can borrow while you have your coffee.\nMan: Isn’t it expensive, though?\nWoman: A bit more than the place by the station, but I don’t mind. It feels like the bookshop never really left.",
+      "passageVocab": [
+        "café",
+        "admit",
+        "shelf",
+        "borrow"
+      ]
+    },
+    {
+      "id": "en-b1-p-horen-t2-gist-neighbourhood-01-02",
+      "module": "horen",
+      "title": "Dialogue 2",
+      "text": "Woman: Did you read in the local paper that the council wants to close Mill Road to cars on Sunday mornings?\nMan: I did. The idea is that children can play in the street.\nWoman: I’m not sure many children would use it, actually. And the shopkeepers are worried they’ll lose customers.\nMan: I think they’ll get more people walking past. But the council should ask the people who live here before it decides anything.\nWoman: Absolutely. Nobody’s asked us a thing.",
+      "passageVocab": [
+        "council",
+        "shopkeeper",
+        "customer",
+        "decide"
+      ]
+    },
+    {
+      "id": "en-b1-p-horen-t2-gist-neighbourhood-01-03",
+      "module": "horen",
+      "title": "Dialogue 3",
+      "text": "Man: How was the street party in the end?\nWoman: Well, it was hard work. Weeks of letters, phone calls, borrowing tables. I nearly gave up twice.\nMan: Was it expensive?\nWoman: No, the council lent us the tables for free, so it hardly cost anything. And on the day about sixty people came. I talked to neighbours I’d never spoken to in ten years of living there.\nMan: So will you do it again next year?\nWoman: Definitely. I’m really glad I did it.",
+      "passageVocab": [
+        "street party",
+        "give up",
+        "lend",
+        "neighbour"
+      ]
+    },
+    {
+      "id": "en-b1-p-horen-t2-gist-neighbourhood-01-04",
+      "module": "horen",
+      "title": "Dialogue 4",
+      "text": "Woman: Are you going to the meeting at the library tonight?\nMan: Yes. I expect most people will complain about parking.\nWoman: It’s the building work that bothers me. It’s so noisy.\nMan: That’ll be finished in a month. No, I’m going because they want to turn the empty land behind the school into a playground, and some people are against it. My kids have got nowhere to play round here, so I want to speak up for it.\nWoman: Good for you.",
+      "passageVocab": [
+        "complain",
+        "building work",
+        "playground",
+        "speak up"
+      ]
+    },
+    {
+      "id": "en-b1-p-horen-t2-gist-neighbourhood-01-05",
+      "module": "horen",
+      "title": "Dialogue 5",
+      "text": "Man: How’s the new flat in Ashford Street?\nWoman: I love it. I was worried because it’s near the main road, but my bedroom’s at the back, so I hardly hear the traffic.\nMan: And the neighbours?\nWoman: That’s the best thing. The day I moved in, the woman next door brought me a cake, and the man upstairs helped me carry my sofa. In my old street nobody even said hello.\nMan: Is it far from work?\nWoman: Twenty minutes on the bus. About the same as before.",
+      "passageVocab": [
+        "flat",
+        "traffic",
+        "upstairs",
+        "move in"
+      ]
+    },
+    {
+      "id": "en-b1-p-horen-t2-gist-neighbourhood-01-06",
+      "module": "horen",
+      "title": "Dialogue 6",
+      "text": "Woman: Did you see in the paper that the Regal Cinema is going to be turned into flats?\nMan: Yes. It’s sad. I saw my first film there.\nWoman: Lots of people are saying the council should repair it and open it again.\nMan: I’d love that, but who would go? It’s been closed for eight years, and everyone watches films at the big cinema by the shopping centre now. Young people round here can’t find anywhere to live, so flats make sense.\nWoman: I suppose you’re right.",
+      "passageVocab": [
+        "turn into",
+        "repair",
+        "shopping centre",
+        "make sense"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "en-b1-h-t2-gist-neighbourhood-01-q1",
+      "module": "horen",
+      "teil": 2,
+      "type": "multiple_choice",
+      "question": "You will hear two friends talking about a new café. What does the woman think of it?",
+      "options": [
+        "a) It costs too much to go there often.",
+        "b) She is still sad that the bookshop closed.",
+        "c) It keeps something of the old shop."
+      ],
+      "correct": "c",
+      "correctAnswer": "c",
+      "explanation": "She says \"They’ve kept some of the old shelves\" and \"It feels like the bookshop never really left\". She was sad when the bookshop closed, \"But the café’s lovely\", and about the price she says \"I don’t mind\".",
+      "passageId": "en-b1-p-horen-t2-gist-neighbourhood-01-01",
+      "grammarTags": [
+        "g-en-b1-used-to"
+      ],
+      "topicTags": [
+        "neighbourhood"
+      ],
+      "vocabularyTags": [
+        "café",
+        "shops",
+        "opinion"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-h-t2-gist-neighbourhood-01-q2",
+      "module": "horen",
+      "teil": 2,
+      "type": "multiple_choice",
+      "question": "You will hear two neighbours talking about a plan to close a road to cars. What do they agree about?",
+      "options": [
+        "a) Local people should be asked first.",
+        "b) The shops will lose customers.",
+        "c) The plan will be good for children."
+      ],
+      "correct": "a",
+      "correctAnswer": "a",
+      "explanation": "The man says \"the council should ask the people who live here before it decides anything\" and the woman replies \"Absolutely\". They disagree about the shops (\"I think they’ll get more people walking past\"), and the woman is \"not sure many children would use it\".",
+      "passageId": "en-b1-p-horen-t2-gist-neighbourhood-01-02",
+      "grammarTags": [
+        "g-en-b1-modals"
+      ],
+      "topicTags": [
+        "neighbourhood"
+      ],
+      "vocabularyTags": [
+        "council",
+        "local news",
+        "agree"
+      ],
+      "difficulty": 5,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-h-t2-gist-neighbourhood-01-q3",
+      "module": "horen",
+      "teil": 2,
+      "type": "multiple_choice",
+      "question": "You will hear a woman telling a friend about a street party she organised. How does she feel about it now?",
+      "options": [
+        "a) Disappointed that so few people came",
+        "b) Glad that she made the effort",
+        "c) Worried about how much it cost"
+      ],
+      "correct": "b",
+      "correctAnswer": "b",
+      "explanation": "It was \"hard work\" and she \"nearly gave up twice\", but she says \"I’m really glad I did it\" and will do it again. About \"sixty people came\", and it \"hardly cost anything\" because the council lent the tables.",
+      "passageId": "en-b1-p-horen-t2-gist-neighbourhood-01-03",
+      "grammarTags": [
+        "g-en-b1-past-perfect"
+      ],
+      "topicTags": [
+        "neighbourhood"
+      ],
+      "vocabularyTags": [
+        "street party",
+        "neighbours",
+        "feelings"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-h-t2-gist-neighbourhood-01-q4",
+      "module": "horen",
+      "teil": 2,
+      "type": "multiple_choice",
+      "question": "You will hear two friends talking about a local meeting. Why is the man going to it?",
+      "options": [
+        "a) To ask about parking problems",
+        "b) To complain about the building work",
+        "c) To support a plan for a playground"
+      ],
+      "correct": "c",
+      "correctAnswer": "c",
+      "explanation": "He says the council wants to build a playground and \"I want to speak up for it\". He expects other people to \"complain about parking\", and the building work is the woman’s problem; he says it will \"be finished in a month\".",
+      "passageId": "en-b1-p-horen-t2-gist-neighbourhood-01-04",
+      "grammarTags": [
+        "g-en-b1-future-forms"
+      ],
+      "topicTags": [
+        "neighbourhood"
+      ],
+      "vocabularyTags": [
+        "meeting",
+        "playground",
+        "purpose"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-h-t2-gist-neighbourhood-01-q5",
+      "module": "horen",
+      "teil": 2,
+      "type": "multiple_choice",
+      "question": "You will hear a woman talking to a friend about her new flat. What does she like most about the area?",
+      "options": [
+        "a) It is close to where she works.",
+        "b) Her neighbours are very kind.",
+        "c) It is next to a busy main road."
+      ],
+      "correct": "b",
+      "correctAnswer": "b",
+      "explanation": "About the neighbours she says \"That’s the best thing\": one brought her a cake and another helped carry her sofa. Being near the main road worried her at first, and work is \"Twenty minutes on the bus\", the same as before.",
+      "passageId": "en-b1-p-horen-t2-gist-neighbourhood-01-05",
+      "grammarTags": [
+        "g-en-b1-past-simple"
+      ],
+      "topicTags": [
+        "neighbourhood"
+      ],
+      "vocabularyTags": [
+        "flat",
+        "neighbours",
+        "opinion"
+      ],
+      "difficulty": 5,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-h-t2-gist-neighbourhood-01-q6",
+      "module": "horen",
+      "teil": 2,
+      "type": "multiple_choice",
+      "question": "You will hear two friends talking about a piece of local news. What is the man’s opinion of the plan for the old cinema?",
+      "options": [
+        "a) It is sensible, although it is a pity.",
+        "b) It will make the town centre too busy.",
+        "c) The cinema should be repaired instead."
+      ],
+      "correct": "a",
+      "correctAnswer": "a",
+      "explanation": "He says \"It’s sad\" but \"flats make sense\" because young people \"can’t find anywhere to live\". Repairing the cinema is what other people want; he asks \"who would go?\". He never talks about the town centre being busy.",
+      "passageId": "en-b1-p-horen-t2-gist-neighbourhood-01-06",
+      "grammarTags": [
+        "g-en-b1-passive"
+      ],
+      "topicTags": [
+        "neighbourhood"
+      ],
+      "vocabularyTags": [
+        "cinema",
+        "local news",
+        "opinion"
+      ],
+      "difficulty": 5,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    }
+  ],
+  "_germanCapsNormalizeVersion": "v3.23-lesen-t2-angebote-corpus-2026-07-28",
+  "_germanCapsNormalizedAt": "2026-10-12T19:19:07.283Z",
+  "_balanceMcqVersion": "v1.2-no-rf-chrono-shuffle-2026-07-11",
+  "_balanceMcqNormalizedAt": "2026-10-12T19:19:07.283Z"
+}

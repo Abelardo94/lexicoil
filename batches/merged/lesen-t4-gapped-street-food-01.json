@@ -1,0 +1,218 @@
+{
+  "passages": [
+    {
+      "id": "en-b1-p-lesen-t4-gapped-street-food-01-01",
+      "module": "lesen",
+      "title": "The Cornish pasty: a lunch with a handle",
+      "text": "Today you can buy a Cornish pasty at almost any railway station in Britain, but this famous snack began as a working lunch. In the eighteenth and nineteenth centuries, thousands of men worked in the tin and copper mines of Cornwall, in the far south-west of England. (1) ________ They needed a meal that was filling, easy to carry and still warm several hours later.\n\nThe pasty was the perfect answer. It is made from a circle of pastry, folded over a filling of beef, potato, onion and a vegetable called swede. (2) ________ According to a popular story, the miners held the pasty by this thick edge, because their hands were often dirty. They ate the rest and threw the crust away.\n\nSome families had their own special recipes, and some pasties even had meat at one end and fruit at the other. (3) ________ That way, each man knew which pasty was his, even when they were all kept warm together.\n\nWhen the mines started to close in the late nineteenth century, many Cornish miners moved abroad to find work. (4) ________ As a result, you can still find pasties today in parts of Mexico, Australia and the United States.\n\nIn 2011, the Cornish pasty received special protection from the European Union. (5) ________ It must also have the famous D shape, with the crimp on one side. For the people of Cornwall, this was an important way to protect a piece of their history.",
+      "passageVocab": [
+        "pastry",
+        "crust",
+        "miner",
+        "filling",
+        "protection"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "en-b1-r-t4-gapped-street-food-01-q1",
+      "module": "lesen",
+      "teil": 4,
+      "type": "matching",
+      "question": "Read the text \"The Cornish pasty: a lunch with a handle\". Which sentence (A–H) best fits gap 1?",
+      "correct": "C",
+      "correctAnswer": "C",
+      "explanation": "\"These miners\" refers to the \"thousands of men\" in the mines, and spending all day \"deep underground, far away from their homes\" explains why \"They needed a meal that was filling, easy to carry\". The sentence saying the pasty was too heavy to carry into the mines contradicts \"The pasty was the perfect answer\".",
+      "options": [
+        "A) They took their love of pasties with them to their new homes.",
+        "B) Unfortunately, it was far too heavy to carry down into the mines.",
+        "C) These miners often spent the whole day deep underground, far away from their homes.",
+        "D) Most of them came back to Cornwall a few years later and never left again.",
+        "E) Wives sometimes marked each pasty with the initials of the man who was going to eat it.",
+        "F) Since then, most Cornish pasties have been made with chicken instead of beef.",
+        "G) This means that a pasty can only be called Cornish if it is prepared in Cornwall.",
+        "H) The two edges are then pressed together to make a thick crust called the crimp."
+      ],
+      "grammarTags": [
+        "g-en-b1-reference-words",
+        "g-en-b1-linking-words"
+      ],
+      "topicTags": [
+        "food"
+      ],
+      "vocabularyTags": [
+        "miner",
+        "underground"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge",
+      "passageId": "en-b1-p-lesen-t4-gapped-street-food-01-01"
+    },
+    {
+      "id": "en-b1-r-t4-gapped-street-food-01-q2",
+      "module": "lesen",
+      "teil": 4,
+      "type": "matching",
+      "question": "Read the text \"The Cornish pasty: a lunch with a handle\". Which sentence (A–H) best fits gap 2?",
+      "correct": "H",
+      "correctAnswer": "H",
+      "explanation": "\"then\" follows the description of the pastry \"folded over a filling\", and \"a thick crust called the crimp\" is what \"this thick edge\" in the next sentence refers to. The sentence about the pasty being too heavy cannot fit, because the text says it was \"the perfect answer\".",
+      "options": [
+        "A) They took their love of pasties with them to their new homes.",
+        "B) Unfortunately, it was far too heavy to carry down into the mines.",
+        "C) These miners often spent the whole day deep underground, far away from their homes.",
+        "D) Most of them came back to Cornwall a few years later and never left again.",
+        "E) Wives sometimes marked each pasty with the initials of the man who was going to eat it.",
+        "F) Since then, most Cornish pasties have been made with chicken instead of beef.",
+        "G) This means that a pasty can only be called Cornish if it is prepared in Cornwall.",
+        "H) The two edges are then pressed together to make a thick crust called the crimp."
+      ],
+      "grammarTags": [
+        "g-en-b1-reference-words",
+        "g-en-b1-linking-words"
+      ],
+      "topicTags": [
+        "food"
+      ],
+      "vocabularyTags": [
+        "crust",
+        "edge"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge",
+      "passageId": "en-b1-p-lesen-t4-gapped-street-food-01-01"
+    },
+    {
+      "id": "en-b1-r-t4-gapped-street-food-01-q3",
+      "module": "lesen",
+      "teil": 4,
+      "type": "matching",
+      "question": "Read the text \"The Cornish pasty: a lunch with a handle\". Which sentence (A–H) best fits gap 3?",
+      "correct": "E",
+      "correctAnswer": "E",
+      "explanation": "Marking each pasty with initials explains the next sentence: \"That way, each man knew which pasty was his\". The sentence about chicken instead of beef cannot fit, because nothing in it helps a man to know \"which pasty was his\".",
+      "options": [
+        "A) They took their love of pasties with them to their new homes.",
+        "B) Unfortunately, it was far too heavy to carry down into the mines.",
+        "C) These miners often spent the whole day deep underground, far away from their homes.",
+        "D) Most of them came back to Cornwall a few years later and never left again.",
+        "E) Wives sometimes marked each pasty with the initials of the man who was going to eat it.",
+        "F) Since then, most Cornish pasties have been made with chicken instead of beef.",
+        "G) This means that a pasty can only be called Cornish if it is prepared in Cornwall.",
+        "H) The two edges are then pressed together to make a thick crust called the crimp."
+      ],
+      "grammarTags": [
+        "g-en-b1-reference-words",
+        "g-en-b1-linking-words"
+      ],
+      "topicTags": [
+        "food"
+      ],
+      "vocabularyTags": [
+        "initials",
+        "mark"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge",
+      "passageId": "en-b1-p-lesen-t4-gapped-street-food-01-01"
+    },
+    {
+      "id": "en-b1-r-t4-gapped-street-food-01-q4",
+      "module": "lesen",
+      "teil": 4,
+      "type": "matching",
+      "question": "Read the text \"The Cornish pasty: a lunch with a handle\". Which sentence (A–H) best fits gap 4?",
+      "correct": "A",
+      "correctAnswer": "A",
+      "explanation": "\"They\" refers to the \"Cornish miners\" who \"moved abroad\", and taking pasties to their new homes explains why \"you can still find pasties today in parts of Mexico, Australia and the United States\". The sentence saying most of them came back to Cornwall is wrong, because then pasties would not have spread to those countries.",
+      "options": [
+        "A) They took their love of pasties with them to their new homes.",
+        "B) Unfortunately, it was far too heavy to carry down into the mines.",
+        "C) These miners often spent the whole day deep underground, far away from their homes.",
+        "D) Most of them came back to Cornwall a few years later and never left again.",
+        "E) Wives sometimes marked each pasty with the initials of the man who was going to eat it.",
+        "F) Since then, most Cornish pasties have been made with chicken instead of beef.",
+        "G) This means that a pasty can only be called Cornish if it is prepared in Cornwall.",
+        "H) The two edges are then pressed together to make a thick crust called the crimp."
+      ],
+      "grammarTags": [
+        "g-en-b1-reference-words",
+        "g-en-b1-linking-words"
+      ],
+      "topicTags": [
+        "food"
+      ],
+      "vocabularyTags": [
+        "abroad",
+        "as a result"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge",
+      "passageId": "en-b1-p-lesen-t4-gapped-street-food-01-01"
+    },
+    {
+      "id": "en-b1-r-t4-gapped-street-food-01-q5",
+      "module": "lesen",
+      "teil": 4,
+      "type": "matching",
+      "question": "Read the text \"The Cornish pasty: a lunch with a handle\". Which sentence (A–H) best fits gap 5?",
+      "correct": "G",
+      "correctAnswer": "G",
+      "explanation": "\"This means\" explains what the \"special protection\" is, and the next sentence adds a second rule: \"It must also have the famous D shape\". The sentence saying most pasties are now made with chicken is wrong, because it is not a rule and it does not prepare for \"must also\".",
+      "options": [
+        "A) They took their love of pasties with them to their new homes.",
+        "B) Unfortunately, it was far too heavy to carry down into the mines.",
+        "C) These miners often spent the whole day deep underground, far away from their homes.",
+        "D) Most of them came back to Cornwall a few years later and never left again.",
+        "E) Wives sometimes marked each pasty with the initials of the man who was going to eat it.",
+        "F) Since then, most Cornish pasties have been made with chicken instead of beef.",
+        "G) This means that a pasty can only be called Cornish if it is prepared in Cornwall.",
+        "H) The two edges are then pressed together to make a thick crust called the crimp."
+      ],
+      "grammarTags": [
+        "g-en-b1-reference-words",
+        "g-en-b1-linking-words"
+      ],
+      "topicTags": [
+        "food"
+      ],
+      "vocabularyTags": [
+        "protection",
+        "prepare"
+      ],
+      "difficulty": 5,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge",
+      "passageId": "en-b1-p-lesen-t4-gapped-street-food-01-01"
+    }
+  ],
+  "_germanCapsNormalizeVersion": "v3.23-lesen-t2-angebote-corpus-2026-07-28",
+  "_germanCapsNormalizedAt": "2026-10-12T19:19:51.924Z",
+  "_balanceMcqVersion": "v1.2-no-rf-chrono-shuffle-2026-07-11",
+  "_balanceMcqNormalizedAt": "2026-10-12T19:19:51.924Z"
+}

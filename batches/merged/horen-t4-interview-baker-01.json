@@ -1,0 +1,288 @@
+{
+  "passages": [
+    {
+      "id": "en-b1-p-horen-t4-interview-baker-01-01",
+      "module": "horen",
+      "title": "Interview with a baker",
+      "text": "Interviewer: Today I’m talking to Megan Price, who opened her own bakery in the town of Ludlow two years ago. Megan, you used to work in an office, didn’t you?\n\nMegan: That’s right, I was in a bank for six years. The pay was fine and my colleagues were lovely, so people were surprised when I left. But I’d been baking at weekends for years, and I realised that Saturday mornings in the kitchen were the only time I felt really happy. In the end, I just couldn’t keep doing a job I didn’t care about.\n\nInterviewer: How did you feel on the day the shop opened?\n\nMegan: Honestly, I was terrified. Not about the baking, because I knew my bread was good. I kept thinking: what if I’ve spent all my savings and nobody comes through the door? Then at half past seven there was a queue outside, and I nearly cried.\n\nInterviewer: Bakers start work very early. How do you cope with that?\n\nMegan: I start at four. Everyone warned me it would be awful, but actually I don’t mind it at all. The streets are quiet, the radio’s on, and I get more done in those two hours than I used to in a whole day at the bank. What I do find hard is going to bed at nine.\n\nInterviewer: What makes a good bakery, in your opinion?\n\nMegan: Lots of people would say the recipes, and of course they matter. But for me, it’s the people behind the counter. If customers feel welcome, if you remember their names and what they like, they’ll come back even on a day when the croissants aren’t perfect.\n\nInterviewer: A lot of people buy their bread in supermarkets. Does that worry you?\n\nMegan: Not really. Some supermarket bread is perfectly nice, and it’s cheaper than mine, I know that. But I don’t think we’re really competing. People come to me for a treat, or for something special at the weekend, not for their everyday sandwich loaf.\n\nInterviewer: Finally, what would you say to young people who’d like to start their own business?\n\nMegan: Don’t wait until everything is perfect, because it never will be. But do get some experience first. I worked in another baker’s shop on Saturdays for a year before I opened mine, and I learned more there than from any book.\n\nInterviewer: Megan Price, thank you very much.",
+      "passageVocab": [
+        "bakery",
+        "savings",
+        "queue",
+        "competition",
+        "customer"
+      ],
+      "audio": [
+        {
+          "speaker": "Interviewer",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Today I’m talking to Megan Price, who opened her own bakery in the town of Ludlow two years ago. Megan, you used to work in an office, didn’t you?"
+        },
+        {
+          "speaker": "Megan",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "That’s right, I was in a bank for six years. The pay was fine and my colleagues were lovely, so people were surprised when I left. But I’d been baking at weekends for years, and I realised that Saturday mornings in the kitchen were the only time I felt really happy. In the end, I just couldn’t keep doing a job I didn’t care about."
+        },
+        {
+          "speaker": "Interviewer",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "How did you feel on the day the shop opened?"
+        },
+        {
+          "speaker": "Megan",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Honestly, I was terrified. Not about the baking, because I knew my bread was good. I kept thinking: what if I’ve spent all my savings and nobody comes through the door? Then at half past seven there was a queue outside, and I nearly cried."
+        },
+        {
+          "speaker": "Interviewer",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Bakers start work very early. How do you cope with that?"
+        },
+        {
+          "speaker": "Megan",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "I start at four. Everyone warned me it would be awful, but actually I don’t mind it at all. The streets are quiet, the radio’s on, and I get more done in those two hours than I used to in a whole day at the bank. What I do find hard is going to bed at nine."
+        },
+        {
+          "speaker": "Interviewer",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "What makes a good bakery, in your opinion?"
+        },
+        {
+          "speaker": "Megan",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Lots of people would say the recipes, and of course they matter. But for me, it’s the people behind the counter. If customers feel welcome, if you remember their names and what they like, they’ll come back even on a day when the croissants aren’t perfect."
+        },
+        {
+          "speaker": "Interviewer",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "A lot of people buy their bread in supermarkets. Does that worry you?"
+        },
+        {
+          "speaker": "Megan",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Not really. Some supermarket bread is perfectly nice, and it’s cheaper than mine, I know that. But I don’t think we’re really competing. People come to me for a treat, or for something special at the weekend, not for their everyday sandwich loaf."
+        },
+        {
+          "speaker": "Interviewer",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Finally, what would you say to young people who’d like to start their own business?"
+        },
+        {
+          "speaker": "Megan",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Don’t wait until everything is perfect, because it never will be. But do get some experience first. I worked in another baker’s shop on Saturdays for a year before I opened mine, and I learned more there than from any book."
+        },
+        {
+          "speaker": "Interviewer",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Megan Price, thank you very much."
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "en-b1-h-t4-interview-baker-01-q1",
+      "module": "horen",
+      "teil": 4,
+      "type": "multiple_choice",
+      "question": "Why did Megan leave her job at the bank?",
+      "options": [
+        "a) She was only really happy when baking.",
+        "b) She did not get on with her colleagues.",
+        "c) She was not earning enough money there."
+      ],
+      "correct": "a",
+      "correctAnswer": "a",
+      "explanation": "Megan says \"Saturday mornings in the kitchen were the only time I felt really happy\". Money and colleagues were not the reason: \"The pay was fine and my colleagues were lovely\".",
+      "passageId": "en-b1-p-horen-t4-interview-baker-01-01",
+      "grammarTags": [
+        "g-en-b1-past-perfect-continuous"
+      ],
+      "topicTags": [
+        "work"
+      ],
+      "vocabularyTags": [
+        "jobs",
+        "feelings"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-h-t4-interview-baker-01-q2",
+      "module": "horen",
+      "teil": 4,
+      "type": "multiple_choice",
+      "question": "How did Megan feel on the day her shop opened?",
+      "options": [
+        "a) Afraid that no customers would come",
+        "b) Worried that her bread was not good enough",
+        "c) Excited about trying out new recipes"
+      ],
+      "correct": "a",
+      "correctAnswer": "a",
+      "explanation": "She was \"terrified\" and kept thinking \"what if … nobody comes through the door?\" She was not worried about her bread: \"I knew my bread was good.\"",
+      "passageId": "en-b1-p-horen-t4-interview-baker-01-01",
+      "grammarTags": [
+        "g-en-b1-past-continuous"
+      ],
+      "topicTags": [
+        "work"
+      ],
+      "vocabularyTags": [
+        "feelings",
+        "shopping"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-h-t4-interview-baker-01-q3",
+      "module": "horen",
+      "teil": 4,
+      "type": "multiple_choice",
+      "question": "What does Megan say about starting work very early?",
+      "options": [
+        "a) She would like to start later in the day.",
+        "b) It is not as bad as people told her.",
+        "c) It is the hardest part of being a baker."
+      ],
+      "correct": "b",
+      "correctAnswer": "b",
+      "explanation": "\"Everyone warned me it would be awful, but actually I don’t mind it at all.\" The thing she finds hard is \"going to bed at nine\", not the early start.",
+      "passageId": "en-b1-p-horen-t4-interview-baker-01-01",
+      "grammarTags": [
+        "g-en-b1-reported-speech"
+      ],
+      "topicTags": [
+        "work"
+      ],
+      "vocabularyTags": [
+        "daily routine",
+        "time"
+      ],
+      "difficulty": 5,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-h-t4-interview-baker-01-q4",
+      "module": "horen",
+      "teil": 4,
+      "type": "multiple_choice",
+      "question": "What does Megan think is most important in a bakery?",
+      "options": [
+        "a) Recipes that no other shop uses",
+        "b) Baking everything perfectly every single day",
+        "c) Staff who make customers feel welcome"
+      ],
+      "correct": "c",
+      "correctAnswer": "c",
+      "explanation": "\"For me, it’s the people behind the counter. If customers feel welcome, if you remember their names …\". She says recipes \"matter\" but are not the most important thing, and customers return \"even on a day when the croissants aren’t perfect\".",
+      "passageId": "en-b1-p-horen-t4-interview-baker-01-01",
+      "grammarTags": [
+        "g-en-b1-first-conditional"
+      ],
+      "topicTags": [
+        "work"
+      ],
+      "vocabularyTags": [
+        "food",
+        "shopping"
+      ],
+      "difficulty": 5,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-h-t4-interview-baker-01-q5",
+      "module": "horen",
+      "teil": 4,
+      "type": "multiple_choice",
+      "question": "What is Megan’s attitude towards supermarkets?",
+      "options": [
+        "a) She is worried because their prices are lower.",
+        "b) She does not see them as real competition.",
+        "c) She thinks the bread they sell is poor."
+      ],
+      "correct": "b",
+      "correctAnswer": "b",
+      "explanation": "\"I don’t think we’re really competing.\" She says supermarket bread can be \"perfectly nice\", and although it is cheaper, she answers \"Not really\" when asked if that worries her.",
+      "passageId": "en-b1-p-horen-t4-interview-baker-01-01",
+      "grammarTags": [
+        "g-en-b1-comparatives"
+      ],
+      "topicTags": [
+        "work"
+      ],
+      "vocabularyTags": [
+        "shopping",
+        "food"
+      ],
+      "difficulty": 5,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-h-t4-interview-baker-01-q6",
+      "module": "horen",
+      "teil": 4,
+      "type": "multiple_choice",
+      "question": "What advice does Megan give to young people?",
+      "options": [
+        "a) Read as many business books as you can.",
+        "b) Wait until all your plans are perfect.",
+        "c) Get some practical experience first."
+      ],
+      "correct": "c",
+      "correctAnswer": "c",
+      "explanation": "\"Do get some experience first.\" She says the opposite of waiting (\"Don’t wait until everything is perfect\") and learned more in a shop \"than from any book\".",
+      "passageId": "en-b1-p-horen-t4-interview-baker-01-01",
+      "grammarTags": [
+        "g-en-b1-imperatives"
+      ],
+      "topicTags": [
+        "work"
+      ],
+      "vocabularyTags": [
+        "business",
+        "advice"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    }
+  ],
+  "_germanCapsNormalizeVersion": "v3.23-lesen-t2-angebote-corpus-2026-07-28",
+  "_germanCapsNormalizedAt": "2026-10-12T19:15:54.396Z",
+  "_balanceMcqVersion": "v1.2-no-rf-chrono-shuffle-2026-07-11",
+  "_balanceMcqNormalizedAt": "2026-10-12T19:15:54.396Z"
+}

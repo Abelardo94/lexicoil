@@ -1,0 +1,149 @@
+{
+  "passages": [],
+  "questions": [
+    {
+      "id": "en-b1-s-t1-speaking-animals-pets-01-q1",
+      "module": "sprechen",
+      "teil": 1,
+      "type": "short_answer",
+      "taskTypes": [
+        "interview"
+      ],
+      "question": "Part 1 – Interview\nThe examiner asks you some questions about yourself. Answer each question and give some extra information.\n\nHave you got a pet, or did you have one when you were younger?\nWhat is your favourite animal? Why?\nDo any of your friends or relatives have pets?\nHave you ever been to a zoo or a farm? What did you see there?\nWould you like to have a pet in the future? Which one?",
+      "correct": "rubric",
+      "correctAnswer": "rubric",
+      "explanation": "Give full answers: answer the question, then add a reason or an example. Use the present perfect with ever, the past simple for finished experiences and would like for the future.\n\nModel answers:\nYes, we’ve got a cat called Biscuit. We’ve had her for six years, and she sleeps on my bed every night.\nMy favourite animal is the elephant. Elephants are really intelligent, and they look after each other in their family groups.\nMy best friend has two rabbits. They live in a big cage in the garden, and I sometimes help her feed them.\nYes, I went to a farm with my school last spring. We saw cows, sheep and some baby goats, and we were allowed to feed them.\nI’d love to have a dog one day, maybe when I have my own flat with a garden.",
+      "options": [],
+      "grammarTags": [
+        "g-en-b1-present-perfect",
+        "g-en-b1-would-like"
+      ],
+      "topicTags": [
+        "animals"
+      ],
+      "vocabularyTags": [
+        "pet",
+        "cage",
+        "feed",
+        "farm",
+        "intelligent"
+      ],
+      "difficulty": 5,
+      "skills": [
+        "speaking"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-s-t2-speaking-animals-pets-01-q1",
+      "module": "sprechen",
+      "teil": 2,
+      "type": "short_answer",
+      "taskTypes": [
+        "photo_description"
+      ],
+      "question": "Part 2 – Photo description\nLook at the photograph. It shows a girl walking five dogs along a path in a park. She is holding all the leads in one hand. The dogs are different sizes: two of them are large and three are small, and one of the small dogs is white with brown spots. The girl is wearing a red jacket and trainers. There are tall trees and green grass on both sides of the path, and a man is jogging in the background. Tell us what you can see in the photograph.\n\nTalk for about one minute.",
+      "correct": "rubric",
+      "correctAnswer": "rubric",
+      "explanation": "Describe the place, the people, the animals and what is happening, using the present continuous (is walking, is jogging). Talk about details such as colours and sizes, and say where things are (on both sides of, in the background). If you do not know a word, explain it in other words, for example the long thing you use to hold a dog. Only describe what is in the photo; do not invent new details.\n\nModel answer:\nIn this photo I can see a girl in a park. She’s walking five dogs along a path. She’s holding all the leads in one hand, which must be quite difficult! The dogs are different sizes – two of them are large and three are small. One of the small ones is white with brown spots. The girl is wearing a red jacket and trainers. On both sides of the path there are tall trees and green grass, and in the background there’s a man who is jogging. It looks like a nice, quiet place for a walk.",
+      "options": [],
+      "grammarTags": [
+        "g-en-b1-present-continuous",
+        "g-en-b1-modals-of-deduction"
+      ],
+      "topicTags": [
+        "animals"
+      ],
+      "vocabularyTags": [
+        "lead",
+        "path",
+        "spots",
+        "jog",
+        "background"
+      ],
+      "difficulty": 5,
+      "skills": [
+        "speaking"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-s-t3-speaking-animals-pets-01-q1",
+      "module": "sprechen",
+      "teil": 3,
+      "type": "short_answer",
+      "taskTypes": [
+        "collaborative_task"
+      ],
+      "question": "Part 3 – Collaborative task\nA family would like to have a pet, but both parents work full-time and the children are at school all day. Here are some pets they are thinking about.\n\na dog\na cat\na goldfish\na rabbit\na hamster\na parrot\n\nTalk together about the good and bad points of each pet for a busy family. Then decide which pet would be the best for them.\n\nTalk together for about two or three minutes.",
+      "correct": "rubric",
+      "correctAnswer": "rubric",
+      "explanation": "Discuss the pets one by one and give reasons, thinking about the family’s situation (time, space, cost). Ask your partner what they think, agree and disagree politely, and make a decision together at the end. Useful language: The problem with … is that … On the other hand … I think … would be easier to look after. So we agree that …?\n\nModel conversation (part):\nA: A dog would be fun, but it needs a walk every day, and it would be alone all day.\nB: I agree, that wouldn’t be fair on the dog. What about a cat? Cats are quite independent.\nA: Yes, they can stay at home alone, and they don’t need walks. But they can damage furniture.\nB: True. A goldfish is the easiest, but the children can’t really play with it.\nA: And a parrot can be very noisy, and some parrots live for fifty years!\nB: Really? Then I think the cat is the best choice. It’s friendly but doesn’t need too much time.\nA: OK, let’s choose the cat.",
+      "options": [],
+      "grammarTags": [
+        "g-en-b1-comparatives",
+        "g-en-b1-modals"
+      ],
+      "topicTags": [
+        "animals"
+      ],
+      "vocabularyTags": [
+        "independent",
+        "look after",
+        "noisy",
+        "full-time",
+        "furniture"
+      ],
+      "difficulty": 5,
+      "skills": [
+        "speaking"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-s-t4-speaking-animals-pets-01-q1",
+      "module": "sprechen",
+      "teil": 4,
+      "type": "short_answer",
+      "taskTypes": [
+        "general_conversation"
+      ],
+      "question": "Part 4 – General conversation\nThe examiner asks you and your partner some questions about people and animals. Give your opinion and talk to your partner too.\n\nWhy do you think so many people have pets?\nWhat can children learn from looking after an animal?\nDo you think animals should live in zoos? Why or why not?\nAre pets popular in your country? Which ones?\nWould you like to have a job working with animals?",
+      "correct": "rubric",
+      "correctAnswer": "rubric",
+      "explanation": "Give your opinion with a reason or an example, and react to your partner (I agree with you; That’s true, but …). Use would for the question about a job.\n\nModel answers:\nI think pets make people happy. They’re good company, especially for people who live alone.\nThey learn to be responsible, because they have to feed the animal and keep its home clean every day.\nI’m not sure. Good zoos help to protect animals that are in danger, but I feel sorry for big animals like lions in small spaces.\nYes, very. Dogs and cats are the most popular, but lots of children have hamsters or fish too.\nMaybe. I’d like to work as a vet, but I think it would be very sad when an animal is ill and you can’t help it.",
+      "options": [],
+      "grammarTags": [
+        "g-en-b1-modals",
+        "g-en-b1-second-conditional"
+      ],
+      "topicTags": [
+        "animals"
+      ],
+      "vocabularyTags": [
+        "company",
+        "responsible",
+        "vet",
+        "in danger",
+        "zoo"
+      ],
+      "difficulty": 5,
+      "skills": [
+        "speaking"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    }
+  ],
+  "_germanCapsNormalizeVersion": "v3.23-lesen-t2-angebote-corpus-2026-07-28",
+  "_germanCapsNormalizedAt": "2026-10-12T19:16:06.316Z",
+  "_balanceMcqVersion": "v1.2-no-rf-chrono-shuffle-2026-07-11",
+  "_balanceMcqNormalizedAt": "2026-10-12T19:16:06.316Z"
+}

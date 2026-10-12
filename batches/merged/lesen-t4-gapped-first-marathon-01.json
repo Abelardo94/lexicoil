@@ -1,0 +1,218 @@
+{
+  "passages": [
+    {
+      "id": "en-b1-p-lesen-t4-gapped-first-marathon-01-01",
+      "module": "lesen",
+      "title": "From the sofa to the finish line",
+      "text": "Two years ago, Owen Price could not run for a bus. The 45-year-old taxi driver from Cardiff spent most of his day sitting down, and he hardly ever did any exercise. (1) ________ His doctor told him that his blood pressure was too high and that he needed to become more active.\n\nOwen decided to start with something small. He downloaded a free app that mixed one minute of running with ninety seconds of walking. (2) ________ After nine weeks, however, he could run for thirty minutes without stopping, and he felt prouder than he had felt for years.\n\nThat was when his daughter, Carys, suggested a marathon. Owen laughed at first. (3) ________ However, Carys had already found a six-month training plan for beginners. It started with three short runs a week and slowly added longer runs at weekends.\n\nThe plan was not always easy to follow. In January, the weather was terrible and Owen caught a bad cold. (4) ________ Instead of giving up, he went back to shorter runs for a fortnight until he felt strong again.\n\nOn race day, the crowds along the streets were enormous. Owen remembered the advice from Carys and started slowly. (5) ________ He finished in five hours and twelve minutes, and Carys was waiting at the finish line with a cup of tea. Now he wants to run the race again next year and beat his own time.",
+      "passageVocab": [
+        "marathon",
+        "blood pressure",
+        "training plan",
+        "fitness",
+        "finish line"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "en-b1-r-t4-gapped-first-marathon-01-q1",
+      "module": "lesen",
+      "teil": 4,
+      "type": "matching",
+      "question": "Read the text \"From the sofa to the finish line\". Which sentence (A–H) best fits gap 1?",
+      "correct": "B",
+      "correctAnswer": "B",
+      "explanation": "The text moves from his old life (\"hardly ever did any exercise\") to \"His doctor told him\"; a \"check-up at his local surgery\" is where this happened, and \"Everything changed\" marks the turning point. The sentence about running ten kilometres the next morning cannot fit, because Owen \"could not run for a bus\".",
+      "options": [
+        "A) Carys agreed to run the whole race next to him.",
+        "B) Everything changed after a routine check-up at his local surgery.",
+        "C) For ten days he could not run at all, and he began to worry that he had lost all his fitness.",
+        "D) Luckily, the sunny weather made his long weekend runs a pleasure.",
+        "E) At first, even this was hard, and he often had to stop and rest.",
+        "F) Because of this, he still had energy for the last and most difficult part of the race.",
+        "G) The next morning, he ran ten kilometres without stopping.",
+        "H) He had never run further than five kilometres, and a marathon is more than forty-two."
+      ],
+      "grammarTags": [
+        "g-en-b1-reference-words",
+        "g-en-b1-linking-words"
+      ],
+      "topicTags": [
+        "sport"
+      ],
+      "vocabularyTags": [
+        "check-up",
+        "surgery"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge",
+      "passageId": "en-b1-p-lesen-t4-gapped-first-marathon-01-01"
+    },
+    {
+      "id": "en-b1-r-t4-gapped-first-marathon-01-q2",
+      "module": "lesen",
+      "teil": 4,
+      "type": "matching",
+      "question": "Read the text \"From the sofa to the finish line\". Which sentence (A–H) best fits gap 2?",
+      "correct": "E",
+      "correctAnswer": "E",
+      "explanation": "\"even this\" refers to the gentle mix of \"one minute of running with ninety seconds of walking\", and \"At first\" contrasts with \"After nine weeks, however\". The sentence about running ten kilometres the next morning is wrong, because after nine weeks he could only run \"for thirty minutes\", and he started with \"something small\".",
+      "options": [
+        "A) Carys agreed to run the whole race next to him.",
+        "B) Everything changed after a routine check-up at his local surgery.",
+        "C) For ten days he could not run at all, and he began to worry that he had lost all his fitness.",
+        "D) Luckily, the sunny weather made his long weekend runs a pleasure.",
+        "E) At first, even this was hard, and he often had to stop and rest.",
+        "F) Because of this, he still had energy for the last and most difficult part of the race.",
+        "G) The next morning, he ran ten kilometres without stopping.",
+        "H) He had never run further than five kilometres, and a marathon is more than forty-two."
+      ],
+      "grammarTags": [
+        "g-en-b1-reference-words",
+        "g-en-b1-linking-words"
+      ],
+      "topicTags": [
+        "sport"
+      ],
+      "vocabularyTags": [
+        "at first",
+        "rest"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge",
+      "passageId": "en-b1-p-lesen-t4-gapped-first-marathon-01-01"
+    },
+    {
+      "id": "en-b1-r-t4-gapped-first-marathon-01-q3",
+      "module": "lesen",
+      "teil": 4,
+      "type": "matching",
+      "question": "Read the text \"From the sofa to the finish line\". Which sentence (A–H) best fits gap 3?",
+      "correct": "H",
+      "correctAnswer": "H",
+      "explanation": "This sentence explains why \"Owen laughed at first\": he had never run far, and a marathon is very long. \"However\" in the next sentence then introduces the answer to this problem, the \"training plan for beginners\". The sentence saying Carys agreed to run next to him is wrong, because at the end she \"was waiting at the finish line\".",
+      "options": [
+        "A) Carys agreed to run the whole race next to him.",
+        "B) Everything changed after a routine check-up at his local surgery.",
+        "C) For ten days he could not run at all, and he began to worry that he had lost all his fitness.",
+        "D) Luckily, the sunny weather made his long weekend runs a pleasure.",
+        "E) At first, even this was hard, and he often had to stop and rest.",
+        "F) Because of this, he still had energy for the last and most difficult part of the race.",
+        "G) The next morning, he ran ten kilometres without stopping.",
+        "H) He had never run further than five kilometres, and a marathon is more than forty-two."
+      ],
+      "grammarTags": [
+        "g-en-b1-reference-words",
+        "g-en-b1-linking-words"
+      ],
+      "topicTags": [
+        "sport"
+      ],
+      "vocabularyTags": [
+        "kilometre",
+        "marathon"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge",
+      "passageId": "en-b1-p-lesen-t4-gapped-first-marathon-01-01"
+    },
+    {
+      "id": "en-b1-r-t4-gapped-first-marathon-01-q4",
+      "module": "lesen",
+      "teil": 4,
+      "type": "matching",
+      "question": "Read the text \"From the sofa to the finish line\". Which sentence (A–H) best fits gap 4?",
+      "correct": "C",
+      "correctAnswer": "C",
+      "explanation": "After \"caught a bad cold\", this sentence describes the result: he \"could not run at all\" and was worried. This leads to \"Instead of giving up\". The sentence about sunny weather contradicts \"the weather was terrible\".",
+      "options": [
+        "A) Carys agreed to run the whole race next to him.",
+        "B) Everything changed after a routine check-up at his local surgery.",
+        "C) For ten days he could not run at all, and he began to worry that he had lost all his fitness.",
+        "D) Luckily, the sunny weather made his long weekend runs a pleasure.",
+        "E) At first, even this was hard, and he often had to stop and rest.",
+        "F) Because of this, he still had energy for the last and most difficult part of the race.",
+        "G) The next morning, he ran ten kilometres without stopping.",
+        "H) He had never run further than five kilometres, and a marathon is more than forty-two."
+      ],
+      "grammarTags": [
+        "g-en-b1-reference-words",
+        "g-en-b1-linking-words"
+      ],
+      "topicTags": [
+        "sport"
+      ],
+      "vocabularyTags": [
+        "fitness",
+        "worry"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge",
+      "passageId": "en-b1-p-lesen-t4-gapped-first-marathon-01-01"
+    },
+    {
+      "id": "en-b1-r-t4-gapped-first-marathon-01-q5",
+      "module": "lesen",
+      "teil": 4,
+      "type": "matching",
+      "question": "Read the text \"From the sofa to the finish line\". Which sentence (A–H) best fits gap 5?",
+      "correct": "F",
+      "correctAnswer": "F",
+      "explanation": "\"Because of this\" refers to \"started slowly\": by not running too fast at the beginning, he still had energy at the end, and then \"He finished\". The sentence saying Carys ran the race next to him is wrong, because she \"was waiting at the finish line\".",
+      "options": [
+        "A) Carys agreed to run the whole race next to him.",
+        "B) Everything changed after a routine check-up at his local surgery.",
+        "C) For ten days he could not run at all, and he began to worry that he had lost all his fitness.",
+        "D) Luckily, the sunny weather made his long weekend runs a pleasure.",
+        "E) At first, even this was hard, and he often had to stop and rest.",
+        "F) Because of this, he still had energy for the last and most difficult part of the race.",
+        "G) The next morning, he ran ten kilometres without stopping.",
+        "H) He had never run further than five kilometres, and a marathon is more than forty-two."
+      ],
+      "grammarTags": [
+        "g-en-b1-reference-words",
+        "g-en-b1-linking-words"
+      ],
+      "topicTags": [
+        "sport"
+      ],
+      "vocabularyTags": [
+        "energy",
+        "because of this"
+      ],
+      "difficulty": 5,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge",
+      "passageId": "en-b1-p-lesen-t4-gapped-first-marathon-01-01"
+    }
+  ],
+  "_germanCapsNormalizeVersion": "v3.23-lesen-t2-angebote-corpus-2026-07-28",
+  "_germanCapsNormalizedAt": "2026-10-12T19:19:51.462Z",
+  "_balanceMcqVersion": "v1.2-no-rf-chrono-shuffle-2026-07-11",
+  "_balanceMcqNormalizedAt": "2026-10-12T19:19:51.462Z"
+}

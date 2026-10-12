@@ -1,0 +1,222 @@
+{
+  "passages": [
+    {
+      "id": "en-b1-p-lesen-t5-cloze-flea-market-01-01",
+      "module": "lesen",
+      "title": "Sunday at the flea market",
+      "text": "Every Sunday morning, the car park behind our town hall (1) ______ into a lively flea market. Around eighty sellers put out tables covered with old books, toys, clothes, records and kitchen things. If you arrive early and look carefully, you can often find a real (2) ______. Last month I went along with my cousin Tom, who (3) ______ old cameras and already owns more than forty of them. He told me that the prices written on the labels are never final. Sellers usually (4) ______ you to ask for a lower price, and some of them seem disappointed if you do not. Tom is very good at this. After chatting to one woman for ten minutes, he bought a camera from the 1960s in perfect (5) ______ for half of what she had asked at first. I am not as patient as Tom, so I just (6) ______ two pounds on a pile of old comics and went to get a hot drink. Still, I had a great morning, and I am planning to go back next week with a list of things to look for.",
+      "passageVocab": [
+        "bargain",
+        "seller",
+        "collect",
+        "condition",
+        "label"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "en-b1-r-t5-cloze-flea-market-01-q1",
+      "module": "lesen",
+      "teil": 5,
+      "type": "multiple_choice",
+      "question": "Choose the word that best fits gap (1).",
+      "correct": "c",
+      "correctAnswer": "c",
+      "explanation": "Turn into means change from one thing to something different: the car park \"turns into a lively flea market\" every Sunday. None of the other three verbs is used with into to mean this kind of change.",
+      "options": [
+        "a) becomes",
+        "b) gets",
+        "c) turns",
+        "d) makes"
+      ],
+      "grammarTags": [
+        "g-en-b1-phrasal-verbs"
+      ],
+      "topicTags": [
+        "shopping"
+      ],
+      "vocabularyTags": [
+        "turn into"
+      ],
+      "difficulty": 4,
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge",
+      "skills": [
+        "reading"
+      ],
+      "passageId": "en-b1-p-lesen-t5-cloze-flea-market-01-01"
+    },
+    {
+      "id": "en-b1-r-t5-cloze-flea-market-01-q2",
+      "module": "lesen",
+      "teil": 5,
+      "type": "multiple_choice",
+      "question": "Choose the word that best fits gap (2).",
+      "correct": "a",
+      "correctAnswer": "a",
+      "explanation": "A bargain is something bought for less than its real value: \"you can often find a real bargain\". You do not find a real offer, a real sale or a real price on a market table.",
+      "options": [
+        "a) bargain",
+        "b) offer",
+        "c) sale",
+        "d) price"
+      ],
+      "grammarTags": [
+        "g-en-b1-nouns"
+      ],
+      "topicTags": [
+        "shopping"
+      ],
+      "vocabularyTags": [
+        "bargain"
+      ],
+      "difficulty": 4,
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge",
+      "skills": [
+        "reading"
+      ],
+      "passageId": "en-b1-p-lesen-t5-cloze-flea-market-01-01"
+    },
+    {
+      "id": "en-b1-r-t5-cloze-flea-market-01-q3",
+      "module": "lesen",
+      "teil": 5,
+      "type": "multiple_choice",
+      "question": "Choose the word that best fits gap (3).",
+      "correct": "d",
+      "correctAnswer": "d",
+      "explanation": "Tom has a hobby: he \"collects old cameras and already owns more than forty of them\". Gathers is used for things lying around, saves for money, and picks for flowers or fruit, so none of them describes a collection.",
+      "options": [
+        "a) gathers",
+        "b) saves",
+        "c) picks",
+        "d) collects"
+      ],
+      "grammarTags": [
+        "g-en-b1-relative-clauses"
+      ],
+      "topicTags": [
+        "shopping"
+      ],
+      "vocabularyTags": [
+        "collect",
+        "hobby"
+      ],
+      "difficulty": 4,
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge",
+      "skills": [
+        "reading"
+      ],
+      "passageId": "en-b1-p-lesen-t5-cloze-flea-market-01-01"
+    },
+    {
+      "id": "en-b1-r-t5-cloze-flea-market-01-q4",
+      "module": "lesen",
+      "teil": 5,
+      "type": "multiple_choice",
+      "question": "Choose the word that best fits gap (4).",
+      "correct": "c",
+      "correctAnswer": "c",
+      "explanation": "Only expect follows the pattern verb + person + to-infinitive: \"Sellers usually expect you to ask for a lower price\". We cannot say hope you to, wait you to or insist you to.",
+      "options": [
+        "a) insist",
+        "b) hope",
+        "c) expect",
+        "d) wait"
+      ],
+      "grammarTags": [
+        "g-en-b1-verb-patterns"
+      ],
+      "topicTags": [
+        "shopping"
+      ],
+      "vocabularyTags": [
+        "expect"
+      ],
+      "difficulty": 5,
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge",
+      "skills": [
+        "reading"
+      ],
+      "passageId": "en-b1-p-lesen-t5-cloze-flea-market-01-01"
+    },
+    {
+      "id": "en-b1-r-t5-cloze-flea-market-01-q5",
+      "module": "lesen",
+      "teil": 5,
+      "type": "multiple_choice",
+      "question": "Choose the word that best fits gap (5).",
+      "correct": "b",
+      "correctAnswer": "b",
+      "explanation": "The fixed phrase for objects is in perfect condition: \"a camera from the 1960s in perfect condition\". In perfect form is used for athletes, in perfect health for people, and in perfect state is not used.",
+      "options": [
+        "a) health",
+        "b) condition",
+        "c) state",
+        "d) form"
+      ],
+      "grammarTags": [
+        "g-en-b1-collocations"
+      ],
+      "topicTags": [
+        "shopping"
+      ],
+      "vocabularyTags": [
+        "in perfect condition"
+      ],
+      "difficulty": 4,
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge",
+      "skills": [
+        "reading"
+      ],
+      "passageId": "en-b1-p-lesen-t5-cloze-flea-market-01-01"
+    },
+    {
+      "id": "en-b1-r-t5-cloze-flea-market-01-q6",
+      "module": "lesen",
+      "teil": 5,
+      "type": "multiple_choice",
+      "question": "Choose the word that best fits gap (6).",
+      "correct": "b",
+      "correctAnswer": "b",
+      "explanation": "We spend money on something: \"I just spent two pounds on a pile of old comics\". Paid needs for, cost needs the thing as subject, and bought two pounds on is not possible.",
+      "options": [
+        "a) cost",
+        "b) spent",
+        "c) bought",
+        "d) paid"
+      ],
+      "grammarTags": [
+        "g-en-b1-past-simple"
+      ],
+      "topicTags": [
+        "shopping"
+      ],
+      "vocabularyTags": [
+        "spend on"
+      ],
+      "difficulty": 4,
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge",
+      "skills": [
+        "reading"
+      ],
+      "passageId": "en-b1-p-lesen-t5-cloze-flea-market-01-01"
+    }
+  ],
+  "_germanCapsNormalizeVersion": "v3.23-lesen-t2-angebote-corpus-2026-07-28",
+  "_germanCapsNormalizedAt": "2026-10-12T19:43:37.445Z",
+  "_balanceMcqVersion": "v1.2-no-rf-chrono-shuffle-2026-07-11",
+  "_balanceMcqNormalizedAt": "2026-10-12T19:43:37.445Z"
+}

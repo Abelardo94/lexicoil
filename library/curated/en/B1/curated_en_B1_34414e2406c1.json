@@ -1,0 +1,2200 @@
+{
+  "id": "curated_en_B1_34414e2406c1",
+  "lang": "en",
+  "level": "B1",
+  "topic": "animals",
+  "curated": true,
+  "exam": {
+    "topic": "animals",
+    "level": "B1",
+    "lang": "en",
+    "goetheFormat": true,
+    "libraryBuilt": true,
+    "blueprintId": "cambridge-b1",
+    "blueprintCoverage": [
+      {
+        "module": "lesen",
+        "teil": 1,
+        "slotType": "signs_notices_mcq",
+        "taskFormat": "short_text_mcq",
+        "target": 5,
+        "filled": 5,
+        "complete": true,
+        "wordsPerPassage": {
+          "min": 150,
+          "max": 800
+        }
+      },
+      {
+        "module": "lesen",
+        "teil": 2,
+        "slotType": "person_text_matching",
+        "taskFormat": "multiple_matching",
+        "target": 5,
+        "filled": 5,
+        "complete": true,
+        "wordsPerPassage": {
+          "min": 150,
+          "max": 800
+        }
+      },
+      {
+        "module": "lesen",
+        "teil": 3,
+        "slotType": "long_text",
+        "taskFormat": "long_text_mcq",
+        "target": 5,
+        "filled": 5,
+        "complete": true,
+        "wordsPerPassage": {
+          "min": 150,
+          "max": 800
+        }
+      },
+      {
+        "module": "lesen",
+        "teil": 4,
+        "slotType": "gapped_text",
+        "taskFormat": "gapped_text",
+        "target": 5,
+        "filled": 5,
+        "complete": true,
+        "wordsPerPassage": {
+          "min": 150,
+          "max": 800
+        }
+      },
+      {
+        "module": "lesen",
+        "teil": 5,
+        "slotType": "mcq_gap_fill",
+        "taskFormat": "multiple_choice_cloze",
+        "target": 6,
+        "filled": 6,
+        "complete": true,
+        "wordsPerPassage": {
+          "min": 150,
+          "max": 800
+        }
+      },
+      {
+        "module": "lesen",
+        "teil": 6,
+        "slotType": "open_cloze",
+        "taskFormat": "open_cloze",
+        "target": 6,
+        "filled": 6,
+        "complete": true,
+        "wordsPerPassage": {
+          "min": 150,
+          "max": 800
+        }
+      },
+      {
+        "module": "horen",
+        "teil": 1,
+        "slotType": "picture_mcq",
+        "taskFormat": "picture_multiple_choice",
+        "target": 7,
+        "filled": 7,
+        "complete": true,
+        "wordsPerPassage": null
+      },
+      {
+        "module": "horen",
+        "teil": 2,
+        "slotType": "short_dialogue_mcq",
+        "taskFormat": "short_dialogue_mcq",
+        "target": 6,
+        "filled": 6,
+        "complete": true,
+        "wordsPerPassage": null
+      },
+      {
+        "module": "horen",
+        "teil": 3,
+        "slotType": "sentence_completion",
+        "taskFormat": "sentence_completion",
+        "target": 6,
+        "filled": 6,
+        "complete": true,
+        "wordsPerPassage": null
+      },
+      {
+        "module": "horen",
+        "teil": 4,
+        "slotType": "interview_mcq",
+        "taskFormat": "interview_mcq",
+        "target": 6,
+        "filled": 6,
+        "complete": true,
+        "wordsPerPassage": null
+      },
+      {
+        "module": "schreiben",
+        "teil": 1,
+        "slotType": "email",
+        "taskFormat": "email",
+        "target": 1,
+        "filled": 1,
+        "complete": true,
+        "wordsPerPassage": {
+          "min": 100,
+          "max": 120
+        }
+      },
+      {
+        "module": "schreiben",
+        "teil": 2,
+        "slotType": "choice_writing",
+        "taskFormat": "choice_writing",
+        "target": 1,
+        "filled": 1,
+        "complete": true,
+        "wordsPerPassage": {
+          "min": 100,
+          "max": 120
+        }
+      },
+      {
+        "module": "sprechen",
+        "teil": 1,
+        "slotType": "speaking_task",
+        "taskFormat": "speaking_prompt",
+        "target": 1,
+        "filled": 1,
+        "complete": true,
+        "wordsPerPassage": null
+      },
+      {
+        "module": "sprechen",
+        "teil": 2,
+        "slotType": "speaking_task",
+        "taskFormat": "speaking_prompt",
+        "target": 1,
+        "filled": 1,
+        "complete": true,
+        "wordsPerPassage": null
+      },
+      {
+        "module": "sprechen",
+        "teil": 3,
+        "slotType": "speaking_task",
+        "taskFormat": "speaking_prompt",
+        "target": 1,
+        "filled": 1,
+        "complete": true,
+        "wordsPerPassage": null
+      },
+      {
+        "module": "sprechen",
+        "teil": 4,
+        "slotType": "speaking_task",
+        "taskFormat": "speaking_prompt",
+        "target": 1,
+        "filled": 1,
+        "complete": true,
+        "wordsPerPassage": null
+      }
+    ],
+    "blueprintComplete": true,
+    "libraryVersion": 6,
+    "topicTags": [
+      "animals",
+      "work",
+      "science",
+      "education",
+      "nature",
+      "food",
+      "technology",
+      "environment",
+      "sport",
+      "health",
+      "entertainment"
+    ],
+    "difficulty": 5,
+    "official": {
+      "board": "Cambridge Assessment English",
+      "certificate": "B1 Preliminary (PET)",
+      "note": "Assembled from question library using official exam blueprint (no runtime AI)."
+    },
+    "modules": {
+      "lesen": {
+        "title": "Reading",
+        "time": "75 minutes"
+      },
+      "horen": {
+        "title": "Listening",
+        "time": "40 minutes"
+      },
+      "schreiben": {
+        "title": "Writing",
+        "time": "80 minutes"
+      },
+      "sprechen": {
+        "title": "Speaking",
+        "time": "15 minutes"
+      }
+    },
+    "lesenParts": [
+      {
+        "teil": 1,
+        "instruction": "Read the text(s) and answer the questions in Part 1.",
+        "blueprintSlot": "signs_notices_mcq",
+        "items": [
+          {
+            "id": "ql_en-b1-r-t1-notices-vet-01-q2",
+            "type": "multiple_choice",
+            "signText": "Buy two large tubs of fish food and get a free water-testing kit. Offer ends Saturday or while kits last. Ask a member of staff to help you choose the right food for your fish.",
+            "passageId": "en-b1-p-lesen-t1-notices-vet-01-02",
+            "question": "What does the notice say?",
+            "options": [
+              "a) Staff will test your aquarium water free of charge.",
+              "b) Two large tubs come with a free gift.",
+              "c) The offer will continue after Saturday."
+            ],
+            "correct": "b",
+            "grammarTags": [
+              "g-en-b1-imperatives"
+            ],
+            "topicTags": [
+              "animals"
+            ],
+            "vocabularyTags": [
+              "shopping",
+              "special offer",
+              "fish"
+            ],
+            "difficulty": 3,
+            "explanation": "If you \"Buy two large tubs\" you \"get a free water-testing kit\". The offer \"ends Saturday\" or earlier, and staff help you \"choose the right food\" – they do not test the water for you."
+          },
+          {
+            "id": "ql_en-b1-r-t1-notices-vet-01-q5",
+            "type": "multiple_choice",
+            "signText": "From next month, the surgery will be closed on Wednesday afternoons. For emergencies at these times, please call our partner clinic in Hillbrook on 01632 960418, which is open 24 hours a day.",
+            "passageId": "en-b1-p-lesen-t1-notices-vet-01-05",
+            "question": "What is changing at the surgery?",
+            "options": [
+              "a) Clients will need a new number for all emergencies.",
+              "b) It will be moving to new premises in Hillbrook.",
+              "c) It will close one afternoon each week."
+            ],
+            "correct": "c",
+            "grammarTags": [
+              "g-en-b1-future-will"
+            ],
+            "topicTags": [
+              "animals"
+            ],
+            "vocabularyTags": [
+              "opening hours",
+              "emergency",
+              "vet"
+            ],
+            "difficulty": 4,
+            "explanation": "The surgery \"will be closed on Wednesday afternoons\" from next month. The clinic number is only for emergencies \"at these times\", not for all emergencies, and Hillbrook is where the \"partner clinic\" is – the surgery itself is not moving."
+          },
+          {
+            "id": "ql_en-b1-r-t1-notices-vet-01-q4",
+            "type": "multiple_choice",
+            "signText": "Saturdays, 10–11 am, in the hall behind the shop. Puppies must be between 10 and 20 weeks old and must have had all their injections. Places are limited, so book at the till.",
+            "passageId": "en-b1-p-lesen-t1-notices-vet-01-04",
+            "question": "Who can join the classes?",
+            "options": [
+              "a) Puppies that are under ten weeks old",
+              "b) Young puppies that have had all their injections",
+              "c) Any dog whose owner books a place at the till"
+            ],
+            "correct": "b",
+            "grammarTags": [
+              "g-en-b1-present-perfect"
+            ],
+            "topicTags": [
+              "animals"
+            ],
+            "vocabularyTags": [
+              "dog training",
+              "puppy",
+              "booking"
+            ],
+            "difficulty": 4,
+            "explanation": "Puppies \"must be between 10 and 20 weeks old and must have had all their injections\". Booking at the till is necessary but not enough – older dogs cannot join – and puppies under ten weeks are too young."
+          },
+          {
+            "id": "ql_en-b1-r-t1-notices-vet-01-q1",
+            "type": "multiple_choice",
+            "signText": "Please keep dogs on a short lead and cats in a closed basket while you are in the waiting room. If your pet is nervous of other animals, tell reception and we will find you a quieter place to wait.",
+            "passageId": "en-b1-p-lesen-t1-notices-vet-01-01",
+            "question": "What does the sign say?",
+            "options": [
+              "a) Owners can ask to wait somewhere calmer.",
+              "b) Cats and dogs must wait in separate rooms.",
+              "c) Nervous animals will be seen by the vet first."
+            ],
+            "correct": "a",
+            "grammarTags": [
+              "g-en-b1-first-conditional"
+            ],
+            "topicTags": [
+              "animals"
+            ],
+            "vocabularyTags": [
+              "vet",
+              "pets",
+              "waiting room"
+            ],
+            "difficulty": 3,
+            "explanation": "If a pet is nervous, owners should \"tell reception and we will find you a quieter place to wait\". The sign says nothing about seeing nervous animals first, and cats and dogs share the waiting room, as long as dogs are \"on a short lead\" and cats are \"in a closed basket\"."
+          },
+          {
+            "id": "ql_en-b1-r-t1-notices-vet-01-q3",
+            "type": "multiple_choice",
+            "signText": "Hi Mrs Doyle, Biscuit’s operation went well and she is awake now. You can collect her this afternoon any time after 3. She mustn’t eat anything until this evening, and only a little then. Call us if you have any questions. Greenway Vets",
+            "passageId": "en-b1-p-lesen-t1-notices-vet-01-03",
+            "question": "What does the message tell Mrs Doyle?",
+            "options": [
+              "a) She can collect Biscuit at any time today.",
+              "b) She needs to call the vet before she comes.",
+              "c) Biscuit can have a little food this evening."
+            ],
+            "correct": "c",
+            "grammarTags": [
+              "g-en-b1-modals"
+            ],
+            "topicTags": [
+              "animals"
+            ],
+            "vocabularyTags": [
+              "vet",
+              "operation",
+              "pet care"
+            ],
+            "difficulty": 4,
+            "explanation": "The message says Biscuit \"mustn’t eat anything until this evening, and only a little then\", so a small amount of food is fine this evening. She can only be collected \"after 3\", not at any time, and Mrs Doyle only needs to call \"if you have any questions\"."
+          }
+        ],
+        "text": "Buy two large tubs of fish food and get a free water-testing kit. Offer ends Saturday or while kits last. Ask a member of staff to help you choose the right food for your fish.",
+        "textTitle": "Fish food – special offer",
+        "passageId": "en-b1-p-lesen-t1-notices-vet-01-02"
+      },
+      {
+        "teil": 2,
+        "instruction": "Read the text(s) and answer the questions in Part 2.",
+        "blueprintSlot": "person_text_matching",
+        "ads": [
+          {
+            "key": "A",
+            "title": "",
+            "text": "Tourist Information Centre, Edinburgh"
+          },
+          {
+            "key": "B",
+            "title": "",
+            "text": "Pets Corner, Bristol"
+          },
+          {
+            "key": "C",
+            "title": "",
+            "text": "Sunshine Sports Camp, Cardiff"
+          },
+          {
+            "key": "D",
+            "title": "",
+            "text": "Open-top Bus Guide, York"
+          },
+          {
+            "key": "E",
+            "title": "",
+            "text": "Hilltop Farm Park, Cumbria"
+          },
+          {
+            "key": "F",
+            "title": "",
+            "text": "Little Artists Holiday Club, Norwich"
+          },
+          {
+            "key": "G",
+            "title": "",
+            "text": "Seaview Hotel Kitchen, Cornwall"
+          },
+          {
+            "key": "H",
+            "title": "",
+            "text": "The Corner Café, Brighton"
+          }
+        ],
+        "questions": [
+          {
+            "id": "ql_en-b1-r-t2-match-summer-jobs-01-q1",
+            "type": "matching",
+            "question": "Jamie, who is 17, loves animals and wants a job outdoors. He lives in London, a long way from most of the jobs advertised, so he will need somewhere to stay.",
+            "correct": "E",
+            "correctAnswer": "E",
+            "explanation": "At Hilltop Farm Park you \"feed the goats, sheep and rabbits\", you will be \"outside in all weathers\", and staff who live far away \"can stay free of charge in the farm’s cottage\". Pets Corner also involves animals, but \"Most of the work is indoors\" and \"we cannot help with accommodation\".",
+            "grammarTags": [
+              "g-en-b1-modals"
+            ],
+            "topicTags": [
+              "work"
+            ],
+            "vocabularyTags": [
+              "summer job",
+              "animals",
+              "accommodation"
+            ],
+            "difficulty": 4,
+            "options": [
+              "A",
+              "B",
+              "C",
+              "D",
+              "E",
+              "F",
+              "G",
+              "H"
+            ],
+            "level": "B1"
+          },
+          {
+            "id": "ql_en-b1-r-t2-match-summer-jobs-01-q2",
+            "type": "matching",
+            "question": "Zara speaks fluent Spanish and wants a job where she can use it with visitors to Britain. She has classes every afternoon, so she can only work in the mornings.",
+            "correct": "A",
+            "correctAnswer": "A",
+            "explanation": "The Tourist Information Centre helps visitors, \"Speakers of a second language such as French, Spanish or Italian are especially welcome\", and \"Shifts run from 8 am to 1 pm\". The bus guide job also pays more for another language, but tours run \"from 2 pm\" until 8 pm, when Zara has classes.",
+            "grammarTags": [
+              "g-en-b1-relative-clauses"
+            ],
+            "topicTags": [
+              "work"
+            ],
+            "vocabularyTags": [
+              "tourism",
+              "languages",
+              "part-time work"
+            ],
+            "difficulty": 4,
+            "options": [
+              "A",
+              "B",
+              "C",
+              "D",
+              "E",
+              "F",
+              "G",
+              "H"
+            ],
+            "level": "B1"
+          },
+          {
+            "id": "ql_en-b1-r-t2-match-summer-jobs-01-q3",
+            "type": "matching",
+            "question": "Ben wants to earn as much money as possible this summer because he is saving for a car. He enjoys cooking and is happy to work full-time.",
+            "correct": "G",
+            "correctAnswer": "G",
+            "explanation": "At the Seaview Hotel you \"prepare breakfasts and help our chefs\", the pay is \"well above the usual rate\", and it is \"full-time work only\". The Corner Café also involves cooking, but \"The pay is the minimum rate\" and help is needed \"only at weekends\".",
+            "grammarTags": [
+              "g-en-b1-comparatives"
+            ],
+            "topicTags": [
+              "work"
+            ],
+            "vocabularyTags": [
+              "cooking",
+              "pay",
+              "full-time"
+            ],
+            "difficulty": 4,
+            "options": [
+              "A",
+              "B",
+              "C",
+              "D",
+              "E",
+              "F",
+              "G",
+              "H"
+            ],
+            "level": "B1"
+          },
+          {
+            "id": "ql_en-b1-r-t2-match-summer-jobs-01-q4",
+            "type": "matching",
+            "question": "Chloe is a strong swimmer and has a lifeguard certificate. She is hoping to find a job where she can use it, and she’d like to work with children.",
+            "correct": "C",
+            "correctAnswer": "C",
+            "explanation": "The Sunshine Sports Camp runs \"swimming sessions for children aged seven to twelve\", and \"You must hold a lifeguard certificate to work in the pool\". The Little Artists Holiday Club also works with children, but only with \"painting, model-making and other craft activities\", so Chloe could not use her certificate.",
+            "grammarTags": [
+              "g-en-b1-modals"
+            ],
+            "topicTags": [
+              "work"
+            ],
+            "vocabularyTags": [
+              "sport",
+              "children",
+              "qualifications"
+            ],
+            "difficulty": 3,
+            "options": [
+              "A",
+              "B",
+              "C",
+              "D",
+              "E",
+              "F",
+              "G",
+              "H"
+            ],
+            "level": "B1"
+          },
+          {
+            "id": "ql_en-b1-r-t2-match-summer-jobs-01-q5",
+            "type": "matching",
+            "question": "Ellie is studying art and would like a summer job with young children. She needs to finish work by three o’clock every day because she looks after her little brother in the afternoons.",
+            "correct": "F",
+            "correctAnswer": "F",
+            "explanation": "The Little Artists Holiday Club needs help with \"children aged four to seven\" doing painting and crafts, and it \"runs from 9 am to 2.30 pm\". The Sunshine Sports Camp is also for children, but the hours are \"9 am to 5 pm\" and the activities are sports, not art.",
+            "grammarTags": [
+              "g-en-b1-modals"
+            ],
+            "topicTags": [
+              "work"
+            ],
+            "vocabularyTags": [
+              "art",
+              "children",
+              "working hours"
+            ],
+            "difficulty": 4,
+            "options": [
+              "A",
+              "B",
+              "C",
+              "D",
+              "E",
+              "F",
+              "G",
+              "H"
+            ],
+            "level": "B1"
+          }
+        ]
+      },
+      {
+        "teil": 3,
+        "instruction": "Read the text(s) and answer the questions in Part 3.",
+        "blueprintSlot": "long_text",
+        "textTitle": "The kitchen scientist",
+        "text": "Every Sunday afternoon, sixteen-year-old Priya Shah turns her family’s kitchen in Cardiff into a science laboratory. She puts her phone on a pile of books and starts filming while her parents are out. Her short videos explain everyday science, such as the reason bread rises or ice floats. Her channel, Kitchen Lab, now has more than 80,000 subscribers.\n\nPriya never planned to become a video maker. Two years ago she was having problems with chemistry at school. Her textbook seemed dull, and the diagrams meant nothing to her. One evening she tried an experiment from the book at home, with vinegar and baking soda. Suddenly the reaction made sense. Her cousin was having the same problem with chemistry, so she filmed the next experiment for him. He shared it with his class, and soon strangers were asking for more.\n\nThe first videos were not very good because the sound was poor, and Priya talked too fast. Some viewers left unkind comments. “I nearly deleted everything after the first month,” she admits. Her older brother persuaded her to continue. He bought her a cheap microphone and showed her how to edit. Now each video takes about six hours to make. Most of that time goes on research. “I check every fact in at least two places. A mistake in a science video is worse than no video at all.”\n\nSafety is important to her too, so she never uses dangerous chemicals. Every experiment uses things from an ordinary kitchen. At the start of each video, she reminds younger viewers to ask an adult for help.\n\nHer chemistry teacher, Mr Evans, is a big fan who sometimes shows her videos in his lessons. “Priya explains things in the language of teenagers,” he says. “Students listen to her in a different way. They listen to me because they have to!”\n\nSuccess has brought some surprises. Last spring a university invited her to speak at a science festival. She was terrified of the large audience, but she enjoyed it in the end. Companies have also offered her money to advertise their products. So far she has said no to all of them. “My viewers trust me. I don’t want them to think I’m selling something.”\n\nPriya wants to study medicine, so she is not sure about the future of Kitchen Lab. “Maybe I’ll stop, maybe I won’t. For now, it’s fun, and I’m learning more than my viewers!”",
+        "passageId": "en-b1-p-lesen-t3-long-youtuber-science-01-01",
+        "questions": [
+          {
+            "id": "ql_en-b1-r-t3-long-youtuber-science-01-q1",
+            "type": "multiple_choice",
+            "question": "Why did Priya make her first video?",
+            "correct": "b",
+            "correctAnswer": "b",
+            "explanation": "Her cousin \"was having the same problem with chemistry, so she filmed the next experiment for him.\" Her teacher only started using the videos later, and the text says she \"never planned to become a video maker\".",
+            "grammarTags": [
+              "g-en-b1-past-simple"
+            ],
+            "topicTags": [
+              "science"
+            ],
+            "vocabularyTags": [
+              "experiment",
+              "chemistry",
+              "cousin"
+            ],
+            "difficulty": 4,
+            "options": [
+              "a) Her teacher asked her to make one for the class.",
+              "b) She wanted to help a relative with a subject.",
+              "c) She hoped to become well known online.",
+              "d) She needed it for a school chemistry project."
+            ],
+            "level": "B1",
+            "passageId": "en-b1-p-lesen-t3-long-youtuber-science-01-01"
+          },
+          {
+            "id": "ql_en-b1-r-t3-long-youtuber-science-01-q2",
+            "type": "multiple_choice",
+            "question": "Why does Priya spend so much time on research?",
+            "correct": "d",
+            "correctAnswer": "d",
+            "explanation": "Priya says: \"A mistake in a science video is worse than no video at all.\" Her brother helped her with a microphone and editing, not with checking facts, and the unkind comments were about the poor sound and her fast talking.",
+            "grammarTags": [
+              "g-en-b1-comparatives"
+            ],
+            "topicTags": [
+              "science"
+            ],
+            "vocabularyTags": [
+              "research",
+              "fact",
+              "edit"
+            ],
+            "difficulty": 5,
+            "options": [
+              "a) Her viewers often point out her mistakes.",
+              "b) Her brother taught her to check facts carefully.",
+              "c) Her teacher checks each video before she posts it.",
+              "d) She thinks wrong information is worse than none."
+            ],
+            "level": "B1",
+            "passageId": "en-b1-p-lesen-t3-long-youtuber-science-01-01"
+          },
+          {
+            "id": "ql_en-b1-r-t3-long-youtuber-science-01-q3",
+            "type": "multiple_choice",
+            "question": "What does Mr Evans suggest about Priya’s videos?",
+            "correct": "c",
+            "correctAnswer": "c",
+            "explanation": "Mr Evans says students \"listen to her in a different way. They listen to me because they have to!\" He likes the way she uses \"the language of teenagers\", and he shows the videos \"in his lessons\".",
+            "grammarTags": [
+              "g-en-b1-present-simple"
+            ],
+            "topicTags": [
+              "science"
+            ],
+            "vocabularyTags": [
+              "fan",
+              "lesson",
+              "language"
+            ],
+            "difficulty": 5,
+            "options": [
+              "a) They use some language that he does not like.",
+              "b) Students should watch them at home, not in class.",
+              "c) Students pay more attention to her than to him.",
+              "d) They are too simple for his older students."
+            ],
+            "level": "B1",
+            "passageId": "en-b1-p-lesen-t3-long-youtuber-science-01-01"
+          },
+          {
+            "id": "ql_en-b1-r-t3-long-youtuber-science-01-q4",
+            "type": "multiple_choice",
+            "question": "Why has Priya refused the offers from companies?",
+            "correct": "a",
+            "correctAnswer": "a",
+            "explanation": "Priya says: \"My viewers trust me. I don’t want them to think I’m selling something.\" The text says nothing about the amount of money, her parents or a lack of time.",
+            "grammarTags": [
+              "g-en-b1-past-simple"
+            ],
+            "topicTags": [
+              "science"
+            ],
+            "vocabularyTags": [
+              "advertise",
+              "product",
+              "trust"
+            ],
+            "difficulty": 3,
+            "options": [
+              "a) She does not want to lose her viewers’ trust.",
+              "b) Her parents do not allow her to advertise.",
+              "c) She has no time to make extra videos for them.",
+              "d) The money they offered was too little."
+            ],
+            "level": "B1",
+            "passageId": "en-b1-p-lesen-t3-long-youtuber-science-01-01"
+          },
+          {
+            "id": "ql_en-b1-r-t3-long-youtuber-science-01-q5",
+            "type": "multiple_choice",
+            "question": "Which of these would Priya probably write on her channel page?",
+            "correct": "b",
+            "correctAnswer": "b",
+            "explanation": "\"Every experiment uses things from an ordinary kitchen\" and she \"reminds younger viewers to ask an adult for help.\" She \"never uses dangerous chemicals\", she films on Sunday afternoons (not every day) without her teacher, and she has said no to every company.",
+            "grammarTags": [
+              "g-en-b1-imperatives"
+            ],
+            "topicTags": [
+              "science"
+            ],
+            "vocabularyTags": [
+              "channel",
+              "viewer",
+              "safety"
+            ],
+            "difficulty": 6,
+            "options": [
+              "a) Kitchen Lab: I make these videos with my teacher, and we post a new one every day.",
+              "b) Kitchen Lab: easy science with things from your kitchen. Young viewers, ask an adult first!",
+              "c) Kitchen Lab: science videos for future doctors, with special offers from our sponsors.",
+              "d) Kitchen Lab: real experiments with the chemicals that scientists use in their laboratories."
+            ],
+            "level": "B1",
+            "passageId": "en-b1-p-lesen-t3-long-youtuber-science-01-01"
+          }
+        ]
+      },
+      {
+        "teil": 4,
+        "instruction": "Read the text(s) and answer the questions in Part 4.",
+        "blueprintSlot": "gapped_text",
+        "textTitle": "Six pupils and one teacher",
+        "text": "On the island of Inchmara, off the west coast of Scotland, there is a primary school with just six pupils. They are between five and eleven years old, and they all learn together in one classroom. (1) ________ Fiona MacLeod has worked at the school for nine years, and she says that she would never change her job.\n\nTeaching children of such different ages is not simple. Every morning, Fiona gives each pupil a plan for the day. (2) ________ The older ones often help the younger ones with their reading, and this is good for both groups.\n\nThe island has no shops apart from a small post office, and the ferry to the mainland only sails three times a week. (3) ________ Instead, the children use the island itself as a classroom. In science lessons, they study the birds on the cliffs, and in maths they measure the height of the waves.\n\nSome people worry that the children do not have enough friends of their own age. (4) ________ Twice a term, the pupils take the ferry to a larger school on the mainland and spend the day with children of the same age. They also have a video call every week with a small school in Norway.\n\nThe biggest problem for the school is its future. Two of the pupils will leave for secondary school next summer, and only one new child is expected. (5) ________ But Fiona is hopeful. Several young families have moved to the island recently, because they can now work from home online.",
+        "passageId": "en-b1-p-lesen-t4-gapped-island-school-01-01",
+        "questions": [
+          {
+            "id": "ql_en-b1-r-t4-gapped-island-school-01-q1",
+            "type": "matching",
+            "question": "Read the text \"Six pupils and one teacher\". Which sentence (A–H) best fits gap 1?",
+            "correct": "F",
+            "correctAnswer": "F",
+            "explanation": "\"Their\" refers to the six pupils, and \"Their only teacher\" introduces the person who is named next: \"Fiona MacLeod has worked at the school for nine years\". The sentence saying the children have dozens of friends of their own age is impossible on an island where the school has \"just six pupils\".",
+            "grammarTags": [
+              "g-en-b1-reference-words",
+              "g-en-b1-linking-words"
+            ],
+            "topicTags": [
+              "education"
+            ],
+            "vocabularyTags": [
+              "head teacher",
+              "cook"
+            ],
+            "difficulty": 4,
+            "options": [
+              "A) Then she moves around the room and spends time with each of them in turn.",
+              "B) If the numbers keep falling, the local council may decide to close the school.",
+              "C) As a result, they have dozens of friends of their own age on the island.",
+              "D) Because of this, school trips to museums or theatres are very rare.",
+              "E) On Saturdays, the children love going shopping at the busy market in the harbour.",
+              "F) Their only teacher is also the head teacher, the cook and sometimes the gardener.",
+              "G) For this reason, the youngest pupils are never allowed to work with the older ones.",
+              "H) Fiona understands this worry, but she has found ways to solve the problem."
+            ],
+            "level": "B1",
+            "passageId": "en-b1-p-lesen-t4-gapped-island-school-01-01"
+          },
+          {
+            "id": "ql_en-b1-r-t4-gapped-island-school-01-q2",
+            "type": "matching",
+            "question": "Read the text \"Six pupils and one teacher\". Which sentence (A–H) best fits gap 2?",
+            "correct": "A",
+            "correctAnswer": "A",
+            "explanation": "\"Then\" follows \"Every morning, Fiona gives each pupil a plan\", and \"each of them\" refers to the pupils. The sentence saying the youngest pupils never work with the older ones is wrong, because the next sentence says \"The older ones often help the younger ones\".",
+            "grammarTags": [
+              "g-en-b1-reference-words",
+              "g-en-b1-linking-words"
+            ],
+            "topicTags": [
+              "education"
+            ],
+            "vocabularyTags": [
+              "in turn",
+              "plan"
+            ],
+            "difficulty": 4,
+            "options": [
+              "A) Then she moves around the room and spends time with each of them in turn.",
+              "B) If the numbers keep falling, the local council may decide to close the school.",
+              "C) As a result, they have dozens of friends of their own age on the island.",
+              "D) Because of this, school trips to museums or theatres are very rare.",
+              "E) On Saturdays, the children love going shopping at the busy market in the harbour.",
+              "F) Their only teacher is also the head teacher, the cook and sometimes the gardener.",
+              "G) For this reason, the youngest pupils are never allowed to work with the older ones.",
+              "H) Fiona understands this worry, but she has found ways to solve the problem."
+            ],
+            "level": "B1",
+            "passageId": "en-b1-p-lesen-t4-gapped-island-school-01-01"
+          },
+          {
+            "id": "ql_en-b1-r-t4-gapped-island-school-01-q3",
+            "type": "matching",
+            "question": "Read the text \"Six pupils and one teacher\". Which sentence (A–H) best fits gap 3?",
+            "correct": "D",
+            "correctAnswer": "D",
+            "explanation": "\"Because of this\" refers to the island having \"no shops\" and a ferry that \"only sails three times a week\", so trips are rare. \"Instead, the children use the island itself as a classroom\" then follows naturally. The sentence about shopping at a busy market contradicts \"no shops apart from a small post office\".",
+            "grammarTags": [
+              "g-en-b1-reference-words",
+              "g-en-b1-linking-words"
+            ],
+            "topicTags": [
+              "education"
+            ],
+            "vocabularyTags": [
+              "school trip",
+              "museum"
+            ],
+            "difficulty": 4,
+            "options": [
+              "A) Then she moves around the room and spends time with each of them in turn.",
+              "B) If the numbers keep falling, the local council may decide to close the school.",
+              "C) As a result, they have dozens of friends of their own age on the island.",
+              "D) Because of this, school trips to museums or theatres are very rare.",
+              "E) On Saturdays, the children love going shopping at the busy market in the harbour.",
+              "F) Their only teacher is also the head teacher, the cook and sometimes the gardener.",
+              "G) For this reason, the youngest pupils are never allowed to work with the older ones.",
+              "H) Fiona understands this worry, but she has found ways to solve the problem."
+            ],
+            "level": "B1",
+            "passageId": "en-b1-p-lesen-t4-gapped-island-school-01-01"
+          },
+          {
+            "id": "ql_en-b1-r-t4-gapped-island-school-01-q4",
+            "type": "matching",
+            "question": "Read the text \"Six pupils and one teacher\". Which sentence (A–H) best fits gap 4?",
+            "correct": "H",
+            "correctAnswer": "H",
+            "explanation": "\"this worry\" refers to \"Some people worry that the children do not have enough friends\", and the \"ways to solve the problem\" are the visits to the mainland school and the video calls. The sentence saying they have dozens of friends on the island cannot follow a worry about too few friends.",
+            "grammarTags": [
+              "g-en-b1-reference-words",
+              "g-en-b1-linking-words"
+            ],
+            "topicTags": [
+              "education"
+            ],
+            "vocabularyTags": [
+              "worry",
+              "solve"
+            ],
+            "difficulty": 4,
+            "options": [
+              "A) Then she moves around the room and spends time with each of them in turn.",
+              "B) If the numbers keep falling, the local council may decide to close the school.",
+              "C) As a result, they have dozens of friends of their own age on the island.",
+              "D) Because of this, school trips to museums or theatres are very rare.",
+              "E) On Saturdays, the children love going shopping at the busy market in the harbour.",
+              "F) Their only teacher is also the head teacher, the cook and sometimes the gardener.",
+              "G) For this reason, the youngest pupils are never allowed to work with the older ones.",
+              "H) Fiona understands this worry, but she has found ways to solve the problem."
+            ],
+            "level": "B1",
+            "passageId": "en-b1-p-lesen-t4-gapped-island-school-01-01"
+          },
+          {
+            "id": "ql_en-b1-r-t4-gapped-island-school-01-q5",
+            "type": "matching",
+            "question": "Read the text \"Six pupils and one teacher\". Which sentence (A–H) best fits gap 5?",
+            "correct": "B",
+            "correctAnswer": "B",
+            "explanation": "Two pupils will leave and \"only one new child is expected\", so the numbers are falling, and this sentence explains the danger. \"But Fiona is hopeful\" then contrasts with it. It also explains \"The biggest problem for the school is its future\". The sentence about dozens of friends on the island cannot fit here, because the school is getting smaller.",
+            "grammarTags": [
+              "g-en-b1-reference-words",
+              "g-en-b1-linking-words"
+            ],
+            "topicTags": [
+              "education"
+            ],
+            "vocabularyTags": [
+              "council",
+              "close"
+            ],
+            "difficulty": 5,
+            "options": [
+              "A) Then she moves around the room and spends time with each of them in turn.",
+              "B) If the numbers keep falling, the local council may decide to close the school.",
+              "C) As a result, they have dozens of friends of their own age on the island.",
+              "D) Because of this, school trips to museums or theatres are very rare.",
+              "E) On Saturdays, the children love going shopping at the busy market in the harbour.",
+              "F) Their only teacher is also the head teacher, the cook and sometimes the gardener.",
+              "G) For this reason, the youngest pupils are never allowed to work with the older ones.",
+              "H) Fiona understands this worry, but she has found ways to solve the problem."
+            ],
+            "level": "B1",
+            "passageId": "en-b1-p-lesen-t4-gapped-island-school-01-01"
+          }
+        ]
+      },
+      {
+        "teil": 5,
+        "instruction": "Read the text(s) and answer the questions in Part 5.",
+        "blueprintSlot": "mcq_gap_fill",
+        "textTitle": "A weekend with the birds",
+        "text": "My grandfather has loved birds all his life, and last April he (1) ______ me to spend a weekend bird watching with him in Norfolk. On the first morning we got up at five o’clock and walked to a small wooden hut beside a lake. Inside, we sat on a narrow bench and tried not to (2) ______ any noise, because even a cough can frighten birds away. For a long time nothing happened, and I started to feel cold and bored. Then, after about an hour, I suddenly (3) ______ sight of a flash of bright blue above the water. It was a kingfisher! It moved so fast that I was amazed when I (4) ______ to take a photo of it. Grandad was delighted. He (5) ______ a notebook in which he writes down every bird he sees, and he let me add the kingfisher to his list. By the end of the weekend we had seen thirty-two different kinds of birds. I never expected to enjoy it so much, but now I have (6) ______ up bird watching myself.",
+        "passageId": "en-b1-p-lesen-t5-cloze-bird-watching-01-01",
+        "questions": [
+          {
+            "id": "ql_en-b1-r-t5-cloze-bird-watching-01-q1",
+            "type": "multiple_choice",
+            "question": "Choose the word that best fits gap (1).",
+            "correct": "a",
+            "correctAnswer": "a",
+            "explanation": "Only invite follows the pattern verb + person + to-infinitive: \"he invited me to spend a weekend bird watching with him\". We cannot say offered me to, suggested me to or agreed me to.",
+            "grammarTags": [
+              "g-en-b1-verb-patterns"
+            ],
+            "topicTags": [
+              "nature"
+            ],
+            "vocabularyTags": [
+              "invite"
+            ],
+            "difficulty": 4,
+            "options": [
+              "a) invited",
+              "b) suggested",
+              "c) agreed",
+              "d) offered"
+            ],
+            "level": "B1",
+            "passageId": "en-b1-p-lesen-t5-cloze-bird-watching-01-01"
+          },
+          {
+            "id": "ql_en-b1-r-t5-cloze-bird-watching-01-q2",
+            "type": "multiple_choice",
+            "question": "Choose the word that best fits gap (2).",
+            "correct": "c",
+            "correctAnswer": "c",
+            "explanation": "The collocation is make a noise: they \"tried not to make any noise, because even a cough can frighten birds away\". Do, give and take a noise are not correct English.",
+            "grammarTags": [
+              "g-en-b1-collocations"
+            ],
+            "topicTags": [
+              "nature"
+            ],
+            "vocabularyTags": [
+              "make a noise"
+            ],
+            "difficulty": 3,
+            "options": [
+              "a) give",
+              "b) take",
+              "c) make",
+              "d) do"
+            ],
+            "level": "B1",
+            "passageId": "en-b1-p-lesen-t5-cloze-bird-watching-01-01"
+          },
+          {
+            "id": "ql_en-b1-r-t5-cloze-bird-watching-01-q3",
+            "type": "multiple_choice",
+            "question": "Choose the word that best fits gap (3).",
+            "correct": "d",
+            "correctAnswer": "d",
+            "explanation": "The fixed phrase is catch sight of, meaning see something suddenly: \"I suddenly caught sight of a flash of bright blue\". Took sight, held sight and got sight are not used.",
+            "grammarTags": [
+              "g-en-b1-collocations"
+            ],
+            "topicTags": [
+              "nature"
+            ],
+            "vocabularyTags": [
+              "catch sight of"
+            ],
+            "difficulty": 5,
+            "options": [
+              "a) took",
+              "b) held",
+              "c) got",
+              "d) caught"
+            ],
+            "level": "B1",
+            "passageId": "en-b1-p-lesen-t5-cloze-bird-watching-01-01"
+          },
+          {
+            "id": "ql_en-b1-r-t5-cloze-bird-watching-01-q4",
+            "type": "multiple_choice",
+            "question": "Choose the word that best fits gap (4).",
+            "correct": "c",
+            "correctAnswer": "c",
+            "explanation": "Manage is followed by a to-infinitive: \"I was amazed when I managed to take a photo of it\". Succeeded needs in + -ing, could has no to, and achieved needs a noun object.",
+            "grammarTags": [
+              "g-en-b1-verb-patterns"
+            ],
+            "topicTags": [
+              "nature"
+            ],
+            "vocabularyTags": [
+              "manage to"
+            ],
+            "difficulty": 5,
+            "options": [
+              "a) could",
+              "b) achieved",
+              "c) managed",
+              "d) succeeded"
+            ],
+            "level": "B1",
+            "passageId": "en-b1-p-lesen-t5-cloze-bird-watching-01-01"
+          },
+          {
+            "id": "ql_en-b1-r-t5-cloze-bird-watching-01-q5",
+            "type": "multiple_choice",
+            "question": "Choose the word that best fits gap (5).",
+            "correct": "b",
+            "correctAnswer": "b",
+            "explanation": "To keep a notebook or diary means to write in it regularly: \"He keeps a notebook in which he writes down every bird he sees\". Saves, stores and collects a notebook do not describe writing a record in it.",
+            "grammarTags": [
+              "g-en-b1-present-simple"
+            ],
+            "topicTags": [
+              "nature"
+            ],
+            "vocabularyTags": [
+              "keep a notebook",
+              "record"
+            ],
+            "difficulty": 4,
+            "options": [
+              "a) stores",
+              "b) keeps",
+              "c) collects",
+              "d) saves"
+            ],
+            "level": "B1",
+            "passageId": "en-b1-p-lesen-t5-cloze-bird-watching-01-01"
+          },
+          {
+            "id": "ql_en-b1-r-t5-cloze-bird-watching-01-q6",
+            "type": "multiple_choice",
+            "question": "Choose the word that best fits gap (6).",
+            "correct": "d",
+            "correctAnswer": "d",
+            "explanation": "Take up means start a new hobby: \"I never expected to enjoy it so much, but now I have taken up bird watching myself\". Given up would mean the writer stopped, which does not fit \"enjoy it so much\"; made up and put up have no connection with hobbies.",
+            "grammarTags": [
+              "g-en-b1-phrasal-verbs"
+            ],
+            "topicTags": [
+              "nature"
+            ],
+            "vocabularyTags": [
+              "take up",
+              "hobby"
+            ],
+            "difficulty": 5,
+            "options": [
+              "a) given",
+              "b) made",
+              "c) put",
+              "d) taken"
+            ],
+            "level": "B1",
+            "passageId": "en-b1-p-lesen-t5-cloze-bird-watching-01-01"
+          }
+        ]
+      },
+      {
+        "teil": 6,
+        "instruction": "Read the text(s) and answer the questions in Part 6.",
+        "blueprintSlot": "open_cloze",
+        "textTitle": "Not quite a birthday feast",
+        "text": "Last month my father turned fifty, and I offered to cook a special dinner for the whole family. I had watched lots of cooking programmes, so I was sure it would be easy. How wrong I was! First, I found out that we did not have (1) ______ eggs at all, so I had to run to the corner shop. While I was out, the cheese sauce boiled for (2) ______ long that it turned into a thick brown paste. Then I added salt to the rice twice by mistake, and it became (3) ______ salty for anyone to eat. When Dad came home, the kitchen was full of smoke and there was nothing on the table at all, apart (4) ______ a plate of burnt bread. Luckily, he just laughed. We opened all the windows and walked to the little Italian restaurant (5) ______ my parents had their first date many years ago. The pizza was delicious. Afterwards, (6) ______ took us nearly two hours to clean the kitchen, but Dad said it was the most memorable birthday he had ever had.",
+        "passageId": "en-b1-p-lesen-t6-open-cloze-cooking-disaster-01-01",
+        "questions": [
+          {
+            "id": "ql_en-b1-r-t6-open-cloze-cooking-disaster-01-q1",
+            "type": "gap_fill",
+            "question": "Write ONE word that fits gap (1).",
+            "correct": "any",
+            "correctAnswer": "any",
+            "explanation": "In a negative sentence we use any with plural nouns: \"we did not have any eggs at all\". The words at all show that the answer is any, not some or many.",
+            "grammarTags": [
+              "g-en-b1-quantifiers"
+            ],
+            "topicTags": [
+              "food"
+            ],
+            "vocabularyTags": [
+              "eggs"
+            ],
+            "difficulty": 3,
+            "level": "B1",
+            "passageId": "en-b1-p-lesen-t6-open-cloze-cooking-disaster-01-01"
+          },
+          {
+            "id": "ql_en-b1-r-t6-open-cloze-cooking-disaster-01-q2",
+            "type": "gap_fill",
+            "question": "Write ONE word that fits gap (2).",
+            "correct": "so",
+            "correctAnswer": "so",
+            "explanation": "So + adverb + that shows a result: the sauce boiled \"for so long that it turned into a thick brown paste\". Too or very cannot be followed by a that-clause of result.",
+            "grammarTags": [
+              "g-en-b1-phrasal-verbs"
+            ],
+            "topicTags": [
+              "food"
+            ],
+            "vocabularyTags": [
+              "turn into"
+            ],
+            "difficulty": 4,
+            "level": "B1",
+            "passageId": "en-b1-p-lesen-t6-open-cloze-cooking-disaster-01-01"
+          },
+          {
+            "id": "ql_en-b1-r-t6-open-cloze-cooking-disaster-01-q3",
+            "type": "gap_fill",
+            "question": "Write ONE word that fits gap (3).",
+            "correct": "too",
+            "correctAnswer": "too",
+            "explanation": "The pattern is too + adjective + for someone + to-infinitive: the rice became \"too salty for anyone to eat\". So or very cannot be followed by for anyone to eat.",
+            "grammarTags": [
+              "g-en-b1-too-enough"
+            ],
+            "topicTags": [
+              "food"
+            ],
+            "vocabularyTags": [
+              "salty"
+            ],
+            "difficulty": 3,
+            "level": "B1",
+            "passageId": "en-b1-p-lesen-t6-open-cloze-cooking-disaster-01-01"
+          },
+          {
+            "id": "ql_en-b1-r-t6-open-cloze-cooking-disaster-01-q4",
+            "type": "gap_fill",
+            "question": "Write ONE word that fits gap (4).",
+            "correct": "from",
+            "correctAnswer": "from",
+            "explanation": "Apart from means except: \"nothing on the table at all, apart from a plate of burnt bread\". Apart is always followed by from in this meaning.",
+            "grammarTags": [
+              "g-en-b1-indefinite-pronouns"
+            ],
+            "topicTags": [
+              "food"
+            ],
+            "vocabularyTags": [
+              "burnt"
+            ],
+            "difficulty": 4,
+            "level": "B1",
+            "passageId": "en-b1-p-lesen-t6-open-cloze-cooking-disaster-01-01"
+          },
+          {
+            "id": "ql_en-b1-r-t6-open-cloze-cooking-disaster-01-q5",
+            "type": "gap_fill",
+            "question": "Write ONE word that fits gap (5).",
+            "correct": "where",
+            "correctAnswer": "where",
+            "explanation": "Where introduces a relative clause about a place: \"the little Italian restaurant where my parents had their first date\". Which or that would need at at the end of the clause.",
+            "grammarTags": [
+              "g-en-b1-relative-clauses"
+            ],
+            "topicTags": [
+              "food"
+            ],
+            "vocabularyTags": [
+              "restaurant"
+            ],
+            "difficulty": 4,
+            "level": "B1",
+            "passageId": "en-b1-p-lesen-t6-open-cloze-cooking-disaster-01-01"
+          },
+          {
+            "id": "ql_en-b1-r-t6-open-cloze-cooking-disaster-01-q6",
+            "type": "gap_fill",
+            "question": "Write ONE word that fits gap (6).",
+            "correct": "it",
+            "correctAnswer": "it",
+            "explanation": "The pattern for time needed is it + take + time + to-infinitive: \"it took us nearly two hours to clean the kitchen\". The subject must be the empty pronoun it.",
+            "grammarTags": [
+              "g-en-b1-pronouns"
+            ],
+            "topicTags": [
+              "food"
+            ],
+            "vocabularyTags": [
+              "take time"
+            ],
+            "difficulty": 3,
+            "level": "B1",
+            "passageId": "en-b1-p-lesen-t6-open-cloze-cooking-disaster-01-01"
+          }
+        ]
+      }
+    ],
+    "horenParts": [
+      {
+        "teil": 1,
+        "instruction": "Listen and answer the questions in Part 1.",
+        "blueprintSlot": "picture_mcq",
+        "transcript": "Woman: Hello, I’m calling about my laptop. You were going to look at the keyboard.\nMan: Yes. I’m afraid we can’t repair it, so we’ll need to put a new one in. Normally that’s seventy-five pounds altogether, sixty for the keyboard and fifteen for the work. But because you bought the laptop here, we won’t charge for the work.\nWoman: So it’ll be sixty pounds?\nMan: Less than that, actually. There’s fifteen pounds off all keyboards this month, so it’s just forty-five.\nWoman: Great. Please go ahead.\n\nMan: How was your computer course?\nWoman: Really good. I wanted to learn how to make a website for my business, but that course was full, so I did the one on photos instead. Now I can make all my holiday pictures look professional.\nMan: Maybe you could do the website course next term.\nWoman: Yes, I will. My son also wants me to try making computer games with him, but I don’t think so!\n\nMan: So which one are you going to get?\nWoman: I really liked the small laptop, but the screen’s too small for my design work.\nMan: And the tablet with the keyboard? You could take it anywhere.\nWoman: I don’t need to take it anywhere. I always work at home. So I’m going for the desktop computer. It’s got a huge screen, and it’s cheaper too.\n\nWoman: Have you found your tablet?\nMan: Yes, thank goodness. I was sure I’d left it on the bus, so I phoned the bus company, but they didn’t have it. Then I remembered I’d used it in the café after I left the library.\nWoman: And it was there?\nMan: Yes. The waiter had kept it behind the counter for me.\n\nMan: Is that a new phone case?\nWoman: Yes. I dropped my phone last week, so I thought I’d better protect it. Luckily the screen didn’t break, and the battery’s fine too. The only problem is that the camera doesn’t work any more, and I need it for my photography course.\nMan: You should take it to the repair shop on Market Street. They’re really quick.\n\nMan: Excuse me, do you sell chargers for this phone?\nWoman: Yes, they’re over there, next to the phone cases.\nMan: Great. I left mine at my hotel. Oh, and have you got any earphones?\nWoman: Sorry, we’ve sold out. We’ll have more on Friday.\nMan: Never mind. I’ll just take the charger, then.\n\nWoman: Hello, this is Sarah from Fastline Broadband with a message for Mr Patel. You booked an engineer to look at your internet connection tomorrow at nine o’clock. I’m afraid he’s ill, so another engineer will come instead. She’s busy until half past eleven, so she can’t come in the morning, but she’ll be with you at two o’clock. Please call us back if that time is a problem.",
+        "segments": [
+          {
+            "id": "seg_1_0",
+            "label": "Recording 1",
+            "transcript": "Woman: Hello, I’m calling about my laptop. You were going to look at the keyboard.\nMan: Yes. I’m afraid we can’t repair it, so we’ll need to put a new one in. Normally that’s seventy-five pounds altogether, sixty for the keyboard and fifteen for the work. But because you bought the laptop here, we won’t charge for the work.\nWoman: So it’ll be sixty pounds?\nMan: Less than that, actually. There’s fifteen pounds off all keyboards this month, so it’s just forty-five.\nWoman: Great. Please go ahead.",
+            "passageId": "en-b1-p-horen-t1-pics-technology-01-02",
+            "questions": [
+              {
+                "id": "ql_en-b1-h-t1-pics-technology-01-s2-q1",
+                "type": "multiple_choice",
+                "question": "How much will the woman pay for the repair?",
+                "correct": "c",
+                "correctAnswer": "c",
+                "explanation": "The man says \"it’s just forty-five\" because there is \"fifteen pounds off all keyboards this month\". £75 is the normal price, and the woman wrongly thinks it will be £60 until he says \"Less than that, actually\".",
+                "grammarTags": [
+                  "g-en-b1-future-will"
+                ],
+                "topicTags": [
+                  "technology"
+                ],
+                "vocabularyTags": [
+                  "price",
+                  "repair",
+                  "keyboard"
+                ],
+                "difficulty": 5,
+                "options": [
+                  "a) £60",
+                  "b) £75",
+                  "c) £45"
+                ],
+                "level": "B1",
+                "passageId": "en-b1-p-horen-t1-pics-technology-01-02"
+              }
+            ]
+          },
+          {
+            "id": "seg_1_1",
+            "label": "Recording 2",
+            "transcript": "Man: How was your computer course?\nWoman: Really good. I wanted to learn how to make a website for my business, but that course was full, so I did the one on photos instead. Now I can make all my holiday pictures look professional.\nMan: Maybe you could do the website course next term.\nWoman: Yes, I will. My son also wants me to try making computer games with him, but I don’t think so!",
+            "passageId": "en-b1-p-horen-t1-pics-technology-01-07",
+            "questions": [
+              {
+                "id": "ql_en-b1-h-t1-pics-technology-01-s7-q1",
+                "type": "multiple_choice",
+                "question": "What did the woman learn on her computer course?",
+                "correct": "a",
+                "correctAnswer": "a",
+                "explanation": "She \"did the one on photos instead\" and can now \"make all my holiday pictures look professional\". The website course \"was full\", and she does not want to make games with her son.",
+                "grammarTags": [
+                  "g-en-b1-past-simple"
+                ],
+                "topicTags": [
+                  "technology"
+                ],
+                "vocabularyTags": [
+                  "website",
+                  "photos",
+                  "games"
+                ],
+                "difficulty": 4,
+                "options": [
+                  "a) How to improve photos",
+                  "b) How to make games",
+                  "c) How to build a website"
+                ],
+                "level": "B1",
+                "passageId": "en-b1-p-horen-t1-pics-technology-01-07"
+              }
+            ]
+          },
+          {
+            "id": "seg_1_2",
+            "label": "Recording 3",
+            "transcript": "Man: So which one are you going to get?\nWoman: I really liked the small laptop, but the screen’s too small for my design work.\nMan: And the tablet with the keyboard? You could take it anywhere.\nWoman: I don’t need to take it anywhere. I always work at home. So I’m going for the desktop computer. It’s got a huge screen, and it’s cheaper too.",
+            "passageId": "en-b1-p-horen-t1-pics-technology-01-04",
+            "questions": [
+              {
+                "id": "ql_en-b1-h-t1-pics-technology-01-s4-q1",
+                "type": "multiple_choice",
+                "question": "Which computer is the woman going to buy?",
+                "correct": "b",
+                "correctAnswer": "b",
+                "explanation": "The woman says \"I’m going for the desktop computer\". The laptop screen is \"too small for my design work\", and she does not need the tablet because \"I always work at home\".",
+                "grammarTags": [
+                  "g-en-b1-going-to"
+                ],
+                "topicTags": [
+                  "technology"
+                ],
+                "vocabularyTags": [
+                  "laptop",
+                  "desktop",
+                  "tablet"
+                ],
+                "difficulty": 3,
+                "options": [
+                  "a) A small laptop",
+                  "b) A desktop computer",
+                  "c) A tablet with a keyboard"
+                ],
+                "level": "B1",
+                "passageId": "en-b1-p-horen-t1-pics-technology-01-04"
+              }
+            ]
+          },
+          {
+            "id": "seg_1_3",
+            "label": "Recording 4",
+            "transcript": "Woman: Have you found your tablet?\nMan: Yes, thank goodness. I was sure I’d left it on the bus, so I phoned the bus company, but they didn’t have it. Then I remembered I’d used it in the café after I left the library.\nWoman: And it was there?\nMan: Yes. The waiter had kept it behind the counter for me.",
+            "passageId": "en-b1-p-horen-t1-pics-technology-01-03",
+            "questions": [
+              {
+                "id": "ql_en-b1-h-t1-pics-technology-01-s3-q1",
+                "type": "multiple_choice",
+                "question": "Where did the man find his tablet?",
+                "correct": "b",
+                "correctAnswer": "b",
+                "explanation": "He had used it \"in the café after I left the library\", and \"The waiter had kept it behind the counter\". The bus company \"didn’t have it\".",
+                "grammarTags": [
+                  "g-en-b1-past-perfect"
+                ],
+                "topicTags": [
+                  "technology"
+                ],
+                "vocabularyTags": [
+                  "tablet",
+                  "café",
+                  "library"
+                ],
+                "difficulty": 3,
+                "options": [
+                  "a) On the bus",
+                  "b) In a café",
+                  "c) In the library"
+                ],
+                "level": "B1",
+                "passageId": "en-b1-p-horen-t1-pics-technology-01-03"
+              }
+            ]
+          },
+          {
+            "id": "seg_1_4",
+            "label": "Recording 5",
+            "transcript": "Man: Is that a new phone case?\nWoman: Yes. I dropped my phone last week, so I thought I’d better protect it. Luckily the screen didn’t break, and the battery’s fine too. The only problem is that the camera doesn’t work any more, and I need it for my photography course.\nMan: You should take it to the repair shop on Market Street. They’re really quick.",
+            "passageId": "en-b1-p-horen-t1-pics-technology-01-01",
+            "questions": [
+              {
+                "id": "ql_en-b1-h-t1-pics-technology-01-s1-q1",
+                "type": "multiple_choice",
+                "question": "What is wrong with the woman’s phone?",
+                "correct": "c",
+                "correctAnswer": "c",
+                "explanation": "The woman says \"the camera doesn’t work any more\". She also says \"the screen didn’t break\" and \"the battery’s fine too\".",
+                "grammarTags": [
+                  "g-en-b1-past-simple"
+                ],
+                "topicTags": [
+                  "technology"
+                ],
+                "vocabularyTags": [
+                  "screen",
+                  "battery",
+                  "camera"
+                ],
+                "difficulty": 3,
+                "options": [
+                  "a) The screen is broken.",
+                  "b) The battery is weak.",
+                  "c) The camera doesn’t work."
+                ],
+                "level": "B1",
+                "passageId": "en-b1-p-horen-t1-pics-technology-01-01"
+              }
+            ]
+          },
+          {
+            "id": "seg_1_5",
+            "label": "Recording 6",
+            "transcript": "Man: Excuse me, do you sell chargers for this phone?\nWoman: Yes, they’re over there, next to the phone cases.\nMan: Great. I left mine at my hotel. Oh, and have you got any earphones?\nWoman: Sorry, we’ve sold out. We’ll have more on Friday.\nMan: Never mind. I’ll just take the charger, then.",
+            "passageId": "en-b1-p-horen-t1-pics-technology-01-06",
+            "questions": [
+              {
+                "id": "ql_en-b1-h-t1-pics-technology-01-s6-q1",
+                "type": "multiple_choice",
+                "question": "What does the man buy?",
+                "correct": "c",
+                "correctAnswer": "c",
+                "explanation": "The man says \"I’ll just take the charger, then\". The phone cases are only where the chargers are, and the earphones have \"sold out\".",
+                "grammarTags": [
+                  "g-en-b1-present-perfect"
+                ],
+                "topicTags": [
+                  "technology"
+                ],
+                "vocabularyTags": [
+                  "charger",
+                  "earphones",
+                  "case"
+                ],
+                "difficulty": 3,
+                "options": [
+                  "a) A phone case",
+                  "b) Some earphones",
+                  "c) A phone charger"
+                ],
+                "level": "B1",
+                "passageId": "en-b1-p-horen-t1-pics-technology-01-06"
+              }
+            ]
+          },
+          {
+            "id": "seg_1_6",
+            "label": "Recording 7",
+            "transcript": "Woman: Hello, this is Sarah from Fastline Broadband with a message for Mr Patel. You booked an engineer to look at your internet connection tomorrow at nine o’clock. I’m afraid he’s ill, so another engineer will come instead. She’s busy until half past eleven, so she can’t come in the morning, but she’ll be with you at two o’clock. Please call us back if that time is a problem.",
+            "passageId": "en-b1-p-horen-t1-pics-technology-01-05",
+            "questions": [
+              {
+                "id": "ql_en-b1-h-t1-pics-technology-01-s5-q1",
+                "type": "multiple_choice",
+                "question": "What time will the engineer arrive tomorrow?",
+                "correct": "a",
+                "correctAnswer": "a",
+                "explanation": "The message says \"she’ll be with you at two o’clock\". Nine o’clock was the time of the first booking, and the new engineer is \"busy until half past eleven\".",
+                "grammarTags": [
+                  "g-en-b1-future-will"
+                ],
+                "topicTags": [
+                  "technology"
+                ],
+                "vocabularyTags": [
+                  "engineer",
+                  "booking",
+                  "time"
+                ],
+                "difficulty": 4,
+                "options": [
+                  "a) At two o’clock",
+                  "b) At nine o’clock",
+                  "c) At half past eleven"
+                ],
+                "level": "B1",
+                "passageId": "en-b1-p-horen-t1-pics-technology-01-05"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "teil": 2,
+        "instruction": "Listen and answer the questions in Part 2.",
+        "blueprintSlot": "short_dialogue_mcq",
+        "transcript": "Woman: Did you get the letter from the school about plastic bottles?\nMan: Yes. From next month the children have to bring metal ones instead.\nWoman: I think it’s a good idea, but the school should give them one each. Not every family can pay fifteen pounds for a bottle.\nMan: You’re right. That’s the real problem.\nWoman: Mind you, my son Leo will probably lose his in a week.\nMan: Oh, I don’t think so. My daughter’s had the same lunch box for three years.\n\nWoman: You’re going to Edinburgh by train? From Cornwall? That’s nine hours!\nMan: I know. And it cost more than the plane, too.\nWoman: So why? Are you scared of flying?\nMan: No, I fly for work all the time. But I read how much pollution one flight makes, and I felt terrible. This time I wanted to travel in a way that’s better for the planet. And I’ll get lots of reading done.\n\nMan: How was the beach clean-up on Saturday?\nWoman: Really well organised. They gave us gloves and bags, and there were about forty of us. But what shocked me was how much of the rubbish was plastic packaging, exactly like the stuff I buy every week.\nMan: Really?\nWoman: Since then I’ve been taking my own containers to the market and buying fruit without any packaging. I’ll never look at a supermarket shelf in the same way again.\n\nWoman: Do you really cycle to work every day now?\nMan: Since March. I only started because my car broke down and I didn’t want to pay for the repair straight away.\nWoman: Isn’t it dangerous on the main road?\nMan: There’s a cycle path most of the way, so I feel quite safe. And it’s only five minutes slower than driving, with all the traffic. The funny thing is, I actually look forward to it now. I never thought I’d say that!\n\nMan: That’s a great jacket. Is it new?\nWoman: No, it’s second-hand, from the charity shop on Church Street.\nMan: Really? You love that seventies look, don’t you?\nWoman: Not especially. This one just fitted me. I used to buy new clothes all the time, but then I watched a programme about how many clothes get thrown away every year. Millions of tonnes! So now I try not to buy anything new.\nMan: It must save you money too.\nWoman: Not always. Some of those shops aren’t cheap. But that isn’t why I do it.\n\nMan: Have you seen the little brown bin the council left for food waste?\nWoman: Yes, and I was ready to hate it. I thought the whole kitchen would smell.\nMan: And does it?\nWoman: Not at all. The lid closes really tightly. And our ordinary bin’s half empty now, so we only take the rubbish out once a week. Honestly, it’s made life easier.\nMan: Hmm. I’m still not sure it’s worth all the trouble.",
+        "segments": [
+          {
+            "id": "seg_2_0",
+            "label": "Recording 1",
+            "transcript": "Woman: Did you get the letter from the school about plastic bottles?\nMan: Yes. From next month the children have to bring metal ones instead.\nWoman: I think it’s a good idea, but the school should give them one each. Not every family can pay fifteen pounds for a bottle.\nMan: You’re right. That’s the real problem.\nWoman: Mind you, my son Leo will probably lose his in a week.\nMan: Oh, I don’t think so. My daughter’s had the same lunch box for three years.",
+            "passageId": "en-b1-p-horen-t2-gist-environment-01-03",
+            "questions": [
+              {
+                "id": "ql_en-b1-h-t2-gist-environment-01-q3",
+                "type": "multiple_choice",
+                "question": "You will hear two parents talking about a new rule at their children’s school. What do they agree about?",
+                "correct": "b",
+                "correctAnswer": "b",
+                "explanation": "The woman says \"the school should give them one each\" and the man answers \"You’re right\". She thinks the rule is \"a good idea\", and when she says her son will lose his bottle, the man replies \"I don’t think so\".",
+                "grammarTags": [
+                  "g-en-b1-modals"
+                ],
+                "topicTags": [
+                  "environment"
+                ],
+                "vocabularyTags": [
+                  "plastic",
+                  "school",
+                  "agree"
+                ],
+                "difficulty": 5,
+                "options": [
+                  "a) The children will soon lose their bottles.",
+                  "b) The school should provide the bottles.",
+                  "c) The new rule is unlikely to work."
+                ],
+                "level": "B1",
+                "passageId": "en-b1-p-horen-t2-gist-environment-01-03"
+              }
+            ]
+          },
+          {
+            "id": "seg_2_1",
+            "label": "Recording 2",
+            "transcript": "Woman: You’re going to Edinburgh by train? From Cornwall? That’s nine hours!\nMan: I know. And it cost more than the plane, too.\nWoman: So why? Are you scared of flying?\nMan: No, I fly for work all the time. But I read how much pollution one flight makes, and I felt terrible. This time I wanted to travel in a way that’s better for the planet. And I’ll get lots of reading done.",
+            "passageId": "en-b1-p-horen-t2-gist-environment-01-06",
+            "questions": [
+              {
+                "id": "ql_en-b1-h-t2-gist-environment-01-q6",
+                "type": "multiple_choice",
+                "question": "You will hear two friends talking about a journey. Why did the man decide to go by train?",
+                "correct": "a",
+                "correctAnswer": "a",
+                "explanation": "He read \"how much pollution one flight makes\" and wanted to travel in a way that is \"better for the planet\". The train \"cost more than the plane\", and he is not scared because he flies \"for work all the time\".",
+                "grammarTags": [
+                  "g-en-b1-past-simple"
+                ],
+                "topicTags": [
+                  "environment"
+                ],
+                "vocabularyTags": [
+                  "travel",
+                  "pollution",
+                  "purpose"
+                ],
+                "difficulty": 4,
+                "options": [
+                  "a) To cause less pollution",
+                  "b) Because it was cheaper than flying",
+                  "c) Because he is afraid of flying"
+                ],
+                "level": "B1",
+                "passageId": "en-b1-p-horen-t2-gist-environment-01-06"
+              }
+            ]
+          },
+          {
+            "id": "seg_2_2",
+            "label": "Recording 3",
+            "transcript": "Man: How was the beach clean-up on Saturday?\nWoman: Really well organised. They gave us gloves and bags, and there were about forty of us. But what shocked me was how much of the rubbish was plastic packaging, exactly like the stuff I buy every week.\nMan: Really?\nWoman: Since then I’ve been taking my own containers to the market and buying fruit without any packaging. I’ll never look at a supermarket shelf in the same way again.",
+            "passageId": "en-b1-p-horen-t2-gist-environment-01-05",
+            "questions": [
+              {
+                "id": "ql_en-b1-h-t2-gist-environment-01-q5",
+                "type": "multiple_choice",
+                "question": "You will hear a woman telling a friend about a beach clean-up. What does she say about it?",
+                "correct": "b",
+                "correctAnswer": "b",
+                "explanation": "She was shocked by the \"plastic packaging\", and \"Since then I’ve been taking my own containers to the market\". She says it was \"Really well organised\", and \"about forty of us\" came.",
+                "grammarTags": [
+                  "g-en-b1-present-perfect-continuous"
+                ],
+                "topicTags": [
+                  "environment"
+                ],
+                "vocabularyTags": [
+                  "plastic",
+                  "shopping",
+                  "volunteering"
+                ],
+                "difficulty": 4,
+                "options": [
+                  "a) It was badly organised.",
+                  "b) It made her change how she shops.",
+                  "c) Not enough people took part."
+                ],
+                "level": "B1",
+                "passageId": "en-b1-p-horen-t2-gist-environment-01-05"
+              }
+            ]
+          },
+          {
+            "id": "seg_2_3",
+            "label": "Recording 4",
+            "transcript": "Woman: Do you really cycle to work every day now?\nMan: Since March. I only started because my car broke down and I didn’t want to pay for the repair straight away.\nWoman: Isn’t it dangerous on the main road?\nMan: There’s a cycle path most of the way, so I feel quite safe. And it’s only five minutes slower than driving, with all the traffic. The funny thing is, I actually look forward to it now. I never thought I’d say that!",
+            "passageId": "en-b1-p-horen-t2-gist-environment-01-04",
+            "questions": [
+              {
+                "id": "ql_en-b1-h-t2-gist-environment-01-q4",
+                "type": "multiple_choice",
+                "question": "You will hear a man telling a friend about cycling to work. How does he feel about it?",
+                "correct": "a",
+                "correctAnswer": "a",
+                "explanation": "He says \"I actually look forward to it now. I never thought I’d say that!\" He feels \"quite safe\" because of the cycle path, and it is \"only five minutes slower\" than driving.",
+                "grammarTags": [
+                  "g-en-b1-present-perfect"
+                ],
+                "topicTags": [
+                  "environment"
+                ],
+                "vocabularyTags": [
+                  "cycling",
+                  "transport",
+                  "feelings"
+                ],
+                "difficulty": 4,
+                "options": [
+                  "a) Surprised that he enjoys it so much",
+                  "b) Worried about the traffic on the main road",
+                  "c) Annoyed that the journey takes longer"
+                ],
+                "level": "B1",
+                "passageId": "en-b1-p-horen-t2-gist-environment-01-04"
+              }
+            ]
+          },
+          {
+            "id": "seg_2_4",
+            "label": "Recording 5",
+            "transcript": "Man: That’s a great jacket. Is it new?\nWoman: No, it’s second-hand, from the charity shop on Church Street.\nMan: Really? You love that seventies look, don’t you?\nWoman: Not especially. This one just fitted me. I used to buy new clothes all the time, but then I watched a programme about how many clothes get thrown away every year. Millions of tonnes! So now I try not to buy anything new.\nMan: It must save you money too.\nWoman: Not always. Some of those shops aren’t cheap. But that isn’t why I do it.",
+            "passageId": "en-b1-p-horen-t2-gist-environment-01-02",
+            "questions": [
+              {
+                "id": "ql_en-b1-h-t2-gist-environment-01-q2",
+                "type": "multiple_choice",
+                "question": "You will hear two friends talking about second-hand clothes. Why does the woman buy them?",
+                "correct": "c",
+                "correctAnswer": "c",
+                "explanation": "After a programme about how many clothes \"get thrown away every year\", she decided to \"try not to buy anything new\". About money she says \"Some of those shops aren’t cheap\" and \"that isn’t why I do it\", and about the seventies look she says \"Not especially\".",
+                "grammarTags": [
+                  "g-en-b1-used-to"
+                ],
+                "topicTags": [
+                  "environment"
+                ],
+                "vocabularyTags": [
+                  "clothes",
+                  "second-hand",
+                  "purpose"
+                ],
+                "difficulty": 4,
+                "options": [
+                  "a) To save money",
+                  "b) Because she prefers older styles",
+                  "c) To help reduce waste"
+                ],
+                "level": "B1",
+                "passageId": "en-b1-p-horen-t2-gist-environment-01-02"
+              }
+            ]
+          },
+          {
+            "id": "seg_2_5",
+            "label": "Recording 6",
+            "transcript": "Man: Have you seen the little brown bin the council left for food waste?\nWoman: Yes, and I was ready to hate it. I thought the whole kitchen would smell.\nMan: And does it?\nWoman: Not at all. The lid closes really tightly. And our ordinary bin’s half empty now, so we only take the rubbish out once a week. Honestly, it’s made life easier.\nMan: Hmm. I’m still not sure it’s worth all the trouble.",
+            "passageId": "en-b1-p-horen-t2-gist-environment-01-01",
+            "questions": [
+              {
+                "id": "ql_en-b1-h-t2-gist-environment-01-q1",
+                "type": "multiple_choice",
+                "question": "You will hear two friends talking about a new food waste bin. What does the woman think of it?",
+                "correct": "c",
+                "correctAnswer": "c",
+                "explanation": "The woman says \"it’s made life easier\" because they only take the rubbish out \"once a week\". She expected a smell, but says \"Not at all\". It is the man who is \"not sure it’s worth all the trouble\".",
+                "grammarTags": [
+                  "g-en-b1-present-perfect"
+                ],
+                "topicTags": [
+                  "environment"
+                ],
+                "vocabularyTags": [
+                  "recycling",
+                  "food waste",
+                  "opinion"
+                ],
+                "difficulty": 4,
+                "options": [
+                  "a) It is not worth the trouble.",
+                  "b) It makes the kitchen smell bad.",
+                  "c) It has made things easier."
+                ],
+                "level": "B1",
+                "passageId": "en-b1-p-horen-t2-gist-environment-01-01"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "teil": 3,
+        "instruction": "Listen and answer the questions in Part 3.",
+        "blueprintSlot": "sentence_completion",
+        "transcript": "Woman: Hi everyone, I’m Ruth, and I’m organising this year’s River Wendle Clean-Up Day, which is happening on Sunday the fourteenth of May. Thanks for coming to this meeting. Let me tell you what you need to know.\n\nWe’ll all meet in the car park next to the old mill, at the bottom of Station Road. Please don’t go to the bridge in the town centre. That’s where we met last year, but there’s building work there at the moment.\n\nThe poster says we’re starting at ten o’clock, but that was a mistake, I’m afraid. We’ll actually start at half past nine, so please try to arrive a few minutes before that.\n\nAs for equipment, we’ll give everyone rubbish bags and litter pickers, those long grabbers, so you won’t need to bring those. What you do need to bring is a pair of gloves. Strong ones, please, because there can be broken glass near the water. And wear old clothes, as you’re going to get muddy.\n\nYou might be wondering what we find. Mostly it’s plastic bottles and cans, of course, and every year there are a couple of shopping trolleys. But the strangest thing we pulled out last year was a guitar. It was in surprisingly good condition, actually!\n\nAt about one o’clock we’ll stop for lunch. The café by the river has closed down, unfortunately, but a local bakery has kindly offered to bring sandwiches and cakes for everyone, free of charge.\n\nFinally, families are very welcome. Children aged fourteen and over can come on their own, but anyone under fourteen must be with an adult. Last year the age was twelve, but we’ve changed it because some parts of the riverbank are quite steep.\n\nIf you have any questions, you can find me after the meeting. See you on the fourteenth!",
+        "segments": [
+          {
+            "id": "seg_3_0",
+            "label": "Recording 1",
+            "transcript": "Woman: Hi everyone, I’m Ruth, and I’m organising this year’s River Wendle Clean-Up Day, which is happening on Sunday the fourteenth of May. Thanks for coming to this meeting. Let me tell you what you need to know.\n\nWe’ll all meet in the car park next to the old mill, at the bottom of Station Road. Please don’t go to the bridge in the town centre. That’s where we met last year, but there’s building work there at the moment.\n\nThe poster says we’re starting at ten o’clock, but that was a mistake, I’m afraid. We’ll actually start at half past nine, so please try to arrive a few minutes before that.\n\nAs for equipment, we’ll give everyone rubbish bags and litter pickers, those long grabbers, so you won’t need to bring those. What you do need to bring is a pair of gloves. Strong ones, please, because there can be broken glass near the water. And wear old clothes, as you’re going to get muddy.\n\nYou might be wondering what we find. Mostly it’s plastic bottles and cans, of course, and every year there are a couple of shopping trolleys. But the strangest thing we pulled out last year was a guitar. It was in surprisingly good condition, actually!\n\nAt about one o’clock we’ll stop for lunch. The café by the river has closed down, unfortunately, but a local bakery has kindly offered to bring sandwiches and cakes for everyone, free of charge.\n\nFinally, families are very welcome. Children aged fourteen and over can come on their own, but anyone under fourteen must be with an adult. Last year the age was twelve, but we’ve changed it because some parts of the riverbank are quite steep.\n\nIf you have any questions, you can find me after the meeting. See you on the fourteenth!",
+            "passageId": "en-b1-p-horen-t3-gapfill-volunteer-day-01-01",
+            "questions": [
+              {
+                "id": "ql_en-b1-h-t3-gapfill-volunteer-day-01-q1",
+                "type": "gap_fill",
+                "question": "Meeting point: the car park next to the ____",
+                "correct": "old mill",
+                "correctAnswer": "old mill",
+                "explanation": "\"We’ll all meet in the car park next to the old mill\". The bridge in the town centre was last year’s meeting place.",
+                "grammarTags": [
+                  "g-en-b1-prepositions-of-place"
+                ],
+                "topicTags": [
+                  "environment"
+                ],
+                "vocabularyTags": [
+                  "places",
+                  "directions"
+                ],
+                "difficulty": 4,
+                "acceptedAnswers": [
+                  "mill"
+                ],
+                "level": "B1",
+                "passageId": "en-b1-p-horen-t3-gapfill-volunteer-day-01-01"
+              },
+              {
+                "id": "ql_en-b1-h-t3-gapfill-volunteer-day-01-q2",
+                "type": "gap_fill",
+                "question": "Start time: ____",
+                "correct": "9.30",
+                "correctAnswer": "9.30",
+                "explanation": "The poster says ten o’clock, but \"that was a mistake\": \"We’ll actually start at half past nine\".",
+                "grammarTags": [
+                  "g-en-b1-time"
+                ],
+                "topicTags": [
+                  "environment"
+                ],
+                "vocabularyTags": [
+                  "time",
+                  "numbers"
+                ],
+                "difficulty": 4,
+                "acceptedAnswers": [
+                  "9:30",
+                  "half past nine",
+                  "nine thirty",
+                  "9.30 am",
+                  "9:30 am",
+                  "9.30am",
+                  "9:30am"
+                ],
+                "level": "B1",
+                "passageId": "en-b1-p-horen-t3-gapfill-volunteer-day-01-01"
+              },
+              {
+                "id": "ql_en-b1-h-t3-gapfill-volunteer-day-01-q3",
+                "type": "gap_fill",
+                "question": "Volunteers must bring their own ____.",
+                "correct": "gloves",
+                "correctAnswer": "gloves",
+                "explanation": "Bags and litter pickers are given out, \"so you won’t need to bring those. What you do need to bring is a pair of gloves.\"",
+                "grammarTags": [
+                  "g-en-b1-need-to"
+                ],
+                "topicTags": [
+                  "environment"
+                ],
+                "vocabularyTags": [
+                  "clothes",
+                  "equipment"
+                ],
+                "difficulty": 4,
+                "acceptedAnswers": [
+                  "pair of gloves",
+                  "a pair of gloves"
+                ],
+                "level": "B1",
+                "passageId": "en-b1-p-horen-t3-gapfill-volunteer-day-01-01"
+              },
+              {
+                "id": "ql_en-b1-h-t3-gapfill-volunteer-day-01-q4",
+                "type": "gap_fill",
+                "question": "Strangest thing found in the river last year: a ____",
+                "correct": "guitar",
+                "correctAnswer": "guitar",
+                "explanation": "Bottles, cans and shopping trolleys are found every year, \"But the strangest thing we pulled out last year was a guitar.\"",
+                "grammarTags": [
+                  "g-en-b1-superlatives"
+                ],
+                "topicTags": [
+                  "environment"
+                ],
+                "vocabularyTags": [
+                  "objects",
+                  "music"
+                ],
+                "difficulty": 4,
+                "level": "B1",
+                "passageId": "en-b1-p-horen-t3-gapfill-volunteer-day-01-01"
+              },
+              {
+                "id": "ql_en-b1-h-t3-gapfill-volunteer-day-01-q5",
+                "type": "gap_fill",
+                "question": "Free lunch will be brought by a local ____.",
+                "correct": "bakery",
+                "correctAnswer": "bakery",
+                "explanation": "\"The café by the river has closed down … but a local bakery has kindly offered to bring sandwiches and cakes\".",
+                "grammarTags": [
+                  "g-en-b1-present-perfect"
+                ],
+                "topicTags": [
+                  "environment"
+                ],
+                "vocabularyTags": [
+                  "food",
+                  "shops"
+                ],
+                "difficulty": 5,
+                "level": "B1",
+                "passageId": "en-b1-p-horen-t3-gapfill-volunteer-day-01-01"
+              },
+              {
+                "id": "ql_en-b1-h-t3-gapfill-volunteer-day-01-q6",
+                "type": "gap_fill",
+                "question": "Children under ____ must come with an adult.",
+                "correct": "14",
+                "correctAnswer": "14",
+                "explanation": "\"Anyone under fourteen must be with an adult.\" Twelve was the age \"last year\".",
+                "grammarTags": [
+                  "g-en-b1-modals"
+                ],
+                "topicTags": [
+                  "environment"
+                ],
+                "vocabularyTags": [
+                  "age",
+                  "family"
+                ],
+                "difficulty": 4,
+                "acceptedAnswers": [
+                  "fourteen"
+                ],
+                "level": "B1",
+                "passageId": "en-b1-p-horen-t3-gapfill-volunteer-day-01-01"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "teil": 4,
+        "instruction": "Listen and answer the questions in Part 4.",
+        "blueprintSlot": "interview_mcq",
+        "transcript": "Interviewer: I’m here with seventeen-year-old Leo Hartley, who has just been chosen for the national youth climbing team. Leo, how did you get into climbing?\n\nLeo: It was because of my older sister, really. She went to a climbing wall for a friend’s birthday party and loved it, and the next week I went along with her, just because I was bored. I wasn’t sporty at all. I was terrible at football, so I didn’t expect much. But after ten minutes on the wall I knew I’d found my thing.\n\nInterviewer: What is it about climbing that you enjoy most?\n\nLeo: People think it’s all about being strong, and you do need strength. But for me the best part is the puzzle. Every route is different, and you have to work out where to put your hands and feet. When you finally manage a route you’ve been stuck on for weeks, it’s an amazing feeling.\n\nInterviewer: Do you prefer climbing indoors or outdoors?\n\nLeo: Competitions are all indoors, so I train on climbing walls most of the time, and they’re great for practising. But nothing compares to being on real rock in the mountains. The views, the quiet… Whenever I can, I go to Wales with my coach.\n\nInterviewer: Is climbing dangerous?\n\nLeo: Everyone asks that! My mum worried a lot at first. But honestly, with the right equipment and a good partner, it’s much safer than most people imagine. Accidents usually happen when people get careless, so I always check everything twice.\n\nInterviewer: How do you manage school and training?\n\nLeo: It isn’t easy. I train five evenings a week, so I do my homework on the bus and at lunchtime. My teachers have been really understanding, though. When I had a competition in France, they sent me work to do so that I didn’t fall behind.\n\nInterviewer: What are your hopes for the future?\n\nLeo: Lots of people expect me to say the Olympics. That would be incredible, of course, but I try not to think that far ahead. Right now I just want to keep enjoying it. If I stop having fun, there’s no point.\n\nInterviewer: Leo, good luck.",
+        "segments": [
+          {
+            "id": "seg_4_0",
+            "label": "Recording 1",
+            "transcript": "Interviewer: I’m here with seventeen-year-old Leo Hartley, who has just been chosen for the national youth climbing team. Leo, how did you get into climbing?\n\nLeo: It was because of my older sister, really. She went to a climbing wall for a friend’s birthday party and loved it, and the next week I went along with her, just because I was bored. I wasn’t sporty at all. I was terrible at football, so I didn’t expect much. But after ten minutes on the wall I knew I’d found my thing.\n\nInterviewer: What is it about climbing that you enjoy most?\n\nLeo: People think it’s all about being strong, and you do need strength. But for me the best part is the puzzle. Every route is different, and you have to work out where to put your hands and feet. When you finally manage a route you’ve been stuck on for weeks, it’s an amazing feeling.\n\nInterviewer: Do you prefer climbing indoors or outdoors?\n\nLeo: Competitions are all indoors, so I train on climbing walls most of the time, and they’re great for practising. But nothing compares to being on real rock in the mountains. The views, the quiet… Whenever I can, I go to Wales with my coach.\n\nInterviewer: Is climbing dangerous?\n\nLeo: Everyone asks that! My mum worried a lot at first. But honestly, with the right equipment and a good partner, it’s much safer than most people imagine. Accidents usually happen when people get careless, so I always check everything twice.\n\nInterviewer: How do you manage school and training?\n\nLeo: It isn’t easy. I train five evenings a week, so I do my homework on the bus and at lunchtime. My teachers have been really understanding, though. When I had a competition in France, they sent me work to do so that I didn’t fall behind.\n\nInterviewer: What are your hopes for the future?\n\nLeo: Lots of people expect me to say the Olympics. That would be incredible, of course, but I try not to think that far ahead. Right now I just want to keep enjoying it. If I stop having fun, there’s no point.\n\nInterviewer: Leo, good luck.",
+            "passageId": "en-b1-p-horen-t4-interview-climber-01-01",
+            "questions": [
+              {
+                "id": "ql_en-b1-h-t4-interview-climber-01-q1",
+                "type": "multiple_choice",
+                "question": "Why did Leo first go climbing?",
+                "correct": "c",
+                "correctAnswer": "c",
+                "explanation": "\"The next week I went along with her, just because I was bored.\" It was his sister who went to the birthday party, and he \"didn’t expect much\", so he was not looking for a sport.",
+                "grammarTags": [
+                  "g-en-b1-past-simple"
+                ],
+                "topicTags": [
+                  "sport"
+                ],
+                "vocabularyTags": [
+                  "sport",
+                  "family"
+                ],
+                "difficulty": 4,
+                "options": [
+                  "a) He hoped to find a sport he was good at.",
+                  "b) He was invited to a friend’s birthday party.",
+                  "c) He was bored, so he went with his sister."
+                ],
+                "level": "B1",
+                "passageId": "en-b1-p-horen-t4-interview-climber-01-01"
+              },
+              {
+                "id": "ql_en-b1-h-t4-interview-climber-01-q2",
+                "type": "multiple_choice",
+                "question": "What does Leo enjoy most about climbing?",
+                "correct": "b",
+                "correctAnswer": "b",
+                "explanation": "\"For me the best part is the puzzle … you have to work out where to put your hands and feet.\" He says you need strength, but \"people think\" it is all about that.",
+                "grammarTags": [
+                  "g-en-b1-superlatives"
+                ],
+                "topicTags": [
+                  "sport"
+                ],
+                "vocabularyTags": [
+                  "sport",
+                  "feelings"
+                ],
+                "difficulty": 5,
+                "options": [
+                  "a) Meeting other young climbers at competitions",
+                  "b) Working out how to climb a route",
+                  "c) Becoming stronger and fitter"
+                ],
+                "level": "B1",
+                "passageId": "en-b1-p-horen-t4-interview-climber-01-01"
+              },
+              {
+                "id": "ql_en-b1-h-t4-interview-climber-01-q3",
+                "type": "multiple_choice",
+                "question": "How does Leo feel about climbing outdoors?",
+                "correct": "a",
+                "correctAnswer": "a",
+                "explanation": "\"Nothing compares to being on real rock in the mountains.\" Climbing walls are the ones that are \"great for practising\", so outdoor climbing is not better for training.",
+                "grammarTags": [
+                  "g-en-b1-comparatives"
+                ],
+                "topicTags": [
+                  "sport"
+                ],
+                "vocabularyTags": [
+                  "nature",
+                  "sport"
+                ],
+                "difficulty": 4,
+                "options": [
+                  "a) He prefers it to indoor walls.",
+                  "b) It is too far away to do often.",
+                  "c) It is more useful for training."
+                ],
+                "level": "B1",
+                "passageId": "en-b1-p-horen-t4-interview-climber-01-01"
+              },
+              {
+                "id": "ql_en-b1-h-t4-interview-climber-01-q4",
+                "type": "multiple_choice",
+                "question": "What is Leo’s opinion about the danger of climbing?",
+                "correct": "a",
+                "correctAnswer": "a",
+                "explanation": "\"It’s much safer than most people imagine.\" He says accidents happen \"when people get careless\", not that they happen to beginners.",
+                "grammarTags": [
+                  "g-en-b1-comparatives"
+                ],
+                "topicTags": [
+                  "sport"
+                ],
+                "vocabularyTags": [
+                  "safety",
+                  "opinions"
+                ],
+                "difficulty": 5,
+                "options": [
+                  "a) It is safer than many people believe.",
+                  "b) His mother is right to worry about him.",
+                  "c) Most accidents happen to beginners."
+                ],
+                "level": "B1",
+                "passageId": "en-b1-p-horen-t4-interview-climber-01-01"
+              },
+              {
+                "id": "ql_en-b1-h-t4-interview-climber-01-q5",
+                "type": "multiple_choice",
+                "question": "What does Leo say about his teachers?",
+                "correct": "b",
+                "correctAnswer": "b",
+                "explanation": "His teachers \"sent me work to do so that I didn’t fall behind\". He still does his homework \"on the bus and at lunchtime\", and they are \"really understanding\" about his training.",
+                "grammarTags": [
+                  "g-en-b1-present-perfect"
+                ],
+                "topicTags": [
+                  "sport"
+                ],
+                "vocabularyTags": [
+                  "school",
+                  "education"
+                ],
+                "difficulty": 5,
+                "options": [
+                  "a) They let him miss homework before competitions.",
+                  "b) They help him keep up with his schoolwork.",
+                  "c) They think he should train less often."
+                ],
+                "level": "B1",
+                "passageId": "en-b1-p-horen-t4-interview-climber-01-01"
+              },
+              {
+                "id": "ql_en-b1-h-t4-interview-climber-01-q6",
+                "type": "multiple_choice",
+                "question": "How does Leo feel about his future?",
+                "correct": "c",
+                "correctAnswer": "c",
+                "explanation": "\"Right now I just want to keep enjoying it.\" The Olympics \"would be incredible\", but \"I try not to think that far ahead\".",
+                "grammarTags": [
+                  "g-en-b1-want-to"
+                ],
+                "topicTags": [
+                  "sport"
+                ],
+                "vocabularyTags": [
+                  "plans",
+                  "feelings"
+                ],
+                "difficulty": 4,
+                "options": [
+                  "a) He is afraid he will get bored with the sport.",
+                  "b) He is determined to compete in the Olympics.",
+                  "c) He wants to concentrate on enjoying climbing."
+                ],
+                "level": "B1",
+                "passageId": "en-b1-p-horen-t4-interview-climber-01-01"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "schreibenParts": [
+      {
+        "aufgabe": 1,
+        "fieldId": "write_bp_1",
+        "task": "Read this email from your English-speaking friend Priya and the notes you have made.\n\nFrom: Priya\nSubject: Getting fit together\n\nHi!\nI’ve decided I really need to get fitter this year, and I’d love to do it with you. [Note 1: Great idea!] We could go running in the park or join the new sports centre in town. Which would you rather do? [Note 2: Choose and explain] How often do you think we should exercise? [Note 3: Suggest] I’d also like to eat more healthily, but I don’t know where to start. Have you got any tips? [Note 4: Give advice]\n\nSpeak soon,\nPriya\n\nWrite your email to Priya using all the notes. Write about 100 words.",
+        "minWords": 80,
+        "maxWords": 80,
+        "targetWords": 80,
+        "mandatory": true,
+        "taskType": "email",
+        "blueprintSlot": "email",
+        "grammarTags": [
+          "g-en-b1-modals",
+          "g-en-b1-comparatives"
+        ],
+        "topicTags": [
+          "health"
+        ],
+        "teil": 1
+      },
+      {
+        "aufgabe": 2,
+        "fieldId": "write_bp_2",
+        "task": "Choose ONE of these questions. Write your answer in about 100 words.\n\nQuestion 2 – Article\nYou see this announcement in your school’s English-language magazine.\n\nArticles wanted!\nHOW I KEEP HEALTHY\nWhat do you do to keep healthy? What do you eat, and what kind of exercise do you do? Is there anything you would like to change?\nWrite an article answering these questions. We will publish the most interesting articles.\n\nWrite your article.\n\nQuestion 3 – Story\nYour English teacher has asked you to write a story.\nYour story must begin with this sentence:\nI had never run so fast in my life.\n\nWrite your story.",
+        "minWords": 80,
+        "maxWords": 80,
+        "targetWords": 80,
+        "mandatory": false,
+        "taskType": "article",
+        "blueprintSlot": "choice_writing",
+        "grammarTags": [
+          "g-en-b1-past-perfect",
+          "g-en-b1-present-simple"
+        ],
+        "topicTags": [
+          "health"
+        ],
+        "teil": 2
+      }
+    ],
+    "sprechenParts": [
+      {
+        "teil": 1,
+        "title": "Part 1 — Speaking",
+        "fieldId": "speak_bp_1",
+        "situation": "Part 1 – Interview\nThe examiner asks you some questions about yourself. Answer each question and give some extra information.\n\nWhat kind of music do you like listening to?\nDo you prefer watching films at home or at the cinema? Why?\nTell us about a film you saw recently.\nDo you enjoy reading? What kind of books do you like?\nCan you play a musical instrument, or would you like to learn one?",
+        "points": [
+          "interview"
+        ],
+        "blueprintSlot": "speaking_task",
+        "grammarTags": [
+          "g-en-b1-past-simple",
+          "g-en-b1-would-like"
+        ],
+        "topicTags": [
+          "entertainment"
+        ]
+      },
+      {
+        "teil": 2,
+        "title": "Part 2 — Speaking",
+        "fieldId": "speak_bp_2",
+        "situation": "Part 2 – Photo description\nLook at the photograph. It shows a street performer in a town square. The performer is standing on a small wooden box and juggling three balls. A crowd of people is standing in a circle around the box, watching. Some of them are clapping, and a child is sitting on an adult’s shoulders to see better. On the ground in front of the box there is an open hat with some coins in it. Behind the crowd there are some cafés with tables outside. Tell us what you can see in the photograph.\n\nTalk for about one minute.",
+        "points": [
+          "photo_description"
+        ],
+        "blueprintSlot": "speaking_task",
+        "grammarTags": [
+          "g-en-b1-present-continuous",
+          "g-en-b1-prepositions-of-place"
+        ],
+        "topicTags": [
+          "entertainment"
+        ]
+      },
+      {
+        "teil": 3,
+        "title": "Part 3 — Speaking",
+        "fieldId": "speak_bp_3",
+        "situation": "Part 3 – Collaborative task\nA class is going on a day trip to a big city, and the students can choose one activity. Here are some activities they are thinking about.\n\na visit to a science museum\na musical at a theatre\na boat trip on the river\nan art gallery with famous paintings\na walking tour of the old town\na tour of a football stadium\n\nTalk together about why each activity might be interesting for the class. Then decide which activity the class should choose.\n\nTalk together for about two or three minutes.",
+        "points": [
+          "collaborative_task"
+        ],
+        "blueprintSlot": "speaking_task",
+        "grammarTags": [
+          "g-en-b1-comparatives",
+          "g-en-b1-suggestions"
+        ],
+        "topicTags": [
+          "entertainment"
+        ]
+      },
+      {
+        "teil": 4,
+        "title": "Part 4 — Speaking",
+        "fieldId": "speak_bp_4",
+        "situation": "Part 4 – General conversation\nThe examiner asks you and your partner some questions about going out and entertainment. Give your opinion and talk to your partner too.\n\nWhat do you like doing when you go out with your friends?\nHave you ever been to a concert or a festival? What was it like?\nDo you think going out is too expensive for young people? Why?\nIs it better to go out in a big group or with one or two friends?\nWhat new kind of entertainment would you like to try?",
+        "points": [
+          "general_conversation"
+        ],
+        "blueprintSlot": "speaking_task",
+        "grammarTags": [
+          "g-en-b1-present-perfect",
+          "g-en-b1-comparatives"
+        ],
+        "topicTags": [
+          "entertainment"
+        ]
+      }
+    ],
+    "cambridgeFormat": true,
+    "curated": true
+  },
+  "provenance": {
+    "generatedBy": "publish-promote-candidates",
+    "validatedBy": "audit-pass-2+lexicalCheck+CefrGate",
+    "blueprintId": "cambridge-b1",
+    "cefrGate": {
+      "withinRange": true,
+      "metrics": {},
+      "reasons": []
+    },
+    "sourceBankIds": [
+      "en-b1-r-t1-notices-vet-01-q2",
+      "en-b1-r-t1-notices-vet-01-q5",
+      "en-b1-r-t1-notices-vet-01-q4",
+      "en-b1-r-t1-notices-vet-01-q1",
+      "en-b1-r-t1-notices-vet-01-q3",
+      "en-b1-r-t2-match-summer-jobs-01-q1",
+      "en-b1-r-t2-match-summer-jobs-01-q2",
+      "en-b1-r-t2-match-summer-jobs-01-q3",
+      "en-b1-r-t2-match-summer-jobs-01-q4",
+      "en-b1-r-t2-match-summer-jobs-01-q5",
+      "en-b1-r-t3-long-youtuber-science-01-q1",
+      "en-b1-r-t3-long-youtuber-science-01-q2",
+      "en-b1-r-t3-long-youtuber-science-01-q3",
+      "en-b1-r-t3-long-youtuber-science-01-q4",
+      "en-b1-r-t3-long-youtuber-science-01-q5",
+      "en-b1-r-t4-gapped-island-school-01-q1",
+      "en-b1-r-t4-gapped-island-school-01-q2",
+      "en-b1-r-t4-gapped-island-school-01-q3",
+      "en-b1-r-t4-gapped-island-school-01-q4",
+      "en-b1-r-t4-gapped-island-school-01-q5",
+      "en-b1-r-t5-cloze-bird-watching-01-q1",
+      "en-b1-r-t5-cloze-bird-watching-01-q2",
+      "en-b1-r-t5-cloze-bird-watching-01-q3",
+      "en-b1-r-t5-cloze-bird-watching-01-q4",
+      "en-b1-r-t5-cloze-bird-watching-01-q5",
+      "en-b1-r-t5-cloze-bird-watching-01-q6",
+      "en-b1-r-t6-open-cloze-cooking-disaster-01-q1",
+      "en-b1-r-t6-open-cloze-cooking-disaster-01-q2",
+      "en-b1-r-t6-open-cloze-cooking-disaster-01-q3",
+      "en-b1-r-t6-open-cloze-cooking-disaster-01-q4",
+      "en-b1-r-t6-open-cloze-cooking-disaster-01-q5",
+      "en-b1-r-t6-open-cloze-cooking-disaster-01-q6",
+      "en-b1-h-t1-pics-technology-01-s2-q1",
+      "en-b1-h-t1-pics-technology-01-s7-q1",
+      "en-b1-h-t1-pics-technology-01-s4-q1",
+      "en-b1-h-t1-pics-technology-01-s3-q1",
+      "en-b1-h-t1-pics-technology-01-s1-q1",
+      "en-b1-h-t1-pics-technology-01-s6-q1",
+      "en-b1-h-t1-pics-technology-01-s5-q1",
+      "en-b1-h-t2-gist-environment-01-q3",
+      "en-b1-h-t2-gist-environment-01-q6",
+      "en-b1-h-t2-gist-environment-01-q5",
+      "en-b1-h-t2-gist-environment-01-q4",
+      "en-b1-h-t2-gist-environment-01-q2",
+      "en-b1-h-t2-gist-environment-01-q1",
+      "en-b1-h-t3-gapfill-volunteer-day-01-q1",
+      "en-b1-h-t3-gapfill-volunteer-day-01-q2",
+      "en-b1-h-t3-gapfill-volunteer-day-01-q3",
+      "en-b1-h-t3-gapfill-volunteer-day-01-q4",
+      "en-b1-h-t3-gapfill-volunteer-day-01-q5",
+      "en-b1-h-t3-gapfill-volunteer-day-01-q6",
+      "en-b1-h-t4-interview-climber-01-q1",
+      "en-b1-h-t4-interview-climber-01-q2",
+      "en-b1-h-t4-interview-climber-01-q3",
+      "en-b1-h-t4-interview-climber-01-q4",
+      "en-b1-h-t4-interview-climber-01-q5",
+      "en-b1-h-t4-interview-climber-01-q6",
+      "en-b1-w-t1-email-fitness-plan-01-q1",
+      "en-b1-w-t2-email-fitness-plan-01-q1",
+      "en-b1-s-t1-speaking-culture-entertainment-01-q1",
+      "en-b1-s-t2-speaking-culture-entertainment-01-q1",
+      "en-b1-s-t3-speaking-culture-entertainment-01-q1",
+      "en-b1-s-t4-speaking-culture-entertainment-01-q1"
+    ],
+    "validationErrors": [],
+    "createdAt": "2026-10-12T19:44:29.557Z",
+    "strategy": "B"
+  }
+}

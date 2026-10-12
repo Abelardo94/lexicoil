@@ -1,0 +1,207 @@
+{
+  "passages": [
+    {
+      "id": "en-b1-p-horen-t3-gapfill-theatre-tour-01-01",
+      "module": "horen",
+      "title": "A tour of the Kingsley Theatre",
+      "text": "Woman: Good morning, everyone, and welcome to the Kingsley Theatre. My name’s Helen and I’ll be your guide this morning. The tour takes about an hour, so I hope you’re all wearing comfortable shoes.\n\nLet’s start with a bit of history. A lot of visitors think this building was once a church, because of the tall windows, but in fact it was built as a fish market. It only became a theatre in 1904, when a local businessman bought it and turned it into the place you see today.\n\nNow, if you follow me into the main hall… Here we are. When the theatre first opened, it had space for twelve hundred people, but in those days the seats were very narrow. After we put in new, more comfortable seats ten years ago, the number went down, and today we have eight hundred and fifty seats.\n\nDo look up at the ceiling. People usually expect a theatre ceiling to be red, but ours is green, with little gold stars painted all over it. It was cleaned last spring, so the colours are really bright again.\n\nNext we’re going backstage. Down these stairs is the workshop where the costumes are made. We have a team of four people who make everything by hand. The wigs, by the way, aren’t made here. We order those from a company in London.\n\nRight, now we’re on the stage itself. You’re welcome to walk around, and you can even sit on the furniture, which is from tonight’s show. The only thing I must ask is that you don’t touch the ropes at the side of the stage. They hold up the scenery, and they’re very heavy.\n\nThat’s nearly the end of the tour. Before you go, keep hold of your ticket. If you show it in the café on the ground floor, you’ll get ten per cent off anything you buy there today. I’m afraid the discount doesn’t work in the gift shop, though. Thank you all for coming, and I hope you enjoy the rest of your day.",
+      "passageVocab": [
+        "backstage",
+        "costume",
+        "scenery",
+        "discount",
+        "ceiling"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "en-b1-h-t3-gapfill-theatre-tour-01-q1",
+      "module": "horen",
+      "teil": 3,
+      "type": "gap_fill",
+      "question": "The theatre building was first used as a ____.",
+      "correct": "fish market",
+      "correctAnswer": "fish market",
+      "acceptedAnswers": [
+        "market"
+      ],
+      "explanation": "Helen says visitors think it was a church, \"but in fact it was built as a fish market\". The church is only what people wrongly believe.",
+      "options": [],
+      "passageId": "en-b1-p-horen-t3-gapfill-theatre-tour-01-01",
+      "grammarTags": [
+        "g-en-b1-passive"
+      ],
+      "topicTags": [
+        "entertainment"
+      ],
+      "vocabularyTags": [
+        "buildings",
+        "history"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-h-t3-gapfill-theatre-tour-01-q2",
+      "module": "horen",
+      "teil": 3,
+      "type": "gap_fill",
+      "question": "Number of seats in the theatre today: ____",
+      "correct": "850",
+      "correctAnswer": "850",
+      "acceptedAnswers": [
+        "eight hundred and fifty",
+        "eight hundred fifty"
+      ],
+      "explanation": "Twelve hundred was the number when the theatre first opened; Helen then says \"today we have eight hundred and fifty seats\".",
+      "options": [],
+      "passageId": "en-b1-p-horen-t3-gapfill-theatre-tour-01-01",
+      "grammarTags": [
+        "g-en-b1-numbers"
+      ],
+      "topicTags": [
+        "entertainment"
+      ],
+      "vocabularyTags": [
+        "numbers",
+        "theatre"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-h-t3-gapfill-theatre-tour-01-q3",
+      "module": "horen",
+      "teil": 3,
+      "type": "gap_fill",
+      "question": "Colour of the ceiling: ____, with gold stars",
+      "correct": "green",
+      "correctAnswer": "green",
+      "explanation": "People \"expect a theatre ceiling to be red, but ours is green, with little gold stars\". Red is what visitors expect, not the real colour.",
+      "options": [],
+      "passageId": "en-b1-p-horen-t3-gapfill-theatre-tour-01-01",
+      "grammarTags": [
+        "g-en-b1-contrast-but"
+      ],
+      "topicTags": [
+        "entertainment"
+      ],
+      "vocabularyTags": [
+        "colours",
+        "theatre"
+      ],
+      "difficulty": 3,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-h-t3-gapfill-theatre-tour-01-q4",
+      "module": "horen",
+      "teil": 3,
+      "type": "gap_fill",
+      "question": "The workshop downstairs is where the ____ are made.",
+      "correct": "costumes",
+      "correctAnswer": "costumes",
+      "explanation": "\"Down these stairs is the workshop where the costumes are made.\" The wigs are not made there: \"We order those from a company in London.\"",
+      "options": [],
+      "passageId": "en-b1-p-horen-t3-gapfill-theatre-tour-01-01",
+      "grammarTags": [
+        "g-en-b1-relative-clauses"
+      ],
+      "topicTags": [
+        "entertainment"
+      ],
+      "vocabularyTags": [
+        "theatre",
+        "clothes"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-h-t3-gapfill-theatre-tour-01-q5",
+      "module": "horen",
+      "teil": 3,
+      "type": "gap_fill",
+      "question": "On the stage, visitors must not touch the ____.",
+      "correct": "ropes",
+      "correctAnswer": "ropes",
+      "explanation": "Visitors may walk around and sit on the furniture, but Helen asks \"that you don’t touch the ropes at the side of the stage\".",
+      "options": [],
+      "passageId": "en-b1-p-horen-t3-gapfill-theatre-tour-01-01",
+      "grammarTags": [
+        "g-en-b1-modals"
+      ],
+      "topicTags": [
+        "entertainment"
+      ],
+      "vocabularyTags": [
+        "theatre",
+        "rules"
+      ],
+      "difficulty": 5,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-h-t3-gapfill-theatre-tour-01-q6",
+      "module": "horen",
+      "teil": 3,
+      "type": "gap_fill",
+      "question": "Show your ticket in the ____ to get ten per cent off.",
+      "correct": "café",
+      "correctAnswer": "café",
+      "acceptedAnswers": [
+        "cafe"
+      ],
+      "explanation": "\"If you show it in the café on the ground floor, you’ll get ten per cent off\". The discount \"doesn’t work in the gift shop\".",
+      "options": [],
+      "passageId": "en-b1-p-horen-t3-gapfill-theatre-tour-01-01",
+      "grammarTags": [
+        "g-en-b1-first-conditional"
+      ],
+      "topicTags": [
+        "entertainment"
+      ],
+      "vocabularyTags": [
+        "shopping",
+        "places"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    }
+  ],
+  "_germanCapsNormalizeVersion": "v3.23-lesen-t2-angebote-corpus-2026-07-28",
+  "_germanCapsNormalizedAt": "2026-10-12T19:15:53.288Z",
+  "_balanceMcqVersion": "v1.2-no-rf-chrono-shuffle-2026-07-11",
+  "_balanceMcqNormalizedAt": "2026-10-12T19:15:53.288Z"
+}

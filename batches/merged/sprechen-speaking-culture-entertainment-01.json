@@ -1,0 +1,149 @@
+{
+  "passages": [],
+  "questions": [
+    {
+      "id": "en-b1-s-t1-speaking-culture-entertainment-01-q1",
+      "module": "sprechen",
+      "teil": 1,
+      "type": "short_answer",
+      "taskTypes": [
+        "interview"
+      ],
+      "question": "Part 1 – Interview\nThe examiner asks you some questions about yourself. Answer each question and give some extra information.\n\nWhat kind of music do you like listening to?\nDo you prefer watching films at home or at the cinema? Why?\nTell us about a film you saw recently.\nDo you enjoy reading? What kind of books do you like?\nCan you play a musical instrument, or would you like to learn one?",
+      "correct": "rubric",
+      "correctAnswer": "rubric",
+      "explanation": "Give full answers: answer the question, then add a reason or an example. Use the past simple when you talk about a film you saw, and would like for things you want to do in the future.\n\nModel answers:\nI mostly listen to pop and a bit of rock. I usually put my headphones on when I’m on the bus to school.\nI prefer the cinema, because the screen is huge and the sound is amazing. But it’s expensive, so I watch most films at home.\nLast weekend I saw an animated film about a robot who gets lost in space. It was funny, but quite sad at the end too.\nYes, I do. I like adventure stories and books about real people, especially sports stars.\nI can’t play anything at the moment, but I’d really like to learn the guitar. My uncle plays, and he says he’ll teach me.",
+      "options": [],
+      "grammarTags": [
+        "g-en-b1-past-simple",
+        "g-en-b1-would-like"
+      ],
+      "topicTags": [
+        "entertainment"
+      ],
+      "vocabularyTags": [
+        "headphones",
+        "screen",
+        "animated film",
+        "instrument",
+        "adventure"
+      ],
+      "difficulty": 5,
+      "skills": [
+        "speaking"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-s-t2-speaking-culture-entertainment-01-q1",
+      "module": "sprechen",
+      "teil": 2,
+      "type": "short_answer",
+      "taskTypes": [
+        "photo_description"
+      ],
+      "question": "Part 2 – Photo description\nLook at the photograph. It shows a street performer in a town square. The performer is standing on a small wooden box and juggling three balls. A crowd of people is standing in a circle around the box, watching. Some of them are clapping, and a child is sitting on an adult’s shoulders to see better. On the ground in front of the box there is an open hat with some coins in it. Behind the crowd there are some cafés with tables outside. Tell us what you can see in the photograph.\n\nTalk for about one minute.",
+      "correct": "rubric",
+      "correctAnswer": "rubric",
+      "explanation": "Describe the place, the people and what they are doing, using the present continuous (is juggling, are clapping). Say where things are (in front of, behind, around). If you do not know a word, explain it in other words, for example a person who throws and catches balls. Only describe what is in the photo; do not invent new details.\n\nModel answer:\nThis photo shows a town square, and there’s a street performer there. The performer is standing on a small wooden box and juggling three balls – that means throwing them in the air and catching them. There’s a crowd of people standing in a circle around the box, and they’re all watching. Some of them are clapping, so I think they’re enjoying the show. I can also see a child who is sitting on an adult’s shoulders to see better. In front of the box there’s an open hat with some coins in it, so I think people give the performer some money. Behind the crowd there are some cafés with tables outside.",
+      "options": [],
+      "grammarTags": [
+        "g-en-b1-present-continuous",
+        "g-en-b1-prepositions-of-place"
+      ],
+      "topicTags": [
+        "entertainment"
+      ],
+      "vocabularyTags": [
+        "street performer",
+        "juggle",
+        "crowd",
+        "clap",
+        "square"
+      ],
+      "difficulty": 5,
+      "skills": [
+        "speaking"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-s-t3-speaking-culture-entertainment-01-q1",
+      "module": "sprechen",
+      "teil": 3,
+      "type": "short_answer",
+      "taskTypes": [
+        "collaborative_task"
+      ],
+      "question": "Part 3 – Collaborative task\nA class is going on a day trip to a big city, and the students can choose one activity. Here are some activities they are thinking about.\n\na visit to a science museum\na musical at a theatre\na boat trip on the river\nan art gallery with famous paintings\na walking tour of the old town\na tour of a football stadium\n\nTalk together about why each activity might be interesting for the class. Then decide which activity the class should choose.\n\nTalk together for about two or three minutes.",
+      "correct": "rubric",
+      "correctAnswer": "rubric",
+      "explanation": "Discuss the activities one by one and give reasons. Ask for your partner’s opinion, agree and disagree politely, and make a decision together at the end. Useful language: What about …? I think … would be more fun than … Do you agree? Shall we go for …?\n\nModel conversation (part):\nA: What do you think about the science museum? There are usually lots of things you can try yourself.\nB: Yes, that’s fun, but we often go to museums with school. The boat trip sounds different.\nA: True, and you can see the most famous buildings from the river. But what if it rains?\nB: Good point. The musical would be fine in any weather, and everyone likes music.\nA: Maybe, but tickets are really expensive, and it’s in the evening, isn’t it?\nB: Hmm, you’re right. Then I think the boat trip is the best choice. Most boats have a roof anyway.\nA: OK, let’s choose the boat trip.",
+      "options": [],
+      "grammarTags": [
+        "g-en-b1-comparatives",
+        "g-en-b1-suggestions"
+      ],
+      "topicTags": [
+        "entertainment"
+      ],
+      "vocabularyTags": [
+        "day trip",
+        "gallery",
+        "musical",
+        "stadium",
+        "tour"
+      ],
+      "difficulty": 5,
+      "skills": [
+        "speaking"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-s-t4-speaking-culture-entertainment-01-q1",
+      "module": "sprechen",
+      "teil": 4,
+      "type": "short_answer",
+      "taskTypes": [
+        "general_conversation"
+      ],
+      "question": "Part 4 – General conversation\nThe examiner asks you and your partner some questions about going out and entertainment. Give your opinion and talk to your partner too.\n\nWhat do you like doing when you go out with your friends?\nHave you ever been to a concert or a festival? What was it like?\nDo you think going out is too expensive for young people? Why?\nIs it better to go out in a big group or with one or two friends?\nWhat new kind of entertainment would you like to try?",
+      "correct": "rubric",
+      "correctAnswer": "rubric",
+      "explanation": "Give your opinion with a reason or an example, and react to your partner (That’s a good point; I’m not sure I agree, because …). Use the present perfect with ever, and the past simple to say what it was like.\n\nModel answers:\nUsually we go bowling or just walk around the centre and get something to eat.\nYes, I went to an open-air festival last summer. It was crowded and very loud, but the atmosphere was fantastic.\nSometimes, yes. Cinema tickets and concerts cost a lot, so we often stay at someone’s house and watch films instead.\nI prefer a small group, because you can talk properly. In a big group it’s hard to decide what to do.\nI’d like to try an escape room. My friends say it’s really exciting to solve the puzzles before the time runs out.",
+      "options": [],
+      "grammarTags": [
+        "g-en-b1-present-perfect",
+        "g-en-b1-comparatives"
+      ],
+      "topicTags": [
+        "entertainment"
+      ],
+      "vocabularyTags": [
+        "festival",
+        "atmosphere",
+        "crowded",
+        "bowling",
+        "escape room"
+      ],
+      "difficulty": 5,
+      "skills": [
+        "speaking"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    }
+  ],
+  "_germanCapsNormalizeVersion": "v3.23-lesen-t2-angebote-corpus-2026-07-28",
+  "_germanCapsNormalizedAt": "2026-10-12T19:16:06.153Z",
+  "_balanceMcqVersion": "v1.2-no-rf-chrono-shuffle-2026-07-11",
+  "_balanceMcqNormalizedAt": "2026-10-12T19:16:06.153Z"
+}

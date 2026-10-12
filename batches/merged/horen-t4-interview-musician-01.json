@@ -1,0 +1,288 @@
+{
+  "passages": [
+    {
+      "id": "en-b1-p-horen-t4-interview-musician-01-01",
+      "module": "horen",
+      "title": "Interview with a young drummer",
+      "text": "Interviewer: Today I’m talking to Jess Moran, who’s nineteen and plays the drums in the band Paper Lanterns. Their first album came out last month. Jess, how did the band start?\n\nJess: We all met at college in Brighton. Sam, our singer, put a note on the noticeboard asking for a drummer, and I almost didn’t reply, because I didn’t think I was good enough. My best friend made me go to the first practice. I’m so glad she did.\n\nInterviewer: What was it like recording your first album?\n\nJess: Harder than I expected. On stage, if you make a small mistake, nobody notices because everyone’s dancing. In the studio, you have to play the same song again and again until it’s perfect. Some days I got really fed up. But it taught me a lot about being patient.\n\nInterviewer: Do you all agree about the kind of music you want to make?\n\nJess: Not at all! We argue about it all the time. Sam likes slow, sad songs and I prefer something you can dance to. But actually, I think that’s why our music works. If we all wanted the same thing, it would be boring.\n\nInterviewer: Lots of bands become famous online these days. How do you feel about social media?\n\nJess: It’s useful, I can’t deny that. Most of our fans found us through videos online. But I don’t enjoy it. I’d much rather spend my time writing music than thinking about what to post every day. Luckily, our bass player loves doing it.\n\nInterviewer: What’s your favourite thing about being in a band?\n\nJess: People expect me to say the big concerts, and they are fun. But for me it’s the small gigs in tiny clubs, where you can see everyone’s faces and chat to them afterwards. That’s when you really feel close to the audience.\n\nInterviewer: What advice would you give to young musicians?\n\nJess: Practise, obviously. But more than that, play with other people as often as you can. You can practise alone in your bedroom for years, but you only really improve when you have to listen to other musicians.\n\nInterviewer: Jess Moran, thank you.",
+      "passageVocab": [
+        "album",
+        "studio",
+        "audience",
+        "patient",
+        "gig"
+      ],
+      "audio": [
+        {
+          "speaker": "Interviewer",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Today I’m talking to Jess Moran, who’s nineteen and plays the drums in the band Paper Lanterns. Their first album came out last month. Jess, how did the band start?"
+        },
+        {
+          "speaker": "Jess",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "We all met at college in Brighton. Sam, our singer, put a note on the noticeboard asking for a drummer, and I almost didn’t reply, because I didn’t think I was good enough. My best friend made me go to the first practice. I’m so glad she did."
+        },
+        {
+          "speaker": "Interviewer",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "What was it like recording your first album?"
+        },
+        {
+          "speaker": "Jess",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Harder than I expected. On stage, if you make a small mistake, nobody notices because everyone’s dancing. In the studio, you have to play the same song again and again until it’s perfect. Some days I got really fed up. But it taught me a lot about being patient."
+        },
+        {
+          "speaker": "Interviewer",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Do you all agree about the kind of music you want to make?"
+        },
+        {
+          "speaker": "Jess",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Not at all! We argue about it all the time. Sam likes slow, sad songs and I prefer something you can dance to. But actually, I think that’s why our music works. If we all wanted the same thing, it would be boring."
+        },
+        {
+          "speaker": "Interviewer",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Lots of bands become famous online these days. How do you feel about social media?"
+        },
+        {
+          "speaker": "Jess",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "It’s useful, I can’t deny that. Most of our fans found us through videos online. But I don’t enjoy it. I’d much rather spend my time writing music than thinking about what to post every day. Luckily, our bass player loves doing it."
+        },
+        {
+          "speaker": "Interviewer",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "What’s your favourite thing about being in a band?"
+        },
+        {
+          "speaker": "Jess",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "People expect me to say the big concerts, and they are fun. But for me it’s the small gigs in tiny clubs, where you can see everyone’s faces and chat to them afterwards. That’s when you really feel close to the audience."
+        },
+        {
+          "speaker": "Interviewer",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "What advice would you give to young musicians?"
+        },
+        {
+          "speaker": "Jess",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Practise, obviously. But more than that, play with other people as often as you can. You can practise alone in your bedroom for years, but you only really improve when you have to listen to other musicians."
+        },
+        {
+          "speaker": "Interviewer",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Jess Moran, thank you."
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "en-b1-h-t4-interview-musician-01-q1",
+      "module": "horen",
+      "teil": 4,
+      "type": "multiple_choice",
+      "question": "How did Jess feel when she saw the note asking for a drummer?",
+      "options": [
+        "a) Excited to join a band at last",
+        "b) Unsure if she could play well enough",
+        "c) Worried that she was too busy at college"
+      ],
+      "correct": "b",
+      "correctAnswer": "b",
+      "explanation": "\"I almost didn’t reply, because I didn’t think I was good enough.\" Her best friend had to make her go, so she was not excited.",
+      "passageId": "en-b1-p-horen-t4-interview-musician-01-01",
+      "grammarTags": [
+        "g-en-b1-past-simple"
+      ],
+      "topicTags": [
+        "music"
+      ],
+      "vocabularyTags": [
+        "music",
+        "feelings"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-h-t4-interview-musician-01-q2",
+      "module": "horen",
+      "teil": 4,
+      "type": "multiple_choice",
+      "question": "What does Jess say about recording the album?",
+      "options": [
+        "a) She enjoyed it more than live concerts.",
+        "b) It taught her to be more patient.",
+        "c) It was easier than playing on stage."
+      ],
+      "correct": "b",
+      "correctAnswer": "b",
+      "explanation": "\"It taught me a lot about being patient.\" It was \"harder than I expected\" and \"some days I got really fed up\", so it was not easier or more enjoyable.",
+      "passageId": "en-b1-p-horen-t4-interview-musician-01-01",
+      "grammarTags": [
+        "g-en-b1-comparatives"
+      ],
+      "topicTags": [
+        "music"
+      ],
+      "vocabularyTags": [
+        "music",
+        "work"
+      ],
+      "difficulty": 5,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-h-t4-interview-musician-01-q3",
+      "module": "horen",
+      "teil": 4,
+      "type": "multiple_choice",
+      "question": "What does Jess think about the arguments in the band?",
+      "options": [
+        "a) They make the music more interesting.",
+        "b) They make it hard to finish new songs.",
+        "c) They usually end with Sam getting his way."
+      ],
+      "correct": "a",
+      "correctAnswer": "a",
+      "explanation": "\"I think that’s why our music works. If we all wanted the same thing, it would be boring.\" She never says the arguments stop them finishing songs.",
+      "passageId": "en-b1-p-horen-t4-interview-musician-01-01",
+      "grammarTags": [
+        "g-en-b1-second-conditional"
+      ],
+      "topicTags": [
+        "music"
+      ],
+      "vocabularyTags": [
+        "music",
+        "opinions"
+      ],
+      "difficulty": 5,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-h-t4-interview-musician-01-q4",
+      "module": "horen",
+      "teil": 4,
+      "type": "multiple_choice",
+      "question": "How does Jess feel about social media?",
+      "options": [
+        "a) It has not helped the band to find fans.",
+        "b) She loves making videos to put online.",
+        "c) It is useful, but she dislikes it."
+      ],
+      "correct": "c",
+      "correctAnswer": "c",
+      "explanation": "\"It’s useful, I can’t deny that … But I don’t enjoy it.\" Most fans \"found us through videos online\", and it is the bass player, not Jess, who \"loves doing it\".",
+      "passageId": "en-b1-p-horen-t4-interview-musician-01-01",
+      "grammarTags": [
+        "g-en-b1-would-rather"
+      ],
+      "topicTags": [
+        "music"
+      ],
+      "vocabularyTags": [
+        "technology",
+        "media"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-h-t4-interview-musician-01-q5",
+      "module": "horen",
+      "teil": 4,
+      "type": "multiple_choice",
+      "question": "What does Jess like most about being in a band?",
+      "options": [
+        "a) Playing at small, friendly gigs",
+        "b) Travelling to new places on tour",
+        "c) Playing in front of huge crowds"
+      ],
+      "correct": "a",
+      "correctAnswer": "a",
+      "explanation": "\"For me it’s the small gigs in tiny clubs, where you can see everyone’s faces\". The big concerts are what \"people expect me to say\".",
+      "passageId": "en-b1-p-horen-t4-interview-musician-01-01",
+      "grammarTags": [
+        "g-en-b1-relative-clauses"
+      ],
+      "topicTags": [
+        "music"
+      ],
+      "vocabularyTags": [
+        "music",
+        "entertainment"
+      ],
+      "difficulty": 5,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-h-t4-interview-musician-01-q6",
+      "module": "horen",
+      "teil": 4,
+      "type": "multiple_choice",
+      "question": "What is Jess’s main advice for young musicians?",
+      "options": [
+        "a) Practise alone in your bedroom every day.",
+        "b) Learn to play more than one instrument.",
+        "c) Play with others as often as you can."
+      ],
+      "correct": "c",
+      "correctAnswer": "c",
+      "explanation": "\"More than that, play with other people as often as you can.\" Practising alone is not enough: \"you only really improve when you have to listen to other musicians.\"",
+      "passageId": "en-b1-p-horen-t4-interview-musician-01-01",
+      "grammarTags": [
+        "g-en-b1-imperatives"
+      ],
+      "topicTags": [
+        "music"
+      ],
+      "vocabularyTags": [
+        "music",
+        "advice"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    }
+  ],
+  "_germanCapsNormalizeVersion": "v3.23-lesen-t2-angebote-corpus-2026-07-28",
+  "_germanCapsNormalizedAt": "2026-10-12T19:15:53.924Z",
+  "_balanceMcqVersion": "v1.2-no-rf-chrono-shuffle-2026-07-11",
+  "_balanceMcqNormalizedAt": "2026-10-12T19:15:53.924Z"
+}

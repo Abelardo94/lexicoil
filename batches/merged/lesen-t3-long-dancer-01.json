@@ -1,0 +1,198 @@
+{
+  "passages": [
+    {
+      "id": "en-b1-p-lesen-t3-long-dancer-01-01",
+      "module": "lesen",
+      "title": "On her toes: an interview with Isla Mackenzie",
+      "text": "Isla Mackenzie is seventeen and comes from Glasgow, and last month she won a place at a famous dance school in London. We asked her about her life so far.\n\nWhen did you start dancing?\nI started when I was six. My older sister went to ballet classes, and I had to wait for her every Saturday until her class finished. I watched through the window and copied all the steps that the older girls did. One day the teacher noticed me and invited me in. My sister stopped after a year, but I never did.\n\nWas ballet always your favourite?\nNo, it wasn’t at first. To be honest, I found it quite boring as a child because there were so many rules. Then, when I was eleven, I tried contemporary dance, which felt much freer. Suddenly I understood the point of ballet. It gives you strength and control. Now I do both styles.\n\nHow much do you train?\nAbout twenty hours a week. I go to school as normal, and then I dance every evening and on Saturdays as well. My friends often go to the cinema while I’m training. That used to upset me, but now I accept it. I see them on Sundays, and they come to all my shows.\n\nHave you ever wanted to give up?\nOnly once, when I was fourteen. I hurt my ankle badly and couldn’t dance for four months. I felt completely lost because dancing was my whole life. My physiotherapist gave me exercises that I did every day. During that time I started to watch other dancers more carefully. I noticed small details in their movements. Strangely, I came back a better dancer.\n\nHow did the audition for the London school go when you finally went there?\nI was terribly nervous because there were three hundred people for only thirty places. First we did a ballet class, and then we each performed a short piece. I chose a contemporary piece by my own teacher. In the middle I slipped slightly, but I didn’t stop. I just carried on and smiled. Afterwards one of the judges told me that she liked that moment the most. In her opinion, it showed my character.\n\nWhat are you worried about?\nMoving away from home, mostly, because I’ve never lived alone, and I can’t cook at all! My mum is giving me lessons this summer so that I don’t starve. London is expensive too, so money is a bit of a worry. Luckily, I’ve got a grant that pays for the fees.\n\nWhat would you say to young people who want to dance?\nDance because you love it, not for fame. Most dancers never become stars, and that’s fine. The joy is in the dancing itself.",
+      "passageVocab": [
+        "audition",
+        "injury",
+        "contemporary",
+        "grant",
+        "train"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "en-b1-r-t3-long-dancer-01-q1",
+      "module": "lesen",
+      "teil": 3,
+      "type": "multiple_choice",
+      "passageId": "en-b1-p-lesen-t3-long-dancer-01-01",
+      "question": "How did Isla begin going to ballet classes?",
+      "options": [
+        "a) Her school offered free lessons on Saturdays.",
+        "b) A teacher saw her outside the class.",
+        "c) Her mother booked lessons for her sixth birthday.",
+        "d) She asked her sister if she could join her class."
+      ],
+      "correct": "b",
+      "correctAnswer": "b",
+      "explanation": "Isla watched \"through the window\" and then \"the teacher noticed me and invited me in.\" Her sister was already in the class, but Isla never asked to join; the teacher invited her.",
+      "grammarTags": [
+        "g-en-b1-past-simple"
+      ],
+      "topicTags": [
+        "arts"
+      ],
+      "vocabularyTags": [
+        "ballet",
+        "copy",
+        "invite"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-r-t3-long-dancer-01-q2",
+      "module": "lesen",
+      "teil": 3,
+      "type": "multiple_choice",
+      "passageId": "en-b1-p-lesen-t3-long-dancer-01-01",
+      "question": "What does Isla say about ballet?",
+      "options": [
+        "a) She has always liked it more than other styles.",
+        "b) She stopped doing it when she found contemporary dance.",
+        "c) She still finds all its rules boring.",
+        "d) Contemporary dance showed her why it was useful."
+      ],
+      "correct": "d",
+      "correctAnswer": "d",
+      "explanation": "After trying contemporary dance, \"Suddenly I understood the point of ballet. It gives you strength and control.\" She did not always like it (\"I found it quite boring as a child\"), and she did not stop: \"Now I do both styles.\"",
+      "grammarTags": [
+        "g-en-b1-past-simple"
+      ],
+      "topicTags": [
+        "arts"
+      ],
+      "vocabularyTags": [
+        "contemporary",
+        "strength",
+        "control"
+      ],
+      "difficulty": 5,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-r-t3-long-dancer-01-q3",
+      "module": "lesen",
+      "teil": 3,
+      "type": "multiple_choice",
+      "passageId": "en-b1-p-lesen-t3-long-dancer-01-01",
+      "question": "How does Isla feel now about missing evenings with her friends?",
+      "options": [
+        "a) She has learned to accept the situation.",
+        "b) She worries that they will stop being her friends.",
+        "c) She is still upset when they go out without her.",
+        "d) She wants to train less so she can join them."
+      ],
+      "correct": "a",
+      "correctAnswer": "a",
+      "explanation": "Isla says: \"That used to upset me, but now I accept it.\" She was upset in the past, not now, and her friends \"come to all my shows\", so she is not worried about losing them.",
+      "grammarTags": [
+        "g-en-b1-used-to"
+      ],
+      "topicTags": [
+        "arts"
+      ],
+      "vocabularyTags": [
+        "upset",
+        "accept",
+        "train"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-r-t3-long-dancer-01-q4",
+      "module": "lesen",
+      "teil": 3,
+      "type": "multiple_choice",
+      "passageId": "en-b1-p-lesen-t3-long-dancer-01-01",
+      "question": "What does Isla say about her ankle injury?",
+      "options": [
+        "a) It still hurts when she does some movements.",
+        "b) It was the reason she tried contemporary dance.",
+        "c) It made her study other dancers carefully.",
+        "d) It kept her away from dancing for a whole year."
+      ],
+      "correct": "c",
+      "correctAnswer": "c",
+      "explanation": "During the injury she \"started to watch other dancers more carefully\" and \"noticed small details in their movements.\" She could not dance \"for four months\", not a year, and she started contemporary dance at eleven, before the injury.",
+      "grammarTags": [
+        "g-en-b1-past-simple"
+      ],
+      "topicTags": [
+        "arts"
+      ],
+      "vocabularyTags": [
+        "ankle",
+        "injury",
+        "physiotherapist"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-r-t3-long-dancer-01-q5",
+      "module": "lesen",
+      "teil": 3,
+      "type": "multiple_choice",
+      "passageId": "en-b1-p-lesen-t3-long-dancer-01-01",
+      "question": "Why did one of the judges like Isla’s audition?",
+      "options": [
+        "a) She performed her piece without a single mistake.",
+        "b) She was able to dance in two different styles.",
+        "c) She carried on calmly after she slipped.",
+        "d) She chose a piece by a well-known dancer."
+      ],
+      "correct": "c",
+      "correctAnswer": "c",
+      "explanation": "Isla slipped but \"just carried on and smiled\", and the judge \"liked that moment the most\" because \"it showed my character.\" So the performance was not perfect, and the piece was \"by my own teacher\", not a famous dancer.",
+      "grammarTags": [
+        "g-en-b1-past-simple"
+      ],
+      "topicTags": [
+        "arts"
+      ],
+      "vocabularyTags": [
+        "audition",
+        "judge",
+        "slip"
+      ],
+      "difficulty": 5,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    }
+  ],
+  "_germanCapsNormalizeVersion": "v3.23-lesen-t2-angebote-corpus-2026-07-28",
+  "_germanCapsNormalizedAt": "2026-10-12T19:17:47.788Z",
+  "_balanceMcqVersion": "v1.2-no-rf-chrono-shuffle-2026-07-11",
+  "_balanceMcqNormalizedAt": "2026-10-12T19:17:47.789Z"
+}

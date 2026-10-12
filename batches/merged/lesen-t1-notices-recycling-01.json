@@ -1,0 +1,241 @@
+{
+  "passages": [
+    {
+      "id": "en-b1-p-lesen-t1-notices-recycling-01-01",
+      "module": "lesen",
+      "title": "Riverside Recycling Centre",
+      "text": "Glass bottles and jars go in the green containers. Please remove the lids first. From 1 March, we can no longer accept window glass or mirrors – please take these to the general waste area next to the car park.",
+      "passageVocab": [
+        "container",
+        "jar",
+        "lid",
+        "accept",
+        "mirror"
+      ]
+    },
+    {
+      "id": "en-b1-p-lesen-t1-notices-recycling-01-02",
+      "module": "lesen",
+      "title": "Text message",
+      "text": "Hi Tom, the beach clean-up on Saturday starts at 9, not 10 as it says on the poster. Gloves and rubbish bags are provided, but bring your own water – there’s no café nearby. See you there! Priya",
+      "passageVocab": [
+        "clean-up",
+        "poster",
+        "provide",
+        "nearby"
+      ]
+    },
+    {
+      "id": "en-b1-p-lesen-t1-notices-recycling-01-03",
+      "module": "lesen",
+      "title": "Sign on a bin",
+      "text": "PAPER AND CARD ONLY. Please flatten all boxes before you put them in. Pizza boxes with food on them cannot be recycled and should go in the black bin instead.",
+      "passageVocab": [
+        "flatten",
+        "card",
+        "recycle",
+        "instead"
+      ]
+    },
+    {
+      "id": "en-b1-p-lesen-t1-notices-recycling-01-04",
+      "module": "lesen",
+      "title": "Greenfield Town Clean-Up – Sunday 14 April",
+      "text": "Volunteers meet outside the library at 10 am. Children under 12 are welcome but must come with an adult. There’s a free lunch for everyone who helps! Please sign up online by Thursday so that we can order enough food.",
+      "passageVocab": [
+        "volunteer",
+        "welcome",
+        "sign up",
+        "order"
+      ]
+    },
+    {
+      "id": "en-b1-p-lesen-t1-notices-recycling-01-05",
+      "module": "lesen",
+      "title": "Email from Westbury Council Waste Team",
+      "text": "Because of the bank holiday on Monday, all bin collections next week will be one day later than usual. Garden waste will not be collected at all next week. Normal collections start again the week after.",
+      "passageVocab": [
+        "bank holiday",
+        "collection",
+        "garden waste",
+        "usual"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "en-b1-r-t1-notices-recycling-01-q1",
+      "module": "lesen",
+      "teil": 1,
+      "type": "multiple_choice",
+      "passageId": "en-b1-p-lesen-t1-notices-recycling-01-01",
+      "question": "What does the notice say?",
+      "options": [
+        "a) Mirrors must be taken to another area.",
+        "b) Bottles and jars must be washed before you recycle them.",
+        "c) Window glass should go in the green containers."
+      ],
+      "correct": "a",
+      "correctAnswer": "a",
+      "explanation": "The notice says the centre can \"no longer accept window glass or mirrors\" and asks people to \"take these to the general waste area\", so mirrors go somewhere else. Window glass is exactly what the green containers no longer take, and the notice asks people to remove lids, not to wash bottles.",
+      "grammarTags": [
+        "g-en-b1-modals"
+      ],
+      "topicTags": [
+        "environment"
+      ],
+      "vocabularyTags": [
+        "recycling",
+        "glass",
+        "waste"
+      ],
+      "difficulty": 3,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-r-t1-notices-recycling-01-q2",
+      "module": "lesen",
+      "teil": 1,
+      "type": "multiple_choice",
+      "passageId": "en-b1-p-lesen-t1-notices-recycling-01-02",
+      "question": "Why has Priya written to Tom?",
+      "options": [
+        "a) To suggest meeting at a café before they start",
+        "b) To give him the correct start time",
+        "c) To ask him to bring bags for everyone"
+      ],
+      "correct": "b",
+      "correctAnswer": "b",
+      "explanation": "Priya writes that the clean-up \"starts at 9, not 10 as it says on the poster\", so she is correcting the time Tom has seen. Bags are already \"provided\", so Tom does not need to bring them, and she says \"there’s no café nearby\", so she is not suggesting meeting at one.",
+      "grammarTags": [
+        "g-en-b1-present-simple-future"
+      ],
+      "topicTags": [
+        "environment"
+      ],
+      "vocabularyTags": [
+        "clean-up",
+        "volunteering",
+        "arrangements"
+      ],
+      "difficulty": 3,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-r-t1-notices-recycling-01-q3",
+      "module": "lesen",
+      "teil": 1,
+      "type": "multiple_choice",
+      "passageId": "en-b1-p-lesen-t1-notices-recycling-01-03",
+      "question": "What does the sign tell people?",
+      "options": [
+        "a) Food waste may be put in this bin with the card.",
+        "b) All cardboard boxes should be thrown in the black bin.",
+        "c) Pizza boxes that are dirty must not go in this bin."
+      ],
+      "correct": "c",
+      "correctAnswer": "c",
+      "explanation": "The sign says \"Pizza boxes with food on them cannot be recycled and should go in the black bin instead\", so dirty pizza boxes must not go in the paper bin. The bin is for \"PAPER AND CARD ONLY\", so food is not allowed, and clean boxes go in this bin once they are flattened, not in the black bin.",
+      "grammarTags": [
+        "g-en-b1-passive"
+      ],
+      "topicTags": [
+        "environment"
+      ],
+      "vocabularyTags": [
+        "recycling",
+        "cardboard",
+        "bin"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-r-t1-notices-recycling-01-q4",
+      "module": "lesen",
+      "teil": 1,
+      "type": "multiple_choice",
+      "passageId": "en-b1-p-lesen-t1-notices-recycling-01-04",
+      "question": "Why should people sign up before Thursday?",
+      "options": [
+        "a) So that each child can be given an adult to work with",
+        "b) So that the organisers know how much lunch to get",
+        "c) Because only a small number of volunteers can join"
+      ],
+      "correct": "b",
+      "correctAnswer": "b",
+      "explanation": "The notice asks people to sign up \"by Thursday so that we can order enough food\" for the \"free lunch\". Nothing limits the number of volunteers, and children \"must come with an adult\" – the organisers do not find one for them.",
+      "grammarTags": [
+        "g-en-b1-purpose-clauses"
+      ],
+      "topicTags": [
+        "environment"
+      ],
+      "vocabularyTags": [
+        "volunteer",
+        "community",
+        "event"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-r-t1-notices-recycling-01-q5",
+      "module": "lesen",
+      "teil": 1,
+      "type": "multiple_choice",
+      "passageId": "en-b1-p-lesen-t1-notices-recycling-01-05",
+      "question": "What is the email about?",
+      "options": [
+        "a) Residents should put their bins out on Monday morning.",
+        "b) Garden waste will no longer be collected after this week.",
+        "c) Next week, bins will be collected a day late."
+      ],
+      "correct": "c",
+      "correctAnswer": "c",
+      "explanation": "The email says \"all bin collections next week will be one day later than usual\" because of the bank holiday. Garden waste stops only for one week, as \"Normal collections start again the week after\", and Monday is mentioned only as the bank holiday, not as a collection day.",
+      "grammarTags": [
+        "g-en-b1-future-will"
+      ],
+      "topicTags": [
+        "environment"
+      ],
+      "vocabularyTags": [
+        "bin collection",
+        "council",
+        "bank holiday"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    }
+  ],
+  "_germanCapsNormalizeVersion": "v3.23-lesen-t2-angebote-corpus-2026-07-28",
+  "_germanCapsNormalizedAt": "2026-10-12T19:15:49.861Z",
+  "_balanceMcqVersion": "v1.2-no-rf-chrono-shuffle-2026-07-11",
+  "_balanceMcqNormalizedAt": "2026-10-12T19:15:49.861Z"
+}

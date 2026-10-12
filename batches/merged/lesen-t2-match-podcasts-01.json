@@ -1,0 +1,301 @@
+{
+  "passages": [
+    {
+      "id": "en-b1-p-lesen-t2-match-podcasts-01-01",
+      "module": "lesen",
+      "title": "A – The Long Lunch",
+      "text": "Famous chefs chat about their favourite restaurants around the world over a long, relaxed meal. The conversations are lively and fast, with lots of jokes and people talking over each other. Episodes often last more than an hour, and a full written transcript of each one is available on our website the following day.",
+      "passageVocab": [
+        "chef",
+        "relaxed",
+        "transcript",
+        "episode"
+      ]
+    },
+    {
+      "id": "en-b1-p-lesen-t2-match-podcasts-01-02",
+      "module": "lesen",
+      "title": "B – Kitchen on a Budget",
+      "text": "Every week, chef Sam Price shows you how to make a tasty dinner for two for under £5, using ingredients from any supermarket. Episodes last about fifteen minutes, which makes them perfect for listening to on the way to work or college. The full recipes, with shopping lists, are on the website.",
+      "passageVocab": [
+        "budget",
+        "ingredient",
+        "recipe",
+        "tasty"
+      ]
+    },
+    {
+      "id": "en-b1-p-lesen-t2-match-podcasts-01-03",
+      "module": "lesen",
+      "title": "C – Slow English Travels",
+      "text": "Each week, presenter Kate Morris visits a different British city and describes what she sees, eats and hears there. She speaks slowly and clearly, choosing everyday words, so the podcast is ideal for learners of English. The full text of every episode can be downloaded free, so you can read along while you listen.",
+      "passageVocab": [
+        "presenter",
+        "describe",
+        "download",
+        "read along"
+      ]
+    },
+    {
+      "id": "en-b1-p-lesen-t2-match-podcasts-01-04",
+      "module": "lesen",
+      "title": "D – Run With Us",
+      "text": "Runners of every level, from complete beginners to Olympic athletes, share their training tips and talk about how they felt before their first race. Each episode is planned to last exactly thirty minutes, the same as an easy run, so you can listen with your headphones in while you’re out on the road.",
+      "passageVocab": [
+        "athlete",
+        "training",
+        "tip",
+        "headphones"
+      ]
+    },
+    {
+      "id": "en-b1-p-lesen-t2-match-podcasts-01-05",
+      "module": "lesen",
+      "title": "E – History Hour",
+      "text": "Two university professors spend an hour discussing a different period of history each week, from ancient Egypt to the Second World War. They often disagree, which makes for an interesting discussion, and listeners can send in questions for them to answer. A list of books for further reading is posted after every episode.",
+      "passageVocab": [
+        "professor",
+        "period",
+        "disagree",
+        "further"
+      ]
+    },
+    {
+      "id": "en-b1-p-lesen-t2-match-podcasts-01-06",
+      "module": "lesen",
+      "title": "F – Why Is the Sky Blue?",
+      "text": "Each week, two comedians ask a top scientist a simple question about the world and try to understand the answer. The jokes come thick and fast, but you’ll learn something real too. The show is suitable for the whole family, and children often send in questions that are used in later episodes.",
+      "passageVocab": [
+        "comedian",
+        "scientist",
+        "thick and fast",
+        "suitable"
+      ]
+    },
+    {
+      "id": "en-b1-p-lesen-t2-match-podcasts-01-07",
+      "module": "lesen",
+      "title": "G – Body Matters",
+      "text": "Dr Helen Achebe explains the science behind how our bodies work, from how muscles grow during exercise to why we need sleep. Each episode looks at the latest research in detail and is aimed at adults who want serious, reliable information. It’s best listened to at home, when you can concentrate and take notes.",
+      "passageVocab": [
+        "muscle",
+        "research",
+        "reliable",
+        "concentrate"
+      ]
+    },
+    {
+      "id": "en-b1-p-lesen-t2-match-podcasts-01-08",
+      "module": "lesen",
+      "title": "H – Voices from the Past",
+      "text": "Actors bring real events from history to life, from the building of the pyramids to the first flight across the Atlantic. Each episode is a short radio play with music and sound effects, so you feel as if you are really there. A new story is released every Friday, and older episodes are all free.",
+      "passageVocab": [
+        "bring to life",
+        "sound effect",
+        "release",
+        "flight"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "en-b1-r-t2-match-podcasts-01-q1",
+      "module": "lesen",
+      "teil": 2,
+      "type": "matching",
+      "passageId": "en-b1-p-lesen-t2-match-podcasts-01-01",
+      "question": "Nadia has just left home and is learning to cook. She wants ideas for meals that don’t cost much, and she only has twenty minutes to listen on the bus.",
+      "options": [
+        "A) The Long Lunch",
+        "B) Kitchen on a Budget",
+        "C) Slow English Travels",
+        "D) Run With Us",
+        "E) History Hour",
+        "F) Why Is the Sky Blue?",
+        "G) Body Matters",
+        "H) Voices from the Past"
+      ],
+      "correct": "B",
+      "correctAnswer": "B",
+      "explanation": "Kitchen on a Budget shows \"how to make a tasty dinner for two for under £5\", and \"Episodes last about fifteen minutes\". The Long Lunch is also about food, but it is about restaurants, not cheap cooking, and \"Episodes often last more than an hour\".",
+      "grammarTags": [
+        "g-en-b1-present-perfect"
+      ],
+      "topicTags": [
+        "media"
+      ],
+      "vocabularyTags": [
+        "podcast",
+        "cooking",
+        "budget"
+      ],
+      "difficulty": 3,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-r-t2-match-podcasts-01-q2",
+      "module": "lesen",
+      "teil": 2,
+      "type": "matching",
+      "passageId": "en-b1-p-lesen-t2-match-podcasts-01-01",
+      "question": "Kofi loves history, but he finds it boring when people just talk about it. He would prefer to hear stories from the past acted out.",
+      "options": [
+        "A) The Long Lunch",
+        "B) Kitchen on a Budget",
+        "C) Slow English Travels",
+        "D) Run With Us",
+        "E) History Hour",
+        "F) Why Is the Sky Blue?",
+        "G) Body Matters",
+        "H) Voices from the Past"
+      ],
+      "correct": "H",
+      "correctAnswer": "H",
+      "explanation": "In Voices from the Past \"Actors bring real events from history to life\", and each episode is \"a short radio play\". History Hour is also about history, but it is \"Two university professors\" in a \"discussion\", which is the kind of talk Kofi finds boring.",
+      "grammarTags": [
+        "g-en-b1-preferences"
+      ],
+      "topicTags": [
+        "media"
+      ],
+      "vocabularyTags": [
+        "history",
+        "drama",
+        "podcast"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-r-t2-match-podcasts-01-q3",
+      "module": "lesen",
+      "teil": 2,
+      "type": "matching",
+      "passageId": "en-b1-p-lesen-t2-match-podcasts-01-01",
+      "question": "Grace is preparing for her first 10-kilometre race. She wants something to listen to while she’s out running, with advice from other runners.",
+      "options": [
+        "A) The Long Lunch",
+        "B) Kitchen on a Budget",
+        "C) Slow English Travels",
+        "D) Run With Us",
+        "E) History Hour",
+        "F) Why Is the Sky Blue?",
+        "G) Body Matters",
+        "H) Voices from the Past"
+      ],
+      "correct": "D",
+      "correctAnswer": "D",
+      "explanation": "On Run With Us, runners \"share their training tips\", and each episode is planned \"so you can listen with your headphones in while you’re out on the road\". Body Matters talks about exercise, but it comes from a doctor, not runners, and is \"best listened to at home\".",
+      "grammarTags": [
+        "g-en-b1-present-continuous"
+      ],
+      "topicTags": [
+        "media"
+      ],
+      "vocabularyTags": [
+        "running",
+        "fitness",
+        "advice"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-r-t2-match-podcasts-01-q4",
+      "module": "lesen",
+      "teil": 2,
+      "type": "matching",
+      "passageId": "en-b1-p-lesen-t2-match-podcasts-01-01",
+      "question": "Leo wants a science podcast that he can listen to with his eleven-year-old son. They both enjoy things that make them laugh.",
+      "options": [
+        "A) The Long Lunch",
+        "B) Kitchen on a Budget",
+        "C) Slow English Travels",
+        "D) Run With Us",
+        "E) History Hour",
+        "F) Why Is the Sky Blue?",
+        "G) Body Matters",
+        "H) Voices from the Past"
+      ],
+      "correct": "F",
+      "correctAnswer": "F",
+      "explanation": "In Why Is the Sky Blue? two comedians question \"a top scientist\", \"The jokes come thick and fast\", and it is \"suitable for the whole family\". Body Matters also explains science, but it \"is aimed at adults who want serious, reliable information\".",
+      "grammarTags": [
+        "g-en-b1-relative-clauses"
+      ],
+      "topicTags": [
+        "media"
+      ],
+      "vocabularyTags": [
+        "science",
+        "comedy",
+        "family"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-r-t2-match-podcasts-01-q5",
+      "module": "lesen",
+      "teil": 2,
+      "type": "matching",
+      "passageId": "en-b1-p-lesen-t2-match-podcasts-01-01",
+      "question": "Mira is learning English and wants to practise her listening. She needs speakers who talk slowly, and she’d like to be able to read the words as well.",
+      "options": [
+        "A) The Long Lunch",
+        "B) Kitchen on a Budget",
+        "C) Slow English Travels",
+        "D) Run With Us",
+        "E) History Hour",
+        "F) Why Is the Sky Blue?",
+        "G) Body Matters",
+        "H) Voices from the Past"
+      ],
+      "correct": "C",
+      "correctAnswer": "C",
+      "explanation": "On Slow English Travels the presenter \"speaks slowly and clearly\", and \"The full text of every episode can be downloaded free\". The Long Lunch also has \"a full written transcript\", but the conversations are \"lively and fast, with lots of jokes and people talking over each other\".",
+      "grammarTags": [
+        "g-en-b1-modals"
+      ],
+      "topicTags": [
+        "media"
+      ],
+      "vocabularyTags": [
+        "language learning",
+        "listening",
+        "podcast"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    }
+  ],
+  "_germanCapsNormalizeVersion": "v3.23-lesen-t2-angebote-corpus-2026-07-28",
+  "_germanCapsNormalizedAt": "2026-10-12T19:15:50.339Z",
+  "_balanceMcqVersion": "v1.2-no-rf-chrono-shuffle-2026-07-11",
+  "_balanceMcqNormalizedAt": "2026-10-12T19:15:50.339Z"
+}

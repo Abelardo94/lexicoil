@@ -1,0 +1,198 @@
+{
+  "passages": [
+    {
+      "id": "en-b1-p-lesen-t3-long-bike-repair-01-01",
+      "module": "lesen",
+      "title": "The teenager who fixes the city’s bikes",
+      "text": "Josh Turner was nineteen when he opened his bicycle repair shop in Leeds. Three years later, the little shop near the canal is busy every day. However, the beginning was not easy.\n\nJosh has loved bikes all his life. His grandfather taught him to mend punctures in the garden shed. “I spent every weekend with oily hands,” he says. At school he was not interested in most subjects, because he preferred taking things apart and putting them back together. After school he started an engineering course at college, but he left after one year. “The course was mostly theory. I wanted to work with real machines,” he explains.\n\nFor the next year he repaired bikes for friends and neighbours in his parents’ garage. He charged very little, so soon strangers were knocking on the door with broken bikes. His parents were patient, but the garage was always full. In the end, his mother told him to find a proper workplace.\n\nJosh found an empty shop with a cheap rent, but the problem was money. The banks did not want to lend money to a teenager with no business experience. Finally, his uncle lent him £4,000 for tools and spare parts. Josh promised to pay it all back within two years. He managed it in eighteen months.\n\nThe first winter was hard because few people cycle in cold, wet weather, and customers were rare. Some weeks Josh earned almost nothing. He used the quiet time well, though, and built a simple website and started posting short repair videos. In them he shows easy jobs, like adjusting gears or cleaning a chain. Some customers were surprised. “Why do you teach people to fix their own bikes? You’ll lose business!” they said. Josh disagrees. “People watch the videos and try the job at home. Sometimes something goes really wrong. Then they remember my name. They trust me, because I’ve already helped them for free.”\n\nToday Josh employs two part-time mechanics, both students. He also runs a free repair class for local children every Saturday morning. “Lots of kids have bikes with flat tyres in the garage. Nobody shows them how to fix them,” he says.\n\nWhat advice would he give to other young people? “Don’t wait until you know everything. I made plenty of mistakes in my first year. I ordered the wrong parts, and I forgot to keep receipts. But every mistake taught me something useful.” He smiles. “And find an uncle with some savings!”",
+      "passageVocab": [
+        "puncture",
+        "repair",
+        "lend",
+        "spare part",
+        "customer"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "en-b1-r-t3-long-bike-repair-01-q1",
+      "module": "lesen",
+      "teil": 3,
+      "type": "multiple_choice",
+      "passageId": "en-b1-p-lesen-t3-long-bike-repair-01-01",
+      "question": "Why did Josh leave his college course?",
+      "options": [
+        "a) He had already opened his own shop.",
+        "b) He found the work far too difficult.",
+        "c) He wanted to do more practical work.",
+        "d) He needed to earn money for his family."
+      ],
+      "correct": "c",
+      "correctAnswer": "c",
+      "explanation": "Josh says: \"The course was mostly theory. I wanted to work with real machines.\" He wanted practical work. The text never says the course was too difficult, and he opened the shop only later, after a year of repairs in the garage.",
+      "grammarTags": [
+        "g-en-b1-past-simple"
+      ],
+      "topicTags": [
+        "work"
+      ],
+      "vocabularyTags": [
+        "theory",
+        "engineering",
+        "course"
+      ],
+      "difficulty": 3,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-r-t3-long-bike-repair-01-q2",
+      "module": "lesen",
+      "teil": 3,
+      "type": "multiple_choice",
+      "passageId": "en-b1-p-lesen-t3-long-bike-repair-01-01",
+      "question": "Why did Josh stop working in his parents’ garage?",
+      "options": [
+        "a) He wanted to be closer to the university.",
+        "b) His mother asked him to find somewhere else.",
+        "c) His customers could not find the house.",
+        "d) The neighbours complained about the noise."
+      ],
+      "correct": "b",
+      "correctAnswer": "b",
+      "explanation": "The text says: \"In the end, his mother told him to find a proper workplace.\" The neighbours were his customers, not people who complained, and nothing is said about the university or customers getting lost.",
+      "grammarTags": [
+        "g-en-b1-past-simple"
+      ],
+      "topicTags": [
+        "work"
+      ],
+      "vocabularyTags": [
+        "garage",
+        "workplace",
+        "neighbour"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-r-t3-long-bike-repair-01-q3",
+      "module": "lesen",
+      "teil": 3,
+      "type": "multiple_choice",
+      "passageId": "en-b1-p-lesen-t3-long-bike-repair-01-01",
+      "question": "What do we learn about the money Josh borrowed?",
+      "options": [
+        "a) He paid it back sooner than he had promised.",
+        "b) A bank lent it to him after several attempts.",
+        "c) His uncle later let him keep it as a gift.",
+        "d) He spent most of it on the rent for the shop."
+      ],
+      "correct": "a",
+      "correctAnswer": "a",
+      "explanation": "Josh \"promised to pay it all back within two years. He managed it in eighteen months\", so he paid it back early. The banks \"did not want to lend money\" to him, and the money was \"for tools and spare parts\", not for the rent.",
+      "grammarTags": [
+        "g-en-b1-past-simple"
+      ],
+      "topicTags": [
+        "work"
+      ],
+      "vocabularyTags": [
+        "lend",
+        "borrow",
+        "spare parts"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-r-t3-long-bike-repair-01-q4",
+      "module": "lesen",
+      "teil": 3,
+      "type": "multiple_choice",
+      "passageId": "en-b1-p-lesen-t3-long-bike-repair-01-01",
+      "question": "What does Josh think about his online repair videos?",
+      "options": [
+        "a) They bring him customers in the end.",
+        "b) They take up too much of his free time.",
+        "c) They were a mistake in his first winter.",
+        "d) They have reduced the number of repairs he gets."
+      ],
+      "correct": "a",
+      "correctAnswer": "a",
+      "explanation": "Josh explains that when \"something goes really wrong\", viewers \"remember my name. They trust me\", so the videos bring him customers. Some customers fear he will \"lose business\", but Josh disagrees with them.",
+      "grammarTags": [
+        "g-en-b1-present-simple"
+      ],
+      "topicTags": [
+        "work"
+      ],
+      "vocabularyTags": [
+        "trust",
+        "video",
+        "business"
+      ],
+      "difficulty": 5,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-r-t3-long-bike-repair-01-q5",
+      "module": "lesen",
+      "teil": 3,
+      "type": "multiple_choice",
+      "passageId": "en-b1-p-lesen-t3-long-bike-repair-01-01",
+      "question": "What is the main advice Josh gives to other young people?",
+      "options": [
+        "a) Keep a careful record of everything you buy.",
+        "b) Plan every detail before you start.",
+        "c) Find a partner with business experience.",
+        "d) Start now and learn from your mistakes."
+      ],
+      "correct": "d",
+      "correctAnswer": "d",
+      "explanation": "Josh says: \"Don’t wait until you know everything\" and \"every mistake taught me something useful.\" Forgetting receipts is only one example of his mistakes, not his main advice, and planning every detail is the opposite of what he says.",
+      "grammarTags": [
+        "g-en-b1-imperatives"
+      ],
+      "topicTags": [
+        "work"
+      ],
+      "vocabularyTags": [
+        "advice",
+        "mistake",
+        "receipt"
+      ],
+      "difficulty": 5,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    }
+  ],
+  "_germanCapsNormalizeVersion": "v3.23-lesen-t2-angebote-corpus-2026-07-28",
+  "_germanCapsNormalizedAt": "2026-10-12T19:21:59.959Z",
+  "_balanceMcqVersion": "v1.2-no-rf-chrono-shuffle-2026-07-11",
+  "_balanceMcqNormalizedAt": "2026-10-12T19:21:59.960Z"
+}

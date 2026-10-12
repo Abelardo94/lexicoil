@@ -1,0 +1,149 @@
+{
+  "passages": [],
+  "questions": [
+    {
+      "id": "en-b1-s-t1-speaking-home-neighbourhood-01-q1",
+      "module": "sprechen",
+      "teil": 1,
+      "type": "short_answer",
+      "taskTypes": [
+        "interview"
+      ],
+      "question": "Part 1 – Interview\nThe examiner asks you some questions about yourself. Answer each question and give some extra information.\n\nWhere do you live?\nCan you tell us something about your home?\nWhich room in your home do you like best? Why?\nWhat do you like about your neighbourhood?\nIs there anything you would like to change about the area where you live?",
+      "correct": "rubric",
+      "correctAnswer": "rubric",
+      "explanation": "Give full answers, not just one or two words: answer the question, then add a reason or an example. Use present tenses for your daily life and would for things you want to change.\n\nModel answers:\nI live in a flat in the north of the city, quite close to the river.\nIt’s not very big, but it’s comfortable. There are three bedrooms and a small balcony where we have some plants.\nI like my bedroom best, because it’s quiet and I can listen to music or read there without anyone disturbing me.\nThe best thing is that everything is near. There’s a supermarket, a park and a bus stop just round the corner.\nI’d like to have a swimming pool nearby. At the moment I have to take two buses to go swimming, which takes ages.",
+      "options": [],
+      "grammarTags": [
+        "g-en-b1-present-simple",
+        "g-en-b1-would-like"
+      ],
+      "topicTags": [
+        "home"
+      ],
+      "vocabularyTags": [
+        "flat",
+        "neighbourhood",
+        "balcony",
+        "nearby",
+        "comfortable"
+      ],
+      "difficulty": 5,
+      "skills": [
+        "speaking"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-s-t2-speaking-home-neighbourhood-01-q1",
+      "module": "sprechen",
+      "teil": 2,
+      "type": "short_answer",
+      "taskTypes": [
+        "photo_description"
+      ],
+      "question": "Part 2 – Photo description\nLook at the photograph. It shows a family doing jobs together in a kitchen. An adult is washing dishes at the sink, a teenager is drying plates with a towel and a young child is putting knives and forks into a drawer. A dog is sitting on the floor next to the child. The kitchen is bright, and there is a bowl of fruit on the table. Everyone is smiling. Tell us what you can see in the photograph.\n\nTalk for about one minute.",
+      "correct": "rubric",
+      "correctAnswer": "rubric",
+      "explanation": "Describe the place, the people and what each person is doing, using the present continuous (is washing, is drying). Say where things are (next to, on the table, at the sink). If you do not know a word, explain it in other words. You can give your opinion about the people, but only from what you can see.\n\nModel answer:\nIn this photo I can see a family in their kitchen. They’re all doing jobs together. First, an adult is washing the dishes at the sink. A teenager is drying the plates with a towel. There’s also a young child, who is putting knives and forks into a drawer. I can see a dog too – it’s sitting on the floor next to the child. The kitchen looks bright, and there’s a bowl of fruit on the table. Everyone is smiling, so I think they don’t mind helping. It looks like they enjoy working together.",
+      "options": [],
+      "grammarTags": [
+        "g-en-b1-present-continuous",
+        "g-en-b1-prepositions-of-place"
+      ],
+      "topicTags": [
+        "home"
+      ],
+      "vocabularyTags": [
+        "sink",
+        "dishes",
+        "towel",
+        "drawer",
+        "housework"
+      ],
+      "difficulty": 5,
+      "skills": [
+        "speaking"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-s-t3-speaking-home-neighbourhood-01-q1",
+      "module": "sprechen",
+      "teil": 3,
+      "type": "short_answer",
+      "taskTypes": [
+        "collaborative_task"
+      ],
+      "question": "Part 3 – Collaborative task\nThe local council wants to make a neighbourhood a better place for young people. Here are some ideas they are thinking about.\n\na skate park\na youth club with games and music\na free outdoor cinema in summer\nmore cycle paths\na community garden\nfree sports lessons at weekends\n\nTalk together about how each idea could help young people in the neighbourhood. Then decide which idea would be the best.\n\nTalk together for about two or three minutes.",
+      "correct": "rubric",
+      "correctAnswer": "rubric",
+      "explanation": "Talk about the ideas one by one and give reasons. Ask your partner for their opinion, agree and disagree politely, and try to reach a decision together at the end. Useful language: What do you think about …? I agree, but … That’s a good point. Shall we choose …?\n\nModel conversation (part):\nA: Shall we start with the skate park? I think lots of teenagers would use it.\nB: Yes, but not everyone likes skateboarding. A youth club would be good for more people, because there are games and music.\nA: That’s true. And it’s open in winter too, when it’s cold and dark. What about the cycle paths?\nB: They’re useful and safer, but they’re not really a place to meet friends.\nA: I agree. So the youth club or the free sports lessons?\nB: I’d say the youth club, because it’s for everyone, even people who don’t like sport.\nA: OK, let’s choose the youth club.",
+      "options": [],
+      "grammarTags": [
+        "g-en-b1-modals",
+        "g-en-b1-suggestions"
+      ],
+      "topicTags": [
+        "home"
+      ],
+      "vocabularyTags": [
+        "youth club",
+        "cycle path",
+        "community",
+        "council",
+        "skate park"
+      ],
+      "difficulty": 5,
+      "skills": [
+        "speaking"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-s-t4-speaking-home-neighbourhood-01-q1",
+      "module": "sprechen",
+      "teil": 4,
+      "type": "short_answer",
+      "taskTypes": [
+        "general_conversation"
+      ],
+      "question": "Part 4 – General conversation\nThe examiner asks you and your partner some questions about homes and neighbours. Give your opinion and talk to your partner too.\n\nDo you know your neighbours well? Why or why not?\nHow can neighbours help each other?\nIs it better to live in a city or in the countryside? Why?\nWhat do young people in your area do in their free time?\nWhat kind of home would you like to live in in the future?",
+      "correct": "rubric",
+      "correctAnswer": "rubric",
+      "explanation": "Give your opinion with a reason or an example, and react to what your partner says (I agree with you, but …; That’s interesting – in my town …). Use would for the future question.\n\nModel answers:\nI know some of my neighbours quite well. The woman next door looks after our cat when we go on holiday, and we water her plants in return.\nNeighbours can help by carrying shopping for older people, or by keeping an eye on a house when the family is away.\nPersonally, I prefer the city, because there’s more to do and better public transport. But the countryside is quieter and the air is cleaner.\nIn my area, young people mostly meet in the park or go to the shopping centre. Some play football at the sports ground.\nIn the future I’d like to live in a small house with a garden, maybe near the sea.",
+      "options": [],
+      "grammarTags": [
+        "g-en-b1-comparatives",
+        "g-en-b1-would-like"
+      ],
+      "topicTags": [
+        "home"
+      ],
+      "vocabularyTags": [
+        "neighbour",
+        "countryside",
+        "look after",
+        "public transport",
+        "in return"
+      ],
+      "difficulty": 5,
+      "skills": [
+        "speaking"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    }
+  ],
+  "_germanCapsNormalizeVersion": "v3.23-lesen-t2-angebote-corpus-2026-07-28",
+  "_germanCapsNormalizedAt": "2026-10-12T19:16:05.819Z",
+  "_balanceMcqVersion": "v1.2-no-rf-chrono-shuffle-2026-07-11",
+  "_balanceMcqNormalizedAt": "2026-10-12T19:16:05.820Z"
+}
