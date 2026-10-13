@@ -136,6 +136,31 @@
     return part;
   }
 
+  /**
+   * Goethe A2 does not share B1's Teil order (library/blueprints/goethe_A2.json): Lesen T3 is a
+   * letter with multiple choice and the ads are T4. Everything below was written for B1 and keyed
+   * on the Teil number, so A2 T3 became an ads part with no ads — its questions rendered twice,
+   * under B1's "Situationen 13 bis 19 und die Anzeigen a bis j".
+   */
+  var A2_LESEN_SLOTS = { 3: 'email_mcq', 4: 'ads_matching' };
+
+  /** Official A2 wording. Published A2 parts carry no instruction, and the UI fallback
+   *  (synthesizeLesenInstruction) only knows B1 ("Richtig oder Falsch", "Aufgaben 1 bis 6"). */
+  var A2_INSTRUCTIONS = {
+    lesen: {
+      1: 'Lesen Sie den Text und die Aufgaben 1 bis 5. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.',
+      2: 'Lesen Sie den Text und die Aufgaben 6 bis 10. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.',
+      3: 'Lesen Sie den Text und die Aufgaben 11 bis 15. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.',
+      4: 'Lesen Sie die Situationen 16 bis 20 und die Anzeigen a bis f. Welche Anzeige passt zu welcher Situation? Für eine Situation gibt es keine passende Anzeige. In diesem Fall wählen Sie 0.',
+    },
+    horen: {
+      1: 'Wählen Sie bei den Aufgaben 1 bis 5 die richtige Lösung a, b oder c.',
+      2: 'Wählen Sie für die Aufgaben 6 bis 10 den passenden Buchstaben.',
+      3: 'Wählen Sie bei den Aufgaben 11 bis 15 die richtige Lösung a, b oder c.',
+      4: 'Wählen Sie für die Aufgaben 16 bis 20 Ja oder Nein.',
+    },
+  };
+
   /** @param {object} record — published part snapshot (seed-shaped payload) */
   function snapshotToExamPart(record) {
     if (!record || typeof record !== 'object') return null;
@@ -143,14 +168,21 @@
     var teil = Number(record.teil);
     if (!module || !Number.isFinite(teil)) return null;
 
+    var isA2 = String(record.level || '').toUpperCase() === 'A2';
     var part = { teil: teil, instruction: record.instruction || '' };
+    if (isA2 && !String(part.instruction).trim() && A2_INSTRUCTIONS[module] && A2_INSTRUCTIONS[module][teil]) {
+      part.instruction = A2_INSTRUCTIONS[module][teil];
+      // rebuildLesenAdsMatchingInstruction() rewrites German ads instructions from item ids,
+      // which on A2 are still raw ("gen-q-4-bc8be82d-1") at that point.
+      part._instructionAuthored = true;
+    }
 
     if (module === 'lesen') {
       var passage = record.passage || {};
       if (Array.isArray(passage.passages) && passage.passages.length >= 2) {
         part.passages = passage.passages;
         part.textTitle = passage.title || '';
-      } else if (teil === 3) {
+      } else if (teil === 3 && !isA2) {
         part.text = passage.text || '';
         part.textTitle = passage.title || '';
         part.ads = passage.ads || record.ads || [];
@@ -203,9 +235,24 @@
         });
       }
       if (record.example) part.example = record.example;
+      if (isA2 && A2_LESEN_SLOTS[teil]) {
+        part.blueprintSlot = A2_LESEN_SLOTS[teil];
+        part.slotType = A2_LESEN_SLOTS[teil];
+      }
+      if (isA2 && teil === 4) {
+        // A2 marks the situation with no matching ad "X"; the UI offers the no-match pill
+        // only for "0" (inferLesenT3HasNoMatch), so that item could never be answered right.
+        (part.questions || []).forEach(function (q) {
+          if (/^x$/i.test(String(q.correct != null ? q.correct : '').trim())) {
+            q.correct = '0';
+            q.correctAnswer = '0';
+          }
+        });
+      }
       // Lesen T3: missing example → Goethe Modellsatz constant (same as ensureLesenT3Example).
       // Do NOT copy a scored correct="0" question into example (that duplicated Situation 0).
-      if (Number(teil) === 3 && !part.example) {
+      // B1 only: A2 Teil 3 is a letter with multiple choice, not the ads task.
+      if (Number(teil) === 3 && !isA2 && !part.example) {
         var t3Example = null;
         if (typeof require !== 'undefined') {
           try {
@@ -222,7 +269,7 @@
         }
         if (t3Example) part.example = Object.assign({}, t3Example);
       }
-      if (Number(teil) === 3) {
+      if (Number(teil) === 3 && !isA2) {
         var hasNoMatchQ = (part.questions || []).some(function (q) {
           return (
             String(q.correct != null ? q.correct : q.correctAnswer || '')
@@ -386,11 +433,12 @@
       publishedExam: true,
       publishedManifestVersion: doc.manifestVersion,
       publishedAt: doc.publishedAt,
-      blueprintId: 'goethe-b1',
+      // Was hard-coded 'goethe-b1' for every level, which put A2 on B1's numbering table.
+      blueprintId: 'goethe-' + String(doc.level || 'B1').toLowerCase(),
       blueprintComplete: true,
       official: {
         board: 'Goethe-Institut',
-        certificate: 'Goethe-Zertifikat B1',
+        certificate: 'Goethe-Zertifikat ' + String(doc.level || 'B1').toUpperCase(),
         note:
           'Official curated exam (published snapshot v' +
           doc.manifestVersion +

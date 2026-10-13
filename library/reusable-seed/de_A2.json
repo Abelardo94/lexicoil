@@ -18098,24 +18098,24 @@
           "teil": 3,
           "level": "A2",
           "type": "multiple_choice",
-          "question": "Warum schreibt Thomas an Maria?",
+          "question": "Was ist für Thomas ein Nachteil vom Fitnessstudio?",
           "options": [
             {
               "key": "A",
-              "text": "Er möchte ins Fitnessstudio anmelden"
+              "text": "Er muss dort immer allein trainieren."
             },
             {
               "key": "B",
-              "text": "Er braucht Rat – Fitnessstudio oder Sportverein"
+              "text": "Es kostet 50 Euro im Monat."
             },
             {
               "key": "C",
-              "text": "Er möchte Maria ins Tennisverein einladen"
+              "text": "Es gibt dort nicht genug Geräte."
             }
           ],
           "correct": "b",
           "correctAnswer": "b",
-          "explanation": "Die richtige Antwort steht im Text. Lesen Sie den Text noch einmal genau.",
+          "explanation": "Thomas schreibt über das Fitnessstudio: \"Aber es ist teuer – 50 Euro pro Monat!\" Er kann dort allein trainieren, wann er will, aber das ist für ihn kein Problem. Und es gibt \"viele Geräte\".",
           "passageId": "de-a2-p-lesen-t3-sport-vereine-02"
         },
         {
@@ -18124,24 +18124,24 @@
           "teil": 3,
           "level": "A2",
           "type": "multiple_choice",
-          "question": "Warum schreibt Thomas an Maria?",
+          "question": "Wie viel bezahlt Peter für den Tennisverein?",
           "options": [
             {
               "key": "A",
-              "text": "Er braucht Rat – Fitnessstudio oder Sportverein"
+              "text": "15 Euro im Monat."
             },
             {
               "key": "B",
-              "text": "Er möchte Maria ins Tennisverein einladen"
+              "text": "50 Euro im Monat."
             },
             {
               "key": "C",
-              "text": "Er möchte ins Fitnessstudio anmelden"
+              "text": "15 Euro im Jahr."
             }
           ],
           "correct": "a",
           "correctAnswer": "a",
-          "explanation": "Die richtige Antwort steht im Text. Lesen Sie den Text noch einmal genau.",
+          "explanation": "Im Text steht: \"Mein Freund Peter ist im Tennisverein und zahlt nur 15 Euro monatlich.\" 50 Euro im Monat kostet das Fitnessstudio.",
           "passageId": "de-a2-p-lesen-t3-sport-vereine-02"
         },
         {
@@ -18150,24 +18150,24 @@
           "teil": 3,
           "level": "A2",
           "type": "multiple_choice",
-          "question": "Warum schreibt Thomas an Maria?",
+          "question": "Was sagt Peter über den Sportverein?",
           "options": [
             {
               "key": "A",
-              "text": "Er möchte ins Fitnessstudio anmelden"
+              "text": "Man kann trainieren, wann man will."
             },
             {
               "key": "B",
-              "text": "Er braucht Rat – Fitnessstudio oder Sportverein"
+              "text": "Allein trainieren ist schöner."
             },
             {
               "key": "C",
-              "text": "Er möchte Maria ins Tennisverein einladen"
+              "text": "Mit anderen zusammen macht es mehr Spaß."
             }
           ],
-          "correct": "b",
-          "correctAnswer": "b",
-          "explanation": "Die richtige Antwort steht im Text. Lesen Sie den Text noch einmal genau.",
+          "correct": "c",
+          "correctAnswer": "c",
+          "explanation": "Peter sagt, \"es macht mehr Spaß mit anderen zusammen zu spielen\". Im Verein sind die Trainingszeiten fest; wann man will, kann man nur im Fitnessstudio trainieren.",
           "passageId": "de-a2-p-lesen-t3-sport-vereine-02"
         },
         {
@@ -18176,24 +18176,24 @@
           "teil": 3,
           "level": "A2",
           "type": "multiple_choice",
-          "question": "Warum schreibt Thomas an Maria?",
+          "question": "Was möchte Thomas mit dem Sport erreichen?",
           "options": [
             {
               "key": "A",
-              "text": "Er möchte Maria ins Tennisverein einladen"
+              "text": "Er möchte abnehmen und fitter werden."
             },
             {
               "key": "B",
-              "text": "Er möchte ins Fitnessstudio anmelden"
+              "text": "Er möchte Tennistrainer werden."
             },
             {
               "key": "C",
-              "text": "Er braucht Rat – Fitnessstudio oder Sportverein"
+              "text": "Er möchte neue Kollegen finden."
             }
           ],
-          "correct": "c",
-          "correctAnswer": "c",
-          "explanation": "Die richtige Antwort steht im Text. Lesen Sie den Text noch einmal genau.",
+          "correct": "a",
+          "correctAnswer": "a",
+          "explanation": "Thomas schreibt: \"Ich bin noch jung und möchte abnehmen und meine Fitness verbessern.\" Von einem Beruf als Trainer schreibt er nichts.",
           "passageId": "de-a2-p-lesen-t3-sport-vereine-02"
         }
       ],

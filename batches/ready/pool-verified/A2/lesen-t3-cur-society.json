@@ -40,11 +40,11 @@
     {
       "id": "de-a2-cur-lesen-t3-cur-society-q12",
       "type": "multiple_choice",
-      "question": "Warum schreibt Thomas an Maria?",
+      "question": "Was ist für Thomas ein Nachteil vom Fitnessstudio?",
       "options": [
-        "a) Er möchte sich in einem Fitnessstudio anmelden.",
-        "b) Er braucht Rat für Sport: Fitnessstudio oder Verein.",
-        "c) Er möchte Maria in den Tennisverein einladen."
+        "A) Er muss dort immer allein trainieren.",
+        "B) Es kostet 50 Euro im Monat.",
+        "C) Es gibt dort nicht genug Geräte."
       ],
       "correct": "b",
       "passageId": "de-a2-p-lesen-t3-sport-vereine-02",
@@ -52,7 +52,7 @@
       "teil": 3,
       "level": "A2",
       "correctAnswer": "b",
-      "explanation": "Thomas schreibt Maria, weil er unsicher ist, ob er ins Fitnessstudio gehen oder in einen Sportverein eintreten soll. Er bittet Maria um ihren Rat.",
+      "explanation": "Thomas schreibt über das Fitnessstudio: \"Aber es ist teuer – 50 Euro pro Monat!\" Er kann dort allein trainieren, wann er will, aber das ist für ihn kein Problem. Und es gibt \"viele Geräte\".",
       "vocabularyTags": [
         "richtig",
         "Antwort",
@@ -66,19 +66,19 @@
     {
       "id": "de-a2-cur-lesen-t3-cur-society-q13",
       "type": "multiple_choice",
-      "question": "Warum schreibt Thomas an Maria?",
+      "question": "Wie viel bezahlt Peter für den Tennisverein?",
       "options": [
-        "a) Er möchte sich in einem Fitnessstudio anmelden.",
-        "b) Er braucht Rat für Sport: Fitnessstudio oder Verein.",
-        "c) Er möchte Maria in den Tennisverein einladen."
+        "A) 15 Euro im Monat.",
+        "B) 50 Euro im Monat.",
+        "C) 15 Euro im Jahr."
       ],
-      "correct": "b",
+      "correct": "a",
       "passageId": "de-a2-p-lesen-t3-sport-vereine-02",
       "module": "lesen",
       "teil": 3,
       "level": "A2",
-      "correctAnswer": "b",
-      "explanation": "Thomas schreibt Maria, weil er unsicher ist, ob er ins Fitnessstudio gehen oder in einen Sportverein eintreten soll. Er bittet Maria um ihren Rat.",
+      "correctAnswer": "a",
+      "explanation": "Im Text steht: \"Mein Freund Peter ist im Tennisverein und zahlt nur 15 Euro monatlich.\" 50 Euro im Monat kostet das Fitnessstudio.",
       "vocabularyTags": [
         "richtig",
         "Antwort",
@@ -92,19 +92,19 @@
     {
       "id": "de-a2-cur-lesen-t3-cur-society-q14",
       "type": "multiple_choice",
-      "question": "Warum schreibt Thomas an Maria?",
+      "question": "Was sagt Peter über den Sportverein?",
       "options": [
-        "a) Er braucht Rat für Sport: Fitnessstudio oder Verein.",
-        "b) Er möchte Maria in den Tennisverein einladen.",
-        "c) Er möchte sich in einem Fitnessstudio anmelden."
+        "A) Man kann trainieren, wann man will.",
+        "B) Allein trainieren ist schöner.",
+        "C) Mit anderen zusammen macht es mehr Spaß."
       ],
-      "correct": "a",
+      "correct": "c",
       "passageId": "de-a2-p-lesen-t3-sport-vereine-02",
       "module": "lesen",
       "teil": 3,
       "level": "A2",
-      "correctAnswer": "a",
-      "explanation": "Thomas schreibt Maria, weil er unsicher ist, ob er ins Fitnessstudio gehen oder in einen Sportverein eintreten soll. Er bittet Maria um ihren Rat.",
+      "correctAnswer": "c",
+      "explanation": "Peter sagt, \"es macht mehr Spaß mit anderen zusammen zu spielen\". Im Verein sind die Trainingszeiten fest; wann man will, kann man nur im Fitnessstudio trainieren.",
       "vocabularyTags": [
         "richtig",
         "Antwort",
@@ -118,11 +118,11 @@
     {
       "id": "de-a2-cur-lesen-t3-cur-society-q15",
       "type": "multiple_choice",
-      "question": "Warum schreibt Thomas an Maria?",
+      "question": "Was möchte Thomas mit dem Sport erreichen?",
       "options": [
-        "a) Er braucht Rat für Sport: Fitnessstudio oder Verein.",
-        "b) Er möchte Maria in den Tennisverein einladen.",
-        "c) Er möchte sich in einem Fitnessstudio anmelden."
+        "A) Er möchte abnehmen und fitter werden.",
+        "B) Er möchte Tennistrainer werden.",
+        "C) Er möchte neue Kollegen finden."
       ],
       "correct": "a",
       "passageId": "de-a2-p-lesen-t3-sport-vereine-02",
@@ -130,7 +130,7 @@
       "teil": 3,
       "level": "A2",
       "correctAnswer": "a",
-      "explanation": "Thomas schreibt Maria, weil er unsicher ist, ob er ins Fitnessstudio gehen oder in einen Sportverein eintreten soll. Er bittet Maria um ihren Rat.",
+      "explanation": "Thomas schreibt: \"Ich bin noch jung und möchte abnehmen und meine Fitness verbessern.\" Von einem Beruf als Trainer schreibt er nichts.",
       "vocabularyTags": [
         "richtig",
         "Antwort",
