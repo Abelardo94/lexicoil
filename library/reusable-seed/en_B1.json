@@ -6887,7 +6887,9 @@
       "targetCount": 5,
       "topicTag": "Shopping",
       "topicTagSource": "backfill-en-topic-tags",
-      "topicTaggedAt": "2026-09-26T18:24:39.786Z"
+      "topicTaggedAt": "2026-09-26T18:24:39.786Z",
+      "reviewVerifiedAt": "2026-09-26T21:00:00.000Z",
+      "reviewVerifiedBy": "claude-opus-blind-review: 3 rondas ciegas, 0 fallos en la ultima (PR #21)"
     },
     {
       "id": "cur-en-B1-e04-lesen-t2-5cdc401c10be997f",
@@ -6989,7 +6991,9 @@
       "targetCount": 5,
       "topicTag": "Education",
       "topicTagSource": "backfill-en-topic-tags",
-      "topicTaggedAt": "2026-09-26T18:24:39.786Z"
+      "topicTaggedAt": "2026-09-26T18:24:39.786Z",
+      "reviewVerifiedAt": "2026-09-26T21:00:00.000Z",
+      "reviewVerifiedBy": "claude-opus-blind-review: 3 rondas ciegas, 0 fallos en la ultima (PR #21)"
     },
     {
       "id": "cur-en-B1-e04-lesen-t3-0b733a0c2b1d173d",
@@ -7076,7 +7080,9 @@
       "targetCount": 5,
       "topicTag": "Education",
       "topicTagSource": "backfill-en-topic-tags",
-      "topicTaggedAt": "2026-09-26T18:24:39.787Z"
+      "topicTaggedAt": "2026-09-26T18:24:39.787Z",
+      "reviewVerifiedAt": "2026-09-26T21:00:00.000Z",
+      "reviewVerifiedBy": "claude-opus-blind-review: 3 rondas ciegas, 0 fallos en la ultima (PR #21)"
     },
     {
       "id": "cur-en-B1-e04-lesen-t4-e3d617a8935ac15e",
@@ -7183,7 +7189,9 @@
       "targetCount": 5,
       "topicTag": "Education",
       "topicTagSource": "backfill-en-topic-tags",
-      "topicTaggedAt": "2026-09-26T18:24:39.788Z"
+      "topicTaggedAt": "2026-09-26T18:24:39.788Z",
+      "reviewVerifiedAt": "2026-09-26T21:00:00.000Z",
+      "reviewVerifiedBy": "claude-opus-blind-review: 3 rondas ciegas, 0 fallos en la ultima (PR #21)"
     },
     {
       "id": "cur-en-B1-e04-lesen-t5-c1d504cbcdca26ef",
@@ -7283,7 +7291,9 @@
       "targetCount": 6,
       "topicTag": "Travel",
       "topicTagSource": "backfill-en-topic-tags",
-      "topicTaggedAt": "2026-09-26T18:24:39.788Z"
+      "topicTaggedAt": "2026-09-26T18:24:39.788Z",
+      "reviewVerifiedAt": "2026-09-26T21:00:00.000Z",
+      "reviewVerifiedBy": "claude-opus-blind-review: 3 rondas ciegas, 0 fallos en la ultima (PR #21)"
     },
     {
       "id": "cur-en-B1-e04-lesen-t6-924deb979cacc26d",
@@ -7347,7 +7357,9 @@
       "targetCount": 6,
       "topicTag": "Family",
       "topicTagSource": "backfill-en-topic-tags",
-      "topicTaggedAt": "2026-09-26T18:24:39.789Z"
+      "topicTaggedAt": "2026-09-26T18:24:39.789Z",
+      "reviewVerifiedAt": "2026-09-26T21:00:00.000Z",
+      "reviewVerifiedBy": "claude-opus-blind-review: 3 rondas ciegas, 0 fallos en la ultima (PR #21)"
     },
     {
       "id": "cur-en-B1-e04-horen-t1-6093c236ac44c671",
@@ -7694,7 +7706,9 @@
       "targetCount": 7,
       "topicTag": "Travel",
       "topicTagSource": "backfill-en-topic-tags",
-      "topicTaggedAt": "2026-09-26T18:24:39.790Z"
+      "topicTaggedAt": "2026-09-26T18:24:39.790Z",
+      "reviewVerifiedAt": "2026-09-26T21:00:00.000Z",
+      "reviewVerifiedBy": "claude-opus-blind-review: 3 rondas ciegas, 0 fallos en la ultima (PR #21)"
     },
     {
       "id": "cur-en-B1-e04-horen-t2-e2f80b48f2a15bd8",
@@ -7995,7 +8009,9 @@
       "targetCount": 6,
       "topicTag": "Culture",
       "topicTagSource": "backfill-en-topic-tags",
-      "topicTaggedAt": "2026-09-26T18:24:39.792Z"
+      "topicTaggedAt": "2026-09-26T18:24:39.792Z",
+      "reviewVerifiedAt": "2026-09-26T21:00:00.000Z",
+      "reviewVerifiedBy": "claude-opus-blind-review: 3 rondas ciegas, 0 fallos en la ultima (PR #21)"
     },
     {
       "id": "cur-en-B1-e04-horen-t3-e6aaa59278a73bab",
@@ -8190,7 +8206,9 @@
       "targetCount": 6,
       "topicTag": "Sport",
       "topicTagSource": "backfill-en-topic-tags",
-      "topicTaggedAt": "2026-09-26T18:24:39.792Z"
+      "topicTaggedAt": "2026-09-26T18:24:39.792Z",
+      "reviewVerifiedAt": "2026-09-26T21:00:00.000Z",
+      "reviewVerifiedBy": "claude-opus-blind-review: 3 rondas ciegas, 0 fallos en la ultima (PR #21)"
     },
     {
       "id": "cur-en-B1-e04-horen-t4-9eeb2d70626ec7da",
@@ -8450,7 +8468,9 @@
       "targetCount": 6,
       "topicTag": "Work",
       "topicTagSource": "backfill-en-topic-tags",
-      "topicTaggedAt": "2026-09-26T18:24:39.794Z"
+      "topicTaggedAt": "2026-09-26T18:24:39.794Z",
+      "reviewVerifiedAt": "2026-09-26T21:00:00.000Z",
+      "reviewVerifiedBy": "claude-opus-blind-review: 3 rondas ciegas, 0 fallos en la ultima (PR #21)"
     },
     {
       "id": "cur-en-B1-e04-schreiben-t1-84a97a3f5d2e694c",
@@ -8482,7 +8502,8 @@
       "targetCount": 1,
       "topicTag": "City life",
       "topicTagSource": "backfill-en-topic-tags",
-      "topicTaggedAt": "2026-09-26T18:24:39.794Z"
+      "topicTaggedAt": "2026-09-26T18:24:39.794Z",
+      "sem1Skipped": "no-mcq"
     },
     {
       "id": "cur-en-B1-e04-schreiben-t2-807b4cd1095aee66",
@@ -8514,7 +8535,8 @@
       "targetCount": 1,
       "topicTag": "City life",
       "topicTagSource": "backfill-en-topic-tags",
-      "topicTaggedAt": "2026-09-26T18:24:39.794Z"
+      "topicTaggedAt": "2026-09-26T18:24:39.794Z",
+      "sem1Skipped": "no-mcq"
     },
     {
       "id": "cur-en-B1-e05-lesen-t1-2f9c4de7f76f2d69",
@@ -8601,7 +8623,9 @@
       "targetCount": 5,
       "topicTag": "City life",
       "topicTagSource": "backfill-en-topic-tags",
-      "topicTaggedAt": "2026-09-26T18:24:39.795Z"
+      "topicTaggedAt": "2026-09-26T18:24:39.795Z",
+      "reviewVerifiedAt": "2026-09-26T21:00:00.000Z",
+      "reviewVerifiedBy": "claude-opus-blind-review: 3 rondas ciegas, 0 fallos en la ultima (PR #21)"
     },
     {
       "id": "cur-en-B1-e05-lesen-t2-4ac4f1032ad0d00a",
@@ -8703,7 +8727,9 @@
       "targetCount": 5,
       "topicTag": "Food",
       "topicTagSource": "backfill-en-topic-tags",
-      "topicTaggedAt": "2026-09-26T18:24:39.795Z"
+      "topicTaggedAt": "2026-09-26T18:24:39.795Z",
+      "reviewVerifiedAt": "2026-09-26T21:00:00.000Z",
+      "reviewVerifiedBy": "claude-opus-blind-review: 3 rondas ciegas, 0 fallos en la ultima (PR #21)"
     },
     {
       "id": "cur-en-B1-e05-lesen-t3-2ebc3a6294f1ccb8",
@@ -8790,7 +8816,9 @@
       "targetCount": 5,
       "topicTag": "City life",
       "topicTagSource": "backfill-en-topic-tags",
-      "topicTaggedAt": "2026-09-26T18:24:39.796Z"
+      "topicTaggedAt": "2026-09-26T18:24:39.796Z",
+      "reviewVerifiedAt": "2026-09-26T21:00:00.000Z",
+      "reviewVerifiedBy": "claude-opus-blind-review: 3 rondas ciegas, 0 fallos en la ultima (PR #21)"
     },
     {
       "id": "cur-en-B1-e05-lesen-t4-a370304d86b4eb94",
@@ -8897,7 +8925,9 @@
       "targetCount": 5,
       "topicTag": "Education",
       "topicTagSource": "backfill-en-topic-tags",
-      "topicTaggedAt": "2026-09-26T18:24:39.796Z"
+      "topicTaggedAt": "2026-09-26T18:24:39.796Z",
+      "reviewVerifiedAt": "2026-09-26T21:00:00.000Z",
+      "reviewVerifiedBy": "claude-opus-blind-review: 3 rondas ciegas, 0 fallos en la ultima (PR #21)"
     },
     {
       "id": "cur-en-B1-e05-lesen-t5-fe2d26e34a477c2e",
@@ -8997,7 +9027,9 @@
       "targetCount": 6,
       "topicTag": "Shopping",
       "topicTagSource": "backfill-en-topic-tags",
-      "topicTaggedAt": "2026-09-26T18:24:39.797Z"
+      "topicTaggedAt": "2026-09-26T18:24:39.797Z",
+      "reviewVerifiedAt": "2026-09-26T21:00:00.000Z",
+      "reviewVerifiedBy": "claude-opus-blind-review: 3 rondas ciegas, 0 fallos en la ultima (PR #21)"
     },
     {
       "id": "cur-en-B1-e05-lesen-t6-b66445ae392b49e3",
@@ -9061,7 +9093,9 @@
       "targetCount": 6,
       "topicTag": "City life",
       "topicTagSource": "backfill-en-topic-tags",
-      "topicTaggedAt": "2026-09-26T18:24:39.797Z"
+      "topicTaggedAt": "2026-09-26T18:24:39.797Z",
+      "reviewVerifiedAt": "2026-09-26T21:00:00.000Z",
+      "reviewVerifiedBy": "claude-opus-blind-review: 3 rondas ciegas, 0 fallos en la ultima (PR #21)"
     },
     {
       "id": "cur-en-B1-e05-horen-t1-9f77783b7863335d",
@@ -9415,7 +9449,9 @@
       "targetCount": 7,
       "topicTag": "Food",
       "topicTagSource": "backfill-en-topic-tags",
-      "topicTaggedAt": "2026-09-26T18:24:39.799Z"
+      "topicTaggedAt": "2026-09-26T18:24:39.799Z",
+      "reviewVerifiedAt": "2026-09-26T21:00:00.000Z",
+      "reviewVerifiedBy": "claude-opus-blind-review: 3 rondas ciegas, 0 fallos en la ultima (PR #21)"
     },
     {
       "id": "cur-en-B1-e05-horen-t2-969dc2e13f7a6ee7",
@@ -9722,7 +9758,9 @@
       "targetCount": 6,
       "topicTag": "Shopping",
       "topicTagSource": "backfill-en-topic-tags",
-      "topicTaggedAt": "2026-09-26T18:24:39.801Z"
+      "topicTaggedAt": "2026-09-26T18:24:39.801Z",
+      "reviewVerifiedAt": "2026-09-26T21:00:00.000Z",
+      "reviewVerifiedBy": "claude-opus-blind-review: 3 rondas ciegas, 0 fallos en la ultima (PR #21)"
     },
     {
       "id": "cur-en-B1-e05-horen-t3-993cdeeebc85168d",
@@ -9929,7 +9967,9 @@
       "targetCount": 6,
       "topicTag": "Transport",
       "topicTagSource": "backfill-en-topic-tags",
-      "topicTaggedAt": "2026-09-26T18:24:39.801Z"
+      "topicTaggedAt": "2026-09-26T18:24:39.801Z",
+      "reviewVerifiedAt": "2026-09-26T21:00:00.000Z",
+      "reviewVerifiedBy": "claude-opus-blind-review: 3 rondas ciegas, 0 fallos en la ultima (PR #21)"
     },
     {
       "id": "cur-en-B1-e05-horen-t4-bb429b7f7786129d",
@@ -10196,7 +10236,9 @@
       "targetCount": 6,
       "topicTag": "Education",
       "topicTagSource": "backfill-en-topic-tags",
-      "topicTaggedAt": "2026-09-26T18:24:39.803Z"
+      "topicTaggedAt": "2026-09-26T18:24:39.803Z",
+      "reviewVerifiedAt": "2026-09-26T21:00:00.000Z",
+      "reviewVerifiedBy": "claude-opus-blind-review: 3 rondas ciegas, 0 fallos en la ultima (PR #21)"
     },
     {
       "id": "cur-en-B1-e05-schreiben-t1-ce2e0c0ea5839694",
@@ -10228,7 +10270,8 @@
       "targetCount": 1,
       "topicTag": "Culture",
       "topicTagSource": "backfill-en-topic-tags",
-      "topicTaggedAt": "2026-09-26T18:24:39.803Z"
+      "topicTaggedAt": "2026-09-26T18:24:39.803Z",
+      "sem1Skipped": "no-mcq"
     },
     {
       "id": "cur-en-B1-e05-schreiben-t2-0be5fc30dddb6e9b",
@@ -10260,7 +10303,8 @@
       "targetCount": 1,
       "topicTag": "Technology",
       "topicTagSource": "backfill-en-topic-tags",
-      "topicTaggedAt": "2026-09-26T18:24:39.803Z"
+      "topicTaggedAt": "2026-09-26T18:24:39.803Z",
+      "sem1Skipped": "no-mcq"
     },
     {
       "id": "cur-en-B1-e06-lesen-t1-f67fd23e1d14a114",
@@ -10347,7 +10391,9 @@
       "targetCount": 5,
       "topicTag": "Food",
       "topicTagSource": "backfill-en-topic-tags",
-      "topicTaggedAt": "2026-09-26T18:24:39.804Z"
+      "topicTaggedAt": "2026-09-26T18:24:39.804Z",
+      "reviewVerifiedAt": "2026-09-26T21:00:00.000Z",
+      "reviewVerifiedBy": "claude-opus-blind-review: 3 rondas ciegas, 0 fallos en la ultima (PR #21)"
     },
     {
       "id": "cur-en-B1-e06-lesen-t2-356de3e025fd85e2",
@@ -10449,7 +10495,9 @@
       "targetCount": 5,
       "topicTag": "Family",
       "topicTagSource": "backfill-en-topic-tags",
-      "topicTaggedAt": "2026-09-26T18:24:39.804Z"
+      "topicTaggedAt": "2026-09-26T18:24:39.804Z",
+      "reviewVerifiedAt": "2026-09-26T21:00:00.000Z",
+      "reviewVerifiedBy": "claude-opus-blind-review: 3 rondas ciegas, 0 fallos en la ultima (PR #21)"
     },
     {
       "id": "cur-en-B1-e06-lesen-t3-344ec1f64881eb6f",
@@ -10536,7 +10584,9 @@
       "targetCount": 5,
       "topicTag": "Work",
       "topicTagSource": "backfill-en-topic-tags",
-      "topicTaggedAt": "2026-09-26T18:24:39.804Z"
+      "topicTaggedAt": "2026-09-26T18:24:39.804Z",
+      "reviewVerifiedAt": "2026-09-26T21:00:00.000Z",
+      "reviewVerifiedBy": "claude-opus-blind-review: 3 rondas ciegas, 0 fallos en la ultima (PR #21)"
     },
     {
       "id": "cur-en-B1-e06-lesen-t4-78645cedf576726b",
@@ -10643,7 +10693,9 @@
       "targetCount": 5,
       "topicTag": "Education",
       "topicTagSource": "backfill-en-topic-tags",
-      "topicTaggedAt": "2026-09-26T18:24:39.805Z"
+      "topicTaggedAt": "2026-09-26T18:24:39.805Z",
+      "reviewVerifiedAt": "2026-09-26T21:00:00.000Z",
+      "reviewVerifiedBy": "claude-opus-blind-review: 3 rondas ciegas, 0 fallos en la ultima (PR #21)"
     },
     {
       "id": "cur-en-B1-e06-lesen-t5-08788b0cf242b784",
@@ -10743,7 +10795,9 @@
       "targetCount": 6,
       "topicTag": "Sport",
       "topicTagSource": "backfill-en-topic-tags",
-      "topicTaggedAt": "2026-09-26T18:24:39.806Z"
+      "topicTaggedAt": "2026-09-26T18:24:39.806Z",
+      "reviewVerifiedAt": "2026-09-26T21:00:00.000Z",
+      "reviewVerifiedBy": "claude-opus-blind-review: 3 rondas ciegas, 0 fallos en la ultima (PR #21)"
     },
     {
       "id": "cur-en-B1-e06-lesen-t6-470b696b002cf769",
@@ -10807,7 +10861,9 @@
       "targetCount": 6,
       "topicTag": "Education",
       "topicTagSource": "backfill-en-topic-tags",
-      "topicTaggedAt": "2026-09-26T18:24:39.806Z"
+      "topicTaggedAt": "2026-09-26T18:24:39.806Z",
+      "reviewVerifiedAt": "2026-09-26T21:00:00.000Z",
+      "reviewVerifiedBy": "claude-opus-blind-review: 3 rondas ciegas, 0 fallos en la ultima (PR #21)"
     },
     {
       "id": "cur-en-B1-e06-horen-t1-9929336385442b3e",
@@ -11161,7 +11217,9 @@
       "targetCount": 7,
       "topicTag": "Culture",
       "topicTagSource": "backfill-en-topic-tags",
-      "topicTaggedAt": "2026-09-26T18:24:39.808Z"
+      "topicTaggedAt": "2026-09-26T18:24:39.808Z",
+      "reviewVerifiedAt": "2026-09-26T21:00:00.000Z",
+      "reviewVerifiedBy": "claude-opus-blind-review: 3 rondas ciegas, 0 fallos en la ultima (PR #21)"
     },
     {
       "id": "cur-en-B1-e06-horen-t2-39f279e50ad55f0e",
@@ -11468,7 +11526,9 @@
       "targetCount": 6,
       "topicTag": "Work",
       "topicTagSource": "backfill-en-topic-tags",
-      "topicTaggedAt": "2026-09-26T18:24:39.810Z"
+      "topicTaggedAt": "2026-09-26T18:24:39.810Z",
+      "reviewVerifiedAt": "2026-09-26T21:00:00.000Z",
+      "reviewVerifiedBy": "claude-opus-blind-review: 3 rondas ciegas, 0 fallos en la ultima (PR #21)"
     },
     {
       "id": "cur-en-B1-e06-horen-t3-f1021c7f85346377",
@@ -11669,7 +11729,9 @@
       "targetCount": 6,
       "topicTag": "Sport",
       "topicTagSource": "backfill-en-topic-tags",
-      "topicTaggedAt": "2026-09-26T18:24:39.811Z"
+      "topicTaggedAt": "2026-09-26T18:24:39.811Z",
+      "reviewVerifiedAt": "2026-09-26T21:00:00.000Z",
+      "reviewVerifiedBy": "claude-opus-blind-review: 3 rondas ciegas, 0 fallos en la ultima (PR #21)"
     },
     {
       "id": "cur-en-B1-e06-horen-t4-dfc5af49a670d11e",
@@ -11931,7 +11993,9 @@
       "targetCount": 6,
       "topicTag": "Education",
       "topicTagSource": "backfill-en-topic-tags",
-      "topicTaggedAt": "2026-09-26T18:24:39.812Z"
+      "topicTaggedAt": "2026-09-26T18:24:39.812Z",
+      "reviewVerifiedAt": "2026-09-26T21:00:00.000Z",
+      "reviewVerifiedBy": "claude-opus-blind-review: 3 rondas ciegas, 0 fallos en la ultima (PR #21)"
     },
     {
       "id": "cur-en-B1-e06-schreiben-t1-7b93f93dca79506a",
@@ -11963,7 +12027,8 @@
       "targetCount": 1,
       "topicTag": "Free time",
       "topicTagSource": "backfill-en-topic-tags",
-      "topicTaggedAt": "2026-09-26T18:24:39.812Z"
+      "topicTaggedAt": "2026-09-26T18:24:39.812Z",
+      "sem1Skipped": "no-mcq"
     },
     {
       "id": "cur-en-B1-e06-schreiben-t2-bb7ab87c1a536030",
@@ -11995,7 +12060,8 @@
       "targetCount": 1,
       "topicTag": "Technology",
       "topicTagSource": "backfill-en-topic-tags",
-      "topicTaggedAt": "2026-09-26T18:24:39.812Z"
+      "topicTaggedAt": "2026-09-26T18:24:39.812Z",
+      "sem1Skipped": "no-mcq"
     },
     {
       "id": "cur-en-B1-e07-lesen-t1-b850c62bdf300a6a",
@@ -12082,7 +12148,9 @@
       "targetCount": 5,
       "topicTag": "Work",
       "topicTagSource": "backfill-en-topic-tags",
-      "topicTaggedAt": "2026-09-26T18:24:39.813Z"
+      "topicTaggedAt": "2026-09-26T18:24:39.813Z",
+      "reviewVerifiedAt": "2026-09-26T21:00:00.000Z",
+      "reviewVerifiedBy": "claude-opus-blind-review: 3 rondas ciegas, 0 fallos en la ultima (PR #21)"
     },
     {
       "id": "cur-en-B1-e07-lesen-t2-2a8f3a380b401f06",
@@ -12184,7 +12252,9 @@
       "targetCount": 5,
       "topicTag": "Education",
       "topicTagSource": "backfill-en-topic-tags",
-      "topicTaggedAt": "2026-09-26T18:24:39.813Z"
+      "topicTaggedAt": "2026-09-26T18:24:39.813Z",
+      "reviewVerifiedAt": "2026-09-26T21:00:00.000Z",
+      "reviewVerifiedBy": "claude-opus-blind-review: 3 rondas ciegas, 0 fallos en la ultima (PR #21)"
     },
     {
       "id": "cur-en-B1-e07-lesen-t3-f5d1f3190bf36250",
@@ -12271,7 +12341,9 @@
       "targetCount": 5,
       "topicTag": "Family",
       "topicTagSource": "backfill-en-topic-tags",
-      "topicTaggedAt": "2026-09-26T18:24:39.814Z"
+      "topicTaggedAt": "2026-09-26T18:24:39.814Z",
+      "reviewVerifiedAt": "2026-09-26T21:00:00.000Z",
+      "reviewVerifiedBy": "claude-opus-blind-review: 3 rondas ciegas, 0 fallos en la ultima (PR #21)"
     },
     {
       "id": "cur-en-B1-e07-lesen-t4-5472d0be21d316bf",
@@ -12378,7 +12450,9 @@
       "targetCount": 5,
       "topicTag": "Transport",
       "topicTagSource": "backfill-en-topic-tags",
-      "topicTaggedAt": "2026-09-26T18:24:39.814Z"
+      "topicTaggedAt": "2026-09-26T18:24:39.814Z",
+      "reviewVerifiedAt": "2026-09-26T21:00:00.000Z",
+      "reviewVerifiedBy": "claude-opus-blind-review: 3 rondas ciegas, 0 fallos en la ultima (PR #21)"
     },
     {
       "id": "cur-en-B1-e07-lesen-t5-80b1582baad37bf6",
@@ -12478,7 +12552,9 @@
       "targetCount": 6,
       "topicTag": "Food",
       "topicTagSource": "backfill-en-topic-tags",
-      "topicTaggedAt": "2026-09-26T18:24:39.815Z"
+      "topicTaggedAt": "2026-09-26T18:24:39.815Z",
+      "reviewVerifiedAt": "2026-09-26T21:00:00.000Z",
+      "reviewVerifiedBy": "claude-opus-blind-review: 3 rondas ciegas, 0 fallos en la ultima (PR #21)"
     },
     {
       "id": "cur-en-B1-e07-lesen-t6-59fa0744f0738667",
@@ -12542,7 +12618,9 @@
       "targetCount": 6,
       "topicTag": "City life",
       "topicTagSource": "backfill-en-topic-tags",
-      "topicTaggedAt": "2026-09-26T18:24:39.815Z"
+      "topicTaggedAt": "2026-09-26T18:24:39.815Z",
+      "reviewVerifiedAt": "2026-09-26T21:00:00.000Z",
+      "reviewVerifiedBy": "claude-opus-blind-review: 3 rondas ciegas, 0 fallos en la ultima (PR #21)"
     },
     {
       "id": "cur-en-B1-e07-horen-t1-a762bb748a6034ae",
@@ -12896,7 +12974,9 @@
       "targetCount": 7,
       "topicTag": "Housing",
       "topicTagSource": "backfill-en-topic-tags",
-      "topicTaggedAt": "2026-09-26T18:24:39.816Z"
+      "topicTaggedAt": "2026-09-26T18:24:39.816Z",
+      "reviewVerifiedAt": "2026-09-26T21:00:00.000Z",
+      "reviewVerifiedBy": "claude-opus-blind-review: 3 rondas ciegas, 0 fallos en la ultima (PR #21)"
     },
     {
       "id": "cur-en-B1-e07-horen-t2-f9848f399f83cca9",
@@ -13203,7 +13283,9 @@
       "targetCount": 6,
       "topicTag": "City life",
       "topicTagSource": "backfill-en-topic-tags",
-      "topicTaggedAt": "2026-09-26T18:24:39.817Z"
+      "topicTaggedAt": "2026-09-26T18:24:39.817Z",
+      "reviewVerifiedAt": "2026-09-26T21:00:00.000Z",
+      "reviewVerifiedBy": "claude-opus-blind-review: 3 rondas ciegas, 0 fallos en la ultima (PR #21)"
     },
     {
       "id": "cur-en-B1-e07-horen-t3-4593ec78facccd89",
@@ -13405,7 +13487,9 @@
       "targetCount": 6,
       "topicTag": "Education",
       "topicTagSource": "backfill-en-topic-tags",
-      "topicTaggedAt": "2026-09-26T18:24:39.818Z"
+      "topicTaggedAt": "2026-09-26T18:24:39.818Z",
+      "reviewVerifiedAt": "2026-09-26T21:00:00.000Z",
+      "reviewVerifiedBy": "claude-opus-blind-review: 3 rondas ciegas, 0 fallos en la ultima (PR #21)"
     },
     {
       "id": "cur-en-B1-e07-horen-t4-261eeda205de941c",
@@ -13672,7 +13756,9 @@
       "targetCount": 6,
       "topicTag": "Education",
       "topicTagSource": "backfill-en-topic-tags",
-      "topicTaggedAt": "2026-09-26T18:24:39.820Z"
+      "topicTaggedAt": "2026-09-26T18:24:39.820Z",
+      "reviewVerifiedAt": "2026-09-26T21:00:00.000Z",
+      "reviewVerifiedBy": "claude-opus-blind-review: 3 rondas ciegas, 0 fallos en la ultima (PR #21)"
     },
     {
       "id": "cur-en-B1-e07-schreiben-t1-4d7ebe902af8ee44",
@@ -13704,7 +13790,8 @@
       "targetCount": 1,
       "topicTag": "Housing",
       "topicTagSource": "backfill-en-topic-tags",
-      "topicTaggedAt": "2026-09-26T18:24:39.820Z"
+      "topicTaggedAt": "2026-09-26T18:24:39.820Z",
+      "sem1Skipped": "no-mcq"
     },
     {
       "id": "cur-en-B1-e07-schreiben-t2-42c99cc64d923b89",
@@ -13736,7 +13823,8 @@
       "targetCount": 1,
       "topicTag": "Technology",
       "topicTagSource": "backfill-en-topic-tags",
-      "topicTaggedAt": "2026-09-26T18:24:39.820Z"
+      "topicTaggedAt": "2026-09-26T18:24:39.820Z",
+      "sem1Skipped": "no-mcq"
     }
   ],
   "_sem1SkipBackfillAt": "2026-09-03T22:04:34.969Z",
