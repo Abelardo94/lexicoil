@@ -4,7 +4,8 @@ const { getStoreForEvent } = require('./lib/blobStore.js');
 const { requireAuth, normalizeEmail, signAuthToken, getTokenVersion } = require('./lib/authLib.js');
 const { corsHeaders, parseJsonBody, authSessionResponse, jsonResponse } = require('./lib/http.js');
 const { resolvePlan, maxForPlan, getMonthKey } = require('./lib/quotaLib.js');
-const { activateProForEmail } = require('./lib/proUpgrade.js');
+const { activateProForEmail, activateProMaxForEmail } = require('./lib/proUpgrade.js');
+const { isProActiveStatus } = require('./lib/stripeSubscription.js');
 const { checkoutSessionIsPaid, persistStripeCustomerId } = require('./lib/stripeLib.js');
 
 function sessionEmail(session) {
@@ -46,7 +47,7 @@ exports.handler = async (event) => {
     return jsonResponse(400, cors, { error: 'missing_session_id' });
   }
 
-  const res = await fetch(`https://api.stripe.com/v1/checkout/sessions/${encodeURIComponent(sessionId)}`, {
+  const res = await fetch(`https://api.stripe.com/v1/checkout/sessions/${encodeURIComponent(sessionId)}?expand[]=subscription`, {
     headers: { Authorization: `Bearer ${stripeSecret}` },
   });
   const session = await res.json().catch(() => ({}));
@@ -71,10 +72,24 @@ exports.handler = async (event) => {
     return jsonResponse(403, cors, { error: 'session_email_mismatch' });
   }
 
+  // A paid session stays "complete" forever: without this check an old session_id
+  // re-activates Pro after the subscription was cancelled.
+  if (session.mode === 'subscription') {
+    const sub = session.subscription;
+    const subStatus = sub && typeof sub === 'object' ? sub.status : null;
+    if (!isProActiveStatus(subStatus)) {
+      return jsonResponse(402, cors, {
+        error: 'subscription_not_active',
+        status: subStatus || 'unknown',
+      });
+    }
+  }
+
   const customerId = session.customer || null;
   if (customerId) await persistStripeCustomerId(store, userEmail, customerId);
 
-  const upgraded = await activateProForEmail(store, userEmail, {
+  const activate = session.metadata?.plan === 'pro_max' ? activateProMaxForEmail : activateProForEmail;
+  const upgraded = await activate(store, userEmail, {
     sendEmail: true,
     stripeCustomerId: customerId || undefined,
   });

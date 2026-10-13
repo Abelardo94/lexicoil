@@ -126,7 +126,7 @@ async function clearPaymentPastDue(store, rawEmail) {
 }
 
 async function activatePlanForEmail(store, rawEmail, plan, { sendEmail = true, stripeCustomerId = null, manualActivation = false } = {}) {
-  const targetPlan = plan === 'pro_max' ? 'pro_max' : 'pro';
+  let targetPlan = plan === 'pro_max' ? 'pro_max' : 'pro';
   const email = normalizeEmail(rawEmail);
   if (!email) return { ok: false, error: 'invalid_email' };
 
@@ -142,11 +142,19 @@ async function activatePlanForEmail(store, rawEmail, plan, { sendEmail = true, s
     return { ok: false, error: 'user_not_found', email };
   }
 
+  // Never downgrade: a late `pro` activation (stripe-confirm, reconcile) must not
+  // overwrite a pro_max the webhook already set.
+  const currentPlan = String(user.plan || '').toLowerCase();
+  if (targetPlan === 'pro' && currentPlan === 'pro_max' && user.pro) targetPlan = 'pro_max';
+  // Activation runs twice per purchase (webhook + stripe-confirm): only a real plan
+  // change resets the monthly exam counter.
+  const alreadyActive = !!user.pro && currentPlan === targetPlan;
+
   const updatedUser = {
     ...user,
     plan: targetPlan,
     pro: true,
-    proActivatedAt: Date.now(),
+    proActivatedAt: alreadyActive && user.proActivatedAt ? user.proActivatedAt : Date.now(),
     paymentPastDue: false,
     paymentWarningAt: null,
     paymentWarningInvoiceId: null,
@@ -161,11 +169,29 @@ async function activatePlanForEmail(store, rawEmail, plan, { sendEmail = true, s
   await store.setJSON(key, updatedUser);
 
   const month = getMonthKey();
-  await store.setJSON(`quota:${email}`, { used: 0, month, max: PRO_MAX });
+  const qKey = `quota:${email}`;
+  let quota = null;
+  try {
+    quota = await store.get(qKey, { type: 'json' });
+  } catch (_) {
+    quota = null;
+  }
+  if (!alreadyActive || !quota) {
+    // Merge, never replace: the record also holds paid pack credits (creditTopups,
+    // which never expire), rollover and the auto-recharge settings.
+    await store.setJSON(qKey, {
+      ...(quota && typeof quota === 'object' ? quota : {}),
+      used: 0,
+      aiUsed: 0,
+      overdraft: 0,
+      month,
+      max: PRO_MAX,
+    });
+  }
 
   await syncPlanToSupabase(email, targetPlan, updatedUser);
 
-  if (sendEmail && targetPlan === 'pro') {
+  if (sendEmail && targetPlan === 'pro' && !alreadyActive) {
     try {
       await sendProWelcomeEmail(email, updatedUser.name || email.split('@')[0]);
     } catch (err) {

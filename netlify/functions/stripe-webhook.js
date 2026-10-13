@@ -169,7 +169,13 @@ exports.handler = async (event) => {
       const obj = stripeEvent.data?.object;
       const meta = extractCreditPackMeta(obj);
       if (meta) {
-        const idem = obj.id || eventId;
+        // A charge carries its PaymentIntent's metadata: key both events on the
+        // PaymentIntent id (auto-recharge credits it under pi.id too) or a pack is
+        // credited twice.
+        const idem =
+          (stripeEvent.type === 'charge.succeeded' && typeof obj.payment_intent === 'string'
+            ? obj.payment_intent
+            : obj.id) || eventId;
         await handleCreditPack(store, meta.email, meta.credits, idem);
         handled = true;
       }
@@ -213,7 +219,10 @@ exports.handler = async (event) => {
       const charge = stripeEvent.data?.object;
       const rawEmail = extractEmail(charge);
 
-      if (rawEmail) {
+      if (charge?.metadata?.kind === 'credit_pack') {
+        // Refunding a credit pack must not take away a subscription the user still pays.
+        console.warn('[stripe-webhook] charge.refunded for a credit pack — plan untouched:', rawEmail || '(no email)');
+      } else if (rawEmail) {
         const email = normalizeEmail(rawEmail);
         const result = await revokeProForEmail(store, email, { reason: 'charge_refunded' });
         if (result.ok) {
