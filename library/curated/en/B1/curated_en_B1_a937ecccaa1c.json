@@ -1,0 +1,2200 @@
+{
+  "id": "curated_en_B1_a937ecccaa1c",
+  "lang": "en",
+  "level": "B1",
+  "topic": "entertainment",
+  "curated": true,
+  "exam": {
+    "topic": "entertainment",
+    "level": "B1",
+    "lang": "en",
+    "goetheFormat": true,
+    "libraryBuilt": true,
+    "blueprintId": "cambridge-b1",
+    "blueprintCoverage": [
+      {
+        "module": "lesen",
+        "teil": 1,
+        "slotType": "signs_notices_mcq",
+        "taskFormat": "short_text_mcq",
+        "target": 5,
+        "filled": 5,
+        "complete": true,
+        "wordsPerPassage": {
+          "min": 150,
+          "max": 800
+        }
+      },
+      {
+        "module": "lesen",
+        "teil": 2,
+        "slotType": "person_text_matching",
+        "taskFormat": "multiple_matching",
+        "target": 5,
+        "filled": 5,
+        "complete": true,
+        "wordsPerPassage": {
+          "min": 150,
+          "max": 800
+        }
+      },
+      {
+        "module": "lesen",
+        "teil": 3,
+        "slotType": "long_text",
+        "taskFormat": "long_text_mcq",
+        "target": 5,
+        "filled": 5,
+        "complete": true,
+        "wordsPerPassage": {
+          "min": 150,
+          "max": 800
+        }
+      },
+      {
+        "module": "lesen",
+        "teil": 4,
+        "slotType": "gapped_text",
+        "taskFormat": "gapped_text",
+        "target": 5,
+        "filled": 5,
+        "complete": true,
+        "wordsPerPassage": {
+          "min": 150,
+          "max": 800
+        }
+      },
+      {
+        "module": "lesen",
+        "teil": 5,
+        "slotType": "mcq_gap_fill",
+        "taskFormat": "multiple_choice_cloze",
+        "target": 6,
+        "filled": 6,
+        "complete": true,
+        "wordsPerPassage": {
+          "min": 150,
+          "max": 800
+        }
+      },
+      {
+        "module": "lesen",
+        "teil": 6,
+        "slotType": "open_cloze",
+        "taskFormat": "open_cloze",
+        "target": 6,
+        "filled": 6,
+        "complete": true,
+        "wordsPerPassage": {
+          "min": 150,
+          "max": 800
+        }
+      },
+      {
+        "module": "horen",
+        "teil": 1,
+        "slotType": "picture_mcq",
+        "taskFormat": "picture_multiple_choice",
+        "target": 7,
+        "filled": 7,
+        "complete": true,
+        "wordsPerPassage": null
+      },
+      {
+        "module": "horen",
+        "teil": 2,
+        "slotType": "short_dialogue_mcq",
+        "taskFormat": "short_dialogue_mcq",
+        "target": 6,
+        "filled": 6,
+        "complete": true,
+        "wordsPerPassage": null
+      },
+      {
+        "module": "horen",
+        "teil": 3,
+        "slotType": "sentence_completion",
+        "taskFormat": "sentence_completion",
+        "target": 6,
+        "filled": 6,
+        "complete": true,
+        "wordsPerPassage": null
+      },
+      {
+        "module": "horen",
+        "teil": 4,
+        "slotType": "interview_mcq",
+        "taskFormat": "interview_mcq",
+        "target": 6,
+        "filled": 6,
+        "complete": true,
+        "wordsPerPassage": null
+      },
+      {
+        "module": "schreiben",
+        "teil": 1,
+        "slotType": "email",
+        "taskFormat": "email",
+        "target": 1,
+        "filled": 1,
+        "complete": true,
+        "wordsPerPassage": {
+          "min": 100,
+          "max": 120
+        }
+      },
+      {
+        "module": "schreiben",
+        "teil": 2,
+        "slotType": "choice_writing",
+        "taskFormat": "choice_writing",
+        "target": 1,
+        "filled": 1,
+        "complete": true,
+        "wordsPerPassage": {
+          "min": 100,
+          "max": 120
+        }
+      },
+      {
+        "module": "sprechen",
+        "teil": 1,
+        "slotType": "speaking_task",
+        "taskFormat": "speaking_prompt",
+        "target": 1,
+        "filled": 1,
+        "complete": true,
+        "wordsPerPassage": null
+      },
+      {
+        "module": "sprechen",
+        "teil": 2,
+        "slotType": "speaking_task",
+        "taskFormat": "speaking_prompt",
+        "target": 1,
+        "filled": 1,
+        "complete": true,
+        "wordsPerPassage": null
+      },
+      {
+        "module": "sprechen",
+        "teil": 3,
+        "slotType": "speaking_task",
+        "taskFormat": "speaking_prompt",
+        "target": 1,
+        "filled": 1,
+        "complete": true,
+        "wordsPerPassage": null
+      },
+      {
+        "module": "sprechen",
+        "teil": 4,
+        "slotType": "speaking_task",
+        "taskFormat": "speaking_prompt",
+        "target": 1,
+        "filled": 1,
+        "complete": true,
+        "wordsPerPassage": null
+      }
+    ],
+    "blueprintComplete": true,
+    "libraryVersion": 5,
+    "topicTags": [
+      "entertainment",
+      "sport",
+      "animals",
+      "work",
+      "free time",
+      "family",
+      "school",
+      "home",
+      "food",
+      "education-courses",
+      "work-jobs"
+    ],
+    "difficulty": 5,
+    "official": {
+      "board": "Cambridge Assessment English",
+      "certificate": "B1 Preliminary (PET)",
+      "note": "Assembled from question library using official exam blueprint (no runtime AI)."
+    },
+    "modules": {
+      "lesen": {
+        "title": "Reading",
+        "time": "75 minutes"
+      },
+      "horen": {
+        "title": "Listening",
+        "time": "40 minutes"
+      },
+      "schreiben": {
+        "title": "Writing",
+        "time": "80 minutes"
+      },
+      "sprechen": {
+        "title": "Speaking",
+        "time": "15 minutes"
+      }
+    },
+    "lesenParts": [
+      {
+        "teil": 1,
+        "instruction": "Read the text(s) and answer the questions in Part 1.",
+        "blueprintSlot": "signs_notices_mcq",
+        "items": [
+          {
+            "id": "ql_en-b1-r-t1-notices-cinema-01-q5",
+            "type": "multiple_choice",
+            "signText": "Please note: food and drinks bought outside the cinema may not be taken into the screens. Bottles of water are the only exception.",
+            "passageId": "en-b1-p-lesen-t1-notices-cinema-01-05",
+            "question": "What does the sign say?",
+            "options": [
+              "a) You have to buy all your drinks at the cinema.",
+              "b) Food from the cinema café is not allowed in the screens.",
+              "c) You can take water from home into the screens."
+            ],
+            "correct": "c",
+            "grammarTags": [
+              "g-en-b1-passive"
+            ],
+            "topicTags": [
+              "entertainment"
+            ],
+            "vocabularyTags": [
+              "exception",
+              "screen",
+              "allowed"
+            ],
+            "difficulty": 4,
+            "explanation": "Food and drinks from outside are not allowed, but 'Bottles of water are the only exception', so you can bring water in. This means you do not have to buy every drink at the cinema, and the rule is about food bought outside the cinema, not food from the cinema itself."
+          },
+          {
+            "id": "ql_en-b1-r-t1-notices-cinema-01-q4",
+            "type": "multiple_choice",
+            "signText": "Dear Mr Brennan,\nUnfortunately, tonight's performance of The Lighthouse Keeper has been cancelled because the main actor is ill. You can either change your tickets for another night this week or get your money back. Please reply to tell us which you prefer.\nRiverside Theatre Box Office",
+            "passageId": "en-b1-p-lesen-t1-notices-cinema-01-04",
+            "question": "Why has the theatre written to Mr Brennan?",
+            "options": [
+              "a) To offer him free tickets for next week",
+              "b) To ask him to make a choice",
+              "c) To tell him another actor will play the main part"
+            ],
+            "correct": "b",
+            "grammarTags": [
+              "g-en-b1-passive"
+            ],
+            "topicTags": [
+              "entertainment"
+            ],
+            "vocabularyTags": [
+              "cancel",
+              "prefer",
+              "refund"
+            ],
+            "difficulty": 3,
+            "explanation": "Mr Brennan can 'either change [his] tickets … or get [his] money back' and must 'reply to tell us which you prefer', so he has to choose. The performance is cancelled, so no other actor will play the part, and the new tickets are for 'another night this week', not free tickets for next week."
+          },
+          {
+            "id": "ql_en-b1-r-t1-notices-cinema-01-q1",
+            "type": "multiple_choice",
+            "signText": "TUESDAY IS MEMBERS' DAY\nMembers can see any film starting before 6 pm for just £5.\nNot a member yet? Join today at the box office for £10 a year and get a free drink with every ticket you buy.",
+            "passageId": "en-b1-p-lesen-t1-notices-cinema-01-01",
+            "question": "What does the notice say?",
+            "options": [
+              "a) Members pay less for early films on Tuesdays.",
+              "b) Any customer can see a film for £5 on Tuesdays.",
+              "c) New members get a free ticket when they join."
+            ],
+            "correct": "a",
+            "grammarTags": [
+              "g-en-b1-modals"
+            ],
+            "topicTags": [
+              "entertainment"
+            ],
+            "vocabularyTags": [
+              "member",
+              "box office",
+              "join"
+            ],
+            "difficulty": 4,
+            "explanation": "On Tuesdays 'Members can see any film starting before 6 pm for just £5', so early films are cheaper for members. The £5 price is for members, not any customer, and people who join get 'a free drink with every ticket you buy', not a free ticket."
+          },
+          {
+            "id": "ql_en-b1-r-t1-notices-cinema-01-q2",
+            "type": "multiple_choice",
+            "signText": "Sophie – I'm stuck on the bus because there's been an accident on Mill Road. Don't wait for me outside. I've emailed you your ticket, so go in and find our seats. I'll text you when I get there. Leah",
+            "passageId": "en-b1-p-lesen-t1-notices-cinema-01-02",
+            "question": "What does Leah want Sophie to do?",
+            "options": [
+              "a) Email her a copy of her ticket",
+              "b) Go into the cinema without her",
+              "c) Wait for her outside the entrance"
+            ],
+            "correct": "b",
+            "grammarTags": [
+              "g-en-b1-imperatives"
+            ],
+            "topicTags": [
+              "entertainment"
+            ],
+            "vocabularyTags": [
+              "stuck",
+              "seat",
+              "accident"
+            ],
+            "difficulty": 3,
+            "explanation": "Leah writes 'Don't wait for me outside … go in and find our seats', so Sophie should go in alone. Leah has already emailed Sophie her ticket; she does not ask Sophie to send her one."
+          },
+          {
+            "id": "ql_en-b1-r-t1-notices-cinema-01-q3",
+            "type": "multiple_choice",
+            "signText": "LATECOMERS\nThe doors close when the performance begins. If you arrive after this, you will be able to take your seat during the interval, about 50 minutes later. Until then, you can watch the show on a screen in the theatre bar.",
+            "passageId": "en-b1-p-lesen-t1-notices-cinema-01-03",
+            "question": "What does the sign say about people who arrive late?",
+            "options": [
+              "a) They cannot go to their seats straight away.",
+              "b) They must stay in the bar for the second half.",
+              "c) They will not be able to see any of the show."
+            ],
+            "correct": "a",
+            "grammarTags": [
+              "g-en-b1-future-forms"
+            ],
+            "topicTags": [
+              "entertainment"
+            ],
+            "vocabularyTags": [
+              "latecomer",
+              "interval",
+              "performance"
+            ],
+            "difficulty": 4,
+            "explanation": "Latecomers 'will be able to take [their] seat during the interval, about 50 minutes later', so they have to wait before going in. They can see the first part 'on a screen in the theatre bar', and after the interval they go to their seats, so they do not stay in the bar."
+          }
+        ],
+        "text": "Please note: food and drinks bought outside the cinema may not be taken into the screens. Bottles of water are the only exception.",
+        "textTitle": "Sign outside the screens",
+        "passageId": "en-b1-p-lesen-t1-notices-cinema-01-05"
+      },
+      {
+        "teil": 2,
+        "instruction": "Read the text(s) and answer the questions in Part 2.",
+        "blueprintSlot": "person_text_matching",
+        "ads": [
+          {
+            "key": "A",
+            "title": "",
+            "text": "Riverside Rowing Club"
+          },
+          {
+            "key": "B",
+            "title": "",
+            "text": "Summit Climbing Team"
+          },
+          {
+            "key": "C",
+            "title": "",
+            "text": "Aqua Fit at Parkway Pool"
+          },
+          {
+            "key": "D",
+            "title": "",
+            "text": "Northside Basketball Club"
+          },
+          {
+            "key": "E",
+            "title": "",
+            "text": "Westfield Youth Football Academy"
+          },
+          {
+            "key": "F",
+            "title": "",
+            "text": "Sunrise Fitness Group"
+          },
+          {
+            "key": "G",
+            "title": "",
+            "text": "Peak Climbing Wall"
+          },
+          {
+            "key": "H",
+            "title": "",
+            "text": "Balance Pilates Studio"
+          }
+        ],
+        "questions": [
+          {
+            "id": "ql_en-b1-r-t2-match-sports-clubs-01-q1",
+            "type": "matching",
+            "question": "Ryan is 15 and has never played in a team, but he'd like to try a team sport. He can only train after school on weekdays.",
+            "correct": "D",
+            "correctAnswer": "D",
+            "explanation": "Northside Basketball Club has 'junior teams', 'Complete beginners are very welcome', and training is 'on Tuesdays and Thursdays from 4.30 to 6 pm'. Westfield Youth Football Academy is also a team sport for his age, but players 'must … have played for a club for at least a year' and training is on Saturdays.",
+            "grammarTags": [
+              "g-en-b1-present-perfect"
+            ],
+            "topicTags": [
+              "sport"
+            ],
+            "vocabularyTags": [
+              "team sport",
+              "beginner",
+              "train"
+            ],
+            "difficulty": 4,
+            "options": [
+              "A",
+              "B",
+              "C",
+              "D",
+              "E",
+              "F",
+              "G",
+              "H"
+            ],
+            "level": "B1"
+          },
+          {
+            "id": "ql_en-b1-r-t2-match-sports-clubs-01-q2",
+            "type": "matching",
+            "question": "Anita wants to get fitter by exercising outdoors with other people before she goes to work. She doesn't enjoy competition and just wants to have a good time.",
+            "correct": "F",
+            "correctAnswer": "F",
+            "explanation": "Sunrise Fitness Group meets 'in Victoria Park at 6.30 every weekday morning', 'there are no races or times to beat' and 'It's all about having fun together'. Riverside Rowing Club also trains outdoors early in the morning, but it is for people 'who are serious about competing'.",
+            "grammarTags": [
+              "g-en-b1-gerunds-infinitives"
+            ],
+            "topicTags": [
+              "sport"
+            ],
+            "vocabularyTags": [
+              "fitness",
+              "outdoors",
+              "competition"
+            ],
+            "difficulty": 4,
+            "options": [
+              "A",
+              "B",
+              "C",
+              "D",
+              "E",
+              "F",
+              "G",
+              "H"
+            ],
+            "level": "B1"
+          },
+          {
+            "id": "ql_en-b1-r-t2-match-sports-clubs-01-q3",
+            "type": "matching",
+            "question": "Lukas has a bad back, and his doctor has told him to try a gentle form of exercise. He works long hours during the week, so he wants an indoor class at the weekend.",
+            "correct": "H",
+            "correctAnswer": "H",
+            "explanation": "At Balance Pilates Studio 'many doctors recommend it for people with back pain', the classes are 'indoor', and they are 'on Saturday and Sunday mornings'. Aqua Fit is also gentle and good for 'problems with your back', but it only runs on weekdays at lunchtime.",
+            "grammarTags": [
+              "g-en-b1-reported-speech"
+            ],
+            "topicTags": [
+              "sport"
+            ],
+            "vocabularyTags": [
+              "back pain",
+              "gentle",
+              "weekend"
+            ],
+            "difficulty": 4,
+            "options": [
+              "A",
+              "B",
+              "C",
+              "D",
+              "E",
+              "F",
+              "G",
+              "H"
+            ],
+            "level": "B1"
+          },
+          {
+            "id": "ql_en-b1-r-t2-match-sports-clubs-01-q4",
+            "type": "matching",
+            "question": "Grace and her ten-year-old daughter are looking for a new activity that they can learn together. Saturday is the only day they are both free.",
+            "correct": "G",
+            "correctAnswer": "G",
+            "explanation": "Peak Climbing Wall has 'family sessions' on 'Saturday mornings, where parents and children aged eight and over learn to climb side by side'. Westfield Youth Football Academy also trains on Saturday mornings, but it is only for young players aged 14 to 18, so Grace could not take part.",
+            "grammarTags": [
+              "g-en-b1-relative-clauses"
+            ],
+            "topicTags": [
+              "sport"
+            ],
+            "vocabularyTags": [
+              "learn",
+              "together",
+              "family session"
+            ],
+            "difficulty": 3,
+            "options": [
+              "A",
+              "B",
+              "C",
+              "D",
+              "E",
+              "F",
+              "G",
+              "H"
+            ],
+            "level": "B1"
+          },
+          {
+            "id": "ql_en-b1-r-t2-match-sports-clubs-01-q5",
+            "type": "matching",
+            "question": "Tomasz has been climbing for many years and now wants to see how good he is compared with other climbers. He would also love to climb abroad.",
+            "correct": "B",
+            "correctAnswer": "B",
+            "explanation": "Summit Climbing Team is for people who 'want to test themselves against others', members 'take part in regional and national competitions', and there is a summer 'trip to climb in the mountains of Spain or France'. Peak Climbing Wall is also for climbing, but it offers 'beginners' courses' and family sessions, not competitions or trips abroad.",
+            "grammarTags": [
+              "g-en-b1-present-perfect-continuous"
+            ],
+            "topicTags": [
+              "sport"
+            ],
+            "vocabularyTags": [
+              "climber",
+              "competition",
+              "abroad"
+            ],
+            "difficulty": 4,
+            "options": [
+              "A",
+              "B",
+              "C",
+              "D",
+              "E",
+              "F",
+              "G",
+              "H"
+            ],
+            "level": "B1"
+          }
+        ]
+      },
+      {
+        "teil": 3,
+        "instruction": "Read the text(s) and answer the questions in Part 3.",
+        "blueprintSlot": "long_text",
+        "textTitle": "A day with the otters and red pandas",
+        "text": "My alarm goes off at half past five, which my friends think is crazy. But I need to be at Glenmore Wildlife Park, about twenty minutes' drive from Aberdeen, by seven o'clock, and the animals don't care whether it's raining or snowing. I'm Isla Grant, I'm twenty-three, and I've worked here as a keeper for two years, mainly with the red pandas and the otters.\n\nThe first job of the day is always the same: I walk round every enclosure and look carefully at each animal. You learn to notice small things, like an otter that isn't eating or a panda that stays inside when it usually comes out. If something seems wrong, I write it down and tell the vet. Visitors often imagine that keepers spend all day playing with the animals, but actually we try not to touch them much. They're wild animals, not pets, and we want them to behave as naturally as possible.\n\nAfter the checks comes the part nobody talks about: cleaning. I spend at least two hours every morning washing floors, removing old food and changing water. It isn't exciting, but a clean enclosure stops diseases from spreading, so I don't mind it. Then I prepare the food. The otters eat fish, but the red pandas need mostly bamboo, and they're surprisingly fussy about it. If the leaves are even slightly old, they just leave them.\n\nIn the afternoon I give a short talk to visitors at the otter pool. When I started, I was terrified of speaking in front of a crowd, and my first few talks were a disaster. I'd learnt a script by heart and then forgot half of it. My manager suggested I forget the script and simply tell people stories about the animals instead. That changed everything. Now it's one of my favourite parts of the day, especially when children ask questions I can't answer.\n\nPeople sometimes ask whether I wanted to be a zookeeper as a child. Honestly, I wanted to be a vet, but my exam results weren't good enough. I was disappointed for a while. Then I did a college course in animal care and spent a summer volunteering here, and at the end of it they offered me a job. I'm not paid much, and my back often hurts after lifting heavy bags of food. But last spring one of our red pandas had twins, and I was the first person to see them. At that moment I knew I wouldn't change this job for anything.",
+        "passageId": "en-b1-p-lesen-t3-long-zookeeper-01-01",
+        "questions": [
+          {
+            "id": "ql_en-b1-r-t3-long-zookeeper-01-q1",
+            "type": "multiple_choice",
+            "question": "Why does Isla walk round every enclosure at the start of the day?",
+            "correct": "b",
+            "correctAnswer": "b",
+            "explanation": "Isla says 'You learn to notice small things, like an otter that isn't eating', and 'If something seems wrong, I write it down and tell the vet.' Feeding comes later ('Then I prepare the food'), and she says keepers do not play with the animals: 'we try not to touch them much'. Gates are not mentioned.",
+            "grammarTags": [
+              "g-en-b1-present-simple"
+            ],
+            "topicTags": [
+              "animals"
+            ],
+            "vocabularyTags": [
+              "enclosure",
+              "vet",
+              "notice"
+            ],
+            "difficulty": 3,
+            "options": [
+              "a) To spend some time playing with the animals",
+              "b) To notice if any animal might have a problem",
+              "c) To check that all the gates are safely locked",
+              "d) To give the animals their first meal of the day"
+            ],
+            "level": "B1",
+            "passageId": "en-b1-p-lesen-t3-long-zookeeper-01-01"
+          },
+          {
+            "id": "ql_en-b1-r-t3-long-zookeeper-01-q2",
+            "type": "multiple_choice",
+            "question": "Why do the keepers try not to touch the animals much?",
+            "correct": "a",
+            "correctAnswer": "a",
+            "explanation": "Isla explains: 'They're wild animals, not pets, and we want them to behave as naturally as possible.' Stopping diseases is the reason she gives for cleaning ('a clean enclosure stops diseases from spreading'), not for avoiding touching. She never says the animals are dangerous or mentions visitors seeing it.",
+            "grammarTags": [
+              "g-en-b1-purpose-clauses"
+            ],
+            "topicTags": [
+              "animals"
+            ],
+            "vocabularyTags": [
+              "wild",
+              "pet",
+              "naturally"
+            ],
+            "difficulty": 4,
+            "options": [
+              "a) So that the animals behave as they would in the wild",
+              "b) Because visitors are not supposed to see it happen",
+              "c) Because some of the animals could be dangerous",
+              "d) So that diseases cannot pass from one animal to another"
+            ],
+            "level": "B1",
+            "passageId": "en-b1-p-lesen-t3-long-zookeeper-01-01"
+          },
+          {
+            "id": "ql_en-b1-r-t3-long-zookeeper-01-q3",
+            "type": "multiple_choice",
+            "question": "What is Isla's attitude to the cleaning she does?",
+            "correct": "c",
+            "correctAnswer": "c",
+            "explanation": "She says: 'It isn't exciting, but a clean enclosure stops diseases from spreading, so I don't mind it.' She spends 'at least two hours' on it but does not complain about the time. What hurts her back is 'lifting heavy bags of food', not cleaning, and she does not compare it with preparing food.",
+            "grammarTags": [
+              "g-en-b1-linking-words"
+            ],
+            "topicTags": [
+              "work"
+            ],
+            "vocabularyTags": [
+              "clean",
+              "disease",
+              "spread"
+            ],
+            "difficulty": 4,
+            "options": [
+              "a) She feels it takes up too much of her morning.",
+              "b) She enjoys it more than preparing the food.",
+              "c) She accepts it because it keeps the animals healthy.",
+              "d) She thinks it is the most tiring part of her job."
+            ],
+            "level": "B1",
+            "passageId": "en-b1-p-lesen-t3-long-zookeeper-01-01"
+          },
+          {
+            "id": "ql_en-b1-r-t3-long-zookeeper-01-q4",
+            "type": "multiple_choice",
+            "question": "How did Isla become better at giving talks?",
+            "correct": "c",
+            "correctAnswer": "c",
+            "explanation": "'My manager suggested I forget the script and simply tell people stories about the animals instead. That changed everything.' Learning the script by heart was what she did before, when her talks were 'a disaster'. Children's questions are something she enjoys now, not how she improved.",
+            "grammarTags": [
+              "g-en-b1-reported-speech"
+            ],
+            "topicTags": [
+              "work"
+            ],
+            "vocabularyTags": [
+              "talk",
+              "crowd",
+              "terrified"
+            ],
+            "difficulty": 4,
+            "options": [
+              "a) She asked children to send in their questions.",
+              "b) She practised her script many more times.",
+              "c) She started telling stories about the animals.",
+              "d) She watched the other keepers giving talks."
+            ],
+            "level": "B1",
+            "passageId": "en-b1-p-lesen-t3-long-zookeeper-01-01"
+          },
+          {
+            "id": "ql_en-b1-r-t3-long-zookeeper-01-q5",
+            "type": "multiple_choice",
+            "question": "What might Isla write in a message to a friend?",
+            "correct": "d",
+            "correctAnswer": "d",
+            "explanation": "Isla says 'I'm not paid much, and my back often hurts', but she 'wouldn't change this job for anything'. As a child she 'wanted to be a vet', so this was not her childhood dream, and she 'was disappointed' about her results, so she was not glad. Nothing suggests she plans to go back to college.",
+            "grammarTags": [
+              "g-en-b1-conditionals"
+            ],
+            "topicTags": [
+              "work"
+            ],
+            "vocabularyTags": [
+              "paid",
+              "disappointed",
+              "dream"
+            ],
+            "difficulty": 5,
+            "options": [
+              "a) 'This is exactly the job I dreamed about when I was little.'",
+              "b) 'I'm going back to college soon to train as a vet.'",
+              "c) 'I'm glad I failed my exams because I never wanted to be a vet.'",
+              "d) 'It's badly paid and hard on my body, but I love it.'"
+            ],
+            "level": "B1",
+            "passageId": "en-b1-p-lesen-t3-long-zookeeper-01-01"
+          }
+        ]
+      },
+      {
+        "teil": 4,
+        "instruction": "Read the text(s) and answer the questions in Part 4.",
+        "blueprintSlot": "gapped_text",
+        "textTitle": "Why board games are back",
+        "text": "On a rainy Tuesday evening, every table at The Dice Box in Manchester is full. Groups of friends are laughing, arguing and rolling dice, and hardly anyone is looking at a phone. (1) ________ Today there are more than five hundred across the country.\n\nCustomers pay £6 each to sit at a table for as long as they like, and they can choose from a library of over 800 games. (2) ________ That is why the café employs 'game guides', staff whose job is to recommend a game and explain the rules.\n\nThe owner, Tom Bradley, opened the café in 2019 after losing his job at a bank. He believes the reason for its success is simple. 'People spend all day looking at a computer at work,' he says. (3) ________ 'A screen can never give them that.'\n\nThe customers are not only young people. On Sunday afternoons the café is full of families, and a group of retired teachers meets there every Thursday morning. (4) ________ 'I play against my grandchildren now, and I usually win,' she laughs.\n\nRunning a games café is not always easy, though. New games are expensive, and small pieces often go missing. (5) ________ It takes time, but Tom says it is worth it. 'A game with one card missing is a game nobody can finish.'",
+        "passageId": "en-b1-p-lesen-t4-gapped-board-games-01-01",
+        "questions": [
+          {
+            "id": "ql_en-b1-r-t4-gapped-board-games-01-q1",
+            "type": "matching",
+            "question": "Which sentence fits gap (1)?",
+            "correct": "C",
+            "correctAnswer": "C",
+            "explanation": "'Places like this' refers to The Dice Box, and 'Ten years ago, however' contrasts with the next sentence: 'Today there are more than five hundred across the country.' The sentence saying most customers prefer to play on their phones contradicts 'hardly anyone is looking at a phone'.",
+            "grammarTags": [
+              "g-en-b1-linking-words"
+            ],
+            "topicTags": [
+              "free time"
+            ],
+            "vocabularyTags": [
+              "café",
+              "Britain",
+              "hard to find"
+            ],
+            "difficulty": 4,
+            "options": [
+              "A) To stop this happening, staff check that every box is complete after it has been used.",
+              "B) In the evening, they want to sit round a real table with real people.",
+              "C) Ten years ago, however, places like this were very hard to find in Britain.",
+              "D) Most customers prefer to play games on their phones while they wait for their food.",
+              "E) One of them, 72-year-old Margaret Lowe, says the games keep her mind sharp.",
+              "F) Tom himself learnt to play chess from his grandfather when he was five.",
+              "G) As a result, the café has decided to stop buying new games.",
+              "H) With so many on the shelves, newcomers often have no idea where to start."
+            ],
+            "level": "B1",
+            "passageId": "en-b1-p-lesen-t4-gapped-board-games-01-01"
+          },
+          {
+            "id": "ql_en-b1-r-t4-gapped-board-games-01-q2",
+            "type": "matching",
+            "question": "Which sentence fits gap (2)?",
+            "correct": "H",
+            "correctAnswer": "H",
+            "explanation": "'So many on the shelves' refers to 'a library of over 800 games', and the problem that 'newcomers often have no idea where to start' explains the next sentence: 'That is why the café employs game guides… to recommend a game.' The sentence about the café stopping buying games has no cause here and does not lead to game guides.",
+            "grammarTags": [
+              "g-en-b1-reference-words"
+            ],
+            "topicTags": [
+              "free time"
+            ],
+            "vocabularyTags": [
+              "newcomer",
+              "shelf",
+              "library"
+            ],
+            "difficulty": 4,
+            "options": [
+              "A) To stop this happening, staff check that every box is complete after it has been used.",
+              "B) In the evening, they want to sit round a real table with real people.",
+              "C) Ten years ago, however, places like this were very hard to find in Britain.",
+              "D) Most customers prefer to play games on their phones while they wait for their food.",
+              "E) One of them, 72-year-old Margaret Lowe, says the games keep her mind sharp.",
+              "F) Tom himself learnt to play chess from his grandfather when he was five.",
+              "G) As a result, the café has decided to stop buying new games.",
+              "H) With so many on the shelves, newcomers often have no idea where to start."
+            ],
+            "level": "B1",
+            "passageId": "en-b1-p-lesen-t4-gapped-board-games-01-01"
+          },
+          {
+            "id": "ql_en-b1-r-t4-gapped-board-games-01-q3",
+            "type": "matching",
+            "question": "Which sentence fits gap (3)?",
+            "correct": "B",
+            "correctAnswer": "B",
+            "explanation": "'They' refers to the 'People' who spend 'all day looking at a computer at work', and sitting 'round a real table with real people' is what 'that' means in Tom's next words: 'A screen can never give them that.' The sentence about Tom learning chess does not continue his quote and gives 'that' nothing to refer to.",
+            "grammarTags": [
+              "g-en-b1-pronouns"
+            ],
+            "topicTags": [
+              "free time"
+            ],
+            "vocabularyTags": [
+              "screen",
+              "real",
+              "evening"
+            ],
+            "difficulty": 5,
+            "options": [
+              "A) To stop this happening, staff check that every box is complete after it has been used.",
+              "B) In the evening, they want to sit round a real table with real people.",
+              "C) Ten years ago, however, places like this were very hard to find in Britain.",
+              "D) Most customers prefer to play games on their phones while they wait for their food.",
+              "E) One of them, 72-year-old Margaret Lowe, says the games keep her mind sharp.",
+              "F) Tom himself learnt to play chess from his grandfather when he was five.",
+              "G) As a result, the café has decided to stop buying new games.",
+              "H) With so many on the shelves, newcomers often have no idea where to start."
+            ],
+            "level": "B1",
+            "passageId": "en-b1-p-lesen-t4-gapped-board-games-01-01"
+          },
+          {
+            "id": "ql_en-b1-r-t4-gapped-board-games-01-q4",
+            "type": "matching",
+            "question": "Which sentence fits gap (4)?",
+            "correct": "E",
+            "correctAnswer": "E",
+            "explanation": "'One of them' refers to the 'group of retired teachers', and introducing Margaret explains who 'she' is in the next sentence: 'I play against my grandchildren now… she laughs.' The sentence about Tom learning chess cannot fit, because the next speaker is a woman with grandchildren.",
+            "grammarTags": [
+              "g-en-b1-pronouns"
+            ],
+            "topicTags": [
+              "free time"
+            ],
+            "vocabularyTags": [
+              "retired",
+              "grandchildren",
+              "sharp"
+            ],
+            "difficulty": 4,
+            "options": [
+              "A) To stop this happening, staff check that every box is complete after it has been used.",
+              "B) In the evening, they want to sit round a real table with real people.",
+              "C) Ten years ago, however, places like this were very hard to find in Britain.",
+              "D) Most customers prefer to play games on their phones while they wait for their food.",
+              "E) One of them, 72-year-old Margaret Lowe, says the games keep her mind sharp.",
+              "F) Tom himself learnt to play chess from his grandfather when he was five.",
+              "G) As a result, the café has decided to stop buying new games.",
+              "H) With so many on the shelves, newcomers often have no idea where to start."
+            ],
+            "level": "B1",
+            "passageId": "en-b1-p-lesen-t4-gapped-board-games-01-01"
+          },
+          {
+            "id": "ql_en-b1-r-t4-gapped-board-games-01-q5",
+            "type": "matching",
+            "question": "Which sentence fits gap (5)?",
+            "correct": "A",
+            "correctAnswer": "A",
+            "explanation": "'To stop this happening' refers to 'small pieces often go missing', and checking every box is what 'It takes time' describes; Tom adds that 'A game with one card missing is a game nobody can finish.' The sentence about stopping buying new games does not explain what 'takes time' or why a missing card matters.",
+            "grammarTags": [
+              "g-en-b1-present-perfect-passive"
+            ],
+            "topicTags": [
+              "free time"
+            ],
+            "vocabularyTags": [
+              "piece",
+              "complete",
+              "missing"
+            ],
+            "difficulty": 5,
+            "options": [
+              "A) To stop this happening, staff check that every box is complete after it has been used.",
+              "B) In the evening, they want to sit round a real table with real people.",
+              "C) Ten years ago, however, places like this were very hard to find in Britain.",
+              "D) Most customers prefer to play games on their phones while they wait for their food.",
+              "E) One of them, 72-year-old Margaret Lowe, says the games keep her mind sharp.",
+              "F) Tom himself learnt to play chess from his grandfather when he was five.",
+              "G) As a result, the café has decided to stop buying new games.",
+              "H) With so many on the shelves, newcomers often have no idea where to start."
+            ],
+            "level": "B1",
+            "passageId": "en-b1-p-lesen-t4-gapped-board-games-01-01"
+          }
+        ]
+      },
+      {
+        "teil": 5,
+        "instruction": "Read the text(s) and answer the questions in Part 5.",
+        "blueprintSlot": "mcq_gap_fill",
+        "textTitle": "A box in the attic",
+        "text": "When my grandmother moved into a smaller flat last spring, my family helped her to (1) ____ out her old house in Aberdeen. In the attic, under a pile of blankets, my brother Callum found a wooden box full of black-and-white photographs.\n\nGran sat down and looked through them slowly. Most of the people in the photos were relatives she hadn't seen for years, and a few she couldn't (2) ____ at all. One picture showed a young woman standing next to a bicycle outside a bakery. \"That's me!\" Gran laughed. \"I worked there when I was sixteen. I had to get up at four o'clock every morning to (3) ____ the bread.\"\n\nSome of the photos were in quite bad (4) ____ because water had got into the box. My dad took them to a shop in town, where an expert managed to repair them on a computer.\n\nNow the best ones hang in Gran's new living room, and she loves telling visitors the stories (5) ____ them. Callum has even started a family tree online, and he hopes to (6) ____ in touch with some of our distant cousins in Canada.",
+        "passageId": "en-b1-p-lesen-t5-cloze-old-photos-01-01",
+        "questions": [
+          {
+            "id": "ql_en-b1-r-t5-cloze-old-photos-01-q1",
+            "type": "multiple_choice",
+            "question": "Choose the correct word for gap (1).",
+            "correct": "a",
+            "correctAnswer": "a",
+            "explanation": "The family helped Gran \"clear out her old house\", which means empty it and remove the things she no longer needed before moving. 'Take out' is not used with a house as the object in this meaning, 'carry out' means 'do a task' (carry out an experiment), and 'keep out' means 'stay outside', which is the opposite of helping.",
+            "grammarTags": [
+              "g-en-b1-phrasal-verbs"
+            ],
+            "topicTags": [
+              "family"
+            ],
+            "vocabularyTags": [
+              "clear out",
+              "move house"
+            ],
+            "difficulty": 4,
+            "options": [
+              "a) clear",
+              "b) take",
+              "c) carry",
+              "d) keep"
+            ],
+            "level": "B1",
+            "passageId": "en-b1-p-lesen-t5-cloze-old-photos-01-01"
+          },
+          {
+            "id": "ql_en-b1-r-t5-cloze-old-photos-01-q2",
+            "type": "multiple_choice",
+            "question": "Choose the correct word for gap (2).",
+            "correct": "d",
+            "correctAnswer": "d",
+            "explanation": "Gran looked at the faces and \"a few she couldn't recognise at all\": she did not know who those people were. 'Notice' and 'discover' do not fit because the people were right in front of her in the photos, and 'realise' needs a fact (realise that…), not a person.",
+            "grammarTags": [
+              "g-en-b1-confusing-verbs"
+            ],
+            "topicTags": [
+              "family"
+            ],
+            "vocabularyTags": [
+              "recognise",
+              "realise",
+              "notice"
+            ],
+            "difficulty": 4,
+            "options": [
+              "a) discover",
+              "b) realise",
+              "c) notice",
+              "d) recognise"
+            ],
+            "level": "B1",
+            "passageId": "en-b1-p-lesen-t5-cloze-old-photos-01-01"
+          },
+          {
+            "id": "ql_en-b1-r-t5-cloze-old-photos-01-q3",
+            "type": "multiple_choice",
+            "question": "Choose the correct word for gap (3).",
+            "correct": "a",
+            "correctAnswer": "a",
+            "explanation": "Gran worked in \"a bakery\", and bread is cooked in an oven, so she got up early \"to bake the bread\". Bread is not boiled, fried or roasted.",
+            "grammarTags": [
+              "g-en-b1-collocations"
+            ],
+            "topicTags": [
+              "family"
+            ],
+            "vocabularyTags": [
+              "bake",
+              "bakery"
+            ],
+            "difficulty": 3,
+            "options": [
+              "a) bake",
+              "b) boil",
+              "c) fry",
+              "d) roast"
+            ],
+            "level": "B1",
+            "passageId": "en-b1-p-lesen-t5-cloze-old-photos-01-01"
+          },
+          {
+            "id": "ql_en-b1-r-t5-cloze-old-photos-01-q4",
+            "type": "multiple_choice",
+            "question": "Choose the correct word for gap (4).",
+            "correct": "c",
+            "correctAnswer": "c",
+            "explanation": "Objects can be \"in quite bad condition\" when they are damaged: here \"water had got into the box\". 'Health', 'mood' and 'behaviour' describe people (or animals), not photographs.",
+            "grammarTags": [
+              "g-en-b1-collocations"
+            ],
+            "topicTags": [
+              "family"
+            ],
+            "vocabularyTags": [
+              "condition",
+              "damage"
+            ],
+            "difficulty": 4,
+            "options": [
+              "a) behaviour",
+              "b) health",
+              "c) condition",
+              "d) mood"
+            ],
+            "level": "B1",
+            "passageId": "en-b1-p-lesen-t5-cloze-old-photos-01-01"
+          },
+          {
+            "id": "ql_en-b1-r-t5-cloze-old-photos-01-q5",
+            "type": "multiple_choice",
+            "question": "Choose the correct word for gap (5).",
+            "correct": "b",
+            "correctAnswer": "b",
+            "explanation": "\"The stories behind them\" means the true events that explain the photos, for example how Gran came to work at the bakery. 'The stories under / between / along them' make no sense here.",
+            "grammarTags": [
+              "g-en-b1-prepositions"
+            ],
+            "topicTags": [
+              "family"
+            ],
+            "vocabularyTags": [
+              "the story behind"
+            ],
+            "difficulty": 5,
+            "options": [
+              "a) under",
+              "b) behind",
+              "c) between",
+              "d) along"
+            ],
+            "level": "B1",
+            "passageId": "en-b1-p-lesen-t5-cloze-old-photos-01-01"
+          },
+          {
+            "id": "ql_en-b1-r-t5-cloze-old-photos-01-q6",
+            "type": "multiple_choice",
+            "question": "Choose the correct word for gap (6).",
+            "correct": "d",
+            "correctAnswer": "d",
+            "explanation": "The fixed expression is \"get in touch with\" someone, meaning to contact them: Callum \"hopes to get in touch with some of our distant cousins\". We do not say 'make', 'do' or 'put in touch with' about contacting people ourselves.",
+            "grammarTags": [
+              "g-en-b1-fixed-expressions"
+            ],
+            "topicTags": [
+              "family"
+            ],
+            "vocabularyTags": [
+              "get in touch",
+              "cousin"
+            ],
+            "difficulty": 3,
+            "options": [
+              "a) make",
+              "b) do",
+              "c) put",
+              "d) get"
+            ],
+            "level": "B1",
+            "passageId": "en-b1-p-lesen-t5-cloze-old-photos-01-01"
+          }
+        ]
+      },
+      {
+        "teil": 6,
+        "instruction": "Read the text(s) and answer the questions in Part 6.",
+        "blueprintSlot": "open_cloze",
+        "textTitle": "My part in The Lighthouse",
+        "text": "Last term I took part in my school's production of a musical called The Lighthouse. Our drama teacher, Mr Okafor, (1) ____ has written several plays himself, gave me the role of the old lighthouse keeper.\n\nI was delighted, but I soon realised I had more than two hundred lines to learn (2) ____ heart. \"You (3) ____ better start learning them today, or you won't be ready,\" Mr Okafor warned. So every evening my mum read the other characters' lines while I practised mine.\n\nRehearsals were hard work, but the cast became really close. We helped (4) ____ other with difficult scenes, and the older students gave us useful advice about staying calm on stage.\n\nOn the first night I was the (5) ____ nervous I have ever been: my hands were shaking and my mouth was completely dry. But as soon (6) ____ the curtain went up and I heard the audience laugh at my first joke, my nerves disappeared.\n\nWe performed the show three times, and every night the hall was full. I'm already hoping to get a part in next year's play.",
+        "passageId": "en-b1-p-lesen-t6-open-cloze-school-play-01-01",
+        "questions": [
+          {
+            "id": "ql_en-b1-r-t6-open-cloze-school-play-01-q1",
+            "type": "gap_fill",
+            "question": "Write ONE word for gap (1).",
+            "correct": "who",
+            "correctAnswer": "who",
+            "explanation": "This is a non-defining relative clause between commas about a person: \"Mr Okafor, who has written several plays himself, gave me the role\". 'That' cannot be used after a comma in this kind of clause, and 'which' is for things.",
+            "grammarTags": [
+              "g-en-b1-relative-clauses"
+            ],
+            "topicTags": [
+              "school"
+            ],
+            "vocabularyTags": [
+              "drama teacher",
+              "play"
+            ],
+            "difficulty": 4,
+            "level": "B1",
+            "passageId": "en-b1-p-lesen-t6-open-cloze-school-play-01-01"
+          },
+          {
+            "id": "ql_en-b1-r-t6-open-cloze-school-play-01-q2",
+            "type": "gap_fill",
+            "question": "Write ONE word for gap (2).",
+            "correct": "by",
+            "correctAnswer": "by",
+            "explanation": "The fixed phrase is 'learn something by heart', meaning learn it so you can say it from memory: \"two hundred lines to learn by heart\".",
+            "grammarTags": [
+              "g-en-b1-fixed-phrases"
+            ],
+            "topicTags": [
+              "school"
+            ],
+            "vocabularyTags": [
+              "learn by heart",
+              "line"
+            ],
+            "difficulty": 4,
+            "level": "B1",
+            "passageId": "en-b1-p-lesen-t6-open-cloze-school-play-01-01"
+          },
+          {
+            "id": "ql_en-b1-r-t6-open-cloze-school-play-01-q3",
+            "type": "gap_fill",
+            "question": "Write ONE word for gap (3).",
+            "correct": "had",
+            "correctAnswer": "had",
+            "explanation": "'Had better' + infinitive without 'to' gives strong advice or a warning: \"You had better start learning them today, or you won't be ready,\" Mr Okafor warned. Only 'had' can go before 'better' here; 'would', 'should' or 'must' + 'better' are not possible.",
+            "grammarTags": [
+              "g-en-b1-modals"
+            ],
+            "topicTags": [
+              "school"
+            ],
+            "vocabularyTags": [
+              "had better",
+              "warn"
+            ],
+            "difficulty": 5,
+            "level": "B1",
+            "passageId": "en-b1-p-lesen-t6-open-cloze-school-play-01-01"
+          },
+          {
+            "id": "ql_en-b1-r-t6-open-cloze-school-play-01-q4",
+            "type": "gap_fill",
+            "question": "Write ONE word for gap (4).",
+            "correct": "each",
+            "correctAnswer": "each",
+            "explanation": "'Each other' shows that people do the same thing to one another: the cast \"helped each other with difficult scenes\".",
+            "grammarTags": [
+              "g-en-b1-pronouns"
+            ],
+            "topicTags": [
+              "school"
+            ],
+            "vocabularyTags": [
+              "each other",
+              "scene"
+            ],
+            "difficulty": 3,
+            "level": "B1",
+            "passageId": "en-b1-p-lesen-t6-open-cloze-school-play-01-01"
+          },
+          {
+            "id": "ql_en-b1-r-t6-open-cloze-school-play-01-q5",
+            "type": "gap_fill",
+            "question": "Write ONE word for gap (5).",
+            "correct": "most",
+            "correctAnswer": "most",
+            "explanation": "A superlative with a long adjective is 'the most + adjective', often with 'I have ever been': \"I was the most nervous I have ever been\". 'Least' is impossible because \"my hands were shaking and my mouth was completely dry\".",
+            "grammarTags": [
+              "g-en-b1-superlatives"
+            ],
+            "topicTags": [
+              "school"
+            ],
+            "vocabularyTags": [
+              "nervous",
+              "the most"
+            ],
+            "difficulty": 4,
+            "level": "B1",
+            "passageId": "en-b1-p-lesen-t6-open-cloze-school-play-01-01"
+          },
+          {
+            "id": "ql_en-b1-r-t6-open-cloze-school-play-01-q6",
+            "type": "gap_fill",
+            "question": "Write ONE word for gap (6).",
+            "correct": "as",
+            "correctAnswer": "as",
+            "explanation": "The time conjunction is as soon as, meaning immediately when: \"as soon as the curtain went up … my nerves disappeared\". The second as completes the fixed phrase; no other word fits after as soon.",
+            "grammarTags": [
+              "g-en-b1-time-conjunctions"
+            ],
+            "topicTags": [
+              "school"
+            ],
+            "vocabularyTags": [
+              "as soon as",
+              "curtain"
+            ],
+            "difficulty": 4,
+            "level": "B1",
+            "passageId": "en-b1-p-lesen-t6-open-cloze-school-play-01-01"
+          }
+        ]
+      }
+    ],
+    "horenParts": [
+      {
+        "teil": 1,
+        "instruction": "Listen and answer the questions in Part 1.",
+        "blueprintSlot": "picture_mcq",
+        "transcript": "Man: Your room looks great, Mia. The yellow's really bright. How long did it take you?\nMia: Well, I planned to do it all in a weekend, so two days. But on Saturday I spent the whole morning just moving the furniture and covering the floor. So I finished on Monday after school. Three days altogether.\nMan: Not bad. It took me a week to paint the kitchen!\n\nWoman: Hello, Josh, it's Gran. Are you still free on Saturday? I need some help in the garden.\nJosh: Sure. Is it the apples again?\nWoman: No, there weren't many this year, so I picked them myself. And Mr Lewis next door has offered to cut the hedge with his machine. But those big pots by the back door are much too heavy for me now, and I want to move them into the greenhouse before it gets cold.\nJosh: No problem. I'll be there at ten.\n\nGrace: Are you going to the garden centre, Paul? Can you get some red flowers for the pots by the front door?\nPaul: I bought some last week, remember? They're still in the garage. I'm going because the handle's broken on the spade.\nGrace: Oh yes. What about grass seed for that bare patch?\nPaul: We've still got half a box of that. So it's just the spade, I think.\n\nMan: Ollie, before your friends arrive this afternoon, there are a few things I need you to do.\nOllie: Like what?\nMan: Well, the car needs washing, but that can wait until tomorrow. And the grass is getting long, but it's too wet to cut it today. Your bedroom, on the other hand, looks terrible, and your friends will be in there. So start with that, please.\n\nKate: Rob, I'm going to be home late tonight. I've got a meeting until eight.\nRob: OK. Shall I do the washing-up?\nKate: I'll do that when I get back, it's only a few plates. But tomorrow's rubbish day, and I always forget, so could you take the bins out before you go to bed?\nRob: Sure. Do you want me to iron your blue shirt for tomorrow?\nKate: No, thanks. I'm wearing a jumper.\n\nJenny: Mark, you know I couldn't find my keys this morning? I looked in my coat pocket three times, and I even went out to the garden shed, because I'd been in there yesterday.\nMark: And?\nJenny: They were by the washing machine! I must have put them down when I was doing the laundry.\n\nWoman: Hello, this is Mrs Patel at number twelve, Elm Road. I'm calling about my kitchen. I rang last month about the window that wouldn't close, and your man fixed it very well, thank you. This time it's the tap. It won't turn off properly and it's dripping all day and all night. The fridge is making a strange noise too, but it's still keeping things cold, so that's not urgent. Could someone come on Thursday?",
+        "segments": [
+          {
+            "id": "seg_1_0",
+            "label": "Recording 1",
+            "transcript": "Man: Your room looks great, Mia. The yellow's really bright. How long did it take you?\nMia: Well, I planned to do it all in a weekend, so two days. But on Saturday I spent the whole morning just moving the furniture and covering the floor. So I finished on Monday after school. Three days altogether.\nMan: Not bad. It took me a week to paint the kitchen!",
+            "passageId": "en-b1-p-horen-t1-pics-home-jobs-01-04",
+            "questions": [
+              {
+                "id": "ql_en-b1-h-t1-pics-home-jobs-01-s4-q1",
+                "type": "multiple_choice",
+                "question": "How long did it take Mia to paint her room?",
+                "correct": "c",
+                "correctAnswer": "c",
+                "explanation": "Mia says \"I finished on Monday after school. Three days altogether.\" Two days was only her plan, and \"a week\" is how long the man took to paint the kitchen.",
+                "grammarTags": [
+                  "g-en-b1-past-simple"
+                ],
+                "topicTags": [
+                  "home"
+                ],
+                "vocabularyTags": [
+                  "paint",
+                  "furniture"
+                ],
+                "difficulty": 4,
+                "options": [
+                  "a) a week",
+                  "b) two days",
+                  "c) three days"
+                ],
+                "level": "B1",
+                "passageId": "en-b1-p-horen-t1-pics-home-jobs-01-04"
+              }
+            ]
+          },
+          {
+            "id": "seg_1_1",
+            "label": "Recording 2",
+            "transcript": "Woman: Hello, Josh, it's Gran. Are you still free on Saturday? I need some help in the garden.\nJosh: Sure. Is it the apples again?\nWoman: No, there weren't many this year, so I picked them myself. And Mr Lewis next door has offered to cut the hedge with his machine. But those big pots by the back door are much too heavy for me now, and I want to move them into the greenhouse before it gets cold.\nJosh: No problem. I'll be there at ten.",
+            "passageId": "en-b1-p-horen-t1-pics-home-jobs-01-06",
+            "questions": [
+              {
+                "id": "ql_en-b1-h-t1-pics-home-jobs-01-s6-q1",
+                "type": "multiple_choice",
+                "question": "What does Josh's grandmother want him to help with?",
+                "correct": "c",
+                "correctAnswer": "c",
+                "explanation": "Gran says the big pots \"are much too heavy for me now\" and she wants \"to move them into the greenhouse\". She has already picked the apples herself, and Mr Lewis \"has offered to cut the hedge\".",
+                "grammarTags": [
+                  "g-en-b1-too-enough"
+                ],
+                "topicTags": [
+                  "home"
+                ],
+                "vocabularyTags": [
+                  "hedge",
+                  "greenhouse"
+                ],
+                "difficulty": 4,
+                "options": [
+                  "a) cutting the hedge",
+                  "b) picking apples",
+                  "c) moving some pots"
+                ],
+                "level": "B1",
+                "passageId": "en-b1-p-horen-t1-pics-home-jobs-01-06"
+              }
+            ]
+          },
+          {
+            "id": "seg_1_2",
+            "label": "Recording 3",
+            "transcript": "Grace: Are you going to the garden centre, Paul? Can you get some red flowers for the pots by the front door?\nPaul: I bought some last week, remember? They're still in the garage. I'm going because the handle's broken on the spade.\nGrace: Oh yes. What about grass seed for that bare patch?\nPaul: We've still got half a box of that. So it's just the spade, I think.",
+            "passageId": "en-b1-p-horen-t1-pics-home-jobs-01-03",
+            "questions": [
+              {
+                "id": "ql_en-b1-h-t1-pics-home-jobs-01-s3-q1",
+                "type": "multiple_choice",
+                "question": "What is Paul going to buy at the garden centre?",
+                "correct": "b",
+                "correctAnswer": "b",
+                "explanation": "Paul says he is going \"because the handle's broken on the spade\" and \"it's just the spade\". He bought flowers \"last week\", and they still have \"half a box\" of grass seed.",
+                "grammarTags": [
+                  "g-en-b1-present-perfect"
+                ],
+                "topicTags": [
+                  "home"
+                ],
+                "vocabularyTags": [
+                  "spade",
+                  "seed"
+                ],
+                "difficulty": 3,
+                "options": [
+                  "a) some red flowers",
+                  "b) a new spade",
+                  "c) some grass seed"
+                ],
+                "level": "B1",
+                "passageId": "en-b1-p-horen-t1-pics-home-jobs-01-03"
+              }
+            ]
+          },
+          {
+            "id": "seg_1_3",
+            "label": "Recording 4",
+            "transcript": "Man: Ollie, before your friends arrive this afternoon, there are a few things I need you to do.\nOllie: Like what?\nMan: Well, the car needs washing, but that can wait until tomorrow. And the grass is getting long, but it's too wet to cut it today. Your bedroom, on the other hand, looks terrible, and your friends will be in there. So start with that, please.",
+            "passageId": "en-b1-p-horen-t1-pics-home-jobs-01-01",
+            "questions": [
+              {
+                "id": "ql_en-b1-h-t1-pics-home-jobs-01-s1-q1",
+                "type": "multiple_choice",
+                "question": "Which job does the man want Ollie to do first?",
+                "correct": "b",
+                "correctAnswer": "b",
+                "explanation": "The man says Ollie's bedroom \"looks terrible\" and tells him \"start with that, please\". The car washing \"can wait until tomorrow\", and the grass is \"too wet to cut today\".",
+                "grammarTags": [
+                  "g-en-b1-imperatives"
+                ],
+                "topicTags": [
+                  "home"
+                ],
+                "vocabularyTags": [
+                  "tidy",
+                  "grass"
+                ],
+                "difficulty": 3,
+                "options": [
+                  "a) wash the car",
+                  "b) tidy his bedroom",
+                  "c) cut the long grass"
+                ],
+                "level": "B1",
+                "passageId": "en-b1-p-horen-t1-pics-home-jobs-01-01"
+              }
+            ]
+          },
+          {
+            "id": "seg_1_4",
+            "label": "Recording 5",
+            "transcript": "Kate: Rob, I'm going to be home late tonight. I've got a meeting until eight.\nRob: OK. Shall I do the washing-up?\nKate: I'll do that when I get back, it's only a few plates. But tomorrow's rubbish day, and I always forget, so could you take the bins out before you go to bed?\nRob: Sure. Do you want me to iron your blue shirt for tomorrow?\nKate: No, thanks. I'm wearing a jumper.",
+            "passageId": "en-b1-p-horen-t1-pics-home-jobs-01-07",
+            "questions": [
+              {
+                "id": "ql_en-b1-h-t1-pics-home-jobs-01-s7-q1",
+                "type": "multiple_choice",
+                "question": "What does Kate ask Rob to do this evening?",
+                "correct": "b",
+                "correctAnswer": "b",
+                "explanation": "Kate asks \"could you take the bins out before you go to bed?\" because \"tomorrow's rubbish day\". She will do the washing-up herself \"when I get back\", and she says \"No, thanks\" to the ironing.",
+                "grammarTags": [
+                  "g-en-b1-requests"
+                ],
+                "topicTags": [
+                  "home"
+                ],
+                "vocabularyTags": [
+                  "rubbish",
+                  "washing-up"
+                ],
+                "difficulty": 3,
+                "options": [
+                  "a) iron her blue shirt",
+                  "b) take out the rubbish",
+                  "c) do all the washing-up"
+                ],
+                "level": "B1",
+                "passageId": "en-b1-p-horen-t1-pics-home-jobs-01-07"
+              }
+            ]
+          },
+          {
+            "id": "seg_1_5",
+            "label": "Recording 6",
+            "transcript": "Jenny: Mark, you know I couldn't find my keys this morning? I looked in my coat pocket three times, and I even went out to the garden shed, because I'd been in there yesterday.\nMark: And?\nJenny: They were by the washing machine! I must have put them down when I was doing the laundry.",
+            "passageId": "en-b1-p-horen-t1-pics-home-jobs-01-02",
+            "questions": [
+              {
+                "id": "ql_en-b1-h-t1-pics-home-jobs-01-s2-q1",
+                "type": "multiple_choice",
+                "question": "Where did Jenny find her keys?",
+                "correct": "a",
+                "correctAnswer": "a",
+                "explanation": "Jenny says \"They were by the washing machine!\" She looked in her coat pocket and went to the garden shed, but the keys were not in either place.",
+                "grammarTags": [
+                  "g-en-b1-modals-deduction-past"
+                ],
+                "topicTags": [
+                  "home"
+                ],
+                "vocabularyTags": [
+                  "shed",
+                  "laundry"
+                ],
+                "difficulty": 4,
+                "options": [
+                  "a) by the washing machine",
+                  "b) in the pocket of her coat",
+                  "c) in the garden shed"
+                ],
+                "level": "B1",
+                "passageId": "en-b1-p-horen-t1-pics-home-jobs-01-02"
+              }
+            ]
+          },
+          {
+            "id": "seg_1_6",
+            "label": "Recording 7",
+            "transcript": "Woman: Hello, this is Mrs Patel at number twelve, Elm Road. I'm calling about my kitchen. I rang last month about the window that wouldn't close, and your man fixed it very well, thank you. This time it's the tap. It won't turn off properly and it's dripping all day and all night. The fridge is making a strange noise too, but it's still keeping things cold, so that's not urgent. Could someone come on Thursday?",
+            "passageId": "en-b1-p-horen-t1-pics-home-jobs-01-05",
+            "questions": [
+              {
+                "id": "ql_en-b1-h-t1-pics-home-jobs-01-s5-q1",
+                "type": "multiple_choice",
+                "question": "What does Mrs Patel need someone to repair?",
+                "correct": "a",
+                "correctAnswer": "a",
+                "explanation": "Mrs Patel says \"This time it's the tap. It won't turn off properly\". The window was fixed last month, and the fridge is \"not urgent\" because \"it's still keeping things cold\".",
+                "grammarTags": [
+                  "g-en-b1-past-simple"
+                ],
+                "topicTags": [
+                  "home"
+                ],
+                "vocabularyTags": [
+                  "tap",
+                  "drip"
+                ],
+                "difficulty": 3,
+                "options": [
+                  "a) the tap",
+                  "b) the fridge",
+                  "c) the kitchen window"
+                ],
+                "level": "B1",
+                "passageId": "en-b1-p-horen-t1-pics-home-jobs-01-05"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "teil": 2,
+        "instruction": "Listen and answer the questions in Part 2.",
+        "blueprintSlot": "short_dialogue_mcq",
+        "transcript": "Becky: We've run out of milk again, and there's no bread either.\nJoe: I know. We always forget something when we go to the supermarket.\nBecky: Shall we write a list and put it on the fridge?\nJoe: We tried that, remember? Nobody looked at it. Why don't we just order everything on the internet once a week? They bring it to the door, and the app remembers what we usually buy.\nBecky: Hmm, OK. Let's try it.\n\nIsla: Grandad, your apple cake is the best thing ever. How do you make it?\nGrandad: It's my mother's recipe. I've never written it down. It's all in my head.\nIsla: That's exactly why I'm asking! Will you show me on Sunday? I'll write everything down as we go, so it's never lost.\nGrandad: Of course. Are you going to sell them at the school fair?\nIsla: Maybe one day! But I just don't want the recipe to disappear.\n\nGemma: How was the Thai cooking class, Helen?\nHelen: Well, the recipes were really easy. I could make them all at home now. But the chef just stood at the front reading from his notes. He didn't come round once to see how we were doing.\nGemma: Oh dear.\nHelen: The other people were lovely, though. We're meeting for coffee next week. But I won't do another class with him.\n\nTom: Did you try that new Italian place on Mill Street, Jess?\nJess: Yes, on Friday. The pasta was amazing, honestly the best I've had in this town.\nTom: Great. I've heard it's quite cheap too.\nJess: It is, and you get loads on your plate. But we waited forty minutes for our main course, and the waiter got our drinks wrong twice.\n\nNadia: I've stopped eating meat, you know. Three months now.\nCallum: Really? How's it going?\nNadia: Fine! And my shopping costs much less. Beans and lentils cost almost nothing compared to chicken.\nCallum: That's true. My sister's vegetarian and she says the same. I'm not sure it's always healthier, though. Some veggie burgers are full of salt.\nNadia: Maybe. The worst thing is eating out. Most places only have one boring vegetarian dish.\n\nFinn: Dad, can I make dinner tonight?\nMan: You? That's a first! Is it for Mum's birthday or something?\nFinn: No, that's next month. It's for food technology at school. We've got a cooking competition in two weeks, and we have to make a main course in an hour. So I want to try my recipe at home first and see how long it takes.\nMan: Good idea.",
+        "segments": [
+          {
+            "id": "seg_2_0",
+            "label": "Recording 1",
+            "transcript": "Becky: We've run out of milk again, and there's no bread either.\nJoe: I know. We always forget something when we go to the supermarket.\nBecky: Shall we write a list and put it on the fridge?\nJoe: We tried that, remember? Nobody looked at it. Why don't we just order everything on the internet once a week? They bring it to the door, and the app remembers what we usually buy.\nBecky: Hmm, OK. Let's try it.",
+            "passageId": "en-b1-p-horen-t2-gist-food-cooking-01-06",
+            "questions": [
+              {
+                "id": "ql_en-b1-h-t2-gist-food-cooking-01-q6",
+                "type": "multiple_choice",
+                "question": "You will hear two flatmates talking about food shopping. What does Joe suggest?",
+                "correct": "a",
+                "correctAnswer": "a",
+                "explanation": "Joe says \"Why don't we just order everything on the internet once a week?\" The list was Becky's idea, and Joe rejects it: \"We tried that, remember? Nobody looked at it.\"",
+                "grammarTags": [
+                  "g-en-b1-suggestions"
+                ],
+                "topicTags": [
+                  "food"
+                ],
+                "vocabularyTags": [
+                  "run out of",
+                  "order"
+                ],
+                "difficulty": 3,
+                "options": [
+                  "a) Doing the shopping online",
+                  "b) Going to the supermarket more often",
+                  "c) Writing a shopping list"
+                ],
+                "level": "B1",
+                "passageId": "en-b1-p-horen-t2-gist-food-cooking-01-06"
+              }
+            ]
+          },
+          {
+            "id": "seg_2_1",
+            "label": "Recording 2",
+            "transcript": "Isla: Grandad, your apple cake is the best thing ever. How do you make it?\nGrandad: It's my mother's recipe. I've never written it down. It's all in my head.\nIsla: That's exactly why I'm asking! Will you show me on Sunday? I'll write everything down as we go, so it's never lost.\nGrandad: Of course. Are you going to sell them at the school fair?\nIsla: Maybe one day! But I just don't want the recipe to disappear.",
+            "passageId": "en-b1-p-horen-t2-gist-food-cooking-01-05",
+            "questions": [
+              {
+                "id": "ql_en-b1-h-t2-gist-food-cooking-01-q5",
+                "type": "multiple_choice",
+                "question": "You will hear a girl talking to her grandfather about a family recipe. What does she want to do?",
+                "correct": "c",
+                "correctAnswer": "c",
+                "explanation": "Isla says \"I’ll write everything down as we go, so it’s never lost\" and \"I just don’t want the recipe to disappear.\" Selling cakes is Grandad’s idea, and she only answers \"Maybe one day!\"",
+                "grammarTags": [
+                  "g-en-b1-present-perfect"
+                ],
+                "topicTags": [
+                  "food"
+                ],
+                "vocabularyTags": [
+                  "recipe",
+                  "write down"
+                ],
+                "difficulty": 4,
+                "options": [
+                  "a) Sell the cakes at a school fair",
+                  "b) Make some changes to the original recipe",
+                  "c) Keep a written copy of the recipe"
+                ],
+                "level": "B1",
+                "passageId": "en-b1-p-horen-t2-gist-food-cooking-01-05"
+              }
+            ]
+          },
+          {
+            "id": "seg_2_2",
+            "label": "Recording 3",
+            "transcript": "Gemma: How was the Thai cooking class, Helen?\nHelen: Well, the recipes were really easy. I could make them all at home now. But the chef just stood at the front reading from his notes. He didn't come round once to see how we were doing.\nGemma: Oh dear.\nHelen: The other people were lovely, though. We're meeting for coffee next week. But I won't do another class with him.",
+            "passageId": "en-b1-p-horen-t2-gist-food-cooking-01-04",
+            "questions": [
+              {
+                "id": "ql_en-b1-h-t2-gist-food-cooking-01-q4",
+                "type": "multiple_choice",
+                "question": "You will hear a woman telling a friend about a cooking class. What was she disappointed with?",
+                "correct": "c",
+                "correctAnswer": "c",
+                "explanation": "Helen says the chef \"just stood at the front reading from his notes\" and \"didn't come round once\", and \"I won't do another class with him.\" The recipes were \"really easy\", and \"The other people were lovely\".",
+                "grammarTags": [
+                  "g-en-b1-past-simple"
+                ],
+                "topicTags": [
+                  "food"
+                ],
+                "vocabularyTags": [
+                  "chef",
+                  "recipe"
+                ],
+                "difficulty": 4,
+                "options": [
+                  "a) The other people in the group",
+                  "b) How difficult the recipes were to follow",
+                  "c) The way the chef taught the class"
+                ],
+                "level": "B1",
+                "passageId": "en-b1-p-horen-t2-gist-food-cooking-01-04"
+              }
+            ]
+          },
+          {
+            "id": "seg_2_3",
+            "label": "Recording 4",
+            "transcript": "Tom: Did you try that new Italian place on Mill Street, Jess?\nJess: Yes, on Friday. The pasta was amazing, honestly the best I've had in this town.\nTom: Great. I've heard it's quite cheap too.\nJess: It is, and you get loads on your plate. But we waited forty minutes for our main course, and the waiter got our drinks wrong twice.",
+            "passageId": "en-b1-p-horen-t2-gist-food-cooking-01-01",
+            "questions": [
+              {
+                "id": "ql_en-b1-h-t2-gist-food-cooking-01-q1",
+                "type": "multiple_choice",
+                "question": "You will hear two friends talking about a new restaurant. What does Jess think of it?",
+                "correct": "b",
+                "correctAnswer": "b",
+                "explanation": "Jess loved the pasta (\"the best I've had in this town\"), but \"we waited forty minutes\" and \"the waiter got our drinks wrong twice\". She agrees it is cheap (\"It is\") and says \"you get loads on your plate\".",
+                "grammarTags": [
+                  "g-en-b1-superlatives"
+                ],
+                "topicTags": [
+                  "food"
+                ],
+                "vocabularyTags": [
+                  "waiter",
+                  "service"
+                ],
+                "difficulty": 4,
+                "options": [
+                  "a) The prices are too high for what you get.",
+                  "b) The service is not as good as the food.",
+                  "c) The meals are too small."
+                ],
+                "level": "B1",
+                "passageId": "en-b1-p-horen-t2-gist-food-cooking-01-01"
+              }
+            ]
+          },
+          {
+            "id": "seg_2_4",
+            "label": "Recording 5",
+            "transcript": "Nadia: I've stopped eating meat, you know. Three months now.\nCallum: Really? How's it going?\nNadia: Fine! And my shopping costs much less. Beans and lentils cost almost nothing compared to chicken.\nCallum: That's true. My sister's vegetarian and she says the same. I'm not sure it's always healthier, though. Some veggie burgers are full of salt.\nNadia: Maybe. The worst thing is eating out. Most places only have one boring vegetarian dish.",
+            "passageId": "en-b1-p-horen-t2-gist-food-cooking-01-03",
+            "questions": [
+              {
+                "id": "ql_en-b1-h-t2-gist-food-cooking-01-q3",
+                "type": "multiple_choice",
+                "question": "You will hear two friends talking about vegetarian food. What do they agree about?",
+                "correct": "a",
+                "correctAnswer": "a",
+                "explanation": "Nadia says \"my shopping costs much less\" and Callum answers \"That’s true.\" Callum is \"not sure it’s always healthier\", and Nadia complains that \"Most places only have one boring vegetarian dish\".",
+                "grammarTags": [
+                  "g-en-b1-comparatives"
+                ],
+                "topicTags": [
+                  "food"
+                ],
+                "vocabularyTags": [
+                  "vegetarian",
+                  "eat out"
+                ],
+                "difficulty": 5,
+                "options": [
+                  "a) It can cost less than meat.",
+                  "b) It is always healthier than meat.",
+                  "c) Restaurants have plenty of good vegetarian dishes."
+                ],
+                "level": "B1",
+                "passageId": "en-b1-p-horen-t2-gist-food-cooking-01-03"
+              }
+            ]
+          },
+          {
+            "id": "seg_2_5",
+            "label": "Recording 6",
+            "transcript": "Finn: Dad, can I make dinner tonight?\nMan: You? That's a first! Is it for Mum's birthday or something?\nFinn: No, that's next month. It's for food technology at school. We've got a cooking competition in two weeks, and we have to make a main course in an hour. So I want to try my recipe at home first and see how long it takes.\nMan: Good idea.",
+            "passageId": "en-b1-p-horen-t2-gist-food-cooking-01-02",
+            "questions": [
+              {
+                "id": "ql_en-b1-h-t2-gist-food-cooking-01-q2",
+                "type": "multiple_choice",
+                "question": "You will hear a boy talking to his father. Why does the boy want to cook dinner?",
+                "correct": "b",
+                "correctAnswer": "b",
+                "explanation": "Finn explains \"We've got a cooking competition in two weeks\" and \"I want to try my recipe at home first and see how long it takes\". His mother's birthday is \"next month\", so it isn't a surprise for her.",
+                "grammarTags": [
+                  "g-en-b1-have-to"
+                ],
+                "topicTags": [
+                  "food"
+                ],
+                "vocabularyTags": [
+                  "recipe",
+                  "competition"
+                ],
+                "difficulty": 3,
+                "options": [
+                  "a) To show his father a recipe",
+                  "b) To practise for a competition",
+                  "c) To surprise his mother on her birthday"
+                ],
+                "level": "B1",
+                "passageId": "en-b1-p-horen-t2-gist-food-cooking-01-02"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "teil": 3,
+        "instruction": "Listen and answer the questions in Part 3.",
+        "blueprintSlot": "sentence_completion",
+        "transcript": "Man: Hello, everyone. I'm Richard Bell, the director of the Castlegate Summer School here in York, and I'm going to tell you about this year's English course, which runs for three weeks in July.\n\nMan: Let's start with accommodation. In the past, some students stayed in rooms at the college, but those rooms are being repaired this year, so everyone will be living with host families. All our families live a short bus ride from the school.\n\nMan: Lessons take place in the mornings, from Monday to Friday. There are four lessons each morning, and each one lasts fifty minutes, with a break for a drink and a snack in the middle.\n\nMan: In the afternoons, you can choose from a range of activities. Many students expect football to be the favourite, but in fact drama is always the most popular. Some of our drama students have gone on to act in plays back home.\n\nMan: Every Saturday there's a full-day trip. Last year our first trip was to a museum in Leeds, but this year we're starting with a visit to a castle on the coast, which last year's students voted for.\n\nMan: Now, what should you pack? You don't need to bring towels or sheets, because your host family will provide them. But please do pack a raincoat. Even in summer, the weather here can change very quickly.\n\nMan: And finally, on the last evening of the course, we hold a party in the school garden, and that's when you'll receive your certificate. Your host families are very welcome to come along too. I'm looking forward to meeting you all.",
+        "segments": [
+          {
+            "id": "seg_3_0",
+            "label": "Recording 1",
+            "transcript": "Man: Hello, everyone. I'm Richard Bell, the director of the Castlegate Summer School here in York, and I'm going to tell you about this year's English course, which runs for three weeks in July.\n\nMan: Let's start with accommodation. In the past, some students stayed in rooms at the college, but those rooms are being repaired this year, so everyone will be living with host families. All our families live a short bus ride from the school.\n\nMan: Lessons take place in the mornings, from Monday to Friday. There are four lessons each morning, and each one lasts fifty minutes, with a break for a drink and a snack in the middle.\n\nMan: In the afternoons, you can choose from a range of activities. Many students expect football to be the favourite, but in fact drama is always the most popular. Some of our drama students have gone on to act in plays back home.\n\nMan: Every Saturday there's a full-day trip. Last year our first trip was to a museum in Leeds, but this year we're starting with a visit to a castle on the coast, which last year's students voted for.\n\nMan: Now, what should you pack? You don't need to bring towels or sheets, because your host family will provide them. But please do pack a raincoat. Even in summer, the weather here can change very quickly.\n\nMan: And finally, on the last evening of the course, we hold a party in the school garden, and that's when you'll receive your certificate. Your host families are very welcome to come along too. I'm looking forward to meeting you all.",
+            "passageId": "en-b1-p-horen-t3-gapfill-summer-course-01-01",
+            "questions": [
+              {
+                "id": "ql_en-b1-h-t3-gapfill-summer-course-01-q1",
+                "type": "gap_fill",
+                "question": "Accommodation this year: all students will stay with ____.",
+                "correct": "host families",
+                "correctAnswer": "host families",
+                "explanation": "Richard says the college rooms 'are being repaired this year, so everyone will be living with host families'. The college rooms were used in the past, so they are not the answer.",
+                "grammarTags": [
+                  "g-en-b1-present-continuous-passive"
+                ],
+                "topicTags": [
+                  "education-courses"
+                ],
+                "vocabularyTags": [
+                  "accommodation",
+                  "host family",
+                  "college"
+                ],
+                "difficulty": 4,
+                "acceptedAnswers": [
+                  "a host family",
+                  "host family"
+                ],
+                "level": "B1",
+                "passageId": "en-b1-p-horen-t3-gapfill-summer-course-01-01"
+              },
+              {
+                "id": "ql_en-b1-h-t3-gapfill-summer-course-01-q2",
+                "type": "gap_fill",
+                "question": "Number of lessons each morning: ____",
+                "correct": "four",
+                "correctAnswer": "four",
+                "explanation": "Richard says 'There are four lessons each morning'. Fifty is the number of minutes each lesson lasts, not the number of lessons.",
+                "grammarTags": [
+                  "g-en-b1-numbers"
+                ],
+                "topicTags": [
+                  "education-courses"
+                ],
+                "vocabularyTags": [
+                  "lesson",
+                  "morning",
+                  "break"
+                ],
+                "difficulty": 3,
+                "acceptedAnswers": [
+                  "4"
+                ],
+                "level": "B1",
+                "passageId": "en-b1-p-horen-t3-gapfill-summer-course-01-01"
+              },
+              {
+                "id": "ql_en-b1-h-t3-gapfill-summer-course-01-q3",
+                "type": "gap_fill",
+                "question": "Most popular afternoon activity: ____",
+                "correct": "drama",
+                "correctAnswer": "drama",
+                "explanation": "Richard says 'Many students expect football to be the favourite, but in fact drama is always the most popular.' Football is only what students expect.",
+                "grammarTags": [
+                  "g-en-b1-superlatives"
+                ],
+                "topicTags": [
+                  "education-courses"
+                ],
+                "vocabularyTags": [
+                  "activity",
+                  "drama",
+                  "popular"
+                ],
+                "difficulty": 4,
+                "level": "B1",
+                "passageId": "en-b1-p-horen-t3-gapfill-summer-course-01-01"
+              },
+              {
+                "id": "ql_en-b1-h-t3-gapfill-summer-course-01-q4",
+                "type": "gap_fill",
+                "question": "This year's first Saturday trip: a visit to a ____ on the coast.",
+                "correct": "castle",
+                "correctAnswer": "castle",
+                "explanation": "Richard says 'this year we're starting with a visit to a castle on the coast'. The museum in Leeds was last year's first trip.",
+                "grammarTags": [
+                  "g-en-b1-present-continuous-future"
+                ],
+                "topicTags": [
+                  "education-courses"
+                ],
+                "vocabularyTags": [
+                  "trip",
+                  "castle",
+                  "coast"
+                ],
+                "difficulty": 4,
+                "level": "B1",
+                "passageId": "en-b1-p-horen-t3-gapfill-summer-course-01-01"
+              },
+              {
+                "id": "ql_en-b1-h-t3-gapfill-summer-course-01-q5",
+                "type": "gap_fill",
+                "question": "Students should remember to pack a ____.",
+                "correct": "raincoat",
+                "correctAnswer": "raincoat",
+                "explanation": "Richard says 'please do pack a raincoat', because the weather 'can change very quickly'. Towels and sheets are not needed, because host families provide them.",
+                "grammarTags": [
+                  "g-en-b1-modals"
+                ],
+                "topicTags": [
+                  "education-courses"
+                ],
+                "vocabularyTags": [
+                  "pack",
+                  "towel",
+                  "raincoat"
+                ],
+                "difficulty": 4,
+                "acceptedAnswers": [
+                  "rain coat"
+                ],
+                "level": "B1",
+                "passageId": "en-b1-p-horen-t3-gapfill-summer-course-01-01"
+              },
+              {
+                "id": "ql_en-b1-h-t3-gapfill-summer-course-01-q6",
+                "type": "gap_fill",
+                "question": "Students receive their certificates at a ____ in the school garden.",
+                "correct": "party",
+                "correctAnswer": "party",
+                "explanation": "Richard says 'we hold a party in the school garden, and that's when you'll receive your certificate'.",
+                "grammarTags": [
+                  "g-en-b1-relative-adverbs"
+                ],
+                "topicTags": [
+                  "education-courses"
+                ],
+                "vocabularyTags": [
+                  "certificate",
+                  "party",
+                  "garden"
+                ],
+                "difficulty": 3,
+                "level": "B1",
+                "passageId": "en-b1-p-horen-t3-gapfill-summer-course-01-01"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "teil": 4,
+        "instruction": "Listen and answer the questions in Part 4.",
+        "blueprintSlot": "interview_mcq",
+        "transcript": "Interviewer: Today I'm talking to Daniel Hughes, a vet who works in a small country practice in north Wales. Daniel, did you always want to be a vet?\n\nDaniel: Not at all! As a child I was actually a bit frightened of dogs, and we didn't have any pets at home. I was quite good at science at school, but I wanted to be an engineer. Then, when I was fifteen, I spent a summer on my uncle's farm, and one night a cow was having trouble giving birth. The vet arrived, and an hour later the mother and the calf were both fine. I remember thinking: that's what I want to do.\n\nInterviewer: What surprised you when you started working?\n\nDaniel: Everyone had warned me how hard the studying would be, and they were right, but I was ready for that. And I knew the hours would be long. What I hadn't expected was how much of the job is talking to people. Owners are often upset or worried, and you need to explain things calmly and kindly. That's something nobody really teaches you at university.\n\nInterviewer: Which part of the job do you enjoy most?\n\nDaniel: People imagine I'd love the puppy appointments best, and of course puppies are lovely. Operations can be exciting, too. But what I really enjoy is driving out to the farms and being outside, even when it's pouring with rain. Every day's different out there, and the farmers are great to work with.\n\nInterviewer: Do you have to work at night?\n\nDaniel: Yes, about twice a week I'm on call. I won't pretend it's easy. I'm often very tired the next day. But it's part of being a vet, and I accept that. And there's something quite special about helping a lamb into the world at three in the morning.\n\nInterviewer: Lots of pet owners look things up online before they come to see you. Does that annoy you?\n\nDaniel: Some of my colleagues get quite annoyed, but I don't. It shows that people care about their animals. The trouble is that they often read about the worst possible illness, so they arrive much more worried than they need to be. Usually it's something quite simple.\n\nInterviewer: And what about the future? Would you like your own practice one day?\n\nDaniel: A couple of friends from university have opened their own practices in the city, and people often ask if I'll do the same. But I'm really happy where I am, and the paperwork that comes with running a business doesn't appeal to me at all. What I would like, though, is to teach vet students part-time one day. I had some brilliant teachers, and I'd love to do that for someone else.\n\nInterviewer: Daniel Hughes, thank you.",
+        "segments": [
+          {
+            "id": "seg_4_0",
+            "label": "Recording 1",
+            "transcript": "Interviewer: Today I'm talking to Daniel Hughes, a vet who works in a small country practice in north Wales. Daniel, did you always want to be a vet?\n\nDaniel: Not at all! As a child I was actually a bit frightened of dogs, and we didn't have any pets at home. I was quite good at science at school, but I wanted to be an engineer. Then, when I was fifteen, I spent a summer on my uncle's farm, and one night a cow was having trouble giving birth. The vet arrived, and an hour later the mother and the calf were both fine. I remember thinking: that's what I want to do.\n\nInterviewer: What surprised you when you started working?\n\nDaniel: Everyone had warned me how hard the studying would be, and they were right, but I was ready for that. And I knew the hours would be long. What I hadn't expected was how much of the job is talking to people. Owners are often upset or worried, and you need to explain things calmly and kindly. That's something nobody really teaches you at university.\n\nInterviewer: Which part of the job do you enjoy most?\n\nDaniel: People imagine I'd love the puppy appointments best, and of course puppies are lovely. Operations can be exciting, too. But what I really enjoy is driving out to the farms and being outside, even when it's pouring with rain. Every day's different out there, and the farmers are great to work with.\n\nInterviewer: Do you have to work at night?\n\nDaniel: Yes, about twice a week I'm on call. I won't pretend it's easy. I'm often very tired the next day. But it's part of being a vet, and I accept that. And there's something quite special about helping a lamb into the world at three in the morning.\n\nInterviewer: Lots of pet owners look things up online before they come to see you. Does that annoy you?\n\nDaniel: Some of my colleagues get quite annoyed, but I don't. It shows that people care about their animals. The trouble is that they often read about the worst possible illness, so they arrive much more worried than they need to be. Usually it's something quite simple.\n\nInterviewer: And what about the future? Would you like your own practice one day?\n\nDaniel: A couple of friends from university have opened their own practices in the city, and people often ask if I'll do the same. But I'm really happy where I am, and the paperwork that comes with running a business doesn't appeal to me at all. What I would like, though, is to teach vet students part-time one day. I had some brilliant teachers, and I'd love to do that for someone else.\n\nInterviewer: Daniel Hughes, thank you.",
+            "passageId": "en-b1-p-horen-t4-interview-vet-01-01",
+            "questions": [
+              {
+                "id": "ql_en-b1-h-t4-interview-vet-01-q1",
+                "type": "multiple_choice",
+                "question": "Why did Daniel decide to become a vet?",
+                "correct": "a",
+                "correctAnswer": "a",
+                "explanation": "Daniel describes the night on his uncle's farm when 'The vet arrived, and an hour later the mother and the calf were both fine', and says 'that's what I want to do.' He was good at science, but at that time he 'wanted to be an engineer', and as a child he was 'frightened of dogs'.",
+                "grammarTags": [
+                  "g-en-b1-past-continuous"
+                ],
+                "topicTags": [
+                  "work-jobs"
+                ],
+                "vocabularyTags": [
+                  "frightened",
+                  "engineer",
+                  "calf"
+                ],
+                "difficulty": 4,
+                "options": [
+                  "a) He saw a vet save an animal on a farm.",
+                  "b) He had loved animals since he was very small.",
+                  "c) He was good at science subjects at school."
+                ],
+                "level": "B1",
+                "passageId": "en-b1-p-horen-t4-interview-vet-01-01"
+              },
+              {
+                "id": "ql_en-b1-h-t4-interview-vet-01-q2",
+                "type": "multiple_choice",
+                "question": "What surprised Daniel when he started working as a vet?",
+                "correct": "c",
+                "correctAnswer": "c",
+                "explanation": "Daniel says 'What I hadn't expected was how much of the job is talking to people.' He says he 'was ready for' the hard studying and 'knew the hours would be long', so neither surprised him.",
+                "grammarTags": [
+                  "g-en-b1-past-perfect"
+                ],
+                "topicTags": [
+                  "work-jobs"
+                ],
+                "vocabularyTags": [
+                  "warn",
+                  "owner",
+                  "explain"
+                ],
+                "difficulty": 5,
+                "options": [
+                  "a) How many hours he had to work each day",
+                  "b) How hard the studying at university had been",
+                  "c) How much he had to talk to owners"
+                ],
+                "level": "B1",
+                "passageId": "en-b1-p-horen-t4-interview-vet-01-01"
+              },
+              {
+                "id": "ql_en-b1-h-t4-interview-vet-01-q3",
+                "type": "multiple_choice",
+                "question": "What does Daniel enjoy most about his job?",
+                "correct": "a",
+                "correctAnswer": "a",
+                "explanation": "Daniel says 'what I really enjoy is driving out to the farms and being outside, even when it's pouring with rain.' He says puppies are 'lovely' and operations 'can be exciting', but neither is what he enjoys most.",
+                "grammarTags": [
+                  "g-en-b1-superlatives"
+                ],
+                "topicTags": [
+                  "work-jobs"
+                ],
+                "vocabularyTags": [
+                  "appointment",
+                  "operation",
+                  "pour"
+                ],
+                "difficulty": 4,
+                "options": [
+                  "a) Working outside on farms",
+                  "b) Carrying out operations",
+                  "c) Seeing young animals at the practice"
+                ],
+                "level": "B1",
+                "passageId": "en-b1-p-horen-t4-interview-vet-01-01"
+              },
+              {
+                "id": "ql_en-b1-h-t4-interview-vet-01-q4",
+                "type": "multiple_choice",
+                "question": "How does Daniel feel about working at night?",
+                "correct": "b",
+                "correctAnswer": "b",
+                "explanation": "Daniel says 'I'm often very tired the next day. But it's part of being a vet, and I accept that.' He finds some night work 'quite special', but he never says he prefers it to daytime work.",
+                "grammarTags": [
+                  "g-en-b1-present-simple"
+                ],
+                "topicTags": [
+                  "work-jobs"
+                ],
+                "vocabularyTags": [
+                  "on call",
+                  "pretend",
+                  "accept"
+                ],
+                "difficulty": 4,
+                "options": [
+                  "a) He hopes he can stop doing it soon.",
+                  "b) He accepts it, although it is tiring.",
+                  "c) He prefers it to working during the day."
+                ],
+                "level": "B1",
+                "passageId": "en-b1-p-horen-t4-interview-vet-01-01"
+              },
+              {
+                "id": "ql_en-b1-h-t4-interview-vet-01-q5",
+                "type": "multiple_choice",
+                "question": "What does Daniel think about owners who look for information online?",
+                "correct": "b",
+                "correctAnswer": "b",
+                "explanation": "Daniel says owners 'often read about the worst possible illness, so they arrive much more worried than they need to be.' He says 'Some of my colleagues get quite annoyed, but I don't.'",
+                "grammarTags": [
+                  "g-en-b1-comparatives"
+                ],
+                "topicTags": [
+                  "work-jobs"
+                ],
+                "vocabularyTags": [
+                  "look up",
+                  "annoyed",
+                  "illness"
+                ],
+                "difficulty": 5,
+                "options": [
+                  "a) He finds it annoying, like his colleagues.",
+                  "b) It frightens them more than it should.",
+                  "c) They often know as much as some vets do."
+                ],
+                "level": "B1",
+                "passageId": "en-b1-p-horen-t4-interview-vet-01-01"
+              },
+              {
+                "id": "ql_en-b1-h-t4-interview-vet-01-q6",
+                "type": "multiple_choice",
+                "question": "What does Daniel say about his plans for the future?",
+                "correct": "c",
+                "correctAnswer": "c",
+                "explanation": "Daniel says 'What I would like, though, is to teach vet students part-time one day.' His friends have opened practices in the city, but he says 'I'm really happy where I am' and running a business 'doesn't appeal to me at all'.",
+                "grammarTags": [
+                  "g-en-b1-would-like"
+                ],
+                "topicTags": [
+                  "work-jobs"
+                ],
+                "vocabularyTags": [
+                  "practice",
+                  "paperwork",
+                  "appeal"
+                ],
+                "difficulty": 4,
+                "options": [
+                  "a) He is thinking of moving to a city.",
+                  "b) He would like to open his own practice.",
+                  "c) He hopes to teach students one day."
+                ],
+                "level": "B1",
+                "passageId": "en-b1-p-horen-t4-interview-vet-01-01"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "schreibenParts": [
+      {
+        "aufgabe": 1,
+        "fieldId": "write_bp_1",
+        "task": "Part 1. You must answer this question.\n\nRead this email from your friend Callum and the notes you have made.\n\nFrom: Callum\nSubject: Concert tickets!\n\nGuess what? I've got two tickets for the Silver Foxes concert at the City Arena on Saturday 14 June! [Note 1: Great!]\n\nThe concert starts at eight o'clock in the evening. How do you think we should get there? [Note 2: Suggest …]\n\nShall we have something to eat in town before the concert? [Note 3: Yes, because …]\n\nThere's one problem. My sister Jess really wants to come with us, but all the tickets have gone. What should I say to her? [Note 4: Explain]\n\nTalk soon,\nCallum\n\nWrite your email to Callum using all the notes. Write about 100 words.",
+        "minWords": 80,
+        "maxWords": 80,
+        "targetWords": 80,
+        "mandatory": true,
+        "taskType": "email",
+        "blueprintSlot": "email",
+        "grammarTags": [
+          "g-en-b1-suggestions",
+          "g-en-b1-future-forms"
+        ],
+        "topicTags": [
+          "entertainment"
+        ],
+        "teil": 1
+      },
+      {
+        "aufgabe": 2,
+        "fieldId": "write_bp_2",
+        "task": "Part 2. Choose ONE of these questions. Write your answer in about 100 words.\n\nQuestion 2: Article\nYou see this notice on an English-language website for teenagers.\n\nARTICLES WANTED!\nThe best concert or show I have seen\nWhat was the concert or show? Who did you go with? Why was it so special?\nWrite an article answering these questions. The best articles will appear on our website.\n\nWrite your article.\n\nQuestion 3: Story\nYour English teacher has asked you to write a story.\nYour story must begin with this sentence:\n'The lights went out just before the show started.'\n\nWrite your story.",
+        "minWords": 80,
+        "maxWords": 80,
+        "targetWords": 80,
+        "mandatory": false,
+        "taskType": "article",
+        "blueprintSlot": "choice_writing",
+        "grammarTags": [
+          "g-en-b1-past-continuous",
+          "g-en-b1-superlatives"
+        ],
+        "topicTags": [
+          "entertainment"
+        ],
+        "teil": 2
+      }
+    ],
+    "sprechenParts": [
+      {
+        "teil": 1,
+        "title": "Part 1 — Speaking",
+        "fieldId": "speak_bp_1",
+        "situation": "Part 1 (2-3 minutes). The examiner asks you some questions about yourself.\n\nWhat's your name? How old are you?\nWhat sports do you like doing?\nHow often do you do some exercise?\nDo you prefer playing sport or watching it? Why?\nTell us about a sport you would like to try.\nWhat sports did you do at primary school?",
+        "points": [
+          "interview"
+        ],
+        "blueprintSlot": "speaking_task",
+        "grammarTags": [
+          "g-en-b1-adverbs-frequency",
+          "g-en-b1-past-simple"
+        ],
+        "topicTags": [
+          "sport"
+        ]
+      },
+      {
+        "teil": 2,
+        "title": "Part 2 — Speaking",
+        "fieldId": "speak_bp_2",
+        "situation": "Part 2 (about 1 minute). Look at the photograph. It shows a group of young people playing volleyball on a beach on a sunny day. Some of them are jumping to hit the ball, and a few friends are sitting on towels and watching. Tell us what you can see in the photograph.",
+        "points": [
+          "photo_description"
+        ],
+        "blueprintSlot": "speaking_task",
+        "grammarTags": [
+          "g-en-b1-present-continuous",
+          "g-en-b1-speculation"
+        ],
+        "topicTags": [
+          "sport"
+        ]
+      },
+      {
+        "teil": 3,
+        "title": "Part 3 — Speaking",
+        "fieldId": "speak_bp_3",
+        "situation": "Part 3 (2-3 minutes). Talk to your partner.\n\nYour school is organising a sports day for students of all ages and all levels of fitness. Here are some activities that could be part of the day:\n\na running race\na tug of war\na basketball competition\na dance class\na table tennis competition\nan egg-and-spoon race\n\nTalk together about the different activities, and say which two would be the best for everyone at the school.",
+        "points": [
+          "collaborative_task"
+        ],
+        "blueprintSlot": "speaking_task",
+        "grammarTags": [
+          "g-en-b1-suggestions",
+          "g-en-b1-agreeing-disagreeing"
+        ],
+        "topicTags": [
+          "sport"
+        ]
+      },
+      {
+        "teil": 4,
+        "title": "Part 4 — Speaking",
+        "fieldId": "speak_bp_4",
+        "situation": "Part 4 (about 3 minutes). The examiner asks you and your partner some questions about keeping fit and healthy.\n\nWhat do you do to keep fit?\nDo you think young people do enough exercise these days? Why / Why not?\nIs it better to do sport alone or with other people? Why?\nWhat can people do to have a healthy diet?\nShould schools have more sport lessons? Why / Why not?",
+        "points": [
+          "general_conversation"
+        ],
+        "blueprintSlot": "speaking_task",
+        "grammarTags": [
+          "g-en-b1-opinions",
+          "g-en-b1-modals"
+        ],
+        "topicTags": [
+          "sport"
+        ]
+      }
+    ],
+    "cambridgeFormat": true,
+    "curated": true
+  },
+  "provenance": {
+    "generatedBy": "publish-promote-candidates",
+    "validatedBy": "audit-pass-2+lexicalCheck+CefrGate",
+    "blueprintId": "cambridge-b1",
+    "cefrGate": {
+      "withinRange": true,
+      "metrics": {},
+      "reasons": []
+    },
+    "sourceBankIds": [
+      "en-b1-r-t1-notices-cinema-01-q5",
+      "en-b1-r-t1-notices-cinema-01-q4",
+      "en-b1-r-t1-notices-cinema-01-q1",
+      "en-b1-r-t1-notices-cinema-01-q2",
+      "en-b1-r-t1-notices-cinema-01-q3",
+      "en-b1-r-t2-match-sports-clubs-01-q1",
+      "en-b1-r-t2-match-sports-clubs-01-q2",
+      "en-b1-r-t2-match-sports-clubs-01-q3",
+      "en-b1-r-t2-match-sports-clubs-01-q4",
+      "en-b1-r-t2-match-sports-clubs-01-q5",
+      "en-b1-r-t3-long-zookeeper-01-q1",
+      "en-b1-r-t3-long-zookeeper-01-q2",
+      "en-b1-r-t3-long-zookeeper-01-q3",
+      "en-b1-r-t3-long-zookeeper-01-q4",
+      "en-b1-r-t3-long-zookeeper-01-q5",
+      "en-b1-r-t4-gapped-board-games-01-q1",
+      "en-b1-r-t4-gapped-board-games-01-q2",
+      "en-b1-r-t4-gapped-board-games-01-q3",
+      "en-b1-r-t4-gapped-board-games-01-q4",
+      "en-b1-r-t4-gapped-board-games-01-q5",
+      "en-b1-r-t5-cloze-old-photos-01-q1",
+      "en-b1-r-t5-cloze-old-photos-01-q2",
+      "en-b1-r-t5-cloze-old-photos-01-q3",
+      "en-b1-r-t5-cloze-old-photos-01-q4",
+      "en-b1-r-t5-cloze-old-photos-01-q5",
+      "en-b1-r-t5-cloze-old-photos-01-q6",
+      "en-b1-r-t6-open-cloze-school-play-01-q1",
+      "en-b1-r-t6-open-cloze-school-play-01-q2",
+      "en-b1-r-t6-open-cloze-school-play-01-q3",
+      "en-b1-r-t6-open-cloze-school-play-01-q4",
+      "en-b1-r-t6-open-cloze-school-play-01-q5",
+      "en-b1-r-t6-open-cloze-school-play-01-q6",
+      "en-b1-h-t1-pics-home-jobs-01-s4-q1",
+      "en-b1-h-t1-pics-home-jobs-01-s6-q1",
+      "en-b1-h-t1-pics-home-jobs-01-s3-q1",
+      "en-b1-h-t1-pics-home-jobs-01-s1-q1",
+      "en-b1-h-t1-pics-home-jobs-01-s7-q1",
+      "en-b1-h-t1-pics-home-jobs-01-s2-q1",
+      "en-b1-h-t1-pics-home-jobs-01-s5-q1",
+      "en-b1-h-t2-gist-food-cooking-01-q6",
+      "en-b1-h-t2-gist-food-cooking-01-q5",
+      "en-b1-h-t2-gist-food-cooking-01-q4",
+      "en-b1-h-t2-gist-food-cooking-01-q1",
+      "en-b1-h-t2-gist-food-cooking-01-q3",
+      "en-b1-h-t2-gist-food-cooking-01-q2",
+      "en-b1-h-t3-gapfill-summer-course-01-q1",
+      "en-b1-h-t3-gapfill-summer-course-01-q2",
+      "en-b1-h-t3-gapfill-summer-course-01-q3",
+      "en-b1-h-t3-gapfill-summer-course-01-q4",
+      "en-b1-h-t3-gapfill-summer-course-01-q5",
+      "en-b1-h-t3-gapfill-summer-course-01-q6",
+      "en-b1-h-t4-interview-vet-01-q1",
+      "en-b1-h-t4-interview-vet-01-q2",
+      "en-b1-h-t4-interview-vet-01-q3",
+      "en-b1-h-t4-interview-vet-01-q4",
+      "en-b1-h-t4-interview-vet-01-q5",
+      "en-b1-h-t4-interview-vet-01-q6",
+      "en-b1-w-t1-email-concert-tickets-01-q1",
+      "en-b1-w-t2-email-concert-tickets-01-q1",
+      "en-b1-s-t1-speaking-sport-health-01-q1",
+      "en-b1-s-t2-speaking-sport-health-01-q1",
+      "en-b1-s-t3-speaking-sport-health-01-q1",
+      "en-b1-s-t4-speaking-sport-health-01-q1"
+    ],
+    "validationErrors": [],
+    "createdAt": "2026-10-12T14:44:23.451Z",
+    "strategy": "B"
+  }
+}

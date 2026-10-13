@@ -1,0 +1,198 @@
+{
+  "passages": [
+    {
+      "id": "en-b1-p-lesen-t6-open-cloze-lost-cat-01-01",
+      "module": "lesen",
+      "title": "Where was Biscuit?",
+      "text": "Last winter our cat, Biscuit, disappeared. He always comes home for his dinner at six o'clock, so when he didn't appear, we started to worry.\n\nWe searched the garden and the street with torches, but by midnight we (1) ____ still not found him anywhere. The next day my sister made posters with his photo, and we put them on every lamp post in the neighbourhood. Several people called, but none of the cats they had seen was Biscuit.\n\nBy Thursday, Biscuit had been missing (2) ____ Sunday evening, and we were starting to give (3) ____ hope. Then, at ten o'clock that night, our neighbour Mr Davies knocked on the door. He had been clearing out his garage and had heard a quiet noise behind some old paint tins.\n\nI ran next door as fast (4) ____ I could. There was Biscuit, dusty and (5) ____ thin that I hardly recognised him. He must have walked into the garage while the door was open and got trapped.\n\nIt wasn't (6) ____ he had eaten two bowls of food that he finally began to purr. Now we always check Mr Davies's garage first!",
+      "passageVocab": [
+        "disappear",
+        "poster",
+        "neighbourhood",
+        "trapped",
+        "purr"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "en-b1-r-t6-open-cloze-lost-cat-01-q1",
+      "module": "lesen",
+      "teil": 6,
+      "type": "gap_fill",
+      "passageId": "en-b1-p-lesen-t6-open-cloze-lost-cat-01-01",
+      "question": "Write ONE word for gap (1).",
+      "options": [],
+      "correct": "had",
+      "correctAnswer": "had",
+      "explanation": "By midnight points to a time in the past, so the past perfect is needed: \"by midnight we had still not found him anywhere\". Have would need a present time.",
+      "grammarTags": [
+        "g-en-b1-modals-ability"
+      ],
+      "topicTags": [
+        "animals"
+      ],
+      "vocabularyTags": [
+        "be able to",
+        "search"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-r-t6-open-cloze-lost-cat-01-q2",
+      "module": "lesen",
+      "teil": 6,
+      "type": "gap_fill",
+      "passageId": "en-b1-p-lesen-t6-open-cloze-lost-cat-01-01",
+      "question": "Write ONE word for gap (2).",
+      "options": [],
+      "correct": "since",
+      "correctAnswer": "since",
+      "explanation": "With a perfect tense, 'since' introduces the point in time when something started: \"Biscuit had been missing since Sunday evening\". 'For' is used with a period of time (for four days), not with a point like 'Sunday evening'.",
+      "grammarTags": [
+        "g-en-b1-since-for"
+      ],
+      "topicTags": [
+        "animals"
+      ],
+      "vocabularyTags": [
+        "since",
+        "missing"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-r-t6-open-cloze-lost-cat-01-q3",
+      "module": "lesen",
+      "teil": 6,
+      "type": "gap_fill",
+      "passageId": "en-b1-p-lesen-t6-open-cloze-lost-cat-01-01",
+      "question": "Write ONE word for gap (3).",
+      "options": [],
+      "correct": "up",
+      "correctAnswer": "up",
+      "explanation": "The phrasal verb 'give up hope' means stop believing something good will happen: after four days \"we were starting to give up hope\".",
+      "grammarTags": [
+        "g-en-b1-phrasal-verbs"
+      ],
+      "topicTags": [
+        "animals"
+      ],
+      "vocabularyTags": [
+        "give up hope"
+      ],
+      "difficulty": 3,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-r-t6-open-cloze-lost-cat-01-q4",
+      "module": "lesen",
+      "teil": 6,
+      "type": "gap_fill",
+      "passageId": "en-b1-p-lesen-t6-open-cloze-lost-cat-01-01",
+      "question": "Write ONE word for gap (4).",
+      "options": [],
+      "correct": "as",
+      "correctAnswer": "as",
+      "explanation": "The comparison 'as + adverb + as' needs a second 'as': \"I ran next door as fast as I could\".",
+      "grammarTags": [
+        "g-en-b1-comparatives"
+      ],
+      "topicTags": [
+        "animals"
+      ],
+      "vocabularyTags": [
+        "as fast as"
+      ],
+      "difficulty": 3,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-r-t6-open-cloze-lost-cat-01-q5",
+      "module": "lesen",
+      "teil": 6,
+      "type": "gap_fill",
+      "passageId": "en-b1-p-lesen-t6-open-cloze-lost-cat-01-01",
+      "question": "Write ONE word for gap (5).",
+      "options": [],
+      "correct": "so",
+      "correctAnswer": "so",
+      "explanation": "The pattern is 'so + adjective + that' to show a result: Biscuit was \"so thin that I hardly recognised him\". 'Such' is not possible before an adjective without a noun, and 'too' cannot be followed by 'that'.",
+      "grammarTags": [
+        "g-en-b1-so-such"
+      ],
+      "topicTags": [
+        "animals"
+      ],
+      "vocabularyTags": [
+        "so … that",
+        "thin"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-r-t6-open-cloze-lost-cat-01-q6",
+      "module": "lesen",
+      "teil": 6,
+      "type": "gap_fill",
+      "passageId": "en-b1-p-lesen-t6-open-cloze-lost-cat-01-01",
+      "question": "Write ONE word for gap (6).",
+      "options": [],
+      "correct": "until",
+      "correctAnswer": "until",
+      "acceptedAnswers": [
+        "till"
+      ],
+      "explanation": "The pattern 'It wasn't until … that …' shows that something happened only after another event: \"It wasn't until he had eaten two bowls of food that he finally began to purr.\" 'Till' has the same meaning and is also accepted.",
+      "grammarTags": [
+        "g-en-b1-time-conjunctions"
+      ],
+      "topicTags": [
+        "animals"
+      ],
+      "vocabularyTags": [
+        "not until",
+        "purr"
+      ],
+      "difficulty": 5,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    }
+  ],
+  "_germanCapsNormalizeVersion": "v3.23-lesen-t2-angebote-corpus-2026-07-28",
+  "_germanCapsNormalizedAt": "2026-10-12T19:48:37.083Z",
+  "_balanceMcqVersion": "v1.2-no-rf-chrono-shuffle-2026-07-11",
+  "_balanceMcqNormalizedAt": "2026-10-12T19:48:37.083Z"
+}

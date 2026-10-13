@@ -1,0 +1,199 @@
+{
+  "passages": [
+    {
+      "id": "en-b1-p-lesen-t3-long-restaurant-owner-01-01",
+      "module": "lesen",
+      "title": "Our family restaurant",
+      "text": "When my parents told us they wanted to open a restaurant, my brother and I laughed. Dad had worked in an office for twenty years, and Mum was a nurse. The only cooking they had ever done was at home. It is true, though, that our friends were always asking to come round for dinner. Mum's grandmother had taught her to cook Lebanese food when she was a child, and she still made everything the old way, without recipe books.\n\nThey found an empty shop near the harbour in Falmouth, the small town in Cornwall where we had lived since I was six. It had been a shoe shop. There was no kitchen at all, and for three months the whole family spent every weekend painting walls and putting up shelves. I was fifteen and I complained a lot. I wanted to be at the beach with my friends, not cleaning floors. Looking back, though, those weekends are some of my best memories, because for once we were all working together.\n\nWe opened in March with just eight tables. For the first few weeks, hardly anyone came in. Local people seemed nervous about trying dishes they had never heard of, and Dad began to wonder whether he had made a terrible mistake. Then Mum had an idea. Every Saturday morning she put a table outside the door and gave away small plates of food to anyone walking past. People tasted the falafel and the bread, asked questions, and many of them came back for dinner the same evening.\n\nBy the summer the restaurant was full most nights, mainly thanks to the holidaymakers who come to Falmouth in July and August. Dad was relieved, but Mum was already worried about how we would earn enough in the winter, when the town gets much quieter. So she started cooking classes on Monday evenings, when the restaurant is closed. They were so popular that there is now a waiting list.\n\nRunning a family business is not always easy. My parents work very long hours, and sometimes they argue about money in the kitchen while customers are eating next door. My brother now helps with the accounts, and I serve at the tables during the school holidays. I don't think I want to run a restaurant myself one day, because I've seen how tiring it is. But I'm proud of what my parents have done. When someone tells me that our food reminds them of a holiday or of their grandmother's kitchen, I understand why they gave up safe jobs to do it.\n\nLeila Haddad",
+      "passageVocab": [
+        "harbour",
+        "holidaymaker",
+        "waiting list",
+        "accounts",
+        "relieved"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "en-b1-r-t3-long-restaurant-owner-01-q1",
+      "module": "lesen",
+      "teil": 3,
+      "type": "multiple_choice",
+      "passageId": "en-b1-p-lesen-t3-long-restaurant-owner-01-01",
+      "question": "What does Leila say about her parents before they opened the restaurant?",
+      "options": [
+        "a) Her mother cooked mainly from old recipe books.",
+        "b) They had already worked in a restaurant for a short time.",
+        "c) They had no experience of cooking as a job.",
+        "d) Their friends had advised them to start a business."
+      ],
+      "correct": "c",
+      "correctAnswer": "c",
+      "explanation": "Leila writes that 'Dad had worked in an office for twenty years, and Mum was a nurse' and 'The only cooking they had ever done was at home', so they had never cooked professionally. Their friends only asked 'to come round for dinner'; they did not advise them to start a business. Mum cooked 'without recipe books', and there is no mention of earlier restaurant work.",
+      "grammarTags": [
+        "g-en-b1-past-perfect"
+      ],
+      "topicTags": [
+        "work"
+      ],
+      "vocabularyTags": [
+        "restaurant",
+        "office",
+        "nurse",
+        "recipe"
+      ],
+      "difficulty": 3,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-r-t3-long-restaurant-owner-01-q2",
+      "module": "lesen",
+      "teil": 3,
+      "type": "multiple_choice",
+      "passageId": "en-b1-p-lesen-t3-long-restaurant-owner-01-01",
+      "question": "How does Leila feel now about the weekends she spent getting the shop ready?",
+      "options": [
+        "a) She remembers them happily because the family worked as a team.",
+        "b) She thinks the work took much longer than it needed to.",
+        "c) She wishes she had spent more of them at the beach with friends.",
+        "d) She is still annoyed that her parents made her help."
+      ],
+      "correct": "a",
+      "correctAnswer": "a",
+      "explanation": "At the time she 'complained a lot', but she says: 'Looking back, though, those weekends are some of my best memories, because for once we were all working together.' Wanting to be at the beach and feeling annoyed describe how she felt at fifteen, not how she feels now. She never says the work took too long.",
+      "grammarTags": [
+        "g-en-b1-past-simple"
+      ],
+      "topicTags": [
+        "family"
+      ],
+      "vocabularyTags": [
+        "memory",
+        "complain",
+        "weekend"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-r-t3-long-restaurant-owner-01-q3",
+      "module": "lesen",
+      "teil": 3,
+      "type": "multiple_choice",
+      "passageId": "en-b1-p-lesen-t3-long-restaurant-owner-01-01",
+      "question": "Why did very few customers come to the restaurant at first?",
+      "options": [
+        "a) It was difficult to find the shop near the harbour.",
+        "b) Local people were unsure about food they did not know.",
+        "c) There were not enough tables for large groups.",
+        "d) The prices were higher than in other places in town."
+      ],
+      "correct": "b",
+      "correctAnswer": "b",
+      "explanation": "The text says: 'Local people seemed nervous about trying dishes they had never heard of.' This is why Mum gave away free plates so people could taste the food. The restaurant had 'just eight tables', but this is not given as the reason, and nothing is said about prices or about the shop being hard to find.",
+      "grammarTags": [
+        "g-en-b1-past-simple"
+      ],
+      "topicTags": [
+        "food"
+      ],
+      "vocabularyTags": [
+        "customer",
+        "dish",
+        "nervous"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-r-t3-long-restaurant-owner-01-q4",
+      "module": "lesen",
+      "teil": 3,
+      "type": "multiple_choice",
+      "passageId": "en-b1-p-lesen-t3-long-restaurant-owner-01-01",
+      "question": "Why did Leila's mother start the cooking classes?",
+      "options": [
+        "a) To fill the restaurant on Saturday mornings",
+        "b) Because holidaymakers asked her to teach them",
+        "c) Because the restaurant was too busy in summer",
+        "d) To earn money during the quieter months"
+      ],
+      "correct": "d",
+      "correctAnswer": "d",
+      "explanation": "Mum 'was already worried about how we would earn enough in the winter, when the town gets much quieter. So she started cooking classes on Monday evenings.' The holidaymakers filled the restaurant in summer, but they did not ask for classes, and Saturday mornings were when she gave away free food.",
+      "grammarTags": [
+        "g-en-b1-linking-words"
+      ],
+      "topicTags": [
+        "work"
+      ],
+      "vocabularyTags": [
+        "class",
+        "winter",
+        "earn"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-r-t3-long-restaurant-owner-01-q5",
+      "module": "lesen",
+      "teil": 3,
+      "type": "multiple_choice",
+      "passageId": "en-b1-p-lesen-t3-long-restaurant-owner-01-01",
+      "question": "What would Leila probably say about the restaurant?",
+      "options": [
+        "a) 'It's easy for us because everyone shares the work.'",
+        "b) 'I can't wait to take it over from my parents when I'm older.'",
+        "c) 'It's very hard work, but I admire my parents for doing it.'",
+        "d) 'My parents should have stayed in their safe jobs.'"
+      ],
+      "correct": "c",
+      "correctAnswer": "c",
+      "explanation": "Leila says running the business 'is not always easy' and that she has 'seen how tiring it is', but also: 'I'm proud of what my parents have done.' She does not want to run a restaurant herself ('I don't think I want to run a restaurant myself one day'), and she understands 'why they gave up safe jobs', so she does not think they should have stayed.",
+      "grammarTags": [
+        "g-en-b1-present-perfect"
+      ],
+      "topicTags": [
+        "family"
+      ],
+      "vocabularyTags": [
+        "proud",
+        "tiring",
+        "business"
+      ],
+      "difficulty": 5,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    }
+  ],
+  "_germanCapsNormalizeVersion": "v3.23-lesen-t2-angebote-corpus-2026-07-28",
+  "_germanCapsNormalizedAt": "2026-10-12T14:44:00.030Z",
+  "_balanceMcqVersion": "v1.2-no-rf-chrono-shuffle-2026-07-11",
+  "_balanceMcqNormalizedAt": "2026-10-12T14:44:00.030Z"
+}

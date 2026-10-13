@@ -1,0 +1,198 @@
+{
+  "passages": [
+    {
+      "id": "en-b1-p-lesen-t3-long-mountain-rescue-01-01",
+      "module": "lesen",
+      "title": "Ready when the phone rings",
+      "text": "On a wet Saturday evening in October, Rhys Evans was halfway through dinner with his family when his phone made a sound he knows very well. A walker had fallen on a mountain path above the village and couldn't stand up. Within ten minutes Rhys had left his food, put on his boots and was driving to the team's base.\n\nRhys, 38, runs a bicycle shop in north Wales. He is also one of around forty volunteers in the local mountain rescue team, and none of them is paid. 'People are often amazed when I tell them that,' he says. 'They imagine we're professionals working for the government. In fact, we're teachers, farmers, nurses, and one of us is a dentist.' The team depends on money from the public to buy everything from ropes to its two vehicles.\n\nRhys joined eight years ago, after he got lost himself. 'I'd gone up a mountain in trainers, without a map, and the cloud came down,' he remembers, smiling. 'I'm embarrassed about it now. The team found me in about an hour, and they didn't make me feel stupid at all. I decided I wanted to do the same for other people.'\n\nBecoming a member wasn't quick. New volunteers train for about a year before they go out on real rescues, learning first aid, how to use ropes and how to find their way at night. Rhys admits he nearly gave up. 'I thought I was fit, but carrying a heavy stretcher down a steep hill in the rain is something else. I was always the slowest.' What kept him going, he says, was the support of the older members, who never criticised him.\n\nThe team is called out more than a hundred times a year, and the number is growing. Rhys believes social media is partly responsible. 'Someone posts a beautiful photo from the top of a mountain, and thousands of people want to go there. Many of them have no idea how quickly the weather can change.' However, he doesn't want people to stay away. 'We'd much rather people came well prepared, with warm clothes, a map and a charged phone, than not at all.'\n\nThat October night, the walker turned out to have a broken ankle. It took the team four hours to carry her down. Rhys got home after two in the morning and opened his shop as usual at nine. Is it worth it? 'Every time,' he says.",
+      "passageVocab": [
+        "volunteer",
+        "rescue",
+        "stretcher",
+        "first aid",
+        "prepared"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "en-b1-r-t3-long-mountain-rescue-01-q1",
+      "module": "lesen",
+      "teil": 3,
+      "type": "multiple_choice",
+      "passageId": "en-b1-p-lesen-t3-long-mountain-rescue-01-01",
+      "question": "What often surprises people about the mountain rescue team?",
+      "options": [
+        "a) How quickly its members can get to the base",
+        "b) That its members receive no money for their work",
+        "c) That it is organised and paid for by the government",
+        "d) How many times it is called out every year"
+      ],
+      "correct": "b",
+      "correctAnswer": "b",
+      "explanation": "Rhys says the volunteers are not paid: 'none of them is paid. People are often amazed when I tell them that.' People wrongly 'imagine we're professionals working for the government', and the team actually 'depends on money from the public'. The number of call-outs and the ten-minute journey are facts in the text, but nothing says they surprise people.",
+      "grammarTags": [
+        "g-en-b1-passive"
+      ],
+      "topicTags": [
+        "work"
+      ],
+      "vocabularyTags": [
+        "volunteer",
+        "professional",
+        "government"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-r-t3-long-mountain-rescue-01-q2",
+      "module": "lesen",
+      "teil": 3,
+      "type": "multiple_choice",
+      "passageId": "en-b1-p-lesen-t3-long-mountain-rescue-01-01",
+      "question": "Why did Rhys decide to join the team?",
+      "options": [
+        "a) He wanted to improve his own skills in the mountains.",
+        "b) He was grateful for the way the team had helped him.",
+        "c) A friend who was already a member asked him to join.",
+        "d) He felt embarrassed that he was not fit enough."
+      ],
+      "correct": "b",
+      "correctAnswer": "b",
+      "explanation": "When Rhys was lost, 'The team found me in about an hour, and they didn't make me feel stupid at all. I decided I wanted to do the same for other people.' He is embarrassed about going up 'in trainers, without a map', not about his fitness, and no friend or wish to improve his own skills is mentioned.",
+      "grammarTags": [
+        "g-en-b1-past-perfect"
+      ],
+      "topicTags": [
+        "sport"
+      ],
+      "vocabularyTags": [
+        "lost",
+        "embarrassed",
+        "join"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-r-t3-long-mountain-rescue-01-q3",
+      "module": "lesen",
+      "teil": 3,
+      "type": "multiple_choice",
+      "passageId": "en-b1-p-lesen-t3-long-mountain-rescue-01-01",
+      "question": "What did Rhys find most difficult during his training?",
+      "options": [
+        "a) The physical effort of carrying people down",
+        "b) Learning how to find his way in the dark",
+        "c) The comments he got from the older members",
+        "d) Finding enough free time to study first aid"
+      ],
+      "correct": "a",
+      "correctAnswer": "a",
+      "explanation": "Rhys says: 'I thought I was fit, but carrying a heavy stretcher down a steep hill in the rain is something else. I was always the slowest.' Finding the way at night and first aid are part of the training, but he does not say they were hard, and the older members 'never criticised him'.",
+      "grammarTags": [
+        "g-en-b1-past-simple"
+      ],
+      "topicTags": [
+        "sport"
+      ],
+      "vocabularyTags": [
+        "stretcher",
+        "steep",
+        "fit"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-r-t3-long-mountain-rescue-01-q4",
+      "module": "lesen",
+      "teil": 3,
+      "type": "multiple_choice",
+      "passageId": "en-b1-p-lesen-t3-long-mountain-rescue-01-01",
+      "question": "What is Rhys's opinion about people who go walking in the mountains?",
+      "options": [
+        "a) Fewer people should go there because it is dangerous.",
+        "b) Walkers should stop sharing photos on social media.",
+        "c) Only experienced walkers should try to climb the high mountains.",
+        "d) Anyone can go if they take the right things with them."
+      ],
+      "correct": "d",
+      "correctAnswer": "d",
+      "explanation": "Rhys 'doesn't want people to stay away' and says: 'We'd much rather people came well prepared, with warm clothes, a map and a charged phone, than not at all.' He thinks social media is 'partly responsible' for more call-outs, but he does not ask people to stop posting, and he never says only experienced walkers should go.",
+      "grammarTags": [
+        "g-en-b1-would-rather"
+      ],
+      "topicTags": [
+        "nature"
+      ],
+      "vocabularyTags": [
+        "prepared",
+        "weather",
+        "social media"
+      ],
+      "difficulty": 5,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-r-t3-long-mountain-rescue-01-q5",
+      "module": "lesen",
+      "teil": 3,
+      "type": "multiple_choice",
+      "passageId": "en-b1-p-lesen-t3-long-mountain-rescue-01-01",
+      "question": "What is the writer mainly trying to do in this article?",
+      "options": [
+        "a) Describe how one injured walker was rescued at night",
+        "b) Explain why rescue teams need more money",
+        "c) Show what life is like for a rescue volunteer",
+        "d) Give advice on staying safe in the mountains"
+      ],
+      "correct": "c",
+      "correctAnswer": "c",
+      "explanation": "The article follows Rhys from the call during dinner, through his reasons for joining and his training, to opening 'his shop as usual at nine' after a night rescue, so it shows what being a volunteer involves. The October rescue, money from the public and safety equipment are each mentioned only briefly as part of his story.",
+      "grammarTags": [
+        "g-en-b1-present-simple"
+      ],
+      "topicTags": [
+        "work"
+      ],
+      "vocabularyTags": [
+        "rescue",
+        "volunteer",
+        "article"
+      ],
+      "difficulty": 5,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    }
+  ],
+  "_germanCapsNormalizeVersion": "v3.23-lesen-t2-angebote-corpus-2026-07-28",
+  "_germanCapsNormalizedAt": "2026-10-12T14:44:00.487Z",
+  "_balanceMcqVersion": "v1.2-no-rf-chrono-shuffle-2026-07-11",
+  "_balanceMcqNormalizedAt": "2026-10-12T14:44:00.487Z"
+}

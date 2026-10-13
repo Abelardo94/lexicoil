@@ -1,0 +1,225 @@
+{
+  "passages": [
+    {
+      "id": "en-b1-p-lesen-t5-cloze-first-job-01-01",
+      "module": "lesen",
+      "title": "My summer at the bookshop",
+      "text": "The summer I turned sixteen, I got my first job, in a small bookshop in the town centre. I saw a notice in the window and (1) ______ for it that same afternoon. The owner, Mrs Hughes, (2) ______ me a few questions about myself and then told me I could start the (3) ______ Saturday. I was delighted, but also a bit worried because I had never worked before. On my first day I had to (4) ______ a green shirt with the name of the shop on it, and I spent the morning learning how to (5) ______ the till. It was much more complicated than it looked! During the first week I (6) ______ lots of mistakes. Once I gave a customer change for twenty pounds when she had paid with a ten, and another time I put all the cookery books in the travel section. Mrs Hughes was always patient, though, and the other staff helped me whenever the shop got busy. Earning my own money made me feel much more independent, and I am going back next summer.",
+      "passageVocab": [
+        "apply",
+        "till",
+        "customer",
+        "mistake",
+        "independent"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "en-b1-r-t5-cloze-first-job-01-q1",
+      "module": "lesen",
+      "teil": 5,
+      "type": "multiple_choice",
+      "question": "Choose the word that best fits gap (1).",
+      "correct": "a",
+      "correctAnswer": "a",
+      "explanation": "You apply for a job: \"I saw a notice in the window and applied for it\". Offered for, signed for (receive a parcel) and filled for do not mean asking to be given a job.",
+      "options": [
+        "a) applied",
+        "b) offered",
+        "c) signed",
+        "d) filled"
+      ],
+      "grammarTags": [
+        "g-en-b1-past-simple"
+      ],
+      "topicTags": [
+        "work"
+      ],
+      "vocabularyTags": [
+        "apply for",
+        "job"
+      ],
+      "difficulty": 4,
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge",
+      "skills": [
+        "reading"
+      ],
+      "passageId": "en-b1-p-lesen-t5-cloze-first-job-01-01"
+    },
+    {
+      "id": "en-b1-r-t5-cloze-first-job-01-q2",
+      "module": "lesen",
+      "teil": 5,
+      "type": "multiple_choice",
+      "question": "Choose the word that best fits gap (2).",
+      "correct": "b",
+      "correctAnswer": "b",
+      "explanation": "The collocation is ask a question: \"Mrs Hughes asked me a few questions about myself\". We do not say made, did or said questions to someone.",
+      "options": [
+        "a) did",
+        "b) asked",
+        "c) said",
+        "d) made"
+      ],
+      "grammarTags": [
+        "g-en-b1-collocations"
+      ],
+      "topicTags": [
+        "work"
+      ],
+      "vocabularyTags": [
+        "ask a question"
+      ],
+      "difficulty": 3,
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge",
+      "skills": [
+        "reading"
+      ],
+      "passageId": "en-b1-p-lesen-t5-cloze-first-job-01-01"
+    },
+    {
+      "id": "en-b1-r-t5-cloze-first-job-01-q3",
+      "module": "lesen",
+      "teil": 5,
+      "type": "multiple_choice",
+      "question": "Choose the word that best fits gap (3).",
+      "correct": "d",
+      "correctAnswer": "d",
+      "explanation": "The writer was told \"I could start the following Saturday\", meaning the next one. The last or previous Saturday is in the past, so the writer cannot start then, and the early Saturday has no meaning.",
+      "options": [
+        "a) previous",
+        "b) early",
+        "c) last",
+        "d) following"
+      ],
+      "grammarTags": [
+        "g-en-b1-time-expressions"
+      ],
+      "topicTags": [
+        "work"
+      ],
+      "vocabularyTags": [
+        "following",
+        "start"
+      ],
+      "difficulty": 4,
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge",
+      "skills": [
+        "reading"
+      ],
+      "passageId": "en-b1-p-lesen-t5-cloze-first-job-01-01"
+    },
+    {
+      "id": "en-b1-r-t5-cloze-first-job-01-q4",
+      "module": "lesen",
+      "teil": 5,
+      "type": "multiple_choice",
+      "question": "Choose the word that best fits gap (4).",
+      "correct": "c",
+      "correctAnswer": "c",
+      "explanation": "You wear clothes: \"I had to wear a green shirt\". Dress needs a person as object (dress a child), put needs on (put on a shirt) and try also needs on (try on a shirt).",
+      "options": [
+        "a) put",
+        "b) try",
+        "c) wear",
+        "d) dress"
+      ],
+      "grammarTags": [
+        "g-en-b1-modals"
+      ],
+      "topicTags": [
+        "work"
+      ],
+      "vocabularyTags": [
+        "wear",
+        "uniform"
+      ],
+      "difficulty": 3,
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge",
+      "skills": [
+        "reading"
+      ],
+      "passageId": "en-b1-p-lesen-t5-cloze-first-job-01-01"
+    },
+    {
+      "id": "en-b1-r-t5-cloze-first-job-01-q5",
+      "module": "lesen",
+      "teil": 5,
+      "type": "multiple_choice",
+      "question": "Choose the word that best fits gap (5).",
+      "correct": "b",
+      "correctAnswer": "b",
+      "explanation": "The writer spent the morning \"learning how to use the till\", the machine for taking money. Do and make the till are not possible, and hold the till does not mean operating it.",
+      "options": [
+        "a) hold",
+        "b) use",
+        "c) do",
+        "d) make"
+      ],
+      "grammarTags": [
+        "g-en-b1-infinitive"
+      ],
+      "topicTags": [
+        "work"
+      ],
+      "vocabularyTags": [
+        "use",
+        "till"
+      ],
+      "difficulty": 3,
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge",
+      "skills": [
+        "reading"
+      ],
+      "passageId": "en-b1-p-lesen-t5-cloze-first-job-01-01"
+    },
+    {
+      "id": "en-b1-r-t5-cloze-first-job-01-q6",
+      "module": "lesen",
+      "teil": 5,
+      "type": "multiple_choice",
+      "question": "Choose the word that best fits gap (6).",
+      "correct": "a",
+      "correctAnswer": "a",
+      "explanation": "The collocation is make a mistake: \"I made lots of mistakes\", followed by two examples. Did, got and had mistakes are not correct English.",
+      "options": [
+        "a) made",
+        "b) had",
+        "c) did",
+        "d) got"
+      ],
+      "grammarTags": [
+        "g-en-b1-collocations"
+      ],
+      "topicTags": [
+        "work"
+      ],
+      "vocabularyTags": [
+        "make a mistake"
+      ],
+      "difficulty": 3,
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge",
+      "skills": [
+        "reading"
+      ],
+      "passageId": "en-b1-p-lesen-t5-cloze-first-job-01-01"
+    }
+  ],
+  "_germanCapsNormalizeVersion": "v3.23-lesen-t2-angebote-corpus-2026-07-28",
+  "_germanCapsNormalizedAt": "2026-10-12T19:15:51.249Z",
+  "_balanceMcqVersion": "v1.2-no-rf-chrono-shuffle-2026-07-11",
+  "_balanceMcqNormalizedAt": "2026-10-12T19:15:51.249Z"
+}

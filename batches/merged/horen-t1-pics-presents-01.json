@@ -1,0 +1,339 @@
+{
+  "passages": [
+    {
+      "id": "en-b1-p-horen-t1-pics-presents-01-01",
+      "module": "horen",
+      "title": "Recording 1",
+      "text": "Man: Have you got anything for your brother’s birthday yet? Oliver’s going to be sixteen, isn’t he?\nWoman: Yes, and I’ve finally found something. I was going to get him a shirt for his football team, but they didn’t have his size.\nMan: What about that board game he keeps talking about?\nWoman: Mum’s already bought him that. So in the end I got him some headphones. His old ones are broken.\nMan: Good idea. He’ll use them every day.",
+      "passageVocab": [
+        "headphones",
+        "board game",
+        "size",
+        "in the end"
+      ]
+    },
+    {
+      "id": "en-b1-p-horen-t1-pics-presents-01-02",
+      "module": "horen",
+      "title": "Recording 2",
+      "text": "Woman: Are you going to Rachel’s leaving party at the office tomorrow?\nMan: Yes, and I still haven’t got her anything. I thought about flowers, but they’ll be dead in a week.\nWoman: She loves cooking, doesn’t she? What about a recipe book?\nMan: She’s got hundreds of those. No, I know. She’s always saying her desk looks empty, so I’ll get her a little plant for her new office.\nWoman: Perfect. She’ll love that.",
+      "passageVocab": [
+        "leaving party",
+        "recipe book",
+        "plant",
+        "desk"
+      ]
+    },
+    {
+      "id": "en-b1-p-horen-t1-pics-presents-01-03",
+      "module": "horen",
+      "title": "Recording 3",
+      "text": "Woman: Look, I’ve bought this scarf for my aunt.\nMan: It’s lovely. Was it expensive?\nWoman: Well, the label said thirty pounds, but there was a sale on, so it was twenty-four. And then the shop assistant noticed a small mark on it and took another six pounds off.\nMan: So you paid eighteen pounds? That’s a good price. I can hardly see the mark.",
+      "passageVocab": [
+        "scarf",
+        "label",
+        "sale",
+        "mark"
+      ]
+    },
+    {
+      "id": "en-b1-p-horen-t1-pics-presents-01-04",
+      "module": "horen",
+      "title": "Recording 4",
+      "text": "Man: I’ve decided what to give my mum and dad for their wedding anniversary. I’m taking them out for a meal at that new Italian restaurant.\nWoman: How lovely! The anniversary’s on Friday, isn’t it?\nMan: Yes, but Dad doesn’t finish work until nine on Fridays. I wanted to go on Saturday evening instead, but the restaurant was fully booked. So we’re going for lunch on Sunday.\nWoman: That sounds perfect.",
+      "passageVocab": [
+        "wedding anniversary",
+        "meal",
+        "fully booked",
+        "lunch"
+      ]
+    },
+    {
+      "id": "en-b1-p-horen-t1-pics-presents-01-05",
+      "module": "horen",
+      "title": "Recording 5",
+      "text": "Woman: Granny’s eightieth birthday is next month. What shall we give her?\nMan: You’re good at baking. Why don’t you make her a cake?\nWoman: Auntie Sue’s already making one. We could make her a birthday card, I suppose.\nMan: She’ll get lots of cards. What about putting some old family photos into an album?\nWoman: Oh yes, she’d love that. Let’s start looking for photos this weekend.",
+      "passageVocab": [
+        "baking",
+        "album",
+        "family photo",
+        "suppose"
+      ]
+    },
+    {
+      "id": "en-b1-p-horen-t1-pics-presents-01-06",
+      "module": "horen",
+      "title": "Recording 6",
+      "text": "Woman: I can’t decide which bag to get for Lucy. This striped one is fun.\nMan: Hmm, but she isn’t really a beach person, is she? What about the black backpack? She cycles to work.\nWoman: She’s just bought one, actually. No, I think she’d like the brown leather one best. It goes with everything.\nMan: It’s more expensive, though.\nWoman: That’s fine. She’s my best friend.",
+      "passageVocab": [
+        "striped",
+        "backpack",
+        "leather",
+        "go with"
+      ]
+    },
+    {
+      "id": "en-b1-p-horen-t1-pics-presents-01-07",
+      "module": "horen",
+      "title": "Recording 7",
+      "text": "Woman: Good afternoon, shoppers. If you’re looking for that special present, don’t forget our gift-wrapping service on the ground floor. Our normal closing time is half past five, but this week, to help with your Christmas shopping, the store is staying open until seven o’clock. Please note that the gift-wrapping desk closes earlier, at six. Thank you for shopping with us.",
+      "passageVocab": [
+        "gift-wrapping",
+        "ground floor",
+        "closing time",
+        "store"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "en-b1-h-t1-pics-presents-01-s1-q1",
+      "module": "horen",
+      "teil": 1,
+      "type": "multiple_choice",
+      "question": "What has the woman bought for her brother’s birthday?",
+      "options": [
+        "a) Some headphones",
+        "b) A board game",
+        "c) A football shirt"
+      ],
+      "correct": "a",
+      "correctAnswer": "a",
+      "explanation": "The woman says \"in the end I got him some headphones\". She wanted a football shirt, but \"they didn’t have his size\", and the board game is the present their mum has bought.",
+      "passageId": "en-b1-p-horen-t1-pics-presents-01-01",
+      "grammarTags": [
+        "g-en-b1-present-perfect"
+      ],
+      "topicTags": [
+        "presents"
+      ],
+      "vocabularyTags": [
+        "headphones",
+        "board game",
+        "football shirt"
+      ],
+      "difficulty": 3,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge",
+      "segmentLabel": "Aufnahme 1"
+    },
+    {
+      "id": "en-b1-h-t1-pics-presents-01-s2-q1",
+      "module": "horen",
+      "teil": 1,
+      "type": "multiple_choice",
+      "question": "What is the man going to buy for his colleague?",
+      "options": [
+        "a) A recipe book",
+        "b) A small plant",
+        "c) Some flowers"
+      ],
+      "correct": "b",
+      "correctAnswer": "b",
+      "explanation": "The man says \"I’ll get her a little plant for her new office\". He rejects flowers because \"they’ll be dead in a week\", and Rachel already has \"hundreds\" of recipe books.",
+      "passageId": "en-b1-p-horen-t1-pics-presents-01-02",
+      "grammarTags": [
+        "g-en-b1-future-will"
+      ],
+      "topicTags": [
+        "presents"
+      ],
+      "vocabularyTags": [
+        "plant",
+        "recipe book",
+        "flowers"
+      ],
+      "difficulty": 3,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge",
+      "segmentLabel": "Aufnahme 2"
+    },
+    {
+      "id": "en-b1-h-t1-pics-presents-01-s3-q1",
+      "module": "horen",
+      "teil": 1,
+      "type": "multiple_choice",
+      "question": "How much did the woman pay for the scarf?",
+      "options": [
+        "a) £18",
+        "b) £24",
+        "c) £30"
+      ],
+      "correct": "a",
+      "correctAnswer": "a",
+      "explanation": "The label said £30 and the sale price was £24, but the assistant \"took another six pounds off\", and the man checks: \"So you paid eighteen pounds?\"",
+      "passageId": "en-b1-p-horen-t1-pics-presents-01-03",
+      "grammarTags": [
+        "g-en-b1-past-simple"
+      ],
+      "topicTags": [
+        "presents"
+      ],
+      "vocabularyTags": [
+        "price",
+        "sale",
+        "label"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge",
+      "segmentLabel": "Aufnahme 3"
+    },
+    {
+      "id": "en-b1-h-t1-pics-presents-01-s4-q1",
+      "module": "horen",
+      "teil": 1,
+      "type": "multiple_choice",
+      "question": "When is the man taking his parents out for a meal?",
+      "options": [
+        "a) On Saturday evening",
+        "b) On Sunday lunchtime",
+        "c) On Friday evening"
+      ],
+      "correct": "b",
+      "correctAnswer": "b",
+      "explanation": "The man says \"we’re going for lunch on Sunday\". Friday is not possible because his dad works until nine, and on Saturday evening \"the restaurant was fully booked\".",
+      "passageId": "en-b1-p-horen-t1-pics-presents-01-04",
+      "grammarTags": [
+        "g-en-b1-present-continuous-future"
+      ],
+      "topicTags": [
+        "presents"
+      ],
+      "vocabularyTags": [
+        "anniversary",
+        "fully booked",
+        "lunchtime"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge",
+      "segmentLabel": "Aufnahme 4"
+    },
+    {
+      "id": "en-b1-h-t1-pics-presents-01-s5-q1",
+      "module": "horen",
+      "teil": 1,
+      "type": "multiple_choice",
+      "question": "What are they going to make for their grandmother?",
+      "options": [
+        "a) A birthday card",
+        "b) A birthday cake",
+        "c) A photo album"
+      ],
+      "correct": "c",
+      "correctAnswer": "c",
+      "explanation": "The man suggests \"putting some old family photos into an album\" and the woman agrees: \"she’d love that\". Auntie Sue is already making the cake, and \"She’ll get lots of cards\".",
+      "passageId": "en-b1-p-horen-t1-pics-presents-01-05",
+      "grammarTags": [
+        "g-en-b1-suggestions"
+      ],
+      "topicTags": [
+        "presents"
+      ],
+      "vocabularyTags": [
+        "album",
+        "cake",
+        "card"
+      ],
+      "difficulty": 3,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge",
+      "segmentLabel": "Aufnahme 5"
+    },
+    {
+      "id": "en-b1-h-t1-pics-presents-01-s6-q1",
+      "module": "horen",
+      "teil": 1,
+      "type": "multiple_choice",
+      "question": "Which bag does the woman decide to buy for her friend?",
+      "options": [
+        "a) A striped beach bag",
+        "b) A black backpack",
+        "c) A brown leather bag"
+      ],
+      "correct": "c",
+      "correctAnswer": "c",
+      "explanation": "The woman says \"she’d like the brown leather one best\" and does not mind the price. Lucy is not \"a beach person\", and she has \"just bought\" a backpack.",
+      "passageId": "en-b1-p-horen-t1-pics-presents-01-06",
+      "grammarTags": [
+        "g-en-b1-comparatives-superlatives"
+      ],
+      "topicTags": [
+        "presents"
+      ],
+      "vocabularyTags": [
+        "leather",
+        "striped",
+        "backpack"
+      ],
+      "difficulty": 3,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge",
+      "segmentLabel": "Aufnahme 6"
+    },
+    {
+      "id": "en-b1-h-t1-pics-presents-01-s7-q1",
+      "module": "horen",
+      "teil": 1,
+      "type": "multiple_choice",
+      "question": "What time does the store close this week?",
+      "options": [
+        "a) At half past five",
+        "b) At six o’clock",
+        "c) At seven o’clock"
+      ],
+      "correct": "c",
+      "correctAnswer": "c",
+      "explanation": "This week \"the store is staying open until seven o’clock\". Half past five is the \"normal closing time\", and six is when only the gift-wrapping desk closes.",
+      "passageId": "en-b1-p-horen-t1-pics-presents-01-07",
+      "grammarTags": [
+        "g-en-b1-present-continuous-future"
+      ],
+      "topicTags": [
+        "presents"
+      ],
+      "vocabularyTags": [
+        "closing time",
+        "gift-wrapping",
+        "store"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge",
+      "segmentLabel": "Aufnahme 7"
+    }
+  ],
+  "_germanCapsNormalizeVersion": "v3.23-lesen-t2-angebote-corpus-2026-07-28",
+  "_germanCapsNormalizedAt": "2026-10-12T19:15:52.516Z",
+  "_balanceMcqVersion": "v1.2-no-rf-chrono-shuffle-2026-07-11",
+  "_balanceMcqNormalizedAt": "2026-10-12T19:15:52.516Z"
+}

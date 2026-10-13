@@ -1,0 +1,243 @@
+{
+  "passages": [
+    {
+      "id": "en-b1-p-horen-t3-gapfill-wildlife-park-01-01",
+      "module": "horen",
+      "title": "Oakfield Wildlife Park: information for visitors",
+      "text": "Woman: Good morning, everyone, and welcome to Oakfield Wildlife Park. I'm Hannah, one of the rangers here, and I'd like to give you some useful information before you start exploring.\n\nWoman: The park is very large, so most visitors use our little train, which goes all the way round. It leaves from the main entrance every twenty minutes, and if you stay on for the whole trip, it takes about forty minutes. You can get on and off as many times as you like.\n\nWoman: Now, a lot of people go straight to see the bears, because they're our most famous animals. But my advice is to visit the wolves first. They're much more active in the morning, and by lunchtime they're usually asleep in the long grass, so you won't see very much.\n\nWoman: At two o'clock every day, one of the keepers gives a short talk about the animals. In previous years the talk took place down by the lake, but this summer it's in the old barn, just behind the café, so you'll stay dry even if it rains.\n\nWoman: We do ask you not to give the ducks on the lake any bread. Lots of children love doing it, but it's bad for the birds and can make them quite ill. If you'd like to feed them, special duck food is on sale at the kiosk.\n\nWoman: You're welcome to bring your own lunch. There are picnic tables next to the playground, so parents can relax while the children play. Please don't eat in the car park, though, as it gets very busy.\n\nWoman: Finally, for our younger visitors, there's a quiz sheet you can pick up at the entrance. Children who answer all the questions can collect a free badge from the gift shop. Last year we gave out pencils, but the badges, which have a picture of an otter on them, have been far more popular. Have a wonderful day!",
+      "passageVocab": [
+        "ranger",
+        "entrance",
+        "keeper",
+        "barn",
+        "kiosk"
+      ],
+      "audio": [
+        {
+          "speaker": "Woman",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Good morning, everyone, and welcome to Oakfield Wildlife Park. I'm Hannah, one of the rangers here, and I'd like to give you some useful information before you start exploring."
+        },
+        {
+          "speaker": "Woman",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "The park is very large, so most visitors use our little train, which goes all the way round. It leaves from the main entrance every twenty minutes, and if you stay on for the whole trip, it takes about forty minutes. You can get on and off as many times as you like."
+        },
+        {
+          "speaker": "Woman",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Now, a lot of people go straight to see the bears, because they're our most famous animals. But my advice is to visit the wolves first. They're much more active in the morning, and by lunchtime they're usually asleep in the long grass, so you won't see very much."
+        },
+        {
+          "speaker": "Woman",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "At two o'clock every day, one of the keepers gives a short talk about the animals. In previous years the talk took place down by the lake, but this summer it's in the old barn, just behind the café, so you'll stay dry even if it rains."
+        },
+        {
+          "speaker": "Woman",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "We do ask you not to give the ducks on the lake any bread. Lots of children love doing it, but it's bad for the birds and can make them quite ill. If you'd like to feed them, special duck food is on sale at the kiosk."
+        },
+        {
+          "speaker": "Woman",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "You're welcome to bring your own lunch. There are picnic tables next to the playground, so parents can relax while the children play. Please don't eat in the car park, though, as it gets very busy."
+        },
+        {
+          "speaker": "Woman",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Finally, for our younger visitors, there's a quiz sheet you can pick up at the entrance. Children who answer all the questions can collect a free badge from the gift shop. Last year we gave out pencils, but the badges, which have a picture of an otter on them, have been far more popular. Have a wonderful day!"
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "en-b1-h-t3-gapfill-wildlife-park-01-q1",
+      "module": "horen",
+      "teil": 3,
+      "type": "gap_fill",
+      "passageId": "en-b1-p-horen-t3-gapfill-wildlife-park-01-01",
+      "question": "The train leaves the main entrance every ____ minutes.",
+      "correct": "twenty",
+      "correctAnswer": "twenty",
+      "acceptedAnswers": [
+        "20"
+      ],
+      "explanation": "Hannah says the train 'leaves from the main entrance every twenty minutes'. Forty minutes is how long the whole trip takes, not how often the train leaves.",
+      "options": [],
+      "grammarTags": [
+        "g-en-b1-numbers"
+      ],
+      "topicTags": [
+        "nature-animals"
+      ],
+      "vocabularyTags": [
+        "train",
+        "entrance",
+        "minutes"
+      ],
+      "difficulty": 3,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-h-t3-gapfill-wildlife-park-01-q2",
+      "module": "horen",
+      "teil": 3,
+      "type": "gap_fill",
+      "passageId": "en-b1-p-horen-t3-gapfill-wildlife-park-01-01",
+      "question": "Visit the ____ first, because they are more active in the morning.",
+      "correct": "wolves",
+      "correctAnswer": "wolves",
+      "explanation": "Hannah says 'my advice is to visit the wolves first. They're much more active in the morning'. The bears are the most famous animals, but she does not recommend seeing them first.",
+      "options": [],
+      "grammarTags": [
+        "g-en-b1-plural-nouns"
+      ],
+      "topicTags": [
+        "nature-animals"
+      ],
+      "vocabularyTags": [
+        "wolf",
+        "active",
+        "advice"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-h-t3-gapfill-wildlife-park-01-q3",
+      "module": "horen",
+      "teil": 3,
+      "type": "gap_fill",
+      "passageId": "en-b1-p-horen-t3-gapfill-wildlife-park-01-01",
+      "question": "This summer, the keepers' talk at 2 p.m. takes place in the old ____.",
+      "correct": "barn",
+      "correctAnswer": "barn",
+      "explanation": "Hannah says the talk used to be 'down by the lake, but this summer it's in the old barn, just behind the café'. The lake was the place in previous years, and the café is only a landmark.",
+      "options": [],
+      "grammarTags": [
+        "g-en-b1-past-simple"
+      ],
+      "topicTags": [
+        "nature-animals"
+      ],
+      "vocabularyTags": [
+        "keeper",
+        "talk",
+        "barn"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-h-t3-gapfill-wildlife-park-01-q4",
+      "module": "horen",
+      "teil": 3,
+      "type": "gap_fill",
+      "passageId": "en-b1-p-horen-t3-gapfill-wildlife-park-01-01",
+      "question": "Do not give the ducks any ____, because it can make them ill.",
+      "correct": "bread",
+      "correctAnswer": "bread",
+      "explanation": "Hannah asks visitors 'not to give the ducks on the lake any bread' because 'it's bad for the birds and can make them quite ill'. Special duck food is allowed, so 'food' does not complete the note.",
+      "options": [],
+      "grammarTags": [
+        "g-en-b1-imperatives"
+      ],
+      "topicTags": [
+        "nature-animals"
+      ],
+      "vocabularyTags": [
+        "duck",
+        "bread",
+        "ill"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-h-t3-gapfill-wildlife-park-01-q5",
+      "module": "horen",
+      "teil": 3,
+      "type": "gap_fill",
+      "passageId": "en-b1-p-horen-t3-gapfill-wildlife-park-01-01",
+      "question": "The picnic tables are next to the ____.",
+      "correct": "playground",
+      "correctAnswer": "playground",
+      "explanation": "Hannah says 'There are picnic tables next to the playground, so parents can relax while the children play'. The car park is mentioned only as a place where visitors should not eat.",
+      "options": [],
+      "grammarTags": [
+        "g-en-b1-prepositions-place"
+      ],
+      "topicTags": [
+        "nature-animals"
+      ],
+      "vocabularyTags": [
+        "picnic",
+        "playground",
+        "car park"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-h-t3-gapfill-wildlife-park-01-q6",
+      "module": "horen",
+      "teil": 3,
+      "type": "gap_fill",
+      "passageId": "en-b1-p-horen-t3-gapfill-wildlife-park-01-01",
+      "question": "Children who answer all the quiz questions get a free ____ from the gift shop.",
+      "correct": "badge",
+      "correctAnswer": "badge",
+      "explanation": "Hannah says children who answer all the questions 'can collect a free badge from the gift shop'. Pencils were the prize last year, so they are not the answer now.",
+      "options": [],
+      "grammarTags": [
+        "g-en-b1-relative-clauses"
+      ],
+      "topicTags": [
+        "nature-animals"
+      ],
+      "vocabularyTags": [
+        "quiz",
+        "badge",
+        "gift shop"
+      ],
+      "difficulty": 5,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    }
+  ],
+  "_germanCapsNormalizeVersion": "v3.23-lesen-t2-angebote-corpus-2026-07-28",
+  "_germanCapsNormalizedAt": "2026-10-12T14:44:03.728Z",
+  "_balanceMcqVersion": "v1.2-no-rf-chrono-shuffle-2026-07-11",
+  "_balanceMcqNormalizedAt": "2026-10-12T14:44:03.728Z"
+}

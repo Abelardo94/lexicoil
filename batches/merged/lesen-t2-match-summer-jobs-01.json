@@ -1,0 +1,301 @@
+{
+  "passages": [
+    {
+      "id": "en-b1-p-lesen-t2-match-summer-jobs-01-01",
+      "module": "lesen",
+      "title": "A – Tourist Information Centre, Edinburgh",
+      "text": "Join our friendly team at the desk on the Royal Mile, answering visitors’ questions and helping them book tours and hotels. Speakers of a second language such as French, Spanish or Italian are especially welcome. Shifts run from 8 am to 1 pm, Monday to Friday, from June to the end of August.",
+      "passageVocab": [
+        "shift",
+        "book",
+        "especially",
+        "second language"
+      ]
+    },
+    {
+      "id": "en-b1-p-lesen-t2-match-summer-jobs-01-02",
+      "module": "lesen",
+      "title": "B – Pets Corner, Bristol",
+      "text": "Our busy pet shop needs a summer assistant to serve customers, clean the cages and feed the rabbits, birds and fish. Most of the work is indoors, and you will spend a lot of time on the till. Applicants must live within easy reach of the shop, as we cannot help with accommodation.",
+      "passageVocab": [
+        "assistant",
+        "cage",
+        "applicant",
+        "within easy reach"
+      ]
+    },
+    {
+      "id": "en-b1-p-lesen-t2-match-summer-jobs-01-03",
+      "module": "lesen",
+      "title": "C – Sunshine Sports Camp, Cardiff",
+      "text": "We need coaches to run football, tennis and swimming sessions for children aged seven to twelve. You must hold a lifeguard certificate to work in the pool, and experience with young people is useful. Hours are 9 am to 5 pm, Monday to Friday, for six weeks. Lunch is provided for all staff.",
+      "passageVocab": [
+        "coach",
+        "session",
+        "lifeguard",
+        "certificate"
+      ]
+    },
+    {
+      "id": "en-b1-p-lesen-t2-match-summer-jobs-01-04",
+      "module": "lesen",
+      "title": "D – Open-top Bus Guide, York",
+      "text": "Ride around the city on our famous red buses and tell passengers about York’s long history. Tours are in English, but guides who can repeat the main points in another language get extra pay. Full training is given. Tours run every hour from 2 pm until the last one leaves at 8 pm.",
+      "passageVocab": [
+        "passenger",
+        "repeat",
+        "training",
+        "tour"
+      ]
+    },
+    {
+      "id": "en-b1-p-lesen-t2-match-summer-jobs-01-05",
+      "module": "lesen",
+      "title": "E – Hilltop Farm Park, Cumbria",
+      "text": "Help feed the goats, sheep and rabbits, and show visitors around the fields. You’ll be outside in all weathers, so bring a good coat! Staff who live more than an hour away can stay free of charge in the farm’s cottage, which has its own kitchen. Applicants must be at least sixteen.",
+      "passageVocab": [
+        "goat",
+        "all weathers",
+        "free of charge",
+        "cottage"
+      ]
+    },
+    {
+      "id": "en-b1-p-lesen-t2-match-summer-jobs-01-06",
+      "module": "lesen",
+      "title": "F – Little Artists Holiday Club, Norwich",
+      "text": "Help children aged four to seven with painting, model-making and other craft activities in our bright studio. An interest in art is more important than experience. The club runs from 9 am to 2.30 pm, so you’ll have your afternoons free. Work as many weeks as you like between July and September.",
+      "passageVocab": [
+        "craft",
+        "studio",
+        "experience",
+        "model-making"
+      ]
+    },
+    {
+      "id": "en-b1-p-lesen-t2-match-summer-jobs-01-07",
+      "module": "lesen",
+      "title": "G – Seaview Hotel Kitchen, Cornwall",
+      "text": "Kitchen assistants are needed to prepare breakfasts and help our chefs at lunchtime. Our pay is well above the usual rate for this kind of work, with extra for weekend shifts. Free meals for all staff. This is full-time work only: 40 hours a week from early July to the middle of September.",
+      "passageVocab": [
+        "prepare",
+        "rate",
+        "full-time",
+        "chef"
+      ]
+    },
+    {
+      "id": "en-b1-p-lesen-t2-match-summer-jobs-01-08",
+      "module": "lesen",
+      "title": "H – The Corner Café, Brighton",
+      "text": "Our small seaside café is looking for someone to make sandwiches, bake cakes and serve customers. You’ll learn a lot from our cook, who trained in Paris. The pay is the minimum rate, but tips are shared equally. We only need help at weekends, so this would suit someone who is studying.",
+      "passageVocab": [
+        "seaside",
+        "bake",
+        "tip",
+        "minimum"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "en-b1-r-t2-match-summer-jobs-01-q1",
+      "module": "lesen",
+      "teil": 2,
+      "type": "matching",
+      "passageId": "en-b1-p-lesen-t2-match-summer-jobs-01-01",
+      "question": "Jamie, who is 17, loves animals and wants a job outdoors. He lives in London, a long way from most of the jobs advertised, so he will need somewhere to stay.",
+      "options": [
+        "A) Tourist Information Centre, Edinburgh",
+        "B) Pets Corner, Bristol",
+        "C) Sunshine Sports Camp, Cardiff",
+        "D) Open-top Bus Guide, York",
+        "E) Hilltop Farm Park, Cumbria",
+        "F) Little Artists Holiday Club, Norwich",
+        "G) Seaview Hotel Kitchen, Cornwall",
+        "H) The Corner Café, Brighton"
+      ],
+      "correct": "E",
+      "correctAnswer": "E",
+      "explanation": "At Hilltop Farm Park you \"feed the goats, sheep and rabbits\", you will be \"outside in all weathers\", and staff who live far away \"can stay free of charge in the farm’s cottage\". Pets Corner also involves animals, but \"Most of the work is indoors\" and \"we cannot help with accommodation\".",
+      "grammarTags": [
+        "g-en-b1-modals"
+      ],
+      "topicTags": [
+        "work"
+      ],
+      "vocabularyTags": [
+        "summer job",
+        "animals",
+        "accommodation"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-r-t2-match-summer-jobs-01-q2",
+      "module": "lesen",
+      "teil": 2,
+      "type": "matching",
+      "passageId": "en-b1-p-lesen-t2-match-summer-jobs-01-01",
+      "question": "Zara speaks fluent Spanish and wants a job where she can use it with visitors to Britain. She has classes every afternoon, so she can only work in the mornings.",
+      "options": [
+        "A) Tourist Information Centre, Edinburgh",
+        "B) Pets Corner, Bristol",
+        "C) Sunshine Sports Camp, Cardiff",
+        "D) Open-top Bus Guide, York",
+        "E) Hilltop Farm Park, Cumbria",
+        "F) Little Artists Holiday Club, Norwich",
+        "G) Seaview Hotel Kitchen, Cornwall",
+        "H) The Corner Café, Brighton"
+      ],
+      "correct": "A",
+      "correctAnswer": "A",
+      "explanation": "The Tourist Information Centre helps visitors, \"Speakers of a second language such as French, Spanish or Italian are especially welcome\", and \"Shifts run from 8 am to 1 pm\". The bus guide job also pays more for another language, but tours run \"from 2 pm\" until 8 pm, when Zara has classes.",
+      "grammarTags": [
+        "g-en-b1-relative-clauses"
+      ],
+      "topicTags": [
+        "work"
+      ],
+      "vocabularyTags": [
+        "tourism",
+        "languages",
+        "part-time work"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-r-t2-match-summer-jobs-01-q3",
+      "module": "lesen",
+      "teil": 2,
+      "type": "matching",
+      "passageId": "en-b1-p-lesen-t2-match-summer-jobs-01-01",
+      "question": "Ben wants to earn as much money as possible this summer because he is saving for a car. He enjoys cooking and is happy to work full-time.",
+      "options": [
+        "A) Tourist Information Centre, Edinburgh",
+        "B) Pets Corner, Bristol",
+        "C) Sunshine Sports Camp, Cardiff",
+        "D) Open-top Bus Guide, York",
+        "E) Hilltop Farm Park, Cumbria",
+        "F) Little Artists Holiday Club, Norwich",
+        "G) Seaview Hotel Kitchen, Cornwall",
+        "H) The Corner Café, Brighton"
+      ],
+      "correct": "G",
+      "correctAnswer": "G",
+      "explanation": "At the Seaview Hotel you \"prepare breakfasts and help our chefs\", the pay is \"well above the usual rate\", and it is \"full-time work only\". The Corner Café also involves cooking, but \"The pay is the minimum rate\" and help is needed \"only at weekends\".",
+      "grammarTags": [
+        "g-en-b1-comparatives"
+      ],
+      "topicTags": [
+        "work"
+      ],
+      "vocabularyTags": [
+        "cooking",
+        "pay",
+        "full-time"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-r-t2-match-summer-jobs-01-q4",
+      "module": "lesen",
+      "teil": 2,
+      "type": "matching",
+      "passageId": "en-b1-p-lesen-t2-match-summer-jobs-01-01",
+      "question": "Chloe is a strong swimmer and has a lifeguard certificate. She is hoping to find a job where she can use it, and she’d like to work with children.",
+      "options": [
+        "A) Tourist Information Centre, Edinburgh",
+        "B) Pets Corner, Bristol",
+        "C) Sunshine Sports Camp, Cardiff",
+        "D) Open-top Bus Guide, York",
+        "E) Hilltop Farm Park, Cumbria",
+        "F) Little Artists Holiday Club, Norwich",
+        "G) Seaview Hotel Kitchen, Cornwall",
+        "H) The Corner Café, Brighton"
+      ],
+      "correct": "C",
+      "correctAnswer": "C",
+      "explanation": "The Sunshine Sports Camp runs \"swimming sessions for children aged seven to twelve\", and \"You must hold a lifeguard certificate to work in the pool\". The Little Artists Holiday Club also works with children, but only with \"painting, model-making and other craft activities\", so Chloe could not use her certificate.",
+      "grammarTags": [
+        "g-en-b1-modals"
+      ],
+      "topicTags": [
+        "work"
+      ],
+      "vocabularyTags": [
+        "sport",
+        "children",
+        "qualifications"
+      ],
+      "difficulty": 3,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-r-t2-match-summer-jobs-01-q5",
+      "module": "lesen",
+      "teil": 2,
+      "type": "matching",
+      "passageId": "en-b1-p-lesen-t2-match-summer-jobs-01-01",
+      "question": "Ellie is studying art and would like a summer job with young children. She needs to finish work by three o’clock every day because she looks after her little brother in the afternoons.",
+      "options": [
+        "A) Tourist Information Centre, Edinburgh",
+        "B) Pets Corner, Bristol",
+        "C) Sunshine Sports Camp, Cardiff",
+        "D) Open-top Bus Guide, York",
+        "E) Hilltop Farm Park, Cumbria",
+        "F) Little Artists Holiday Club, Norwich",
+        "G) Seaview Hotel Kitchen, Cornwall",
+        "H) The Corner Café, Brighton"
+      ],
+      "correct": "F",
+      "correctAnswer": "F",
+      "explanation": "The Little Artists Holiday Club needs help with \"children aged four to seven\" doing painting and crafts, and it \"runs from 9 am to 2.30 pm\". The Sunshine Sports Camp is also for children, but the hours are \"9 am to 5 pm\" and the activities are sports, not art.",
+      "grammarTags": [
+        "g-en-b1-modals"
+      ],
+      "topicTags": [
+        "work"
+      ],
+      "vocabularyTags": [
+        "art",
+        "children",
+        "working hours"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    }
+  ],
+  "_germanCapsNormalizeVersion": "v3.23-lesen-t2-angebote-corpus-2026-07-28",
+  "_germanCapsNormalizedAt": "2026-10-12T19:15:50.176Z",
+  "_balanceMcqVersion": "v1.2-no-rf-chrono-shuffle-2026-07-11",
+  "_balanceMcqNormalizedAt": "2026-10-12T19:15:50.176Z"
+}

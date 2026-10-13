@@ -1,0 +1,309 @@
+{
+  "passages": [
+    {
+      "module": "lesen",
+      "passageVocab": [
+        "silk",
+        "hands-on",
+        "dress up",
+        "steam engine",
+        "exhibition"
+      ],
+      "id": "en-b1-p-lesen-t2-match-museums-01-01",
+      "title": "A – Fenwick Costume Collection",
+      "text": "More than 3,000 items of clothing, from silk dresses of the 1700s to the bright fashions of the 1970s, are kept in this elegant old house. Only a small number are on display at any time, but students and researchers can book a free session in our study room to examine pieces up close. Open Monday to Friday, 10 am – 4 pm."
+    },
+    {
+      "module": "lesen",
+      "passageVocab": [
+        "silk",
+        "hands-on",
+        "dress up",
+        "steam engine",
+        "exhibition"
+      ],
+      "id": "en-b1-p-lesen-t2-match-museums-01-02",
+      "title": "B – Discovery Zone",
+      "text": "Children aged 4 to 11 can press buttons, build bridges and make giant bubbles in our five hands-on science galleries. Every visit includes a live show where volunteers from the audience help with exciting experiments. Open every day except Christmas Day. There is no café, but families are welcome to bring a packed lunch to our picnic room."
+    },
+    {
+      "module": "lesen",
+      "passageVocab": [
+        "silk",
+        "hands-on",
+        "dress up",
+        "steam engine",
+        "exhibition"
+      ],
+      "id": "en-b1-p-lesen-t2-match-museums-01-03",
+      "title": "C – Mill Lane Toy Museum",
+      "text": "Discover how children played a hundred years ago! Young visitors can dress up in old-fashioned clothes and play with copies of wooden toys in our activity room – nothing is behind glass here. After all that fun, relax in our café, which has a special menu for little ones. Open Tuesday to Sunday, 10 am – 5 pm."
+    },
+    {
+      "module": "lesen",
+      "passageVocab": [
+        "silk",
+        "hands-on",
+        "dress up",
+        "steam engine",
+        "exhibition"
+      ],
+      "id": "en-b1-p-lesen-t2-match-museums-01-04",
+      "title": "D – Valley Railway Museum",
+      "text": "Climb into the driver's cab of a real steam engine and find out how the railway changed life in the valley. Our volunteers, many of them former railway workers, lead guided tours every Saturday at 11 am and 2 pm. The museum is open Wednesday to Sunday, but please note that there are no tours on other days."
+    },
+    {
+      "module": "lesen",
+      "passageVocab": [
+        "silk",
+        "hands-on",
+        "dress up",
+        "steam engine",
+        "exhibition"
+      ],
+      "id": "en-b1-p-lesen-t2-match-museums-01-05",
+      "title": "E – Harbour Museum",
+      "text": "Three floors of exhibitions tell the story of the town's port, from the fishing boats of the 1800s to today's huge container ships. Lifts take you to every floor, and wheelchairs can be borrowed from the front desk. Entry to the museum is free, although we welcome donations. Don't miss the views of the harbour from our café."
+    },
+    {
+      "module": "lesen",
+      "passageVocab": [
+        "silk",
+        "hands-on",
+        "dress up",
+        "steam engine",
+        "exhibition"
+      ],
+      "id": "en-b1-p-lesen-t2-match-museums-01-06",
+      "title": "F – Saltwick Heritage Centre",
+      "text": "Housed in a former fisherman's cottage, the centre shows how families in the village lived from the sea. Upstairs there is a small collection of paintings of the coast by local artists of the 1800s. Entry is free. Please note that the building has narrow, steep stairs and, sadly, there is no lift."
+    },
+    {
+      "module": "lesen",
+      "passageVocab": [
+        "silk",
+        "hands-on",
+        "dress up",
+        "steam engine",
+        "exhibition"
+      ],
+      "id": "en-b1-p-lesen-t2-match-museums-01-07",
+      "title": "G – City Transport Hall",
+      "text": "From horse-drawn carriages to the city's last tram, more than 60 vehicles are on show here, including two steam trains you can walk through. Free guided tours run every Sunday at 2 pm and last about an hour – just ask at the entrance to join one. The hall is open every day except Monday."
+    },
+    {
+      "module": "lesen",
+      "passageVocab": [
+        "silk",
+        "hands-on",
+        "dress up",
+        "steam engine",
+        "exhibition"
+      ],
+      "id": "en-b1-p-lesen-t2-match-museums-01-08",
+      "title": "H – Castlegate Gallery",
+      "text": "This bright, modern gallery shows paintings and sculpture by artists who live and work in the region today. Exhibitions change every two months, so there is always something new to see. On Thursday evenings, from 6.30 to 8.30, local artists run drawing classes for adults of all abilities, and all materials are provided."
+    }
+  ],
+  "questions": [
+    {
+      "id": "en-b1-r-t2-match-museums-01-q1",
+      "module": "lesen",
+      "teil": 2,
+      "type": "matching",
+      "passageId": "en-b1-p-lesen-t2-match-museums-01-01",
+      "question": "Priya wants to take her children, aged five and seven, to a museum on a weekday during the school holidays. She wants a place where they can touch things and play, and she'd like to have lunch in a café there.",
+      "options": [
+        "A) Fenwick Costume Collection",
+        "B) Discovery Zone",
+        "C) Mill Lane Toy Museum",
+        "D) Valley Railway Museum",
+        "E) Harbour Museum",
+        "F) Saltwick Heritage Centre",
+        "G) City Transport Hall",
+        "H) Castlegate Gallery"
+      ],
+      "correct": "C",
+      "correctAnswer": "C",
+      "explanation": "At Mill Lane Toy Museum children 'play with copies of wooden toys' and 'nothing is behind glass', there is a 'café, which has a special menu for little ones', and it is open from Tuesday, so on weekdays. Discovery Zone is also hands-on and open every day, but 'There is no café', only a picnic room.",
+      "grammarTags": [
+        "g-en-b1-modals"
+      ],
+      "topicTags": [
+        "culture"
+      ],
+      "vocabularyTags": [
+        "hands-on",
+        "café",
+        "weekday"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-r-t2-match-museums-01-q2",
+      "module": "lesen",
+      "teil": 2,
+      "type": "matching",
+      "passageId": "en-b1-p-lesen-t2-match-museums-01-01",
+      "question": "Gareth has always loved old trains. He would like someone to show him round and explain the history, but he works on Saturdays, so Sunday is the only day he can go.",
+      "options": [
+        "A) Fenwick Costume Collection",
+        "B) Discovery Zone",
+        "C) Mill Lane Toy Museum",
+        "D) Valley Railway Museum",
+        "E) Harbour Museum",
+        "F) Saltwick Heritage Centre",
+        "G) City Transport Hall",
+        "H) Castlegate Gallery"
+      ],
+      "correct": "G",
+      "correctAnswer": "G",
+      "explanation": "City Transport Hall has 'two steam trains you can walk through' and 'Free guided tours run every Sunday at 2 pm'. Valley Railway Museum is about trains and is open on Sundays, but its guided tours are 'every Saturday' and 'there are no tours on other days'.",
+      "grammarTags": [
+        "g-en-b1-present-simple"
+      ],
+      "topicTags": [
+        "culture"
+      ],
+      "vocabularyTags": [
+        "guided tour",
+        "steam train",
+        "show someone round"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-r-t2-match-museums-01-q3",
+      "module": "lesen",
+      "teil": 2,
+      "type": "matching",
+      "passageId": "en-b1-p-lesen-t2-match-museums-01-01",
+      "question": "Mei is an art student who is interested in the work of artists from her area who are painting now, not in the past. She would also like to join a class after college to improve her own drawing.",
+      "options": [
+        "A) Fenwick Costume Collection",
+        "B) Discovery Zone",
+        "C) Mill Lane Toy Museum",
+        "D) Valley Railway Museum",
+        "E) Harbour Museum",
+        "F) Saltwick Heritage Centre",
+        "G) City Transport Hall",
+        "H) Castlegate Gallery"
+      ],
+      "correct": "H",
+      "correctAnswer": "H",
+      "explanation": "Castlegate Gallery shows work 'by artists who live and work in the region today' and has 'drawing classes for adults' on 'Thursday evenings'. Saltwick Heritage Centre has paintings by local artists, but they are 'of the 1800s', and there are no classes.",
+      "grammarTags": [
+        "g-en-b1-relative-clauses"
+      ],
+      "topicTags": [
+        "culture"
+      ],
+      "vocabularyTags": [
+        "artist",
+        "drawing class",
+        "region"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-r-t2-match-museums-01-q4",
+      "module": "lesen",
+      "teil": 2,
+      "type": "matching",
+      "passageId": "en-b1-p-lesen-t2-match-museums-01-01",
+      "question": "Oliver wants to take his grandfather, who used to be a fisherman, to learn more about the history of fishing in the area. His grandfather can't manage stairs, and they don't want to pay to get in.",
+      "options": [
+        "A) Fenwick Costume Collection",
+        "B) Discovery Zone",
+        "C) Mill Lane Toy Museum",
+        "D) Valley Railway Museum",
+        "E) Harbour Museum",
+        "F) Saltwick Heritage Centre",
+        "G) City Transport Hall",
+        "H) Castlegate Gallery"
+      ],
+      "correct": "E",
+      "correctAnswer": "E",
+      "explanation": "The Harbour Museum includes 'the fishing boats of the 1800s', 'Lifts take you to every floor' and 'Entry to the museum is free'. Saltwick Heritage Centre is also free and about families who 'lived from the sea', but it has 'narrow, steep stairs and … no lift'.",
+      "grammarTags": [
+        "g-en-b1-used-to"
+      ],
+      "topicTags": [
+        "culture"
+      ],
+      "vocabularyTags": [
+        "lift",
+        "free entry",
+        "fishing"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-r-t2-match-museums-01-q5",
+      "module": "lesen",
+      "teil": 2,
+      "type": "matching",
+      "passageId": "en-b1-p-lesen-t2-match-museums-01-01",
+      "question": "Hannah is doing a fashion course and is writing a project on how clothes have changed over the last 300 years. She wants to look very carefully at real clothes from the past, and she is free on weekdays.",
+      "options": [
+        "A) Fenwick Costume Collection",
+        "B) Discovery Zone",
+        "C) Mill Lane Toy Museum",
+        "D) Valley Railway Museum",
+        "E) Harbour Museum",
+        "F) Saltwick Heritage Centre",
+        "G) City Transport Hall",
+        "H) Castlegate Gallery"
+      ],
+      "correct": "A",
+      "correctAnswer": "A",
+      "explanation": "Fenwick Costume Collection has clothing 'from silk dresses of the 1700s to … the 1970s', students 'can book a free session in our study room to examine pieces up close', and it is open 'Monday to Friday'. Mill Lane Toy Museum has 'old-fashioned clothes', but they are for children to dress up in, not real clothes from the past to study.",
+      "grammarTags": [
+        "g-en-b1-present-perfect"
+      ],
+      "topicTags": [
+        "culture"
+      ],
+      "vocabularyTags": [
+        "fashion",
+        "examine",
+        "study room"
+      ],
+      "difficulty": 5,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    }
+  ],
+  "_germanCapsNormalizeVersion": "v3.23-lesen-t2-angebote-corpus-2026-07-28",
+  "_germanCapsNormalizedAt": "2026-10-12T14:43:59.418Z",
+  "_balanceMcqVersion": "v1.2-no-rf-chrono-shuffle-2026-07-11",
+  "_balanceMcqNormalizedAt": "2026-10-12T14:43:59.419Z"
+}

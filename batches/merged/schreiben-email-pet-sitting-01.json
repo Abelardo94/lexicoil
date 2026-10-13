@@ -1,0 +1,80 @@
+{
+  "passages": [],
+  "questions": [
+    {
+      "id": "en-b1-w-t1-email-pet-sitting-01-q1",
+      "module": "schreiben",
+      "teil": 1,
+      "type": "short_answer",
+      "taskTypes": [
+        "email"
+      ],
+      "question": "Part 1. You must answer this question.\n\nRead this email from your neighbour, Mrs Hughes, and the notes you have made.\n\nFrom: Carol Hughes\nSubject: Could you help us?\n\nHello,\n\nWe're going to visit my sister in Scotland from 3 to 10 August. Would you be able to look after our cat, Biscuit, while we're away? [Note 1: Yes, …]\n\nBiscuit needs food twice a day, once in the morning and once in the evening. What time would be best for you to come round? [Note 2: Tell Mrs Hughes]\n\nIs there anything you would like to know about looking after her? [Note 3: Ask about …]\n\nWe'd like to thank you for your help. Is there anything we could bring you back from Scotland? [Note 4: Explain]\n\nBest wishes,\nCarol Hughes\n\nWrite your email to Mrs Hughes using all the notes. Write about 100 words.",
+      "correct": "rubric",
+      "correctAnswer": "rubric",
+      "explanation": "A good answer is a polite but friendly email to a neighbour (e.g. 'Dear Mrs Hughes,' … 'Best wishes,') of about 100 words that deals with all four notes: (1) agrees to look after the cat ('Yes, of course, I'd be happy to look after Biscuit'); (2) says what times suit the writer ('I could come at about 8 a.m. before school and at 6 p.m.'); (3) asks a question about looking after Biscuit ('Does she need any medicine?' / 'Can I let her go outside?'); (4) explains what the writer would like, or that nothing is needed ('You don't need to bring me anything, but some Scottish chocolate would be lovely!'). Marks are given for Content (all four notes), Communicative Achievement (a polite tone suitable for an adult neighbour), Organisation (paragraphs and linking words) and Language (B1 structures such as 'I'd be happy to…', 'Could you tell me…?', indirect questions). Missing a note reduces the Content mark.",
+      "options": [],
+      "grammarTags": [
+        "g-en-b1-modals",
+        "g-en-b1-questions"
+      ],
+      "topicTags": [
+        "animals"
+      ],
+      "vocabularyTags": [
+        "look after",
+        "pet",
+        "neighbour",
+        "feed",
+        "away"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "writing"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-w-t2-email-pet-sitting-01-q1",
+      "module": "schreiben",
+      "teil": 2,
+      "type": "short_answer",
+      "taskTypes": [
+        "article",
+        "story"
+      ],
+      "question": "Part 2. Choose ONE of these questions. Write your answer in about 100 words.\n\nQuestion 2: Article\nYou see this notice in an English-language magazine.\n\nARTICLES WANTED!\nWhy animals are important to people\nWhy do people keep pets? How can animals help people in their lives? Is there an animal that is important to you?\nWrite an article answering these questions. We will publish the most interesting articles.\n\nWrite your article.\n\nQuestion 3: Story\nYour English teacher has asked you to write a story.\nYour story must begin with this sentence:\n'The dog would not stop barking.'\n\nWrite your story.",
+      "correct": "rubric",
+      "correctAnswer": "rubric",
+      "explanation": "Candidates answer only ONE question, in about 100 words. Article: a good answer has a title and an engaging opening, and answers the questions in the notice: why people keep pets (company, fun, responsibility), how animals help people (guide dogs, farm animals, making people less stressed) and a personal example (a family pet, a grandparent's horse). It should give opinions and reasons ('I believe that…', 'This is because…') and speak directly to the reader. Story: the story must begin with the given sentence and continue logically (why the dog was barking, what the writer discovered, how it ended). It needs a clear beginning, middle and end, a range of past tenses, some direct speech or description of feelings, and sequencing words ('At first', 'Then', 'In the end'). Both are marked for Content, Communicative Achievement, Organisation and Language.",
+      "options": [],
+      "grammarTags": [
+        "g-en-b1-past-simple",
+        "g-en-b1-giving-reasons"
+      ],
+      "topicTags": [
+        "animals"
+      ],
+      "vocabularyTags": [
+        "pet",
+        "bark",
+        "company",
+        "responsibility",
+        "owner"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "writing"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    }
+  ],
+  "_germanCapsNormalizeVersion": "v3.23-lesen-t2-angebote-corpus-2026-07-28",
+  "_germanCapsNormalizedAt": "2026-10-12T14:44:05.278Z",
+  "_balanceMcqVersion": "v1.2-no-rf-chrono-shuffle-2026-07-11",
+  "_balanceMcqNormalizedAt": "2026-10-12T14:44:05.278Z"
+}

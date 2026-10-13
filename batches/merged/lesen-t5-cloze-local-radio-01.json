@@ -1,0 +1,227 @@
+{
+  "passages": [
+    {
+      "id": "en-b1-p-lesen-t5-cloze-local-radio-01-01",
+      "module": "lesen",
+      "title": "On air at college",
+      "text": "When I started college last year, a friend persuaded me to join the student radio station. I had never (1) ______ on the radio before, so I was extremely nervous at my first meeting. Luckily, the station manager, Priya, was very kind. She (2) ______ me to start by reading the weather report, which only (3) ______ about two minutes. Even so, my hands were shaking the first time the red light came on. Little by little, it got easier. After a couple of months I felt (4) ______ enough to ask for my own music programme, and Priya agreed. Now, every Thursday evening from eight to nine, I (5) ______ songs by new bands from our area and chat about them with guests. Some listeners even send messages to request their favourite tracks. Working at the station has (6) ______ me how to plan my time and how to work as part of a team. Next term I am hoping to interview a few local musicians live in the studio, which will be my biggest challenge so far.",
+      "passageVocab": [
+        "microphone",
+        "present",
+        "listener",
+        "studio",
+        "broadcast"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "en-b1-r-t5-cloze-local-radio-01-q1",
+      "module": "lesen",
+      "teil": 5,
+      "type": "multiple_choice",
+      "question": "Choose the word that best fits gap (1).",
+      "correct": "b",
+      "correctAnswer": "b",
+      "explanation": "The text says \"I had never spoken on the radio before\". Speak can be used without an object; told, said and explained all need an object (told someone, said something, explained something), so they cannot fit here.",
+      "options": [
+        "a) said",
+        "b) spoken",
+        "c) explained",
+        "d) told"
+      ],
+      "grammarTags": [
+        "g-en-b1-present-perfect"
+      ],
+      "topicTags": [
+        "media"
+      ],
+      "vocabularyTags": [
+        "speak",
+        "radio"
+      ],
+      "difficulty": 4,
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge",
+      "skills": [
+        "reading"
+      ],
+      "passageId": "en-b1-p-lesen-t5-cloze-local-radio-01-01"
+    },
+    {
+      "id": "en-b1-r-t5-cloze-local-radio-01-q2",
+      "module": "lesen",
+      "teil": 5,
+      "type": "multiple_choice",
+      "question": "Choose the word that best fits gap (2).",
+      "correct": "c",
+      "correctAnswer": "c",
+      "explanation": "Only advise follows the pattern verb + person + to-infinitive: \"She advised me to start by reading the weather report\". We cannot say suggested me to, insisted me to or proposed me to.",
+      "options": [
+        "a) proposed",
+        "b) suggested",
+        "c) advised",
+        "d) insisted"
+      ],
+      "grammarTags": [
+        "g-en-b1-verb-patterns"
+      ],
+      "topicTags": [
+        "media"
+      ],
+      "vocabularyTags": [
+        "advise",
+        "suggest"
+      ],
+      "difficulty": 5,
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge",
+      "skills": [
+        "reading"
+      ],
+      "passageId": "en-b1-p-lesen-t5-cloze-local-radio-01-01"
+    },
+    {
+      "id": "en-b1-r-t5-cloze-local-radio-01-q3",
+      "module": "lesen",
+      "teil": 5,
+      "type": "multiple_choice",
+      "question": "Choose the word that best fits gap (3).",
+      "correct": "c",
+      "correctAnswer": "c",
+      "explanation": "The weather report \"only lasted about two minutes\": last means continue for a period of time. Spent needs a person as subject (I spent two minutes), passed needs time as subject, and kept does not describe how long something takes.",
+      "options": [
+        "a) passed",
+        "b) kept",
+        "c) lasted",
+        "d) spent"
+      ],
+      "grammarTags": [
+        "g-en-b1-verb-patterns"
+      ],
+      "topicTags": [
+        "media"
+      ],
+      "vocabularyTags": [
+        "last",
+        "duration"
+      ],
+      "difficulty": 4,
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge",
+      "skills": [
+        "reading"
+      ],
+      "passageId": "en-b1-p-lesen-t5-cloze-local-radio-01-01"
+    },
+    {
+      "id": "en-b1-r-t5-cloze-local-radio-01-q4",
+      "module": "lesen",
+      "teil": 5,
+      "type": "multiple_choice",
+      "question": "Choose the word that best fits gap (4).",
+      "correct": "a",
+      "correctAnswer": "a",
+      "explanation": "At first the writer was \"extremely nervous\", but \"after a couple of months\" felt confident enough to ask for a programme. Being polite, careful or patient enough does not explain why the writer could now ask to present a show.",
+      "options": [
+        "a) confident",
+        "b) polite",
+        "c) careful",
+        "d) patient"
+      ],
+      "grammarTags": [
+        "g-en-b1-enough"
+      ],
+      "topicTags": [
+        "media"
+      ],
+      "vocabularyTags": [
+        "confident",
+        "nervous"
+      ],
+      "difficulty": 4,
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge",
+      "skills": [
+        "reading"
+      ],
+      "passageId": "en-b1-p-lesen-t5-cloze-local-radio-01-01"
+    },
+    {
+      "id": "en-b1-r-t5-cloze-local-radio-01-q5",
+      "module": "lesen",
+      "teil": 5,
+      "type": "multiple_choice",
+      "question": "Choose the word that best fits gap (5).",
+      "correct": "d",
+      "correctAnswer": "d",
+      "explanation": "A radio presenter plays songs: \"I play songs by new bands from our area\". Put songs and turn songs are not correct English, and make songs would mean the writer writes the music.",
+      "options": [
+        "a) put",
+        "b) turn",
+        "c) make",
+        "d) play"
+      ],
+      "grammarTags": [
+        "g-en-b1-present-simple"
+      ],
+      "topicTags": [
+        "media"
+      ],
+      "vocabularyTags": [
+        "play",
+        "song"
+      ],
+      "difficulty": 3,
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge",
+      "skills": [
+        "reading"
+      ],
+      "passageId": "en-b1-p-lesen-t5-cloze-local-radio-01-01"
+    },
+    {
+      "id": "en-b1-r-t5-cloze-local-radio-01-q6",
+      "module": "lesen",
+      "teil": 5,
+      "type": "multiple_choice",
+      "question": "Choose the word that best fits gap (6).",
+      "correct": "d",
+      "correctAnswer": "d",
+      "explanation": "The structure is \"has taught me how to plan my time\": teach + person + how to. Learnt, studied and practised cannot be followed by a person (me) in this way.",
+      "options": [
+        "a) learnt",
+        "b) studied",
+        "c) practised",
+        "d) taught"
+      ],
+      "grammarTags": [
+        "g-en-b1-verb-patterns"
+      ],
+      "topicTags": [
+        "media"
+      ],
+      "vocabularyTags": [
+        "teach",
+        "learn"
+      ],
+      "difficulty": 4,
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge",
+      "skills": [
+        "reading"
+      ],
+      "passageId": "en-b1-p-lesen-t5-cloze-local-radio-01-01"
+    }
+  ],
+  "_germanCapsNormalizeVersion": "v3.23-lesen-t2-angebote-corpus-2026-07-28",
+  "_germanCapsNormalizedAt": "2026-10-12T19:15:51.405Z",
+  "_balanceMcqVersion": "v1.2-no-rf-chrono-shuffle-2026-07-11",
+  "_balanceMcqNormalizedAt": "2026-10-12T19:15:51.405Z"
+}

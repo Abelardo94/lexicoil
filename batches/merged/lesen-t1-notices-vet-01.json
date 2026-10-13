@@ -1,0 +1,240 @@
+{
+  "passages": [
+    {
+      "id": "en-b1-p-lesen-t1-notices-vet-01-01",
+      "module": "lesen",
+      "title": "Pawsworth Veterinary Surgery",
+      "text": "Please keep dogs on a short lead and cats in a closed basket while you are in the waiting room. If your pet is nervous of other animals, tell reception and we will find you a quieter place to wait.",
+      "passageVocab": [
+        "lead",
+        "basket",
+        "nervous",
+        "reception"
+      ]
+    },
+    {
+      "id": "en-b1-p-lesen-t1-notices-vet-01-02",
+      "module": "lesen",
+      "title": "Fish food – special offer",
+      "text": "Buy two large tubs of fish food and get a free water-testing kit. Offer ends Saturday or while kits last. Ask a member of staff to help you choose the right food for your fish.",
+      "passageVocab": [
+        "offer",
+        "tub",
+        "kit",
+        "last"
+      ]
+    },
+    {
+      "id": "en-b1-p-lesen-t1-notices-vet-01-03",
+      "module": "lesen",
+      "title": "Text message from Greenway Vets",
+      "text": "Hi Mrs Doyle, Biscuit’s operation went well and she is awake now. You can collect her this afternoon any time after 3. She mustn’t eat anything until this evening, and only a little then. Call us if you have any questions. Greenway Vets",
+      "passageVocab": [
+        "operation",
+        "collect",
+        "awake",
+        "a little"
+      ]
+    },
+    {
+      "id": "en-b1-p-lesen-t1-notices-vet-01-04",
+      "module": "lesen",
+      "title": "Puppy training classes",
+      "text": "Saturdays, 10–11 am, in the hall behind the shop. Puppies must be between 10 and 20 weeks old and must have had all their injections. Places are limited, so book at the till.",
+      "passageVocab": [
+        "puppy",
+        "injection",
+        "limited",
+        "till"
+      ]
+    },
+    {
+      "id": "en-b1-p-lesen-t1-notices-vet-01-05",
+      "module": "lesen",
+      "title": "Notice to clients",
+      "text": "From next month, the surgery will be closed on Wednesday afternoons. For emergencies at these times, please call our partner clinic in Hillbrook on 01632 960418, which is open 24 hours a day.",
+      "passageVocab": [
+        "surgery",
+        "emergency",
+        "clinic",
+        "partner"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "en-b1-r-t1-notices-vet-01-q1",
+      "module": "lesen",
+      "teil": 1,
+      "type": "multiple_choice",
+      "passageId": "en-b1-p-lesen-t1-notices-vet-01-01",
+      "question": "What does the sign say?",
+      "options": [
+        "a) Owners can ask to wait somewhere calmer.",
+        "b) Cats and dogs must wait in separate rooms.",
+        "c) Nervous animals will be seen by the vet first."
+      ],
+      "correct": "a",
+      "correctAnswer": "a",
+      "explanation": "If a pet is nervous, owners should \"tell reception and we will find you a quieter place to wait\". The sign says nothing about seeing nervous animals first, and cats and dogs share the waiting room, as long as dogs are \"on a short lead\" and cats are \"in a closed basket\".",
+      "grammarTags": [
+        "g-en-b1-first-conditional"
+      ],
+      "topicTags": [
+        "animals"
+      ],
+      "vocabularyTags": [
+        "vet",
+        "pets",
+        "waiting room"
+      ],
+      "difficulty": 3,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-r-t1-notices-vet-01-q2",
+      "module": "lesen",
+      "teil": 1,
+      "type": "multiple_choice",
+      "passageId": "en-b1-p-lesen-t1-notices-vet-01-02",
+      "question": "What does the notice say?",
+      "options": [
+        "a) Staff will test your aquarium water free of charge.",
+        "b) Two large tubs come with a free gift.",
+        "c) The offer will continue after Saturday."
+      ],
+      "correct": "b",
+      "correctAnswer": "b",
+      "explanation": "If you \"Buy two large tubs\" you \"get a free water-testing kit\". The offer \"ends Saturday\" or earlier, and staff help you \"choose the right food\" – they do not test the water for you.",
+      "grammarTags": [
+        "g-en-b1-imperatives"
+      ],
+      "topicTags": [
+        "animals"
+      ],
+      "vocabularyTags": [
+        "shopping",
+        "special offer",
+        "fish"
+      ],
+      "difficulty": 3,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-r-t1-notices-vet-01-q3",
+      "module": "lesen",
+      "teil": 1,
+      "type": "multiple_choice",
+      "passageId": "en-b1-p-lesen-t1-notices-vet-01-03",
+      "question": "What does the message tell Mrs Doyle?",
+      "options": [
+        "a) She can collect Biscuit at any time today.",
+        "b) She needs to call the vet before she comes.",
+        "c) Biscuit can have a little food this evening."
+      ],
+      "correct": "c",
+      "correctAnswer": "c",
+      "explanation": "The message says Biscuit \"mustn’t eat anything until this evening, and only a little then\", so a small amount of food is fine this evening. She can only be collected \"after 3\", not at any time, and Mrs Doyle only needs to call \"if you have any questions\".",
+      "grammarTags": [
+        "g-en-b1-modals"
+      ],
+      "topicTags": [
+        "animals"
+      ],
+      "vocabularyTags": [
+        "vet",
+        "operation",
+        "pet care"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-r-t1-notices-vet-01-q4",
+      "module": "lesen",
+      "teil": 1,
+      "type": "multiple_choice",
+      "passageId": "en-b1-p-lesen-t1-notices-vet-01-04",
+      "question": "Who can join the classes?",
+      "options": [
+        "a) Puppies that are under ten weeks old",
+        "b) Young puppies that have had all their injections",
+        "c) Any dog whose owner books a place at the till"
+      ],
+      "correct": "b",
+      "correctAnswer": "b",
+      "explanation": "Puppies \"must be between 10 and 20 weeks old and must have had all their injections\". Booking at the till is necessary but not enough – older dogs cannot join – and puppies under ten weeks are too young.",
+      "grammarTags": [
+        "g-en-b1-present-perfect"
+      ],
+      "topicTags": [
+        "animals"
+      ],
+      "vocabularyTags": [
+        "dog training",
+        "puppy",
+        "booking"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-r-t1-notices-vet-01-q5",
+      "module": "lesen",
+      "teil": 1,
+      "type": "multiple_choice",
+      "passageId": "en-b1-p-lesen-t1-notices-vet-01-05",
+      "question": "What is changing at the surgery?",
+      "options": [
+        "a) Clients will need a new number for all emergencies.",
+        "b) It will be moving to new premises in Hillbrook.",
+        "c) It will close one afternoon each week."
+      ],
+      "correct": "c",
+      "correctAnswer": "c",
+      "explanation": "The surgery \"will be closed on Wednesday afternoons\" from next month. The clinic number is only for emergencies \"at these times\", not for all emergencies, and Hillbrook is where the \"partner clinic\" is – the surgery itself is not moving.",
+      "grammarTags": [
+        "g-en-b1-future-will"
+      ],
+      "topicTags": [
+        "animals"
+      ],
+      "vocabularyTags": [
+        "opening hours",
+        "emergency",
+        "vet"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    }
+  ],
+  "_germanCapsNormalizeVersion": "v3.23-lesen-t2-angebote-corpus-2026-07-28",
+  "_germanCapsNormalizedAt": "2026-10-12T19:15:49.703Z",
+  "_balanceMcqVersion": "v1.2-no-rf-chrono-shuffle-2026-07-11",
+  "_balanceMcqNormalizedAt": "2026-10-12T19:15:49.703Z"
+}

@@ -1,0 +1,218 @@
+{
+  "passages": [
+    {
+      "id": "en-b1-p-lesen-t4-gapped-island-school-01-01",
+      "module": "lesen",
+      "title": "Six pupils and one teacher",
+      "text": "On the island of Inchmara, off the west coast of Scotland, there is a primary school with just six pupils. They are between five and eleven years old, and they all learn together in one classroom. (1) ________ Fiona MacLeod has worked at the school for nine years, and she says that she would never change her job.\n\nTeaching children of such different ages is not simple. Every morning, Fiona gives each pupil a plan for the day. (2) ________ The older ones often help the younger ones with their reading, and this is good for both groups.\n\nThe island has no shops apart from a small post office, and the ferry to the mainland only sails three times a week. (3) ________ Instead, the children use the island itself as a classroom. In science lessons, they study the birds on the cliffs, and in maths they measure the height of the waves.\n\nSome people worry that the children do not have enough friends of their own age. (4) ________ Twice a term, the pupils take the ferry to a larger school on the mainland and spend the day with children of the same age. They also have a video call every week with a small school in Norway.\n\nThe biggest problem for the school is its future. Two of the pupils will leave for secondary school next summer, and only one new child is expected. (5) ________ But Fiona is hopeful. Several young families have moved to the island recently, because they can now work from home online.",
+      "passageVocab": [
+        "pupil",
+        "ferry",
+        "mainland",
+        "head teacher",
+        "council"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "en-b1-r-t4-gapped-island-school-01-q1",
+      "module": "lesen",
+      "teil": 4,
+      "type": "matching",
+      "question": "Read the text \"Six pupils and one teacher\". Which sentence (A–H) best fits gap 1?",
+      "correct": "F",
+      "correctAnswer": "F",
+      "explanation": "\"Their\" refers to the six pupils, and \"Their only teacher\" introduces the person who is named next: \"Fiona MacLeod has worked at the school for nine years\". The sentence saying the children have dozens of friends of their own age is impossible on an island where the school has \"just six pupils\".",
+      "options": [
+        "A) Then she moves around the room and spends time with each of them in turn.",
+        "B) If the numbers keep falling, the local council may decide to close the school.",
+        "C) As a result, they have dozens of friends of their own age on the island.",
+        "D) Because of this, school trips to museums or theatres are very rare.",
+        "E) On Saturdays, the children love going shopping at the busy market in the harbour.",
+        "F) Their only teacher is also the head teacher, the cook and sometimes the gardener.",
+        "G) For this reason, the youngest pupils are never allowed to work with the older ones.",
+        "H) Fiona understands this worry, but she has found ways to solve the problem."
+      ],
+      "grammarTags": [
+        "g-en-b1-reference-words",
+        "g-en-b1-linking-words"
+      ],
+      "topicTags": [
+        "education"
+      ],
+      "vocabularyTags": [
+        "head teacher",
+        "cook"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge",
+      "passageId": "en-b1-p-lesen-t4-gapped-island-school-01-01"
+    },
+    {
+      "id": "en-b1-r-t4-gapped-island-school-01-q2",
+      "module": "lesen",
+      "teil": 4,
+      "type": "matching",
+      "question": "Read the text \"Six pupils and one teacher\". Which sentence (A–H) best fits gap 2?",
+      "correct": "A",
+      "correctAnswer": "A",
+      "explanation": "\"Then\" follows \"Every morning, Fiona gives each pupil a plan\", and \"each of them\" refers to the pupils. The sentence saying the youngest pupils never work with the older ones is wrong, because the next sentence says \"The older ones often help the younger ones\".",
+      "options": [
+        "A) Then she moves around the room and spends time with each of them in turn.",
+        "B) If the numbers keep falling, the local council may decide to close the school.",
+        "C) As a result, they have dozens of friends of their own age on the island.",
+        "D) Because of this, school trips to museums or theatres are very rare.",
+        "E) On Saturdays, the children love going shopping at the busy market in the harbour.",
+        "F) Their only teacher is also the head teacher, the cook and sometimes the gardener.",
+        "G) For this reason, the youngest pupils are never allowed to work with the older ones.",
+        "H) Fiona understands this worry, but she has found ways to solve the problem."
+      ],
+      "grammarTags": [
+        "g-en-b1-reference-words",
+        "g-en-b1-linking-words"
+      ],
+      "topicTags": [
+        "education"
+      ],
+      "vocabularyTags": [
+        "in turn",
+        "plan"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge",
+      "passageId": "en-b1-p-lesen-t4-gapped-island-school-01-01"
+    },
+    {
+      "id": "en-b1-r-t4-gapped-island-school-01-q3",
+      "module": "lesen",
+      "teil": 4,
+      "type": "matching",
+      "question": "Read the text \"Six pupils and one teacher\". Which sentence (A–H) best fits gap 3?",
+      "correct": "D",
+      "correctAnswer": "D",
+      "explanation": "\"Because of this\" refers to the island having \"no shops\" and a ferry that \"only sails three times a week\", so trips are rare. \"Instead, the children use the island itself as a classroom\" then follows naturally. The sentence about shopping at a busy market contradicts \"no shops apart from a small post office\".",
+      "options": [
+        "A) Then she moves around the room and spends time with each of them in turn.",
+        "B) If the numbers keep falling, the local council may decide to close the school.",
+        "C) As a result, they have dozens of friends of their own age on the island.",
+        "D) Because of this, school trips to museums or theatres are very rare.",
+        "E) On Saturdays, the children love going shopping at the busy market in the harbour.",
+        "F) Their only teacher is also the head teacher, the cook and sometimes the gardener.",
+        "G) For this reason, the youngest pupils are never allowed to work with the older ones.",
+        "H) Fiona understands this worry, but she has found ways to solve the problem."
+      ],
+      "grammarTags": [
+        "g-en-b1-reference-words",
+        "g-en-b1-linking-words"
+      ],
+      "topicTags": [
+        "education"
+      ],
+      "vocabularyTags": [
+        "school trip",
+        "museum"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge",
+      "passageId": "en-b1-p-lesen-t4-gapped-island-school-01-01"
+    },
+    {
+      "id": "en-b1-r-t4-gapped-island-school-01-q4",
+      "module": "lesen",
+      "teil": 4,
+      "type": "matching",
+      "question": "Read the text \"Six pupils and one teacher\". Which sentence (A–H) best fits gap 4?",
+      "correct": "H",
+      "correctAnswer": "H",
+      "explanation": "\"this worry\" refers to \"Some people worry that the children do not have enough friends\", and the \"ways to solve the problem\" are the visits to the mainland school and the video calls. The sentence saying they have dozens of friends on the island cannot follow a worry about too few friends.",
+      "options": [
+        "A) Then she moves around the room and spends time with each of them in turn.",
+        "B) If the numbers keep falling, the local council may decide to close the school.",
+        "C) As a result, they have dozens of friends of their own age on the island.",
+        "D) Because of this, school trips to museums or theatres are very rare.",
+        "E) On Saturdays, the children love going shopping at the busy market in the harbour.",
+        "F) Their only teacher is also the head teacher, the cook and sometimes the gardener.",
+        "G) For this reason, the youngest pupils are never allowed to work with the older ones.",
+        "H) Fiona understands this worry, but she has found ways to solve the problem."
+      ],
+      "grammarTags": [
+        "g-en-b1-reference-words",
+        "g-en-b1-linking-words"
+      ],
+      "topicTags": [
+        "education"
+      ],
+      "vocabularyTags": [
+        "worry",
+        "solve"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge",
+      "passageId": "en-b1-p-lesen-t4-gapped-island-school-01-01"
+    },
+    {
+      "id": "en-b1-r-t4-gapped-island-school-01-q5",
+      "module": "lesen",
+      "teil": 4,
+      "type": "matching",
+      "question": "Read the text \"Six pupils and one teacher\". Which sentence (A–H) best fits gap 5?",
+      "correct": "B",
+      "correctAnswer": "B",
+      "explanation": "Two pupils will leave and \"only one new child is expected\", so the numbers are falling, and this sentence explains the danger. \"But Fiona is hopeful\" then contrasts with it. It also explains \"The biggest problem for the school is its future\". The sentence about dozens of friends on the island cannot fit here, because the school is getting smaller.",
+      "options": [
+        "A) Then she moves around the room and spends time with each of them in turn.",
+        "B) If the numbers keep falling, the local council may decide to close the school.",
+        "C) As a result, they have dozens of friends of their own age on the island.",
+        "D) Because of this, school trips to museums or theatres are very rare.",
+        "E) On Saturdays, the children love going shopping at the busy market in the harbour.",
+        "F) Their only teacher is also the head teacher, the cook and sometimes the gardener.",
+        "G) For this reason, the youngest pupils are never allowed to work with the older ones.",
+        "H) Fiona understands this worry, but she has found ways to solve the problem."
+      ],
+      "grammarTags": [
+        "g-en-b1-reference-words",
+        "g-en-b1-linking-words"
+      ],
+      "topicTags": [
+        "education"
+      ],
+      "vocabularyTags": [
+        "council",
+        "close"
+      ],
+      "difficulty": 5,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge",
+      "passageId": "en-b1-p-lesen-t4-gapped-island-school-01-01"
+    }
+  ],
+  "_germanCapsNormalizeVersion": "v3.23-lesen-t2-angebote-corpus-2026-07-28",
+  "_germanCapsNormalizedAt": "2026-10-12T19:19:51.620Z",
+  "_balanceMcqVersion": "v1.2-no-rf-chrono-shuffle-2026-07-11",
+  "_balanceMcqNormalizedAt": "2026-10-12T19:19:51.620Z"
+}

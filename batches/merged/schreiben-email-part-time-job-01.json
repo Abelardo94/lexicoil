@@ -1,0 +1,80 @@
+{
+  "passages": [],
+  "questions": [
+    {
+      "id": "en-b1-w-t1-email-part-time-job-01-q1",
+      "module": "schreiben",
+      "teil": 1,
+      "type": "short_answer",
+      "taskTypes": [
+        "email"
+      ],
+      "question": "Read this email from your English-speaking friend Sophie and the notes you have made.\n\nFrom: Sophie\nSubject: A job at the café\n\nHi!\nGuess what? The café where I work, Bean There, is looking for someone to help at weekends, and I immediately thought of you! [Note 1: Brilliant!] You’d work on Saturday and Sunday mornings from eight o’clock until one. Would those hours be OK for you? [Note 2: Explain] The work is mainly serving customers and clearing tables, but sometimes you’d help in the kitchen too. Which would you prefer to do? [Note 3: Tell Sophie] If you’re interested, my manager would like to meet you next week. When are you free? [Note 4: Suggest a day and time]\n\nLove,\nSophie\n\nWrite your email to Sophie using all the notes. Write about 100 words.",
+      "correct": "rubric",
+      "correctAnswer": "rubric",
+      "explanation": "A good answer replies to all four notes: (1) reacts with enthusiasm and thanks Sophie for thinking of you; (2) says whether the weekend hours are possible and explains why or why not; (3) says whether you prefer serving customers or working in the kitchen, and gives a reason; (4) suggests a day and a time to meet the manager. Use an informal greeting and ending, link your ideas (because, but, so) and write about 100 words.\n\nModel answer:\nHi Sophie,\nThanks so much for thinking of me – that’s brilliant news! I’ve wanted a weekend job for ages.\nSaturday mornings are perfect for me. On Sundays I have a swimming lesson at nine, so I couldn’t come before ten. Is that a problem?\nI’d prefer to help in the kitchen because I love cooking and I’m a bit shy with new people. But I’m happy to serve customers too if you need me.\nI could meet your manager next Tuesday or Wednesday after school, at about half past four. Would that be OK?\nSee you soon,\nAlex",
+      "options": [],
+      "grammarTags": [
+        "g-en-b1-modals",
+        "g-en-b1-present-perfect"
+      ],
+      "topicTags": [
+        "work"
+      ],
+      "vocabularyTags": [
+        "customer",
+        "manager",
+        "weekend job",
+        "serve",
+        "prefer"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "writing"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-w-t2-email-part-time-job-01-q1",
+      "module": "schreiben",
+      "teil": 2,
+      "type": "short_answer",
+      "taskTypes": [
+        "article",
+        "story"
+      ],
+      "question": "Choose ONE of these questions. Write your answer in about 100 words.\n\nQuestion 2 – Article\nYou see this announcement in an English-language magazine for young people.\n\nArticles wanted!\nMY FIRST JOB\nWhat was your first job, or what job would you like to do first? What did you learn, or what would you like to learn? Was it what you expected?\nWrite an article answering these questions. We will publish the best articles in our magazine.\n\nWrite your article.\n\nQuestion 3 – Story\nYour English teacher has asked you to write a story.\nYour story must begin with this sentence:\nIt was my first day at work and I was late.\n\nWrite your story.",
+      "correct": "rubric",
+      "correctAnswer": "rubric",
+      "explanation": "Article: give your article a title, answer all the questions in the announcement (what the job was or would be, what you learned or want to learn, whether it was as you expected) and try to interest the reader, for example with a question or a personal opinion. Story: begin with the given sentence, keep the same person and past tenses, and make sure the story has a clear middle and ending. In both tasks write about 100 words and link your ideas clearly.\n\nModel article:\nMy first job\nLast summer I got my first job at a garden centre near my home. I watered the plants, helped customers carry heavy bags to their cars and kept the shop tidy.\nI learned a lot. I learned how to talk politely to people I didn’t know, and how to work in a team. I also discovered that I’m good at remembering the names of flowers!\nWas it what I expected? Not really. I thought it would be easy, but I was on my feet all day and I felt really tired in the evenings. Still, I loved earning my own money.\n\nModel story:\nIt was my first day at work and I was late. My bus had broken down, so I ran the last kilometre to the bookshop. When I arrived, the door was closed and there was nobody inside. I waited outside, feeling terrible.\nTen minutes later, the owner, Mrs Hill, arrived with a bag of keys. “I’m so sorry,” she said. “My alarm didn’t ring this morning!”\nWe both started laughing. She made us some tea and showed me how everything worked. By lunchtime I felt completely relaxed, and I knew I was going to enjoy working there.",
+      "options": [],
+      "grammarTags": [
+        "g-en-b1-past-simple",
+        "g-en-b1-past-perfect"
+      ],
+      "topicTags": [
+        "work"
+      ],
+      "vocabularyTags": [
+        "job",
+        "experience",
+        "earn",
+        "late",
+        "owner"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "writing"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    }
+  ],
+  "_germanCapsNormalizeVersion": "v3.23-lesen-t2-angebote-corpus-2026-07-28",
+  "_germanCapsNormalizedAt": "2026-10-12T19:15:54.555Z",
+  "_balanceMcqVersion": "v1.2-no-rf-chrono-shuffle-2026-07-11",
+  "_balanceMcqNormalizedAt": "2026-10-12T19:15:54.555Z"
+}

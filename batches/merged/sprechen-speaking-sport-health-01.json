@@ -1,0 +1,147 @@
+{
+  "passages": [],
+  "questions": [
+    {
+      "id": "en-b1-s-t1-speaking-sport-health-01-q1",
+      "module": "sprechen",
+      "teil": 1,
+      "type": "short_answer",
+      "taskTypes": [
+        "interview"
+      ],
+      "question": "Part 1 (2-3 minutes). The examiner asks you some questions about yourself.\n\nWhat's your name? How old are you?\nWhat sports do you like doing?\nHow often do you do some exercise?\nDo you prefer playing sport or watching it? Why?\nTell us about a sport you would like to try.\nWhat sports did you do at primary school?",
+      "correct": "rubric",
+      "correctAnswer": "rubric",
+      "explanation": "Answer each question with a short answer and then add a reason or an example: 'I go swimming twice a week, usually on Mondays and Thursdays, because there's a pool near my flat.' Use adverbs of frequency for routines ('I often play basketball'), 'would like to' for wishes ('I'd like to try surfing because it looks exciting') and the past simple for things you did as a child ('We played a lot of football at primary school'). The examiner assesses Grammar and Vocabulary, Discourse Management (extending answers), Pronunciation and Interactive Communication.",
+      "options": [],
+      "grammarTags": [
+        "g-en-b1-adverbs-frequency",
+        "g-en-b1-past-simple"
+      ],
+      "topicTags": [
+        "sport"
+      ],
+      "vocabularyTags": [
+        "exercise",
+        "team",
+        "match",
+        "train"
+      ],
+      "difficulty": 5,
+      "skills": [
+        "speaking"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-s-t2-speaking-sport-health-01-q1",
+      "module": "sprechen",
+      "teil": 2,
+      "type": "short_answer",
+      "taskTypes": [
+        "photo_description"
+      ],
+      "question": "Part 2 (about 1 minute). Look at the photograph. It shows a group of young people playing volleyball on a beach on a sunny day. Some of them are jumping to hit the ball, and a few friends are sitting on towels and watching. Tell us what you can see in the photograph.",
+      "correct": "rubric",
+      "correctAnswer": "rubric",
+      "explanation": "Talk on your own for about one minute. Say where the people are ('They're on a beach, maybe on holiday'), who they are and what they are doing, using the present continuous ('Two girls are jumping', 'Some people are sitting on towels'). Describe details such as clothes, the weather and the sea, and say what you think about the situation ('They look like they're having a lot of fun', 'I think it's very hot because they're wearing shorts and sunglasses'). Useful language: 'In the middle of the photo…', 'Behind them…', 'It seems that…', 'They might be…'. If you don't know a word, describe it in other words ('the thing in the middle that the ball goes over'). Keep talking until the examiner says thank you.",
+      "options": [],
+      "grammarTags": [
+        "g-en-b1-present-continuous",
+        "g-en-b1-speculation"
+      ],
+      "topicTags": [
+        "sport"
+      ],
+      "vocabularyTags": [
+        "volleyball",
+        "beach",
+        "net",
+        "towel",
+        "sunny"
+      ],
+      "difficulty": 5,
+      "skills": [
+        "speaking"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-s-t3-speaking-sport-health-01-q1",
+      "module": "sprechen",
+      "teil": 3,
+      "type": "short_answer",
+      "taskTypes": [
+        "collaborative_task"
+      ],
+      "question": "Part 3 (2-3 minutes). Talk to your partner.\n\nYour school is organising a sports day for students of all ages and all levels of fitness. Here are some activities that could be part of the day:\n\na running race\na tug of war\na basketball competition\na dance class\na table tennis competition\nan egg-and-spoon race\n\nTalk together about the different activities, and say which two would be the best for everyone at the school.",
+      "correct": "rubric",
+      "correctAnswer": "rubric",
+      "explanation": "This is a conversation with your partner, not a speech. Talk about the activities one by one, give your opinion with a reason and ask your partner what they think: 'A running race is a bit difficult for students who aren't very fit. What do you think?' Think about the task: the activities must suit everyone, young and old, fit and not so fit. Agree and disagree politely ('You're right, but…', 'I don't really agree because…') and make suggestions ('How about…?', 'What if we…?'). Near the end, try to choose two activities together: 'So, shall we choose the tug of war and the egg-and-spoon race?' The examiner assesses how well you keep the conversation going and respond to your partner.",
+      "options": [],
+      "grammarTags": [
+        "g-en-b1-suggestions",
+        "g-en-b1-agreeing-disagreeing"
+      ],
+      "topicTags": [
+        "sport"
+      ],
+      "vocabularyTags": [
+        "race",
+        "competition",
+        "fitness",
+        "team",
+        "prize"
+      ],
+      "difficulty": 5,
+      "skills": [
+        "speaking"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-s-t4-speaking-sport-health-01-q1",
+      "module": "sprechen",
+      "teil": 4,
+      "type": "short_answer",
+      "taskTypes": [
+        "general_conversation"
+      ],
+      "question": "Part 4 (about 3 minutes). The examiner asks you and your partner some questions about keeping fit and healthy.\n\nWhat do you do to keep fit?\nDo you think young people do enough exercise these days? Why / Why not?\nIs it better to do sport alone or with other people? Why?\nWhat can people do to have a healthy diet?\nShould schools have more sport lessons? Why / Why not?",
+      "correct": "rubric",
+      "correctAnswer": "rubric",
+      "explanation": "Give full answers with reasons and examples, and react to what your partner says ('I agree with you, because…', 'That's true, but…'). For example: 'I don't think young people do enough exercise, because many of them spend hours on their phones instead of going outside.' Use phrases for opinions ('In my opinion…', 'I believe that…', 'On the other hand…') and 'should' for advice ('People should eat more fruit and vegetables'). The examiner assesses range of language, extending answers and interaction with your partner.",
+      "options": [],
+      "grammarTags": [
+        "g-en-b1-opinions",
+        "g-en-b1-modals"
+      ],
+      "topicTags": [
+        "sport"
+      ],
+      "vocabularyTags": [
+        "healthy",
+        "diet",
+        "keep fit",
+        "exercise"
+      ],
+      "difficulty": 5,
+      "skills": [
+        "speaking"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    }
+  ],
+  "_germanCapsNormalizeVersion": "v3.23-lesen-t2-angebote-corpus-2026-07-28",
+  "_germanCapsNormalizedAt": "2026-10-12T14:44:05.749Z",
+  "_balanceMcqVersion": "v1.2-no-rf-chrono-shuffle-2026-07-11",
+  "_balanceMcqNormalizedAt": "2026-10-12T14:44:05.749Z"
+}

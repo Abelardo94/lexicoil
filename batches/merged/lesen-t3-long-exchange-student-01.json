@@ -1,0 +1,198 @@
+{
+  "passages": [
+    {
+      "id": "en-b1-p-lesen-t3-long-exchange-student-01-01",
+      "module": "lesen",
+      "title": "The year that changed me",
+      "text": "Ten years ago, when I was sixteen, I left my home in Leicester to spend a school year in a small town in northern Norway on an exchange programme. I'm now a teacher myself. My students often ask me about doing something similar, and I always say yes. But I also tell them it won't be what they expect.\n\nI'd chosen Norway mostly because of the mountains in the photos. I hadn't thought much about the language, and I arrived knowing only 'hello' and 'thank you'. My host family, the Larsens, spoke excellent English, which was a relief at first. The problem was that I used it as an excuse. For the first two months I hardly learnt any Norwegian, and at school I sat quietly at the back of lessons I couldn't follow.\n\nThings changed in November, when the days became very short and dark. I felt lonely and seriously thought about going home. It was my host brother, Even, who noticed. He didn't give me any advice. Instead, he asked me to join his handball team, although I'd never played. Nobody spoke English during training, so I had no choice: I had to understand the instructions or get hit by the ball. Within a few weeks I was following conversations, and by Christmas I was making jokes, even if they were bad ones.\n\nThe other surprise was school itself. In England I'd been used to lots of homework and tests. In Norway, students called teachers by their first names and were expected to plan their own projects. At first I found this confusing. Nobody told me exactly what to do. But it taught me to organise my own time, which helped me a lot at university later.\n\nThe hardest moment was actually the end of the year. I'd expected to be excited about going home, but saying goodbye to the Larsens was awful, and back in England I felt strangely out of place for months. My old friends had moved on, and the stories I wanted to share didn't interest them much.\n\nI still visit Norway every couple of years, and Even came to my wedding last summer. When people ask what I learnt that year, they expect me to say 'Norwegian'. That's true, of course. But the more important lesson was that feeling uncomfortable is often the first step towards something good.\n\nDaniel Okafor",
+      "passageVocab": [
+        "exchange programme",
+        "host family",
+        "excuse",
+        "out of place",
+        "organise"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "en-b1-r-t3-long-exchange-student-01-q1",
+      "module": "lesen",
+      "teil": 3,
+      "type": "multiple_choice",
+      "passageId": "en-b1-p-lesen-t3-long-exchange-student-01-01",
+      "question": "Why does Daniel mention that his host family spoke excellent English?",
+      "options": [
+        "a) It was the main reason he decided to go to Norway.",
+        "b) It made it easy for him to avoid learning Norwegian.",
+        "c) It meant that he could follow his lessons at school.",
+        "d) It helped him to make friends at school quickly."
+      ],
+      "correct": "b",
+      "correctAnswer": "b",
+      "explanation": "Daniel says their English 'was a relief at first. The problem was that I used it as an excuse. For the first two months I hardly learnt any Norwegian.' He could not follow lessons ('lessons I couldn't follow'), and he chose Norway 'because of the mountains in the photos', not because of the family's English.",
+      "grammarTags": [
+        "g-en-b1-past-perfect"
+      ],
+      "topicTags": [
+        "education"
+      ],
+      "vocabularyTags": [
+        "host family",
+        "excuse",
+        "relief"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-r-t3-long-exchange-student-01-q2",
+      "module": "lesen",
+      "teil": 3,
+      "type": "multiple_choice",
+      "passageId": "en-b1-p-lesen-t3-long-exchange-student-01-01",
+      "question": "How did Even help Daniel when he was feeling lonely?",
+      "options": [
+        "a) He gave him some useful advice about feeling homesick.",
+        "b) He translated the instructions for him at training.",
+        "c) He taught him how to play handball before school.",
+        "d) He got him into a team where nobody spoke English."
+      ],
+      "correct": "d",
+      "correctAnswer": "d",
+      "explanation": "\"He didn’t give me any advice. Instead, he asked me to join his handball team… Nobody spoke English during training, so I had no choice.\" Even did not translate; Daniel \"had to understand the instructions\" himself. There is no mention of Even teaching him the game at home or before school.",
+      "grammarTags": [
+        "g-en-b1-past-simple"
+      ],
+      "topicTags": [
+        "sport"
+      ],
+      "vocabularyTags": [
+        "lonely",
+        "team",
+        "training"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-r-t3-long-exchange-student-01-q3",
+      "module": "lesen",
+      "teil": 3,
+      "type": "multiple_choice",
+      "passageId": "en-b1-p-lesen-t3-long-exchange-student-01-01",
+      "question": "What did Daniel think of his Norwegian school at first?",
+      "options": [
+        "a) He thought the teachers were very strict.",
+        "b) He preferred it to his school in England.",
+        "c) He was not sure what he was supposed to do.",
+        "d) He found the tests there much too difficult."
+      ],
+      "correct": "c",
+      "correctAnswer": "c",
+      "explanation": "He writes: 'At first I found this confusing. Nobody told me exactly what to do.' The 'lots of homework and tests' were in England, not Norway, and students used teachers' first names, which does not suggest strict teachers. He only saw the benefit later, so he did not prefer it at first.",
+      "grammarTags": [
+        "g-en-b1-used-to"
+      ],
+      "topicTags": [
+        "education"
+      ],
+      "vocabularyTags": [
+        "confusing",
+        "project",
+        "organise"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-r-t3-long-exchange-student-01-q4",
+      "module": "lesen",
+      "teil": 3,
+      "type": "multiple_choice",
+      "passageId": "en-b1-p-lesen-t3-long-exchange-student-01-01",
+      "question": "How did Daniel feel when he got back to England?",
+      "options": [
+        "a) Excited to tell his old friends all about Norway",
+        "b) Relieved that a difficult year was finally over",
+        "c) As if he did not really belong there any more",
+        "d) Pleased to be back with his friends again"
+      ],
+      "correct": "c",
+      "correctAnswer": "c",
+      "explanation": "'Back in England I felt strangely out of place for months. My old friends had moved on.' He had 'expected to be excited about going home', but he was not, and his friends were not interested in his stories, so he was not pleased or relieved.",
+      "grammarTags": [
+        "g-en-b1-past-perfect"
+      ],
+      "topicTags": [
+        "travel"
+      ],
+      "vocabularyTags": [
+        "out of place",
+        "goodbye",
+        "move on"
+      ],
+      "difficulty": 5,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-r-t3-long-exchange-student-01-q5",
+      "module": "lesen",
+      "teil": 3,
+      "type": "multiple_choice",
+      "passageId": "en-b1-p-lesen-t3-long-exchange-student-01-01",
+      "question": "What is Daniel's main purpose in writing this text?",
+      "options": [
+        "a) To show that a hard experience can still be worth it",
+        "b) To persuade more teachers to organise school exchanges",
+        "c) To explain how to learn a foreign language quickly",
+        "d) To compare school life in England and in Norway"
+      ],
+      "correct": "a",
+      "correctAnswer": "a",
+      "explanation": "He tells his students to go but warns 'it won't be what they expect', and ends: 'the more important lesson was that feeling uncomfortable is often the first step towards something good.' Schools and language learning are only parts of his story, and he does not ask teachers to organise exchanges.",
+      "grammarTags": [
+        "g-en-b1-infinitive-of-purpose"
+      ],
+      "topicTags": [
+        "education"
+      ],
+      "vocabularyTags": [
+        "lesson",
+        "uncomfortable",
+        "experience"
+      ],
+      "difficulty": 5,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    }
+  ],
+  "_germanCapsNormalizeVersion": "v3.23-lesen-t2-angebote-corpus-2026-07-28",
+  "_germanCapsNormalizedAt": "2026-10-12T14:44:00.334Z",
+  "_balanceMcqVersion": "v1.2-no-rf-chrono-shuffle-2026-07-11",
+  "_balanceMcqNormalizedAt": "2026-10-12T14:44:00.335Z"
+}

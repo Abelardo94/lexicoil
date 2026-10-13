@@ -82,11 +82,13 @@ const files = [
   'data/exams/en_B1.json',
 ];
 test('served en/B1 data: acceptedAnswers only on gap items, non-empty, never the key', () => {
-  let n = 0;
+  const copies = new Map(); // gap id -> copy kinds it was found in
   for (const f of files) {
+    const kind = f.includes('/curated/') ? 'curated' : f.includes('pool-seed') ? 'pool-seed' : f.startsWith('data/') ? 'served' : 'bank';
     const walk = (o) => { if (Array.isArray(o)) o.forEach(walk); else if (o && typeof o === 'object') {
       if ('acceptedAnswers' in o) {
-        n++;
+        const id = String(o.id).replace(/^ql_/, '');
+        copies.set(id, [...(copies.get(id) || []), kind]);
         assert.ok(['gap_fill', 'gap'].includes(o.type), `${f} ${o.id}: ${o.type}`);
         assert.ok(Array.isArray(o.acceptedAnswers) && o.acceptedAnswers.length, `${f} ${o.id}`);
         for (const a of o.acceptedAnswers) {
@@ -97,7 +99,12 @@ test('served en/B1 data: acceptedAnswers only on gap items, non-empty, never the
       Object.values(o).forEach(walk); } };
     walk(JSON.parse(fs.readFileSync(path.join(ROOT, f), 'utf8')));
   }
-  assert.equal(n, 36, 'nine gaps × four copies (curated, pool-seed, bank, served)');
+  // Every gap must reach all four copies exactly once: a fix that stops upstream never reaches
+  // learners. Checked per gap rather than as a total, so adding exams does not break the test.
+  assert.ok(copies.size >= 9, `only ${copies.size} gaps with acceptedAnswers`);
+  for (const [id, kinds] of copies) {
+    assert.deepEqual([...kinds].sort(), ['bank', 'curated', 'pool-seed', 'served'], `${id}: found in ${kinds.join(', ')}`);
+  }
 });
 
 console.log(`\n${passed} passed`);

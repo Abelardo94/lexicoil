@@ -1,0 +1,191 @@
+{
+  "passages": [
+    {
+      "id": "en-b1-p-lesen-t6-open-cloze-online-friend-01-01",
+      "module": "lesen",
+      "title": "Meeting Isla at last",
+      "text": "Four years ago, my English teacher organised an online exchange with a school in Edinburgh. Every student in our class was given a partner to write to, and mine was a girl (1) ______ name was Isla. At first I was not very keen (2) ______ the idea, because I have never enjoyed writing long messages. But the emails from Isla were so funny that I always replied straight away. Soon we were chatting by video every weekend, (3) ______ though we had never met. Last July my parents finally agreed to take me to Scotland. On the train I felt nervous, and (4) ______ worried me most was that we would have nothing to say to each other face to face. In fact, (5) ______ was no reason to worry at all. Isla was waiting on the platform holding a big sign with my name on it, and we started talking at once. I stayed with her family for a week and even had a little room of my (6) ______ at the top of the house. Now we are planning her visit to my town next spring.",
+      "passageVocab": [
+        "exchange",
+        "partner",
+        "platform",
+        "nervous",
+        "face to face"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "en-b1-r-t6-open-cloze-online-friend-01-q1",
+      "module": "lesen",
+      "teil": 6,
+      "type": "gap_fill",
+      "question": "Write ONE word that fits gap (1).",
+      "correct": "whose",
+      "correctAnswer": "whose",
+      "explanation": "Whose is the possessive relative pronoun: \"a girl whose name was Isla\" means a girl, and her name was Isla. Who or that cannot be followed directly by a noun like name.",
+      "options": [],
+      "grammarTags": [
+        "g-en-b1-time-expressions"
+      ],
+      "topicTags": [
+        "friendship"
+      ],
+      "vocabularyTags": [
+        "ago"
+      ],
+      "difficulty": 3,
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge",
+      "skills": [
+        "reading"
+      ],
+      "passageId": "en-b1-p-lesen-t6-open-cloze-online-friend-01-01"
+    },
+    {
+      "id": "en-b1-r-t6-open-cloze-online-friend-01-q2",
+      "module": "lesen",
+      "teil": 6,
+      "type": "gap_fill",
+      "question": "Write ONE word that fits gap (2).",
+      "correct": "on",
+      "correctAnswer": "on",
+      "explanation": "The fixed phrase is keen on something: \"I was not very keen on the idea\". No other preposition is used after keen with a noun.",
+      "options": [],
+      "grammarTags": [
+        "g-en-b1-adjective-preposition"
+      ],
+      "topicTags": [
+        "friendship"
+      ],
+      "vocabularyTags": [
+        "keen on"
+      ],
+      "difficulty": 3,
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge",
+      "skills": [
+        "reading"
+      ],
+      "passageId": "en-b1-p-lesen-t6-open-cloze-online-friend-01-01"
+    },
+    {
+      "id": "en-b1-r-t6-open-cloze-online-friend-01-q3",
+      "module": "lesen",
+      "teil": 6,
+      "type": "gap_fill",
+      "question": "Write ONE word that fits gap (3).",
+      "correct": "even",
+      "correctAnswer": "even",
+      "explanation": "Even though introduces a surprising contrast: they chatted every weekend \"even though we had never met\". Only even fits before though in one word here.",
+      "options": [],
+      "grammarTags": [
+        "g-en-b1-linking-words"
+      ],
+      "topicTags": [
+        "friendship"
+      ],
+      "vocabularyTags": [
+        "even though"
+      ],
+      "difficulty": 4,
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge",
+      "skills": [
+        "reading"
+      ],
+      "passageId": "en-b1-p-lesen-t6-open-cloze-online-friend-01-01"
+    },
+    {
+      "id": "en-b1-r-t6-open-cloze-online-friend-01-q4",
+      "module": "lesen",
+      "teil": 6,
+      "type": "gap_fill",
+      "question": "Write ONE word that fits gap (4).",
+      "correct": "what",
+      "correctAnswer": "what",
+      "explanation": "What means the thing that and starts the subject of the clause: \"and what worried me most was that we would have nothing to say\". No other single word can start this clause.",
+      "options": [],
+      "grammarTags": [
+        "g-en-b1-relative-clauses"
+      ],
+      "topicTags": [
+        "friendship"
+      ],
+      "vocabularyTags": [
+        "worry"
+      ],
+      "difficulty": 5,
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge",
+      "skills": [
+        "reading"
+      ],
+      "passageId": "en-b1-p-lesen-t6-open-cloze-online-friend-01-01"
+    },
+    {
+      "id": "en-b1-r-t6-open-cloze-online-friend-01-q5",
+      "module": "lesen",
+      "teil": 6,
+      "type": "gap_fill",
+      "question": "Write ONE word that fits gap (5).",
+      "correct": "there",
+      "correctAnswer": "there",
+      "explanation": "There was introduces something that exists (or here, does not exist): \"there was no reason to worry at all\". It was no reason is not correct English.",
+      "options": [],
+      "grammarTags": [
+        "g-en-b1-there-is"
+      ],
+      "topicTags": [
+        "friendship"
+      ],
+      "vocabularyTags": [
+        "reason"
+      ],
+      "difficulty": 3,
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge",
+      "skills": [
+        "reading"
+      ],
+      "passageId": "en-b1-p-lesen-t6-open-cloze-online-friend-01-01"
+    },
+    {
+      "id": "en-b1-r-t6-open-cloze-online-friend-01-q6",
+      "module": "lesen",
+      "teil": 6,
+      "type": "gap_fill",
+      "question": "Write ONE word that fits gap (6).",
+      "correct": "own",
+      "correctAnswer": "own",
+      "explanation": "The fixed pattern is a + noun + of + my own: \"had a little room of my own\", meaning a room only for the writer. No other word fits after of my.",
+      "options": [],
+      "grammarTags": [
+        "g-en-b1-possessives"
+      ],
+      "topicTags": [
+        "friendship"
+      ],
+      "vocabularyTags": [
+        "of my own"
+      ],
+      "difficulty": 4,
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge",
+      "skills": [
+        "reading"
+      ],
+      "passageId": "en-b1-p-lesen-t6-open-cloze-online-friend-01-01"
+    }
+  ],
+  "_germanCapsNormalizeVersion": "v3.23-lesen-t2-angebote-corpus-2026-07-28",
+  "_germanCapsNormalizedAt": "2026-10-12T19:48:36.554Z",
+  "_balanceMcqVersion": "v1.2-no-rf-chrono-shuffle-2026-07-11",
+  "_balanceMcqNormalizedAt": "2026-10-12T19:48:36.554Z"
+}

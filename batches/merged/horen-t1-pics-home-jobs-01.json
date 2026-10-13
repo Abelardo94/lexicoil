@@ -1,0 +1,332 @@
+{
+  "passages": [
+    {
+      "id": "en-b1-p-horen-t1-pics-home-jobs-01-01",
+      "module": "horen",
+      "title": "Jobs before the visitors arrive",
+      "text": "Man: Ollie, before your friends arrive this afternoon, there are a few things I need you to do.\nOllie: Like what?\nMan: Well, the car needs washing, but that can wait until tomorrow. And the grass is getting long, but it's too wet to cut it today. Your bedroom, on the other hand, looks terrible, and your friends will be in there. So start with that, please.",
+      "passageVocab": [
+        "tidy",
+        "wash",
+        "grass",
+        "bedroom"
+      ]
+    },
+    {
+      "id": "en-b1-p-horen-t1-pics-home-jobs-01-02",
+      "module": "horen",
+      "title": "The lost keys",
+      "text": "Jenny: Mark, you know I couldn't find my keys this morning? I looked in my coat pocket three times, and I even went out to the garden shed, because I'd been in there yesterday.\nMark: And?\nJenny: They were by the washing machine! I must have put them down when I was doing the laundry.",
+      "passageVocab": [
+        "keys",
+        "pocket",
+        "shed",
+        "laundry"
+      ]
+    },
+    {
+      "id": "en-b1-p-horen-t1-pics-home-jobs-01-03",
+      "module": "horen",
+      "title": "A trip to the garden centre",
+      "text": "Grace: Are you going to the garden centre, Paul? Can you get some red flowers for the pots by the front door?\nPaul: I bought some last week, remember? They're still in the garage. I'm going because the handle's broken on the spade.\nGrace: Oh yes. What about grass seed for that bare patch?\nPaul: We've still got half a box of that. So it's just the spade, I think.",
+      "passageVocab": [
+        "garden centre",
+        "spade",
+        "seed",
+        "handle"
+      ]
+    },
+    {
+      "id": "en-b1-p-horen-t1-pics-home-jobs-01-04",
+      "module": "horen",
+      "title": "Painting a bedroom",
+      "text": "Man: Your room looks great, Mia. The yellow's really bright. How long did it take you?\nMia: Well, I planned to do it all in a weekend, so two days. But on Saturday I spent the whole morning just moving the furniture and covering the floor. So I finished on Monday after school. Three days altogether.\nMan: Not bad. It took me a week to paint the kitchen!",
+      "passageVocab": [
+        "paint",
+        "furniture",
+        "cover",
+        "altogether"
+      ]
+    },
+    {
+      "id": "en-b1-p-horen-t1-pics-home-jobs-01-05",
+      "module": "horen",
+      "title": "A problem in the kitchen",
+      "text": "Woman: Hello, this is Mrs Patel at number twelve, Elm Road. I'm calling about my kitchen. I rang last month about the window that wouldn't close, and your man fixed it very well, thank you. This time it's the tap. It won't turn off properly and it's dripping all day and all night. The fridge is making a strange noise too, but it's still keeping things cold, so that's not urgent. Could someone come on Thursday?",
+      "passageVocab": [
+        "tap",
+        "drip",
+        "fridge",
+        "urgent"
+      ]
+    },
+    {
+      "id": "en-b1-p-horen-t1-pics-home-jobs-01-06",
+      "module": "horen",
+      "title": "Helping Gran in the garden",
+      "text": "Woman: Hello, Josh, it's Gran. Are you still free on Saturday? I need some help in the garden.\nJosh: Sure. Is it the apples again?\nWoman: No, there weren't many this year, so I picked them myself. And Mr Lewis next door has offered to cut the hedge with his machine. But those big pots by the back door are much too heavy for me now, and I want to move them into the greenhouse before it gets cold.\nJosh: No problem. I'll be there at ten.",
+      "passageVocab": [
+        "hedge",
+        "pot",
+        "greenhouse",
+        "heavy"
+      ]
+    },
+    {
+      "id": "en-b1-p-horen-t1-pics-home-jobs-01-07",
+      "module": "horen",
+      "title": "Jobs for this evening",
+      "text": "Kate: Rob, I'm going to be home late tonight. I've got a meeting until eight.\nRob: OK. Shall I do the washing-up?\nKate: I'll do that when I get back, it's only a few plates. But tomorrow's rubbish day, and I always forget, so could you take the bins out before you go to bed?\nRob: Sure. Do you want me to iron your blue shirt for tomorrow?\nKate: No, thanks. I'm wearing a jumper.",
+      "passageVocab": [
+        "washing-up",
+        "rubbish",
+        "bin",
+        "iron"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "en-b1-h-t1-pics-home-jobs-01-s1-q1",
+      "module": "horen",
+      "teil": 1,
+      "type": "multiple_choice",
+      "passageId": "en-b1-p-horen-t1-pics-home-jobs-01-01",
+      "question": "Which job does the man want Ollie to do first?",
+      "options": [
+        "a) wash the car",
+        "b) tidy his bedroom",
+        "c) cut the long grass"
+      ],
+      "correct": "b",
+      "correctAnswer": "b",
+      "explanation": "The man says Ollie's bedroom \"looks terrible\" and tells him \"start with that, please\". The car washing \"can wait until tomorrow\", and the grass is \"too wet to cut today\".",
+      "grammarTags": [
+        "g-en-b1-imperatives"
+      ],
+      "topicTags": [
+        "home"
+      ],
+      "vocabularyTags": [
+        "tidy",
+        "grass"
+      ],
+      "difficulty": 3,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge",
+      "segmentLabel": "Aufnahme 1"
+    },
+    {
+      "id": "en-b1-h-t1-pics-home-jobs-01-s2-q1",
+      "module": "horen",
+      "teil": 1,
+      "type": "multiple_choice",
+      "passageId": "en-b1-p-horen-t1-pics-home-jobs-01-02",
+      "question": "Where did Jenny find her keys?",
+      "options": [
+        "a) by the washing machine",
+        "b) in the pocket of her coat",
+        "c) in the garden shed"
+      ],
+      "correct": "a",
+      "correctAnswer": "a",
+      "explanation": "Jenny says \"They were by the washing machine!\" She looked in her coat pocket and went to the garden shed, but the keys were not in either place.",
+      "grammarTags": [
+        "g-en-b1-modals-deduction-past"
+      ],
+      "topicTags": [
+        "home"
+      ],
+      "vocabularyTags": [
+        "shed",
+        "laundry"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge",
+      "segmentLabel": "Aufnahme 2"
+    },
+    {
+      "id": "en-b1-h-t1-pics-home-jobs-01-s3-q1",
+      "module": "horen",
+      "teil": 1,
+      "type": "multiple_choice",
+      "passageId": "en-b1-p-horen-t1-pics-home-jobs-01-03",
+      "question": "What is Paul going to buy at the garden centre?",
+      "options": [
+        "a) some red flowers",
+        "b) a new spade",
+        "c) some grass seed"
+      ],
+      "correct": "b",
+      "correctAnswer": "b",
+      "explanation": "Paul says he is going \"because the handle's broken on the spade\" and \"it's just the spade\". He bought flowers \"last week\", and they still have \"half a box\" of grass seed.",
+      "grammarTags": [
+        "g-en-b1-present-perfect"
+      ],
+      "topicTags": [
+        "home"
+      ],
+      "vocabularyTags": [
+        "spade",
+        "seed"
+      ],
+      "difficulty": 3,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge",
+      "segmentLabel": "Aufnahme 3"
+    },
+    {
+      "id": "en-b1-h-t1-pics-home-jobs-01-s4-q1",
+      "module": "horen",
+      "teil": 1,
+      "type": "multiple_choice",
+      "passageId": "en-b1-p-horen-t1-pics-home-jobs-01-04",
+      "question": "How long did it take Mia to paint her room?",
+      "options": [
+        "a) a week",
+        "b) two days",
+        "c) three days"
+      ],
+      "correct": "c",
+      "correctAnswer": "c",
+      "explanation": "Mia says \"I finished on Monday after school. Three days altogether.\" Two days was only her plan, and \"a week\" is how long the man took to paint the kitchen.",
+      "grammarTags": [
+        "g-en-b1-past-simple"
+      ],
+      "topicTags": [
+        "home"
+      ],
+      "vocabularyTags": [
+        "paint",
+        "furniture"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge",
+      "segmentLabel": "Aufnahme 4"
+    },
+    {
+      "id": "en-b1-h-t1-pics-home-jobs-01-s5-q1",
+      "module": "horen",
+      "teil": 1,
+      "type": "multiple_choice",
+      "passageId": "en-b1-p-horen-t1-pics-home-jobs-01-05",
+      "question": "What does Mrs Patel need someone to repair?",
+      "options": [
+        "a) the tap",
+        "b) the fridge",
+        "c) the kitchen window"
+      ],
+      "correct": "a",
+      "correctAnswer": "a",
+      "explanation": "Mrs Patel says \"This time it's the tap. It won't turn off properly\". The window was fixed last month, and the fridge is \"not urgent\" because \"it's still keeping things cold\".",
+      "grammarTags": [
+        "g-en-b1-past-simple"
+      ],
+      "topicTags": [
+        "home"
+      ],
+      "vocabularyTags": [
+        "tap",
+        "drip"
+      ],
+      "difficulty": 3,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge",
+      "segmentLabel": "Aufnahme 5"
+    },
+    {
+      "id": "en-b1-h-t1-pics-home-jobs-01-s6-q1",
+      "module": "horen",
+      "teil": 1,
+      "type": "multiple_choice",
+      "passageId": "en-b1-p-horen-t1-pics-home-jobs-01-06",
+      "question": "What does Josh's grandmother want him to help with?",
+      "options": [
+        "a) cutting the hedge",
+        "b) picking apples",
+        "c) moving some pots"
+      ],
+      "correct": "c",
+      "correctAnswer": "c",
+      "explanation": "Gran says the big pots \"are much too heavy for me now\" and she wants \"to move them into the greenhouse\". She has already picked the apples herself, and Mr Lewis \"has offered to cut the hedge\".",
+      "grammarTags": [
+        "g-en-b1-too-enough"
+      ],
+      "topicTags": [
+        "home"
+      ],
+      "vocabularyTags": [
+        "hedge",
+        "greenhouse"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge",
+      "segmentLabel": "Aufnahme 6"
+    },
+    {
+      "id": "en-b1-h-t1-pics-home-jobs-01-s7-q1",
+      "module": "horen",
+      "teil": 1,
+      "type": "multiple_choice",
+      "passageId": "en-b1-p-horen-t1-pics-home-jobs-01-07",
+      "question": "What does Kate ask Rob to do this evening?",
+      "options": [
+        "a) iron her blue shirt",
+        "b) take out the rubbish",
+        "c) do all the washing-up"
+      ],
+      "correct": "b",
+      "correctAnswer": "b",
+      "explanation": "Kate asks \"could you take the bins out before you go to bed?\" because \"tomorrow's rubbish day\". She will do the washing-up herself \"when I get back\", and she says \"No, thanks\" to the ironing.",
+      "grammarTags": [
+        "g-en-b1-requests"
+      ],
+      "topicTags": [
+        "home"
+      ],
+      "vocabularyTags": [
+        "rubbish",
+        "washing-up"
+      ],
+      "difficulty": 3,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge",
+      "segmentLabel": "Aufnahme 7"
+    }
+  ],
+  "_germanCapsNormalizeVersion": "v3.23-lesen-t2-angebote-corpus-2026-07-28",
+  "_germanCapsNormalizedAt": "2026-10-12T14:44:02.632Z",
+  "_balanceMcqVersion": "v1.2-no-rf-chrono-shuffle-2026-07-11",
+  "_balanceMcqNormalizedAt": "2026-10-12T14:44:02.632Z"
+}

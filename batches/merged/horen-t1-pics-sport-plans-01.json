@@ -1,0 +1,332 @@
+{
+  "passages": [
+    {
+      "id": "en-b1-p-horen-t1-pics-sport-plans-01-01",
+      "module": "horen",
+      "title": "Message from the football club",
+      "text": "Woman: Hi Ben, it's Karen from the football club. Just a quick message about Saturday's match against Hillside. Last week I told everyone it would start at half past nine, but their pitch is being used in the morning, so we've moved it to eleven. Please don't be late, though, because the coach wants the girls there an hour early, at ten, to warm up. See you then!",
+      "passageVocab": [
+        "match",
+        "pitch",
+        "coach",
+        "warm up"
+      ]
+    },
+    {
+      "id": "en-b1-p-horen-t1-pics-sport-plans-01-02",
+      "module": "horen",
+      "title": "Choosing a sport for next term",
+      "text": "Woman: So, Daniel, have you decided what you're doing after school next term? Are you staying in the swimming team?\nDaniel: No, I've done that for three years and I want a change. Jake asked me to join the basketball club, but it's on Thursdays and I've got guitar then.\nWoman: What about tennis? Your cousin loves it.\nDaniel: Actually, that's what I've signed up for. The lessons are on Tuesdays, so it's perfect.",
+      "passageVocab": [
+        "team",
+        "sign up",
+        "term",
+        "lesson"
+      ]
+    },
+    {
+      "id": "en-b1-p-horen-t1-pics-sport-plans-01-03",
+      "module": "horen",
+      "title": "Running club meeting place",
+      "text": "Man: Hello, runners. This is Steve with a quick message about Wednesday. We usually meet outside the sports centre, but the car park there is closed for repairs this week. I thought about using the school car park instead, but it's locked in the evenings. So let's meet at the main gates of Victoria Park at six thirty. We'll do our normal five kilometres around the lake.",
+      "passageVocab": [
+        "car park",
+        "repair",
+        "gate",
+        "lake"
+      ]
+    },
+    {
+      "id": "en-b1-p-horen-t1-pics-sport-plans-01-04",
+      "module": "horen",
+      "title": "Getting ready for rugby training",
+      "text": "Amy: Are you coming to rugby training tomorrow, Leo?\nLeo: Yes. Do I need to bring my shirt? I left it at your house last time.\nAmy: Don't worry, my mum's washed it and I'll bring it for you. But the coach said we're playing on the grass pitch, so you'll need your boots, not your trainers.\nLeo: OK. And water?\nAmy: There's a drinks machine at the club now, so you don't need to bring any.",
+      "passageVocab": [
+        "training",
+        "pitch",
+        "boots",
+        "trainers"
+      ]
+    },
+    {
+      "id": "en-b1-p-horen-t1-pics-sport-plans-01-05",
+      "module": "horen",
+      "title": "A new tennis racket",
+      "text": "Man: That's a nice racket, Sophie. Is it new?\nSophie: Yes, I got it yesterday. In the sports shop in town it was sixty pounds, which I thought was far too much.\nMan: So where did you get it?\nSophie: Online. It was fifty pounds on the website, but I had a voucher for fifteen pounds off, so in the end I only paid thirty-five.",
+      "passageVocab": [
+        "racket",
+        "website",
+        "voucher",
+        "pay"
+      ]
+    },
+    {
+      "id": "en-b1-p-horen-t1-pics-sport-plans-01-06",
+      "module": "horen",
+      "title": "Swimming competition announcement",
+      "text": "Woman: Attention, please, all members of the junior swimming team. The competition against Riverside Swimming Club, which was planned for Saturday the fourteenth, can't take place on that day, because the pool is needed for a diving event. We asked about the Friday evening, but too many of you are on school trips then. So the competition will now be on Sunday the fifteenth, starting at two o'clock.",
+      "passageVocab": [
+        "competition",
+        "pool",
+        "diving",
+        "take place"
+      ]
+    },
+    {
+      "id": "en-b1-p-horen-t1-pics-sport-plans-01-07",
+      "module": "horen",
+      "title": "Plans for Saturday",
+      "text": "Hannah: Do you fancy going to watch something on Saturday, Matt? There's a cycling race through the town centre.\nMatt: I saw that last year. It was over in about two minutes. They just rushed past us!\nHannah: True. There's the basketball final at the arena, but the tickets are really expensive.\nMatt: My uncle's got two free tickets for the cricket at the county ground. It's a long day, but we could take a picnic.\nHannah: Lovely. Let's do that, then.",
+      "passageVocab": [
+        "race",
+        "final",
+        "free ticket",
+        "picnic"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "en-b1-h-t1-pics-sport-plans-01-s1-q1",
+      "module": "horen",
+      "teil": 1,
+      "type": "multiple_choice",
+      "passageId": "en-b1-p-horen-t1-pics-sport-plans-01-01",
+      "question": "What time does the girls' football match start on Saturday?",
+      "options": [
+        "a) Eleven o'clock",
+        "b) Half past nine",
+        "c) Ten o'clock"
+      ],
+      "correct": "a",
+      "correctAnswer": "a",
+      "explanation": "Karen says \"we've moved it to eleven\". Half past nine was the old time, and ten o'clock is only when the girls must arrive \"to warm up\", not when the match starts.",
+      "grammarTags": [
+        "g-en-b1-present-perfect"
+      ],
+      "topicTags": [
+        "sport"
+      ],
+      "vocabularyTags": [
+        "match",
+        "warm up"
+      ],
+      "difficulty": 3,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge",
+      "segmentLabel": "Aufnahme 1"
+    },
+    {
+      "id": "en-b1-h-t1-pics-sport-plans-01-s2-q1",
+      "module": "horen",
+      "teil": 1,
+      "type": "multiple_choice",
+      "passageId": "en-b1-p-horen-t1-pics-sport-plans-01-02",
+      "question": "Which sport is Daniel going to do next term?",
+      "options": [
+        "a) Swimming",
+        "b) Tennis",
+        "c) Basketball"
+      ],
+      "correct": "b",
+      "correctAnswer": "b",
+      "explanation": "When the woman suggests tennis, Daniel says \"that's what I've signed up for\". He is leaving the swimming team because he wants \"a change\", and he can't do basketball because \"it's on Thursdays and I've got guitar then\".",
+      "grammarTags": [
+        "g-en-b1-going-to"
+      ],
+      "topicTags": [
+        "sport"
+      ],
+      "vocabularyTags": [
+        "sign up",
+        "term"
+      ],
+      "difficulty": 3,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge",
+      "segmentLabel": "Aufnahme 2"
+    },
+    {
+      "id": "en-b1-h-t1-pics-sport-plans-01-s3-q1",
+      "module": "horen",
+      "teil": 1,
+      "type": "multiple_choice",
+      "passageId": "en-b1-p-horen-t1-pics-sport-plans-01-03",
+      "question": "Where will the running club meet this week?",
+      "options": [
+        "a) Outside the sports centre",
+        "b) In the school car park",
+        "c) At the park gates"
+      ],
+      "correct": "c",
+      "correctAnswer": "c",
+      "explanation": "Steve says \"let's meet at the main gates of Victoria Park\". The sports centre is where they \"usually\" meet, but its car park is closed, and the school car park is \"locked in the evenings\".",
+      "grammarTags": [
+        "g-en-b1-lets-suggestions"
+      ],
+      "topicTags": [
+        "sport"
+      ],
+      "vocabularyTags": [
+        "car park",
+        "gate"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge",
+      "segmentLabel": "Aufnahme 3"
+    },
+    {
+      "id": "en-b1-h-t1-pics-sport-plans-01-s4-q1",
+      "module": "horen",
+      "teil": 1,
+      "type": "multiple_choice",
+      "passageId": "en-b1-p-horen-t1-pics-sport-plans-01-04",
+      "question": "What does Leo need to take to training tomorrow?",
+      "options": [
+        "a) A bottle of water",
+        "b) His rugby shirt",
+        "c) His boots"
+      ],
+      "correct": "c",
+      "correctAnswer": "c",
+      "explanation": "Amy tells him \"you'll need your boots, not your trainers\". She will bring his shirt herself (\"I'll bring it for you\"), and there is \"a drinks machine at the club now\", so he doesn't need water.",
+      "grammarTags": [
+        "g-en-b1-modals-need"
+      ],
+      "topicTags": [
+        "sport"
+      ],
+      "vocabularyTags": [
+        "boots",
+        "trainers"
+      ],
+      "difficulty": 3,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge",
+      "segmentLabel": "Aufnahme 4"
+    },
+    {
+      "id": "en-b1-h-t1-pics-sport-plans-01-s5-q1",
+      "module": "horen",
+      "teil": 1,
+      "type": "multiple_choice",
+      "passageId": "en-b1-p-horen-t1-pics-sport-plans-01-05",
+      "question": "How much did Sophie pay for her tennis racket?",
+      "options": [
+        "a) £60",
+        "b) £35",
+        "c) £50"
+      ],
+      "correct": "b",
+      "correctAnswer": "b",
+      "explanation": "Sophie says \"in the end I only paid thirty-five\". Sixty pounds was the price in the shop in town, and fifty pounds was the website price before she used her \"voucher for fifteen pounds off\".",
+      "grammarTags": [
+        "g-en-b1-past-simple"
+      ],
+      "topicTags": [
+        "sport"
+      ],
+      "vocabularyTags": [
+        "voucher",
+        "online"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge",
+      "segmentLabel": "Aufnahme 5"
+    },
+    {
+      "id": "en-b1-h-t1-pics-sport-plans-01-s6-q1",
+      "module": "horen",
+      "teil": 1,
+      "type": "multiple_choice",
+      "passageId": "en-b1-p-horen-t1-pics-sport-plans-01-06",
+      "question": "On which day will the swimming competition take place?",
+      "options": [
+        "a) Sunday",
+        "b) Friday",
+        "c) Saturday"
+      ],
+      "correct": "a",
+      "correctAnswer": "a",
+      "explanation": "The announcement says \"the competition will now be on Sunday the fifteenth\". Saturday was the original plan but \"the pool is needed for a diving event\", and Friday was not possible because \"too many of you are on school trips then\".",
+      "grammarTags": [
+        "g-en-b1-passive"
+      ],
+      "topicTags": [
+        "sport"
+      ],
+      "vocabularyTags": [
+        "competition",
+        "take place"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge",
+      "segmentLabel": "Aufnahme 6"
+    },
+    {
+      "id": "en-b1-h-t1-pics-sport-plans-01-s7-q1",
+      "module": "horen",
+      "teil": 1,
+      "type": "multiple_choice",
+      "passageId": "en-b1-p-horen-t1-pics-sport-plans-01-07",
+      "question": "What are Hannah and Matt going to watch on Saturday?",
+      "options": [
+        "a) A basketball game",
+        "b) A cricket match",
+        "c) A cycling race"
+      ],
+      "correct": "b",
+      "correctAnswer": "b",
+      "explanation": "Matt’s uncle has \"two free tickets for the cricket\" and Hannah answers \"Let’s do that, then\". Matt didn’t enjoy the cycling race last year because \"it was over in about two minutes\", and the basketball tickets are \"really expensive\".",
+      "grammarTags": [
+        "g-en-b1-going-to"
+      ],
+      "topicTags": [
+        "sport"
+      ],
+      "vocabularyTags": [
+        "race",
+        "picnic"
+      ],
+      "difficulty": 3,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge",
+      "segmentLabel": "Aufnahme 7"
+    }
+  ],
+  "_germanCapsNormalizeVersion": "v3.23-lesen-t2-angebote-corpus-2026-07-28",
+  "_germanCapsNormalizedAt": "2026-10-12T14:44:02.470Z",
+  "_balanceMcqVersion": "v1.2-no-rf-chrono-shuffle-2026-07-11",
+  "_balanceMcqNormalizedAt": "2026-10-12T14:44:02.470Z"
+}

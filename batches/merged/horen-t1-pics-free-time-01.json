@@ -1,0 +1,332 @@
+{
+  "passages": [
+    {
+      "id": "en-b1-p-horen-t1-pics-free-time-01-01",
+      "module": "horen",
+      "title": "Meeting before the film",
+      "text": "Nina: So where shall we meet for the film tomorrow, Chloe?\nChloe: It starts at seven. Shall we meet outside the cinema at quarter to?\nNina: It's going to rain all evening, according to the forecast. Why don't we meet in the café next door? We can have a hot chocolate first.\nChloe: Good idea. I'm getting the bus, so I'll come straight from the bus station. See you there at half six.",
+      "passageVocab": [
+        "forecast",
+        "café",
+        "cinema",
+        "hot chocolate"
+      ]
+    },
+    {
+      "id": "en-b1-p-horen-t1-pics-free-time-01-02",
+      "module": "horen",
+      "title": "Last weekend",
+      "text": "Woman: Did you go camping with your brother at the weekend, Alex?\nAlex: That was the plan, but the weather was awful, so we stayed in town.\nWoman: Oh no. What did you do instead?\nAlex: Well, we wanted to go to the food festival in the park, but that was cancelled because of the rain as well. So we went to the transport museum. It was much better than I expected, actually.",
+      "passageVocab": [
+        "camping",
+        "festival",
+        "museum",
+        "cancel"
+      ]
+    },
+    {
+      "id": "en-b1-p-horen-t1-pics-free-time-01-03",
+      "module": "horen",
+      "title": "Theme park tickets",
+      "text": "Rachel: I've booked tickets for the theme park in the half-term holiday.\nChris: Great. Did you get the family ticket?\nRachel: I looked at that, but it's only for two adults and two children, and we're taking your mum as well. And the one-day tickets were thirty pounds each! So I got the tickets for the whole year. They cost a bit more, but if we go twice, they're cheaper.",
+      "passageVocab": [
+        "theme park",
+        "half-term",
+        "ticket",
+        "adult"
+      ]
+    },
+    {
+      "id": "en-b1-p-horen-t1-pics-free-time-01-04",
+      "module": "horen",
+      "title": "Plans for this evening",
+      "text": "Woman: You're not going to play that computer game all evening again, are you, Ethan?\nEthan: No, I'm bored of it. Kieran asked me to go bowling, but it costs twelve pounds and I've only got five.\nWoman: So you're staying in?\nEthan: Yes, but the big match is on TV at eight, and I really want to see that. Can I invite Kieran round to watch it?",
+      "passageVocab": [
+        "bowling",
+        "match",
+        "invite",
+        "bored"
+      ]
+    },
+    {
+      "id": "en-b1-p-horen-t1-pics-free-time-01-05",
+      "module": "horen",
+      "title": "Music festival news",
+      "text": "Man: And now some news for music fans. The Greenfield Music Festival is back in August, but not in its usual place by the river, because the field there is still too wet after the floods in the spring. The organisers wanted to use the beach, but the town council said no. So this year it'll be in the grounds of Harwood Castle, which is only a short bus ride from the town centre.",
+      "passageVocab": [
+        "festival",
+        "flood",
+        "council",
+        "grounds"
+      ]
+    },
+    {
+      "id": "en-b1-p-horen-t1-pics-free-time-01-06",
+      "module": "horen",
+      "title": "A busy Saturday",
+      "text": "Man: What's happening on Saturday, Lily? You've got your dance class in the morning, haven't you?\nLily: Not this week. The teacher's on holiday. And I've been invited to Zara's birthday party, but it's at the same time as the riding lesson Grandma booked for me.\nMan: So which one will you go to?\nLily: Well, Grandma's already paid for the lesson, so I'll do that and send Zara a present.",
+      "passageVocab": [
+        "dance class",
+        "riding lesson",
+        "invite",
+        "present"
+      ]
+    },
+    {
+      "id": "en-b1-p-horen-t1-pics-free-time-01-07",
+      "module": "horen",
+      "title": "Concert tickets",
+      "text": "Woman: I can't believe you got tickets for the Blue Lights concert! They sold out online in ten minutes.\nDan: I know. I tried the website as soon as they went on sale, but it kept crashing. Then I thought about queuing at the box office, but people were there all night.\nWoman: So how did you get them?\nDan: My friend Tariq won two in a radio competition, and he can't go, so he gave them to me.",
+      "passageVocab": [
+        "sell out",
+        "box office",
+        "queue",
+        "competition"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "en-b1-h-t1-pics-free-time-01-s1-q1",
+      "module": "horen",
+      "teil": 1,
+      "type": "multiple_choice",
+      "passageId": "en-b1-p-horen-t1-pics-free-time-01-01",
+      "question": "Where are Nina and Chloe going to meet?",
+      "options": [
+        "a) In a café",
+        "b) Outside the cinema",
+        "c) At the bus station"
+      ],
+      "correct": "a",
+      "correctAnswer": "a",
+      "explanation": "Nina suggests \"Why don't we meet in the café next door?\" and Chloe agrees: \"Good idea.\" They don't meet outside the cinema because of the rain, and Chloe will only travel from the bus station.",
+      "grammarTags": [
+        "g-en-b1-suggestions"
+      ],
+      "topicTags": [
+        "free time"
+      ],
+      "vocabularyTags": [
+        "forecast",
+        "café"
+      ],
+      "difficulty": 3,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge",
+      "segmentLabel": "Aufnahme 1"
+    },
+    {
+      "id": "en-b1-h-t1-pics-free-time-01-s2-q1",
+      "module": "horen",
+      "teil": 1,
+      "type": "multiple_choice",
+      "passageId": "en-b1-p-horen-t1-pics-free-time-01-02",
+      "question": "What did Alex do last weekend?",
+      "options": [
+        "a) He went to a festival.",
+        "b) He went camping.",
+        "c) He visited a museum."
+      ],
+      "correct": "c",
+      "correctAnswer": "c",
+      "explanation": "Alex says \"we went to the transport museum\". The camping was only \"the plan\", and the food festival \"was cancelled because of the rain\".",
+      "grammarTags": [
+        "g-en-b1-past-simple"
+      ],
+      "topicTags": [
+        "free time"
+      ],
+      "vocabularyTags": [
+        "camping",
+        "museum"
+      ],
+      "difficulty": 3,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge",
+      "segmentLabel": "Aufnahme 2"
+    },
+    {
+      "id": "en-b1-h-t1-pics-free-time-01-s3-q1",
+      "module": "horen",
+      "teil": 1,
+      "type": "multiple_choice",
+      "passageId": "en-b1-p-horen-t1-pics-free-time-01-03",
+      "question": "Which tickets did Rachel buy?",
+      "options": [
+        "a) A family ticket",
+        "b) One-day tickets",
+        "c) Tickets for a whole year"
+      ],
+      "correct": "c",
+      "correctAnswer": "c",
+      "explanation": "Rachel says \"So I got the tickets for the whole year.\" The family ticket is only for two adults and two children, and they are taking Chris's mum too. She thought the one-day tickets, \"thirty pounds each\", were too expensive.",
+      "grammarTags": [
+        "g-en-b1-conditionals-first"
+      ],
+      "topicTags": [
+        "free time"
+      ],
+      "vocabularyTags": [
+        "ticket",
+        "half-term"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge",
+      "segmentLabel": "Aufnahme 3"
+    },
+    {
+      "id": "en-b1-h-t1-pics-free-time-01-s4-q1",
+      "module": "horen",
+      "teil": 1,
+      "type": "multiple_choice",
+      "passageId": "en-b1-p-horen-t1-pics-free-time-01-04",
+      "question": "What does Ethan want to do this evening?",
+      "options": [
+        "a) Watch a match on TV",
+        "b) Play a computer game",
+        "c) Go bowling"
+      ],
+      "correct": "a",
+      "correctAnswer": "a",
+      "explanation": "Ethan says \"the big match is on TV at eight, and I really want to see that\". He can't go bowling because \"I've only got five\" pounds, and he is \"bored\" of the computer game.",
+      "grammarTags": [
+        "g-en-b1-present-continuous-future"
+      ],
+      "topicTags": [
+        "free time"
+      ],
+      "vocabularyTags": [
+        "bowling",
+        "bored"
+      ],
+      "difficulty": 3,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge",
+      "segmentLabel": "Aufnahme 4"
+    },
+    {
+      "id": "en-b1-h-t1-pics-free-time-01-s5-q1",
+      "module": "horen",
+      "teil": 1,
+      "type": "multiple_choice",
+      "passageId": "en-b1-p-horen-t1-pics-free-time-01-05",
+      "question": "Where will the music festival be this year?",
+      "options": [
+        "a) At a castle",
+        "b) By the river",
+        "c) On the beach"
+      ],
+      "correct": "a",
+      "correctAnswer": "a",
+      "explanation": "The presenter says \"this year it'll be in the grounds of Harwood Castle\". The field by the river is \"still too wet\", and for the beach \"the town council said no\".",
+      "grammarTags": [
+        "g-en-b1-future-will"
+      ],
+      "topicTags": [
+        "free time"
+      ],
+      "vocabularyTags": [
+        "flood",
+        "council"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge",
+      "segmentLabel": "Aufnahme 5"
+    },
+    {
+      "id": "en-b1-h-t1-pics-free-time-01-s6-q1",
+      "module": "horen",
+      "teil": 1,
+      "type": "multiple_choice",
+      "passageId": "en-b1-p-horen-t1-pics-free-time-01-06",
+      "question": "What is Lily going to do on Saturday?",
+      "options": [
+        "a) Go to a dance class",
+        "b) Go horse riding",
+        "c) Go to a birthday party"
+      ],
+      "correct": "b",
+      "correctAnswer": "b",
+      "explanation": "Lily says \"Grandma's already paid for the lesson, so I'll do that\", meaning the riding lesson. There is no dance class \"this week\", and she will only \"send Zara a present\" instead of going to the party.",
+      "grammarTags": [
+        "g-en-b1-question-tags"
+      ],
+      "topicTags": [
+        "free time"
+      ],
+      "vocabularyTags": [
+        "riding lesson",
+        "invite"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge",
+      "segmentLabel": "Aufnahme 6"
+    },
+    {
+      "id": "en-b1-h-t1-pics-free-time-01-s7-q1",
+      "module": "horen",
+      "teil": 1,
+      "type": "multiple_choice",
+      "passageId": "en-b1-p-horen-t1-pics-free-time-01-07",
+      "question": "How did Dan get his concert tickets?",
+      "options": [
+        "a) At the box office",
+        "b) From a friend",
+        "c) On the website"
+      ],
+      "correct": "b",
+      "correctAnswer": "b",
+      "explanation": "Dan says Tariq \"won two in a radio competition\" and \"gave them to me\". The website \"kept crashing\", and he only \"thought about queuing at the box office\".",
+      "grammarTags": [
+        "g-en-b1-past-simple"
+      ],
+      "topicTags": [
+        "free time"
+      ],
+      "vocabularyTags": [
+        "box office",
+        "sell out"
+      ],
+      "difficulty": 3,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge",
+      "segmentLabel": "Aufnahme 7"
+    }
+  ],
+  "_germanCapsNormalizeVersion": "v3.23-lesen-t2-angebote-corpus-2026-07-28",
+  "_germanCapsNormalizedAt": "2026-10-12T14:44:02.958Z",
+  "_balanceMcqVersion": "v1.2-no-rf-chrono-shuffle-2026-07-11",
+  "_balanceMcqNormalizedAt": "2026-10-12T14:44:02.958Z"
+}

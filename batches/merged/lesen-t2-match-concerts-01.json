@@ -1,0 +1,301 @@
+{
+  "passages": [
+    {
+      "id": "en-b1-p-lesen-t2-match-concerts-01-01",
+      "module": "lesen",
+      "title": "A – Symphony under the Stars",
+      "text": "The Northern Philharmonic Orchestra plays Beethoven and Tchaikovsky in Roundhay Park, finishing with fireworks over the lake. Bring a blanket and a picnic. The concert starts at 9 pm and ends shortly after 11. All tickets cost £25, and there are no reduced prices for children or students. If it rains, the concert will go ahead anyway.",
+      "passageVocab": [
+        "orchestra",
+        "fireworks",
+        "blanket",
+        "reduced"
+      ]
+    },
+    {
+      "id": "en-b1-p-lesen-t2-match-concerts-01-02",
+      "module": "lesen",
+      "title": "B – Blue Note Supper Club",
+      "text": "Enjoy a three-course dinner while the Ruth Adebayo Quartet plays jazz favourites from the 1950s and 60s. Our chef uses fresh local produce, and there is always a vegetarian choice. Tables are for two to eight people, so it’s perfect for celebrations. Book early for Friday and Saturday evenings, as they sell out quickly.",
+      "passageVocab": [
+        "quartet",
+        "produce",
+        "celebration",
+        "sell out"
+      ]
+    },
+    {
+      "id": "en-b1-p-lesen-t2-match-concerts-01-03",
+      "module": "lesen",
+      "title": "C – The Snow Queen",
+      "text": "Hans Christian Andersen’s classic story is told with beautiful puppets, music and lights. Performances are daily at 11 am and 3 pm. The audience is asked to stay in their seats throughout, but after every show the puppeteers come out to explain how the puppets work and answer questions. Suitable for ages four and up.",
+      "passageVocab": [
+        "puppet",
+        "throughout",
+        "performance",
+        "suitable"
+      ]
+    },
+    {
+      "id": "en-b1-p-lesen-t2-match-concerts-01-04",
+      "module": "lesen",
+      "title": "D – City Chamber Orchestra",
+      "text": "An evening of Mozart and Haydn in the lovely setting of St Andrew’s Church. The concert begins at 7 pm and finishes at about 8.45, with no interval. Adult tickets are £16, and students pay half price on showing a valid card. Seats are not numbered, so arrive early to get a good view.",
+      "passageVocab": [
+        "setting",
+        "interval",
+        "valid",
+        "numbered"
+      ]
+    },
+    {
+      "id": "en-b1-p-lesen-t2-match-concerts-01-05",
+      "module": "lesen",
+      "title": "E – Behind the Curtain",
+      "text": "This clever comedy, written last year by local writer Joe Kirwan, follows a small theatre company on the night when everything goes wrong. It runs from Tuesday to Saturday. After Thursday’s performance, the cast will stay on stage to answer questions from the audience. Tickets cost £18, and the play lasts two hours.",
+      "passageVocab": [
+        "comedy",
+        "cast",
+        "stage",
+        "audience"
+      ]
+    },
+    {
+      "id": "en-b1-p-lesen-t2-match-concerts-01-06",
+      "module": "lesen",
+      "title": "F – The Cellar Sessions",
+      "text": "Every Friday, three young jazz bands from the city’s music college play in the cellar bar of the Grand Hotel. It’s standing room only, and things get lively when the musicians start improvising. The bar serves drinks but no food, so eat before you come. Entry is £7 on the door.",
+      "passageVocab": [
+        "cellar",
+        "standing room",
+        "improvise",
+        "entry"
+      ]
+    },
+    {
+      "id": "en-b1-p-lesen-t2-match-concerts-01-07",
+      "module": "lesen",
+      "title": "G – Jungle Beats",
+      "text": "A lively musical show for children aged three to eight, with performances on Saturday and Sunday at 2 pm. Young members of the audience are invited onto the stage to play drums, shake rattles and dance with the performers. The show lasts fifty minutes, and adults and children pay the same price.",
+      "passageVocab": [
+        "lively",
+        "invite",
+        "rattle",
+        "performer"
+      ]
+    },
+    {
+      "id": "en-b1-p-lesen-t2-match-concerts-01-08",
+      "module": "lesen",
+      "title": "H – Laugh Out Loud",
+      "text": "Five of the country’s best new comedians try out fresh material every Monday night at the Old Fire Station. Some of it works and some of it doesn’t, which is half the fun. Tickets are just £8, or £6 if you book online. Some of the jokes may not suit anyone under sixteen.",
+      "passageVocab": [
+        "comedian",
+        "material",
+        "fun",
+        "suit"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "en-b1-r-t2-match-concerts-01-q1",
+      "module": "lesen",
+      "teil": 2,
+      "type": "matching",
+      "passageId": "en-b1-p-lesen-t2-match-concerts-01-01",
+      "question": "Callum is a university student who loves classical music. He needs a cheap ticket, and he must leave by nine o’clock to catch the last bus home.",
+      "options": [
+        "A) Symphony under the Stars",
+        "B) Blue Note Supper Club",
+        "C) The Snow Queen",
+        "D) City Chamber Orchestra",
+        "E) Behind the Curtain",
+        "F) The Cellar Sessions",
+        "G) Jungle Beats",
+        "H) Laugh Out Loud"
+      ],
+      "correct": "D",
+      "correctAnswer": "D",
+      "explanation": "The City Chamber Orchestra plays \"Mozart and Haydn\", the concert \"finishes at about 8.45\" and \"students pay half price\". Symphony under the Stars is also classical, but it \"starts at 9 pm\" and \"there are no reduced prices for children or students\".",
+      "grammarTags": [
+        "g-en-b1-modals"
+      ],
+      "topicTags": [
+        "entertainment"
+      ],
+      "vocabularyTags": [
+        "classical music",
+        "tickets",
+        "concert"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-r-t2-match-concerts-01-q2",
+      "module": "lesen",
+      "teil": 2,
+      "type": "matching",
+      "passageId": "en-b1-p-lesen-t2-match-concerts-01-01",
+      "question": "Sophie wants to take her six-year-old daughter to a show on Saturday afternoon. Her daughter is very active and would enjoy a show where she can take part rather than just sit and watch.",
+      "options": [
+        "A) Symphony under the Stars",
+        "B) Blue Note Supper Club",
+        "C) The Snow Queen",
+        "D) City Chamber Orchestra",
+        "E) Behind the Curtain",
+        "F) The Cellar Sessions",
+        "G) Jungle Beats",
+        "H) Laugh Out Loud"
+      ],
+      "correct": "G",
+      "correctAnswer": "G",
+      "explanation": "Jungle Beats is for \"children aged three to eight\", has a show on \"Saturday and Sunday at 2 pm\", and children \"are invited onto the stage to play drums\" and dance. The Snow Queen has an afternoon show for children, but \"The audience is asked to stay in their seats throughout\".",
+      "grammarTags": [
+        "g-en-b1-preferences"
+      ],
+      "topicTags": [
+        "entertainment"
+      ],
+      "vocabularyTags": [
+        "children",
+        "theatre",
+        "family"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-r-t2-match-concerts-01-q3",
+      "module": "lesen",
+      "teil": 2,
+      "type": "matching",
+      "passageId": "en-b1-p-lesen-t2-match-concerts-01-01",
+      "question": "Tariq is taking his parents out for their wedding anniversary. They all love jazz and would like to have dinner while they listen to the music.",
+      "options": [
+        "A) Symphony under the Stars",
+        "B) Blue Note Supper Club",
+        "C) The Snow Queen",
+        "D) City Chamber Orchestra",
+        "E) Behind the Curtain",
+        "F) The Cellar Sessions",
+        "G) Jungle Beats",
+        "H) Laugh Out Loud"
+      ],
+      "correct": "B",
+      "correctAnswer": "B",
+      "explanation": "At the Blue Note Supper Club you \"Enjoy a three-course dinner while the Ruth Adebayo Quartet plays jazz favourites\", and it is \"perfect for celebrations\". The Cellar Sessions also has jazz, but \"The bar serves drinks but no food\".",
+      "grammarTags": [
+        "g-en-b1-present-continuous-future"
+      ],
+      "topicTags": [
+        "entertainment"
+      ],
+      "vocabularyTags": [
+        "jazz",
+        "restaurant",
+        "celebration"
+      ],
+      "difficulty": 3,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-r-t2-match-concerts-01-q4",
+      "module": "lesen",
+      "teil": 2,
+      "type": "matching",
+      "passageId": "en-b1-p-lesen-t2-match-concerts-01-01",
+      "question": "Hannah and her friends want to see something that will make them laugh. They can only go out on Monday evenings, and they don’t want to pay more than £10 each.",
+      "options": [
+        "A) Symphony under the Stars",
+        "B) Blue Note Supper Club",
+        "C) The Snow Queen",
+        "D) City Chamber Orchestra",
+        "E) Behind the Curtain",
+        "F) The Cellar Sessions",
+        "G) Jungle Beats",
+        "H) Laugh Out Loud"
+      ],
+      "correct": "H",
+      "correctAnswer": "H",
+      "explanation": "Laugh Out Loud has comedians \"every Monday night\" and \"Tickets are just £8\". Behind the Curtain is also a \"clever comedy\", but it runs \"from Tuesday to Saturday\" and tickets \"cost £18\".",
+      "grammarTags": [
+        "g-en-b1-comparatives"
+      ],
+      "topicTags": [
+        "entertainment"
+      ],
+      "vocabularyTags": [
+        "comedy",
+        "budget",
+        "night out"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-r-t2-match-concerts-01-q5",
+      "module": "lesen",
+      "teil": 2,
+      "type": "matching",
+      "passageId": "en-b1-p-lesen-t2-match-concerts-01-01",
+      "question": "Laura is a drama student. She wants to see a new play by a modern writer, and she’d love the chance to ask the actors questions about their work.",
+      "options": [
+        "A) Symphony under the Stars",
+        "B) Blue Note Supper Club",
+        "C) The Snow Queen",
+        "D) City Chamber Orchestra",
+        "E) Behind the Curtain",
+        "F) The Cellar Sessions",
+        "G) Jungle Beats",
+        "H) Laugh Out Loud"
+      ],
+      "correct": "E",
+      "correctAnswer": "E",
+      "explanation": "Behind the Curtain was \"written last year by local writer Joe Kirwan\", and on Thursday \"the cast will stay on stage to answer questions from the audience\". At The Snow Queen the puppeteers also \"answer questions\", but it is a \"classic story\" told with puppets, not a new play.",
+      "grammarTags": [
+        "g-en-b1-passive"
+      ],
+      "topicTags": [
+        "entertainment"
+      ],
+      "vocabularyTags": [
+        "theatre",
+        "drama",
+        "actors"
+      ],
+      "difficulty": 5,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    }
+  ],
+  "_germanCapsNormalizeVersion": "v3.23-lesen-t2-angebote-corpus-2026-07-28",
+  "_germanCapsNormalizedAt": "2026-10-12T19:15:50.019Z",
+  "_balanceMcqVersion": "v1.2-no-rf-chrono-shuffle-2026-07-11",
+  "_balanceMcqNormalizedAt": "2026-10-12T19:15:50.019Z"
+}

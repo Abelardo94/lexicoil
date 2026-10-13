@@ -1,0 +1,147 @@
+{
+  "passages": [],
+  "questions": [
+    {
+      "id": "en-b1-s-t1-speaking-travel-transport-01-q1",
+      "module": "sprechen",
+      "teil": 1,
+      "type": "short_answer",
+      "taskTypes": [
+        "interview"
+      ],
+      "question": "Part 1 (2-3 minutes). The examiner asks you some questions about yourself.\n\nWhat's your name? Where do you live?\nHow do you usually get to school or work?\nHow long does the journey take?\nDo you prefer travelling by bus or by train? Why?\nTell us about a place you would like to visit in the future.\nWhat did you do on your last holiday?",
+      "correct": "rubric",
+      "correctAnswer": "rubric",
+      "explanation": "Answer each question with more than one or two words: give a short answer and then add a reason or an example. For instance: 'I usually go to school by bike because it's only ten minutes from my house, and it's good exercise.' Use the present simple for routines ('I usually take the bus'), 'would like to' for wishes ('I'd like to visit Japan because…') and the past simple for your last holiday ('We went to the coast and stayed in a small hotel'). The examiner assesses Grammar and Vocabulary, Discourse Management (extending answers), Pronunciation and Interactive Communication.",
+      "options": [],
+      "grammarTags": [
+        "g-en-b1-present-simple",
+        "g-en-b1-past-simple"
+      ],
+      "topicTags": [
+        "travel"
+      ],
+      "vocabularyTags": [
+        "journey",
+        "travel",
+        "holiday",
+        "transport"
+      ],
+      "difficulty": 5,
+      "skills": [
+        "speaking"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-s-t2-speaking-travel-transport-01-q1",
+      "module": "sprechen",
+      "teil": 2,
+      "type": "short_answer",
+      "taskTypes": [
+        "photo_description"
+      ],
+      "question": "Part 2 (about 1 minute). Look at the photograph. It shows some people at a busy train station. A family with suitcases is waiting on the platform next to a train, and other people are looking up at a board with the train times. Tell us what you can see in the photograph.",
+      "correct": "rubric",
+      "correctAnswer": "rubric",
+      "explanation": "Talk on your own for about one minute. Describe the place ('This photo was taken at a train station, probably in a big city'), the people and what they are doing, using the present continuous ('A family is waiting on the platform', 'Some people are looking at the board'). Mention details such as clothes, luggage and the weather or time of day, and guess about the situation ('I think they are going on holiday because they have got big suitcases'). Useful language: 'In the foreground / background', 'on the left / right', 'It looks like…', 'Maybe they're…'. If you don't know a word, explain it in other words ('the thing you pull your bags on'). Do not stop after a few sentences: keep talking until the examiner says thank you.",
+      "options": [],
+      "grammarTags": [
+        "g-en-b1-present-continuous",
+        "g-en-b1-speculation"
+      ],
+      "topicTags": [
+        "travel"
+      ],
+      "vocabularyTags": [
+        "platform",
+        "suitcase",
+        "passenger",
+        "timetable",
+        "crowded"
+      ],
+      "difficulty": 5,
+      "skills": [
+        "speaking"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-s-t3-speaking-travel-transport-01-q1",
+      "module": "sprechen",
+      "teil": 3,
+      "type": "short_answer",
+      "taskTypes": [
+        "collaborative_task"
+      ],
+      "question": "Part 3 (2-3 minutes). Talk to your partner.\n\nA group of students from another country is visiting your town for one day. Here are some things they could do during their visit:\n\nvisit the town museum\ntake a boat trip on the river\ngo shopping in the town centre\nhave a picnic in the park\ngo on a bike tour of the town\nvisit the old castle\n\nTalk together about the different things the students could do, and say which would be the most interesting for them.",
+      "correct": "rubric",
+      "correctAnswer": "rubric",
+      "explanation": "This is a conversation with your partner, not a speech. Talk about each idea in turn, give your opinion with a reason and ask your partner what they think: 'I think a boat trip would be great because they can see the whole town from the river. What do you think?' Agree and disagree politely ('That's a good idea, but…', 'I'm not sure about that because…') and make suggestions ('What about…?', 'Why don't they…?'). Near the end, try to reach a decision together: 'So, shall we choose the bike tour?' You do not have to agree, but you must discuss the options and try to decide. The examiner assesses how well you keep the conversation going and respond to your partner.",
+      "options": [],
+      "grammarTags": [
+        "g-en-b1-suggestions",
+        "g-en-b1-agreeing-disagreeing"
+      ],
+      "topicTags": [
+        "travel"
+      ],
+      "vocabularyTags": [
+        "visitor",
+        "sightseeing",
+        "boat trip",
+        "castle",
+        "tour"
+      ],
+      "difficulty": 5,
+      "skills": [
+        "speaking"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-s-t4-speaking-travel-transport-01-q1",
+      "module": "sprechen",
+      "teil": 4,
+      "type": "short_answer",
+      "taskTypes": [
+        "general_conversation"
+      ],
+      "question": "Part 4 (about 3 minutes). The examiner asks you and your partner some questions about transport and holidays.\n\nWhat do you like to do when you visit a new place?\nDo you prefer going on holiday in your own country or abroad? Why?\nWhat is the best way to travel around your town?\nDo you think people use their cars too much? Why / Why not?\nWould you like to go on a long journey by train? Why / Why not?",
+      "correct": "rubric",
+      "correctAnswer": "rubric",
+      "explanation": "Give full answers with reasons and examples, and react to what your partner says ('I agree with you, and also…', 'That's interesting. For me…'). For example: 'I prefer holidays abroad because I love trying new food and hearing other languages, but they can be expensive.' For opinion questions, use phrases such as 'In my opinion…', 'I think that…', 'On the other hand…'. Use 'would' for imaginary situations ('I'd love to go across Europe by train because you can see a lot of different places'). The examiner assesses range of language, extending answers and interaction with your partner.",
+      "options": [],
+      "grammarTags": [
+        "g-en-b1-opinions",
+        "g-en-b1-conditionals"
+      ],
+      "topicTags": [
+        "travel"
+      ],
+      "vocabularyTags": [
+        "abroad",
+        "public transport",
+        "traffic",
+        "journey"
+      ],
+      "difficulty": 5,
+      "skills": [
+        "speaking"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    }
+  ],
+  "_germanCapsNormalizeVersion": "v3.23-lesen-t2-angebote-corpus-2026-07-28",
+  "_germanCapsNormalizedAt": "2026-10-12T14:44:05.590Z",
+  "_balanceMcqVersion": "v1.2-no-rf-chrono-shuffle-2026-07-11",
+  "_balanceMcqNormalizedAt": "2026-10-12T14:44:05.590Z"
+}

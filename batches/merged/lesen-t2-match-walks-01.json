@@ -1,0 +1,301 @@
+{
+  "passages": [
+    {
+      "id": "en-b1-p-lesen-t2-match-walks-01-01",
+      "module": "lesen",
+      "title": "A – Clifftop Sunrise Walk",
+      "text": "This 6 km coastal path along the Pembrokeshire cliffs is at its best at dawn, when the early light turns the rocks gold and the sea shines below you. Set off early and you’ll probably have the path to yourself – by mid-morning in summer it gets very busy. There are some steep steps down to a small beach.",
+      "passageVocab": [
+        "dawn",
+        "cliff",
+        "coastal",
+        "set off"
+      ]
+    },
+    {
+      "id": "en-b1-p-lesen-t2-match-walks-01-02",
+      "module": "lesen",
+      "title": "B – Woodland and Waterfall Walk",
+      "text": "A short walk of just under an hour through ancient oak woods to Pistyll Falls. The path climbs steeply in places, and there are 120 steps up to the viewing platform, but the view of the water crashing down is worth the effort. The café at the car park makes a good place to rest afterwards.",
+      "passageVocab": [
+        "ancient",
+        "steeply",
+        "platform",
+        "effort"
+      ]
+    },
+    {
+      "id": "en-b1-p-lesen-t2-match-walks-01-03",
+      "module": "lesen",
+      "title": "C – Heron Marsh Nature Reserve",
+      "text": "The number 42 bus stops right at the entrance to this reserve. Easy wooden paths lead to hides where you can watch herons, otters and, in spring, hundreds of ducklings. Dogs on leads are welcome on all paths. Children can pick up a free spotter’s sheet at the visitor centre and tick off everything they see.",
+      "passageVocab": [
+        "reserve",
+        "hide",
+        "otter",
+        "tick off"
+      ]
+    },
+    {
+      "id": "en-b1-p-lesen-t2-match-walks-01-04",
+      "module": "lesen",
+      "title": "D – Castle Bay Promenade",
+      "text": "This wide, level path follows the seafront for 3 km to Penrhos Castle, built in the thirteenth century. The surface is smooth all the way, so it suits wheelchairs and pushchairs, and boards along the route tell the story of the castle and its battles. It’s one of the busiest paths in the area, especially on sunny afternoons.",
+      "passageVocab": [
+        "level",
+        "seafront",
+        "surface",
+        "battle"
+      ]
+    },
+    {
+      "id": "en-b1-p-lesen-t2-match-walks-01-05",
+      "module": "lesen",
+      "title": "E – Three Tops Challenge",
+      "text": "A tough 25 km route over three mountain summits, with amazing views of the lakes and the coast from each one. Allow at least nine hours. There are no signs along the way and the paths are hard to follow in cloud, so you must be able to use a map and compass. Only for experienced walkers.",
+      "passageVocab": [
+        "summit",
+        "route",
+        "compass",
+        "experienced"
+      ]
+    },
+    {
+      "id": "en-b1-p-lesen-t2-match-walks-01-06",
+      "module": "lesen",
+      "title": "F – Riverside Mill Trail",
+      "text": "A gentle 4 km loop along the River Usk which is completely flat and takes around an hour and a half. It finishes at the old mill, now a tea room serving light lunches and homemade cakes. There are benches every few hundred metres, which makes it ideal for anyone who likes to take regular breaks.",
+      "passageVocab": [
+        "gentle",
+        "loop",
+        "mill",
+        "bench"
+      ]
+    },
+    {
+      "id": "en-b1-p-lesen-t2-match-walks-01-07",
+      "module": "lesen",
+      "title": "G – Plas Hendre Deer Park",
+      "text": "Walk through the grounds of a seventeenth-century country house, where herds of red deer wander freely. The station is only ten minutes away on foot. The grass paths are uneven and often muddy, so they are not suitable for wheelchairs. Please note that dogs are not allowed in the park, as they frighten the deer.",
+      "passageVocab": [
+        "grounds",
+        "herd",
+        "uneven",
+        "frighten"
+      ]
+    },
+    {
+      "id": "en-b1-p-lesen-t2-match-walks-01-08",
+      "module": "lesen",
+      "title": "H – Cadair Summit Day",
+      "text": "Join one of our experienced guides for a seven-hour climb to the top of Cadair Idris, 893 metres high. On a clear day you can see all the way to Ireland from the summit. Good fitness and proper boots are essential. Groups of up to ten leave the visitor centre every Saturday at 8 am.",
+      "passageVocab": [
+        "guide",
+        "climb",
+        "essential",
+        "fitness"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "en-b1-r-t2-match-walks-01-q1",
+      "module": "lesen",
+      "teil": 2,
+      "type": "matching",
+      "passageId": "en-b1-p-lesen-t2-match-walks-01-01",
+      "question": "Gwen wants to take her elderly father for a walk of no more than two hours. He can’t manage hills or steps, and they’d like to have something to eat when they finish.",
+      "options": [
+        "A) Clifftop Sunrise Walk",
+        "B) Woodland and Waterfall Walk",
+        "C) Heron Marsh Nature Reserve",
+        "D) Castle Bay Promenade",
+        "E) Three Tops Challenge",
+        "F) Riverside Mill Trail",
+        "G) Plas Hendre Deer Park",
+        "H) Cadair Summit Day"
+      ],
+      "correct": "F",
+      "correctAnswer": "F",
+      "explanation": "The Riverside Mill Trail is \"completely flat\", \"takes around an hour and a half\" and \"finishes at the old mill, now a tea room serving light lunches\". The Woodland and Waterfall Walk is short and has a café, but \"The path climbs steeply in places\" and there are \"120 steps\", which her father cannot manage.",
+      "grammarTags": [
+        "g-en-b1-modals"
+      ],
+      "topicTags": [
+        "travel"
+      ],
+      "vocabularyTags": [
+        "walking",
+        "countryside",
+        "accessibility"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-r-t2-match-walks-01-q2",
+      "module": "lesen",
+      "teil": 2,
+      "type": "matching",
+      "passageId": "en-b1-p-lesen-t2-match-walks-01-01",
+      "question": "Rhys and his children, aged 8 and 10, love spotting birds and animals. They want to bring their dog, and as they don’t have a car, they need a walk they can get to by bus or train.",
+      "options": [
+        "A) Clifftop Sunrise Walk",
+        "B) Woodland and Waterfall Walk",
+        "C) Heron Marsh Nature Reserve",
+        "D) Castle Bay Promenade",
+        "E) Three Tops Challenge",
+        "F) Riverside Mill Trail",
+        "G) Plas Hendre Deer Park",
+        "H) Cadair Summit Day"
+      ],
+      "correct": "C",
+      "correctAnswer": "C",
+      "explanation": "At Heron Marsh \"The number 42 bus stops right at the entrance\", visitors can \"watch herons, otters\" and ducklings, and \"Dogs on leads are welcome on all paths\". Plas Hendre Deer Park has deer and is near a station, but \"dogs are not allowed in the park\".",
+      "grammarTags": [
+        "g-en-b1-modals"
+      ],
+      "topicTags": [
+        "travel"
+      ],
+      "vocabularyTags": [
+        "wildlife",
+        "public transport",
+        "family"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-r-t2-match-walks-01-q3",
+      "module": "lesen",
+      "teil": 2,
+      "type": "matching",
+      "passageId": "en-b1-p-lesen-t2-match-walks-01-01",
+      "question": "Fiona is an experienced walker who wants to spend a whole day in the mountains and enjoy the views from the top. She’d prefer to walk with other people and someone who knows the way.",
+      "options": [
+        "A) Clifftop Sunrise Walk",
+        "B) Woodland and Waterfall Walk",
+        "C) Heron Marsh Nature Reserve",
+        "D) Castle Bay Promenade",
+        "E) Three Tops Challenge",
+        "F) Riverside Mill Trail",
+        "G) Plas Hendre Deer Park",
+        "H) Cadair Summit Day"
+      ],
+      "correct": "H",
+      "correctAnswer": "H",
+      "explanation": "Cadair Summit Day is \"a seven-hour climb to the top\" with views \"all the way to Ireland from the summit\", and walkers go in \"Groups of up to ten\" with \"one of our experienced guides\". The Three Tops Challenge is a long mountain day with great views, but there is no guide: \"you must be able to use a map and compass\".",
+      "grammarTags": [
+        "g-en-b1-preferences"
+      ],
+      "topicTags": [
+        "travel"
+      ],
+      "vocabularyTags": [
+        "mountains",
+        "guided walk",
+        "hiking"
+      ],
+      "difficulty": 5,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-r-t2-match-walks-01-q4",
+      "module": "lesen",
+      "teil": 2,
+      "type": "matching",
+      "passageId": "en-b1-p-lesen-t2-match-walks-01-01",
+      "question": "Owen enjoys taking photos of the sea early in the morning, just as the sun comes up. He wants a walk where he won’t meet many other people.",
+      "options": [
+        "A) Clifftop Sunrise Walk",
+        "B) Woodland and Waterfall Walk",
+        "C) Heron Marsh Nature Reserve",
+        "D) Castle Bay Promenade",
+        "E) Three Tops Challenge",
+        "F) Riverside Mill Trail",
+        "G) Plas Hendre Deer Park",
+        "H) Cadair Summit Day"
+      ],
+      "correct": "A",
+      "correctAnswer": "A",
+      "explanation": "The Clifftop Sunrise Walk is a coastal path that is \"at its best at dawn\", and if you set off early \"you’ll probably have the path to yourself\". Castle Bay Promenade also follows the sea, but \"It’s one of the busiest paths in the area\".",
+      "grammarTags": [
+        "g-en-b1-future-will"
+      ],
+      "topicTags": [
+        "travel"
+      ],
+      "vocabularyTags": [
+        "photography",
+        "coast",
+        "sunrise"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-r-t2-match-walks-01-q5",
+      "module": "lesen",
+      "teil": 2,
+      "type": "matching",
+      "passageId": "en-b1-p-lesen-t2-match-walks-01-01",
+      "question": "Mei is going for a walk with a friend who uses a wheelchair, so they need a path with a smooth surface. They would also like to learn something about the history of the area.",
+      "options": [
+        "A) Clifftop Sunrise Walk",
+        "B) Woodland and Waterfall Walk",
+        "C) Heron Marsh Nature Reserve",
+        "D) Castle Bay Promenade",
+        "E) Three Tops Challenge",
+        "F) Riverside Mill Trail",
+        "G) Plas Hendre Deer Park",
+        "H) Cadair Summit Day"
+      ],
+      "correct": "D",
+      "correctAnswer": "D",
+      "explanation": "On Castle Bay Promenade \"The surface is smooth all the way, so it suits wheelchairs\", and \"boards along the route tell the story of the castle and its battles\". Plas Hendre Deer Park has a \"seventeenth-century country house\", but its paths \"are not suitable for wheelchairs\".",
+      "grammarTags": [
+        "g-en-b1-relative-clauses"
+      ],
+      "topicTags": [
+        "travel"
+      ],
+      "vocabularyTags": [
+        "accessibility",
+        "history",
+        "walking"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    }
+  ],
+  "_germanCapsNormalizeVersion": "v3.23-lesen-t2-angebote-corpus-2026-07-28",
+  "_germanCapsNormalizedAt": "2026-10-12T19:15:50.491Z",
+  "_balanceMcqVersion": "v1.2-no-rf-chrono-shuffle-2026-07-11",
+  "_balanceMcqNormalizedAt": "2026-10-12T19:15:50.491Z"
+}

@@ -1,0 +1,294 @@
+{
+  "passages": [
+    {
+      "id": "en-b1-p-horen-t4-interview-teacher-abroad-01-01",
+      "module": "horen",
+      "title": "Interview with a teacher working in Chile",
+      "text": "Interviewer: My guest today is Priya Shah, who taught English in Leeds for five years before moving to Chile, where she now works in a secondary school in the city of Valparaíso. Priya, why did you decide to move abroad?\n\nPriya: People often ask if I went for the money, but actually I earn less now than I did in England. And no, I didn't follow a boyfriend there either! I'd simply been doing the same job in the same school for five years, and I felt I needed something new. A friend sent me the advert, and I thought, why not?\n\nInterviewer: What did you find hardest when you first arrived?\n\nPriya: I'd expected the language to be the big problem, but my Spanish actually improved quite quickly. What I found difficult was all the unwritten rules at school. For example, I didn't know how formally I should speak to the head teacher, or whether it was OK to leave the staff room before everyone else. It took me months to feel relaxed.\n\nInterviewer: How are your students different from the ones you taught in England?\n\nPriya: They're not that different, really. Teenagers are teenagers everywhere! But one thing I've noticed is that my students here are much less afraid of making mistakes. They'll just start speaking, even if their English isn't perfect. In England, students often waited until they were sure they were right.\n\nInterviewer: Do teachers there work differently from teachers in the UK?\n\nPriya: In some ways, yes. At first, to be honest, I thought my way of teaching was better. But I've changed my mind. My Chilean colleagues are brilliant at making lessons fun, and I'm probably better at organising things. We've learnt a lot from each other, and I've completely changed some of my lessons because of them.\n\nInterviewer: How do you feel about being so far from your family?\n\nPriya: Honestly, it's been much easier than I feared. We have a video call every Sunday, and my parents have already come to visit twice. The only time I find it really hard is at Christmas, when everyone's together at home and I'm on the other side of the world.\n\nInterviewer: What advice would you give to teachers who are thinking about working abroad?\n\nPriya: Some people say you should learn the language perfectly before you go, but I don't agree. You'll learn it much faster once you're there. My main advice would be to stay for at least two years. In the first year, you're just finding out how everything works. It's only in the second year that you really start to enjoy it.\n\nInterviewer: Priya Shah, thank you very much.",
+      "passageVocab": [
+        "advert",
+        "unwritten rule",
+        "formally",
+        "colleague",
+        "fear"
+      ],
+      "audio": [
+        {
+          "speaker": "Interviewer",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "My guest today is Priya Shah, who taught English in Leeds for five years before moving to Chile, where she now works in a secondary school in the city of Valparaíso. Priya, why did you decide to move abroad?"
+        },
+        {
+          "speaker": "Priya",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "People often ask if I went for the money, but actually I earn less now than I did in England. And no, I didn't follow a boyfriend there either! I'd simply been doing the same job in the same school for five years, and I felt I needed something new. A friend sent me the advert, and I thought, why not?"
+        },
+        {
+          "speaker": "Interviewer",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "What did you find hardest when you first arrived?"
+        },
+        {
+          "speaker": "Priya",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "I'd expected the language to be the big problem, but my Spanish actually improved quite quickly. What I found difficult was all the unwritten rules at school. For example, I didn't know how formally I should speak to the head teacher, or whether it was OK to leave the staff room before everyone else. It took me months to feel relaxed."
+        },
+        {
+          "speaker": "Interviewer",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "How are your students different from the ones you taught in England?"
+        },
+        {
+          "speaker": "Priya",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "They're not that different, really. Teenagers are teenagers everywhere! But one thing I've noticed is that my students here are much less afraid of making mistakes. They'll just start speaking, even if their English isn't perfect. In England, students often waited until they were sure they were right."
+        },
+        {
+          "speaker": "Interviewer",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Do teachers there work differently from teachers in the UK?"
+        },
+        {
+          "speaker": "Priya",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "In some ways, yes. At first, to be honest, I thought my way of teaching was better. But I've changed my mind. My Chilean colleagues are brilliant at making lessons fun, and I'm probably better at organising things. We've learnt a lot from each other, and I've completely changed some of my lessons because of them."
+        },
+        {
+          "speaker": "Interviewer",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "How do you feel about being so far from your family?"
+        },
+        {
+          "speaker": "Priya",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Honestly, it's been much easier than I feared. We have a video call every Sunday, and my parents have already come to visit twice. The only time I find it really hard is at Christmas, when everyone's together at home and I'm on the other side of the world."
+        },
+        {
+          "speaker": "Interviewer",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "What advice would you give to teachers who are thinking about working abroad?"
+        },
+        {
+          "speaker": "Priya",
+          "voiceId": "de-DE-ConradNeural",
+          "text": "Some people say you should learn the language perfectly before you go, but I don't agree. You'll learn it much faster once you're there. My main advice would be to stay for at least two years. In the first year, you're just finding out how everything works. It's only in the second year that you really start to enjoy it."
+        },
+        {
+          "speaker": "Interviewer",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Priya Shah, thank you very much."
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "en-b1-h-t4-interview-teacher-abroad-01-q1",
+      "module": "horen",
+      "teil": 4,
+      "type": "multiple_choice",
+      "passageId": "en-b1-p-horen-t4-interview-teacher-abroad-01-01",
+      "question": "Why did Priya decide to move to Chile?",
+      "options": [
+        "a) She wanted to be with her partner.",
+        "b) She wanted a change from her old routine.",
+        "c) She was offered a higher salary there."
+      ],
+      "correct": "b",
+      "correctAnswer": "b",
+      "explanation": "Priya says 'I'd simply been doing the same job in the same school for five years, and I felt I needed something new.' She says 'I earn less now', and 'I didn't follow a boyfriend there'.",
+      "grammarTags": [
+        "g-en-b1-past-perfect-continuous"
+      ],
+      "topicTags": [
+        "work-jobs"
+      ],
+      "vocabularyTags": [
+        "abroad",
+        "earn",
+        "advert"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-h-t4-interview-teacher-abroad-01-q2",
+      "module": "horen",
+      "teil": 4,
+      "type": "multiple_choice",
+      "passageId": "en-b1-p-horen-t4-interview-teacher-abroad-01-01",
+      "question": "What did Priya find hardest when she first arrived?",
+      "options": [
+        "a) Understanding how things worked at school",
+        "b) Finding her way around a new city",
+        "c) Learning to speak Spanish well enough to teach"
+      ],
+      "correct": "a",
+      "correctAnswer": "a",
+      "explanation": "Priya says 'What I found difficult was all the unwritten rules at school', such as 'how formally I should speak to the head teacher'. She expected the language to be a problem, but her Spanish 'improved quite quickly'.",
+      "grammarTags": [
+        "g-en-b1-indirect-questions"
+      ],
+      "topicTags": [
+        "work-jobs"
+      ],
+      "vocabularyTags": [
+        "unwritten rule",
+        "formally",
+        "staff room"
+      ],
+      "difficulty": 5,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-h-t4-interview-teacher-abroad-01-q3",
+      "module": "horen",
+      "teil": 4,
+      "type": "multiple_choice",
+      "passageId": "en-b1-p-horen-t4-interview-teacher-abroad-01-01",
+      "question": "What does Priya say about her students in Chile?",
+      "options": [
+        "a) Their English is better than she expected.",
+        "b) They worry less about getting things wrong.",
+        "c) They behave very differently from teenagers at home."
+      ],
+      "correct": "b",
+      "correctAnswer": "b",
+      "explanation": "Priya says her students 'are much less afraid of making mistakes. They'll just start speaking, even if their English isn't perfect.' She says they are 'not that different, really' from teenagers in England.",
+      "grammarTags": [
+        "g-en-b1-comparatives"
+      ],
+      "topicTags": [
+        "work-jobs"
+      ],
+      "vocabularyTags": [
+        "notice",
+        "afraid",
+        "mistake"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-h-t4-interview-teacher-abroad-01-q4",
+      "module": "horen",
+      "teil": 4,
+      "type": "multiple_choice",
+      "passageId": "en-b1-p-horen-t4-interview-teacher-abroad-01-01",
+      "question": "What is Priya's opinion of the way her Chilean colleagues teach?",
+      "options": [
+        "a) She still believes her own methods are better.",
+        "b) It is very similar to teaching in the UK.",
+        "c) She has learnt useful things from it."
+      ],
+      "correct": "c",
+      "correctAnswer": "c",
+      "explanation": "Priya says 'We've learnt a lot from each other, and I've completely changed some of my lessons because of them.' She thought her way was better 'At first', but says 'I've changed my mind.'",
+      "grammarTags": [
+        "g-en-b1-present-perfect"
+      ],
+      "topicTags": [
+        "work-jobs"
+      ],
+      "vocabularyTags": [
+        "colleague",
+        "organise",
+        "change your mind"
+      ],
+      "difficulty": 5,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-h-t4-interview-teacher-abroad-01-q5",
+      "module": "horen",
+      "teil": 4,
+      "type": "multiple_choice",
+      "passageId": "en-b1-p-horen-t4-interview-teacher-abroad-01-01",
+      "question": "How does Priya feel about being far from her family?",
+      "options": [
+        "a) She may go back to England because of it.",
+        "b) She finds it difficult for most of the year.",
+        "c) It is less difficult than she expected."
+      ],
+      "correct": "c",
+      "correctAnswer": "c",
+      "explanation": "Priya says 'it's been much easier than I feared.' It is only 'really hard' at Christmas, not for most of the year, and she never talks about going back.",
+      "grammarTags": [
+        "g-en-b1-comparatives"
+      ],
+      "topicTags": [
+        "work-jobs"
+      ],
+      "vocabularyTags": [
+        "fear",
+        "video call",
+        "visit"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-h-t4-interview-teacher-abroad-01-q6",
+      "module": "horen",
+      "teil": 4,
+      "type": "multiple_choice",
+      "passageId": "en-b1-p-horen-t4-interview-teacher-abroad-01-01",
+      "question": "What is Priya's main advice to teachers who want to work abroad?",
+      "options": [
+        "a) Plan to stay for at least two years.",
+        "b) Learn the language perfectly before going.",
+        "c) Choose a school in a large city."
+      ],
+      "correct": "a",
+      "correctAnswer": "a",
+      "explanation": "Priya says 'My main advice would be to stay for at least two years.' She disagrees with people who say 'you should learn the language perfectly before you go'.",
+      "grammarTags": [
+        "g-en-b1-modals"
+      ],
+      "topicTags": [
+        "work-jobs"
+      ],
+      "vocabularyTags": [
+        "advice",
+        "abroad",
+        "perfectly"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    }
+  ],
+  "_germanCapsNormalizeVersion": "v3.23-lesen-t2-angebote-corpus-2026-07-28",
+  "_germanCapsNormalizedAt": "2026-10-12T14:44:04.810Z",
+  "_balanceMcqVersion": "v1.2-no-rf-chrono-shuffle-2026-07-11",
+  "_balanceMcqNormalizedAt": "2026-10-12T14:44:04.810Z"
+}

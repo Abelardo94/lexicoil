@@ -1,0 +1,246 @@
+{
+  "passages": [
+    {
+      "id": "en-b1-p-horen-t3-gapfill-bike-scheme-01-01",
+      "module": "horen",
+      "title": "Hadley's new bike-hire scheme",
+      "text": "Man: Good morning. My name's Gareth Price, and I work for Hadley Town Council. I'm here to explain how our new bike-hire scheme works. It starts on the first of May.\n\nMan: To begin with, there'll be fifteen places around Hadley where you can collect a bike. We're hoping to have thirty by next summer, so the scheme should grow quite quickly.\n\nMan: Before you can hire a bike, you'll need to register. You can do this online, or, if you'd rather speak to someone, at the library on Market Street. Lots of people have asked about the town hall, but unfortunately you can't register there.\n\nMan: The first thirty minutes of every journey are free. After that, you pay one pound for each hour, so an afternoon ride out into the countryside won't cost very much at all.\n\nMan: All the bikes are bright green, and every one has a basket at the front, which is really useful if you're going shopping. They also have lights, so you can ride them safely after dark.\n\nMan: We don't provide helmets, I'm afraid. But we strongly recommend wearing one, and you can buy a cheap one at the cycle shop inside the railway station.\n\nMan: Finally, if anything's wrong with your bike, a flat tyre, for example, please return it to a stand and press the red button. That tells our team it needs repairing. The green button is only for unlocking the bike. Happy cycling!",
+      "passageVocab": [
+        "scheme",
+        "register",
+        "helmet",
+        "tyre",
+        "council"
+      ],
+      "audio": [
+        {
+          "speaker": "Man",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Good morning. My name's Gareth Price, and I work for Hadley Town Council. I'm here to explain how our new bike-hire scheme works. It starts on the first of May."
+        },
+        {
+          "speaker": "Man",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "To begin with, there'll be fifteen places around Hadley where you can collect a bike. We're hoping to have thirty by next summer, so the scheme should grow quite quickly."
+        },
+        {
+          "speaker": "Man",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Before you can hire a bike, you'll need to register. You can do this online, or, if you'd rather speak to someone, at the library on Market Street. Lots of people have asked about the town hall, but unfortunately you can't register there."
+        },
+        {
+          "speaker": "Man",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "The first thirty minutes of every journey are free. After that, you pay one pound for each hour, so an afternoon ride out into the countryside won't cost very much at all."
+        },
+        {
+          "speaker": "Man",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "All the bikes are bright green, and every one has a basket at the front, which is really useful if you're going shopping. They also have lights, so you can ride them safely after dark."
+        },
+        {
+          "speaker": "Man",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "We don't provide helmets, I'm afraid. But we strongly recommend wearing one, and you can buy a cheap one at the cycle shop inside the railway station."
+        },
+        {
+          "speaker": "Man",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Finally, if anything's wrong with your bike, a flat tyre, for example, please return it to a stand and press the red button. That tells our team it needs repairing. The green button is only for unlocking the bike. Happy cycling!"
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "en-b1-h-t3-gapfill-bike-scheme-01-q1",
+      "module": "horen",
+      "teil": 3,
+      "type": "gap_fill",
+      "passageId": "en-b1-p-horen-t3-gapfill-bike-scheme-01-01",
+      "question": "Number of places to collect a bike when the scheme starts: ____",
+      "correct": "fifteen",
+      "correctAnswer": "fifteen",
+      "acceptedAnswers": [
+        "15"
+      ],
+      "explanation": "Gareth says 'To begin with, there'll be fifteen places around Hadley where you can collect a bike'. Thirty is the number the council hopes to have by next summer.",
+      "options": [],
+      "grammarTags": [
+        "g-en-b1-numbers"
+      ],
+      "topicTags": [
+        "transport-town"
+      ],
+      "vocabularyTags": [
+        "collect",
+        "hire",
+        "scheme"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-h-t3-gapfill-bike-scheme-01-q2",
+      "module": "horen",
+      "teil": 3,
+      "type": "gap_fill",
+      "passageId": "en-b1-p-horen-t3-gapfill-bike-scheme-01-01",
+      "question": "You can register online or at the ____ on Market Street.",
+      "correct": "library",
+      "correctAnswer": "library",
+      "explanation": "Gareth says you can register 'online, or, if you'd rather speak to someone, at the library on Market Street'. He says 'you can't register' at the town hall.",
+      "options": [],
+      "grammarTags": [
+        "g-en-b1-modals"
+      ],
+      "topicTags": [
+        "transport-town"
+      ],
+      "vocabularyTags": [
+        "register",
+        "online",
+        "library"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-h-t3-gapfill-bike-scheme-01-q3",
+      "module": "horen",
+      "teil": 3,
+      "type": "gap_fill",
+      "passageId": "en-b1-p-horen-t3-gapfill-bike-scheme-01-01",
+      "question": "After the free period, you pay £1 for each ____.",
+      "correct": "hour",
+      "correctAnswer": "hour",
+      "explanation": "Gareth says 'The first thirty minutes of every journey are free. After that, you pay one pound for each hour'.",
+      "options": [],
+      "grammarTags": [
+        "g-en-b1-quantifiers"
+      ],
+      "topicTags": [
+        "transport-town"
+      ],
+      "vocabularyTags": [
+        "free",
+        "journey",
+        "pay"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-h-t3-gapfill-bike-scheme-01-q4",
+      "module": "horen",
+      "teil": 3,
+      "type": "gap_fill",
+      "passageId": "en-b1-p-horen-t3-gapfill-bike-scheme-01-01",
+      "question": "Every bike has a ____ at the front, which is useful for shopping.",
+      "correct": "basket",
+      "correctAnswer": "basket",
+      "explanation": "Gareth says 'every one has a basket at the front, which is really useful if you're going shopping'. The bikes also have lights, but these are for riding after dark.",
+      "options": [],
+      "grammarTags": [
+        "g-en-b1-relative-clauses"
+      ],
+      "topicTags": [
+        "transport-town"
+      ],
+      "vocabularyTags": [
+        "basket",
+        "lights",
+        "shopping"
+      ],
+      "difficulty": 3,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-h-t3-gapfill-bike-scheme-01-q5",
+      "module": "horen",
+      "teil": 3,
+      "type": "gap_fill",
+      "passageId": "en-b1-p-horen-t3-gapfill-bike-scheme-01-01",
+      "question": "You can buy a cheap helmet at the cycle shop inside the ____.",
+      "correct": "railway station",
+      "correctAnswer": "railway station",
+      "acceptedAnswers": [
+        "station"
+      ],
+      "explanation": "Gareth says 'you can buy a cheap one at the cycle shop inside the railway station'. The council itself does not provide helmets.",
+      "options": [],
+      "grammarTags": [
+        "g-en-b1-prepositions-place"
+      ],
+      "topicTags": [
+        "transport-town"
+      ],
+      "vocabularyTags": [
+        "helmet",
+        "recommend",
+        "railway station"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-h-t3-gapfill-bike-scheme-01-q6",
+      "module": "horen",
+      "teil": 3,
+      "type": "gap_fill",
+      "passageId": "en-b1-p-horen-t3-gapfill-bike-scheme-01-01",
+      "question": "To report a problem with a bike, press the ____ button on the stand.",
+      "correct": "red",
+      "correctAnswer": "red",
+      "explanation": "Gareth says to 'press the red button. That tells our team it needs repairing.' The green button is 'only for unlocking the bike'.",
+      "options": [],
+      "grammarTags": [
+        "g-en-b1-imperatives"
+      ],
+      "topicTags": [
+        "transport-town"
+      ],
+      "vocabularyTags": [
+        "tyre",
+        "button",
+        "repair"
+      ],
+      "difficulty": 5,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    }
+  ],
+  "_germanCapsNormalizeVersion": "v3.23-lesen-t2-angebote-corpus-2026-07-28",
+  "_germanCapsNormalizedAt": "2026-10-12T14:44:04.195Z",
+  "_balanceMcqVersion": "v1.2-no-rf-chrono-shuffle-2026-07-11",
+  "_balanceMcqNormalizedAt": "2026-10-12T14:44:04.195Z"
+}

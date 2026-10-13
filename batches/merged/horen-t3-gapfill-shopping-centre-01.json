@@ -1,0 +1,213 @@
+{
+  "passages": [
+    {
+      "id": "en-b1-p-horen-t3-gapfill-shopping-centre-01-01",
+      "module": "horen",
+      "title": "Opening day at the Westgate Shopping Centre",
+      "text": "Man: Good afternoon. I’m David Moss, manager of the new Westgate Shopping Centre, and I’d like to tell you about our opening day this Saturday.\n\nThe doors will open at nine o’clock, and at ten the centre will be officially opened by a well-known footballer who grew up here in Northfield. There were stories in the local paper that a famous singer was coming, but I’m afraid that isn’t true.\n\nSo, what will you find inside? On Saturday there will be sixty-five shops open, on three floors. We had hoped to have seventy by the opening day, but a few aren’t quite ready yet, so those will open later in the year.\n\nOn the top floor there’s a cinema with six screens, and next to it a food court with restaurants from all over the world. We’re also planning a bowling alley, but that won’t be finished until next summer.\n\nGetting here is easy. Our car park has space for a thousand cars, and parking is free for the first two hours. After that it costs one pound an hour. If you’d rather leave the car at home, the number forty-two bus stops right outside the main entrance. The number twenty-four also comes to this part of town, but it stops on the other side of the river, which is quite a long walk.\n\nAnd finally, a little gift. Lots of new shopping centres give away shopping bags on their opening day, but we thought we’d do something different. So the first hundred customers through the door will each get a free umbrella, in our special Westgate colours. Very useful in this weather!\n\nWe’re really looking forward to seeing you all on Saturday.",
+      "passageVocab": [
+        "entrance",
+        "officially",
+        "food court",
+        "car park",
+        "gift"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "en-b1-h-t3-gapfill-shopping-centre-01-q1",
+      "module": "horen",
+      "teil": 3,
+      "type": "gap_fill",
+      "question": "The centre will be officially opened by a famous ____.",
+      "correct": "footballer",
+      "correctAnswer": "footballer",
+      "acceptedAnswers": [
+        "football player"
+      ],
+      "explanation": "\"The centre will be officially opened by a well-known footballer\". The story about a singer \"isn’t true\".",
+      "options": [],
+      "passageId": "en-b1-p-horen-t3-gapfill-shopping-centre-01-01",
+      "grammarTags": [
+        "g-en-b1-passive"
+      ],
+      "topicTags": [
+        "shopping"
+      ],
+      "vocabularyTags": [
+        "jobs",
+        "sport"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-h-t3-gapfill-shopping-centre-01-q2",
+      "module": "horen",
+      "teil": 3,
+      "type": "gap_fill",
+      "question": "Number of shops open on Saturday: ____",
+      "correct": "65",
+      "correctAnswer": "65",
+      "acceptedAnswers": [
+        "sixty-five",
+        "sixty five"
+      ],
+      "explanation": "\"On Saturday there will be sixty-five shops open\". Seventy was the number they \"had hoped to have\", but some are not ready.",
+      "options": [],
+      "passageId": "en-b1-p-horen-t3-gapfill-shopping-centre-01-01",
+      "grammarTags": [
+        "g-en-b1-numbers"
+      ],
+      "topicTags": [
+        "shopping"
+      ],
+      "vocabularyTags": [
+        "numbers",
+        "shopping"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-h-t3-gapfill-shopping-centre-01-q3",
+      "module": "horen",
+      "teil": 3,
+      "type": "gap_fill",
+      "question": "On the top floor: a food court and a ____",
+      "correct": "cinema",
+      "correctAnswer": "cinema",
+      "explanation": "\"On the top floor there’s a cinema with six screens\". The bowling alley \"won’t be finished until next summer\".",
+      "options": [],
+      "passageId": "en-b1-p-horen-t3-gapfill-shopping-centre-01-01",
+      "grammarTags": [
+        "g-en-b1-there-is-are"
+      ],
+      "topicTags": [
+        "shopping"
+      ],
+      "vocabularyTags": [
+        "entertainment",
+        "places"
+      ],
+      "difficulty": 3,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-h-t3-gapfill-shopping-centre-01-q4",
+      "module": "horen",
+      "teil": 3,
+      "type": "gap_fill",
+      "question": "Parking is free for the first ____.",
+      "correct": "two hours",
+      "correctAnswer": "two hours",
+      "acceptedAnswers": [
+        "2 hours",
+        "2 hrs",
+        "two hrs"
+      ],
+      "explanation": "\"Parking is free for the first two hours. After that it costs one pound an hour.\"",
+      "options": [],
+      "passageId": "en-b1-p-horen-t3-gapfill-shopping-centre-01-01",
+      "grammarTags": [
+        "g-en-b1-time-expressions"
+      ],
+      "topicTags": [
+        "shopping"
+      ],
+      "vocabularyTags": [
+        "transport",
+        "time"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-h-t3-gapfill-shopping-centre-01-q5",
+      "module": "horen",
+      "teil": 3,
+      "type": "gap_fill",
+      "question": "Bus number ____ stops outside the main entrance.",
+      "correct": "42",
+      "correctAnswer": "42",
+      "acceptedAnswers": [
+        "forty-two",
+        "forty two"
+      ],
+      "explanation": "\"The number forty-two bus stops right outside the main entrance.\" The number twenty-four \"stops on the other side of the river\".",
+      "options": [],
+      "passageId": "en-b1-p-horen-t3-gapfill-shopping-centre-01-01",
+      "grammarTags": [
+        "g-en-b1-numbers"
+      ],
+      "topicTags": [
+        "shopping"
+      ],
+      "vocabularyTags": [
+        "transport",
+        "numbers"
+      ],
+      "difficulty": 5,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-h-t3-gapfill-shopping-centre-01-q6",
+      "module": "horen",
+      "teil": 3,
+      "type": "gap_fill",
+      "question": "Free gift for each of the first 100 customers: an ____",
+      "correct": "umbrella",
+      "correctAnswer": "umbrella",
+      "explanation": "\"The first hundred customers through the door will each get a free umbrella\". Shopping bags are what \"lots of new shopping centres\" give away.",
+      "options": [],
+      "passageId": "en-b1-p-horen-t3-gapfill-shopping-centre-01-01",
+      "grammarTags": [
+        "g-en-b1-articles"
+      ],
+      "topicTags": [
+        "shopping"
+      ],
+      "vocabularyTags": [
+        "objects",
+        "weather"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    }
+  ],
+  "_germanCapsNormalizeVersion": "v3.23-lesen-t2-angebote-corpus-2026-07-28",
+  "_germanCapsNormalizedAt": "2026-10-12T19:15:53.761Z",
+  "_balanceMcqVersion": "v1.2-no-rf-chrono-shuffle-2026-07-11",
+  "_balanceMcqNormalizedAt": "2026-10-12T19:15:53.761Z"
+}

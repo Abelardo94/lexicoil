@@ -1,0 +1,191 @@
+{
+  "passages": [
+    {
+      "id": "en-b1-p-lesen-t6-open-cloze-cooking-disaster-01-01",
+      "module": "lesen",
+      "title": "Not quite a birthday feast",
+      "text": "Last month my father turned fifty, and I offered to cook a special dinner for the whole family. I had watched lots of cooking programmes, so I was sure it would be easy. How wrong I was! First, I found out that we did not have (1) ______ eggs at all, so I had to run to the corner shop. While I was out, the cheese sauce boiled for (2) ______ long that it turned into a thick brown paste. Then I added salt to the rice twice by mistake, and it became (3) ______ salty for anyone to eat. When Dad came home, the kitchen was full of smoke and there was nothing on the table at all, apart (4) ______ a plate of burnt bread. Luckily, he just laughed. We opened all the windows and walked to the little Italian restaurant (5) ______ my parents had their first date many years ago. The pizza was delicious. Afterwards, (6) ______ took us nearly two hours to clean the kitchen, but Dad said it was the most memorable birthday he had ever had.",
+      "passageVocab": [
+        "sauce",
+        "paste",
+        "burnt",
+        "smoke",
+        "memorable"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "en-b1-r-t6-open-cloze-cooking-disaster-01-q1",
+      "module": "lesen",
+      "teil": 6,
+      "type": "gap_fill",
+      "question": "Write ONE word that fits gap (1).",
+      "correct": "any",
+      "correctAnswer": "any",
+      "explanation": "In a negative sentence we use any with plural nouns: \"we did not have any eggs at all\". The words at all show that the answer is any, not some or many.",
+      "options": [],
+      "grammarTags": [
+        "g-en-b1-quantifiers"
+      ],
+      "topicTags": [
+        "food"
+      ],
+      "vocabularyTags": [
+        "eggs"
+      ],
+      "difficulty": 3,
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge",
+      "skills": [
+        "reading"
+      ],
+      "passageId": "en-b1-p-lesen-t6-open-cloze-cooking-disaster-01-01"
+    },
+    {
+      "id": "en-b1-r-t6-open-cloze-cooking-disaster-01-q2",
+      "module": "lesen",
+      "teil": 6,
+      "type": "gap_fill",
+      "question": "Write ONE word that fits gap (2).",
+      "correct": "so",
+      "correctAnswer": "so",
+      "explanation": "So + adverb + that shows a result: the sauce boiled \"for so long that it turned into a thick brown paste\". Too or very cannot be followed by a that-clause of result.",
+      "options": [],
+      "grammarTags": [
+        "g-en-b1-phrasal-verbs"
+      ],
+      "topicTags": [
+        "food"
+      ],
+      "vocabularyTags": [
+        "turn into"
+      ],
+      "difficulty": 4,
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge",
+      "skills": [
+        "reading"
+      ],
+      "passageId": "en-b1-p-lesen-t6-open-cloze-cooking-disaster-01-01"
+    },
+    {
+      "id": "en-b1-r-t6-open-cloze-cooking-disaster-01-q3",
+      "module": "lesen",
+      "teil": 6,
+      "type": "gap_fill",
+      "question": "Write ONE word that fits gap (3).",
+      "correct": "too",
+      "correctAnswer": "too",
+      "explanation": "The pattern is too + adjective + for someone + to-infinitive: the rice became \"too salty for anyone to eat\". So or very cannot be followed by for anyone to eat.",
+      "options": [],
+      "grammarTags": [
+        "g-en-b1-too-enough"
+      ],
+      "topicTags": [
+        "food"
+      ],
+      "vocabularyTags": [
+        "salty"
+      ],
+      "difficulty": 3,
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge",
+      "skills": [
+        "reading"
+      ],
+      "passageId": "en-b1-p-lesen-t6-open-cloze-cooking-disaster-01-01"
+    },
+    {
+      "id": "en-b1-r-t6-open-cloze-cooking-disaster-01-q4",
+      "module": "lesen",
+      "teil": 6,
+      "type": "gap_fill",
+      "question": "Write ONE word that fits gap (4).",
+      "correct": "from",
+      "correctAnswer": "from",
+      "explanation": "Apart from means except: \"nothing on the table at all, apart from a plate of burnt bread\". Apart is always followed by from in this meaning.",
+      "options": [],
+      "grammarTags": [
+        "g-en-b1-indefinite-pronouns"
+      ],
+      "topicTags": [
+        "food"
+      ],
+      "vocabularyTags": [
+        "burnt"
+      ],
+      "difficulty": 4,
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge",
+      "skills": [
+        "reading"
+      ],
+      "passageId": "en-b1-p-lesen-t6-open-cloze-cooking-disaster-01-01"
+    },
+    {
+      "id": "en-b1-r-t6-open-cloze-cooking-disaster-01-q5",
+      "module": "lesen",
+      "teil": 6,
+      "type": "gap_fill",
+      "question": "Write ONE word that fits gap (5).",
+      "correct": "where",
+      "correctAnswer": "where",
+      "explanation": "Where introduces a relative clause about a place: \"the little Italian restaurant where my parents had their first date\". Which or that would need at at the end of the clause.",
+      "options": [],
+      "grammarTags": [
+        "g-en-b1-relative-clauses"
+      ],
+      "topicTags": [
+        "food"
+      ],
+      "vocabularyTags": [
+        "restaurant"
+      ],
+      "difficulty": 4,
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge",
+      "skills": [
+        "reading"
+      ],
+      "passageId": "en-b1-p-lesen-t6-open-cloze-cooking-disaster-01-01"
+    },
+    {
+      "id": "en-b1-r-t6-open-cloze-cooking-disaster-01-q6",
+      "module": "lesen",
+      "teil": 6,
+      "type": "gap_fill",
+      "question": "Write ONE word that fits gap (6).",
+      "correct": "it",
+      "correctAnswer": "it",
+      "explanation": "The pattern for time needed is it + take + time + to-infinitive: \"it took us nearly two hours to clean the kitchen\". The subject must be the empty pronoun it.",
+      "options": [],
+      "grammarTags": [
+        "g-en-b1-pronouns"
+      ],
+      "topicTags": [
+        "food"
+      ],
+      "vocabularyTags": [
+        "take time"
+      ],
+      "difficulty": 3,
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge",
+      "skills": [
+        "reading"
+      ],
+      "passageId": "en-b1-p-lesen-t6-open-cloze-cooking-disaster-01-01"
+    }
+  ],
+  "_germanCapsNormalizeVersion": "v3.23-lesen-t2-angebote-corpus-2026-07-28",
+  "_germanCapsNormalizedAt": "2026-10-12T19:48:36.394Z",
+  "_balanceMcqVersion": "v1.2-no-rf-chrono-shuffle-2026-07-11",
+  "_balanceMcqNormalizedAt": "2026-10-12T19:48:36.394Z"
+}

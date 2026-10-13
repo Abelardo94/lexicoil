@@ -1,0 +1,218 @@
+{
+  "passages": [
+    {
+      "id": "en-b1-p-lesen-t4-gapped-community-garden-01-01",
+      "module": "lesen",
+      "title": "From car park to vegetable garden",
+      "text": "Three years ago, the land behind Elmwood Road in Bristol was an empty car park covered in broken glass. Today it is full of tomatoes, beans and sunflowers, and more than sixty local people help to look after it.\n\nThe idea came from Priya Shah, a retired science teacher who has lived on the street for thirty years. 'I walked past that car park every day and thought what a waste it was,' she says. (1) ________ Most of them liked the idea, although a few were worried about noise and rubbish.\n\nGetting permission from the city council took almost a year. (2) ________ By the time the council finally said yes, they had enough to buy wood, soil and tools.\n\nThe first spring was hard work. Because the ground was concrete, nothing could be planted directly in it. (3) ________ Some of the older members can now reach their plants without bending down, which they say is an unexpected bonus.\n\nToday, the garden is open to anyone. Families come at weekends, and a local primary school uses one corner as an outdoor classroom. (4) ________ Their teacher says that some pupils who never ate fruit at home now ask for it at lunch.\n\nFor Priya, though, the vegetables are not the most important thing. 'Before, people on this street just said hello to each other,' she explains. 'Now they really know each other.' (5) ________\n\nThe group is now helping people in two other streets in the city to start similar projects.",
+      "passageVocab": [
+        "council",
+        "permission",
+        "raised bed",
+        "volunteer",
+        "neighbour"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "en-b1-r-t4-gapped-community-garden-01-q1",
+      "module": "lesen",
+      "teil": 4,
+      "type": "matching",
+      "passageId": "en-b1-p-lesen-t4-gapped-community-garden-01-01",
+      "question": "Which sentence fits gap (1)?",
+      "options": [
+        "A) Instead, volunteers built raised beds, which are large wooden boxes filled with soil.",
+        "B) Luckily, the ground there was already soft and easy to dig.",
+        "C) When one neighbour was in hospital last winter, for example, others took turns to cook for her family.",
+        "D) So she knocked on every door in the street to ask her neighbours what they thought.",
+        "E) Sadly, the garden had to close after only one summer.",
+        "F) The children there have been growing their own strawberries, and they are very proud of them.",
+        "G) During that time, the group raised money by selling cakes and second-hand books.",
+        "H) Unfortunately, almost every neighbour she spoke to was against the idea."
+      ],
+      "correct": "D",
+      "correctAnswer": "D",
+      "explanation": "Priya 'thought what a waste it was', 'So she knocked on every door in the street to ask her neighbours what they thought.' The next sentence, 'Most of them liked the idea', needs 'her neighbours' as the people who answered. The sentence saying almost every neighbour was against the idea cannot go here, because the text says 'Most of them liked the idea'.",
+      "grammarTags": [
+        "g-en-b1-linking-words"
+      ],
+      "topicTags": [
+        "environment"
+      ],
+      "vocabularyTags": [
+        "neighbour",
+        "idea",
+        "waste"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-r-t4-gapped-community-garden-01-q2",
+      "module": "lesen",
+      "teil": 4,
+      "type": "matching",
+      "passageId": "en-b1-p-lesen-t4-gapped-community-garden-01-01",
+      "question": "Which sentence fits gap (2)?",
+      "options": [
+        "A) Instead, volunteers built raised beds, which are large wooden boxes filled with soil.",
+        "B) Luckily, the ground there was already soft and easy to dig.",
+        "C) When one neighbour was in hospital last winter, for example, others took turns to cook for her family.",
+        "D) So she knocked on every door in the street to ask her neighbours what they thought.",
+        "E) Sadly, the garden had to close after only one summer.",
+        "F) The children there have been growing their own strawberries, and they are very proud of them.",
+        "G) During that time, the group raised money by selling cakes and second-hand books.",
+        "H) Unfortunately, almost every neighbour she spoke to was against the idea."
+      ],
+      "correct": "G",
+      "correctAnswer": "G",
+      "explanation": "'During that time' refers to the year it 'took almost a year' to get permission, and raising money explains the next sentence: 'By the time the council finally said yes, they had enough to buy wood, soil and tools.' Without this sentence, 'they had enough' has nothing to refer to.",
+      "grammarTags": [
+        "g-en-b1-reference-words"
+      ],
+      "topicTags": [
+        "environment"
+      ],
+      "vocabularyTags": [
+        "raise money",
+        "second-hand",
+        "permission"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-r-t4-gapped-community-garden-01-q3",
+      "module": "lesen",
+      "teil": 4,
+      "type": "matching",
+      "passageId": "en-b1-p-lesen-t4-gapped-community-garden-01-01",
+      "question": "Which sentence fits gap (3)?",
+      "options": [
+        "A) Instead, volunteers built raised beds, which are large wooden boxes filled with soil.",
+        "B) Luckily, the ground there was already soft and easy to dig.",
+        "C) When one neighbour was in hospital last winter, for example, others took turns to cook for her family.",
+        "D) So she knocked on every door in the street to ask her neighbours what they thought.",
+        "E) Sadly, the garden had to close after only one summer.",
+        "F) The children there have been growing their own strawberries, and they are very proud of them.",
+        "G) During that time, the group raised money by selling cakes and second-hand books.",
+        "H) Unfortunately, almost every neighbour she spoke to was against the idea."
+      ],
+      "correct": "A",
+      "correctAnswer": "A",
+      "explanation": "'Nothing could be planted directly in it', so 'Instead, volunteers built raised beds'. The raised beds explain why older members 'can now reach their plants without bending down'. The sentence about soft ground that was 'easy to dig' contradicts 'the ground was concrete'.",
+      "grammarTags": [
+        "g-en-b1-linking-words"
+      ],
+      "topicTags": [
+        "environment"
+      ],
+      "vocabularyTags": [
+        "raised bed",
+        "concrete",
+        "soil"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-r-t4-gapped-community-garden-01-q4",
+      "module": "lesen",
+      "teil": 4,
+      "type": "matching",
+      "passageId": "en-b1-p-lesen-t4-gapped-community-garden-01-01",
+      "question": "Which sentence fits gap (4)?",
+      "options": [
+        "A) Instead, volunteers built raised beds, which are large wooden boxes filled with soil.",
+        "B) Luckily, the ground there was already soft and easy to dig.",
+        "C) When one neighbour was in hospital last winter, for example, others took turns to cook for her family.",
+        "D) So she knocked on every door in the street to ask her neighbours what they thought.",
+        "E) Sadly, the garden had to close after only one summer.",
+        "F) The children there have been growing their own strawberries, and they are very proud of them.",
+        "G) During that time, the group raised money by selling cakes and second-hand books.",
+        "H) Unfortunately, almost every neighbour she spoke to was against the idea."
+      ],
+      "correct": "F",
+      "correctAnswer": "F",
+      "explanation": "'The children there' are the pupils of the 'local primary school' that uses the garden as 'an outdoor classroom'. Growing strawberries links to the next sentence: 'Their teacher says that some pupils who never ate fruit at home now ask for it.' The sentence saying the garden closed cannot fit, because the text says 'Today, the garden is open to anyone.'",
+      "grammarTags": [
+        "g-en-b1-present-perfect-continuous"
+      ],
+      "topicTags": [
+        "environment"
+      ],
+      "vocabularyTags": [
+        "pupil",
+        "strawberry",
+        "proud"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-r-t4-gapped-community-garden-01-q5",
+      "module": "lesen",
+      "teil": 4,
+      "type": "matching",
+      "passageId": "en-b1-p-lesen-t4-gapped-community-garden-01-01",
+      "question": "Which sentence fits gap (5)?",
+      "options": [
+        "A) Instead, volunteers built raised beds, which are large wooden boxes filled with soil.",
+        "B) Luckily, the ground there was already soft and easy to dig.",
+        "C) When one neighbour was in hospital last winter, for example, others took turns to cook for her family.",
+        "D) So she knocked on every door in the street to ask her neighbours what they thought.",
+        "E) Sadly, the garden had to close after only one summer.",
+        "F) The children there have been growing their own strawberries, and they are very proud of them.",
+        "G) During that time, the group raised money by selling cakes and second-hand books.",
+        "H) Unfortunately, almost every neighbour she spoke to was against the idea."
+      ],
+      "correct": "C",
+      "correctAnswer": "C",
+      "explanation": "Priya says 'Now they really know each other', and this sentence gives an example ('for example') of neighbours helping each other: 'others took turns to cook for her family'. The sentence about neighbours being against the idea belongs to the start of the project, not to how people get on now, and it contradicts 'Most of them liked the idea'.",
+      "grammarTags": [
+        "g-en-b1-linking-words"
+      ],
+      "topicTags": [
+        "environment"
+      ],
+      "vocabularyTags": [
+        "neighbour",
+        "take turns",
+        "hospital"
+      ],
+      "difficulty": 5,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    }
+  ],
+  "_germanCapsNormalizeVersion": "v3.23-lesen-t2-angebote-corpus-2026-07-28",
+  "_germanCapsNormalizedAt": "2026-10-12T14:44:00.638Z",
+  "_balanceMcqVersion": "v1.2-no-rf-chrono-shuffle-2026-07-11",
+  "_balanceMcqNormalizedAt": "2026-10-12T14:44:00.638Z"
+}

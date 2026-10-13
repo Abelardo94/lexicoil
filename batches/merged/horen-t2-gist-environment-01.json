@@ -1,0 +1,286 @@
+{
+  "passages": [
+    {
+      "id": "en-b1-p-horen-t2-gist-environment-01-01",
+      "module": "horen",
+      "title": "Dialogue 1",
+      "text": "Man: Have you seen the little brown bin the council left for food waste?\nWoman: Yes, and I was ready to hate it. I thought the whole kitchen would smell.\nMan: And does it?\nWoman: Not at all. The lid closes really tightly. And our ordinary bin’s half empty now, so we only take the rubbish out once a week. Honestly, it’s made life easier.\nMan: Hmm. I’m still not sure it’s worth all the trouble.",
+      "passageVocab": [
+        "food waste",
+        "smell",
+        "lid",
+        "rubbish"
+      ]
+    },
+    {
+      "id": "en-b1-p-horen-t2-gist-environment-01-02",
+      "module": "horen",
+      "title": "Dialogue 2",
+      "text": "Man: That’s a great jacket. Is it new?\nWoman: No, it’s second-hand, from the charity shop on Church Street.\nMan: Really? You love that seventies look, don’t you?\nWoman: Not especially. This one just fitted me. I used to buy new clothes all the time, but then I watched a programme about how many clothes get thrown away every year. Millions of tonnes! So now I try not to buy anything new.\nMan: It must save you money too.\nWoman: Not always. Some of those shops aren’t cheap. But that isn’t why I do it.",
+      "passageVocab": [
+        "second-hand",
+        "charity shop",
+        "throw away",
+        "fit"
+      ]
+    },
+    {
+      "id": "en-b1-p-horen-t2-gist-environment-01-03",
+      "module": "horen",
+      "title": "Dialogue 3",
+      "text": "Woman: Did you get the letter from the school about plastic bottles?\nMan: Yes. From next month the children have to bring metal ones instead.\nWoman: I think it’s a good idea, but the school should give them one each. Not every family can pay fifteen pounds for a bottle.\nMan: You’re right. That’s the real problem.\nWoman: Mind you, my son Leo will probably lose his in a week.\nMan: Oh, I don’t think so. My daughter’s had the same lunch box for three years.",
+      "passageVocab": [
+        "plastic",
+        "metal",
+        "pay",
+        "lunch box"
+      ]
+    },
+    {
+      "id": "en-b1-p-horen-t2-gist-environment-01-04",
+      "module": "horen",
+      "title": "Dialogue 4",
+      "text": "Woman: Do you really cycle to work every day now?\nMan: Since March. I only started because my car broke down and I didn’t want to pay for the repair straight away.\nWoman: Isn’t it dangerous on the main road?\nMan: There’s a cycle path most of the way, so I feel quite safe. And it’s only five minutes slower than driving, with all the traffic. The funny thing is, I actually look forward to it now. I never thought I’d say that!",
+      "passageVocab": [
+        "cycle",
+        "break down",
+        "cycle path",
+        "look forward to"
+      ]
+    },
+    {
+      "id": "en-b1-p-horen-t2-gist-environment-01-05",
+      "module": "horen",
+      "title": "Dialogue 5",
+      "text": "Man: How was the beach clean-up on Saturday?\nWoman: Really well organised. They gave us gloves and bags, and there were about forty of us. But what shocked me was how much of the rubbish was plastic packaging, exactly like the stuff I buy every week.\nMan: Really?\nWoman: Since then I’ve been taking my own containers to the market and buying fruit without any packaging. I’ll never look at a supermarket shelf in the same way again.",
+      "passageVocab": [
+        "clean-up",
+        "gloves",
+        "packaging",
+        "container"
+      ]
+    },
+    {
+      "id": "en-b1-p-horen-t2-gist-environment-01-06",
+      "module": "horen",
+      "title": "Dialogue 6",
+      "text": "Woman: You’re going to Edinburgh by train? From Cornwall? That’s nine hours!\nMan: I know. And it cost more than the plane, too.\nWoman: So why? Are you scared of flying?\nMan: No, I fly for work all the time. But I read how much pollution one flight makes, and I felt terrible. This time I wanted to travel in a way that’s better for the planet. And I’ll get lots of reading done.",
+      "passageVocab": [
+        "pollution",
+        "flight",
+        "planet",
+        "scared"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "en-b1-h-t2-gist-environment-01-q1",
+      "module": "horen",
+      "teil": 2,
+      "type": "multiple_choice",
+      "question": "You will hear two friends talking about a new food waste bin. What does the woman think of it?",
+      "options": [
+        "a) It is not worth the trouble.",
+        "b) It makes the kitchen smell bad.",
+        "c) It has made things easier."
+      ],
+      "correct": "c",
+      "correctAnswer": "c",
+      "explanation": "The woman says \"it’s made life easier\" because they only take the rubbish out \"once a week\". She expected a smell, but says \"Not at all\". It is the man who is \"not sure it’s worth all the trouble\".",
+      "passageId": "en-b1-p-horen-t2-gist-environment-01-01",
+      "grammarTags": [
+        "g-en-b1-present-perfect"
+      ],
+      "topicTags": [
+        "environment"
+      ],
+      "vocabularyTags": [
+        "recycling",
+        "food waste",
+        "opinion"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-h-t2-gist-environment-01-q2",
+      "module": "horen",
+      "teil": 2,
+      "type": "multiple_choice",
+      "question": "You will hear two friends talking about second-hand clothes. Why does the woman buy them?",
+      "options": [
+        "a) To save money",
+        "b) Because she prefers older styles",
+        "c) To help reduce waste"
+      ],
+      "correct": "c",
+      "correctAnswer": "c",
+      "explanation": "After a programme about how many clothes \"get thrown away every year\", she decided to \"try not to buy anything new\". About money she says \"Some of those shops aren’t cheap\" and \"that isn’t why I do it\", and about the seventies look she says \"Not especially\".",
+      "passageId": "en-b1-p-horen-t2-gist-environment-01-02",
+      "grammarTags": [
+        "g-en-b1-used-to"
+      ],
+      "topicTags": [
+        "environment"
+      ],
+      "vocabularyTags": [
+        "clothes",
+        "second-hand",
+        "purpose"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-h-t2-gist-environment-01-q3",
+      "module": "horen",
+      "teil": 2,
+      "type": "multiple_choice",
+      "question": "You will hear two parents talking about a new rule at their children’s school. What do they agree about?",
+      "options": [
+        "a) The children will soon lose their bottles.",
+        "b) The school should provide the bottles.",
+        "c) The new rule is unlikely to work."
+      ],
+      "correct": "b",
+      "correctAnswer": "b",
+      "explanation": "The woman says \"the school should give them one each\" and the man answers \"You’re right\". She thinks the rule is \"a good idea\", and when she says her son will lose his bottle, the man replies \"I don’t think so\".",
+      "passageId": "en-b1-p-horen-t2-gist-environment-01-03",
+      "grammarTags": [
+        "g-en-b1-modals"
+      ],
+      "topicTags": [
+        "environment"
+      ],
+      "vocabularyTags": [
+        "plastic",
+        "school",
+        "agree"
+      ],
+      "difficulty": 5,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-h-t2-gist-environment-01-q4",
+      "module": "horen",
+      "teil": 2,
+      "type": "multiple_choice",
+      "question": "You will hear a man telling a friend about cycling to work. How does he feel about it?",
+      "options": [
+        "a) Surprised that he enjoys it so much",
+        "b) Worried about the traffic on the main road",
+        "c) Annoyed that the journey takes longer"
+      ],
+      "correct": "a",
+      "correctAnswer": "a",
+      "explanation": "He says \"I actually look forward to it now. I never thought I’d say that!\" He feels \"quite safe\" because of the cycle path, and it is \"only five minutes slower\" than driving.",
+      "passageId": "en-b1-p-horen-t2-gist-environment-01-04",
+      "grammarTags": [
+        "g-en-b1-present-perfect"
+      ],
+      "topicTags": [
+        "environment"
+      ],
+      "vocabularyTags": [
+        "cycling",
+        "transport",
+        "feelings"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-h-t2-gist-environment-01-q5",
+      "module": "horen",
+      "teil": 2,
+      "type": "multiple_choice",
+      "question": "You will hear a woman telling a friend about a beach clean-up. What does she say about it?",
+      "options": [
+        "a) It was badly organised.",
+        "b) It made her change how she shops.",
+        "c) Not enough people took part."
+      ],
+      "correct": "b",
+      "correctAnswer": "b",
+      "explanation": "She was shocked by the \"plastic packaging\", and \"Since then I’ve been taking my own containers to the market\". She says it was \"Really well organised\", and \"about forty of us\" came.",
+      "passageId": "en-b1-p-horen-t2-gist-environment-01-05",
+      "grammarTags": [
+        "g-en-b1-present-perfect-continuous"
+      ],
+      "topicTags": [
+        "environment"
+      ],
+      "vocabularyTags": [
+        "plastic",
+        "shopping",
+        "volunteering"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-h-t2-gist-environment-01-q6",
+      "module": "horen",
+      "teil": 2,
+      "type": "multiple_choice",
+      "question": "You will hear two friends talking about a journey. Why did the man decide to go by train?",
+      "options": [
+        "a) To cause less pollution",
+        "b) Because it was cheaper than flying",
+        "c) Because he is afraid of flying"
+      ],
+      "correct": "a",
+      "correctAnswer": "a",
+      "explanation": "He read \"how much pollution one flight makes\" and wanted to travel in a way that is \"better for the planet\". The train \"cost more than the plane\", and he is not scared because he flies \"for work all the time\".",
+      "passageId": "en-b1-p-horen-t2-gist-environment-01-06",
+      "grammarTags": [
+        "g-en-b1-past-simple"
+      ],
+      "topicTags": [
+        "environment"
+      ],
+      "vocabularyTags": [
+        "travel",
+        "pollution",
+        "purpose"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    }
+  ],
+  "_germanCapsNormalizeVersion": "v3.23-lesen-t2-angebote-corpus-2026-07-28",
+  "_germanCapsNormalizedAt": "2026-10-12T19:19:07.435Z",
+  "_balanceMcqVersion": "v1.2-no-rf-chrono-shuffle-2026-07-11",
+  "_balanceMcqNormalizedAt": "2026-10-12T19:19:07.435Z"
+}

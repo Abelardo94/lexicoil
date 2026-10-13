@@ -1,0 +1,218 @@
+{
+  "passages": [
+    {
+      "id": "en-b1-p-lesen-t4-gapped-zero-waste-01-01",
+      "module": "lesen",
+      "title": "Our year without plastic",
+      "text": "When Sophie Marsh emptied her kitchen bin one evening in January, she counted the plastic inside: fourteen bags, nine food trays and a broken toy. 'That was just two days' rubbish for a family of four,' she says. (1) ________ Their two children, aged eight and eleven, were much less enthusiastic.\n\nThe first weeks were the hardest. Almost everything in their usual supermarket came wrapped in plastic, from cucumbers to cheese. (2) ________ Some of the stallholders found this strange at first, but most were happy to help.\n\nFood was not the only problem. Shampoo, toothpaste and washing-up liquid all came in plastic bottles. (3) ________ Her homemade toothpaste, she admits, was not a success. 'It tasted like salty chalk,' laughs her son, Leo.\n\nLiving without plastic also took a lot of time. Dan worked out that the family spent about four extra hours a week shopping and cooking. (4) ________ By the end of the year, their food bills had fallen by almost a fifth.\n\nThe experiment ended last December. The family did not manage to avoid plastic completely, because some things, such as medicines, were impossible to buy without it. But their rubbish fell from two full bins a week to one small bag a month. (5) ________ Leo, who complained the most at the beginning, now gives talks about it at his school.",
+      "passageVocab": [
+        "plastic",
+        "stallholder",
+        "homemade",
+        "bill",
+        "habit"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "en-b1-r-t4-gapped-zero-waste-01-q1",
+      "module": "lesen",
+      "teil": 4,
+      "type": "matching",
+      "passageId": "en-b1-p-lesen-t4-gapped-zero-waste-01-01",
+      "question": "Which sentence fits gap (1)?",
+      "options": [
+        "A) On the other hand, they saved money, because they stopped buying ready meals and snacks.",
+        "B) It was then that she and her husband, Dan, decided to try living without it for a whole year.",
+        "C) The children were delighted and helped to plan every detail.",
+        "D) Luckily, their local supermarket had already stopped selling food in plastic.",
+        "E) So the family started doing their shopping at the weekly market in Norwich, taking their own bags and boxes.",
+        "F) Cooking every meal from fresh ingredients, however, took hardly any time at all.",
+        "G) Even the children now refuse to go back to their old habits.",
+        "H) Sophie solved this by learning to make some of them herself, using recipes she found online."
+      ],
+      "correct": "B",
+      "correctAnswer": "B",
+      "explanation": "'It was then' refers to the evening when Sophie counted the plastic, 'it' means plastic, and the decision made by 'she and her husband' contrasts with the next sentence: 'Their two children… were much less enthusiastic.' The sentence saying the children were 'delighted' contradicts 'much less enthusiastic'.",
+      "grammarTags": [
+        "g-en-b1-cleft-sentences"
+      ],
+      "topicTags": [
+        "environment"
+      ],
+      "vocabularyTags": [
+        "decide",
+        "husband",
+        "whole"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-r-t4-gapped-zero-waste-01-q2",
+      "module": "lesen",
+      "teil": 4,
+      "type": "matching",
+      "passageId": "en-b1-p-lesen-t4-gapped-zero-waste-01-01",
+      "question": "Which sentence fits gap (2)?",
+      "options": [
+        "A) On the other hand, they saved money, because they stopped buying ready meals and snacks.",
+        "B) It was then that she and her husband, Dan, decided to try living without it for a whole year.",
+        "C) The children were delighted and helped to plan every detail.",
+        "D) Luckily, their local supermarket had already stopped selling food in plastic.",
+        "E) So the family started doing their shopping at the weekly market in Norwich, taking their own bags and boxes.",
+        "F) Cooking every meal from fresh ingredients, however, took hardly any time at all.",
+        "G) Even the children now refuse to go back to their old habits.",
+        "H) Sophie solved this by learning to make some of them herself, using recipes she found online."
+      ],
+      "correct": "E",
+      "correctAnswer": "E",
+      "explanation": "Because the supermarket's food 'came wrapped in plastic', the family went to 'the weekly market' with 'their own bags and boxes'. The next sentence, 'Some of the stallholders found this strange', needs the market to have been mentioned. The sentence saying the supermarket had stopped selling food in plastic contradicts 'Almost everything in their usual supermarket came wrapped in plastic'.",
+      "grammarTags": [
+        "g-en-b1-linking-words"
+      ],
+      "topicTags": [
+        "environment"
+      ],
+      "vocabularyTags": [
+        "market",
+        "stallholder",
+        "wrapped"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-r-t4-gapped-zero-waste-01-q3",
+      "module": "lesen",
+      "teil": 4,
+      "type": "matching",
+      "passageId": "en-b1-p-lesen-t4-gapped-zero-waste-01-01",
+      "question": "Which sentence fits gap (3)?",
+      "options": [
+        "A) On the other hand, they saved money, because they stopped buying ready meals and snacks.",
+        "B) It was then that she and her husband, Dan, decided to try living without it for a whole year.",
+        "C) The children were delighted and helped to plan every detail.",
+        "D) Luckily, their local supermarket had already stopped selling food in plastic.",
+        "E) So the family started doing their shopping at the weekly market in Norwich, taking their own bags and boxes.",
+        "F) Cooking every meal from fresh ingredients, however, took hardly any time at all.",
+        "G) Even the children now refuse to go back to their old habits.",
+        "H) Sophie solved this by learning to make some of them herself, using recipes she found online."
+      ],
+      "correct": "H",
+      "correctAnswer": "H",
+      "explanation": "'This' is the problem of shampoo and toothpaste in 'plastic bottles', and 'some of them' are those products. Making them herself leads to the next sentence: 'Her homemade toothpaste, she admits, was not a success.' No other sentence explains why her toothpaste was 'homemade'.",
+      "grammarTags": [
+        "g-en-b1-reflexive-pronouns"
+      ],
+      "topicTags": [
+        "environment"
+      ],
+      "vocabularyTags": [
+        "homemade",
+        "recipe",
+        "solve"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-r-t4-gapped-zero-waste-01-q4",
+      "module": "lesen",
+      "teil": 4,
+      "type": "matching",
+      "passageId": "en-b1-p-lesen-t4-gapped-zero-waste-01-01",
+      "question": "Which sentence fits gap (4)?",
+      "options": [
+        "A) On the other hand, they saved money, because they stopped buying ready meals and snacks.",
+        "B) It was then that she and her husband, Dan, decided to try living without it for a whole year.",
+        "C) The children were delighted and helped to plan every detail.",
+        "D) Luckily, their local supermarket had already stopped selling food in plastic.",
+        "E) So the family started doing their shopping at the weekly market in Norwich, taking their own bags and boxes.",
+        "F) Cooking every meal from fresh ingredients, however, took hardly any time at all.",
+        "G) Even the children now refuse to go back to their old habits.",
+        "H) Sophie solved this by learning to make some of them herself, using recipes she found online."
+      ],
+      "correct": "A",
+      "correctAnswer": "A",
+      "explanation": "'On the other hand' contrasts the extra time ('four extra hours a week') with a benefit, and saving money leads to the next sentence: 'their food bills had fallen by almost a fifth.' The sentence saying cooking 'took hardly any time at all' contradicts 'Living without plastic also took a lot of time'.",
+      "grammarTags": [
+        "g-en-b1-linking-words"
+      ],
+      "topicTags": [
+        "environment"
+      ],
+      "vocabularyTags": [
+        "save",
+        "ready meal",
+        "snack"
+      ],
+      "difficulty": 5,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-r-t4-gapped-zero-waste-01-q5",
+      "module": "lesen",
+      "teil": 4,
+      "type": "matching",
+      "passageId": "en-b1-p-lesen-t4-gapped-zero-waste-01-01",
+      "question": "Which sentence fits gap (5)?",
+      "options": [
+        "A) On the other hand, they saved money, because they stopped buying ready meals and snacks.",
+        "B) It was then that she and her husband, Dan, decided to try living without it for a whole year.",
+        "C) The children were delighted and helped to plan every detail.",
+        "D) Luckily, their local supermarket had already stopped selling food in plastic.",
+        "E) So the family started doing their shopping at the weekly market in Norwich, taking their own bags and boxes.",
+        "F) Cooking every meal from fresh ingredients, however, took hardly any time at all.",
+        "G) Even the children now refuse to go back to their old habits.",
+        "H) Sophie solved this by learning to make some of them herself, using recipes she found online."
+      ],
+      "correct": "G",
+      "correctAnswer": "G",
+      "explanation": "After the good result, 'Even the children now refuse to go back to their old habits', and the next sentence gives an example: 'Leo, who complained the most at the beginning, now gives talks about it.' The sentence saying the children were delighted from the start contradicts 'complained the most at the beginning'.",
+      "grammarTags": [
+        "g-en-b1-present-simple"
+      ],
+      "topicTags": [
+        "environment"
+      ],
+      "vocabularyTags": [
+        "refuse",
+        "habit",
+        "complain"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    }
+  ],
+  "_germanCapsNormalizeVersion": "v3.23-lesen-t2-angebote-corpus-2026-07-28",
+  "_germanCapsNormalizedAt": "2026-10-12T14:44:01.096Z",
+  "_balanceMcqVersion": "v1.2-no-rf-chrono-shuffle-2026-07-11",
+  "_balanceMcqNormalizedAt": "2026-10-12T14:44:01.096Z"
+}

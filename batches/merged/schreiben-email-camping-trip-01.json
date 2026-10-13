@@ -1,0 +1,80 @@
+{
+  "passages": [],
+  "questions": [
+    {
+      "id": "en-b1-w-t1-email-camping-trip-01-q1",
+      "module": "schreiben",
+      "teil": 1,
+      "type": "short_answer",
+      "taskTypes": [
+        "email"
+      ],
+      "question": "Part 1. You must answer this question.\n\nRead this email from your friend Ella and the notes you have made.\n\nFrom: Ella\nSubject: Our camping trip\n\nHi!\n\nI've found a lovely campsite next to a lake for our trip on the weekend of 22 May. It's got a shop and a café, and you can hire canoes there! [Note 1: Sounds great!]\n\nWe can get there by train and walk from the station, or we can cycle all the way. It's about 30 kilometres. Which do you prefer? [Note 2: Say which and why]\n\nWe need to take some food for cooking on the campfire. What should we take? [Note 3: Suggest …]\n\nMy tent is quite small. Have you got a bigger one? [Note 4: No, but …]\n\nLove,\nElla\n\nWrite your email to Ella using all the notes. Write about 100 words.",
+      "correct": "rubric",
+      "correctAnswer": "rubric",
+      "explanation": "A good answer is an informal email to a friend (e.g. 'Hi Ella,' … 'Can't wait!') of about 100 words that deals with all four notes: (1) reacts positively to the campsite ('That sounds great! I've always wanted to try canoeing'); (2) chooses the train or cycling and gives a reason ('I'd rather take the train because our bags will be heavy' / 'Let's cycle, it'll be fun and it's cheaper'); (3) suggests some food ('We could take sausages and bread, and some marshmallows'); (4) says the writer has no bigger tent but offers a solution ('No, but my cousin has a big one and I'm sure she'll lend it to us'). Marks are given for Content (all four notes), Communicative Achievement (friendly, enthusiastic tone), Organisation (paragraphs and linking words) and Language (B1 structures such as 'I'd rather…', 'We could…', 'will' for offers and predictions). Missing a note reduces the Content mark.",
+      "options": [],
+      "grammarTags": [
+        "g-en-b1-preferences",
+        "g-en-b1-suggestions"
+      ],
+      "topicTags": [
+        "travel"
+      ],
+      "vocabularyTags": [
+        "campsite",
+        "tent",
+        "campfire",
+        "canoe",
+        "cycle"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "writing"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-w-t2-email-camping-trip-01-q1",
+      "module": "schreiben",
+      "teil": 2,
+      "type": "short_answer",
+      "taskTypes": [
+        "article",
+        "story"
+      ],
+      "question": "Part 2. Choose ONE of these questions. Write your answer in about 100 words.\n\nQuestion 2: Article\nYou see this notice in an English-language travel magazine.\n\nARTICLES WANTED!\nA weekend in the countryside\nWhere would you go for a weekend in the countryside? What would you do there? Why do some people prefer the countryside to the city?\nWrite an article answering these questions. The best article will win a prize.\n\nWrite your article.\n\nQuestion 3: Story\nYour English teacher has asked you to write a story.\nYour story must begin with this sentence:\n'We could hear something moving outside the tent.'\n\nWrite your story.",
+      "correct": "rubric",
+      "correctAnswer": "rubric",
+      "explanation": "Candidates answer only ONE question, in about 100 words. Article: a good answer has a title and an interesting opening, and answers the questions in the notice: a place in the countryside (mountains, a farm, a village near a river), activities there (walking, fishing, riding a bike, having a picnic) and reasons why some people prefer the countryside (fresh air, peace and quiet, nature). It should give opinions, compare the countryside with the city ('It's much quieter than…') and speak directly to the reader. Story: the story must begin with the given sentence and develop it (what the noise was, how the characters felt, what they did, how it ended, perhaps with a funny or surprising ending). It needs a clear beginning, middle and end, past tenses used correctly (past simple and past continuous), and sequencing words ('Suddenly', 'A moment later', 'In the end'). Both are marked for Content, Communicative Achievement, Organisation and Language.",
+      "options": [],
+      "grammarTags": [
+        "g-en-b1-comparatives",
+        "g-en-b1-past-continuous"
+      ],
+      "topicTags": [
+        "travel"
+      ],
+      "vocabularyTags": [
+        "countryside",
+        "tent",
+        "nature",
+        "peaceful",
+        "noise"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "writing"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    }
+  ],
+  "_germanCapsNormalizeVersion": "v3.23-lesen-t2-angebote-corpus-2026-07-28",
+  "_germanCapsNormalizedAt": "2026-10-12T14:44:05.432Z",
+  "_balanceMcqVersion": "v1.2-no-rf-chrono-shuffle-2026-07-11",
+  "_balanceMcqNormalizedAt": "2026-10-12T14:44:05.432Z"
+}

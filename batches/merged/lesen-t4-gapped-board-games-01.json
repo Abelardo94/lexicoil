@@ -1,0 +1,218 @@
+{
+  "passages": [
+    {
+      "id": "en-b1-p-lesen-t4-gapped-board-games-01-01",
+      "module": "lesen",
+      "title": "Why board games are back",
+      "text": "On a rainy Tuesday evening, every table at The Dice Box in Manchester is full. Groups of friends are laughing, arguing and rolling dice, and hardly anyone is looking at a phone. (1) ________ Today there are more than five hundred across the country.\n\nCustomers pay £6 each to sit at a table for as long as they like, and they can choose from a library of over 800 games. (2) ________ That is why the café employs 'game guides', staff whose job is to recommend a game and explain the rules.\n\nThe owner, Tom Bradley, opened the café in 2019 after losing his job at a bank. He believes the reason for its success is simple. 'People spend all day looking at a computer at work,' he says. (3) ________ 'A screen can never give them that.'\n\nThe customers are not only young people. On Sunday afternoons the café is full of families, and a group of retired teachers meets there every Thursday morning. (4) ________ 'I play against my grandchildren now, and I usually win,' she laughs.\n\nRunning a games café is not always easy, though. New games are expensive, and small pieces often go missing. (5) ________ It takes time, but Tom says it is worth it. 'A game with one card missing is a game nobody can finish.'",
+      "passageVocab": [
+        "board game",
+        "newcomer",
+        "rules",
+        "piece",
+        "complete"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "en-b1-r-t4-gapped-board-games-01-q1",
+      "module": "lesen",
+      "teil": 4,
+      "type": "matching",
+      "passageId": "en-b1-p-lesen-t4-gapped-board-games-01-01",
+      "question": "Which sentence fits gap (1)?",
+      "options": [
+        "A) To stop this happening, staff check that every box is complete after it has been used.",
+        "B) In the evening, they want to sit round a real table with real people.",
+        "C) Ten years ago, however, places like this were very hard to find in Britain.",
+        "D) Most customers prefer to play games on their phones while they wait for their food.",
+        "E) One of them, 72-year-old Margaret Lowe, says the games keep her mind sharp.",
+        "F) Tom himself learnt to play chess from his grandfather when he was five.",
+        "G) As a result, the café has decided to stop buying new games.",
+        "H) With so many on the shelves, newcomers often have no idea where to start."
+      ],
+      "correct": "C",
+      "correctAnswer": "C",
+      "explanation": "'Places like this' refers to The Dice Box, and 'Ten years ago, however' contrasts with the next sentence: 'Today there are more than five hundred across the country.' The sentence saying most customers prefer to play on their phones contradicts 'hardly anyone is looking at a phone'.",
+      "grammarTags": [
+        "g-en-b1-linking-words"
+      ],
+      "topicTags": [
+        "free time"
+      ],
+      "vocabularyTags": [
+        "café",
+        "Britain",
+        "hard to find"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-r-t4-gapped-board-games-01-q2",
+      "module": "lesen",
+      "teil": 4,
+      "type": "matching",
+      "passageId": "en-b1-p-lesen-t4-gapped-board-games-01-01",
+      "question": "Which sentence fits gap (2)?",
+      "options": [
+        "A) To stop this happening, staff check that every box is complete after it has been used.",
+        "B) In the evening, they want to sit round a real table with real people.",
+        "C) Ten years ago, however, places like this were very hard to find in Britain.",
+        "D) Most customers prefer to play games on their phones while they wait for their food.",
+        "E) One of them, 72-year-old Margaret Lowe, says the games keep her mind sharp.",
+        "F) Tom himself learnt to play chess from his grandfather when he was five.",
+        "G) As a result, the café has decided to stop buying new games.",
+        "H) With so many on the shelves, newcomers often have no idea where to start."
+      ],
+      "correct": "H",
+      "correctAnswer": "H",
+      "explanation": "'So many on the shelves' refers to 'a library of over 800 games', and the problem that 'newcomers often have no idea where to start' explains the next sentence: 'That is why the café employs game guides… to recommend a game.' The sentence about the café stopping buying games has no cause here and does not lead to game guides.",
+      "grammarTags": [
+        "g-en-b1-reference-words"
+      ],
+      "topicTags": [
+        "free time"
+      ],
+      "vocabularyTags": [
+        "newcomer",
+        "shelf",
+        "library"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-r-t4-gapped-board-games-01-q3",
+      "module": "lesen",
+      "teil": 4,
+      "type": "matching",
+      "passageId": "en-b1-p-lesen-t4-gapped-board-games-01-01",
+      "question": "Which sentence fits gap (3)?",
+      "options": [
+        "A) To stop this happening, staff check that every box is complete after it has been used.",
+        "B) In the evening, they want to sit round a real table with real people.",
+        "C) Ten years ago, however, places like this were very hard to find in Britain.",
+        "D) Most customers prefer to play games on their phones while they wait for their food.",
+        "E) One of them, 72-year-old Margaret Lowe, says the games keep her mind sharp.",
+        "F) Tom himself learnt to play chess from his grandfather when he was five.",
+        "G) As a result, the café has decided to stop buying new games.",
+        "H) With so many on the shelves, newcomers often have no idea where to start."
+      ],
+      "correct": "B",
+      "correctAnswer": "B",
+      "explanation": "'They' refers to the 'People' who spend 'all day looking at a computer at work', and sitting 'round a real table with real people' is what 'that' means in Tom's next words: 'A screen can never give them that.' The sentence about Tom learning chess does not continue his quote and gives 'that' nothing to refer to.",
+      "grammarTags": [
+        "g-en-b1-pronouns"
+      ],
+      "topicTags": [
+        "free time"
+      ],
+      "vocabularyTags": [
+        "screen",
+        "real",
+        "evening"
+      ],
+      "difficulty": 5,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-r-t4-gapped-board-games-01-q4",
+      "module": "lesen",
+      "teil": 4,
+      "type": "matching",
+      "passageId": "en-b1-p-lesen-t4-gapped-board-games-01-01",
+      "question": "Which sentence fits gap (4)?",
+      "options": [
+        "A) To stop this happening, staff check that every box is complete after it has been used.",
+        "B) In the evening, they want to sit round a real table with real people.",
+        "C) Ten years ago, however, places like this were very hard to find in Britain.",
+        "D) Most customers prefer to play games on their phones while they wait for their food.",
+        "E) One of them, 72-year-old Margaret Lowe, says the games keep her mind sharp.",
+        "F) Tom himself learnt to play chess from his grandfather when he was five.",
+        "G) As a result, the café has decided to stop buying new games.",
+        "H) With so many on the shelves, newcomers often have no idea where to start."
+      ],
+      "correct": "E",
+      "correctAnswer": "E",
+      "explanation": "'One of them' refers to the 'group of retired teachers', and introducing Margaret explains who 'she' is in the next sentence: 'I play against my grandchildren now… she laughs.' The sentence about Tom learning chess cannot fit, because the next speaker is a woman with grandchildren.",
+      "grammarTags": [
+        "g-en-b1-pronouns"
+      ],
+      "topicTags": [
+        "free time"
+      ],
+      "vocabularyTags": [
+        "retired",
+        "grandchildren",
+        "sharp"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-r-t4-gapped-board-games-01-q5",
+      "module": "lesen",
+      "teil": 4,
+      "type": "matching",
+      "passageId": "en-b1-p-lesen-t4-gapped-board-games-01-01",
+      "question": "Which sentence fits gap (5)?",
+      "options": [
+        "A) To stop this happening, staff check that every box is complete after it has been used.",
+        "B) In the evening, they want to sit round a real table with real people.",
+        "C) Ten years ago, however, places like this were very hard to find in Britain.",
+        "D) Most customers prefer to play games on their phones while they wait for their food.",
+        "E) One of them, 72-year-old Margaret Lowe, says the games keep her mind sharp.",
+        "F) Tom himself learnt to play chess from his grandfather when he was five.",
+        "G) As a result, the café has decided to stop buying new games.",
+        "H) With so many on the shelves, newcomers often have no idea where to start."
+      ],
+      "correct": "A",
+      "correctAnswer": "A",
+      "explanation": "'To stop this happening' refers to 'small pieces often go missing', and checking every box is what 'It takes time' describes; Tom adds that 'A game with one card missing is a game nobody can finish.' The sentence about stopping buying new games does not explain what 'takes time' or why a missing card matters.",
+      "grammarTags": [
+        "g-en-b1-present-perfect-passive"
+      ],
+      "topicTags": [
+        "free time"
+      ],
+      "vocabularyTags": [
+        "piece",
+        "complete",
+        "missing"
+      ],
+      "difficulty": 5,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    }
+  ],
+  "_germanCapsNormalizeVersion": "v3.23-lesen-t2-angebote-corpus-2026-07-28",
+  "_germanCapsNormalizedAt": "2026-10-12T14:44:00.789Z",
+  "_balanceMcqVersion": "v1.2-no-rf-chrono-shuffle-2026-07-11",
+  "_balanceMcqNormalizedAt": "2026-10-12T14:44:00.789Z"
+}

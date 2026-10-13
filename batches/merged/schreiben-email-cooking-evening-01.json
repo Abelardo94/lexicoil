@@ -1,0 +1,80 @@
+{
+  "passages": [],
+  "questions": [
+    {
+      "id": "en-b1-w-t1-email-cooking-evening-01-q1",
+      "module": "schreiben",
+      "teil": 1,
+      "type": "short_answer",
+      "taskTypes": [
+        "email"
+      ],
+      "question": "Read this email from your English-speaking friend Tom and the notes you have made.\n\nFrom: Tom\nSubject: Our cooking evening\n\nHi!\nI’m really looking forward to the cooking evening we’re organising for our class next Friday. [Note 1: Me too!] About twelve people are coming. Should we cook one big meal together or ask everyone to bring a dish? [Note 2: Say which and why] I can bring plates and glasses from my house. What else do we need? [Note 3: Tell Tom] Also, my cousin Ellie is staying with us that weekend. Is it all right if she comes too? [Note 4: Yes, because …]\n\nCheers,\nTom\n\nWrite your email to Tom using all the notes. Write about 100 words.",
+      "correct": "rubric",
+      "correctAnswer": "rubric",
+      "explanation": "A good answer replies to all four notes: (1) says you are also looking forward to the evening; (2) chooses between cooking one big meal and asking everyone to bring a dish, and gives a reason; (3) tells Tom what else you need, for example food, drinks or kitchen things; (4) agrees that Ellie can come and says why. Use an informal greeting and ending, link your ideas and write about 100 words.\n\nModel answer:\nHi Tom,\nMe too – I can’t wait! It’s going to be great fun.\nI think we should cook one big meal together, like a pasta dish. That way everyone can help in the kitchen, and it’s cheaper than buying lots of different things.\nThanks for the plates and glasses. We’ll also need some big pans, a few sharp knives and something to drink. I can get the vegetables from the market on Thursday.\nOf course Ellie can come! The more people we have, the better, and she can meet everyone in our class.\nSee you on Friday,\nMaria",
+      "options": [],
+      "grammarTags": [
+        "g-en-b1-modals",
+        "g-en-b1-future-forms"
+      ],
+      "topicTags": [
+        "food"
+      ],
+      "vocabularyTags": [
+        "dish",
+        "pan",
+        "organise",
+        "vegetables",
+        "meal"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "writing"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-w-t2-email-cooking-evening-01-q1",
+      "module": "schreiben",
+      "teil": 2,
+      "type": "short_answer",
+      "taskTypes": [
+        "article",
+        "story"
+      ],
+      "question": "Choose ONE of these questions. Write your answer in about 100 words.\n\nQuestion 2 – Article\nYou see this announcement on an English-language website for teenagers.\n\nArticles wanted!\nMY FAVOURITE MEAL\nWhat is your favourite meal? Who makes it, and when do you usually eat it? Why do you like it so much?\nWrite an article answering these questions. The best articles will appear on our website next month.\n\nWrite your article.\n\nQuestion 3 – Story\nYour English teacher has asked you to write a story.\nYour story must begin with this sentence:\nSuddenly there was smoke everywhere in the kitchen.\n\nWrite your story.",
+      "correct": "rubric",
+      "correctAnswer": "rubric",
+      "explanation": "Article: give your article a title, answer every question in the announcement (the meal, who makes it and when, why you like it) and make it interesting for the reader, for example by describing the taste or a special memory. Story: begin with the given sentence, use past tenses, and give the story a clear development and ending. In both tasks write about 100 words.\n\nModel article:\nGranny’s Sunday soup\nMy favourite meal is a vegetable soup that my grandmother makes. We eat it every Sunday when the whole family visits her flat.\nShe puts in carrots, potatoes, beans and lots of herbs from her small garden, and she always serves it with warm bread that she bakes herself. It smells wonderful as soon as you open the door!\nWhy do I love it so much? Partly because it tastes delicious, but mostly because it reminds me of happy afternoons with my cousins, talking and laughing around her little kitchen table.\n\nModel story:\nSuddenly there was smoke everywhere in the kitchen. I had wanted to surprise my parents with a special breakfast, but I had forgotten about the toast while I was making the eggs.\nI opened all the windows and threw the black bread into the bin. Just then the smoke alarm started ringing loudly, and my dad ran downstairs in his pyjamas.\n“What’s happening?” he shouted. When he saw the plates on the table, he started to smile.\nIn the end we ate eggs without toast, and Dad said it was the best breakfast he had ever had.",
+      "options": [],
+      "grammarTags": [
+        "g-en-b1-past-perfect",
+        "g-en-b1-present-simple"
+      ],
+      "topicTags": [
+        "food"
+      ],
+      "vocabularyTags": [
+        "recipe",
+        "taste",
+        "smoke",
+        "delicious",
+        "serve"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "writing"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    }
+  ],
+  "_germanCapsNormalizeVersion": "v3.23-lesen-t2-angebote-corpus-2026-07-28",
+  "_germanCapsNormalizedAt": "2026-10-12T19:15:54.708Z",
+  "_balanceMcqVersion": "v1.2-no-rf-chrono-shuffle-2026-07-11",
+  "_balanceMcqNormalizedAt": "2026-10-12T19:15:54.708Z"
+}

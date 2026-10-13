@@ -1,0 +1,2193 @@
+{
+  "id": "curated_en_B1_746520c4957f",
+  "lang": "en",
+  "level": "B1",
+  "topic": "environment",
+  "curated": true,
+  "exam": {
+    "topic": "environment",
+    "level": "B1",
+    "lang": "en",
+    "goetheFormat": true,
+    "libraryBuilt": true,
+    "blueprintId": "cambridge-b1",
+    "blueprintCoverage": [
+      {
+        "module": "lesen",
+        "teil": 1,
+        "slotType": "signs_notices_mcq",
+        "taskFormat": "short_text_mcq",
+        "target": 5,
+        "filled": 5,
+        "complete": true,
+        "wordsPerPassage": {
+          "min": 150,
+          "max": 800
+        }
+      },
+      {
+        "module": "lesen",
+        "teil": 2,
+        "slotType": "person_text_matching",
+        "taskFormat": "multiple_matching",
+        "target": 5,
+        "filled": 5,
+        "complete": true,
+        "wordsPerPassage": {
+          "min": 150,
+          "max": 800
+        }
+      },
+      {
+        "module": "lesen",
+        "teil": 3,
+        "slotType": "long_text",
+        "taskFormat": "long_text_mcq",
+        "target": 5,
+        "filled": 5,
+        "complete": true,
+        "wordsPerPassage": {
+          "min": 150,
+          "max": 800
+        }
+      },
+      {
+        "module": "lesen",
+        "teil": 4,
+        "slotType": "gapped_text",
+        "taskFormat": "gapped_text",
+        "target": 5,
+        "filled": 5,
+        "complete": true,
+        "wordsPerPassage": {
+          "min": 150,
+          "max": 800
+        }
+      },
+      {
+        "module": "lesen",
+        "teil": 5,
+        "slotType": "mcq_gap_fill",
+        "taskFormat": "multiple_choice_cloze",
+        "target": 6,
+        "filled": 6,
+        "complete": true,
+        "wordsPerPassage": {
+          "min": 150,
+          "max": 800
+        }
+      },
+      {
+        "module": "lesen",
+        "teil": 6,
+        "slotType": "open_cloze",
+        "taskFormat": "open_cloze",
+        "target": 6,
+        "filled": 6,
+        "complete": true,
+        "wordsPerPassage": {
+          "min": 150,
+          "max": 800
+        }
+      },
+      {
+        "module": "horen",
+        "teil": 1,
+        "slotType": "picture_mcq",
+        "taskFormat": "picture_multiple_choice",
+        "target": 7,
+        "filled": 7,
+        "complete": true,
+        "wordsPerPassage": null
+      },
+      {
+        "module": "horen",
+        "teil": 2,
+        "slotType": "short_dialogue_mcq",
+        "taskFormat": "short_dialogue_mcq",
+        "target": 6,
+        "filled": 6,
+        "complete": true,
+        "wordsPerPassage": null
+      },
+      {
+        "module": "horen",
+        "teil": 3,
+        "slotType": "sentence_completion",
+        "taskFormat": "sentence_completion",
+        "target": 6,
+        "filled": 6,
+        "complete": true,
+        "wordsPerPassage": null
+      },
+      {
+        "module": "horen",
+        "teil": 4,
+        "slotType": "interview_mcq",
+        "taskFormat": "interview_mcq",
+        "target": 6,
+        "filled": 6,
+        "complete": true,
+        "wordsPerPassage": null
+      },
+      {
+        "module": "schreiben",
+        "teil": 1,
+        "slotType": "email",
+        "taskFormat": "email",
+        "target": 1,
+        "filled": 1,
+        "complete": true,
+        "wordsPerPassage": {
+          "min": 100,
+          "max": 120
+        }
+      },
+      {
+        "module": "schreiben",
+        "teil": 2,
+        "slotType": "choice_writing",
+        "taskFormat": "choice_writing",
+        "target": 1,
+        "filled": 1,
+        "complete": true,
+        "wordsPerPassage": {
+          "min": 100,
+          "max": 120
+        }
+      },
+      {
+        "module": "sprechen",
+        "teil": 1,
+        "slotType": "speaking_task",
+        "taskFormat": "speaking_prompt",
+        "target": 1,
+        "filled": 1,
+        "complete": true,
+        "wordsPerPassage": null
+      },
+      {
+        "module": "sprechen",
+        "teil": 2,
+        "slotType": "speaking_task",
+        "taskFormat": "speaking_prompt",
+        "target": 1,
+        "filled": 1,
+        "complete": true,
+        "wordsPerPassage": null
+      },
+      {
+        "module": "sprechen",
+        "teil": 3,
+        "slotType": "speaking_task",
+        "taskFormat": "speaking_prompt",
+        "target": 1,
+        "filled": 1,
+        "complete": true,
+        "wordsPerPassage": null
+      },
+      {
+        "module": "sprechen",
+        "teil": 4,
+        "slotType": "speaking_task",
+        "taskFormat": "speaking_prompt",
+        "target": 1,
+        "filled": 1,
+        "complete": true,
+        "wordsPerPassage": null
+      }
+    ],
+    "blueprintComplete": true,
+    "libraryVersion": 6,
+    "topicTags": [
+      "environment",
+      "travel",
+      "work",
+      "animals",
+      "media",
+      "presents",
+      "technology",
+      "entertainment",
+      "home"
+    ],
+    "difficulty": 5,
+    "official": {
+      "board": "Cambridge Assessment English",
+      "certificate": "B1 Preliminary (PET)",
+      "note": "Assembled from question library using official exam blueprint (no runtime AI)."
+    },
+    "modules": {
+      "lesen": {
+        "title": "Reading",
+        "time": "75 minutes"
+      },
+      "horen": {
+        "title": "Listening",
+        "time": "40 minutes"
+      },
+      "schreiben": {
+        "title": "Writing",
+        "time": "80 minutes"
+      },
+      "sprechen": {
+        "title": "Speaking",
+        "time": "15 minutes"
+      }
+    },
+    "lesenParts": [
+      {
+        "teil": 1,
+        "instruction": "Read the text(s) and answer the questions in Part 1.",
+        "blueprintSlot": "signs_notices_mcq",
+        "items": [
+          {
+            "id": "ql_en-b1-r-t1-notices-recycling-01-q3",
+            "type": "multiple_choice",
+            "signText": "PAPER AND CARD ONLY. Please flatten all boxes before you put them in. Pizza boxes with food on them cannot be recycled and should go in the black bin instead.",
+            "passageId": "en-b1-p-lesen-t1-notices-recycling-01-03",
+            "question": "What does the sign tell people?",
+            "options": [
+              "a) Food waste may be put in this bin with the card.",
+              "b) All cardboard boxes should be thrown in the black bin.",
+              "c) Pizza boxes that are dirty must not go in this bin."
+            ],
+            "correct": "c",
+            "grammarTags": [
+              "g-en-b1-passive"
+            ],
+            "topicTags": [
+              "environment"
+            ],
+            "vocabularyTags": [
+              "recycling",
+              "cardboard",
+              "bin"
+            ],
+            "difficulty": 4,
+            "explanation": "The sign says \"Pizza boxes with food on them cannot be recycled and should go in the black bin instead\", so dirty pizza boxes must not go in the paper bin. The bin is for \"PAPER AND CARD ONLY\", so food is not allowed, and clean boxes go in this bin once they are flattened, not in the black bin."
+          },
+          {
+            "id": "ql_en-b1-r-t1-notices-recycling-01-q4",
+            "type": "multiple_choice",
+            "signText": "Volunteers meet outside the library at 10 am. Children under 12 are welcome but must come with an adult. There’s a free lunch for everyone who helps! Please sign up online by Thursday so that we can order enough food.",
+            "passageId": "en-b1-p-lesen-t1-notices-recycling-01-04",
+            "question": "Why should people sign up before Thursday?",
+            "options": [
+              "a) So that each child can be given an adult to work with",
+              "b) So that the organisers know how much lunch to get",
+              "c) Because only a small number of volunteers can join"
+            ],
+            "correct": "b",
+            "grammarTags": [
+              "g-en-b1-purpose-clauses"
+            ],
+            "topicTags": [
+              "environment"
+            ],
+            "vocabularyTags": [
+              "volunteer",
+              "community",
+              "event"
+            ],
+            "difficulty": 4,
+            "explanation": "The notice asks people to sign up \"by Thursday so that we can order enough food\" for the \"free lunch\". Nothing limits the number of volunteers, and children \"must come with an adult\" – the organisers do not find one for them."
+          },
+          {
+            "id": "ql_en-b1-r-t1-notices-recycling-01-q1",
+            "type": "multiple_choice",
+            "signText": "Glass bottles and jars go in the green containers. Please remove the lids first. From 1 March, we can no longer accept window glass or mirrors – please take these to the general waste area next to the car park.",
+            "passageId": "en-b1-p-lesen-t1-notices-recycling-01-01",
+            "question": "What does the notice say?",
+            "options": [
+              "a) Mirrors must be taken to another area.",
+              "b) Bottles and jars must be washed before you recycle them.",
+              "c) Window glass should go in the green containers."
+            ],
+            "correct": "a",
+            "grammarTags": [
+              "g-en-b1-modals"
+            ],
+            "topicTags": [
+              "environment"
+            ],
+            "vocabularyTags": [
+              "recycling",
+              "glass",
+              "waste"
+            ],
+            "difficulty": 3,
+            "explanation": "The notice says the centre can \"no longer accept window glass or mirrors\" and asks people to \"take these to the general waste area\", so mirrors go somewhere else. Window glass is exactly what the green containers no longer take, and the notice asks people to remove lids, not to wash bottles."
+          },
+          {
+            "id": "ql_en-b1-r-t1-notices-recycling-01-q5",
+            "type": "multiple_choice",
+            "signText": "Because of the bank holiday on Monday, all bin collections next week will be one day later than usual. Garden waste will not be collected at all next week. Normal collections start again the week after.",
+            "passageId": "en-b1-p-lesen-t1-notices-recycling-01-05",
+            "question": "What is the email about?",
+            "options": [
+              "a) Residents should put their bins out on Monday morning.",
+              "b) Garden waste will no longer be collected after this week.",
+              "c) Next week, bins will be collected a day late."
+            ],
+            "correct": "c",
+            "grammarTags": [
+              "g-en-b1-future-will"
+            ],
+            "topicTags": [
+              "environment"
+            ],
+            "vocabularyTags": [
+              "bin collection",
+              "council",
+              "bank holiday"
+            ],
+            "difficulty": 4,
+            "explanation": "The email says \"all bin collections next week will be one day later than usual\" because of the bank holiday. Garden waste stops only for one week, as \"Normal collections start again the week after\", and Monday is mentioned only as the bank holiday, not as a collection day."
+          },
+          {
+            "id": "ql_en-b1-r-t1-notices-recycling-01-q2",
+            "type": "multiple_choice",
+            "signText": "Hi Tom, the beach clean-up on Saturday starts at 9, not 10 as it says on the poster. Gloves and rubbish bags are provided, but bring your own water – there’s no café nearby. See you there! Priya",
+            "passageId": "en-b1-p-lesen-t1-notices-recycling-01-02",
+            "question": "Why has Priya written to Tom?",
+            "options": [
+              "a) To suggest meeting at a café before they start",
+              "b) To give him the correct start time",
+              "c) To ask him to bring bags for everyone"
+            ],
+            "correct": "b",
+            "grammarTags": [
+              "g-en-b1-present-simple-future"
+            ],
+            "topicTags": [
+              "environment"
+            ],
+            "vocabularyTags": [
+              "clean-up",
+              "volunteering",
+              "arrangements"
+            ],
+            "difficulty": 3,
+            "explanation": "Priya writes that the clean-up \"starts at 9, not 10 as it says on the poster\", so she is correcting the time Tom has seen. Bags are already \"provided\", so Tom does not need to bring them, and she says \"there’s no café nearby\", so she is not suggesting meeting at one."
+          }
+        ],
+        "text": "PAPER AND CARD ONLY. Please flatten all boxes before you put them in. Pizza boxes with food on them cannot be recycled and should go in the black bin instead.",
+        "textTitle": "Sign on a bin",
+        "passageId": "en-b1-p-lesen-t1-notices-recycling-01-03"
+      },
+      {
+        "teil": 2,
+        "instruction": "Read the text(s) and answer the questions in Part 2.",
+        "blueprintSlot": "person_text_matching",
+        "ads": [
+          {
+            "key": "A",
+            "title": "",
+            "text": "Clifftop Sunrise Walk"
+          },
+          {
+            "key": "B",
+            "title": "",
+            "text": "Woodland and Waterfall Walk"
+          },
+          {
+            "key": "C",
+            "title": "",
+            "text": "Heron Marsh Nature Reserve"
+          },
+          {
+            "key": "D",
+            "title": "",
+            "text": "Castle Bay Promenade"
+          },
+          {
+            "key": "E",
+            "title": "",
+            "text": "Three Tops Challenge"
+          },
+          {
+            "key": "F",
+            "title": "",
+            "text": "Riverside Mill Trail"
+          },
+          {
+            "key": "G",
+            "title": "",
+            "text": "Plas Hendre Deer Park"
+          },
+          {
+            "key": "H",
+            "title": "",
+            "text": "Cadair Summit Day"
+          }
+        ],
+        "questions": [
+          {
+            "id": "ql_en-b1-r-t2-match-walks-01-q1",
+            "type": "matching",
+            "question": "Gwen wants to take her elderly father for a walk of no more than two hours. He can’t manage hills or steps, and they’d like to have something to eat when they finish.",
+            "correct": "F",
+            "correctAnswer": "F",
+            "explanation": "The Riverside Mill Trail is \"completely flat\", \"takes around an hour and a half\" and \"finishes at the old mill, now a tea room serving light lunches\". The Woodland and Waterfall Walk is short and has a café, but \"The path climbs steeply in places\" and there are \"120 steps\", which her father cannot manage.",
+            "grammarTags": [
+              "g-en-b1-modals"
+            ],
+            "topicTags": [
+              "travel"
+            ],
+            "vocabularyTags": [
+              "walking",
+              "countryside",
+              "accessibility"
+            ],
+            "difficulty": 4,
+            "options": [
+              "A",
+              "B",
+              "C",
+              "D",
+              "E",
+              "F",
+              "G",
+              "H"
+            ],
+            "level": "B1"
+          },
+          {
+            "id": "ql_en-b1-r-t2-match-walks-01-q2",
+            "type": "matching",
+            "question": "Rhys and his children, aged 8 and 10, love spotting birds and animals. They want to bring their dog, and as they don’t have a car, they need a walk they can get to by bus or train.",
+            "correct": "C",
+            "correctAnswer": "C",
+            "explanation": "At Heron Marsh \"The number 42 bus stops right at the entrance\", visitors can \"watch herons, otters\" and ducklings, and \"Dogs on leads are welcome on all paths\". Plas Hendre Deer Park has deer and is near a station, but \"dogs are not allowed in the park\".",
+            "grammarTags": [
+              "g-en-b1-modals"
+            ],
+            "topicTags": [
+              "travel"
+            ],
+            "vocabularyTags": [
+              "wildlife",
+              "public transport",
+              "family"
+            ],
+            "difficulty": 4,
+            "options": [
+              "A",
+              "B",
+              "C",
+              "D",
+              "E",
+              "F",
+              "G",
+              "H"
+            ],
+            "level": "B1"
+          },
+          {
+            "id": "ql_en-b1-r-t2-match-walks-01-q3",
+            "type": "matching",
+            "question": "Fiona is an experienced walker who wants to spend a whole day in the mountains and enjoy the views from the top. She’d prefer to walk with other people and someone who knows the way.",
+            "correct": "H",
+            "correctAnswer": "H",
+            "explanation": "Cadair Summit Day is \"a seven-hour climb to the top\" with views \"all the way to Ireland from the summit\", and walkers go in \"Groups of up to ten\" with \"one of our experienced guides\". The Three Tops Challenge is a long mountain day with great views, but there is no guide: \"you must be able to use a map and compass\".",
+            "grammarTags": [
+              "g-en-b1-preferences"
+            ],
+            "topicTags": [
+              "travel"
+            ],
+            "vocabularyTags": [
+              "mountains",
+              "guided walk",
+              "hiking"
+            ],
+            "difficulty": 5,
+            "options": [
+              "A",
+              "B",
+              "C",
+              "D",
+              "E",
+              "F",
+              "G",
+              "H"
+            ],
+            "level": "B1"
+          },
+          {
+            "id": "ql_en-b1-r-t2-match-walks-01-q4",
+            "type": "matching",
+            "question": "Owen enjoys taking photos of the sea early in the morning, just as the sun comes up. He wants a walk where he won’t meet many other people.",
+            "correct": "A",
+            "correctAnswer": "A",
+            "explanation": "The Clifftop Sunrise Walk is a coastal path that is \"at its best at dawn\", and if you set off early \"you’ll probably have the path to yourself\". Castle Bay Promenade also follows the sea, but \"It’s one of the busiest paths in the area\".",
+            "grammarTags": [
+              "g-en-b1-future-will"
+            ],
+            "topicTags": [
+              "travel"
+            ],
+            "vocabularyTags": [
+              "photography",
+              "coast",
+              "sunrise"
+            ],
+            "difficulty": 4,
+            "options": [
+              "A",
+              "B",
+              "C",
+              "D",
+              "E",
+              "F",
+              "G",
+              "H"
+            ],
+            "level": "B1"
+          },
+          {
+            "id": "ql_en-b1-r-t2-match-walks-01-q5",
+            "type": "matching",
+            "question": "Mei is going for a walk with a friend who uses a wheelchair, so they need a path with a smooth surface. They would also like to learn something about the history of the area.",
+            "correct": "D",
+            "correctAnswer": "D",
+            "explanation": "On Castle Bay Promenade \"The surface is smooth all the way, so it suits wheelchairs\", and \"boards along the route tell the story of the castle and its battles\". Plas Hendre Deer Park has a \"seventeenth-century country house\", but its paths \"are not suitable for wheelchairs\".",
+            "grammarTags": [
+              "g-en-b1-relative-clauses"
+            ],
+            "topicTags": [
+              "travel"
+            ],
+            "vocabularyTags": [
+              "accessibility",
+              "history",
+              "walking"
+            ],
+            "difficulty": 4,
+            "options": [
+              "A",
+              "B",
+              "C",
+              "D",
+              "E",
+              "F",
+              "G",
+              "H"
+            ],
+            "level": "B1"
+          }
+        ]
+      },
+      {
+        "teil": 3,
+        "instruction": "Read the text(s) and answer the questions in Part 3.",
+        "blueprintSlot": "long_text",
+        "textTitle": "The teenager who fixes the city’s bikes",
+        "text": "Josh Turner was nineteen when he opened his bicycle repair shop in Leeds. Three years later, the little shop near the canal is busy every day. However, the beginning was not easy.\n\nJosh has loved bikes all his life. His grandfather taught him to mend punctures in the garden shed. “I spent every weekend with oily hands,” he says. At school he was not interested in most subjects, because he preferred taking things apart and putting them back together. After school he started an engineering course at college, but he left after one year. “The course was mostly theory. I wanted to work with real machines,” he explains.\n\nFor the next year he repaired bikes for friends and neighbours in his parents’ garage. He charged very little, so soon strangers were knocking on the door with broken bikes. His parents were patient, but the garage was always full. In the end, his mother told him to find a proper workplace.\n\nJosh found an empty shop with a cheap rent, but the problem was money. The banks did not want to lend money to a teenager with no business experience. Finally, his uncle lent him £4,000 for tools and spare parts. Josh promised to pay it all back within two years. He managed it in eighteen months.\n\nThe first winter was hard because few people cycle in cold, wet weather, and customers were rare. Some weeks Josh earned almost nothing. He used the quiet time well, though, and built a simple website and started posting short repair videos. In them he shows easy jobs, like adjusting gears or cleaning a chain. Some customers were surprised. “Why do you teach people to fix their own bikes? You’ll lose business!” they said. Josh disagrees. “People watch the videos and try the job at home. Sometimes something goes really wrong. Then they remember my name. They trust me, because I’ve already helped them for free.”\n\nToday Josh employs two part-time mechanics, both students. He also runs a free repair class for local children every Saturday morning. “Lots of kids have bikes with flat tyres in the garage. Nobody shows them how to fix them,” he says.\n\nWhat advice would he give to other young people? “Don’t wait until you know everything. I made plenty of mistakes in my first year. I ordered the wrong parts, and I forgot to keep receipts. But every mistake taught me something useful.” He smiles. “And find an uncle with some savings!”",
+        "passageId": "en-b1-p-lesen-t3-long-bike-repair-01-01",
+        "questions": [
+          {
+            "id": "ql_en-b1-r-t3-long-bike-repair-01-q1",
+            "type": "multiple_choice",
+            "question": "Why did Josh leave his college course?",
+            "correct": "c",
+            "correctAnswer": "c",
+            "explanation": "Josh says: \"The course was mostly theory. I wanted to work with real machines.\" He wanted practical work. The text never says the course was too difficult, and he opened the shop only later, after a year of repairs in the garage.",
+            "grammarTags": [
+              "g-en-b1-past-simple"
+            ],
+            "topicTags": [
+              "work"
+            ],
+            "vocabularyTags": [
+              "theory",
+              "engineering",
+              "course"
+            ],
+            "difficulty": 3,
+            "options": [
+              "a) He had already opened his own shop.",
+              "b) He found the work far too difficult.",
+              "c) He wanted to do more practical work.",
+              "d) He needed to earn money for his family."
+            ],
+            "level": "B1",
+            "passageId": "en-b1-p-lesen-t3-long-bike-repair-01-01"
+          },
+          {
+            "id": "ql_en-b1-r-t3-long-bike-repair-01-q2",
+            "type": "multiple_choice",
+            "question": "Why did Josh stop working in his parents’ garage?",
+            "correct": "b",
+            "correctAnswer": "b",
+            "explanation": "The text says: \"In the end, his mother told him to find a proper workplace.\" The neighbours were his customers, not people who complained, and nothing is said about the university or customers getting lost.",
+            "grammarTags": [
+              "g-en-b1-past-simple"
+            ],
+            "topicTags": [
+              "work"
+            ],
+            "vocabularyTags": [
+              "garage",
+              "workplace",
+              "neighbour"
+            ],
+            "difficulty": 4,
+            "options": [
+              "a) He wanted to be closer to the university.",
+              "b) His mother asked him to find somewhere else.",
+              "c) His customers could not find the house.",
+              "d) The neighbours complained about the noise."
+            ],
+            "level": "B1",
+            "passageId": "en-b1-p-lesen-t3-long-bike-repair-01-01"
+          },
+          {
+            "id": "ql_en-b1-r-t3-long-bike-repair-01-q3",
+            "type": "multiple_choice",
+            "question": "What do we learn about the money Josh borrowed?",
+            "correct": "a",
+            "correctAnswer": "a",
+            "explanation": "Josh \"promised to pay it all back within two years. He managed it in eighteen months\", so he paid it back early. The banks \"did not want to lend money\" to him, and the money was \"for tools and spare parts\", not for the rent.",
+            "grammarTags": [
+              "g-en-b1-past-simple"
+            ],
+            "topicTags": [
+              "work"
+            ],
+            "vocabularyTags": [
+              "lend",
+              "borrow",
+              "spare parts"
+            ],
+            "difficulty": 4,
+            "options": [
+              "a) He paid it back sooner than he had promised.",
+              "b) A bank lent it to him after several attempts.",
+              "c) His uncle later let him keep it as a gift.",
+              "d) He spent most of it on the rent for the shop."
+            ],
+            "level": "B1",
+            "passageId": "en-b1-p-lesen-t3-long-bike-repair-01-01"
+          },
+          {
+            "id": "ql_en-b1-r-t3-long-bike-repair-01-q4",
+            "type": "multiple_choice",
+            "question": "What does Josh think about his online repair videos?",
+            "correct": "a",
+            "correctAnswer": "a",
+            "explanation": "Josh explains that when \"something goes really wrong\", viewers \"remember my name. They trust me\", so the videos bring him customers. Some customers fear he will \"lose business\", but Josh disagrees with them.",
+            "grammarTags": [
+              "g-en-b1-present-simple"
+            ],
+            "topicTags": [
+              "work"
+            ],
+            "vocabularyTags": [
+              "trust",
+              "video",
+              "business"
+            ],
+            "difficulty": 5,
+            "options": [
+              "a) They bring him customers in the end.",
+              "b) They take up too much of his free time.",
+              "c) They were a mistake in his first winter.",
+              "d) They have reduced the number of repairs he gets."
+            ],
+            "level": "B1",
+            "passageId": "en-b1-p-lesen-t3-long-bike-repair-01-01"
+          },
+          {
+            "id": "ql_en-b1-r-t3-long-bike-repair-01-q5",
+            "type": "multiple_choice",
+            "question": "What is the main advice Josh gives to other young people?",
+            "correct": "d",
+            "correctAnswer": "d",
+            "explanation": "Josh says: \"Don’t wait until you know everything\" and \"every mistake taught me something useful.\" Forgetting receipts is only one example of his mistakes, not his main advice, and planning every detail is the opposite of what he says.",
+            "grammarTags": [
+              "g-en-b1-imperatives"
+            ],
+            "topicTags": [
+              "work"
+            ],
+            "vocabularyTags": [
+              "advice",
+              "mistake",
+              "receipt"
+            ],
+            "difficulty": 5,
+            "options": [
+              "a) Keep a careful record of everything you buy.",
+              "b) Plan every detail before you start.",
+              "c) Find a partner with business experience.",
+              "d) Start now and learn from your mistakes."
+            ],
+            "level": "B1",
+            "passageId": "en-b1-p-lesen-t3-long-bike-repair-01-01"
+          }
+        ]
+      },
+      {
+        "teil": 4,
+        "instruction": "Read the text(s) and answer the questions in Part 4.",
+        "blueprintSlot": "gapped_text",
+        "textTitle": "Learning to trust: a year with Biscuit",
+        "text": "Last spring, my partner and I adopted a three-year-old dog called Biscuit from a rescue centre near Leeds. The staff told us that he had spent most of his life alone in a small back garden. (1) ________ For the first two days, he hid behind the sofa and refused to eat anything at all.\n\nIn the end, we contacted a local trainer called Megan Hughes. On her first visit, she did not bring any equipment with her. (2) ________ For an hour, she simply sat on the floor with a book and completely ignored Biscuit. By the end of that hour, he was lying next to her feet.\n\nMegan explained that many rescue dogs need time before they can learn anything. (3) ________ So we kept the same routine every day: a walk at seven, breakfast at eight and a quiet hour in the afternoon. After about three weeks, Biscuit started to relax.\n\nThen the real training began. We used tiny pieces of cheese as rewards, and the lessons never lasted more than five minutes. (4) ________ Biscuit learned to sit in a single afternoon, but learning to stay took him much longer.\n\nThe hardest part was the park. Other dogs frightened him, and he barked at every bicycle. (5) ________ Now, a year later, he can walk past a busy playground without even looking up. He still hides behind the sofa sometimes, but these days it is usually because he has stolen a sock.",
+        "passageId": "en-b1-p-lesen-t4-gapped-dog-training-01-01",
+        "questions": [
+          {
+            "id": "ql_en-b1-r-t4-gapped-dog-training-01-q1",
+            "type": "matching",
+            "question": "Read the text \"Learning to trust: a year with Biscuit\". Which sentence (A–H) best fits gap 1?",
+            "correct": "D",
+            "correctAnswer": "D",
+            "explanation": "Biscuit had lived \"alone in a small back garden\", so a busy flat full of noise and visitors would be a shock; this explains why next \"he hid behind the sofa\". The sentence about him loving other dogs from the first day cannot fit, because it does not match a dog that hides and refuses to eat.",
+            "grammarTags": [
+              "g-en-b1-reference-words",
+              "g-en-b1-linking-words"
+            ],
+            "topicTags": [
+              "animals"
+            ],
+            "vocabularyTags": [
+              "rescue centre",
+              "shock"
+            ],
+            "difficulty": 4,
+            "options": [
+              "A) Before that, they have to feel safe, and a regular routine helps with this.",
+              "B) Instead, she arrived with a large bag of toys and a long lead.",
+              "C) So for the first few months, we only took him there early in the morning, when it was almost empty.",
+              "D) So the noise and the visitors in our busy flat were a real shock to him.",
+              "E) Cheese was the only food that he would not eat.",
+              "F) Megan had told us that short, happy lessons work much better than long ones.",
+              "G) This surprised us, as we had expected a whistle or at least a lead.",
+              "H) That is why he loved meeting other dogs from the very first day."
+            ],
+            "level": "B1",
+            "passageId": "en-b1-p-lesen-t4-gapped-dog-training-01-01"
+          },
+          {
+            "id": "ql_en-b1-r-t4-gapped-dog-training-01-q2",
+            "type": "matching",
+            "question": "Read the text \"Learning to trust: a year with Biscuit\". Which sentence (A–H) best fits gap 2?",
+            "correct": "G",
+            "correctAnswer": "G",
+            "explanation": "\"This surprised us\" refers back to \"she did not bring any equipment\", and the writers expected \"a whistle or at least a lead\". The sentence saying she arrived with a bag of toys and a lead is wrong, because the text says she brought no equipment.",
+            "grammarTags": [
+              "g-en-b1-reference-words",
+              "g-en-b1-linking-words"
+            ],
+            "topicTags": [
+              "animals"
+            ],
+            "vocabularyTags": [
+              "equipment",
+              "whistle"
+            ],
+            "difficulty": 4,
+            "options": [
+              "A) Before that, they have to feel safe, and a regular routine helps with this.",
+              "B) Instead, she arrived with a large bag of toys and a long lead.",
+              "C) So for the first few months, we only took him there early in the morning, when it was almost empty.",
+              "D) So the noise and the visitors in our busy flat were a real shock to him.",
+              "E) Cheese was the only food that he would not eat.",
+              "F) Megan had told us that short, happy lessons work much better than long ones.",
+              "G) This surprised us, as we had expected a whistle or at least a lead.",
+              "H) That is why he loved meeting other dogs from the very first day."
+            ],
+            "level": "B1",
+            "passageId": "en-b1-p-lesen-t4-gapped-dog-training-01-01"
+          },
+          {
+            "id": "ql_en-b1-r-t4-gapped-dog-training-01-q3",
+            "type": "matching",
+            "question": "Read the text \"Learning to trust: a year with Biscuit\". Which sentence (A–H) best fits gap 3?",
+            "correct": "A",
+            "correctAnswer": "A",
+            "explanation": "\"Before that\" means before dogs \"can learn anything\", and \"a regular routine helps\" leads directly to \"So we kept the same routine every day\". No other sentence explains why the writers started a routine.",
+            "grammarTags": [
+              "g-en-b1-reference-words",
+              "g-en-b1-linking-words"
+            ],
+            "topicTags": [
+              "animals"
+            ],
+            "vocabularyTags": [
+              "routine",
+              "feel safe"
+            ],
+            "difficulty": 5,
+            "options": [
+              "A) Before that, they have to feel safe, and a regular routine helps with this.",
+              "B) Instead, she arrived with a large bag of toys and a long lead.",
+              "C) So for the first few months, we only took him there early in the morning, when it was almost empty.",
+              "D) So the noise and the visitors in our busy flat were a real shock to him.",
+              "E) Cheese was the only food that he would not eat.",
+              "F) Megan had told us that short, happy lessons work much better than long ones.",
+              "G) This surprised us, as we had expected a whistle or at least a lead.",
+              "H) That is why he loved meeting other dogs from the very first day."
+            ],
+            "level": "B1",
+            "passageId": "en-b1-p-lesen-t4-gapped-dog-training-01-01"
+          },
+          {
+            "id": "ql_en-b1-r-t4-gapped-dog-training-01-q4",
+            "type": "matching",
+            "question": "Read the text \"Learning to trust: a year with Biscuit\". Which sentence (A–H) best fits gap 4?",
+            "correct": "F",
+            "correctAnswer": "F",
+            "explanation": "The lessons \"never lasted more than five minutes\", and this sentence gives the reason: \"short, happy lessons work much better than long ones\". The sentence saying cheese was the only food he would not eat is wrong, because the writers \"used tiny pieces of cheese as rewards\".",
+            "grammarTags": [
+              "g-en-b1-reference-words",
+              "g-en-b1-linking-words"
+            ],
+            "topicTags": [
+              "animals"
+            ],
+            "vocabularyTags": [
+              "reward",
+              "lesson"
+            ],
+            "difficulty": 4,
+            "options": [
+              "A) Before that, they have to feel safe, and a regular routine helps with this.",
+              "B) Instead, she arrived with a large bag of toys and a long lead.",
+              "C) So for the first few months, we only took him there early in the morning, when it was almost empty.",
+              "D) So the noise and the visitors in our busy flat were a real shock to him.",
+              "E) Cheese was the only food that he would not eat.",
+              "F) Megan had told us that short, happy lessons work much better than long ones.",
+              "G) This surprised us, as we had expected a whistle or at least a lead.",
+              "H) That is why he loved meeting other dogs from the very first day."
+            ],
+            "level": "B1",
+            "passageId": "en-b1-p-lesen-t4-gapped-dog-training-01-01"
+          },
+          {
+            "id": "ql_en-b1-r-t4-gapped-dog-training-01-q5",
+            "type": "matching",
+            "question": "Read the text \"Learning to trust: a year with Biscuit\". Which sentence (A–H) best fits gap 5?",
+            "correct": "C",
+            "correctAnswer": "C",
+            "explanation": "\"there\" refers to \"the park\", and an \"almost empty\" park solves the problem that \"Other dogs frightened him\". The sentence saying he loved meeting other dogs contradicts \"Other dogs frightened him\".",
+            "grammarTags": [
+              "g-en-b1-reference-words",
+              "g-en-b1-linking-words"
+            ],
+            "topicTags": [
+              "animals"
+            ],
+            "vocabularyTags": [
+              "frighten",
+              "empty"
+            ],
+            "difficulty": 4,
+            "options": [
+              "A) Before that, they have to feel safe, and a regular routine helps with this.",
+              "B) Instead, she arrived with a large bag of toys and a long lead.",
+              "C) So for the first few months, we only took him there early in the morning, when it was almost empty.",
+              "D) So the noise and the visitors in our busy flat were a real shock to him.",
+              "E) Cheese was the only food that he would not eat.",
+              "F) Megan had told us that short, happy lessons work much better than long ones.",
+              "G) This surprised us, as we had expected a whistle or at least a lead.",
+              "H) That is why he loved meeting other dogs from the very first day."
+            ],
+            "level": "B1",
+            "passageId": "en-b1-p-lesen-t4-gapped-dog-training-01-01"
+          }
+        ]
+      },
+      {
+        "teil": 5,
+        "instruction": "Read the text(s) and answer the questions in Part 5.",
+        "blueprintSlot": "mcq_gap_fill",
+        "textTitle": "On air at college",
+        "text": "When I started college last year, a friend persuaded me to join the student radio station. I had never (1) ______ on the radio before, so I was extremely nervous at my first meeting. Luckily, the station manager, Priya, was very kind. She (2) ______ me to start by reading the weather report, which only (3) ______ about two minutes. Even so, my hands were shaking the first time the red light came on. Little by little, it got easier. After a couple of months I felt (4) ______ enough to ask for my own music programme, and Priya agreed. Now, every Thursday evening from eight to nine, I (5) ______ songs by new bands from our area and chat about them with guests. Some listeners even send messages to request their favourite tracks. Working at the station has (6) ______ me how to plan my time and how to work as part of a team. Next term I am hoping to interview a few local musicians live in the studio, which will be my biggest challenge so far.",
+        "passageId": "en-b1-p-lesen-t5-cloze-local-radio-01-01",
+        "questions": [
+          {
+            "id": "ql_en-b1-r-t5-cloze-local-radio-01-q1",
+            "type": "multiple_choice",
+            "question": "Choose the word that best fits gap (1).",
+            "correct": "b",
+            "correctAnswer": "b",
+            "explanation": "The text says \"I had never spoken on the radio before\". Speak can be used without an object; told, said and explained all need an object (told someone, said something, explained something), so they cannot fit here.",
+            "grammarTags": [
+              "g-en-b1-present-perfect"
+            ],
+            "topicTags": [
+              "media"
+            ],
+            "vocabularyTags": [
+              "speak",
+              "radio"
+            ],
+            "difficulty": 4,
+            "options": [
+              "a) said",
+              "b) spoken",
+              "c) explained",
+              "d) told"
+            ],
+            "level": "B1",
+            "passageId": "en-b1-p-lesen-t5-cloze-local-radio-01-01"
+          },
+          {
+            "id": "ql_en-b1-r-t5-cloze-local-radio-01-q2",
+            "type": "multiple_choice",
+            "question": "Choose the word that best fits gap (2).",
+            "correct": "c",
+            "correctAnswer": "c",
+            "explanation": "Only advise follows the pattern verb + person + to-infinitive: \"She advised me to start by reading the weather report\". We cannot say suggested me to, insisted me to or proposed me to.",
+            "grammarTags": [
+              "g-en-b1-verb-patterns"
+            ],
+            "topicTags": [
+              "media"
+            ],
+            "vocabularyTags": [
+              "advise",
+              "suggest"
+            ],
+            "difficulty": 5,
+            "options": [
+              "a) proposed",
+              "b) suggested",
+              "c) advised",
+              "d) insisted"
+            ],
+            "level": "B1",
+            "passageId": "en-b1-p-lesen-t5-cloze-local-radio-01-01"
+          },
+          {
+            "id": "ql_en-b1-r-t5-cloze-local-radio-01-q3",
+            "type": "multiple_choice",
+            "question": "Choose the word that best fits gap (3).",
+            "correct": "c",
+            "correctAnswer": "c",
+            "explanation": "The weather report \"only lasted about two minutes\": last means continue for a period of time. Spent needs a person as subject (I spent two minutes), passed needs time as subject, and kept does not describe how long something takes.",
+            "grammarTags": [
+              "g-en-b1-verb-patterns"
+            ],
+            "topicTags": [
+              "media"
+            ],
+            "vocabularyTags": [
+              "last",
+              "duration"
+            ],
+            "difficulty": 4,
+            "options": [
+              "a) passed",
+              "b) kept",
+              "c) lasted",
+              "d) spent"
+            ],
+            "level": "B1",
+            "passageId": "en-b1-p-lesen-t5-cloze-local-radio-01-01"
+          },
+          {
+            "id": "ql_en-b1-r-t5-cloze-local-radio-01-q4",
+            "type": "multiple_choice",
+            "question": "Choose the word that best fits gap (4).",
+            "correct": "a",
+            "correctAnswer": "a",
+            "explanation": "At first the writer was \"extremely nervous\", but \"after a couple of months\" felt confident enough to ask for a programme. Being polite, careful or patient enough does not explain why the writer could now ask to present a show.",
+            "grammarTags": [
+              "g-en-b1-enough"
+            ],
+            "topicTags": [
+              "media"
+            ],
+            "vocabularyTags": [
+              "confident",
+              "nervous"
+            ],
+            "difficulty": 4,
+            "options": [
+              "a) confident",
+              "b) polite",
+              "c) careful",
+              "d) patient"
+            ],
+            "level": "B1",
+            "passageId": "en-b1-p-lesen-t5-cloze-local-radio-01-01"
+          },
+          {
+            "id": "ql_en-b1-r-t5-cloze-local-radio-01-q5",
+            "type": "multiple_choice",
+            "question": "Choose the word that best fits gap (5).",
+            "correct": "d",
+            "correctAnswer": "d",
+            "explanation": "A radio presenter plays songs: \"I play songs by new bands from our area\". Put songs and turn songs are not correct English, and make songs would mean the writer writes the music.",
+            "grammarTags": [
+              "g-en-b1-present-simple"
+            ],
+            "topicTags": [
+              "media"
+            ],
+            "vocabularyTags": [
+              "play",
+              "song"
+            ],
+            "difficulty": 3,
+            "options": [
+              "a) put",
+              "b) turn",
+              "c) make",
+              "d) play"
+            ],
+            "level": "B1",
+            "passageId": "en-b1-p-lesen-t5-cloze-local-radio-01-01"
+          },
+          {
+            "id": "ql_en-b1-r-t5-cloze-local-radio-01-q6",
+            "type": "multiple_choice",
+            "question": "Choose the word that best fits gap (6).",
+            "correct": "d",
+            "correctAnswer": "d",
+            "explanation": "The structure is \"has taught me how to plan my time\": teach + person + how to. Learnt, studied and practised cannot be followed by a person (me) in this way.",
+            "grammarTags": [
+              "g-en-b1-verb-patterns"
+            ],
+            "topicTags": [
+              "media"
+            ],
+            "vocabularyTags": [
+              "teach",
+              "learn"
+            ],
+            "difficulty": 4,
+            "options": [
+              "a) learnt",
+              "b) studied",
+              "c) practised",
+              "d) taught"
+            ],
+            "level": "B1",
+            "passageId": "en-b1-p-lesen-t5-cloze-local-radio-01-01"
+          }
+        ]
+      },
+      {
+        "teil": 6,
+        "instruction": "Read the text(s) and answer the questions in Part 6.",
+        "blueprintSlot": "open_cloze",
+        "textTitle": "Five hundred new trees",
+        "text": "Last autumn our town council asked local people to help plant five hundred young trees along the river path. The project had (1) ______ planned for over a year, but the money only arrived in the summer. On a cold Saturday morning about sixty volunteers met at the old bridge, carrying spades and flasks of hot tea. Very (2) ______ of us had ever planted a tree before, so a gardener from the council showed us what to do. By lunchtime my back was aching, and the work was far (3) ______ tiring than I had expected. Still, it felt good to see the long line of thin trees standing in the grass. The gardener explained that the trees are too young to look after (4) ______ yet. They will not survive their first summer (5) ______ someone waters them regularly. The council has now organised a rota, (6) ______ means that every volunteer spends one evening a month with a watering can. My turn is next Tuesday, and I am already looking forward to it.",
+        "passageId": "en-b1-p-lesen-t6-open-cloze-tree-planting-01-01",
+        "questions": [
+          {
+            "id": "ql_en-b1-r-t6-open-cloze-tree-planting-01-q1",
+            "type": "gap_fill",
+            "question": "Write ONE word that fits gap (1).",
+            "correct": "been",
+            "correctAnswer": "been",
+            "explanation": "This is a past perfect passive: \"The project had been planned for over a year\". The project did not plan anything itself, so had must be followed by been + past participle.",
+            "grammarTags": [
+              "g-en-b1-passive"
+            ],
+            "topicTags": [
+              "environment"
+            ],
+            "vocabularyTags": [
+              "plan"
+            ],
+            "difficulty": 4,
+            "level": "B1",
+            "passageId": "en-b1-p-lesen-t6-open-cloze-tree-planting-01-01"
+          },
+          {
+            "id": "ql_en-b1-r-t6-open-cloze-tree-planting-01-q2",
+            "type": "gap_fill",
+            "question": "Write ONE word that fits gap (2).",
+            "correct": "few",
+            "correctAnswer": "few",
+            "explanation": "\"Very few of us had ever planted a tree before, so a gardener … showed us what to do.\" The word so shows that most people had no experience; very many would not fit the meaning or the word ever.",
+            "grammarTags": [
+              "g-en-b1-quantifiers"
+            ],
+            "topicTags": [
+              "environment"
+            ],
+            "vocabularyTags": [
+              "few"
+            ],
+            "difficulty": 4,
+            "level": "B1",
+            "passageId": "en-b1-p-lesen-t6-open-cloze-tree-planting-01-01"
+          },
+          {
+            "id": "ql_en-b1-r-t6-open-cloze-tree-planting-01-q3",
+            "type": "gap_fill",
+            "question": "Write ONE word that fits gap (3).",
+            "correct": "more",
+            "correctAnswer": "more",
+            "explanation": "Tiring is a long adjective, so the comparative is more tiring than. \"My back was aching\" shows that the work was harder than expected, so less is not possible.",
+            "grammarTags": [
+              "g-en-b1-comparatives"
+            ],
+            "topicTags": [
+              "environment"
+            ],
+            "vocabularyTags": [
+              "tiring"
+            ],
+            "difficulty": 3,
+            "level": "B1",
+            "passageId": "en-b1-p-lesen-t6-open-cloze-tree-planting-01-01"
+          },
+          {
+            "id": "ql_en-b1-r-t6-open-cloze-tree-planting-01-q4",
+            "type": "gap_fill",
+            "question": "Write ONE word that fits gap (4).",
+            "correct": "themselves",
+            "correctAnswer": "themselves",
+            "explanation": "The subject is the trees, so the reflexive pronoun is needed: \"the trees are too young to look after themselves yet\". Them would mean some other things, not the trees.",
+            "grammarTags": [
+              "g-en-b1-reflexive-pronouns"
+            ],
+            "topicTags": [
+              "environment"
+            ],
+            "vocabularyTags": [
+              "look after"
+            ],
+            "difficulty": 4,
+            "level": "B1",
+            "passageId": "en-b1-p-lesen-t6-open-cloze-tree-planting-01-01"
+          },
+          {
+            "id": "ql_en-b1-r-t6-open-cloze-tree-planting-01-q5",
+            "type": "gap_fill",
+            "question": "Write ONE word that fits gap (5).",
+            "correct": "unless",
+            "correctAnswer": "unless",
+            "explanation": "Unless means if not: \"They will not survive their first summer unless someone waters them regularly\". If would give the opposite meaning (watering would kill them).",
+            "grammarTags": [
+              "g-en-b1-conditionals"
+            ],
+            "topicTags": [
+              "environment"
+            ],
+            "vocabularyTags": [
+              "survive"
+            ],
+            "difficulty": 5,
+            "level": "B1",
+            "passageId": "en-b1-p-lesen-t6-open-cloze-tree-planting-01-01"
+          },
+          {
+            "id": "ql_en-b1-r-t6-open-cloze-tree-planting-01-q6",
+            "type": "gap_fill",
+            "question": "Write ONE word that fits gap (6).",
+            "correct": "which",
+            "correctAnswer": "which",
+            "explanation": "After a comma, a non-defining relative clause that refers to the whole idea before it starts with which: \"organised a rota, which means that every volunteer …\". That cannot be used after a comma.",
+            "grammarTags": [
+              "g-en-b1-relative-clauses"
+            ],
+            "topicTags": [
+              "environment"
+            ],
+            "vocabularyTags": [
+              "rota"
+            ],
+            "difficulty": 5,
+            "level": "B1",
+            "passageId": "en-b1-p-lesen-t6-open-cloze-tree-planting-01-01"
+          }
+        ]
+      }
+    ],
+    "horenParts": [
+      {
+        "teil": 1,
+        "instruction": "Listen and answer the questions in Part 1.",
+        "blueprintSlot": "picture_mcq",
+        "transcript": "Woman: Look, I’ve bought this scarf for my aunt.\nMan: It’s lovely. Was it expensive?\nWoman: Well, the label said thirty pounds, but there was a sale on, so it was twenty-four. And then the shop assistant noticed a small mark on it and took another six pounds off.\nMan: So you paid eighteen pounds? That’s a good price. I can hardly see the mark.\n\nMan: Have you got anything for your brother’s birthday yet? Oliver’s going to be sixteen, isn’t he?\nWoman: Yes, and I’ve finally found something. I was going to get him a shirt for his football team, but they didn’t have his size.\nMan: What about that board game he keeps talking about?\nWoman: Mum’s already bought him that. So in the end I got him some headphones. His old ones are broken.\nMan: Good idea. He’ll use them every day.\n\nMan: I’ve decided what to give my mum and dad for their wedding anniversary. I’m taking them out for a meal at that new Italian restaurant.\nWoman: How lovely! The anniversary’s on Friday, isn’t it?\nMan: Yes, but Dad doesn’t finish work until nine on Fridays. I wanted to go on Saturday evening instead, but the restaurant was fully booked. So we’re going for lunch on Sunday.\nWoman: That sounds perfect.\n\nWoman: Good afternoon, shoppers. If you’re looking for that special present, don’t forget our gift-wrapping service on the ground floor. Our normal closing time is half past five, but this week, to help with your Christmas shopping, the store is staying open until seven o’clock. Please note that the gift-wrapping desk closes earlier, at six. Thank you for shopping with us.\n\nWoman: I can’t decide which bag to get for Lucy. This striped one is fun.\nMan: Hmm, but she isn’t really a beach person, is she? What about the black backpack? She cycles to work.\nWoman: She’s just bought one, actually. No, I think she’d like the brown leather one best. It goes with everything.\nMan: It’s more expensive, though.\nWoman: That’s fine. She’s my best friend.\n\nWoman: Are you going to Rachel’s leaving party at the office tomorrow?\nMan: Yes, and I still haven’t got her anything. I thought about flowers, but they’ll be dead in a week.\nWoman: She loves cooking, doesn’t she? What about a recipe book?\nMan: She’s got hundreds of those. No, I know. She’s always saying her desk looks empty, so I’ll get her a little plant for her new office.\nWoman: Perfect. She’ll love that.\n\nWoman: Granny’s eightieth birthday is next month. What shall we give her?\nMan: You’re good at baking. Why don’t you make her a cake?\nWoman: Auntie Sue’s already making one. We could make her a birthday card, I suppose.\nMan: She’ll get lots of cards. What about putting some old family photos into an album?\nWoman: Oh yes, she’d love that. Let’s start looking for photos this weekend.",
+        "segments": [
+          {
+            "id": "seg_1_0",
+            "label": "Recording 1",
+            "transcript": "Woman: Look, I’ve bought this scarf for my aunt.\nMan: It’s lovely. Was it expensive?\nWoman: Well, the label said thirty pounds, but there was a sale on, so it was twenty-four. And then the shop assistant noticed a small mark on it and took another six pounds off.\nMan: So you paid eighteen pounds? That’s a good price. I can hardly see the mark.",
+            "passageId": "en-b1-p-horen-t1-pics-presents-01-03",
+            "questions": [
+              {
+                "id": "ql_en-b1-h-t1-pics-presents-01-s3-q1",
+                "type": "multiple_choice",
+                "question": "How much did the woman pay for the scarf?",
+                "correct": "a",
+                "correctAnswer": "a",
+                "explanation": "The label said £30 and the sale price was £24, but the assistant \"took another six pounds off\", and the man checks: \"So you paid eighteen pounds?\"",
+                "grammarTags": [
+                  "g-en-b1-past-simple"
+                ],
+                "topicTags": [
+                  "presents"
+                ],
+                "vocabularyTags": [
+                  "price",
+                  "sale",
+                  "label"
+                ],
+                "difficulty": 4,
+                "options": [
+                  "a) £18",
+                  "b) £24",
+                  "c) £30"
+                ],
+                "level": "B1",
+                "passageId": "en-b1-p-horen-t1-pics-presents-01-03"
+              }
+            ]
+          },
+          {
+            "id": "seg_1_1",
+            "label": "Recording 2",
+            "transcript": "Man: Have you got anything for your brother’s birthday yet? Oliver’s going to be sixteen, isn’t he?\nWoman: Yes, and I’ve finally found something. I was going to get him a shirt for his football team, but they didn’t have his size.\nMan: What about that board game he keeps talking about?\nWoman: Mum’s already bought him that. So in the end I got him some headphones. His old ones are broken.\nMan: Good idea. He’ll use them every day.",
+            "passageId": "en-b1-p-horen-t1-pics-presents-01-01",
+            "questions": [
+              {
+                "id": "ql_en-b1-h-t1-pics-presents-01-s1-q1",
+                "type": "multiple_choice",
+                "question": "What has the woman bought for her brother’s birthday?",
+                "correct": "a",
+                "correctAnswer": "a",
+                "explanation": "The woman says \"in the end I got him some headphones\". She wanted a football shirt, but \"they didn’t have his size\", and the board game is the present their mum has bought.",
+                "grammarTags": [
+                  "g-en-b1-present-perfect"
+                ],
+                "topicTags": [
+                  "presents"
+                ],
+                "vocabularyTags": [
+                  "headphones",
+                  "board game",
+                  "football shirt"
+                ],
+                "difficulty": 3,
+                "options": [
+                  "a) Some headphones",
+                  "b) A board game",
+                  "c) A football shirt"
+                ],
+                "level": "B1",
+                "passageId": "en-b1-p-horen-t1-pics-presents-01-01"
+              }
+            ]
+          },
+          {
+            "id": "seg_1_2",
+            "label": "Recording 3",
+            "transcript": "Man: I’ve decided what to give my mum and dad for their wedding anniversary. I’m taking them out for a meal at that new Italian restaurant.\nWoman: How lovely! The anniversary’s on Friday, isn’t it?\nMan: Yes, but Dad doesn’t finish work until nine on Fridays. I wanted to go on Saturday evening instead, but the restaurant was fully booked. So we’re going for lunch on Sunday.\nWoman: That sounds perfect.",
+            "passageId": "en-b1-p-horen-t1-pics-presents-01-04",
+            "questions": [
+              {
+                "id": "ql_en-b1-h-t1-pics-presents-01-s4-q1",
+                "type": "multiple_choice",
+                "question": "When is the man taking his parents out for a meal?",
+                "correct": "b",
+                "correctAnswer": "b",
+                "explanation": "The man says \"we’re going for lunch on Sunday\". Friday is not possible because his dad works until nine, and on Saturday evening \"the restaurant was fully booked\".",
+                "grammarTags": [
+                  "g-en-b1-present-continuous-future"
+                ],
+                "topicTags": [
+                  "presents"
+                ],
+                "vocabularyTags": [
+                  "anniversary",
+                  "fully booked",
+                  "lunchtime"
+                ],
+                "difficulty": 4,
+                "options": [
+                  "a) On Saturday evening",
+                  "b) On Sunday lunchtime",
+                  "c) On Friday evening"
+                ],
+                "level": "B1",
+                "passageId": "en-b1-p-horen-t1-pics-presents-01-04"
+              }
+            ]
+          },
+          {
+            "id": "seg_1_3",
+            "label": "Recording 4",
+            "transcript": "Woman: Good afternoon, shoppers. If you’re looking for that special present, don’t forget our gift-wrapping service on the ground floor. Our normal closing time is half past five, but this week, to help with your Christmas shopping, the store is staying open until seven o’clock. Please note that the gift-wrapping desk closes earlier, at six. Thank you for shopping with us.",
+            "passageId": "en-b1-p-horen-t1-pics-presents-01-07",
+            "questions": [
+              {
+                "id": "ql_en-b1-h-t1-pics-presents-01-s7-q1",
+                "type": "multiple_choice",
+                "question": "What time does the store close this week?",
+                "correct": "c",
+                "correctAnswer": "c",
+                "explanation": "This week \"the store is staying open until seven o’clock\". Half past five is the \"normal closing time\", and six is when only the gift-wrapping desk closes.",
+                "grammarTags": [
+                  "g-en-b1-present-continuous-future"
+                ],
+                "topicTags": [
+                  "presents"
+                ],
+                "vocabularyTags": [
+                  "closing time",
+                  "gift-wrapping",
+                  "store"
+                ],
+                "difficulty": 4,
+                "options": [
+                  "a) At half past five",
+                  "b) At six o’clock",
+                  "c) At seven o’clock"
+                ],
+                "level": "B1",
+                "passageId": "en-b1-p-horen-t1-pics-presents-01-07"
+              }
+            ]
+          },
+          {
+            "id": "seg_1_4",
+            "label": "Recording 5",
+            "transcript": "Woman: I can’t decide which bag to get for Lucy. This striped one is fun.\nMan: Hmm, but she isn’t really a beach person, is she? What about the black backpack? She cycles to work.\nWoman: She’s just bought one, actually. No, I think she’d like the brown leather one best. It goes with everything.\nMan: It’s more expensive, though.\nWoman: That’s fine. She’s my best friend.",
+            "passageId": "en-b1-p-horen-t1-pics-presents-01-06",
+            "questions": [
+              {
+                "id": "ql_en-b1-h-t1-pics-presents-01-s6-q1",
+                "type": "multiple_choice",
+                "question": "Which bag does the woman decide to buy for her friend?",
+                "correct": "c",
+                "correctAnswer": "c",
+                "explanation": "The woman says \"she’d like the brown leather one best\" and does not mind the price. Lucy is not \"a beach person\", and she has \"just bought\" a backpack.",
+                "grammarTags": [
+                  "g-en-b1-comparatives-superlatives"
+                ],
+                "topicTags": [
+                  "presents"
+                ],
+                "vocabularyTags": [
+                  "leather",
+                  "striped",
+                  "backpack"
+                ],
+                "difficulty": 3,
+                "options": [
+                  "a) A striped beach bag",
+                  "b) A black backpack",
+                  "c) A brown leather bag"
+                ],
+                "level": "B1",
+                "passageId": "en-b1-p-horen-t1-pics-presents-01-06"
+              }
+            ]
+          },
+          {
+            "id": "seg_1_5",
+            "label": "Recording 6",
+            "transcript": "Woman: Are you going to Rachel’s leaving party at the office tomorrow?\nMan: Yes, and I still haven’t got her anything. I thought about flowers, but they’ll be dead in a week.\nWoman: She loves cooking, doesn’t she? What about a recipe book?\nMan: She’s got hundreds of those. No, I know. She’s always saying her desk looks empty, so I’ll get her a little plant for her new office.\nWoman: Perfect. She’ll love that.",
+            "passageId": "en-b1-p-horen-t1-pics-presents-01-02",
+            "questions": [
+              {
+                "id": "ql_en-b1-h-t1-pics-presents-01-s2-q1",
+                "type": "multiple_choice",
+                "question": "What is the man going to buy for his colleague?",
+                "correct": "b",
+                "correctAnswer": "b",
+                "explanation": "The man says \"I’ll get her a little plant for her new office\". He rejects flowers because \"they’ll be dead in a week\", and Rachel already has \"hundreds\" of recipe books.",
+                "grammarTags": [
+                  "g-en-b1-future-will"
+                ],
+                "topicTags": [
+                  "presents"
+                ],
+                "vocabularyTags": [
+                  "plant",
+                  "recipe book",
+                  "flowers"
+                ],
+                "difficulty": 3,
+                "options": [
+                  "a) A recipe book",
+                  "b) A small plant",
+                  "c) Some flowers"
+                ],
+                "level": "B1",
+                "passageId": "en-b1-p-horen-t1-pics-presents-01-02"
+              }
+            ]
+          },
+          {
+            "id": "seg_1_6",
+            "label": "Recording 7",
+            "transcript": "Woman: Granny’s eightieth birthday is next month. What shall we give her?\nMan: You’re good at baking. Why don’t you make her a cake?\nWoman: Auntie Sue’s already making one. We could make her a birthday card, I suppose.\nMan: She’ll get lots of cards. What about putting some old family photos into an album?\nWoman: Oh yes, she’d love that. Let’s start looking for photos this weekend.",
+            "passageId": "en-b1-p-horen-t1-pics-presents-01-05",
+            "questions": [
+              {
+                "id": "ql_en-b1-h-t1-pics-presents-01-s5-q1",
+                "type": "multiple_choice",
+                "question": "What are they going to make for their grandmother?",
+                "correct": "c",
+                "correctAnswer": "c",
+                "explanation": "The man suggests \"putting some old family photos into an album\" and the woman agrees: \"she’d love that\". Auntie Sue is already making the cake, and \"She’ll get lots of cards\".",
+                "grammarTags": [
+                  "g-en-b1-suggestions"
+                ],
+                "topicTags": [
+                  "presents"
+                ],
+                "vocabularyTags": [
+                  "album",
+                  "cake",
+                  "card"
+                ],
+                "difficulty": 3,
+                "options": [
+                  "a) A birthday card",
+                  "b) A birthday cake",
+                  "c) A photo album"
+                ],
+                "level": "B1",
+                "passageId": "en-b1-p-horen-t1-pics-presents-01-05"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "teil": 2,
+        "instruction": "Listen and answer the questions in Part 2.",
+        "blueprintSlot": "short_dialogue_mcq",
+        "transcript": "Woman: Nice watch! Is that one of those smart watches?\nMan: Yes. Everyone thinks I got it for my messages, but my phone’s fine for that.\nWoman: So is it for running?\nMan: Not really. The doctor said I wasn’t sleeping enough, so I wanted to know how many hours I really get each night. The watch shows me every morning. It’s already made me go to bed earlier.\nWoman: And it looks good too.\nMan: That’s just a bonus.\n\nWoman: Are you still using that running app?\nMan: Every day! I know it isn’t free, and it took me a few days to understand all the buttons, but now it’s easy. Honestly, without it I’d have stopped running weeks ago. When it tells me I’ve beaten my best time, I just want to go out again the next morning.\nWoman: Maybe I should try it, then.\nMan: You should. It’s worth every penny.\n\nMan: How are you getting on with the new booking system?\nWoman: Not very well! I’m sure it’s better than the old one, but nobody showed us how it works.\nMan: Exactly. We had one short email from the manager and that was it. They should have given us a proper course before it started.\nWoman: I agree. I spent half the morning asking people for help.\nMan: Me too. Maybe it’ll save us time when we know what we’re doing, but I’m not so sure.\n\nMan: So did your family really spend a whole evening without phones?\nWoman: We did. To be honest, I thought I’d hate it. I thought I’d keep worrying about missing messages.\nMan: And did you?\nWoman: For about ten minutes! Then we got a board game out and laughed all evening. My kids didn’t even ask for their phones. We’re going to do it every Friday now.\n\nWoman: I had my first video call with Grandma and Grandad last night.\nMan: How did it go? I bet it took ages to get them connected.\nWoman: That’s what I expected! I was ready to spend an hour explaining which buttons to press. But Grandad had practised with a neighbour, and it worked first time. We chatted for ages, and I could hear them perfectly.\nMan: That’s brilliant.\nWoman: Honestly, it was the best part of my week.\n\nMan: Are you still learning Spanish with that app?\nWoman: No, I gave up last month.\nMan: Really? I thought it was free.\nWoman: It is, and the games were fun. I learned loads of words. But when I went to Valencia, I couldn’t have a single conversation with anyone. All I’d done was press buttons! So now I go to an evening class where we actually talk to each other.\nMan: That sounds much more useful.",
+        "segments": [
+          {
+            "id": "seg_2_0",
+            "label": "Recording 1",
+            "transcript": "Woman: Nice watch! Is that one of those smart watches?\nMan: Yes. Everyone thinks I got it for my messages, but my phone’s fine for that.\nWoman: So is it for running?\nMan: Not really. The doctor said I wasn’t sleeping enough, so I wanted to know how many hours I really get each night. The watch shows me every morning. It’s already made me go to bed earlier.\nWoman: And it looks good too.\nMan: That’s just a bonus.",
+            "passageId": "en-b1-p-horen-t2-gist-technology-01-06",
+            "questions": [
+              {
+                "id": "ql_en-b1-h-t2-gist-technology-01-q6",
+                "type": "multiple_choice",
+                "question": "You will hear two friends talking about a smart watch. Why did the man buy it?",
+                "correct": "c",
+                "correctAnswer": "c",
+                "explanation": "He says \"I wanted to know how many hours I really get each night\". His phone is \"fine\" for messages, and the good looks are \"just a bonus\".",
+                "grammarTags": [
+                  "g-en-b1-reported-speech"
+                ],
+                "topicTags": [
+                  "technology"
+                ],
+                "vocabularyTags": [
+                  "smart watch",
+                  "sleep",
+                  "purpose"
+                ],
+                "difficulty": 4,
+                "options": [
+                  "a) Because it looks fashionable",
+                  "b) To read his messages more easily",
+                  "c) To check how much he sleeps"
+                ],
+                "level": "B1",
+                "passageId": "en-b1-p-horen-t2-gist-technology-01-06"
+              }
+            ]
+          },
+          {
+            "id": "seg_2_1",
+            "label": "Recording 2",
+            "transcript": "Woman: Are you still using that running app?\nMan: Every day! I know it isn’t free, and it took me a few days to understand all the buttons, but now it’s easy. Honestly, without it I’d have stopped running weeks ago. When it tells me I’ve beaten my best time, I just want to go out again the next morning.\nWoman: Maybe I should try it, then.\nMan: You should. It’s worth every penny.",
+            "passageId": "en-b1-p-horen-t2-gist-technology-01-01",
+            "questions": [
+              {
+                "id": "ql_en-b1-h-t2-gist-technology-01-q1",
+                "type": "multiple_choice",
+                "question": "You will hear two friends talking about a running app. What does the man think of it?",
+                "correct": "a",
+                "correctAnswer": "a",
+                "explanation": "The man says \"without it I’d have stopped running weeks ago\" and that it makes him \"want to go out again\". It isn’t free, but it’s \"worth every penny\", and the buttons were only difficult at first: \"now it’s easy\".",
+                "grammarTags": [
+                  "g-en-b1-third-conditional"
+                ],
+                "topicTags": [
+                  "technology"
+                ],
+                "vocabularyTags": [
+                  "app",
+                  "motivation",
+                  "worth"
+                ],
+                "difficulty": 4,
+                "options": [
+                  "a) It helps him to keep going.",
+                  "b) It is still hard for him to use.",
+                  "c) It costs too much for what it does."
+                ],
+                "level": "B1",
+                "passageId": "en-b1-p-horen-t2-gist-technology-01-01"
+              }
+            ]
+          },
+          {
+            "id": "seg_2_2",
+            "label": "Recording 3",
+            "transcript": "Man: How are you getting on with the new booking system?\nWoman: Not very well! I’m sure it’s better than the old one, but nobody showed us how it works.\nMan: Exactly. We had one short email from the manager and that was it. They should have given us a proper course before it started.\nWoman: I agree. I spent half the morning asking people for help.\nMan: Me too. Maybe it’ll save us time when we know what we’re doing, but I’m not so sure.",
+            "passageId": "en-b1-p-horen-t2-gist-technology-01-03",
+            "questions": [
+              {
+                "id": "ql_en-b1-h-t2-gist-technology-01-q3",
+                "type": "multiple_choice",
+                "question": "You will hear two colleagues talking about a new booking system at work. What do they agree about?",
+                "correct": "b",
+                "correctAnswer": "b",
+                "explanation": "The man says \"They should have given us a proper course before it started\" and the woman replies \"I agree\". She thinks it is \"better than the old one\", and the man is \"not so sure\" it will save time.",
+                "grammarTags": [
+                  "g-en-b1-should-have"
+                ],
+                "topicTags": [
+                  "technology"
+                ],
+                "vocabularyTags": [
+                  "system",
+                  "training",
+                  "agree"
+                ],
+                "difficulty": 5,
+                "options": [
+                  "a) It will save them time in the end.",
+                  "b) Staff should have had training first.",
+                  "c) It is slower than the old system."
+                ],
+                "level": "B1",
+                "passageId": "en-b1-p-horen-t2-gist-technology-01-03"
+              }
+            ]
+          },
+          {
+            "id": "seg_2_3",
+            "label": "Recording 4",
+            "transcript": "Man: So did your family really spend a whole evening without phones?\nWoman: We did. To be honest, I thought I’d hate it. I thought I’d keep worrying about missing messages.\nMan: And did you?\nWoman: For about ten minutes! Then we got a board game out and laughed all evening. My kids didn’t even ask for their phones. We’re going to do it every Friday now.",
+            "passageId": "en-b1-p-horen-t2-gist-technology-01-05",
+            "questions": [
+              {
+                "id": "ql_en-b1-h-t2-gist-technology-01-q5",
+                "type": "multiple_choice",
+                "question": "You will hear a woman talking to a friend about an evening without phones. What is her opinion of it?",
+                "correct": "a",
+                "correctAnswer": "a",
+                "explanation": "She says \"I thought I’d hate it\", but they \"laughed all evening\" and will \"do it every Friday now\". Her kids \"didn’t even ask for their phones\", and she never says it was too long.",
+                "grammarTags": [
+                  "g-en-b1-reported-thoughts"
+                ],
+                "topicTags": [
+                  "technology"
+                ],
+                "vocabularyTags": [
+                  "phones",
+                  "family",
+                  "opinion"
+                ],
+                "difficulty": 4,
+                "options": [
+                  "a) It was better than she expected.",
+                  "b) It was a good idea but too long.",
+                  "c) It was hard for her children."
+                ],
+                "level": "B1",
+                "passageId": "en-b1-p-horen-t2-gist-technology-01-05"
+              }
+            ]
+          },
+          {
+            "id": "seg_2_4",
+            "label": "Recording 5",
+            "transcript": "Woman: I had my first video call with Grandma and Grandad last night.\nMan: How did it go? I bet it took ages to get them connected.\nWoman: That’s what I expected! I was ready to spend an hour explaining which buttons to press. But Grandad had practised with a neighbour, and it worked first time. We chatted for ages, and I could hear them perfectly.\nMan: That’s brilliant.\nWoman: Honestly, it was the best part of my week.",
+            "passageId": "en-b1-p-horen-t2-gist-technology-01-02",
+            "questions": [
+              {
+                "id": "ql_en-b1-h-t2-gist-technology-01-q2",
+                "type": "multiple_choice",
+                "question": "You will hear a woman telling a friend about a video call with her grandparents. How did she feel about it?",
+                "correct": "b",
+                "correctAnswer": "b",
+                "explanation": "She expected problems, but \"it worked first time\" and \"it was the best part of my week\". She \"could hear them perfectly\", and chatting \"for ages\" was a pleasure, not boring.",
+                "grammarTags": [
+                  "g-en-b1-past-perfect"
+                ],
+                "topicTags": [
+                  "technology"
+                ],
+                "vocabularyTags": [
+                  "video call",
+                  "grandparents",
+                  "feelings"
+                ],
+                "difficulty": 4,
+                "options": [
+                  "a) Bored because it went on so long",
+                  "b) Pleased that it was so easy",
+                  "c) Worried that they couldn’t hear her"
+                ],
+                "level": "B1",
+                "passageId": "en-b1-p-horen-t2-gist-technology-01-02"
+              }
+            ]
+          },
+          {
+            "id": "seg_2_5",
+            "label": "Recording 6",
+            "transcript": "Man: Are you still learning Spanish with that app?\nWoman: No, I gave up last month.\nMan: Really? I thought it was free.\nWoman: It is, and the games were fun. I learned loads of words. But when I went to Valencia, I couldn’t have a single conversation with anyone. All I’d done was press buttons! So now I go to an evening class where we actually talk to each other.\nMan: That sounds much more useful.",
+            "passageId": "en-b1-p-horen-t2-gist-technology-01-04",
+            "questions": [
+              {
+                "id": "ql_en-b1-h-t2-gist-technology-01-q4",
+                "type": "multiple_choice",
+                "question": "You will hear two friends talking about a language app. Why did the woman stop using it?",
+                "correct": "c",
+                "correctAnswer": "c",
+                "explanation": "In Valencia she \"couldn’t have a single conversation\", so now she goes to a class \"where we actually talk\". The app is free (\"It is\"), and she says \"the games were fun\".",
+                "grammarTags": [
+                  "g-en-b1-past-perfect"
+                ],
+                "topicTags": [
+                  "technology"
+                ],
+                "vocabularyTags": [
+                  "language",
+                  "speaking",
+                  "app"
+                ],
+                "difficulty": 4,
+                "options": [
+                  "a) She had to pay for it.",
+                  "b) The games were too easy.",
+                  "c) It didn’t help her to speak."
+                ],
+                "level": "B1",
+                "passageId": "en-b1-p-horen-t2-gist-technology-01-04"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "teil": 3,
+        "instruction": "Listen and answer the questions in Part 3.",
+        "blueprintSlot": "sentence_completion",
+        "transcript": "Woman: Good morning, everyone, and welcome to the Kingsley Theatre. My name’s Helen and I’ll be your guide this morning. The tour takes about an hour, so I hope you’re all wearing comfortable shoes.\n\nLet’s start with a bit of history. A lot of visitors think this building was once a church, because of the tall windows, but in fact it was built as a fish market. It only became a theatre in 1904, when a local businessman bought it and turned it into the place you see today.\n\nNow, if you follow me into the main hall… Here we are. When the theatre first opened, it had space for twelve hundred people, but in those days the seats were very narrow. After we put in new, more comfortable seats ten years ago, the number went down, and today we have eight hundred and fifty seats.\n\nDo look up at the ceiling. People usually expect a theatre ceiling to be red, but ours is green, with little gold stars painted all over it. It was cleaned last spring, so the colours are really bright again.\n\nNext we’re going backstage. Down these stairs is the workshop where the costumes are made. We have a team of four people who make everything by hand. The wigs, by the way, aren’t made here. We order those from a company in London.\n\nRight, now we’re on the stage itself. You’re welcome to walk around, and you can even sit on the furniture, which is from tonight’s show. The only thing I must ask is that you don’t touch the ropes at the side of the stage. They hold up the scenery, and they’re very heavy.\n\nThat’s nearly the end of the tour. Before you go, keep hold of your ticket. If you show it in the café on the ground floor, you’ll get ten per cent off anything you buy there today. I’m afraid the discount doesn’t work in the gift shop, though. Thank you all for coming, and I hope you enjoy the rest of your day.",
+        "segments": [
+          {
+            "id": "seg_3_0",
+            "label": "Recording 1",
+            "transcript": "Woman: Good morning, everyone, and welcome to the Kingsley Theatre. My name’s Helen and I’ll be your guide this morning. The tour takes about an hour, so I hope you’re all wearing comfortable shoes.\n\nLet’s start with a bit of history. A lot of visitors think this building was once a church, because of the tall windows, but in fact it was built as a fish market. It only became a theatre in 1904, when a local businessman bought it and turned it into the place you see today.\n\nNow, if you follow me into the main hall… Here we are. When the theatre first opened, it had space for twelve hundred people, but in those days the seats were very narrow. After we put in new, more comfortable seats ten years ago, the number went down, and today we have eight hundred and fifty seats.\n\nDo look up at the ceiling. People usually expect a theatre ceiling to be red, but ours is green, with little gold stars painted all over it. It was cleaned last spring, so the colours are really bright again.\n\nNext we’re going backstage. Down these stairs is the workshop where the costumes are made. We have a team of four people who make everything by hand. The wigs, by the way, aren’t made here. We order those from a company in London.\n\nRight, now we’re on the stage itself. You’re welcome to walk around, and you can even sit on the furniture, which is from tonight’s show. The only thing I must ask is that you don’t touch the ropes at the side of the stage. They hold up the scenery, and they’re very heavy.\n\nThat’s nearly the end of the tour. Before you go, keep hold of your ticket. If you show it in the café on the ground floor, you’ll get ten per cent off anything you buy there today. I’m afraid the discount doesn’t work in the gift shop, though. Thank you all for coming, and I hope you enjoy the rest of your day.",
+            "passageId": "en-b1-p-horen-t3-gapfill-theatre-tour-01-01",
+            "questions": [
+              {
+                "id": "ql_en-b1-h-t3-gapfill-theatre-tour-01-q1",
+                "type": "gap_fill",
+                "question": "The theatre building was first used as a ____.",
+                "correct": "fish market",
+                "correctAnswer": "fish market",
+                "explanation": "Helen says visitors think it was a church, \"but in fact it was built as a fish market\". The church is only what people wrongly believe.",
+                "grammarTags": [
+                  "g-en-b1-passive"
+                ],
+                "topicTags": [
+                  "entertainment"
+                ],
+                "vocabularyTags": [
+                  "buildings",
+                  "history"
+                ],
+                "difficulty": 4,
+                "acceptedAnswers": [
+                  "market"
+                ],
+                "level": "B1",
+                "passageId": "en-b1-p-horen-t3-gapfill-theatre-tour-01-01"
+              },
+              {
+                "id": "ql_en-b1-h-t3-gapfill-theatre-tour-01-q2",
+                "type": "gap_fill",
+                "question": "Number of seats in the theatre today: ____",
+                "correct": "850",
+                "correctAnswer": "850",
+                "explanation": "Twelve hundred was the number when the theatre first opened; Helen then says \"today we have eight hundred and fifty seats\".",
+                "grammarTags": [
+                  "g-en-b1-numbers"
+                ],
+                "topicTags": [
+                  "entertainment"
+                ],
+                "vocabularyTags": [
+                  "numbers",
+                  "theatre"
+                ],
+                "difficulty": 4,
+                "acceptedAnswers": [
+                  "eight hundred and fifty",
+                  "eight hundred fifty"
+                ],
+                "level": "B1",
+                "passageId": "en-b1-p-horen-t3-gapfill-theatre-tour-01-01"
+              },
+              {
+                "id": "ql_en-b1-h-t3-gapfill-theatre-tour-01-q3",
+                "type": "gap_fill",
+                "question": "Colour of the ceiling: ____, with gold stars",
+                "correct": "green",
+                "correctAnswer": "green",
+                "explanation": "People \"expect a theatre ceiling to be red, but ours is green, with little gold stars\". Red is what visitors expect, not the real colour.",
+                "grammarTags": [
+                  "g-en-b1-contrast-but"
+                ],
+                "topicTags": [
+                  "entertainment"
+                ],
+                "vocabularyTags": [
+                  "colours",
+                  "theatre"
+                ],
+                "difficulty": 3,
+                "level": "B1",
+                "passageId": "en-b1-p-horen-t3-gapfill-theatre-tour-01-01"
+              },
+              {
+                "id": "ql_en-b1-h-t3-gapfill-theatre-tour-01-q4",
+                "type": "gap_fill",
+                "question": "The workshop downstairs is where the ____ are made.",
+                "correct": "costumes",
+                "correctAnswer": "costumes",
+                "explanation": "\"Down these stairs is the workshop where the costumes are made.\" The wigs are not made there: \"We order those from a company in London.\"",
+                "grammarTags": [
+                  "g-en-b1-relative-clauses"
+                ],
+                "topicTags": [
+                  "entertainment"
+                ],
+                "vocabularyTags": [
+                  "theatre",
+                  "clothes"
+                ],
+                "difficulty": 4,
+                "level": "B1",
+                "passageId": "en-b1-p-horen-t3-gapfill-theatre-tour-01-01"
+              },
+              {
+                "id": "ql_en-b1-h-t3-gapfill-theatre-tour-01-q5",
+                "type": "gap_fill",
+                "question": "On the stage, visitors must not touch the ____.",
+                "correct": "ropes",
+                "correctAnswer": "ropes",
+                "explanation": "Visitors may walk around and sit on the furniture, but Helen asks \"that you don’t touch the ropes at the side of the stage\".",
+                "grammarTags": [
+                  "g-en-b1-modals"
+                ],
+                "topicTags": [
+                  "entertainment"
+                ],
+                "vocabularyTags": [
+                  "theatre",
+                  "rules"
+                ],
+                "difficulty": 5,
+                "level": "B1",
+                "passageId": "en-b1-p-horen-t3-gapfill-theatre-tour-01-01"
+              },
+              {
+                "id": "ql_en-b1-h-t3-gapfill-theatre-tour-01-q6",
+                "type": "gap_fill",
+                "question": "Show your ticket in the ____ to get ten per cent off.",
+                "correct": "café",
+                "correctAnswer": "café",
+                "explanation": "\"If you show it in the café on the ground floor, you’ll get ten per cent off\". The discount \"doesn’t work in the gift shop\".",
+                "grammarTags": [
+                  "g-en-b1-first-conditional"
+                ],
+                "topicTags": [
+                  "entertainment"
+                ],
+                "vocabularyTags": [
+                  "shopping",
+                  "places"
+                ],
+                "difficulty": 4,
+                "acceptedAnswers": [
+                  "cafe"
+                ],
+                "level": "B1",
+                "passageId": "en-b1-p-horen-t3-gapfill-theatre-tour-01-01"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "teil": 4,
+        "instruction": "Listen and answer the questions in Part 4.",
+        "blueprintSlot": "interview_mcq",
+        "transcript": "Interviewer: Today I’m talking to Megan Price, who opened her own bakery in the town of Ludlow two years ago. Megan, you used to work in an office, didn’t you?\n\nMegan: That’s right, I was in a bank for six years. The pay was fine and my colleagues were lovely, so people were surprised when I left. But I’d been baking at weekends for years, and I realised that Saturday mornings in the kitchen were the only time I felt really happy. In the end, I just couldn’t keep doing a job I didn’t care about.\n\nInterviewer: How did you feel on the day the shop opened?\n\nMegan: Honestly, I was terrified. Not about the baking, because I knew my bread was good. I kept thinking: what if I’ve spent all my savings and nobody comes through the door? Then at half past seven there was a queue outside, and I nearly cried.\n\nInterviewer: Bakers start work very early. How do you cope with that?\n\nMegan: I start at four. Everyone warned me it would be awful, but actually I don’t mind it at all. The streets are quiet, the radio’s on, and I get more done in those two hours than I used to in a whole day at the bank. What I do find hard is going to bed at nine.\n\nInterviewer: What makes a good bakery, in your opinion?\n\nMegan: Lots of people would say the recipes, and of course they matter. But for me, it’s the people behind the counter. If customers feel welcome, if you remember their names and what they like, they’ll come back even on a day when the croissants aren’t perfect.\n\nInterviewer: A lot of people buy their bread in supermarkets. Does that worry you?\n\nMegan: Not really. Some supermarket bread is perfectly nice, and it’s cheaper than mine, I know that. But I don’t think we’re really competing. People come to me for a treat, or for something special at the weekend, not for their everyday sandwich loaf.\n\nInterviewer: Finally, what would you say to young people who’d like to start their own business?\n\nMegan: Don’t wait until everything is perfect, because it never will be. But do get some experience first. I worked in another baker’s shop on Saturdays for a year before I opened mine, and I learned more there than from any book.\n\nInterviewer: Megan Price, thank you very much.",
+        "segments": [
+          {
+            "id": "seg_4_0",
+            "label": "Recording 1",
+            "transcript": "Interviewer: Today I’m talking to Megan Price, who opened her own bakery in the town of Ludlow two years ago. Megan, you used to work in an office, didn’t you?\n\nMegan: That’s right, I was in a bank for six years. The pay was fine and my colleagues were lovely, so people were surprised when I left. But I’d been baking at weekends for years, and I realised that Saturday mornings in the kitchen were the only time I felt really happy. In the end, I just couldn’t keep doing a job I didn’t care about.\n\nInterviewer: How did you feel on the day the shop opened?\n\nMegan: Honestly, I was terrified. Not about the baking, because I knew my bread was good. I kept thinking: what if I’ve spent all my savings and nobody comes through the door? Then at half past seven there was a queue outside, and I nearly cried.\n\nInterviewer: Bakers start work very early. How do you cope with that?\n\nMegan: I start at four. Everyone warned me it would be awful, but actually I don’t mind it at all. The streets are quiet, the radio’s on, and I get more done in those two hours than I used to in a whole day at the bank. What I do find hard is going to bed at nine.\n\nInterviewer: What makes a good bakery, in your opinion?\n\nMegan: Lots of people would say the recipes, and of course they matter. But for me, it’s the people behind the counter. If customers feel welcome, if you remember their names and what they like, they’ll come back even on a day when the croissants aren’t perfect.\n\nInterviewer: A lot of people buy their bread in supermarkets. Does that worry you?\n\nMegan: Not really. Some supermarket bread is perfectly nice, and it’s cheaper than mine, I know that. But I don’t think we’re really competing. People come to me for a treat, or for something special at the weekend, not for their everyday sandwich loaf.\n\nInterviewer: Finally, what would you say to young people who’d like to start their own business?\n\nMegan: Don’t wait until everything is perfect, because it never will be. But do get some experience first. I worked in another baker’s shop on Saturdays for a year before I opened mine, and I learned more there than from any book.\n\nInterviewer: Megan Price, thank you very much.",
+            "passageId": "en-b1-p-horen-t4-interview-baker-01-01",
+            "questions": [
+              {
+                "id": "ql_en-b1-h-t4-interview-baker-01-q1",
+                "type": "multiple_choice",
+                "question": "Why did Megan leave her job at the bank?",
+                "correct": "a",
+                "correctAnswer": "a",
+                "explanation": "Megan says \"Saturday mornings in the kitchen were the only time I felt really happy\". Money and colleagues were not the reason: \"The pay was fine and my colleagues were lovely\".",
+                "grammarTags": [
+                  "g-en-b1-past-perfect-continuous"
+                ],
+                "topicTags": [
+                  "work"
+                ],
+                "vocabularyTags": [
+                  "jobs",
+                  "feelings"
+                ],
+                "difficulty": 4,
+                "options": [
+                  "a) She was only really happy when baking.",
+                  "b) She did not get on with her colleagues.",
+                  "c) She was not earning enough money there."
+                ],
+                "level": "B1",
+                "passageId": "en-b1-p-horen-t4-interview-baker-01-01"
+              },
+              {
+                "id": "ql_en-b1-h-t4-interview-baker-01-q2",
+                "type": "multiple_choice",
+                "question": "How did Megan feel on the day her shop opened?",
+                "correct": "a",
+                "correctAnswer": "a",
+                "explanation": "She was \"terrified\" and kept thinking \"what if … nobody comes through the door?\" She was not worried about her bread: \"I knew my bread was good.\"",
+                "grammarTags": [
+                  "g-en-b1-past-continuous"
+                ],
+                "topicTags": [
+                  "work"
+                ],
+                "vocabularyTags": [
+                  "feelings",
+                  "shopping"
+                ],
+                "difficulty": 4,
+                "options": [
+                  "a) Afraid that no customers would come",
+                  "b) Worried that her bread was not good enough",
+                  "c) Excited about trying out new recipes"
+                ],
+                "level": "B1",
+                "passageId": "en-b1-p-horen-t4-interview-baker-01-01"
+              },
+              {
+                "id": "ql_en-b1-h-t4-interview-baker-01-q3",
+                "type": "multiple_choice",
+                "question": "What does Megan say about starting work very early?",
+                "correct": "b",
+                "correctAnswer": "b",
+                "explanation": "\"Everyone warned me it would be awful, but actually I don’t mind it at all.\" The thing she finds hard is \"going to bed at nine\", not the early start.",
+                "grammarTags": [
+                  "g-en-b1-reported-speech"
+                ],
+                "topicTags": [
+                  "work"
+                ],
+                "vocabularyTags": [
+                  "daily routine",
+                  "time"
+                ],
+                "difficulty": 5,
+                "options": [
+                  "a) She would like to start later in the day.",
+                  "b) It is not as bad as people told her.",
+                  "c) It is the hardest part of being a baker."
+                ],
+                "level": "B1",
+                "passageId": "en-b1-p-horen-t4-interview-baker-01-01"
+              },
+              {
+                "id": "ql_en-b1-h-t4-interview-baker-01-q4",
+                "type": "multiple_choice",
+                "question": "What does Megan think is most important in a bakery?",
+                "correct": "c",
+                "correctAnswer": "c",
+                "explanation": "\"For me, it’s the people behind the counter. If customers feel welcome, if you remember their names …\". She says recipes \"matter\" but are not the most important thing, and customers return \"even on a day when the croissants aren’t perfect\".",
+                "grammarTags": [
+                  "g-en-b1-first-conditional"
+                ],
+                "topicTags": [
+                  "work"
+                ],
+                "vocabularyTags": [
+                  "food",
+                  "shopping"
+                ],
+                "difficulty": 5,
+                "options": [
+                  "a) Recipes that no other shop uses",
+                  "b) Baking everything perfectly every single day",
+                  "c) Staff who make customers feel welcome"
+                ],
+                "level": "B1",
+                "passageId": "en-b1-p-horen-t4-interview-baker-01-01"
+              },
+              {
+                "id": "ql_en-b1-h-t4-interview-baker-01-q5",
+                "type": "multiple_choice",
+                "question": "What is Megan’s attitude towards supermarkets?",
+                "correct": "b",
+                "correctAnswer": "b",
+                "explanation": "\"I don’t think we’re really competing.\" She says supermarket bread can be \"perfectly nice\", and although it is cheaper, she answers \"Not really\" when asked if that worries her.",
+                "grammarTags": [
+                  "g-en-b1-comparatives"
+                ],
+                "topicTags": [
+                  "work"
+                ],
+                "vocabularyTags": [
+                  "shopping",
+                  "food"
+                ],
+                "difficulty": 5,
+                "options": [
+                  "a) She is worried because their prices are lower.",
+                  "b) She does not see them as real competition.",
+                  "c) She thinks the bread they sell is poor."
+                ],
+                "level": "B1",
+                "passageId": "en-b1-p-horen-t4-interview-baker-01-01"
+              },
+              {
+                "id": "ql_en-b1-h-t4-interview-baker-01-q6",
+                "type": "multiple_choice",
+                "question": "What advice does Megan give to young people?",
+                "correct": "c",
+                "correctAnswer": "c",
+                "explanation": "\"Do get some experience first.\" She says the opposite of waiting (\"Don’t wait until everything is perfect\") and learned more in a shop \"than from any book\".",
+                "grammarTags": [
+                  "g-en-b1-imperatives"
+                ],
+                "topicTags": [
+                  "work"
+                ],
+                "vocabularyTags": [
+                  "business",
+                  "advice"
+                ],
+                "difficulty": 4,
+                "options": [
+                  "a) Read as many business books as you can.",
+                  "b) Wait until all your plans are perfect.",
+                  "c) Get some practical experience first."
+                ],
+                "level": "B1",
+                "passageId": "en-b1-p-horen-t4-interview-baker-01-01"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "schreibenParts": [
+      {
+        "aufgabe": 1,
+        "fieldId": "write_bp_1",
+        "task": "Read this email from your English-speaking friend Sophie and the notes you have made.\n\nFrom: Sophie\nSubject: A job at the café\n\nHi!\nGuess what? The café where I work, Bean There, is looking for someone to help at weekends, and I immediately thought of you! [Note 1: Brilliant!] You’d work on Saturday and Sunday mornings from eight o’clock until one. Would those hours be OK for you? [Note 2: Explain] The work is mainly serving customers and clearing tables, but sometimes you’d help in the kitchen too. Which would you prefer to do? [Note 3: Tell Sophie] If you’re interested, my manager would like to meet you next week. When are you free? [Note 4: Suggest a day and time]\n\nLove,\nSophie\n\nWrite your email to Sophie using all the notes. Write about 100 words.",
+        "minWords": 80,
+        "maxWords": 80,
+        "targetWords": 80,
+        "mandatory": true,
+        "taskType": "email",
+        "blueprintSlot": "email",
+        "grammarTags": [
+          "g-en-b1-modals",
+          "g-en-b1-present-perfect"
+        ],
+        "topicTags": [
+          "work"
+        ],
+        "teil": 1
+      },
+      {
+        "aufgabe": 2,
+        "fieldId": "write_bp_2",
+        "task": "Choose ONE of these questions. Write your answer in about 100 words.\n\nQuestion 2 – Article\nYou see this announcement in an English-language magazine for young people.\n\nArticles wanted!\nMY FIRST JOB\nWhat was your first job, or what job would you like to do first? What did you learn, or what would you like to learn? Was it what you expected?\nWrite an article answering these questions. We will publish the best articles in our magazine.\n\nWrite your article.\n\nQuestion 3 – Story\nYour English teacher has asked you to write a story.\nYour story must begin with this sentence:\nIt was my first day at work and I was late.\n\nWrite your story.",
+        "minWords": 80,
+        "maxWords": 80,
+        "targetWords": 80,
+        "mandatory": false,
+        "taskType": "article",
+        "blueprintSlot": "choice_writing",
+        "grammarTags": [
+          "g-en-b1-past-simple",
+          "g-en-b1-past-perfect"
+        ],
+        "topicTags": [
+          "work"
+        ],
+        "teil": 2
+      }
+    ],
+    "sprechenParts": [
+      {
+        "teil": 1,
+        "title": "Part 1 — Speaking",
+        "fieldId": "speak_bp_1",
+        "situation": "Part 1 – Interview\nThe examiner asks you some questions about yourself. Answer each question and give some extra information.\n\nWhere do you live?\nCan you tell us something about your home?\nWhich room in your home do you like best? Why?\nWhat do you like about your neighbourhood?\nIs there anything you would like to change about the area where you live?",
+        "points": [
+          "interview"
+        ],
+        "blueprintSlot": "speaking_task",
+        "grammarTags": [
+          "g-en-b1-present-simple",
+          "g-en-b1-would-like"
+        ],
+        "topicTags": [
+          "home"
+        ]
+      },
+      {
+        "teil": 2,
+        "title": "Part 2 — Speaking",
+        "fieldId": "speak_bp_2",
+        "situation": "Part 2 – Photo description\nLook at the photograph. It shows a family doing jobs together in a kitchen. An adult is washing dishes at the sink, a teenager is drying plates with a towel and a young child is putting knives and forks into a drawer. A dog is sitting on the floor next to the child. The kitchen is bright, and there is a bowl of fruit on the table. Everyone is smiling. Tell us what you can see in the photograph.\n\nTalk for about one minute.",
+        "points": [
+          "photo_description"
+        ],
+        "blueprintSlot": "speaking_task",
+        "grammarTags": [
+          "g-en-b1-present-continuous",
+          "g-en-b1-prepositions-of-place"
+        ],
+        "topicTags": [
+          "home"
+        ]
+      },
+      {
+        "teil": 3,
+        "title": "Part 3 — Speaking",
+        "fieldId": "speak_bp_3",
+        "situation": "Part 3 – Collaborative task\nThe local council wants to make a neighbourhood a better place for young people. Here are some ideas they are thinking about.\n\na skate park\na youth club with games and music\na free outdoor cinema in summer\nmore cycle paths\na community garden\nfree sports lessons at weekends\n\nTalk together about how each idea could help young people in the neighbourhood. Then decide which idea would be the best.\n\nTalk together for about two or three minutes.",
+        "points": [
+          "collaborative_task"
+        ],
+        "blueprintSlot": "speaking_task",
+        "grammarTags": [
+          "g-en-b1-modals",
+          "g-en-b1-suggestions"
+        ],
+        "topicTags": [
+          "home"
+        ]
+      },
+      {
+        "teil": 4,
+        "title": "Part 4 — Speaking",
+        "fieldId": "speak_bp_4",
+        "situation": "Part 4 – General conversation\nThe examiner asks you and your partner some questions about homes and neighbours. Give your opinion and talk to your partner too.\n\nDo you know your neighbours well? Why or why not?\nHow can neighbours help each other?\nIs it better to live in a city or in the countryside? Why?\nWhat do young people in your area do in their free time?\nWhat kind of home would you like to live in in the future?",
+        "points": [
+          "general_conversation"
+        ],
+        "blueprintSlot": "speaking_task",
+        "grammarTags": [
+          "g-en-b1-comparatives",
+          "g-en-b1-would-like"
+        ],
+        "topicTags": [
+          "home"
+        ]
+      }
+    ],
+    "cambridgeFormat": true,
+    "curated": true
+  },
+  "provenance": {
+    "generatedBy": "publish-promote-candidates",
+    "validatedBy": "audit-pass-2+lexicalCheck+CefrGate",
+    "blueprintId": "cambridge-b1",
+    "cefrGate": {
+      "withinRange": true,
+      "metrics": {},
+      "reasons": []
+    },
+    "sourceBankIds": [
+      "en-b1-r-t1-notices-recycling-01-q3",
+      "en-b1-r-t1-notices-recycling-01-q4",
+      "en-b1-r-t1-notices-recycling-01-q1",
+      "en-b1-r-t1-notices-recycling-01-q5",
+      "en-b1-r-t1-notices-recycling-01-q2",
+      "en-b1-r-t2-match-walks-01-q1",
+      "en-b1-r-t2-match-walks-01-q2",
+      "en-b1-r-t2-match-walks-01-q3",
+      "en-b1-r-t2-match-walks-01-q4",
+      "en-b1-r-t2-match-walks-01-q5",
+      "en-b1-r-t3-long-bike-repair-01-q1",
+      "en-b1-r-t3-long-bike-repair-01-q2",
+      "en-b1-r-t3-long-bike-repair-01-q3",
+      "en-b1-r-t3-long-bike-repair-01-q4",
+      "en-b1-r-t3-long-bike-repair-01-q5",
+      "en-b1-r-t4-gapped-dog-training-01-q1",
+      "en-b1-r-t4-gapped-dog-training-01-q2",
+      "en-b1-r-t4-gapped-dog-training-01-q3",
+      "en-b1-r-t4-gapped-dog-training-01-q4",
+      "en-b1-r-t4-gapped-dog-training-01-q5",
+      "en-b1-r-t5-cloze-local-radio-01-q1",
+      "en-b1-r-t5-cloze-local-radio-01-q2",
+      "en-b1-r-t5-cloze-local-radio-01-q3",
+      "en-b1-r-t5-cloze-local-radio-01-q4",
+      "en-b1-r-t5-cloze-local-radio-01-q5",
+      "en-b1-r-t5-cloze-local-radio-01-q6",
+      "en-b1-r-t6-open-cloze-tree-planting-01-q1",
+      "en-b1-r-t6-open-cloze-tree-planting-01-q2",
+      "en-b1-r-t6-open-cloze-tree-planting-01-q3",
+      "en-b1-r-t6-open-cloze-tree-planting-01-q4",
+      "en-b1-r-t6-open-cloze-tree-planting-01-q5",
+      "en-b1-r-t6-open-cloze-tree-planting-01-q6",
+      "en-b1-h-t1-pics-presents-01-s3-q1",
+      "en-b1-h-t1-pics-presents-01-s1-q1",
+      "en-b1-h-t1-pics-presents-01-s4-q1",
+      "en-b1-h-t1-pics-presents-01-s7-q1",
+      "en-b1-h-t1-pics-presents-01-s6-q1",
+      "en-b1-h-t1-pics-presents-01-s2-q1",
+      "en-b1-h-t1-pics-presents-01-s5-q1",
+      "en-b1-h-t2-gist-technology-01-q6",
+      "en-b1-h-t2-gist-technology-01-q1",
+      "en-b1-h-t2-gist-technology-01-q3",
+      "en-b1-h-t2-gist-technology-01-q5",
+      "en-b1-h-t2-gist-technology-01-q2",
+      "en-b1-h-t2-gist-technology-01-q4",
+      "en-b1-h-t3-gapfill-theatre-tour-01-q1",
+      "en-b1-h-t3-gapfill-theatre-tour-01-q2",
+      "en-b1-h-t3-gapfill-theatre-tour-01-q3",
+      "en-b1-h-t3-gapfill-theatre-tour-01-q4",
+      "en-b1-h-t3-gapfill-theatre-tour-01-q5",
+      "en-b1-h-t3-gapfill-theatre-tour-01-q6",
+      "en-b1-h-t4-interview-baker-01-q1",
+      "en-b1-h-t4-interview-baker-01-q2",
+      "en-b1-h-t4-interview-baker-01-q3",
+      "en-b1-h-t4-interview-baker-01-q4",
+      "en-b1-h-t4-interview-baker-01-q5",
+      "en-b1-h-t4-interview-baker-01-q6",
+      "en-b1-w-t1-email-part-time-job-01-q1",
+      "en-b1-w-t2-email-part-time-job-01-q1",
+      "en-b1-s-t1-speaking-home-neighbourhood-01-q1",
+      "en-b1-s-t2-speaking-home-neighbourhood-01-q1",
+      "en-b1-s-t3-speaking-home-neighbourhood-01-q1",
+      "en-b1-s-t4-speaking-home-neighbourhood-01-q1"
+    ],
+    "validationErrors": [],
+    "createdAt": "2026-10-12T19:44:12.966Z",
+    "strategy": "B"
+  }
+}

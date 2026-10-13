@@ -1,0 +1,80 @@
+{
+  "passages": [],
+  "questions": [
+    {
+      "id": "en-b1-w-t1-email-school-project-01-q1",
+      "module": "schreiben",
+      "teil": 1,
+      "type": "short_answer",
+      "taskTypes": [
+        "email"
+      ],
+      "question": "Part 1. You must answer this question.\n\nRead this email from your classmate Priya and the notes you have made.\n\nFrom: Priya\nSubject: Our science project\n\nHi!\n\nI'm really happy we're doing the science project together. Mr Evans says we can choose between two topics: 'Plastic in the sea' or 'Saving energy at home'. Which one do you prefer? [Note 1: Say which and why]\n\nWe need to meet to work on it before the end of next week. When are you free? [Note 2: Tell Priya]\n\nWe also have to make a poster to go with our talk. I'm not very good at drawing, so what could we do? [Note 3: Suggest …]\n\nOh, and we have to give the talk in front of the whole class. I get really nervous when I speak in public! [Note 4: Give Priya some advice]\n\nSee you soon,\nPriya\n\nWrite your email to Priya using all the notes. Write about 100 words.",
+      "correct": "rubric",
+      "correctAnswer": "rubric",
+      "explanation": "A good answer is a friendly email (e.g. 'Hi Priya,' … 'See you soon,') of about 100 words that deals with all four notes: (1) chooses one of the two topics and gives a reason ('I'd prefer Saving energy at home because we can do experiments in our own houses'); (2) says when the writer is free ('I'm free on Tuesday after school or on Thursday afternoon'); (3) makes a suggestion about the poster ('We could use photos from the internet' / 'Why don't we ask my brother? He draws really well'); (4) gives advice about speaking in public ('Try to practise the talk at home first' / 'Don't worry, I'll speak first'). Marks are given for Content (all four notes answered), Communicative Achievement (friendly, informal tone suitable for a classmate), Organisation (clear paragraphs, linking words such as 'because', 'also', 'so') and Language (a range of B1 vocabulary and structures, e.g. 'I'd prefer', 'Why don't we…?', 'You should…'). An answer that misses a note cannot get full marks for Content.",
+      "options": [],
+      "grammarTags": [
+        "g-en-b1-modals",
+        "g-en-b1-suggestions"
+      ],
+      "topicTags": [
+        "education"
+      ],
+      "vocabularyTags": [
+        "project",
+        "poster",
+        "presentation",
+        "topic",
+        "nervous"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "writing"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-w-t2-email-school-project-01-q1",
+      "module": "schreiben",
+      "teil": 2,
+      "type": "short_answer",
+      "taskTypes": [
+        "article",
+        "story"
+      ],
+      "question": "Part 2. Choose ONE of these questions. Write your answer in about 100 words.\n\nQuestion 2: Article\nYou see this notice in an English-language magazine for young people.\n\nARTICLES WANTED!\nSomething new I learned this year\nWhat new thing did you learn this year? How did you learn it? Why was it important to you?\nWrite an article answering these questions. We will publish the best articles in next month's magazine.\n\nWrite your article.\n\nQuestion 3: Story\nYour English teacher has asked you to write a story.\nYour story must begin with this sentence:\n'The teacher smiled and handed me the results.'\n\nWrite your story.",
+      "correct": "rubric",
+      "correctAnswer": "rubric",
+      "explanation": "Candidates answer only ONE question, in about 100 words. Article: a good answer has a title, catches the reader's interest (e.g. a question to the reader), and answers all three questions in the notice: what was learned (e.g. how to cook, a new language, a musical instrument), how (from a course, a family member, online videos) and why it mattered (it made the writer more confident, helped the family). It should express personal opinions and feelings ('I was surprised how…', 'The best thing was…'). Story: the story must begin with the given sentence and continue logically from it (what the results were, how the writer felt, what happened next). It needs a clear beginning, middle and end, past tenses used correctly (past simple, past continuous, past perfect where possible), and linking words for sequence ('At first', 'Then', 'In the end'). Both are marked for Content, Communicative Achievement, Organisation and Language.",
+      "options": [],
+      "grammarTags": [
+        "g-en-b1-past-simple",
+        "g-en-b1-present-perfect"
+      ],
+      "topicTags": [
+        "education"
+      ],
+      "vocabularyTags": [
+        "learn",
+        "results",
+        "skill",
+        "proud",
+        "improve"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "writing"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    }
+  ],
+  "_germanCapsNormalizeVersion": "v3.23-lesen-t2-angebote-corpus-2026-07-28",
+  "_germanCapsNormalizedAt": "2026-10-12T14:44:04.963Z",
+  "_balanceMcqVersion": "v1.2-no-rf-chrono-shuffle-2026-07-11",
+  "_balanceMcqNormalizedAt": "2026-10-12T14:44:04.963Z"
+}

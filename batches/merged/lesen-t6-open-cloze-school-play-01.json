@@ -1,0 +1,197 @@
+{
+  "passages": [
+    {
+      "id": "en-b1-p-lesen-t6-open-cloze-school-play-01-01",
+      "module": "lesen",
+      "title": "My part in The Lighthouse",
+      "text": "Last term I took part in my school's production of a musical called The Lighthouse. Our drama teacher, Mr Okafor, (1) ____ has written several plays himself, gave me the role of the old lighthouse keeper.\n\nI was delighted, but I soon realised I had more than two hundred lines to learn (2) ____ heart. \"You (3) ____ better start learning them today, or you won't be ready,\" Mr Okafor warned. So every evening my mum read the other characters' lines while I practised mine.\n\nRehearsals were hard work, but the cast became really close. We helped (4) ____ other with difficult scenes, and the older students gave us useful advice about staying calm on stage.\n\nOn the first night I was the (5) ____ nervous I have ever been: my hands were shaking and my mouth was completely dry. But as soon (6) ____ the curtain went up and I heard the audience laugh at my first joke, my nerves disappeared.\n\nWe performed the show three times, and every night the hall was full. I'm already hoping to get a part in next year's play.",
+      "passageVocab": [
+        "production",
+        "role",
+        "rehearsal",
+        "cast",
+        "audience"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "en-b1-r-t6-open-cloze-school-play-01-q1",
+      "module": "lesen",
+      "teil": 6,
+      "type": "gap_fill",
+      "passageId": "en-b1-p-lesen-t6-open-cloze-school-play-01-01",
+      "question": "Write ONE word for gap (1).",
+      "options": [],
+      "correct": "who",
+      "correctAnswer": "who",
+      "explanation": "This is a non-defining relative clause between commas about a person: \"Mr Okafor, who has written several plays himself, gave me the role\". 'That' cannot be used after a comma in this kind of clause, and 'which' is for things.",
+      "grammarTags": [
+        "g-en-b1-relative-clauses"
+      ],
+      "topicTags": [
+        "school"
+      ],
+      "vocabularyTags": [
+        "drama teacher",
+        "play"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-r-t6-open-cloze-school-play-01-q2",
+      "module": "lesen",
+      "teil": 6,
+      "type": "gap_fill",
+      "passageId": "en-b1-p-lesen-t6-open-cloze-school-play-01-01",
+      "question": "Write ONE word for gap (2).",
+      "options": [],
+      "correct": "by",
+      "correctAnswer": "by",
+      "explanation": "The fixed phrase is 'learn something by heart', meaning learn it so you can say it from memory: \"two hundred lines to learn by heart\".",
+      "grammarTags": [
+        "g-en-b1-fixed-phrases"
+      ],
+      "topicTags": [
+        "school"
+      ],
+      "vocabularyTags": [
+        "learn by heart",
+        "line"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-r-t6-open-cloze-school-play-01-q3",
+      "module": "lesen",
+      "teil": 6,
+      "type": "gap_fill",
+      "passageId": "en-b1-p-lesen-t6-open-cloze-school-play-01-01",
+      "question": "Write ONE word for gap (3).",
+      "options": [],
+      "correct": "had",
+      "correctAnswer": "had",
+      "explanation": "'Had better' + infinitive without 'to' gives strong advice or a warning: \"You had better start learning them today, or you won't be ready,\" Mr Okafor warned. Only 'had' can go before 'better' here; 'would', 'should' or 'must' + 'better' are not possible.",
+      "grammarTags": [
+        "g-en-b1-modals"
+      ],
+      "topicTags": [
+        "school"
+      ],
+      "vocabularyTags": [
+        "had better",
+        "warn"
+      ],
+      "difficulty": 5,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-r-t6-open-cloze-school-play-01-q4",
+      "module": "lesen",
+      "teil": 6,
+      "type": "gap_fill",
+      "passageId": "en-b1-p-lesen-t6-open-cloze-school-play-01-01",
+      "question": "Write ONE word for gap (4).",
+      "options": [],
+      "correct": "each",
+      "correctAnswer": "each",
+      "explanation": "'Each other' shows that people do the same thing to one another: the cast \"helped each other with difficult scenes\".",
+      "grammarTags": [
+        "g-en-b1-pronouns"
+      ],
+      "topicTags": [
+        "school"
+      ],
+      "vocabularyTags": [
+        "each other",
+        "scene"
+      ],
+      "difficulty": 3,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-r-t6-open-cloze-school-play-01-q5",
+      "module": "lesen",
+      "teil": 6,
+      "type": "gap_fill",
+      "passageId": "en-b1-p-lesen-t6-open-cloze-school-play-01-01",
+      "question": "Write ONE word for gap (5).",
+      "options": [],
+      "correct": "most",
+      "correctAnswer": "most",
+      "explanation": "A superlative with a long adjective is 'the most + adjective', often with 'I have ever been': \"I was the most nervous I have ever been\". 'Least' is impossible because \"my hands were shaking and my mouth was completely dry\".",
+      "grammarTags": [
+        "g-en-b1-superlatives"
+      ],
+      "topicTags": [
+        "school"
+      ],
+      "vocabularyTags": [
+        "nervous",
+        "the most"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-r-t6-open-cloze-school-play-01-q6",
+      "module": "lesen",
+      "teil": 6,
+      "type": "gap_fill",
+      "passageId": "en-b1-p-lesen-t6-open-cloze-school-play-01-01",
+      "question": "Write ONE word for gap (6).",
+      "options": [],
+      "correct": "as",
+      "correctAnswer": "as",
+      "explanation": "The time conjunction is as soon as, meaning immediately when: \"as soon as the curtain went up … my nerves disappeared\". The second as completes the fixed phrase; no other word fits after as soon.",
+      "grammarTags": [
+        "g-en-b1-time-conjunctions"
+      ],
+      "topicTags": [
+        "school"
+      ],
+      "vocabularyTags": [
+        "as soon as",
+        "curtain"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    }
+  ],
+  "_germanCapsNormalizeVersion": "v3.23-lesen-t2-angebote-corpus-2026-07-28",
+  "_germanCapsNormalizedAt": "2026-10-12T19:48:36.921Z",
+  "_balanceMcqVersion": "v1.2-no-rf-chrono-shuffle-2026-07-11",
+  "_balanceMcqNormalizedAt": "2026-10-12T19:48:36.921Z"
+}

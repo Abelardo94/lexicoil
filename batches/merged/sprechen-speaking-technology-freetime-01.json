@@ -1,0 +1,147 @@
+{
+  "passages": [],
+  "questions": [
+    {
+      "id": "en-b1-s-t1-speaking-technology-freetime-01-q1",
+      "module": "sprechen",
+      "teil": 1,
+      "type": "short_answer",
+      "taskTypes": [
+        "interview"
+      ],
+      "question": "Part 1 (2-3 minutes). The examiner asks you some questions about yourself.\n\nWhat's your name? Do you work or are you a student?\nHow often do you use your mobile phone?\nWhat do you use the internet for?\nWhich app do you use most? Why?\nTell us about the first computer or phone you had.\nDo you like playing computer games? Why / Why not?",
+      "correct": "rubric",
+      "correctAnswer": "rubric",
+      "explanation": "Answer each question with a short answer and then add a reason or an example: 'I use my phone all the time, mostly to send messages to my friends and listen to music on the bus.' Use the present simple for habits ('I usually check my messages in the morning'), the past simple for the past ('My first phone was my mum's old one, and it was very slow') and give reasons with 'because'. The examiner assesses Grammar and Vocabulary, Discourse Management (extending answers), Pronunciation and Interactive Communication.",
+      "options": [],
+      "grammarTags": [
+        "g-en-b1-present-simple",
+        "g-en-b1-past-simple"
+      ],
+      "topicTags": [
+        "technology"
+      ],
+      "vocabularyTags": [
+        "mobile phone",
+        "app",
+        "internet",
+        "computer game"
+      ],
+      "difficulty": 5,
+      "skills": [
+        "speaking"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-s-t2-speaking-technology-freetime-01-q1",
+      "module": "sprechen",
+      "teil": 2,
+      "type": "short_answer",
+      "taskTypes": [
+        "photo_description"
+      ],
+      "question": "Part 2 (about 1 minute). Look at the photograph. It shows a grandmother and two teenagers sitting together on a sofa in a living room. One of the teenagers is holding a tablet and showing her something on the screen, and they are all laughing. Tell us what you can see in the photograph.",
+      "correct": "rubric",
+      "correctAnswer": "rubric",
+      "explanation": "Talk on your own for about one minute. Say where the people are ('They're in a living room, maybe at the grandmother's house'), who they are and what they are doing, using the present continuous ('One of the teenagers is holding a tablet', 'They're all laughing'). Describe details such as the furniture, their clothes and their faces, and guess about the situation ('Perhaps they're watching a funny video', 'I think the teenagers are teaching their grandmother how to use the tablet'). Useful language: 'On the left / right…', 'Next to her…', 'It looks as if…', 'They might be…'. If you don't know a word, describe it in other words. Keep talking until the examiner says thank you.",
+      "options": [],
+      "grammarTags": [
+        "g-en-b1-present-continuous",
+        "g-en-b1-speculation"
+      ],
+      "topicTags": [
+        "technology"
+      ],
+      "vocabularyTags": [
+        "tablet",
+        "screen",
+        "sofa",
+        "grandmother",
+        "laugh"
+      ],
+      "difficulty": 5,
+      "skills": [
+        "speaking"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-s-t3-speaking-technology-freetime-01-q1",
+      "module": "sprechen",
+      "teil": 3,
+      "type": "short_answer",
+      "taskTypes": [
+        "collaborative_task"
+      ],
+      "question": "Part 3 (2-3 minutes). Talk to your partner.\n\nA family wants to spend a whole weekend without phones, computers or television. Here are some things they could do instead:\n\nplay board games\ngo for a bike ride\nbake a cake together\nvisit a museum\ncamp in the garden\nlearn to play a musical instrument\n\nTalk together about the different things the family could do, and say which would be the most enjoyable for the whole family.",
+      "correct": "rubric",
+      "correctAnswer": "rubric",
+      "explanation": "This is a conversation with your partner, not a speech. Talk about each activity, give your opinion with a reason and ask your partner what they think: 'Baking a cake is a good idea because everyone can help, and then you can eat it! What do you think?' Remember the family has people of different ages, and they must not use screens. Agree and disagree politely ('I see what you mean, but…', 'I'm not so sure about that…') and make suggestions ('What about…?', 'They could…'). Near the end, try to reach a decision together: 'So, do we agree on camping in the garden?' The examiner assesses how well you keep the conversation going and respond to your partner.",
+      "options": [],
+      "grammarTags": [
+        "g-en-b1-suggestions",
+        "g-en-b1-agreeing-disagreeing"
+      ],
+      "topicTags": [
+        "technology"
+      ],
+      "vocabularyTags": [
+        "board game",
+        "bake",
+        "screen",
+        "enjoyable",
+        "activity"
+      ],
+      "difficulty": 5,
+      "skills": [
+        "speaking"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-s-t4-speaking-technology-freetime-01-q1",
+      "module": "sprechen",
+      "teil": 4,
+      "type": "short_answer",
+      "taskTypes": [
+        "general_conversation"
+      ],
+      "question": "Part 4 (about 3 minutes). The examiner asks you and your partner some questions about technology and free time.\n\nWhat do you like doing in your free time when you are not using a screen?\nDo you think people spend too much time on their phones? Why / Why not?\nHow has technology changed the way families spend time together?\nIs it a good idea to learn new skills from online videos? Why / Why not?\nWould you find it difficult to live without the internet for a week? Why?",
+      "correct": "rubric",
+      "correctAnswer": "rubric",
+      "explanation": "Give full answers with reasons and examples, and react to what your partner says ('I agree with you, because…', 'Really? I think…'). For example: 'I think technology has made families talk less, because everyone looks at their own phone during dinner.' Use phrases for opinions ('In my opinion…', 'I believe that…', 'On the other hand…'), the present perfect for changes ('Technology has changed…') and 'would' for imaginary situations ('It would be hard, but I'd read more books'). The examiner assesses range of language, extending answers and interaction with your partner.",
+      "options": [],
+      "grammarTags": [
+        "g-en-b1-opinions",
+        "g-en-b1-present-perfect"
+      ],
+      "topicTags": [
+        "technology"
+      ],
+      "vocabularyTags": [
+        "free time",
+        "screen",
+        "online",
+        "skill"
+      ],
+      "difficulty": 5,
+      "skills": [
+        "speaking"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    }
+  ],
+  "_germanCapsNormalizeVersion": "v3.23-lesen-t2-angebote-corpus-2026-07-28",
+  "_germanCapsNormalizedAt": "2026-10-12T14:44:06.068Z",
+  "_balanceMcqVersion": "v1.2-no-rf-chrono-shuffle-2026-07-11",
+  "_balanceMcqNormalizedAt": "2026-10-12T14:44:06.068Z"
+}

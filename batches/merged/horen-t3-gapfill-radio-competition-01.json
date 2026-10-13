@@ -1,0 +1,208 @@
+{
+  "passages": [
+    {
+      "id": "en-b1-p-horen-t3-gapfill-radio-competition-01-01",
+      "module": "horen",
+      "title": "Radio Harbourside Young Writers’ Competition",
+      "text": "Man: And now some exciting news for all you young writers out there. Here at Radio Harbourside we’re running our Young Writers’ Competition again, and this year it’s bigger than ever.\n\nFirst of all, who can enter? Last year the competition was open to anyone between eleven and eighteen, but we had so many entries from older teenagers that this year we’re making it just for younger writers. So, if you’re aged between eleven and sixteen, you can take part.\n\nNow, the subject. Last year’s stories were all about friendship, and we read some wonderful ones. This year we want you to write a story about a journey. It could be a trip to the other side of the world or just the walk to school. Use your imagination!\n\nYour story mustn’t be longer than eight hundred words. I know some competitions ask for five hundred, but we want to give you a bit more space. Please don’t go over the limit, though, or the judges won’t read it.\n\nHere’s the really exciting part. The three best stories will be read out on the radio in June. Not by me, I’m pleased to say, but by a well-known actor. We can’t tell you who yet, but you’ll certainly recognise the voice.\n\nAnd the prizes? Everyone on the shortlist gets a set of books, and the winner will receive a laptop, which we hope will help with all your future writing.\n\nTo enter, just send your story to the address on our website before the thirtieth of April. Don’t forget to put your name and age at the top. We won’t be sending emails to tell people the results. Instead, the winners will be contacted by phone in the middle of May, so make sure you include a phone number for a parent or carer.\n\nGood luck, everybody. We can’t wait to read your stories.",
+      "passageVocab": [
+        "competition",
+        "entry",
+        "judge",
+        "shortlist",
+        "prize"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "en-b1-h-t3-gapfill-radio-competition-01-q1",
+      "module": "horen",
+      "teil": 3,
+      "type": "gap_fill",
+      "question": "This year, writers must be aged between 11 and ____.",
+      "correct": "16",
+      "correctAnswer": "16",
+      "acceptedAnswers": [
+        "sixteen"
+      ],
+      "explanation": "Eighteen was last year’s limit. This year: \"if you’re aged between eleven and sixteen, you can take part\".",
+      "options": [],
+      "passageId": "en-b1-p-horen-t3-gapfill-radio-competition-01-01",
+      "grammarTags": [
+        "g-en-b1-numbers"
+      ],
+      "topicTags": [
+        "media"
+      ],
+      "vocabularyTags": [
+        "age",
+        "numbers"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-h-t3-gapfill-radio-competition-01-q2",
+      "module": "horen",
+      "teil": 3,
+      "type": "gap_fill",
+      "question": "Subject of this year’s stories: a ____",
+      "correct": "journey",
+      "correctAnswer": "journey",
+      "explanation": "\"This year we want you to write a story about a journey.\" Friendship was the subject of \"last year’s stories\".",
+      "options": [],
+      "passageId": "en-b1-p-horen-t3-gapfill-radio-competition-01-01",
+      "grammarTags": [
+        "g-en-b1-want-object-infinitive"
+      ],
+      "topicTags": [
+        "media"
+      ],
+      "vocabularyTags": [
+        "travel",
+        "writing"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-h-t3-gapfill-radio-competition-01-q3",
+      "module": "horen",
+      "teil": 3,
+      "type": "gap_fill",
+      "question": "Maximum length of the story: ____ words",
+      "correct": "800",
+      "correctAnswer": "800",
+      "acceptedAnswers": [
+        "eight hundred"
+      ],
+      "explanation": "\"Your story mustn’t be longer than eight hundred words.\" Five hundred is the limit in \"some competitions\", not this one.",
+      "options": [],
+      "passageId": "en-b1-p-horen-t3-gapfill-radio-competition-01-01",
+      "grammarTags": [
+        "g-en-b1-comparatives"
+      ],
+      "topicTags": [
+        "media"
+      ],
+      "vocabularyTags": [
+        "numbers",
+        "writing"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-h-t3-gapfill-radio-competition-01-q4",
+      "module": "horen",
+      "teil": 3,
+      "type": "gap_fill",
+      "question": "The three best stories will be read on the radio by a famous ____.",
+      "correct": "actor",
+      "correctAnswer": "actor",
+      "explanation": "The stories will be read \"not by me … but by a well-known actor\". The presenter will not read them.",
+      "options": [],
+      "passageId": "en-b1-p-horen-t3-gapfill-radio-competition-01-01",
+      "grammarTags": [
+        "g-en-b1-passive"
+      ],
+      "topicTags": [
+        "media"
+      ],
+      "vocabularyTags": [
+        "jobs",
+        "entertainment"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-h-t3-gapfill-radio-competition-01-q5",
+      "module": "horen",
+      "teil": 3,
+      "type": "gap_fill",
+      "question": "Prize for the winner: a ____",
+      "correct": "laptop",
+      "correctAnswer": "laptop",
+      "explanation": "\"The winner will receive a laptop.\" The set of books goes to \"everyone on the shortlist\", not only the winner.",
+      "options": [],
+      "passageId": "en-b1-p-horen-t3-gapfill-radio-competition-01-01",
+      "grammarTags": [
+        "g-en-b1-future-will"
+      ],
+      "topicTags": [
+        "media"
+      ],
+      "vocabularyTags": [
+        "technology",
+        "prizes"
+      ],
+      "difficulty": 3,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-h-t3-gapfill-radio-competition-01-q6",
+      "module": "horen",
+      "teil": 3,
+      "type": "gap_fill",
+      "question": "Winners will be told the results by ____ in May.",
+      "correct": "phone",
+      "correctAnswer": "phone",
+      "acceptedAnswers": [
+        "telephone",
+        "phone call",
+        "a phone call"
+      ],
+      "explanation": "\"We won’t be sending emails … Instead, the winners will be contacted by phone in the middle of May\".",
+      "options": [],
+      "passageId": "en-b1-p-horen-t3-gapfill-radio-competition-01-01",
+      "grammarTags": [
+        "g-en-b1-passive"
+      ],
+      "topicTags": [
+        "media"
+      ],
+      "vocabularyTags": [
+        "communication",
+        "technology"
+      ],
+      "difficulty": 5,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    }
+  ],
+  "_germanCapsNormalizeVersion": "v3.23-lesen-t2-angebote-corpus-2026-07-28",
+  "_germanCapsNormalizedAt": "2026-10-12T19:15:53.605Z",
+  "_balanceMcqVersion": "v1.2-no-rf-chrono-shuffle-2026-07-11",
+  "_balanceMcqNormalizedAt": "2026-10-12T19:15:53.605Z"
+}

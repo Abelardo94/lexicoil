@@ -1,0 +1,2192 @@
+{
+  "id": "curated_en_B1_00590c325318",
+  "lang": "en",
+  "level": "B1",
+  "topic": "sport",
+  "curated": true,
+  "exam": {
+    "topic": "sport",
+    "level": "B1",
+    "lang": "en",
+    "goetheFormat": true,
+    "libraryBuilt": true,
+    "blueprintId": "cambridge-b1",
+    "blueprintCoverage": [
+      {
+        "module": "lesen",
+        "teil": 1,
+        "slotType": "signs_notices_mcq",
+        "taskFormat": "short_text_mcq",
+        "target": 5,
+        "filled": 5,
+        "complete": true,
+        "wordsPerPassage": {
+          "min": 150,
+          "max": 800
+        }
+      },
+      {
+        "module": "lesen",
+        "teil": 2,
+        "slotType": "person_text_matching",
+        "taskFormat": "multiple_matching",
+        "target": 5,
+        "filled": 5,
+        "complete": true,
+        "wordsPerPassage": {
+          "min": 150,
+          "max": 800
+        }
+      },
+      {
+        "module": "lesen",
+        "teil": 3,
+        "slotType": "long_text",
+        "taskFormat": "long_text_mcq",
+        "target": 5,
+        "filled": 5,
+        "complete": true,
+        "wordsPerPassage": {
+          "min": 150,
+          "max": 800
+        }
+      },
+      {
+        "module": "lesen",
+        "teil": 4,
+        "slotType": "gapped_text",
+        "taskFormat": "gapped_text",
+        "target": 5,
+        "filled": 5,
+        "complete": true,
+        "wordsPerPassage": {
+          "min": 150,
+          "max": 800
+        }
+      },
+      {
+        "module": "lesen",
+        "teil": 5,
+        "slotType": "mcq_gap_fill",
+        "taskFormat": "multiple_choice_cloze",
+        "target": 6,
+        "filled": 6,
+        "complete": true,
+        "wordsPerPassage": {
+          "min": 150,
+          "max": 800
+        }
+      },
+      {
+        "module": "lesen",
+        "teil": 6,
+        "slotType": "open_cloze",
+        "taskFormat": "open_cloze",
+        "target": 6,
+        "filled": 6,
+        "complete": true,
+        "wordsPerPassage": {
+          "min": 150,
+          "max": 800
+        }
+      },
+      {
+        "module": "horen",
+        "teil": 1,
+        "slotType": "picture_mcq",
+        "taskFormat": "picture_multiple_choice",
+        "target": 7,
+        "filled": 7,
+        "complete": true,
+        "wordsPerPassage": null
+      },
+      {
+        "module": "horen",
+        "teil": 2,
+        "slotType": "short_dialogue_mcq",
+        "taskFormat": "short_dialogue_mcq",
+        "target": 6,
+        "filled": 6,
+        "complete": true,
+        "wordsPerPassage": null
+      },
+      {
+        "module": "horen",
+        "teil": 3,
+        "slotType": "sentence_completion",
+        "taskFormat": "sentence_completion",
+        "target": 6,
+        "filled": 6,
+        "complete": true,
+        "wordsPerPassage": null
+      },
+      {
+        "module": "horen",
+        "teil": 4,
+        "slotType": "interview_mcq",
+        "taskFormat": "interview_mcq",
+        "target": 6,
+        "filled": 6,
+        "complete": true,
+        "wordsPerPassage": null
+      },
+      {
+        "module": "schreiben",
+        "teil": 1,
+        "slotType": "email",
+        "taskFormat": "email",
+        "target": 1,
+        "filled": 1,
+        "complete": true,
+        "wordsPerPassage": {
+          "min": 100,
+          "max": 120
+        }
+      },
+      {
+        "module": "schreiben",
+        "teil": 2,
+        "slotType": "choice_writing",
+        "taskFormat": "choice_writing",
+        "target": 1,
+        "filled": 1,
+        "complete": true,
+        "wordsPerPassage": {
+          "min": 100,
+          "max": 120
+        }
+      },
+      {
+        "module": "sprechen",
+        "teil": 1,
+        "slotType": "speaking_task",
+        "taskFormat": "speaking_prompt",
+        "target": 1,
+        "filled": 1,
+        "complete": true,
+        "wordsPerPassage": null
+      },
+      {
+        "module": "sprechen",
+        "teil": 2,
+        "slotType": "speaking_task",
+        "taskFormat": "speaking_prompt",
+        "target": 1,
+        "filled": 1,
+        "complete": true,
+        "wordsPerPassage": null
+      },
+      {
+        "module": "sprechen",
+        "teil": 3,
+        "slotType": "speaking_task",
+        "taskFormat": "speaking_prompt",
+        "target": 1,
+        "filled": 1,
+        "complete": true,
+        "wordsPerPassage": null
+      },
+      {
+        "module": "sprechen",
+        "teil": 4,
+        "slotType": "speaking_task",
+        "taskFormat": "speaking_prompt",
+        "target": 1,
+        "filled": 1,
+        "complete": true,
+        "wordsPerPassage": null
+      }
+    ],
+    "blueprintComplete": true,
+    "libraryVersion": 5,
+    "topicTags": [
+      "sport",
+      "technology",
+      "education",
+      "travel",
+      "people",
+      "health",
+      "entertainment",
+      "food-cooking",
+      "travel-holidays",
+      "animals",
+      "shopping"
+    ],
+    "difficulty": 5,
+    "official": {
+      "board": "Cambridge Assessment English",
+      "certificate": "B1 Preliminary (PET)",
+      "note": "Assembled from question library using official exam blueprint (no runtime AI)."
+    },
+    "modules": {
+      "lesen": {
+        "title": "Reading",
+        "time": "75 minutes"
+      },
+      "horen": {
+        "title": "Listening",
+        "time": "40 minutes"
+      },
+      "schreiben": {
+        "title": "Writing",
+        "time": "80 minutes"
+      },
+      "sprechen": {
+        "title": "Speaking",
+        "time": "15 minutes"
+      }
+    },
+    "lesenParts": [
+      {
+        "teil": 1,
+        "instruction": "Read the text(s) and answer the questions in Part 1.",
+        "blueprintSlot": "signs_notices_mcq",
+        "items": [
+          {
+            "id": "ql_en-b1-r-t1-notices-swimming-pool-01-q1",
+            "type": "multiple_choice",
+            "signText": "LOCKERS\nPlease put a £1 coin in the slot to lock your locker. Your coin will come back to you when you open it again. Lost keys cost £15 to replace.",
+            "passageId": "en-b1-p-lesen-t1-notices-swimming-pool-01-01",
+            "question": "What does the sign say?",
+            "options": [
+              "a) You have to pay £1 every time you open your locker.",
+              "b) You can buy a locker key at reception for £15.",
+              "c) You get your £1 back when you unlock the locker."
+            ],
+            "correct": "c",
+            "grammarTags": [
+              "g-en-b1-future-forms"
+            ],
+            "topicTags": [
+              "sport"
+            ],
+            "vocabularyTags": [
+              "locker",
+              "coin",
+              "replace"
+            ],
+            "difficulty": 3,
+            "explanation": "The sign says 'Your coin will come back to you when you open it again', so using a locker costs nothing in the end. You do not pay each time you open it, and £15 is what it costs if you lose a key, not the price of buying one."
+          },
+          {
+            "id": "ql_en-b1-r-t1-notices-swimming-pool-01-q4",
+            "type": "multiple_choice",
+            "signText": "FAMILY CHANGING ROOM\nFor adults with children under 8 only.\nChildren aged 8 and over must use the male or female changing rooms. Thank you.",
+            "passageId": "en-b1-p-lesen-t1-notices-swimming-pool-01-04",
+            "question": "What does the sign say?",
+            "options": [
+              "a) A nine-year-old should not change in this room.",
+              "b) Young children must change with a parent of the same sex.",
+              "c) Adults without children may also use this room."
+            ],
+            "correct": "a",
+            "grammarTags": [
+              "g-en-b1-modals"
+            ],
+            "topicTags": [
+              "sport"
+            ],
+            "vocabularyTags": [
+              "changing room",
+              "aged",
+              "only"
+            ],
+            "difficulty": 4,
+            "explanation": "'Children aged 8 and over must use the male or female changing rooms', so a nine-year-old cannot use the family room. The room is 'for adults with children under 8 only', so adults on their own cannot use it, and the sign says nothing about young children changing with a parent of the same sex."
+          },
+          {
+            "id": "ql_en-b1-r-t1-notices-swimming-pool-01-q2",
+            "type": "multiple_choice",
+            "signText": "Hi everyone, the pool will be closed this Saturday for a competition, so our training session is moving to Sunday at the same time. If your child can't come on Sunday, please let me know by Thursday. Coach Dan",
+            "passageId": "en-b1-p-lesen-t1-notices-swimming-pool-01-02",
+            "question": "Why has Coach Dan written this message?",
+            "options": [
+              "a) To tell parents about a change of day",
+              "b) To invite parents to watch a competition",
+              "c) To say that this week's training is cancelled"
+            ],
+            "correct": "a",
+            "grammarTags": [
+              "g-en-b1-present-continuous-future"
+            ],
+            "topicTags": [
+              "sport"
+            ],
+            "vocabularyTags": [
+              "training session",
+              "competition",
+              "let someone know"
+            ],
+            "difficulty": 3,
+            "explanation": "Dan explains that 'our training session is moving to Sunday at the same time', so the day has changed. Training is not cancelled, it is moved, and the competition is only the reason the pool is closed – he does not invite anyone to it."
+          },
+          {
+            "id": "ql_en-b1-r-t1-notices-swimming-pool-01-q5",
+            "type": "multiple_choice",
+            "signText": "Dear Member,\nFrom 1 March, all swimmers with hair longer than their shoulders must wear a swimming cap. Caps can be bought at reception for £3, or you are welcome to bring your own.\nLakeside Leisure Centre",
+            "passageId": "en-b1-p-lesen-t1-notices-swimming-pool-01-05",
+            "question": "What is the leisure centre telling members?",
+            "options": [
+              "a) Members will be given a free cap in March.",
+              "b) Some swimmers will need to wear a cap from March.",
+              "c) Every swimmer must buy a cap at reception."
+            ],
+            "correct": "b",
+            "grammarTags": [
+              "g-en-b1-modals"
+            ],
+            "topicTags": [
+              "sport"
+            ],
+            "vocabularyTags": [
+              "swimming cap",
+              "reception",
+              "shoulder"
+            ],
+            "difficulty": 3,
+            "explanation": "Only 'swimmers with hair longer than their shoulders must wear a swimming cap' from 1 March, so the rule is for some swimmers. Caps are not free – they cost '£3' – and nobody has to buy one at reception because 'you are welcome to bring your own'."
+          },
+          {
+            "id": "ql_en-b1-r-t1-notices-swimming-pool-01-q3",
+            "type": "multiple_choice",
+            "signText": "LANE SWIMMING\nThe fast lane is for people who can swim 25 metres in under 30 seconds. If other swimmers are often passing you, please move to the medium lane.",
+            "passageId": "en-b1-p-lesen-t1-notices-swimming-pool-01-03",
+            "question": "What does the notice say?",
+            "options": [
+              "a) The fast lane is only open for thirty minutes at a time.",
+              "b) Swimmers have to pass a speed test before using the fast lane.",
+              "c) Slower swimmers in the fast lane should change lanes."
+            ],
+            "correct": "c",
+            "grammarTags": [
+              "g-en-b1-conditionals"
+            ],
+            "topicTags": [
+              "sport"
+            ],
+            "vocabularyTags": [
+              "lane",
+              "pass",
+              "medium"
+            ],
+            "difficulty": 4,
+            "explanation": "The notice says 'If other swimmers are often passing you, please move to the medium lane', so slower swimmers should change lanes. Nobody has to take a test, and '30 seconds' is the time for 25 metres, not how long the lane is open."
+          }
+        ],
+        "text": "LOCKERS\nPlease put a £1 coin in the slot to lock your locker. Your coin will come back to you when you open it again. Lost keys cost £15 to replace.",
+        "textTitle": "Sign in the changing rooms",
+        "passageId": "en-b1-p-lesen-t1-notices-swimming-pool-01-01"
+      },
+      {
+        "teil": 2,
+        "instruction": "Read the text(s) and answer the questions in Part 2.",
+        "blueprintSlot": "person_text_matching",
+        "ads": [
+          {
+            "key": "A",
+            "title": "",
+            "text": "FitPro Coach"
+          },
+          {
+            "key": "B",
+            "title": "",
+            "text": "WildSpotter"
+          },
+          {
+            "key": "C",
+            "title": "",
+            "text": "TalkTrip"
+          },
+          {
+            "key": "D",
+            "title": "",
+            "text": "BasketWise"
+          },
+          {
+            "key": "E",
+            "title": "",
+            "text": "FocusDesk"
+          },
+          {
+            "key": "F",
+            "title": "",
+            "text": "LinguaBite"
+          },
+          {
+            "key": "G",
+            "title": "",
+            "text": "StrideTrack"
+          },
+          {
+            "key": "H",
+            "title": "",
+            "text": "MealMap"
+          }
+        ],
+        "questions": [
+          {
+            "id": "ql_en-b1-r-t2-match-apps-01-q1",
+            "type": "matching",
+            "question": "Carlos is going to Japan next spring and wants to learn some useful Japanese first. He only has about ten minutes a day, and he is most worried about speaking.",
+            "correct": "C",
+            "correctAnswer": "C",
+            "explanation": "TalkTrip has 'ten-minute daily lessons in Japanese', and 'The app listens as you repeat each phrase out loud and tells you how to improve your pronunciation', which helps his speaking. LinguaBite also teaches Japanese in short lessons, but it only has 'reading and writing exercises'.",
+            "grammarTags": [
+              "g-en-b1-future-forms"
+            ],
+            "topicTags": [
+              "technology"
+            ],
+            "vocabularyTags": [
+              "language",
+              "speaking",
+              "lesson"
+            ],
+            "difficulty": 4,
+            "options": [
+              "A",
+              "B",
+              "C",
+              "D",
+              "E",
+              "F",
+              "G",
+              "H"
+            ],
+            "level": "B1"
+          },
+          {
+            "id": "ql_en-b1-r-t2-match-apps-01-q2",
+            "type": "matching",
+            "question": "Fiona wants to spend less on food for her family by planning the week's meals in advance. She'd like her husband and children to be able to add things to the shopping list too.",
+            "correct": "H",
+            "correctAnswer": "H",
+            "explanation": "With MealMap you 'Choose your meals for the week', it 'suggests cheaper recipes', and 'Everyone in the family can add items to the same list from their own phone'. BasketWise also helps you save money, but it does not plan meals and the list is only 'saved on your phone'.",
+            "grammarTags": [
+              "g-en-b1-modals"
+            ],
+            "topicTags": [
+              "technology"
+            ],
+            "vocabularyTags": [
+              "meal",
+              "shopping list",
+              "save money"
+            ],
+            "difficulty": 4,
+            "options": [
+              "A",
+              "B",
+              "C",
+              "D",
+              "E",
+              "F",
+              "G",
+              "H"
+            ],
+            "level": "B1"
+          },
+          {
+            "id": "ql_en-b1-r-t2-match-apps-01-q3",
+            "type": "matching",
+            "question": "Jamal has just started running and wants an app that records his runs. He'd like to compete with his friends, but he doesn't want to pay anything.",
+            "correct": "G",
+            "correctAnswer": "G",
+            "explanation": "StrideTrack 'is completely free', 'records your distance, speed and route', and sets 'challenges for your group' so friends can 'see who can run the furthest'. FitPro Coach also records runs and lets you compare results with friends, but after the free trial it 'costs £4.99 a month'.",
+            "grammarTags": [
+              "g-en-b1-present-perfect"
+            ],
+            "topicTags": [
+              "technology"
+            ],
+            "vocabularyTags": [
+              "running",
+              "compete",
+              "free"
+            ],
+            "difficulty": 4,
+            "options": [
+              "A",
+              "B",
+              "C",
+              "D",
+              "E",
+              "F",
+              "G",
+              "H"
+            ],
+            "level": "B1"
+          },
+          {
+            "id": "ql_en-b1-r-t2-match-apps-01-q4",
+            "type": "matching",
+            "question": "Ellen goes walking in the hills every weekend and often sees plants and birds she doesn't know the names of. There's usually no mobile signal where she walks.",
+            "correct": "B",
+            "correctAnswer": "B",
+            "explanation": "WildSpotter tells you what 'a flower, tree or bird' is from a photo, and 'the app will work perfectly even where there is no phone signal'. StrideTrack also works 'with no phone signal', but it only records runs and cannot tell her the names of plants or birds.",
+            "grammarTags": [
+              "g-en-b1-relative-clauses"
+            ],
+            "topicTags": [
+              "technology"
+            ],
+            "vocabularyTags": [
+              "wildlife",
+              "signal",
+              "identify"
+            ],
+            "difficulty": 4,
+            "options": [
+              "A",
+              "B",
+              "C",
+              "D",
+              "E",
+              "F",
+              "G",
+              "H"
+            ],
+            "level": "B1"
+          },
+          {
+            "id": "ql_en-b1-r-t2-match-apps-01-q5",
+            "type": "matching",
+            "question": "Kofi has important exams in June, but he keeps looking at social media instead of studying. He also needs help organising his revision so that he covers every subject.",
+            "correct": "E",
+            "correctAnswer": "E",
+            "explanation": "FocusDesk 'blocks social media and games' and, when you give it your exam dates and subjects, 'it will create a revision timetable for you'. LinguaBite also 'builds a personal study plan', but only for language lessons, and it does not stop him using social media.",
+            "grammarTags": [
+              "g-en-b1-gerunds-infinitives"
+            ],
+            "topicTags": [
+              "technology"
+            ],
+            "vocabularyTags": [
+              "revision",
+              "social media",
+              "organise"
+            ],
+            "difficulty": 4,
+            "options": [
+              "A",
+              "B",
+              "C",
+              "D",
+              "E",
+              "F",
+              "G",
+              "H"
+            ],
+            "level": "B1"
+          }
+        ]
+      },
+      {
+        "teil": 3,
+        "instruction": "Read the text(s) and answer the questions in Part 3.",
+        "blueprintSlot": "long_text",
+        "textTitle": "The year that changed me",
+        "text": "Ten years ago, when I was sixteen, I left my home in Leicester to spend a school year in a small town in northern Norway on an exchange programme. I'm now a teacher myself. My students often ask me about doing something similar, and I always say yes. But I also tell them it won't be what they expect.\n\nI'd chosen Norway mostly because of the mountains in the photos. I hadn't thought much about the language, and I arrived knowing only 'hello' and 'thank you'. My host family, the Larsens, spoke excellent English, which was a relief at first. The problem was that I used it as an excuse. For the first two months I hardly learnt any Norwegian, and at school I sat quietly at the back of lessons I couldn't follow.\n\nThings changed in November, when the days became very short and dark. I felt lonely and seriously thought about going home. It was my host brother, Even, who noticed. He didn't give me any advice. Instead, he asked me to join his handball team, although I'd never played. Nobody spoke English during training, so I had no choice: I had to understand the instructions or get hit by the ball. Within a few weeks I was following conversations, and by Christmas I was making jokes, even if they were bad ones.\n\nThe other surprise was school itself. In England I'd been used to lots of homework and tests. In Norway, students called teachers by their first names and were expected to plan their own projects. At first I found this confusing. Nobody told me exactly what to do. But it taught me to organise my own time, which helped me a lot at university later.\n\nThe hardest moment was actually the end of the year. I'd expected to be excited about going home, but saying goodbye to the Larsens was awful, and back in England I felt strangely out of place for months. My old friends had moved on, and the stories I wanted to share didn't interest them much.\n\nI still visit Norway every couple of years, and Even came to my wedding last summer. When people ask what I learnt that year, they expect me to say 'Norwegian'. That's true, of course. But the more important lesson was that feeling uncomfortable is often the first step towards something good.\n\nDaniel Okafor",
+        "passageId": "en-b1-p-lesen-t3-long-exchange-student-01-01",
+        "questions": [
+          {
+            "id": "ql_en-b1-r-t3-long-exchange-student-01-q1",
+            "type": "multiple_choice",
+            "question": "Why does Daniel mention that his host family spoke excellent English?",
+            "correct": "b",
+            "correctAnswer": "b",
+            "explanation": "Daniel says their English 'was a relief at first. The problem was that I used it as an excuse. For the first two months I hardly learnt any Norwegian.' He could not follow lessons ('lessons I couldn't follow'), and he chose Norway 'because of the mountains in the photos', not because of the family's English.",
+            "grammarTags": [
+              "g-en-b1-past-perfect"
+            ],
+            "topicTags": [
+              "education"
+            ],
+            "vocabularyTags": [
+              "host family",
+              "excuse",
+              "relief"
+            ],
+            "difficulty": 4,
+            "options": [
+              "a) It was the main reason he decided to go to Norway.",
+              "b) It made it easy for him to avoid learning Norwegian.",
+              "c) It meant that he could follow his lessons at school.",
+              "d) It helped him to make friends at school quickly."
+            ],
+            "level": "B1",
+            "passageId": "en-b1-p-lesen-t3-long-exchange-student-01-01"
+          },
+          {
+            "id": "ql_en-b1-r-t3-long-exchange-student-01-q2",
+            "type": "multiple_choice",
+            "question": "How did Even help Daniel when he was feeling lonely?",
+            "correct": "d",
+            "correctAnswer": "d",
+            "explanation": "\"He didn’t give me any advice. Instead, he asked me to join his handball team… Nobody spoke English during training, so I had no choice.\" Even did not translate; Daniel \"had to understand the instructions\" himself. There is no mention of Even teaching him the game at home or before school.",
+            "grammarTags": [
+              "g-en-b1-past-simple"
+            ],
+            "topicTags": [
+              "sport"
+            ],
+            "vocabularyTags": [
+              "lonely",
+              "team",
+              "training"
+            ],
+            "difficulty": 4,
+            "options": [
+              "a) He gave him some useful advice about feeling homesick.",
+              "b) He translated the instructions for him at training.",
+              "c) He taught him how to play handball before school.",
+              "d) He got him into a team where nobody spoke English."
+            ],
+            "level": "B1",
+            "passageId": "en-b1-p-lesen-t3-long-exchange-student-01-01"
+          },
+          {
+            "id": "ql_en-b1-r-t3-long-exchange-student-01-q3",
+            "type": "multiple_choice",
+            "question": "What did Daniel think of his Norwegian school at first?",
+            "correct": "c",
+            "correctAnswer": "c",
+            "explanation": "He writes: 'At first I found this confusing. Nobody told me exactly what to do.' The 'lots of homework and tests' were in England, not Norway, and students used teachers' first names, which does not suggest strict teachers. He only saw the benefit later, so he did not prefer it at first.",
+            "grammarTags": [
+              "g-en-b1-used-to"
+            ],
+            "topicTags": [
+              "education"
+            ],
+            "vocabularyTags": [
+              "confusing",
+              "project",
+              "organise"
+            ],
+            "difficulty": 4,
+            "options": [
+              "a) He thought the teachers were very strict.",
+              "b) He preferred it to his school in England.",
+              "c) He was not sure what he was supposed to do.",
+              "d) He found the tests there much too difficult."
+            ],
+            "level": "B1",
+            "passageId": "en-b1-p-lesen-t3-long-exchange-student-01-01"
+          },
+          {
+            "id": "ql_en-b1-r-t3-long-exchange-student-01-q4",
+            "type": "multiple_choice",
+            "question": "How did Daniel feel when he got back to England?",
+            "correct": "c",
+            "correctAnswer": "c",
+            "explanation": "'Back in England I felt strangely out of place for months. My old friends had moved on.' He had 'expected to be excited about going home', but he was not, and his friends were not interested in his stories, so he was not pleased or relieved.",
+            "grammarTags": [
+              "g-en-b1-past-perfect"
+            ],
+            "topicTags": [
+              "travel"
+            ],
+            "vocabularyTags": [
+              "out of place",
+              "goodbye",
+              "move on"
+            ],
+            "difficulty": 5,
+            "options": [
+              "a) Excited to tell his old friends all about Norway",
+              "b) Relieved that a difficult year was finally over",
+              "c) As if he did not really belong there any more",
+              "d) Pleased to be back with his friends again"
+            ],
+            "level": "B1",
+            "passageId": "en-b1-p-lesen-t3-long-exchange-student-01-01"
+          },
+          {
+            "id": "ql_en-b1-r-t3-long-exchange-student-01-q5",
+            "type": "multiple_choice",
+            "question": "What is Daniel's main purpose in writing this text?",
+            "correct": "a",
+            "correctAnswer": "a",
+            "explanation": "He tells his students to go but warns 'it won't be what they expect', and ends: 'the more important lesson was that feeling uncomfortable is often the first step towards something good.' Schools and language learning are only parts of his story, and he does not ask teachers to organise exchanges.",
+            "grammarTags": [
+              "g-en-b1-infinitive-of-purpose"
+            ],
+            "topicTags": [
+              "education"
+            ],
+            "vocabularyTags": [
+              "lesson",
+              "uncomfortable",
+              "experience"
+            ],
+            "difficulty": 5,
+            "options": [
+              "a) To show that a hard experience can still be worth it",
+              "b) To persuade more teachers to organise school exchanges",
+              "c) To explain how to learn a foreign language quickly",
+              "d) To compare school life in England and in Norway"
+            ],
+            "level": "B1",
+            "passageId": "en-b1-p-lesen-t3-long-exchange-student-01-01"
+          }
+        ]
+      },
+      {
+        "teil": 4,
+        "instruction": "Read the text(s) and answer the questions in Part 4.",
+        "blueprintSlot": "gapped_text",
+        "textTitle": "How much is too much?",
+        "text": "Ask any parent what worries them most about their teenage children, and many will give the same answer: screens. Phones, tablets, games consoles: young people seem to be looking at one of them almost all the time. (1) ________ According to one recent study of British 13- to 16-year-olds, the average is around seven hours a day, not counting schoolwork.\n\nThat number sounds shocking, but researchers say we should be careful with it. (2) ________ A teenager might be listening to music, chatting to friends and watching a video at the same moment, and each activity is counted separately.\n\nNot all screen time is the same, either. Dr Ellen Ward, who studies young people's sleep, believes the problem is not how long teenagers spend online but when. (3) ________ The bright light tells the brain that it is still daytime, and messages that arrive late at night keep teenagers awake.\n\nSome schools have decided to act. At Riverside Academy in Belfast, students hand in their phones when they arrive and get them back at four o'clock. (4) ________ Now, says head teacher Ciaran Doyle, most of them say they prefer it, because break times have become far more sociable.\n\nTeenagers themselves are not always happy with the way adults talk about the subject. Sixteen-year-old Maya told us that her phone is how she keeps in touch with her cousins in Canada and how she learns the guitar from online videos. (5) ________\n\nPerhaps, then, the real question is not simply how many hours teenagers spend on screens, but what they use those hours for.",
+        "passageId": "en-b1-p-lesen-t4-gapped-screen-time-01-01",
+        "questions": [
+          {
+            "id": "ql_en-b1-r-t4-gapped-screen-time-01-q1",
+            "type": "matching",
+            "question": "Which sentence fits gap (1)?",
+            "correct": "F",
+            "correctAnswer": "F",
+            "explanation": "'Them' refers to the screens listed before ('Phones, tablets, games consoles'), and the question 'how many hours do teenagers really spend' is answered by the next sentence: 'the average is around seven hours a day'. The sentence about the study also finding something cannot fit, because the study has not been mentioned yet.",
+            "grammarTags": [
+              "g-en-b1-questions"
+            ],
+            "topicTags": [
+              "technology"
+            ],
+            "vocabularyTags": [
+              "hours",
+              "teenager",
+              "screen"
+            ],
+            "difficulty": 4,
+            "options": [
+              "A) Using a phone in bed, for example, can make it much harder to fall asleep.",
+              "B) 'Adults only see us staring at a screen,' she says, 'not what we're actually doing.'",
+              "C) The study also found that most teenagers watch less television than their parents did.",
+              "D) Much of that time, they point out, is spent doing several things at once.",
+              "E) As a result, she has decided to delete all the social media apps on her phone.",
+              "F) But how many hours do teenagers really spend in front of them?",
+              "G) Sleep experts say that teenagers need at least eight hours of sleep every night.",
+              "H) At first, a lot of them were angry about the new rule."
+            ],
+            "level": "B1",
+            "passageId": "en-b1-p-lesen-t4-gapped-screen-time-01-01"
+          },
+          {
+            "id": "ql_en-b1-r-t4-gapped-screen-time-01-q2",
+            "type": "matching",
+            "question": "Which sentence fits gap (2)?",
+            "correct": "D",
+            "correctAnswer": "D",
+            "explanation": "'They' refers to the 'researchers', 'that time' to the seven hours, and 'doing several things at once' is explained by the next sentence: a teenager might be 'listening to music, chatting to friends and watching a video at the same moment'. The sentence about television does not explain why the number should be treated carefully.",
+            "grammarTags": [
+              "g-en-b1-reference-words"
+            ],
+            "topicTags": [
+              "technology"
+            ],
+            "vocabularyTags": [
+              "at once",
+              "point out",
+              "separately"
+            ],
+            "difficulty": 5,
+            "options": [
+              "A) Using a phone in bed, for example, can make it much harder to fall asleep.",
+              "B) 'Adults only see us staring at a screen,' she says, 'not what we're actually doing.'",
+              "C) The study also found that most teenagers watch less television than their parents did.",
+              "D) Much of that time, they point out, is spent doing several things at once.",
+              "E) As a result, she has decided to delete all the social media apps on her phone.",
+              "F) But how many hours do teenagers really spend in front of them?",
+              "G) Sleep experts say that teenagers need at least eight hours of sleep every night.",
+              "H) At first, a lot of them were angry about the new rule."
+            ],
+            "level": "B1",
+            "passageId": "en-b1-p-lesen-t4-gapped-screen-time-01-01"
+          },
+          {
+            "id": "ql_en-b1-r-t4-gapped-screen-time-01-q3",
+            "type": "matching",
+            "question": "Which sentence fits gap (3)?",
+            "correct": "A",
+            "correctAnswer": "A",
+            "explanation": "Dr Ward thinks the problem is 'when', and using a phone 'in bed' is an example ('for example') of the wrong time. 'The bright light' in the next sentence is the light from that phone. The sentence about needing eight hours of sleep does not mention a screen, so 'The bright light' would have nothing to refer to.",
+            "grammarTags": [
+              "g-en-b1-gerunds"
+            ],
+            "topicTags": [
+              "technology"
+            ],
+            "vocabularyTags": [
+              "fall asleep",
+              "bed",
+              "bright"
+            ],
+            "difficulty": 4,
+            "options": [
+              "A) Using a phone in bed, for example, can make it much harder to fall asleep.",
+              "B) 'Adults only see us staring at a screen,' she says, 'not what we're actually doing.'",
+              "C) The study also found that most teenagers watch less television than their parents did.",
+              "D) Much of that time, they point out, is spent doing several things at once.",
+              "E) As a result, she has decided to delete all the social media apps on her phone.",
+              "F) But how many hours do teenagers really spend in front of them?",
+              "G) Sleep experts say that teenagers need at least eight hours of sleep every night.",
+              "H) At first, a lot of them were angry about the new rule."
+            ],
+            "level": "B1",
+            "passageId": "en-b1-p-lesen-t4-gapped-screen-time-01-01"
+          },
+          {
+            "id": "ql_en-b1-r-t4-gapped-screen-time-01-q4",
+            "type": "matching",
+            "question": "Which sentence fits gap (4)?",
+            "correct": "H",
+            "correctAnswer": "H",
+            "explanation": "'Them' refers to the 'students' who hand in their phones, 'the new rule' to that arrangement, and 'At first' contrasts with the next sentence: 'Now… most of them say they prefer it'. No other sentence prepares the change of opinion shown by 'Now'.",
+            "grammarTags": [
+              "g-en-b1-past-simple"
+            ],
+            "topicTags": [
+              "technology"
+            ],
+            "vocabularyTags": [
+              "rule",
+              "angry",
+              "at first"
+            ],
+            "difficulty": 4,
+            "options": [
+              "A) Using a phone in bed, for example, can make it much harder to fall asleep.",
+              "B) 'Adults only see us staring at a screen,' she says, 'not what we're actually doing.'",
+              "C) The study also found that most teenagers watch less television than their parents did.",
+              "D) Much of that time, they point out, is spent doing several things at once.",
+              "E) As a result, she has decided to delete all the social media apps on her phone.",
+              "F) But how many hours do teenagers really spend in front of them?",
+              "G) Sleep experts say that teenagers need at least eight hours of sleep every night.",
+              "H) At first, a lot of them were angry about the new rule."
+            ],
+            "level": "B1",
+            "passageId": "en-b1-p-lesen-t4-gapped-screen-time-01-01"
+          },
+          {
+            "id": "ql_en-b1-r-t4-gapped-screen-time-01-q5",
+            "type": "matching",
+            "question": "Which sentence fits gap (5)?",
+            "correct": "B",
+            "correctAnswer": "B",
+            "explanation": "Maya explains that she uses her phone to keep 'in touch with her cousins' and to learn the guitar, and her words 'Adults only see us staring at a screen' repeat the idea that teenagers are 'not always happy with the way adults talk about the subject'. The sentence about her deleting her social media apps contradicts her defence of her phone.",
+            "grammarTags": [
+              "g-en-b1-direct-speech"
+            ],
+            "topicTags": [
+              "technology"
+            ],
+            "vocabularyTags": [
+              "stare",
+              "actually",
+              "adult"
+            ],
+            "difficulty": 5,
+            "options": [
+              "A) Using a phone in bed, for example, can make it much harder to fall asleep.",
+              "B) 'Adults only see us staring at a screen,' she says, 'not what we're actually doing.'",
+              "C) The study also found that most teenagers watch less television than their parents did.",
+              "D) Much of that time, they point out, is spent doing several things at once.",
+              "E) As a result, she has decided to delete all the social media apps on her phone.",
+              "F) But how many hours do teenagers really spend in front of them?",
+              "G) Sleep experts say that teenagers need at least eight hours of sleep every night.",
+              "H) At first, a lot of them were angry about the new rule."
+            ],
+            "level": "B1",
+            "passageId": "en-b1-p-lesen-t4-gapped-screen-time-01-01"
+          }
+        ]
+      },
+      {
+        "teil": 5,
+        "instruction": "Read the text(s) and answer the questions in Part 5.",
+        "blueprintSlot": "mcq_gap_fill",
+        "textTitle": "My first time on a climbing wall",
+        "text": "For my fifteenth birthday, my friend Priya and I decided to try the new indoor climbing wall in Leeds. I was a bit nervous because I'm (1) ____ of heights, but Priya persuaded me to come.\n\nFirst, an instructor called Dan showed us how to put on our harnesses and tie the ropes correctly. He also (2) ____ sure that we understood the safety rules before we started.\n\nThe wall was covered in brightly coloured holds, and each colour showed a different (3) ____ of difficulty. We began with the easy yellow route. Priya reached the top in less than two minutes, but halfway up I made the mistake of looking down, and my legs started shaking. Dan shouted from the ground, \"Don't (4) ____ up now - you're nearly there!\" His words gave me the confidence to continue, and when I finally touched the top, I felt really proud.\n\nBy the end of the session my arms were aching, but I had (5) ____ a lot of fun. Priya and I have already (6) ____ another session for next Saturday, and this time I want to try the blue route.",
+        "passageId": "en-b1-p-lesen-t5-cloze-climbing-wall-01-01",
+        "questions": [
+          {
+            "id": "ql_en-b1-r-t5-cloze-climbing-wall-01-q1",
+            "type": "multiple_choice",
+            "question": "Choose the correct word for gap (1).",
+            "correct": "b",
+            "correctAnswer": "b",
+            "explanation": "The pattern is \"afraid of\" something: the writer says \"I'm afraid of heights\". 'Worried' and 'anxious' are followed by 'about', not 'of', and 'upset of' is not possible.",
+            "grammarTags": [
+              "g-en-b1-adjective-prepositions"
+            ],
+            "topicTags": [
+              "sport"
+            ],
+            "vocabularyTags": [
+              "afraid of",
+              "heights"
+            ],
+            "difficulty": 4,
+            "options": [
+              "a) worried",
+              "b) afraid",
+              "c) anxious",
+              "d) upset"
+            ],
+            "level": "B1",
+            "passageId": "en-b1-p-lesen-t5-cloze-climbing-wall-01-01"
+          },
+          {
+            "id": "ql_en-b1-r-t5-cloze-climbing-wall-01-q2",
+            "type": "multiple_choice",
+            "question": "Choose the correct word for gap (2).",
+            "correct": "d",
+            "correctAnswer": "d",
+            "explanation": "The fixed expression is \"make sure\": Dan \"made sure that we understood the safety rules\", meaning he checked it. 'Did sure', 'took sure' and 'got sure' are not English.",
+            "grammarTags": [
+              "g-en-b1-fixed-expressions"
+            ],
+            "topicTags": [
+              "sport"
+            ],
+            "vocabularyTags": [
+              "make sure",
+              "safety"
+            ],
+            "difficulty": 3,
+            "options": [
+              "a) got",
+              "b) did",
+              "c) took",
+              "d) made"
+            ],
+            "level": "B1",
+            "passageId": "en-b1-p-lesen-t5-cloze-climbing-wall-01-01"
+          },
+          {
+            "id": "ql_en-b1-r-t5-cloze-climbing-wall-01-q3",
+            "type": "multiple_choice",
+            "question": "Choose the correct word for gap (3).",
+            "correct": "a",
+            "correctAnswer": "a",
+            "explanation": "We talk about \"a level of difficulty\": each colour showed how hard the route was, from \"the easy yellow route\" upwards. 'Height', 'size' and 'step of difficulty' are not used in English.",
+            "grammarTags": [
+              "g-en-b1-collocations"
+            ],
+            "topicTags": [
+              "sport"
+            ],
+            "vocabularyTags": [
+              "level of difficulty",
+              "route"
+            ],
+            "difficulty": 4,
+            "options": [
+              "a) level",
+              "b) height",
+              "c) size",
+              "d) step"
+            ],
+            "level": "B1",
+            "passageId": "en-b1-p-lesen-t5-cloze-climbing-wall-01-01"
+          },
+          {
+            "id": "ql_en-b1-r-t5-cloze-climbing-wall-01-q4",
+            "type": "multiple_choice",
+            "question": "Choose the correct word for gap (4).",
+            "correct": "a",
+            "correctAnswer": "a",
+            "explanation": "Dan wants the writer to keep climbing: \"Don't give up now - you're nearly there!\" 'Give up' means stop trying. 'Stop up', 'end up' and 'leave up' do not have this meaning ('end up' means 'finally be somewhere').",
+            "grammarTags": [
+              "g-en-b1-phrasal-verbs"
+            ],
+            "topicTags": [
+              "sport"
+            ],
+            "vocabularyTags": [
+              "give up",
+              "encourage"
+            ],
+            "difficulty": 3,
+            "options": [
+              "a) give",
+              "b) stop",
+              "c) end",
+              "d) leave"
+            ],
+            "level": "B1",
+            "passageId": "en-b1-p-lesen-t5-cloze-climbing-wall-01-01"
+          },
+          {
+            "id": "ql_en-b1-r-t5-cloze-climbing-wall-01-q5",
+            "type": "multiple_choice",
+            "question": "Choose the correct word for gap (5).",
+            "correct": "b",
+            "correctAnswer": "b",
+            "explanation": "The collocation is \"have fun\", so in the past perfect it is \"I had had a lot of fun\". We do not say 'do fun', 'make fun' (which means laughing at someone unkindly, and needs 'of') or 'take fun'.",
+            "grammarTags": [
+              "g-en-b1-collocations"
+            ],
+            "topicTags": [
+              "sport"
+            ],
+            "vocabularyTags": [
+              "have fun"
+            ],
+            "difficulty": 4,
+            "options": [
+              "a) made",
+              "b) had",
+              "c) taken",
+              "d) done"
+            ],
+            "level": "B1",
+            "passageId": "en-b1-p-lesen-t5-cloze-climbing-wall-01-01"
+          },
+          {
+            "id": "ql_en-b1-r-t5-cloze-climbing-wall-01-q6",
+            "type": "multiple_choice",
+            "question": "Choose the correct word for gap (6).",
+            "correct": "c",
+            "correctAnswer": "c",
+            "explanation": "They \"have already booked another session for next Saturday\", meaning they have arranged it in advance. 'Paid' would need 'for' (paid for a session), 'spent a session' refers to time already used, and 'charged' is what the centre does to customers.",
+            "grammarTags": [
+              "g-en-b1-collocations"
+            ],
+            "topicTags": [
+              "sport"
+            ],
+            "vocabularyTags": [
+              "book",
+              "session"
+            ],
+            "difficulty": 4,
+            "options": [
+              "a) spent",
+              "b) charged",
+              "c) booked",
+              "d) paid"
+            ],
+            "level": "B1",
+            "passageId": "en-b1-p-lesen-t5-cloze-climbing-wall-01-01"
+          }
+        ]
+      },
+      {
+        "teil": 6,
+        "instruction": "Read the text(s) and answer the questions in Part 6.",
+        "blueprintSlot": "open_cloze",
+        "textTitle": "The woman next door",
+        "text": "A few weeks ago, a woman moved into the empty flat next to ours in Manchester. For several days I only saw her carrying boxes up the stairs, so one afternoon my dad and I baked some biscuits and knocked on her door.\n\nShe introduced herself as Ines, a woman (1) ____ family had come to England from Portugal when she was a child. She told us that she lives by (2) ____, but that her two grown-up sons visit her every weekend. \"(3) ____ of them play in a jazz band,\" she said proudly.\n\n\"Where (4) ____ you live before?\" my dad asked. \"In a tiny flat above a shop,\" she answered. \"It was so noisy that I could hardly sleep!\"\n\nIt soon turned (5) ____ that Ines was a piano teacher, and she offered to give me some free lessons. Now I go round every Thursday after school. She is patient and funny, and she gets on well (6) ____ everyone in our building, even the grumpy man on the top floor.\n\nI'm really glad we knocked on her door that day.",
+        "passageId": "en-b1-p-lesen-t6-open-cloze-new-neighbour-01-01",
+        "questions": [
+          {
+            "id": "ql_en-b1-r-t6-open-cloze-new-neighbour-01-q1",
+            "type": "gap_fill",
+            "question": "Write ONE word for gap (1).",
+            "correct": "whose",
+            "correctAnswer": "whose",
+            "explanation": "'Whose' is the relative pronoun for possession: \"a woman whose family had come to England\" means 'a woman, and her family had come to England'. 'Who' or 'that' cannot be followed directly by a noun like 'family' in this way.",
+            "grammarTags": [
+              "g-en-b1-relative-clauses"
+            ],
+            "topicTags": [
+              "people"
+            ],
+            "vocabularyTags": [
+              "whose",
+              "family"
+            ],
+            "difficulty": 5,
+            "level": "B1",
+            "passageId": "en-b1-p-lesen-t6-open-cloze-new-neighbour-01-01"
+          },
+          {
+            "id": "ql_en-b1-r-t6-open-cloze-new-neighbour-01-q2",
+            "type": "gap_fill",
+            "question": "Write ONE word for gap (2).",
+            "correct": "herself",
+            "correctAnswer": "herself",
+            "explanation": "'By + reflexive pronoun' means 'alone': \"she lives by herself\", while her sons only \"visit her every weekend\". The subject is 'she', so the reflexive pronoun must be 'herself'.",
+            "grammarTags": [
+              "g-en-b1-reflexive-pronouns"
+            ],
+            "topicTags": [
+              "people"
+            ],
+            "vocabularyTags": [
+              "by herself",
+              "alone"
+            ],
+            "difficulty": 4,
+            "level": "B1",
+            "passageId": "en-b1-p-lesen-t6-open-cloze-new-neighbour-01-01"
+          },
+          {
+            "id": "ql_en-b1-r-t6-open-cloze-new-neighbour-01-q3",
+            "type": "gap_fill",
+            "question": "Write ONE word for gap (3).",
+            "correct": "both",
+            "correctAnswer": "both",
+            "explanation": "Ines has \"two grown-up sons\", and 'both of them' refers to two people together: \"Both of them play in a jazz band\". 'All' is used for three or more, and 'neither' does not fit because she says it \"proudly\" and the verb is positive.",
+            "grammarTags": [
+              "g-en-b1-quantifiers"
+            ],
+            "topicTags": [
+              "people"
+            ],
+            "vocabularyTags": [
+              "both of them"
+            ],
+            "difficulty": 4,
+            "level": "B1",
+            "passageId": "en-b1-p-lesen-t6-open-cloze-new-neighbour-01-01"
+          },
+          {
+            "id": "ql_en-b1-r-t6-open-cloze-new-neighbour-01-q4",
+            "type": "gap_fill",
+            "question": "Write ONE word for gap (4).",
+            "correct": "did",
+            "correctAnswer": "did",
+            "explanation": "A past simple question needs the auxiliary 'did': \"Where did you live before?\" The word 'before' and the answer about a flat she no longer lives in show the past, so 'do' is wrong.",
+            "grammarTags": [
+              "g-en-b1-past-simple-questions"
+            ],
+            "topicTags": [
+              "people"
+            ],
+            "vocabularyTags": [
+              "before",
+              "question"
+            ],
+            "difficulty": 3,
+            "level": "B1",
+            "passageId": "en-b1-p-lesen-t6-open-cloze-new-neighbour-01-01"
+          },
+          {
+            "id": "ql_en-b1-r-t6-open-cloze-new-neighbour-01-q5",
+            "type": "gap_fill",
+            "question": "Write ONE word for gap (5).",
+            "correct": "out",
+            "correctAnswer": "out",
+            "explanation": "The phrasal verb 'turn out that' means 'it was discovered that': \"It soon turned out that Ines was a piano teacher\".",
+            "grammarTags": [
+              "g-en-b1-phrasal-verbs"
+            ],
+            "topicTags": [
+              "people"
+            ],
+            "vocabularyTags": [
+              "turn out"
+            ],
+            "difficulty": 4,
+            "level": "B1",
+            "passageId": "en-b1-p-lesen-t6-open-cloze-new-neighbour-01-01"
+          },
+          {
+            "id": "ql_en-b1-r-t6-open-cloze-new-neighbour-01-q6",
+            "type": "gap_fill",
+            "question": "Write ONE word for gap (6).",
+            "correct": "with",
+            "correctAnswer": "with",
+            "explanation": "The fixed phrase is 'get on (well) with someone', meaning have a friendly relationship: \"she gets on well with everyone in our building\".",
+            "grammarTags": [
+              "g-en-b1-dependent-prepositions"
+            ],
+            "topicTags": [
+              "people"
+            ],
+            "vocabularyTags": [
+              "get on well with"
+            ],
+            "difficulty": 3,
+            "level": "B1",
+            "passageId": "en-b1-p-lesen-t6-open-cloze-new-neighbour-01-01"
+          }
+        ]
+      }
+    ],
+    "horenParts": [
+      {
+        "teil": 1,
+        "instruction": "Listen and answer the questions in Part 1.",
+        "blueprintSlot": "picture_mcq",
+        "transcript": "Man: Hello, it's Peter Brown. I've got an appointment with Dr Shah on Friday at eleven.\nWoman: Yes, Mr Brown, I can see it here.\nMan: Well, I've just found out I have to work on Friday. I don't want to cancel it completely, because I still need to talk to her about my blood test results. Is there anything on Monday instead?\nWoman: Let me see. Yes, Monday at nine twenty.\n\nWoman: Hello, this is a message for Mrs Clarke from Bridge Street Dental Practice. It's about your son Harry's check-up. It was booked for Tuesday afternoon, but unfortunately the dentist is away that day. We could offer Monday morning at nine, but I know Harry's at school then, so we've put him in on Thursday at a quarter past four instead. Please call us if that's a problem.\n\nWoman: Well, Mr Hughes, your knee isn't broken, you'll be pleased to hear.\nMan: That's good. Should I keep it up on a chair and not walk on it?\nWoman: No, not at all. That's what people used to do, but now we know it gets better more quickly if you move it. I'll give you a sheet with some simple exercises to do three times a day. You can take painkillers if you really need them, but try not to.\n\nMan: Hello, Ella. What can I do for you today?\nElla: Well, I fell off my bike on Saturday. I thought I'd hurt my wrist, but it's fine now.\nMan: Good.\nElla: The problem is my ear. It's been really painful since Sunday, and I can't hear very well on this side.\nMan: Any cough or sore throat?\nElla: No, nothing like that.\n\nWoman: Your teeth look very healthy, Ryan. I can tell you're not eating too many sweets.\nRyan: My mum doesn't let me!\nWoman: Good for her. But you're missing the ones at the back when you brush. Try to spend two minutes on it, not thirty seconds.\nRyan: OK. Do I need to come back soon?\nWoman: No, I'll see you in a year.\n\nSam: What time's your appointment at the hospital tomorrow, Laura?\nLaura: Half past ten. I was going to drive, but you can never find anywhere to park there.\nSam: I could take you.\nLaura: You're working, Sam! It's fine. The number fourteen bus stops right outside the hospital, and it's much cheaper than a taxi. I'll just leave a bit early.\n\nMan: Good morning. Can I have your name, please?\nAnna: Anna Kowalski. I'm here to see the nurse at ten.\nMan: Ah, yes. The nurse is usually in Room Three, just down there, but it's being painted this week. So she's upstairs today, on the first floor, in Room Eight. You can take the lift if you like. Room Twelve, on the second floor, is the doctor's room, so don't go up that far.",
+        "segments": [
+          {
+            "id": "seg_1_0",
+            "label": "Recording 1",
+            "transcript": "Man: Hello, it's Peter Brown. I've got an appointment with Dr Shah on Friday at eleven.\nWoman: Yes, Mr Brown, I can see it here.\nMan: Well, I've just found out I have to work on Friday. I don't want to cancel it completely, because I still need to talk to her about my blood test results. Is there anything on Monday instead?\nWoman: Let me see. Yes, Monday at nine twenty.",
+            "passageId": "en-b1-p-horen-t1-pics-health-appointments-01-05",
+            "questions": [
+              {
+                "id": "ql_en-b1-h-t1-pics-health-appointments-01-s5-q1",
+                "type": "multiple_choice",
+                "question": "Why is Peter Brown phoning the surgery?",
+                "correct": "c",
+                "correctAnswer": "c",
+                "explanation": "Peter asks \"Is there anything on Monday instead?\" because he has to work on Friday. He says \"I don't want to cancel it completely\", and he wants to discuss his test results with Dr Shah at the appointment, not on the phone.",
+                "grammarTags": [
+                  "g-en-b1-have-to"
+                ],
+                "topicTags": [
+                  "health"
+                ],
+                "vocabularyTags": [
+                  "cancel",
+                  "instead"
+                ],
+                "difficulty": 5,
+                "options": [
+                  "a) To get his test results",
+                  "b) To cancel his appointment",
+                  "c) To move his appointment"
+                ],
+                "level": "B1",
+                "passageId": "en-b1-p-horen-t1-pics-health-appointments-01-05"
+              }
+            ]
+          },
+          {
+            "id": "seg_1_1",
+            "label": "Recording 2",
+            "transcript": "Woman: Hello, this is a message for Mrs Clarke from Bridge Street Dental Practice. It's about your son Harry's check-up. It was booked for Tuesday afternoon, but unfortunately the dentist is away that day. We could offer Monday morning at nine, but I know Harry's at school then, so we've put him in on Thursday at a quarter past four instead. Please call us if that's a problem.",
+            "passageId": "en-b1-p-horen-t1-pics-health-appointments-01-01",
+            "questions": [
+              {
+                "id": "ql_en-b1-h-t1-pics-health-appointments-01-s1-q1",
+                "type": "multiple_choice",
+                "question": "When is Harry's new dentist appointment?",
+                "correct": "b",
+                "correctAnswer": "b",
+                "explanation": "The receptionist says \"we've put him in on Thursday at a quarter past four instead\". Tuesday afternoon was the old appointment, and Monday morning is not possible because \"Harry's at school then\".",
+                "grammarTags": [
+                  "g-en-b1-present-perfect"
+                ],
+                "topicTags": [
+                  "health"
+                ],
+                "vocabularyTags": [
+                  "check-up",
+                  "appointment"
+                ],
+                "difficulty": 4,
+                "options": [
+                  "a) Tuesday afternoon",
+                  "b) Thursday afternoon",
+                  "c) Monday morning"
+                ],
+                "level": "B1",
+                "passageId": "en-b1-p-horen-t1-pics-health-appointments-01-01"
+              }
+            ]
+          },
+          {
+            "id": "seg_1_2",
+            "label": "Recording 3",
+            "transcript": "Woman: Well, Mr Hughes, your knee isn't broken, you'll be pleased to hear.\nMan: That's good. Should I keep it up on a chair and not walk on it?\nWoman: No, not at all. That's what people used to do, but now we know it gets better more quickly if you move it. I'll give you a sheet with some simple exercises to do three times a day. You can take painkillers if you really need them, but try not to.",
+            "passageId": "en-b1-p-horen-t1-pics-health-appointments-01-02",
+            "questions": [
+              {
+                "id": "ql_en-b1-h-t1-pics-health-appointments-01-s2-q1",
+                "type": "multiple_choice",
+                "question": "What does the doctor tell Mr Hughes to do?",
+                "correct": "a",
+                "correctAnswer": "a",
+                "explanation": "The doctor gives him \"a sheet with some simple exercises to do three times a day\". She says \"No, not at all\" when he asks about keeping his leg up, and about painkillers she says \"try not to\".",
+                "grammarTags": [
+                  "g-en-b1-used-to"
+                ],
+                "topicTags": [
+                  "health"
+                ],
+                "vocabularyTags": [
+                  "knee",
+                  "painkiller"
+                ],
+                "difficulty": 4,
+                "options": [
+                  "a) Do some exercises",
+                  "b) Take some tablets",
+                  "c) Rest his knee on a chair"
+                ],
+                "level": "B1",
+                "passageId": "en-b1-p-horen-t1-pics-health-appointments-01-02"
+              }
+            ]
+          },
+          {
+            "id": "seg_1_3",
+            "label": "Recording 4",
+            "transcript": "Man: Hello, Ella. What can I do for you today?\nElla: Well, I fell off my bike on Saturday. I thought I'd hurt my wrist, but it's fine now.\nMan: Good.\nElla: The problem is my ear. It's been really painful since Sunday, and I can't hear very well on this side.\nMan: Any cough or sore throat?\nElla: No, nothing like that.",
+            "passageId": "en-b1-p-horen-t1-pics-health-appointments-01-04",
+            "questions": [
+              {
+                "id": "ql_en-b1-h-t1-pics-health-appointments-01-s4-q1",
+                "type": "multiple_choice",
+                "question": "Why has Ella come to see the doctor?",
+                "correct": "c",
+                "correctAnswer": "c",
+                "explanation": "Ella says \"The problem is my ear. It's been really painful since Sunday\". Her wrist is \"fine now\", and she answers \"No, nothing like that\" when asked about a sore throat.",
+                "grammarTags": [
+                  "g-en-b1-present-perfect-continuous"
+                ],
+                "topicTags": [
+                  "health"
+                ],
+                "vocabularyTags": [
+                  "wrist",
+                  "painful"
+                ],
+                "difficulty": 3,
+                "options": [
+                  "a) Her throat is sore.",
+                  "b) Her wrist hurts.",
+                  "c) Her ear hurts."
+                ],
+                "level": "B1",
+                "passageId": "en-b1-p-horen-t1-pics-health-appointments-01-04"
+              }
+            ]
+          },
+          {
+            "id": "seg_1_4",
+            "label": "Recording 5",
+            "transcript": "Woman: Your teeth look very healthy, Ryan. I can tell you're not eating too many sweets.\nRyan: My mum doesn't let me!\nWoman: Good for her. But you're missing the ones at the back when you brush. Try to spend two minutes on it, not thirty seconds.\nRyan: OK. Do I need to come back soon?\nWoman: No, I'll see you in a year.",
+            "passageId": "en-b1-p-horen-t1-pics-health-appointments-01-07",
+            "questions": [
+              {
+                "id": "ql_en-b1-h-t1-pics-health-appointments-01-s7-q1",
+                "type": "multiple_choice",
+                "question": "What does the dentist tell Ryan to do?",
+                "correct": "c",
+                "correctAnswer": "c",
+                "explanation": "The dentist says \"Try to spend two minutes on it, not thirty seconds.\" She is happy that he's \"not eating too many sweets\", and she will see him \"in a year\", not in six months.",
+                "grammarTags": [
+                  "g-en-b1-imperatives"
+                ],
+                "topicTags": [
+                  "health"
+                ],
+                "vocabularyTags": [
+                  "brush",
+                  "teeth"
+                ],
+                "difficulty": 3,
+                "options": [
+                  "a) Eat fewer sweets",
+                  "b) Come back in six months",
+                  "c) Brush his teeth for longer"
+                ],
+                "level": "B1",
+                "passageId": "en-b1-p-horen-t1-pics-health-appointments-01-07"
+              }
+            ]
+          },
+          {
+            "id": "seg_1_5",
+            "label": "Recording 6",
+            "transcript": "Sam: What time's your appointment at the hospital tomorrow, Laura?\nLaura: Half past ten. I was going to drive, but you can never find anywhere to park there.\nSam: I could take you.\nLaura: You're working, Sam! It's fine. The number fourteen bus stops right outside the hospital, and it's much cheaper than a taxi. I'll just leave a bit early.",
+            "passageId": "en-b1-p-horen-t1-pics-health-appointments-01-03",
+            "questions": [
+              {
+                "id": "ql_en-b1-h-t1-pics-health-appointments-01-s3-q1",
+                "type": "multiple_choice",
+                "question": "How will Laura travel to the hospital?",
+                "correct": "a",
+                "correctAnswer": "a",
+                "explanation": "Laura says \"The number fourteen bus stops right outside the hospital\" and \"I'll just leave a bit early\". She refuses Sam's offer because he's working, and the bus is \"much cheaper than a taxi\".",
+                "grammarTags": [
+                  "g-en-b1-future-forms"
+                ],
+                "topicTags": [
+                  "health"
+                ],
+                "vocabularyTags": [
+                  "park",
+                  "appointment"
+                ],
+                "difficulty": 3,
+                "options": [
+                  "a) By bus",
+                  "b) By taxi",
+                  "c) In Sam's car"
+                ],
+                "level": "B1",
+                "passageId": "en-b1-p-horen-t1-pics-health-appointments-01-03"
+              }
+            ]
+          },
+          {
+            "id": "seg_1_6",
+            "label": "Recording 7",
+            "transcript": "Man: Good morning. Can I have your name, please?\nAnna: Anna Kowalski. I'm here to see the nurse at ten.\nMan: Ah, yes. The nurse is usually in Room Three, just down there, but it's being painted this week. So she's upstairs today, on the first floor, in Room Eight. You can take the lift if you like. Room Twelve, on the second floor, is the doctor's room, so don't go up that far.",
+            "passageId": "en-b1-p-horen-t1-pics-health-appointments-01-06",
+            "questions": [
+              {
+                "id": "ql_en-b1-h-t1-pics-health-appointments-01-s6-q1",
+                "type": "multiple_choice",
+                "question": "Which room does Anna need to go to?",
+                "correct": "b",
+                "correctAnswer": "b",
+                "explanation": "The receptionist says the nurse is \"upstairs today, on the first floor, in Room Eight\". Room Three is \"being painted this week\", and Room Twelve is the doctor's room, \"so don't go up that far\".",
+                "grammarTags": [
+                  "g-en-b1-passive-continuous"
+                ],
+                "topicTags": [
+                  "health"
+                ],
+                "vocabularyTags": [
+                  "floor",
+                  "lift"
+                ],
+                "difficulty": 4,
+                "options": [
+                  "a) Room 12 on the second floor",
+                  "b) Room 8 on the first floor",
+                  "c) Room 3 on the ground floor"
+                ],
+                "level": "B1",
+                "passageId": "en-b1-p-horen-t1-pics-health-appointments-01-06"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "teil": 2,
+        "instruction": "Listen and answer the questions in Part 2.",
+        "blueprintSlot": "short_dialogue_mcq",
+        "transcript": "Jordan: Did you watch Star Search last night?\nMolly: Of course. That girl from Cardiff was amazing. I think the singers are much better than last year.\nJordan: Really? I thought last year's were just as good. But the judges! Did you hear what they said to that old man?\nMolly: Yes, that was horrible. They didn't need to laugh at him like that.\nJordan: Exactly. They should tell people what's wrong in a nicer way.\n\nSara: So, for your birthday, there's that musical at the Grand Theatre.\nNeil: I'm not a big fan of musicals, you know that. What else is on?\nSara: There's a comedy night at the Arts Centre, and a modern dance show.\nNeil: Comedy would be fun.\nSara: It's sold out, I'm afraid. I checked this morning.\nNeil: Oh. Well, I've never seen modern dance. Let's try something new.\nSara: Great, I'll book it.\n\nKyle: How was the Midnight Sky concert, Freya?\nFreya: The band were fantastic. They played all my favourite songs.\nKyle: So you had a great time?\nFreya: Not really. There were so many people that I couldn't move, and it was so hot. I spent half the time worrying about getting out. Next time I'll get a seat upstairs, even if I can't see as well.\n\nAmira: Are you coming to the Riverside Festival with us, Tyler? Everyone's going.\nTyler: I'd love to. The bands are great this year.\nAmira: So book a ticket!\nTyler: It's ninety pounds, plus the train. I've only just started my Saturday job and I'm saving for a laptop. I'll see how much I've got at the end of the month.\nAmira: The camping's free, if that helps.\nTyler: That's good, but sleeping in a tent isn't my favourite thing.\n\nWoman: I didn't know you played the guitar, Noah. How long have you been learning?\nNoah: About a year. My parents always wanted me to learn the piano, but I wasn't interested.\nWoman: So what changed?\nNoah: My friend Dev started a band with some boys from school, and they needed a guitarist. I really wanted to be in it, so I asked for lessons for my birthday. We do music at school too, but it's only singing.\n\nLauren: Well, what did you think?\nAaron: Most of it was brilliant. I loved the way the story kept jumping between the past and now.\nLauren: Did you? I got a bit lost in the middle.\nAaron: No, it was clear enough. And two and a half hours went really quickly. But after all that, the last five minutes were so silly! Everyone suddenly became friends and everything was fine. I expected something much cleverer.",
+        "segments": [
+          {
+            "id": "seg_2_0",
+            "label": "Recording 1",
+            "transcript": "Jordan: Did you watch Star Search last night?\nMolly: Of course. That girl from Cardiff was amazing. I think the singers are much better than last year.\nJordan: Really? I thought last year's were just as good. But the judges! Did you hear what they said to that old man?\nMolly: Yes, that was horrible. They didn't need to laugh at him like that.\nJordan: Exactly. They should tell people what's wrong in a nicer way.",
+            "passageId": "en-b1-p-horen-t2-gist-films-music-01-03",
+            "questions": [
+              {
+                "id": "ql_en-b1-h-t2-gist-films-music-01-q3",
+                "type": "multiple_choice",
+                "question": "You will hear two friends talking about a TV talent show. What do they agree about?",
+                "correct": "b",
+                "correctAnswer": "b",
+                "explanation": "Jordan complains about the judges and Molly says \"that was horrible. They didn’t need to laugh at him\"; Jordan answers \"Exactly.\" Only Molly thinks the singers are better; Jordan says \"last year’s were just as good\". Nobody mentions the time of the show.",
+                "grammarTags": [
+                  "g-en-b1-should"
+                ],
+                "topicTags": [
+                  "entertainment"
+                ],
+                "vocabularyTags": [
+                  "judge",
+                  "laugh at"
+                ],
+                "difficulty": 4,
+                "options": [
+                  "a) The show is on too late.",
+                  "b) The judges are unkind.",
+                  "c) The singers have improved this year."
+                ],
+                "level": "B1",
+                "passageId": "en-b1-p-horen-t2-gist-films-music-01-03"
+              }
+            ]
+          },
+          {
+            "id": "seg_2_1",
+            "label": "Recording 2",
+            "transcript": "Sara: So, for your birthday, there's that musical at the Grand Theatre.\nNeil: I'm not a big fan of musicals, you know that. What else is on?\nSara: There's a comedy night at the Arts Centre, and a modern dance show.\nNeil: Comedy would be fun.\nSara: It's sold out, I'm afraid. I checked this morning.\nNeil: Oh. Well, I've never seen modern dance. Let's try something new.\nSara: Great, I'll book it.",
+            "passageId": "en-b1-p-horen-t2-gist-films-music-01-05",
+            "questions": [
+              {
+                "id": "ql_en-b1-h-t2-gist-films-music-01-q5",
+                "type": "multiple_choice",
+                "question": "You will hear a woman and a man deciding what show to see. What do they decide?",
+                "correct": "c",
+                "correctAnswer": "c",
+                "explanation": "Neil says \"I've never seen modern dance. Let's try something new\" and Sara agrees: \"Great, I'll book it.\" Neil is \"not a big fan of musicals\", and the comedy night is \"sold out\".",
+                "grammarTags": [
+                  "g-en-b1-lets-suggestions"
+                ],
+                "topicTags": [
+                  "entertainment"
+                ],
+                "vocabularyTags": [
+                  "sold out",
+                  "book"
+                ],
+                "difficulty": 3,
+                "options": [
+                  "a) To see a musical",
+                  "b) To go to a comedy night",
+                  "c) To watch a dance show"
+                ],
+                "level": "B1",
+                "passageId": "en-b1-p-horen-t2-gist-films-music-01-05"
+              }
+            ]
+          },
+          {
+            "id": "seg_2_2",
+            "label": "Recording 3",
+            "transcript": "Kyle: How was the Midnight Sky concert, Freya?\nFreya: The band were fantastic. They played all my favourite songs.\nKyle: So you had a great time?\nFreya: Not really. There were so many people that I couldn't move, and it was so hot. I spent half the time worrying about getting out. Next time I'll get a seat upstairs, even if I can't see as well.",
+            "passageId": "en-b1-p-horen-t2-gist-films-music-01-02",
+            "questions": [
+              {
+                "id": "ql_en-b1-h-t2-gist-films-music-01-q2",
+                "type": "multiple_choice",
+                "question": "You will hear a girl telling a friend about a concert. How did she feel at the concert?",
+                "correct": "a",
+                "correctAnswer": "a",
+                "explanation": "Freya says \"There were so many people that I couldn't move, and it was so hot\" and she was \"worrying about getting out\". She thought \"The band were fantastic\", and she never complains that she couldn't see the stage.",
+                "grammarTags": [
+                  "g-en-b1-so-that"
+                ],
+                "topicTags": [
+                  "entertainment"
+                ],
+                "vocabularyTags": [
+                  "crowd",
+                  "band"
+                ],
+                "difficulty": 4,
+                "options": [
+                  "a) Uncomfortable in the crowd",
+                  "b) Disappointed with the band",
+                  "c) Too far away from the stage"
+                ],
+                "level": "B1",
+                "passageId": "en-b1-p-horen-t2-gist-films-music-01-02"
+              }
+            ]
+          },
+          {
+            "id": "seg_2_3",
+            "label": "Recording 4",
+            "transcript": "Amira: Are you coming to the Riverside Festival with us, Tyler? Everyone's going.\nTyler: I'd love to. The bands are great this year.\nAmira: So book a ticket!\nTyler: It's ninety pounds, plus the train. I've only just started my Saturday job and I'm saving for a laptop. I'll see how much I've got at the end of the month.\nAmira: The camping's free, if that helps.\nTyler: That's good, but sleeping in a tent isn't my favourite thing.",
+            "passageId": "en-b1-p-horen-t2-gist-films-music-01-06",
+            "questions": [
+              {
+                "id": "ql_en-b1-h-t2-gist-films-music-01-q6",
+                "type": "multiple_choice",
+                "question": "You will hear two friends talking about a music festival. What is Tyler's attitude to going?",
+                "correct": "b",
+                "correctAnswer": "b",
+                "explanation": "Tyler mentions the cost (\"ninety pounds, plus the train\"), says \"I'm saving for a laptop\" and \"I'll see how much I've got at the end of the month.\" He says \"The bands are great this year\", and \"sleeping in a tent isn't my favourite thing\".",
+                "grammarTags": [
+                  "g-en-b1-present-continuous"
+                ],
+                "topicTags": [
+                  "entertainment"
+                ],
+                "vocabularyTags": [
+                  "save",
+                  "afford"
+                ],
+                "difficulty": 5,
+                "options": [
+                  "a) He doesn't like the bands.",
+                  "b) He isn't sure he has enough money.",
+                  "c) He is excited about camping there."
+                ],
+                "level": "B1",
+                "passageId": "en-b1-p-horen-t2-gist-films-music-01-06"
+              }
+            ]
+          },
+          {
+            "id": "seg_2_4",
+            "label": "Recording 5",
+            "transcript": "Woman: I didn't know you played the guitar, Noah. How long have you been learning?\nNoah: About a year. My parents always wanted me to learn the piano, but I wasn't interested.\nWoman: So what changed?\nNoah: My friend Dev started a band with some boys from school, and they needed a guitarist. I really wanted to be in it, so I asked for lessons for my birthday. We do music at school too, but it's only singing.",
+            "passageId": "en-b1-p-horen-t2-gist-films-music-01-04",
+            "questions": [
+              {
+                "id": "ql_en-b1-h-t2-gist-films-music-01-q4",
+                "type": "multiple_choice",
+                "question": "You will hear a boy talking about the guitar. Why did he start learning it?",
+                "correct": "a",
+                "correctAnswer": "a",
+                "explanation": "Noah says the band \"needed a guitarist. I really wanted to be in it, so I asked for lessons\". His parents wanted him to learn \"the piano\", not the guitar, and music at school is \"only singing\".",
+                "grammarTags": [
+                  "g-en-b1-present-perfect-continuous"
+                ],
+                "topicTags": [
+                  "entertainment"
+                ],
+                "vocabularyTags": [
+                  "guitarist",
+                  "band"
+                ],
+                "difficulty": 4,
+                "options": [
+                  "a) He wanted to join a band.",
+                  "b) It was part of his music lessons at school.",
+                  "c) His parents wanted him to learn."
+                ],
+                "level": "B1",
+                "passageId": "en-b1-p-horen-t2-gist-films-music-01-04"
+              }
+            ]
+          },
+          {
+            "id": "seg_2_5",
+            "label": "Recording 6",
+            "transcript": "Lauren: Well, what did you think?\nAaron: Most of it was brilliant. I loved the way the story kept jumping between the past and now.\nLauren: Did you? I got a bit lost in the middle.\nAaron: No, it was clear enough. And two and a half hours went really quickly. But after all that, the last five minutes were so silly! Everyone suddenly became friends and everything was fine. I expected something much cleverer.",
+            "passageId": "en-b1-p-horen-t2-gist-films-music-01-01",
+            "questions": [
+              {
+                "id": "ql_en-b1-h-t2-gist-films-music-01-q1",
+                "type": "multiple_choice",
+                "question": "You will hear two friends talking about a film they have just seen. What did Aaron think of it?",
+                "correct": "c",
+                "correctAnswer": "c",
+                "explanation": "Aaron says \"the last five minutes were so silly\" and \"I expected something much cleverer.\" It was Lauren who \"got a bit lost\"; Aaron thought \"it was clear enough\", and the two and a half hours \"went really quickly\".",
+                "grammarTags": [
+                  "g-en-b1-past-continuous"
+                ],
+                "topicTags": [
+                  "entertainment"
+                ],
+                "vocabularyTags": [
+                  "ending",
+                  "silly"
+                ],
+                "difficulty": 4,
+                "options": [
+                  "a) It was much too long.",
+                  "b) The story was hard to follow.",
+                  "c) The ending was disappointing."
+                ],
+                "level": "B1",
+                "passageId": "en-b1-p-horen-t2-gist-films-music-01-01"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "teil": 3,
+        "instruction": "Listen and answer the questions in Part 3.",
+        "blueprintSlot": "sentence_completion",
+        "transcript": "Woman: Hello, everyone. I'm Mrs Okafor, and I teach food technology here at Millbrook School. I'm really pleased to tell you about our new after-school cooking club, which starts next week.\n\nWoman: First of all, please note that the club will meet every Thursday. The poster in the corridor says Wednesday, but that's a mistake, and we'll be changing it soon.\n\nWoman: Sessions start at quarter to four and finish at half past five. We'll be using the new kitchen behind the sports hall, not the old classroom near the library, which is too small for a big group.\n\nWoman: The club costs two pounds a week. That money pays for all the ingredients, so you won't need to bring any food with you.\n\nWoman: In our very first session, we were planning to make pizza. Unfortunately, one of the ovens is being repaired, so instead we'll be making soup, which we can cook on the hob. Don't worry, pizza will come later in the term!\n\nWoman: We provide aprons, so you don't need to bring one. But please bring a plastic box with a lid each week, so that you can take home whatever you've made. Your families will be able to taste your cooking, too.\n\nWoman: Finally, at the end of term, we'll hold a competition, and our head teacher has kindly agreed to be the judge. The winning recipe will appear in the school magazine. So, if you'd like to join, please put your name on the list outside my classroom by Friday.",
+        "segments": [
+          {
+            "id": "seg_3_0",
+            "label": "Recording 1",
+            "transcript": "Woman: Hello, everyone. I'm Mrs Okafor, and I teach food technology here at Millbrook School. I'm really pleased to tell you about our new after-school cooking club, which starts next week.\n\nWoman: First of all, please note that the club will meet every Thursday. The poster in the corridor says Wednesday, but that's a mistake, and we'll be changing it soon.\n\nWoman: Sessions start at quarter to four and finish at half past five. We'll be using the new kitchen behind the sports hall, not the old classroom near the library, which is too small for a big group.\n\nWoman: The club costs two pounds a week. That money pays for all the ingredients, so you won't need to bring any food with you.\n\nWoman: In our very first session, we were planning to make pizza. Unfortunately, one of the ovens is being repaired, so instead we'll be making soup, which we can cook on the hob. Don't worry, pizza will come later in the term!\n\nWoman: We provide aprons, so you don't need to bring one. But please bring a plastic box with a lid each week, so that you can take home whatever you've made. Your families will be able to taste your cooking, too.\n\nWoman: Finally, at the end of term, we'll hold a competition, and our head teacher has kindly agreed to be the judge. The winning recipe will appear in the school magazine. So, if you'd like to join, please put your name on the list outside my classroom by Friday.",
+            "passageId": "en-b1-p-horen-t3-gapfill-cooking-club-01-01",
+            "questions": [
+              {
+                "id": "ql_en-b1-h-t3-gapfill-cooking-club-01-q1",
+                "type": "gap_fill",
+                "question": "The club meets every ____.",
+                "correct": "Thursday",
+                "correctAnswer": "Thursday",
+                "explanation": "Mrs Okafor says 'the club will meet every Thursday'. Wednesday is on the poster, but she says 'that's a mistake'.",
+                "grammarTags": [
+                  "g-en-b1-future-will"
+                ],
+                "topicTags": [
+                  "food-cooking"
+                ],
+                "vocabularyTags": [
+                  "club",
+                  "poster",
+                  "mistake"
+                ],
+                "difficulty": 3,
+                "level": "B1",
+                "passageId": "en-b1-p-horen-t3-gapfill-cooking-club-01-01"
+              },
+              {
+                "id": "ql_en-b1-h-t3-gapfill-cooking-club-01-q2",
+                "type": "gap_fill",
+                "question": "Place: the new kitchen behind the ____",
+                "correct": "sports hall",
+                "correctAnswer": "sports hall",
+                "explanation": "Mrs Okafor says 'We'll be using the new kitchen behind the sports hall, not the old classroom near the library'. The library is near the old classroom, which is too small.",
+                "grammarTags": [
+                  "g-en-b1-prepositions-place"
+                ],
+                "topicTags": [
+                  "food-cooking"
+                ],
+                "vocabularyTags": [
+                  "kitchen",
+                  "sports hall",
+                  "library"
+                ],
+                "difficulty": 4,
+                "level": "B1",
+                "passageId": "en-b1-p-horen-t3-gapfill-cooking-club-01-01"
+              },
+              {
+                "id": "ql_en-b1-h-t3-gapfill-cooking-club-01-q3",
+                "type": "gap_fill",
+                "question": "Cost: ____ pounds a week, which pays for the ingredients.",
+                "correct": "two",
+                "correctAnswer": "two",
+                "explanation": "Mrs Okafor says 'The club costs two pounds a week. That money pays for all the ingredients'.",
+                "grammarTags": [
+                  "g-en-b1-numbers"
+                ],
+                "topicTags": [
+                  "food-cooking"
+                ],
+                "vocabularyTags": [
+                  "cost",
+                  "pound",
+                  "ingredient"
+                ],
+                "difficulty": 3,
+                "acceptedAnswers": [
+                  "2"
+                ],
+                "level": "B1",
+                "passageId": "en-b1-p-horen-t3-gapfill-cooking-club-01-01"
+              },
+              {
+                "id": "ql_en-b1-h-t3-gapfill-cooking-club-01-q4",
+                "type": "gap_fill",
+                "question": "In the first session, students will make ____.",
+                "correct": "soup",
+                "correctAnswer": "soup",
+                "explanation": "Mrs Okafor says they 'were planning to make pizza', but because an oven is being repaired, 'instead we'll be making soup'. Pizza will come later in the term.",
+                "grammarTags": [
+                  "g-en-b1-past-continuous"
+                ],
+                "topicTags": [
+                  "food-cooking"
+                ],
+                "vocabularyTags": [
+                  "session",
+                  "oven",
+                  "soup"
+                ],
+                "difficulty": 4,
+                "level": "B1",
+                "passageId": "en-b1-p-horen-t3-gapfill-cooking-club-01-01"
+              },
+              {
+                "id": "ql_en-b1-h-t3-gapfill-cooking-club-01-q5",
+                "type": "gap_fill",
+                "question": "Bring a ____ with a lid to take your food home in.",
+                "correct": "plastic box",
+                "correctAnswer": "plastic box",
+                "explanation": "Mrs Okafor says 'please bring a plastic box with a lid each week, so that you can take home whatever you've made'. Aprons are provided, so students do not need to bring one.",
+                "grammarTags": [
+                  "g-en-b1-purpose-clauses"
+                ],
+                "topicTags": [
+                  "food-cooking"
+                ],
+                "vocabularyTags": [
+                  "apron",
+                  "lid",
+                  "box"
+                ],
+                "difficulty": 4,
+                "acceptedAnswers": [
+                  "box"
+                ],
+                "level": "B1",
+                "passageId": "en-b1-p-horen-t3-gapfill-cooking-club-01-01"
+              },
+              {
+                "id": "ql_en-b1-h-t3-gapfill-cooking-club-01-q6",
+                "type": "gap_fill",
+                "question": "End of term: a ____ judged by the head teacher.",
+                "correct": "competition",
+                "correctAnswer": "competition",
+                "explanation": "Mrs Okafor says 'at the end of term, we'll hold a competition, and our head teacher has kindly agreed to be the judge'.",
+                "grammarTags": [
+                  "g-en-b1-future-will"
+                ],
+                "topicTags": [
+                  "food-cooking"
+                ],
+                "vocabularyTags": [
+                  "competition",
+                  "judge",
+                  "magazine"
+                ],
+                "difficulty": 4,
+                "level": "B1",
+                "passageId": "en-b1-p-horen-t3-gapfill-cooking-club-01-01"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "teil": 4,
+        "instruction": "Listen and answer the questions in Part 4.",
+        "blueprintSlot": "interview_mcq",
+        "transcript": "Interviewer: My guest today is Owen Barker, a nineteen-year-old student who has just cycled right across France, from the north coast down to the Mediterranean. That's about twelve hundred kilometres. Owen, why did you decide to do it?\n\nOwen: A lot of people assume I did it for charity, and I did collect a bit of money for a children's hospital, but that wasn't the main reason. I'd spent the whole year sitting in front of a screen, revising for exams, and I was desperate to do something physical, something completely different. My cousin Ben felt the same, so we went together.\n\nInterviewer: How much planning did you do?\n\nOwen: Far too much, I think now. We had every day organised: where we'd eat, where we'd sleep, how many kilometres we'd cover. Looking back, that was a mistake. Some of the best moments were in places we found by chance, when we got lost or took a different road. Next time I'll leave much more to chance.\n\nInterviewer: What was the hardest part?\n\nOwen: Before we left, I was worried about the hills, but they were fine. You just go slowly. And we had a couple of very wet days, which weren't much fun. No, the worst thing was when Ben got a stomach bug and we had to stay in a small town for three days. I felt so frustrated just sitting there, knowing how far we still had to go.\n\nInterviewer: What about the people you met?\n\nOwen: I was nervous before we went, because my French is terrible, and I thought people might be impatient with us. Actually, everyone was incredibly kind. One farmer let us put our tent up in his garden when the campsite was full, and his wife brought us breakfast in the morning! Hardly anyone spoke English, mind you, but we managed with our hands.\n\nInterviewer: How did you feel when you finally reached the sea?\n\nOwen: I'd imagined we'd be jumping up and down, celebrating. And we did take lots of photos on the beach. But honestly, I felt a bit sad more than anything. For three weeks, all we'd had to think about was cycling and eating, and suddenly it was over.\n\nInterviewer: Would you recommend a trip like this to other students?\n\nOwen: Definitely. People think you need to be really fit before you start, but we weren't, especially me. You get fitter every day. And you don't need an expensive bike. Mine was second-hand. The one thing I'd say is go with someone you get on well with, because you spend every minute together!\n\nInterviewer: Owen Barker, thanks for coming in.",
+        "segments": [
+          {
+            "id": "seg_4_0",
+            "label": "Recording 1",
+            "transcript": "Interviewer: My guest today is Owen Barker, a nineteen-year-old student who has just cycled right across France, from the north coast down to the Mediterranean. That's about twelve hundred kilometres. Owen, why did you decide to do it?\n\nOwen: A lot of people assume I did it for charity, and I did collect a bit of money for a children's hospital, but that wasn't the main reason. I'd spent the whole year sitting in front of a screen, revising for exams, and I was desperate to do something physical, something completely different. My cousin Ben felt the same, so we went together.\n\nInterviewer: How much planning did you do?\n\nOwen: Far too much, I think now. We had every day organised: where we'd eat, where we'd sleep, how many kilometres we'd cover. Looking back, that was a mistake. Some of the best moments were in places we found by chance, when we got lost or took a different road. Next time I'll leave much more to chance.\n\nInterviewer: What was the hardest part?\n\nOwen: Before we left, I was worried about the hills, but they were fine. You just go slowly. And we had a couple of very wet days, which weren't much fun. No, the worst thing was when Ben got a stomach bug and we had to stay in a small town for three days. I felt so frustrated just sitting there, knowing how far we still had to go.\n\nInterviewer: What about the people you met?\n\nOwen: I was nervous before we went, because my French is terrible, and I thought people might be impatient with us. Actually, everyone was incredibly kind. One farmer let us put our tent up in his garden when the campsite was full, and his wife brought us breakfast in the morning! Hardly anyone spoke English, mind you, but we managed with our hands.\n\nInterviewer: How did you feel when you finally reached the sea?\n\nOwen: I'd imagined we'd be jumping up and down, celebrating. And we did take lots of photos on the beach. But honestly, I felt a bit sad more than anything. For three weeks, all we'd had to think about was cycling and eating, and suddenly it was over.\n\nInterviewer: Would you recommend a trip like this to other students?\n\nOwen: Definitely. People think you need to be really fit before you start, but we weren't, especially me. You get fitter every day. And you don't need an expensive bike. Mine was second-hand. The one thing I'd say is go with someone you get on well with, because you spend every minute together!\n\nInterviewer: Owen Barker, thanks for coming in.",
+            "passageId": "en-b1-p-horen-t4-interview-cyclist-trip-01-01",
+            "questions": [
+              {
+                "id": "ql_en-b1-h-t4-interview-cyclist-trip-01-q1",
+                "type": "multiple_choice",
+                "question": "What was Owen's main reason for doing the trip?",
+                "correct": "b",
+                "correctAnswer": "b",
+                "explanation": "Owen says he had spent the year 'revising for exams' and 'was desperate to do something physical, something completely different.' He collected some money for a hospital, 'but that wasn't the main reason', and his cousin simply 'felt the same'.",
+                "grammarTags": [
+                  "g-en-b1-past-perfect"
+                ],
+                "topicTags": [
+                  "travel-holidays"
+                ],
+                "vocabularyTags": [
+                  "charity",
+                  "revise",
+                  "desperate"
+                ],
+                "difficulty": 4,
+                "options": [
+                  "a) His cousin persuaded him to go with him.",
+                  "b) He needed a complete change from studying.",
+                  "c) He wanted to raise money for a hospital."
+                ],
+                "level": "B1",
+                "passageId": "en-b1-p-horen-t4-interview-cyclist-trip-01-01"
+              },
+              {
+                "id": "ql_en-b1-h-t4-interview-cyclist-trip-01-q2",
+                "type": "multiple_choice",
+                "question": "How does Owen feel now about the planning they did?",
+                "correct": "b",
+                "correctAnswer": "b",
+                "explanation": "Owen says they did 'Far too much' planning and 'Looking back, that was a mistake.' He is not glad about it, and he wants to 'leave much more to chance' next time, not prepare more.",
+                "grammarTags": [
+                  "g-en-b1-wish"
+                ],
+                "topicTags": [
+                  "travel-holidays"
+                ],
+                "vocabularyTags": [
+                  "organise",
+                  "mistake",
+                  "by chance"
+                ],
+                "difficulty": 5,
+                "options": [
+                  "a) He is glad they organised everything carefully.",
+                  "b) He thinks they planned too much.",
+                  "c) He wishes they had prepared their route better."
+                ],
+                "level": "B1",
+                "passageId": "en-b1-p-horen-t4-interview-cyclist-trip-01-01"
+              },
+              {
+                "id": "ql_en-b1-h-t4-interview-cyclist-trip-01-q3",
+                "type": "multiple_choice",
+                "question": "What did Owen find hardest during the trip?",
+                "correct": "a",
+                "correctAnswer": "a",
+                "explanation": "Owen says 'the worst thing was when Ben got a stomach bug and we had to stay in a small town for three days. I felt so frustrated'. He says the hills 'were fine', and the wet days only 'weren't much fun'.",
+                "grammarTags": [
+                  "g-en-b1-superlatives"
+                ],
+                "topicTags": [
+                  "travel-holidays"
+                ],
+                "vocabularyTags": [
+                  "stomach bug",
+                  "frustrated",
+                  "hill"
+                ],
+                "difficulty": 4,
+                "options": [
+                  "a) Waiting for his cousin to get better",
+                  "b) Climbing the steep hills on his bike",
+                  "c) Cycling for days in heavy rain"
+                ],
+                "level": "B1",
+                "passageId": "en-b1-p-horen-t4-interview-cyclist-trip-01-01"
+              },
+              {
+                "id": "ql_en-b1-h-t4-interview-cyclist-trip-01-q4",
+                "type": "multiple_choice",
+                "question": "What does Owen say about the people he met in France?",
+                "correct": "c",
+                "correctAnswer": "c",
+                "explanation": "Owen was afraid 'people might be impatient with us', but 'Actually, everyone was incredibly kind.' He says 'Hardly anyone spoke English'.",
+                "grammarTags": [
+                  "g-en-b1-comparatives"
+                ],
+                "topicTags": [
+                  "travel-holidays"
+                ],
+                "vocabularyTags": [
+                  "impatient",
+                  "incredibly",
+                  "campsite"
+                ],
+                "difficulty": 4,
+                "options": [
+                  "a) They were surprised to see cyclists.",
+                  "b) Most of them were able to speak good English.",
+                  "c) They were kinder than he had expected."
+                ],
+                "level": "B1",
+                "passageId": "en-b1-p-horen-t4-interview-cyclist-trip-01-01"
+              },
+              {
+                "id": "ql_en-b1-h-t4-interview-cyclist-trip-01-q5",
+                "type": "multiple_choice",
+                "question": "How did Owen feel when they reached the Mediterranean?",
+                "correct": "a",
+                "correctAnswer": "a",
+                "explanation": "Owen says 'I felt a bit sad more than anything' because 'suddenly it was over.' He had imagined 'jumping up and down, celebrating', but that is not how he actually felt.",
+                "grammarTags": [
+                  "g-en-b1-past-perfect"
+                ],
+                "topicTags": [
+                  "travel-holidays"
+                ],
+                "vocabularyTags": [
+                  "imagine",
+                  "celebrate",
+                  "honestly"
+                ],
+                "difficulty": 5,
+                "options": [
+                  "a) Sorry that the trip was over",
+                  "b) Excited and keen to celebrate",
+                  "c) Proud of how fit he had become"
+                ],
+                "level": "B1",
+                "passageId": "en-b1-p-horen-t4-interview-cyclist-trip-01-01"
+              },
+              {
+                "id": "ql_en-b1-h-t4-interview-cyclist-trip-01-q6",
+                "type": "multiple_choice",
+                "question": "What does Owen say about doing a trip like this?",
+                "correct": "c",
+                "correctAnswer": "c",
+                "explanation": "Owen says 'People think you need to be really fit before you start, but we weren't' and 'You get fitter every day.' His own bike was 'second-hand', and he advises going 'with someone you get on well with', not alone.",
+                "grammarTags": [
+                  "g-en-b1-modals"
+                ],
+                "topicTags": [
+                  "travel-holidays"
+                ],
+                "vocabularyTags": [
+                  "recommend",
+                  "fit",
+                  "get on with"
+                ],
+                "difficulty": 4,
+                "options": [
+                  "a) It's worth paying for a really good bike.",
+                  "b) It is more fun to travel on your own.",
+                  "c) You can do it without being very fit."
+                ],
+                "level": "B1",
+                "passageId": "en-b1-p-horen-t4-interview-cyclist-trip-01-01"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "schreibenParts": [
+      {
+        "aufgabe": 1,
+        "fieldId": "write_bp_1",
+        "task": "Part 1. You must answer this question.\n\nRead this email from your neighbour, Mrs Hughes, and the notes you have made.\n\nFrom: Carol Hughes\nSubject: Could you help us?\n\nHello,\n\nWe're going to visit my sister in Scotland from 3 to 10 August. Would you be able to look after our cat, Biscuit, while we're away? [Note 1: Yes, …]\n\nBiscuit needs food twice a day, once in the morning and once in the evening. What time would be best for you to come round? [Note 2: Tell Mrs Hughes]\n\nIs there anything you would like to know about looking after her? [Note 3: Ask about …]\n\nWe'd like to thank you for your help. Is there anything we could bring you back from Scotland? [Note 4: Explain]\n\nBest wishes,\nCarol Hughes\n\nWrite your email to Mrs Hughes using all the notes. Write about 100 words.",
+        "minWords": 80,
+        "maxWords": 80,
+        "targetWords": 80,
+        "mandatory": true,
+        "taskType": "email",
+        "blueprintSlot": "email",
+        "grammarTags": [
+          "g-en-b1-modals",
+          "g-en-b1-questions"
+        ],
+        "topicTags": [
+          "animals"
+        ],
+        "teil": 1
+      },
+      {
+        "aufgabe": 2,
+        "fieldId": "write_bp_2",
+        "task": "Part 2. Choose ONE of these questions. Write your answer in about 100 words.\n\nQuestion 2: Article\nYou see this notice in an English-language magazine.\n\nARTICLES WANTED!\nWhy animals are important to people\nWhy do people keep pets? How can animals help people in their lives? Is there an animal that is important to you?\nWrite an article answering these questions. We will publish the most interesting articles.\n\nWrite your article.\n\nQuestion 3: Story\nYour English teacher has asked you to write a story.\nYour story must begin with this sentence:\n'The dog would not stop barking.'\n\nWrite your story.",
+        "minWords": 80,
+        "maxWords": 80,
+        "targetWords": 80,
+        "mandatory": false,
+        "taskType": "article",
+        "blueprintSlot": "choice_writing",
+        "grammarTags": [
+          "g-en-b1-past-simple",
+          "g-en-b1-giving-reasons"
+        ],
+        "topicTags": [
+          "animals"
+        ],
+        "teil": 2
+      }
+    ],
+    "sprechenParts": [
+      {
+        "teil": 1,
+        "title": "Part 1 — Speaking",
+        "fieldId": "speak_bp_1",
+        "situation": "Part 1 (2-3 minutes). The examiner asks you some questions about yourself.\n\nWhat's your name? Where are you from?\nDo you enjoy going shopping? Why / Why not?\nWhere do you usually buy your clothes?\nWho do you like going shopping with?\nTell us about something you bought recently.\nDo you prefer shopping online or in shops? Why?",
+        "points": [
+          "interview"
+        ],
+        "blueprintSlot": "speaking_task",
+        "grammarTags": [
+          "g-en-b1-present-simple",
+          "g-en-b1-comparatives"
+        ],
+        "topicTags": [
+          "shopping"
+        ]
+      },
+      {
+        "teil": 2,
+        "title": "Part 2 — Speaking",
+        "fieldId": "speak_bp_2",
+        "situation": "Part 2 (about 1 minute). Look at the photograph. It shows a busy outdoor market. A man is selling fruit and vegetables from a stall, and a woman with a shopping bag is choosing some tomatoes. There are lots of other people walking between the stalls. Tell us what you can see in the photograph.",
+        "points": [
+          "photo_description"
+        ],
+        "blueprintSlot": "speaking_task",
+        "grammarTags": [
+          "g-en-b1-present-continuous",
+          "g-en-b1-speculation"
+        ],
+        "topicTags": [
+          "shopping"
+        ]
+      },
+      {
+        "teil": 3,
+        "title": "Part 3 — Speaking",
+        "fieldId": "speak_bp_3",
+        "situation": "Part 3 (2-3 minutes). Talk to your partner.\n\nA friend of yours is moving to another city to start a new job, and you want to buy them a present. Here are some ideas:\n\na plant for their new flat\na photo album with pictures of your friends\na cookery book\na cinema voucher\na backpack\na map and guidebook of the new city\n\nTalk together about the different presents you could buy, and say which would be the best one for your friend.",
+        "points": [
+          "collaborative_task"
+        ],
+        "blueprintSlot": "speaking_task",
+        "grammarTags": [
+          "g-en-b1-suggestions",
+          "g-en-b1-agreeing-disagreeing"
+        ],
+        "topicTags": [
+          "shopping"
+        ]
+      },
+      {
+        "teil": 4,
+        "title": "Part 4 — Speaking",
+        "fieldId": "speak_bp_4",
+        "situation": "Part 4 (about 3 minutes). The examiner asks you and your partner some questions about shopping habits and saving money.\n\nWhat kind of presents do you like to receive?\nDo you think people spend too much money on things they don't need? Why / Why not?\nIs it important for young people to save money? Why?\nWhat are the best ways to save money?\nWould you prefer to have a small shop in your street or a big shopping centre near your town? Why?",
+        "points": [
+          "general_conversation"
+        ],
+        "blueprintSlot": "speaking_task",
+        "grammarTags": [
+          "g-en-b1-opinions",
+          "g-en-b1-modals"
+        ],
+        "topicTags": [
+          "shopping"
+        ]
+      }
+    ],
+    "cambridgeFormat": true,
+    "curated": true
+  },
+  "provenance": {
+    "generatedBy": "publish-promote-candidates",
+    "validatedBy": "audit-pass-2+lexicalCheck+CefrGate",
+    "blueprintId": "cambridge-b1",
+    "cefrGate": {
+      "withinRange": true,
+      "metrics": {},
+      "reasons": []
+    },
+    "sourceBankIds": [
+      "en-b1-r-t1-notices-swimming-pool-01-q1",
+      "en-b1-r-t1-notices-swimming-pool-01-q4",
+      "en-b1-r-t1-notices-swimming-pool-01-q2",
+      "en-b1-r-t1-notices-swimming-pool-01-q5",
+      "en-b1-r-t1-notices-swimming-pool-01-q3",
+      "en-b1-r-t2-match-apps-01-q1",
+      "en-b1-r-t2-match-apps-01-q2",
+      "en-b1-r-t2-match-apps-01-q3",
+      "en-b1-r-t2-match-apps-01-q4",
+      "en-b1-r-t2-match-apps-01-q5",
+      "en-b1-r-t3-long-exchange-student-01-q1",
+      "en-b1-r-t3-long-exchange-student-01-q2",
+      "en-b1-r-t3-long-exchange-student-01-q3",
+      "en-b1-r-t3-long-exchange-student-01-q4",
+      "en-b1-r-t3-long-exchange-student-01-q5",
+      "en-b1-r-t4-gapped-screen-time-01-q1",
+      "en-b1-r-t4-gapped-screen-time-01-q2",
+      "en-b1-r-t4-gapped-screen-time-01-q3",
+      "en-b1-r-t4-gapped-screen-time-01-q4",
+      "en-b1-r-t4-gapped-screen-time-01-q5",
+      "en-b1-r-t5-cloze-climbing-wall-01-q1",
+      "en-b1-r-t5-cloze-climbing-wall-01-q2",
+      "en-b1-r-t5-cloze-climbing-wall-01-q3",
+      "en-b1-r-t5-cloze-climbing-wall-01-q4",
+      "en-b1-r-t5-cloze-climbing-wall-01-q5",
+      "en-b1-r-t5-cloze-climbing-wall-01-q6",
+      "en-b1-r-t6-open-cloze-new-neighbour-01-q1",
+      "en-b1-r-t6-open-cloze-new-neighbour-01-q2",
+      "en-b1-r-t6-open-cloze-new-neighbour-01-q3",
+      "en-b1-r-t6-open-cloze-new-neighbour-01-q4",
+      "en-b1-r-t6-open-cloze-new-neighbour-01-q5",
+      "en-b1-r-t6-open-cloze-new-neighbour-01-q6",
+      "en-b1-h-t1-pics-health-appointments-01-s5-q1",
+      "en-b1-h-t1-pics-health-appointments-01-s1-q1",
+      "en-b1-h-t1-pics-health-appointments-01-s2-q1",
+      "en-b1-h-t1-pics-health-appointments-01-s4-q1",
+      "en-b1-h-t1-pics-health-appointments-01-s7-q1",
+      "en-b1-h-t1-pics-health-appointments-01-s3-q1",
+      "en-b1-h-t1-pics-health-appointments-01-s6-q1",
+      "en-b1-h-t2-gist-films-music-01-q3",
+      "en-b1-h-t2-gist-films-music-01-q5",
+      "en-b1-h-t2-gist-films-music-01-q2",
+      "en-b1-h-t2-gist-films-music-01-q6",
+      "en-b1-h-t2-gist-films-music-01-q4",
+      "en-b1-h-t2-gist-films-music-01-q1",
+      "en-b1-h-t3-gapfill-cooking-club-01-q1",
+      "en-b1-h-t3-gapfill-cooking-club-01-q2",
+      "en-b1-h-t3-gapfill-cooking-club-01-q3",
+      "en-b1-h-t3-gapfill-cooking-club-01-q4",
+      "en-b1-h-t3-gapfill-cooking-club-01-q5",
+      "en-b1-h-t3-gapfill-cooking-club-01-q6",
+      "en-b1-h-t4-interview-cyclist-trip-01-q1",
+      "en-b1-h-t4-interview-cyclist-trip-01-q2",
+      "en-b1-h-t4-interview-cyclist-trip-01-q3",
+      "en-b1-h-t4-interview-cyclist-trip-01-q4",
+      "en-b1-h-t4-interview-cyclist-trip-01-q5",
+      "en-b1-h-t4-interview-cyclist-trip-01-q6",
+      "en-b1-w-t1-email-pet-sitting-01-q1",
+      "en-b1-w-t2-email-pet-sitting-01-q1",
+      "en-b1-s-t1-speaking-shopping-money-01-q1",
+      "en-b1-s-t2-speaking-shopping-money-01-q1",
+      "en-b1-s-t3-speaking-shopping-money-01-q1",
+      "en-b1-s-t4-speaking-shopping-money-01-q1"
+    ],
+    "validationErrors": [],
+    "createdAt": "2026-10-12T14:44:28.032Z",
+    "strategy": "B"
+  }
+}

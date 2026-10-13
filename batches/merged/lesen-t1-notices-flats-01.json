@@ -1,0 +1,240 @@
+{
+  "passages": [
+    {
+      "id": "en-b1-p-lesen-t1-notices-flats-01-01",
+      "module": "lesen",
+      "title": "Note under a door",
+      "text": "To whoever lives in Flat 6 – a parcel for you was left with me on Tuesday because you were out. I’m at work during the day, so please knock after 6 pm to collect it. Joe, Flat 2",
+      "passageVocab": [
+        "parcel",
+        "knock",
+        "collect",
+        "out"
+      ]
+    },
+    {
+      "id": "en-b1-p-lesen-t1-notices-flats-01-02",
+      "module": "lesen",
+      "title": "Lift out of order",
+      "text": "An engineer is coming to repair the lift on Thursday morning. Until then, residents with heavy shopping or pushchairs can ask the caretaker, Mr Patel, for help. His number is on the board by the main entrance.",
+      "passageVocab": [
+        "engineer",
+        "repair",
+        "pushchair",
+        "caretaker"
+      ]
+    },
+    {
+      "id": "en-b1-p-lesen-t1-notices-flats-01-03",
+      "module": "lesen",
+      "title": "Bike store – residents only",
+      "text": "Lock all bikes to the rails. Any bike without a Brookfield House sticker will be removed after 31 May. Stickers are free from the management office.",
+      "passageVocab": [
+        "lock",
+        "rail",
+        "sticker",
+        "remove"
+      ]
+    },
+    {
+      "id": "en-b1-p-lesen-t1-notices-flats-01-04",
+      "module": "lesen",
+      "title": "Email from Harlow Property Management",
+      "text": "Dear residents, the water will be turned off on Monday 9 June between 9 am and 1 pm while old pipes are replaced. Please fill a few bottles the night before. We are sorry for any problems this may cause.",
+      "passageVocab": [
+        "turn off",
+        "pipe",
+        "replace",
+        "resident"
+      ]
+    },
+    {
+      "id": "en-b1-p-lesen-t1-notices-flats-01-05",
+      "module": "lesen",
+      "title": "Message on the residents’ group chat",
+      "text": "Hi everyone! I’m Lena and I’ve just moved into Flat 11. I’m having a small get-together on Saturday from 4 pm to say hello – drinks and cake in the garden. Children welcome. If it rains, we’ll move into the entrance hall.",
+      "passageVocab": [
+        "move into",
+        "get-together",
+        "welcome",
+        "entrance hall"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "en-b1-r-t1-notices-flats-01-q1",
+      "module": "lesen",
+      "teil": 1,
+      "type": "multiple_choice",
+      "passageId": "en-b1-p-lesen-t1-notices-flats-01-01",
+      "question": "Why has Joe written this note?",
+      "options": [
+        "a) To tell the reader he is keeping a parcel for them",
+        "b) To ask the reader to take in a parcel for him",
+        "c) To complain about a delivery that went to the wrong flat"
+      ],
+      "correct": "a",
+      "correctAnswer": "a",
+      "explanation": "Joe writes that \"a parcel for you was left with me\" and asks the reader to \"knock after 6 pm to collect it\". The parcel belongs to the person in Flat 6, not to Joe, and he does not complain – it was left with him \"because you were out\".",
+      "grammarTags": [
+        "g-en-b1-passive"
+      ],
+      "topicTags": [
+        "home"
+      ],
+      "vocabularyTags": [
+        "neighbours",
+        "delivery",
+        "parcel"
+      ],
+      "difficulty": 3,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-r-t1-notices-flats-01-q2",
+      "module": "lesen",
+      "teil": 1,
+      "type": "multiple_choice",
+      "passageId": "en-b1-p-lesen-t1-notices-flats-01-02",
+      "question": "What does the notice say?",
+      "options": [
+        "a) Pushchairs must not be taken in the lift.",
+        "b) The caretaker is going to repair the lift.",
+        "c) Residents can get help carrying heavy things."
+      ],
+      "correct": "c",
+      "correctAnswer": "c",
+      "explanation": "Residents \"with heavy shopping or pushchairs can ask the caretaker, Mr Patel, for help\". The repair will be done by \"An engineer\", not the caretaker, and pushchairs are mentioned only because the lift is not working, not because they are banned.",
+      "grammarTags": [
+        "g-en-b1-present-continuous-future"
+      ],
+      "topicTags": [
+        "home"
+      ],
+      "vocabularyTags": [
+        "lift",
+        "repairs",
+        "caretaker"
+      ],
+      "difficulty": 3,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-r-t1-notices-flats-01-q3",
+      "module": "lesen",
+      "teil": 1,
+      "type": "multiple_choice",
+      "passageId": "en-b1-p-lesen-t1-notices-flats-01-03",
+      "question": "What does the notice tell residents?",
+      "options": [
+        "a) Bikes that are not locked will be removed after 31 May.",
+        "b) They need to get a sticker for their bikes.",
+        "c) They must pay the office to keep their bikes here."
+      ],
+      "correct": "b",
+      "correctAnswer": "b",
+      "explanation": "\"Any bike without a Brookfield House sticker will be removed\", so residents need a sticker. The stickers \"are free\", so there is nothing to pay, and bikes are removed for having no sticker, not for being unlocked.",
+      "grammarTags": [
+        "g-en-b1-passive"
+      ],
+      "topicTags": [
+        "home"
+      ],
+      "vocabularyTags": [
+        "bicycle",
+        "rules",
+        "storage"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-r-t1-notices-flats-01-q4",
+      "module": "lesen",
+      "teil": 1,
+      "type": "multiple_choice",
+      "passageId": "en-b1-p-lesen-t1-notices-flats-01-04",
+      "question": "What are residents advised to do?",
+      "options": [
+        "a) Stay in their flats on Monday morning.",
+        "b) Keep some water ready for Monday.",
+        "c) Check their own pipes before 9 June."
+      ],
+      "correct": "b",
+      "correctAnswer": "b",
+      "explanation": "The email asks residents to \"fill a few bottles the night before\" the water is turned off. Nobody is asked to stay at home, and the company is replacing the pipes itself: \"while old pipes are replaced\".",
+      "grammarTags": [
+        "g-en-b1-passive"
+      ],
+      "topicTags": [
+        "home"
+      ],
+      "vocabularyTags": [
+        "water supply",
+        "repairs",
+        "advice"
+      ],
+      "difficulty": 3,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-r-t1-notices-flats-01-q5",
+      "module": "lesen",
+      "teil": 1,
+      "type": "multiple_choice",
+      "passageId": "en-b1-p-lesen-t1-notices-flats-01-05",
+      "question": "What is Lena doing?",
+      "options": [
+        "a) Asking her neighbours to bring cake to a party",
+        "b) Asking permission to use the garden on Saturday",
+        "c) Inviting her neighbours to come and meet her"
+      ],
+      "correct": "c",
+      "correctAnswer": "c",
+      "explanation": "Lena has \"just moved into Flat 11\" and is having a get-together \"to say hello\", so she is inviting neighbours to meet her. She is providing the \"drinks and cake\" herself, and she is not asking anyone for permission – she has already planned to use the garden or the entrance hall.",
+      "grammarTags": [
+        "g-en-b1-present-continuous-future"
+      ],
+      "topicTags": [
+        "home"
+      ],
+      "vocabularyTags": [
+        "neighbours",
+        "invitation",
+        "party"
+      ],
+      "difficulty": 3,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    }
+  ],
+  "_germanCapsNormalizeVersion": "v3.23-lesen-t2-angebote-corpus-2026-07-28",
+  "_germanCapsNormalizedAt": "2026-10-12T19:21:53.400Z",
+  "_balanceMcqVersion": "v1.2-no-rf-chrono-shuffle-2026-07-11",
+  "_balanceMcqNormalizedAt": "2026-10-12T19:21:53.400Z"
+}

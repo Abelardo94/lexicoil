@@ -1,0 +1,80 @@
+{
+  "passages": [],
+  "questions": [
+    {
+      "id": "en-b1-w-t1-email-concert-tickets-01-q1",
+      "module": "schreiben",
+      "teil": 1,
+      "type": "short_answer",
+      "taskTypes": [
+        "email"
+      ],
+      "question": "Part 1. You must answer this question.\n\nRead this email from your friend Callum and the notes you have made.\n\nFrom: Callum\nSubject: Concert tickets!\n\nGuess what? I've got two tickets for the Silver Foxes concert at the City Arena on Saturday 14 June! [Note 1: Great!]\n\nThe concert starts at eight o'clock in the evening. How do you think we should get there? [Note 2: Suggest …]\n\nShall we have something to eat in town before the concert? [Note 3: Yes, because …]\n\nThere's one problem. My sister Jess really wants to come with us, but all the tickets have gone. What should I say to her? [Note 4: Explain]\n\nTalk soon,\nCallum\n\nWrite your email to Callum using all the notes. Write about 100 words.",
+      "correct": "rubric",
+      "correctAnswer": "rubric",
+      "explanation": "A good answer is an informal email to a friend (e.g. 'Hi Callum,' … 'See you on Saturday!') of about 100 words that deals with all four notes: (1) reacts with enthusiasm to the tickets ('That's amazing news! The Silver Foxes are my favourite band'); (2) suggests a way to travel ('Let's take the bus, because it stops right outside the arena' / 'My dad could drive us'); (3) agrees to eat before the concert and gives a reason ('Yes, good idea, because we'll be hungry by ten o'clock'); (4) explains what Callum could tell his sister ('You could tell Jess that we'll take lots of videos for her' / 'Maybe we can all go together next time'). Marks are given for Content (all four notes), Communicative Achievement (friendly, natural tone), Organisation (clear paragraphs and linking words such as 'because', 'so', 'but') and Language (B1 structures such as 'Let's…', 'could', 'will' for plans and offers). Missing a note reduces the Content mark.",
+      "options": [],
+      "grammarTags": [
+        "g-en-b1-suggestions",
+        "g-en-b1-future-forms"
+      ],
+      "topicTags": [
+        "entertainment"
+      ],
+      "vocabularyTags": [
+        "ticket",
+        "concert",
+        "band",
+        "arena",
+        "transport"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "writing"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-w-t2-email-concert-tickets-01-q1",
+      "module": "schreiben",
+      "teil": 2,
+      "type": "short_answer",
+      "taskTypes": [
+        "article",
+        "story"
+      ],
+      "question": "Part 2. Choose ONE of these questions. Write your answer in about 100 words.\n\nQuestion 2: Article\nYou see this notice on an English-language website for teenagers.\n\nARTICLES WANTED!\nThe best concert or show I have seen\nWhat was the concert or show? Who did you go with? Why was it so special?\nWrite an article answering these questions. The best articles will appear on our website.\n\nWrite your article.\n\nQuestion 3: Story\nYour English teacher has asked you to write a story.\nYour story must begin with this sentence:\n'The lights went out just before the show started.'\n\nWrite your story.",
+      "correct": "rubric",
+      "correctAnswer": "rubric",
+      "explanation": "Candidates answer only ONE question, in about 100 words. Article: a good answer has a title and an interesting opening, and answers the three questions in the notice: which concert or show (a band, a musical, a dance show, a school performance), who the writer went with, and why it was special (the atmosphere, the music, a surprise moment). It should describe feelings and give opinions ('It was the most exciting evening of my life'), and may use superlatives and adjectives such as 'amazing', 'unforgettable'. Story: the story must begin with the given sentence and develop it (why the lights went out, what the audience and the writer did, how the problem was solved). It needs a clear beginning, middle and end, a range of past tenses (e.g. 'Everyone was waiting when…'), and sequencing words ('Suddenly', 'After a few minutes', 'Finally'). Both are marked for Content, Communicative Achievement, Organisation and Language.",
+      "options": [],
+      "grammarTags": [
+        "g-en-b1-past-continuous",
+        "g-en-b1-superlatives"
+      ],
+      "topicTags": [
+        "entertainment"
+      ],
+      "vocabularyTags": [
+        "show",
+        "audience",
+        "stage",
+        "atmosphere",
+        "perform"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "writing"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    }
+  ],
+  "_germanCapsNormalizeVersion": "v3.23-lesen-t2-angebote-corpus-2026-07-28",
+  "_germanCapsNormalizedAt": "2026-10-12T14:44:05.121Z",
+  "_balanceMcqVersion": "v1.2-no-rf-chrono-shuffle-2026-07-11",
+  "_balanceMcqNormalizedAt": "2026-10-12T14:44:05.121Z"
+}

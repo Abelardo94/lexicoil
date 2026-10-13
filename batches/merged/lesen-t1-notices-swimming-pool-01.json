@@ -1,0 +1,239 @@
+{
+  "passages": [
+    {
+      "id": "en-b1-p-lesen-t1-notices-swimming-pool-01-01",
+      "module": "lesen",
+      "title": "Sign in the changing rooms",
+      "text": "LOCKERS\nPlease put a £1 coin in the slot to lock your locker. Your coin will come back to you when you open it again. Lost keys cost £15 to replace.",
+      "passageVocab": [
+        "locker",
+        "coin",
+        "slot",
+        "replace"
+      ]
+    },
+    {
+      "id": "en-b1-p-lesen-t1-notices-swimming-pool-01-02",
+      "module": "lesen",
+      "title": "Message from a swimming coach",
+      "text": "Hi everyone, the pool will be closed this Saturday for a competition, so our training session is moving to Sunday at the same time. If your child can't come on Sunday, please let me know by Thursday. Coach Dan",
+      "passageVocab": [
+        "competition",
+        "training session",
+        "let someone know"
+      ]
+    },
+    {
+      "id": "en-b1-p-lesen-t1-notices-swimming-pool-01-03",
+      "module": "lesen",
+      "title": "Notice by the pool",
+      "text": "LANE SWIMMING\nThe fast lane is for people who can swim 25 metres in under 30 seconds. If other swimmers are often passing you, please move to the medium lane.",
+      "passageVocab": [
+        "lane",
+        "metre",
+        "pass",
+        "medium"
+      ]
+    },
+    {
+      "id": "en-b1-p-lesen-t1-notices-swimming-pool-01-04",
+      "module": "lesen",
+      "title": "Sign on a door",
+      "text": "FAMILY CHANGING ROOM\nFor adults with children under 8 only.\nChildren aged 8 and over must use the male or female changing rooms. Thank you.",
+      "passageVocab": [
+        "changing room",
+        "aged",
+        "male",
+        "female"
+      ]
+    },
+    {
+      "id": "en-b1-p-lesen-t1-notices-swimming-pool-01-05",
+      "module": "lesen",
+      "title": "Email from a leisure centre",
+      "text": "Dear Member,\nFrom 1 March, all swimmers with hair longer than their shoulders must wear a swimming cap. Caps can be bought at reception for £3, or you are welcome to bring your own.\nLakeside Leisure Centre",
+      "passageVocab": [
+        "swimming cap",
+        "shoulder",
+        "reception",
+        "member"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "en-b1-r-t1-notices-swimming-pool-01-q1",
+      "module": "lesen",
+      "teil": 1,
+      "type": "multiple_choice",
+      "passageId": "en-b1-p-lesen-t1-notices-swimming-pool-01-01",
+      "question": "What does the sign say?",
+      "options": [
+        "a) You have to pay £1 every time you open your locker.",
+        "b) You can buy a locker key at reception for £15.",
+        "c) You get your £1 back when you unlock the locker."
+      ],
+      "correct": "c",
+      "correctAnswer": "c",
+      "explanation": "The sign says 'Your coin will come back to you when you open it again', so using a locker costs nothing in the end. You do not pay each time you open it, and £15 is what it costs if you lose a key, not the price of buying one.",
+      "grammarTags": [
+        "g-en-b1-future-forms"
+      ],
+      "topicTags": [
+        "sport"
+      ],
+      "vocabularyTags": [
+        "locker",
+        "coin",
+        "replace"
+      ],
+      "difficulty": 3,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-r-t1-notices-swimming-pool-01-q2",
+      "module": "lesen",
+      "teil": 1,
+      "type": "multiple_choice",
+      "passageId": "en-b1-p-lesen-t1-notices-swimming-pool-01-02",
+      "question": "Why has Coach Dan written this message?",
+      "options": [
+        "a) To tell parents about a change of day",
+        "b) To invite parents to watch a competition",
+        "c) To say that this week's training is cancelled"
+      ],
+      "correct": "a",
+      "correctAnswer": "a",
+      "explanation": "Dan explains that 'our training session is moving to Sunday at the same time', so the day has changed. Training is not cancelled, it is moved, and the competition is only the reason the pool is closed – he does not invite anyone to it.",
+      "grammarTags": [
+        "g-en-b1-present-continuous-future"
+      ],
+      "topicTags": [
+        "sport"
+      ],
+      "vocabularyTags": [
+        "training session",
+        "competition",
+        "let someone know"
+      ],
+      "difficulty": 3,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-r-t1-notices-swimming-pool-01-q3",
+      "module": "lesen",
+      "teil": 1,
+      "type": "multiple_choice",
+      "passageId": "en-b1-p-lesen-t1-notices-swimming-pool-01-03",
+      "question": "What does the notice say?",
+      "options": [
+        "a) The fast lane is only open for thirty minutes at a time.",
+        "b) Swimmers have to pass a speed test before using the fast lane.",
+        "c) Slower swimmers in the fast lane should change lanes."
+      ],
+      "correct": "c",
+      "correctAnswer": "c",
+      "explanation": "The notice says 'If other swimmers are often passing you, please move to the medium lane', so slower swimmers should change lanes. Nobody has to take a test, and '30 seconds' is the time for 25 metres, not how long the lane is open.",
+      "grammarTags": [
+        "g-en-b1-conditionals"
+      ],
+      "topicTags": [
+        "sport"
+      ],
+      "vocabularyTags": [
+        "lane",
+        "pass",
+        "medium"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-r-t1-notices-swimming-pool-01-q4",
+      "module": "lesen",
+      "teil": 1,
+      "type": "multiple_choice",
+      "passageId": "en-b1-p-lesen-t1-notices-swimming-pool-01-04",
+      "question": "What does the sign say?",
+      "options": [
+        "a) A nine-year-old should not change in this room.",
+        "b) Young children must change with a parent of the same sex.",
+        "c) Adults without children may also use this room."
+      ],
+      "correct": "a",
+      "correctAnswer": "a",
+      "explanation": "'Children aged 8 and over must use the male or female changing rooms', so a nine-year-old cannot use the family room. The room is 'for adults with children under 8 only', so adults on their own cannot use it, and the sign says nothing about young children changing with a parent of the same sex.",
+      "grammarTags": [
+        "g-en-b1-modals"
+      ],
+      "topicTags": [
+        "sport"
+      ],
+      "vocabularyTags": [
+        "changing room",
+        "aged",
+        "only"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-r-t1-notices-swimming-pool-01-q5",
+      "module": "lesen",
+      "teil": 1,
+      "type": "multiple_choice",
+      "passageId": "en-b1-p-lesen-t1-notices-swimming-pool-01-05",
+      "question": "What is the leisure centre telling members?",
+      "options": [
+        "a) Members will be given a free cap in March.",
+        "b) Some swimmers will need to wear a cap from March.",
+        "c) Every swimmer must buy a cap at reception."
+      ],
+      "correct": "b",
+      "correctAnswer": "b",
+      "explanation": "Only 'swimmers with hair longer than their shoulders must wear a swimming cap' from 1 March, so the rule is for some swimmers. Caps are not free – they cost '£3' – and nobody has to buy one at reception because 'you are welcome to bring your own'.",
+      "grammarTags": [
+        "g-en-b1-modals"
+      ],
+      "topicTags": [
+        "sport"
+      ],
+      "vocabularyTags": [
+        "swimming cap",
+        "reception",
+        "shoulder"
+      ],
+      "difficulty": 3,
+      "skills": [
+        "reading"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    }
+  ],
+  "_germanCapsNormalizeVersion": "v3.23-lesen-t2-angebote-corpus-2026-07-28",
+  "_germanCapsNormalizedAt": "2026-10-12T14:43:59.114Z",
+  "_balanceMcqVersion": "v1.2-no-rf-chrono-shuffle-2026-07-11",
+  "_balanceMcqNormalizedAt": "2026-10-12T14:43:59.114Z"
+}

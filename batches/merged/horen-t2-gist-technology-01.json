@@ -1,0 +1,286 @@
+{
+  "passages": [
+    {
+      "id": "en-b1-p-horen-t2-gist-technology-01-01",
+      "module": "horen",
+      "title": "Dialogue 1",
+      "text": "Woman: Are you still using that running app?\nMan: Every day! I know it isn’t free, and it took me a few days to understand all the buttons, but now it’s easy. Honestly, without it I’d have stopped running weeks ago. When it tells me I’ve beaten my best time, I just want to go out again the next morning.\nWoman: Maybe I should try it, then.\nMan: You should. It’s worth every penny.",
+      "passageVocab": [
+        "app",
+        "beat",
+        "worth",
+        "honestly"
+      ]
+    },
+    {
+      "id": "en-b1-p-horen-t2-gist-technology-01-02",
+      "module": "horen",
+      "title": "Dialogue 2",
+      "text": "Woman: I had my first video call with Grandma and Grandad last night.\nMan: How did it go? I bet it took ages to get them connected.\nWoman: That’s what I expected! I was ready to spend an hour explaining which buttons to press. But Grandad had practised with a neighbour, and it worked first time. We chatted for ages, and I could hear them perfectly.\nMan: That’s brilliant.\nWoman: Honestly, it was the best part of my week.",
+      "passageVocab": [
+        "video call",
+        "connect",
+        "practise",
+        "chat"
+      ]
+    },
+    {
+      "id": "en-b1-p-horen-t2-gist-technology-01-03",
+      "module": "horen",
+      "title": "Dialogue 3",
+      "text": "Man: How are you getting on with the new booking system?\nWoman: Not very well! I’m sure it’s better than the old one, but nobody showed us how it works.\nMan: Exactly. We had one short email from the manager and that was it. They should have given us a proper course before it started.\nWoman: I agree. I spent half the morning asking people for help.\nMan: Me too. Maybe it’ll save us time when we know what we’re doing, but I’m not so sure.",
+      "passageVocab": [
+        "booking system",
+        "get on",
+        "proper",
+        "save time"
+      ]
+    },
+    {
+      "id": "en-b1-p-horen-t2-gist-technology-01-04",
+      "module": "horen",
+      "title": "Dialogue 4",
+      "text": "Man: Are you still learning Spanish with that app?\nWoman: No, I gave up last month.\nMan: Really? I thought it was free.\nWoman: It is, and the games were fun. I learned loads of words. But when I went to Valencia, I couldn’t have a single conversation with anyone. All I’d done was press buttons! So now I go to an evening class where we actually talk to each other.\nMan: That sounds much more useful.",
+      "passageVocab": [
+        "give up",
+        "conversation",
+        "evening class",
+        "actually"
+      ]
+    },
+    {
+      "id": "en-b1-p-horen-t2-gist-technology-01-05",
+      "module": "horen",
+      "title": "Dialogue 5",
+      "text": "Man: So did your family really spend a whole evening without phones?\nWoman: We did. To be honest, I thought I’d hate it. I thought I’d keep worrying about missing messages.\nMan: And did you?\nWoman: For about ten minutes! Then we got a board game out and laughed all evening. My kids didn’t even ask for their phones. We’re going to do it every Friday now.",
+      "passageVocab": [
+        "whole",
+        "worry",
+        "miss",
+        "board game"
+      ]
+    },
+    {
+      "id": "en-b1-p-horen-t2-gist-technology-01-06",
+      "module": "horen",
+      "title": "Dialogue 6",
+      "text": "Woman: Nice watch! Is that one of those smart watches?\nMan: Yes. Everyone thinks I got it for my messages, but my phone’s fine for that.\nWoman: So is it for running?\nMan: Not really. The doctor said I wasn’t sleeping enough, so I wanted to know how many hours I really get each night. The watch shows me every morning. It’s already made me go to bed earlier.\nWoman: And it looks good too.\nMan: That’s just a bonus.",
+      "passageVocab": [
+        "smart watch",
+        "bonus",
+        "enough",
+        "earlier"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "en-b1-h-t2-gist-technology-01-q1",
+      "module": "horen",
+      "teil": 2,
+      "type": "multiple_choice",
+      "question": "You will hear two friends talking about a running app. What does the man think of it?",
+      "options": [
+        "a) It helps him to keep going.",
+        "b) It is still hard for him to use.",
+        "c) It costs too much for what it does."
+      ],
+      "correct": "a",
+      "correctAnswer": "a",
+      "explanation": "The man says \"without it I’d have stopped running weeks ago\" and that it makes him \"want to go out again\". It isn’t free, but it’s \"worth every penny\", and the buttons were only difficult at first: \"now it’s easy\".",
+      "passageId": "en-b1-p-horen-t2-gist-technology-01-01",
+      "grammarTags": [
+        "g-en-b1-third-conditional"
+      ],
+      "topicTags": [
+        "technology"
+      ],
+      "vocabularyTags": [
+        "app",
+        "motivation",
+        "worth"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-h-t2-gist-technology-01-q2",
+      "module": "horen",
+      "teil": 2,
+      "type": "multiple_choice",
+      "question": "You will hear a woman telling a friend about a video call with her grandparents. How did she feel about it?",
+      "options": [
+        "a) Bored because it went on so long",
+        "b) Pleased that it was so easy",
+        "c) Worried that they couldn’t hear her"
+      ],
+      "correct": "b",
+      "correctAnswer": "b",
+      "explanation": "She expected problems, but \"it worked first time\" and \"it was the best part of my week\". She \"could hear them perfectly\", and chatting \"for ages\" was a pleasure, not boring.",
+      "passageId": "en-b1-p-horen-t2-gist-technology-01-02",
+      "grammarTags": [
+        "g-en-b1-past-perfect"
+      ],
+      "topicTags": [
+        "technology"
+      ],
+      "vocabularyTags": [
+        "video call",
+        "grandparents",
+        "feelings"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-h-t2-gist-technology-01-q3",
+      "module": "horen",
+      "teil": 2,
+      "type": "multiple_choice",
+      "question": "You will hear two colleagues talking about a new booking system at work. What do they agree about?",
+      "options": [
+        "a) It will save them time in the end.",
+        "b) Staff should have had training first.",
+        "c) It is slower than the old system."
+      ],
+      "correct": "b",
+      "correctAnswer": "b",
+      "explanation": "The man says \"They should have given us a proper course before it started\" and the woman replies \"I agree\". She thinks it is \"better than the old one\", and the man is \"not so sure\" it will save time.",
+      "passageId": "en-b1-p-horen-t2-gist-technology-01-03",
+      "grammarTags": [
+        "g-en-b1-should-have"
+      ],
+      "topicTags": [
+        "technology"
+      ],
+      "vocabularyTags": [
+        "system",
+        "training",
+        "agree"
+      ],
+      "difficulty": 5,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-h-t2-gist-technology-01-q4",
+      "module": "horen",
+      "teil": 2,
+      "type": "multiple_choice",
+      "question": "You will hear two friends talking about a language app. Why did the woman stop using it?",
+      "options": [
+        "a) She had to pay for it.",
+        "b) The games were too easy.",
+        "c) It didn’t help her to speak."
+      ],
+      "correct": "c",
+      "correctAnswer": "c",
+      "explanation": "In Valencia she \"couldn’t have a single conversation\", so now she goes to a class \"where we actually talk\". The app is free (\"It is\"), and she says \"the games were fun\".",
+      "passageId": "en-b1-p-horen-t2-gist-technology-01-04",
+      "grammarTags": [
+        "g-en-b1-past-perfect"
+      ],
+      "topicTags": [
+        "technology"
+      ],
+      "vocabularyTags": [
+        "language",
+        "speaking",
+        "app"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-h-t2-gist-technology-01-q5",
+      "module": "horen",
+      "teil": 2,
+      "type": "multiple_choice",
+      "question": "You will hear a woman talking to a friend about an evening without phones. What is her opinion of it?",
+      "options": [
+        "a) It was better than she expected.",
+        "b) It was a good idea but too long.",
+        "c) It was hard for her children."
+      ],
+      "correct": "a",
+      "correctAnswer": "a",
+      "explanation": "She says \"I thought I’d hate it\", but they \"laughed all evening\" and will \"do it every Friday now\". Her kids \"didn’t even ask for their phones\", and she never says it was too long.",
+      "passageId": "en-b1-p-horen-t2-gist-technology-01-05",
+      "grammarTags": [
+        "g-en-b1-reported-thoughts"
+      ],
+      "topicTags": [
+        "technology"
+      ],
+      "vocabularyTags": [
+        "phones",
+        "family",
+        "opinion"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-h-t2-gist-technology-01-q6",
+      "module": "horen",
+      "teil": 2,
+      "type": "multiple_choice",
+      "question": "You will hear two friends talking about a smart watch. Why did the man buy it?",
+      "options": [
+        "a) Because it looks fashionable",
+        "b) To read his messages more easily",
+        "c) To check how much he sleeps"
+      ],
+      "correct": "c",
+      "correctAnswer": "c",
+      "explanation": "He says \"I wanted to know how many hours I really get each night\". His phone is \"fine\" for messages, and the good looks are \"just a bonus\".",
+      "passageId": "en-b1-p-horen-t2-gist-technology-01-06",
+      "grammarTags": [
+        "g-en-b1-reported-speech"
+      ],
+      "topicTags": [
+        "technology"
+      ],
+      "vocabularyTags": [
+        "smart watch",
+        "sleep",
+        "purpose"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    }
+  ],
+  "_germanCapsNormalizeVersion": "v3.23-lesen-t2-angebote-corpus-2026-07-28",
+  "_germanCapsNormalizedAt": "2026-10-12T19:19:07.130Z",
+  "_balanceMcqVersion": "v1.2-no-rf-chrono-shuffle-2026-07-11",
+  "_balanceMcqNormalizedAt": "2026-10-12T19:19:07.130Z"
+}

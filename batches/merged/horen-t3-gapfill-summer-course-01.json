@@ -1,0 +1,250 @@
+{
+  "passages": [
+    {
+      "id": "en-b1-p-horen-t3-gapfill-summer-course-01-01",
+      "module": "horen",
+      "title": "Castlegate Summer School: course details",
+      "text": "Man: Hello, everyone. I'm Richard Bell, the director of the Castlegate Summer School here in York, and I'm going to tell you about this year's English course, which runs for three weeks in July.\n\nMan: Let's start with accommodation. In the past, some students stayed in rooms at the college, but those rooms are being repaired this year, so everyone will be living with host families. All our families live a short bus ride from the school.\n\nMan: Lessons take place in the mornings, from Monday to Friday. There are four lessons each morning, and each one lasts fifty minutes, with a break for a drink and a snack in the middle.\n\nMan: In the afternoons, you can choose from a range of activities. Many students expect football to be the favourite, but in fact drama is always the most popular. Some of our drama students have gone on to act in plays back home.\n\nMan: Every Saturday there's a full-day trip. Last year our first trip was to a museum in Leeds, but this year we're starting with a visit to a castle on the coast, which last year's students voted for.\n\nMan: Now, what should you pack? You don't need to bring towels or sheets, because your host family will provide them. But please do pack a raincoat. Even in summer, the weather here can change very quickly.\n\nMan: And finally, on the last evening of the course, we hold a party in the school garden, and that's when you'll receive your certificate. Your host families are very welcome to come along too. I'm looking forward to meeting you all.",
+      "passageVocab": [
+        "accommodation",
+        "host family",
+        "drama",
+        "certificate",
+        "coast"
+      ],
+      "audio": [
+        {
+          "speaker": "Man",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Hello, everyone. I'm Richard Bell, the director of the Castlegate Summer School here in York, and I'm going to tell you about this year's English course, which runs for three weeks in July."
+        },
+        {
+          "speaker": "Man",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Let's start with accommodation. In the past, some students stayed in rooms at the college, but those rooms are being repaired this year, so everyone will be living with host families. All our families live a short bus ride from the school."
+        },
+        {
+          "speaker": "Man",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Lessons take place in the mornings, from Monday to Friday. There are four lessons each morning, and each one lasts fifty minutes, with a break for a drink and a snack in the middle."
+        },
+        {
+          "speaker": "Man",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "In the afternoons, you can choose from a range of activities. Many students expect football to be the favourite, but in fact drama is always the most popular. Some of our drama students have gone on to act in plays back home."
+        },
+        {
+          "speaker": "Man",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Every Saturday there's a full-day trip. Last year our first trip was to a museum in Leeds, but this year we're starting with a visit to a castle on the coast, which last year's students voted for."
+        },
+        {
+          "speaker": "Man",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "Now, what should you pack? You don't need to bring towels or sheets, because your host family will provide them. But please do pack a raincoat. Even in summer, the weather here can change very quickly."
+        },
+        {
+          "speaker": "Man",
+          "voiceId": "de-DE-KatjaNeural",
+          "text": "And finally, on the last evening of the course, we hold a party in the school garden, and that's when you'll receive your certificate. Your host families are very welcome to come along too. I'm looking forward to meeting you all."
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "en-b1-h-t3-gapfill-summer-course-01-q1",
+      "module": "horen",
+      "teil": 3,
+      "type": "gap_fill",
+      "passageId": "en-b1-p-horen-t3-gapfill-summer-course-01-01",
+      "question": "Accommodation this year: all students will stay with ____.",
+      "correct": "host families",
+      "correctAnswer": "host families",
+      "acceptedAnswers": [
+        "a host family",
+        "host family"
+      ],
+      "explanation": "Richard says the college rooms 'are being repaired this year, so everyone will be living with host families'. The college rooms were used in the past, so they are not the answer.",
+      "options": [],
+      "grammarTags": [
+        "g-en-b1-present-continuous-passive"
+      ],
+      "topicTags": [
+        "education-courses"
+      ],
+      "vocabularyTags": [
+        "accommodation",
+        "host family",
+        "college"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-h-t3-gapfill-summer-course-01-q2",
+      "module": "horen",
+      "teil": 3,
+      "type": "gap_fill",
+      "passageId": "en-b1-p-horen-t3-gapfill-summer-course-01-01",
+      "question": "Number of lessons each morning: ____",
+      "correct": "four",
+      "correctAnswer": "four",
+      "acceptedAnswers": [
+        "4"
+      ],
+      "explanation": "Richard says 'There are four lessons each morning'. Fifty is the number of minutes each lesson lasts, not the number of lessons.",
+      "options": [],
+      "grammarTags": [
+        "g-en-b1-numbers"
+      ],
+      "topicTags": [
+        "education-courses"
+      ],
+      "vocabularyTags": [
+        "lesson",
+        "morning",
+        "break"
+      ],
+      "difficulty": 3,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-h-t3-gapfill-summer-course-01-q3",
+      "module": "horen",
+      "teil": 3,
+      "type": "gap_fill",
+      "passageId": "en-b1-p-horen-t3-gapfill-summer-course-01-01",
+      "question": "Most popular afternoon activity: ____",
+      "correct": "drama",
+      "correctAnswer": "drama",
+      "explanation": "Richard says 'Many students expect football to be the favourite, but in fact drama is always the most popular.' Football is only what students expect.",
+      "options": [],
+      "grammarTags": [
+        "g-en-b1-superlatives"
+      ],
+      "topicTags": [
+        "education-courses"
+      ],
+      "vocabularyTags": [
+        "activity",
+        "drama",
+        "popular"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-h-t3-gapfill-summer-course-01-q4",
+      "module": "horen",
+      "teil": 3,
+      "type": "gap_fill",
+      "passageId": "en-b1-p-horen-t3-gapfill-summer-course-01-01",
+      "question": "This year's first Saturday trip: a visit to a ____ on the coast.",
+      "correct": "castle",
+      "correctAnswer": "castle",
+      "explanation": "Richard says 'this year we're starting with a visit to a castle on the coast'. The museum in Leeds was last year's first trip.",
+      "options": [],
+      "grammarTags": [
+        "g-en-b1-present-continuous-future"
+      ],
+      "topicTags": [
+        "education-courses"
+      ],
+      "vocabularyTags": [
+        "trip",
+        "castle",
+        "coast"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-h-t3-gapfill-summer-course-01-q5",
+      "module": "horen",
+      "teil": 3,
+      "type": "gap_fill",
+      "passageId": "en-b1-p-horen-t3-gapfill-summer-course-01-01",
+      "question": "Students should remember to pack a ____.",
+      "correct": "raincoat",
+      "correctAnswer": "raincoat",
+      "acceptedAnswers": [
+        "rain coat"
+      ],
+      "explanation": "Richard says 'please do pack a raincoat', because the weather 'can change very quickly'. Towels and sheets are not needed, because host families provide them.",
+      "options": [],
+      "grammarTags": [
+        "g-en-b1-modals"
+      ],
+      "topicTags": [
+        "education-courses"
+      ],
+      "vocabularyTags": [
+        "pack",
+        "towel",
+        "raincoat"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    },
+    {
+      "id": "en-b1-h-t3-gapfill-summer-course-01-q6",
+      "module": "horen",
+      "teil": 3,
+      "type": "gap_fill",
+      "passageId": "en-b1-p-horen-t3-gapfill-summer-course-01-01",
+      "question": "Students receive their certificates at a ____ in the school garden.",
+      "correct": "party",
+      "correctAnswer": "party",
+      "explanation": "Richard says 'we hold a party in the school garden, and that's when you'll receive your certificate'.",
+      "options": [],
+      "grammarTags": [
+        "g-en-b1-relative-adverbs"
+      ],
+      "topicTags": [
+        "education-courses"
+      ],
+      "vocabularyTags": [
+        "certificate",
+        "party",
+        "garden"
+      ],
+      "difficulty": 3,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge"
+    }
+  ],
+  "_germanCapsNormalizeVersion": "v3.23-lesen-t2-angebote-corpus-2026-07-28",
+  "_germanCapsNormalizedAt": "2026-10-12T14:44:03.891Z",
+  "_balanceMcqVersion": "v1.2-no-rf-chrono-shuffle-2026-07-11",
+  "_balanceMcqNormalizedAt": "2026-10-12T14:44:03.891Z"
+}

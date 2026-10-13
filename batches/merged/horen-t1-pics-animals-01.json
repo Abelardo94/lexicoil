@@ -1,0 +1,339 @@
+{
+  "passages": [
+    {
+      "id": "en-b1-p-horen-t1-pics-animals-01-01",
+      "module": "horen",
+      "title": "Recording 1",
+      "text": "Man: You’re back early from your walk.\nWoman: It started raining. But guess what I saw by the river? A deer! It was just standing there, drinking.\nMan: Really? I’ve only ever seen foxes round here.\nWoman: I usually see rabbits in the field next to the river, but there weren’t any today. The deer ran off as soon as it heard me.",
+      "passageVocab": [
+        "deer",
+        "fox",
+        "rabbit",
+        "run off"
+      ]
+    },
+    {
+      "id": "en-b1-p-horen-t1-pics-animals-01-02",
+      "module": "horen",
+      "title": "Recording 2",
+      "text": "Woman: Have you seen Tiger? I’ve looked under the bed and in all the cupboards.\nMan: He was on the garage roof earlier, sitting in the sun.\nWoman: He isn’t there now. I’ve just looked.\nMan: Wait, listen. Can you hear that? It’s coming from inside the garage. I left the door open when I got the bikes out. He must have gone in there.\nWoman: Oh yes, there he is, next to the bikes. Silly cat!",
+      "passageVocab": [
+        "cupboard",
+        "roof",
+        "garage",
+        "must have"
+      ]
+    },
+    {
+      "id": "en-b1-p-horen-t1-pics-animals-01-03",
+      "module": "horen",
+      "title": "Recording 3",
+      "text": "Woman: Well, I’ve checked Max all over. He’s healthy, but he’s a bit heavy for a dog of his size.\nMan: Oh dear. Should I change his food, or give him less?\nWoman: No, his food is fine, and he’s eating the right amount. The problem is exercise. How long are his walks?\nMan: About fifteen minutes, twice a day.\nWoman: That isn’t enough for a young dog like Max. Try to make each walk at least forty minutes, and bring him back to see me in a month.",
+      "passageVocab": [
+        "healthy",
+        "heavy",
+        "exercise",
+        "amount"
+      ]
+    },
+    {
+      "id": "en-b1-p-horen-t1-pics-animals-01-04",
+      "module": "horen",
+      "title": "Recording 4",
+      "text": "Man: So which animal are you going to photograph for the competition?\nWoman: Everyone will take pictures of the lions, so I don’t want to do that. I thought about the penguins, but they’re inside, behind glass, and you get terrible reflections.\nMan: What about the giraffes? They’re outside, and the light’s lovely there in the afternoon.\nWoman: Yes, they’re the ones. I’ll go over there after lunch.",
+      "passageVocab": [
+        "competition",
+        "penguin",
+        "giraffe",
+        "reflection"
+      ]
+    },
+    {
+      "id": "en-b1-p-horen-t1-pics-animals-01-05",
+      "module": "horen",
+      "title": "Recording 5",
+      "text": "Woman: Did you hear? Our dog Bella had her puppies last night.\nMan: Oh, that’s exciting! How many?\nWoman: The vet thought there would be eight, but in the end there were five.\nMan: Are you going to keep them all?\nWoman: No way! Six people have already asked us for one, so finding homes for them won’t be a problem.",
+      "passageVocab": [
+        "puppy",
+        "vet",
+        "in the end",
+        "home"
+      ]
+    },
+    {
+      "id": "en-b1-p-horen-t1-pics-animals-01-06",
+      "module": "horen",
+      "title": "Recording 6",
+      "text": "Man: I’ve started volunteering at the animal centre on Saturdays.\nWoman: Really? What do you do there? Clean the cages?\nMan: Most volunteers do that, but they’ve got enough people for it now. Last week I fed the rabbits, but this Saturday they’ve asked me to take some of the dogs out for walks.\nWoman: That sounds like the best job of all.",
+      "passageVocab": [
+        "volunteer",
+        "cage",
+        "feed",
+        "centre"
+      ]
+    },
+    {
+      "id": "en-b1-p-horen-t1-pics-animals-01-07",
+      "module": "horen",
+      "title": "Recording 7",
+      "text": "Woman: Welcome to Hill Farm, boys and girls. Now, I know you all want to ride the ponies, but they’re having a rest at the moment, so we’ll do that at two o’clock. The baby lambs are asleep in the barn, so we’ll visit them after the ponies. So let’s start by giving the goats some food. Take a bag each from the box by the gate, and follow me.",
+      "passageVocab": [
+        "pony",
+        "lamb",
+        "barn",
+        "goat"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "en-b1-h-t1-pics-animals-01-s1-q1",
+      "module": "horen",
+      "teil": 1,
+      "type": "multiple_choice",
+      "question": "What did the woman see on her walk?",
+      "options": [
+        "a) a deer",
+        "b) a fox",
+        "c) some rabbits"
+      ],
+      "correct": "a",
+      "correctAnswer": "a",
+      "explanation": "The woman says \"guess what I saw by the river? A deer!\" The man is the one who has seen foxes, and she says there were no rabbits: \"there weren’t any today\".",
+      "passageId": "en-b1-p-horen-t1-pics-animals-01-01",
+      "grammarTags": [
+        "g-en-b1-past-simple"
+      ],
+      "topicTags": [
+        "animals"
+      ],
+      "vocabularyTags": [
+        "deer",
+        "fox",
+        "rabbit"
+      ],
+      "difficulty": 3,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge",
+      "segmentLabel": "Aufnahme 1"
+    },
+    {
+      "id": "en-b1-h-t1-pics-animals-01-s2-q1",
+      "module": "horen",
+      "teil": 1,
+      "type": "multiple_choice",
+      "question": "Where is the cat now?",
+      "options": [
+        "a) on the garage roof",
+        "b) inside the garage",
+        "c) under the bed"
+      ],
+      "correct": "b",
+      "correctAnswer": "b",
+      "explanation": "The noise is \"coming from inside the garage\" and the woman finds him \"next to the bikes\". He was on the roof earlier, but \"He isn’t there now\", and she has already looked under the bed.",
+      "passageId": "en-b1-p-horen-t1-pics-animals-01-02",
+      "grammarTags": [
+        "g-en-b1-modals-deduction"
+      ],
+      "topicTags": [
+        "animals"
+      ],
+      "vocabularyTags": [
+        "garage",
+        "roof",
+        "cupboard"
+      ],
+      "difficulty": 3,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge",
+      "segmentLabel": "Aufnahme 2"
+    },
+    {
+      "id": "en-b1-h-t1-pics-animals-01-s3-q1",
+      "module": "horen",
+      "teil": 1,
+      "type": "multiple_choice",
+      "question": "What does the woman tell the man to do?",
+      "options": [
+        "a) give the dog less food",
+        "b) walk the dog for longer",
+        "c) buy a different dog food"
+      ],
+      "correct": "b",
+      "correctAnswer": "b",
+      "explanation": "The woman says \"The problem is exercise\" and tells him to \"make each walk at least forty minutes\". She says \"his food is fine\" and he is \"eating the right amount\", so he should not change it or give less.",
+      "passageId": "en-b1-p-horen-t1-pics-animals-01-03",
+      "grammarTags": [
+        "g-en-b1-imperatives"
+      ],
+      "topicTags": [
+        "animals"
+      ],
+      "vocabularyTags": [
+        "exercise",
+        "walk",
+        "food"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge",
+      "segmentLabel": "Aufnahme 3"
+    },
+    {
+      "id": "en-b1-h-t1-pics-animals-01-s4-q1",
+      "module": "horen",
+      "teil": 1,
+      "type": "multiple_choice",
+      "question": "Which animals will the woman photograph for the competition?",
+      "options": [
+        "a) the lions",
+        "b) the penguins",
+        "c) the giraffes"
+      ],
+      "correct": "c",
+      "correctAnswer": "c",
+      "explanation": "When the man suggests the giraffes, she answers \"Yes, they’re the ones\". She does not want the lions because \"Everyone will take pictures\" of them, and the penguins are \"behind glass\".",
+      "passageId": "en-b1-p-horen-t1-pics-animals-01-04",
+      "grammarTags": [
+        "g-en-b1-going-to"
+      ],
+      "topicTags": [
+        "animals"
+      ],
+      "vocabularyTags": [
+        "giraffe",
+        "penguin",
+        "lion"
+      ],
+      "difficulty": 3,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge",
+      "segmentLabel": "Aufnahme 4"
+    },
+    {
+      "id": "en-b1-h-t1-pics-animals-01-s5-q1",
+      "module": "horen",
+      "teil": 1,
+      "type": "multiple_choice",
+      "question": "How many puppies did Bella have?",
+      "options": [
+        "a) eight",
+        "b) five",
+        "c) six"
+      ],
+      "correct": "b",
+      "correctAnswer": "b",
+      "explanation": "The woman says \"in the end there were five\". Eight is the number the vet expected, and six is the number of people who have \"asked us for one\".",
+      "passageId": "en-b1-p-horen-t1-pics-animals-01-05",
+      "grammarTags": [
+        "g-en-b1-past-simple"
+      ],
+      "topicTags": [
+        "animals"
+      ],
+      "vocabularyTags": [
+        "puppy",
+        "vet",
+        "number"
+      ],
+      "difficulty": 4,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge",
+      "segmentLabel": "Aufnahme 5"
+    },
+    {
+      "id": "en-b1-h-t1-pics-animals-01-s6-q1",
+      "module": "horen",
+      "teil": 1,
+      "type": "multiple_choice",
+      "question": "What will the man do at the animal centre this Saturday?",
+      "options": [
+        "a) clean the cages",
+        "b) feed the rabbits",
+        "c) walk some dogs"
+      ],
+      "correct": "c",
+      "correctAnswer": "c",
+      "explanation": "The man says \"this Saturday they’ve asked me to take some of the dogs out for walks\". He fed the rabbits \"Last week\", and they already have \"enough people\" for cleaning the cages.",
+      "passageId": "en-b1-p-horen-t1-pics-animals-01-06",
+      "grammarTags": [
+        "g-en-b1-present-perfect"
+      ],
+      "topicTags": [
+        "animals"
+      ],
+      "vocabularyTags": [
+        "volunteer",
+        "cage",
+        "feed"
+      ],
+      "difficulty": 3,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge",
+      "segmentLabel": "Aufnahme 6"
+    },
+    {
+      "id": "en-b1-h-t1-pics-animals-01-s7-q1",
+      "module": "horen",
+      "teil": 1,
+      "type": "multiple_choice",
+      "question": "What will the children do first at the farm?",
+      "options": [
+        "a) feed the goats",
+        "b) visit the lambs",
+        "c) ride the ponies"
+      ],
+      "correct": "a",
+      "correctAnswer": "a",
+      "explanation": "The woman says \"let’s start by giving the goats some food\". The ponies are for two o’clock, and the lambs come \"after the ponies\".",
+      "passageId": "en-b1-p-horen-t1-pics-animals-01-07",
+      "grammarTags": [
+        "g-en-b1-future-will"
+      ],
+      "topicTags": [
+        "animals"
+      ],
+      "vocabularyTags": [
+        "goat",
+        "lamb",
+        "pony"
+      ],
+      "difficulty": 3,
+      "skills": [
+        "listening"
+      ],
+      "language": "en",
+      "level": "B1",
+      "examType": "cambridge",
+      "segmentLabel": "Aufnahme 7"
+    }
+  ],
+  "_germanCapsNormalizeVersion": "v3.23-lesen-t2-angebote-corpus-2026-07-28",
+  "_germanCapsNormalizedAt": "2026-10-12T19:15:52.668Z",
+  "_balanceMcqVersion": "v1.2-no-rf-chrono-shuffle-2026-07-11",
+  "_balanceMcqNormalizedAt": "2026-10-12T19:15:52.668Z"
+}
