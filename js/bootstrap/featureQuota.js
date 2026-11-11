@@ -146,7 +146,8 @@
       const msg = 'Sign in free to assemble personalized reading and listening from the pool.';
       if (typeof notify === 'function') notify(msg, 'warn', 6000);
       else if (typeof lcToast === 'function') lcToast(msg, 'warn', 6000);
-      if (typeof showLogin === 'function') showLogin();
+      if (typeof switchTab === 'function') switchTab('login');
+      if (typeof showAuthOverlay === 'function') showAuthOverlay();
       return false;
     }
     if (canUsePersonalPoolModule(module)) return true;
@@ -197,7 +198,8 @@
       const msg = (opts && opts.message) || 'Sign in free to use AI practice with monthly credits.';
       if (typeof notify === 'function') notify(msg, 'warn', 6000);
       else if (typeof lcToast === 'function') lcToast(msg, 'warn', 6000);
-      if (typeof showLogin === 'function') showLogin();
+      if (typeof switchTab === 'function') switchTab('login');
+      if (typeof showAuthOverlay === 'function') showAuthOverlay();
       return false;
     }
     if (PRO_ONLY_ACTIONS.has(action)) {

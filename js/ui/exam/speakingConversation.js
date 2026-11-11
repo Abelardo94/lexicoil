@@ -65,7 +65,7 @@ const SpeakingConversation = (() => {
       })
       .join('');
 
-    const level = typeof S !== 'undefined' && S.level ? S.level : ui?.level || 'B1';
+    const level = (typeof S !== 'undefined' && S.level) || 'B1';
     const persona = SpeakingModes?.personalityById(st.personaId, level);
     const personaDesc = persona ? (de ? persona.descDe : persona.desc) : '';
     const creditSuffix =
@@ -236,7 +236,7 @@ const SpeakingConversation = (() => {
     if (!st) return;
     const status = document.getElementById('speakConvStatus_' + fieldId);
     const btn = document.getElementById('speakConvStart_' + fieldId);
-    const level = typeof S !== 'undefined' && S.level ? S.level : ui?.level || 'B1';
+    const level = (typeof S !== 'undefined' && S.level) || 'B1';
     const persona = SpeakingModes?.personalityById(st.personaId, level);
     const de = S?.subject === 'de';
 

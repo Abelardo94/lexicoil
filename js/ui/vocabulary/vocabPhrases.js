@@ -285,7 +285,7 @@ function vpAnsGap(ev) {
   }
   S.vpAnswered = true;
   optsEl?.removeEventListener('click', vpAnsGap);
-  const trLine = vpFeedbackTrLine(targetWord, pool, p);
+  const trLine = vpFeedbackTrLine(targetWord, pool, (S.vpPhrases || [])[S.vpIndex] || null);
   const vt = typeof vocabT === 'function' ? vocabT() : null;
   const fb =
     '<div class="ve-feedback ' +

@@ -1104,7 +1104,7 @@ function reusablePartToSchreibenPart(poolPart, blueprint) {
 
   const minWords = Number(poolPart.minWords) || schreibenExpectedMinWords(teil, blueprint);
 
-  return {
+  const part = {
 
     teil,
 
@@ -1133,6 +1133,7 @@ function reusablePartToSchreibenPart(poolPart, blueprint) {
     part.bgVocabLemmas = Array.isArray(poolPart.bgVocabLemmas) ? poolPart.bgVocabLemmas : [];
   }
 
+  return part;
 }
 
 

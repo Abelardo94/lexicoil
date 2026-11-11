@@ -669,7 +669,7 @@ function _recordSeenPart(lang, level, module, partId) {
   if (!partId) return;
   if (!Array.isArray(S.history)) S.history = [];
   S.history.push({ lang, level, partId, partModule: module, date: Date.now(), source: 'part' });
-  try { if (typeof saveProfile === 'function') saveProfile(); } catch (_) {}
+  try { if (typeof saveHist === 'function') saveHist(); } catch (_) {}
 }
 
 /** Collect partIds from a full exam (official, pool, or personal multi-part). */
@@ -728,7 +728,7 @@ function _recordSeenPartsFromExam(exam) {
       source: 'exam',
     });
   }
-  try { if (typeof saveProfile === 'function') saveProfile(); } catch (_) {}
+  try { if (typeof saveHist === 'function') saveHist(); } catch (_) {}
 }
 
 /**
@@ -4152,7 +4152,8 @@ async function generatePersonalExam(words,skills,goalId,opts){
           if (e.code === 'login_required') {
             hideAll();
             if (typeof lcToast === 'function') lcToast('Sign in to use personalized pool exams.', 'warn', 6000);
-            if (typeof openAuth === 'function') openAuth('login');
+            if (typeof switchTab === 'function') switchTab('login');
+            if (typeof showAuthOverlay === 'function') showAuthOverlay();
             return;
           }
           throw e;
@@ -4623,7 +4624,7 @@ async function generateSectionExam(module,goalId){
     };
     if(!Array.isArray(S.history))S.history=[];
     S.history.push(histEntry);
-    try{if(typeof saveProfile==='function')saveProfile();}catch(_){}
+    try{if(typeof saveHist==='function')saveHist();}catch(_){}
     renderExam();
     return;
   }
