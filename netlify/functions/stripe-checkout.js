@@ -2,8 +2,8 @@
 
 const { getStoreForEvent } = require('./lib/blobStore.js');
 const { requireAuth } = require('./lib/authLib.js');
-const { corsHeaders, jsonResponse, parseJsonBody } = require('./lib/http.js');
-const { getSiteUrl } = require('./lib/siteConfig.js');
+const { corsHeaders, jsonResponse, parseJsonBody, isAllowedOrigin } = require('./lib/http.js');
+const { getSiteUrl, appEntryUrl } = require('./lib/siteConfig.js');
 
 exports.handler = async (event) => {
   const cors = corsHeaders(event);
@@ -33,9 +33,10 @@ exports.handler = async (event) => {
   }
   const targetPlan = body.plan === 'pro_max' ? 'pro_max' : 'pro';
 
-  const origin =
-    (event.headers && (event.headers.origin || event.headers.Origin)) ||
-    getSiteUrl();
+  // Only our own origins may decide where Stripe sends the user back.
+  const reqOrigin =
+    (event.headers && (event.headers.origin || event.headers.Origin)) || '';
+  const origin = reqOrigin && isAllowedOrigin(reqOrigin) ? reqOrigin : getSiteUrl();
   const base = origin.replace(/\/$/, '');
 
   // Prefer pre-created Stripe Price IDs (STRIPE_PRICE_PRO / STRIPE_PRICE_PRO_MAX).
@@ -45,8 +46,8 @@ exports.handler = async (event) => {
 
   const params = new URLSearchParams();
   params.set('mode', 'subscription');
-  params.set('success_url', `${base}/?upgraded=1&session_id={CHECKOUT_SESSION_ID}`);
-  params.set('cancel_url', `${base}/?cancelled=1`);
+  params.set('success_url', `${appEntryUrl(base)}?upgraded=1&session_id={CHECKOUT_SESSION_ID}`);
+  params.set('cancel_url', `${appEntryUrl(base)}?cancelled=1`);
   params.set('client_reference_id', authEmail);
   params.set('customer_email', authEmail);
   params.set('metadata[email]', authEmail);

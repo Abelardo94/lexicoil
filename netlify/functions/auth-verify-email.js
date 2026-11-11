@@ -2,7 +2,7 @@
 
 const { getStoreForEvent } = require('./lib/blobStore.js');
 const { corsHeaders, jsonResponse } = require('./lib/http.js');
-const { getSiteUrl } = require('./lib/siteConfig.js');
+const { getSiteUrl, appEntryUrl } = require('./lib/siteConfig.js');
 const { verifyEmailToken } = require('./lib/emailVerify.js');
 
 exports.handler = async (event) => {
@@ -24,7 +24,7 @@ exports.handler = async (event) => {
     return jsonResponse(400, cors, { error: result.error || 'invalid_or_expired_token' });
   }
 
-  const redirect = `${getSiteUrl()}/?emailVerified=1`;
+  const redirect = `${appEntryUrl()}?emailVerified=1`;
   return {
     statusCode: 302,
     headers: {

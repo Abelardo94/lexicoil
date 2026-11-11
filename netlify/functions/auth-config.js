@@ -17,9 +17,10 @@ exports.handler = async function handler(event) {
   }
 
   const { supabaseUrl, supabaseAnonKey, configured: hasSupabase } = readSupabaseEnv();
-  const clientSupabase = hasSupabase ? await supabaseClientEnabled() : false;
+  // Probe first: supabaseClientEnabled() reads the cached result.
   const supabaseReachable =
     hasSupabase ? await isSupabaseReachable(supabaseUrl, supabaseAnonKey) : false;
+  const clientSupabase = hasSupabase ? await supabaseClientEnabled() : false;
 
   return jsonResponse(200, cors, {
     enabled: Boolean(getJwtSecret()),

@@ -852,7 +852,7 @@ const Auth = (() => {
       too_many_attempts: 'Too many attempts — wait 15 minutes.',
       invalid_fields: 'Fill all fields correctly.',
       auth_not_configured: 'Accounts are not configured on the server yet.',
-      auth_service_unavailable: 'Sign-in service is temporarily unavailable. Try again in a few minutes.',
+      auth_service_unavailable: 'Sign-in service is temporarily unavailable. Try again in a few minutes, or use "Forgot password" to set a new password.',
       supabase_not_configured: 'Supabase is not configured on the server yet.',
       invalid_supabase_session: 'Session expired. Please sign in again.',
       token_revoked: 'Session expired. Please sign in again.',

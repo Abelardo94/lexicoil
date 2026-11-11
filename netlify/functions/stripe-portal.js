@@ -2,8 +2,8 @@
 
 const { getStoreForEvent } = require('./lib/blobStore.js');
 const { requireAuth, normalizeEmail } = require('./lib/authLib.js');
-const { corsHeaders, jsonResponse } = require('./lib/http.js');
-const { getSiteUrl } = require('./lib/siteConfig.js');
+const { corsHeaders, jsonResponse, isAllowedOrigin } = require('./lib/http.js');
+const { getSiteUrl, appEntryUrl } = require('./lib/siteConfig.js');
 const {
   resolveStripeCustomerId,
   createBillingPortalSession,
@@ -38,10 +38,11 @@ exports.handler = async (event) => {
       });
     }
 
-    const origin =
-      (event.headers && (event.headers.origin || event.headers.Origin)) ||
-      getSiteUrl();
-    const returnUrl = `${origin.replace(/\/$/, '')}/`;
+    // Only our own origins may decide where Stripe sends the user back.
+    const reqOrigin =
+      (event.headers && (event.headers.origin || event.headers.Origin)) || '';
+    const origin = reqOrigin && isAllowedOrigin(reqOrigin) ? reqOrigin : getSiteUrl();
+    const returnUrl = appEntryUrl(origin);
 
     const portal = await createBillingPortalSession(customerId, returnUrl, secret);
     if (!portal?.url) {
