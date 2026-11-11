@@ -1,10 +1,10 @@
 'use strict';
 
+const { listPayingSubscriptions, bestPlan } = require('./lib/stripeLib.js');
 const { getStoreForEvent } = require('./lib/blobStore.js');
 const { requireAuth } = require('./lib/authLib.js');
 const { corsHeaders, jsonResponse, parseJsonBody } = require('./lib/http.js');
 const { getSiteUrl } = require('./lib/siteConfig.js');
-const { listPayingSubscriptions, bestPlan } = require('./lib/stripeLib.js');
 
 exports.handler = async (event) => {
   const cors = corsHeaders(event);
