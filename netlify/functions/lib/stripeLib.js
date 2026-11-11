@@ -150,7 +150,131 @@ async function cancelActiveSubscriptions(customerId, secret) {
   return { cancelled };
 }
 
+/** Subscriptions Stripe still bills (past_due = card is being retried, access is kept). */
+const PAYING_SUB_STATUSES = new Set(['active', 'trialing', 'past_due']);
+
+function subscriptionPlan(sub) {
+  return sub?.metadata?.plan === 'pro_max' ? 'pro_max' : 'pro';
+}
+
+function subscriptionCustomerId(sub) {
+  return typeof sub?.customer === 'string' ? sub.customer : sub?.customer?.id || null;
+}
+
+/**
+ * Every subscription of this account that is still being billed.
+ *
+ * Two sources, merged by id: the customer's own list (consistent the moment a
+ * subscription exists) and a search on metadata.email (finds subscriptions that sit on
+ * another Stripe customer — Checkout used to create a new customer per purchase — but
+ * the search index lags about a minute).
+ *
+ * @returns {Promise<{ ok: boolean, subs: Array<{id, plan, status, customerId}> }>}
+ *   ok:false when Stripe could not be asked at all — callers must not read that as "none".
+ */
+async function listPayingSubscriptions(email, customerId, secret) {
+  const byId = new Map();
+  const wanted = String(email || '').trim().toLowerCase();
+  let asked = 0;
+  const add = (sub) => {
+    if (!sub?.id || !PAYING_SUB_STATUSES.has(String(sub.status || '').toLowerCase())) return;
+    const metaEmail = String(sub.metadata?.email || '').trim().toLowerCase();
+    if (metaEmail && wanted && metaEmail !== wanted) return;
+    byId.set(sub.id, {
+      id: sub.id,
+      plan: subscriptionPlan(sub),
+      status: String(sub.status).toLowerCase(),
+      customerId: subscriptionCustomerId(sub),
+    });
+  };
+
+  if (customerId) {
+    try {
+      const q = new URLSearchParams();
+      q.set('customer', customerId);
+      q.set('status', 'all');
+      q.set('limit', '20');
+      const data = await stripeRequest(`/subscriptions?${q.toString()}`, {}, secret);
+      asked++;
+      (data.data || []).forEach(add);
+    } catch (err) {
+      console.warn('[stripeLib] list subscriptions by customer:', err.message);
+    }
+  }
+  if (wanted) {
+    try {
+      const q = new URLSearchParams();
+      q.set('query', `metadata['email']:'${stripeQueryEscape(wanted)}'`);
+      q.set('limit', '20');
+      const data = await stripeRequest(`/subscriptions/search?${q.toString()}`, {}, secret);
+      asked++;
+      (data.data || []).forEach(add);
+    } catch (err) {
+      console.warn('[stripeLib] search subscriptions by email:', err.message);
+    }
+  }
+  return { ok: asked > 0, subs: [...byId.values()] };
+}
+
+function bestPlan(subs) {
+  if (!subs || !subs.length) return null;
+  return subs.some((sub) => sub.plan === 'pro_max') ? 'pro_max' : 'pro';
+}
+
+const SUB_ID_RE = /^sub_[A-Za-z0-9]{8,}$/;
+
+/**
+ * After an upgrade checkout: end the subscription(s) it replaces, so the user is not
+ * billed for Pro and Pro Max at once. Unused time is credited to the customer's balance
+ * (prorate + invoice_now) and comes off the next invoice.
+ *
+ * Each old subscription is stamped `replaced_by` BEFORE it is cancelled: that stamp
+ * travels in the customer.subscription.deleted event and tells the webhook the plan
+ * must not be revoked. Safe to call twice (webhook + stripe-confirm).
+ */
+async function cancelReplacedSubscriptions(session, secret) {
+  const out = { cancelled: [], skipped: [], errors: [] };
+  const raw = String(session?.metadata?.replaces || '').trim();
+  if (!raw || !secret) return out;
+  const newSubId =
+    typeof session.subscription === 'string' ? session.subscription : session.subscription?.id || null;
+  const email = String(session?.metadata?.email || '').trim().toLowerCase();
+  if (!newSubId || !email) return out;
+
+  for (const oldId of raw.split(',').map((x) => x.trim()).filter(Boolean)) {
+    if (!SUB_ID_RE.test(oldId) || oldId === newSubId) {
+      out.skipped.push(oldId);
+      continue;
+    }
+    try {
+      const old = await stripeRequest(`/subscriptions/${encodeURIComponent(oldId)}`, {}, secret);
+      const oldEmail = String(old?.metadata?.email || '').trim().toLowerCase();
+      if (oldEmail !== email || !PAYING_SUB_STATUSES.has(String(old.status || '').toLowerCase())) {
+        out.skipped.push(oldId); // someone else's, or already ended (second call)
+        continue;
+      }
+      const stamp = new URLSearchParams();
+      stamp.set('metadata[replaced_by]', newSubId);
+      await stripeRequest(`/subscriptions/${encodeURIComponent(oldId)}`, { method: 'POST', body: stamp }, secret);
+      const params = new URLSearchParams();
+      params.set('prorate', 'true');
+      params.set('invoice_now', 'true');
+      await stripeRequest(`/subscriptions/${encodeURIComponent(oldId)}`, { method: 'DELETE', body: params }, secret);
+      out.cancelled.push(oldId);
+      console.log('[stripeLib] replaced subscription cancelled:', oldId, '->', newSubId);
+    } catch (err) {
+      out.errors.push(oldId);
+      console.error('[stripeLib] could not cancel replaced subscription', oldId, err.message);
+    }
+  }
+  return out;
+}
+
 module.exports = {
+  PAYING_SUB_STATUSES,
+  listPayingSubscriptions,
+  bestPlan,
+  cancelReplacedSubscriptions,
   stripeRequest,
   findCustomerByEmail,
   searchCustomerByEmail,

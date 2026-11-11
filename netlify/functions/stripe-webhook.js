@@ -5,9 +5,14 @@
 // Env vars required: STRIPE_WEBHOOK_SECRET
 
 const { getStoreForEvent } = require('./lib/blobStore.js');
-const { normalizeEmail } = require('./lib/authLib.js');
-const { activateProForEmail, activateProMaxForEmail, revokeProForEmail, markPaymentPastDue, clearPaymentPastDue } = require('./lib/proUpgrade.js');
-const { persistStripeCustomerId } = require('./lib/stripeLib.js');
+const { normalizeEmail, userKey } = require('./lib/authLib.js');
+const { activateProForEmail, activateProMaxForEmail, activatePlanForEmail, revokeProForEmail, markPaymentPastDue, clearPaymentPastDue } = require('./lib/proUpgrade.js');
+const {
+  persistStripeCustomerId,
+  listPayingSubscriptions,
+  bestPlan,
+  cancelReplacedSubscriptions,
+} = require('./lib/stripeLib.js');
 const { addCreditTopups } = require('./lib/aiCredits.js');
 const { sendPaymentFailedEmail } = require('./lib/email.js');
 const {
@@ -88,6 +93,48 @@ function extractEmail(obj) {
   return extractStripeEmail(obj);
 }
 
+/**
+ * A subscription ended. Revoke the plan only if nothing else is paying for it.
+ *
+ * - `replaced_by` stamp: this one was cancelled by our own upgrade flow; the new
+ *   subscription already set the plan.
+ * - Another subscription still billing (two bought by mistake, one cancelled): keep
+ *   access at the plan that one pays for.
+ * If Stripe cannot be asked, revoke as before — the nightly reconcile restores a plan
+ * that is still being paid.
+ */
+async function revokeUnlessStillPaying(store, rawEmail, subscription, reason) {
+  const email = normalizeEmail(rawEmail);
+  if (subscription?.metadata?.replaced_by) {
+    console.log('[stripe-webhook] subscription replaced by upgrade — plan kept:', email, subscription.id);
+    return { ok: true, kept: true, reason: 'replaced' };
+  }
+
+  const secret = String(process.env.STRIPE_SECRET_KEY || '').trim();
+  if (secret) {
+    let user = null;
+    try {
+      user = await store.get(userKey(email), { type: 'json' });
+    } catch (_) {
+      user = null;
+    }
+    const customerId =
+      user?.stripeCustomerId ||
+      (typeof subscription?.customer === 'string' ? subscription.customer : subscription?.customer?.id) ||
+      null;
+    const others = await listPayingSubscriptions(email, customerId, secret).catch(() => ({ ok: false, subs: [] }));
+    const remaining = others.subs.filter((sub) => sub.id !== subscription?.id);
+    if (user && others.ok && remaining.length) {
+      const plan = bestPlan(remaining);
+      const kept = await activatePlanForEmail(store, email, plan, { sendEmail: false, allowDowngrade: true });
+      console.log('[stripe-webhook] another subscription still paying — plan set to', `${plan}:`, email);
+      return { ok: kept.ok, kept: true, reason: 'still_paying', plan };
+    }
+  }
+
+  return revokeProForEmail(store, email, { reason });
+}
+
 exports.handler = async (event) => {
   if (event.httpMethod !== 'POST') {
     return { statusCode: 405, body: 'Method not allowed' };
@@ -160,6 +207,9 @@ exports.handler = async (event) => {
         }
 
         console.log('[stripe-webhook] Upgraded to', plan + ':', email);
+        if (session.metadata?.replaces) {
+          await cancelReplacedSubscriptions(session, String(process.env.STRIPE_SECRET_KEY || '').trim());
+        }
         handled = true;
       }
     } else if (
@@ -188,13 +238,13 @@ exports.handler = async (event) => {
         return { statusCode: 200, body: 'ok' };
       }
 
-      const result = await revokeProForEmail(store, rawEmail, { reason: 'subscription_deleted' });
+      const result = await revokeUnlessStillPaying(store, rawEmail, subscription, 'subscription_deleted');
       if (!result.ok) {
         console.error('[stripe-webhook] User not found for subscription deletion:', rawEmail);
         return { statusCode: 200, body: 'ok' };
       }
 
-      console.log('[stripe-webhook] Revoked Pro:', rawEmail);
+      if (!result.kept) console.log('[stripe-webhook] Revoked Pro:', rawEmail);
       handled = true;
     } else if (stripeEvent.type === 'customer.subscription.updated') {
       const subscription = stripeEvent.data?.object;
@@ -205,8 +255,8 @@ exports.handler = async (event) => {
         const email = normalizeEmail(rawEmail);
 
         if (shouldRevokePro(status)) {
-          await revokeProForEmail(store, email, { reason: `subscription_${status}` });
-          console.log('[stripe-webhook] Revoked Pro (subscription.updated):', email, status);
+          const res = await revokeUnlessStillPaying(store, email, subscription, `subscription_${status}`);
+          if (!res.kept) console.log('[stripe-webhook] Revoked Pro (subscription.updated):', email, status);
         } else if (shouldMarkPaymentWarning(status)) {
           await markPaymentPastDue(store, email, { status });
           console.log('[stripe-webhook] Payment grace (subscription.updated):', email, status);

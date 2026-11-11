@@ -19,6 +19,7 @@
     "official:exam-status": "node scripts/exam-status.mjs",
     "official:re-publish": "node scripts/re-publish-official-exam.mjs",
     "test:published-exam": "node scripts/test-published-exam.mjs",
+    "test:stripe-upgrade": "node scripts/test-stripe-upgrade.mjs",
     "generate:residual-parts": "node --use-system-ca scripts/generate-residual-parts.mjs --lang de --level B1",
     "build:site": "npm run build:availability && npm run build:landing && node scripts/assemble-demo-html.mjs && node scripts/assemble-dist.mjs",
     "dev:landing": "cd landing && npm run dev",

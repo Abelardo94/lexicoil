@@ -125,7 +125,7 @@ async function clearPaymentPastDue(store, rawEmail) {
   return { ok: true, email, user: updatedUser };
 }
 
-async function activatePlanForEmail(store, rawEmail, plan, { sendEmail = true, stripeCustomerId = null, manualActivation = false } = {}) {
+async function activatePlanForEmail(store, rawEmail, plan, { sendEmail = true, stripeCustomerId = null, manualActivation = false, allowDowngrade = false } = {}) {
   let targetPlan = plan === 'pro_max' ? 'pro_max' : 'pro';
   const email = normalizeEmail(rawEmail);
   if (!email) return { ok: false, error: 'invalid_email' };
@@ -145,7 +145,8 @@ async function activatePlanForEmail(store, rawEmail, plan, { sendEmail = true, s
   // Never downgrade: a late `pro` activation (stripe-confirm, reconcile) must not
   // overwrite a pro_max the webhook already set.
   const currentPlan = String(user.plan || '').toLowerCase();
-  if (targetPlan === 'pro' && currentPlan === 'pro_max' && user.pro) targetPlan = 'pro_max';
+  // allowDowngrade: the caller knows what Stripe bills now (Pro Max cancelled, Pro still paid).
+  if (!allowDowngrade && targetPlan === 'pro' && currentPlan === 'pro_max' && user.pro) targetPlan = 'pro_max';
   // Activation runs twice per purchase (webhook + stripe-confirm): only a real plan
   // change resets the monthly exam counter.
   const alreadyActive = !!user.pro && currentPlan === targetPlan;

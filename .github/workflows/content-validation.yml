@@ -67,6 +67,10 @@ jobs:
       - name: audit:placeholders (basura de plantilla en contenido servido)
         run: npm run audit:placeholders
 
+      # Stripe simulado con estado: Pro -> Pro Max sin pagar dos veces.
+      - name: test:stripe-upgrade
+        run: npm run test:stripe-upgrade
+
       - name: ci:content (live fidelity + dedupe gate)
         run: npm run ci:content
 

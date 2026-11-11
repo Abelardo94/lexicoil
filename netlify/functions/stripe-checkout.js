@@ -4,6 +4,7 @@ const { getStoreForEvent } = require('./lib/blobStore.js');
 const { requireAuth } = require('./lib/authLib.js');
 const { corsHeaders, jsonResponse, parseJsonBody } = require('./lib/http.js');
 const { getSiteUrl } = require('./lib/siteConfig.js');
+const { listPayingSubscriptions, bestPlan } = require('./lib/stripeLib.js');
 
 exports.handler = async (event) => {
   const cors = corsHeaders(event);
@@ -43,12 +44,40 @@ exports.handler = async (event) => {
   const stripePriceProMax = String(process.env.STRIPE_PRICE_PRO_MAX || '').trim();
   const stripePriceId = targetPlan === 'pro_max' ? stripePriceProMax : stripePricePro;
 
+  // What is this account already paying for? Without this check a Pro user who clicked
+  // "Pro Max" got a second subscription and was billed for both every month, and a
+  // second click on "Pro" bought the same plan twice.
+  let replaces = [];
+  let existingCustomerId = null;
+  const current = await listPayingSubscriptions(authEmail, user?.stripeCustomerId || null, secret).catch(
+    (err) => {
+      console.warn('[stripe-checkout] could not list subscriptions:', err.message);
+      return { ok: false, subs: [] };
+    },
+  );
+  if (current.ok && current.subs.length) {
+    const have = bestPlan(current.subs);
+    if (have === 'pro_max' || have === targetPlan) {
+      return jsonResponse(409, cors, { error: 'already_subscribed', plan: have });
+    }
+    // Pro -> Pro Max: the new subscription replaces the old one(s) once it is paid.
+    replaces = current.subs.map((sub) => sub.id);
+    existingCustomerId = current.subs.find((sub) => sub.customerId)?.customerId || null;
+  }
+
   const params = new URLSearchParams();
   params.set('mode', 'subscription');
   params.set('success_url', `${base}/?upgraded=1&session_id={CHECKOUT_SESSION_ID}`);
   params.set('cancel_url', `${base}/?cancelled=1`);
   params.set('client_reference_id', authEmail);
-  params.set('customer_email', authEmail);
+  // Same Stripe customer as the subscription being replaced: the credit for its unused
+  // time lands on the balance the new subscription is billed from.
+  if (existingCustomerId) params.set('customer', existingCustomerId);
+  else params.set('customer_email', authEmail);
+  if (replaces.length) {
+    params.set('metadata[replaces]', replaces.join(','));
+    params.set('subscription_data[metadata][replaces]', replaces.join(','));
+  }
   params.set('metadata[email]', authEmail);
   params.set('metadata[plan]', targetPlan);
   params.set('subscription_data[metadata][email]', authEmail);
@@ -83,16 +112,34 @@ exports.handler = async (event) => {
     params.set('billing_address_collection', 'required');
   }
 
-  const res = await fetch('https://api.stripe.com/v1/checkout/sessions', {
-    method: 'POST',
-    headers: {
-      Authorization: `Bearer ${secret}`,
-      'Content-Type': 'application/x-www-form-urlencoded',
-    },
-    body: params.toString(),
-  });
+  const createSession = async () => {
+    const res = await fetch('https://api.stripe.com/v1/checkout/sessions', {
+      method: 'POST',
+      headers: {
+        Authorization: `Bearer ${secret}`,
+        'Content-Type': 'application/x-www-form-urlencoded',
+      },
+      body: params.toString(),
+    });
+    const data = await res.json().catch(() => ({}));
+    return { res, data };
+  };
 
-  const data = await res.json().catch(() => ({}));
+  let res;
+  let data;
+  try {
+    ({ res, data } = await createSession());
+    // A stored customer id Stripe no longer accepts (deleted, other mode) must not block the sale.
+    if (!res.ok && existingCustomerId && /customer/i.test(String(data.error?.message || data.error?.param || ''))) {
+      console.warn('[stripe-checkout] customer rejected, retrying with email:', data.error?.message);
+      params.delete('customer');
+      params.set('customer_email', authEmail);
+      ({ res, data } = await createSession());
+    }
+  } catch (err) {
+    console.error('[stripe-checkout] Stripe unreachable:', err.message);
+    return jsonResponse(502, cors, { error: 'stripe_error', message: 'Checkout failed' });
+  }
   if (!res.ok) {
     return jsonResponse(502, cors, {
       error: 'stripe_error',

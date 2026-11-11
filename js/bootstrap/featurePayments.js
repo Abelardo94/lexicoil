@@ -36,8 +36,13 @@
       await startStripeCheckout();
     } catch (e) {
       notify(
-        e.message === 'login_required' ? 'Please sign in first.' : 'Checkout failed. Try again later.',
+        e.message === 'login_required'
+          ? 'Please sign in first.'
+          : e.message === 'already_subscribed'
+            ? 'You already have this plan. Use "Manage subscription" to change or cancel it.'
+            : 'Checkout failed. Try again later.',
         'error',
+        e.message === 'already_subscribed' ? 7000 : undefined,
       );
     }
   };
@@ -97,8 +102,13 @@
       await startStripeCheckout({ plan: 'pro_max' });
     } catch (e) {
       notify(
-        e.message === 'login_required' ? 'Please sign in first.' : 'Checkout failed. Try again later.',
+        e.message === 'login_required'
+          ? 'Please sign in first.'
+          : e.message === 'already_subscribed'
+            ? 'You already have this plan. Use "Manage subscription" to change or cancel it.'
+            : 'Checkout failed. Try again later.',
         'error',
+        e.message === 'already_subscribed' ? 7000 : undefined,
       );
     }
   };

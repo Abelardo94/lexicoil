@@ -6,7 +6,7 @@ const { corsHeaders, parseJsonBody, authSessionResponse, jsonResponse } = requir
 const { resolvePlan, maxForPlan, getMonthKey } = require('./lib/quotaLib.js');
 const { activateProForEmail, activateProMaxForEmail } = require('./lib/proUpgrade.js');
 const { isProActiveStatus } = require('./lib/stripeSubscription.js');
-const { checkoutSessionIsPaid, persistStripeCustomerId } = require('./lib/stripeLib.js');
+const { checkoutSessionIsPaid, persistStripeCustomerId, cancelReplacedSubscriptions } = require('./lib/stripeLib.js');
 
 function sessionEmail(session) {
   return (
@@ -95,6 +95,10 @@ exports.handler = async (event) => {
   });
   if (!upgraded.ok) {
     return jsonResponse(404, cors, { error: upgraded.error || 'upgrade_failed' });
+  }
+  // Upgrade from Pro: end the subscription this one replaces (no-op if the webhook already did).
+  if (session.metadata?.replaces) {
+    await cancelReplacedSubscriptions(session, stripeSecret);
   }
 
   const plan = resolvePlan(upgraded.user);
