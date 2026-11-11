@@ -1,0 +1,299 @@
+<title>Piloto inglés B1</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&display=swap">
+<style>
+:root {
+  --bg: #eef1f4;
+  --surface: #ffffff;
+  --sunk: #f5f7f9;
+  --ink: #16202b;
+  --muted: #5b6875;
+  --line: #d6dde4;
+  --accent: #1f5fad;
+  --accent-soft: #e3edf9;
+  --ok: #1e7a4c;
+  --ok-soft: #e2f3ea;
+  --warn: #9a5b00;
+  --warn-soft: #fbf0dc;
+  --crit: #b42318;
+  --crit-soft: #fce8e6;
+  --serif: "Newsreader", Georgia, "Times New Roman", serif;
+  --sans: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, Consolas, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    color-scheme: dark;
+    --bg: #0e1318; --surface: #161d25; --sunk: #1b232c; --ink: #e5e9ee; --muted: #93a0ad;
+    --line: #2a3440; --accent: #86b4ef; --accent-soft: #1b2d44;
+    --ok: #5cc48f; --ok-soft: #14301f; --warn: #e8ae52; --warn-soft: #33260f; --crit: #f08a80; --crit-soft: #3a1714;
+  }
+}
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --bg: #0e1318; --surface: #161d25; --sunk: #1b232c; --ink: #e5e9ee; --muted: #93a0ad;
+  --line: #2a3440; --accent: #86b4ef; --accent-soft: #1b2d44;
+  --ok: #5cc48f; --ok-soft: #14301f; --warn: #e8ae52; --warn-soft: #33260f; --crit: #f08a80; --crit-soft: #3a1714;
+}
+* { box-sizing: border-box; }
+body { background: var(--bg); color: var(--ink); font: 15px/1.55 var(--sans); padding-inline: 16px; padding-block: 24px 48px; }
+.wrap { max-width: 1180px; margin: 0 auto; display: grid; gap: 20px; }
+h1, h2, h3 { text-wrap: balance; margin: 0; }
+h1 { font: 600 26px/1.2 var(--serif); letter-spacing: -0.01em; }
+.lede { color: var(--muted); max-width: 70ch; margin: 6px 0 0; }
+.stats { display: flex; flex-wrap: wrap; gap: 8px 20px; margin-top: 12px; font-size: 13px; color: var(--muted); }
+.stats b { color: var(--ink); font-variant-numeric: tabular-nums; font-weight: 600; }
+.layout { display: grid; grid-template-columns: 290px minmax(0, 1fr); gap: 20px; align-items: start; }
+nav { position: sticky; top: calc(env(safe-area-inset-top, 0px) + 12px); background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 8px; display: grid; gap: 2px; max-height: calc(100vh - 24px); overflow: auto; }
+.navgroup { font: 600 11px/1 var(--sans); text-transform: uppercase; letter-spacing: 0.08em; color: var(--muted); padding: 12px 10px 6px; }
+.navitem { all: unset; cursor: pointer; display: grid; grid-template-columns: 1fr auto; align-items: center; gap: 8px; padding: 8px 10px; border-radius: 7px; }
+.navitem:hover { background: var(--sunk); }
+.navitem[aria-current="true"] { background: var(--accent-soft); }
+.navitem:focus-visible { outline: 2px solid var(--accent); outline-offset: 1px; }
+.navitem .t { font-weight: 500; font-size: 14px; }
+.navitem .s { display: block; font: 12px/1.3 var(--mono); color: var(--muted); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.chip { font: 600 11px/1 var(--sans); padding: 4px 7px; border-radius: 999px; white-space: nowrap; letter-spacing: 0.02em; }
+.chip.pending { color: var(--muted); background: var(--sunk); border: 1px solid var(--line); }
+.chip.ok { color: var(--ok); background: var(--ok-soft); }
+.chip.bad { color: var(--crit); background: var(--crit-soft); }
+main { display: grid; gap: 16px; min-width: 0; }
+.card { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 18px 20px; }
+.head { display: grid; gap: 4px; }
+.eyebrow { font: 600 12px/1 var(--sans); text-transform: uppercase; letter-spacing: 0.08em; color: var(--accent); }
+.slug { font: 13px var(--mono); color: var(--muted); word-break: break-all; }
+.flags { display: grid; gap: 8px; margin-top: 12px; }
+.flag { display: grid; grid-template-columns: auto 1fr; gap: 10px; align-items: start; padding: 9px 12px; border-radius: 8px; font-size: 14px; }
+.flag .sev { font: 600 11px/1.6 var(--sans); text-transform: uppercase; letter-spacing: 0.06em; }
+.flag.crit { background: var(--crit-soft); } .flag.crit .sev { color: var(--crit); }
+.flag.warn { background: var(--warn-soft); } .flag.warn .sev { color: var(--warn); }
+.flag.info { background: var(--sunk); } .flag.info .sev { color: var(--muted); }
+.flag .where { font: 12px var(--mono); color: var(--muted); }
+.verdict { display: grid; gap: 10px; }
+.verdict .row { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+.btn { font: 500 14px var(--sans); padding: 8px 14px; border-radius: 8px; border: 1px solid var(--line); background: var(--surface); color: var(--ink); cursor: pointer; }
+.btn:hover { border-color: var(--accent); }
+.btn:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.btn[aria-pressed="true"].ok { background: var(--ok-soft); border-color: var(--ok); color: var(--ok); }
+.btn[aria-pressed="true"].bad { background: var(--crit-soft); border-color: var(--crit); color: var(--crit); }
+textarea { width: 100%; min-height: 72px; font: 14px/1.5 var(--sans); color: var(--ink); background: var(--sunk); border: 1px solid var(--line); border-radius: 8px; padding: 10px 12px; resize: vertical; }
+textarea:focus-visible { outline: 2px solid var(--accent); outline-offset: 1px; }
+.status { font-size: 13px; color: var(--muted); }
+.passage h3 { font: 600 19px/1.3 var(--serif); margin-bottom: 8px; }
+.passage .pid { font: 12px var(--mono); color: var(--muted); margin-bottom: 8px; }
+.passage .text { font: 17px/1.65 var(--serif); white-space: pre-wrap; max-width: 68ch; }
+.passages { display: grid; gap: 14px; }
+.passages.grid { grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); }
+.passages.grid .passage .text { font-size: 15.5px; }
+.q { display: grid; gap: 8px; padding: 14px 0; border-top: 1px solid var(--line); }
+.q:first-of-type { border-top: 0; padding-top: 4px; }
+.q .qhead { display: flex; gap: 10px; align-items: baseline; flex-wrap: wrap; }
+.q .num { font: 500 12px var(--mono); color: var(--muted); }
+.q .stem { font: 16px/1.55 var(--serif); white-space: pre-wrap; }
+.opts { list-style: none; margin: 0; padding: 0; display: grid; gap: 4px; }
+.opts li { display: grid; grid-template-columns: 26px 1fr; gap: 6px; padding: 5px 8px; border-radius: 6px; font-size: 14.5px; }
+.opts li .l { font: 500 13px var(--mono); color: var(--muted); }
+.opts li.key { background: var(--ok-soft); }
+.opts li.key .l { color: var(--ok); font-weight: 600; }
+.answer { font-size: 14px; }
+.answer b { color: var(--ok); }
+.expl { font-size: 13.5px; color: var(--muted); background: var(--sunk); border-radius: 6px; padding: 8px 10px; }
+.q.flagged { background: linear-gradient(to right, var(--warn-soft), transparent 60%); margin-inline: -20px; padding-inline: 20px; }
+.q.flagged.crit { background: linear-gradient(to right, var(--crit-soft), transparent 60%); }
+.sectiontitle { font: 600 12px/1 var(--sans); text-transform: uppercase; letter-spacing: 0.08em; color: var(--muted); margin-bottom: 10px; }
+.pager { display: flex; justify-content: space-between; gap: 10px; }
+@media (max-width: 860px) {
+  .layout { grid-template-columns: minmax(0, 1fr); }
+  nav { position: static; max-height: 300px; }
+  .q.flagged { margin-inline: -14px; padding-inline: 14px; }
+  .card { padding: 16px 14px; }
+}
+@media (prefers-reduced-motion: no-preference) { .navitem, .btn { transition: background-color .12s, border-color .12s; } }
+</style>
+
+<div class="wrap">
+  <header>
+    <h1>Piloto inglés B1: 16 lotes generados con Gemini</h1>
+    <p class="lede">Un lote por Part de Cambridge B1 Preliminary, generados el 23 sep 2026 con la ruta por lotes (<span class="slug">generate-batch-gemini --lang en</span>) y sin tocar el banco. Lee cada lote, marca <b>Vale</b> o <b>Tiene defecto</b> y deja una nota si hace falta. Tus marcas se guardan y yo las leo desde aquí.</p>
+    <div class="stats" id="stats"></div>
+  </header>
+  <div class="layout">
+    <nav id="nav" aria-label="Lotes"></nav>
+    <main id="main"></main>
+  </div>
+</div>
+
+<script>
+const BATCHES = __DATA__;
+const verdicts = {};
+let current = 0;
+let db = null;
+const SEV = { crit: 'Grave', warn: 'Aviso', info: 'Nota' };
+
+function el(tag, attrs = {}, ...kids) {
+  const n = document.createElement(tag);
+  for (const [k, v] of Object.entries(attrs)) {
+    if (k === 'class') n.className = v;
+    else if (k === 'text') n.textContent = v;
+    else if (k.startsWith('on')) n.addEventListener(k.slice(2), v);
+    else n.setAttribute(k, v);
+  }
+  for (const k of kids) if (k != null) n.append(k);
+  return n;
+}
+
+function chipFor(slug) {
+  const v = verdicts[slug];
+  if (!v || !v.estado) return el('span', { class: 'chip pending', text: 'Sin revisar' });
+  return v.estado === 'ok' ? el('span', { class: 'chip ok', text: 'Vale' }) : el('span', { class: 'chip bad', text: 'Defecto' });
+}
+
+function renderStats() {
+  const s = document.getElementById('stats');
+  const nQ = BATCHES.reduce((n, b) => n + b.questions.length, 0);
+  const nCrit = BATCHES.reduce((n, b) => n + b.flags.filter((f) => f.sev === 'crit').length, 0);
+  const vals = Object.values(verdicts).filter((v) => v && v.estado);
+  const ok = vals.filter((v) => v.estado === 'ok').length;
+  s.replaceChildren(
+    el('span', {}, el('b', { text: String(BATCHES.length) }), ' lotes'),
+    el('span', {}, el('b', { text: String(nQ) }), ' preguntas'),
+    el('span', {}, el('b', { text: '15/16' }), ' pasan el validador'),
+    el('span', {}, el('b', { text: String(nCrit) }), ' avisos graves míos'),
+    el('span', {}, el('b', { text: `${vals.length}/${BATCHES.length}` }), ` revisados (${ok} valen)`),
+    el('span', {}, 'coste ≈ ', el('b', { text: '0,09 $' })),
+  );
+}
+
+function renderNav() {
+  const nav = document.getElementById('nav');
+  nav.replaceChildren();
+  let lastMod = null;
+  BATCHES.forEach((b, i) => {
+    if (b.moduleLabel !== lastMod) {
+      nav.append(el('div', { class: 'navgroup', text: b.moduleLabel }));
+      lastMod = b.moduleLabel;
+    }
+    const title = b.module === 'schreiben' || b.module === 'sprechen'
+      ? b.slug.replace(/^(schreiben|sprechen)-(email|speaking)-/, '').replace(/-\d+$/, '').replace(/-/g, ' ')
+      : `Part ${b.teil}` + (b.rejected ? ' · rechazado' : '');
+    nav.append(el('button', {
+      class: 'navitem', 'aria-current': String(i === current), onclick: () => { current = i; renderAll(); window.scrollTo({ top: 0 }); },
+    }, el('span', {}, el('span', { class: 't', text: title }), el('span', { class: 's', text: b.slug })), chipFor(b.slug)));
+  });
+}
+
+function correctIndex(q) {
+  const c = String(q.correct).trim();
+  if (/^[a-h]$/i.test(c) && q.options.length) return c.toLowerCase().charCodeAt(0) - 97;
+  return -1;
+}
+
+function renderQuestion(q, flags) {
+  const qFlags = flags.filter((f) => f.qid === q.id);
+  const worst = qFlags.some((f) => f.sev === 'crit') ? 'crit' : qFlags.length ? 'warn' : '';
+  const box = el('div', { class: 'q' + (worst ? ' flagged ' + worst : '') });
+  box.append(el('div', { class: 'qhead' },
+    el('span', { class: 'num', text: q.short + (q.segment ? ' · ' + q.segment : '') + ' · ' + q.type })));
+  box.append(el('div', { class: 'stem', text: q.question }));
+  const ci = correctIndex(q);
+  if (q.options.length) {
+    const ul = el('ul', { class: 'opts' });
+    q.options.forEach((o, i) => ul.append(el('li', { class: i === ci ? 'key' : '' },
+      el('span', { class: 'l', text: String.fromCharCode(97 + i) }), el('span', { text: o }))));
+    box.append(ul);
+  }
+  if (ci < 0 && q.correct && q.correct !== 'rubric') box.append(el('div', { class: 'answer' }, 'Respuesta: ', el('b', { text: q.correct })));
+  if (q.explanation) box.append(el('div', { class: 'expl', text: 'Explicación: ' + q.explanation }));
+  for (const f of qFlags) box.append(flagEl(f, false));
+  return box;
+}
+
+function flagEl(f, showWhere) {
+  return el('div', { class: 'flag ' + f.sev },
+    el('span', { class: 'sev', text: SEV[f.sev] }),
+    el('span', {}, f.text, showWhere && f.qid ? el('span', { class: 'where', text: '  → ' + f.qid.split('-').slice(-2).join('-') }) : null));
+}
+
+function renderMain() {
+  const b = BATCHES[current];
+  const main = document.getElementById('main');
+  const head = el('section', { class: 'card head' },
+    el('span', { class: 'eyebrow', text: b.moduleLabel + ' · ' + b.partLabel }),
+    el('h2', { class: 'passage', style: 'font: 600 22px/1.25 var(--serif)', text: b.passages[0]?.title && b.passages.length === 1 ? b.passages[0].title : b.slug.replace(/^_rejected-/, '') }),
+    el('span', { class: 'slug', text: b.slug + '.json' }));
+  if (b.flags.length) {
+    const fl = el('div', { class: 'flags' });
+    b.flags.forEach((f) => fl.append(flagEl(f, true)));
+    head.append(fl);
+  } else {
+    head.append(el('p', { class: 'status', text: 'Sin avisos míos ni del auditor. Falta tu lectura.' }));
+  }
+
+  const v = verdicts[b.slug] || {};
+  const status = el('span', { class: 'status', text: db ? (v.at ? 'Guardado' : '') : 'Tus marcas no se pueden guardar en esta vista.' });
+  const note = el('textarea', { id: 'note-' + b.slug, placeholder: 'Qué está mal, o qué mejorarías (opcional)', 'aria-label': 'Nota sobre este lote' });
+  note.value = v.nota || '';
+  const save = async (estado) => {
+    if (!db) return;
+    const body = { estado: estado ?? (verdicts[b.slug]?.estado || null), nota: note.value.trim(), at: new Date().toISOString() };
+    status.textContent = 'Guardando…';
+    try {
+      await db.collection('veredictos').doc(b.slug).set(body);
+      verdicts[b.slug] = body;
+      status.textContent = 'Guardado';
+      renderNav(); renderStats(); syncButtons();
+    } catch (e) {
+      status.textContent = e && e.code === 'invalid_argument' ? 'No tienes permiso para guardar aquí.' : 'No se ha podido guardar. Prueba otra vez.';
+    }
+  };
+  const okBtn = el('button', { class: 'btn ok', type: 'button', onclick: () => save('ok') }, 'Vale');
+  const badBtn = el('button', { class: 'btn bad', type: 'button', onclick: () => save('defecto') }, 'Tiene defecto');
+  const noteBtn = el('button', { class: 'btn', type: 'button', onclick: () => save() }, 'Guardar nota');
+  function syncButtons() {
+    const e = verdicts[b.slug]?.estado;
+    okBtn.setAttribute('aria-pressed', String(e === 'ok'));
+    badBtn.setAttribute('aria-pressed', String(e === 'defecto'));
+  }
+  syncButtons();
+  if (!db) [okBtn, badBtn, noteBtn].forEach((x) => { x.disabled = true; });
+  const verdict = el('section', { class: 'card verdict' },
+    el('div', { class: 'sectiontitle', text: 'Tu veredicto' }),
+    el('div', { class: 'row' }, okBtn, badBtn, status), note, el('div', { class: 'row' }, noteBtn));
+
+  const parts = [head];
+  if (b.passages.length) {
+    const grid = b.passages.length > 2;
+    const ps = el('div', { class: 'passages' + (grid ? ' grid' : '') });
+    b.passages.forEach((p) => ps.append(el('div', { class: 'passage' + (grid ? ' card' : '') },
+      p.title && (grid || b.passages.length > 1) ? el('h3', { text: p.title }) : null,
+      grid ? el('div', { class: 'pid', text: p.id.split('-').slice(-2).join('-') }) : null,
+      el('div', { class: 'text', text: p.text }))));
+    parts.push(el('section', { class: grid ? '' : 'card' }, el('div', { class: 'sectiontitle', text: b.module === 'horen' ? 'Transcripción' : 'Texto' }), ps));
+  }
+  const qs = el('section', { class: 'card' }, el('div', { class: 'sectiontitle', text: 'Preguntas y clave' }));
+  b.questions.forEach((q) => qs.append(renderQuestion(q, b.flags)));
+  parts.push(qs, verdict);
+  const pager = el('div', { class: 'pager' },
+    el('button', { class: 'btn', type: 'button', onclick: () => { current = Math.max(0, current - 1); renderAll(); window.scrollTo({ top: 0 }); } }, '← Anterior'),
+    el('button', { class: 'btn', type: 'button', onclick: () => { current = Math.min(BATCHES.length - 1, current + 1); renderAll(); window.scrollTo({ top: 0 }); } }, 'Siguiente →'));
+  if (current === 0) pager.firstChild.disabled = true;
+  if (current === BATCHES.length - 1) pager.lastChild.disabled = true;
+  parts.push(pager);
+  main.replaceChildren(...parts);
+}
+
+function renderAll() { renderNav(); renderMain(); renderStats(); }
+renderAll();
+
+(async () => {
+  try { db = await window.claude?.use?.('db'); } catch (_) { db = null; }
+  if (!db) { renderMain(); return; }
+  db.collection('veredictos').onSnapshot((snap) => {
+    for (const d of snap.docs) verdicts[d.id] = d.data();
+    renderNav(); renderStats();
+    const active = document.activeElement;
+    if (!(active && active.tagName === 'TEXTAREA')) renderMain();
+  }, () => {});
+  renderMain();
+})();
+</script>

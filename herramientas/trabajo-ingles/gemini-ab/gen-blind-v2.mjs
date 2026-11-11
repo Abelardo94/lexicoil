@@ -1,0 +1,32 @@
+// Blind set for prompt v2: the 16 new batches (runs-v2.json) + the 16 baseline batches of the same
+// parts/topics (runs.json), shuffled together so the reviewers cannot tell prompt or model.
+import fs from 'node:fs';
+const isTarget = (r) => (r.module === 'lesen' && r.teil === 5) || (r.module === 'horen' && r.teil === 2);
+const runs = [
+  ...JSON.parse(fs.readFileSync('runs.json', 'utf8')).filter(isTarget).map((r) => ({ ...r, prompt: 'v1' })),
+  ...JSON.parse(fs.readFileSync('runs-v2.json', 'utf8')).map((r) => ({ ...r, prompt: 'v2' })),
+].filter((r) => r.valid && r.conformant);
+let s = 20260925; const rnd = () => ((s = (s * 1664525 + 1013904223) >>> 0) / 2 ** 32);
+const order = runs.map((r) => [rnd(), r]).sort((a, b) => a[0] - b[0]).map(([, r]) => r);
+fs.rmSync('blind-v2', { recursive: true, force: true }); fs.mkdirSync('blind-v2');
+const map = {};
+order.forEach((r, n) => {
+  const b = JSON.parse(fs.readFileSync(r.file, 'utf8'));
+  const mod = b.questions[0].module; const teil = b.questions[0].teil;
+  const isListening = mod === 'horen';
+  const text = b.passages.map((p, i) => (isListening ? `[Recording ${i + 1}]\n` : '') + [p.title, p.text].filter(Boolean).join(isListening ? '\n' : '\n\n')).join('\n\n');
+  const pIndex = Object.fromEntries(b.passages.map((p, i) => [p.id, i + 1]));
+  const qids = {};
+  const qs = b.questions.map((q, k) => {
+    qids[`q${k + 1}`] = q.id;
+    return { id: `q${k + 1}`, ...(isListening && b.passages.length > 1 ? { recording: `Recording ${pIndex[q.passageId]}` } : {}), question: q.question, ...(q.options?.length ? { options: q.options } : {}), key: q.correct, explanation: q.explanation };
+  });
+  const id = `H${String(301 + n)}`;
+  const title = b.passages.length === 1 ? b.passages[0].title : `${b.passages.length} recordings`;
+  const ref = Array.from({ length: 6 }, () => 'ABCDEFGHJKLMNPQRSTUVWXYZ23456789'[Math.floor(rnd() * 32)]).join('');
+  const body = [`Ref: ${ref}`, `Part: ${isListening ? 'Listening' : 'Reading'} Part ${teil}`, `Title: ${title}`, '', isListening ? 'TRANSCRIPT:' : 'TEXT:', text, '', 'QUESTIONS (with the key and explanation to be checked):', JSON.stringify(qs, null, 1)].join('\n');
+  fs.writeFileSync(`blind-v2/${id}.txt`, body);
+  map[id] = { ref, prompt: r.prompt, key: r.key, model: r.model, part: `${mod}-t${teil}`, topic: r.topic, file: r.file, title, nq: qs.length, qids };
+});
+fs.writeFileSync('blind-v2-map.private.json', JSON.stringify(map, null, 1));
+console.log(Object.keys(map).length, 'blind files');
