@@ -63,6 +63,10 @@ jobs:
       - name: test:concurrency + test:blob-strict (fail-closed de las lecturas)
         run: npm run test:concurrency && npm run test:blob-strict && npm run test:merge-segments
 
+      # Sin credenciales: tienda de blobs y fetch simulados.
+      - name: test:open-endpoints (voz, modelo de Claude y cache de traducciones)
+        run: npm run test:open-endpoints
+
       # Cubre los dos idiomas: el defecto era alemán, pero el pipeline es común.
       - name: audit:placeholders (basura de plantilla en contenido servido)
         run: npm run audit:placeholders
