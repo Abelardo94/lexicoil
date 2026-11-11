@@ -20,6 +20,7 @@ const {
 } = require('./lib/proAiModes.js');
 const { getAiCredits, checkAiCredits, confirmAiCreditConsumption, releaseAiCreditConsumption } = require('./lib/aiCredits.js');
 const { getStoreForEvent } = require('./lib/blobStore.js');
+const { checkIpRateLimit, recordIpRateLimitHit } = require('./lib/ipRateLimit.js');
 const { gatePersonalExamChunk } = require('./lib/webPartGate.js');
 const { casWriteJson } = require('./lib/casBlob.js');
 const { linkTicketQuotaCharge, releaseGenerationQuota, deliverGenerationQuota, renewGenerationTicket, ticketSubForQuotaState, assertGenerationTicketOwner } = require('./lib/releaseGeneration.js');
@@ -166,6 +167,35 @@ function cleanModel(raw) {
   return m;
 }
 
+/**
+ * Models a request may ask for. The body is attacker-controlled: without this list
+ * `examModel` / `model` let any caller (a guest included) run the most expensive
+ * Claude model on our key. The app itself only ever asks for the two below.
+ */
+function allowedRequestModels() {
+  return new Set(
+    [
+      DEFAULT_MODEL,
+      EXAM_MODEL,
+      process.env.CLAUDE_MODEL,
+      process.env.CLAUDE_EXAM_MODEL,
+    ]
+      .map((m) => String(m || '').trim())
+      .filter((m) => m.startsWith('claude-')),
+  );
+}
+
+function pickRequestModel(requested, fallback) {
+  const r = String(requested || '').trim();
+  if (r && allowedRequestModels().has(r)) return r;
+  if (r) console.warn('[claude-chat] ignored model not on the allowlist:', r.slice(0, 60));
+  return cleanModel(fallback);
+}
+
+const SPELL_WORD_MAX = 64;
+const SPELL_LIMIT = 120;
+const SPELL_WINDOW_MS = 60 * 60 * 1000;
+
 function parseBody(event) {
   let raw = event.body;
   if (event.isBase64Encoded && typeof raw === 'string') {
@@ -198,6 +228,20 @@ exports.handler = async function handler(event) {
     if (!word || word.length < 2) {
       return jsonResponse(400, cors, { error: 'word_required' });
     }
+    // No login and no credits on this path: it must stay a spell check. An uncapped
+    // "word" was a free, unmetered prompt to the model for anyone who found the endpoint.
+    if (word.length > SPELL_WORD_MAX || /[\r\n]/.test(word)) {
+      return jsonResponse(400, cors, { error: 'word_too_long' });
+    }
+    const spellStore = getStoreForEvent(event);
+    const spellRl = await checkIpRateLimit(spellStore, event, 'ratelimit_spell', {
+      limit: SPELL_LIMIT,
+      windowMs: SPELL_WINDOW_MS,
+    });
+    if (!spellRl.ok) {
+      return jsonResponse(200, cors, { correct: true, suggestion: null, skipped: true });
+    }
+    await recordIpRateLimitHit(spellStore, { ...spellRl, windowMs: SPELL_WINDOW_MS });
     const apiKey = readAnthropicKey();
     const badKey = rejectBadAnthropicKey(apiKey, jsonResponse, cors);
     if (badKey) return badKey;
@@ -208,7 +252,7 @@ exports.handler = async function handler(event) {
         model: spellModel,
         maxTokens: 120,
         system: `You check ${langName} spelling for vocabulary learners. Reply ONLY JSON: {"correct":true} or {"correct":false,"suggestion":"..."}. suggestion must be the standard spelling in ${langName}, or null if correct.`,
-        userContent: `Word: "${word}"`,
+        userContent: `Word: ${JSON.stringify(word)}`,
       });
       const parsed = extractJsonObject(text);
       return jsonResponse(200, cors, {
@@ -1619,10 +1663,11 @@ Rules:
   const examModelPick =
     body.examGeneration && chunkSlot.includes('ads_matching')
       ? examModelDefault
-      : body.examModel || examModelDefault;
+      : pickRequestModel(body.examModel, examModelDefault);
+  // Outside exam generation the client never picks the model.
   const model = body.examGeneration
     ? cleanModel(examModelPick)
-    : cleanModel(body.model || process.env.CLAUDE_MODEL);
+    : cleanModel(process.env.CLAUDE_MODEL);
 
   if (body.examGeneration) {
     console.log('[claude-chat] exam chunk', {

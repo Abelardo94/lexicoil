@@ -2,7 +2,8 @@
 
 const crypto = require('crypto');
 const { getStoreForEvent } = require('./lib/blobStore.js');
-const { corsHeaders, parseJsonBody, jsonResponse } = require('./lib/http.js');
+const { corsHeaders, parseJsonBody, jsonResponse, getBearer } = require('./lib/http.js');
+const { verifyAuthToken } = require('./lib/authLib.js');
 const { freeTranslate, isJunkTranslation } = require('./lib/freeTranslate.js');
 const {
   isPassageText,
@@ -280,6 +281,11 @@ exports.handler = async (event) => {
   }
 
   if (event.httpMethod === 'PUT') {
+    // The cache is shared by every user. Anonymous writes let anyone replace the
+    // translation other learners see for any word; the app only writes while signed in.
+    const auth = verifyAuthToken(getBearer(event));
+    if (!auth.ok) return jsonResponse(401, cors, { error: 'login_required' });
+
     const allowed = await checkPutRateLimit(store, event);
     if (!allowed) return jsonResponse(429, cors, { error: 'rate_limited' });
 

@@ -4,6 +4,7 @@ const { getStoreForEvent } = require('./lib/blobStore.js');
 const { verifyAuthToken } = require('./lib/authLib.js');
 const { getQuotaState } = require('./lib/quotaLib.js');
 const { isPaidPlan } = require('./lib/actionAccessLib.js');
+const { checkAiCredits, confirmAiCreditConsumption } = require('./lib/aiCredits.js');
 const { parseRequestId } = require('./lib/requestId.js');
 const { corsHeaders, getBearer, parseJsonBody, jsonResponse } = require('./lib/http.js');
 const { synthesize } = require('./lib/ttsProvider.js');
@@ -125,16 +126,17 @@ exports.handler = async (event) => {
       });
     }
 
+    // The app never sent a requestId, so this used to synthesise (paid) and then answer 400.
+    // Voice + text hash is a natural idempotency key: a retry of the same clip is not billed twice.
+    const requestId =
+      parseRequestId(body.requestId) || `tts_${voice}_${textHash(text)}`.slice(0, 80);
+
     const audio = await synthesize(text, voice, lang);
     if (!audio || !audio.length || audio.length > AUDIO_MAX_BYTES) {
       return jsonResponse(200, cors, { unavailable: true });
     }
 
-    // Credit confirmed only after a successful synthesis (requestId required for idempotency)
-    const requestId = parseRequestId(body.requestId);
-    if (!requestId) {
-      return jsonResponse(400, cors, { error: 'request_id_required' });
-    }
+    // Credit confirmed only after a successful synthesis
     await confirmAiCreditConsumption(event, 'tts', { requestId }).catch((err) => {
       console.warn('[tts] ai credit confirm failed:', err.message);
     });
