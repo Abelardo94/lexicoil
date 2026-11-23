@@ -241,10 +241,7 @@
     S.vePool = poolFromSnapshots(saved);
     S.veRetakeQuizId = saved.id;
     S.veSavedQuizId = null;
-    if (saved.hintLang) {
-      if (typeof setVocabUiLang === 'function') setVocabUiLang(saved.hintLang);
-      else S.fcLang = saved.hintLang;
-    }
+    // Hint language lives on each saved question; do not change global Interface lang.
     if (typeof setVeHintLangMode === 'function') {
       setVeHintLangMode(saved.hintLanguageMode || 'interface');
     }

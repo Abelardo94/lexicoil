@@ -1,0 +1,20 @@
+{
+  "openings": [
+    "In den letzten Jahren hat sich viel verändert:",
+    "Laut einer aktuellen Studie",
+    "Viele Menschen in Deutschland fragen sich derzeit,",
+    "Ein Bericht der Zeitung beschreibt, wie",
+    "Experten warnen, dass",
+    "In vielen Städten beobachten wir, dass",
+    "Die Debatte über dieses Thema gewinnt an Bedeutung, weil",
+    "Schon seit Monaten diskutieren Politiker und Bürger über",
+    "Auf Reisen achten immer mehr Menschen darauf,",
+    "Eine Umfrage unter tausend Teilnehmern zeigt, dass"
+  ],
+  "bannedDe": [
+    "Immer mehr Menschen",
+    "Immer mehr Menschen entscheiden sich",
+    "Immer mehr Menschen interessieren sich"
+  ],
+  "promptDe": "Varía la apertura del primer párrafo del texto (MCQ T2). NO uses fórmulas prohibidas arriba. Si no hay apertura obligatoria inyectada, elige UNA distinta de: {{OPENINGS}} — y desarrolla el artículo desde ahí."
+}

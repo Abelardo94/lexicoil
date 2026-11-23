@@ -1,0 +1,522 @@
+{
+  "lang": "de",
+  "level": "C2",
+  "source": "data/exams/de_C2.json",
+  "blueprintId": "goethe-c2",
+  "availabilityStatus": "beta",
+  "exams": [
+    {
+      "examLabel": "data/exams/de_C2.json :: Erkenntnistheorie, Wahrheit und das postfaktische Zeitalter",
+      "id": "Erkenntnistheorie, Wahrheit und das postfaktische Zeitalter",
+      "topic": "Erkenntnistheorie, Wahrheit und das postfaktische Zeitalter",
+      "ok": false,
+      "errorCount": 33,
+      "warningCount": 0,
+      "errors": [
+        "items_total_mismatch:lesen:teil=1,expected=10,received=8",
+        "question_type_not_allowed:lesen:teil=1,id=l1,type=true_false,allowed=multiple_choice",
+        "question_type_not_allowed:lesen:teil=1,id=l2,type=true_false,allowed=multiple_choice",
+        "question_type_not_allowed:lesen:teil=1,id=l3,type=true_false,allowed=multiple_choice",
+        "question_type_not_allowed:lesen:teil=1,id=l4,type=true_false,allowed=multiple_choice",
+        "question_type_not_allowed:lesen:teil=1,id=l5,type=true_false,allowed=multiple_choice",
+        "question_type_not_allowed:lesen:teil=1,id=l6,type=true_false,allowed=multiple_choice",
+        "question_type_not_allowed:lesen:teil=1,id=l7,type=true_false,allowed=multiple_choice",
+        "question_type_not_allowed:lesen:teil=1,id=l8,type=true_false,allowed=multiple_choice",
+        "question_type_not_allowed:lesen:teil=2,id=l9,type=multiple_choice,allowed=matching",
+        "question_type_not_allowed:lesen:teil=2,id=l10,type=multiple_choice,allowed=matching",
+        "question_type_not_allowed:lesen:teil=2,id=l11,type=multiple_choice,allowed=matching",
+        "question_type_not_allowed:lesen:teil=2,id=l12,type=multiple_choice,allowed=matching",
+        "question_type_not_allowed:lesen:teil=2,id=l13,type=multiple_choice,allowed=matching",
+        "question_type_not_allowed:lesen:teil=2,id=l14,type=multiple_choice,allowed=matching",
+        "items_total_mismatch:lesen:teil=4,expected=8,received=6",
+        "question_type_not_allowed:lesen:teil=4,id=l21,type=matching,allowed=gap_fill|multiple_choice",
+        "question_type_not_allowed:lesen:teil=4,id=l22,type=matching,allowed=gap_fill|multiple_choice",
+        "question_type_not_allowed:lesen:teil=4,id=l23,type=matching,allowed=gap_fill|multiple_choice",
+        "question_type_not_allowed:lesen:teil=4,id=l24,type=matching,allowed=gap_fill|multiple_choice",
+        "question_type_not_allowed:lesen:teil=4,id=l25,type=matching,allowed=gap_fill|multiple_choice",
+        "question_type_not_allowed:lesen:teil=4,id=l26,type=matching,allowed=gap_fill|multiple_choice",
+        "items_total_mismatch:horen:teil=1,expected=15,received=8",
+        "items_total_mismatch:horen:teil=3,expected=10,received=5",
+        "question_type_not_allowed:horen:teil=3,id=h9,type=matching,allowed=richtig_falsch",
+        "question_type_not_allowed:horen:teil=3,id=h10,type=matching,allowed=richtig_falsch",
+        "question_type_not_allowed:horen:teil=3,id=h11,type=matching,allowed=richtig_falsch",
+        "question_type_not_allowed:horen:teil=3,id=h12,type=matching,allowed=richtig_falsch",
+        "question_type_not_allowed:horen:teil=3,id=h13,type=matching,allowed=richtig_falsch",
+        "schreiben_min_words:schreiben:teil=1,expected=200,received=80",
+        "schreiben_max_words:schreiben:teil=1,expected=280,received=80",
+        "schreiben_min_words:schreiben:teil=2,expected=200,received=80",
+        "schreiben_max_words:schreiben:teil=2,expected=280,received=80"
+      ],
+      "warnings": [],
+      "details": [
+        {
+          "module": "lesen",
+          "teil": 1,
+          "slotType": "article_mcq",
+          "issues": [
+            "items_total_mismatch:lesen:teil=1,expected=10,received=8",
+            "question_type_not_allowed:lesen:teil=1,id=l1,type=true_false,allowed=multiple_choice",
+            "question_type_not_allowed:lesen:teil=1,id=l2,type=true_false,allowed=multiple_choice",
+            "question_type_not_allowed:lesen:teil=1,id=l3,type=true_false,allowed=multiple_choice",
+            "question_type_not_allowed:lesen:teil=1,id=l4,type=true_false,allowed=multiple_choice",
+            "question_type_not_allowed:lesen:teil=1,id=l5,type=true_false,allowed=multiple_choice",
+            "question_type_not_allowed:lesen:teil=1,id=l6,type=true_false,allowed=multiple_choice",
+            "question_type_not_allowed:lesen:teil=1,id=l7,type=true_false,allowed=multiple_choice",
+            "question_type_not_allowed:lesen:teil=1,id=l8,type=true_false,allowed=multiple_choice"
+          ],
+          "itemsTotal": {
+            "expected": 10,
+            "received": 8
+          }
+        },
+        {
+          "module": "lesen",
+          "teil": 2,
+          "slotType": "sentence_gap_fill",
+          "issues": [
+            "question_type_not_allowed:lesen:teil=2,id=l9,type=multiple_choice,allowed=matching",
+            "question_type_not_allowed:lesen:teil=2,id=l10,type=multiple_choice,allowed=matching",
+            "question_type_not_allowed:lesen:teil=2,id=l11,type=multiple_choice,allowed=matching",
+            "question_type_not_allowed:lesen:teil=2,id=l12,type=multiple_choice,allowed=matching",
+            "question_type_not_allowed:lesen:teil=2,id=l13,type=multiple_choice,allowed=matching",
+            "question_type_not_allowed:lesen:teil=2,id=l14,type=multiple_choice,allowed=matching"
+          ]
+        },
+        {
+          "module": "lesen",
+          "teil": 3,
+          "slotType": "matching",
+          "issues": []
+        },
+        {
+          "module": "lesen",
+          "teil": 4,
+          "slotType": "gap_article",
+          "issues": [
+            "items_total_mismatch:lesen:teil=4,expected=8,received=6",
+            "question_type_not_allowed:lesen:teil=4,id=l21,type=matching,allowed=gap_fill|multiple_choice",
+            "question_type_not_allowed:lesen:teil=4,id=l22,type=matching,allowed=gap_fill|multiple_choice",
+            "question_type_not_allowed:lesen:teil=4,id=l23,type=matching,allowed=gap_fill|multiple_choice",
+            "question_type_not_allowed:lesen:teil=4,id=l24,type=matching,allowed=gap_fill|multiple_choice",
+            "question_type_not_allowed:lesen:teil=4,id=l25,type=matching,allowed=gap_fill|multiple_choice",
+            "question_type_not_allowed:lesen:teil=4,id=l26,type=matching,allowed=gap_fill|multiple_choice"
+          ],
+          "itemsTotal": {
+            "expected": 8,
+            "received": 6
+          }
+        },
+        {
+          "module": "horen",
+          "teil": 1,
+          "slotType": "short_texts_twice",
+          "issues": [
+            "items_total_mismatch:horen:teil=1,expected=15,received=8"
+          ],
+          "itemsTotal": {
+            "expected": 15,
+            "received": 8
+          }
+        },
+        {
+          "module": "horen",
+          "teil": 2,
+          "slotType": "monologue_once",
+          "issues": []
+        },
+        {
+          "module": "horen",
+          "teil": 3,
+          "slotType": "conversation_once",
+          "issues": [
+            "items_total_mismatch:horen:teil=3,expected=10,received=5",
+            "question_type_not_allowed:horen:teil=3,id=h9,type=matching,allowed=richtig_falsch",
+            "question_type_not_allowed:horen:teil=3,id=h10,type=matching,allowed=richtig_falsch",
+            "question_type_not_allowed:horen:teil=3,id=h11,type=matching,allowed=richtig_falsch",
+            "question_type_not_allowed:horen:teil=3,id=h12,type=matching,allowed=richtig_falsch",
+            "question_type_not_allowed:horen:teil=3,id=h13,type=matching,allowed=richtig_falsch"
+          ],
+          "itemsTotal": {
+            "expected": 10,
+            "received": 5
+          }
+        },
+        {
+          "module": "schreiben",
+          "teil": 1,
+          "slotType": "writing_task",
+          "issues": [
+            "schreiben_min_words:schreiben:teil=1,expected=200,received=80",
+            "schreiben_max_words:schreiben:teil=1,expected=280,received=80"
+          ]
+        },
+        {
+          "module": "schreiben",
+          "teil": 2,
+          "slotType": "writing_task",
+          "issues": [
+            "schreiben_min_words:schreiben:teil=2,expected=200,received=80",
+            "schreiben_max_words:schreiben:teil=2,expected=280,received=80"
+          ]
+        },
+        {
+          "module": "sprechen",
+          "teil": 1,
+          "slotType": "speaking_task",
+          "issues": []
+        },
+        {
+          "module": "sprechen",
+          "teil": 2,
+          "slotType": "speaking_task",
+          "issues": []
+        }
+      ]
+    },
+    {
+      "examLabel": "data/exams/de_C2.json :: Macht, Sprache und literarische Form",
+      "id": "Macht, Sprache und literarische Form",
+      "topic": "Macht, Sprache und literarische Form",
+      "ok": false,
+      "errorCount": 34,
+      "warningCount": 0,
+      "errors": [
+        "items_total_mismatch:lesen:teil=1,expected=10,received=8",
+        "question_type_not_allowed:lesen:teil=1,id=l1,type=true_false,allowed=multiple_choice",
+        "question_type_not_allowed:lesen:teil=1,id=l2,type=true_false,allowed=multiple_choice",
+        "question_type_not_allowed:lesen:teil=1,id=l3,type=true_false,allowed=multiple_choice",
+        "question_type_not_allowed:lesen:teil=1,id=l4,type=true_false,allowed=multiple_choice",
+        "question_type_not_allowed:lesen:teil=1,id=l5,type=true_false,allowed=multiple_choice",
+        "question_type_not_allowed:lesen:teil=1,id=l6,type=true_false,allowed=multiple_choice",
+        "question_type_not_allowed:lesen:teil=1,id=l7,type=true_false,allowed=multiple_choice",
+        "question_type_not_allowed:lesen:teil=1,id=l8,type=true_false,allowed=multiple_choice",
+        "question_type_not_allowed:lesen:teil=2,id=l9,type=multiple_choice,allowed=matching",
+        "question_type_not_allowed:lesen:teil=2,id=l10,type=multiple_choice,allowed=matching",
+        "question_type_not_allowed:lesen:teil=2,id=l11,type=multiple_choice,allowed=matching",
+        "question_type_not_allowed:lesen:teil=2,id=l12,type=multiple_choice,allowed=matching",
+        "question_type_not_allowed:lesen:teil=2,id=l13,type=multiple_choice,allowed=matching",
+        "question_type_not_allowed:lesen:teil=2,id=l14,type=multiple_choice,allowed=matching",
+        "items_total_mismatch:lesen:teil=4,expected=8,received=6",
+        "question_type_not_allowed:lesen:teil=4,id=l21,type=matching,allowed=gap_fill|multiple_choice",
+        "question_type_not_allowed:lesen:teil=4,id=l22,type=matching,allowed=gap_fill|multiple_choice",
+        "question_type_not_allowed:lesen:teil=4,id=l23,type=matching,allowed=gap_fill|multiple_choice",
+        "question_type_not_allowed:lesen:teil=4,id=l24,type=matching,allowed=gap_fill|multiple_choice",
+        "question_type_not_allowed:lesen:teil=4,id=l25,type=matching,allowed=gap_fill|multiple_choice",
+        "question_type_not_allowed:lesen:teil=4,id=l26,type=matching,allowed=gap_fill|multiple_choice",
+        "items_total_mismatch:horen:teil=1,expected=15,received=8",
+        "items_total_mismatch:horen:teil=3,expected=10,received=5",
+        "question_type_not_allowed:horen:teil=3,id=h9,type=matching,allowed=richtig_falsch",
+        "question_type_not_allowed:horen:teil=3,id=h10,type=matching,allowed=richtig_falsch",
+        "question_type_not_allowed:horen:teil=3,id=h11,type=matching,allowed=richtig_falsch",
+        "question_type_not_allowed:horen:teil=3,id=h12,type=matching,allowed=richtig_falsch",
+        "question_type_not_allowed:horen:teil=3,id=h13,type=matching,allowed=richtig_falsch",
+        "schreiben_min_words:schreiben:teil=1,expected=200,received=80",
+        "schreiben_max_words:schreiben:teil=1,expected=280,received=80",
+        "schreiben_min_words:schreiben:teil=2,expected=200,received=80",
+        "schreiben_max_words:schreiben:teil=2,expected=280,received=80",
+        "lesenParts[3].questions[0]: match_invalid_reference"
+      ],
+      "warnings": [],
+      "details": [
+        {
+          "module": "lesen",
+          "teil": 1,
+          "slotType": "article_mcq",
+          "issues": [
+            "items_total_mismatch:lesen:teil=1,expected=10,received=8",
+            "question_type_not_allowed:lesen:teil=1,id=l1,type=true_false,allowed=multiple_choice",
+            "question_type_not_allowed:lesen:teil=1,id=l2,type=true_false,allowed=multiple_choice",
+            "question_type_not_allowed:lesen:teil=1,id=l3,type=true_false,allowed=multiple_choice",
+            "question_type_not_allowed:lesen:teil=1,id=l4,type=true_false,allowed=multiple_choice",
+            "question_type_not_allowed:lesen:teil=1,id=l5,type=true_false,allowed=multiple_choice",
+            "question_type_not_allowed:lesen:teil=1,id=l6,type=true_false,allowed=multiple_choice",
+            "question_type_not_allowed:lesen:teil=1,id=l7,type=true_false,allowed=multiple_choice",
+            "question_type_not_allowed:lesen:teil=1,id=l8,type=true_false,allowed=multiple_choice"
+          ],
+          "itemsTotal": {
+            "expected": 10,
+            "received": 8
+          }
+        },
+        {
+          "module": "lesen",
+          "teil": 2,
+          "slotType": "sentence_gap_fill",
+          "issues": [
+            "question_type_not_allowed:lesen:teil=2,id=l9,type=multiple_choice,allowed=matching",
+            "question_type_not_allowed:lesen:teil=2,id=l10,type=multiple_choice,allowed=matching",
+            "question_type_not_allowed:lesen:teil=2,id=l11,type=multiple_choice,allowed=matching",
+            "question_type_not_allowed:lesen:teil=2,id=l12,type=multiple_choice,allowed=matching",
+            "question_type_not_allowed:lesen:teil=2,id=l13,type=multiple_choice,allowed=matching",
+            "question_type_not_allowed:lesen:teil=2,id=l14,type=multiple_choice,allowed=matching"
+          ]
+        },
+        {
+          "module": "lesen",
+          "teil": 3,
+          "slotType": "matching",
+          "issues": []
+        },
+        {
+          "module": "lesen",
+          "teil": 4,
+          "slotType": "gap_article",
+          "issues": [
+            "items_total_mismatch:lesen:teil=4,expected=8,received=6",
+            "question_type_not_allowed:lesen:teil=4,id=l21,type=matching,allowed=gap_fill|multiple_choice",
+            "question_type_not_allowed:lesen:teil=4,id=l22,type=matching,allowed=gap_fill|multiple_choice",
+            "question_type_not_allowed:lesen:teil=4,id=l23,type=matching,allowed=gap_fill|multiple_choice",
+            "question_type_not_allowed:lesen:teil=4,id=l24,type=matching,allowed=gap_fill|multiple_choice",
+            "question_type_not_allowed:lesen:teil=4,id=l25,type=matching,allowed=gap_fill|multiple_choice",
+            "question_type_not_allowed:lesen:teil=4,id=l26,type=matching,allowed=gap_fill|multiple_choice"
+          ],
+          "itemsTotal": {
+            "expected": 8,
+            "received": 6
+          }
+        },
+        {
+          "module": "horen",
+          "teil": 1,
+          "slotType": "short_texts_twice",
+          "issues": [
+            "items_total_mismatch:horen:teil=1,expected=15,received=8"
+          ],
+          "itemsTotal": {
+            "expected": 15,
+            "received": 8
+          }
+        },
+        {
+          "module": "horen",
+          "teil": 2,
+          "slotType": "monologue_once",
+          "issues": []
+        },
+        {
+          "module": "horen",
+          "teil": 3,
+          "slotType": "conversation_once",
+          "issues": [
+            "items_total_mismatch:horen:teil=3,expected=10,received=5",
+            "question_type_not_allowed:horen:teil=3,id=h9,type=matching,allowed=richtig_falsch",
+            "question_type_not_allowed:horen:teil=3,id=h10,type=matching,allowed=richtig_falsch",
+            "question_type_not_allowed:horen:teil=3,id=h11,type=matching,allowed=richtig_falsch",
+            "question_type_not_allowed:horen:teil=3,id=h12,type=matching,allowed=richtig_falsch",
+            "question_type_not_allowed:horen:teil=3,id=h13,type=matching,allowed=richtig_falsch"
+          ],
+          "itemsTotal": {
+            "expected": 10,
+            "received": 5
+          }
+        },
+        {
+          "module": "schreiben",
+          "teil": 1,
+          "slotType": "writing_task",
+          "issues": [
+            "schreiben_min_words:schreiben:teil=1,expected=200,received=80",
+            "schreiben_max_words:schreiben:teil=1,expected=280,received=80"
+          ]
+        },
+        {
+          "module": "schreiben",
+          "teil": 2,
+          "slotType": "writing_task",
+          "issues": [
+            "schreiben_min_words:schreiben:teil=2,expected=200,received=80",
+            "schreiben_max_words:schreiben:teil=2,expected=280,received=80"
+          ]
+        },
+        {
+          "module": "sprechen",
+          "teil": 1,
+          "slotType": "speaking_task",
+          "issues": []
+        },
+        {
+          "module": "sprechen",
+          "teil": 2,
+          "slotType": "speaking_task",
+          "issues": []
+        }
+      ]
+    },
+    {
+      "examLabel": "data/exams/de_C2.json :: Wirtschaftsethik, Globalisierung und soziale Gerechtigkeit",
+      "id": "Wirtschaftsethik, Globalisierung und soziale Gerechtigkeit",
+      "topic": "Wirtschaftsethik, Globalisierung und soziale Gerechtigkeit",
+      "ok": false,
+      "errorCount": 35,
+      "warningCount": 0,
+      "errors": [
+        "items_total_mismatch:lesen:teil=1,expected=10,received=8",
+        "question_type_not_allowed:lesen:teil=1,id=l1,type=true_false,allowed=multiple_choice",
+        "question_type_not_allowed:lesen:teil=1,id=l2,type=true_false,allowed=multiple_choice",
+        "question_type_not_allowed:lesen:teil=1,id=l3,type=true_false,allowed=multiple_choice",
+        "question_type_not_allowed:lesen:teil=1,id=l4,type=true_false,allowed=multiple_choice",
+        "question_type_not_allowed:lesen:teil=1,id=l5,type=true_false,allowed=multiple_choice",
+        "question_type_not_allowed:lesen:teil=1,id=l6,type=true_false,allowed=multiple_choice",
+        "question_type_not_allowed:lesen:teil=1,id=l7,type=true_false,allowed=multiple_choice",
+        "question_type_not_allowed:lesen:teil=1,id=l8,type=true_false,allowed=multiple_choice",
+        "question_type_not_allowed:lesen:teil=2,id=l9,type=multiple_choice,allowed=matching",
+        "question_type_not_allowed:lesen:teil=2,id=l10,type=multiple_choice,allowed=matching",
+        "question_type_not_allowed:lesen:teil=2,id=l11,type=multiple_choice,allowed=matching",
+        "question_type_not_allowed:lesen:teil=2,id=l12,type=multiple_choice,allowed=matching",
+        "question_type_not_allowed:lesen:teil=2,id=l13,type=multiple_choice,allowed=matching",
+        "question_type_not_allowed:lesen:teil=2,id=l14,type=multiple_choice,allowed=matching",
+        "items_total_mismatch:lesen:teil=4,expected=8,received=6",
+        "question_type_not_allowed:lesen:teil=4,id=l21,type=matching,allowed=gap_fill|multiple_choice",
+        "question_type_not_allowed:lesen:teil=4,id=l22,type=matching,allowed=gap_fill|multiple_choice",
+        "question_type_not_allowed:lesen:teil=4,id=l23,type=matching,allowed=gap_fill|multiple_choice",
+        "question_type_not_allowed:lesen:teil=4,id=l24,type=matching,allowed=gap_fill|multiple_choice",
+        "question_type_not_allowed:lesen:teil=4,id=l25,type=matching,allowed=gap_fill|multiple_choice",
+        "question_type_not_allowed:lesen:teil=4,id=l26,type=matching,allowed=gap_fill|multiple_choice",
+        "items_total_mismatch:horen:teil=1,expected=15,received=8",
+        "items_total_mismatch:horen:teil=3,expected=10,received=5",
+        "question_type_not_allowed:horen:teil=3,id=h9,type=matching,allowed=richtig_falsch",
+        "question_type_not_allowed:horen:teil=3,id=h10,type=matching,allowed=richtig_falsch",
+        "question_type_not_allowed:horen:teil=3,id=h11,type=matching,allowed=richtig_falsch",
+        "question_type_not_allowed:horen:teil=3,id=h12,type=matching,allowed=richtig_falsch",
+        "question_type_not_allowed:horen:teil=3,id=h13,type=matching,allowed=richtig_falsch",
+        "schreiben_min_words:schreiben:teil=1,expected=200,received=80",
+        "schreiben_max_words:schreiben:teil=1,expected=280,received=80",
+        "schreiben_min_words:schreiben:teil=2,expected=200,received=80",
+        "schreiben_max_words:schreiben:teil=2,expected=280,received=80",
+        "lesenParts[3].questions[0]: match_invalid_reference",
+        "lesenParts[3].questions[5]: match_invalid_reference"
+      ],
+      "warnings": [],
+      "details": [
+        {
+          "module": "lesen",
+          "teil": 1,
+          "slotType": "article_mcq",
+          "issues": [
+            "items_total_mismatch:lesen:teil=1,expected=10,received=8",
+            "question_type_not_allowed:lesen:teil=1,id=l1,type=true_false,allowed=multiple_choice",
+            "question_type_not_allowed:lesen:teil=1,id=l2,type=true_false,allowed=multiple_choice",
+            "question_type_not_allowed:lesen:teil=1,id=l3,type=true_false,allowed=multiple_choice",
+            "question_type_not_allowed:lesen:teil=1,id=l4,type=true_false,allowed=multiple_choice",
+            "question_type_not_allowed:lesen:teil=1,id=l5,type=true_false,allowed=multiple_choice",
+            "question_type_not_allowed:lesen:teil=1,id=l6,type=true_false,allowed=multiple_choice",
+            "question_type_not_allowed:lesen:teil=1,id=l7,type=true_false,allowed=multiple_choice",
+            "question_type_not_allowed:lesen:teil=1,id=l8,type=true_false,allowed=multiple_choice"
+          ],
+          "itemsTotal": {
+            "expected": 10,
+            "received": 8
+          }
+        },
+        {
+          "module": "lesen",
+          "teil": 2,
+          "slotType": "sentence_gap_fill",
+          "issues": [
+            "question_type_not_allowed:lesen:teil=2,id=l9,type=multiple_choice,allowed=matching",
+            "question_type_not_allowed:lesen:teil=2,id=l10,type=multiple_choice,allowed=matching",
+            "question_type_not_allowed:lesen:teil=2,id=l11,type=multiple_choice,allowed=matching",
+            "question_type_not_allowed:lesen:teil=2,id=l12,type=multiple_choice,allowed=matching",
+            "question_type_not_allowed:lesen:teil=2,id=l13,type=multiple_choice,allowed=matching",
+            "question_type_not_allowed:lesen:teil=2,id=l14,type=multiple_choice,allowed=matching"
+          ]
+        },
+        {
+          "module": "lesen",
+          "teil": 3,
+          "slotType": "matching",
+          "issues": []
+        },
+        {
+          "module": "lesen",
+          "teil": 4,
+          "slotType": "gap_article",
+          "issues": [
+            "items_total_mismatch:lesen:teil=4,expected=8,received=6",
+            "question_type_not_allowed:lesen:teil=4,id=l21,type=matching,allowed=gap_fill|multiple_choice",
+            "question_type_not_allowed:lesen:teil=4,id=l22,type=matching,allowed=gap_fill|multiple_choice",
+            "question_type_not_allowed:lesen:teil=4,id=l23,type=matching,allowed=gap_fill|multiple_choice",
+            "question_type_not_allowed:lesen:teil=4,id=l24,type=matching,allowed=gap_fill|multiple_choice",
+            "question_type_not_allowed:lesen:teil=4,id=l25,type=matching,allowed=gap_fill|multiple_choice",
+            "question_type_not_allowed:lesen:teil=4,id=l26,type=matching,allowed=gap_fill|multiple_choice"
+          ],
+          "itemsTotal": {
+            "expected": 8,
+            "received": 6
+          }
+        },
+        {
+          "module": "horen",
+          "teil": 1,
+          "slotType": "short_texts_twice",
+          "issues": [
+            "items_total_mismatch:horen:teil=1,expected=15,received=8"
+          ],
+          "itemsTotal": {
+            "expected": 15,
+            "received": 8
+          }
+        },
+        {
+          "module": "horen",
+          "teil": 2,
+          "slotType": "monologue_once",
+          "issues": []
+        },
+        {
+          "module": "horen",
+          "teil": 3,
+          "slotType": "conversation_once",
+          "issues": [
+            "items_total_mismatch:horen:teil=3,expected=10,received=5",
+            "question_type_not_allowed:horen:teil=3,id=h9,type=matching,allowed=richtig_falsch",
+            "question_type_not_allowed:horen:teil=3,id=h10,type=matching,allowed=richtig_falsch",
+            "question_type_not_allowed:horen:teil=3,id=h11,type=matching,allowed=richtig_falsch",
+            "question_type_not_allowed:horen:teil=3,id=h12,type=matching,allowed=richtig_falsch",
+            "question_type_not_allowed:horen:teil=3,id=h13,type=matching,allowed=richtig_falsch"
+          ],
+          "itemsTotal": {
+            "expected": 10,
+            "received": 5
+          }
+        },
+        {
+          "module": "schreiben",
+          "teil": 1,
+          "slotType": "writing_task",
+          "issues": [
+            "schreiben_min_words:schreiben:teil=1,expected=200,received=80",
+            "schreiben_max_words:schreiben:teil=1,expected=280,received=80"
+          ]
+        },
+        {
+          "module": "schreiben",
+          "teil": 2,
+          "slotType": "writing_task",
+          "issues": [
+            "schreiben_min_words:schreiben:teil=2,expected=200,received=80",
+            "schreiben_max_words:schreiben:teil=2,expected=280,received=80"
+          ]
+        },
+        {
+          "module": "sprechen",
+          "teil": 1,
+          "slotType": "speaking_task",
+          "issues": []
+        },
+        {
+          "module": "sprechen",
+          "teil": 2,
+          "slotType": "speaking_task",
+          "issues": []
+        }
+      ]
+    }
+  ],
+  "passageDedupe": {
+    "ok": true,
+    "threshold": 0.85,
+    "passageCount": 24,
+    "violations": []
+  }
+}

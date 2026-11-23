@@ -1,0 +1,50 @@
+;;
+;; Domain:     lexicoil.com.
+;; Exported:   2026-09-21 20:07:10
+;;
+;; This file is intended for use for informational and archival
+;; purposes ONLY and MUST be edited before use on a production
+;; DNS server.  In particular, you must:
+;;   -- update the SOA record with the correct authoritative name server
+;;   -- update the SOA record with the contact e-mail address information
+;;   -- update the NS record(s) with the authoritative name servers for this domain.
+;;
+;; For further information, please consult the BIND documentation
+;; located on the following website:
+;;
+;; http://www.isc.org/
+;;
+;; And RFC 1035:
+;;
+;; http://www.ietf.org/rfc/rfc1035.txt
+;;
+;; Please note that we do NOT offer technical support for any use
+;; of this zone data, the BIND name server, or any other third-party
+;; DNS software.
+;;
+;; Use at your own risk.
+;; SOA Record
+lexicoil.com	3600	IN	SOA	dan.ns.cloudflare.com. dns.cloudflare.com. 2054168783 10000 2400 604800 3600
+
+;; NS Records
+lexicoil.com.	86400	IN	NS	dan.ns.cloudflare.com.
+lexicoil.com.	86400	IN	NS	nora.ns.cloudflare.com.
+
+;; CNAME Records
+lexicoil.com.	1	IN	CNAME	lexicoil.netlify.app. ; cf_tags=cf-proxied:true
+pagos.lexicoil.com.	1	IN	CNAME	hosted-checkout.stripecdn.com. ; cf_tags=cf-proxied:false
+www.lexicoil.com.	1	IN	CNAME	lexicoil.netlify.app. ; cf_tags=cf-proxied:true
+
+;; MX Records
+lexicoil.com.	1	IN	MX	5 route3.mx.cloudflare.net.
+lexicoil.com.	1	IN	MX	73 route2.mx.cloudflare.net.
+lexicoil.com.	1	IN	MX	56 route1.mx.cloudflare.net.
+send.lexicoil.com.	3600	IN	MX	10 feedback-smtp.eu-west-1.amazonses.com.
+
+;; TXT Records
+_acme-challenge.pagos.lexicoil.com.	1	IN	TXT	"V7EdtPEKz5XMo-QGW5AhZiXuYicx88uon8drXj6841U"
+cf2024-1._domainkey.lexicoil.com.	1	IN	TXT	"v=DKIM1; h=sha256; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAiweykoi+o48IOGuP7GR3X0MOExCUDY/BCRHoWBnh3rChl7WhdyCxW3jgq1daEjPPqoi7sJvdg5hEQVsgVRQP4DcnQDVjGMbASQtrY4WmB1VebF+RPJB2ECPsEDTpeiI5ZyUAwJaVX7r6bznU67g7LvFq35yIo4sdlmtZGV+i0H4cpYH9+3JJ78k" "m4KXwaf9xUJCWF6nxeD+qG6Fyruw1Qlbds2r85U9dkNDVAS3gioCvELryh1TxKGiVTkg4wqHTyHfWsp7KD3WQHYJn0RyfJJu6YEmL77zonn7p2SRMvTMP3ZEXibnC9gz3nnhR6wcYL8Q7zXypKTMD58bTixDSJwIDAQAB"
+lexicoil.com.	3600	IN	TXT	"google-site-verification=O9qahWkP5hEtAmQybpF_yTTh9SbCjBybSpPSq0BhXgI"
+lexicoil.com.	1	IN	TXT	"v=spf1 include:_spf.mx.cloudflare.net ~all"
+resend._domainkey.lexicoil.com.	3600	IN	TXT	"p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC6zYAXFum0WIAmeTEJUlncCXUT8rKHNTUjbga9mcRoGZ5VzSYpS2BeWR3l9YFSZ5B2jRp54Jw/m21dijIYz+KgmsfLRk6YliELHZ9N0siU7PEKoslhPzww/zZw2hZC1hQ9n92vRyKzKzUCF7KhOihFWvxlYVx+LbN9RE8x8e3xnQIDAQAB"
+send.lexicoil.com.	3600	IN	TXT	"v=spf1 include:amazonses.com ~all"

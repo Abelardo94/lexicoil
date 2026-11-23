@@ -1,0 +1,384 @@
+{
+  "lang": "de",
+  "level": "A1",
+  "source": "data/exams/de_A1.json",
+  "blueprintId": "goethe-a1",
+  "availabilityStatus": "beta",
+  "exams": [
+    {
+      "examLabel": "data/exams/de_A1.json :: Familie und Alltag",
+      "id": "Familie und Alltag",
+      "topic": "Familie und Alltag",
+      "ok": false,
+      "errorCount": 24,
+      "warningCount": 1,
+      "errors": [
+        "question_type_not_allowed:lesen:teil=1,id=lesenParts[0].items[0],type=,allowed=multiple_choice",
+        "question_type_not_allowed:lesen:teil=1,id=lesenParts[0].items[1],type=,allowed=multiple_choice",
+        "question_type_not_allowed:lesen:teil=1,id=lesenParts[0].items[2],type=,allowed=multiple_choice",
+        "question_type_not_allowed:lesen:teil=1,id=lesenParts[0].items[3],type=,allowed=multiple_choice",
+        "question_type_not_allowed:lesen:teil=1,id=lesenParts[0].items[4],type=,allowed=multiple_choice",
+        "question_type_not_allowed:lesen:teil=2,id=l6,type=true_false,allowed=multiple_choice",
+        "question_type_not_allowed:lesen:teil=2,id=l7,type=true_false,allowed=multiple_choice",
+        "question_type_not_allowed:lesen:teil=2,id=l8,type=true_false,allowed=multiple_choice",
+        "question_type_not_allowed:lesen:teil=2,id=l9,type=true_false,allowed=multiple_choice",
+        "question_type_not_allowed:lesen:teil=2,id=l10,type=true_false,allowed=multiple_choice",
+        "question_type_not_allowed:horen:teil=2,id=h6,type=true_false,allowed=matching",
+        "question_type_not_allowed:horen:teil=2,id=h7,type=true_false,allowed=matching",
+        "question_type_not_allowed:horen:teil=2,id=h8,type=true_false,allowed=matching",
+        "question_type_not_allowed:horen:teil=2,id=h9,type=true_false,allowed=matching",
+        "question_type_not_allowed:horen:teil=2,id=h10,type=true_false,allowed=matching",
+        "answer_key_not_unique:horen:teil=2,key=FALSCH,first=h6,duplicate=h8",
+        "answer_key_not_unique:horen:teil=2,key=RICHTIG,first=h7,duplicate=h9",
+        "answer_key_not_unique:horen:teil=2,key=FALSCH,first=h6,duplicate=h10",
+        "picture_count_mismatch:horen:teil=2,expected=9,received=0",
+        "picture_keys_mismatch:horen:teil=2,expected=abcdefghi,received=",
+        "schreiben_min_words:schreiben:teil=1,expected=20,received=80",
+        "schreiben_max_words:schreiben:teil=1,expected=40,received=80",
+        "schreiben_min_words:schreiben:teil=2,expected=30,received=80",
+        "schreiben_max_words:schreiben:teil=2,expected=50,received=80"
+      ],
+      "warnings": [
+        "passages_per_part_mismatch:horen:teil=1,expected=5,received=1"
+      ],
+      "details": [
+        {
+          "module": "lesen",
+          "teil": 1,
+          "slotType": "press_mcq",
+          "issues": [
+            "question_type_not_allowed:lesen:teil=1,id=lesenParts[0].items[0],type=,allowed=multiple_choice",
+            "question_type_not_allowed:lesen:teil=1,id=lesenParts[0].items[1],type=,allowed=multiple_choice",
+            "question_type_not_allowed:lesen:teil=1,id=lesenParts[0].items[2],type=,allowed=multiple_choice",
+            "question_type_not_allowed:lesen:teil=1,id=lesenParts[0].items[3],type=,allowed=multiple_choice",
+            "question_type_not_allowed:lesen:teil=1,id=lesenParts[0].items[4],type=,allowed=multiple_choice"
+          ]
+        },
+        {
+          "module": "lesen",
+          "teil": 2,
+          "slotType": "info_board_mcq",
+          "issues": [
+            "question_type_not_allowed:lesen:teil=2,id=l6,type=true_false,allowed=multiple_choice",
+            "question_type_not_allowed:lesen:teil=2,id=l7,type=true_false,allowed=multiple_choice",
+            "question_type_not_allowed:lesen:teil=2,id=l8,type=true_false,allowed=multiple_choice",
+            "question_type_not_allowed:lesen:teil=2,id=l9,type=true_false,allowed=multiple_choice",
+            "question_type_not_allowed:lesen:teil=2,id=l10,type=true_false,allowed=multiple_choice"
+          ]
+        },
+        {
+          "module": "horen",
+          "teil": 1,
+          "slotType": "short_texts_twice",
+          "issues": [],
+          "warnings": [
+            "passages_per_part_mismatch:horen:teil=1,expected=5,received=1"
+          ],
+          "passagesPerPart": {
+            "expected": 5,
+            "received": 1
+          }
+        },
+        {
+          "module": "horen",
+          "teil": 2,
+          "slotType": "picture_matching",
+          "issues": [
+            "question_type_not_allowed:horen:teil=2,id=h6,type=true_false,allowed=matching",
+            "question_type_not_allowed:horen:teil=2,id=h7,type=true_false,allowed=matching",
+            "question_type_not_allowed:horen:teil=2,id=h8,type=true_false,allowed=matching",
+            "question_type_not_allowed:horen:teil=2,id=h9,type=true_false,allowed=matching",
+            "question_type_not_allowed:horen:teil=2,id=h10,type=true_false,allowed=matching",
+            "answer_key_not_unique:horen:teil=2,key=FALSCH,first=h6,duplicate=h8",
+            "answer_key_not_unique:horen:teil=2,key=RICHTIG,first=h7,duplicate=h9",
+            "answer_key_not_unique:horen:teil=2,key=FALSCH,first=h6,duplicate=h10",
+            "picture_count_mismatch:horen:teil=2,expected=9,received=0",
+            "picture_keys_mismatch:horen:teil=2,expected=abcdefghi,received="
+          ]
+        },
+        {
+          "module": "schreiben",
+          "teil": 1,
+          "slotType": "writing_task",
+          "issues": [
+            "schreiben_min_words:schreiben:teil=1,expected=20,received=80",
+            "schreiben_max_words:schreiben:teil=1,expected=40,received=80"
+          ]
+        },
+        {
+          "module": "schreiben",
+          "teil": 2,
+          "slotType": "writing_task",
+          "issues": [
+            "schreiben_min_words:schreiben:teil=2,expected=30,received=80",
+            "schreiben_max_words:schreiben:teil=2,expected=50,received=80"
+          ]
+        },
+        {
+          "module": "sprechen",
+          "teil": 1,
+          "slotType": "speaking_task",
+          "issues": []
+        },
+        {
+          "module": "sprechen",
+          "teil": 2,
+          "slotType": "speaking_task",
+          "issues": []
+        }
+      ]
+    },
+    {
+      "examLabel": "data/exams/de_A1.json :: Wohnen und Freizeit",
+      "id": "Wohnen und Freizeit",
+      "topic": "Wohnen und Freizeit",
+      "ok": false,
+      "errorCount": 24,
+      "warningCount": 1,
+      "errors": [
+        "question_type_not_allowed:lesen:teil=1,id=lesenParts[0].items[0],type=,allowed=multiple_choice",
+        "question_type_not_allowed:lesen:teil=1,id=lesenParts[0].items[1],type=,allowed=multiple_choice",
+        "question_type_not_allowed:lesen:teil=1,id=lesenParts[0].items[2],type=,allowed=multiple_choice",
+        "question_type_not_allowed:lesen:teil=1,id=lesenParts[0].items[3],type=,allowed=multiple_choice",
+        "question_type_not_allowed:lesen:teil=1,id=lesenParts[0].items[4],type=,allowed=multiple_choice",
+        "question_type_not_allowed:lesen:teil=2,id=l6,type=true_false,allowed=multiple_choice",
+        "question_type_not_allowed:lesen:teil=2,id=l7,type=true_false,allowed=multiple_choice",
+        "question_type_not_allowed:lesen:teil=2,id=l8,type=true_false,allowed=multiple_choice",
+        "question_type_not_allowed:lesen:teil=2,id=l9,type=true_false,allowed=multiple_choice",
+        "question_type_not_allowed:lesen:teil=2,id=l10,type=true_false,allowed=multiple_choice",
+        "question_type_not_allowed:horen:teil=2,id=h6,type=true_false,allowed=matching",
+        "question_type_not_allowed:horen:teil=2,id=h7,type=true_false,allowed=matching",
+        "question_type_not_allowed:horen:teil=2,id=h8,type=true_false,allowed=matching",
+        "question_type_not_allowed:horen:teil=2,id=h9,type=true_false,allowed=matching",
+        "question_type_not_allowed:horen:teil=2,id=h10,type=true_false,allowed=matching",
+        "answer_key_not_unique:horen:teil=2,key=RICHTIG,first=h7,duplicate=h8",
+        "answer_key_not_unique:horen:teil=2,key=FALSCH,first=h6,duplicate=h9",
+        "answer_key_not_unique:horen:teil=2,key=RICHTIG,first=h7,duplicate=h10",
+        "picture_count_mismatch:horen:teil=2,expected=9,received=0",
+        "picture_keys_mismatch:horen:teil=2,expected=abcdefghi,received=",
+        "schreiben_min_words:schreiben:teil=1,expected=20,received=80",
+        "schreiben_max_words:schreiben:teil=1,expected=40,received=80",
+        "schreiben_min_words:schreiben:teil=2,expected=30,received=80",
+        "schreiben_max_words:schreiben:teil=2,expected=50,received=80"
+      ],
+      "warnings": [
+        "passages_per_part_mismatch:horen:teil=1,expected=5,received=1"
+      ],
+      "details": [
+        {
+          "module": "lesen",
+          "teil": 1,
+          "slotType": "press_mcq",
+          "issues": [
+            "question_type_not_allowed:lesen:teil=1,id=lesenParts[0].items[0],type=,allowed=multiple_choice",
+            "question_type_not_allowed:lesen:teil=1,id=lesenParts[0].items[1],type=,allowed=multiple_choice",
+            "question_type_not_allowed:lesen:teil=1,id=lesenParts[0].items[2],type=,allowed=multiple_choice",
+            "question_type_not_allowed:lesen:teil=1,id=lesenParts[0].items[3],type=,allowed=multiple_choice",
+            "question_type_not_allowed:lesen:teil=1,id=lesenParts[0].items[4],type=,allowed=multiple_choice"
+          ]
+        },
+        {
+          "module": "lesen",
+          "teil": 2,
+          "slotType": "info_board_mcq",
+          "issues": [
+            "question_type_not_allowed:lesen:teil=2,id=l6,type=true_false,allowed=multiple_choice",
+            "question_type_not_allowed:lesen:teil=2,id=l7,type=true_false,allowed=multiple_choice",
+            "question_type_not_allowed:lesen:teil=2,id=l8,type=true_false,allowed=multiple_choice",
+            "question_type_not_allowed:lesen:teil=2,id=l9,type=true_false,allowed=multiple_choice",
+            "question_type_not_allowed:lesen:teil=2,id=l10,type=true_false,allowed=multiple_choice"
+          ]
+        },
+        {
+          "module": "horen",
+          "teil": 1,
+          "slotType": "short_texts_twice",
+          "issues": [],
+          "warnings": [
+            "passages_per_part_mismatch:horen:teil=1,expected=5,received=1"
+          ],
+          "passagesPerPart": {
+            "expected": 5,
+            "received": 1
+          }
+        },
+        {
+          "module": "horen",
+          "teil": 2,
+          "slotType": "picture_matching",
+          "issues": [
+            "question_type_not_allowed:horen:teil=2,id=h6,type=true_false,allowed=matching",
+            "question_type_not_allowed:horen:teil=2,id=h7,type=true_false,allowed=matching",
+            "question_type_not_allowed:horen:teil=2,id=h8,type=true_false,allowed=matching",
+            "question_type_not_allowed:horen:teil=2,id=h9,type=true_false,allowed=matching",
+            "question_type_not_allowed:horen:teil=2,id=h10,type=true_false,allowed=matching",
+            "answer_key_not_unique:horen:teil=2,key=RICHTIG,first=h7,duplicate=h8",
+            "answer_key_not_unique:horen:teil=2,key=FALSCH,first=h6,duplicate=h9",
+            "answer_key_not_unique:horen:teil=2,key=RICHTIG,first=h7,duplicate=h10",
+            "picture_count_mismatch:horen:teil=2,expected=9,received=0",
+            "picture_keys_mismatch:horen:teil=2,expected=abcdefghi,received="
+          ]
+        },
+        {
+          "module": "schreiben",
+          "teil": 1,
+          "slotType": "writing_task",
+          "issues": [
+            "schreiben_min_words:schreiben:teil=1,expected=20,received=80",
+            "schreiben_max_words:schreiben:teil=1,expected=40,received=80"
+          ]
+        },
+        {
+          "module": "schreiben",
+          "teil": 2,
+          "slotType": "writing_task",
+          "issues": [
+            "schreiben_min_words:schreiben:teil=2,expected=30,received=80",
+            "schreiben_max_words:schreiben:teil=2,expected=50,received=80"
+          ]
+        },
+        {
+          "module": "sprechen",
+          "teil": 1,
+          "slotType": "speaking_task",
+          "issues": []
+        },
+        {
+          "module": "sprechen",
+          "teil": 2,
+          "slotType": "speaking_task",
+          "issues": []
+        }
+      ]
+    },
+    {
+      "examLabel": "data/exams/de_A1.json :: Arbeit und Gesundheit",
+      "id": "Arbeit und Gesundheit",
+      "topic": "Arbeit und Gesundheit",
+      "ok": false,
+      "errorCount": 24,
+      "warningCount": 1,
+      "errors": [
+        "question_type_not_allowed:lesen:teil=1,id=lesenParts[0].items[0],type=,allowed=multiple_choice",
+        "question_type_not_allowed:lesen:teil=1,id=lesenParts[0].items[1],type=,allowed=multiple_choice",
+        "question_type_not_allowed:lesen:teil=1,id=lesenParts[0].items[2],type=,allowed=multiple_choice",
+        "question_type_not_allowed:lesen:teil=1,id=lesenParts[0].items[3],type=,allowed=multiple_choice",
+        "question_type_not_allowed:lesen:teil=1,id=lesenParts[0].items[4],type=,allowed=multiple_choice",
+        "question_type_not_allowed:lesen:teil=2,id=l6,type=true_false,allowed=multiple_choice",
+        "question_type_not_allowed:lesen:teil=2,id=l7,type=true_false,allowed=multiple_choice",
+        "question_type_not_allowed:lesen:teil=2,id=l8,type=true_false,allowed=multiple_choice",
+        "question_type_not_allowed:lesen:teil=2,id=l9,type=true_false,allowed=multiple_choice",
+        "question_type_not_allowed:lesen:teil=2,id=l10,type=true_false,allowed=multiple_choice",
+        "question_type_not_allowed:horen:teil=2,id=h6,type=true_false,allowed=matching",
+        "question_type_not_allowed:horen:teil=2,id=h7,type=true_false,allowed=matching",
+        "question_type_not_allowed:horen:teil=2,id=h8,type=true_false,allowed=matching",
+        "question_type_not_allowed:horen:teil=2,id=h9,type=true_false,allowed=matching",
+        "question_type_not_allowed:horen:teil=2,id=h10,type=true_false,allowed=matching",
+        "answer_key_not_unique:horen:teil=2,key=RICHTIG,first=h7,duplicate=h8",
+        "answer_key_not_unique:horen:teil=2,key=FALSCH,first=h6,duplicate=h9",
+        "answer_key_not_unique:horen:teil=2,key=RICHTIG,first=h7,duplicate=h10",
+        "picture_count_mismatch:horen:teil=2,expected=9,received=0",
+        "picture_keys_mismatch:horen:teil=2,expected=abcdefghi,received=",
+        "schreiben_min_words:schreiben:teil=1,expected=20,received=80",
+        "schreiben_max_words:schreiben:teil=1,expected=40,received=80",
+        "schreiben_min_words:schreiben:teil=2,expected=30,received=80",
+        "schreiben_max_words:schreiben:teil=2,expected=50,received=80"
+      ],
+      "warnings": [
+        "passages_per_part_mismatch:horen:teil=1,expected=5,received=1"
+      ],
+      "details": [
+        {
+          "module": "lesen",
+          "teil": 1,
+          "slotType": "press_mcq",
+          "issues": [
+            "question_type_not_allowed:lesen:teil=1,id=lesenParts[0].items[0],type=,allowed=multiple_choice",
+            "question_type_not_allowed:lesen:teil=1,id=lesenParts[0].items[1],type=,allowed=multiple_choice",
+            "question_type_not_allowed:lesen:teil=1,id=lesenParts[0].items[2],type=,allowed=multiple_choice",
+            "question_type_not_allowed:lesen:teil=1,id=lesenParts[0].items[3],type=,allowed=multiple_choice",
+            "question_type_not_allowed:lesen:teil=1,id=lesenParts[0].items[4],type=,allowed=multiple_choice"
+          ]
+        },
+        {
+          "module": "lesen",
+          "teil": 2,
+          "slotType": "info_board_mcq",
+          "issues": [
+            "question_type_not_allowed:lesen:teil=2,id=l6,type=true_false,allowed=multiple_choice",
+            "question_type_not_allowed:lesen:teil=2,id=l7,type=true_false,allowed=multiple_choice",
+            "question_type_not_allowed:lesen:teil=2,id=l8,type=true_false,allowed=multiple_choice",
+            "question_type_not_allowed:lesen:teil=2,id=l9,type=true_false,allowed=multiple_choice",
+            "question_type_not_allowed:lesen:teil=2,id=l10,type=true_false,allowed=multiple_choice"
+          ]
+        },
+        {
+          "module": "horen",
+          "teil": 1,
+          "slotType": "short_texts_twice",
+          "issues": [],
+          "warnings": [
+            "passages_per_part_mismatch:horen:teil=1,expected=5,received=1"
+          ],
+          "passagesPerPart": {
+            "expected": 5,
+            "received": 1
+          }
+        },
+        {
+          "module": "horen",
+          "teil": 2,
+          "slotType": "picture_matching",
+          "issues": [
+            "question_type_not_allowed:horen:teil=2,id=h6,type=true_false,allowed=matching",
+            "question_type_not_allowed:horen:teil=2,id=h7,type=true_false,allowed=matching",
+            "question_type_not_allowed:horen:teil=2,id=h8,type=true_false,allowed=matching",
+            "question_type_not_allowed:horen:teil=2,id=h9,type=true_false,allowed=matching",
+            "question_type_not_allowed:horen:teil=2,id=h10,type=true_false,allowed=matching",
+            "answer_key_not_unique:horen:teil=2,key=RICHTIG,first=h7,duplicate=h8",
+            "answer_key_not_unique:horen:teil=2,key=FALSCH,first=h6,duplicate=h9",
+            "answer_key_not_unique:horen:teil=2,key=RICHTIG,first=h7,duplicate=h10",
+            "picture_count_mismatch:horen:teil=2,expected=9,received=0",
+            "picture_keys_mismatch:horen:teil=2,expected=abcdefghi,received="
+          ]
+        },
+        {
+          "module": "schreiben",
+          "teil": 1,
+          "slotType": "writing_task",
+          "issues": [
+            "schreiben_min_words:schreiben:teil=1,expected=20,received=80",
+            "schreiben_max_words:schreiben:teil=1,expected=40,received=80"
+          ]
+        },
+        {
+          "module": "schreiben",
+          "teil": 2,
+          "slotType": "writing_task",
+          "issues": [
+            "schreiben_min_words:schreiben:teil=2,expected=30,received=80",
+            "schreiben_max_words:schreiben:teil=2,expected=50,received=80"
+          ]
+        },
+        {
+          "module": "sprechen",
+          "teil": 1,
+          "slotType": "speaking_task",
+          "issues": []
+        },
+        {
+          "module": "sprechen",
+          "teil": 2,
+          "slotType": "speaking_task",
+          "issues": []
+        }
+      ]
+    }
+  ],
+  "passageDedupe": {
+    "ok": true,
+    "threshold": 0.85,
+    "passageCount": 24,
+    "violations": []
+  }
+}

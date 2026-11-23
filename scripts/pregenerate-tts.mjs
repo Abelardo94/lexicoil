@@ -36,6 +36,7 @@ import {
   ttsTextHash,
 } from './lib/ttsCache.mjs';
 import { resolveServedExams } from './lib/servedExams.mjs';
+import { collectExamTtsJobs, sanitizeTtsText, ttsVoiceForLang } from './lib/ttsJobs.mjs';
 
 loadEnvFile();
 
@@ -49,13 +50,6 @@ const SERVED_TARGETS = [
   ['de', 'A2'],
   ['en', 'B1'],
 ];
-
-function ttsVoiceForLang(lang) {
-  const l = String(lang || 'en').slice(0, 2).toLowerCase();
-  if (l === 'de') return 'de-DE';
-  if (l === 'es') return 'es-ES';
-  return 'en-GB';
-}
 
 function parseArgs(argv) {
   const out = {
@@ -109,67 +103,6 @@ function poolHorenExams(lang, level) {
     if (part) out.push({ id: `pool:${rec.id}`, topic: `pool:${rec.id}`, horenParts: [part] });
   }
   return out;
-}
-
-function sanitizeTtsText(text) {
-  return normalizeTtsText(text);
-}
-
-/** Collect playable Hören texts exactly as examRunner + fetchTtsAudio resolve them. */
-function collectExamTtsJobs(exam, lang) {
-  const jobs = [];
-  const seen = new Set();
-
-  function addJob(text, voiceHint, meta) {
-    const src = sanitizeTtsText(text);
-    if (!src) return;
-    const baseVoice = voiceHint || ttsVoiceForLang(lang);
-    const prepared = ListeningScript.prepare(src, lang);
-    if (prepared.length > 1) {
-      for (const seg of prepared) {
-        const voice = seg.voice || baseVoice;
-        pushSingle(sanitizeTtsText(seg.text), voice, { ...meta, speaker: seg.speaker, multiVoice: true });
-      }
-      return;
-    }
-    // Same voice examRunner asks for: a single labelled turn is cast by gender.
-    pushSingle(ListeningScript.singleVoiceText(src), ListeningScript.singleVoiceFor(src, lang, baseVoice), meta);
-  }
-
-  function pushSingle(text, voice, meta) {
-    const key = `${voice}:${ttsTextHash(text)}`;
-    if (seen.has(key)) return;
-    seen.add(key);
-    jobs.push({ text, voice, lang, meta });
-  }
-
-  for (const part of exam.horenParts || []) {
-    if (Array.isArray(part.segments) && part.segments.length) {
-      part.segments.forEach((seg, si) => {
-        addJob(seg.transcript, seg.ttsVoice || part.ttsVoice, {
-          exam: exam.topic || exam.id,
-          teil: part.teil,
-          kind: 'segment',
-          index: si,
-        });
-      });
-    } else {
-      addJob(part.transcript, part.ttsVoice, {
-        exam: exam.topic || exam.id,
-        teil: part.teil,
-        kind: 'part',
-      });
-    }
-  }
-
-  if (exam.horen?.transcript) {
-    addJob(exam.horen.transcript, exam.horen.ttsVoice, {
-      exam: exam.topic || exam.id,
-      kind: 'legacy',
-    });
-  }
-
-  return jobs;
 }
 
 async function synthJob(job, stats) {

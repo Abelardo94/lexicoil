@@ -211,7 +211,7 @@
     S.vpRetakePhraseId = saved.id;
     S.vpSavedPhraseSetId = null;
     S.vpActivityWords = null;
-    if (saved.uiLang && typeof setVocabUiLang === 'function') setVocabUiLang(saved.uiLang);
+    // Phrase content carries its own language; do not change global Interface lang on retake.
     if (typeof hideAll === 'function') hideAll();
     if (typeof show === 'function') show('vocabPhrasesScreen');
     if (typeof applyVocabPhrasesChrome === 'function') applyVocabPhrasesChrome();

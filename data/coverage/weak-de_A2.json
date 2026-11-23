@@ -2,27 +2,21 @@
   "lang": "de",
   "level": "A2",
   "threshold": 3,
-  "generatedAt": "2026-07-23T20:40:29.532Z",
+  "generatedAt": "2026-09-23T16:06:56.618Z",
   "totalLemmas": 600,
-  "weakCount": 581,
+  "weakCount": 506,
   "weakLemmas": [
     "ab",
     "abfahrt",
-    "abfliegen",
     "abflug",
-    "abgeben",
     "abschließen",
     "absender",
-    "achtung",
     "achtzehn",
     "achtzig",
     "ahnung",
-    "allein",
     "alleine",
     "alter",
     "ampel",
-    "ander",
-    "anfang",
     "angebot",
     "angestellte",
     "angst",
@@ -30,13 +24,10 @@
     "ankreuzen",
     "ankunft",
     "anmachen",
-    "anmeldung",
     "anrede",
-    "anruf",
     "anrufbeantworter",
     "ansage",
     "anschluss",
-    "ansehen",
     "anzeige",
     "anzug",
     "apartment",
@@ -56,18 +47,14 @@
     "auge",
     "aus sein",
     "ausfüllen",
-    "ausgang",
     "ausgeben",
     "auskunft",
-    "ausland",
     "ausländer",
     "ausländisch",
-    "ausmachen",
     "auspacken",
     "aussage",
     "aussehen",
     "außer",
-    "außerhalb",
     "aussprechen",
     "aussteigen",
     "austauschen",
@@ -79,34 +66,24 @@
     "automatisch",
     "baby",
     "babysitter",
-    "baden",
     "bahn",
     "bahnsteig",
     "balkon",
     "banane",
-    "band",
-    "bar",
     "basketball",
     "bauen",
     "baustelle",
     "beamte",
-    "beantworten",
-    "beenden",
     "begründen",
     "beide",
     "bein",
     "bekannte",
-    "beliebt",
-    "benutzen",
     "bequem",
-    "beraten",
     "berichten",
     "berühmt",
     "beschweren",
     "besetzt",
-    "besichtigen",
     "best",
-    "bestätigen",
     "bestellung",
     "besucht",
     "bier",
@@ -117,7 +94,6 @@
     "blick",
     "blöd",
     "blöde",
-    "blog",
     "blond",
     "bluse",
     "bogen",
@@ -127,7 +103,6 @@
     "braten",
     "briefmarke",
     "brille",
-    "brötchen",
     "brücke",
     "buchstabe",
     "buchstabieren",
@@ -136,7 +111,6 @@
     "cafeteria",
     "cd",
     "cent",
-    "chatten",
     "club",
     "cm",
     "comic",
@@ -147,7 +121,6 @@
     "dame",
     "daneben",
     "dann",
-    "darauf",
     "darüber",
     "datei",
     "datum",
@@ -155,13 +128,9 @@
     "deutlich",
     "dick",
     "ding",
-    "direkt",
     "disco",
-    "doch",
     "dorther",
     "dorthin",
-    "dringend",
-    "drinnen",
     "drüben",
     "dumm",
     "dünn",
@@ -169,49 +138,37 @@
     "echt",
     "egal",
     "ehepartner",
-    "eigen",
     "eigentlich",
     "ein mal",
     "einige",
-    "einkaufszentrum",
-    "einpacken",
     "eintragen",
     "einverstanden",
-    "einziehen",
     "eis",
     "endlich",
     "eng",
     "erdgeschoss",
-    "erlauben",
     "ermäßigung",
-    "erreichen",
-    "erst",
     "etwas",
     "fach",
     "fahrplan",
     "fallen",
     "fan",
-    "fantastisch",
     "faul",
     "ferien",
     "festival",
     "fett",
-    "fit",
     "flohmarkt",
     "fotoapparat",
     "fotografieren",
-    "freiwillig",
     "froh",
     "führerschein",
     "fundsache",
     "furchtbar",
     "garage",
-    "garten",
     "gefährlich",
     "gegenteil",
     "gegenüber",
     "geldbörse",
-    "gerät",
     "gericht",
     "geschichte",
     "geschirr",
@@ -226,7 +183,6 @@
     "hart",
     "hässlich",
     "hauptstadt",
-    "haushalt",
     "heft",
     "heiß",
     "her-",
@@ -239,10 +195,7 @@
     "hin-",
     "hoffentlich",
     "homepage",
-    "informieren",
-    "intelligent",
     "jeans",
-    "jemand",
     "jugendherberge",
     "kalender",
     "kaufhaus",
@@ -255,14 +208,12 @@
     "klug",
     "koffer",
     "komisch",
-    "kontakt",
     "körper",
     "kosmetik",
     "krankenhaus",
     "krankenkasse",
     "kredit",
     "kreuzung",
-    "krimi",
     "kühl",
     "kulturell",
     "kunde",
@@ -270,33 +221,22 @@
     "kunst",
     "lager",
     "lampe",
-    "landschaft",
-    "langweilig",
     "laptop",
-    "lassen",
     "leer",
     "leidtun",
-    "leihen",
     "liebe",
-    "lieferung",
     "link",
     "lüge",
     "lügen",
-    "lust",
     "magen",
-    "mail",
     "mailbox",
     "manch",
     "mannschaft",
-    "medien",
-    "meistens",
-    "melden",
     "menge",
     "messe",
     "mindestens",
     "mineralwasser",
     "mitarbeiter",
-    "mobiltelefon",
     "mode",
     "motorroller",
     "mütze",
@@ -315,28 +255,21 @@
     "notieren",
     "notiz",
     "nudel",
-    "nützlich",
     "ohr",
     "orange",
-    "packen",
     "parfüm",
-    "perfekt",
     "pferd",
     "pflanze",
-    "pizza",
     "plakat",
     "plötzlich",
     "portion",
     "poster",
     "postkarte",
-    "praktisch",
     "preiswert",
     "privat",
-    "prüfen",
     "pullover",
     "qualität",
     "quiz",
-    "rad",
     "raten",
     "rathaus",
     "rätsel",
@@ -356,11 +289,8 @@
     "romantisch",
     "rose",
     "rucksack",
-    "rufen",
-    "rund",
     "rundgang",
     "sache",
-    "sauber",
     "sauer",
     "schade",
     "schädlich",
@@ -369,10 +299,8 @@
     "schere",
     "schiff",
     "schimpfen",
-    "schirm",
     "schlimm",
     "schloss",
-    "schmutzig",
     "schneiden",
     "schneien",
     "schokolade",
@@ -385,58 +313,42 @@
     "seite",
     "selbst",
     "selten",
-    "sendung",
     "service",
     "setzen",
-    "singen",
     "situation",
     "sogar",
     "sonst",
     "spaß",
-    "spazieren",
     "sportlich",
     "sportplatz",
     "sprechstunde",
     "stadtplan",
     "star",
-    "stark",
     "sterben",
     "stiefel",
     "stift",
     "stipendium",
-    "stockwerk",
     "stören",
-    "strand",
     "streiten",
     "streng",
-    "stressig",
-    "stück",
     "super",
     "supermarkt",
     "surfen",
-    "süß",
     "süßigkeit",
     "t-shirt",
-    "tablet",
     "tafel",
-    "täglich",
     "taschengeld",
-    "tauschen",
     "tennis",
     "tief",
     "titel",
     "topf",
     "torte",
-    "total",
     "tour",
-    "tourist",
     "touristin",
     "transport",
     "träumen",
-    "trennen",
     "trocken",
     "üben",
-    "überall",
     "übersetzen",
     "übersetzung",
     "umsteigen",
@@ -445,26 +357,16 @@
     "unterkunft",
     "untersuchen",
     "unterwegs",
-    "verabreden",
-    "veranstaltung",
-    "vereinbaren",
     "vergleich",
     "verlieben",
     "vermieterin",
     "verreisen",
-    "verschieben",
-    "verschieden",
-    "versuchen",
     "vertrag",
     "vogel",
     "volleyball",
-    "vorbereiten",
-    "vorgestern",
     "vorher",
     "vorn",
     "vorne",
-    "vorschlag",
-    "vorteil",
     "vorwärts",
     "wach",
     "wahr",
@@ -473,7 +375,6 @@
     "webseite",
     "wechseln",
     "wecken",
-    "wegen",
     "weich",
     "weinen",
     "wenigstens",
@@ -496,10 +397,8 @@
     "zettel",
     "zirkus",
     "zitrone",
-    "zoo",
     "zucker",
     "zuerst",
-    "zuhören",
     "zukunft",
     "zuletzt",
     "zum beispiel",
@@ -510,83 +409,109 @@
     "zurückgehen",
     "zurückkommen",
     "zurücklaufen",
-    "aktiv",
-    "also",
-    "ändern",
+    "abfliegen",
+    "abgeben",
+    "allein",
+    "anfang",
     "anziehen",
     "arbeitslos",
     "arm",
     "aufräumen",
     "aufstehen",
     "ausbildung",
-    "ausflug",
+    "ausgang",
     "ausruhen",
-    "bäckerei",
+    "außerhalb",
+    "band",
+    "bar",
     "basteln",
-    "bedeuten",
+    "beenden",
     "bekannt",
-    "bescheid",
+    "beliebt",
+    "besichtigen",
     "bestehen",
     "bewerben",
-    "bisschen",
     "breit",
+    "brötchen",
+    "chatten",
+    "dringend",
+    "einkaufszentrum",
+    "einpacken",
     "einzeln",
-    "firma",
+    "einziehen",
+    "erlauben",
+    "erreichen",
     "fleißig",
     "freundlich",
-    "ganz",
-    "gehören",
+    "garten",
     "hängen",
-    "interview",
+    "haushalt",
+    "intelligent",
+    "jemand",
     "joggen",
+    "kontakt",
     "kontrollieren",
-    "kündigen",
-    "medikament",
+    "krimi",
+    "lieferung",
+    "meistens",
     "mittel",
+    "mobiltelefon",
     "motor",
     "notwendig",
-    "parken",
+    "nützlich",
     "passieren",
-    "personal",
-    "probieren",
-    "renovieren",
+    "perfekt",
+    "pizza",
     "rind",
-    "sammeln",
-    "sondern",
-    "spannend",
-    "spaziergang",
+    "rund",
+    "sauber",
+    "schirm",
+    "singen",
+    "stressig",
+    "stück",
+    "süß",
     "sympathisch",
-    "teilen",
-    "tipp",
+    "tauschen",
+    "tourist",
+    "überall",
     "übermorgen",
     "umzug",
+    "verabreden",
     "verbieten",
-    "vorbei",
-    "zentrum",
-    "ziehen",
-    "anbieten",
+    "vorgestern",
+    "zoo",
+    "zuhören",
+    "ander",
+    "ausmachen",
     "außerdem",
-    "bald",
-    "bibliothek",
-    "buchen",
-    "dank",
-    "empfehlen",
-    "erfahrung",
-    "frisch",
-    "interessieren",
-    "kostenlos",
-    "mal",
+    "bäckerei",
+    "baden",
+    "beantworten",
+    "bescheid",
+    "drinnen",
+    "eigen",
+    "freiwillig",
+    "gerät",
+    "kündigen",
+    "langweilig",
+    "leihen",
+    "mail",
     "malen",
-    "modern",
-    "nutzen",
-    "organisieren",
-    "radio",
-    "stattfinden",
-    "team",
-    "teilnehmen",
-    "trainieren",
-    "unternehmen",
-    "verkehr"
+    "parken",
+    "personal",
+    "prüfen",
+    "renovieren",
+    "schmutzig",
+    "sendung",
+    "stark",
+    "strand",
+    "tablet",
+    "total",
+    "trennen",
+    "verschieben",
+    "verschieden",
+    "versuchen",
+    "ziehen"
   ],
   "detail": [
     {
@@ -598,15 +523,7 @@
       "parts": 0
     },
     {
-      "lemma": "abfliegen",
-      "parts": 0
-    },
-    {
       "lemma": "abflug",
-      "parts": 0
-    },
-    {
-      "lemma": "abgeben",
       "parts": 0
     },
     {
@@ -615,10 +532,6 @@
     },
     {
       "lemma": "absender",
-      "parts": 0
-    },
-    {
-      "lemma": "achtung",
       "parts": 0
     },
     {
@@ -634,10 +547,6 @@
       "parts": 0
     },
     {
-      "lemma": "allein",
-      "parts": 0
-    },
-    {
       "lemma": "alleine",
       "parts": 0
     },
@@ -647,14 +556,6 @@
     },
     {
       "lemma": "ampel",
-      "parts": 0
-    },
-    {
-      "lemma": "ander",
-      "parts": 0
-    },
-    {
-      "lemma": "anfang",
       "parts": 0
     },
     {
@@ -686,15 +587,7 @@
       "parts": 0
     },
     {
-      "lemma": "anmeldung",
-      "parts": 0
-    },
-    {
       "lemma": "anrede",
-      "parts": 0
-    },
-    {
-      "lemma": "anruf",
       "parts": 0
     },
     {
@@ -707,10 +600,6 @@
     },
     {
       "lemma": "anschluss",
-      "parts": 0
-    },
-    {
-      "lemma": "ansehen",
       "parts": 0
     },
     {
@@ -790,10 +679,6 @@
       "parts": 0
     },
     {
-      "lemma": "ausgang",
-      "parts": 0
-    },
-    {
       "lemma": "ausgeben",
       "parts": 0
     },
@@ -802,19 +687,11 @@
       "parts": 0
     },
     {
-      "lemma": "ausland",
-      "parts": 0
-    },
-    {
       "lemma": "ausländer",
       "parts": 0
     },
     {
       "lemma": "ausländisch",
-      "parts": 0
-    },
-    {
-      "lemma": "ausmachen",
       "parts": 0
     },
     {
@@ -831,10 +708,6 @@
     },
     {
       "lemma": "außer",
-      "parts": 0
-    },
-    {
-      "lemma": "außerhalb",
       "parts": 0
     },
     {
@@ -882,10 +755,6 @@
       "parts": 0
     },
     {
-      "lemma": "baden",
-      "parts": 0
-    },
-    {
       "lemma": "bahn",
       "parts": 0
     },
@@ -899,14 +768,6 @@
     },
     {
       "lemma": "banane",
-      "parts": 0
-    },
-    {
-      "lemma": "band",
-      "parts": 0
-    },
-    {
-      "lemma": "bar",
       "parts": 0
     },
     {
@@ -926,14 +787,6 @@
       "parts": 0
     },
     {
-      "lemma": "beantworten",
-      "parts": 0
-    },
-    {
-      "lemma": "beenden",
-      "parts": 0
-    },
-    {
       "lemma": "begründen",
       "parts": 0
     },
@@ -950,19 +803,7 @@
       "parts": 0
     },
     {
-      "lemma": "beliebt",
-      "parts": 0
-    },
-    {
-      "lemma": "benutzen",
-      "parts": 0
-    },
-    {
       "lemma": "bequem",
-      "parts": 0
-    },
-    {
-      "lemma": "beraten",
       "parts": 0
     },
     {
@@ -982,15 +823,7 @@
       "parts": 0
     },
     {
-      "lemma": "besichtigen",
-      "parts": 0
-    },
-    {
       "lemma": "best",
-      "parts": 0
-    },
-    {
-      "lemma": "bestätigen",
       "parts": 0
     },
     {
@@ -1034,10 +867,6 @@
       "parts": 0
     },
     {
-      "lemma": "blog",
-      "parts": 0
-    },
-    {
       "lemma": "blond",
       "parts": 0
     },
@@ -1074,10 +903,6 @@
       "parts": 0
     },
     {
-      "lemma": "brötchen",
-      "parts": 0
-    },
-    {
       "lemma": "brücke",
       "parts": 0
     },
@@ -1107,10 +932,6 @@
     },
     {
       "lemma": "cent",
-      "parts": 0
-    },
-    {
-      "lemma": "chatten",
       "parts": 0
     },
     {
@@ -1154,10 +975,6 @@
       "parts": 0
     },
     {
-      "lemma": "darauf",
-      "parts": 0
-    },
-    {
       "lemma": "darüber",
       "parts": 0
     },
@@ -1186,15 +1003,7 @@
       "parts": 0
     },
     {
-      "lemma": "direkt",
-      "parts": 0
-    },
-    {
       "lemma": "disco",
-      "parts": 0
-    },
-    {
-      "lemma": "doch",
       "parts": 0
     },
     {
@@ -1203,14 +1012,6 @@
     },
     {
       "lemma": "dorthin",
-      "parts": 0
-    },
-    {
-      "lemma": "dringend",
-      "parts": 0
-    },
-    {
-      "lemma": "drinnen",
       "parts": 0
     },
     {
@@ -1242,10 +1043,6 @@
       "parts": 0
     },
     {
-      "lemma": "eigen",
-      "parts": 0
-    },
-    {
       "lemma": "eigentlich",
       "parts": 0
     },
@@ -1258,23 +1055,11 @@
       "parts": 0
     },
     {
-      "lemma": "einkaufszentrum",
-      "parts": 0
-    },
-    {
-      "lemma": "einpacken",
-      "parts": 0
-    },
-    {
       "lemma": "eintragen",
       "parts": 0
     },
     {
       "lemma": "einverstanden",
-      "parts": 0
-    },
-    {
-      "lemma": "einziehen",
       "parts": 0
     },
     {
@@ -1294,19 +1079,7 @@
       "parts": 0
     },
     {
-      "lemma": "erlauben",
-      "parts": 0
-    },
-    {
       "lemma": "ermäßigung",
-      "parts": 0
-    },
-    {
-      "lemma": "erreichen",
-      "parts": 0
-    },
-    {
-      "lemma": "erst",
       "parts": 0
     },
     {
@@ -1330,10 +1103,6 @@
       "parts": 0
     },
     {
-      "lemma": "fantastisch",
-      "parts": 0
-    },
-    {
       "lemma": "faul",
       "parts": 0
     },
@@ -1350,10 +1119,6 @@
       "parts": 0
     },
     {
-      "lemma": "fit",
-      "parts": 0
-    },
-    {
       "lemma": "flohmarkt",
       "parts": 0
     },
@@ -1363,10 +1128,6 @@
     },
     {
       "lemma": "fotografieren",
-      "parts": 0
-    },
-    {
-      "lemma": "freiwillig",
       "parts": 0
     },
     {
@@ -1390,10 +1151,6 @@
       "parts": 0
     },
     {
-      "lemma": "garten",
-      "parts": 0
-    },
-    {
       "lemma": "gefährlich",
       "parts": 0
     },
@@ -1407,10 +1164,6 @@
     },
     {
       "lemma": "geldbörse",
-      "parts": 0
-    },
-    {
-      "lemma": "gerät",
       "parts": 0
     },
     {
@@ -1470,10 +1223,6 @@
       "parts": 0
     },
     {
-      "lemma": "haushalt",
-      "parts": 0
-    },
-    {
       "lemma": "heft",
       "parts": 0
     },
@@ -1522,19 +1271,7 @@
       "parts": 0
     },
     {
-      "lemma": "informieren",
-      "parts": 0
-    },
-    {
-      "lemma": "intelligent",
-      "parts": 0
-    },
-    {
       "lemma": "jeans",
-      "parts": 0
-    },
-    {
-      "lemma": "jemand",
       "parts": 0
     },
     {
@@ -1586,10 +1323,6 @@
       "parts": 0
     },
     {
-      "lemma": "kontakt",
-      "parts": 0
-    },
-    {
       "lemma": "körper",
       "parts": 0
     },
@@ -1611,10 +1344,6 @@
     },
     {
       "lemma": "kreuzung",
-      "parts": 0
-    },
-    {
-      "lemma": "krimi",
       "parts": 0
     },
     {
@@ -1646,19 +1375,7 @@
       "parts": 0
     },
     {
-      "lemma": "landschaft",
-      "parts": 0
-    },
-    {
-      "lemma": "langweilig",
-      "parts": 0
-    },
-    {
       "lemma": "laptop",
-      "parts": 0
-    },
-    {
-      "lemma": "lassen",
       "parts": 0
     },
     {
@@ -1670,15 +1387,7 @@
       "parts": 0
     },
     {
-      "lemma": "leihen",
-      "parts": 0
-    },
-    {
       "lemma": "liebe",
-      "parts": 0
-    },
-    {
-      "lemma": "lieferung",
       "parts": 0
     },
     {
@@ -1694,15 +1403,7 @@
       "parts": 0
     },
     {
-      "lemma": "lust",
-      "parts": 0
-    },
-    {
       "lemma": "magen",
-      "parts": 0
-    },
-    {
-      "lemma": "mail",
       "parts": 0
     },
     {
@@ -1715,18 +1416,6 @@
     },
     {
       "lemma": "mannschaft",
-      "parts": 0
-    },
-    {
-      "lemma": "medien",
-      "parts": 0
-    },
-    {
-      "lemma": "meistens",
-      "parts": 0
-    },
-    {
-      "lemma": "melden",
       "parts": 0
     },
     {
@@ -1747,10 +1436,6 @@
     },
     {
       "lemma": "mitarbeiter",
-      "parts": 0
-    },
-    {
-      "lemma": "mobiltelefon",
       "parts": 0
     },
     {
@@ -1826,10 +1511,6 @@
       "parts": 0
     },
     {
-      "lemma": "nützlich",
-      "parts": 0
-    },
-    {
       "lemma": "ohr",
       "parts": 0
     },
@@ -1838,15 +1519,7 @@
       "parts": 0
     },
     {
-      "lemma": "packen",
-      "parts": 0
-    },
-    {
       "lemma": "parfüm",
-      "parts": 0
-    },
-    {
-      "lemma": "perfekt",
       "parts": 0
     },
     {
@@ -1855,10 +1528,6 @@
     },
     {
       "lemma": "pflanze",
-      "parts": 0
-    },
-    {
-      "lemma": "pizza",
       "parts": 0
     },
     {
@@ -1882,19 +1551,11 @@
       "parts": 0
     },
     {
-      "lemma": "praktisch",
-      "parts": 0
-    },
-    {
       "lemma": "preiswert",
       "parts": 0
     },
     {
       "lemma": "privat",
-      "parts": 0
-    },
-    {
-      "lemma": "prüfen",
       "parts": 0
     },
     {
@@ -1907,10 +1568,6 @@
     },
     {
       "lemma": "quiz",
-      "parts": 0
-    },
-    {
-      "lemma": "rad",
       "parts": 0
     },
     {
@@ -1990,23 +1647,11 @@
       "parts": 0
     },
     {
-      "lemma": "rufen",
-      "parts": 0
-    },
-    {
-      "lemma": "rund",
-      "parts": 0
-    },
-    {
       "lemma": "rundgang",
       "parts": 0
     },
     {
       "lemma": "sache",
-      "parts": 0
-    },
-    {
-      "lemma": "sauber",
       "parts": 0
     },
     {
@@ -2042,19 +1687,11 @@
       "parts": 0
     },
     {
-      "lemma": "schirm",
-      "parts": 0
-    },
-    {
       "lemma": "schlimm",
       "parts": 0
     },
     {
       "lemma": "schloss",
-      "parts": 0
-    },
-    {
-      "lemma": "schmutzig",
       "parts": 0
     },
     {
@@ -2106,19 +1743,11 @@
       "parts": 0
     },
     {
-      "lemma": "sendung",
-      "parts": 0
-    },
-    {
       "lemma": "service",
       "parts": 0
     },
     {
       "lemma": "setzen",
-      "parts": 0
-    },
-    {
-      "lemma": "singen",
       "parts": 0
     },
     {
@@ -2135,10 +1764,6 @@
     },
     {
       "lemma": "spaß",
-      "parts": 0
-    },
-    {
-      "lemma": "spazieren",
       "parts": 0
     },
     {
@@ -2162,10 +1787,6 @@
       "parts": 0
     },
     {
-      "lemma": "stark",
-      "parts": 0
-    },
-    {
       "lemma": "sterben",
       "parts": 0
     },
@@ -2182,15 +1803,7 @@
       "parts": 0
     },
     {
-      "lemma": "stockwerk",
-      "parts": 0
-    },
-    {
       "lemma": "stören",
-      "parts": 0
-    },
-    {
-      "lemma": "strand",
       "parts": 0
     },
     {
@@ -2199,14 +1812,6 @@
     },
     {
       "lemma": "streng",
-      "parts": 0
-    },
-    {
-      "lemma": "stressig",
-      "parts": 0
-    },
-    {
-      "lemma": "stück",
       "parts": 0
     },
     {
@@ -2222,10 +1827,6 @@
       "parts": 0
     },
     {
-      "lemma": "süß",
-      "parts": 0
-    },
-    {
       "lemma": "süßigkeit",
       "parts": 0
     },
@@ -2234,23 +1835,11 @@
       "parts": 0
     },
     {
-      "lemma": "tablet",
-      "parts": 0
-    },
-    {
       "lemma": "tafel",
       "parts": 0
     },
     {
-      "lemma": "täglich",
-      "parts": 0
-    },
-    {
       "lemma": "taschengeld",
-      "parts": 0
-    },
-    {
-      "lemma": "tauschen",
       "parts": 0
     },
     {
@@ -2274,15 +1863,7 @@
       "parts": 0
     },
     {
-      "lemma": "total",
-      "parts": 0
-    },
-    {
       "lemma": "tour",
-      "parts": 0
-    },
-    {
-      "lemma": "tourist",
       "parts": 0
     },
     {
@@ -2298,19 +1879,11 @@
       "parts": 0
     },
     {
-      "lemma": "trennen",
-      "parts": 0
-    },
-    {
       "lemma": "trocken",
       "parts": 0
     },
     {
       "lemma": "üben",
-      "parts": 0
-    },
-    {
-      "lemma": "überall",
       "parts": 0
     },
     {
@@ -2346,18 +1919,6 @@
       "parts": 0
     },
     {
-      "lemma": "verabreden",
-      "parts": 0
-    },
-    {
-      "lemma": "veranstaltung",
-      "parts": 0
-    },
-    {
-      "lemma": "vereinbaren",
-      "parts": 0
-    },
-    {
       "lemma": "vergleich",
       "parts": 0
     },
@@ -2374,18 +1935,6 @@
       "parts": 0
     },
     {
-      "lemma": "verschieben",
-      "parts": 0
-    },
-    {
-      "lemma": "verschieden",
-      "parts": 0
-    },
-    {
-      "lemma": "versuchen",
-      "parts": 0
-    },
-    {
       "lemma": "vertrag",
       "parts": 0
     },
@@ -2398,14 +1947,6 @@
       "parts": 0
     },
     {
-      "lemma": "vorbereiten",
-      "parts": 0
-    },
-    {
-      "lemma": "vorgestern",
-      "parts": 0
-    },
-    {
       "lemma": "vorher",
       "parts": 0
     },
@@ -2415,14 +1956,6 @@
     },
     {
       "lemma": "vorne",
-      "parts": 0
-    },
-    {
-      "lemma": "vorschlag",
-      "parts": 0
-    },
-    {
-      "lemma": "vorteil",
       "parts": 0
     },
     {
@@ -2455,10 +1988,6 @@
     },
     {
       "lemma": "wecken",
-      "parts": 0
-    },
-    {
-      "lemma": "wegen",
       "parts": 0
     },
     {
@@ -2550,19 +2079,11 @@
       "parts": 0
     },
     {
-      "lemma": "zoo",
-      "parts": 0
-    },
-    {
       "lemma": "zucker",
       "parts": 0
     },
     {
       "lemma": "zuerst",
-      "parts": 0
-    },
-    {
-      "lemma": "zuhören",
       "parts": 0
     },
     {
@@ -2606,15 +2127,19 @@
       "parts": 0
     },
     {
-      "lemma": "aktiv",
+      "lemma": "abfliegen",
       "parts": 1
     },
     {
-      "lemma": "also",
+      "lemma": "abgeben",
       "parts": 1
     },
     {
-      "lemma": "ändern",
+      "lemma": "allein",
+      "parts": 1
+    },
+    {
+      "lemma": "anfang",
       "parts": 1
     },
     {
@@ -2642,7 +2167,7 @@
       "parts": 1
     },
     {
-      "lemma": "ausflug",
+      "lemma": "ausgang",
       "parts": 1
     },
     {
@@ -2650,7 +2175,15 @@
       "parts": 1
     },
     {
-      "lemma": "bäckerei",
+      "lemma": "außerhalb",
+      "parts": 1
+    },
+    {
+      "lemma": "band",
+      "parts": 1
+    },
+    {
+      "lemma": "bar",
       "parts": 1
     },
     {
@@ -2658,7 +2191,7 @@
       "parts": 1
     },
     {
-      "lemma": "bedeuten",
+      "lemma": "beenden",
       "parts": 1
     },
     {
@@ -2666,7 +2199,11 @@
       "parts": 1
     },
     {
-      "lemma": "bescheid",
+      "lemma": "beliebt",
+      "parts": 1
+    },
+    {
+      "lemma": "besichtigen",
       "parts": 1
     },
     {
@@ -2678,11 +2215,27 @@
       "parts": 1
     },
     {
-      "lemma": "bisschen",
+      "lemma": "breit",
       "parts": 1
     },
     {
-      "lemma": "breit",
+      "lemma": "brötchen",
+      "parts": 1
+    },
+    {
+      "lemma": "chatten",
+      "parts": 1
+    },
+    {
+      "lemma": "dringend",
+      "parts": 1
+    },
+    {
+      "lemma": "einkaufszentrum",
+      "parts": 1
+    },
+    {
+      "lemma": "einpacken",
       "parts": 1
     },
     {
@@ -2690,7 +2243,15 @@
       "parts": 1
     },
     {
-      "lemma": "firma",
+      "lemma": "einziehen",
+      "parts": 1
+    },
+    {
+      "lemma": "erlauben",
+      "parts": 1
+    },
+    {
+      "lemma": "erreichen",
       "parts": 1
     },
     {
@@ -2702,11 +2263,7 @@
       "parts": 1
     },
     {
-      "lemma": "ganz",
-      "parts": 1
-    },
-    {
-      "lemma": "gehören",
+      "lemma": "garten",
       "parts": 1
     },
     {
@@ -2714,7 +2271,15 @@
       "parts": 1
     },
     {
-      "lemma": "interview",
+      "lemma": "haushalt",
+      "parts": 1
+    },
+    {
+      "lemma": "intelligent",
+      "parts": 1
+    },
+    {
+      "lemma": "jemand",
       "parts": 1
     },
     {
@@ -2722,19 +2287,31 @@
       "parts": 1
     },
     {
+      "lemma": "kontakt",
+      "parts": 1
+    },
+    {
       "lemma": "kontrollieren",
       "parts": 1
     },
     {
-      "lemma": "kündigen",
+      "lemma": "krimi",
       "parts": 1
     },
     {
-      "lemma": "medikament",
+      "lemma": "lieferung",
+      "parts": 1
+    },
+    {
+      "lemma": "meistens",
       "parts": 1
     },
     {
       "lemma": "mittel",
+      "parts": 1
+    },
+    {
+      "lemma": "mobiltelefon",
       "parts": 1
     },
     {
@@ -2746,7 +2323,7 @@
       "parts": 1
     },
     {
-      "lemma": "parken",
+      "lemma": "nützlich",
       "parts": 1
     },
     {
@@ -2754,15 +2331,11 @@
       "parts": 1
     },
     {
-      "lemma": "personal",
+      "lemma": "perfekt",
       "parts": 1
     },
     {
-      "lemma": "probieren",
-      "parts": 1
-    },
-    {
-      "lemma": "renovieren",
+      "lemma": "pizza",
       "parts": 1
     },
     {
@@ -2770,19 +2343,31 @@
       "parts": 1
     },
     {
-      "lemma": "sammeln",
+      "lemma": "rund",
       "parts": 1
     },
     {
-      "lemma": "sondern",
+      "lemma": "sauber",
       "parts": 1
     },
     {
-      "lemma": "spannend",
+      "lemma": "schirm",
       "parts": 1
     },
     {
-      "lemma": "spaziergang",
+      "lemma": "singen",
+      "parts": 1
+    },
+    {
+      "lemma": "stressig",
+      "parts": 1
+    },
+    {
+      "lemma": "stück",
+      "parts": 1
+    },
+    {
+      "lemma": "süß",
       "parts": 1
     },
     {
@@ -2790,11 +2375,15 @@
       "parts": 1
     },
     {
-      "lemma": "teilen",
+      "lemma": "tauschen",
       "parts": 1
     },
     {
-      "lemma": "tipp",
+      "lemma": "tourist",
+      "parts": 1
+    },
+    {
+      "lemma": "überall",
       "parts": 1
     },
     {
@@ -2806,23 +2395,31 @@
       "parts": 1
     },
     {
+      "lemma": "verabreden",
+      "parts": 1
+    },
+    {
       "lemma": "verbieten",
       "parts": 1
     },
     {
-      "lemma": "vorbei",
+      "lemma": "vorgestern",
       "parts": 1
     },
     {
-      "lemma": "zentrum",
+      "lemma": "zoo",
       "parts": 1
     },
     {
-      "lemma": "ziehen",
+      "lemma": "zuhören",
       "parts": 1
     },
     {
-      "lemma": "anbieten",
+      "lemma": "ander",
+      "parts": 2
+    },
+    {
+      "lemma": "ausmachen",
       "parts": 2
     },
     {
@@ -2830,43 +2427,51 @@
       "parts": 2
     },
     {
-      "lemma": "bald",
+      "lemma": "bäckerei",
       "parts": 2
     },
     {
-      "lemma": "bibliothek",
+      "lemma": "baden",
       "parts": 2
     },
     {
-      "lemma": "buchen",
+      "lemma": "beantworten",
       "parts": 2
     },
     {
-      "lemma": "dank",
+      "lemma": "bescheid",
       "parts": 2
     },
     {
-      "lemma": "empfehlen",
+      "lemma": "drinnen",
       "parts": 2
     },
     {
-      "lemma": "erfahrung",
+      "lemma": "eigen",
       "parts": 2
     },
     {
-      "lemma": "frisch",
+      "lemma": "freiwillig",
       "parts": 2
     },
     {
-      "lemma": "interessieren",
+      "lemma": "gerät",
       "parts": 2
     },
     {
-      "lemma": "kostenlos",
+      "lemma": "kündigen",
       "parts": 2
     },
     {
-      "lemma": "mal",
+      "lemma": "langweilig",
+      "parts": 2
+    },
+    {
+      "lemma": "leihen",
+      "parts": 2
+    },
+    {
+      "lemma": "mail",
       "parts": 2
     },
     {
@@ -2874,43 +2479,63 @@
       "parts": 2
     },
     {
-      "lemma": "modern",
+      "lemma": "parken",
       "parts": 2
     },
     {
-      "lemma": "nutzen",
+      "lemma": "personal",
       "parts": 2
     },
     {
-      "lemma": "organisieren",
+      "lemma": "prüfen",
       "parts": 2
     },
     {
-      "lemma": "radio",
+      "lemma": "renovieren",
       "parts": 2
     },
     {
-      "lemma": "stattfinden",
+      "lemma": "schmutzig",
       "parts": 2
     },
     {
-      "lemma": "team",
+      "lemma": "sendung",
       "parts": 2
     },
     {
-      "lemma": "teilnehmen",
+      "lemma": "stark",
       "parts": 2
     },
     {
-      "lemma": "trainieren",
+      "lemma": "strand",
       "parts": 2
     },
     {
-      "lemma": "unternehmen",
+      "lemma": "tablet",
       "parts": 2
     },
     {
-      "lemma": "verkehr",
+      "lemma": "total",
+      "parts": 2
+    },
+    {
+      "lemma": "trennen",
+      "parts": 2
+    },
+    {
+      "lemma": "verschieben",
+      "parts": 2
+    },
+    {
+      "lemma": "verschieden",
+      "parts": 2
+    },
+    {
+      "lemma": "versuchen",
+      "parts": 2
+    },
+    {
+      "lemma": "ziehen",
       "parts": 2
     }
   ]

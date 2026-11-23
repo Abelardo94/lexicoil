@@ -6,8 +6,10 @@ const ListeningScript = (() => {
 
   // Flat list: [0] is the narrator / single-voice default. Kept for callers that only need
   // one voice; multi-speaker turns are cast by gender from VOICES_BY_GENDER below.
+  // de: alemanas NATIVAS de la biblioteca. Debe coincidir con DEFAULT_VOICES en
+  // netlify/functions/lib/ttsVoices.js: la voz va dentro de la clave del cache.
   const VOICES = {
-    de: ['pNInz6obpgDQGcFmaJgB', 'JBFqnCBsd6RMkjVDRZzb', 'onwK4e9ZLuTAKqWW03F9'],
+    de: ['tlaozmPwSPrjhdNidYEO', 'RqAMJpZ689MpxoPI49H6', 'xlbJQnFFGB01bv7HK5CZ'],
     en: ['Xb7hH8MSUJpSbSDYk0k2', 'JBFqnCBsd6RMkjVDRZzb', 'pNInz6obpgDQGcFmaJgB'],
     es: ['ErXwobaYiN019PkySvjV', 'JBFqnCBsd6RMkjVDRZzb', 'pNInz6obpgDQGcFmaJgB'],
   };
@@ -18,8 +20,11 @@ const ListeningScript = (() => {
   //   Matilda XrExE9yKIg1WjnnlVkGX · Alice Xb7hH8MSUJpSbSDYk0k2 · Lily pFZP5JQG7iQjIQuC4Bku (f)
   //   (Sarah EXAVitQu4vr4xnSDxMaL no longer exists on the account: voice_not_found, Sep 2026.)
   //   Adam pNInz6obpgDQGcFmaJgB · George JBFqnCBsd6RMkjVDRZzb · Daniel onwK4e9ZLuTAKqWW03F9 (m)
+  //   Alemanas nativas (biblioteca, plan de pago — 22 sep 2026):
+  //   Emma RqAMJpZ689MpxoPI49H6 · Miri TxjBkrv2ySC9A3oaA5qK (f)
+  //   Christian tlaozmPwSPrjhdNidYEO · Jonas xlbJQnFFGB01bv7HK5CZ · Rainer MDe7TtYFuBkPau6GauoM (m)
   const VOICES_BY_GENDER = {
-    de: { f: ['XrExE9yKIg1WjnnlVkGX', 'Xb7hH8MSUJpSbSDYk0k2'], m: ['pNInz6obpgDQGcFmaJgB', 'JBFqnCBsd6RMkjVDRZzb', 'onwK4e9ZLuTAKqWW03F9'] },
+    de: { f: ['RqAMJpZ689MpxoPI49H6', 'TxjBkrv2ySC9A3oaA5qK'], m: ['tlaozmPwSPrjhdNidYEO', 'xlbJQnFFGB01bv7HK5CZ', 'MDe7TtYFuBkPau6GauoM'] },
     en: { f: ['Xb7hH8MSUJpSbSDYk0k2', 'pFZP5JQG7iQjIQuC4Bku'], m: ['JBFqnCBsd6RMkjVDRZzb', 'onwK4e9ZLuTAKqWW03F9'] },
   };
 
@@ -246,7 +251,14 @@ const ListeningScript = (() => {
     return prepare(text, lang).length > 1;
   }
 
-  return { parseSegments, assignVoices, prepare, isMultiVoice, defaultVoices, singleVoiceText, singleVoiceFor, speakerGender, looksLikeSpeaker };
+  /** Solo para los tests: que comprueben el reparto contra la tabla de verdad y no
+   *  contra una copia suya, que es como se desincronizan al cambiar de voces. */
+  function voicesByGender(lang) {
+    const t = VOICES_BY_GENDER[lang];
+    return t ? { f: [...t.f], m: [...t.m] } : null;
+  }
+
+  return { parseSegments, assignVoices, prepare, isMultiVoice, defaultVoices, singleVoiceText, singleVoiceFor, speakerGender, looksLikeSpeaker, voicesByGender };
 })();
 
 if (typeof window !== 'undefined') window.ListeningScript = ListeningScript;

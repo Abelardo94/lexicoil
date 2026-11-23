@@ -1,0 +1,3047 @@
+{
+  "records": [
+    {
+      "id": "horen-t1-gemini-070",
+      "module": "horen",
+      "teil": 1,
+      "lang": "de",
+      "level": "B2",
+      "questions": [
+        {
+          "id": "gen-q-h1-f7b63670-s1-q1",
+          "module": "horen",
+          "teil": 1,
+          "level": "B2",
+          "type": "richtig_falsch",
+          "question": "Sie hören fünf Gespräche und Äußerungen. Sie hören jeden Text einmal.\nZu jedem Text lösen Sie zwei Aufgaben: Richtig/Falsch und Multiple Choice.\n\nAufnahme 1: Anna schlägt vor, eine Lerngruppe zu bilden.",
+          "options": [],
+          "correct": "Richtig",
+          "correctAnswer": "Richtig",
+          "explanation": "Anna initiiert das Gespräch mit dem Vorschlag, eine Lerngruppe für die Prüfungsvorbereitung zu bilden.",
+          "segmentLabel": "Aufnahme 1",
+          "passageId": "gen-p-h1-f7b63670-s1",
+          "lang": "de",
+          "skills": [
+            "listening"
+          ],
+          "language": "de",
+          "examType": "goethe",
+          "difficulty": 5,
+          "topicTags": [
+            "Bildung"
+          ],
+          "vocabularyTags": [
+            "einmal",
+            "Äußerung",
+            "aufgaben",
+            "bilden",
+            "Lerngruppe"
+          ],
+          "grammarTags": [
+            "g-de-b2-nominal"
+          ]
+        },
+        {
+          "id": "gen-q-h1-f7b63670-s1-q2",
+          "module": "horen",
+          "teil": 1,
+          "level": "B2",
+          "type": "multiple_choice",
+          "question": "Aufnahme 1: Was vereinbaren Anna und Max zusätzlich zur Lerngruppe?",
+          "options": [
+            "a) Die Kontaktaufnahme mit der Studienberatung für weitere Tipps.",
+            "b) Eine sofortige Änderung ihrer Lernmethoden.",
+            "c) Eine individuelle Besprechung mit der Studienberatung für Max."
+          ],
+          "correct": "a",
+          "correctAnswer": "a",
+          "explanation": "Nach Annas Vorschlag zur Lerngruppe einigen sich beide darauf, auch die Studienberatung für zusätzliche Ratschläge zu kontaktieren.",
+          "segmentLabel": "Aufnahme 1",
+          "passageId": "gen-p-h1-f7b63670-s1",
+          "lang": "de",
+          "skills": [
+            "listening"
+          ],
+          "language": "de",
+          "examType": "goethe",
+          "difficulty": 5,
+          "topicTags": [
+            "Bildung"
+          ],
+          "vocabularyTags": [
+            "Studienberatung",
+            "Kontaktaufnahme",
+            "zusätzlich",
+            "Lerngruppe",
+            "vereinbar",
+            "Aufnahme"
+          ],
+          "grammarTags": [
+            "g-de-b2-nominal"
+          ]
+        },
+        {
+          "id": "gen-q-h1-f7b63670-s2-q1",
+          "module": "horen",
+          "teil": 1,
+          "level": "B2",
+          "type": "richtig_falsch",
+          "question": "Aufnahme 2: Der Tipp empfiehlt, nur passiv zuzuhören, um effektiv zu lernen.",
+          "options": [],
+          "correct": "Falsch",
+          "correctAnswer": "Falsch",
+          "explanation": "Der Sprecher rät ausdrücklich davon ab, nur passiv zuzuhören, und betont die Wichtigkeit aktiver Mitarbeit.",
+          "segmentLabel": "Aufnahme 2",
+          "passageId": "gen-p-h1-f7b63670-s2",
+          "lang": "de",
+          "skills": [
+            "listening"
+          ],
+          "language": "de",
+          "examType": "goethe",
+          "difficulty": 5,
+          "topicTags": [
+            "Bildung"
+          ],
+          "vocabularyTags": [
+            "zuhören",
+            "lernen",
+            "Aufnahme",
+            "effektiv",
+            "passiv"
+          ],
+          "grammarTags": [
+            "g-de-b2-nominal"
+          ]
+        },
+        {
+          "id": "gen-q-h1-f7b63670-s2-q2",
+          "module": "horen",
+          "teil": 1,
+          "level": "B2",
+          "type": "multiple_choice",
+          "question": "Aufnahme 2: Was wird als entscheidend für eine erfolgreiche Prüfungsvorbereitung genannt?",
+          "options": [
+            "a) Regelmäßige Pausen während des Lernens.",
+            "b) Das ausschließliche Lernen in Gruppen.",
+            "c) Das Erstellen von detaillierten Zeitplänen."
+          ],
+          "correct": "a",
+          "correctAnswer": "a",
+          "explanation": "Im Tipp wird betont, dass regelmäßige Pausen für eine erfolgreiche Prüfungsvorbereitung unerlässlich sind.",
+          "segmentLabel": "Aufnahme 2",
+          "passageId": "gen-p-h1-f7b63670-s2",
+          "lang": "de",
+          "skills": [
+            "listening"
+          ],
+          "language": "de",
+          "examType": "goethe",
+          "difficulty": 5,
+          "topicTags": [
+            "Bildung"
+          ],
+          "vocabularyTags": [
+            "Prüfungsvorbereitung",
+            "pausen",
+            "entscheidend",
+            "erfolgreich",
+            "Regelmäßige",
+            "Aufnahme"
+          ],
+          "grammarTags": [
+            "g-de-b2-passiv",
+            "g-de-b2-nominal"
+          ]
+        },
+        {
+          "id": "gen-q-h1-f7b63670-s3-q1",
+          "module": "horen",
+          "teil": 1,
+          "level": "B2",
+          "type": "richtig_falsch",
+          "question": "Aufnahme 3: Die Lehrerin bietet zusätzliche Förderstunden für Lukas an.",
+          "options": [],
+          "correct": "Richtig",
+          "correctAnswer": "Richtig",
+          "explanation": "Die Lehrerin schlägt vor, Lukas durch zusätzliche Förderstunden zu unterstützen, um seine Schwierigkeiten im Unterricht zu überwinden.",
+          "segmentLabel": "Aufnahme 3",
+          "passageId": "gen-p-h1-f7b63670-s3",
+          "lang": "de",
+          "skills": [
+            "listening"
+          ],
+          "language": "de",
+          "examType": "goethe",
+          "difficulty": 5,
+          "topicTags": [
+            "Bildung"
+          ],
+          "vocabularyTags": [
+            "bieten",
+            "Lehrerin",
+            "förderstunden",
+            "zusätzlich",
+            "Aufnahme",
+            "Lukas"
+          ],
+          "grammarTags": []
+        },
+        {
+          "id": "gen-q-h1-f7b63670-s3-q2",
+          "module": "horen",
+          "teil": 1,
+          "level": "B2",
+          "type": "multiple_choice",
+          "question": "Aufnahme 3: Wofür bittet Frau Keller um Empfehlungen?",
+          "options": [
+            "a) Für eine neue Schule mit einem einfacheren Lehrplan.",
+            "b) Für die Prüfungsvorbereitung zu Hause.",
+            "c) Für eine individuelle Studienberatung für Lukas."
+          ],
+          "correct": "b",
+          "correctAnswer": "b",
+          "explanation": "Frau Keller erkundigt sich bei der Lehrerin nach Empfehlungen und Materialien für die Prüfungsvorbereitung, die Lukas zu Hause nutzen kann.",
+          "segmentLabel": "Aufnahme 3",
+          "passageId": "gen-p-h1-f7b63670-s3",
+          "lang": "de",
+          "skills": [
+            "listening"
+          ],
+          "language": "de",
+          "examType": "goethe",
+          "difficulty": 5,
+          "topicTags": [
+            "Bildung"
+          ],
+          "vocabularyTags": [
+            "bitten",
+            "Prüfungsvorbereitung",
+            "Empfehlungen",
+            "Aufnahme",
+            "Keller",
+            "Frau"
+          ],
+          "grammarTags": [
+            "g-de-b2-relativ",
+            "g-de-b2-nominal"
+          ]
+        },
+        {
+          "id": "gen-q-h1-f7b63670-s4-q1",
+          "module": "horen",
+          "teil": 1,
+          "level": "B2",
+          "type": "richtig_falsch",
+          "question": "Aufnahme 4: Das Seminar \"Effektive Lernmethoden\" findet wie geplant nächste Woche statt.",
+          "options": [],
+          "correct": "Falsch",
+          "correctAnswer": "Falsch",
+          "explanation": "Das Seminar wird aufgrund der Erkrankung des Dozenten verschoben und findet nicht wie geplant statt.",
+          "segmentLabel": "Aufnahme 4",
+          "passageId": "gen-p-h1-f7b63670-s4",
+          "lang": "de",
+          "skills": [
+            "listening"
+          ],
+          "language": "de",
+          "examType": "goethe",
+          "difficulty": 5,
+          "topicTags": [
+            "Bildung"
+          ],
+          "vocabularyTags": [
+            "stattfinden",
+            "lernmethoden",
+            "Effektive",
+            "Aufnahme",
+            "Seminar",
+            "Woche"
+          ],
+          "grammarTags": [
+            "g-de-b2-passiv",
+            "g-de-b2-nominal"
+          ]
+        },
+        {
+          "id": "gen-q-h1-f7b63670-s4-q2",
+          "module": "horen",
+          "teil": 1,
+          "level": "B2",
+          "type": "multiple_choice",
+          "question": "Aufnahme 4: Wie erhalten die Teilnehmer Informationen über den neuen Termin?",
+          "options": [
+            "a) Über die Studienberatung.",
+            "b) Durch einen Anruf bei der Volkshochschule.",
+            "c) Per E-Mail."
+          ],
+          "correct": "c",
+          "correctAnswer": "c",
+          "explanation": "Die Volkshochschule informiert die Teilnehmer über den neuen Termin per E-Mail.",
+          "segmentLabel": "Aufnahme 4",
+          "passageId": "gen-p-h1-f7b63670-s4",
+          "lang": "de",
+          "skills": [
+            "listening"
+          ],
+          "language": "de",
+          "examType": "goethe",
+          "difficulty": 5,
+          "topicTags": [
+            "Bildung"
+          ],
+          "vocabularyTags": [
+            "erhalten",
+            "Termin",
+            "Informationen",
+            "Teilnehmer",
+            "Aufnahme",
+            "e-mail"
+          ],
+          "grammarTags": []
+        },
+        {
+          "id": "gen-q-h1-f7b63670-s5-q1",
+          "module": "horen",
+          "teil": 1,
+          "level": "B2",
+          "type": "richtig_falsch",
+          "question": "Aufnahme 5: Herr Neumann interessiert sich für einen Kurs über digitale Lernmethoden.",
+          "options": [],
+          "correct": "Richtig",
+          "correctAnswer": "Richtig",
+          "explanation": "Herr Neumann äußert sein spezifisches Interesse an einem Weiterbildungskurs, der sich mit digitalen Lernmethoden befasst.",
+          "segmentLabel": "Aufnahme 5",
+          "passageId": "gen-p-h1-f7b63670-s5",
+          "lang": "de",
+          "skills": [
+            "listening"
+          ],
+          "language": "de",
+          "examType": "goethe",
+          "difficulty": 5,
+          "topicTags": [
+            "Bildung"
+          ],
+          "vocabularyTags": [
+            "lernmethoden",
+            "Aufnahme",
+            "Neumann",
+            "digital",
+            "Kurs"
+          ],
+          "grammarTags": []
+        },
+        {
+          "id": "gen-q-h1-f7b63670-s5-q2",
+          "module": "horen",
+          "teil": 1,
+          "level": "B2",
+          "type": "multiple_choice",
+          "question": "Aufnahme 5: Was empfiehlt Frau Richter Herrn Neumann bezüglich der Planung seiner Weiterbildung?",
+          "options": [
+            "a) Er sollte sich direkt für den Kurs anmelden.",
+            "b) Er sollte die Studienberatung der Akademie kontaktieren.",
+            "c) Er sollte nur Kurse mit geringem Zeitaufwand wählen."
+          ],
+          "correct": "b",
+          "correctAnswer": "b",
+          "explanation": "Frau Richter empfiehlt Herrn Neumann, die Studienberatung der Akademie zu kontaktieren, um Hilfe bei der Planung seiner Weiterbildung zu erhalten und einen passenden Lehrplan zu finden.",
+          "segmentLabel": "Aufnahme 5",
+          "passageId": "gen-p-h1-f7b63670-s5",
+          "lang": "de",
+          "skills": [
+            "listening"
+          ],
+          "language": "de",
+          "examType": "goethe",
+          "difficulty": 5,
+          "topicTags": [
+            "Bildung"
+          ],
+          "vocabularyTags": [
+            "Studienberatung",
+            "Weiterbildung",
+            "kontaktieren",
+            "Planung",
+            "bezüglich"
+          ],
+          "grammarTags": [
+            "g-de-b2-konj1",
+            "g-de-b2-nominal"
+          ]
+        }
+      ],
+      "topicTag": "Bildung",
+      "instruction": "",
+      "segments": [
+        {
+          "passageId": "gen-p-h1-f7b63670-s1",
+          "label": "Prüfungsvorbereitung in der Lerngruppe",
+          "text": "Anna: Hallo Max, hast du schon über die Prüfungsvorbereitung für nächste Woche nachgedacht? Ich wollte eine Lerngruppe vorschlagen.\nMax: Gute Idee, Anna! Ich bin noch unsicher, welche Lernmethode am besten ist. Alleine lernen fällt mir schwer.\nAnna: Wir könnten uns montags treffen, um den Lehrplan gemeinsam durchzugehen. Das hilft oft, schwierige Themen zu verstehen.\nMax: Montags passt mir gut. Vielleicht sollten wir auch die Studienberatung fragen, ob sie Tipps für uns hat.\nAnna: Ja, das ist eine gute Ergänzung. Dann machen wir das so.",
+          "transcript": "Anna: Hallo Max, hast du schon über die Prüfungsvorbereitung für nächste Woche nachgedacht? Ich wollte eine Lerngruppe vorschlagen.\nMax: Gute Idee, Anna! Ich bin noch unsicher, welche Lernmethode am besten ist. Alleine lernen fällt mir schwer.\nAnna: Wir könnten uns montags treffen, um den Lehrplan gemeinsam durchzugehen. Das hilft oft, schwierige Themen zu verstehen.\nMax: Montags passt mir gut. Vielleicht sollten wir auch die Studienberatung fragen, ob sie Tipps für uns hat.\nAnna: Ja, das ist eine gute Ergänzung. Dann machen wir das so.",
+          "questions": [
+            {
+              "id": "gen-q-h1-f7b63670-s1-q1",
+              "module": "horen",
+              "teil": 1,
+              "level": "B2",
+              "type": "richtig_falsch",
+              "question": "Sie hören fünf Gespräche und Äußerungen. Sie hören jeden Text einmal.\nZu jedem Text lösen Sie zwei Aufgaben: Richtig/Falsch und Multiple Choice.\n\nAufnahme 1: Anna schlägt vor, eine Lerngruppe zu bilden.",
+              "options": [],
+              "correct": "Richtig",
+              "correctAnswer": "Richtig",
+              "explanation": "Anna initiiert das Gespräch mit dem Vorschlag, eine Lerngruppe für die Prüfungsvorbereitung zu bilden.",
+              "segmentLabel": "Aufnahme 1",
+              "passageId": "gen-p-h1-f7b63670-s1",
+              "lang": "de",
+              "skills": [
+                "listening"
+              ],
+              "language": "de",
+              "examType": "goethe",
+              "difficulty": 5,
+              "topicTags": [
+                "Bildung"
+              ],
+              "vocabularyTags": [
+                "einmal",
+                "Äußerung",
+                "aufgaben",
+                "bilden",
+                "Lerngruppe"
+              ],
+              "grammarTags": [
+                "g-de-b2-nominal"
+              ]
+            },
+            {
+              "id": "gen-q-h1-f7b63670-s1-q2",
+              "module": "horen",
+              "teil": 1,
+              "level": "B2",
+              "type": "multiple_choice",
+              "question": "Aufnahme 1: Was vereinbaren Anna und Max zusätzlich zur Lerngruppe?",
+              "options": [
+                "a) Die Kontaktaufnahme mit der Studienberatung für weitere Tipps.",
+                "b) Eine sofortige Änderung ihrer Lernmethoden.",
+                "c) Eine individuelle Besprechung mit der Studienberatung für Max."
+              ],
+              "correct": "a",
+              "correctAnswer": "a",
+              "explanation": "Nach Annas Vorschlag zur Lerngruppe einigen sich beide darauf, auch die Studienberatung für zusätzliche Ratschläge zu kontaktieren.",
+              "segmentLabel": "Aufnahme 1",
+              "passageId": "gen-p-h1-f7b63670-s1",
+              "lang": "de",
+              "skills": [
+                "listening"
+              ],
+              "language": "de",
+              "examType": "goethe",
+              "difficulty": 5,
+              "topicTags": [
+                "Bildung"
+              ],
+              "vocabularyTags": [
+                "Studienberatung",
+                "Kontaktaufnahme",
+                "zusätzlich",
+                "Lerngruppe",
+                "vereinbar",
+                "Aufnahme"
+              ],
+              "grammarTags": [
+                "g-de-b2-nominal"
+              ]
+            }
+          ]
+        },
+        {
+          "passageId": "gen-p-h1-f7b63670-s2",
+          "label": "Bildungstipp für effektives Lernen",
+          "text": "Sprecherin: Willkommen zu unserem Bildungstipp des Tages! Viele fragen sich, wie man effektiv lernt. Ein wichtiger Aspekt ist die Lernmethode. Versuchen Sie, nicht nur passiv zuzuhören, sondern aktiv mitzuarbeiten. Diskutieren Sie den Stoff, erstellen Sie Mindmaps oder fassen Sie Gelerntes in eigenen Worten zusammen. Regelmäßige Pausen sind ebenfalls entscheidend für eine erfolgreiche Prüfungsvorbereitung. So bleibt das Gehirn frisch und aufnahmefähig.",
+          "transcript": "Sprecherin: Willkommen zu unserem Bildungstipp des Tages! Viele fragen sich, wie man effektiv lernt. Ein wichtiger Aspekt ist die Lernmethode. Versuchen Sie, nicht nur passiv zuzuhören, sondern aktiv mitzuarbeiten. Diskutieren Sie den Stoff, erstellen Sie Mindmaps oder fassen Sie Gelerntes in eigenen Worten zusammen. Regelmäßige Pausen sind ebenfalls entscheidend für eine erfolgreiche Prüfungsvorbereitung. So bleibt das Gehirn frisch und aufnahmefähig.",
+          "questions": [
+            {
+              "id": "gen-q-h1-f7b63670-s2-q1",
+              "module": "horen",
+              "teil": 1,
+              "level": "B2",
+              "type": "richtig_falsch",
+              "question": "Aufnahme 2: Der Tipp empfiehlt, nur passiv zuzuhören, um effektiv zu lernen.",
+              "options": [],
+              "correct": "Falsch",
+              "correctAnswer": "Falsch",
+              "explanation": "Der Sprecher rät ausdrücklich davon ab, nur passiv zuzuhören, und betont die Wichtigkeit aktiver Mitarbeit.",
+              "segmentLabel": "Aufnahme 2",
+              "passageId": "gen-p-h1-f7b63670-s2",
+              "lang": "de",
+              "skills": [
+                "listening"
+              ],
+              "language": "de",
+              "examType": "goethe",
+              "difficulty": 5,
+              "topicTags": [
+                "Bildung"
+              ],
+              "vocabularyTags": [
+                "zuhören",
+                "lernen",
+                "Aufnahme",
+                "effektiv",
+                "passiv"
+              ],
+              "grammarTags": [
+                "g-de-b2-nominal"
+              ]
+            },
+            {
+              "id": "gen-q-h1-f7b63670-s2-q2",
+              "module": "horen",
+              "teil": 1,
+              "level": "B2",
+              "type": "multiple_choice",
+              "question": "Aufnahme 2: Was wird als entscheidend für eine erfolgreiche Prüfungsvorbereitung genannt?",
+              "options": [
+                "a) Regelmäßige Pausen während des Lernens.",
+                "b) Das ausschließliche Lernen in Gruppen.",
+                "c) Das Erstellen von detaillierten Zeitplänen."
+              ],
+              "correct": "a",
+              "correctAnswer": "a",
+              "explanation": "Im Tipp wird betont, dass regelmäßige Pausen für eine erfolgreiche Prüfungsvorbereitung unerlässlich sind.",
+              "segmentLabel": "Aufnahme 2",
+              "passageId": "gen-p-h1-f7b63670-s2",
+              "lang": "de",
+              "skills": [
+                "listening"
+              ],
+              "language": "de",
+              "examType": "goethe",
+              "difficulty": 5,
+              "topicTags": [
+                "Bildung"
+              ],
+              "vocabularyTags": [
+                "Prüfungsvorbereitung",
+                "pausen",
+                "entscheidend",
+                "erfolgreich",
+                "Regelmäßige",
+                "Aufnahme"
+              ],
+              "grammarTags": [
+                "g-de-b2-passiv",
+                "g-de-b2-nominal"
+              ]
+            }
+          ]
+        },
+        {
+          "passageId": "gen-p-h1-f7b63670-s3",
+          "label": "Elterngespräch über Lernfortschritte",
+          "text": "Frau Keller: Guten Tag, Frau Braun. Ich wollte mich erkundigen, wie es mit dem Lehrplan für meinen Sohn Lukas aussieht. Er hat manchmal Schwierigkeiten, dem Unterricht zu folgen.\nFrau Braun: Guten Tag, Frau Keller. Lukas macht gute Fortschritte, aber ja, einige Themen im Lehrplan sind anspruchsvoll. Wir bieten zusätzliche Förderstunden an, die ihm helfen könnten.\nFrau Keller: Das wäre eine große Hilfe. Gibt es auch Empfehlungen für die Prüfungsvorbereitung zu Hause?\nFrau Braun: Ja, ich kann Ihnen einige Materialien mitgeben. Eine gute Lernmethode ist hier entscheidend.",
+          "transcript": "Frau Keller: Guten Tag, Frau Braun. Ich wollte mich erkundigen, wie es mit dem Lehrplan für meinen Sohn Lukas aussieht. Er hat manchmal Schwierigkeiten, dem Unterricht zu folgen.\nFrau Braun: Guten Tag, Frau Keller. Lukas macht gute Fortschritte, aber ja, einige Themen im Lehrplan sind anspruchsvoll. Wir bieten zusätzliche Förderstunden an, die ihm helfen könnten.\nFrau Keller: Das wäre eine große Hilfe. Gibt es auch Empfehlungen für die Prüfungsvorbereitung zu Hause?\nFrau Braun: Ja, ich kann Ihnen einige Materialien mitgeben. Eine gute Lernmethode ist hier entscheidend.",
+          "questions": [
+            {
+              "id": "gen-q-h1-f7b63670-s3-q1",
+              "module": "horen",
+              "teil": 1,
+              "level": "B2",
+              "type": "richtig_falsch",
+              "question": "Aufnahme 3: Die Lehrerin bietet zusätzliche Förderstunden für Lukas an.",
+              "options": [],
+              "correct": "Richtig",
+              "correctAnswer": "Richtig",
+              "explanation": "Die Lehrerin schlägt vor, Lukas durch zusätzliche Förderstunden zu unterstützen, um seine Schwierigkeiten im Unterricht zu überwinden.",
+              "segmentLabel": "Aufnahme 3",
+              "passageId": "gen-p-h1-f7b63670-s3",
+              "lang": "de",
+              "skills": [
+                "listening"
+              ],
+              "language": "de",
+              "examType": "goethe",
+              "difficulty": 5,
+              "topicTags": [
+                "Bildung"
+              ],
+              "vocabularyTags": [
+                "bieten",
+                "Lehrerin",
+                "förderstunden",
+                "zusätzlich",
+                "Aufnahme",
+                "Lukas"
+              ],
+              "grammarTags": []
+            },
+            {
+              "id": "gen-q-h1-f7b63670-s3-q2",
+              "module": "horen",
+              "teil": 1,
+              "level": "B2",
+              "type": "multiple_choice",
+              "question": "Aufnahme 3: Wofür bittet Frau Keller um Empfehlungen?",
+              "options": [
+                "a) Für eine neue Schule mit einem einfacheren Lehrplan.",
+                "b) Für die Prüfungsvorbereitung zu Hause.",
+                "c) Für eine individuelle Studienberatung für Lukas."
+              ],
+              "correct": "b",
+              "correctAnswer": "b",
+              "explanation": "Frau Keller erkundigt sich bei der Lehrerin nach Empfehlungen und Materialien für die Prüfungsvorbereitung, die Lukas zu Hause nutzen kann.",
+              "segmentLabel": "Aufnahme 3",
+              "passageId": "gen-p-h1-f7b63670-s3",
+              "lang": "de",
+              "skills": [
+                "listening"
+              ],
+              "language": "de",
+              "examType": "goethe",
+              "difficulty": 5,
+              "topicTags": [
+                "Bildung"
+              ],
+              "vocabularyTags": [
+                "bitten",
+                "Prüfungsvorbereitung",
+                "Empfehlungen",
+                "Aufnahme",
+                "Keller",
+                "Frau"
+              ],
+              "grammarTags": [
+                "g-de-b2-relativ",
+                "g-de-b2-nominal"
+              ]
+            }
+          ]
+        },
+        {
+          "passageId": "gen-p-h1-f7b63670-s4",
+          "label": "Nachricht der Volkshochschule",
+          "text": "Sprecher: Guten Tag, hier ist die Volkshochschule. Wir rufen bezüglich des Seminars \"Effektive Lernmethoden\" an, das nächste Woche stattfinden sollte. Aufgrund einer kurzfristigen Erkrankung des Dozenten muss die Weiterbildung leider verschoben werden. Wir bitten um Ihr Verständnis. Ein neuer Termin wird Ihnen per E-Mail mitgeteilt. Für Fragen zur Studienberatung oder zum Lehrplan erreichen Sie uns während der Bürozeiten.",
+          "transcript": "Sprecher: Guten Tag, hier ist die Volkshochschule. Wir rufen bezüglich des Seminars \"Effektive Lernmethoden\" an, das nächste Woche stattfinden sollte. Aufgrund einer kurzfristigen Erkrankung des Dozenten muss die Weiterbildung leider verschoben werden. Wir bitten um Ihr Verständnis. Ein neuer Termin wird Ihnen per E-Mail mitgeteilt. Für Fragen zur Studienberatung oder zum Lehrplan erreichen Sie uns während der Bürozeiten.",
+          "questions": [
+            {
+              "id": "gen-q-h1-f7b63670-s4-q1",
+              "module": "horen",
+              "teil": 1,
+              "level": "B2",
+              "type": "richtig_falsch",
+              "question": "Aufnahme 4: Das Seminar \"Effektive Lernmethoden\" findet wie geplant nächste Woche statt.",
+              "options": [],
+              "correct": "Falsch",
+              "correctAnswer": "Falsch",
+              "explanation": "Das Seminar wird aufgrund der Erkrankung des Dozenten verschoben und findet nicht wie geplant statt.",
+              "segmentLabel": "Aufnahme 4",
+              "passageId": "gen-p-h1-f7b63670-s4",
+              "lang": "de",
+              "skills": [
+                "listening"
+              ],
+              "language": "de",
+              "examType": "goethe",
+              "difficulty": 5,
+              "topicTags": [
+                "Bildung"
+              ],
+              "vocabularyTags": [
+                "stattfinden",
+                "lernmethoden",
+                "Effektive",
+                "Aufnahme",
+                "Seminar",
+                "Woche"
+              ],
+              "grammarTags": [
+                "g-de-b2-passiv",
+                "g-de-b2-nominal"
+              ]
+            },
+            {
+              "id": "gen-q-h1-f7b63670-s4-q2",
+              "module": "horen",
+              "teil": 1,
+              "level": "B2",
+              "type": "multiple_choice",
+              "question": "Aufnahme 4: Wie erhalten die Teilnehmer Informationen über den neuen Termin?",
+              "options": [
+                "a) Über die Studienberatung.",
+                "b) Durch einen Anruf bei der Volkshochschule.",
+                "c) Per E-Mail."
+              ],
+              "correct": "c",
+              "correctAnswer": "c",
+              "explanation": "Die Volkshochschule informiert die Teilnehmer über den neuen Termin per E-Mail.",
+              "segmentLabel": "Aufnahme 4",
+              "passageId": "gen-p-h1-f7b63670-s4",
+              "lang": "de",
+              "skills": [
+                "listening"
+              ],
+              "language": "de",
+              "examType": "goethe",
+              "difficulty": 5,
+              "topicTags": [
+                "Bildung"
+              ],
+              "vocabularyTags": [
+                "erhalten",
+                "Termin",
+                "Informationen",
+                "Teilnehmer",
+                "Aufnahme",
+                "e-mail"
+              ],
+              "grammarTags": []
+            }
+          ]
+        },
+        {
+          "passageId": "gen-p-h1-f7b63670-s5",
+          "label": "Kollegen sprechen über Weiterbildung",
+          "text": "Herr Neumann: Hallo Frau Richter, ich überlege, eine Weiterbildung zu machen. Besonders interessiert mich ein Kurs über digitale Lernmethoden.\nFrau Richter: Das ist eine gute Idee, Herr Neumann! Ich habe letztes Jahr selbst eine Weiterbildung abgeschlossen. Die Prüfungsvorbereitung war intensiv, aber es hat sich gelohnt.\nHerr Neumann: Ich bin noch unsicher wegen des Zeitaufwands. Wie haben Sie das mit dem Berufsalltag vereinbart?\nFrau Richter: Man muss gut planen. Vielleicht kann Ihnen die Studienberatung der Akademie helfen, einen passenden Lehrplan zu finden.",
+          "transcript": "Herr Neumann: Hallo Frau Richter, ich überlege, eine Weiterbildung zu machen. Besonders interessiert mich ein Kurs über digitale Lernmethoden.\nFrau Richter: Das ist eine gute Idee, Herr Neumann! Ich habe letztes Jahr selbst eine Weiterbildung abgeschlossen. Die Prüfungsvorbereitung war intensiv, aber es hat sich gelohnt.\nHerr Neumann: Ich bin noch unsicher wegen des Zeitaufwands. Wie haben Sie das mit dem Berufsalltag vereinbart?\nFrau Richter: Man muss gut planen. Vielleicht kann Ihnen die Studienberatung der Akademie helfen, einen passenden Lehrplan zu finden.",
+          "questions": [
+            {
+              "id": "gen-q-h1-f7b63670-s5-q1",
+              "module": "horen",
+              "teil": 1,
+              "level": "B2",
+              "type": "richtig_falsch",
+              "question": "Aufnahme 5: Herr Neumann interessiert sich für einen Kurs über digitale Lernmethoden.",
+              "options": [],
+              "correct": "Richtig",
+              "correctAnswer": "Richtig",
+              "explanation": "Herr Neumann äußert sein spezifisches Interesse an einem Weiterbildungskurs, der sich mit digitalen Lernmethoden befasst.",
+              "segmentLabel": "Aufnahme 5",
+              "passageId": "gen-p-h1-f7b63670-s5",
+              "lang": "de",
+              "skills": [
+                "listening"
+              ],
+              "language": "de",
+              "examType": "goethe",
+              "difficulty": 5,
+              "topicTags": [
+                "Bildung"
+              ],
+              "vocabularyTags": [
+                "lernmethoden",
+                "Aufnahme",
+                "Neumann",
+                "digital",
+                "Kurs"
+              ],
+              "grammarTags": []
+            },
+            {
+              "id": "gen-q-h1-f7b63670-s5-q2",
+              "module": "horen",
+              "teil": 1,
+              "level": "B2",
+              "type": "multiple_choice",
+              "question": "Aufnahme 5: Was empfiehlt Frau Richter Herrn Neumann bezüglich der Planung seiner Weiterbildung?",
+              "options": [
+                "a) Er sollte sich direkt für den Kurs anmelden.",
+                "b) Er sollte die Studienberatung der Akademie kontaktieren.",
+                "c) Er sollte nur Kurse mit geringem Zeitaufwand wählen."
+              ],
+              "correct": "b",
+              "correctAnswer": "b",
+              "explanation": "Frau Richter empfiehlt Herrn Neumann, die Studienberatung der Akademie zu kontaktieren, um Hilfe bei der Planung seiner Weiterbildung zu erhalten und einen passenden Lehrplan zu finden.",
+              "segmentLabel": "Aufnahme 5",
+              "passageId": "gen-p-h1-f7b63670-s5",
+              "lang": "de",
+              "skills": [
+                "listening"
+              ],
+              "language": "de",
+              "examType": "goethe",
+              "difficulty": 5,
+              "topicTags": [
+                "Bildung"
+              ],
+              "vocabularyTags": [
+                "Studienberatung",
+                "Weiterbildung",
+                "kontaktieren",
+                "Planung",
+                "bezüglich"
+              ],
+              "grammarTags": [
+                "g-de-b2-konj1",
+                "g-de-b2-nominal"
+              ]
+            }
+          ]
+        }
+      ],
+      "passage": {
+        "title": "Prüfungsvorbereitung in der Lerngruppe",
+        "text": "Anna: Hallo Max, hast du schon über die Prüfungsvorbereitung für nächste Woche nachgedacht? Ich wollte eine Lerngruppe vorschlagen.\nMax: Gute Idee, Anna! Ich bin noch unsicher, welche Lernmethode am besten ist. Alleine lernen fällt mir schwer.\nAnna: Wir könnten uns montags treffen, um den Lehrplan gemeinsam durchzugehen. Das hilft oft, schwierige Themen zu verstehen.\nMax: Montags passt mir gut. Vielleicht sollten wir auch die Studienberatung fragen, ob sie Tipps für uns hat.\nAnna: Ja, das ist eine gute Ergänzung. Dann machen wir das so.",
+        "transcript": "Anna: Hallo Max, hast du schon über die Prüfungsvorbereitung für nächste Woche nachgedacht? Ich wollte eine Lerngruppe vorschlagen.\nMax: Gute Idee, Anna! Ich bin noch unsicher, welche Lernmethode am besten ist. Alleine lernen fällt mir schwer.\nAnna: Wir könnten uns montags treffen, um den Lehrplan gemeinsam durchzugehen. Das hilft oft, schwierige Themen zu verstehen.\nMax: Montags passt mir gut. Vielleicht sollten wir auch die Studienberatung fragen, ob sie Tipps für uns hat.\nAnna: Ja, das ist eine gute Ergänzung. Dann machen wir das so.",
+        "topicTag": "Bildung"
+      },
+      "sourceFile": "batches/ready/pool-verified/B2/horen-t1-gemini-070.json",
+      "contributor": "pool-verified-sync",
+      "complete": true,
+      "verified": true
+    },
+    {
+      "id": "horen-t2-gemini-113",
+      "module": "horen",
+      "teil": 2,
+      "lang": "de",
+      "level": "B2",
+      "questions": [
+        {
+          "id": "gen-q-h2-5a2db9ed-q1",
+          "module": "horen",
+          "teil": 2,
+          "level": "B2",
+          "type": "multiple_choice",
+          "question": "Sie hören im Radio ein Interview mit einer Persönlichkeit aus der Wissenschaft.\nSie hören den Text zweimal. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.\n\nWorauf weist Frau Professor Keller im ersten Abschnitt hin?",
+          "options": [
+            "a) Auf die Schwierigkeit, verlässliche Nachrichten zu finden.",
+            "b) Auf die Notwendigkeit, die Verbreitung von Falschinformationen zu stoppen.",
+            "c) Auf die immense Menge an Informationen, die uns täglich erreicht."
+          ],
+          "correct": "c",
+          "correctAnswer": "c",
+          "explanation": "Frau Professor Keller spricht von einer \"schiere Nachrichtenflut\", was die enorme Menge an Informationen beschreibt, die auf uns einströmt.",
+          "passageId": "gen-p-h2-5a2db9ed-p1",
+          "lang": "de",
+          "skills": [
+            "listening"
+          ],
+          "language": "de",
+          "examType": "goethe",
+          "difficulty": 5,
+          "topicTags": [
+            "Medien"
+          ],
+          "vocabularyTags": [
+            "Abschnitt",
+            "Aufgabe",
+            "täglich",
+            "Radio",
+            "Persönlichkeit",
+            "Wissenschaft"
+          ],
+          "grammarTags": [
+            "g-de-b2-relativ",
+            "g-de-b2-nominal"
+          ]
+        },
+        {
+          "id": "gen-q-h2-5a2db9ed-q2",
+          "module": "horen",
+          "teil": 2,
+          "level": "B2",
+          "type": "multiple_choice",
+          "question": "Was ist laut Frau Professor Keller entscheidend, um mit der Informationsflut umzugehen?",
+          "options": [
+            "a) Die Fähigkeit, schnell zwischen verschiedenen Quellen zu wechseln.",
+            "b) Eine kritische Haltung gegenüber allen Medieninhalten.",
+            "c) Das Wissen über die technischen Teil digitaler Medien."
+          ],
+          "correct": "b",
+          "correctAnswer": "b",
+          "explanation": "Sie betont, dass es entscheidend ist, Medieninhalte kritisch zu hinterfragen, Quellen zu prüfen und Absichten zu erkennen, was einer kritischen Haltung entspricht.",
+          "passageId": "gen-p-h2-5a2db9ed-p1",
+          "lang": "de",
+          "skills": [
+            "listening"
+          ],
+          "language": "de",
+          "examType": "goethe",
+          "difficulty": 5,
+          "topicTags": [
+            "Medien"
+          ],
+          "vocabularyTags": [
+            "medieninhalten",
+            "Haltung",
+            "Informationsflut",
+            "entscheidend",
+            "Professor",
+            "kritisch"
+          ],
+          "grammarTags": [
+            "g-de-b2-nominal"
+          ]
+        },
+        {
+          "id": "gen-q-h2-5a2db9ed-q3",
+          "module": "horen",
+          "teil": 2,
+          "level": "B2",
+          "type": "multiple_choice",
+          "question": "Welche Rolle spielt Qualitätsjournalismus im Kampf gegen Desinformation?",
+          "options": [
+            "a) Er ist die Grundlage für eine informierte Gesellschaft und sollte seine Arbeitsweise transparent machen.",
+            "b) Er sollte sich auf die Berichterstattung über lokale Ereignisse konzentrieren, um das Vertrauen der Leser zu stärken.",
+            "c) Er muss die Desinformation direkt widerlegen und die Hintergründe aufklären."
+          ],
+          "correct": "a",
+          "correctAnswer": "a",
+          "explanation": "Qualitätsjournalismus wird als Fundament einer informierten Gesellschaft bezeichnet, der in Recherche investieren und transparent arbeiten muss.",
+          "passageId": "gen-p-h2-5a2db9ed-p1",
+          "lang": "de",
+          "skills": [
+            "listening"
+          ],
+          "language": "de",
+          "examType": "goethe",
+          "difficulty": 5,
+          "topicTags": [
+            "Medien"
+          ],
+          "vocabularyTags": [
+            "Qualitätsjournalismus",
+            "Desinformation",
+            "Gesellschaft",
+            "informiert",
+            "spielen",
+            "Arbeitsweise"
+          ],
+          "grammarTags": [
+            "g-de-b2-passiv",
+            "g-de-b2-konj1",
+            "g-de-b2-nominal"
+          ]
+        },
+        {
+          "id": "gen-q-h2-5a2db9ed-q4",
+          "module": "horen",
+          "teil": 2,
+          "level": "B2",
+          "type": "multiple_choice",
+          "question": "Was ist laut Professor Keller eine Folge der digitalen Spaltung?",
+          "options": [
+            "a) Die Verstärkung bestehender sozialer Ungleichheiten in der Gesellschaft.",
+            "b) Eine Abnahme der allgemeinen Medienkompetenz in der Bevölkerung.",
+            "c) Eine geringere Nutzung von sozialen Medien durch ältere Menschen."
+          ],
+          "correct": "a",
+          "correctAnswer": "a",
+          "explanation": "Die digitale Spaltung verstärkt bestehende soziale Ungleichheiten, da Menschen von wichtigen Informationen und Diskursen ausgeschlossen werden können.",
+          "passageId": "gen-p-h2-5a2db9ed-p1",
+          "lang": "de",
+          "skills": [
+            "listening"
+          ],
+          "language": "de",
+          "examType": "goethe",
+          "difficulty": 5,
+          "topicTags": [
+            "Technik"
+          ],
+          "vocabularyTags": [
+            "Gesellschaft",
+            "Verstärkung",
+            "Spaltung",
+            "Ungleichheiten",
+            "Professor",
+            "bestehend"
+          ],
+          "grammarTags": [
+            "g-de-b2-passiv",
+            "g-de-b2-modus",
+            "g-de-b2-nominal"
+          ]
+        },
+        {
+          "id": "gen-q-h2-5a2db9ed-q5",
+          "module": "horen",
+          "teil": 2,
+          "level": "B2",
+          "type": "multiple_choice",
+          "question": "Welche Maßnahmen schlägt Frau Professor Keller vor, um die digitale Spaltung zu überwinden?",
+          "options": [
+            "a) Die Entwicklung neuer digitaler Technologien für alle Altersgruppen.",
+            "b) Eine stärkere Regulierung der Inhalte in sozialen Netzwerken.",
+            "c) Investitionen in Einrichtungen und Programme zur Förderung der Medienkompetenz."
+          ],
+          "correct": "c",
+          "correctAnswer": "c",
+          "explanation": "Sie nennt Investitionen in die Einrichtungen und die Förderung der Medienkompetenz durch Programme als unerlässlich.",
+          "passageId": "gen-p-h2-5a2db9ed-p1",
+          "lang": "de",
+          "skills": [
+            "listening"
+          ],
+          "language": "de",
+          "examType": "goethe",
+          "difficulty": 5,
+          "topicTags": [
+            "Technik"
+          ],
+          "vocabularyTags": [
+            "überwinden",
+            "Förderung",
+            "Spaltung",
+            "Medienkompetenz",
+            "Investitionen"
+          ],
+          "grammarTags": [
+            "g-de-b2-nominal"
+          ]
+        },
+        {
+          "id": "gen-q-h2-5a2db9ed-q6",
+          "module": "horen",
+          "teil": 2,
+          "level": "B2",
+          "type": "multiple_choice",
+          "question": "Welches übergeordnete Ziel verfolgt Frau Professor Keller mit ihren Vorschlägen?",
+          "options": [
+            "a) Eine umfassende Modernisierung der Medienlandschaft für zukünftige Generationen und deren Bedürfnisse.",
+            "b) Die gleichberechtigte Teilhabe aller an der Gesellschaft und die Möglichkeit zur fundierten Meinungsbildung.",
+            "c) Die Kontrolle der Nachrichtenverbreitung in sozialen Medien, um Falschinformationen effektiv zu bekämpfen."
+          ],
+          "correct": "b",
+          "correctAnswer": "b",
+          "explanation": "Das Ziel ist, sicherzustellen, dass jeder die Chance hat, sich eine fundierte Meinung zu bilden und aktiv am gesellschaftlichen Leben teilzunehmen.",
+          "passageId": "gen-p-h2-5a2db9ed-p1",
+          "lang": "de",
+          "skills": [
+            "listening"
+          ],
+          "language": "de",
+          "examType": "goethe",
+          "difficulty": 5,
+          "topicTags": [
+            "Medien"
+          ],
+          "vocabularyTags": [
+            "Meinungsbildung",
+            "Gesellschaft",
+            "vorschlägen",
+            "Möglichkeit",
+            "fundierten",
+            "gleichberechtigt"
+          ],
+          "grammarTags": [
+            "g-de-b2-nominal"
+          ]
+        }
+      ],
+      "topicTag": "Medien",
+      "instruction": "",
+      "passage": {
+        "title": "Interview: Medien in der digitalen Gesellschaft",
+        "text": "Moderator: Herzlich willkommen zu \"Wissenschaft im Gespräch\"! Heute sprechen wir mit Frau Professor Dr. Lena Keller, einer Expertin für Medienwissenschaft, über die Rolle der Medien in unserer Gesellschaft. Frau Professor Keller, die digitale Transformation hat die Medienlandschaft grundlegend verändert. Welche Herausforderungen sehen Sie dabei?\nProf. Keller: Guten Tag. Die Veränderungen sind enorm. Eine der größten Herausforderungen ist sicherlich die schiere Nachrichtenflut, die Täglich auf uns einströmt. Es wird immer schwieriger, relevante Informationen von irrelevanten zu trennen. Dazu kommt das Problem der Desinformation, die sich besonders in sozialen Netzwerken rasend schnell verbreiten kann. Das stellt unsere Fähigkeit zur kritischen Meinungsbildung auf eine harte Probe.\nModerator: Das klingt nach einer großen Belastung für den Einzelnen. Wie können wir damit umgehen?\nProf. Keller: Absolut. Hier kommt die Medienkompetenz ins Spiel. Es ist entscheidend, dass wir lernen, Medieninhalte kritisch zu hinterfragen, Quellen zu prüfen und die Absichten hinter Informationen zu erkennen. Das betrifft nicht nur junge Menschen, sondern alle Altersgruppen. Schulen, aber auch Erwachsenenbildung und die Medien selbst, haben hier eine wichtige Aufgabe.\nModerator: Sie sprechen die Verantwortung der Medien an. Welche Rolle spielen sie bei der Bekämpfung von Desinformation?\nProf. Keller: Eine sehr wichtige. Qualitätsjournalismus ist das Fundament einer informierten Gesellschaft. Medienhäuser müssen in investigative Recherche investieren und transparent machen, wie sie arbeiten. Gleichzeitig müssen sie Wege finden, ihre Inhalte so zu präsentieren, dass sie in der Nachrichtenflut nicht untergehen und von einem breiten Publikum wahrgenommen werden.\nModerator: Ein weiteres Thema, das oft diskutiert wird, ist die sogenannte \"digitale Spaltung\". Was bedeutet das genau und wie wirkt sie sich aus?\nProf. Keller: Die digitale Spaltung beschreibt die Ungleichheit beim Zugang zu digitalen Technologien und der Fähigkeit, diese effektiv zu nutzen. Das kann bedeuten, dass Menschen ohne Internetzugang oder ohne die nötigen Fähigkeiten von wichtigen Informationen und gesellschaftlichen Diskursen ausgeschlossen werden. Das verstärkt bestehende soziale Ungleichheiten und erschwert die Teilhabe an der digitalen Gesellschaft.\nModerator: Welche Lösungsansätze gibt es, um diese Spaltung zu überwinden?\nProf. Keller: Es braucht Investitionen in die Einrichtungen, um allen Zugang zu ermöglichen. Aber genauso wichtig ist die Förderung der Medienkompetenz für alle. Programme, die älteren Menschen oder sozial benachteiligten Gruppen den Umgang mit digitalen Medien beibringen, sind unerlässlich. Nur so können wir sicherstellen, dass niemand zurückgelassen wird und jeder die Chance hat, sich eine fundierte Meinung zu bilden und aktiv am gesellschaftlichen Leben teilzunehmen.\nModerator: Frau Professor Keller, vielen Dank für diese Aufschlussreichen Einblicke.\nProf. Keller: Gern geschehen.",
+        "transcript": "Moderator: Herzlich willkommen zu \"Wissenschaft im Gespräch\"! Heute sprechen wir mit Frau Professor Dr. Lena Keller, einer Expertin für Medienwissenschaft, über die Rolle der Medien in unserer Gesellschaft. Frau Professor Keller, die digitale Transformation hat die Medienlandschaft grundlegend verändert. Welche Herausforderungen sehen Sie dabei?\nProf. Keller: Guten Tag. Die Veränderungen sind enorm. Eine der größten Herausforderungen ist sicherlich die schiere Nachrichtenflut, die Täglich auf uns einströmt. Es wird immer schwieriger, relevante Informationen von irrelevanten zu trennen. Dazu kommt das Problem der Desinformation, die sich besonders in sozialen Netzwerken rasend schnell verbreiten kann. Das stellt unsere Fähigkeit zur kritischen Meinungsbildung auf eine harte Probe.\nModerator: Das klingt nach einer großen Belastung für den Einzelnen. Wie können wir damit umgehen?\nProf. Keller: Absolut. Hier kommt die Medienkompetenz ins Spiel. Es ist entscheidend, dass wir lernen, Medieninhalte kritisch zu hinterfragen, Quellen zu prüfen und die Absichten hinter Informationen zu erkennen. Das betrifft nicht nur junge Menschen, sondern alle Altersgruppen. Schulen, aber auch Erwachsenenbildung und die Medien selbst, haben hier eine wichtige Aufgabe.\nModerator: Sie sprechen die Verantwortung der Medien an. Welche Rolle spielen sie bei der Bekämpfung von Desinformation?\nProf. Keller: Eine sehr wichtige. Qualitätsjournalismus ist das Fundament einer informierten Gesellschaft. Medienhäuser müssen in investigative Recherche investieren und transparent machen, wie sie arbeiten. Gleichzeitig müssen sie Wege finden, ihre Inhalte so zu präsentieren, dass sie in der Nachrichtenflut nicht untergehen und von einem breiten Publikum wahrgenommen werden.\nModerator: Ein weiteres Thema, das oft diskutiert wird, ist die sogenannte \"digitale Spaltung\". Was bedeutet das genau und wie wirkt sie sich aus?\nProf. Keller: Die digitale Spaltung beschreibt die Ungleichheit beim Zugang zu digitalen Technologien und der Fähigkeit, diese effektiv zu nutzen. Das kann bedeuten, dass Menschen ohne Internetzugang oder ohne die nötigen Fähigkeiten von wichtigen Informationen und gesellschaftlichen Diskursen ausgeschlossen werden. Das verstärkt bestehende soziale Ungleichheiten und erschwert die Teilhabe an der digitalen Gesellschaft.\nModerator: Welche Lösungsansätze gibt es, um diese Spaltung zu überwinden?\nProf. Keller: Es braucht Investitionen in die Einrichtungen, um allen Zugang zu ermöglichen. Aber genauso wichtig ist die Förderung der Medienkompetenz für alle. Programme, die älteren Menschen oder sozial benachteiligten Gruppen den Umgang mit digitalen Medien beibringen, sind unerlässlich. Nur so können wir sicherstellen, dass niemand zurückgelassen wird und jeder die Chance hat, sich eine fundierte Meinung zu bilden und aktiv am gesellschaftlichen Leben teilzunehmen.\nModerator: Frau Professor Keller, vielen Dank für diese Aufschlussreichen Einblicke.\nProf. Keller: Gern geschehen.",
+        "topicTag": "Medien"
+      },
+      "sourceFile": "batches/ready/pool-verified/B2/horen-t2-gemini-113.json",
+      "contributor": "pool-verified-sync",
+      "complete": true,
+      "verified": true
+    },
+    {
+      "id": "horen-t3-gemini-087",
+      "module": "horen",
+      "teil": 3,
+      "lang": "de",
+      "level": "B2",
+      "questions": [
+        {
+          "id": "gen-q-h3-umwelt-panel-q1",
+          "module": "horen",
+          "teil": 3,
+          "level": "B2",
+          "type": "matching",
+          "question": "Sie hören im Radio ein Gespräch mit mehreren Personen.\nSie hören den Text einmal. Wählen Sie bei jeder Aufgabe: Wer sagt das?\n\nTrotz unterschiedlicher Ansichten ist ein gemeinsamer Wille zur Veränderung im Umweltschutz erkennbar.",
+          "options": [
+            "A) Der Moderator",
+            "B) Dr. Lena Schmidt, die Umweltwissenschaftlerin",
+            "C) Markus Weber, der Vertreter des Wirtschaftsverbandes",
+            "D) Sarah Müller, die Umweltaktivistin"
+          ],
+          "correct": "A",
+          "correctAnswer": "A",
+          "explanation": "Der Moderator beendet die Diskussion mit der Feststellung, dass trotz der verschiedenen Ansichten ein gemeinsamer Wunsch nach Fortschritt im Umweltschutz erkennbar ist.",
+          "passageId": "gen-p-h3-umwelt-panel",
+          "lang": "de",
+          "skills": [
+            "listening"
+          ],
+          "language": "de",
+          "examType": "goethe",
+          "difficulty": 5,
+          "topicTags": [
+            "Umwelt"
+          ],
+          "vocabularyTags": [
+            "Veränderung",
+            "Fortschritt",
+            "Wunsch",
+            "gemeinsam",
+            "Gespräch",
+            "Aufgabe"
+          ],
+          "grammarTags": [
+            "g-de-b2-nominal"
+          ]
+        },
+        {
+          "id": "gen-q-h3-umwelt-panel-q2",
+          "module": "horen",
+          "teil": 3,
+          "level": "B2",
+          "type": "matching",
+          "question": "Die Wirtschaft braucht staatliche Anreize und keine strengen Vorschriften, um nachhaltiger zu werden.",
+          "options": [
+            "A) Der Moderator",
+            "B) Dr. Lena Schmidt, die Umweltwissenschaftlerin",
+            "C) Markus Weber, der Vertreter des Wirtschaftsverbandes",
+            "D) Sarah Müller, die Umweltaktivistin"
+          ],
+          "correct": "C",
+          "correctAnswer": "C",
+          "explanation": "Markus Weber argumentiert, dass Anreize statt Verbote die Wirtschaft zu mehr Nachhaltigkeit motivieren und die Wettbewerbsfähigkeit erhalten.",
+          "passageId": "gen-p-h3-umwelt-panel",
+          "lang": "de",
+          "skills": [
+            "listening"
+          ],
+          "language": "de",
+          "examType": "goethe",
+          "difficulty": 5,
+          "topicTags": [
+            "Umwelt"
+          ],
+          "vocabularyTags": [
+            "Nachhaltigkeit",
+            "nachhaltiger",
+            "brauchen",
+            "Wettbewerbsfähigkeit",
+            "Vorschriften",
+            "Wirtschaft"
+          ],
+          "grammarTags": [
+            "g-de-b2-passiv",
+            "g-de-b2-nominal"
+          ]
+        },
+        {
+          "id": "gen-q-h3-umwelt-panel-q3",
+          "module": "horen",
+          "teil": 3,
+          "level": "B2",
+          "type": "matching",
+          "question": "Die aktuelle Umweltlage erfordert dringendes Handeln, um irreparable Schäden zu verhindern.",
+          "options": [
+            "A) Der Moderator",
+            "B) Dr. Lena Schmidt, die Umweltwissenschaftlerin",
+            "C) Markus Weber, der Vertreter des Wirtschaftsverbandes",
+            "D) Sarah Müller, die Umweltaktivistin"
+          ],
+          "correct": "B",
+          "correctAnswer": "B",
+          "explanation": "Dr. Lena Schmidt beschreibt die ernste Umweltsituation und die Notwendigkeit sofortiger Maßnahmen, um dauerhafte Schäden abzuwenden.",
+          "passageId": "gen-p-h3-umwelt-panel",
+          "lang": "de",
+          "skills": [
+            "listening"
+          ],
+          "language": "de",
+          "examType": "goethe",
+          "difficulty": 5,
+          "topicTags": [
+            "Umwelt"
+          ],
+          "vocabularyTags": [
+            "aktuell",
+            "Umweltsituation",
+            "Notwendigkeit",
+            "verhindern",
+            "Maßnahmen"
+          ],
+          "grammarTags": [
+            "g-de-b2-nominal"
+          ]
+        },
+        {
+          "id": "gen-q-h3-umwelt-panel-q4",
+          "module": "horen",
+          "teil": 3,
+          "level": "B2",
+          "type": "matching",
+          "question": "Bei der Einführung von Umweltstandards müssen die Belange kleinerer Betriebe berücksichtigt werden, um soziale Härten zu vermeiden.",
+          "options": [
+            "A) Der Moderator",
+            "B) Dr. Lena Schmidt, die Umweltwissenschaftlerin",
+            "C) Markus Weber, der Vertreter des Wirtschaftsverbandes",
+            "D) Sarah Müller, die Umweltaktivistin"
+          ],
+          "correct": "C",
+          "correctAnswer": "C",
+          "explanation": "Markus Weber weist darauf hin, dass kleine und mittlere Unternehmen Unterstützung und Übergangsfristen benötigen, um den Wandel sozialverträglich zu gestalten.",
+          "passageId": "gen-p-h3-umwelt-panel",
+          "lang": "de",
+          "skills": [
+            "listening"
+          ],
+          "language": "de",
+          "examType": "goethe",
+          "difficulty": 5,
+          "topicTags": [
+            "Umwelt"
+          ],
+          "vocabularyTags": [
+            "Unterstützung",
+            "gestalten",
+            "Übergangsfristen",
+            "Unternehmen",
+            "Einführung",
+            "vermeiden"
+          ],
+          "grammarTags": [
+            "g-de-b2-passiv",
+            "g-de-b2-nominal"
+          ]
+        },
+        {
+          "id": "gen-q-h3-umwelt-panel-q5",
+          "module": "horen",
+          "teil": 3,
+          "level": "B2",
+          "type": "matching",
+          "question": "Freiwillige Maßnahmen der Unternehmen sind unzureichend, um die globale Umweltkrise zu bewältigen.",
+          "options": [
+            "A) Der Moderator",
+            "B) Dr. Lena Schmidt, die Umweltwissenschaftlerin",
+            "C) Markus Weber, der Vertreter des Wirtschaftsverbandes",
+            "D) Sarah Müller, die Umweltaktivistin"
+          ],
+          "correct": "D",
+          "correctAnswer": "D",
+          "explanation": "Sarah Müller kritisiert, dass die Eigeninitiative der Wirtschaft nicht ausreicht, um die globale Umweltkrise effektiv zu bekämpfen.",
+          "passageId": "gen-p-h3-umwelt-panel",
+          "lang": "de",
+          "skills": [
+            "listening"
+          ],
+          "language": "de",
+          "examType": "goethe",
+          "difficulty": 5,
+          "topicTags": [
+            "Umwelt"
+          ],
+          "vocabularyTags": [
+            "global",
+            "Unternehmen",
+            "Wirtschaft",
+            "Maßnahmen",
+            "bekämpfen",
+            "Umweltaktivistin"
+          ],
+          "grammarTags": []
+        },
+        {
+          "id": "gen-q-h3-umwelt-panel-q6",
+          "module": "horen",
+          "teil": 3,
+          "level": "B2",
+          "type": "matching",
+          "question": "Eine Kombination aus staatlichen Anreizen und verbindlichen Vorgaben ist der effektivste Weg für den Umweltschutz.",
+          "options": [
+            "A) Der Moderator",
+            "B) Dr. Lena Schmidt, die Umweltwissenschaftlerin",
+            "C) Markus Weber, der Vertreter des Wirtschaftsverbandes",
+            "D) Sarah Müller, die Umweltaktivistin"
+          ],
+          "correct": "B",
+          "correctAnswer": "B",
+          "explanation": "Dr. Lena Schmidt plädiert für eine Mischung aus Anreizen und festen Regeln, um Unternehmen Planungssicherheit zu geben und den Umweltschutz voranzubringen.",
+          "passageId": "gen-p-h3-umwelt-panel",
+          "lang": "de",
+          "skills": [
+            "listening"
+          ],
+          "language": "de",
+          "examType": "goethe",
+          "difficulty": 5,
+          "topicTags": [
+            "Umwelt"
+          ],
+          "vocabularyTags": [
+            "Planungssicherheit",
+            "voranzubringen",
+            "verbindlich",
+            "Kombination",
+            "staatlich",
+            "Unternehmen"
+          ],
+          "grammarTags": [
+            "g-de-b2-nominal"
+          ]
+        }
+      ],
+      "topicTag": "Umwelt",
+      "instruction": "",
+      "passage": {
+        "title": "Radiogespräch: Umweltschutz – Herausforderungen und Lösungsansätze",
+        "text": "Moderator: Herzlich willkommen zu \"Umwelt im Fokus\". Heute diskutieren wir über Umweltschutz. Bei mir sind Dr. Lena Schmidt, Umweltwissenschaftlerin, Markus Weber vom Wirtschaftsverband und Sarah Müller, Aktivistin. Frau Dr. Schmidt, wie ist die Lage?\nDr. Lena Schmidt: Guten Abend. Die Lage ist ernst. Wir sehen weltweit Extremwetter, Artenverlust und Umweltverschmutzung. Dringendes Handeln ist nötig, um irreversible Schäden zu vermeiden. Die Wissenschaft liefert uns die Daten und die Dringlichkeit.\nMarkus Weber: Umweltschutz ist wichtig, aber wir müssen die Wirtschaft berücksichtigen. Viele Unternehmen investieren bereits in nachhaltige Technologien. Wir brauchen Anreize, keine Verbote, um Innovationen zu fördern und Arbeitsplätze zu sichern. Zu strenge Regulierung könnte unsere Wettbewerbsfähigkeit gefährden.\nSarah Müller: Herr Weber, die freiwilligen Initiativen der Wirtschaft reichen nicht aus. Wir reden von einer globalen Krise. Unternehmen müssen ihre volle Verantwortung übernehmen, nicht nur minimale Investitionen tätigen. Es geht um unsere Zukunft. Die Politik muss hier klare Grenzen setzen.\nDr. Lena Schmidt: Sarah hat Recht. Freiwilligkeit ist oft zu langsam. Wir brauchen einen Mix aus Anreizen und verbindlichen Rahmenbedingungen. Die Politik muss eine klare Richtung vorgeben, damit Unternehmen Planungssicherheit haben und wissen, welche Standards sie erfüllen müssen. Das schafft fairen Wettbewerb.\nMarkus Weber: Aber diese Standards müssen realistisch sein. Kleine und mittlere Unternehmen können nicht sofort umstellen. Wir brauchen Übergangsfristen und finanzielle Unterstützung, damit der Wandel sozialverträglich ist. Sonst verlieren wir Akzeptanz bei Bevölkerung und Betrieben.\nSarah Müller: Akzeptanz ist wichtig, aber die Dringlichkeit höher. Wir können nicht ewig warten. Innovative Lösungen existieren. Die Politik muss mutiger sein und unbequeme Entscheidungen treffen. Wir müssen weg von fossilen Energien hin zur Kreislaufwirtschaft.\nModerator: Vielen Dank für diese spannende Diskussion. Es gibt viele Perspektiven und Herausforderungen, aber auch den Willen, etwas zu bewegen.",
+        "transcript": "Moderator: Herzlich willkommen zu \"Umwelt im Fokus\". Heute diskutieren wir über Umweltschutz. Bei mir sind Dr. Lena Schmidt, Umweltwissenschaftlerin, Markus Weber vom Wirtschaftsverband und Sarah Müller, Aktivistin. Frau Dr. Schmidt, wie ist die Lage?\nDr. Lena Schmidt: Guten Abend. Die Lage ist ernst. Wir sehen weltweit Extremwetter, Artenverlust und Umweltverschmutzung. Dringendes Handeln ist nötig, um irreversible Schäden zu vermeiden. Die Wissenschaft liefert uns die Daten und die Dringlichkeit.\nMarkus Weber: Umweltschutz ist wichtig, aber wir müssen die Wirtschaft berücksichtigen. Viele Unternehmen investieren bereits in nachhaltige Technologien. Wir brauchen Anreize, keine Verbote, um Innovationen zu fördern und Arbeitsplätze zu sichern. Zu strenge Regulierung könnte unsere Wettbewerbsfähigkeit gefährden.\nSarah Müller: Herr Weber, die freiwilligen Initiativen der Wirtschaft reichen nicht aus. Wir reden von einer globalen Krise. Unternehmen müssen ihre volle Verantwortung übernehmen, nicht nur minimale Investitionen tätigen. Es geht um unsere Zukunft. Die Politik muss hier klare Grenzen setzen.\nDr. Lena Schmidt: Sarah hat Recht. Freiwilligkeit ist oft zu langsam. Wir brauchen einen Mix aus Anreizen und verbindlichen Rahmenbedingungen. Die Politik muss eine klare Richtung vorgeben, damit Unternehmen Planungssicherheit haben und wissen, welche Standards sie erfüllen müssen. Das schafft fairen Wettbewerb.\nMarkus Weber: Aber diese Standards müssen realistisch sein. Kleine und mittlere Unternehmen können nicht sofort umstellen. Wir brauchen Übergangsfristen und finanzielle Unterstützung, damit der Wandel sozialverträglich ist. Sonst verlieren wir Akzeptanz bei Bevölkerung und Betrieben.\nSarah Müller: Akzeptanz ist wichtig, aber die Dringlichkeit höher. Wir können nicht ewig warten. Innovative Lösungen existieren. Die Politik muss mutiger sein und unbequeme Entscheidungen treffen. Wir müssen weg von fossilen Energien hin zur Kreislaufwirtschaft.\nModerator: Vielen Dank für diese spannende Diskussion. Es gibt viele Perspektiven und Herausforderungen, aber auch den Willen, etwas zu bewegen.",
+        "topicTag": "Umwelt"
+      },
+      "sourceFile": "batches/ready/pool-verified/B2/horen-t3-gemini-087.json",
+      "contributor": "pool-verified-sync",
+      "complete": true,
+      "verified": true
+    },
+    {
+      "id": "horen-t4-gemini-040",
+      "module": "horen",
+      "teil": 4,
+      "lang": "de",
+      "level": "B2",
+      "questions": [
+        {
+          "id": "gen-q-h4-a7be62c8-q1",
+          "module": "horen",
+          "teil": 4,
+          "level": "B2",
+          "type": "multiple_choice",
+          "question": "Sie hören einen kurzen Vortrag.\nSie hören den Text zweimal. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.\n\nWas ist ein häufiges Gefühl vieler Menschen angesichts globaler Umweltprobleme?",
+          "options": [
+            "a) Sie erwarten, dass die Politik alle Probleme löst.",
+            "b) Sie fühlen sich oft machtlos und überfordert.",
+            "c) Sie sind überzeugt, dass ihre kleinen Schritte ausreichen."
+          ],
+          "correct": "b",
+          "correctAnswer": "b",
+          "explanation": "Die Referentin erwähnt, dass sich viele Menschen angesichts der globalen Umweltprobleme oft machtlos fühlen.",
+          "passageId": "gen-p-h4-a7be62c8-s1",
+          "lang": "de",
+          "skills": [
+            "listening"
+          ],
+          "language": "de",
+          "examType": "goethe",
+          "difficulty": 5,
+          "topicTags": [
+            "Umwelt"
+          ],
+          "vocabularyTags": [
+            "menschen",
+            "Aufgabe",
+            "Gefühl",
+            "global",
+            "kurzen",
+            "wählen"
+          ],
+          "grammarTags": []
+        },
+        {
+          "id": "gen-q-h4-a7be62c8-q2",
+          "module": "horen",
+          "teil": 4,
+          "level": "B2",
+          "type": "multiple_choice",
+          "question": "Welche alltägliche Handlung nennt die Referentin als Beispiel für Umweltschutz?",
+          "options": [
+            "a) Müll trennen und weniger Plastikverpackungen verwenden.",
+            "b) Immer das Auto nutzen, um schnell ans Ziel zu kommen.",
+            "c) Nur noch Bio-Produkte kaufen und teure Geräte nutzen."
+          ],
+          "correct": "a",
+          "correctAnswer": "a",
+          "explanation": "Sie nennt Mülltrennung, die Reduzierung von Plastikverpackungen und den bewussten Umgang mit Wasser und Energie als Beispiele für tägliche Gewohnheiten.",
+          "passageId": "gen-p-h4-a7be62c8-s1",
+          "lang": "de",
+          "skills": [
+            "listening"
+          ],
+          "language": "de",
+          "examType": "goethe",
+          "difficulty": 5,
+          "topicTags": [
+            "Umwelt"
+          ],
+          "vocabularyTags": [
+            "Beispiel",
+            "trennen",
+            "verwenden",
+            "Handlung",
+            "Plastikverpackungen",
+            "Umweltschutz"
+          ],
+          "grammarTags": [
+            "g-de-b2-nominal"
+          ]
+        },
+        {
+          "id": "gen-q-h4-a7be62c8-q3",
+          "module": "horen",
+          "teil": 4,
+          "level": "B2",
+          "type": "multiple_choice",
+          "question": "Was ist ein Grund, warum Menschen laut Referentin zögern, sich für die Umwelt zu engagieren?",
+          "options": [
+            "a) Sie haben keine Zeit, sich mit dem Thema zu beschäftigen.",
+            "b) Sie halten umweltfreundliche Produkte oft für zu kostspielig.",
+            "c) Sie denken, dass die Regierung allein verantwortlich ist."
+          ],
+          "correct": "b",
+          "correctAnswer": "b",
+          "explanation": "Die Referentin erwähnt, dass manche Menschen die Kosten für umweltfreundliche Produkte als zu hoch ansehen, was sie vom Engagement abhält.",
+          "passageId": "gen-p-h4-a7be62c8-s1",
+          "lang": "de",
+          "skills": [
+            "listening"
+          ],
+          "language": "de",
+          "examType": "goethe",
+          "difficulty": 5,
+          "topicTags": [
+            "Umwelt"
+          ],
+          "vocabularyTags": [
+            "menschen",
+            "Umwelt",
+            "halten",
+            "engagieren",
+            "zögern",
+            "umweltfreundlich"
+          ],
+          "grammarTags": []
+        },
+        {
+          "id": "gen-q-h4-a7be62c8-q4",
+          "module": "horen",
+          "teil": 4,
+          "level": "B2",
+          "type": "multiple_choice",
+          "question": "Welches Argument nutzt die Referentin gegen die Behauptung, nachhaltige Produkte seien zu teuer?",
+          "options": [
+            "a) Man kann einfach weniger kaufen und so Geld sparen.",
+            "b) Viele nachhaltige Optionen sind auf lange Sicht oft günstiger.",
+            "c) Der Staat übernimmt die Mehrkosten für umweltfreundliche Produkte."
+          ],
+          "correct": "b",
+          "correctAnswer": "b",
+          "explanation": "Sie erklärt, dass viele nachhaltige Optionen langfristig kostengünstiger sein können, zum Beispiel durch energiesparende Geräte.",
+          "passageId": "gen-p-h4-a7be62c8-s1",
+          "lang": "de",
+          "skills": [
+            "listening"
+          ],
+          "language": "de",
+          "examType": "goethe",
+          "difficulty": 5,
+          "topicTags": [
+            "Umwelt"
+          ],
+          "vocabularyTags": [
+            "viele",
+            "Sicht",
+            "Behauptung",
+            "Argument",
+            "Referentin"
+          ],
+          "grammarTags": [
+            "g-de-b2-nominal"
+          ]
+        },
+        {
+          "id": "gen-q-h4-a7be62c8-q5",
+          "module": "horen",
+          "teil": 4,
+          "level": "B2",
+          "type": "multiple_choice",
+          "question": "Welche Rolle spielt Bildung beim Umweltschutz laut der Referentin?",
+          "options": [
+            "a) Nur Fachleute müssen sich mit Umweltthemen auskennen.",
+            "b) Bildung ist unwichtig, da nur praktische Taten zählen.",
+            "c) Wissen motiviert Menschen, aktiv zu werden und sich zu engagieren."
+          ],
+          "correct": "c",
+          "correctAnswer": "c",
+          "explanation": "Die Referentin sagt, je mehr man über Zusammenhänge weiß, desto motivierter ist man, aktiv zu werden.",
+          "passageId": "gen-p-h4-a7be62c8-s1",
+          "lang": "de",
+          "skills": [
+            "listening"
+          ],
+          "language": "de",
+          "examType": "goethe",
+          "difficulty": 5,
+          "topicTags": [
+            "Umwelt"
+          ],
+          "vocabularyTags": [
+            "menschen",
+            "Bildung",
+            "aktiv",
+            "engagieren",
+            "spielen",
+            "wissen"
+          ],
+          "grammarTags": [
+            "g-de-b2-passiv"
+          ]
+        },
+        {
+          "id": "gen-q-h4-a7be62c8-q6",
+          "module": "horen",
+          "teil": 4,
+          "level": "B2",
+          "type": "multiple_choice",
+          "question": "Wie können Einzelpersonen laut Vortrag Motivation für Umweltengagement finden?",
+          "options": [
+            "a) Durch den Austausch mit anderen und die Teilnahme an Gemeinschaftsprojekten.",
+            "b) Durch das Lesen von komplexen wissenschaftlichen Studien zum Klimawandel.",
+            "c) Indem man sich von anderen Menschen isoliert und allein handelt."
+          ],
+          "correct": "a",
+          "correctAnswer": "a",
+          "explanation": "Sie schlägt vor, mit Freunden und Familie über Umweltthemen zu sprechen und sich in lokalen Initiativen zu engagieren, da dies inspirierend wirken kann.",
+          "passageId": "gen-p-h4-a7be62c8-s1",
+          "lang": "de",
+          "skills": [
+            "listening"
+          ],
+          "language": "de",
+          "examType": "goethe",
+          "difficulty": 5,
+          "topicTags": [
+            "Umwelt"
+          ],
+          "vocabularyTags": [
+            "Austausch",
+            "Umweltengagement",
+            "einzelpersonen",
+            "Motivation",
+            "andern",
+            "finden"
+          ],
+          "grammarTags": [
+            "g-de-b2-modus",
+            "g-de-b2-nominal"
+          ]
+        },
+        {
+          "id": "gen-q-h4-a7be62c8-q7",
+          "module": "horen",
+          "teil": 4,
+          "level": "B2",
+          "type": "multiple_choice",
+          "question": "Was ist die abschließende Botschaft der Referentin zum Umweltschutz?",
+          "options": [
+            "a) Jeder Einzelne muss im Alltag Verantwortung übernehmen.",
+            "b) Es ist ein Problem, das man nicht vollständig lösen kann.",
+            "c) Es ist hauptsächlich eine Aufgabe für große Firmen und Regierungen."
+          ],
+          "correct": "a",
+          "correctAnswer": "a",
+          "explanation": "Die Referentin fasst zusammen, dass Umweltschutz im Alltag jedes Einzelnen beginnt und nicht nur eine Aufgabe für Regierungen und Konzerne ist.",
+          "passageId": "gen-p-h4-a7be62c8-s1",
+          "lang": "de",
+          "skills": [
+            "listening"
+          ],
+          "language": "de",
+          "examType": "goethe",
+          "difficulty": 5,
+          "topicTags": [
+            "Umwelt"
+          ],
+          "vocabularyTags": [
+            "Alltag",
+            "übernehmen",
+            "Verantwortung",
+            "Botschaft",
+            "abschließend",
+            "Umweltschutz"
+          ],
+          "grammarTags": [
+            "g-de-b2-modus",
+            "g-de-b2-nominal"
+          ]
+        },
+        {
+          "id": "gen-q-h4-a7be62c8-q8",
+          "module": "horen",
+          "teil": 4,
+          "level": "B2",
+          "type": "multiple_choice",
+          "question": "Was versteht die Referentin unter 'kollektiver Kraft'?",
+          "options": [
+            "a) Die Macht der Regierungen, Umweltgesetze zu erlassen und durchzusetzen.",
+            "b) Die Stärke der Natur, sich selbst zu regenerieren und zu erholen.",
+            "c) Die Wirkung, die entsteht, wenn viele Menschen kleine Veränderungen machen."
+          ],
+          "correct": "c",
+          "correctAnswer": "c",
+          "explanation": "Die Referentin erklärt, dass eine enorme kollektive Kraft entsteht, wenn Millionen von Menschen kleine Veränderungen vornehmen.",
+          "passageId": "gen-p-h4-a7be62c8-s1",
+          "lang": "de",
+          "skills": [
+            "listening"
+          ],
+          "language": "de",
+          "examType": "goethe",
+          "difficulty": 5,
+          "topicTags": [
+            "Umwelt"
+          ],
+          "vocabularyTags": [
+            "menschen",
+            "Kraft",
+            "viele",
+            "Wirkung",
+            "Veränderungen",
+            "Referentin"
+          ],
+          "grammarTags": []
+        }
+      ],
+      "topicTag": "Umwelt",
+      "instruction": "",
+      "passage": {
+        "title": "Vortrag: Unsere persönliche Verantwortung für den Umweltschutz",
+        "text": "Sehr geehrte Damen und Herren, liebe Zuhörerinnen und Zuhörer,\n\nherzlich willkommen zu meinem heutigen Vortrag über ein Thema, das uns alle angeht: den Umweltschutz und unsere persönliche Verantwortung. Oft fühlen wir uns angesichts der globalen Umweltprobleme wie Klimawandel, Artensterben und Plastikmüll in den Ozeanen machtlos. Doch ich möchte heute die These vertreten, dass jeder Einzelne von uns einen entscheidenden Beitrag leisten kann und muss.\n\nBeginnen wir mit unseren täglichen Gewohnheiten. Viele kleine Entscheidungen summieren sich zu einer großen Wirkung. Denken Sie an die Mülltrennung, die Reduzierung von Plastikverpackungen, den bewussten Umgang mit Wasser und Energie zu Hause. Es geht nicht darum, von heute auf morgen perfekt zu sein, sondern darum, schrittweise nachhaltigere Entscheidungen zu treffen. Zum Beispiel können wir beim Einkaufen auf regionale und saisonale Produkte achten, die weniger Transportwege benötigen und somit CO2 einsparen. Oder wir nutzen öfter das Fahrrad oder öffentliche Verkehrsmittel statt des Autos. Diese einfachen Schritte sind oft leichter umzusetzen, als man denkt.\n\nNatürlich gibt es auch Schwierigkeiten. Manche Menschen denken, ihr Beitrag sei zu gering, um wirklich etwas zu verändern. Andere sehen die Kosten für umweltfreundliche Produkte als zu hoch an. Doch diese Argumente halten einer genaueren Betrachtung nicht stand. Wenn Millionen von Menschen kleine Veränderungen vornehmen, entsteht eine enorme kollektive Kraft. Und viele nachhaltige Optionen sind langfristig sogar kostengünstiger, etwa energiesparende Geräte oder der Verzicht auf Einwegprodukte. Die Entwicklung hin zu mehr Nachhaltigkeit wird auch durch politische Maßnahmen und technologische Fortschritte unterstützt, aber der individuelle Wille ist der Motor.\n\nEin weiterer wichtiger Punkt ist die Bildung und Aufklärung. Je mehr wir über die Zusammenhänge wissen, desto motivierter sind wir, aktiv zu werden. Sprechen Sie mit Freunden und Familie über Umweltthemen, tauschen Sie sich über Erfahrungen aus. Engagieren Sie sich vielleicht in lokalen Initiativen oder Projekten, die sich für den Schutz unserer Natur einsetzen. Das Gefühl, Teil einer Gemeinschaft zu sein, die sich für ein gemeinsames Ziel einsetzt, kann sehr inspirierend wirken.\n\nZusammenfassend lässt sich sagen, dass Umweltschutz keine abstrakte Aufgabe für Regierungen und große Konzerne allein ist. Er beginnt bei jedem von uns, in unserem Alltag. Jeder bewusste Schritt, jede kleine Veränderung zählt. Lassen Sie uns gemeinsam Verantwortung übernehmen für unseren Planeten, denn er ist unser einziges Zuhause. Vielen Dank für Ihre Aufmerksamkeit.",
+        "transcript": "Sehr geehrte Damen und Herren, liebe Zuhörerinnen und Zuhörer,\n\nherzlich willkommen zu meinem heutigen Vortrag über ein Thema, das uns alle angeht: den Umweltschutz und unsere persönliche Verantwortung. Oft fühlen wir uns angesichts der globalen Umweltprobleme wie Klimawandel, Artensterben und Plastikmüll in den Ozeanen machtlos. Doch ich möchte heute die These vertreten, dass jeder Einzelne von uns einen entscheidenden Beitrag leisten kann und muss.\n\nBeginnen wir mit unseren täglichen Gewohnheiten. Viele kleine Entscheidungen summieren sich zu einer großen Wirkung. Denken Sie an die Mülltrennung, die Reduzierung von Plastikverpackungen, den bewussten Umgang mit Wasser und Energie zu Hause. Es geht nicht darum, von heute auf morgen perfekt zu sein, sondern darum, schrittweise nachhaltigere Entscheidungen zu treffen. Zum Beispiel können wir beim Einkaufen auf regionale und saisonale Produkte achten, die weniger Transportwege benötigen und somit CO2 einsparen. Oder wir nutzen öfter das Fahrrad oder öffentliche Verkehrsmittel statt des Autos. Diese einfachen Schritte sind oft leichter umzusetzen, als man denkt.\n\nNatürlich gibt es auch Schwierigkeiten. Manche Menschen denken, ihr Beitrag sei zu gering, um wirklich etwas zu verändern. Andere sehen die Kosten für umweltfreundliche Produkte als zu hoch an. Doch diese Argumente halten einer genaueren Betrachtung nicht stand. Wenn Millionen von Menschen kleine Veränderungen vornehmen, entsteht eine enorme kollektive Kraft. Und viele nachhaltige Optionen sind langfristig sogar kostengünstiger, etwa energiesparende Geräte oder der Verzicht auf Einwegprodukte. Die Entwicklung hin zu mehr Nachhaltigkeit wird auch durch politische Maßnahmen und technologische Fortschritte unterstützt, aber der individuelle Wille ist der Motor.\n\nEin weiterer wichtiger Punkt ist die Bildung und Aufklärung. Je mehr wir über die Zusammenhänge wissen, desto motivierter sind wir, aktiv zu werden. Sprechen Sie mit Freunden und Familie über Umweltthemen, tauschen Sie sich über Erfahrungen aus. Engagieren Sie sich vielleicht in lokalen Initiativen oder Projekten, die sich für den Schutz unserer Natur einsetzen. Das Gefühl, Teil einer Gemeinschaft zu sein, die sich für ein gemeinsames Ziel einsetzt, kann sehr inspirierend wirken.\n\nZusammenfassend lässt sich sagen, dass Umweltschutz keine abstrakte Aufgabe für Regierungen und große Konzerne allein ist. Er beginnt bei jedem von uns, in unserem Alltag. Jeder bewusste Schritt, jede kleine Veränderung zählt. Lassen Sie uns gemeinsam Verantwortung übernehmen für unseren Planeten, denn er ist unser einziges Zuhause. Vielen Dank für Ihre Aufmerksamkeit.",
+        "topicTag": "Umwelt"
+      },
+      "sourceFile": "batches/ready/pool-verified/B2/horen-t4-gemini-040.json",
+      "contributor": "pool-verified-sync",
+      "complete": true,
+      "verified": true
+    },
+    {
+      "id": "lesen-t1-gemini-208",
+      "lang": "de",
+      "level": "B2",
+      "module": "lesen",
+      "teil": 1,
+      "instruction": "",
+      "passages": [
+        {
+          "id": "gen-l1-d96ae980-a",
+          "module": "lesen",
+          "teil": 1,
+          "level": "B2",
+          "title": "Person A — Soziale Medien als Chance",
+          "text": "Ich sehe soziale Medien hauptsächlich als eine große Bereicherung für unsere Gesellschaft. Die Digitalisierung hat uns die Möglichkeit gegeben, mit Freunden und Familie weltweit in Kontakt zu bleiben, was früher undenkbar war. Außerdem bieten Plattformen wie Twitter oder Instagram einen schnellen Zugang zu aktuellen Nachrichten und verschiedenen Perspektiven. Man kann sich über aktuelle Ereignisse informieren und sogar an Diskussionen teilnehmen, die sonst nur in geschlossenen Kreisen stattfinden würden. Neulich habe ich durch eine Online-Gruppe viel über lokale Umweltprojekte erfahren. Das ist eine fantastische Möglichkeit, sich zu engagieren und neue Impulse zu bekommen. Natürlich gibt es auch Schattenseiten, aber der positive Aspekt der Vernetzung überwiegt für mich deutlich.",
+          "personKey": "A"
+        },
+        {
+          "id": "gen-l1-d96ae980-b",
+          "module": "lesen",
+          "teil": 1,
+          "level": "B2",
+          "title": "Person B — Die Schattenseiten der Online-Welt",
+          "text": "Für mich überwiegen die negativen Aspekte der sozialen Medien. Ich finde, sie sind oft eine große Zeitfalle und führen zu einer ständigen Ablenkung. Viele meiner Freunde verbringen Stunden damit, durch Feeds zu scrollen, anstatt sich im echten Leben zu treffen. Die größte Herausforderung ist aber die Verbreitung von Falschinformationen. Es ist unglaublich schwierig geworden, zwischen Fakten und Meinungen zu unterscheiden, besonders wenn Algorithmen uns immer nur das zeigen, was unsere eigene Meinung bestätigt. Das schafft eine Blase, aus der man kaum noch herauskommt. Ich habe das Gefühl, dass die Qualität der Debatten leidet und die mentale Gesundheit vieler Menschen unter dem ständigen Vergleichsdruck leidet. Man muss wirklich aufpassen, was man konsumiert.",
+          "personKey": "B"
+        },
+        {
+          "id": "gen-l1-d96ae980-c",
+          "module": "lesen",
+          "teil": 1,
+          "level": "B2",
+          "title": "Person C — Zwischen Filterblase und Engagement",
+          "text": "Soziale Medien sind ein zweischneidiges Schwert. Einerseits ermöglichen sie es, dass sich Menschen für wichtige Anliegen engagieren und schnell Informationen verbreiten können. Ich denke da an Bewegungen, die durch Hashtags global sichtbar wurden. Das ist eine enorme Stärke. Andererseits sehe ich die Gefahr von Filterblasen und Echokammern. Wenn man nicht aktiv versucht, verschiedene Quellen zu konsultieren, landet man schnell in einer Welt, in der nur die eigene Meinung bestätigt wird. Die Verantwortung liegt hier nicht nur bei den Plattformen, sondern auch bei jedem Einzelnen, kritisch zu bleiben und Medienkompetenz zu entwickeln. Wir müssen lernen, Informationen zu hinterfragen und nicht alles ungeprüft zu übernehmen. Das ist eine wichtige Fähigkeit in der heutigen digitalisierten Welt.",
+          "personKey": "C"
+        },
+        {
+          "id": "gen-l1-d96ae980-d",
+          "module": "lesen",
+          "teil": 1,
+          "level": "B2",
+          "title": "Person D — Mehr Kontrolle und klare Regeln",
+          "text": "Meiner Meinung nach brauchen wir dringend mehr Regulierung im Bereich der sozialen Medien. Die großen Plattformen haben zu viel Macht und Einfluss auf unsere Gesellschaft, ohne dass es ausreichende Kontrollmechanismen gibt. Es geht nicht nur um den Schutz persönlicher Daten, sondern auch um die Bekämpfung von Hassrede und Manipulation. Die Unternehmen sollten eine größere Verantwortung für die Inhalte übernehmen, die auf ihren Seiten verbreitet werden. Es kann nicht sein, dass sie sich aus der Affäre ziehen und alles den Nutzern überlassen. Eine strengere Gesetzgebung könnte dazu beitragen, dass die Online-Welt sicherer und fairer wird. Wir müssen eine Art Nachhaltigkeit in der Informationsverbreitung anstreben, um langfristig eine gesunde digitale Umgebung zu gewährleisten.",
+          "personKey": "D"
+        }
+      ],
+      "passage": {
+        "title": "Person A — Soziale Medien als Chance",
+        "text": "Ich sehe soziale Medien hauptsächlich als eine große Bereicherung für unsere Gesellschaft. Die Digitalisierung hat uns die Möglichkeit gegeben, mit Freunden und Familie weltweit in Kontakt zu bleiben, was früher undenkbar war. Außerdem bieten Plattformen wie Twitter oder Instagram einen schnellen Zugang zu aktuellen Nachrichten und verschiedenen Perspektiven. Man kann sich über aktuelle Ereignisse informieren und sogar an Diskussionen teilnehmen, die sonst nur in geschlossenen Kreisen stattfinden würden. Neulich habe ich durch eine Online-Gruppe viel über lokale Umweltprojekte erfahren. Das ist eine fantastische Möglichkeit, sich zu engagieren und neue Impulse zu bekommen. Natürlich gibt es auch Schattenseiten, aber der positive Aspekt der Vernetzung überwiegt für mich deutlich.",
+        "passages": [
+          {
+            "passageId": "gen-l1-d96ae980-a",
+            "textTitle": "Person A — Soziale Medien als Chance",
+            "text": "Ich sehe soziale Medien hauptsächlich als eine große Bereicherung für unsere Gesellschaft. Die Digitalisierung hat uns die Möglichkeit gegeben, mit Freunden und Familie weltweit in Kontakt zu bleiben, was früher undenkbar war. Außerdem bieten Plattformen wie Twitter oder Instagram einen schnellen Zugang zu aktuellen Nachrichten und verschiedenen Perspektiven. Man kann sich über aktuelle Ereignisse informieren und sogar an Diskussionen teilnehmen, die sonst nur in geschlossenen Kreisen stattfinden würden. Neulich habe ich durch eine Online-Gruppe viel über lokale Umweltprojekte erfahren. Das ist eine fantastische Möglichkeit, sich zu engagieren und neue Impulse zu bekommen. Natürlich gibt es auch Schattenseiten, aber der positive Aspekt der Vernetzung überwiegt für mich deutlich."
+          },
+          {
+            "passageId": "gen-l1-d96ae980-b",
+            "textTitle": "Person B — Die Schattenseiten der Online-Welt",
+            "text": "Für mich überwiegen die negativen Aspekte der sozialen Medien. Ich finde, sie sind oft eine große Zeitfalle und führen zu einer ständigen Ablenkung. Viele meiner Freunde verbringen Stunden damit, durch Feeds zu scrollen, anstatt sich im echten Leben zu treffen. Die größte Herausforderung ist aber die Verbreitung von Falschinformationen. Es ist unglaublich schwierig geworden, zwischen Fakten und Meinungen zu unterscheiden, besonders wenn Algorithmen uns immer nur das zeigen, was unsere eigene Meinung bestätigt. Das schafft eine Blase, aus der man kaum noch herauskommt. Ich habe das Gefühl, dass die Qualität der Debatten leidet und die mentale Gesundheit vieler Menschen unter dem ständigen Vergleichsdruck leidet. Man muss wirklich aufpassen, was man konsumiert."
+          },
+          {
+            "passageId": "gen-l1-d96ae980-c",
+            "textTitle": "Person C — Zwischen Filterblase und Engagement",
+            "text": "Soziale Medien sind ein zweischneidiges Schwert. Einerseits ermöglichen sie es, dass sich Menschen für wichtige Anliegen engagieren und schnell Informationen verbreiten können. Ich denke da an Bewegungen, die durch Hashtags global sichtbar wurden. Das ist eine enorme Stärke. Andererseits sehe ich die Gefahr von Filterblasen und Echokammern. Wenn man nicht aktiv versucht, verschiedene Quellen zu konsultieren, landet man schnell in einer Welt, in der nur die eigene Meinung bestätigt wird. Die Verantwortung liegt hier nicht nur bei den Plattformen, sondern auch bei jedem Einzelnen, kritisch zu bleiben und Medienkompetenz zu entwickeln. Wir müssen lernen, Informationen zu hinterfragen und nicht alles ungeprüft zu übernehmen. Das ist eine wichtige Fähigkeit in der heutigen digitalisierten Welt."
+          },
+          {
+            "passageId": "gen-l1-d96ae980-d",
+            "textTitle": "Person D — Mehr Kontrolle und klare Regeln",
+            "text": "Meiner Meinung nach brauchen wir dringend mehr Regulierung im Bereich der sozialen Medien. Die großen Plattformen haben zu viel Macht und Einfluss auf unsere Gesellschaft, ohne dass es ausreichende Kontrollmechanismen gibt. Es geht nicht nur um den Schutz persönlicher Daten, sondern auch um die Bekämpfung von Hassrede und Manipulation. Die Unternehmen sollten eine größere Verantwortung für die Inhalte übernehmen, die auf ihren Seiten verbreitet werden. Es kann nicht sein, dass sie sich aus der Affäre ziehen und alles den Nutzern überlassen. Eine strengere Gesetzgebung könnte dazu beitragen, dass die Online-Welt sicherer und fairer wird. Wir müssen eine Art Nachhaltigkeit in der Informationsverbreitung anstreben, um langfristig eine gesunde digitale Umgebung zu gewährleisten."
+          }
+        ]
+      },
+      "questions": [
+        {
+          "id": "gen-q-1-bc565198-1",
+          "module": "lesen",
+          "teil": 1,
+          "level": "B2",
+          "type": "matching",
+          "question": "Lesen Sie in einem Forum, wie Menschen über ein Thema denken.\nAuf welche der vier Personen treffen die einzelnen Aussagen zu? Die Personen können mehrmals gewählt werden.\n\nDie Person genießt die Möglichkeit, international mit Personen verbunden zu sein.",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correct": "A",
+          "correctAnswer": "A",
+          "explanation": "Person A erwähnt, dass die Digitalisierung es ermöglicht hat, weltweit mit Freunden und Familie in Kontakt zu bleiben, was sie als Bereicherung sieht.",
+          "passageId": "gen-l1-d96ae980-a"
+        },
+        {
+          "id": "gen-q-1-bc565198-2",
+          "module": "lesen",
+          "teil": 1,
+          "level": "B2",
+          "type": "matching",
+          "question": "Die Person empfindet Online-Plattformen als große Zeitverschwendung und ständige Störung.",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correct": "B",
+          "correctAnswer": "B",
+          "explanation": "Person B beschreibt soziale Medien als eine große Zeitfalle und Quelle ständiger Ablenkung, die viele Stunden in Anspruch nimmt.",
+          "passageId": "gen-l1-d96ae980-b"
+        },
+        {
+          "id": "gen-q-1-bc565198-3",
+          "module": "lesen",
+          "teil": 1,
+          "level": "B2",
+          "type": "matching",
+          "question": "Die Person meint, man solle Inhalte kritisch beurteilen und Medienwissen erwerben.",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correct": "C",
+          "correctAnswer": "C",
+          "explanation": "Person C betont die Notwendigkeit, kritisch zu bleiben und Medienkompetenz zu entwickeln, um Informationen zu hinterfragen und nicht ungeprüft zu übernehmen.",
+          "passageId": "gen-l1-d96ae980-c"
+        },
+        {
+          "id": "gen-q-1-bc565198-4",
+          "module": "lesen",
+          "teil": 1,
+          "level": "B2",
+          "type": "matching",
+          "question": "Die Person verlangt schärfere Regeln für eine geschütztere digitale Welt.",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correct": "D",
+          "correctAnswer": "D",
+          "explanation": "Person D argumentiert, dass eine strengere Gesetzgebung dazu beitragen könnte, die Online-Welt sicherer und fairer zu gestalten.",
+          "passageId": "gen-l1-d96ae980-d"
+        },
+        {
+          "id": "gen-q-1-bc565198-5",
+          "module": "lesen",
+          "teil": 1,
+          "level": "B2",
+          "type": "matching",
+          "question": "Die Person findet, dass man über digitale Plattformen rasch Informationen und diverse Meinungen erhält.",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correct": "A",
+          "correctAnswer": "A",
+          "explanation": "Person A erwähnt, dass Plattformen einen schnellen Zugang zu Nachrichten und verschiedenen Sichtweisen bieten, um sich zu informieren.",
+          "passageId": "gen-l1-d96ae980-a"
+        },
+        {
+          "id": "gen-q-1-bc565198-6",
+          "module": "lesen",
+          "teil": 1,
+          "level": "B2",
+          "type": "matching",
+          "question": "Die Person macht die Empfehlungs-Algorithmen dafür verantwortlich, dass man in einer bestätigenden Informationsblase stecken bleibt.",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correct": "B",
+          "correctAnswer": "B",
+          "explanation": "Person B kritisiert ausdrücklich, dass Algorithmen nur Inhalte zeigen, die die eigene Meinung bestätigen, und dass man aus dieser Blase kaum noch herauskommt. Person C warnt zwar vor Filterblasen, betont aber vor allem die Pflicht der Nutzer, aktiv verschiedene Quellen zu nutzen — nicht die Algorithmen als Ursache.",
+          "passageId": "gen-l1-d96ae980-b"
+        },
+        {
+          "id": "gen-q-1-bc565198-7",
+          "module": "lesen",
+          "teil": 1,
+          "level": "B2",
+          "type": "matching",
+          "question": "Die Person bemerkt, dass digitale Kanäle wichtige Anliegen weltweit bekannt machen.",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correct": "C",
+          "correctAnswer": "C",
+          "explanation": "Person C nennt als Stärke sozialer Medien, dass sie es ermöglichen, dass sich Menschen für wichtige Anliegen engagieren und Bewegungen global sichtbar werden.",
+          "passageId": "gen-l1-d96ae980-c"
+        },
+        {
+          "id": "gen-q-1-bc565198-8",
+          "module": "lesen",
+          "teil": 1,
+          "level": "B2",
+          "type": "matching",
+          "question": "Die Person wünscht, dass die Betreiber mehr für online gestellte Inhalte einstehen.",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correct": "D",
+          "correctAnswer": "D",
+          "explanation": "Person D ist der Meinung, dass die Unternehmen eine größere Verantwortung für die Inhalte übernehmen sollten, die auf ihren Seiten verbreitet werden.",
+          "passageId": "gen-l1-d96ae980-d"
+        },
+        {
+          "id": "gen-q-1-bc565198-9",
+          "module": "lesen",
+          "teil": 1,
+          "level": "B2",
+          "type": "matching",
+          "question": "Die Person kritisiert die übermäßige Macht der Online-Anbieter bei mangelnden Kontrollmöglichkeiten.",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correct": "D",
+          "correctAnswer": "D",
+          "explanation": "Person D bemängelt, dass große Plattformen zu viel Macht und Einfluss haben, ohne dass es ausreichende Kontrollmechanismen gibt.",
+          "passageId": "gen-l1-d96ae980-d"
+        }
+      ],
+      "itemCount": 9,
+      "targetCount": 9,
+      "topicTag": "Medien",
+      "sourceFile": "batches/ready/pool-verified/B2/lesen-t1-gemini-208.json",
+      "contributor": "pool-verified-sync",
+      "complete": true,
+      "verified": true
+    },
+    {
+      "id": "lesen-t2-gemini-167",
+      "lang": "de",
+      "level": "B2",
+      "module": "lesen",
+      "teil": 2,
+      "instruction": "",
+      "passage": {
+        "title": "Die Kunst der Freizeitgestaltung: Mehr als nur Pause",
+        "passages": [
+          {
+            "passageId": "gen-l2-b7e92497",
+            "textTitle": "Die Kunst der Freizeitgestaltung: Mehr als nur Pause",
+            "text": "In unserer schnelllebigen Zeit ist Freizeit oft ein rares Gut, obwohl viele Menschen sich unter Druck gesetzt fühlen, ständig produktiv zu sein, und dabei die Bedeutung von Erholung und Ausgleich vergessen. Eine bewusste Gestaltung der Freizeit ist jedoch entscheidend für unser Wohlbefinden, weil es nicht nur darum geht, keine Arbeit zu haben, sondern aktiv etwas zu tun, das uns Freude bereitet und neue Energie schenkt. (21) Es ist wichtig, die eigenen Bedürfnisse zu erkennen und Aktivitäten zu wählen, die wirklich entspannen und bereichern.\n\nEinige bevorzugen aktive Freizeitaktivitäten. Dazu gehören Sport, kreative Hobbys oder ehrenamtliche Tätigkeiten. Solche Beschäftigungen fördern nicht nur die körperliche Fitness, sondern auch die geistige Agilität. (22) Sie bieten eine willkommene Abwechslung zum Berufsalltag und helfen, Stress abzubauen. Andere wiederum suchen eher passive Erholung, indem sie gerne ein Buch lesen, Musik hören oder Zeit in der Natur verbringen. (23) Diese ruhigeren Momente sind ebenso wertvoll, um neue Kraft zu sammeln und den Kopf freizubekommen.\n\nEine besondere Rolle spielen heute digitale Medien in unserer Freizeit. Sie bieten unzählige Möglichkeiten zur Unterhaltung und Kommunikation. Von Streaming-Diensten bis zu sozialen Netzwerken – die Auswahl ist riesig. (24) Es ist entscheidend, hier ein gesundes Maß zu finden, um nicht in eine passive Konsumhaltung zu verfallen, die am Ende mehr ermüdet als entspannt.\n\nAuch die soziale Komponente der Freizeit sollte nicht unterschätzt werden. Gemeinsame Unternehmungen mit Freunden oder Familie stärken die Gemeinschaft und schaffen unvergessliche Erinnerungen. Ob ein gemeinsames Essen oder ein Ausflug – diese Momente sind oft die schönsten. (25) Sie tragen maßgeblich dazu bei, dass wir uns verbunden fühlen und unser Leben als erfüllter empfinden.\n\nLetztendlich ist die Freizeitgestaltung eine sehr persönliche Angelegenheit. Was für den einen entspannend ist, kann für den Anderen anstrengend sein. (26) Nur so kann sie ihre volle positive Wirkung entfalten und uns helfen, ein ausgeglicheneres und glücklicheres Leben zu führen."
+          }
+        ],
+        "text": "In unserer schnelllebigen Zeit ist Freizeit oft ein rares Gut, obwohl viele Menschen sich unter Druck gesetzt fühlen, ständig produktiv zu sein, und dabei die Bedeutung von Erholung und Ausgleich vergessen. Eine bewusste Gestaltung der Freizeit ist jedoch entscheidend für unser Wohlbefinden, weil es nicht nur darum geht, keine Arbeit zu haben, sondern aktiv etwas zu tun, das uns Freude bereitet und neue Energie schenkt. (21) Es ist wichtig, die eigenen Bedürfnisse zu erkennen und Aktivitäten zu wählen, die wirklich entspannen und bereichern.\n\nEinige bevorzugen aktive Freizeitaktivitäten. Dazu gehören Sport, kreative Hobbys oder ehrenamtliche Tätigkeiten. Solche Beschäftigungen fördern nicht nur die körperliche Fitness, sondern auch die geistige Agilität. (22) Sie bieten eine willkommene Abwechslung zum Berufsalltag und helfen, Stress abzubauen. Andere wiederum suchen eher passive Erholung, indem sie gerne ein Buch lesen, Musik hören oder Zeit in der Natur verbringen. (23) Diese ruhigeren Momente sind ebenso wertvoll, um neue Kraft zu sammeln und den Kopf freizubekommen.\n\nEine besondere Rolle spielen heute digitale Medien in unserer Freizeit. Sie bieten unzählige Möglichkeiten zur Unterhaltung und Kommunikation. Von Streaming-Diensten bis zu sozialen Netzwerken – die Auswahl ist riesig. (24) Es ist entscheidend, hier ein gesundes Maß zu finden, um nicht in eine passive Konsumhaltung zu verfallen, die am Ende mehr ermüdet als entspannt.\n\nAuch die soziale Komponente der Freizeit sollte nicht unterschätzt werden. Gemeinsame Unternehmungen mit Freunden oder Familie stärken die Gemeinschaft und schaffen unvergessliche Erinnerungen. Ob ein gemeinsames Essen oder ein Ausflug – diese Momente sind oft die schönsten. (25) Sie tragen maßgeblich dazu bei, dass wir uns verbunden fühlen und unser Leben als erfüllter empfinden.\n\nLetztendlich ist die Freizeitgestaltung eine sehr persönliche Angelegenheit. Was für den einen entspannend ist, kann für den Anderen anstrengend sein. (26) Nur so kann sie ihre volle positive Wirkung entfalten und uns helfen, ein ausgeglicheneres und glücklicheres Leben zu führen.",
+        "transcript": ""
+      },
+      "questions": [
+        {
+          "id": "gen-q-2-b7e92497-1",
+          "module": "lesen",
+          "teil": 2,
+          "level": "B2",
+          "type": "matching",
+          "question": "Lesen Sie in einer Zeitschrift einen Artikel.\nWelche Sätze passen in die Lücken? Zwei Sätze passen nicht.\n\nLücke (21): Welcher Satz passt hier?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Viele Menschen nutzen diese Zeit jedoch nur, um sich von der Arbeit zu erholen, ohne aktiv etwas Neues zu erleben."
+            },
+            {
+              "key": "B",
+              "text": "Diese bewusste Entscheidung für bestimmte Aktivitäten hilft, den Alltag zu strukturieren und eine neue Sicht zu bekommen."
+            },
+            {
+              "key": "C",
+              "text": "Ein Übermaß an Bildschirmzeit kann die Kreativität hemmen und das Gefühl der Isolation verstärken."
+            },
+            {
+              "key": "D",
+              "text": "Solche Aktivitäten stärken nicht nur die Bindung, sondern fördern auch das gegenseitige Verständnis."
+            },
+            {
+              "key": "A",
+              "text": "E) Es ist wichtig, dass jeder für sich selbst herausfindet, welche Art der Freizeitgestaltung am besten zu ihm passt."
+            },
+            {
+              "key": "A",
+              "text": "F) Sie ermöglichen es, neue Fähigkeiten zu erlernen, bestehende Talente zu vertiefen und neue Kontakte zu knüpfen."
+            },
+            {
+              "key": "A",
+              "text": "G) Oftmals sind es die kleinen Dinge im Leben, die uns die größte Freude bereiten und uns wirklich entspannen lassen."
+            },
+            {
+              "key": "A",
+              "text": "H) Sie bieten die Möglichkeit, dem Alltagsstress zu entfliehen und innere Ruhe zu finden."
+            }
+          ],
+          "correct": "b",
+          "correctAnswer": "b",
+          "explanation": "Satz B schließt thematisch an die Einleitung an, die die Bedeutung einer bewussten Freizeitgestaltung betont. Die 'bewusste Entscheidung für bestimmte Aktivitäten' passt perfekt zu der Notwendigkeit, 'eigene Bedürfnisse zu erkennen und Aktivitäten zu wählen, die wirklich entspannen und bereichern'.",
+          "passageId": "gen-l2-b7e92497"
+        },
+        {
+          "id": "gen-q-2-b7e92497-2",
+          "module": "lesen",
+          "teil": 2,
+          "level": "B2",
+          "type": "matching",
+          "question": "Lücke (22): Welcher Satz passt hier?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Viele Menschen nutzen diese Zeit jedoch nur, um sich von der Arbeit zu erholen, ohne aktiv etwas Neues zu erleben."
+            },
+            {
+              "key": "B",
+              "text": "Diese bewusste Entscheidung für bestimmte Aktivitäten hilft, den Alltag zu strukturieren und eine neue Sicht zu bekommen."
+            },
+            {
+              "key": "C",
+              "text": "Ein Übermaß an Bildschirmzeit kann die Kreativität hemmen und das Gefühl der Isolation verstärken."
+            },
+            {
+              "key": "D",
+              "text": "Solche Aktivitäten stärken nicht nur die Bindung, sondern fördern auch das gegenseitige Verständnis."
+            },
+            {
+              "key": "A",
+              "text": "E) Es ist wichtig, dass jeder für sich selbst herausfindet, welche Art der Freizeitgestaltung am besten zu ihm passt."
+            },
+            {
+              "key": "A",
+              "text": "F) Sie ermöglichen es, neue Fähigkeiten zu erlernen, bestehende Talente zu vertiefen und neue Kontakte zu knüpfen."
+            },
+            {
+              "key": "A",
+              "text": "G) Oftmals sind es die kleinen Dinge im Leben, die uns die größte Freude bereiten und uns wirklich entspannen lassen."
+            },
+            {
+              "key": "A",
+              "text": "H) Sie bieten die Möglichkeit, dem Alltagsstress zu entfliehen und innere Ruhe zu finden."
+            }
+          ],
+          "correct": "f",
+          "correctAnswer": "f",
+          "explanation": "Satz F bezieht sich auf die zuvor genannten 'aktiven Freizeitaktivitäten' wie Sport und kreative Hobbys. Die genannten Vorteile wie das Erlernen neuer Fähigkeiten und Knüpfen von Kontakten passen gut zu den beschriebenen positiven Effekten dieser Beschäftigungen.",
+          "passageId": "gen-l2-b7e92497"
+        },
+        {
+          "id": "gen-q-2-b7e92497-3",
+          "module": "lesen",
+          "teil": 2,
+          "level": "B2",
+          "type": "matching",
+          "question": "Lücke (23): Welcher Satz passt hier?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Viele Menschen nutzen diese Zeit jedoch nur, um sich von der Arbeit zu erholen, ohne aktiv etwas Neues zu erleben."
+            },
+            {
+              "key": "B",
+              "text": "Diese bewusste Entscheidung für bestimmte Aktivitäten hilft, den Alltag zu strukturieren und eine neue Sicht zu bekommen."
+            },
+            {
+              "key": "C",
+              "text": "Ein Übermaß an Bildschirmzeit kann die Kreativität hemmen und das Gefühl der Isolation verstärken."
+            },
+            {
+              "key": "D",
+              "text": "Solche Aktivitäten stärken nicht nur die Bindung, sondern fördern auch das gegenseitige Verständnis."
+            },
+            {
+              "key": "A",
+              "text": "E) Es ist wichtig, dass jeder für sich selbst herausfindet, welche Art der Freizeitgestaltung am besten zu ihm passt."
+            },
+            {
+              "key": "A",
+              "text": "F) Sie ermöglichen es, neue Fähigkeiten zu erlernen, bestehende Talente zu vertiefen und neue Kontakte zu knüpfen."
+            },
+            {
+              "key": "A",
+              "text": "G) Oftmals sind es die kleinen Dinge im Leben, die uns die größte Freude bereiten und uns wirklich entspannen lassen."
+            },
+            {
+              "key": "A",
+              "text": "H) Sie bieten die Möglichkeit, dem Alltagsstress zu entfliehen und innere Ruhe zu finden."
+            }
+          ],
+          "correct": "h",
+          "correctAnswer": "h",
+          "explanation": "Satz H passt perfekt zum Kontext der 'passiven Erholung' (Lesen, Musik hören, Natur). Die Möglichkeit, 'dem Alltagsstress zu entfliehen und innere Ruhe zu finden', beschreibt genau den Zweck dieser ruhigeren Momente.",
+          "passageId": "gen-l2-b7e92497"
+        },
+        {
+          "id": "gen-q-2-b7e92497-4",
+          "module": "lesen",
+          "teil": 2,
+          "level": "B2",
+          "type": "matching",
+          "question": "Lücke (24): Welcher Satz passt hier?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Viele Menschen nutzen diese Zeit jedoch nur, um sich von der Arbeit zu erholen, ohne aktiv etwas Neues zu erleben."
+            },
+            {
+              "key": "B",
+              "text": "Diese bewusste Entscheidung für bestimmte Aktivitäten hilft, den Alltag zu strukturieren und eine neue Sicht zu bekommen."
+            },
+            {
+              "key": "C",
+              "text": "Ein Übermaß an Bildschirmzeit kann die Kreativität hemmen und das Gefühl der Isolation verstärken."
+            },
+            {
+              "key": "D",
+              "text": "Solche Aktivitäten stärken nicht nur die Bindung, sondern fördern auch das gegenseitige Verständnis."
+            },
+            {
+              "key": "A",
+              "text": "E) Es ist wichtig, dass jeder für sich selbst herausfindet, welche Art der Freizeitgestaltung am besten zu ihm passt."
+            },
+            {
+              "key": "A",
+              "text": "F) Sie ermöglichen es, neue Fähigkeiten zu erlernen, bestehende Talente zu vertiefen und neue Kontakte zu knüpfen."
+            },
+            {
+              "key": "A",
+              "text": "G) Oftmals sind es die kleinen Dinge im Leben, die uns die größte Freude bereiten und uns wirklich entspannen lassen."
+            },
+            {
+              "key": "A",
+              "text": "H) Sie bieten die Möglichkeit, dem Alltagsstress zu entfliehen und innere Ruhe zu finden."
+            }
+          ],
+          "correct": "c",
+          "correctAnswer": "c",
+          "explanation": "Satz C thematisiert die negativen Auswirkungen von 'Bildschirmzeit' und passt somit ideal zum Absatz über 'digitale Medien' und die Notwendigkeit eines 'gesunden Maßes', um 'nicht in eine passive Konsumhaltung zu verfallen'.",
+          "passageId": "gen-l2-b7e92497"
+        },
+        {
+          "id": "gen-q-2-b7e92497-5",
+          "module": "lesen",
+          "teil": 2,
+          "level": "B2",
+          "type": "matching",
+          "question": "Lücke (25): Welcher Satz passt hier?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Viele Menschen nutzen diese Zeit jedoch nur, um sich von der Arbeit zu erholen, ohne aktiv etwas Neues zu erleben."
+            },
+            {
+              "key": "B",
+              "text": "Diese bewusste Entscheidung für bestimmte Aktivitäten hilft, den Alltag zu strukturieren und eine neue Sicht zu bekommen."
+            },
+            {
+              "key": "C",
+              "text": "Ein Übermaß an Bildschirmzeit kann die Kreativität hemmen und das Gefühl der Isolation verstärken."
+            },
+            {
+              "key": "D",
+              "text": "Solche Aktivitäten stärken nicht nur die Bindung, sondern fördern auch das gegenseitige Verständnis."
+            },
+            {
+              "key": "A",
+              "text": "E) Es ist wichtig, dass jeder für sich selbst herausfindet, welche Art der Freizeitgestaltung am besten zu ihm passt."
+            },
+            {
+              "key": "A",
+              "text": "F) Sie ermöglichen es, neue Fähigkeiten zu erlernen, bestehende Talente zu vertiefen und neue Kontakte zu knüpfen."
+            },
+            {
+              "key": "A",
+              "text": "G) Oftmals sind es die kleinen Dinge im Leben, die uns die größte Freude bereiten und uns wirklich entspannen lassen."
+            },
+            {
+              "key": "A",
+              "text": "H) Sie bieten die Möglichkeit, dem Alltagsstress zu entfliehen und innere Ruhe zu finden."
+            }
+          ],
+          "correct": "d",
+          "correctAnswer": "d",
+          "explanation": "Satz D bezieht sich auf 'Gemeinsame Unternehmungen mit Freunden oder Familie' und ergänzt die Idee, dass diese 'die Gemeinschaft stärken'. Die Stärkung der Bindung und des gegenseitigen Verständnisses sind direkte Vorteile solcher sozialen Aktivitäten.",
+          "passageId": "gen-l2-b7e92497"
+        },
+        {
+          "id": "gen-q-2-b7e92497-6",
+          "module": "lesen",
+          "teil": 2,
+          "level": "B2",
+          "type": "matching",
+          "question": "Lücke (26): Welcher Satz passt hier?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Viele Menschen nutzen diese Zeit jedoch nur, um sich von der Arbeit zu erholen, ohne aktiv etwas Neues zu erleben."
+            },
+            {
+              "key": "B",
+              "text": "Diese bewusste Entscheidung für bestimmte Aktivitäten hilft, den Alltag zu strukturieren und eine neue Sicht zu bekommen."
+            },
+            {
+              "key": "C",
+              "text": "Ein Übermaß an Bildschirmzeit kann die Kreativität hemmen und das Gefühl der Isolation verstärken."
+            },
+            {
+              "key": "D",
+              "text": "Solche Aktivitäten stärken nicht nur die Bindung, sondern fördern auch das gegenseitige Verständnis."
+            },
+            {
+              "key": "A",
+              "text": "E) Es ist wichtig, dass jeder für sich selbst herausfindet, welche Art der Freizeitgestaltung am besten zu ihm passt."
+            },
+            {
+              "key": "A",
+              "text": "F) Sie ermöglichen es, neue Fähigkeiten zu erlernen, bestehende Talente zu vertiefen und neue Kontakte zu knüpfen."
+            },
+            {
+              "key": "A",
+              "text": "G) Oftmals sind es die kleinen Dinge im Leben, die uns die größte Freude bereiten und uns wirklich entspannen lassen."
+            },
+            {
+              "key": "A",
+              "text": "H) Sie bieten die Möglichkeit, dem Alltagsstress zu entfliehen und innere Ruhe zu finden."
+            }
+          ],
+          "correct": "e",
+          "correctAnswer": "e",
+          "explanation": "Satz E fasst die vorherige Aussage zusammen, dass Freizeitgestaltung eine 'sehr persönliche Angelegenheit' ist. Die Notwendigkeit, 'für sich selbst herauszufinden, welche Art der Freizeitgestaltung am besten passt', führt logisch zu der Schlussfolgerung 'Nur so kann sie ihre volle positive Wirkung entfalten'.",
+          "passageId": "gen-l2-b7e92497"
+        }
+      ],
+      "itemCount": 6,
+      "targetCount": 6,
+      "topicTag": "Freizeit",
+      "sourceFile": "batches/ready/pool-verified/B2/lesen-t2-gemini-167.json",
+      "contributor": "pool-verified-sync",
+      "complete": true,
+      "verified": true
+    },
+    {
+      "id": "lesen-t3-gemini-050",
+      "lang": "de",
+      "level": "B2",
+      "module": "lesen",
+      "teil": 3,
+      "instruction": "",
+      "passage": {
+        "title": "Grüne Initiativen in der Stadt: Wie Bürger und Kommunen den Umweltschutz vorantreiben",
+        "text": "Der Schutz unserer Umwelt ist eine der größten Herausforderungen unserer Zeit. Immer mehr Städte in Deutschland erkennen die Notwendigkeit, aktiv zu werden und nachhaltige Lösungen zu fördern. Ein gutes Beispiel hierfür ist die Stadt Freiburg, die seit Jahren als Vorreiter im Umweltschutz gilt. Doch auch kleinere Gemeinden zeigen beeindruckendes Engagement.\n\nIn vielen Kommunen entstehen derzeit zahlreiche Initiativen, die den lokalen Umweltschutz stärken. Bürgergruppen organisieren Müllsammelaktionen in Parks und an Flussufern, fördern den Anbau von Stadtgärten und setzen sich für mehr Grünflächen ein. Diese Projekte tragen nicht nur zur Verschönerung des Stadtbildes bei, sondern schaffen auch ein stärkeres Bewusstsein für die Bedeutung von Natur und Artenvielfalt.\n\nEin zentrales Thema ist der Klimawandel und seine Auswirkungen. Viele Städte investieren in erneuerbare Energien und verbessern die Energieeffizienz öffentlicher Gebäude. Der Ausbau des öffentlichen Nahverkehrs und die Förderung des Fahrradfahrens sind wichtige Schritte, um den CO2-Ausstoß zu reduzieren. Eine Studie der Universität Potsdam zeigt, dass solche Investitionen die Luftqualität deutlich verbessern können.\n\nDie Reduzierung des Ressourcenverbrauchs ist ebenfalls ein wichtiger Aspekt. Programme zur Abfallvermeidung und zum Recycling werden kontinuierlich erweitert. Supermärkte bieten vermehrt unverpackte Produkte an, und Repair-Cafés erfreuen sich großer Beliebtheit. Hier können defekte Geräte repariert werden, anstatt sie wegzuwerfen, was den Verbrauch neuer Produkte reduziert. Diese Maßnahmen tragen zur Kreislaufwirtschaft bei und schonen wertvolle Ressourcen.\n\nEin weiteres Feld ist die Bildung. Schulen und Kindergärten integrieren Umweltthemen in ihren Lehrplan, um schon den Jüngsten ein Verständnis für Nachhaltigkeit zu vermitteln. Exkursionen in die Natur, Projekte zum Energiesparen und die Pflege von Schulgärten sind feste Bestandteile des Unterrichts. So lernen Kinder frühzeitig, wie ihr eigenes Handeln die Umwelt beeinflusst.\n\nDoch nicht nur Einzelpersonen und lokale Gruppen sind gefragt. Die Kommunalpolitik spielt eine entscheidende Rolle bei der Schaffung der notwendigen Rahmenbedingungen. Durch Förderprogramme, klare Richtlinien für Bauvorhaben und die Unterstützung von Forschungsprojekten können Städte eine Vorreiterrolle einnehmen. Zudem setzen viele Kommunen auf innovative 'Smart City'-Konzepte, die digitale Technologien nutzen, um Energieverbrauch und Abfallmanagement zu verbessern. Grüne Infrastrukturprojekte, wie die Begrünung von Dächern und Fassaden, verbessern das Mikroklima und fördern die Biodiversität im urbanen Raum. Frau Keller, eine Umweltexpertin aus München, betont: \"Ohne starke politische Unterstützung und die aktive Beteiligung der Bürger können wir die Herausforderungen des Klimawandels nicht meistern. Es braucht ein gemeinsames Engagement auf allen Ebenen.\" Diese vielfältigen Ansätze zeigen, dass ein umfassender Umweltschutz nur durch das Zusammenspiel von Politik, Wirtschaft und Zivilgesellschaft gelingen kann. Es ist ein langfristiger Prozess, der ständige Anpassung und neue Ideen erfordert, um eine lebenswerte Zukunft für alle zu sichern. Die Zukunft unserer Umwelt hängt maßgeblich von unserem heutigen Handeln ab.",
+        "transcript": "",
+        "id": "gen-l3-b7e1e3fd",
+        "passageId": "gen-l3-b7e1e3fd"
+      },
+      "questions": [
+        {
+          "id": "gen-q-3-b7e1e3fd-1",
+          "module": "lesen",
+          "teil": 3,
+          "level": "B2",
+          "type": "multiple_choice",
+          "question": "Lesen Sie in einer Zeitung einen Artikel.\nWählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.\n\nWas ist die Hauptaussage des ersten Absatzes?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Ausschließlich größere Städte wie Freiburg engagieren sich aktiv im Bereich des Umweltschutzes."
+            },
+            {
+              "key": "B",
+              "text": "Die Umwelt zu schützen ist eine wichtige Aufgabe, der sich immer mehr Kommunen in Deutschland widmen."
+            },
+            {
+              "key": "C",
+              "text": "Kleinere Gemeinden zeigen keine Bereitschaft, sich für nachhaltige Umweltlösungen einzusetzen."
+            }
+          ],
+          "correct": "b",
+          "correctAnswer": "b",
+          "explanation": "Der Artikel beginnt damit, dass der Umweltschutz eine große Aufgabe ist und immer mehr Städte in Deutschland, von Freiburg bis zu kleineren Gemeinden, aktiv werden und nachhaltige Lösungen fördern.",
+          "passageId": "gen-l3-b7e1e3fd"
+        },
+        {
+          "id": "gen-q-3-b7e1e3fd-2",
+          "module": "lesen",
+          "teil": 3,
+          "level": "B2",
+          "type": "multiple_choice",
+          "question": "Welche Aussage trifft auf bürgerschaftliche Initiativen zu?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Sie sind lediglich in sehr großen Städten wie Freiburg erfolgreich und finden dort Anwendung."
+            },
+            {
+              "key": "B",
+              "text": "Sie tragen dazu bei, das Stadtbild attraktiver zu machen und das Bewusstsein für die Natur zu stärken."
+            },
+            {
+              "key": "C",
+              "text": "Sie konzentrieren sich hauptsächlich auf die Verbesserung der Luftqualität in den städtischen Gebieten."
+            }
+          ],
+          "correct": "b",
+          "correctAnswer": "b",
+          "explanation": "Der Text erwähnt, dass Bürgergruppen Müll sammeln, Stadtgärten fördern und sich für Grünflächen einsetzen, was das Stadtbild verschönert und das Bewusstsein für Natur und Artenvielfalt stärkt.",
+          "passageId": "gen-l3-b7e1e3fd"
+        },
+        {
+          "id": "gen-q-3-b7e1e3fd-3",
+          "module": "lesen",
+          "teil": 3,
+          "level": "B2",
+          "type": "multiple_choice",
+          "question": "Was ist ein wichtiger Ansatz vieler Städte im Kampf gegen den Klimawandel?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Städte setzen auf erneuerbare Energiequellen und unterstützen umweltfreundliche Verkehrsmittel."
+            },
+            {
+              "key": "B",
+              "text": "Die ausschließliche Nutzung von fossilen Brennstoffen für alle öffentlichen Gebäude wird angestrebt."
+            },
+            {
+              "key": "C",
+              "text": "Die Reduzierung des öffentlichen Nahverkehrs zugunsten des individuellen Autoverkehrs wird bevorzugt."
+            }
+          ],
+          "correct": "a",
+          "correctAnswer": "a",
+          "explanation": "Der Artikel betont, dass Städte in erneuerbare Energien investieren, die Energieeffizienz verbessern und den öffentlichen Nahverkehr sowie das Fahrradfahren fördern, um den CO2-Ausstoß zu senken.",
+          "passageId": "gen-l3-b7e1e3fd"
+        },
+        {
+          "id": "gen-q-3-b7e1e3fd-4",
+          "module": "lesen",
+          "teil": 3,
+          "level": "B2",
+          "type": "multiple_choice",
+          "question": "Was ist die Hauptfunktion von Repair-Cafés, wie im Artikel beschrieben?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Dort können kaputte Geräte instand gesetzt werden, was den Kauf neuer Waren reduziert."
+            },
+            {
+              "key": "B",
+              "text": "Sie sind Orte, an denen man frische, unverpackte Produkte für den täglichen Bedarf kaufen kann."
+            },
+            {
+              "key": "C",
+              "text": "Sie organisieren regelmäßig Müllsammelaktionen in verschiedenen Stadtteilen."
+            }
+          ],
+          "correct": "a",
+          "correctAnswer": "a",
+          "explanation": "Der Text erklärt, dass Repair-Cafés sehr beliebt sind, weil dort defekte Geräte repariert werden können, anstatt sie wegzuwerfen, was den Verbrauch neuer Produkte reduziert.",
+          "passageId": "gen-l3-b7e1e3fd"
+        },
+        {
+          "id": "gen-q-3-b7e1e3fd-5",
+          "module": "lesen",
+          "teil": 3,
+          "level": "B2",
+          "type": "multiple_choice",
+          "question": "Welche Methode wird in Schulen und Kindergärten angewendet, um Umweltbewusstsein zu fördern?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Sie konzentrieren sich ausschließlich auf den theoretischen Unterricht über die Ursachen des Klimawandels."
+            },
+            {
+              "key": "B",
+              "text": "Sie beschränken sich auf die Organisation von jährlichen Umwelttagen, ohne weitere Integration."
+            },
+            {
+              "key": "C",
+              "text": "Ökologische Inhalte werden in den Unterricht aufgenommen und durch praktische Übungen ergänzt."
+            }
+          ],
+          "correct": "c",
+          "correctAnswer": "c",
+          "explanation": "Der Artikel erklärt, dass Schulen und Kindergärten Umweltthemen in ihren Lehrplan integrieren und praktische Projekte wie Exkursionen oder Schulgärten nutzen, um den Jüngsten ein Verständnis für Nachhaltigkeit zu vermitteln.",
+          "passageId": "gen-l3-b7e1e3fd"
+        },
+        {
+          "id": "gen-q-3-b7e1e3fd-6",
+          "module": "lesen",
+          "teil": 3,
+          "level": "B2",
+          "type": "multiple_choice",
+          "question": "Was ist laut Frau Keller unerlässlich, um die Probleme des Klimawandels zu bewältigen?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Die alleinige Konzentration auf wissenschaftliche Forschung und neue Technologien ist ausreichend."
+            },
+            {
+              "key": "B",
+              "text": "Ausschließlich individuelle Verhaltensänderungen der Bürgerinnen und Bürger sind entscheidend."
+            },
+            {
+              "key": "C",
+              "text": "Eine erfolgreiche Bewältigung erfordert sowohl staatliche Förderung als auch das Mitwirken der Bevölkerung."
+            }
+          ],
+          "correct": "c",
+          "correctAnswer": "c",
+          "explanation": "Frau Keller betont, dass die Bewältigung der Klimaprobleme eine starke politische Unterstützung sowie die aktive Beteiligung der Bürgerinnen und Bürger erfordert, also ein gemeinsames Engagement.",
+          "passageId": "gen-l3-b7e1e3fd"
+        }
+      ],
+      "itemCount": 6,
+      "targetCount": 6,
+      "topicTag": "Umwelt",
+      "sourceFile": "batches/ready/pool-verified/B2/lesen-t3-gemini-050.json",
+      "contributor": "pool-verified-sync",
+      "complete": true,
+      "verified": true
+    },
+    {
+      "id": "lesen-t4-gemini-086",
+      "lang": "de",
+      "level": "B2",
+      "module": "lesen",
+      "teil": 4,
+      "instruction": "",
+      "passages": [
+        {
+          "id": "gen-l4-b8a53d13-1",
+          "module": "lesen",
+          "teil": 4,
+          "level": "B2",
+          "title": "Meinung 1",
+          "text": "Social Media Plattformen bieten eine unvergleichliche Möglichkeit, Menschen weltweit zu verbinden und Informationen in Echtzeit zu teilen. Sie ermöglichen es, unterschiedliche Perspektiven kennenzulernen und sich an globalen Diskussionen zu beteiligen. Viele Nutzer schätzen die einfache Kommunikation mit Freunden und Familie, die über große Entfernungen leben. Auch für Aktivismus und die Verbreitung wichtiger Botschaften sind diese Kanäle unerlässlich geworden. Die Vielfalt der Inhalte bereichert den Alltag vieler."
+        },
+        {
+          "id": "gen-l4-b8a53d13-2",
+          "module": "lesen",
+          "teil": 4,
+          "level": "B2",
+          "title": "Meinung 2",
+          "text": "Der klassische Journalismus steht vor enormen Herausforderungen. Die Digitalisierung hat zwar den Zugang zu nachrichten demokratisiert, aber gleichzeitig das Geschäftsmodell traditioneller Verlage untergraben. Kostenlose Online-Inhalte erschweren die Finanzierung investigativer Recherchen. Viele Medienhäuser kämpfen ums Überleben, was die Qualität und Tiefe der Berichterstattung gefährdet. Es ist entscheidend, Wege zu finden, hochwertigen Journalismus auch in der digitalen Ära zu sichern."
+        },
+        {
+          "id": "gen-l4-b8a53d13-3",
+          "module": "lesen",
+          "teil": 4,
+          "level": "B2",
+          "title": "Meinung 3",
+          "text": "In Zeiten der Informationsflut ist Medienkompetenz wichtiger denn je. Es reicht nicht mehr aus, Nachrichten einfach zu konsumieren; man muss lernen, Quellen kritisch zu hinterfragen und Falschinformationen zu erkennen. Schulen und Bildungseinrichtungen tragen eine große Verantwortung, junge Menschen auf diese Herausforderung vorzubereiten. Nur wer die Mechanismen der Medien versteht, kann sich eine fundierte Meinung bilden und Manipulationen widerstehen."
+        },
+        {
+          "id": "gen-l4-b8a53d13-4",
+          "module": "lesen",
+          "teil": 4,
+          "level": "B2",
+          "title": "Meinung 4",
+          "text": "Die Forderung nach einer stärkeren Regulierung digitaler Plattformen wird lauter. Angesichts der Verbreitung von Hassrede und illegalen Inhalten sehen viele die Notwendigkeit, klare Regeln für Betreiber zu schaffen. Es geht darum, eine Balance zwischen Meinungsfreiheit und dem Schutz der Nutzer zu finden. Eine effektive Regulierung könnte dazu beitragen, die Verantwortung der Plattformen zu erhöhen und die Qualität der Online-Diskussionen zu verbessern."
+        },
+        {
+          "id": "gen-l4-b8a53d13-5",
+          "module": "lesen",
+          "teil": 4,
+          "level": "B2",
+          "title": "Meinung 5",
+          "text": "Der ständige Konsum von Medien, insbesondere sozialen Netzwerken, kann negative Auswirkungen auf die psychische Gesundheit haben. Der Druck, ein perfektes Bild von sich selbst zu präsentieren, und die Konfrontation mit idealisierten Darstellungen können zu minderwertigkeitsgefühlen und Angstzuständen führen. Es ist wichtig, bewusster mit der eigenen Mediennutzung umzugehen und digitale Auszeiten zu nehmen, um das Wohlbefinden zu schützen."
+        },
+        {
+          "id": "gen-l4-b8a53d13-6",
+          "module": "lesen",
+          "teil": 4,
+          "level": "B2",
+          "title": "Meinung 6",
+          "text": "Viele prophezeien das Ende der gedruckten Medien, doch das ist zu kurz gedacht. Zwar sinken die Auflagenzahlen, aber es gibt immer noch eine treue Leserschaft, die das haptische Erlebnis einer Zeitung oder Zeitschrift schätzt. Nischenprodukte und hochwertige Magazine finden weiterhin ihre Abnehmer. Die Zukunft liegt möglicherweise in einer Kombination aus digitalen Angeboten und exklusiven Printausgaben, die einen besonderen Wert bieten."
+        }
+      ],
+      "ads": [
+        {
+          "key": "gen-l4-b8a53d13-1",
+          "title": "Meinung 1",
+          "text": "Social Media Plattformen bieten eine unvergleichliche Möglichkeit, Menschen weltweit zu verbinden und Informationen in Echtzeit zu teilen. Sie ermöglichen es, unterschiedliche Perspektiven kennenzulernen und sich an globalen Diskussionen zu beteiligen. Viele Nutzer schätzen die einfache Kommunikation mit Freunden und Familie, die über große Entfernungen leben. Auch für Aktivismus und die Verbreitung wichtiger Botschaften sind diese Kanäle unerlässlich geworden. Die Vielfalt der Inhalte bereichert den Alltag vieler.",
+          "textTitle": "Meinung 1",
+          "passageId": "gen-l4-b8a53d13-1"
+        },
+        {
+          "key": "gen-l4-b8a53d13-2",
+          "title": "Meinung 2",
+          "text": "Der klassische Journalismus steht vor enormen Herausforderungen. Die Digitalisierung hat zwar den Zugang zu nachrichten demokratisiert, aber gleichzeitig das Geschäftsmodell traditioneller Verlage untergraben. Kostenlose Online-Inhalte erschweren die Finanzierung investigativer Recherchen. Viele Medienhäuser kämpfen ums Überleben, was die Qualität und Tiefe der Berichterstattung gefährdet. Es ist entscheidend, Wege zu finden, hochwertigen Journalismus auch in der digitalen Ära zu sichern.",
+          "textTitle": "Meinung 2",
+          "passageId": "gen-l4-b8a53d13-2"
+        },
+        {
+          "key": "gen-l4-b8a53d13-3",
+          "title": "Meinung 3",
+          "text": "In Zeiten der Informationsflut ist Medienkompetenz wichtiger denn je. Es reicht nicht mehr aus, Nachrichten einfach zu konsumieren; man muss lernen, Quellen kritisch zu hinterfragen und Falschinformationen zu erkennen. Schulen und Bildungseinrichtungen tragen eine große Verantwortung, junge Menschen auf diese Herausforderung vorzubereiten. Nur wer die Mechanismen der Medien versteht, kann sich eine fundierte Meinung bilden und Manipulationen widerstehen.",
+          "textTitle": "Meinung 3",
+          "passageId": "gen-l4-b8a53d13-3"
+        },
+        {
+          "key": "gen-l4-b8a53d13-4",
+          "title": "Meinung 4",
+          "text": "Die Forderung nach einer stärkeren Regulierung digitaler Plattformen wird lauter. Angesichts der Verbreitung von Hassrede und illegalen Inhalten sehen viele die Notwendigkeit, klare Regeln für Betreiber zu schaffen. Es geht darum, eine Balance zwischen Meinungsfreiheit und dem Schutz der Nutzer zu finden. Eine effektive Regulierung könnte dazu beitragen, die Verantwortung der Plattformen zu erhöhen und die Qualität der Online-Diskussionen zu verbessern.",
+          "textTitle": "Meinung 4",
+          "passageId": "gen-l4-b8a53d13-4"
+        },
+        {
+          "key": "gen-l4-b8a53d13-5",
+          "title": "Meinung 5",
+          "text": "Der ständige Konsum von Medien, insbesondere sozialen Netzwerken, kann negative Auswirkungen auf die psychische Gesundheit haben. Der Druck, ein perfektes Bild von sich selbst zu präsentieren, und die Konfrontation mit idealisierten Darstellungen können zu minderwertigkeitsgefühlen und Angstzuständen führen. Es ist wichtig, bewusster mit der eigenen Mediennutzung umzugehen und digitale Auszeiten zu nehmen, um das Wohlbefinden zu schützen.",
+          "textTitle": "Meinung 5",
+          "passageId": "gen-l4-b8a53d13-5"
+        },
+        {
+          "key": "gen-l4-b8a53d13-6",
+          "title": "Meinung 6",
+          "text": "Viele prophezeien das Ende der gedruckten Medien, doch das ist zu kurz gedacht. Zwar sinken die Auflagenzahlen, aber es gibt immer noch eine treue Leserschaft, die das haptische Erlebnis einer Zeitung oder Zeitschrift schätzt. Nischenprodukte und hochwertige Magazine finden weiterhin ihre Abnehmer. Die Zukunft liegt möglicherweise in einer Kombination aus digitalen Angeboten und exklusiven Printausgaben, die einen besonderen Wert bieten.",
+          "textTitle": "Meinung 6",
+          "passageId": "gen-l4-b8a53d13-6"
+        }
+      ],
+      "passage": {
+        "title": "Meinung 1",
+        "text": "Social Media Plattformen bieten eine unvergleichliche Möglichkeit, Menschen weltweit zu verbinden und Informationen in Echtzeit zu teilen. Sie ermöglichen es, unterschiedliche Perspektiven kennenzulernen und sich an globalen Diskussionen zu beteiligen. Viele Nutzer schätzen die einfache Kommunikation mit Freunden und Familie, die über große Entfernungen leben. Auch für Aktivismus und die Verbreitung wichtiger Botschaften sind diese Kanäle unerlässlich geworden. Die Vielfalt der Inhalte bereichert den Alltag vieler."
+      },
+      "questions": [
+        {
+          "id": "gen-q-4-b8a53d13-1",
+          "module": "lesen",
+          "teil": 4,
+          "level": "B2",
+          "type": "matching",
+          "question": "Lesen Sie in einer Zeitschrift Meinungsäußerungen.\nWelche Äußerung passt zu welcher Überschrift? Eine Äußerung passt nicht.\n\nMeinung (1): Welche Überschrift passt zu dieser Äußerung?",
+          "signText": "",
+          "correct": "B",
+          "correctAnswer": "B",
+          "explanation": "Die Äußerung betont die positiven Seiten von Social Media, wie das Verbinden von Menschen und das Teilen von Informationen, was gut zur Überschrift 'Social Media als Brücke zur Welt' passt.",
+          "options": [
+            "A) Digitale Medien: Gefahr für die Psyche?",
+            "B) Social Media als Brücke zur Welt",
+            "C) Qualitätsjournalismus in der Krise",
+            "D) Die Macht der Bilder in der Werbung",
+            "E) Printmedien: Ende oder Neuanfang?",
+            "F) Medienkompetenz: Schlüssel zur Wahrheit",
+            "G) Mehr Kontrolle für Online-Giganten",
+            "H) Algorithmen statt Redaktion: Journalismus 4.0"
+          ],
+          "passageId": "gen-l4-b8a53d13-1"
+        },
+        {
+          "id": "gen-q-4-b8a53d13-2",
+          "module": "lesen",
+          "teil": 4,
+          "level": "B2",
+          "type": "matching",
+          "question": "Meinung (2): Welche Überschrift passt zu dieser Äußerung?",
+          "signText": "",
+          "correct": "C",
+          "correctAnswer": "C",
+          "explanation": "Der Text beschreibt die Schwierigkeiten und Gefahren für den traditionellen Journalismus durch die Digitalisierung und die Finanzierungsprobleme, was die Überschrift 'Qualitätsjournalismus in der Krise' treffend zusammenfasst.",
+          "options": [
+            "A) Digitale Medien: Gefahr für die Psyche?",
+            "B) Social Media als Brücke zur Welt",
+            "C) Qualitätsjournalismus in der Krise",
+            "D) Die Macht der Bilder in der Werbung",
+            "E) Printmedien: Ende oder Neuanfang?",
+            "F) Medienkompetenz: Schlüssel zur Wahrheit",
+            "G) Mehr Kontrolle für Online-Giganten",
+            "H) Algorithmen statt Redaktion: Journalismus 4.0"
+          ],
+          "passageId": "gen-l4-b8a53d13-2"
+        },
+        {
+          "id": "gen-q-4-b8a53d13-3",
+          "module": "lesen",
+          "teil": 4,
+          "level": "B2",
+          "type": "matching",
+          "question": "Meinung (3): Welche Überschrift passt zu dieser Äußerung?",
+          "signText": "",
+          "correct": "F",
+          "correctAnswer": "F",
+          "explanation": "Die Äußerung betont die Notwendigkeit, Quellen kritisch zu hinterfragen und Falschinformationen zu erkennen, was direkt mit dem Konzept der Medienkompetenz als 'Schlüssel zur Wahrheit' korrespondiert.",
+          "options": [
+            "A) Digitale Medien: Gefahr für die Psyche?",
+            "B) Social Media als Brücke zur Welt",
+            "C) Qualitätsjournalismus in der Krise",
+            "D) Die Macht der Bilder in der Werbung",
+            "E) Printmedien: Ende oder Neuanfang?",
+            "F) Medienkompetenz: Schlüssel zur Wahrheit",
+            "G) Mehr Kontrolle für Online-Giganten",
+            "H) Algorithmen statt Redaktion: Journalismus 4.0"
+          ],
+          "passageId": "gen-l4-b8a53d13-3"
+        },
+        {
+          "id": "gen-q-4-b8a53d13-4",
+          "module": "lesen",
+          "teil": 4,
+          "level": "B2",
+          "type": "matching",
+          "question": "Meinung (4): Welche Überschrift passt zu dieser Äußerung?",
+          "signText": "",
+          "correct": "G",
+          "correctAnswer": "G",
+          "explanation": "Der Text spricht über die Notwendigkeit, klare Regeln für Betreiber digitaler Plattformen zu schaffen und deren Verantwortung zu erhöhen, was gut zur Überschrift 'Mehr Kontrolle für Online-Giganten' passt.",
+          "options": [
+            "A) Digitale Medien: Gefahr für die Psyche?",
+            "B) Social Media als Brücke zur Welt",
+            "C) Qualitätsjournalismus in der Krise",
+            "D) Die Macht der Bilder in der Werbung",
+            "E) Printmedien: Ende oder Neuanfang?",
+            "F) Medienkompetenz: Schlüssel zur Wahrheit",
+            "G) Mehr Kontrolle für Online-Giganten",
+            "H) Algorithmen statt Redaktion: Journalismus 4.0"
+          ],
+          "passageId": "gen-l4-b8a53d13-4"
+        },
+        {
+          "id": "gen-q-4-b8a53d13-5",
+          "module": "lesen",
+          "teil": 4,
+          "level": "B2",
+          "type": "matching",
+          "question": "Meinung (5): Welche Überschrift passt zu dieser Äußerung?",
+          "signText": "",
+          "correct": "A",
+          "correctAnswer": "A",
+          "explanation": "Die Äußerung thematisiert die negativen Auswirkungen von Medienkonsum, insbesondere sozialen Netzwerken, auf die psychische Gesundheit, was die Überschrift 'Digitale Medien: Gefahr für die Psyche?' perfekt widerspiegelt.",
+          "options": [
+            "A) Digitale Medien: Gefahr für die Psyche?",
+            "B) Social Media als Brücke zur Welt",
+            "C) Qualitätsjournalismus in der Krise",
+            "D) Die Macht der Bilder in der Werbung",
+            "E) Printmedien: Ende oder Neuanfang?",
+            "F) Medienkompetenz: Schlüssel zur Wahrheit",
+            "G) Mehr Kontrolle für Online-Giganten",
+            "H) Algorithmen statt Redaktion: Journalismus 4.0"
+          ],
+          "passageId": "gen-l4-b8a53d13-5"
+        },
+        {
+          "id": "gen-q-4-b8a53d13-6",
+          "module": "lesen",
+          "teil": 4,
+          "level": "B2",
+          "type": "matching",
+          "question": "Meinung (6): Welche Überschrift passt zu dieser Äußerung?",
+          "signText": "",
+          "correct": "E",
+          "correctAnswer": "E",
+          "explanation": "Der Text diskutiert die Zukunft der gedruckten Medien, ob sie trotz sinkender Auflagen noch eine Relevanz haben oder sich neu erfinden müssen, was die Frage 'Printmedien: Ende oder Neuanfang?' aufgreift.",
+          "options": [
+            "A) Digitale Medien: Gefahr für die Psyche?",
+            "B) Social Media als Brücke zur Welt",
+            "C) Qualitätsjournalismus in der Krise",
+            "D) Die Macht der Bilder in der Werbung",
+            "E) Printmedien: Ende oder Neuanfang?",
+            "F) Medienkompetenz: Schlüssel zur Wahrheit",
+            "G) Mehr Kontrolle für Online-Giganten",
+            "H) Algorithmen statt Redaktion: Journalismus 4.0"
+          ],
+          "passageId": "gen-l4-b8a53d13-6"
+        }
+      ],
+      "itemCount": 6,
+      "targetCount": 6,
+      "topicTag": "Medien",
+      "debateTopic": "social_media_16",
+      "sourceFile": "batches/ready/pool-verified/B2/lesen-t4-gemini-086.json",
+      "contributor": "pool-verified-sync",
+      "complete": true,
+      "verified": true
+    },
+    {
+      "id": "lesen-t5-gemini-109",
+      "lang": "de",
+      "level": "B2",
+      "module": "lesen",
+      "teil": 5,
+      "instruction": "",
+      "passage": {
+        "title": "Studienordnung für den Bachelorstudiengang \"Digitale Bildung\"",
+        "text": "Diese Studienordnung regelt auf der Grundlage der Prüfungsordnung die Ziele, Inhalte und den Aufbau des Bachelorstudiengangs \"Digitale Bildung\" an der Universität [Name]. Sie dient der Sicherstellung eines geordneten Studienablaufs und der Qualitätssicherung der Lehre.\n\n(31) Der Bachelorstudiengang \"Digitale Bildung\" umfasst 180 ECTS-Punkte und ist in sechs Semester gegliedert. Er setzt sich aus Pflichtmodulen, Wahlpflichtmodulen und einem Praxismodul zusammen. Jedes Modul schließt mit einer Modulprüfung ab. Der Studienplan sieht eine bestimmte Abfolge der Module vor, um eine optimale Lernerfahrung zu gewährleisten und den Erwerb relevanter Kompetenzen zu fördern. Studierende müssen sich für jedes Modul fristgerecht anmelden, um an den Lehrveranstaltungen teilnehmen und Prüfungsleistungen erbringen zu können. Die erfolgreiche Absolvierung der Module ist Voraussetzung für den Fortschritt im Studium und den Erhalt des Bachelorgrades.\n\n(32) Die Prüfungsleistungen werden semesterbegleitend oder am Ende eines Semesters erbracht. Dazu gehören Klausuren, Hausarbeiten, Präsentationen oder mündliche Prüfungen. Die genauen Anforderungen für jede Prüfungsleistung sind im Modulhandbuch beschrieben. Eine nicht bestandene Prüfungsleistung kann zweimal wiederholt werden. Die Fristen für die Anmeldung für Prüfungen und für die Abgabe von Arbeiten sind strikt einzuhalten. Bei Versäumnis ohne triftigen Grund gilt die Leistung als nicht bestanden und führt zu einem Fehlversuch.\n\n(33) Studierende sind verpflichtet, sich aktiv am Studienprozess zu beteiligen. Dies beinhaltet die regelmäßige Teilnahme an Lehrveranstaltungen, sofern diese als teilnahmepflichtig ausgewiesen sind, sowie die eigenverantwortliche Vor- und Nachbereitung des Lehrstoffs. Eine sorgfältige Planung des eigenen Studienverlaufs ist dabei unerlässlich. Änderungen der persönlichen Daten, insbesondere der Adresse und Kontaktdaten, müssen dem Studierendensekretariat unverzüglich mitgeteilt werden. Es wird erwartet, dass Studierende sich eigenverantwortlich über aktuelle Regelungen und wichtige Bekanntmachungen informieren, beispielsweise durch den Aushang am schwarzen Brett oder über das Online-Campus-Portal. Die Einhaltung dieser Pflichten trägt maßgeblich zum Studienerfolg bei.",
+        "transcript": ""
+      },
+      "questions": [
+        {
+          "id": "gen-q-5-cdfc084a-1",
+          "module": "lesen",
+          "teil": 5,
+          "level": "B2",
+          "type": "matching",
+          "question": "Lesen Sie die Studienordnung.\nWelche Überschriften aus dem Inhaltsverzeichnis passen zu den Paragrafen? Vier Überschriften werden nicht gebraucht.\n\nParagraf (31): Welche Überschrift passt zu diesem Paragrafen?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Aufbau des Studiums und Modulstruktur"
+            },
+            {
+              "key": "B",
+              "text": "Klausuren, Hausarbeiten und Anmeldefristen"
+            },
+            {
+              "key": "C",
+              "text": "Pflichten der Studierenden"
+            },
+            {
+              "key": "D",
+              "text": "Beurlaubung und Rückmeldung zum Semester"
+            },
+            {
+              "key": "A",
+              "text": "E) Anerkennung externer Leistungen"
+            },
+            {
+              "key": "A",
+              "text": "F) Studienberatung und Mentoring"
+            },
+            {
+              "key": "A",
+              "text": "G) Exmatrikulation und Studienabbruch"
+            }
+          ],
+          "correct": "a",
+          "correctAnswer": "a",
+          "explanation": "Paragraf (31) beschreibt die Gliederung des Studiums in Semester, ECTS-Punkte und die Zusammensetzung aus verschiedenen Modulen sowie die Notwendigkeit der Modulanmeldung. Dies passt am besten zur Überschrift 'Aufbau des Studiums und Modulstruktur'.",
+          "passageId": "gen-l5-cdfc084a"
+        },
+        {
+          "id": "gen-q-5-cdfc084a-2",
+          "module": "lesen",
+          "teil": 5,
+          "level": "B2",
+          "type": "matching",
+          "question": "Paragraf (32): Welche Überschrift passt zu diesem Paragrafen?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Aufbau des Studiums und Modulstruktur"
+            },
+            {
+              "key": "B",
+              "text": "Klausuren, Hausarbeiten und Anmeldefristen"
+            },
+            {
+              "key": "C",
+              "text": "Pflichten der Studierenden"
+            },
+            {
+              "key": "D",
+              "text": "Beurlaubung und Rückmeldung zum Semester"
+            },
+            {
+              "key": "A",
+              "text": "E) Anerkennung externer Leistungen"
+            },
+            {
+              "key": "A",
+              "text": "F) Studienberatung und Mentoring"
+            },
+            {
+              "key": "A",
+              "text": "G) Exmatrikulation und Studienabbruch"
+            }
+          ],
+          "correct": "b",
+          "correctAnswer": "b",
+          "explanation": "Paragraf (32) erläutert die Art der Prüfungsleistungen, die Wiederholungsmöglichkeiten bei Nichtbestehen und die einzuhaltenden Fristen für Prüfungsanmeldung und Abgabe. Die Überschrift 'Klausuren, Hausarbeiten und Anmeldefristen' fasst dies präzise zusammen.",
+          "passageId": "gen-l5-cdfc084a"
+        },
+        {
+          "id": "gen-q-5-cdfc084a-3",
+          "module": "lesen",
+          "teil": 5,
+          "level": "B2",
+          "type": "matching",
+          "question": "Paragraf (33): Welche Überschrift passt zu diesem Paragrafen?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Aufbau des Studiums und Modulstruktur"
+            },
+            {
+              "key": "B",
+              "text": "Klausuren, Hausarbeiten und Anmeldefristen"
+            },
+            {
+              "key": "C",
+              "text": "Pflichten der Studierenden"
+            },
+            {
+              "key": "D",
+              "text": "Beurlaubung und Rückmeldung zum Semester"
+            },
+            {
+              "key": "A",
+              "text": "E) Anerkennung externer Leistungen"
+            },
+            {
+              "key": "A",
+              "text": "F) Studienberatung und Mentoring"
+            },
+            {
+              "key": "A",
+              "text": "G) Exmatrikulation und Studienabbruch"
+            }
+          ],
+          "correct": "c",
+          "correctAnswer": "c",
+          "explanation": "Paragraf (33) listet verschiedene Verpflichtungen der Studierenden auf, wie die aktive Teilnahme, die eigenverantwortliche Vorbereitung, die Meldung von Datenänderungen und die selbstständige Informationsbeschaffung. Dies wird durch die Überschrift 'Pflichten der Studierenden' am besten abgedeckt.",
+          "passageId": "gen-l5-cdfc084a"
+        }
+      ],
+      "itemCount": 3,
+      "targetCount": 3,
+      "topicTag": "Bildung",
+      "textSubtype": "wohnanlage",
+      "sourceFile": "batches/ready/pool-verified/B2/lesen-t5-gemini-109.json",
+      "contributor": "pool-verified-sync",
+      "complete": true,
+      "verified": true
+    },
+    {
+      "id": "schreiben-gemini-052-t1",
+      "module": "schreiben",
+      "teil": 1,
+      "lang": "de",
+      "level": "B2",
+      "questions": [
+        {
+          "id": "gen-q-s-t1-5384c6e2-q1",
+          "module": "schreiben",
+          "teil": 1,
+          "lang": "de",
+          "level": "B2",
+          "type": "short_answer",
+          "question": "In einem Internetforum diskutieren Menschen über den Einfluss sozialer Medien auf unser tägliches Leben und die Gesellschaft.\nSchreiben Sie einen Forumsbeitrag zu einem Thema.\nÄußern Sie Ihre Meinung, nennen Sie Gründe, Vorschläge und Vor- und Nachteile.\nSchreiben Sie mindestens 150 Wörter.",
+          "correct": "rubric",
+          "correctAnswer": "rubric",
+          "options": [],
+          "explanation": "Bewertung (Goethe-offiziell B2): Erfüllung – Meinung, Gründe, Vorschläge, Vor- und Nachteile; Kohärenz; Wortschatz B2; Strukturen B2. Mindestens 150 Wörter (unter 50 % → Erfüllung 0). Forumsregister.",
+          "difficulty": 4,
+          "skills": [
+            "writing"
+          ],
+          "language": "de",
+          "examType": "goethe",
+          "topicTags": [
+            "Medien"
+          ],
+          "vocabularyTags": [
+            "menschen",
+            "diskutieren",
+            "täglich",
+            "Gesellschaft",
+            "schreiben",
+            "Meinung"
+          ],
+          "grammarTags": [
+            "g-de-b2-nominal"
+          ]
+        }
+      ],
+      "instruction": "In einem Internetforum diskutieren Menschen über den Einfluss sozialer Medien auf unser tägliches Leben und die Gesellschaft.\nSchreiben Sie einen Forumsbeitrag zu einem Thema.\nÄußern Sie Ihre Meinung, nennen Sie Gründe, Vorschläge und Vor- und Nachteile.\nSchreiben Sie mindestens 150 Wörter.",
+      "task": "In einem Internetforum diskutieren Menschen über den Einfluss sozialer Medien auf unser tägliches Leben und die Gesellschaft.\nSchreiben Sie einen Forumsbeitrag zu einem Thema.\nÄußern Sie Ihre Meinung, nennen Sie Gründe, Vorschläge und Vor- und Nachteile.\nSchreiben Sie mindestens 150 Wörter.",
+      "topicTag": "Medien",
+      "sourceFile": "batches/ready/pool-verified/B2/schreiben-gemini-052.json",
+      "contributor": "pool-verified-sync",
+      "complete": true,
+      "verified": true
+    },
+    {
+      "id": "schreiben-gemini-052-t2",
+      "module": "schreiben",
+      "teil": 2,
+      "lang": "de",
+      "level": "B2",
+      "questions": [
+        {
+          "id": "gen-q-s-t1-5384c6e2-q1",
+          "module": "schreiben",
+          "teil": 1,
+          "lang": "de",
+          "level": "B2",
+          "type": "short_answer",
+          "question": "In einem Internetforum diskutieren Menschen über den Einfluss sozialer Medien auf unser tägliches Leben und die Gesellschaft.\nSchreiben Sie einen Forumsbeitrag zu einem Thema.\nÄußern Sie Ihre Meinung, nennen Sie Gründe, Vorschläge und Vor- und Nachteile.\nSchreiben Sie mindestens 150 Wörter.",
+          "correct": "rubric",
+          "correctAnswer": "rubric",
+          "options": [],
+          "explanation": "Bewertung (Goethe-offiziell B2): Erfüllung – Meinung, Gründe, Vorschläge, Vor- und Nachteile; Kohärenz; Wortschatz B2; Strukturen B2. Mindestens 150 Wörter (unter 50 % → Erfüllung 0). Forumsregister.",
+          "difficulty": 4,
+          "skills": [
+            "writing"
+          ],
+          "language": "de",
+          "examType": "goethe",
+          "topicTags": [
+            "Medien"
+          ],
+          "vocabularyTags": [
+            "menschen",
+            "diskutieren",
+            "täglich",
+            "Gesellschaft",
+            "schreiben",
+            "Meinung"
+          ],
+          "grammarTags": [
+            "g-de-b2-nominal"
+          ]
+        }
+      ],
+      "instruction": "",
+      "task": "",
+      "topicTag": "Medien",
+      "sourceFile": "batches/ready/pool-verified/B2/schreiben-gemini-052.json",
+      "contributor": "pool-verified-sync",
+      "complete": true,
+      "verified": true
+    },
+    {
+      "id": "schreiben-gemini-053-t1",
+      "module": "schreiben",
+      "teil": 1,
+      "lang": "de",
+      "level": "B2",
+      "questions": [
+        {
+          "id": "gen-q-s-t2-851085f3-q1",
+          "module": "schreiben",
+          "teil": 2,
+          "lang": "de",
+          "level": "B2",
+          "type": "short_answer",
+          "question": "Sie arbeiten an einem wichtigen Projekt mit einer engen Deadline. Unerwartet müssen Sie für drei Tage verreisen, um eine dringende private Angelegenheit zu klären, die Ihre persönliche Anwesenheit erfordert. Dies kollidiert mit der finalen Phase des Projekts und einer geplanten Präsentation.\nSchreiben Sie eine Nachricht an Ihren Vorgesetzten.\nBeschreiben Sie Ihre Situation, bitten Sie um Verständnis, machen Sie einen Vorschlag und zeigen Sie Verständnis.\nSchreiben Sie mindestens 100 Wörter. Vergessen Sie Anrede und Gruß nicht.",
+          "correct": "rubric",
+          "correctAnswer": "rubric",
+          "options": [],
+          "explanation": "Bewertung (Goethe-offiziell B2): Erfüllung – Situation, Bitte um Verständnis, Vorschlag, Verständnis zeigen; Kohärenz; Wortschatz B2; Strukturen B2. Mindestens 100 Wörter (unter 50 % → Erfüllung 0). Anrede und Gruß zum Vorgesetzten.",
+          "difficulty": 4,
+          "skills": [
+            "writing"
+          ],
+          "language": "de",
+          "examType": "goethe",
+          "topicTags": [
+            "Arbeit"
+          ],
+          "vocabularyTags": [
+            "Situation",
+            "bitten",
+            "persönlich",
+            "Deadline",
+            "Angelegenheit",
+            "Präsentation"
+          ],
+          "grammarTags": [
+            "g-de-b2-modus",
+            "g-de-b2-nominal"
+          ]
+        }
+      ],
+      "instruction": "",
+      "task": "",
+      "topicTag": "Arbeit",
+      "sourceFile": "batches/ready/pool-verified/B2/schreiben-gemini-053.json",
+      "contributor": "pool-verified-sync",
+      "complete": true,
+      "verified": true
+    },
+    {
+      "id": "schreiben-gemini-053-t2",
+      "module": "schreiben",
+      "teil": 2,
+      "lang": "de",
+      "level": "B2",
+      "questions": [
+        {
+          "id": "gen-q-s-t2-851085f3-q1",
+          "module": "schreiben",
+          "teil": 2,
+          "lang": "de",
+          "level": "B2",
+          "type": "short_answer",
+          "question": "Sie arbeiten an einem wichtigen Projekt mit einer engen Deadline. Unerwartet müssen Sie für drei Tage verreisen, um eine dringende private Angelegenheit zu klären, die Ihre persönliche Anwesenheit erfordert. Dies kollidiert mit der finalen Phase des Projekts und einer geplanten Präsentation.\nSchreiben Sie eine Nachricht an Ihren Vorgesetzten.\nBeschreiben Sie Ihre Situation, bitten Sie um Verständnis, machen Sie einen Vorschlag und zeigen Sie Verständnis.\nSchreiben Sie mindestens 100 Wörter. Vergessen Sie Anrede und Gruß nicht.",
+          "correct": "rubric",
+          "correctAnswer": "rubric",
+          "options": [],
+          "explanation": "Bewertung (Goethe-offiziell B2): Erfüllung – Situation, Bitte um Verständnis, Vorschlag, Verständnis zeigen; Kohärenz; Wortschatz B2; Strukturen B2. Mindestens 100 Wörter (unter 50 % → Erfüllung 0). Anrede und Gruß zum Vorgesetzten.",
+          "difficulty": 4,
+          "skills": [
+            "writing"
+          ],
+          "language": "de",
+          "examType": "goethe",
+          "topicTags": [
+            "Arbeit"
+          ],
+          "vocabularyTags": [
+            "Situation",
+            "bitten",
+            "persönlich",
+            "Deadline",
+            "Angelegenheit",
+            "Präsentation"
+          ],
+          "grammarTags": [
+            "g-de-b2-modus",
+            "g-de-b2-nominal"
+          ]
+        }
+      ],
+      "instruction": "Sie arbeiten an einem wichtigen Projekt mit einer engen Deadline. Unerwartet müssen Sie für drei Tage verreisen, um eine dringende private Angelegenheit zu klären, die Ihre persönliche Anwesenheit erfordert. Dies kollidiert mit der finalen Phase des Projekts und einer geplanten Präsentation.\nSchreiben Sie eine Nachricht an Ihren Vorgesetzten.\nBeschreiben Sie Ihre Situation, bitten Sie um Verständnis, machen Sie einen Vorschlag und zeigen Sie Verständnis.\nSchreiben Sie mindestens 100 Wörter. Vergessen Sie Anrede und Gruß nicht.",
+      "task": "Sie arbeiten an einem wichtigen Projekt mit einer engen Deadline. Unerwartet müssen Sie für drei Tage verreisen, um eine dringende private Angelegenheit zu klären, die Ihre persönliche Anwesenheit erfordert. Dies kollidiert mit der finalen Phase des Projekts und einer geplanten Präsentation.\nSchreiben Sie eine Nachricht an Ihren Vorgesetzten.\nBeschreiben Sie Ihre Situation, bitten Sie um Verständnis, machen Sie einen Vorschlag und zeigen Sie Verständnis.\nSchreiben Sie mindestens 100 Wörter. Vergessen Sie Anrede und Gruß nicht.",
+      "topicTag": "Arbeit",
+      "sourceFile": "batches/ready/pool-verified/B2/schreiben-gemini-053.json",
+      "contributor": "pool-verified-sync",
+      "complete": true,
+      "verified": true
+    },
+    {
+      "id": "sprechen-t1-gemini-019",
+      "module": "sprechen",
+      "teil": 1,
+      "lang": "de",
+      "level": "B2",
+      "questions": [
+        {
+          "id": "gen-q-sp-t1-ae256056-q1",
+          "module": "sprechen",
+          "teil": 1,
+          "lang": "de",
+          "level": "B2",
+          "type": "short_answer",
+          "question": "Thema: Sport und Gesundheit.\nHalten Sie einen kurzen Vortrag zu einem Thema Ihrer Wahl und sprechen Sie mit Ihrer Partnerin/Ihrem Partner darüber.\nWählen Sie einen spezifischen Teilbereich zum Thema Sport und Gesundheit aus, der Sie besonders interessiert.\nGliedern Sie Ihren Vortrag wie folgt:\n1.  Einleitung: Was bedeutet Sport und Bewegung für Sie persönlich?\n2.  Ein konkretes Beispiel: Stellen Sie eine Sportart vor, die Sie selbst ausüben oder die in Ihrem Heimatland beliebt ist.\n3.  Vorteile und mögliche Probleme von regelmäßigem Sport (z.B. für die körperliche und geistige Gesundheit, soziale Kontakte, Zeitmanagement).\n4.  Schlussfolgerung: Ihre persönliche Meinung zur Rolle des Sports in der Gesellschaft und im Alltag.\nBeantworten Sie danach Fragen Ihrer Partnerin/Ihres Partners und stellen Sie auch selbst Fragen.",
+          "correct": "rubric",
+          "correctAnswer": "rubric",
+          "options": [],
+          "explanation": "Bewertung B2: Vortrag strukturiert, verständlich, Interaktion mit Partner/in; Wortschatz und Strukturen B2.",
+          "difficulty": 5,
+          "skills": [
+            "speaking"
+          ],
+          "grammarTags": [
+            "g-de-b2-nominal"
+          ],
+          "language": "de",
+          "examType": "goethe",
+          "topicTags": [
+            "Sport"
+          ],
+          "vocabularyTags": [
+            "bedeuten",
+            "Beispiel",
+            "Partner",
+            "halten"
+          ]
+        }
+      ],
+      "instruction": "Thema: Sport und Gesundheit.\nHalten Sie einen kurzen Vortrag zu einem Thema Ihrer Wahl und sprechen Sie mit Ihrer Partnerin/Ihrem Partner darüber.\nWählen Sie einen spezifischen Teilbereich zum Thema Sport und Gesundheit aus, der Sie besonders interessiert.\nGliedern Sie Ihren Vortrag wie folgt:\n1.  Einleitung: Was bedeutet Sport und Bewegung für Sie persönlich?\n2.  Ein konkretes Beispiel: Stellen Sie eine Sportart vor, die Sie selbst ausüben oder die in Ihrem Heimatland beliebt ist.\n3.  Vorteile und mögliche Probleme von regelmäßigem Sport (z.B. für die körperliche und geistige Gesundheit, soziale Kontakte, Zeitmanagement).\n4.  Schlussfolgerung: Ihre persönliche Meinung zur Rolle des Sports in der Gesellschaft und im Alltag.\nBeantworten Sie danach Fragen Ihrer Partnerin/Ihres Partners und stellen Sie auch selbst Fragen.",
+      "task": "Thema: Sport und Gesundheit.\nHalten Sie einen kurzen Vortrag zu einem Thema Ihrer Wahl und sprechen Sie mit Ihrer Partnerin/Ihrem Partner darüber.\nWählen Sie einen spezifischen Teilbereich zum Thema Sport und Gesundheit aus, der Sie besonders interessiert.\nGliedern Sie Ihren Vortrag wie folgt:\n1.  Einleitung: Was bedeutet Sport und Bewegung für Sie persönlich?\n2.  Ein konkretes Beispiel: Stellen Sie eine Sportart vor, die Sie selbst ausüben oder die in Ihrem Heimatland beliebt ist.\n3.  Vorteile und mögliche Probleme von regelmäßigem Sport (z.B. für die körperliche und geistige Gesundheit, soziale Kontakte, Zeitmanagement).\n4.  Schlussfolgerung: Ihre persönliche Meinung zur Rolle des Sports in der Gesellschaft und im Alltag.\nBeantworten Sie danach Fragen Ihrer Partnerin/Ihres Partners und stellen Sie auch selbst Fragen.",
+      "topicTag": "Sport",
+      "sourceFile": "batches/ready/pool-verified/B2/sprechen-t1-gemini-019.json",
+      "contributor": "pool-verified-sync",
+      "complete": true,
+      "verified": true
+    },
+    {
+      "id": "sprechen-t2-gemini-019",
+      "module": "sprechen",
+      "teil": 2,
+      "lang": "de",
+      "level": "B2",
+      "questions": [
+        {
+          "id": "gen-q-sp-t2-92fa32a0-q1",
+          "module": "sprechen",
+          "teil": 2,
+          "lang": "de",
+          "level": "B2",
+          "type": "short_answer",
+          "question": "Thema: Sollte der Einsatz von künstlicher Intelligenz (KI) am Arbeitsplatz gesetzlich stärker reguliert werden?\nTauschen Sie in einer Diskussion Standpunkte zu einem kontroversen Thema aus.\nSammeln Sie Argumente für und gegen eine stärkere Regulierung dieser Technologie am Arbeitsplatz. Reagieren Sie auf die Beiträge Ihrer Partnerin/Ihres Partners, bringen Sie eigene Beispiele ein und versuchen Sie, am Ende eine gemeinsame Lösung oder einen Kompromiss zu finden, der die Digitalisierung und Innovation berücksichtigt, aber auch Probleme adressiert.",
+          "correct": "rubric",
+          "correctAnswer": "rubric",
+          "options": [],
+          "explanation": "Bewertung B2: Argumentation, Reaktion auf Partner/in, Register; kontroverses Thema klar erkennbar.",
+          "difficulty": 5,
+          "skills": [
+            "speaking"
+          ],
+          "grammarTags": [
+            "g-de-b2-passiv",
+            "g-de-b2-konj1",
+            "g-de-b2-nominal"
+          ],
+          "language": "de",
+          "examType": "goethe",
+          "topicTags": [
+            "Technik"
+          ],
+          "vocabularyTags": [
+            "versuchen",
+            "Beispiel",
+            "gemeinsam",
+            "Digitalisierung"
+          ]
+        }
+      ],
+      "instruction": "Thema: Sollte der Einsatz von künstlicher Intelligenz (KI) am Arbeitsplatz gesetzlich stärker reguliert werden?\nTauschen Sie in einer Diskussion Standpunkte zu einem kontroversen Thema aus.\nSammeln Sie Argumente für und gegen eine stärkere Regulierung dieser Technologie am Arbeitsplatz. Reagieren Sie auf die Beiträge Ihrer Partnerin/Ihres Partners, bringen Sie eigene Beispiele ein und versuchen Sie, am Ende eine gemeinsame Lösung oder einen Kompromiss zu finden, der die Digitalisierung und Innovation berücksichtigt, aber auch Probleme adressiert.",
+      "task": "Thema: Sollte der Einsatz von künstlicher Intelligenz (KI) am Arbeitsplatz gesetzlich stärker reguliert werden?\nTauschen Sie in einer Diskussion Standpunkte zu einem kontroversen Thema aus.\nSammeln Sie Argumente für und gegen eine stärkere Regulierung dieser Technologie am Arbeitsplatz. Reagieren Sie auf die Beiträge Ihrer Partnerin/Ihres Partners, bringen Sie eigene Beispiele ein und versuchen Sie, am Ende eine gemeinsame Lösung oder einen Kompromiss zu finden, der die Digitalisierung und Innovation berücksichtigt, aber auch Probleme adressiert.",
+      "topicTag": "Technik",
+      "sourceFile": "batches/ready/pool-verified/B2/sprechen-t2-gemini-019.json",
+      "contributor": "pool-verified-sync",
+      "complete": true,
+      "verified": true
+    }
+  ]
+}

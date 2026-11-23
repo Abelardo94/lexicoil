@@ -1,0 +1,1125 @@
+{
+  "level": "B2",
+  "lang": "de",
+  "source": "freq-band-2401-4000+cefr-seed+manual-curation-pilot",
+  "lemmaCount": 72,
+  "schemaVersion": "b2-vocab-entry-v1",
+  "pilot": true,
+  "generatedAt": "2026-08-02T08:48:53.625Z",
+  "note": "Local pilot sample — does NOT replace library/vocab/de/B2.json. No pool publish.",
+  "entries": [
+    {
+      "lemma": "algorithmus",
+      "pos": "Substantiv",
+      "gender": "m",
+      "separable": false,
+      "topic": "Digitalisierung und Gesellschaft",
+      "domain": "Digitalisierung",
+      "example": "Der Algorithmus sortiert Nachrichten nach Klickrate und personalisiert den Feed.",
+      "overlapB1": false,
+      "sources": [
+        "manual",
+        "pool-b2"
+      ],
+      "dwdsVerified": false
+    },
+    {
+      "lemma": "desinformation",
+      "pos": "Substantiv",
+      "gender": "f",
+      "separable": false,
+      "topic": "Digitalisierung und Gesellschaft",
+      "domain": "Digitalisierung",
+      "example": "Staatlich gesteuerte Desinformation untergräbt das Vertrauen in demokratische Institutionen.",
+      "overlapB1": false,
+      "sources": [
+        "manual",
+        "pool-b2"
+      ],
+      "dwdsVerified": false
+    },
+    {
+      "lemma": "filterblase",
+      "pos": "Substantiv",
+      "gender": "f",
+      "separable": false,
+      "topic": "Digitalisierung und Gesellschaft",
+      "domain": "Digitalisierung",
+      "example": "In der Filterblase sieht man vor allem Meinungen, die die eigenen bestätigen.",
+      "overlapB1": false,
+      "sources": [
+        "manual",
+        "pool-b2"
+      ],
+      "dwdsVerified": false
+    },
+    {
+      "lemma": "medienkompetenz",
+      "pos": "Substantiv",
+      "gender": "f",
+      "separable": false,
+      "topic": "Digitalisierung und Gesellschaft",
+      "domain": "Digitalisierung",
+      "example": "Medienkompetenz soll Schülerinnen befähigen, Online-Quellen kritisch zu prüfen.",
+      "overlapB1": false,
+      "sources": [
+        "manual",
+        "pool-b2"
+      ],
+      "dwdsVerified": false
+    },
+    {
+      "lemma": "plattform",
+      "pos": "Substantiv",
+      "gender": "f",
+      "separable": false,
+      "topic": "Digitalisierung und Gesellschaft",
+      "domain": "Digitalisierung",
+      "example": "Die Plattform verarbeitet personenbezogene Daten und muss transparent informieren.",
+      "overlapB1": false,
+      "sources": [
+        "manual",
+        "freq-band"
+      ],
+      "dwdsVerified": false
+    },
+    {
+      "lemma": "cyberangriff",
+      "pos": "Substantiv",
+      "gender": "m",
+      "separable": false,
+      "topic": "Digitalisierung und Gesellschaft",
+      "domain": "Digitalisierung",
+      "example": "Nach dem Cyberangriff wurden sensible Patientendaten vorübergehend unzugänglich.",
+      "overlapB1": false,
+      "sources": [
+        "manual"
+      ],
+      "dwdsVerified": false
+    },
+    {
+      "lemma": "implementieren",
+      "pos": "Verb",
+      "gender": null,
+      "separable": false,
+      "topic": "Digitalisierung und Gesellschaft",
+      "domain": "Digitalisierung",
+      "example": "Die Kommune will bis 2027 eine digitale Bürgerakte flächendeckend implementieren.",
+      "overlapB1": false,
+      "sources": [
+        "cefr-seed",
+        "manual"
+      ],
+      "dwdsVerified": false
+    },
+    {
+      "lemma": "digitalisieren",
+      "pos": "Verb",
+      "gender": null,
+      "separable": false,
+      "topic": "Digitalisierung und Gesellschaft",
+      "domain": "Digitalisierung",
+      "example": "Behörden digitalisieren Anträge, um Wartezeiten für Bürger zu verkürzen.",
+      "overlapB1": false,
+      "sources": [
+        "manual"
+      ],
+      "dwdsVerified": false
+    },
+    {
+      "lemma": "automatisieren",
+      "pos": "Verb",
+      "gender": null,
+      "separable": false,
+      "topic": "Digitalisierung und Gesellschaft",
+      "domain": "Digitalisierung",
+      "example": "Viele Unternehmen automatisieren Routineaufgaben, um Kosten langfristig zu senken.",
+      "overlapB1": false,
+      "sources": [
+        "manual",
+        "freq-band"
+      ],
+      "dwdsVerified": false
+    },
+    {
+      "lemma": "einschalten",
+      "pos": "Verb",
+      "gender": null,
+      "separable": true,
+      "topic": "Digitalisierung und Gesellschaft",
+      "domain": "Digitalisierung",
+      "example": "Viele Teilnehmende vergessen, das Mikrofon rechtzeitig einzuschalten, bevor sie sprechen.",
+      "overlapB1": false,
+      "sources": [
+        "manual",
+        "separable-allowlist"
+      ],
+      "dwdsVerified": false
+    },
+    {
+      "lemma": "ausschalten",
+      "pos": "Verb",
+      "gender": null,
+      "separable": true,
+      "topic": "Digitalisierung und Gesellschaft",
+      "domain": "Digitalisierung",
+      "example": "Wer das Smartphone nachts ausschaltet, schläft laut Studie deutlich länger und ruhiger.",
+      "overlapB1": false,
+      "sources": [
+        "manual",
+        "separable-allowlist"
+      ],
+      "dwdsVerified": false
+    },
+    {
+      "lemma": "hinterfragen",
+      "pos": "Verb",
+      "gender": null,
+      "separable": false,
+      "topic": "Digitalisierung und Gesellschaft",
+      "domain": "Digitalisierung",
+      "example": "Nutzer sollten algorithmische Empfehlungen kritisch hinterfragen, statt sie blind zu teilen.",
+      "overlapB1": false,
+      "sources": [
+        "manual",
+        "pool-b2"
+      ],
+      "dwdsVerified": false
+    },
+    {
+      "lemma": "klimaschutz",
+      "pos": "Substantiv",
+      "gender": "m",
+      "separable": false,
+      "topic": "Klimawandel und Politik",
+      "domain": "Klima",
+      "example": "Im Koalitionsvertrag werden höhere Investitionen in den Klimaschutz verankert.",
+      "overlapB1": false,
+      "sources": [
+        "manual",
+        "freq-band"
+      ],
+      "dwdsVerified": false
+    },
+    {
+      "lemma": "treibhausgas",
+      "pos": "Substantiv",
+      "gender": "n",
+      "separable": false,
+      "topic": "Klimawandel und Politik",
+      "domain": "Klima",
+      "example": "Der Ausstoß von Treibhausgasen muss bis 2030 deutlich sinken.",
+      "overlapB1": false,
+      "sources": [
+        "manual"
+      ],
+      "dwdsVerified": false
+    },
+    {
+      "lemma": "nachhaltigkeitsbericht",
+      "pos": "Substantiv",
+      "gender": "m",
+      "separable": false,
+      "topic": "Klimawandel und Politik",
+      "domain": "Klima",
+      "example": "Im Nachhaltigkeitsbericht erläutert die Firma ihre CO₂-Ziele und Maßnahmen.",
+      "overlapB1": false,
+      "sources": [
+        "manual",
+        "cefr-seed"
+      ],
+      "dwdsVerified": false
+    },
+    {
+      "lemma": "kohleausstieg",
+      "pos": "Substantiv",
+      "gender": "m",
+      "separable": false,
+      "topic": "Klimawandel und Politik",
+      "domain": "Klima",
+      "example": "Der Kohleausstieg wird strukturschwache Regionen finanziell besonders fordern.",
+      "overlapB1": false,
+      "sources": [
+        "manual"
+      ],
+      "dwdsVerified": false
+    },
+    {
+      "lemma": "biodiversität",
+      "pos": "Substantiv",
+      "gender": "f",
+      "separable": false,
+      "topic": "Klimawandel und Politik",
+      "domain": "Klima",
+      "example": "Der Verlust an Biodiversität gefährdet ganze Ökosysteme und Ernteerträge.",
+      "overlapB1": false,
+      "sources": [
+        "manual"
+      ],
+      "dwdsVerified": false
+    },
+    {
+      "lemma": "energiewende",
+      "pos": "Substantiv",
+      "gender": "f",
+      "separable": false,
+      "topic": "Klimawandel und Politik",
+      "domain": "Klima",
+      "example": "Die Energiewende erfordert Ausbau, Speicher und intelligente Netze.",
+      "overlapB1": false,
+      "sources": [
+        "manual",
+        "freq-band"
+      ],
+      "dwdsVerified": false
+    },
+    {
+      "lemma": "recyclingquote",
+      "pos": "Substantiv",
+      "gender": "f",
+      "separable": false,
+      "topic": "Klimawandel und Politik",
+      "domain": "Klima",
+      "example": "Die Recyclingquote für Verpackungen soll bis 2028 spürbar steigen.",
+      "overlapB1": false,
+      "sources": [
+        "manual"
+      ],
+      "dwdsVerified": false
+    },
+    {
+      "lemma": "klimakrise",
+      "pos": "Substantiv",
+      "gender": "f",
+      "separable": false,
+      "topic": "Klimawandel und Politik",
+      "domain": "Klima",
+      "example": "Die Klimakrise verschärft Dürren und macht Stadtplanung komplexer.",
+      "overlapB1": false,
+      "sources": [
+        "manual"
+      ],
+      "dwdsVerified": false
+    },
+    {
+      "lemma": "klimaneutral",
+      "pos": "Adjektiv",
+      "gender": null,
+      "separable": false,
+      "topic": "Klimawandel und Politik",
+      "domain": "Klima",
+      "example": "Bis 2045 will die Bundesregierung den Energiesektor klimaneutral gestalten.",
+      "overlapB1": false,
+      "sources": [
+        "manual"
+      ],
+      "dwdsVerified": false
+    },
+    {
+      "lemma": "umweltverträglich",
+      "pos": "Adjektiv",
+      "gender": null,
+      "separable": false,
+      "topic": "Klimawandel und Politik",
+      "domain": "Klima",
+      "example": "Nur umweltverträgliche Projekte erhalten Fördermittel aus dem neuen Programm.",
+      "overlapB1": false,
+      "sources": [
+        "manual"
+      ],
+      "dwdsVerified": false
+    },
+    {
+      "lemma": "einsparen",
+      "pos": "Verb",
+      "gender": null,
+      "separable": true,
+      "topic": "Klimawandel und Politik",
+      "domain": "Klima",
+      "example": "Haushalte können durch Dämmung langfristig viel Heizenergie einsparen.",
+      "overlapB1": false,
+      "sources": [
+        "manual",
+        "separable-allowlist"
+      ],
+      "dwdsVerified": false
+    },
+    {
+      "lemma": "erneuerbar",
+      "pos": "Adjektiv",
+      "gender": null,
+      "separable": false,
+      "topic": "Klimawandel und Politik",
+      "domain": "Klima",
+      "example": "Erneuerbare Energien decken in manchen Regionen bereits über die Hälfte des Bedarfs.",
+      "overlapB1": false,
+      "sources": [
+        "manual"
+      ],
+      "dwdsVerified": false
+    },
+    {
+      "lemma": "evaluieren",
+      "pos": "Verb",
+      "gender": null,
+      "separable": false,
+      "topic": "Wissenschaft und Innovation",
+      "domain": "Wissenschaft",
+      "example": "Forschende evaluieren die Methode anhand reproduzierbarer Experimente und transparenter Kriterien.",
+      "overlapB1": false,
+      "sources": [
+        "cefr-seed",
+        "manual"
+      ],
+      "dwdsVerified": false
+    },
+    {
+      "lemma": "statistik",
+      "pos": "Substantiv",
+      "gender": "f",
+      "separable": false,
+      "topic": "Wissenschaft und Innovation",
+      "domain": "Wissenschaft",
+      "example": "Die Statistik zeigt einen signifikanten Zusammenhang zwischen Variablen.",
+      "overlapB1": false,
+      "sources": [
+        "cefr-seed",
+        "manual"
+      ],
+      "dwdsVerified": false
+    },
+    {
+      "lemma": "forschungsprojekt",
+      "pos": "Substantiv",
+      "gender": "n",
+      "separable": false,
+      "topic": "Wissenschaft und Innovation",
+      "domain": "Wissenschaft",
+      "example": "Das Forschungsprojekt wird von einer unabhängigen Ethikkommission begleitet.",
+      "overlapB1": false,
+      "sources": [
+        "manual"
+      ],
+      "dwdsVerified": false
+    },
+    {
+      "lemma": "methodik",
+      "pos": "Substantiv",
+      "gender": "f",
+      "separable": false,
+      "topic": "Wissenschaft und Innovation",
+      "domain": "Wissenschaft",
+      "example": "In der Methodik werden Stichprobe, Messung und Auswertung präzise beschrieben.",
+      "overlapB1": false,
+      "sources": [
+        "manual"
+      ],
+      "dwdsVerified": false
+    },
+    {
+      "lemma": "experiment",
+      "pos": "Substantiv",
+      "gender": "n",
+      "separable": false,
+      "topic": "Wissenschaft und Innovation",
+      "domain": "Wissenschaft",
+      "example": "Das Experiment lieferte überraschende Ergebnisse und neue Hypothesen.",
+      "overlapB1": false,
+      "sources": [
+        "manual",
+        "freq-band"
+      ],
+      "dwdsVerified": false
+    },
+    {
+      "lemma": "theorie",
+      "pos": "Substantiv",
+      "gender": "f",
+      "separable": false,
+      "topic": "Wissenschaft und Innovation",
+      "domain": "Wissenschaft",
+      "example": "Die Theorie erklärt beobachtete Muster, bleibt aber bislang umstritten.",
+      "overlapB1": false,
+      "sources": [
+        "manual",
+        "freq-band"
+      ],
+      "dwdsVerified": false
+    },
+    {
+      "lemma": "evidenz",
+      "pos": "Substantiv",
+      "gender": "f",
+      "separable": false,
+      "topic": "Wissenschaft und Innovation",
+      "domain": "Wissenschaft",
+      "example": "Politik sollte Entscheidungen stärker an wissenschaftlicher Evidenz ausrichten.",
+      "overlapB1": false,
+      "sources": [
+        "manual"
+      ],
+      "dwdsVerified": false
+    },
+    {
+      "lemma": "wissenschaftler",
+      "pos": "Substantiv",
+      "gender": "m",
+      "separable": false,
+      "topic": "Wissenschaft und Innovation",
+      "domain": "Wissenschaft",
+      "example": "Der Wissenschaftler veröffentlichte die Daten offen, um Replikation zu ermöglichen.",
+      "overlapB1": false,
+      "sources": [
+        "manual"
+      ],
+      "dwdsVerified": false
+    },
+    {
+      "lemma": "studienbericht",
+      "pos": "Substantiv",
+      "gender": "m",
+      "separable": false,
+      "topic": "Wissenschaft und Innovation",
+      "domain": "Wissenschaft",
+      "example": "Der Studienbericht fasst Ergebnisse verständlich für die Öffentlichkeit zusammen.",
+      "overlapB1": false,
+      "sources": [
+        "manual",
+        "pool-b2"
+      ],
+      "dwdsVerified": false
+    },
+    {
+      "lemma": "validieren",
+      "pos": "Verb",
+      "gender": null,
+      "separable": false,
+      "topic": "Wissenschaft und Innovation",
+      "domain": "Wissenschaft",
+      "example": "Externe Labore müssen die Messwerte vor Veröffentlichung unabhängig validieren.",
+      "overlapB1": false,
+      "sources": [
+        "manual"
+      ],
+      "dwdsVerified": false
+    },
+    {
+      "lemma": "replizieren",
+      "pos": "Verb",
+      "gender": null,
+      "separable": false,
+      "topic": "Wissenschaft und Innovation",
+      "domain": "Wissenschaft",
+      "example": "Andere Teams konnten den Versuch in drei Ländern erfolgreich replizieren.",
+      "overlapB1": false,
+      "sources": [
+        "manual"
+      ],
+      "dwdsVerified": false
+    },
+    {
+      "lemma": "analysieren",
+      "pos": "Verb",
+      "gender": null,
+      "separable": false,
+      "topic": "Wissenschaft und Innovation",
+      "domain": "Wissenschaft",
+      "example": "Die Forscherin analysiert Proben mit Verfahren hoher Genauigkeit.",
+      "overlapB1": false,
+      "sources": [
+        "manual",
+        "freq-band"
+      ],
+      "dwdsVerified": false
+    },
+    {
+      "lemma": "kulturpolitik",
+      "pos": "Substantiv",
+      "gender": "f",
+      "separable": false,
+      "topic": "Kunst und Kultur",
+      "domain": "Kultur",
+      "example": "Die Kulturpolitik des Landes fördert freie Ensembles und junge Autorinnen.",
+      "overlapB1": false,
+      "sources": [
+        "manual"
+      ],
+      "dwdsVerified": false
+    },
+    {
+      "lemma": "ausstellung",
+      "pos": "Substantiv",
+      "gender": "f",
+      "separable": false,
+      "topic": "Kunst und Kultur",
+      "domain": "Kultur",
+      "example": "Die Ausstellung verbindet zeitgenössische Kunst mit historischen Dokumenten.",
+      "overlapB1": false,
+      "sources": [
+        "manual",
+        "freq-band"
+      ],
+      "dwdsVerified": false
+    },
+    {
+      "lemma": "künstlerisch",
+      "pos": "Adjektiv",
+      "gender": null,
+      "separable": false,
+      "topic": "Kunst und Kultur",
+      "domain": "Kultur",
+      "example": "Das künstlerische Konzept greift Migration und Erinnerungskultur auf.",
+      "overlapB1": false,
+      "sources": [
+        "manual"
+      ],
+      "dwdsVerified": false
+    },
+    {
+      "lemma": "interpretieren",
+      "pos": "Verb",
+      "gender": null,
+      "separable": false,
+      "topic": "Kunst und Kultur",
+      "domain": "Kultur",
+      "example": "Kritiker interpretieren das Werk unterschiedlich, je nach biografischem Kontext.",
+      "overlapB1": false,
+      "sources": [
+        "manual",
+        "freq-band"
+      ],
+      "dwdsVerified": false
+    },
+    {
+      "lemma": "literaturpreis",
+      "pos": "Substantiv",
+      "gender": "m",
+      "separable": false,
+      "topic": "Kunst und Kultur",
+      "domain": "Kultur",
+      "example": "Der Literaturpreis ehrt Autoren, die gesellschaftliche Debatten anstoßen.",
+      "overlapB1": false,
+      "sources": [
+        "manual"
+      ],
+      "dwdsVerified": false
+    },
+    {
+      "lemma": "kulturvermittlung",
+      "pos": "Substantiv",
+      "gender": "f",
+      "separable": false,
+      "topic": "Kunst und Kultur",
+      "domain": "Kultur",
+      "example": "Kulturvermittlung macht Museen für Schulklassen und Familien zugänglicher.",
+      "overlapB1": false,
+      "sources": [
+        "manual"
+      ],
+      "dwdsVerified": false
+    },
+    {
+      "lemma": "ensemble",
+      "pos": "Substantiv",
+      "gender": "n",
+      "separable": false,
+      "topic": "Kunst und Kultur",
+      "domain": "Kultur",
+      "example": "Das Ensemble probt ein neues Stück mit Livemusik und Videoprojektion.",
+      "overlapB1": false,
+      "sources": [
+        "manual"
+      ],
+      "dwdsVerified": false
+    },
+    {
+      "lemma": "premiere",
+      "pos": "Substantiv",
+      "gender": "f",
+      "separable": false,
+      "topic": "Kunst und Kultur",
+      "domain": "Kultur",
+      "example": "Bei der Premiere reagierte das Publikum mit lang anhaltendem Applaus.",
+      "overlapB1": false,
+      "sources": [
+        "manual"
+      ],
+      "dwdsVerified": false
+    },
+    {
+      "lemma": "rezension",
+      "pos": "Substantiv",
+      "gender": "f",
+      "separable": false,
+      "topic": "Kunst und Kultur",
+      "domain": "Kultur",
+      "example": "Die Rezension lobt die Inszenierung, kritisiert jedoch das Libretto.",
+      "overlapB1": false,
+      "sources": [
+        "manual"
+      ],
+      "dwdsVerified": false
+    },
+    {
+      "lemma": "kurator",
+      "pos": "Substantiv",
+      "gender": "m",
+      "separable": false,
+      "topic": "Kunst und Kultur",
+      "domain": "Kultur",
+      "example": "Der Kurator wählte Werke aus, die postkoloniale Perspektiven eröffnen.",
+      "overlapB1": false,
+      "sources": [
+        "manual"
+      ],
+      "dwdsVerified": false
+    },
+    {
+      "lemma": "kulturerbe",
+      "pos": "Substantiv",
+      "gender": "n",
+      "separable": false,
+      "topic": "Kunst und Kultur",
+      "domain": "Kultur",
+      "example": "Digitalisierung hilft, bedrohtes Kulturerbe zu sichern und breiter zugänglich zu machen.",
+      "overlapB1": false,
+      "sources": [
+        "manual"
+      ],
+      "dwdsVerified": false
+    },
+    {
+      "lemma": "aufführung",
+      "pos": "Substantiv",
+      "gender": "f",
+      "separable": false,
+      "topic": "Kunst und Kultur",
+      "domain": "Kultur",
+      "example": "Die Aufführung im Freien zog trotz Regen ein großes Publikum an.",
+      "overlapB1": false,
+      "sources": [
+        "manual"
+      ],
+      "dwdsVerified": false
+    },
+    {
+      "lemma": "migrationshintergrund",
+      "pos": "Substantiv",
+      "gender": "m",
+      "separable": false,
+      "topic": "Migration und Integration",
+      "domain": "Migration",
+      "example": "Personen mit Migrationshintergrund sind im öffentlichen Dienst unterrepräsentiert.",
+      "overlapB1": false,
+      "sources": [
+        "manual"
+      ],
+      "dwdsVerified": false
+    },
+    {
+      "lemma": "integration",
+      "pos": "Substantiv",
+      "gender": "f",
+      "separable": false,
+      "topic": "Migration und Integration",
+      "domain": "Migration",
+      "example": "Gelingende Integration braucht Sprachkurse, Wohnraum und Anerkennung von Abschlüssen.",
+      "overlapB1": false,
+      "sources": [
+        "cefr-seed",
+        "manual"
+      ],
+      "dwdsVerified": false
+    },
+    {
+      "lemma": "einwanderung",
+      "pos": "Substantiv",
+      "gender": "f",
+      "separable": false,
+      "topic": "Migration und Integration",
+      "domain": "Migration",
+      "example": "Die Einwanderung qualifizierter Fachkräfte entlastet den Arbeitsmarkt regional.",
+      "overlapB1": false,
+      "sources": [
+        "manual"
+      ],
+      "dwdsVerified": false
+    },
+    {
+      "lemma": "aufenthaltsgenehmigung",
+      "pos": "Substantiv",
+      "gender": "f",
+      "separable": false,
+      "topic": "Migration und Integration",
+      "domain": "Migration",
+      "example": "Ohne gültige Aufenthaltsgenehmigung darf er die Weiterbildung nicht beginnen.",
+      "overlapB1": false,
+      "sources": [
+        "manual"
+      ],
+      "dwdsVerified": false
+    },
+    {
+      "lemma": "zuwanderung",
+      "pos": "Substantiv",
+      "gender": "f",
+      "separable": false,
+      "topic": "Migration und Integration",
+      "domain": "Migration",
+      "example": "Die Zuwanderung verändert demografische Strukturen in ländlichen Kommunen.",
+      "overlapB1": false,
+      "sources": [
+        "manual"
+      ],
+      "dwdsVerified": false
+    },
+    {
+      "lemma": "interkulturell",
+      "pos": "Adjektiv",
+      "gender": null,
+      "separable": false,
+      "topic": "Migration und Integration",
+      "domain": "Migration",
+      "example": "Interkulturelle Trainings sollen Vorurteile abbauen und Teamarbeit stärken.",
+      "overlapB1": false,
+      "sources": [
+        "manual"
+      ],
+      "dwdsVerified": false
+    },
+    {
+      "lemma": "anerkennung",
+      "pos": "Substantiv",
+      "gender": "f",
+      "separable": false,
+      "topic": "Migration und Integration",
+      "domain": "Migration",
+      "example": "Die Anerkennung ausländischer Abschlüsse dauert oft mehrere Monate.",
+      "overlapB1": false,
+      "sources": [
+        "manual",
+        "freq-band"
+      ],
+      "dwdsVerified": false
+    },
+    {
+      "lemma": "asylverfahren",
+      "pos": "Substantiv",
+      "gender": "n",
+      "separable": false,
+      "topic": "Migration und Integration",
+      "domain": "Migration",
+      "example": "Das Asylverfahren muss rechtsstaatlich und transparent durchgeführt werden.",
+      "overlapB1": false,
+      "sources": [
+        "manual"
+      ],
+      "dwdsVerified": false
+    },
+    {
+      "lemma": "einbürgerung",
+      "pos": "Substantiv",
+      "gender": "f",
+      "separable": false,
+      "topic": "Migration und Integration",
+      "domain": "Migration",
+      "example": "Für die Einbürgerung sind Sprachkenntnisse und ein Einbürgerungstest vorgesehen.",
+      "overlapB1": false,
+      "sources": [
+        "manual"
+      ],
+      "dwdsVerified": false
+    },
+    {
+      "lemma": "willkommenskultur",
+      "pos": "Substantiv",
+      "gender": "f",
+      "separable": false,
+      "topic": "Migration und Integration",
+      "domain": "Migration",
+      "example": "Eine echte Willkommenskultur zeigt sich in Schulen, Vereinen und Behörden.",
+      "overlapB1": false,
+      "sources": [
+        "manual"
+      ],
+      "dwdsVerified": false
+    },
+    {
+      "lemma": "einreichen",
+      "pos": "Verb",
+      "gender": null,
+      "separable": true,
+      "topic": "Migration und Integration",
+      "domain": "Migration",
+      "example": "Bewerber müssen alle Unterlagen digital bis Freitag einreichen.",
+      "overlapB1": false,
+      "sources": [
+        "manual",
+        "separable-allowlist"
+      ],
+      "dwdsVerified": false
+    },
+    {
+      "lemma": "zusammenhalt",
+      "pos": "Substantiv",
+      "gender": "m",
+      "separable": false,
+      "topic": "Migration und Integration",
+      "domain": "Migration",
+      "example": "Gesellschaftlicher Zusammenhalt wächst, wenn Teilhabe für alle möglich ist.",
+      "overlapB1": false,
+      "sources": [
+        "manual"
+      ],
+      "dwdsVerified": false
+    },
+    {
+      "lemma": "wettbewerbsfähigkeit",
+      "pos": "Substantiv",
+      "gender": "f",
+      "separable": false,
+      "topic": "Wirtschaft und Globalisierung",
+      "domain": "Wirtschaft",
+      "example": "Langfristig stärken Innovationen die Wettbewerbsfähigkeit exportorientierter Industriezweige im Inland.",
+      "overlapB1": false,
+      "sources": [
+        "manual",
+        "pool-b2"
+      ],
+      "dwdsVerified": false
+    },
+    {
+      "lemma": "investition",
+      "pos": "Substantiv",
+      "gender": "f",
+      "separable": false,
+      "topic": "Wirtschaft und Globalisierung",
+      "domain": "Wirtschaft",
+      "example": "Die Investition in erneuerbare Energien sichert langfristig Arbeitsplätze.",
+      "overlapB1": false,
+      "sources": [
+        "manual",
+        "freq-band"
+      ],
+      "dwdsVerified": false
+    },
+    {
+      "lemma": "subvention",
+      "pos": "Substantiv",
+      "gender": "f",
+      "separable": false,
+      "topic": "Wirtschaft und Globalisierung",
+      "domain": "Wirtschaft",
+      "example": "Eine neue Subvention soll kleine Betriebe bei der Digitalisierung entlasten.",
+      "overlapB1": false,
+      "sources": [
+        "manual"
+      ],
+      "dwdsVerified": false
+    },
+    {
+      "lemma": "inflation",
+      "pos": "Substantiv",
+      "gender": "f",
+      "separable": false,
+      "topic": "Wirtschaft und Globalisierung",
+      "domain": "Wirtschaft",
+      "example": "Steigende Inflation belastet Haushalte mit geringem Einkommen besonders.",
+      "overlapB1": false,
+      "sources": [
+        "manual",
+        "freq-band"
+      ],
+      "dwdsVerified": false
+    },
+    {
+      "lemma": "konjunktur",
+      "pos": "Substantiv",
+      "gender": "f",
+      "separable": false,
+      "topic": "Wirtschaft und Globalisierung",
+      "domain": "Wirtschaft",
+      "example": "Schwache Konjunktur führt zu Zurückhaltung bei Investitionen und Einstellungen.",
+      "overlapB1": false,
+      "sources": [
+        "manual"
+      ],
+      "dwdsVerified": false
+    },
+    {
+      "lemma": "exportquote",
+      "pos": "Substantiv",
+      "gender": "f",
+      "separable": false,
+      "topic": "Wirtschaft und Globalisierung",
+      "domain": "Wirtschaft",
+      "example": "Die Exportquote der Region stieg trotz globaler Lieferengpässe leicht.",
+      "overlapB1": false,
+      "sources": [
+        "manual"
+      ],
+      "dwdsVerified": false
+    },
+    {
+      "lemma": "marktanteil",
+      "pos": "Substantiv",
+      "gender": "m",
+      "separable": false,
+      "topic": "Wirtschaft und Globalisierung",
+      "domain": "Wirtschaft",
+      "example": "Mit dem neuen Produkt konnte der Konzern seinen Marktanteil vergrößern.",
+      "overlapB1": false,
+      "sources": [
+        "manual",
+        "freq-band"
+      ],
+      "dwdsVerified": false
+    },
+    {
+      "lemma": "privatisierung",
+      "pos": "Substantiv",
+      "gender": "f",
+      "separable": false,
+      "topic": "Wirtschaft und Globalisierung",
+      "domain": "Wirtschaft",
+      "example": "Die Privatisierung der Bahnhöfe bleibt in der Öffentlichkeit umstritten.",
+      "overlapB1": false,
+      "sources": [
+        "manual"
+      ],
+      "dwdsVerified": false
+    },
+    {
+      "lemma": "lieferkette",
+      "pos": "Substantiv",
+      "gender": "f",
+      "separable": false,
+      "topic": "Wirtschaft und Globalisierung",
+      "domain": "Wirtschaft",
+      "example": "Störungen in der Lieferkette führten zu Verzögerungen in der Produktion.",
+      "overlapB1": false,
+      "sources": [
+        "manual"
+      ],
+      "dwdsVerified": false
+    },
+    {
+      "lemma": "wirtschaftswachstum",
+      "pos": "Substantiv",
+      "gender": "n",
+      "separable": false,
+      "topic": "Wirtschaft und Globalisierung",
+      "domain": "Wirtschaft",
+      "example": "Moderates Wirtschaftswachstum reicht nicht, um alle Klimaziele zu finanzieren.",
+      "overlapB1": false,
+      "sources": [
+        "manual"
+      ],
+      "dwdsVerified": false
+    },
+    {
+      "lemma": "strategie",
+      "pos": "Substantiv",
+      "gender": "f",
+      "separable": false,
+      "topic": "Wirtschaft und Globalisierung",
+      "domain": "Wirtschaft",
+      "example": "Die Strategie des Unternehmens setzt auf Qualität statt auf Billigpreise.",
+      "overlapB1": false,
+      "sources": [
+        "cefr-seed",
+        "manual"
+      ],
+      "dwdsVerified": false
+    },
+    {
+      "lemma": "übernehmen",
+      "pos": "Verb",
+      "gender": null,
+      "separable": false,
+      "topic": "Wirtschaft und Globalisierung",
+      "domain": "Wirtschaft",
+      "example": "Die Tochtergesellschaft wird nächstes Jahr mehr Verantwortung übernehmen.",
+      "overlapB1": false,
+      "sources": [
+        "manual",
+        "cefr-seed"
+      ],
+      "dwdsVerified": false
+    }
+  ],
+  "lemmas": [
+    "algorithmus",
+    "desinformation",
+    "filterblase",
+    "medienkompetenz",
+    "plattform",
+    "cyberangriff",
+    "implementieren",
+    "digitalisieren",
+    "automatisieren",
+    "einschalten",
+    "ausschalten",
+    "hinterfragen",
+    "klimaschutz",
+    "treibhausgas",
+    "nachhaltigkeitsbericht",
+    "kohleausstieg",
+    "biodiversität",
+    "energiewende",
+    "recyclingquote",
+    "klimakrise",
+    "klimaneutral",
+    "umweltverträglich",
+    "einsparen",
+    "erneuerbar",
+    "evaluieren",
+    "statistik",
+    "forschungsprojekt",
+    "methodik",
+    "experiment",
+    "theorie",
+    "evidenz",
+    "wissenschaftler",
+    "studienbericht",
+    "validieren",
+    "replizieren",
+    "analysieren",
+    "kulturpolitik",
+    "ausstellung",
+    "künstlerisch",
+    "interpretieren",
+    "literaturpreis",
+    "kulturvermittlung",
+    "ensemble",
+    "premiere",
+    "rezension",
+    "kurator",
+    "kulturerbe",
+    "aufführung",
+    "migrationshintergrund",
+    "integration",
+    "einwanderung",
+    "aufenthaltsgenehmigung",
+    "zuwanderung",
+    "interkulturell",
+    "anerkennung",
+    "asylverfahren",
+    "einbürgerung",
+    "willkommenskultur",
+    "einreichen",
+    "zusammenhalt",
+    "wettbewerbsfähigkeit",
+    "investition",
+    "subvention",
+    "inflation",
+    "konjunktur",
+    "exportquote",
+    "marktanteil",
+    "privatisierung",
+    "lieferkette",
+    "wirtschaftswachstum",
+    "strategie",
+    "übernehmen"
+  ]
+}

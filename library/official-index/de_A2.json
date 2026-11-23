@@ -1,0 +1,129 @@
+{
+  "indexVersion": "v1",
+  "builtAt": "2026-08-23T06:37:07.911Z",
+  "lang": "de",
+  "level": "A2",
+  "catalogVersion": "2026-07-22T13:30:16.513Z",
+  "liveExamCount": 1,
+  "reservedPartIds": [
+    "horen-t1-cur-education",
+    "horen-t2-cur-society",
+    "horen-t3-cur-education",
+    "horen-t4-cur-education",
+    "lesen-t1-cur-education",
+    "lesen-t2-cur-work",
+    "lesen-t3-cur-health",
+    "lesen-t4-cur-education",
+    "schreiben-cur-education-t1",
+    "schreiben-cur-education-t2",
+    "sprechen-cur-education-t1",
+    "sprechen-cur-education-t2",
+    "sprechen-cur-education-t3"
+  ],
+  "byPartId": {
+    "lesen-t1-cur-education": {
+      "exams": [
+        "official-de-A2-e1"
+      ],
+      "cells": [
+        "lesen_1"
+      ]
+    },
+    "lesen-t2-cur-work": {
+      "exams": [
+        "official-de-A2-e1"
+      ],
+      "cells": [
+        "lesen_2"
+      ]
+    },
+    "lesen-t3-cur-health": {
+      "exams": [
+        "official-de-A2-e1"
+      ],
+      "cells": [
+        "lesen_3"
+      ]
+    },
+    "lesen-t4-cur-education": {
+      "exams": [
+        "official-de-A2-e1"
+      ],
+      "cells": [
+        "lesen_4"
+      ]
+    },
+    "horen-t1-cur-education": {
+      "exams": [
+        "official-de-A2-e1"
+      ],
+      "cells": [
+        "horen_1"
+      ]
+    },
+    "horen-t2-cur-society": {
+      "exams": [
+        "official-de-A2-e1"
+      ],
+      "cells": [
+        "horen_2"
+      ]
+    },
+    "horen-t3-cur-education": {
+      "exams": [
+        "official-de-A2-e1"
+      ],
+      "cells": [
+        "horen_3"
+      ]
+    },
+    "horen-t4-cur-education": {
+      "exams": [
+        "official-de-A2-e1"
+      ],
+      "cells": [
+        "horen_4"
+      ]
+    },
+    "schreiben-cur-education-t1": {
+      "exams": [
+        "official-de-A2-e1"
+      ],
+      "cells": [
+        "schreiben_1"
+      ]
+    },
+    "schreiben-cur-education-t2": {
+      "exams": [
+        "official-de-A2-e1"
+      ],
+      "cells": [
+        "schreiben_2"
+      ]
+    },
+    "sprechen-cur-education-t1": {
+      "exams": [
+        "official-de-A2-e1"
+      ],
+      "cells": [
+        "sprechen_1"
+      ]
+    },
+    "sprechen-cur-education-t2": {
+      "exams": [
+        "official-de-A2-e1"
+      ],
+      "cells": [
+        "sprechen_2"
+      ]
+    },
+    "sprechen-cur-education-t3": {
+      "exams": [
+        "official-de-A2-e1"
+      ],
+      "cells": [
+        "sprechen_3"
+      ]
+    }
+  }
+}

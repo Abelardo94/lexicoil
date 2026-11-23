@@ -1,0 +1,16 @@
+{
+  "schema": "published-catalog/v1",
+  "version": "2026-07-27T16:40:54.922Z",
+  "lang": "de",
+  "level": "B2",
+  "exams": [
+    {
+      "examId": "official-de-B2-e1",
+      "slot": 1,
+      "title": "Official B2 Exam 1",
+      "status": "live",
+      "manifestVersion": 1,
+      "publishedAt": "2026-07-27T16:40:54.788Z"
+    }
+  ]
+}

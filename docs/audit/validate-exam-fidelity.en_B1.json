@@ -328,12 +328,120 @@
           "issues": []
         }
       ]
+    },
+    {
+      "examLabel": "data/exams/en_B1.json :: official-en-B1-f946fa2f9efe",
+      "id": "official-en-B1-f946fa2f9efe",
+      "topic": "school_life",
+      "ok": true,
+      "errorCount": 0,
+      "warningCount": 0,
+      "errors": [],
+      "warnings": [],
+      "details": [
+        {
+          "module": "lesen",
+          "teil": 1,
+          "slotType": "signs_notices_mcq",
+          "issues": []
+        },
+        {
+          "module": "lesen",
+          "teil": 2,
+          "slotType": "person_text_matching",
+          "issues": []
+        },
+        {
+          "module": "lesen",
+          "teil": 3,
+          "slotType": "long_text",
+          "issues": []
+        },
+        {
+          "module": "lesen",
+          "teil": 4,
+          "slotType": "gapped_text",
+          "issues": []
+        },
+        {
+          "module": "lesen",
+          "teil": 5,
+          "slotType": "mcq_gap_fill",
+          "issues": []
+        },
+        {
+          "module": "lesen",
+          "teil": 6,
+          "slotType": "open_cloze",
+          "issues": []
+        },
+        {
+          "module": "horen",
+          "teil": 1,
+          "slotType": "picture_mcq",
+          "issues": []
+        },
+        {
+          "module": "horen",
+          "teil": 2,
+          "slotType": "short_dialogue_mcq",
+          "issues": []
+        },
+        {
+          "module": "horen",
+          "teil": 3,
+          "slotType": "sentence_completion",
+          "issues": []
+        },
+        {
+          "module": "horen",
+          "teil": 4,
+          "slotType": "interview_mcq",
+          "issues": []
+        },
+        {
+          "module": "schreiben",
+          "teil": 1,
+          "slotType": "email",
+          "issues": []
+        },
+        {
+          "module": "schreiben",
+          "teil": 2,
+          "slotType": "choice_writing",
+          "issues": []
+        },
+        {
+          "module": "sprechen",
+          "teil": 1,
+          "slotType": "speaking_task",
+          "issues": []
+        },
+        {
+          "module": "sprechen",
+          "teil": 2,
+          "slotType": "speaking_task",
+          "issues": []
+        },
+        {
+          "module": "sprechen",
+          "teil": 3,
+          "slotType": "speaking_task",
+          "issues": []
+        },
+        {
+          "module": "sprechen",
+          "teil": 4,
+          "slotType": "speaking_task",
+          "issues": []
+        }
+      ]
     }
   ],
   "passageDedupe": {
     "ok": true,
     "threshold": 0.85,
-    "passageCount": 75,
+    "passageCount": 107,
     "violations": []
   }
 }

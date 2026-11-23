@@ -1,0 +1,105 @@
+{
+  "actions": [
+    {
+      "exam": "gym",
+      "actions": [
+        "horen T3 → en-b1-p-horen-t3-gapfill-library-services-01-01 (6 items)",
+        "horen T4 → en-b1-h-t4-interview-young-chef-02-01 (6 items)"
+      ],
+      "fidelityOk": true
+    },
+    {
+      "exam": "travel",
+      "actions": [
+        "horen T3 → en-b1-p-horen-t3-gapfill-museum-talk-01-01 (6 items)",
+        "horen T4 → en-b1-p-horen-t4-interview-game-designer-01-01 (6 items)"
+      ],
+      "fidelityOk": false
+    },
+    {
+      "exam": "travel",
+      "actions": [
+        "horen T3 → en-b1-p-horen-t3-gapfill-museum-talk-02-01 (6 items)",
+        "horen T4 → en-b1-p-horen-t4-interview-travel-blogger-01-01 (6 items)"
+      ],
+      "fidelityOk": true
+    },
+    {
+      "exam": "school_life",
+      "actions": [
+        "horen T3 → en-b1-p-horen-t3-gapfill-school-trip-info-01-01 (6 items)",
+        "horen T4 → en-b1-p-horen-t4-interview-travel-blogger-02-01 (6 items)"
+      ],
+      "fidelityOk": true
+    }
+  ],
+  "unfilled": [
+    {
+      "exam": "gym",
+      "part": "lesen T3",
+      "reason": "no_unused_t3_set"
+    },
+    {
+      "exam": "gym",
+      "part": "lesen T4",
+      "reason": "no_unused_t4_set"
+    },
+    {
+      "exam": "gym",
+      "part": "horen T2",
+      "reason": "no_unused_horen_t2"
+    },
+    {
+      "exam": "travel",
+      "part": "lesen T3",
+      "reason": "no_unused_t3_set"
+    },
+    {
+      "exam": "travel",
+      "part": "lesen T4",
+      "reason": "no_unused_t4_set"
+    },
+    {
+      "exam": "travel",
+      "part": "horen T2",
+      "reason": "no_unused_horen_t2"
+    },
+    {
+      "exam": "travel",
+      "part": "exam",
+      "reason": "options_without_text:lesen:teil=4,id=16,options=8; options_without_text:lesen:teil=4,id=17,options=8; options_without_text:lesen:teil=4,id=18,options=8; options_without_text:lesen:teil=4,id=19,options=8; options_without_text:lesen:teil=4,id=20,options=8"
+    },
+    {
+      "exam": "travel",
+      "part": "lesen T3",
+      "reason": "no_unused_t3_set"
+    },
+    {
+      "exam": "travel",
+      "part": "lesen T4",
+      "reason": "no_unused_t4_set"
+    },
+    {
+      "exam": "travel",
+      "part": "horen T2",
+      "reason": "no_unused_horen_t2"
+    },
+    {
+      "exam": "school_life",
+      "part": "lesen T3",
+      "reason": "no_unused_t3_set"
+    },
+    {
+      "exam": "school_life",
+      "part": "lesen T4",
+      "reason": "no_unused_t4_set"
+    },
+    {
+      "exam": "school_life",
+      "part": "horen T2",
+      "reason": "no_unused_horen_t2"
+    }
+  ],
+  "before": 0,
+  "after": 0
+}
